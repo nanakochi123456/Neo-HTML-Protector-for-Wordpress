@@ -40,7 +40,7 @@ class neohp_jskeyblock {
 	    if(get_option('neohp_alert_d', '0') === '1')   { $html.="d";}
 		$home = home_url();
 	    ?>
-<script id='neohp'>var NeoHPHome="<?php echo $home ?>",NeoCopykeyAjax="<?php echo plugins_url('Neo-ajax-handler.php', __FILE__);?>",NeoCopykeyCk="<?php echo plugins_url('Neo-Ck.php', __FILE__);?>",NeoCopykeyFlg="<?php echo $html?>";</script>
+<script id='neohp'>var NeoHPHome="<?php echo $home ?>",NeoHPFlg="<?php echo $html?>";</script>
 		<?php
 	}
 

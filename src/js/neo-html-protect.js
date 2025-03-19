@@ -1,6 +1,7 @@
 (function($) {
 	var	kd='keydown',
-		NF=NeoCopykeyFlg,
+		FlagAll=NeoHPFlg,
+		FlagSmall=FlagAll.toLowerCase();
 		CT='Ctrl+',
 		SF='Shift+',
 		unixTime = Math.floor(Date.now() / 1000);
@@ -12,63 +13,63 @@
 			key = event.key;
 
 		// F12
-		if(NF.includes('f')) {
+		if(FlagSmall.includes('f')) {
 			if (key === 'F12') {
-				sendIpToServer('F12');
+				sendIpToServer('F12', 'F');
 				event.preventDefault();
 			}
 		}
 
 		// Ctrl+Shift+I
-		if(NF.includes('i')) {
+		if(FlagSmall.includes('i')) {
 			if (ctrl && shift && (key === 'I' || key === 'i')) {
-				sendIpToServer(CT+SF+'I');
+				sendIpToServer(CT+SF+'I', 'I');
 				event.preventDefault();
 			}
 		}
 
 		// Ctrl+Shift+J
-		if(NF.includes('j')) {
+		if(FlagSmall.includes('j')) {
 			if (ctrl && shift && (key === 'J' || key === 'j')) {
-				sendIpToServer(CT+SF+'J');
+				sendIpToServer(CT+SF+'J', 'J');
 				event.preventDefault();
 			}
 		}
 
 		// Ctrl+U
-		if(NF.includes('u')) {
+		if(FlagSmall.includes('u')) {
 			if (ctrl && (key === 'U' || key === 'u')) {
-				sendIpToServer(CT+'U');
+				sendIpToServer(CT+'U', 'U');
 				event.preventDefault();
 			}
 		}
 
 		// Ctrl+P
-		if(NF.includes('p')) {
+		if(FlagSmall.includes('p')) {
 			if (ctrl && (key === 'P' || key === 'p')) {
-				sendIpToServer(CT+'P');
+				sendIpToServer(CT+'P', 'P');
 				e.preventDefault();
 			}
 		}
 	});
 
 	// 右クリック
-	if(NF.includes('r')) {
+	if(FlagSmall.includes('r')) {
 		$(document).on('contextmenu', function(e) {
-			sendIpToServer('Right Click');
+			sendIpToServer('Right Click', 'R');
 			e.preventDefault();
 		});
 	}
 
 	// テキスト選択禁止のみ 通知なし
-	if(NF.includes('s')) {
+	if(FlagSmall.includes('s')) {
 		$(document).on('selectstart', function(e) {
 			e.preventDefault();
 		});
 	}
 
 	// デバッガ妨害
-	if(NF.includes('d')) {
+	if(FlagSmall.includes('d')) {
 		setInterval(function() {
 			console.clear();
 			debugger;
@@ -76,7 +77,7 @@
 	}
 
 	// IPアドレスをサーバーに送信
-	function sendIpToServer(Keys) {
+	function sendIpToServer(Keys, Flg) {
 		$.ajax({
 			url: NeoHPHome + "?neohp=ajax&amp;tm=" + unixTime,
 			type: 'POST',
@@ -87,8 +88,10 @@
 			},
 			success: function(response) {
 				// alertで表示後URL転送
-				alert(escapeHtml(response));
-				location.href = NeoHPHome + "?neohp=redirect&amp;tm=" + unixTime;
+				if(FlagAll.includes(Flg)) {
+					alert(escapeHtml(response));
+					location.href = NeoHPHome + "?neohp=redirect&amp;tm=" + unixTime;
+				}
 			}
 		});
 	}
