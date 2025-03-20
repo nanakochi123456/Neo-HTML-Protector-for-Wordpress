@@ -3,7 +3,7 @@
  * Plugin Name:	Neo HTML Protector
  * Plugin URI:	https://github.com/nanakochi123456/Neo-Webp-AVIF-Converter-for-Wordpress	
  * Description:	HTML Protect and Copyright Protect
- * Version:	0.0.5
+ * Version:	0.0.6
  * Requires at least: 6.0
  * Requires PHP: 8.1
  * Author: Nano Yozakura
@@ -15,7 +15,7 @@
 
 defined('ABSPATH') or die('Oh! No!');
 
-define( 'NEOHP_VERSION', '0.0.5' );
+define( 'NEOHP_VERSION', '0.0.6' );
 define( 'NEOHP_REQUIRED_WP_VERSION', '6.0' );
 define( 'NEOHP_PLUGIN', __FILE__ );
 define( 'NEOHP_PLUGIN_DIR', untrailingslashit( dirname( NEOHP_PLUGIN ) ) );
@@ -25,12 +25,23 @@ define( 'NEOHP_JS_URL', untrailingslashit( dirname( plugins_url('neo-html-protec
 define( 'NEOHP_CSS_URL', untrailingslashit( dirname( plugins_url('neo-html-protection.php', __FILE__) ) ) . '/css/' );
 define( 'NEOHP_DOMAIN', 'neo-html-protector');
 
-function neohp_plugin_load_textdomain() {
-    load_plugin_textdomain( NEOHP_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+$neohp = new neohp();
+
+class neohp {
+	public function __construct() {
+		add_action( 'plugins_loaded', array($this, 'neohp_plugin_load_textdomain' ) );
+		add_filter( 'plugin_action_links_' . plugin_basename(__FILE__) , array($this, 'neohp_setting_actions') );
+	}
+	public function neohp_plugin_load_textdomain() {
+	    load_plugin_textdomain( NEOHP_DOMAIN, false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	}
+
+	public function neohp_setting_actions( $actions ) {
+		$menu_settings_url	= '<a href="options-general.php?page=neohp-settings">' . __('設定', NEOHP_DOMAIN) . '</a>';
+		array_unshift( $actions , $menu_settings_url );
+		return $actions;
+	}
 }
-add_action( 'plugins_loaded', 'neohp_plugin_load_textdomain' );
-
-
 
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-htmlprotect.php';

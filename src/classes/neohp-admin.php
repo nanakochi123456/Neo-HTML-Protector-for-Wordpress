@@ -3,11 +3,14 @@
  * Neo HTML Protector admin
  */
 
-$neohp_admin = new neohp_admin();
+if (is_admin()) {
+	$neohp_admin = new neohp_admin();
+}
+
 class neohp_admin {
 	public function __construct() {
 		add_action('admin_menu', array($this, 'add_admin_menu'));
-		require_once NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+
 	}
 
 	protected function getselect($name, $selected, ...$options) {

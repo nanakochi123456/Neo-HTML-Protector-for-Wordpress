@@ -3,7 +3,10 @@
  * Neo HTML Protector admin IPログリーダー
  */
 
-$neohp_iplogreader = new neohp_iplogreader();
+if (is_admin()) {
+	$neohp_iplogreader = new neohp_iplogreader();
+}
+
 class neohp_iplogreader {
 	public function __construct() {
 		// IPリーダーのメニュー追加
