@@ -1,3 +1,7 @@
+/**
+ * Neo HTML Protector
+ */
+
 (function($) {
 	var	kd='keydown',
 		FlagAll=NeoHPFlg,

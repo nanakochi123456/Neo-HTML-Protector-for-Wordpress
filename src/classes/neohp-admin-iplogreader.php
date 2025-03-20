@@ -28,8 +28,8 @@ class neohp_iplogreader {
 	// IPログリーダーの設置
 	public function ip_log_reader_menu() {
 		add_menu_page(
-			_('IPログリーダー'),	// ページタイトル
-			_('IPログリーダー'),	// メニュータイトル
+			__('IPログリーダー', NEOHP_DOMAIN),	// ページタイトル
+			__('IPログリーダー', NEOHP_DOMAIN),	// メニュータイトル
 			'manage_options',		// 権限
 			'ip-log-reader',		// メニューのスラッグ
 			array($this, 'ip_log_reader_page'),  // 表示する関数
@@ -105,21 +105,21 @@ EOM;
 		// HTML
 		?>
 		<div class="wrap">
-		<h2><?php echo _('IPアドレスログ') ?></h2>
+		<h2><?php echo __('IPアドレスログ', NEOHP_DOMAIN) ?></h2>
 		<form method="post">
-		<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo _('全クリア') ?>" />
+		<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo __('全クリア', NEOHP_DOMAIN) ?>" />
 		</form>
 		<?php
 
 		// 「全クリア」ボタンが押された場合にログを削除
 		if ( isset($_POST['clear_logs']) ) {
 			$this->clear_ip_logs(); // ログを削除する関数を呼び出す
-			echo '<div class="updated"><p>' . _('IPログが全て削除されました') . '</p></div>';
+			echo '<div class="updated"><p>' . __('IPログが全て削除されました', NEOHP_DOMAIN) . '</p></div>';
 		} else if($results) {
 		// ログ表示部分
 			?>
 			<table class="wp-list-table widefat fixed striped">
-			<thead><tr><th><?php echo _('ID') ?></th><th><?php echo _('IPアドレス') ?></th><th><?php echo _('キーイベント') ?></th><th><?php echo _('URL') ?></th><th><?php echo _('日時') ?></th></tr></thead>
+			<thead><tr><th><?php echo __('ID', NEOHP_DOMAIN) ?></th><th><?php echo __('IPアドレス', NEOHP_DOMAIN) ?></th><th><?php echo __('キーイベント', NEOHP_DOMAIN) ?></th><th><?php echo __('URL', NEOHP_DOMAIN) ?></th><th><?php echo __('日時', NEOHP_DOMAIN) ?></th></tr></thead>
 			<tbody>
 			<?php
 
@@ -157,7 +157,7 @@ EOM;
 			}
 			echo '</div>';
 		} else {
-			echo '<p>' . _('IPアドレスのデータはありません') . '</p>';
+			echo '<p>' . __('IPアドレスのデータはありません', NEOHP_DOMAIN) . '</p>';
 		}
 	}
 

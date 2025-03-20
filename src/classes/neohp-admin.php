@@ -7,6 +7,7 @@ $neohp_admin = new neohp_admin();
 class neohp_admin {
 	public function __construct() {
 		add_action('admin_menu', array($this, 'add_admin_menu'));
+		require_once NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 	}
 
 	protected function getselect($name, $selected, ...$options) {
@@ -39,9 +40,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_debugmode_message');
 			add_settings_field(
 				'neohp_debugmode_message',
-				_('デバッグモード、コンソールの警告メッセージ'),
+				__('デバッグモード、コンソールの警告メッセージ', NEOHP_DOMAIN),
 				function() {
-					$value = esc_html(get_option('neohp_debugmode_message', NEOHP_DEBUGMODE_DEFAULT ));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_debugmode_message', $neohp_debugmode_default ));
 					echo '<input type="text" name="neohp_debugmode_message" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -52,9 +54,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_rightclick_message');
 			add_settings_field(
 				'neohp_rightclick_message',
-				_('右クリックの警告メッセージ'),
+				__('右クリックの警告メッセージ', NEOHP_DOMAIN),
 				function() {
-					$value = esc_html(get_option('neohp_rightclick_message', NEOHP_RIGHTCLICK_DEFAULT ));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_rightclick_message', $neohp_rightclick_default ));
 					echo '<input type="text" name="neohp_rightclick_message" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -65,9 +68,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_printout_message');
 			add_settings_field(
 				'neohp_printout_message',
-				_('印刷、PDF保存の警告メッセージ'),
+				__('印刷、PDF保存の警告メッセージ', NEOHP_DOMAIN),
 				function() {
-					$value = esc_html(get_option('neohp_printout_message', NEOHP_PRINTOUT_DEFAULT ));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_printout_message', $neohp_printout_default ));
 					echo '<input type="text" name="neohp_printout_message" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -78,9 +82,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_htmlsource_message');
 			add_settings_field(
 				'neohp_htmlsource_message',
-				_('HTMLソース表示時に表示するメッセージ'),
+				__('HTMLソース表示時に表示するメッセージ', NEOHP_DOMAIN),
 				function() {
-					$value = esc_html(get_option('neohp_htmlsource_message', NEOHP_HTMLSOURCE_DEFAULT ));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_htmlsource_message', $neohp_htmlsource_default ));
 					echo '<input type="text" name="neohp_htmlsource_message" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -91,9 +96,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_htmlprotect_message');
 			add_settings_field(
 				'neohp_htmlprotect_message',
-				_('HTML保護時にソースの先頭に表示するメッセージ'),
+				__('HTML保護時にソースの先頭に表示するメッセージ', NEOHP_DOMAIN),
 				function() {
-					$value = esc_html(get_option('neohp_htmlprotect_message', NEOHP_VIEWSOURCE_DEFAULT ));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ));
 					echo '<input type="text" name="neohp_htmlprotect_message" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -104,9 +110,10 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_redirect_url');
 			add_settings_field(
 				'neohp_redirect_url',
-				_('転送先URL'),
+				__('転送先URL', NEOHP_DOMAIN),
 				function() {
-					$value = esc_url(get_option('neohp_redirect_url', NEOHP_REDIRECT_DEFAULT));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
 					echo '<input type="url" name="neohp_redirect_url" value="' . $value . '" class="regular-text">';
 				},
 				'neohp-settings',
@@ -117,12 +124,12 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_htmlcompress');
 			add_settings_field(
 				'neohp_htmlcompress',
-				_('HTML難読化 (圧縮)'),
+				__('HTML難読化 (圧縮)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_htmlcompress', '1'));
 					echo $this->getselect("neohp_htmlcompress", $value
-						, '0=' . _('無効')
-						, '1=' . _('有効')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('有効', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -133,15 +140,15 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_htmlprotect');
 			add_settings_field(
 				'neohp_htmlprotect',
-				_('HTML保護'),
+				__('HTML保護', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_htmlprotect', '0'));
 					echo $this->getselect("neohp_htmlprotect", $value
-						, '0=' . _('無効')
-						, '1=' . _('有効')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('有効', NEOHP_DOMAIN)
 					);
 
-					echo _('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません');
+					echo __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', NEOHP_DOMAIN);
 				},
 				'neohp-settings',
 				'neohp_section'
@@ -151,13 +158,13 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_f12');
 			add_settings_field(
 				'neohp_alert_f12',
-				_('F12 (デバッグモード)'),
+				__('F12 (デバッグモード)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_f12', '2'));
 					echo $this->getselect("neohp_alert_f12", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -168,13 +175,13 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_i');
 			add_settings_field(
 				'neohp_alert_i',
-				_('Ctrl+Shift+I (デバッグモード)'),
+				__('Ctrl+Shift+I (デバッグモード)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_i', '2'));
 					echo $this->getselect("neohp_alert_i", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -185,13 +192,13 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_j');
 			add_settings_field(
 				'neohp_alert_j',
-				_('Ctrl+Shift+J (コンソール)'),
+				__('Ctrl+Shift+J (コンソール)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_j', '2'));
 					echo $this->getselect("neohp_alert_j", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -202,13 +209,13 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_u');
 			add_settings_field(
 				'neohp_alert_u',
-				_('Ctrl+U (HTMLソース表示)'),
+				__('Ctrl+U (HTMLソース表示)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_u', '2'));
 					echo $this->getselect("neohp_alert_u", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -219,15 +226,15 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_p');
 			add_settings_field(
 				'neohp_alert_p',
-				_('Ctrl+P (印刷)'),
+				__('Ctrl+P (印刷)', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_p', '1'));
 					echo $this->getselect("neohp_alert_p", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
-					echo _('印刷阻止をするもものの、ブラウザによってはうまく動作しません');
+					echo __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', NEOHP_DOMAIN);
 				},
 				'neohp-settings',
 				'neohp_section'
@@ -237,13 +244,13 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_r');
 			add_settings_field(
 				'neohp_alert_r',
-				_('右クリック'),
+				__('右クリック', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_r', '2'));
 					echo $this->getselect("neohp_alert_r", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
-						, '2=' . _('妨害＋記録＋表示＋リダイレクト')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -254,12 +261,12 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_s');
 			add_settings_field(
 				'neohp_alert_s',
-				_('テキスト選択'),
+				__('テキスト選択', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_s', '1'));
 					echo $this->getselect("neohp_alert_s", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害＋記録のみ')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -270,12 +277,12 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_alert_d');
 			add_settings_field(
 				'neohp_alert_d',
-				_('デバッガー妨害'),
+				__('デバッガー妨害', NEOHP_DOMAIN),
 				function() {
 					$value = esc_html(get_option('neohp_alert_d', '1'));
 					echo $this->getselect("neohp_alert_d", $value
-						, '0=' . _('無効')
-						, '1=' . _('妨害')
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害', NEOHP_DOMAIN)
 					);
 				},
 				'neohp-settings',
@@ -285,16 +292,16 @@ class neohp_admin {
 			// セクションの追加
 			add_settings_section(
 				'neohp_section',
-				'基本設定',
+				__('基本設定', NEOHP_DOMAIN),
 				function() {
 					echo 
-	  _('右クリックやソースコード表示時に転送する URL を設定します') . '<br><br>'
-	. _('警告メッセージにはHTMLは使用できません') . '<br><br>'
-	. _('以下の文字が使用できます')
-	. '<table><tr><td>\n</td><td>' . _('改行')
-	. '</td></tr><tr><td>$IP</td><td>' . _('IPアドレス')
-	. '</td></tr><tr><td>$URL</td><td>' . _('URL')
-	. '</td></tr><tr><td>$KEY</td><td>' . _('押下されたキー')
+	  __('右クリックやソースコード表示時に転送する URL を設定します', NEOHP_DOMAIN) . '<br><br>'
+	. __('警告メッセージにはHTMLは使用できません', NEOHP_DOMAIN) . '<br><br>'
+	. __('以下の文字が使用できます', NEOHP_DOMAIN)
+	. '<table><tr><td>\n</td><td>' . __('改行', NEOHP_DOMAIN)
+	. '</td></tr><tr><td>$IP</td><td>' . __('IPアドレス', NEOHP_DOMAIN)
+	. '</td></tr><tr><td>$URL</td><td>' . __('URL', NEOHP_DOMAIN)
+	. '</td></tr><tr><td>$KEY</td><td>' . __('押下されたキー', NEOHP_DOMAIN)
 	. '</td></tr></table>';
 				},
 				'neohp-settings'
@@ -306,7 +313,7 @@ class neohp_admin {
 	public function render_neohp_settings_page() {
 		?>
 		<div class="wrap">
-			<h1><?php echo _('Neo HTML Protector設定') ?></h1>
+			<h1><?php echo __('Neo HTML Protector設定', NEOHP_DOMAIN) ?></h1>
 			<form method="post" action="options.php">
 				<?php
 				settings_fields('neohp_settings_group');

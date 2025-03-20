@@ -49,27 +49,28 @@ class neohp_jskeyajax {
 			'keyb' => $key,
 		));
 
+		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		// debugmode or console
 		if (strpos($key, 'F12') !== false
 		 || strpos($key, 'I') !== false
 		 || strpos($key, 'J') !== false
 		) {
-			$value = get_option('neohp_debugmode_message', NEOHP_DEBUGMODE_DEFAULT);
+			$value = get_option('neohp_debugmode_message', $neohp_debugmode_default);
 		}
 
 		// right click
 		if (strpos($key, 'Right') !== false	) {
-			$value = get_option('neohp_rightclick_message', NEOHP_RIGHTCLICK_DEFAULT);
+			$value = get_option('neohp_rightclick_message', $neohp_rightclick_default);
 		}
 
 		// Ctrl+U
 		if (strpos($key, 'U') !== false	) {
-			$value = get_option('neohp_htmlsource_message', NEOHP_HTMLSOURCE_DEFAULT);
+			$value = get_option('neohp_htmlsource_message', $neohp_htmlsource_default);
 		}
 
 		// Ctrl+P
 		if (strpos($key, 'P') !== false	) {
-			$value = get_option('neohp_printout_message', NEOHP_PRINTOUT_DEFAULT);
+			$value = get_option('neohp_printout_message', $neohp_printout_default);
 		}
 
 

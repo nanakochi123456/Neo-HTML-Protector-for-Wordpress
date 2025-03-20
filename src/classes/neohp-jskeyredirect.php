@@ -14,8 +14,8 @@ class neohp_jskeyredirect {
 		$unixTime = time();
 
 	    if (isset($_GET['neohp']) && $_GET['neohp'] === 'redirect') {
-
-			$redirect_url = esc_url(get_option('neohp_redirect_url', NEOHP_REDIRECT_DEFAULT));
+			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+			$redirect_url = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
 			$redirect_url = add_query_arg('tm', $unixTime, $redirect_url);
 
 	        if (filter_var($redirect_url, FILTER_VALIDATE_URL)) {

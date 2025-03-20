@@ -41,8 +41,9 @@ class neohp_htmlprotect {
 		// JavaScriptでエンコードされたURLをデコードしてリダイレクトするスクリプトを挿入
 		$html = '';
 		// <!doctype html>の前に警告メッセージを表示する
-		if(get_option('neohp_htmlprotect_message', NEOHP_VIEWSOURCE_DEFAULT ) !== '') {
-			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', NEOHP_VIEWSOURCE_DEFAULT ) );
+		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
+			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
 
 			// ユーザーのIPアドレスを取得
 			$user_ip = $_SERVER['REMOTE_ADDR'];
