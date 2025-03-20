@@ -9,9 +9,6 @@ set CLOSURE=wsl npx google-closure-compiler
 
 :wsl xgettext --language=PHP --from-code=utf-8 --keyword=__ --keyword=_e --output=languages/neo-html-protector.pot neo-html-protector.php classes/*.php
 
-:wsl msginit --input=languages/neo-html-protector.pot --output=languages/neo-html-protector-ja.po --locale=ja_JP.UTF-8
-:pause
-
 :wsl msginit --input=languages/neo-html-protector.pot --output=languages/neo-html-protector-en.po --locale=en
 
 :wsl msginit --input=languages/neo-html-protector.pot --output=languages/neo-html-protector-en_US.po --locale=en_US

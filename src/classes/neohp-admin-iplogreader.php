@@ -19,6 +19,7 @@ class neohp_iplogreader {
 				ip VARCHAR(128) NOT NULL,
 				url VARCHAR(1024) NOT NULL,
 				keyb VARCHAR(128) NOT NULL,
+				ua VARCHAR(4096) NOT NULL,
 				timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 				PRIMARY KEY (id)
 			)"
@@ -119,17 +120,24 @@ EOM;
 		// ログ表示部分
 			?>
 			<table class="wp-list-table widefat fixed striped">
-			<thead><tr><th><?php echo __('ID', NEOHP_DOMAIN) ?></th><th><?php echo __('IPアドレス', NEOHP_DOMAIN) ?></th><th><?php echo __('キーイベント', NEOHP_DOMAIN) ?></th><th><?php echo __('URL', NEOHP_DOMAIN) ?></th><th><?php echo __('日時', NEOHP_DOMAIN) ?></th></tr></thead>
+			<thead><tr>
+			<th><?php echo __('ID', NEOHP_DOMAIN) ?></th>
+			<th colspan='2'><?php echo __('IPアドレス', NEOHP_DOMAIN) ?></th>
+			<th colspan='5'><?php echo __('ユーザーエイジェント', NEOHP_DOMAIN) ?></th>
+			<th colspan='2'><?php echo __('イベント', NEOHP_DOMAIN) ?></th>
+			<th colspan='3'><?php echo __('URL', NEOHP_DOMAIN) ?></th>
+			<th colspan='2'><?php echo __('日時', NEOHP_DOMAIN) ?></th></tr></thead>
 			<tbody>
 			<?php
 
 			foreach ($results as $row) {
 				echo "<tr>
 					<td>{$row->id}</td>
-					<td>{$row->ip}</td>
-					<td>{$row->keyb}</td>
-					<td>{$row->url}</td>
-					<td>{$row->timestamp}</td>
+					<td colspan='2'>{$row->ip}</td>
+					<td colspan='5'>{$row->ua}</td>
+					<td colspan='2'>{$row->keyb}</td>
+					<td colspan='3'>{$row->url}</td>
+					<td colspan='2'>{$row->timestamp}</td>
 				</tr>";
 			}
 			echo '</tbody>';

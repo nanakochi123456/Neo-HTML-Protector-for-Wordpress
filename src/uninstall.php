@@ -12,6 +12,7 @@ delete_option('neohp_rightclick_message');
 delete_option('neohp_printout_message');
 delete_option('neohp_htmlsource_message');
 delete_option('neohp_htmlprotect_message');
+delete_option('neohp_copycut_message');
 delete_option('neohp_redirect_url');
 delete_option('neohp_htmlcompress');
 delete_option('neohp_htmlprotect');
@@ -21,6 +22,7 @@ delete_option('neohp_alert_j');
 delete_option('neohp_alert_u');
 delete_option('neohp_alert_r');
 delete_option('neohp_alert_s');
+delete_option('neohp_alert_c');
 delete_option('neohp_alert_p');
 delete_option('neohp_alert_d');
 

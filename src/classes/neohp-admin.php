@@ -78,6 +78,20 @@ class neohp_admin {
 				'neohp_section'
 			);
 
+			// コピー、カットのメッセージ
+			register_setting('neohp_settings_group', 'neohp_copycut_message');
+			add_settings_field(
+				'neohp_copycut_message',
+				__('コピー・カットした時に表示するメッセージ', NEOHP_DOMAIN),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_copycut_message', $neohp_copycut_default ));
+					echo '<input type="text" name="neohp_copycut_message" value="' . $value . '" class="regular-text">';
+				},
+				'neohp-settings',
+				'neohp_section'
+			);
+
 			// HTMLソースのメッセージ
 			register_setting('neohp_settings_group', 'neohp_htmlsource_message');
 			add_settings_field(
@@ -257,6 +271,23 @@ class neohp_admin {
 				'neohp_section'
 			);
 
+			// Copy/Cut
+			register_setting('neohp_settings_group', 'neohp_alert_c');
+			add_settings_field(
+				'neohp_alert_c',
+				__('コピー・カット', NEOHP_DOMAIN),
+				function() {
+					$value = esc_html(get_option('neohp_alert_c', '1'));
+					echo $this->getselect("neohp_alert_c", $value
+						, '0=' . __('無効', NEOHP_DOMAIN)
+						, '1=' . __('妨害＋記録のみ', NEOHP_DOMAIN)
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', NEOHP_DOMAIN)
+					);
+				},
+				'neohp-settings',
+				'neohp_section'
+			);
+
 			// selection
 			register_setting('neohp_settings_group', 'neohp_alert_s');
 			add_settings_field(
@@ -297,7 +328,7 @@ class neohp_admin {
 					echo 
 	  __('右クリックやソースコード表示時に転送する URL を設定します', NEOHP_DOMAIN) . '<br><br>'
 	. __('警告メッセージにはHTMLは使用できません', NEOHP_DOMAIN) . '<br><br>'
-	. __('以下の文字が使用できます', NEOHP_DOMAIN)
+	. __('以下の文字列が使用できます', NEOHP_DOMAIN)
 	. '<table><tr><td>\n</td><td>' . __('改行', NEOHP_DOMAIN)
 	. '</td></tr><tr><td>$IP</td><td>' . __('IPアドレス', NEOHP_DOMAIN)
 	. '</td></tr><tr><td>$URL</td><td>' . __('URL', NEOHP_DOMAIN)

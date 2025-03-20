@@ -41,5 +41,6 @@ IPV4環境でのみ確認していますが、IPV6でも動作するはずです
 - 無効化して削除
 
 ## バージョン履歴
+v0.0.5 - UAの保存に対応、IPログビュアーの幅を設定、スマホの選択阻止等に対応
 
-v0.1 - 初版 - Neo Copykey Alert と Neo-HTML-View-Protection を結合し、国際化して（英語のみ）クラス化した
+v0.0.1 - 初版 - Neo Copykey Alert と Neo-HTML-View-Protection を結合し、国際化して（英語のみ）クラス化した

@@ -23,9 +23,6 @@ class neohp_jskeyajax {
 		// ユーザーのIPアドレスを取得
 		$user_ip = $_SERVER['REMOTE_ADDR'];
 
-		// データベース接続
-		//require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php'); // WordPress の読み込み
-
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'user_ip_log';
 		$key = $_POST['key'];
@@ -37,16 +34,20 @@ class neohp_jskeyajax {
 				ip VARCHAR(128) NOT NULL,
 				url VARCHAR(1024) NOT NULL,
 				keyb VARCHAR(128) NOT NULL,
+				ua VARCHAR(4096) NOT NULL,
 				timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 				PRIMARY KEY (id)
 			)"
 		);
+
+		$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
 
 		// IPアドレスをテーブルに保存
 		$wpdb->insert($table_name, array(
 			'ip' => $user_ip,
 			'url' => $_POST['url'],
 			'keyb' => $key,
+			'ua' => $ua
 		));
 
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
@@ -58,9 +59,9 @@ class neohp_jskeyajax {
 			$value = get_option('neohp_debugmode_message', $neohp_debugmode_default);
 		}
 
-		// right click
-		if (strpos($key, 'Right') !== false	) {
-			$value = get_option('neohp_rightclick_message', $neohp_rightclick_default);
+		// Copy or Cut
+		if (strpos($key, 'C') !== false	) {
+			$value = get_option('neohp_copycut_message', $neohp_copycut_default);
 		}
 
 		// Ctrl+U
@@ -77,6 +78,7 @@ class neohp_jskeyajax {
 		$value = str_replace('$IP', $user_ip, $value);
 		$value = str_replace('$URL', $_POST["url"], $value);
 		$value = str_replace('$KEY', $key, $value);
+		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
 		echo htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); // alert で表示
 		exit();

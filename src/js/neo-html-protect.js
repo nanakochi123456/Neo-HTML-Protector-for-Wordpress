@@ -59,16 +59,45 @@
 
 	// 右クリック
 	if(FlagSmall.includes('r')) {
-		$(document).on('contextmenu', function(e) {
+		$(document).on('contextmenu', (event)=> {
 			sendIpToServer('Right Click', 'R');
-			e.preventDefault();
+			event.preventDefault();
+		});
+	}
+
+	// copy, cut
+	if(FlagSmall.includes('c')) {
+		document.addEventListener('copy', (event) => {
+			sendIpToServer('Copy', 'C');
+			event.preventDefault();
+		});
+
+		document.addEventListener('cut', (event) => {
+			sendIpToServer('Cut', 'C');
+			event.preventDefault();
 		});
 	}
 
 	// テキスト選択禁止のみ 通知なし
 	if(FlagSmall.includes('s')) {
-		$(document).on('selectstart', function(e) {
-			e.preventDefault();
+		document.body.style.userSelect = 'none';
+		document.body.style.webkitUserSelect = 'none'; // Safari対策
+		document.body.style.msUserSelect = 'none'; // 古いIE対策
+
+		$(document).on('selectstart', (event) => {
+			event.preventDefault();
+		});
+
+		document.addEventListener('touchstart', (event) => {
+			event.preventDefault();
+		});
+
+		document.addEventListener('touchmove', (event) => {
+			event.preventDefault();
+		});
+
+		document.addEventListener('touchend', (event) => {
+			event.preventDefault();
 		});
 	}
 
