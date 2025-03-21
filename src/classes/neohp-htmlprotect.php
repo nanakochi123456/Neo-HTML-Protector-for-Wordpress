@@ -6,10 +6,11 @@
 $neohp_htmlprotect=new neohp_htmlprotect();
 class neohp_htmlprotect {
 	protected $neohp_database;
+	protected $neohp_func;
 
 	public function __construct() {
-		// dbを呼び出し
 		$this->neohp_database=new neohp_database();
+		$this->neohp_func=new neohp_func();
 
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') == 1) {
@@ -65,7 +66,7 @@ class neohp_htmlprotect {
 				// 画像を出力して転送
 				readfile($image_path);
 
-				$user_ip = $this->get_user_ip();
+				$user_ip = $this->neohp_func->get_user_ip();
 				// 一時的なデータベースも削除
 				$this->neohp_database->delete_view_source(
 					array( 'ip' => $user_ip)
@@ -79,24 +80,13 @@ class neohp_htmlprotect {
 		}
 	}
 
-	protected function get_user_ip() {
-		if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-			$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-		} elseif (!empty($_SERVER['HTTP_X_REAL_IP'])) {
-			$ip = $_SERVER['HTTP_X_REAL_IP'];
-		} else {
-			$ip = $_SERVER['REMOTE_ADDR'];
-		}
-		return $ip;
-	}
-
 	// 9秒のクッキーを発行してエンコードされたURLを保存
 	public function neohp_set_cookie_and_redirect() {
 		// 現在のURLを取得
-		$current_url = $_SERVER['REQUEST_URI'];
+		$request_url = $_SERVER['REQUEST_URI'];
 
 		// URLをBase64エンコード
-		$neo_encoded_url = base64_encode($current_url);
+		$neo_encoded_url = base64_encode($request_url);
 
 		// titleを取得
 		$title = wp_title('|', false, 'right') . get_bloginfo('name');
@@ -105,10 +95,7 @@ class neohp_htmlprotect {
 		$lang = get_bloginfo('language');
 
 		// URLを取得
-		$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
-		$host = $_SERVER['HTTP_HOST'];
-		$request_uri = $_SERVER['REQUEST_URI'];
-		$current_url = $scheme . '://' . $host . $request_uri;
+		$current_url = $this->neohp_func->get_current_url();
 
 		// UNIXtime / 60
 		$min = floor(time() / 60);
@@ -121,11 +108,11 @@ class neohp_htmlprotect {
 		// <!doctype html>の前に警告メッセージを表示する
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
-			$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
+			$ua = $this->neohp_func->get_user_agent();
 			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
 
 			// ユーザーのIPアドレスを取得
-			$user_ip = $this->get_user_ip();
+			$user_ip = $this->neohp_func->get_user_ip();
 
 			$protectmsg = str_replace('$IP', $user_ip, $protectmsg);
 			$protectmsg = str_replace('$URL', $current_url, $protectmsg);
@@ -135,7 +122,7 @@ class neohp_htmlprotect {
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
-		$nonce = $this->create_short_nonce('neUrl');
+		$nonce = $this->neohp_func->create_short_nonce('neUrl');
 		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 		$html .= '<script>';
 		$html .= 'var neUrl="' . $neo_encoded_url . '";';
@@ -158,8 +145,8 @@ class neohp_htmlprotect {
 
 		if($this->is_not_bot()) {
 			// ユーザーのIPアドレスを取得
-			$user_ip = $this->get_user_ip();
-			$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
+			$user_ip = $this->neohp_func->get_user_ip();
+			$ua = $this->neohp_func->get_user_agent();
 			$min = floor(time() / 60);
 
 			// 一時的なログにview-sourceの検出情報を保存
@@ -177,7 +164,7 @@ class neohp_htmlprotect {
 	// cookieと一時データベースを削除
 	protected function delete_cookie_and_database($cookie_name, $min) {
 		if (isset($_COOKIE[$cookie_name])) {
-			$user_ip = $this->get_user_ip();
+			$user_ip = $this->neohp_func->get_user_ip();
 
 			// クッキーにエンコードされたURLがある場合、デコードしてリダイレクト
 			$neo_encoded_url = $_COOKIE[$cookie_name];
@@ -262,18 +249,14 @@ class neohp_htmlprotect {
 				// クッキーがセットされている場合、リダイレクト処理を実行
 				if (isset($_COOKIE[$cookie_name])
 				 || isset($_COOKIE[$cookie_name2])) {
-					if (isset($_COOKIE['nonce']) && $this->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
+					if (isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
 						$this->neohp_redirect_from_cookie();
 					} else {
 						require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-						// URLを取得
-						$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
-						$host = $_SERVER['HTTP_HOST'];
-						$request_uri = $_SERVER['REQUEST_URI'];
-						$current_url = $scheme . '://' . $host . $request_uri;
+						$current_url = $this->neohp_func->get_current_url();
 
-						$user_ip = $this->get_user_ip();
-						$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
+						$user_ip = $this->neohp_func->get_user_ip();
+						$ua = $this->neohp_func->get_user_agent();
 
 						$value = get_option('neohp_nonceerror_message', $neohp_nonceerror_default);
 						$value = str_replace('$IP', $user_ip, $value);
@@ -294,33 +277,6 @@ class neohp_htmlprotect {
 				}
 			}
 		}
-	}
-
-	// ショートnonce
-	function create_short_nonce($action) {
-		$expires = time() + 10; // 10秒有効
-		$nonce = hash_hmac('sha256', $action . '|' . $expires, wp_salt());
-		return base64_encode(json_encode([$nonce, $expires]));
-	}
-
-	// ショートnonceの検証
-	function verify_short_nonce($nonce, $action) {
-		$data = json_decode(base64_decode($nonce), true);
-		if (!$data || count($data) !== 2) {
-			return false;
-		}
-
-		list($expected_nonce, $expires) = $data;
-
-		// 有効期限チェック
-		if ($expires < time()) {
-			return false;
-		}
-
-		// HMAC チェック
-		$calculated_nonce = hash_hmac('sha256', $action . '|' . $expires, wp_salt());
-
-		return hash_equals($expected_nonce, $calculated_nonce);
 	}
 
 	// botでないことを確認する

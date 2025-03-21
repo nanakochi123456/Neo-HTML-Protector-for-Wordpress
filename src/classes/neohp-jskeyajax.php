@@ -6,23 +6,13 @@
 $neohp_jskeyajax=new neohp_jskeyajax();
 class neohp_jskeyajax {
 	protected $neohp_database;
+	protected $neohp_func;
 
 	public function __construct() {
-		// dbを呼び出し
+		$this->neohp_func=new neohp_func();
 		$this->neohp_database=new neohp_database();
 
 		add_action('template_redirect', array($this, 'neohp_ajax') , 1); // 最も高い優先度で実行
-	}
-
-	protected function get_user_ip() {
-		if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-			$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-		} elseif (!empty($_SERVER['HTTP_X_REAL_IP'])) {
-			$ip = $_SERVER['HTTP_X_REAL_IP'];
-		} else {
-			$ip = $_SERVER['REMOTE_ADDR'];
-		}
-		return $ip;
 	}
 
 	public function neohp_ajax() {
@@ -36,7 +26,7 @@ class neohp_jskeyajax {
 //		}
 
 		// ユーザーのIPアドレスを取得
-		$user_ip = $this->get_user_ip();
+		$user_ip = $this->neohp_func->get_user_ip();
 		$url = $_POST['url'];
 		$key = $_POST['key'];
 //$key="test";

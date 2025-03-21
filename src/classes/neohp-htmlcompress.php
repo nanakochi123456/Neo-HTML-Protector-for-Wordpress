@@ -5,7 +5,11 @@
 
 $neohp_htmlcompress=new neohp_htmlcompress();
 class neohp_htmlcompress {
+	protected $neohp_func;
+
 	public function __construct() {
+		$this->neohp_func=new neohp_func();
+
 		if(get_option('neohp_htmlcompress', '1') == 1) {
 			add_action('template_redirect', array($this, 'start_buffer'));
 			add_action('shutdown', array($this, 'end_buffer'));
@@ -58,10 +62,9 @@ class neohp_htmlcompress {
 
 			if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
 				$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
-				$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
-
-				// ユーザーのIPアドレスを取得
-				$user_ip = $this->get_user_ip();
+				$ua = $this->neohp_func->get_user_agent();
+				$current_url = $this->neohp_func->get_current_url();
+				$user_ip = $this->neohp_func->get_user_ip();
 
 				$protectmsg = str_replace('$IP', $user_ip, $protectmsg);
 				$protectmsg = str_replace('$URL', $current_url, $protectmsg);
@@ -73,16 +76,5 @@ class neohp_htmlcompress {
 
 		}
 		return $buffer;
-	}
-
-	protected function get_user_ip() {
-		if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-			$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-		} elseif (!empty($_SERVER['HTTP_X_REAL_IP'])) {
-			$ip = $_SERVER['HTTP_X_REAL_IP'];
-		} else {
-			$ip = $_SERVER['REMOTE_ADDR'];
-		}
-		return $ip;
 	}
 }

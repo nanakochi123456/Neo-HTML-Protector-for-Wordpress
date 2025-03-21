@@ -64,5 +64,4 @@ class neohp_jskeyblock {
 			}
 	    }
 	}
-
 }

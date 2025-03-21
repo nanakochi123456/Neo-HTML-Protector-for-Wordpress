@@ -1,0 +1,263 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2025 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 13:48+0900\n"
+"PO-Revision-Date: 2025-03-20 13:48+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: classes/neohp-admin-iplogreader.php:32
+#: classes/neohp-admin-iplogreader.php:33
+msgid "IPログリーダー"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:109
+msgid "IPアドレスログ"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:111
+msgid "全クリア"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:118
+msgid "IPログが全て削除されました"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:124
+msgid "ID"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:125 classes/neohp-admin.php:333
+msgid "IPアドレス"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:126
+msgid "ユーザーエイジェント"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:127
+msgid "イベント"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:128 classes/neohp-admin.php:334
+msgid "URL"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:129
+msgid "日時"
+msgstr ""
+
+#: classes/neohp-admin-iplogreader.php:168
+msgid "IPアドレスのデータはありません"
+msgstr ""
+
+#: classes/neohp-admin.php:43
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:57
+msgid "右クリックの警告メッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:71
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:85
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:99
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:113
+msgid "HTML保護時にソースの先頭に表示するメッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:127
+msgid "転送先URL"
+msgstr ""
+
+#: classes/neohp-admin.php:141
+msgid "HTML難読化 (圧縮)"
+msgstr ""
+
+#: classes/neohp-admin.php:145 classes/neohp-admin.php:161
+#: classes/neohp-admin.php:179 classes/neohp-admin.php:196
+#: classes/neohp-admin.php:213 classes/neohp-admin.php:230
+#: classes/neohp-admin.php:247 classes/neohp-admin.php:265
+#: classes/neohp-admin.php:282 classes/neohp-admin.php:299
+#: classes/neohp-admin.php:315
+msgid "無効"
+msgstr ""
+
+#: classes/neohp-admin.php:146 classes/neohp-admin.php:162
+msgid "有効"
+msgstr ""
+
+#: classes/neohp-admin.php:157
+msgid "HTML保護"
+msgstr ""
+
+#: classes/neohp-admin.php:165
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr ""
+
+#: classes/neohp-admin.php:175
+msgid "F12 (デバッグモード)"
+msgstr ""
+
+#: classes/neohp-admin.php:180 classes/neohp-admin.php:197
+#: classes/neohp-admin.php:214 classes/neohp-admin.php:231
+#: classes/neohp-admin.php:248 classes/neohp-admin.php:266
+#: classes/neohp-admin.php:283 classes/neohp-admin.php:300
+msgid "妨害＋記録のみ"
+msgstr ""
+
+#: classes/neohp-admin.php:181 classes/neohp-admin.php:198
+#: classes/neohp-admin.php:215 classes/neohp-admin.php:232
+#: classes/neohp-admin.php:249 classes/neohp-admin.php:267
+#: classes/neohp-admin.php:284
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr ""
+
+#: classes/neohp-admin.php:192
+msgid "Ctrl+Shift+I (デバッグモード)"
+msgstr ""
+
+#: classes/neohp-admin.php:209
+msgid "Ctrl+Shift+J (コンソール)"
+msgstr ""
+
+#: classes/neohp-admin.php:226
+msgid "Ctrl+U (HTMLソース表示)"
+msgstr ""
+
+#: classes/neohp-admin.php:243
+msgid "Ctrl+P (印刷)"
+msgstr ""
+
+#: classes/neohp-admin.php:251
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr ""
+
+#: classes/neohp-admin.php:261
+msgid "右クリック"
+msgstr ""
+
+#: classes/neohp-admin.php:278
+msgid "コピー・カット"
+msgstr ""
+
+#: classes/neohp-admin.php:295
+msgid "テキスト選択"
+msgstr ""
+
+#: classes/neohp-admin.php:311
+msgid "デバッガー妨害"
+msgstr ""
+
+#: classes/neohp-admin.php:316
+msgid "妨害"
+msgstr ""
+
+#: classes/neohp-admin.php:326
+msgid "基本設定"
+msgstr ""
+
+#: classes/neohp-admin.php:329
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr ""
+
+#: classes/neohp-admin.php:330
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr ""
+
+#: classes/neohp-admin.php:331
+msgid "以下の文字が使用できます"
+msgstr ""
+
+#: classes/neohp-admin.php:332
+msgid "改行"
+msgstr ""
+
+#: classes/neohp-admin.php:335
+msgid "押下されたキー"
+msgstr ""
+
+#: classes/neohp-admin.php:347
+msgid "Neo HTML Protector設定"
+msgstr ""
+
+#: classes/neohp-global.php:6
+msgid "https://google.co.jp"
+msgstr ""
+
+#: classes/neohp-global.php:10
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:11 classes/neohp-global.php:21
+#: classes/neohp-global.php:31 classes/neohp-global.php:41
+#: classes/neohp-global.php:51 classes/neohp-global.php:61
+msgid "以下の情報がサーバーに送信されました"
+msgstr ""
+
+#: classes/neohp-global.php:12 classes/neohp-global.php:22
+#: classes/neohp-global.php:32 classes/neohp-global.php:42
+#: classes/neohp-global.php:52 classes/neohp-global.php:62
+msgid "あなたのIPアドレス:$IP"
+msgstr ""
+
+#: classes/neohp-global.php:13 classes/neohp-global.php:23
+#: classes/neohp-global.php:33 classes/neohp-global.php:43
+#: classes/neohp-global.php:53 classes/neohp-global.php:63
+msgid "URL:$URL"
+msgstr ""
+
+#: classes/neohp-global.php:14 classes/neohp-global.php:24
+#: classes/neohp-global.php:34 classes/neohp-global.php:54
+msgid "あなたの押下したキー:$KEY"
+msgstr ""
+
+#: classes/neohp-global.php:15 classes/neohp-global.php:25
+#: classes/neohp-global.php:35 classes/neohp-global.php:45
+#: classes/neohp-global.php:55
+msgid "リダイレクトをします"
+msgstr ""
+
+#: classes/neohp-global.php:20
+msgid "右クリックは禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:30
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:40
+msgid "コピー、カットは禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:44
+msgid "あなたが起こしたイベント:$KEY"
+msgstr ""
+
+#: classes/neohp-global.php:50 classes/neohp-global.php:60
+msgid "HTMLソース表示は禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:64
+msgid "あなたが起こしたイベント:view-source:$URL"
+msgstr ""
