@@ -206,6 +206,10 @@ class neohp_htmlprotect {
 				'view-source',
 				$row->ua
 			);
+
+			$this->neohp_database->delete_view_source(
+				array( 'ip' => $row-ip)
+			);
 		}
 	}
 
