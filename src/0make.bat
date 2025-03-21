@@ -3,6 +3,8 @@ set NAME=neo-html-protector
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --rewrite_polyfills false  --assume_function_wrapper
 rem ADVANCED_OPTIMIZATIONS
+rem WHITESPACE_ONLY
+rem SIMPLE_OPTIMIZATIONS
 
 @echo on
 %CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
