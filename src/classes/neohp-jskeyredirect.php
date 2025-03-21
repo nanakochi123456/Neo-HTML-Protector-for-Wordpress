@@ -14,6 +14,11 @@ class neohp_jskeyredirect {
 		$unixTime = time();
 
 	    if (isset($_GET['neohp']) && $_GET['neohp'] === 'redirect') {
+			if(!isset($_GET['neononce'])
+			|| !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['neononce'])), 'neohp_action')) {
+				die('403 Forbidden');
+			}
+
 			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 			$redirect_url = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
 			$redirect_url = add_query_arg('tm', $unixTime, $redirect_url);

@@ -5,7 +5,14 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
 
 global $wpdb;
 $neohp_table_name = $wpdb->prefix . 'user_ip_log';
-$wpdb->query("DELETE FROM $neohp_table_name");
+$neohp_table_name = esc_sql($neohp_table_name);
+
+// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+$wpdb->query(
+	$wpdb->prepare(
+		"DELETE FROM `$neohp_table_name`"
+	)
+);
 
 delete_option('neohp_debugmode_message');
 delete_option('neohp_rightclick_message');

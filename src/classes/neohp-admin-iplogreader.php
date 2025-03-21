@@ -12,12 +12,14 @@ class neohp_iplogreader {
 		// IPリーダーのメニュー追加
 		add_action('admin_menu', array( $this, 'ip_log_reader_menu' ) );
 
-		global $wpdb;
-		$table_name = $wpdb->prefix . 'user_ip_log';
-
 		// IPアドレスを保存するテーブルがなければ作成
+
+		global $wpdb;
+		$table_name = esc_sql($wpdb->prefix . 'user_ip_log');
+
+		// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$wpdb->query(
-			"CREATE TABLE IF NOT EXISTS $table_name (
+			"CREATE TABLE IF NOT EXISTS `$table_name` (
 				id BIGINT NOT NULL AUTO_INCREMENT,
 				ip VARCHAR(128) NOT NULL,
 				url VARCHAR(1024) NOT NULL,
@@ -32,8 +34,8 @@ class neohp_iplogreader {
 	// IPログリーダーの設置
 	public function ip_log_reader_menu() {
 		add_menu_page(
-			__('IPログリーダー', NEOHP_DOMAIN),	// ページタイトル
-			__('IPログリーダー', NEOHP_DOMAIN),	// メニュータイトル
+			__('IPログリーダー', 'neo-html-protector'),	// ページタイトル
+			__('IPログリーダー', 'neo-html-protector'),	// メニュータイトル
 			'manage_options',		// 権限
 			'ip-log-reader',		// メニューのスラッグ
 			array($this, 'ip_log_reader_page'),  // 表示する関数
@@ -48,7 +50,7 @@ class neohp_iplogreader {
 		$table_name = $wpdb->prefix . 'user_ip_log';
 
 		// CSS読み込み
-		echo <<<EOM
+		?>
 <style>
 .tablenav-pages {
 	text-align: center;
@@ -89,7 +91,7 @@ class neohp_iplogreader {
 	font-weight: bold;
 }
 </style>
-EOM;
+		<?php
 
 		// 現在のページを取得（デフォルトは1）
 		$paged = isset($_GET['paged']) ? max(1, intval($_GET['paged'])) : 1;
@@ -109,44 +111,47 @@ EOM;
 		// HTML
 		?>
 		<div class="wrap">
-		<h2><?php echo __('IPアドレスログ', NEOHP_DOMAIN) ?></h2>
+		<h2><?php echo esc_html( __('IPアドレスログ', 'neo-html-protector') ) ?></h2>
 		<form method="post">
-		<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo __('全クリア', NEOHP_DOMAIN) ?>" />
+		<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo esc_html( __('全クリア', 'neo-html-protector') ) ?>" />
 		</form>
 		<?php
 
 		// 「全クリア」ボタンが押された場合にログを削除
 		if ( isset($_POST['clear_logs']) ) {
 			$this->clear_ip_logs(); // ログを削除する関数を呼び出す
-			echo '<div class="updated"><p>' . __('IPログが全て削除されました', NEOHP_DOMAIN) . '</p></div>';
+			echo '<div class="updated"><p>' . esc_html( __('IPログが全て削除されました', 'neo-html-protector') ) . '</p></div>';
 		} else if($results) {
 		// ログ表示部分
 			?>
 			<table class="wp-list-table widefat fixed striped">
 			<thead><tr>
-			<th><?php echo __('ID', NEOHP_DOMAIN) ?></th>
-			<th colspan='2'><?php echo __('IPアドレス', NEOHP_DOMAIN) ?></th>
-			<th colspan='5'><?php echo __('ユーザーエイジェント', NEOHP_DOMAIN) ?></th>
-			<th colspan='2'><?php echo __('イベント', NEOHP_DOMAIN) ?></th>
-			<th colspan='3'><?php echo __('URL', NEOHP_DOMAIN) ?></th>
-			<th colspan='2'><?php echo __('日時', NEOHP_DOMAIN) ?></th></tr></thead>
+			<th><?php echo esc_html( __('ID', 'neo-html-protector') ) ?></th>
+			<th colspan='2'><?php echo esc_html( __('IPアドレス', 'neo-html-protector') ) ?></th>
+			<th colspan='5'><?php echo esc_html( __('ユーザーエイジェント', 'neo-html-protector') ) ?></th>
+			<th colspan='2'><?php echo esc_html( __('イベント', 'neo-html-protector') ) ?></th>
+			<th colspan='3'><?php echo esc_html( __('URL', 'neo-html-protector') ) ?></th>
+			<th colspan='2'><?php echo esc_html( __('日時', 'neo-html-protector') ) ?></th></tr></thead>
 			<tbody>
 			<?php
 
 			foreach ($results as $row) {
-				echo "<tr>
-					<td>{$row->id}</td>
-					<td colspan='2'>{$row->ip}</td>
-					<td colspan='5'>{$row->ua}</td>
-					<td colspan='2'>{$row->keyb}</td>
-					<td colspan='3'>{$row->url}</td>
-					<td colspan='2'>{$row->timestamp}</td>
-				</tr>";
+				?>
+				<tr>
+					<td><?php echo esc_html( $row->id ) ?></td>
+					<td colspan='2'><?php echo esc_html( $row->ip ) ?></td>
+					<td colspan='5'><?php echo esc_html( $row->ua ) ?></td>
+					<td colspan='2'><?php echo esc_html( $row->keyb ) ?></td>
+					<td colspan='3'><?php echo esc_html( $row->url ) ?></td>
+					<td colspan='2'><?php echo esc_html( $row->timestamp ) ?></td>
+				</tr>
+				<?php
 			}
 			echo '</tbody>';
 			echo '</table>';
 
 			// ページングリンクの生成
+			$nonce = wp_create_nonce('neohp');
 			$total_pages = ceil($total_items / $per_page);
 			$base_url = admin_url('admin.php?page=ip-log-reader');
 
@@ -154,21 +159,21 @@ EOM;
 				echo '<div class="tablenav">';
 				echo '<div class="tablenav-pages">';
 				if ($paged > 1) {
-					echo '<a class="prev-page button" href="' . esc_url(add_query_arg('paged', $paged - 1, $base_url)) . '">«</a>';
+					echo '<a class="prev-page button" href="' . esc_url(add_query_arg(array('paged'=>$paged - 1, 'nonce'=>$nonce), $base_url)) . '">«</a>';
 				}
 				for ($i = 1; $i <= $total_pages; $i++) {
 					$active = ($i == $paged) ? ' current-page' : '';
-					echo '<a class="page-number' . $active . '" href="' . esc_url(add_query_arg('paged', $i, $base_url)) . '">' . $i . '</a> ';
+					echo '<a class="page-number' . esc_html($active) . '" href="' . esc_html(add_query_arg(array('paged'=>$i, 'nonce'=>$nonce), $base_url)) . '">' . esc_html($i) . '</a> ';
 				}
 				if ($paged < $total_pages) {
-					echo '<a class="next-page button" href="' . esc_url(add_query_arg('paged', $paged + 1, $base_url)) . '">»</a>';
+					echo '<a class="next-page button" href="' . esc_html(add_query_arg(array('paged'=>$paged + 1, 'nonce'=>$nonce), $base_url)) . '">»</a>';
 				}
 				echo '</div>';
 				echo '</div>';
 			}
 			echo '</div>';
 		} else {
-			echo '<p>' . __('IPアドレスのデータはありません', NEOHP_DOMAIN) . '</p>';
+			echo '<p>' . esc_html( __('IPアドレスのデータはありません', 'neo-html-protector') ) . '</p>';
 		}
 	}
 

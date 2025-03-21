@@ -1,11 +1,14 @@
 @echo off
 set NAME=neo-html-protector
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
-set CLOSURE=wsl npx google-closure-compiler
-
+set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --rewrite_polyfills false  --assume_function_wrapper
+rem ADVANCED_OPTIMIZATIONS
+set YUICOMPRESSORJS=wsl yui-compressor --charset=utf-8 --type=js
 @echo on
-%CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js
+%CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
 :pause
+:%YUICOMPRESSORJS% -o js/neo-html-protect.min.js js/neo-html-protect.js
+pause
 
 :wsl xgettext --language=PHP --from-code=utf-8 --keyword=__ --keyword=_e --output=languages/neo-html-protector.pot neo-html-protector.php classes/*.php
 

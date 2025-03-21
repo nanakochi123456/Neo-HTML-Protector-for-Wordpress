@@ -50,6 +50,8 @@ class neohp_jskeyajax {
 			'ua' => $ua
 		));
 
+		$value = 'other error';
+
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		// debugmode or console
 		if (strpos($key, 'F12') !== false
@@ -60,7 +62,9 @@ class neohp_jskeyajax {
 		}
 
 		// Copy or Cut
-		if (strpos($key, 'C') !== false	) {
+		if (strpos($key, 'Copy') !== false
+		 || strpos($key, 'Cut') !== false
+		) {
 			$value = get_option('neohp_copycut_message', $neohp_copycut_default);
 		}
 
@@ -74,13 +78,18 @@ class neohp_jskeyajax {
 			$value = get_option('neohp_printout_message', $neohp_printout_default);
 		}
 
+		// Right Click
+		if (strpos($key, 'R') !== false	) {
+			$value = get_option('neohp_rightclick_message', $neohp_rightclick_default);
+		}
+
 
 		$value = str_replace('$IP', $user_ip, $value);
 		$value = str_replace('$URL', $_POST["url"], $value);
 		$value = str_replace('$KEY', $key, $value);
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
-		echo htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); // alert で表示
+		echo esc_js( esc_html (htmlspecialchars($value, ENT_QUOTES, 'UTF-8') ) ); // alert で表示
 		exit();
 	}
 }

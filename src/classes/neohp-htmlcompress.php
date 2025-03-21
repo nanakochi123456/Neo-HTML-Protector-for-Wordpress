@@ -28,15 +28,14 @@ class neohp_htmlcompress {
 	protected function sanitize_output($buffer) {
 		if(!is_user_logged_in()) {
 			$search = array(
-				'/\s\/\>/s',			// XMLの /> を圧縮
-				'/\>[^\S ]+/s',			// タグの後の空白を削除
-				'/[^\S ]+\</s',			// タグの前の空白を削除
-				'/(\s)+/s',				// 連続した空白を削除
-				'/(\t)+/s',				// 連続したタブを削除
-				'/<!--[\s\S]*?-->/s',	// コメントを削除
-				'/type=\'text\/javascript\'/s',	// 今は不要なものを削除
-				'/\t/s',				// 連続したタブを削除
-
+				'#\s\/\>#s',			// XMLの /> を圧縮
+				'#\>[^\S ]+#s', 		// タグの後の空白を削除
+				'#[^\S ]+\<#s', 		// タグの前の空白を削除
+				'#(\s)+#s', 			// 連続した空白を削除
+				'#(\t)+#s', 			// 連続したタブを削除
+				'#<!--[\s\S]*?-->#s',	// コメントを削除
+				'#type=\'text/javascript\'#s',   // 今は不要なものを削除
+				'#\t#s',				// 連続したタブを削除
 			);
 			$replace = array(
 				'>',
@@ -48,6 +47,8 @@ class neohp_htmlcompress {
 				' ',
 				' ',
 				' ',
+				'',
+				'',
 			);
 			$buffer = preg_replace($search, $replace, $buffer);
 			$buffer = preg_replace($search, $replace, $buffer);

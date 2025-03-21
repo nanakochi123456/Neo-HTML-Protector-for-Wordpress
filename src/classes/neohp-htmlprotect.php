@@ -61,35 +61,53 @@ class neohp_htmlprotect {
 		$html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
 		$html .= 'location.href=atob(neUrl);';
 		$html .= '</script>';
-		$html .= '<title>' . $title . '</title>';
 
-		$meta_description = get_post_meta(get_the_ID(), 'meta_description', true);
-		$meta_keywords = get_post_meta(get_the_ID(), 'meta_keywords', true);
-		if($meta_description !== "") {
-			$html .= '<meta name="description" content="' . $meta_description . '">';
-		}
-		if($meta_keywords !== "") {
-			$html .= '<meta name="keywords" content="' . $meta_keywords . '">';
-		}
-		$image_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
-		if($image_url) {
-			$html .= '<meta property="og:image" content="' . $image_url . '">';
-		}
+		// Wordpressから <head>の部分のみ取得
+		ob_start();
+		do_action('wp_head');
+		$head = ob_get_clean();
 
-		$html .= '<meta property="og:type" content="website">';
-		$html .= '<meta property="og:description" content="' . get_bloginfo('description') . '">';
-		$html .= '<meta property="og:title" content="' . $title . '">';
-		$html .= '<meta property="og:url" content="' . $current_url . '">';
-		$html .= '<meta property="og:site_name" content="' . get_bloginfo('name') . '">';
-
-		$feedbase = $scheme . '://' . $host;
-		$html .= '<link rel="alternate" type="application/rss+xml" title="' . get_bloginfo('name') . ' &raquo; feed" href="' . $feedbase . '/feed/">';
-		$html .= '<link rel="alternate" type="application/rss+xml" title="' . get_bloginfo('name') . ' &raquo; comment feed" href="' . $feedbase . '/comments/feed/">';
-
+		$html .= $this->sanitize_output_head($head);
 		$html .= '</head></html>';
 
 		echo $html;
 		exit;
+	}
+
+	// HTML圧縮
+	protected function sanitize_output_head($buffer) {
+		if(!is_user_logged_in()) {
+			$search = array(
+				'#\s\/\>#s',			// XMLの /> を圧縮
+				'#\>[^\S ]+#s', 		// タグの後の空白を削除
+				'#[^\S ]+\<#s', 		// タグの前の空白を削除
+				'#(\s)+#s', 			// 連続した空白を削除
+				'#(\t)+#s', 			// 連続したタブを削除
+				'#<!--[\s\S]*?-->#s',	// コメントを削除
+				'#type=\'text/javascript\'#s',   // 今は不要なものを削除
+				'#\t#s',				// 連続したタブを削除
+				'#<style.*?>.*?<\/style>#s',  // styleは不要
+				'#<script(.+?)<\/script>#s',  // scriptは不要
+				'#<link(.+?)rel=["\']stylesheet["\'](.+?)>#s', //styleシートは不要
+			);
+			$replace = array(
+				'>',
+				'>',
+				'<',
+				'\\1',
+				'',
+				'\\1',
+				' ',
+				' ',
+				' ',
+				' ',
+				' ',
+				' ',
+			);
+			$buffer = preg_replace($search, $replace, $buffer);
+			$buffer = preg_replace($search, $replace, $buffer);
+		}
+		return $buffer;
 	}
 
 	// クッキーからエンコードされたURLを取得し、リダイレクトする
@@ -139,7 +157,7 @@ class neohp_htmlprotect {
 			// RSSでないこと、、コメントの時でないこと
 			if (
 				strpos($_SERVER['REQUEST_URI'], '/feed/') === false
-			 &&	empty($_GET['unapproved'])  // コメント投稿（承認待ち）
+			 &&	empty($_GET['unapproved'])	// コメント投稿（承認待ち）
 			 &&	empty($_GET['moderation-hash']) // コメント投稿（承認用ハッシュあり）
 			) {
 				// UNIXtime / 60

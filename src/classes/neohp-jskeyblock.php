@@ -39,8 +39,9 @@ class neohp_jskeyblock {
 
 	    if(get_option('neohp_alert_d', '0') === '1')   { $html.="d";}
 		$home = home_url();
+		$nonce = wp_create_nonce('neohp_action');
 	    ?>
-<script id='neohp'>var NeoHPHome="<?php echo $home ?>",NeoHPFlg="<?php echo $html?>";</script>
+<script id='neohp'>var NeoHPHome="<?php echo esc_js($home) ?>",NeoHPFlg="<?php echo esc_js($html) ?>",NeoHPnonce="<?php echo esc_js($nonce) ?>"</script>
 		<?php
 	}
 

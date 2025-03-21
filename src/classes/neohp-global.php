@@ -3,63 +3,69 @@
  * Neo HTML Protector global
  */
 
-$neohp_redirect_default = __('https://google.co.jp', NEOHP_DOMAIN);
+$neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 
 $neohp_debugmode_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('デバッグモード、コンソールの起動は禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたの押下したキー:$KEY', NEOHP_DOMAIN)
-		, __('リダイレクトをします', NEOHP_DOMAIN)
+		, __('デバッグモード、コンソールの起動は禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたの押下したキー:$KEY', 'neo-html-protector')
+		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
 $neohp_rightclick_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('右クリックは禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたの押下したキー:$KEY', NEOHP_DOMAIN)
-		, __('リダイレクトをします', NEOHP_DOMAIN)
+		, __('右クリックは禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたの押下したキー:$KEY', 'neo-html-protector')
+		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
 $neohp_printout_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('印刷、PDFへの保存は禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたの押下したキー:$KEY', NEOHP_DOMAIN)
-		, __('リダイレクトをします', NEOHP_DOMAIN)
+		, __('印刷、PDFへの保存は禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたの押下したキー:$KEY', 'neo-html-protector')
+		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
 $neohp_copycut_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('コピー、カットは禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたが起こしたイベント:$KEY', NEOHP_DOMAIN)
-		, __('リダイレクトをします', NEOHP_DOMAIN)
+		, __('コピー、カットは禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたが起こしたイベント:$KEY', 'neo-html-protector')
+		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
 $neohp_htmlsource_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('HTMLソース表示は禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたの押下したキー:$KEY', NEOHP_DOMAIN)
-		, __('リダイレクトをします', NEOHP_DOMAIN)
+		, __('HTMLソース表示は禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたの押下したキー:$KEY', 'neo-html-protector')
+		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
 $neohp_viewsource_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s"
-		, __('HTMLソース表示は禁止されています', NEOHP_DOMAIN)
-		, __('以下の情報がサーバーに送信されました', NEOHP_DOMAIN)
-		, __('あなたのIPアドレス:$IP', NEOHP_DOMAIN)
-		, __('URL:$URL', NEOHP_DOMAIN)
-		, __('あなたが起こしたイベント:view-source:$URL', NEOHP_DOMAIN)
+		, __('HTMLソース表示は禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたが起こしたイベント:view-source:$URL', 'neo-html-protector')
 	);
