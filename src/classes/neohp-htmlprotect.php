@@ -5,13 +5,70 @@
 
 $neohp_htmlprotect=new neohp_htmlprotect();
 class neohp_htmlprotect {
+	protected $neohp_database;
+
 	public function __construct() {
+		// dbを呼び出し
+		$this->neohp_database=new neohp_database();
+
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') == 1) {
+			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
+			 $this->imagetransfer();
+
 			add_action('template_redirect', array($this, 'neohp_check_and_redirect'), 2);
 		}
 	}
-	
+
+	// OGP用画像転送
+	public function imagetransfer() {
+		// 現在の URL が「画像転送用の URL」かをチェック
+		if (isset($_GET['neohp']) && $_GET['neohp'] == 'image' && isset($_GET['ogp'])) {
+			$image_url = sanitize_text_field($_GET['ogp']);
+			
+			// WordPressのアップロードディレクトリのパスを取得
+			$upload_dir = wp_upload_dir();
+			$upload_base_url = $upload_dir['baseurl']; // 例: https://support.773.moe/wp-content/uploads
+			
+			// URLからアップロードディレクトリのベース部分を取り除く
+			$relative_path = str_replace($upload_base_url, '', $image_url);
+			
+			// WordPressのアップロードディレクトリのファイルパスを生成
+			$image_path = $upload_dir['basedir'] . $relative_path;
+			
+			// 画像ファイルが存在する場合、リダイレクト
+			if (file_exists($image_path)) {
+				// 必要に応じて、適切なコンテンツタイプを設定
+				header('Content-Type: ' . mime_content_type($image_path)); // 画像の形式に合わせて自動設定
+				
+				// 画像を出力して転送
+				readfile($image_path);
+
+				$user_ip = $this->get_user_ip();
+				// 一時的なデータベースも削除
+				$this->neohp_database->delete_view_source(
+					array( 'ip' => $user_ip)
+				);
+
+				exit; // その後の処理を停止
+			} else {
+				// 画像が見つからない場合の処理（404など）
+				wp_die('画像が見つかりません');
+			}
+		}
+	}
+
+	protected function get_user_ip() {
+		if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+			$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+		} elseif (!empty($_SERVER['HTTP_X_REAL_IP'])) {
+			$ip = $_SERVER['HTTP_X_REAL_IP'];
+		} else {
+			$ip = $_SERVER['REMOTE_ADDR'];
+		}
+		return $ip;
+	}
+
 	// 9秒のクッキーを発行してエンコードされたURLを保存
 	public function neohp_set_cookie_and_redirect() {
 		// 現在のURLを取得
@@ -46,7 +103,7 @@ class neohp_htmlprotect {
 			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
 
 			// ユーザーのIPアドレスを取得
-			$user_ip = $_SERVER['REMOTE_ADDR'];
+			$user_ip = $this->get_user_ip();
 
 			$protectmsg = str_replace('$IP', $user_ip, $protectmsg);
 			$protectmsg = str_replace('$URL', $current_url, $protectmsg);
@@ -65,13 +122,129 @@ class neohp_htmlprotect {
 		// Wordpressから <head>の部分のみ取得
 		ob_start();
 		do_action('wp_head');
-		$head = ob_get_clean();
+		$head = $this->replace_image_urls(ob_get_clean());
 
 		$html .= $this->sanitize_output_head($head);
 		$html .= '</head></html>';
 
 		echo $html;
+
+		if($this->is_not_bot()) {
+			// ユーザーのIPアドレスを取得
+			$user_ip = $this->get_user_ip();
+			$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
+			$min = floor(time() / 60);
+
+			// 一時的なログにview-sourceの検出情報を保存
+			$wpdb = $this->neohp_database->create_view_source();
+
+			// テーブルに保存
+			$this->neohp_database->insert_view_source(
+				$user_ip, $current_url, 'view-source', $ua
+			);
+		}
+
 		exit;
+	}
+
+	// cookieと一時データベースを削除
+	protected function delete_cookie_and_database($cookie_name, $min) {
+		if (isset($_COOKIE[$cookie_name])) {
+			$user_ip = $this->get_user_ip();
+
+			// クッキーにエンコードされたURLがある場合、デコードしてリダイレクト
+			$neo_encoded_url = $_COOKIE[$cookie_name];
+			$decoded_url = base64_decode($neo_encoded_url);
+
+			// クッキーを削除
+			setcookie($cookie_name, "", time() - 3600, "/");
+
+			// 一時的なデータベースも削除
+			$this->neohp_database->delete_view_source(
+				array( 'ip' => $user_ip)
+			);
+
+			// 現在のページとリダイレクト先が異なる場合にリダイレクト
+			if ($_SERVER['REQUEST_URI'] !== $decoded_url) {
+				header("Location: $decoded_url");
+				exit;
+			}
+		}
+	}
+
+	// クッキーからエンコードされたURLを取得し、リダイレクトする
+	public function neohp_redirect_from_cookie() {
+		// UNIXtime / 60
+		$min = floor(time() / 60);
+		$cookie_name = 'ne' . $min;
+
+		$min2 = floor(time() / 60);
+		$cookie_name2 = 'ne' . $min2;
+
+		$this->delete_cookie_and_database($cookie_name, $min);
+		$this->delete_cookie_and_database($cookie_name2, $min2);
+	}
+
+	public function movedatabase() {
+		global $wpdb;
+
+		$table_name = $wpdb->prefix . 'view_source_log';
+
+		$results = $wpdb->get_results(
+			"
+			SELECT * FROM $table_name
+			WHERE timestamp <= NOW() - INTERVAL 10 SECOND
+			"
+		);
+
+		// view_source_log から user_ip_logに移動して
+		// view_source_logを削除する
+		foreach ($results as $row) {
+			$this->neohp_database->insert_user_ip(
+				$row->ip,
+				$row->url,
+				'view-source',
+				$row->ua
+			);
+		}
+	}
+
+	// クッキーがあるか確認してリダイレクトする
+	public function neohp_check_and_redirect() {
+		// ここで一時的なログからデータベースに移動する
+		$this->movedatabase();
+
+		if ( ! is_user_logged_in() ) {
+			// RSSでないこと、、コメントの時でないこと
+			if (
+				strpos($_SERVER['REQUEST_URI'], '/feed/') === false
+			 &&	empty($_GET['unapproved'])	// コメント投稿（承認待ち）
+			 &&	empty($_GET['moderation-hash']) // コメント投稿（承認用ハッシュあり）
+			) {
+				// UNIXtime / 60
+				$min = floor(time() / 60);
+				$cookie_name = 'ne' . $min;
+
+				$min2 = floor(time() / 60) - 1;
+				$cookie_name2 = 'ne' . $min2;
+
+				// クッキーがセットされている場合、リダイレクト処理を実行
+				if (isset($_COOKIE[$cookie_name])
+				 || isset($_COOKIE[$cookie_name2])) {
+					$this->neohp_redirect_from_cookie();
+				} else {
+					// クッキーがない場合、9秒のクッキーを発行してリダイレクト
+					$this->neohp_set_cookie_and_redirect();
+				}
+			}
+		}
+	}
+
+	// botでないことを確認する
+	function is_not_bot() {
+		$user_agent = mb_strtolower($_SERVER['HTTP_USER_AGENT']);
+		// https://www.casis-iss.org/ex1911/
+		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly/i', $user_agent);
 	}
 
 	// HTML圧縮
@@ -110,73 +283,21 @@ class neohp_htmlprotect {
 		return $buffer;
 	}
 
-	// クッキーからエンコードされたURLを取得し、リダイレクトする
-	public function neohp_redirect_from_cookie() {
-		// UNIXtime / 60
-		$min = floor(time() / 60);
-		$cookie_name = 'ne' . $min;
+	// og:image、twitter:imageのURLをneohpに置き換える
+	function replace_image_urls($content) {
+		// WordPress のサイトURLを取得
+		$site_url = get_site_url();
+		
+		// 正規表現で twitter:image と og:image のURLを置き換える
+		$pattern = '/(<meta\s+(?:property|name)="(?:twitter:image|og:image)"\s+content=")(https?:\/\/[^"]+)(")/';
 
-		$min2 = floor(time() / 60);
-		$cookie_name2 = 'ne' . $min2;
+		// 置換後の URL にサイトのURLを追加
+		$replacement = '$1' . $site_url . '/?neohp=image&ogp=$2' . '$3';
 
-		if (isset($_COOKIE[$cookie_name])) {
-			// クッキーにエンコードされたURLがある場合、デコードしてリダイレクト
-			$neo_encoded_url = $_COOKIE[$cookie_name];
-			$decoded_url = base64_decode($neo_encoded_url);
+		// コンテンツ内の該当する部分を置き換え
+		$content = preg_replace($pattern, $replacement, $content);
 
-			// クッキーを削除
-			setcookie($cookie_name, "", time() - 3600, "/");
-
-			// 現在のページとリダイレクト先が異なる場合にリダイレクト
-			if ($_SERVER['REQUEST_URI'] !== $decoded_url) {
-				header("Location: $decoded_url");
-				exit;
-			}
-		}
-
-		// 1分前も処理する
-		if (isset($_COOKIE[$cookie_name2])) {
-			// クッキーにエンコードされたURLがある場合、デコードしてリダイレクト
-			$neo_encoded_url = $_COOKIE[$cookie_name2];
-			$decoded_url = base64_decode($neo_encoded_url);
-
-			// クッキーを削除
-			setcookie($cookie_name2, "", time() - 3600, "/");
-
-			// 現在のページとリダイレクト先が異なる場合にリダイレクト
-			if ($_SERVER['REQUEST_URI'] !== $decoded_url) {
-				header("Location: $decoded_url");
-				exit;
-			}
-		}
+		return $content;
 	}
 
-	// クッキーがあるか確認してリダイレクトする
-	public function neohp_check_and_redirect() {
-		if ( ! is_user_logged_in() ) {
-			// RSSでないこと、、コメントの時でないこと
-			if (
-				strpos($_SERVER['REQUEST_URI'], '/feed/') === false
-			 &&	empty($_GET['unapproved'])	// コメント投稿（承認待ち）
-			 &&	empty($_GET['moderation-hash']) // コメント投稿（承認用ハッシュあり）
-			) {
-				// UNIXtime / 60
-				$min = floor(time() / 60);
-				$cookie_name = 'ne' . $min;
-
-				$min2 = floor(time() / 60) - 1;
-				$cookie_name2 = 'ne' . $min2;
-
-				// クッキーがセットされている場合、リダイレクト処理を実行
-				if (isset($_COOKIE[$cookie_name])) {
-					$this->neohp_redirect_from_cookie();
-				} elseif (isset($_COOKIE[$cookie_name2])) {
-					$this->neohp_redirect_from_cookie();
-				} else {
-					// クッキーがない場合、9秒のクッキーを発行してリダイレクト
-					$this->neohp_set_cookie_and_redirect();
-				}
-			}
-		}
-	}
 }

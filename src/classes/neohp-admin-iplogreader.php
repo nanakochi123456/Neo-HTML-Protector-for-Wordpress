@@ -8,27 +8,20 @@ if (is_admin()) {
 }
 
 class neohp_iplogreader {
+	protected $neohp_database;
+	protected $neohp_htmlprotect;
+
 	public function __construct() {
+		// dbを呼び出し
+		$this->neohp_database=new neohp_database();
+		$this->neohp_htmlprotect = new neohp_htmlprotect();
+
 		// IPリーダーのメニュー追加
 		add_action('admin_menu', array( $this, 'ip_log_reader_menu' ) );
 
 		// IPアドレスを保存するテーブルがなければ作成
 
-		global $wpdb;
-		$table_name = esc_sql($wpdb->prefix . 'user_ip_log');
-
-		// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
-		$wpdb->query(
-			"CREATE TABLE IF NOT EXISTS `$table_name` (
-				id BIGINT NOT NULL AUTO_INCREMENT,
-				ip VARCHAR(128) NOT NULL,
-				url VARCHAR(1024) NOT NULL,
-				keyb VARCHAR(128) NOT NULL,
-				ua VARCHAR(4096) NOT NULL,
-				timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-				PRIMARY KEY (id)
-			)"
-		);
+		$wpdb=$this->neohp_database->create_user_ip();
 	}
 
 	// IPログリーダーの設置
