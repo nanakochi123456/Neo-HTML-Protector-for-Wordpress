@@ -69,3 +69,13 @@ $neohp_viewsource_default =
 		, __('URL:$URL', 'neo-html-protector')
 		, __('あなたが起こしたイベント:view-source:$URL', 'neo-html-protector')
 	);
+
+$neohp_nonceerror_default =
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s"
+		, __('不正アクセスは禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス:$IP', 'neo-html-protector')
+		, __('あなたの端末とブラウザ:$UA', 'neo-html-protector')
+		, __('URL:$URL', 'neo-html-protector')
+		, __('あなたが起こしたイベント:view-source:$URL', 'neo-html-protector')
+	);

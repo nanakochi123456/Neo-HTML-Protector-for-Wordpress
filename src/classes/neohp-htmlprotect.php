@@ -135,10 +135,12 @@ class neohp_htmlprotect {
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
+		$nonce = $this->create_short_nonce('neUrl');
 		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 		$html .= '<script>';
 		$html .= 'var neUrl="' . $neo_encoded_url . '";';
 		$html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
+		$html .= 'document.cookie="nonce=' . $nonce . ';max-age=9;path=/";';
 		$html .= 'location.href=atob(neUrl);';
 		$html .= '</script>';
 
@@ -260,13 +262,65 @@ class neohp_htmlprotect {
 				// クッキーがセットされている場合、リダイレクト処理を実行
 				if (isset($_COOKIE[$cookie_name])
 				 || isset($_COOKIE[$cookie_name2])) {
-					$this->neohp_redirect_from_cookie();
+					if (isset($_COOKIE['nonce']) && $this->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
+						$this->neohp_redirect_from_cookie();
+					} else {
+						require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+						// URLを取得
+						$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
+						$host = $_SERVER['HTTP_HOST'];
+						$request_uri = $_SERVER['REQUEST_URI'];
+						$current_url = $scheme . '://' . $host . $request_uri;
+
+						$user_ip = $this->get_user_ip();
+						$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
+
+						$value = get_option('neohp_nonceerror_message', $neohp_nonceerror_default);
+						$value = str_replace('$IP', $user_ip, $value);
+						$value = str_replace('$URL', $current_url, $value);
+						$value = str_replace('$KEY', 'nonce error', $value);
+						$value = str_replace('$UA', $ua, $value);
+						$value = str_replace("\\n", '<br>', $value);
+
+						// テーブルに保存
+						$this->neohp_database->insert_user_ip(
+							$user_ip, $current_url, 'nonce error', $ua
+						);
+						wp_die($value);
+					}
 				} else {
 					// クッキーがない場合、9秒のクッキーを発行してリダイレクト
 					$this->neohp_set_cookie_and_redirect();
 				}
 			}
 		}
+	}
+
+	// ショートnonce
+	function create_short_nonce($action) {
+		$expires = time() + 10; // 10秒有効
+		$nonce = hash_hmac('sha256', $action . '|' . $expires, wp_salt());
+		return base64_encode(json_encode([$nonce, $expires]));
+	}
+
+	// ショートnonceの検証
+	function verify_short_nonce($nonce, $action) {
+		$data = json_decode(base64_decode($nonce), true);
+		if (!$data || count($data) !== 2) {
+			return false;
+		}
+
+		list($expected_nonce, $expires) = $data;
+
+		// 有効期限チェック
+		if ($expires < time()) {
+			return false;
+		}
+
+		// HMAC チェック
+		$calculated_nonce = hash_hmac('sha256', $action . '|' . $expires, wp_salt());
+
+		return hash_equals($expected_nonce, $calculated_nonce);
 	}
 
 	// botでないことを確認する
