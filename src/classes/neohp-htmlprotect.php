@@ -248,7 +248,7 @@ class neohp_htmlprotect {
 	function is_not_bot() {
 		$user_agent = mb_strtolower($_SERVER['HTTP_USER_AGENT']);
 		// https://www.casis-iss.org/ex1911/
-		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly/i', $user_agent);
+		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly|wordpress/i', $user_agent);
 	}
 
 	// HTML圧縮
