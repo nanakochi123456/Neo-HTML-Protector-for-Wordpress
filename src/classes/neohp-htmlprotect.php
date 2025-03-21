@@ -38,8 +38,29 @@ class neohp_htmlprotect {
 			
 			// 画像ファイルが存在する場合、リダイレクト
 			if (file_exists($image_path)) {
+				// コンテンツタイプが正しいか確認
+				$allowed_types = [
+					'image/jpeg',
+					'image/png',
+					'image/gif',
+					'image/bmp',
+					'image/webp',
+					'image/avif',
+					'image/tiff',
+					'image/svg+xml',
+					'image/vnd.microsoft.icon',
+					'image/heif',
+					'image/heic',
+					'image/jp2',
+				];
+				if (!in_array($mime_type, $allowed_types)) {
+					wp_die(__('画像が見つかりません', 'neo-html-protector'));
+				}
+				$mine = $mine_content_type($image_path);
+
+
 				// 必要に応じて、適切なコンテンツタイプを設定
-				header('Content-Type: ' . mime_content_type($image_path)); // 画像の形式に合わせて自動設定
+				header('Content-Type: ' . $mine); // 画像の形式に合わせて自動設定
 				
 				// 画像を出力して転送
 				readfile($image_path);
@@ -53,7 +74,7 @@ class neohp_htmlprotect {
 				exit; // その後の処理を停止
 			} else {
 				// 画像が見つからない場合の処理（404など）
-				wp_die('画像が見つかりません');
+				wp_die(__('画像が見つかりません', 'neo-html-protector'));
 			}
 		}
 	}
@@ -125,7 +146,9 @@ class neohp_htmlprotect {
 		$head = $this->replace_image_urls(ob_get_clean());
 
 		$html .= $this->sanitize_output_head($head);
-		$html .= '</head></html>';
+		$html .= '<noscript>';
+		$html .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
+		$html .= '</noscript></head></html>';
 
 		echo $html;
 

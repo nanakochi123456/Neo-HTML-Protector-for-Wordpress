@@ -271,3 +271,9 @@ msgstr "HTML source display is prohibited"
 #: classes/neohp-global.php:70
 msgid "あなたが起こしたイベント:view-source:$URL"
 msgstr "The event you caused:view-source:$URL"
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません";
+msgstr "This website can only be viewed with cookies and JavaScript enabled"
+
+msgid "画像が見つかりません"
+msgstr "Image not found"
