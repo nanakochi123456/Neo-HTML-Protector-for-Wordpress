@@ -260,7 +260,6 @@ class neohp_htmlprotect {
 				'#type=\'text/javascript\'#s',   // 今は不要なものを削除
 				'#\t#s',				// 連続したタブを削除
 				'#<style.*?>.*?<\/style>#s',  // styleは不要
-				'#<script(.+?)<\/script>#s',  // scriptは不要
 				'#<link(.+?)rel=["\']stylesheet["\'](.+?)>#s', //styleシートは不要
 			);
 			$replace = array(
@@ -278,9 +277,31 @@ class neohp_htmlprotect {
 				' ',
 			);
 			$buffer = preg_replace($search, $replace, $buffer);
+			$buffer = $this->remove_script_tags($buffer);
 			$buffer = preg_replace($search, $replace, $buffer);
+
+
 		}
 		return $buffer;
+	}
+
+	// <script ～ </script>を削除、ただし、ld+jsonを除く
+	function remove_script_tags($html) {
+		// プレースホルダーを使って ld+json の script タグを保護
+		$placeholders = [];
+		$html = preg_replace_callback('/<script type="application\/ld\+json">(.*?)<\/script>/is', function ($matches) use (&$placeholders) {
+			$key = '%%LD_JSON_SCRIPT_' . count($placeholders) . '%%';
+			$placeholders[$key] = $matches[0];
+			return $key;
+		}, $html);
+
+		// 他の <script> タグを削除
+		$html = preg_replace('/<script.*?>.*?<\/script>/is', '', $html);
+
+		// プレースホルダーを元に戻す
+		$html = strtr($html, $placeholders);
+
+		return $html;
 	}
 
 	// og:image、twitter:imageのURLをneohpに置き換える
