@@ -38,6 +38,8 @@ class neohp_htmlprotect {
 			
 			// 画像ファイルが存在する場合、リダイレクト
 			if (file_exists($image_path)) {
+				$mime = mime_content_type($image_path);
+
 				// コンテンツタイプが正しいか確認
 				$allowed_types = [
 					'image/jpeg',
@@ -53,11 +55,9 @@ class neohp_htmlprotect {
 					'image/heic',
 					'image/jp2',
 				];
-				if (!in_array($mime_type, $allowed_types)) {
-					wp_die(__('画像が見つかりません', 'neo-html-protector'));
+				if (!in_array($mime, $allowed_types)) {
+					wp_die(__('画像が見つかりません' . $mime, 'neo-html-protector'));
 				}
-				$mine = $mine_content_type($image_path);
-
 
 				// 必要に応じて、適切なコンテンツタイプを設定
 				header('Content-Type: ' . $mine); // 画像の形式に合わせて自動設定
