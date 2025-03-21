@@ -121,6 +121,7 @@ class neohp_htmlprotect {
 		// <!doctype html>の前に警告メッセージを表示する
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
+			$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
 			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
 
 			// ユーザーのIPアドレスを取得
@@ -129,6 +130,7 @@ class neohp_htmlprotect {
 			$protectmsg = str_replace('$IP', $user_ip, $protectmsg);
 			$protectmsg = str_replace('$URL', $current_url, $protectmsg);
 			$protectmsg = str_replace('$KEY', "view-source:$current_url", $protectmsg);
+			$protectmsg = str_replace('$UA', $ua, $protectmsg);
 			$protectmsg = str_replace('\\n', "\n", $protectmsg);
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";

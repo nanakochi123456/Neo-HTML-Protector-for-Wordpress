@@ -83,8 +83,8 @@ msgid "HTMLソース表示時に表示するメッセージ"
 msgstr "Message to be displayed when displaying HTML source"
 
 #: classes/neohp-admin.php:116
-msgid "HTML保護時にソースの先頭に表示するメッセージ"
-msgstr "Message to be displayed at the beginning of the source when HTML is protected"
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Message to be displayed at the beginning of the source when HTML is obfuscated/protected"
 
 #: classes/neohp-admin.php:130
 msgid "転送先URL"
@@ -272,7 +272,7 @@ msgstr "HTML source display is prohibited"
 msgid "あなたが起こしたイベント:view-source:$URL"
 msgstr "The event you caused:view-source:$URL"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません";
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "This website can only be viewed with cookies and JavaScript enabled"
 
 msgid "画像が見つかりません"

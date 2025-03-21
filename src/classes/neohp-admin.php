@@ -113,7 +113,7 @@ class neohp_admin {
 			register_setting('neohp_settings_group', 'neohp_htmlprotect_message');
 			add_settings_field(
 				'neohp_htmlprotect_message',
-				__('HTML保護時にソースの先頭に表示するメッセージ', 'neo-html-protector'),
+				__('HTML難読化・保護時にソースの先頭に表示するメッセージ', 'neo-html-protector'),
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_htmlprotect_message', $neohp_viewsource_default );
