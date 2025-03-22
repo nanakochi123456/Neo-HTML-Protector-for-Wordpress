@@ -20,7 +20,7 @@ copy ..\*.txt .
 echo Snapshot %datetime:~0,14%
 
 @echo on
-wsl 7z a -tzip -mx9 %NAME%-%datetime:~0,14%.zip *.bat *.sh *.php *.md *.txt classes/*.php js/*.js languages/*.pot languages/*.po languages/*.mo
+wsl 7z a -tzip -mx9 %NAME%-%datetime:~0,14%.zip *.bat *.sh *.php *.md *.txt cache/*.txt build/* classes/*.php js/*.js languages/*
 
 @echo off
 copy %NAME%-%datetime:~0,14%.zip %FTP%
