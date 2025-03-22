@@ -1,4 +1,4 @@
-# English(USA) translations for Neo HTML Protector package.
+# Chinese (simplified) translations for Neo HTML Protector package.
 # Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
 #  <plugin@773.moe>, 2025.
@@ -10,251 +10,251 @@ msgstr ""
 "POT-Creation-Date: 2025-03-22 22:49+0900\n"
 "PO-Revision-Date: 2025-03-22 22:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
-"Language-Team: English(USA)\n"
-"Language: en_US\n"
+"Language-Team: Chinese (simplified)\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 msgid "設定"
-msgstr "Setting"
+msgstr "设置"
 
 msgid "IPログリーダー"
-msgstr "IP Log Reader"
+msgstr "IP 日志阅读器"
 
 msgid "IPアドレスログ"
-msgstr "IP address log"
+msgstr "IP 地址日志"
 
 msgid "全クリア"
-msgstr "All clear"
+msgstr "一切正常"
 
 msgid "IPログが全て削除されました"
-msgstr "All IP logs have been deleted."
+msgstr "所有 IP 日志均已删除。"
 
 msgid "ID"
-msgstr "ID"
+msgstr "身份证"
 
 msgid "IPアドレス"
-msgstr "IP address"
+msgstr "IP 地址"
 
 msgid "ユーザーエージェント"
-msgstr "User agent"
+msgstr "用户代理"
 
 msgid "イベント"
-msgstr "Events"
+msgstr "活动"
 
 msgid "日時"
-msgstr "Date and Time"
+msgstr "日期和时间"
 
 msgid "IPアドレスのデータはありません"
-msgstr "No IP address data available"
+msgstr "无 IP 地址数据。"
 
 msgid "デバッグモード、コンソールの警告メッセージ"
-msgstr "Debug mode, console warning messages"
+msgstr "调试模式，控制台警告信息。"
 
 msgid "右クリックの警告メッセージ"
-msgstr "Right-click warning message"
+msgstr "右键单击警告信息。"
 
 msgid "印刷、PDF保存の警告メッセージ"
-msgstr "Warning messages for printing and saving PDFs"
+msgstr "打印和保存 PDF 文件时的警告信息。"
 
 msgid "コピー・カットした時に表示するメッセージ"
-msgstr "Message to be displayed when copying/cutting"
+msgstr "复印或剪切时显示信息。"
 
 msgid "HTMLソース表示時に表示するメッセージ"
-msgstr "Message to be displayed when displaying HTML source"
+msgstr "显示 HTML 代码时要显示的信息"
 
 msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
-msgstr "Message to be displayed at the beginning of the source when HTML is obfuscated/protected"
+msgstr "当 HTML 被混淆和保护时，在源代码开头显示的信息。"
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
-msgstr "Message displayed when one-time authentication token is abnormal during HTML protection"
+msgstr "如果一次性身份验证令牌在 HTML 保护过程中出现异常，则显示此消息。"
 
 msgid "HTML難読化 (圧縮)"
-msgstr "HTML obfuscation"
+msgstr "HTML 混淆（压缩）"
 
 msgid "無効"
-msgstr "Invalid"
+msgstr "无效"
 
 msgid "有効"
-msgstr "Validity"
+msgstr "有效性"
 
 msgid "HTML保護"
-msgstr "HTML Protection"
+msgstr "HTML 保护"
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "SEO may drop because of redirects whenever they are activated"
+msgstr "无论何时激活，都会出现重定向，这可能会导致搜索引擎优化效果下降"
 
 msgid "デバッグモード"
-msgstr "Debug mode"
+msgstr "调试模式"
 
 msgid "妨害＋記録のみ"
-msgstr "Disturbance + record only"
+msgstr "仅干扰+记录。"
 
 msgid "妨害＋記録＋表示＋リダイレクト"
-msgstr "Intercept + Record + Display + Redirect"
+msgstr "拦截 + 记录 + 显示 + 重定向"
 
 msgid "ブラウザーコンソール"
-msgstr "Browser Console"
+msgstr "浏览器控制台"
 
 msgid "HTMLソース表示"
-msgstr "HTML source display"
+msgstr "显示 HTML 源代码"
 
 msgid "印刷"
-msgstr "Printing"
+msgstr "印刷"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
-msgstr "Some browsers do not work well, although they prevent printing"
+msgstr "打印阻塞，但在某些浏览器中效果不佳"
 
 msgid "右クリック"
-msgstr "Right click"
+msgstr "右击"
 
 msgid "コピー・カット"
-msgstr "Copy-cut"
+msgstr "复制剪切"
 
 msgid "テキスト選択"
-msgstr "Text selection"
+msgstr "文本选择"
 
 msgid "デバッガー妨害"
-msgstr "Debugger interference"
+msgstr "调试器干扰"
 
 msgid "妨害"
-msgstr "Interference"
+msgstr "干涉"
 
 msgid "リダイレクトするURL"
-msgstr "URL to redirect"
+msgstr "要重定向到的 URL"
 
 msgid "HTML保護時のheadタグの出力"
-msgstr "Output of head tag when HTML is protected"
+msgstr "在 HTML 保护过程中输出头部标记"
 
 msgid "出力しない"
-msgstr "No output"
+msgstr "无输出"
 
 msgid "titleタグのみ"
-msgstr "Title tag only"
+msgstr "仅标题标签"
 
 msgid "Wordpressのheadタグより取得"
-msgstr "Retrieved from Wordpress head tag"
+msgstr "取自 Wordpress head 标签"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "One-time token checks during HTML protection"
+msgstr "在 HTML 保护过程中进行一次性令牌检查。"
 
 msgid "基本設定"
-msgstr "Basic setting"
+msgstr "基本设置"
 
 msgid "高度な設定"
-msgstr "Advanced Settings"
+msgstr "高级设置"
 
 msgid "メッセージの設定"
-msgstr "Message Settings"
+msgstr "信息设置"
 
 msgid "右クリックやソースコード表示時に転送する URL を設定します"
-msgstr "Set the URL to be forwarded when right-clicking or viewing source code"
+msgstr "设置右键单击或查看源代码时要转发的 URL。"
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "HTML is not allowed in warning messages"
+msgstr "警告信息不能使用 HTML"
 
 msgid "以下の文字列が使用できます"
-msgstr "The following strings can be used"
+msgstr "可以使用以下字符串"
 
 msgid "改行"
-msgstr "New line"
+msgstr "新线"
 
 msgid "押下されたキー"
-msgstr "Pressed key"
+msgstr "按键"
 
 msgid "Neo HTML Protector 設定"
-msgstr "Neo HTML Protector Settings"
+msgstr "尼欧 HTML 保护程序设置"
 
 msgid "初期設定に戻す"
-msgstr "Restore default settings"
+msgstr "重置为默认值"
 
 msgid "このプラグインについて"
-msgstr "About this Plug-in"
+msgstr "关于此插件。"
 
 msgid "Neo HTML Protectorについて"
-msgstr "About Neo HTML Protector"
+msgstr "关于 Neo HTML Protector"
 
 msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "This plugin is intended to protect the HTML, images, etc. output from your Wordpress to protect against unauthorized use of your content!"
+msgstr "该插件旨在保护 Wordpress 输出的 HTML、图片等，防止未经授权使用其内容！"
 
 msgid "開発者: 夜桜　なの"
-msgstr "Developer: Nano Yozakura"
+msgstr "开发者：Nano Yozakura"
 
 msgid "バージョン"
-msgstr "Version"
+msgstr "版本"
 
 msgid "サポートページ"
-msgstr "Support Page"
+msgstr "支持页面"
 
 msgid "支援のお願い"
-msgstr "Request for Support"
+msgstr "请求援助。"
 
 msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
-msgstr "Thank you for using Neo HTML Protector!"
+msgstr "感谢您使用 Neo HTML Protector！"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "The development and maintenance of this plugin has taken a lot of time and wisdom, and we would appreciate a donation, if any, to help us raise funds for continued improvements and updates."
+msgstr "本插件的开发和维护耗费了我们大量的时间和智慧，如果有捐赠，我们将不胜感激，以帮助我们筹集资金进行持续改进和更新。"
 
 msgid "寄付について"
-msgstr "About Donations"
+msgstr "关于捐赠"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Donations are voluntary and not mandatory. Anyone is welcome to use our plug-ins free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can."
+msgstr "捐赠是自愿的，不是强制性的。它对所有人开放，因此插件可以免费使用。但是，我们非常希望得到您的支持以继续开发，我们也非常乐意提供力所能及的帮助。"
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
-msgstr "Donations can be made by clicking on the link below. If you are in Japan, you can also donate for free, and furthermore, you can easily donate with Amazon gift certificates."
+msgstr "您可以通过以下链接捐款。如果您来自日本，也可以免费捐款，此外，您还可以使用亚马逊礼券轻松捐款。"
 
 msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "With your support, we will do our best to bring you great updates in the future!"
+msgstr "有了您的支持，我们将尽最大努力在未来为您带来更好的更新！"
 
 msgid "寄付先"
-msgstr "Donations"
+msgstr "捐助方"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
-msgstr "We appreciate your support and look forward to working with you in the future."
+msgstr "我们感谢您的支持，并期待今后与您合作。"
 
 msgid "https://google.co.jp"
-msgstr "https://google.com"
+msgstr "https://www.google.cn"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
-msgstr "Debug mode and console activation is prohibited"
+msgstr "禁止调试模式和控制台激活"
 
 msgid "以下の情報がサーバーに送信されました"
-msgstr "The following information has been sent to the server"
+msgstr "以下信息已发送至服务器"
 
 msgid "あなたのIPアドレス"
-msgstr "Your IP address"
+msgstr "您的 IP 地址"
 
 msgid "あなたの端末とブラウザ"
-msgstr "Your device and browser"
+msgstr "您的设备和浏览器"
 
 msgid "あなたの押下したキー"
-msgstr "Your pressed key"
+msgstr "您按下的键"
 
 msgid "リダイレクトをします"
-msgstr "Redirects."
+msgstr "重定向。"
 
 msgid "右クリックは禁止されています"
-msgstr "Right-clicking is prohibited"
+msgstr "禁止右键单击。"
 
 msgid "印刷、PDFへの保存は禁止されています"
-msgstr "Printing and saving to PDF is prohibited"
+msgstr "禁止打印和保存为 PDF 格式"
 
 msgid "コピー、カットは禁止されています"
-msgstr "Copying or cutting is prohibited"
+msgstr "禁止复制或剪切。"
 
 msgid "あなたが起こしたイベント"
-msgstr "Events you have caused"
+msgstr "你造成的事件"
 
 msgid "HTMLソース表示は禁止されています"
-msgstr "HTML source display is prohibited"
+msgstr "禁止显示 HTML 源代码。"
 
 msgid "不正アクセスは禁止されています"
-msgstr "Unauthorized access is prohibited."
+msgstr "禁止未经授权的访问。"
 
 msgid "画像が見つかりません"
-msgstr "Image not found"
+msgstr "未找到图像。"
 
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "This website can only be viewed with cookies and JavaScript enabled"
+msgstr "只有在启用 cookie 和 JavaScript 后才能浏览本网站"
 

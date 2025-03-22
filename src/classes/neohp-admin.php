@@ -173,7 +173,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_alert_f12');
 			add_settings_field(
 				'neohp_alert_f12',
-				__('F12 (デバッグモード)', 'neo-html-protector'),
+				'F12 (' . __('デバッグモード', 'neo-html-protector') . ')',
 				function() {
 					$value = esc_html(get_option('neohp_alert_f12', '2'));
 					echo $this->getselect("neohp_alert_f12", $value
@@ -190,7 +190,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_alert_i');
 			add_settings_field(
 				'neohp_alert_i',
-				__('Ctrl+Shift+I (デバッグモード)', 'neo-html-protector'),
+				'Ctrl+Shift+I (' . __('デバッグモード', 'neo-html-protector') . ')',
 				function() {
 					$value = esc_html(get_option('neohp_alert_i', '2'));
 					echo $this->getselect("neohp_alert_i", $value
@@ -207,7 +207,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_alert_j');
 			add_settings_field(
 				'neohp_alert_j',
-				__('Ctrl+Shift+J (コンソール)', 'neo-html-protector'),
+				'Ctrl+Shift+J (' . __('ブラウザーコンソール', 'neo-html-protector') . ')',
 				function() {
 					$value = esc_html(get_option('neohp_alert_j', '2'));
 					echo $this->getselect("neohp_alert_j", $value
@@ -224,7 +224,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_alert_u');
 			add_settings_field(
 				'neohp_alert_u',
-				__('Ctrl+U (HTMLソース表示)', 'neo-html-protector'),
+				'Ctrl + U (' . __('HTMLソース表示', 'neo-html-protector') . ')',
 				function() {
 					$value = esc_html(get_option('neohp_alert_u', '2'));
 					echo $this->getselect("neohp_alert_u", $value
@@ -241,7 +241,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_alert_p');
 			add_settings_field(
 				'neohp_alert_p',
-				__('Ctrl+P (印刷)', 'neo-html-protector'),
+				'Ctrl+P (' . __('印刷', 'neo-html-protector') . ')',
 				function() {
 					$value = esc_html(get_option('neohp_alert_p', '1'));
 					echo $this->getselect("neohp_alert_p", $value
@@ -325,7 +325,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'neohp_redirect_url');
 			add_settings_field(
 				'neohp_redirect_url',
-				__('転送先URL', 'neo-html-protector'),
+				__('リダイレクトするURL', 'neo-html-protector'),
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
@@ -339,12 +339,12 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'html_protect_head');
 			add_settings_field(
 				'html_protect_head',
-				__('HTML保護時の&lt;head&gt;タグの出力', 'neo-html-protector'),
+				__('HTML保護時のheadタグの出力', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('html_protect_head', '2'));
 					echo $this->getselect("html_protect_head", $value
 						, '0=' . __('出力しない', 'neo-html-protector')
-						, '1=' . __('&lt;title&gt;タグのみ', 'neo-html-protector')
+						, '1=' . __('titleタグのみ', 'neo-html-protector')
 						, '2=' . __('Wordpressのheadタグより取得', 'neo-html-protector')
 					);
 				},
@@ -356,7 +356,7 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'html_protect_nonce');
 			add_settings_field(
 				'html_protect_nonce',
-				__('HTML保護時の&lt;head&gt;タグの出力', 'neo-html-protector'),
+				__('HTML保護時の一度限りのトークンのチェック', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('html_protect_nonce', '2'));
 					echo $this->getselect("html_protect_nonce", $value
@@ -398,7 +398,7 @@ class neohp_admin {
 	. '<table><tr><td>\n</td><td>' . esc_html( __('改行', 'neo-html-protector') )
 	. '</td></tr><tr><td>$IP</td><td>' . esc_html( __('IPアドレス', 'neo-html-protector') )
 	. '</td></tr><tr><td>$UA</td><td>' . esc_html( __('ユーザーエージェント', 'neo-html-protector') )
-	. '</td></tr><tr><td>$URL</td><td>' . esc_html( __('URL', 'neo-html-protector') )
+	. '</td></tr><tr><td>$URL</td><td>' . esc_html( 'URL')
 	. '</td></tr><tr><td>$KEY</td><td>' . esc_html( __('押下されたキー', 'neo-html-protector') )
 	. '</td></tr></table>';
 				},
@@ -414,13 +414,13 @@ class neohp_admin {
 		$active_tab = filter_input(INPUT_GET, 'tab') ?? 'general';
 		?>
 		<div class="wrap">
-			<h1>Neo HTML Protector 設定</h1>
+			<h1><?php echo __('Neo HTML Protector 設定', 'neo-html-protector') ?></h1>
 			<h2 class="nav-tab-wrapper">
-				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>">基本設定</a>
-				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>">メッセージの設定</a>
-				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>">高度な設定</a>
-				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>">初期設定に戻す</a>
-				<a href="?page=neohp-settings&tab=about" class="nav-tab <?php echo $active_tab === 'about' ? 'nav-tab-active' : ''; ?>">このプラグインについて</a>
+				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>"><?php echo __('基本設定', 'neo-html-protector') ?></a>
+				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo __('メッセージの設定', 'neo-html-protector') ?></a>
+				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>"><?php echo __('高度な設定', 'neo-html-protector') ?></a>
+				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>"><?php echo __('初期設定に戻す', 'neo-html-protector') ?></a>
+				<a href="?page=neohp-settings&tab=about" class="nav-tab <?php echo $active_tab === 'about' ? 'nav-tab-active' : ''; ?>"><?php echo __('このプラグインについて', 'neo-html-protector') ?></a>
 			</h2>
 			<form method="post" action="options.php">
 				<?php
@@ -499,7 +499,7 @@ class neohp_admin {
 	private function about_page() {
 		?>
 <h2><?php echo __('Neo HTML Protectorについて', 'neo-html-protector') ?></h2>
-<p><?php echo __('このプラグインはあなたのWordpressから出力されるHTMLを保護し、コンテンツの不正利用から守ることを目的としています', 'neo-html-protector') ?></p>
+<p><?php echo __('このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています', 'neo-html-protector') ?></p>
 <p><?php echo __('開発者: 夜桜　なの', 'neo-html-protector') ?></p>
 <p><?php echo __('バージョン', 'neo-html-protector') ?>: <?php echo NEOHP_VERSION ?></p>
 <p><?php echo __('サポートページ', 'neo-html-protector') ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>

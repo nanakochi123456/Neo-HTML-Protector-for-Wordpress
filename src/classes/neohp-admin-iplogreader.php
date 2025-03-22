@@ -123,7 +123,7 @@ class neohp_iplogreader {
 			<th colspan='2'><?php echo esc_html( __('IPアドレス', 'neo-html-protector') ) ?></th>
 			<th colspan='5'><?php echo esc_html( __('ユーザーエージェント', 'neo-html-protector') ) ?></th>
 			<th colspan='2'><?php echo esc_html( __('イベント', 'neo-html-protector') ) ?></th>
-			<th colspan='3'><?php echo esc_html( __('URL', 'neo-html-protector') ) ?></th>
+			<th colspan='3'><?php echo esc_html('URL') ?></th>
 			<th colspan='2'><?php echo esc_html( __('日時', 'neo-html-protector') ) ?></th></tr></thead>
 			<tbody>
 			<?php

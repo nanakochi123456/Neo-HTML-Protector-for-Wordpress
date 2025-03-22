@@ -10,21 +10,8 @@ rem SIMPLE_OPTIMIZATIONS
 %CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
 :pause
 
-:wsl xgettext --language=PHP --from-code=utf-8 --keyword=__ --keyword=_e --output=languages/neo-html-protector.pot neo-html-protector.php classes/*.php
-
-:wsl msginit --input=languages/neo-html-protector.pot --output=languages/neo-html-protector-en.po --locale=en
-
-:wsl msginit --input=languages/neo-html-protector.pot --output=languages/neo-html-protector-en_US.po --locale=en_US
 :pause
-
-wsl msgfmt languages/neo-html-protector-ja.po -o languages/neo-html-protector-ja.mo
-
-wsl msgfmt languages/neo-html-protector-en.po -o languages/neo-html-protector-en.mo
-
-wsl msgfmt languages/neo-html-protector-en_US.po -o languages/neo-html-protector-en_US.mo
-
-:pause
-@4echo off
+@echo off
 : 日付
 for /f "tokens=2 delims==" %%I in ('"wmic os get localdatetime /value"') do set datetime=%%I
 :DT=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%

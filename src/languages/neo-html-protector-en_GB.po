@@ -1,4 +1,4 @@
-# English(USA) translations for Neo HTML Protector package.
+# English(UK) translations for Neo HTML Protector package.
 # Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
 #  <plugin@773.moe>, 2025.
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2025-03-22 22:49+0900\n"
 "PO-Revision-Date: 2025-03-22 22:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
-"Language-Team: English(USA)\n"
-"Language: en_US\n"
+"Language-Team: English(UK)\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,7 +25,7 @@ msgid "IPアドレスログ"
 msgstr "IP address log"
 
 msgid "全クリア"
-msgstr "All clear"
+msgstr "All clear."
 
 msgid "IPログが全て削除されました"
 msgstr "All IP logs have been deleted."
@@ -37,37 +37,37 @@ msgid "IPアドレス"
 msgstr "IP address"
 
 msgid "ユーザーエージェント"
-msgstr "User agent"
+msgstr "User Agent"
 
 msgid "イベント"
-msgstr "Events"
+msgstr "Event"
 
 msgid "日時"
-msgstr "Date and Time"
+msgstr "Date and time"
 
 msgid "IPアドレスのデータはありません"
-msgstr "No IP address data available"
+msgstr "No IP address data available."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
-msgstr "Debug mode, console warning messages"
+msgstr "Debug mode, console warning messages."
 
 msgid "右クリックの警告メッセージ"
-msgstr "Right-click warning message"
+msgstr "Right-click warning messages."
 
 msgid "印刷、PDF保存の警告メッセージ"
-msgstr "Warning messages for printing and saving PDFs"
+msgstr "Warning messages for printing and saving PDFs."
 
 msgid "コピー・カットした時に表示するメッセージ"
-msgstr "Message to be displayed when copying/cutting"
+msgstr "Message displayed when copying or cutting."
 
 msgid "HTMLソース表示時に表示するメッセージ"
 msgstr "Message to be displayed when displaying HTML source"
 
 msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
-msgstr "Message to be displayed at the beginning of the source when HTML is obfuscated/protected"
+msgstr "Message to be displayed at the beginning of the source when HTML is obfuscated and protected."
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
-msgstr "Message displayed when one-time authentication token is abnormal during HTML protection"
+msgstr "Message displayed if the one-time authentication token is abnormal during HTML protection."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML obfuscation"
@@ -82,19 +82,19 @@ msgid "HTML保護"
 msgstr "HTML Protection"
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "SEO may drop because of redirects whenever they are activated"
+msgstr "Whenever it is activated, there is a redirect, which may result in a drop in SEO"
 
 msgid "デバッグモード"
 msgstr "Debug mode"
 
 msgid "妨害＋記録のみ"
-msgstr "Disturbance + record only"
+msgstr "Interference + record only."
 
 msgid "妨害＋記録＋表示＋リダイレクト"
-msgstr "Intercept + Record + Display + Redirect"
+msgstr "Intercept + record + display + redirect"
 
 msgid "ブラウザーコンソール"
-msgstr "Browser Console"
+msgstr "Browser console"
 
 msgid "HTMLソース表示"
 msgstr "HTML source display"
@@ -103,10 +103,10 @@ msgid "印刷"
 msgstr "Printing"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
-msgstr "Some browsers do not work well, although they prevent printing"
+msgstr "Print blocking but does not work well in some browsers"
 
 msgid "右クリック"
-msgstr "Right click"
+msgstr "Right-click"
 
 msgid "コピー・カット"
 msgstr "Copy-cut"
@@ -121,10 +121,10 @@ msgid "妨害"
 msgstr "Interference"
 
 msgid "リダイレクトするURL"
-msgstr "URL to redirect"
+msgstr "URL to redirect to"
 
 msgid "HTML保護時のheadタグの出力"
-msgstr "Output of head tag when HTML is protected"
+msgstr "Output of head tags during HTML protection"
 
 msgid "出力しない"
 msgstr "No output"
@@ -136,22 +136,22 @@ msgid "Wordpressのheadタグより取得"
 msgstr "Retrieved from Wordpress head tag"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "One-time token checks during HTML protection"
+msgstr "One-time token checks during HTML protection."
 
 msgid "基本設定"
 msgstr "Basic setting"
 
 msgid "高度な設定"
-msgstr "Advanced Settings"
+msgstr "Advanced settings"
 
 msgid "メッセージの設定"
-msgstr "Message Settings"
+msgstr "Message settings"
 
 msgid "右クリックやソースコード表示時に転送する URL を設定します"
-msgstr "Set the URL to be forwarded when right-clicking or viewing source code"
+msgstr "Set the URL to be forwarded when right-clicking or viewing source code."
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "HTML is not allowed in warning messages"
+msgstr "HTML cannot be used for warning messages"
 
 msgid "以下の文字列が使用できます"
 msgstr "The following strings can be used"
@@ -166,16 +166,16 @@ msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector Settings"
 
 msgid "初期設定に戻す"
-msgstr "Restore default settings"
+msgstr "Resetting to default"
 
 msgid "このプラグインについて"
-msgstr "About this Plug-in"
+msgstr "About this plugin."
 
 msgid "Neo HTML Protectorについて"
 msgstr "About Neo HTML Protector"
 
 msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "This plugin is intended to protect the HTML, images, etc. output from your Wordpress to protect against unauthorized use of your content!"
+msgstr "This plugin aims to protect the HTML, images, etc. output from your Wordpress and protect it from unauthorised use of its content!"
 
 msgid "開発者: 夜桜　なの"
 msgstr "Developer: Nano Yozakura"
@@ -184,37 +184,37 @@ msgid "バージョン"
 msgstr "Version"
 
 msgid "サポートページ"
-msgstr "Support Page"
+msgstr "Support page"
 
 msgid "支援のお願い"
-msgstr "Request for Support"
+msgstr "Request for assistance."
 
 msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
 msgstr "Thank you for using Neo HTML Protector!"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "The development and maintenance of this plugin has taken a lot of time and wisdom, and we would appreciate a donation, if any, to help us raise funds for continued improvements and updates."
+msgstr "A lot of time and wisdom has gone into the development and maintenance of this plugin, and we would be grateful for donations, if any, to help us raise funds for continued improvements and updates."
 
 msgid "寄付について"
-msgstr "About Donations"
+msgstr "About donations"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Donations are voluntary and not mandatory. Anyone is welcome to use our plug-ins free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can."
+msgstr "Donations are voluntary and not compulsory. It is open to everyone so that the plugin can be used free of charge. However, your support is very much appreciated to continue the development and we would be happy to help in any way we can."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
-msgstr "Donations can be made by clicking on the link below. If you are in Japan, you can also donate for free, and furthermore, you can easily donate with Amazon gift certificates."
+msgstr "Donations can be made via the link below. If you are from Japan, you can also donate for free, and furthermore, you can easily donate using Amazon gift vouchers."
 
 msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
 msgstr "With your support, we will do our best to bring you great updates in the future!"
 
 msgid "寄付先"
-msgstr "Donations"
+msgstr "Donor"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
-msgstr "We appreciate your support and look forward to working with you in the future."
+msgstr "We thank you for your support and look forward to working with you in the future."
 
 msgid "https://google.co.jp"
-msgstr "https://google.com"
+msgstr "https://www.google.co.uk"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debug mode and console activation is prohibited"
@@ -223,37 +223,37 @@ msgid "以下の情報がサーバーに送信されました"
 msgstr "The following information has been sent to the server"
 
 msgid "あなたのIPアドレス"
-msgstr "Your IP address"
+msgstr "Your IP address."
 
 msgid "あなたの端末とブラウザ"
 msgstr "Your device and browser"
 
 msgid "あなたの押下したキー"
-msgstr "Your pressed key"
+msgstr "Your pressed keys."
 
 msgid "リダイレクトをします"
 msgstr "Redirects."
 
 msgid "右クリックは禁止されています"
-msgstr "Right-clicking is prohibited"
+msgstr "Right-clicking is prohibited."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Printing and saving to PDF is prohibited"
 
 msgid "コピー、カットは禁止されています"
-msgstr "Copying or cutting is prohibited"
+msgstr "Copying or cutting is prohibited."
 
 msgid "あなたが起こしたイベント"
-msgstr "Events you have caused"
+msgstr "Events you caused."
 
 msgid "HTMLソース表示は禁止されています"
-msgstr "HTML source display is prohibited"
+msgstr "HTML source display is prohibited."
 
 msgid "不正アクセスは禁止されています"
-msgstr "Unauthorized access is prohibited."
+msgstr "Unauthorised access is prohibited."
 
 msgid "画像が見つかりません"
-msgstr "Image not found"
+msgstr "Image not found."
 
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "This website can only be viewed with cookies and JavaScript enabled"

@@ -1,0 +1,84 @@
+設定	Setting
+IPログリーダー	IP Log Reader
+IPアドレスログ	IP address log
+全クリア	All clear.
+IPログが全て削除されました	All IP logs have been deleted.
+ID	ID
+IPアドレス	IP address
+ユーザーエージェント	User Agent
+イベント	Event
+URL	Uniform resouce locator
+日時	Date and time
+IPアドレスのデータはありません	No IP address data available.
+デバッグモード、コンソールの警告メッセージ	Debug mode, console warning messages.
+右クリックの警告メッセージ	Right-click warning messages.
+印刷、PDF保存の警告メッセージ	Warning messages for printing and saving PDFs.
+コピー・カットした時に表示するメッセージ	Message displayed when copying or cutting.
+HTMLソース表示時に表示するメッセージ	Message to be displayed when displaying HTML source
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Message to be displayed at the beginning of the source when HTML is obfuscated and protected.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Message displayed if the one-time authentication token is abnormal during HTML protection.
+HTML難読化 (圧縮)	HTML obfuscation
+無効	Invalid
+有効	Validity
+HTML保護	HTML Protection
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Whenever it is activated, there is a redirect, which may result in a drop in SEO
+デバッグモード	Debug mode
+妨害＋記録のみ	Interference + record only.
+妨害＋記録＋表示＋リダイレクト	Intercept + record + display + redirect
+ブラウザーコンソール	Browser console
+HTMLソース表示	HTML source display
+印刷	Printing
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Print blocking but does not work well in some browsers
+右クリック	Right-click
+コピー・カット	Copy-cut
+テキスト選択	Text selection
+デバッガー妨害	Debugger interference
+妨害	Interference
+リダイレクトするURL	URL to redirect to
+HTML保護時のheadタグの出力	Output of head tags during HTML protection
+出力しない	No output
+titleタグのみ	Title tag only
+Wordpressのheadタグより取得	Retrieved from Wordpress head tag
+HTML保護時の&lt;head&gt;タグの出力	During HTML protection
+基本設定	Basic setting
+HTML保護時の一度限りのトークンのチェック	One-time token checks during HTML protection.
+高度な設定	Advanced settings
+メッセージの設定	Message settings
+右クリックやソースコード表示時に転送する URL を設定します	Set the URL to be forwarded when right-clicking or viewing source code.
+警告メッセージにはHTMLは使用できません	HTML cannot be used for warning messages
+以下の文字列が使用できます	The following strings can be used
+改行	New line
+押下されたキー	Pressed key
+Neo HTML Protectorについて	About Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	This plugin aims to protect the HTML, images, etc. output from your Wordpress and protect it from unauthorised use of its content!
+開発者: 夜桜　なの	Developer: Nano Yozakura
+バージョン	Version
+サポートページ	Support page
+支援のお願い	Request for assistance.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Thank you for using Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	A lot of time and wisdom has gone into the development and maintenance of this plugin, and we would be grateful for donations, if any, to help us raise funds for continued improvements and updates.
+寄付について	About donations
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donations are voluntary and not compulsory. It is open to everyone so that the plugin can be used free of charge. However, your support is very much appreciated to continue the development and we would be happy to help in any way we can.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donations can be made via the link below. If you are from Japan, you can also donate for free, and furthermore, you can easily donate using Amazon gift vouchers.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	With your support, we will do our best to bring you great updates in the future!
+寄付先	Donor
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	We thank you for your support and look forward to working with you in the future.
+https://google.co.jp	https://www.google.co.uk
+デバッグモード、コンソールの起動は禁止されています	Debug mode and console activation is prohibited
+以下の情報がサーバーに送信されました	The following information has been sent to the server
+あなたのIPアドレス	Your IP address.
+あなたの端末とブラウザ	Your device and browser
+あなたの押下したキー	Your pressed keys.
+リダイレクトをします	Redirects.
+右クリックは禁止されています	Right-clicking is prohibited.
+印刷、PDFへの保存は禁止されています	Printing and saving to PDF is prohibited
+コピー、カットは禁止されています	Copying or cutting is prohibited.
+あなたが起こしたイベント	Events you caused.
+HTMLソース表示は禁止されています	HTML source display is prohibited.
+不正アクセスは禁止されています	Unauthorised access is prohibited.
+画像が見つかりません	Image not found.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	This website can only be viewed with cookies and JavaScript enabled
+初期設定に戻す	Resetting to default
+このプラグインについて	About this plugin.
+Neo HTML Protector 設定, 	Neo HTML Protector Settings,.
+Neo HTML Protector 設定	Neo HTML Protector Settings
