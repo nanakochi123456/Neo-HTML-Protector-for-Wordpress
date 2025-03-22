@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -132,8 +132,20 @@ msgstr "Doar eticheta TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Retrieved from the HEAD tag in Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Verificări unice ale jetoanelor în timpul protecției HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Limba în care este afișat mesajul de alertă."
+
+msgid "Wordpressの言語"
+msgstr "Limbi Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Limba de setare a browserului"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Limba nu poate fi schimbată dacă mesajul este personalizat"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Limba în care sunt afișate mesajele sursei de vizualizare."
 
 msgid "基本設定"
 msgstr "Setarea de bază"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.ro"
+msgstr "https://google.ro"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Modul de depanare și activarea consolei sunt interzise"
@@ -257,6 +269,114 @@ msgstr "Afișarea sursei HTML este interzisă."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Accesul neautorizat este interzis."
+
+msgid "アラビア語"
+msgstr "Arabă"
+
+msgid "ブルガリア語"
+msgstr "Bulgară"
+
+msgid "チェコ語"
+msgstr "Cehă"
+
+msgid "デンマーク語"
+msgstr "Daneză"
+
+msgid "ドイツ語"
+msgstr "Germană"
+
+msgid "現代ギリシア語"
+msgstr "Greaca modernă"
+
+msgid "英語"
+msgstr "Engleză"
+
+msgid "イギリス英語"
+msgstr "Engleza britanică"
+
+msgid "アメリカ英語"
+msgstr "Engleză americană"
+
+msgid "スペイン語"
+msgstr "Spaniolă"
+
+msgid "エストニア語"
+msgstr "Estonă"
+
+msgid "フィンランド語"
+msgstr "Finlandeză"
+
+msgid "フランス語"
+msgstr "Franceză"
+
+msgid "ハンガリー語"
+msgstr "Maghiară"
+
+msgid "インドネシア語"
+msgstr "Indoneziană"
+
+msgid "イタリア語"
+msgstr "Italiană"
+
+msgid "日本語"
+msgstr "Japoneză"
+
+msgid "朝鮮語"
+msgstr "Coreeană"
+
+msgid "リトアニア語"
+msgstr "Lituaniană"
+
+msgid "ラトビア語"
+msgstr "Letonă"
+
+msgid "ノルウェー語"
+msgstr "Norvegiană"
+
+msgid "オランダ語"
+msgstr "Olandeză"
+
+msgid "ポーランド語"
+msgstr "Poloneză"
+
+msgid "ポルトガリア語"
+msgstr "Portugheză"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugheză braziliană"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugheză europeană"
+
+msgid "ルーマニア語"
+msgstr "Română"
+
+msgid "ロシア語"
+msgstr "Rusă"
+
+msgid "スロバキア語"
+msgstr "Slovacă"
+
+msgid "スロベニア語"
+msgstr "Slovenă"
+
+msgid "スウェーデン語"
+msgstr "Suedeză"
+
+msgid "トルコ語"
+msgstr "Turcă"
+
+msgid "ウクライナ語"
+msgstr "Ucraineană"
+
+msgid "中国語"
+msgstr "Chineză"
+
+msgid "簡体中国語"
+msgstr "Chineză simplificată"
+
+msgid "繁体中国語"
+msgstr "Chineză tradițională"
 
 msgid "画像が見つかりません"
 msgstr "Imaginea nu a fost găsită."

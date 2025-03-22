@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -132,8 +132,20 @@ msgstr "TITLE tag only"
 msgid "WordpressのHEADタグより取得"
 msgstr "Retrieved from Wordpress HEAD tag"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "One-time token checks during HTML protection"
+msgid "alertメッセージを表示する言語"
+msgstr "Language in which alert messages are displayed"
+
+msgid "Wordpressの言語"
+msgstr "Wordpress Language"
+
+msgid "ブラウザの設定言語"
+msgstr "Browser Preference Language"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Language cannot be changed if the message is set to custom"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Language in which view-source messages are displayed"
 
 msgid "基本設定"
 msgstr "Basic setting"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "We appreciate your support and look forward to working with you in the future."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.com"
+msgstr "https://google.com"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debug mode and console activation is prohibited"
@@ -257,6 +269,114 @@ msgstr "HTML source display is prohibited"
 
 msgid "不正アクセスは禁止されています"
 msgstr "Unauthorized access is prohibited."
+
+msgid "アラビア語"
+msgstr "Arabic"
+
+msgid "ブルガリア語"
+msgstr "Bulgarian"
+
+msgid "チェコ語"
+msgstr "Czech"
+
+msgid "デンマーク語"
+msgstr "Danish"
+
+msgid "ドイツ語"
+msgstr "German"
+
+msgid "現代ギリシア語"
+msgstr "Modern Greek"
+
+msgid "英語"
+msgstr "English"
+
+msgid "イギリス英語"
+msgstr "British English"
+
+msgid "アメリカ英語"
+msgstr "American English"
+
+msgid "スペイン語"
+msgstr "Spanish"
+
+msgid "エストニア語"
+msgstr "Estonian"
+
+msgid "フィンランド語"
+msgstr "Finnish"
+
+msgid "フランス語"
+msgstr "French"
+
+msgid "ハンガリー語"
+msgstr "Hungarian"
+
+msgid "インドネシア語"
+msgstr "Indonesian"
+
+msgid "イタリア語"
+msgstr "Italian"
+
+msgid "日本語"
+msgstr "Japanese"
+
+msgid "朝鮮語"
+msgstr "Korean"
+
+msgid "リトアニア語"
+msgstr "Lithuanian"
+
+msgid "ラトビア語"
+msgstr "Latvian"
+
+msgid "ノルウェー語"
+msgstr "Norwegian"
+
+msgid "オランダ語"
+msgstr "Dutch"
+
+msgid "ポーランド語"
+msgstr "Polish"
+
+msgid "ポルトガリア語"
+msgstr "Portuguese"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazilian Portuguese"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "European Portuguese"
+
+msgid "ルーマニア語"
+msgstr "Romanian"
+
+msgid "ロシア語"
+msgstr "Russian"
+
+msgid "スロバキア語"
+msgstr "Slovak"
+
+msgid "スロベニア語"
+msgstr "Slovenian"
+
+msgid "スウェーデン語"
+msgstr "Swedish"
+
+msgid "トルコ語"
+msgstr "Turkish"
+
+msgid "ウクライナ語"
+msgstr "Ukrainian"
+
+msgid "中国語"
+msgstr "Chinese"
+
+msgid "簡体中国語"
+msgstr "Simplified Chinese"
+
+msgid "繁体中国語"
+msgstr "Traditional Chinese"
 
 msgid "画像が見つかりません"
 msgstr "Image not found"

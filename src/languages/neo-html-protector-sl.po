@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:30+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -132,8 +132,20 @@ msgstr "Samo oznaka TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Pridobljeno iz oznake HEAD v programu Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Enkratno preverjanje žetonov med zaščito HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Jezik, v katerem je prikazano opozorilno sporočilo."
+
+msgid "Wordpressの言語"
+msgstr "Jeziki Wordpressa."
+
+msgid "ブラウザの設定言語"
+msgstr "Jezik nastavitve brskalnika"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Če je sporočilo prilagojeno, jezika ni mogoče spremeniti."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Jezik, v katerem so prikazana sporočila izvornega pogleda."
 
 msgid "基本設定"
 msgstr "Osnovna nastavitev"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.si"
+msgstr "https://google.si"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Prepovedan je način za odpravljanje napak in aktiviranje konzole"
@@ -257,6 +269,114 @@ msgstr "Prikaz vira HTML je prepovedan."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Nepooblaščen dostop je prepovedan."
+
+msgid "アラビア語"
+msgstr "Arabščina"
+
+msgid "ブルガリア語"
+msgstr "Bolgarščina"
+
+msgid "チェコ語"
+msgstr "Češčina"
+
+msgid "デンマーク語"
+msgstr "Danščina"
+
+msgid "ドイツ語"
+msgstr "Nemščina"
+
+msgid "現代ギリシア語"
+msgstr "Sodobna grščina"
+
+msgid "英語"
+msgstr "Angleščina"
+
+msgid "イギリス英語"
+msgstr "Britanska angleščina"
+
+msgid "アメリカ英語"
+msgstr "Ameriška angleščina"
+
+msgid "スペイン語"
+msgstr "španščina"
+
+msgid "エストニア語"
+msgstr "Estonščina"
+
+msgid "フィンランド語"
+msgstr "Finščina"
+
+msgid "フランス語"
+msgstr "Francoski"
+
+msgid "ハンガリー語"
+msgstr "Madžarski"
+
+msgid "インドネシア語"
+msgstr "Indonezijščina"
+
+msgid "イタリア語"
+msgstr "Italijanščina"
+
+msgid "日本語"
+msgstr "Japonščina"
+
+msgid "朝鮮語"
+msgstr "Korejščina"
+
+msgid "リトアニア語"
+msgstr "Litvanščina"
+
+msgid "ラトビア語"
+msgstr "Latvijščina"
+
+msgid "ノルウェー語"
+msgstr "Norveščina"
+
+msgid "オランダ語"
+msgstr "Nizozemščina"
+
+msgid "ポーランド語"
+msgstr "Poljščina"
+
+msgid "ポルトガリア語"
+msgstr "Portugalščina"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazilska portugalščina"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Evropska portugalščina"
+
+msgid "ルーマニア語"
+msgstr "Romunščina"
+
+msgid "ロシア語"
+msgstr "Ruščina"
+
+msgid "スロバキア語"
+msgstr "Slovaška"
+
+msgid "スロベニア語"
+msgstr "Slovenščina"
+
+msgid "スウェーデン語"
+msgstr "Švedščina"
+
+msgid "トルコ語"
+msgstr "Turščina"
+
+msgid "ウクライナ語"
+msgstr "Ukrajinščina"
+
+msgid "中国語"
+msgstr "Kitajščina"
+
+msgid "簡体中国語"
+msgstr "Poenostavljena kitajščina"
+
+msgid "繁体中国語"
+msgstr "Tradicionalna kitajščina"
 
 msgid "画像が見つかりません"
 msgstr "Slike ni mogoče najti."

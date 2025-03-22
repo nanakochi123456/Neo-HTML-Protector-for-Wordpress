@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -132,8 +132,20 @@ msgstr "Hanya tag JUDUL"
 msgid "WordpressのHEADタグより取得"
 msgstr "Diambil dari tag HEAD di Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Pemeriksaan token satu kali selama perlindungan HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Bahasa yang digunakan untuk menampilkan pesan peringatan."
+
+msgid "Wordpressの言語"
+msgstr "Bahasa Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Bahasa pengaturan browser"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Bahasa tidak dapat diubah jika pesan disesuaikan"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Bahasa yang digunakan untuk menampilkan pesan sumber tampilan."
 
 msgid "基本設定"
 msgstr "Pengaturan dasar"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.co.id"
+msgstr "https://google.co.id"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Mode debug dan aktivasi konsol dilarang"
@@ -257,6 +269,114 @@ msgstr "Dilarang menampilkan sumber HTML."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Dilarang mengakses tanpa izin."
+
+msgid "アラビア語"
+msgstr "Bahasa Arab"
+
+msgid "ブルガリア語"
+msgstr "Bahasa Bulgaria"
+
+msgid "チェコ語"
+msgstr "Ceko"
+
+msgid "デンマーク語"
+msgstr "Bahasa Denmark"
+
+msgid "ドイツ語"
+msgstr "Bahasa Jerman"
+
+msgid "現代ギリシア語"
+msgstr "Bahasa Yunani modern"
+
+msgid "英語"
+msgstr "Bahasa Inggris"
+
+msgid "イギリス英語"
+msgstr "Bahasa Inggris Inggris"
+
+msgid "アメリカ英語"
+msgstr "Bahasa Inggris Amerika"
+
+msgid "スペイン語"
+msgstr "Bahasa Spanyol"
+
+msgid "エストニア語"
+msgstr "Bahasa Estonia"
+
+msgid "フィンランド語"
+msgstr "Bahasa Finlandia"
+
+msgid "フランス語"
+msgstr "Bahasa Prancis"
+
+msgid "ハンガリー語"
+msgstr "Hongaria"
+
+msgid "インドネシア語"
+msgstr "Bahasa Indonesia"
+
+msgid "イタリア語"
+msgstr "Bahasa Italia"
+
+msgid "日本語"
+msgstr "Bahasa Jepang"
+
+msgid "朝鮮語"
+msgstr "Bahasa Korea"
+
+msgid "リトアニア語"
+msgstr "Lithuania"
+
+msgid "ラトビア語"
+msgstr "Bahasa Latvia"
+
+msgid "ノルウェー語"
+msgstr "Bahasa Norwegia"
+
+msgid "オランダ語"
+msgstr "Bahasa Belanda"
+
+msgid "ポーランド語"
+msgstr "Bahasa Polandia"
+
+msgid "ポルトガリア語"
+msgstr "Bahasa Portugis"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugis Brasil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Bahasa Portugis Eropa"
+
+msgid "ルーマニア語"
+msgstr "Bahasa Rumania"
+
+msgid "ロシア語"
+msgstr "Bahasa Rusia"
+
+msgid "スロバキア語"
+msgstr "Slowakia"
+
+msgid "スロベニア語"
+msgstr "Bahasa Slovenia"
+
+msgid "スウェーデン語"
+msgstr "Bahasa Swedia"
+
+msgid "トルコ語"
+msgstr "Bahasa Turki"
+
+msgid "ウクライナ語"
+msgstr "Ukraina"
+
+msgid "中国語"
+msgstr "Bahasa Mandarin"
+
+msgid "簡体中国語"
+msgstr "Bahasa Mandarin yang disederhanakan"
+
+msgid "繁体中国語"
+msgstr "Bahasa Tionghoa tradisional"
 
 msgid "画像が見つかりません"
 msgstr "Gambar tidak ditemukan."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -132,8 +132,20 @@ msgstr "Alleen TITLE-tag"
 msgid "WordpressのHEADタグより取得"
 msgstr "Opgehaald uit de HEAD-tag in Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Eenmalige tokencontroles tijdens HTML-bescherming."
+msgid "alertメッセージを表示する言語"
+msgstr "Taal waarin het waarschuwingsbericht wordt weergegeven."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress talen."
+
+msgid "ブラウザの設定言語"
+msgstr "Taal browserinstelling"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "De taal kan niet worden gewijzigd als het bericht is aangepast"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Taal waarin bronberichten worden weergegeven."
 
 msgid "基本設定"
 msgstr "Basisinstelling"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "We danken u voor uw steun en kijken ernaar uit om in de toekomst met u samen te werken."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.nl"
+msgstr "https://google.nl"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debugmodus en consoleactivering zijn verboden"
@@ -257,6 +269,114 @@ msgstr "HTML-bronweergave is verboden."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Ongeoorloofde toegang is verboden."
+
+msgid "アラビア語"
+msgstr "Arabisch"
+
+msgid "ブルガリア語"
+msgstr "Bulgaars"
+
+msgid "チェコ語"
+msgstr "Tsjechisch"
+
+msgid "デンマーク語"
+msgstr "Deens"
+
+msgid "ドイツ語"
+msgstr "Duits"
+
+msgid "現代ギリシア語"
+msgstr "Modern Grieks"
+
+msgid "英語"
+msgstr "Engels"
+
+msgid "イギリス英語"
+msgstr "Brits Engels"
+
+msgid "アメリカ英語"
+msgstr "Amerikaans Engels"
+
+msgid "スペイン語"
+msgstr "Spaans"
+
+msgid "エストニア語"
+msgstr "Ests"
+
+msgid "フィンランド語"
+msgstr "Fins"
+
+msgid "フランス語"
+msgstr "Frans"
+
+msgid "ハンガリー語"
+msgstr "Hongaars"
+
+msgid "インドネシア語"
+msgstr "Indonesisch"
+
+msgid "イタリア語"
+msgstr "Italiaans"
+
+msgid "日本語"
+msgstr "Japans"
+
+msgid "朝鮮語"
+msgstr "Koreaans"
+
+msgid "リトアニア語"
+msgstr "Litouws"
+
+msgid "ラトビア語"
+msgstr "Lets"
+
+msgid "ノルウェー語"
+msgstr "Noors"
+
+msgid "オランダ語"
+msgstr "Nederlands"
+
+msgid "ポーランド語"
+msgstr "Pools"
+
+msgid "ポルトガリア語"
+msgstr "Portugees"
+
+msgid "ブラジルポルトガル語"
+msgstr "Braziliaans Portugees"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Europees Portugees"
+
+msgid "ルーマニア語"
+msgstr "Roemeens"
+
+msgid "ロシア語"
+msgstr "Russisch"
+
+msgid "スロバキア語"
+msgstr "Slowaaks"
+
+msgid "スロベニア語"
+msgstr "Sloveens"
+
+msgid "スウェーデン語"
+msgstr "Zweeds"
+
+msgid "トルコ語"
+msgstr "Turks"
+
+msgid "ウクライナ語"
+msgstr "Oekraïens"
+
+msgid "中国語"
+msgstr "Chinees"
+
+msgid "簡体中国語"
+msgstr "Vereenvoudigd Chinees"
+
+msgid "繁体中国語"
+msgstr "Traditioneel Chinees"
 
 msgid "画像が見つかりません"
 msgstr "Afbeelding niet gevonden."

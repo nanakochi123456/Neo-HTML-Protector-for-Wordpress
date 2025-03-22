@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -132,8 +132,20 @@ msgstr "Solo il tag TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Recuperato dal tag HEAD in Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Controllo dei token una tantum durante la protezione HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Lingua in cui viene visualizzato il messaggio di avviso."
+
+msgid "Wordpressの言語"
+msgstr "Lingue Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Lingua di impostazione del browser"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "La lingua non può essere cambiata se il messaggio è personalizzato."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lingua in cui vengono visualizzati i messaggi di origine della vista."
 
 msgid "基本設定"
 msgstr "Impostazione di base"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Vi ringraziamo per il vostro sostegno e ci auguriamo di poter lavorare con voi in futuro."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.it"
+msgstr "https://google.it"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "La modalità di debug e l'attivazione della console sono vietate"
@@ -257,6 +269,114 @@ msgstr "La visualizzazione dell'origine HTML è vietata."
 
 msgid "不正アクセスは禁止されています"
 msgstr "È vietato l'accesso non autorizzato."
+
+msgid "アラビア語"
+msgstr "Arabo"
+
+msgid "ブルガリア語"
+msgstr "Bulgaro"
+
+msgid "チェコ語"
+msgstr "Ceco"
+
+msgid "デンマーク語"
+msgstr "Danese"
+
+msgid "ドイツ語"
+msgstr "Tedesco"
+
+msgid "現代ギリシア語"
+msgstr "Greco moderno"
+
+msgid "英語"
+msgstr "Inglese"
+
+msgid "イギリス英語"
+msgstr "Inglese britannico"
+
+msgid "アメリカ英語"
+msgstr "Inglese americano"
+
+msgid "スペイン語"
+msgstr "Spagnolo"
+
+msgid "エストニア語"
+msgstr "Estone"
+
+msgid "フィンランド語"
+msgstr "Finlandese"
+
+msgid "フランス語"
+msgstr "Francese"
+
+msgid "ハンガリー語"
+msgstr "Ungherese"
+
+msgid "インドネシア語"
+msgstr "Indonesiano"
+
+msgid "イタリア語"
+msgstr "Italiano"
+
+msgid "日本語"
+msgstr "Giapponese"
+
+msgid "朝鮮語"
+msgstr "Coreano"
+
+msgid "リトアニア語"
+msgstr "Lituano"
+
+msgid "ラトビア語"
+msgstr "Lettone"
+
+msgid "ノルウェー語"
+msgstr "Norvegese"
+
+msgid "オランダ語"
+msgstr "Olandese"
+
+msgid "ポーランド語"
+msgstr "Polacco"
+
+msgid "ポルトガリア語"
+msgstr "Portoghese"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portoghese brasiliano"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portoghese europeo"
+
+msgid "ルーマニア語"
+msgstr "Rumeno"
+
+msgid "ロシア語"
+msgstr "Russo"
+
+msgid "スロバキア語"
+msgstr "Slovacco"
+
+msgid "スロベニア語"
+msgstr "Sloveno"
+
+msgid "スウェーデン語"
+msgstr "Svedese"
+
+msgid "トルコ語"
+msgstr "Turco"
+
+msgid "ウクライナ語"
+msgstr "Ucraino"
+
+msgid "中国語"
+msgstr "Cinese"
+
+msgid "簡体中国語"
+msgstr "Cinese semplificato"
+
+msgid "繁体中国語"
+msgstr "Cinese tradizionale"
 
 msgid "画像が見つかりません"
 msgstr "Immagine non trovata."

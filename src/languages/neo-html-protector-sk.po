@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:30+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -132,8 +132,20 @@ msgstr "Len značka TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Získané zo značky HEAD v aplikácii Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Jednorazové kontroly tokenov počas ochrany HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Jazyk, v ktorom sa zobrazuje výstražná správa."
+
+msgid "Wordpressの言語"
+msgstr "Jazyky Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Jazyk nastavenia prehliadača"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Jazyk nie je možné zmeniť, ak je správa prispôsobená"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Jazyk, v ktorom sa zobrazujú správy zdroja zobrazenia."
 
 msgid "基本設定"
 msgstr "Základné nastavenie"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Ďakujeme vám za vašu podporu a tešíme sa na spoluprácu v budúcnosti."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.sk"
+msgstr "https://google.sk"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Režim ladenia a aktivácia konzoly je zakázaná"
@@ -257,6 +269,114 @@ msgstr "Zobrazenie zdroja HTML je zakázané."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Neoprávnený prístup je zakázaný."
+
+msgid "アラビア語"
+msgstr "Arabčina"
+
+msgid "ブルガリア語"
+msgstr "Bulharčina"
+
+msgid "チェコ語"
+msgstr "Čeština"
+
+msgid "デンマーク語"
+msgstr "Dánčina"
+
+msgid "ドイツ語"
+msgstr "Nemčina"
+
+msgid "現代ギリシア語"
+msgstr "Moderná gréčtina"
+
+msgid "英語"
+msgstr "Angličtina"
+
+msgid "イギリス英語"
+msgstr "Britská angličtina"
+
+msgid "アメリカ英語"
+msgstr "Americká angličtina"
+
+msgid "スペイン語"
+msgstr "Španielčina"
+
+msgid "エストニア語"
+msgstr "Estónčina"
+
+msgid "フィンランド語"
+msgstr "Fínčina"
+
+msgid "フランス語"
+msgstr "Francúzština"
+
+msgid "ハンガリー語"
+msgstr "Maďarský"
+
+msgid "インドネシア語"
+msgstr "Indonézština"
+
+msgid "イタリア語"
+msgstr "Taliančina"
+
+msgid "日本語"
+msgstr "Japončina"
+
+msgid "朝鮮語"
+msgstr "Kórejčina"
+
+msgid "リトアニア語"
+msgstr "Litovčina"
+
+msgid "ラトビア語"
+msgstr "Lotyščina"
+
+msgid "ノルウェー語"
+msgstr "Nórčina"
+
+msgid "オランダ語"
+msgstr "Holandčina"
+
+msgid "ポーランド語"
+msgstr "Poľština"
+
+msgid "ポルトガリア語"
+msgstr "Portugalčina"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazílska portugalčina"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Európska portugalčina"
+
+msgid "ルーマニア語"
+msgstr "Rumunčina"
+
+msgid "ロシア語"
+msgstr "Ruština"
+
+msgid "スロバキア語"
+msgstr "Slovenská"
+
+msgid "スロベニア語"
+msgstr "Slovinčina"
+
+msgid "スウェーデン語"
+msgstr "Švédčina"
+
+msgid "トルコ語"
+msgstr "Turečtina"
+
+msgid "ウクライナ語"
+msgstr "Ukrajinčina"
+
+msgid "中国語"
+msgstr "Čínština"
+
+msgid "簡体中国語"
+msgstr "Zjednodušená čínština"
+
+msgid "繁体中国語"
+msgstr "Tradičná čínština"
 
 msgid "画像が見つかりません"
 msgstr "Obrázok nebol nájdený."

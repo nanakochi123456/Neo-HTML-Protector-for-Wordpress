@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -132,8 +132,20 @@ msgstr "Только тег TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Извлекается из тега HEAD в Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Одноразовые проверки токенов при защите HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Язык, на котором отображается сообщение о предупреждении."
+
+msgid "Wordpressの言語"
+msgstr "Языки Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Язык настроек браузера"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Язык не может быть изменен, если сообщение настроено"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Язык, на котором отображаются сообщения источника представления."
 
 msgid "基本設定"
 msgstr "базовая настройка"
@@ -257,6 +269,114 @@ msgstr "Показ исходного текста HTML запрещен."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Несанкционированный доступ запрещен."
+
+msgid "アラビア語"
+msgstr "Арабский"
+
+msgid "ブルガリア語"
+msgstr "Болгарский"
+
+msgid "チェコ語"
+msgstr "Чешский"
+
+msgid "デンマーク語"
+msgstr "Датский"
+
+msgid "ドイツ語"
+msgstr "Немецкий"
+
+msgid "現代ギリシア語"
+msgstr "современный греческий язык"
+
+msgid "英語"
+msgstr "Английский"
+
+msgid "イギリス英語"
+msgstr "Британский английский"
+
+msgid "アメリカ英語"
+msgstr "Американский английский"
+
+msgid "スペイン語"
+msgstr "Испанский"
+
+msgid "エストニア語"
+msgstr "Эстонский"
+
+msgid "フィンランド語"
+msgstr "Финский"
+
+msgid "フランス語"
+msgstr "Французский"
+
+msgid "ハンガリー語"
+msgstr "Венгерский"
+
+msgid "インドネシア語"
+msgstr "Индонезийский"
+
+msgid "イタリア語"
+msgstr "Итальянский"
+
+msgid "日本語"
+msgstr "Японский"
+
+msgid "朝鮮語"
+msgstr "Корейский"
+
+msgid "リトアニア語"
+msgstr "Литовский"
+
+msgid "ラトビア語"
+msgstr "Латышский"
+
+msgid "ノルウェー語"
+msgstr "Норвежский"
+
+msgid "オランダ語"
+msgstr "Голландский"
+
+msgid "ポーランド語"
+msgstr "Польский"
+
+msgid "ポルトガリア語"
+msgstr "Португальский"
+
+msgid "ブラジルポルトガル語"
+msgstr "Бразильский португальский"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Европейский португальский"
+
+msgid "ルーマニア語"
+msgstr "Румынский"
+
+msgid "ロシア語"
+msgstr "Русский"
+
+msgid "スロバキア語"
+msgstr "Словакия"
+
+msgid "スロベニア語"
+msgstr "Словенский"
+
+msgid "スウェーデン語"
+msgstr "Шведский"
+
+msgid "トルコ語"
+msgstr "Турецкий"
+
+msgid "ウクライナ語"
+msgstr "Украинский"
+
+msgid "中国語"
+msgstr "Китайский"
+
+msgid "簡体中国語"
+msgstr "Упрощенный китайский"
+
+msgid "繁体中国語"
+msgstr "традиционный китайский"
 
 msgid "画像が見つかりません"
 msgstr "Изображение не найдено."

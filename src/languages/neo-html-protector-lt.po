@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -132,8 +132,20 @@ msgstr "Tik žyma TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Gauta iš Wordpress žymos HEAD"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Vienkartiniai žetonų patikrinimai HTML apsaugos metu."
+msgid "alertメッセージを表示する言語"
+msgstr "Kalba, kuria rodomas įspėjimo pranešimas."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress kalbos."
+
+msgid "ブラウザの設定言語"
+msgstr "Naršyklės nustatymų kalba"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Kalbos negalima keisti, jei pranešimas yra pritaikytas"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Kalba, kuria rodomi peržiūros šaltinio pranešimai."
 
 msgid "基本設定"
 msgstr "Pagrindinis nustatymas"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.lt"
+msgstr "https://google.lt"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Draudžiama įjungti derinimo režimą ir konsolę"
@@ -257,6 +269,114 @@ msgstr "HTML šaltinį rodyti draudžiama."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Neteisėta prieiga draudžiama."
+
+msgid "アラビア語"
+msgstr "Arabų kalba"
+
+msgid "ブルガリア語"
+msgstr "Bulgarų kalba"
+
+msgid "チェコ語"
+msgstr "čekų kalba"
+
+msgid "デンマーク語"
+msgstr "Danų kalba"
+
+msgid "ドイツ語"
+msgstr "Vokiečių kalba"
+
+msgid "現代ギリシア語"
+msgstr "šiuolaikinė graikų kalba"
+
+msgid "英語"
+msgstr "Anglų kalba"
+
+msgid "イギリス英語"
+msgstr "Britų anglų kalba"
+
+msgid "アメリカ英語"
+msgstr "Amerikiečių anglų kalba"
+
+msgid "スペイン語"
+msgstr "Ispanų kalba"
+
+msgid "エストニア語"
+msgstr "Estų kalba"
+
+msgid "フィンランド語"
+msgstr "Suomių kalba"
+
+msgid "フランス語"
+msgstr "Prancūzų kalba"
+
+msgid "ハンガリー語"
+msgstr "Vengrų"
+
+msgid "インドネシア語"
+msgstr "Indoneziečių kalba"
+
+msgid "イタリア語"
+msgstr "Italų kalba"
+
+msgid "日本語"
+msgstr "Japonų kalba"
+
+msgid "朝鮮語"
+msgstr "Korėjiečių kalba"
+
+msgid "リトアニア語"
+msgstr "Lietuvių kalba"
+
+msgid "ラトビア語"
+msgstr "Latvių kalba"
+
+msgid "ノルウェー語"
+msgstr "Norvegų kalba"
+
+msgid "オランダ語"
+msgstr "Olandų kalba"
+
+msgid "ポーランド語"
+msgstr "Lenkų kalba"
+
+msgid "ポルトガリア語"
+msgstr "Portugalų kalba"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazilijos portugalų kalba"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Europos portugalų kalba"
+
+msgid "ルーマニア語"
+msgstr "Rumunų kalba"
+
+msgid "ロシア語"
+msgstr "Rusų kalba"
+
+msgid "スロバキア語"
+msgstr "Slovakų"
+
+msgid "スロベニア語"
+msgstr "Slovėnų kalba"
+
+msgid "スウェーデン語"
+msgstr "Švedų kalba"
+
+msgid "トルコ語"
+msgstr "Turkų kalba"
+
+msgid "ウクライナ語"
+msgstr "Ukrainiečių kalba"
+
+msgid "中国語"
+msgstr "Kinų kalba"
+
+msgid "簡体中国語"
+msgstr "Supaprastinta kinų kalba"
+
+msgid "繁体中国語"
+msgstr "Tradicinė kinų kalba"
 
 msgid "画像が見つかりません"
 msgstr "Vaizdas nerastas."

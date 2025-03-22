@@ -103,9 +103,23 @@ class neohp_htmlprotect {
 		// クッキー名を生成
 		$cookie_name = 'ne' . $min;
 
-		// JavaScriptでエンコードされたURLをデコードしてリダイレクトするスクリプトを挿入
+		// 言語を強制する
+		if(get_option('neohp_view-source_message_lang', '0') !== '0') {
+			if(get_option('neohp_view-source_message_lang', '0') === '1') {
+				$lang = $this->neohp_func->getlang();
+			} else {
+				$lang = get_option('neohp_view-source_message_lang', '0');
+			}
+			$lang = str_replace('-', '_', $lang);
+			switch_to_locale( $lang );
+			unload_textdomain('neo-html-protector');
+			load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
+		}
+
 		$html = '';
 		// <!doctype html>の前に警告メッセージを表示する
+
+
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
 			$ua = $this->neohp_func->get_user_agent();
@@ -122,11 +136,12 @@ class neohp_htmlprotect {
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
-		$nonce = $this->neohp_func->create_short_nonce('neUrl');
 		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 		$html .= '<script>';
 		$html .= 'var neUrl="' . $neo_encoded_url . '";';
 		$html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
+
+		$nonce = $this->neohp_func->create_short_nonce('neUrl');
 		$html .= 'document.cookie="nonce=' . $nonce . ';max-age=9;path=/";';
 		$html .= 'location.href=atob(neUrl);';
 		$html .= '</script>';

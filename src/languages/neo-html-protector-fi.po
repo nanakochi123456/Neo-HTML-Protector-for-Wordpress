@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -132,8 +132,20 @@ msgstr "Vain TITLE-tunniste"
 msgid "WordpressのHEADタグより取得"
 msgstr "Haettu Wordpressin HEAD-tagista"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Kertatarkistukset HTML-suojauksen aikana."
+msgid "alertメッセージを表示する言語"
+msgstr "Kieli, jolla hälytysviesti näytetään."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress-kielet."
+
+msgid "ブラウザの設定言語"
+msgstr "Selaimen asetuskieli"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Kieltä ei voi vaihtaa, jos viesti on räätälöity."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Kieli, jolla näkymän lähteen viestit näytetään."
 
 msgid "基本設定"
 msgstr "Perusasetus"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Kiitämme teitä tuestanne ja odotamme innolla yhteistyötä kanssanne tulevaisuudessa."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.fi"
+msgstr "https://google.fi"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Vianmääritystila ja konsolin aktivointi on kielletty."
@@ -257,6 +269,114 @@ msgstr "HTML-lähteen näyttäminen on kielletty."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Luvaton pääsy on kielletty."
+
+msgid "アラビア語"
+msgstr "Arabia"
+
+msgid "ブルガリア語"
+msgstr "Bulgarian"
+
+msgid "チェコ語"
+msgstr "Tšekki"
+
+msgid "デンマーク語"
+msgstr "Tanska"
+
+msgid "ドイツ語"
+msgstr "Saksa"
+
+msgid "現代ギリシア語"
+msgstr "Nykykreikka"
+
+msgid "英語"
+msgstr "Englanti"
+
+msgid "イギリス英語"
+msgstr "Brittiläinen englanti"
+
+msgid "アメリカ英語"
+msgstr "Amerikkalainen englanti"
+
+msgid "スペイン語"
+msgstr "Espanja"
+
+msgid "エストニア語"
+msgstr "Viro"
+
+msgid "フィンランド語"
+msgstr "Suomi"
+
+msgid "フランス語"
+msgstr "Ranska"
+
+msgid "ハンガリー語"
+msgstr "Unkarilainen"
+
+msgid "インドネシア語"
+msgstr "Indonesian kieli"
+
+msgid "イタリア語"
+msgstr "Italia"
+
+msgid "日本語"
+msgstr "Japani"
+
+msgid "朝鮮語"
+msgstr "Korean kieli"
+
+msgid "リトアニア語"
+msgstr "Liettuan kieli"
+
+msgid "ラトビア語"
+msgstr "Latvia"
+
+msgid "ノルウェー語"
+msgstr "Norja"
+
+msgid "オランダ語"
+msgstr "Hollanti"
+
+msgid "ポーランド語"
+msgstr "Puola"
+
+msgid "ポルトガリア語"
+msgstr "Portugali"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brasilian portugali"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Euroopan portugali"
+
+msgid "ルーマニア語"
+msgstr "Romanian"
+
+msgid "ロシア語"
+msgstr "Venäjä"
+
+msgid "スロバキア語"
+msgstr "Slovakian"
+
+msgid "スロベニア語"
+msgstr "Sloveeni"
+
+msgid "スウェーデン語"
+msgstr "Ruotsi"
+
+msgid "トルコ語"
+msgstr "Turkki"
+
+msgid "ウクライナ語"
+msgstr "Ukrainan kieli"
+
+msgid "中国語"
+msgstr "Kiina"
+
+msgid "簡体中国語"
+msgstr "Yksinkertaistettu kiina"
+
+msgid "繁体中国語"
+msgstr "Perinteinen kiina"
 
 msgid "画像が見つかりません"
 msgstr "Kuvaa ei löydy."

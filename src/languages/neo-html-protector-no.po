@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -132,8 +132,20 @@ msgstr "Kun TITLE-taggen"
 msgid "WordpressのHEADタグより取得"
 msgstr "Hentet fra HEAD-taggen i Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Engangskontroll av token under HTML-beskyttelse."
+msgid "alertメッセージを表示する言語"
+msgstr "Språk som varselmeldingen vises på."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress-språk."
+
+msgid "ブラウザの設定言語"
+msgstr "Språk for nettleserinnstillinger"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Språket kan ikke endres hvis meldingen er tilpasset"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Språk som meldingene i visningskilden vises på."
 
 msgid "基本設定"
 msgstr "Grunninnstilling"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Vi takker for støtten og ser frem til å samarbeide med dere i fremtiden."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.no"
+msgstr "https://google.no"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Feilsøkingsmodus og konsollaktivering er forbudt"
@@ -257,6 +269,114 @@ msgstr "Det er forbudt å vise HTML-kilder."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Uautorisert tilgang er forbudt."
+
+msgid "アラビア語"
+msgstr "Arabisk"
+
+msgid "ブルガリア語"
+msgstr "Bulgarsk"
+
+msgid "チェコ語"
+msgstr "Tsjekkisk"
+
+msgid "デンマーク語"
+msgstr "Dansk"
+
+msgid "ドイツ語"
+msgstr "Tysk"
+
+msgid "現代ギリシア語"
+msgstr "Moderne gresk"
+
+msgid "英語"
+msgstr "Engelsk"
+
+msgid "イギリス英語"
+msgstr "Britisk engelsk"
+
+msgid "アメリカ英語"
+msgstr "Amerikansk engelsk"
+
+msgid "スペイン語"
+msgstr "Spansk"
+
+msgid "エストニア語"
+msgstr "Estisk"
+
+msgid "フィンランド語"
+msgstr "Finsk"
+
+msgid "フランス語"
+msgstr "Fransk"
+
+msgid "ハンガリー語"
+msgstr "Ungarsk"
+
+msgid "インドネシア語"
+msgstr "Indonesisk"
+
+msgid "イタリア語"
+msgstr "Italiensk"
+
+msgid "日本語"
+msgstr "Japansk"
+
+msgid "朝鮮語"
+msgstr "Koreansk"
+
+msgid "リトアニア語"
+msgstr "Litauisk"
+
+msgid "ラトビア語"
+msgstr "Latvisk"
+
+msgid "ノルウェー語"
+msgstr "Norsk"
+
+msgid "オランダ語"
+msgstr "Nederlandsk"
+
+msgid "ポーランド語"
+msgstr "Polsk"
+
+msgid "ポルトガリア語"
+msgstr "Portugisisk"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brasiliansk portugisisk"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Europeisk portugisisk"
+
+msgid "ルーマニア語"
+msgstr "Rumensk"
+
+msgid "ロシア語"
+msgstr "Russisk"
+
+msgid "スロバキア語"
+msgstr "Slovakisk"
+
+msgid "スロベニア語"
+msgstr "Slovensk"
+
+msgid "スウェーデン語"
+msgstr "Svensk"
+
+msgid "トルコ語"
+msgstr "Tyrkisk"
+
+msgid "ウクライナ語"
+msgstr "Ukrainsk"
+
+msgid "中国語"
+msgstr "Kinesisk"
+
+msgid "簡体中国語"
+msgstr "Forenklet kinesisk"
+
+msgid "繁体中国語"
+msgstr "Tradisjonell kinesisk"
 
 msgid "画像が見つかりません"
 msgstr "Bildet ble ikke funnet."

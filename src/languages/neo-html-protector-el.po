@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -132,8 +132,20 @@ msgstr "Μόνο η ετικέτα TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Ανακτήθηκε από την ετικέτα HEAD στο Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Εφάπαξ έλεγχοι token κατά την προστασία HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Γλώσσα στην οποία εμφανίζεται το μήνυμα ειδοποίησης."
+
+msgid "Wordpressの言語"
+msgstr "Γλώσσες Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Γλώσσα ρύθμισης του προγράμματος περιήγησης"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Η γλώσσα δεν μπορεί να αλλάξει εάν το μήνυμα είναι προσαρμοσμένο."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Γλώσσα στην οποία εμφανίζονται τα μηνύματα της πηγής προβολής."
 
 msgid "基本設定"
 msgstr "βασική ρύθμιση"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Σας ευχαριστούμε για την υποστήριξή σας και ανυπομονούμε να συνεργαστούμε μαζί σας στο μέλλον."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.gr"
+msgstr "https://google.gr"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Απαγορεύεται η λειτουργία εντοπισμού σφαλμάτων και η ενεργοποίηση της κονσόλας"
@@ -257,6 +269,114 @@ msgstr "Απαγορεύεται η εμφάνιση της πηγής HTML."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Απαγορεύεται η μη εξουσιοδοτημένη πρόσβαση."
+
+msgid "アラビア語"
+msgstr "Αραβικά"
+
+msgid "ブルガリア語"
+msgstr "Βουλγαρικά"
+
+msgid "チェコ語"
+msgstr "Τσέχικα"
+
+msgid "デンマーク語"
+msgstr "Δανικά"
+
+msgid "ドイツ語"
+msgstr "Γερμανικά"
+
+msgid "現代ギリシア語"
+msgstr "νέα ελληνικά"
+
+msgid "英語"
+msgstr "Αγγλικά"
+
+msgid "イギリス英語"
+msgstr "Βρετανικά Αγγλικά"
+
+msgid "アメリカ英語"
+msgstr "Αμερικανικά Αγγλικά"
+
+msgid "スペイン語"
+msgstr "Ισπανικά"
+
+msgid "エストニア語"
+msgstr "Εσθονικά"
+
+msgid "フィンランド語"
+msgstr "Φινλανδικά"
+
+msgid "フランス語"
+msgstr "Γαλλικά"
+
+msgid "ハンガリー語"
+msgstr "Ουγγρικό"
+
+msgid "インドネシア語"
+msgstr "Ινδονησιακά"
+
+msgid "イタリア語"
+msgstr "Ιταλικά"
+
+msgid "日本語"
+msgstr "Ιαπωνικά"
+
+msgid "朝鮮語"
+msgstr "Κορεάτικα"
+
+msgid "リトアニア語"
+msgstr "Λιθουανικά"
+
+msgid "ラトビア語"
+msgstr "Λετονία"
+
+msgid "ノルウェー語"
+msgstr "Νορβηγικά"
+
+msgid "オランダ語"
+msgstr "Ολλανδικά"
+
+msgid "ポーランド語"
+msgstr "Πολωνικά"
+
+msgid "ポルトガリア語"
+msgstr "Πορτογαλικά"
+
+msgid "ブラジルポルトガル語"
+msgstr "Πορτογαλικά Βραζιλίας"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Ευρωπαϊκά πορτογαλικά"
+
+msgid "ルーマニア語"
+msgstr "Ρουμανικά"
+
+msgid "ロシア語"
+msgstr "Ρωσικά"
+
+msgid "スロバキア語"
+msgstr "Σλοβακική"
+
+msgid "スロベニア語"
+msgstr "Σλοβένικα"
+
+msgid "スウェーデン語"
+msgstr "Σουηδικά"
+
+msgid "トルコ語"
+msgstr "Τουρκικά"
+
+msgid "ウクライナ語"
+msgstr "Ουκρανικά"
+
+msgid "中国語"
+msgstr "Κινέζικα"
+
+msgid "簡体中国語"
+msgstr "Απλοποιημένα Κινέζικα"
+
+msgid "繁体中国語"
+msgstr "παραδοσιακά κινέζικα"
 
 msgid "画像が見つかりません"
 msgstr "Η εικόνα δεν βρέθηκε."

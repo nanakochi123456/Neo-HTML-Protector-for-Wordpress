@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -132,8 +132,20 @@ msgstr "علامة العنوان فقط"
 msgid "WordpressのHEADタグより取得"
 msgstr "تم الاسترجاع من علامة HEAD في ووردبريس"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "التحقق من الرمز المميز لمرة واحدة أثناء حماية HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "اللغة التي يتم عرض رسالة التنبيه بها."
+
+msgid "Wordpressの言語"
+msgstr "لغات ووردبريس."
+
+msgid "ブラウザの設定言語"
+msgstr "لغة إعدادات المتصفح"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "لا يمكن تغيير اللغة إذا كانت الرسالة مخصصة"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "اللغة التي يتم عرض رسائل مصدر العرض بها."
 
 msgid "基本設定"
 msgstr "الإعدادات الأساسية"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "نشكركم على دعمكم ونتطلع إلى العمل معكم في المستقبل."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.com.sa"
+msgstr "https://google.com.sa"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "وضع التصحيح وتفعيل وحدة التحكم محظوران"
@@ -257,6 +269,114 @@ msgstr "عرض مصدر HTML محظور."
 
 msgid "不正アクセスは禁止されています"
 msgstr "الوصول غير المصرح به محظور."
+
+msgid "アラビア語"
+msgstr "العربية"
+
+msgid "ブルガリア語"
+msgstr "البلغارية"
+
+msgid "チェコ語"
+msgstr "التشيكية"
+
+msgid "デンマーク語"
+msgstr "الدنماركية"
+
+msgid "ドイツ語"
+msgstr "الألمانية"
+
+msgid "現代ギリシア語"
+msgstr "اليونانية الحديثة"
+
+msgid "英語"
+msgstr "الإنجليزية"
+
+msgid "イギリス英語"
+msgstr "الإنجليزية البريطانية"
+
+msgid "アメリカ英語"
+msgstr "الإنجليزية الأمريكية"
+
+msgid "スペイン語"
+msgstr "الإسبانية"
+
+msgid "エストニア語"
+msgstr "الإستونية"
+
+msgid "フィンランド語"
+msgstr "الفنلندية"
+
+msgid "フランス語"
+msgstr "الفرنسية"
+
+msgid "ハンガリー語"
+msgstr "الهنغارية"
+
+msgid "インドネシア語"
+msgstr "الإندونيسية"
+
+msgid "イタリア語"
+msgstr "الإيطالية"
+
+msgid "日本語"
+msgstr "اليابانية"
+
+msgid "朝鮮語"
+msgstr "الكورية"
+
+msgid "リトアニア語"
+msgstr "الليتوانية"
+
+msgid "ラトビア語"
+msgstr "اللاتفية"
+
+msgid "ノルウェー語"
+msgstr "النرويجية"
+
+msgid "オランダ語"
+msgstr "الهولندية"
+
+msgid "ポーランド語"
+msgstr "البولندية"
+
+msgid "ポルトガリア語"
+msgstr "البرتغالية"
+
+msgid "ブラジルポルトガル語"
+msgstr "البرتغالية البرازيلية"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "البرتغالية الأوروبية"
+
+msgid "ルーマニア語"
+msgstr "الرومانية"
+
+msgid "ロシア語"
+msgstr "الروسية"
+
+msgid "スロバキア語"
+msgstr "السلوفاكية"
+
+msgid "スロベニア語"
+msgstr "السلوفينية"
+
+msgid "スウェーデン語"
+msgstr "السويدية"
+
+msgid "トルコ語"
+msgstr "التركية"
+
+msgid "ウクライナ語"
+msgstr "الأوكرانية"
+
+msgid "中国語"
+msgstr "الصينية"
+
+msgid "簡体中国語"
+msgstr "الصينية المبسطة"
+
+msgid "繁体中国語"
+msgstr "الصينية التقليدية"
 
 msgid "画像が見つかりません"
 msgstr "الصورة غير موجودة."

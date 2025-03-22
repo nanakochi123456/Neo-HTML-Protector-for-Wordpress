@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:33+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -132,8 +132,20 @@ msgstr "Yalnızca TITLE etiketi"
 msgid "WordpressのHEADタグより取得"
 msgstr "Wordpress'teki HEAD etiketinden alındı"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "HTML koruması sırasında tek seferlik token kontrolleri."
+msgid "alertメッセージを表示する言語"
+msgstr "Uyarı mesajının görüntülendiği dil."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress dilleri."
+
+msgid "ブラウザの設定言語"
+msgstr "Tarayıcı ayar dili"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Mesaj özelleştirilmişse dil değiştirilemez"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Görünüm kaynağı mesajlarının görüntülendiği dil."
 
 msgid "基本設定"
 msgstr "Temel ayar"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalışmayı dört gözle bekliyoruz."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.com.tr"
+msgstr "https://google.com.tr"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Hata ayıklama modu ve konsol aktivasyonu yasaktır"
@@ -257,6 +269,114 @@ msgstr "HTML kaynak gösterimi yasaktır."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Yetkisiz erişim yasaktır."
+
+msgid "アラビア語"
+msgstr "Arapça"
+
+msgid "ブルガリア語"
+msgstr "Bulgarca"
+
+msgid "チェコ語"
+msgstr "Çekçe"
+
+msgid "デンマーク語"
+msgstr "Danca"
+
+msgid "ドイツ語"
+msgstr "Almanca"
+
+msgid "現代ギリシア語"
+msgstr "Modern Yunanca"
+
+msgid "英語"
+msgstr "İngilizce"
+
+msgid "イギリス英語"
+msgstr "İngiliz İngilizcesi"
+
+msgid "アメリカ英語"
+msgstr "Amerikan İngilizcesi"
+
+msgid "スペイン語"
+msgstr "İspanyolca"
+
+msgid "エストニア語"
+msgstr "Estonca"
+
+msgid "フィンランド語"
+msgstr "Fince"
+
+msgid "フランス語"
+msgstr "Fransızca"
+
+msgid "ハンガリー語"
+msgstr "Macarca"
+
+msgid "インドネシア語"
+msgstr "Endonezce"
+
+msgid "イタリア語"
+msgstr "İtalyanca"
+
+msgid "日本語"
+msgstr "Japonca"
+
+msgid "朝鮮語"
+msgstr "Korece"
+
+msgid "リトアニア語"
+msgstr "Litvanca"
+
+msgid "ラトビア語"
+msgstr "Letonca"
+
+msgid "ノルウェー語"
+msgstr "Norveççe"
+
+msgid "オランダ語"
+msgstr "Hollandaca"
+
+msgid "ポーランド語"
+msgstr "Lehçe"
+
+msgid "ポルトガリア語"
+msgstr "Portekizce"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brezilya Portekizcesi"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Avrupa Portekizcesi"
+
+msgid "ルーマニア語"
+msgstr "Romence"
+
+msgid "ロシア語"
+msgstr "Rusça"
+
+msgid "スロバキア語"
+msgstr "Slovakça"
+
+msgid "スロベニア語"
+msgstr "Slovence"
+
+msgid "スウェーデン語"
+msgstr "İsveççe"
+
+msgid "トルコ語"
+msgstr "Türkçe"
+
+msgid "ウクライナ語"
+msgstr "Ukraynaca"
+
+msgid "中国語"
+msgstr "Çince"
+
+msgid "簡体中国語"
+msgstr "Basitleştirilmiş Çince"
+
+msgid "繁体中国語"
+msgstr "Geleneksel Çince"
 
 msgid "画像が見つかりません"
 msgstr "Resim bulunamadı."

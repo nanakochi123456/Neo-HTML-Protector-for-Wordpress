@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -132,8 +132,20 @@ msgstr "Ainult TITLE silt"
 msgid "WordpressのHEADタグより取得"
 msgstr "Wordpressi HEAD tagist välja otsitud"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Ühekordne sümboolika kontroll HTML-kaitse ajal."
+msgid "alertメッセージを表示する言語"
+msgstr "Keel, milles hoiatusteade kuvatakse."
+
+msgid "Wordpressの言語"
+msgstr "Wordpressi keeled."
+
+msgid "ブラウザの設定言語"
+msgstr "Brauseri seadistuse keel"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Keelt ei saa muuta, kui sõnum on kohandatud."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Keel, milles kuvatakse vaateallika sõnumeid."
 
 msgid "基本設定"
 msgstr "Põhiülesanne"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Täname teid toetuse eest ja ootame teiega koostööd ka tulevikus."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.ee"
+msgstr "https://google.ee"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debugimisrežiim ja konsooli aktiveerimine on keelatud."
@@ -257,6 +269,114 @@ msgstr "HTML-allika kuvamine on keelatud."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Loata juurdepääs on keelatud."
+
+msgid "アラビア語"
+msgstr "Araabia keel"
+
+msgid "ブルガリア語"
+msgstr "Bulgaaria"
+
+msgid "チェコ語"
+msgstr "Tšehhi keel"
+
+msgid "デンマーク語"
+msgstr "Taani keel"
+
+msgid "ドイツ語"
+msgstr "Saksa keel"
+
+msgid "現代ギリシア語"
+msgstr "Tänapäeva kreeka keel"
+
+msgid "英語"
+msgstr "Inglise keel"
+
+msgid "イギリス英語"
+msgstr "Briti inglise keel"
+
+msgid "アメリカ英語"
+msgstr "Ameerika inglise keel"
+
+msgid "スペイン語"
+msgstr "Hispaania"
+
+msgid "エストニア語"
+msgstr "Eesti keel"
+
+msgid "フィンランド語"
+msgstr "Soome keel"
+
+msgid "フランス語"
+msgstr "Prantsuse keel"
+
+msgid "ハンガリー語"
+msgstr "Ungari"
+
+msgid "インドネシア語"
+msgstr "Indoneesia keel"
+
+msgid "イタリア語"
+msgstr "Itaalia keel"
+
+msgid "日本語"
+msgstr "Jaapani keel"
+
+msgid "朝鮮語"
+msgstr "Korea keel"
+
+msgid "リトアニア語"
+msgstr "Leedu keel"
+
+msgid "ラトビア語"
+msgstr "Läti keel"
+
+msgid "ノルウェー語"
+msgstr "Norra keel"
+
+msgid "オランダ語"
+msgstr "Hollandi keel"
+
+msgid "ポーランド語"
+msgstr "Poola keel"
+
+msgid "ポルトガリア語"
+msgstr "Portugali keel"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brasiilia portugali keel"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Euroopa portugali keel"
+
+msgid "ルーマニア語"
+msgstr "Rumeenia keel"
+
+msgid "ロシア語"
+msgstr "Vene keel"
+
+msgid "スロバキア語"
+msgstr "Slovakkia"
+
+msgid "スロベニア語"
+msgstr "Sloveeni keel"
+
+msgid "スウェーデン語"
+msgstr "Rootsi keel"
+
+msgid "トルコ語"
+msgstr "Türgi keel"
+
+msgid "ウクライナ語"
+msgstr "Ukraina keel"
+
+msgid "中国語"
+msgstr "Hiina"
+
+msgid "簡体中国語"
+msgstr "Lihtsustatud hiina keel"
+
+msgid "繁体中国語"
+msgstr "Traditsiooniline hiina keel"
 
 msgid "画像が見つかりません"
 msgstr "Pilti ei leitud."

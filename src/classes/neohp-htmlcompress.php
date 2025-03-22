@@ -57,6 +57,19 @@ class neohp_htmlcompress {
 			$buffer = preg_replace($search, $replace, $buffer);
 			$buffer = preg_replace($search, $replace, $buffer);
 
+			// 言語を強制する
+			if(get_option('neohp_view-source_message_lang', '0') !== '0') {
+				if(get_option('neohp_view-source_message_lang', '0') === '1') {
+					$lang = $this->neohp_func->getlang();
+				} else {
+					$lang = get_option('neohp_view-source_message_lang', '0');
+				}
+				$lang = str_replace('-', '_', $lang);
+				switch_to_locale( $lang );
+				unload_textdomain('neo-html-protector');
+				load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
+			}
+
 			// <!doctype html>の前に警告メッセージを表示する
 			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 

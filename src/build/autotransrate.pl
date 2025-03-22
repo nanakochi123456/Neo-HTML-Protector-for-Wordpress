@@ -104,9 +104,11 @@ sub pottransrate() {
 				}
 
 				if(!($cached) && !($str=~/^http/)) {
-					open(my $fh, ">>", $cache) || die "$cache can't write\n";
-					print $fh "$str\t$tstr\n";
-					close($fh);
+					if($tstr ne "") {
+						open(my $fh, ">>", $cache) || die "$cache can't write\n";
+						print $fh "$str\t$tstr\n";
+						close($fh);
+					}
 				}
 
 				$tstr=~s/\"//g;

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -132,8 +132,20 @@ msgstr "TITLE 태그만"
 msgid "WordpressのHEADタグより取得"
 msgstr "Wordpress의 HEAD 태그에서 가져옴"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "HTML 보호 시 일회성 토큰 확인"
+msgid "alertメッセージを表示する言語"
+msgstr "Alert 메시지를 표시하는 언어"
+
+msgid "Wordpressの言語"
+msgstr "워드프레스의 언어"
+
+msgid "ブラウザの設定言語"
+msgstr "브라우저 설정 언어"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "메시지를 맞춤 설정한 경우 언어를 변경할 수 없습니다."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "View-source 메시지를 표시하는 언어"
 
 msgid "基本設定"
 msgstr "기본 설정"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "항상 응원해 주셔서 감사드리며, 앞으로도 많은 관심 부탁 드립니다."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.co.kr"
+msgstr "https://google.co.kr"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "디버그 모드, 콘솔 부팅이 금지되어 있습니다."
@@ -257,6 +269,114 @@ msgstr "HTML 소스 표시가 금지되어 있습니다."
 
 msgid "不正アクセスは禁止されています"
 msgstr "무단 액세스는 금지되어 있습니다."
+
+msgid "アラビア語"
+msgstr "아랍어"
+
+msgid "ブルガリア語"
+msgstr "불가리아어"
+
+msgid "チェコ語"
+msgstr "체코어"
+
+msgid "デンマーク語"
+msgstr "덴마크어"
+
+msgid "ドイツ語"
+msgstr "독일어"
+
+msgid "現代ギリシア語"
+msgstr "현대 그리스어"
+
+msgid "英語"
+msgstr "영어"
+
+msgid "イギリス英語"
+msgstr "영국 영어"
+
+msgid "アメリカ英語"
+msgstr "미국 영어"
+
+msgid "スペイン語"
+msgstr "스페인어"
+
+msgid "エストニア語"
+msgstr "에스토니아어"
+
+msgid "フィンランド語"
+msgstr "핀란드어"
+
+msgid "フランス語"
+msgstr "프랑스어"
+
+msgid "ハンガリー語"
+msgstr "헝가리어"
+
+msgid "インドネシア語"
+msgstr "인도네시아어"
+
+msgid "イタリア語"
+msgstr "이탈리아어"
+
+msgid "日本語"
+msgstr "일본어"
+
+msgid "朝鮮語"
+msgstr "한국어"
+
+msgid "リトアニア語"
+msgstr "리투아니아어"
+
+msgid "ラトビア語"
+msgstr "라트비아어"
+
+msgid "ノルウェー語"
+msgstr "노르웨이어"
+
+msgid "オランダ語"
+msgstr "네덜란드어"
+
+msgid "ポーランド語"
+msgstr "폴란드어"
+
+msgid "ポルトガリア語"
+msgstr "포르투갈어"
+
+msgid "ブラジルポルトガル語"
+msgstr "브라질 포르투갈어"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "유럽식 포르투갈어"
+
+msgid "ルーマニア語"
+msgstr "루마니아어"
+
+msgid "ロシア語"
+msgstr "러시아어"
+
+msgid "スロバキア語"
+msgstr "슬로바키아어"
+
+msgid "スロベニア語"
+msgstr "슬로베니아어"
+
+msgid "スウェーデン語"
+msgstr "스웨덴어"
+
+msgid "トルコ語"
+msgstr "터키어"
+
+msgid "ウクライナ語"
+msgstr "우크라이나어"
+
+msgid "中国語"
+msgstr "중국어"
+
+msgid "簡体中国語"
+msgstr "중국어 간체자"
+
+msgid "繁体中国語"
+msgstr "중국어 번체"
 
 msgid "画像が見つかりません"
 msgstr "이미지를 찾을 수 없습니다"

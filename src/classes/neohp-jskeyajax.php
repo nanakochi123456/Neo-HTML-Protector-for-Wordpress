@@ -21,22 +21,18 @@ class neohp_jskeyajax {
 			return;
 		}
 
-//		if (!isset($_POST['sec']) || $_POST['sec'] !== 'papu') {
-//			die('403 Forbidden');
-//		}
+		if (!isset($_POST['sec']) || $_POST['sec'] !== 'papu') {
+			die('403 Forbidden');
+		}
 
 		// ユーザーのIPアドレスを取得
 		$user_ip = $this->neohp_func->get_user_ip();
 		$url = $_POST['url'];
 		$key = $_POST['key'];
-//$key="test";
-//$url="test";
 		// IPアドレスを保存するテーブルがなければ作成
 		$wpdb = $this->neohp_database->create_user_ip();
 
-		$ua = substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);	// nginxの最大文字数にUAをカットする
-
-		// IPアドレスをテーブルに保存
+		$ua = $this->neohp_func->get_user_agent();
 
 		$this->neohp_database->insert_user_ip(
 			$user_ip, $url, $key, $ua
@@ -44,7 +40,20 @@ class neohp_jskeyajax {
 
 		$value = 'other error';
 
+		// 言語を強制する
+		if(get_option('neohp_alert_message_lang', '0') !== '0') {
+			if(get_option('neohp_alert_message_lang', '0') === '1') {
+				$lang = $this->neohp_func->getlang();
+			} else {
+				$lang = get_option('neohp_alert_message_lang', '0');
+			}
+			$lang = str_replace('-', '_', $lang);
+			switch_to_locale( $lang );
+			unload_textdomain('neo-html-protector');
+			load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
+		}
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+
 		// debugmode or console
 		if (strpos($key, 'F12') !== false
 		 || strpos($key, 'I') !== false
@@ -73,6 +82,7 @@ class neohp_jskeyajax {
 		// Right Click
 		if (strpos($key, 'R') !== false	) {
 			$value = get_option('neohp_rightclick_message', $neohp_rightclick_default);
+$value=$neohp_rightclick_default;
 		}
 
 
@@ -81,7 +91,7 @@ class neohp_jskeyajax {
 		$value = str_replace('$KEY', $key, $value);
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
-		echo esc_js( esc_html (htmlspecialchars($value, ENT_QUOTES, 'UTF-8') ) ); // alert で表示
+		echo esc_js( esc_html ( htmlspecialchars($value, ENT_QUOTES, 'UTF-8') ) ); // alert で表示
 		exit();
 	}
 }

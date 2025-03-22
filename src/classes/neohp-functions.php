@@ -55,4 +55,15 @@ class neohp_func {
 
 		return hash_equals($expected_nonce, $calculated_nonce);
 	}
+
+	function getlang() {
+		// ブラウザの優先言語を取得
+		$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+
+		// 言語と優先度を分割
+		$langs = explode(',', $language);
+
+		// 最初の言語を取得（優先度が高いもの）
+		return $langs[0];
+	}
 }

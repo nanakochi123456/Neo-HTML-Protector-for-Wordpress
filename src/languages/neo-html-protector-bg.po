@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Bulgarian\n"
 "Language: bg\n"
@@ -132,8 +132,20 @@ msgstr "Само таг TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Извлечено от тага HEAD в Wordpress"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Еднократни проверки на токени по време на защитата на HTML."
+msgid "alertメッセージを表示する言語"
+msgstr "Език, на който се показва предупредителното съобщение."
+
+msgid "Wordpressの言語"
+msgstr "Езици на Wordpress."
+
+msgid "ブラウザの設定言語"
+msgstr "Език на настройките на браузъра"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Езикът не може да бъде променен, ако съобщението е персонализирано."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Език, на който се показват съобщенията на източника на изгледа."
 
 msgid "基本設定"
 msgstr "основна настройка"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Благодарим ви за подкрепата и с нетърпение очакваме да работим с вас в бъдеще."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.com.sa"
+msgstr "https://google.com.sa"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Режимът за отстраняване на грешки и активирането на конзолата са забранени"
@@ -257,6 +269,114 @@ msgstr "Показването на HTML източника е забранен�
 
 msgid "不正アクセスは禁止されています"
 msgstr "Неоторизираният достъп е забранен."
+
+msgid "アラビア語"
+msgstr "Арабски"
+
+msgid "ブルガリア語"
+msgstr "Български"
+
+msgid "チェコ語"
+msgstr "Чешки"
+
+msgid "デンマーク語"
+msgstr "Датски"
+
+msgid "ドイツ語"
+msgstr "Немски"
+
+msgid "現代ギリシア語"
+msgstr "съвременен гръцки език"
+
+msgid "英語"
+msgstr "Английски"
+
+msgid "イギリス英語"
+msgstr "Британски английски"
+
+msgid "アメリカ英語"
+msgstr "Американски английски"
+
+msgid "スペイン語"
+msgstr "Испански"
+
+msgid "エストニア語"
+msgstr "Естонски"
+
+msgid "フィンランド語"
+msgstr "Финландски"
+
+msgid "フランス語"
+msgstr "Френски"
+
+msgid "ハンガリー語"
+msgstr "Унгарски"
+
+msgid "インドネシア語"
+msgstr "Индонезийски"
+
+msgid "イタリア語"
+msgstr "Италиански"
+
+msgid "日本語"
+msgstr "Японски"
+
+msgid "朝鮮語"
+msgstr "Корейски"
+
+msgid "リトアニア語"
+msgstr "Литовски"
+
+msgid "ラトビア語"
+msgstr "Латвийски"
+
+msgid "ノルウェー語"
+msgstr "Норвежки"
+
+msgid "オランダ語"
+msgstr "Холандски"
+
+msgid "ポーランド語"
+msgstr "Полски"
+
+msgid "ポルトガリア語"
+msgstr "Португалски"
+
+msgid "ブラジルポルトガル語"
+msgstr "Бразилски португалски"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Европейски португалски"
+
+msgid "ルーマニア語"
+msgstr "Румънски"
+
+msgid "ロシア語"
+msgstr "Руски език"
+
+msgid "スロバキア語"
+msgstr "Словашки"
+
+msgid "スロベニア語"
+msgstr "Словенски"
+
+msgid "スウェーデン語"
+msgstr "Шведски"
+
+msgid "トルコ語"
+msgstr "Турски език"
+
+msgid "ウクライナ語"
+msgstr "Украински"
+
+msgid "中国語"
+msgstr "Китайски"
+
+msgid "簡体中国語"
+msgstr "Опростен китайски"
+
+msgid "繁体中国語"
+msgstr "традиционен китайски език"
 
 msgid "画像が見つかりません"
 msgstr "Изображението не е намерено."

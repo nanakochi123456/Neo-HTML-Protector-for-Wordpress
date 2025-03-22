@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -132,8 +132,20 @@ msgstr "Tikai birka TITLE"
 msgid "WordpressのHEADタグより取得"
 msgstr "Iegūti no Wordpress taga HEAD"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Vienreizējas žetonu pārbaudes HTML aizsardzības laikā."
+msgid "alertメッセージを表示する言語"
+msgstr "Valoda, kurā tiek parādīts brīdinājuma ziņojums."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress valodas."
+
+msgid "ブラウザの設定言語"
+msgstr "Pārlūkprogrammas iestatījumu valoda"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ja ziņojums ir pielāgots, valodu mainīt nevar."
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Valoda, kurā tiek rādīti skatījuma avota ziņojumi."
 
 msgid "基本設定"
 msgstr "Pamatnosacījumi"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Mēs pateicamies jums par atbalstu un ceram uz turpmāku sadarbību."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.lv"
+msgstr "https://google.lv"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debug režīms un konsoles aktivizēšana ir aizliegta"
@@ -257,6 +269,114 @@ msgstr "HTML avota rādīšana ir aizliegta."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Nesankcionēta piekļuve ir aizliegta."
+
+msgid "アラビア語"
+msgstr "Arābu valoda"
+
+msgid "ブルガリア語"
+msgstr "Bulgāru valoda"
+
+msgid "チェコ語"
+msgstr "Čehu"
+
+msgid "デンマーク語"
+msgstr "Dāņu valoda"
+
+msgid "ドイツ語"
+msgstr "Vācu valoda"
+
+msgid "現代ギリシア語"
+msgstr "Mūsdienu grieķu valoda"
+
+msgid "英語"
+msgstr "Angļu valoda"
+
+msgid "イギリス英語"
+msgstr "Britu angļu valoda"
+
+msgid "アメリカ英語"
+msgstr "Amerikāņu angļu valoda"
+
+msgid "スペイン語"
+msgstr "Spāņu valoda"
+
+msgid "エストニア語"
+msgstr "Igauņu valoda"
+
+msgid "フィンランド語"
+msgstr "Somu valoda"
+
+msgid "フランス語"
+msgstr "Franču valoda"
+
+msgid "ハンガリー語"
+msgstr "Ungāru"
+
+msgid "インドネシア語"
+msgstr "Indonēziešu valoda"
+
+msgid "イタリア語"
+msgstr "Itāļu valoda"
+
+msgid "日本語"
+msgstr "Japāņu valoda"
+
+msgid "朝鮮語"
+msgstr "Korejiešu valoda"
+
+msgid "リトアニア語"
+msgstr "Lietuviešu valoda"
+
+msgid "ラトビア語"
+msgstr "Latviešu valoda"
+
+msgid "ノルウェー語"
+msgstr "Norvēģu valoda"
+
+msgid "オランダ語"
+msgstr "Holandiešu valoda"
+
+msgid "ポーランド語"
+msgstr "Poļu valoda"
+
+msgid "ポルトガリア語"
+msgstr "Portugāļu valoda"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazīlijas portugāļu valoda"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Eiropas portugāļu valoda"
+
+msgid "ルーマニア語"
+msgstr "Rumāņu valoda"
+
+msgid "ロシア語"
+msgstr "Krievu valoda"
+
+msgid "スロバキア語"
+msgstr "Slovākijas"
+
+msgid "スロベニア語"
+msgstr "Slovēņu valoda"
+
+msgid "スウェーデン語"
+msgstr "Zviedru valoda"
+
+msgid "トルコ語"
+msgstr "Turku valoda"
+
+msgid "ウクライナ語"
+msgstr "Ukraiņu"
+
+msgid "中国語"
+msgstr "Ķīniešu valoda"
+
+msgid "簡体中国語"
+msgstr "Vienkāršotā ķīniešu valoda"
+
+msgid "繁体中国語"
+msgstr "Tradicionālā ķīniešu valoda"
 
 msgid "画像が見つかりません"
 msgstr "Attēls nav atrasts."

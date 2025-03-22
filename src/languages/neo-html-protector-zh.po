@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -132,8 +132,20 @@ msgstr "仅 TITLE 标签"
 msgid "WordpressのHEADタグより取得"
 msgstr "从 Wordpress 的 HEAD 标签中提取"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "在 HTML 保护过程中进行一次性令牌检查。"
+msgid "alertメッセージを表示する言語"
+msgstr "显示警报信息的语言。"
+
+msgid "Wordpressの言語"
+msgstr "Wordpress 语言。"
+
+msgid "ブラウザの設定言語"
+msgstr "浏览器设置语言"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "如果自定义了信息，则无法更改语言"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "显示视图源信息的语言。"
 
 msgid "基本設定"
 msgstr "基本设置"
@@ -257,6 +269,114 @@ msgstr "禁止显示 HTML 源代码。"
 
 msgid "不正アクセスは禁止されています"
 msgstr "禁止未经授权的访问。"
+
+msgid "アラビア語"
+msgstr "阿拉伯语"
+
+msgid "ブルガリア語"
+msgstr "保加利亚语"
+
+msgid "チェコ語"
+msgstr "捷克语"
+
+msgid "デンマーク語"
+msgstr "丹麦语"
+
+msgid "ドイツ語"
+msgstr "德语"
+
+msgid "現代ギリシア語"
+msgstr "现代希腊语"
+
+msgid "英語"
+msgstr "英语"
+
+msgid "イギリス英語"
+msgstr "英式英语"
+
+msgid "アメリカ英語"
+msgstr "美式英语"
+
+msgid "スペイン語"
+msgstr "西班牙语"
+
+msgid "エストニア語"
+msgstr "爱沙尼亚语"
+
+msgid "フィンランド語"
+msgstr "芬兰语"
+
+msgid "フランス語"
+msgstr "法语"
+
+msgid "ハンガリー語"
+msgstr "匈牙利语"
+
+msgid "インドネシア語"
+msgstr "印度尼西亚语"
+
+msgid "イタリア語"
+msgstr "意大利语"
+
+msgid "日本語"
+msgstr "日语"
+
+msgid "朝鮮語"
+msgstr "韩语"
+
+msgid "リトアニア語"
+msgstr "立陶宛语"
+
+msgid "ラトビア語"
+msgstr "拉脱维亚语"
+
+msgid "ノルウェー語"
+msgstr "挪威语"
+
+msgid "オランダ語"
+msgstr "荷兰语"
+
+msgid "ポーランド語"
+msgstr "波兰语"
+
+msgid "ポルトガリア語"
+msgstr "葡萄牙语"
+
+msgid "ブラジルポルトガル語"
+msgstr "巴西葡萄牙语"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "欧洲葡萄牙语"
+
+msgid "ルーマニア語"
+msgstr "罗马尼亚语"
+
+msgid "ロシア語"
+msgstr "俄语"
+
+msgid "スロバキア語"
+msgstr "斯"
+
+msgid "スロベニア語"
+msgstr "斯洛文尼亚语"
+
+msgid "スウェーデン語"
+msgstr "瑞典语"
+
+msgid "トルコ語"
+msgstr "土耳其语"
+
+msgid "ウクライナ語"
+msgstr "乌克兰语"
+
+msgid "中国語"
+msgstr "中文"
+
+msgid "簡体中国語"
+msgstr "简体中文"
+
+msgid "繁体中国語"
+msgstr "繁体中文"
 
 msgid "画像が見つかりません"
 msgstr "未找到图像。"

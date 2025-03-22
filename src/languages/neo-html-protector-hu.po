@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 02:27+0900\n"
-"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"POT-Creation-Date: 2025-03-23 06:35+0900\n"
+"PO-Revision-Date: 2025-03-23 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -132,8 +132,20 @@ msgstr "Csak a TITLE címke"
 msgid "WordpressのHEADタグより取得"
 msgstr "A Wordpress HEAD címkéjéből lekérdezve"
 
-msgid "HTML保護時の一度限りのトークンのチェック"
-msgstr "Egyszeri token-ellenőrzés a HTML-védelem során."
+msgid "alertメッセージを表示する言語"
+msgstr "A figyelmeztető üzenet megjelenítésének nyelve."
+
+msgid "Wordpressの言語"
+msgstr "Wordpress nyelvek."
+
+msgid "ブラウザの設定言語"
+msgstr "Böngésző beállítási nyelv"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "A nyelv nem változtatható, ha az üzenet testreszabása történik"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Az a nyelv, amelyen a nézet-forrás üzenetek megjelennek."
 
 msgid "基本設定"
 msgstr "Alapbeállítás"
@@ -220,7 +232,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "Köszönjük támogatását, és örömmel várjuk a jövőbeni együttműködést."
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.hu"
+msgstr "https://google.hu"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "A hibakeresési mód és a konzol aktiválása tilos."
@@ -257,6 +269,114 @@ msgstr "A HTML-forrás megjelenítése tilos."
 
 msgid "不正アクセスは禁止されています"
 msgstr "Tilos az illetéktelen hozzáférés."
+
+msgid "アラビア語"
+msgstr "Arab"
+
+msgid "ブルガリア語"
+msgstr "Bolgár"
+
+msgid "チェコ語"
+msgstr "Cseh"
+
+msgid "デンマーク語"
+msgstr "Dán"
+
+msgid "ドイツ語"
+msgstr "Német"
+
+msgid "現代ギリシア語"
+msgstr "újgörög nyelv"
+
+msgid "英語"
+msgstr "Angol"
+
+msgid "イギリス英語"
+msgstr "Brit angol"
+
+msgid "アメリカ英語"
+msgstr "Amerikai angol"
+
+msgid "スペイン語"
+msgstr "Spanyol"
+
+msgid "エストニア語"
+msgstr "Észt"
+
+msgid "フィンランド語"
+msgstr "Finn"
+
+msgid "フランス語"
+msgstr "Francia"
+
+msgid "ハンガリー語"
+msgstr "Magyar"
+
+msgid "インドネシア語"
+msgstr "Indonéz"
+
+msgid "イタリア語"
+msgstr "Olasz"
+
+msgid "日本語"
+msgstr "Japán"
+
+msgid "朝鮮語"
+msgstr "Koreai"
+
+msgid "リトアニア語"
+msgstr "Litván"
+
+msgid "ラトビア語"
+msgstr "Lett"
+
+msgid "ノルウェー語"
+msgstr "Norvég"
+
+msgid "オランダ語"
+msgstr "Holland"
+
+msgid "ポーランド語"
+msgstr "Lengyel"
+
+msgid "ポルトガリア語"
+msgstr "Portugál"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazil portugál"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Európai portugál"
+
+msgid "ルーマニア語"
+msgstr "Román"
+
+msgid "ロシア語"
+msgstr "Orosz"
+
+msgid "スロバキア語"
+msgstr "Szlovák"
+
+msgid "スロベニア語"
+msgstr "Szlovén"
+
+msgid "スウェーデン語"
+msgstr "Svéd"
+
+msgid "トルコ語"
+msgstr "Török"
+
+msgid "ウクライナ語"
+msgstr "Ukrán"
+
+msgid "中国語"
+msgstr "Kínai"
+
+msgid "簡体中国語"
+msgstr "Egyszerűsített kínai"
+
+msgid "繁体中国語"
+msgstr "Hagyományos kínai"
 
 msgid "画像が見つかりません"
 msgstr "A kép nem található."

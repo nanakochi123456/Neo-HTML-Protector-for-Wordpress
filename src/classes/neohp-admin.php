@@ -12,18 +12,27 @@ class neohp_admin {
 		add_action('admin_menu', array($this, 'add_admin_menu'));
 	}
 
-	protected function getselect($name, $selected, ...$options) {
-		$html = "<select name=\"{$name}\">\n";
-		
-		foreach ($options as $option) {
-			list($value, $label) = explode('=', $option, 2);
-			$isSelected = ($value == $selected) ? ' selected' : '';
-			$html .= "<option value=\"{$value}\"{$isSelected}>{$label}</option>\n";
-		}
-		
-		$html .= "</select>\n";
-		
-		return $html;
+	function getselect($name, $selected, ...$options) {
+	    $html = "<select name=\"{$name}\">\n";
+	    
+	    foreach ($options as $option) {
+	        if (is_array($option)) {
+	            // 配列になっている場合は implode で文字列化
+				foreach ($option as $opt) {
+			        list($value, $label) = explode('=', $opt, 2);
+			        $isSelected = ($value == $selected) ? ' selected' : '';
+			        $html .= "<option value=\"{$value}\"{$isSelected}>{$label}</option>\n";
+	        	}
+			} else {
+		        list($value, $label) = explode('=', $option, 2);
+		        $isSelected = ($value == $selected) ? ' selected' : '';
+		        $html .= "<option value=\"{$value}\"{$isSelected}>{$label}</option>\n";
+			}
+	    }
+
+	    $html .= "</select>\n";
+	    
+	    return $html;
 	}
 
 	public function add_admin_menu() {
@@ -162,7 +171,7 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					);
 
-					echo esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -248,7 +257,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
-					echo esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -335,7 +344,7 @@ class neohp_admin {
 			);
 
 			// HTML保護時のheadの出力
-			register_setting('neohp_basic_group', 'html_protect_head');
+			register_setting('neohp_advanced_group', 'html_protect_head');
 			add_settings_field(
 				'html_protect_head',
 				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
@@ -351,17 +360,49 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
-			// HTML保護時のnonceのチェック
-			register_setting('neohp_basic_group', 'html_protect_nonce');
+			// alertメッセージの言語
+			register_setting('neohp_advanced_group', 'neohp_alert_message_lang');
 			add_settings_field(
-				'html_protect_nonce',
-				__('HTML保護時の一度限りのトークンのチェック', 'neo-html-protector'),
+				'alert_message_lang',
+				__('alertメッセージを表示する言語', 'neo-html-protector'),
 				function() {
-					$value = esc_html(get_option('html_protect_nonce', '2'));
-					echo $this->getselect("html_protect_nonce", $value
-						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('有効', 'neo-html-protector')
+					$value = esc_html(get_option('neohp_alert_message_lang', '0'));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$lang_array=[];
+					foreach ($neohp_lang as $k => $v) {
+						array_push($lang_array, "$k=$v");
+					}
+
+					echo $this->getselect("neohp_alert_message_lang", $value
+						, '0=' . __('Wordpressの言語', 'neo-html-protector')
+						, '1=' . __('ブラウザの設定言語', 'neo-html-protector')
+						, $lang_array
 					);
+					echo '<br>' . __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector');
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// view-sourceメッセージの言語
+			register_setting('neohp_advanced_group', 'neohp_view-source_message_lang');
+			add_settings_field(
+				'view-source_message_lang',
+				__('view-sourceメッセージを表示する言語', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_view-source_message_lang', '0'));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$lang_array=[];
+					foreach ($neohp_lang as $k => $v) {
+						array_push($lang_array, "$k=$v");
+					}
+
+					echo $this->getselect("neohp_view-source_message_lang", $value
+						, '0=' . __('Wordpressの言語', 'neo-html-protector')
+						, '1=' . __('ブラウザの設定言語', 'neo-html-protector')
+						, $lang_array
+					);
+					echo '<br>' . __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector');
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
