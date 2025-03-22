@@ -91,9 +91,6 @@ class neohp_htmlprotect {
 		// titleを取得
 		$title = wp_title('|', false, 'right') . get_bloginfo('name');
 
-		// 言語を取得
-		$lang = get_bloginfo('language');
-
 		// URLを取得
 		$current_url = $this->neohp_func->get_current_url();
 
@@ -115,6 +112,10 @@ class neohp_htmlprotect {
 			unload_textdomain('neo-html-protector');
 			load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
 		}
+
+		// 言語を取得
+		$lang = get_bloginfo('language');
+
 
 		$html = '';
 		// <!doctype html>の前に警告メッセージを表示する
