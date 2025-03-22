@@ -12,7 +12,6 @@ class neohp_admin {
 		add_action('admin_menu', array($this, 'add_admin_menu'));
 	}
 
-
 	protected function getselect($name, $selected, ...$options) {
 		$html = "<select name=\"{$name}\">\n";
 		
@@ -314,7 +313,7 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_alert_d', '1'));
 					echo $this->getselect("neohp_alert_d", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('妨害', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
 					);
 				},
 				'neohp-settings',
@@ -339,13 +338,13 @@ class neohp_admin {
 			register_setting('neohp_basic_group', 'html_protect_head');
 			add_settings_field(
 				'html_protect_head',
-				__('HTML保護時のheadタグの出力', 'neo-html-protector'),
+				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('html_protect_head', '2'));
 					echo $this->getselect("html_protect_head", $value
 						, '0=' . __('出力しない', 'neo-html-protector')
-						, '1=' . __('titleタグのみ', 'neo-html-protector')
-						, '2=' . __('Wordpressのheadタグより取得', 'neo-html-protector')
+						, '1=' . __('TITLEタグのみ', 'neo-html-protector')
+						, '2=' . __('WordpressのHEADタグより取得', 'neo-html-protector')
 					);
 				},
 				'neohp-advanced-settings',
@@ -368,7 +367,6 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
-
 			// セクションの追加
 			add_settings_section(
 				'neohp_basic_section',
@@ -384,6 +382,14 @@ class neohp_admin {
 				function() {
 				},
 				'neohp-advanced-settings'
+			);
+
+			add_settings_section(
+				'neohp_allclear_section',
+				__('初期設定に戻す', 'neo-html-protector'),
+				function() {
+				},
+				'neohp-allclear-settings'
 			);
 
 			// セクションの追加
@@ -486,11 +492,7 @@ class neohp_admin {
 	function all_clear() {
 		?>
 		<div class="wrap">
-			<form method="post" action="options.php">
-				<?php
-				submit_button();
-				?>
-			</form>
+			<p><?php echo __('データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい', 'neo-html-protector') ?></p>
 		</div>
 		<?php
 	}
@@ -504,6 +506,7 @@ class neohp_admin {
 <p><?php echo __('バージョン', 'neo-html-protector') ?>: <?php echo NEOHP_VERSION ?></p>
 <p><?php echo __('サポートページ', 'neo-html-protector') ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>
 <p><a target="_blank" href="https://support.773.moe/donate/"><img src="<?php echo NEOHP_IMG_URL ?>/nano.gif" alt="Donate Button" width="240" style="border-radius: 30px"></a></p>
+<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm44565088/script?w=640&h=360"></script><br><a target="_blank" href="https://www.nicovideo.jp/watch/sm44565088">[<?php echo __('ISISちゃん', 'neo-html-protector') ?>]Give Me Merorin 1.6 <?php echo __('Miss. 裏まにら氏歌唱', 'neo-html-protector') ?></a></p>
 <h2><?php echo __('支援のお願い', 'neo-html-protector') ?></h2>
 <p><?php echo __('Neo HTML Protectorをご利用いただき、ありがとうございます！', 'neo-html-protector') ?></p>
 <p><?php echo __('本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。', 'neo-html-protector') ?></p>

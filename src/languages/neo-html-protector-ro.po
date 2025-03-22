@@ -1,0 +1,266 @@
+# Romanian translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Setare"
+
+msgid "IPログリーダー"
+msgstr "Cititor de jurnal IP"
+
+msgid "IPアドレスログ"
+msgstr "Jurnalul adresei IP"
+
+msgid "全クリア"
+msgstr "Liber."
+
+msgid "IPログが全て削除されました"
+msgstr "Toate jurnalele IP au fost șterse."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "ștampilarea timpului"
+
+msgid "IPアドレス"
+msgstr "Adresa IP"
+
+msgid "ユーザーエージェント"
+msgstr "Agent utilizator"
+
+msgid "イベント"
+msgstr "Eveniment"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Nu sunt disponibile date privind adresa IP."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modul de depanare, mesaje de avertizare în consolă."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Faceți clic dreapta pe mesajele de avertizare."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Mesaje de avertizare pentru imprimarea și salvarea PDF-urilor."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Mesaj afișat la copiere sau tăiere."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Mesajul care urmează să fie afișat la afișarea sursei HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Mesajul care trebuie afișat la începutul sursei atunci când HTML este ofuscat și protejat."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Mesaj afișat dacă tokenul de autentificare unică este anormal în timpul protecției HTML."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ofuscare HTML"
+
+msgid "無効"
+msgstr "Invalid"
+
+msgid "有効"
+msgstr "Valabilitate"
+
+msgid "HTML保護"
+msgstr "Protecția HTML"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO"
+
+msgid "デバッグモード"
+msgstr "Modul de depanare"
+
+msgid "妨害＋記録のみ"
+msgstr "Interferență + numai înregistrare."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Interceptare + înregistrare + afișare + redirecționare"
+
+msgid "ブラウザーコンソール"
+msgstr "Consola browserului"
+
+msgid "HTMLソース表示"
+msgstr "Afișarea sursei HTML"
+
+msgid "印刷"
+msgstr "Tipărire"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Blocarea imprimării, dar nu funcționează bine în unele browsere"
+
+msgid "右クリック"
+msgstr "Clic dreapta"
+
+msgid "コピー・カット"
+msgstr "Copiere-tăiere"
+
+msgid "テキスト選択"
+msgstr "Selectarea textului"
+
+msgid "デバッガー妨害"
+msgstr "Interferențe cu depanatorul"
+
+msgid "リダイレクトするURL"
+msgstr "URL către care să redirecționați"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Ieșirea etichetelor HEAD în timpul protecției HTML"
+
+msgid "出力しない"
+msgstr "Fără ieșire"
+
+msgid "TITLEタグのみ"
+msgstr "Doar eticheta TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Retrieved from the HEAD tag in Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Verificări unice ale jetoanelor în timpul protecției HTML."
+
+msgid "基本設定"
+msgstr "Setarea de bază"
+
+msgid "高度な設定"
+msgstr "Setări avansate"
+
+msgid "初期設定に戻す"
+msgstr "Resetarea la setările implicite"
+
+msgid "メッセージの設定"
+msgstr "Setări de mesaje"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Setați URL-ul care urmează să fie redirecționat atunci când faceți clic dreapta sau vizualizați codul sursă."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML nu poate fi utilizat pentru mesajele de avertizare"
+
+msgid "以下の文字列が使用できます"
+msgstr "Pot fi utilizate următoarele șiruri de caractere"
+
+msgid "改行"
+msgstr "Linie nouă"
+
+msgid "押下されたキー"
+msgstr "Tastă apăsată"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Setări Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "Despre acest plugin."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Pentru a șterge toate datele, dezinstalați plug-in-ul și apoi reinstalați-l"
+
+msgid "Neo HTML Protectorについて"
+msgstr "Despre Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Dezvoltator: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versiune"
+
+msgid "サポートページ"
+msgstr "Pagina de asistență"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. cântată de dl Uramanira"
+
+msgid "支援のお願い"
+msgstr "Cerere de asistență."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Vă mulțumim pentru utilizarea Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "O mulțime de timp și înțelepciune au fost investite în dezvoltarea și întreținerea acestui plugin, și am fi recunoscători pentru donații, dacă există, pentru a ne ajuta să strângem fonduri pentru îmbunătățiri și actualizări continue."
+
+msgid "寄付について"
+msgstr "Despre donații"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donațiile sunt voluntare și nu obligatorii. Acesta este deschis tuturor, astfel încât pluginul să poată fi utilizat gratuit. Cu toate acestea, sprijinul dvs. este foarte apreciat pentru a continua dezvoltarea și am fi bucuroși să vă ajutăm în orice fel putem."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donațiile pot fi făcute prin intermediul linkului de mai jos. Dacă sunteți din Japonia, puteți, de asemenea, să donați gratuit și, în plus, puteți dona cu ușurință folosind voucherele cadou Amazon."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Cu sprijinul dvs., vom face tot posibilul să vă aducem actualizări excelente în viitor!"
+
+msgid "寄付先"
+msgstr "Donator"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.ro"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Modul de depanare și activarea consolei sunt interzise"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Următoarele informații au fost trimise către server"
+
+msgid "あなたのIPアドレス"
+msgstr "Adresa dvs. de IP."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Dispozitivul și browserul dvs."
+
+msgid "あなたの押下したキー"
+msgstr "Tastele dvs. apăsate."
+
+msgid "リダイレクトをします"
+msgstr "Redirecționări."
+
+msgid "右クリックは禁止されています"
+msgstr "Clicul dreapta este interzis."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Tipărirea și salvarea în format PDF este interzisă"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Copierea sau tăierea este interzisă."
+
+msgid "あなたが起こしたイベント"
+msgstr "Evenimentele pe care le-ați provocat."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Afișarea sursei HTML este interzisă."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Accesul neautorizat este interzis."
+
+msgid "画像が見つかりません"
+msgstr "Imaginea nu a fost găsită."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate"
+

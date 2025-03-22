@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-22 22:49+0900\n"
-"PO-Revision-Date: 2025-03-22 22:49+0900\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -33,6 +33,9 @@ msgstr "IP 로그가 모두 삭제되었습니다."
 msgid "ID"
 msgstr "ID"
 
+msgid "タイムスタンプ"
+msgstr "타임스탬프"
+
 msgid "IPアドレス"
 msgstr "IP 주소"
 
@@ -41,9 +44,6 @@ msgstr "사용자 에이전트"
 
 msgid "イベント"
 msgstr "이벤트"
-
-msgid "日時"
-msgstr "날짜 및 시간"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP 주소 데이터 없음"
@@ -117,23 +117,20 @@ msgstr "텍스트 선택"
 msgid "デバッガー妨害"
 msgstr "디버거 방해"
 
-msgid "妨害"
-msgstr "방해"
-
 msgid "リダイレクトするURL"
 msgstr "리디렉션할 URL"
 
-msgid "HTML保護時のheadタグの出力"
-msgstr "HTML 보호 시 head 태그 출력"
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HTML 보호 시 HEAD 태그 출력"
 
 msgid "出力しない"
 msgstr "출력하지 않음"
 
-msgid "titleタグのみ"
-msgstr "Title 태그만"
+msgid "TITLEタグのみ"
+msgstr "TITLE 태그만"
 
-msgid "Wordpressのheadタグより取得"
-msgstr "워드프레스의 head 태그에서 가져옴"
+msgid "WordpressのHEADタグより取得"
+msgstr "Wordpress의 HEAD 태그에서 가져옴"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
 msgstr "HTML 보호 시 일회성 토큰 확인"
@@ -143,6 +140,9 @@ msgstr "기본 설정"
 
 msgid "高度な設定"
 msgstr "고급 설정"
+
+msgid "初期設定に戻す"
+msgstr "초기 설정으로 되돌리기"
 
 msgid "メッセージの設定"
 msgstr "메시지 설정"
@@ -165,11 +165,11 @@ msgstr "누른 키"
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector 설정"
 
-msgid "初期設定に戻す"
-msgstr "초기 설정으로 되돌리기"
-
 msgid "このプラグインについて"
 msgstr "이 플러그인 소개"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "모든 데이터를 지우려면 플러그인을 제거한 후 다시 설치해야 합니다."
 
 msgid "Neo HTML Protectorについて"
 msgstr "Neo HTML Protector 소개"
@@ -185,6 +185,12 @@ msgstr "버전"
 
 msgid "サポートページ"
 msgstr "지원 페이지"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. 우라마니야 씨 노래"
 
 msgid "支援のお願い"
 msgstr "지원 요청"

@@ -1,0 +1,266 @@
+# Slovenian translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:30+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Slovenian\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Nastavitev"
+
+msgid "IPログリーダー"
+msgstr "Bralnik dnevnika IP"
+
+msgid "IPアドレスログ"
+msgstr "Dnevnik naslovov IP"
+
+msgid "全クリア"
+msgstr "Vse je jasno."
+
+msgid "IPログが全て削除されました"
+msgstr "Vsi dnevniki IP so bili izbrisani."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Označevanje časa"
+
+msgid "IPアドレス"
+msgstr "Naslov IP"
+
+msgid "ユーザーエージェント"
+msgstr "Uporabniški agent"
+
+msgid "イベント"
+msgstr "Dogodek"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Podatki o naslovu IP niso na voljo."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Način za odpravljanje napak, konzolna opozorilna sporočila."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Opozorilna sporočila z desnim klikom."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Opozorilna sporočila za tiskanje in shranjevanje datotek PDF."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Pri kopiranju ali rezanju se prikaže sporočilo."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Sporočilo, ki se prikaže pri prikazu vira HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Sporočilo, ki se prikaže na začetku vira, ko je HTML zakrit in zaščiten."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Sporočilo, ki se prikaže, če je žeton za enkratno preverjanje pristnosti med zaščito HTML nenormalen."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Obfuskacija HTML"
+
+msgid "無効"
+msgstr "Neveljavno"
+
+msgid "有効"
+msgstr "Veljavnost"
+
+msgid "HTML保護"
+msgstr "Zaščita HTML"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO."
+
+msgid "デバッグモード"
+msgstr "Način odpravljanja napak"
+
+msgid "妨害＋記録のみ"
+msgstr "Samo motnje + zapis."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Prevzem + snemanje + prikaz + preusmeritev"
+
+msgid "ブラウザーコンソール"
+msgstr "Konzola brskalnika"
+
+msgid "HTMLソース表示"
+msgstr "Prikaz vira HTML"
+
+msgid "印刷"
+msgstr "Tiskanje"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Blokiranje tiskanja, vendar v nekaterih brskalnikih ne deluje dobro"
+
+msgid "右クリック"
+msgstr "Z desnim klikom miške kliknite ."
+
+msgid "コピー・カット"
+msgstr "Kopiranje in rezanje"
+
+msgid "テキスト選択"
+msgstr "Izbira besedila"
+
+msgid "デバッガー妨害"
+msgstr "Motnje v delovanju razhroščevalnika"
+
+msgid "リダイレクトするURL"
+msgstr "URL za preusmeritev na"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Izpis oznak HEAD med zaščito HTML"
+
+msgid "出力しない"
+msgstr "Brez izhoda"
+
+msgid "TITLEタグのみ"
+msgstr "Samo oznaka TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Pridobljeno iz oznake HEAD v programu Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Enkratno preverjanje žetonov med zaščito HTML."
+
+msgid "基本設定"
+msgstr "Osnovna nastavitev"
+
+msgid "高度な設定"
+msgstr "Napredne nastavitve"
+
+msgid "初期設定に戻す"
+msgstr "Ponastavitev na privzeto vrednost"
+
+msgid "メッセージの設定"
+msgstr "Nastavitve sporočila"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Nastavite URL, ki se posreduje pri desnem kliku ali ogledu izvorne kode."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML ni mogoče uporabiti za opozorilna sporočila"
+
+msgid "以下の文字列が使用できます"
+msgstr "Uporabljajo se lahko naslednji nizi"
+
+msgid "改行"
+msgstr "Nova vrstica"
+
+msgid "押下されたキー"
+msgstr "Pritisnjena tipka"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Nastavitve programa Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "O tem vtičniku."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Če želite počistiti vse podatke, odstranite vtičnik in ga znova namestite."
+
+msgid "Neo HTML Protectorについて"
+msgstr "O programu Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Namen tega vtičnika je zaščititi HTML, slike itd., ki izhajajo iz vašega Wordpressa, in ga zaščititi pred nepooblaščeno uporabo njegove vsebine!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Razvijalec: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Različica"
+
+msgid "サポートページ"
+msgstr "Stran za podporo"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. poje g. Uramanira"
+
+msgid "支援のお願い"
+msgstr "Prošnja za pomoč."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Zahvaljujemo se vam za uporabo programa Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "V razvoj in vzdrževanje tega vtičnika je bilo vloženega veliko časa in modrosti, zato bi bili hvaležni za morebitne donacije, ki bi nam pomagale zbrati sredstva za nadaljnje izboljšave in posodobitve."
+
+msgid "寄付について"
+msgstr "O donacijah"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih močeh."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donacije lahko prispevate prek spodnje povezave. Če ste iz Japonske, lahko darujete brezplačno, poleg tega pa lahko enostavno darujete z Amazonovimi darilnimi boni."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali odlične posodobitve!"
+
+msgid "寄付先"
+msgstr "Donator"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.si"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Prepovedan je način za odpravljanje napak in aktiviranje konzole"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "V strežnik so bile poslane naslednje informacije"
+
+msgid "あなたのIPアドレス"
+msgstr "Vaš naslov IP."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Vaša naprava in brskalnik"
+
+msgid "あなたの押下したキー"
+msgstr "Vaše pritisnjene tipke."
+
+msgid "リダイレクトをします"
+msgstr "Preusmeritve."
+
+msgid "右クリックは禁止されています"
+msgstr "Klikanje z desno tipko miške je prepovedano."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Tiskanje in shranjevanje v PDF je prepovedano."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopiranje ali rezanje je prepovedano."
+
+msgid "あなたが起こしたイベント"
+msgstr "Dogodki, ki ste jih povzročili."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Prikaz vira HTML je prepovedan."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Nepooblaščen dostop je prepovedan."
+
+msgid "画像が見つかりません"
+msgstr "Slike ni mogoče najti."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom"
+

@@ -1,0 +1,85 @@
+設定	Pengaturan
+IPログリーダー	Pembaca Log IP
+IPアドレスログ	Catatan alamat IP
+全クリア	Semua aman.
+IPログが全て削除されました	Semua log IP telah dihapus.
+ID	ID
+IPアドレス	Alamat IP
+ユーザーエージェント	Agen Pengguna
+イベント	Acara
+日時	Tanggal dan waktu
+IPアドレスのデータはありません	Tidak ada data alamat IP yang tersedia.
+デバッグモード、コンソールの警告メッセージ	Mode debug, pesan peringatan konsol.
+右クリックの警告メッセージ	Klik kanan pesan peringatan.
+印刷、PDF保存の警告メッセージ	Pesan peringatan untuk mencetak dan menyimpan PDF.
+コピー・カットした時に表示するメッセージ	Pesan yang ditampilkan saat menyalin atau memotong.
+HTMLソース表示時に表示するメッセージ	Pesan yang akan ditampilkan saat menampilkan sumber HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Pesan yang akan ditampilkan di awal sumber ketika HTML dikaburkan dan diproteksi.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Pesan yang ditampilkan jika token autentikasi satu kali tidak normal selama perlindungan HTML.
+HTML難読化 (圧縮)	Pengaburan HTML
+無効	Tidak valid
+有効	Validitas
+HTML保護	Perlindungan HTML
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO
+デバッグモード	Mode debug
+妨害＋記録のみ	Gangguan + rekam saja.
+妨害＋記録＋表示＋リダイレクト	Cegat + rekam + tampilkan + alihkan
+ブラウザーコンソール	Konsol browser
+HTMLソース表示	Tampilan sumber HTML
+印刷	Pencetakan
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser
+右クリック	Klik kanan
+コピー・カット	Salin-potong
+テキスト選択	Pemilihan teks
+デバッガー妨害	Gangguan debugger
+妨害	Gangguan
+リダイレクトするURL	URL untuk dialihkan ke
+HTML保護時のHEADタグの出力	Output dari tag HEAD selama perlindungan HTML
+出力しない	Tidak ada output
+TITLEタグのみ	Hanya tag JUDUL
+WordpressのHEADタグより取得	Diambil dari tag HEAD di Wordpress
+HTML保護時の一度限りのトークンのチェック	Pemeriksaan token satu kali selama perlindungan HTML.
+基本設定	Pengaturan dasar
+高度な設定	Pengaturan lanjutan
+メッセージの設定	Pengaturan pesan
+右クリックやソースコード表示時に転送する URL を設定します	Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode sumber.
+警告メッセージにはHTMLは使用できません	HTML tidak dapat digunakan untuk pesan peringatan
+以下の文字列が使用できます	String berikut ini dapat digunakan
+改行	Baris baru
+押下されたキー	Tombol yang ditekan
+Neo HTML Protector 設定	Pengaturan Neo HTML Protector
+初期設定に戻す	Mengatur ulang ke default
+このプラグインについて	Tentang plugin ini.
+Neo HTML Protectorについて	Tentang Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah!
+開発者: 夜桜　なの	Pengembang: Nanoh Yozakura
+バージョン	Versi
+サポートページ	Halaman dukungan
+支援のお願い	Permintaan bantuan.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Terima kasih telah menggunakan Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Banyak waktu dan kebijaksanaan telah dicurahkan untuk pengembangan dan pemeliharaan plugin ini, dan kami akan berterima kasih atas donasi, jika ada, untuk membantu kami menggalang dana guna perbaikan dan pembaruan yang berkelanjutan.
+寄付について	Tentang donasi
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga plugin ini dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Dengan dukungan Anda, kami akan melakukan yang terbaik untuk menghadirkan pembaruan yang hebat di masa depan!
+寄付先	Donor
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang.
+デバッグモード、コンソールの起動は禁止されています	Mode debug dan aktivasi konsol dilarang
+以下の情報がサーバーに送信されました	Informasi berikut ini telah dikirim ke server
+あなたのIPアドレス	Alamat IP Anda.
+あなたの端末とブラウザ	Perangkat dan browser Anda
+あなたの押下したキー	Tombol yang Anda tekan.
+リダイレクトをします	Pengalihan.
+右クリックは禁止されています	Dilarang mengklik kanan.
+印刷、PDFへの保存は禁止されています	Dilarang mencetak dan menyimpan ke PDF
+コピー、カットは禁止されています	Dilarang menyalin atau memotong.
+あなたが起こしたイベント	Peristiwa yang Anda sebabkan.
+HTMLソース表示は禁止されています	Dilarang menampilkan sumber HTML.
+不正アクセスは禁止されています	Dilarang mengakses tanpa izin.
+画像が見つかりません	Gambar tidak ditemukan.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Untuk menghapus semua data, hapus instalan pengaya, lalu instal ulang
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	
+Miss. 裏まにら氏歌唱	Nona. dinyanyikan oleh Mr Uramanira
+タイムスタンプ	Stempel waktu

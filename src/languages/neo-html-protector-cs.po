@@ -1,0 +1,266 @@
+# Czech translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:28+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Nastavení"
+
+msgid "IPログリーダー"
+msgstr "Čtečka protokolu IP"
+
+msgid "IPアドレスログ"
+msgstr "Protokol IP adres"
+
+msgid "全クリア"
+msgstr "Všude čisto."
+
+msgid "IPログが全て削除されました"
+msgstr "Všechny protokoly IP byly odstraněny."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "časové razítko"
+
+msgid "IPアドレス"
+msgstr "IP adresa"
+
+msgid "ユーザーエージェント"
+msgstr "Uživatelský agent"
+
+msgid "イベント"
+msgstr "Událost"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Nejsou k dispozici žádné údaje o IP adrese."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Režim ladění, varovné zprávy v konzole."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Výstražné zprávy kliknutím pravým tlačítkem myši."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Upozornění při tisku a ukládání souborů PDF."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Zpráva zobrazená při kopírování nebo řezání."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Zpráva, která se zobrazí při zobrazení zdroje HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Zpráva, která se zobrazí na začátku zdrojového kódu, pokud je kód HTML obfuskován a chráněn."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Zpráva se zobrazí, pokud je jednorázový ověřovací token během ochrany HTML abnormální."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Obfuskace HTML"
+
+msgid "無効"
+msgstr "Neplatné"
+
+msgid "有効"
+msgstr "Platnost"
+
+msgid "HTML保護"
+msgstr "Ochrana HTML"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Pokaždé, když je aktivována, dojde k přesměrování, což může mít za následek pokles SEO."
+
+msgid "デバッグモード"
+msgstr "Režim ladění"
+
+msgid "妨害＋記録のみ"
+msgstr "Pouze rušení + záznam."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Zachycení + záznam + zobrazení + přesměrování"
+
+msgid "ブラウザーコンソール"
+msgstr "Konzola prohlížeče"
+
+msgid "HTMLソース表示"
+msgstr "Zobrazení zdroje HTML"
+
+msgid "印刷"
+msgstr "Tisk"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Blokování tisku, ale v některých prohlížečích nefunguje dobře"
+
+msgid "右クリック"
+msgstr "Klikněte pravým tlačítkem myši na"
+
+msgid "コピー・カット"
+msgstr "Kopírování"
+
+msgid "テキスト選択"
+msgstr "Výběr textu"
+
+msgid "デバッガー妨害"
+msgstr "Rušení ladicího programu"
+
+msgid "リダイレクトするURL"
+msgstr "URL pro přesměrování na"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Výstup značek HEAD při ochraně HTML"
+
+msgid "出力しない"
+msgstr "Žádný výstup"
+
+msgid "TITLEタグのみ"
+msgstr "Pouze značka TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Získáno z tagu HEAD v aplikaci Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Jednorázové kontroly tokenů při ochraně HTML."
+
+msgid "基本設定"
+msgstr "Základní nastavení"
+
+msgid "高度な設定"
+msgstr "Rozšířená nastavení"
+
+msgid "初期設定に戻す"
+msgstr "Obnovení výchozího nastavení"
+
+msgid "メッセージの設定"
+msgstr "Nastavení zpráv"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Nastavení adresy URL, která se má předávat při kliknutí pravým tlačítkem myši nebo při zobrazení zdrojového kódu."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML nelze použít pro varovné zprávy"
+
+msgid "以下の文字列が使用できます"
+msgstr "Lze použít následující řetězce"
+
+msgid "改行"
+msgstr "Nový řádek"
+
+msgid "押下されたキー"
+msgstr "Stisknutá klávesa"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Nastavení nástroje Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "O tomto zásuvném modulu."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Chcete-li vymazat všechna data, odinstalujte modul plug-in a znovu jej nainstalujte."
+
+msgid "Neo HTML Protectorについて"
+msgstr "O produktu Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Cílem tohoto pluginu je chránit výstup HTML, obrázků atd. z vašeho Wordpressu a chránit jej před neoprávněným použitím jeho obsahu!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Vývojář: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Verze"
+
+msgid "サポートページ"
+msgstr "Stránka podpory"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. zpívá pan Uramanira"
+
+msgid "支援のお願い"
+msgstr "Žádost o pomoc."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Děkujeme, že používáte Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Vývoji a údržbě tohoto pluginu bylo věnováno mnoho času a moudrosti a byli bychom vděčni za případné dary, které by nám pomohly získat prostředky na další vylepšování a aktualizace."
+
+msgid "寄付について"
+msgstr "O darech"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Dary jsou dobrovolné a nepovinné. Je otevřen všem, aby mohl být zásuvný modul používán zdarma. Vaši podporu však velmi oceníme, abychom mohli pokračovat ve vývoji, a rádi vám pomůžeme, jak jen to bude možné."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Přispět můžete prostřednictvím níže uvedeného odkazu. Pokud jste z Japonska, můžete přispět zdarma a navíc můžete snadno přispět pomocí dárkových poukazů Amazon."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "S vaší podporou se budeme snažit, abychom vám v budoucnu přinášeli skvělé aktualizace!"
+
+msgid "寄付先"
+msgstr "Dárce"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Děkujeme vám za vaši podporu a těšíme se na další spolupráci."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.cz"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Režim ladění a aktivace konzoly je zakázána."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Na server byly odeslány následující informace"
+
+msgid "あなたのIPアドレス"
+msgstr "Vaše IP adresa."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Vaše zařízení a prohlížeč"
+
+msgid "あなたの押下したキー"
+msgstr "Vaše stisknuté klávesy."
+
+msgid "リダイレクトをします"
+msgstr "Přesměrování."
+
+msgid "右クリックは禁止されています"
+msgstr "Klikání pravým tlačítkem myši je zakázáno."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Tisk a ukládání do PDF je zakázáno"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopírování nebo stříhání je zakázáno."
+
+msgid "あなたが起こしたイベント"
+msgstr "Události, které jste způsobili."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Zobrazení zdroje HTML je zakázáno."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Neoprávněný přístup je zakázán."
+
+msgid "画像が見つかりません"
+msgstr "Obrázek nebyl nalezen."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Tyto webové stránky lze zobrazit pouze s povolenými soubory cookie a JavaScriptem."
+

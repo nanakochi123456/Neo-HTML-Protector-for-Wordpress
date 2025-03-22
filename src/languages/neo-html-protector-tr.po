@@ -1,0 +1,266 @@
+# Turkish translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:33+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Ayar"
+
+msgid "IPログリーダー"
+msgstr "IP Günlük Okuyucu"
+
+msgid "IPアドレスログ"
+msgstr "IP adresi günlüğü"
+
+msgid "全クリア"
+msgstr "Temiz."
+
+msgid "IPログが全て削除されました"
+msgstr "Tüm IP günlükleri silinmiştir."
+
+msgid "ID"
+msgstr "KIMLIK"
+
+msgid "タイムスタンプ"
+msgstr "Zaman damgası"
+
+msgid "IPアドレス"
+msgstr "IP adresi"
+
+msgid "ユーザーエージェント"
+msgstr "Kullanıcı Aracısı"
+
+msgid "イベント"
+msgstr "Etkinlik"
+
+msgid "IPアドレスのデータはありません"
+msgstr "IP adresi verisi mevcut değil."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Hata ayıklama modu, konsol uyarı mesajları."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Uyarı mesajlarına sağ tıklayın."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "PDF'leri yazdırmak ve kaydetmek için uyarı mesajları."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Kopyalama veya kesme sırasında görüntülenen mesaj."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "HTML kaynağı görüntülenirken görüntülenecek mesaj"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "HTML gizlendiğinde ve korunduğunda kaynağın başında görüntülenecek mesaj."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "HTML koruması sırasında tek seferlik kimlik doğrulama belirteci anormalse görüntülenen mesaj."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML gizleme"
+
+msgid "無効"
+msgstr "Geçersiz"
+
+msgid "有効"
+msgstr "Geçerlilik"
+
+msgid "HTML保護"
+msgstr "HTML Koruması"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Her etkinleştirildiğinde, SEO'da düşüşe neden olabilecek bir yönlendirme olur"
+
+msgid "デバッグモード"
+msgstr "Hata ayıklama modu"
+
+msgid "妨害＋記録のみ"
+msgstr "Sadece müdahale + kayıt."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Yakalama + kayıt + görüntüleme + yönlendirme"
+
+msgid "ブラウザーコンソール"
+msgstr "Tarayıcı konsolu"
+
+msgid "HTMLソース表示"
+msgstr "HTML kaynak gösterimi"
+
+msgid "印刷"
+msgstr "Baskı"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Baskı engelleme ancak bazı tarayıcılarda iyi çalışmıyor"
+
+msgid "右クリック"
+msgstr "Sağ tıklayın"
+
+msgid "コピー・カット"
+msgstr "Kopyala-kes"
+
+msgid "テキスト選択"
+msgstr "Metin seçimi"
+
+msgid "デバッガー妨害"
+msgstr "Hata ayıklayıcı müdahalesi"
+
+msgid "リダイレクトするURL"
+msgstr "Yönlendirilecek URL"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HTML koruması sırasında HEAD etiketlerinin çıktısı"
+
+msgid "出力しない"
+msgstr "Çıktı yok"
+
+msgid "TITLEタグのみ"
+msgstr "Yalnızca TITLE etiketi"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Wordpress'teki HEAD etiketinden alındı"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "HTML koruması sırasında tek seferlik token kontrolleri."
+
+msgid "基本設定"
+msgstr "Temel ayar"
+
+msgid "高度な設定"
+msgstr "Gelişmiş ayarlar"
+
+msgid "初期設定に戻す"
+msgstr "Varsayılana sıfırlama"
+
+msgid "メッセージの設定"
+msgstr "Mesaj ayarları"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Sağ tıklandığında veya kaynak kodu görüntülendiğinde iletilecek URL'yi ayarlayın."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Uyarı mesajları için HTML kullanılamaz"
+
+msgid "以下の文字列が使用できます"
+msgstr "Aşağıdaki dizeler kullanılabilir"
+
+msgid "改行"
+msgstr "Yeni hat"
+
+msgid "押下されたキー"
+msgstr "Basılan tuş"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML Koruyucu Ayarları"
+
+msgid "このプラグインについて"
+msgstr "Bu eklenti hakkında."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Tüm verileri temizlemek için eklentiyi kaldırın ve ardından yeniden yükleyin"
+
+msgid "Neo HTML Protectorについて"
+msgstr "Neo HTML Protector Hakkında"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Bu eklenti, Wordpress'inizin HTML, resim vb. çıktılarını korumayı ve içeriğinin izinsiz kullanımından korumayı amaçlamaktadır!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Geliştirici: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versiyon"
+
+msgid "サポートページ"
+msgstr "Destek sayfası"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Bayan. Bay Uramanira tarafından söylendi"
+
+msgid "支援のお願い"
+msgstr "Yardım talebi."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Neo HTML Protector kullandığınız için teşekkür ederiz!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Bu eklentinin geliştirilmesi ve bakımı için çok fazla zaman ve bilgelik harcandı ve eğer varsa, sürekli iyileştirmeler ve güncellemeler için fon toplamamıza yardımcı olacak bağışlar için minnettar oluruz."
+
+msgid "寄付について"
+msgstr "Bağışlar hakkında"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Bağışlar gönüllülük esasına dayanır ve zorunlu değildir. Eklentinin ücretsiz olarak kullanılabilmesi için herkese açıktır. Bununla birlikte, geliştirmeye devam etmek için desteğiniz çok takdir edilmektedir ve elimizden gelen her şekilde yardımcı olmaktan mutluluk duyarız."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Bağışlar aşağıdaki link üzerinden yapılabilir. Japonya'dan geliyorsanız, ücretsiz bağış yapabilir ve ayrıca Amazon hediye çeklerini kullanarak kolayca bağışta bulunabilirsiniz."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Desteğinizle, gelecekte size harika güncellemeler sunmak için elimizden geleni yapacağız!"
+
+msgid "寄付先"
+msgstr "Donör"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalışmayı dört gözle bekliyoruz."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.com.tr"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Hata ayıklama modu ve konsol aktivasyonu yasaktır"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Aşağıdaki bilgiler sunucuya gönderilmiştir"
+
+msgid "あなたのIPアドレス"
+msgstr "IP adresiniz."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Cihazınız ve tarayıcınız"
+
+msgid "あなたの押下したキー"
+msgstr "Basılı tuşlarınız."
+
+msgid "リダイレクトをします"
+msgstr "Yönlendirmeler."
+
+msgid "右クリックは禁止されています"
+msgstr "Sağ tıklamak yasaktır."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "PDF olarak yazdırmak ve kaydetmek yasaktır"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopyalanması veya kesilmesi yasaktır."
+
+msgid "あなたが起こしたイベント"
+msgstr "Sebep olduğunuz olaylar."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML kaynak gösterimi yasaktır."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Yetkisiz erişim yasaktır."
+
+msgid "画像が見つかりません"
+msgstr "Resim bulunamadı."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Bu web sitesi yalnızca çerezler ve JavaScript etkinken görüntülenebilir"
+

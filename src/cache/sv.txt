@@ -1,0 +1,83 @@
+設定	Inställning
+IPログリーダー	IP-logg läsare
+IPアドレスログ	IP-adresslogg
+全クリア	Allt klart.
+IPログが全て削除されました	Alla IP-loggar har raderats.
+ID	ID
+IPアドレス	IP-adress
+ユーザーエージェント	Användaragent
+イベント	Händelse
+日時	Datum och tid
+IPアドレスのデータはありません	Inga IP-adressuppgifter tillgängliga.
+デバッグモード、コンソールの警告メッセージ	Felsökningsläge, varningsmeddelanden i konsolen.
+右クリックの警告メッセージ	Högerklicka på varningsmeddelanden.
+印刷、PDF保存の警告メッセージ	Varningsmeddelanden för utskrift och lagring av PDF-filer.
+コピー・カットした時に表示するメッセージ	Meddelande som visas vid kopiering eller skärning.
+HTMLソース表示時に表示するメッセージ	Meddelande som ska visas när HTML-källan visas
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Meddelande som ska visas i början av källan när HTML är fördunklad och skyddad.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Meddelande som visas om token för engångsautentisering är onormal under HTML-skydd.
+HTML難読化 (圧縮)	Fördunkling av HTML
+無効	Ogiltig
+有効	Giltighet
+HTML保護	HTML-skydd
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	När den aktiveras sker en omdirigering, vilket kan leda till att SEO minskar
+デバッグモード	Felsökningsläge
+妨害＋記録のみ	Interferens + endast rekord.
+妨害＋記録＋表示＋リダイレクト	Avlyssna + registrera + visa + omdirigera
+ブラウザーコンソール	Webbläsarkonsol
+HTMLソース表示	Visning av HTML-källa
+印刷	Tryckning
+タイムスタンプ	Tidsstämpling
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Utskriftsblockering men fungerar inte bra i vissa webbläsare
+右クリック	Högerklicka
+コピー・カット	Kopiera och klippa
+テキスト選択	Textval
+デバッガー妨害	Störning av debugger
+リダイレクトするURL	URL att omdirigera till
+HTML保護時のHEADタグの出力	Utmatning av HEAD-taggar under HTML-skydd
+出力しない	Ingen utmatning
+TITLEタグのみ	Endast TITLE-tagg
+WordpressのHEADタグより取得	Hämtas från HEAD-taggen i Wordpress
+HTML保護時の一度限りのトークンのチェック	Engångskontroll av token under HTML-skydd.
+基本設定	Grundinställning
+高度な設定	Avancerade inställningar
+初期設定に戻す	återställning till standard
+メッセージの設定	Inställningar för meddelanden
+右クリックやソースコード表示時に転送する URL を設定します	Ange den URL som ska vidarebefordras när du högerklickar eller visar källkod.
+警告メッセージにはHTMLは使用できません	HTML kan inte användas för varningsmeddelanden
+以下の文字列が使用できます	Följande strängar kan användas
+改行	Ny linje
+押下されたキー	Tryck på tangenten
+Neo HTML Protector 設定	Inställningar för Neo HTML Protector
+このプラグインについて	Om detta plugin.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	För att rensa alla data, avinstallera plug-in och installera sedan om det
+Neo HTML Protectorについて	Om Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Detta plugin syftar till att skydda HTML, bilder etc. som matas ut från din Wordpress och skydda den från obehörig användning av dess innehåll!
+開発者: 夜桜　なの	Utvecklare: Nano Yozakura
+バージョン	Version
+サポートページ	Supportsida
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. sjungen av Mr Uramanira
+支援のお願い	Begäran om hjälp.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Tack för att du använder Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Mycket tid och visdom har gått in i utvecklingen och underhållet av detta plugin, och vi skulle vara tacksamma för donationer, om några, för att hjälpa oss att samla in pengar för fortsatta förbättringar och uppdateringar.
+寄付について	Om donationer
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donationer är frivilliga och inte obligatoriska. Det är öppet för alla så att plugin-programmet kan användas gratis. Ditt stöd är dock mycket uppskattat för att fortsätta utvecklingen och vi skulle gärna hjälpa till på alla sätt vi kan.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donationer kan göras via länken nedan. Om du är från Japan kan du också donera gratis, och dessutom kan du enkelt donera med Amazon-presentkort.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Med ditt stöd kommer vi att göra vårt bästa för att ge dig bra uppdateringar i framtiden!
+寄付先	Givare
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi tackar för ert stöd och ser fram emot att arbeta med er i framtiden.
+デバッグモード、コンソールの起動は禁止されています	Felsökningsläge och konsolaktivering är förbjudet
+以下の情報がサーバーに送信されました	Följande information har skickats till servern
+あなたのIPアドレス	Din IP-adress.
+あなたの端末とブラウザ	Din enhet och webbläsare
+あなたの押下したキー	Dina nedtryckta tangenter.
+リダイレクトをします	Omdirigeringar.
+右クリックは禁止されています	Högerklickning är förbjuden.
+印刷、PDFへの保存は禁止されています	Utskrift och sparande till PDF är förbjudet
+コピー、カットは禁止されています	Kopiering eller klippning är förbjuden.
+あなたが起こしたイベント	Händelser som du orsakade.
+HTMLソース表示は禁止されています	Visning av HTML-källa är förbjuden.
+不正アクセスは禁止されています	Obehörig åtkomst är förbjuden.
+画像が見つかりません	Bilden hittades inte.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Denna webbplats kan endast visas med cookies och JavaScript aktiverat

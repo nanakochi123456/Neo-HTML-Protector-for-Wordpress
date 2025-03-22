@@ -1,0 +1,84 @@
+設定	Indstilling
+IPログリーダー	IP-loglæser
+IPアドレスログ	Log over IP-adresser
+全クリア	Alt er klart.
+IPログが全て削除されました	Alle IP-logfiler er blevet slettet.
+ID	ID
+IPアドレス	IP-adresse
+ユーザーエージェント	Brugeragent
+イベント	Begivenhed
+日時	Dato og klokkeslæt
+IPアドレスのデータはありません	Ingen tilgængelige IP-adressedata.
+デバッグモード、コンソールの警告メッセージ	Fejlfindingstilstand, advarselsmeddelelser på konsollen.
+右クリックの警告メッセージ	Højreklik på advarselsmeddelelser.
+印刷、PDF保存の警告メッセージ	Advarsler ved udskrivning og lagring af PDF'er.
+コピー・カットした時に表示するメッセージ	Meddelelse vises ved kopiering eller skæring.
+HTMLソース表示時に表示するメッセージ	Besked, der skal vises, når HTML-kilden vises
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Besked, der vises i begyndelsen af kilden, når HTML er obfuskeret og beskyttet.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Meddelelse, der vises, hvis tokenet til engangsgodkendelse er unormalt under HTML-beskyttelse.
+HTML難読化 (圧縮)	HTML-forvirring
+無効	Ugyldig
+有効	Gyldighed
+HTML保護	HTML-beskyttelse
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Hver gang den aktiveres, sker der en omdirigering, som kan resultere i et fald i SEO.
+デバッグモード	Fejlfindingstilstand
+妨害＋記録のみ	Kun interferens + optagelse.
+妨害＋記録＋表示＋リダイレクト	Aflytning + registrering + visning + omdirigering
+ブラウザーコンソール	Browser-konsol
+HTMLソース表示	Visning af HTML-kilde
+印刷	Udskrivning
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Printblokering, men fungerer ikke godt i nogle browsere
+右クリック	Højreklik
+コピー・カット	Copy-cut
+テキスト選択	Valg af tekst
+デバッガー妨害	Debugger-interferens
+妨害	Indblanding
+リダイレクトするURL	URL til at omdirigere til
+HTML保護時のHEADタグの出力	Output af HEAD-tags under HTML-beskyttelse
+出力しない	Intet output
+TITLEタグのみ	Kun TITLE-tag
+WordpressのHEADタグより取得	Hentet fra HEAD-tagget i Wordpress
+HTML保護時の一度限りのトークンのチェック	Engangs-token-tjek under HTML-beskyttelse.
+基本設定	Grundlæggende indstilling
+高度な設定	Avancerede indstillinger
+メッセージの設定	Indstillinger for beskeder
+右クリックやソースコード表示時に転送する URL を設定します	Indstil den URL, der skal videresendes, når du højreklikker eller ser kildekode.
+警告メッセージにはHTMLは使用できません	HTML kan ikke bruges til advarsler
+以下の文字列が使用できます	Følgende strenge kan bruges
+改行	Ny linje
+押下されたキー	Tryk på tasten
+Neo HTML Protector 設定	Indstillinger for Neo HTML Protector
+初期設定に戻す	Nulstilling til standard
+このプラグインについて	Om dette plugin.
+Neo HTML Protectorについて	Om Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Dette plugin har til formål at beskytte HTML, billeder osv. fra din Wordpress og beskytte den mod uautoriseret brug af dens indhold!
+開発者: 夜桜　なの	Udvikler: Nanoh Yozakura
+バージョン	Version
+サポートページ	Support-side
+支援のお願い	Anmodning om hjælp.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Tak, fordi du bruger Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Der er brugt meget tid og visdom på at udvikle og vedligeholde dette plugin, og vi vil være taknemmelige for eventuelle donationer, der kan hjælpe os med at skaffe midler til fortsatte forbedringer og opdateringer.
+寄付について	Om donationer
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donationer er frivillige og ikke obligatoriske. Det er åbent for alle, så plugin'et kan bruges gratis. Men din støtte er meget værdsat for at fortsætte udviklingen, og vi vil med glæde hjælpe på enhver måde, vi kan.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donationer kan foretages via nedenstående link. Hvis du er fra Japan, kan du også donere gratis, og desuden kan du nemt donere ved hjælp af Amazon-gavekort.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Med din støtte vil vi gøre vores bedste for at give dig gode opdateringer i fremtiden!
+寄付先	Donor
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi takker for din støtte og ser frem til at arbejde sammen med dig i fremtiden.
+デバッグモード、コンソールの起動は禁止されています	Fejlsøgningstilstand og konsolaktivering er forbudt
+以下の情報がサーバーに送信されました	Følgende oplysninger er blevet sendt til serveren
+あなたのIPアドレス	Din IP-adresse.
+あなたの端末とブラウザ	Din enhed og browser
+あなたの押下したキー	Dine trykkede taster.
+リダイレクトをします	Omdirigeringer.
+右クリックは禁止されています	Det er forbudt at højreklikke.
+印刷、PDFへの保存は禁止されています	Det er forbudt at printe og gemme til PDF
+コピー、カットは禁止されています	Det er forbudt at kopiere eller klippe.
+あなたが起こしたイベント	Begivenheder, du har forårsaget.
+HTMLソース表示は禁止されています	Visning af HTML-kilder er forbudt.
+不正アクセスは禁止されています	Uautoriseret adgang er forbudt.
+画像が見つかりません	Billedet blev ikke fundet.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Denne hjemmeside kan kun ses med cookies og JavaScript aktiveret.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	For at slette alle data skal du afinstallere plug-in'et og derefter geninstallere det
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. sunget af Mr. Uramanira
+タイムスタンプ	Tidsstempling

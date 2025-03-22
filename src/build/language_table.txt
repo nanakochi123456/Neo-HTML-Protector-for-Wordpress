@@ -1,38 +1,38 @@
 #This is TSV
-#Deepl	Browser	English	Japanese
-AR	ar	Arabic	アラビア語
-BG	bg	Bulgarian	ブルガリア語
-CS	cs	Czech	チェコ語
-DA	da	Danish	デンマーク語
-DE	de	German	ドイツ語
-EL	el	Modem Greek	現代ギリシア語
-EN	en	English	英語
-EN-GB	en_GB	English(UK)	イギリス英語
-EN-US	en_US	English(USA)	アメリカ英語
-ES	es	Spanish	スペイン語
-ET	et	Estonian	エストニア語
-FI	fi	Finnish	フィンランド語
-FR	fr	French	フランス語
-HU	hu	Hungarian	ハンガリー語
-ID	id	Indonesian	インドネシア語
-IT	it	Italian	イタリア語
-JA	ja	Japanese	日本語
-KO	ko	Korean	韓国語・朝鮮語
-LT	lt	Lithuanian	リトアニア語
-LV	lv	Latvian	ラトビア語
-NB	no	Norwegian	ノルウェー語
-NL	nl	Dutch	オランダ語
-PL	pl	Polish	ポーランド語
-PT	pt	Portuguese	ポルトガリア語
-PT-BR	pt_BR	Portuguese (Brazilian)	ポルトガリア語（ブラジル）
-PT-PT	pt_PT	Portuguese (European)	ポルトガリア語（ヨーロッパ）
-RO	ro	Romanian	ルーマニア語
-RU	ru	Russian	ロシア語
-SK	sk	Slovak	スロバキア語
-SL	sl	Slovenian	スロベニア語
-SV	sv	Swedish	スウェーデン語
-TR	tr	Turkish	トルコ語
-UK	uk	Ukrainian	ウクライナ語
-ZH	zh	Chinese (simplified)	中国語（簡体字）
-ZH-HANS	zh_CN	Chinese (simplified)	中国語（簡体字・中華人民共和国）
-ZH-HANT	zh_TW	Chinese (traditional)	中国語（繁体字・台湾）
+#Deepl	Browser	English	Japanese	Search Engine
+AR	ar	Arabic	アラビア語	https://www.google.com.sa
+BG	bg	Bulgarian	ブルガリア語	https://www.google.com.sa
+CS	cs	Czech	チェコ語	https://www.google.cz
+DA	da	Danish	デンマーク語	https://www.google.dk
+DE	de	German	ドイツ語	https://www.google.de
+EL	el	Modem Greek	現代ギリシア語	https://www.google.gr
+EN	en	English	英語	https://google.com
+EN-GB	en_GB	English(UK)	イギリス英語	https://www.google.co.uk
+EN-US	en_US	English(USA)	アメリカ英語	https://www.google.com
+ES	es	Spanish	スペイン語	https://www.google.es
+ET	et	Estonian	エストニア語	https://www.google.ee
+FI	fi	Finnish	フィンランド語	https://www.google.fi
+FR	fr	French	フランス語	https://www.google.fr
+HU	hu	Hungarian	ハンガリー語	https://www.google.hu
+ID	id	Indonesian	インドネシア語	https://www.google.co.id
+IT	it	Italian	イタリア語	https://www.google.it
+JA	ja	Japanese	日本語	https://www.google.co.jp
+KO	ko	Korean	韓国語・朝鮮語	https://www.google.co.kr
+LT	lt	Lithuanian	リトアニア語	https://www.google.lt
+LV	lv	Latvian	ラトビア語	https://www.google.lv
+NB	no	Norwegian	ノルウェー語	https://www.google.no
+NL	nl	Dutch	オランダ語	https://www.google.nl
+PL	pl	Polish	ポーランド語	https://www.google.pl
+PT	pt	Portuguese	ポルトガリア語	https://www.google.pt
+PT-BR	pt_BR	Portuguese (Brazilian)	ポルトガリア語（ブラジル）	https://www.google.com.br
+PT-PT	pt_PT	Portuguese (European)	ポルトガリア語（ヨーロッパ）	https://www.google.pt
+RO	ro	Romanian	ルーマニア語	https://www.google.ro
+RU	ru	Russian	ロシア語	https://yandex.com
+SK	sk	Slovak	スロバキア語	https://www.google.sk
+SL	sl	Slovenian	スロベニア語	https://www.google.si
+SV	sv	Swedish	スウェーデン語	https://www.google.se
+TR	tr	Turkish	トルコ語	https://www.google.com.tr
+UK	uk	Ukrainian	ウクライナ語	https://www.google.com.ua
+ZH	zh	Chinese (simplified)	中国語（簡体字）	https://www.baidu.com
+ZH-HANS	zh_CN	Chinese (simplified)	中国語（簡体字・中華人民共和国）	https://www.baidu.com
+ZH-HANT	zh_TW	Chinese (traditional)	中国語（繁体字・台湾）	https://www.google.com.tw

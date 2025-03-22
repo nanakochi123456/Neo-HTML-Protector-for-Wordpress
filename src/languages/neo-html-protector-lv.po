@@ -1,0 +1,266 @@
+# Latvian translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Iestatījumi"
+
+msgid "IPログリーダー"
+msgstr "IP žurnāla lasītājs"
+
+msgid "IPアドレスログ"
+msgstr "IP adrešu žurnāls"
+
+msgid "全クリア"
+msgstr "Viss tīrs."
+
+msgid "IPログが全て削除されました"
+msgstr "Visi IP žurnāli ir dzēsti."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Laika atzīmēšana"
+
+msgid "IPアドレス"
+msgstr "IP adrese"
+
+msgid "ユーザーエージェント"
+msgstr "Lietotāja aģents"
+
+msgid "イベント"
+msgstr "Pasākums"
+
+msgid "IPアドレスのデータはありません"
+msgstr "IP adreses dati nav pieejami."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Debug režīms, konsoles brīdinājuma ziņojumi."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Ar peles labo pogu noklikšķiniet uz brīdinājuma ziņojumiem."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Brīdinājuma ziņojumi par PDF dokumentu drukāšanu un saglabāšanu."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Kopēšanas vai griešanas laikā tiek parādīts ziņojums."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Paziņojums, kas tiks parādīts, kad tiks parādīts HTML avots"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Ziņa, kas tiek parādīta avota sākumā, ja HTML ir aizsegts un aizsargāts."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Tiek parādīts ziņojums, ja vienreizējās autentifikācijas žetons HTML aizsardzības laikā ir nepareizs."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML aizsegšana"
+
+msgid "無効"
+msgstr "Nederīgs"
+
+msgid "有効"
+msgstr "Derīguma termiņš"
+
+msgid "HTML保護"
+msgstr "HTML aizsardzība"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas var izraisīt SEO kritumu."
+
+msgid "デバッグモード"
+msgstr "Atkļūdošanas režīms"
+
+msgid "妨害＋記録のみ"
+msgstr "Tikai iejaukšanās + ieraksts."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Pārtveršana + ierakstīšana + rādīšana + novirzīšana"
+
+msgid "ブラウザーコンソール"
+msgstr "Pārlūka konsole"
+
+msgid "HTMLソース表示"
+msgstr "HTML avota rādīšana"
+
+msgid "印刷"
+msgstr "Drukāšana"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Drukas bloķēšana, bet dažās pārlūkprogrammās nedarbojas labi"
+
+msgid "右クリック"
+msgstr "Ar peles labo pogu noklikšķiniet uz"
+
+msgid "コピー・カット"
+msgstr "Kopēt-izgriezt"
+
+msgid "テキスト選択"
+msgstr "Teksta atlase"
+
+msgid "デバッガー妨害"
+msgstr "Atkļūdošanas traucējumi"
+
+msgid "リダイレクトするURL"
+msgstr "URL, uz kuru pāradresēt"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HEAD tagu izvadīšana HTML aizsardzības laikā"
+
+msgid "出力しない"
+msgstr "Nav izejas"
+
+msgid "TITLEタグのみ"
+msgstr "Tikai birka TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Iegūti no Wordpress taga HEAD"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Vienreizējas žetonu pārbaudes HTML aizsardzības laikā."
+
+msgid "基本設定"
+msgstr "Pamatnosacījumi"
+
+msgid "高度な設定"
+msgstr "Uzlabotie iestatījumi"
+
+msgid "初期設定に戻す"
+msgstr "Noklusējuma iestatījumu atiestatīšana"
+
+msgid "メッセージの設定"
+msgstr "Ziņu iestatījumi"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Iestatiet URL, kas tiks pārsūtīts, kad noklikšķinot ar peles labo pogu vai skatot avota kodu."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML nevar izmantot brīdinājuma ziņojumiem"
+
+msgid "以下の文字列が使用できます"
+msgstr "Var izmantot šādas virknes"
+
+msgid "改行"
+msgstr "Jaunā līnija"
+
+msgid "押下されたキー"
+msgstr "Nospiests taustiņš"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML aizsarga iestatījumi"
+
+msgid "このプラグインについて"
+msgstr "Par šo spraudni."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Lai notīrītu visus datus, atinstalējiet spraudni un pēc tam instalējiet to no jauna."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Par programmu Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no Wordpress, un pasargāt to no neatļautas satura izmantošanas!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Izstrādātājs: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versija"
+
+msgid "サポートページ"
+msgstr "Atbalsta lapa"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. dzied Uramanira kungs"
+
+msgid "支援のお願い"
+msgstr "Palīdzības pieprasījums."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Paldies, ka izmantojat Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Šī spraudņa izstrādē un uzturēšanā ir ieguldīts daudz laika un gudrības, un mēs būsim pateicīgi par ziedojumiem, ja tādi būs, lai palīdzētu mums piesaistīt līdzekļus turpmāku uzlabojumu un atjauninājumu veikšanai."
+
+msgid "寄付について"
+msgstr "Par ziedojumiem"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Ziedojumi ir brīvprātīgi un nav obligāti. Tas ir pieejams ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Ar jūsu atbalstu mēs darīsim visu iespējamo, lai nākotnē nodrošinātu jums lieliskus atjauninājumus!"
+
+msgid "寄付先"
+msgstr "Donors"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Mēs pateicamies jums par atbalstu un ceram uz turpmāku sadarbību."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.lv"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Debug režīms un konsoles aktivizēšana ir aizliegta"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Uz serveri ir nosūtīta šāda informācija"
+
+msgid "あなたのIPアドレス"
+msgstr "Jūsu IP adrese."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Jūsu ierīce un pārlūkprogramma"
+
+msgid "あなたの押下したキー"
+msgstr "Jūsu nospiestie taustiņi."
+
+msgid "リダイレクトをします"
+msgstr "Pārvirzījumi."
+
+msgid "右クリックは禁止されています"
+msgstr "Klikšķināt ar peles labo pogu ir aizliegts."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Drukāt un saglabāt PDF formātā ir aizliegts"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopēt vai griezt ir aizliegts."
+
+msgid "あなたが起こしたイベント"
+msgstr "Notikumi, kurus jūs izraisījāt."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML avota rādīšana ir aizliegta."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Nesankcionēta piekļuve ir aizliegta."
+
+msgid "画像が見つかりません"
+msgstr "Attēls nav atrasts."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Šo tīmekļa vietni var apskatīt tikai ar iespējot sīkfailus un JavaScript."
+

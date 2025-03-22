@@ -1,0 +1,266 @@
+# Indonesian translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Pengaturan"
+
+msgid "IPログリーダー"
+msgstr "Pembaca Log IP"
+
+msgid "IPアドレスログ"
+msgstr "Catatan alamat IP"
+
+msgid "全クリア"
+msgstr "Semua aman."
+
+msgid "IPログが全て削除されました"
+msgstr "Semua log IP telah dihapus."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Stempel waktu"
+
+msgid "IPアドレス"
+msgstr "Alamat IP"
+
+msgid "ユーザーエージェント"
+msgstr "Agen Pengguna"
+
+msgid "イベント"
+msgstr "Acara"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Tidak ada data alamat IP yang tersedia."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mode debug, pesan peringatan konsol."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Klik kanan pesan peringatan."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Pesan peringatan untuk mencetak dan menyimpan PDF."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Pesan yang ditampilkan saat menyalin atau memotong."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Pesan yang akan ditampilkan saat menampilkan sumber HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Pesan yang akan ditampilkan di awal sumber ketika HTML dikaburkan dan diproteksi."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Pesan yang ditampilkan jika token autentikasi satu kali tidak normal selama perlindungan HTML."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Pengaburan HTML"
+
+msgid "無効"
+msgstr "Tidak valid"
+
+msgid "有効"
+msgstr "Validitas"
+
+msgid "HTML保護"
+msgstr "Perlindungan HTML"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO"
+
+msgid "デバッグモード"
+msgstr "Mode debug"
+
+msgid "妨害＋記録のみ"
+msgstr "Gangguan + rekam saja."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Cegat + rekam + tampilkan + alihkan"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsol browser"
+
+msgid "HTMLソース表示"
+msgstr "Tampilan sumber HTML"
+
+msgid "印刷"
+msgstr "Pencetakan"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser"
+
+msgid "右クリック"
+msgstr "Klik kanan"
+
+msgid "コピー・カット"
+msgstr "Salin-potong"
+
+msgid "テキスト選択"
+msgstr "Pemilihan teks"
+
+msgid "デバッガー妨害"
+msgstr "Gangguan debugger"
+
+msgid "リダイレクトするURL"
+msgstr "URL untuk dialihkan ke"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Output dari tag HEAD selama perlindungan HTML"
+
+msgid "出力しない"
+msgstr "Tidak ada output"
+
+msgid "TITLEタグのみ"
+msgstr "Hanya tag JUDUL"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Diambil dari tag HEAD di Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Pemeriksaan token satu kali selama perlindungan HTML."
+
+msgid "基本設定"
+msgstr "Pengaturan dasar"
+
+msgid "高度な設定"
+msgstr "Pengaturan lanjutan"
+
+msgid "初期設定に戻す"
+msgstr "Mengatur ulang ke default"
+
+msgid "メッセージの設定"
+msgstr "Pengaturan pesan"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode sumber."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML tidak dapat digunakan untuk pesan peringatan"
+
+msgid "以下の文字列が使用できます"
+msgstr "String berikut ini dapat digunakan"
+
+msgid "改行"
+msgstr "Baris baru"
+
+msgid "押下されたキー"
+msgstr "Tombol yang ditekan"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Pengaturan Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "Tentang plugin ini."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Untuk menghapus semua data, hapus instalan pengaya, lalu instal ulang"
+
+msgid "Neo HTML Protectorについて"
+msgstr "Tentang Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Pengembang: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versi"
+
+msgid "サポートページ"
+msgstr "Halaman dukungan"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Nona. dinyanyikan oleh Mr Uramanira"
+
+msgid "支援のお願い"
+msgstr "Permintaan bantuan."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Terima kasih telah menggunakan Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Banyak waktu dan kebijaksanaan telah dicurahkan untuk pengembangan dan pemeliharaan plugin ini, dan kami akan berterima kasih atas donasi, jika ada, untuk membantu kami menggalang dana guna perbaikan dan pembaruan yang berkelanjutan."
+
+msgid "寄付について"
+msgstr "Tentang donasi"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga plugin ini dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Dengan dukungan Anda, kami akan melakukan yang terbaik untuk menghadirkan pembaruan yang hebat di masa depan!"
+
+msgid "寄付先"
+msgstr "Donor"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.co.id"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mode debug dan aktivasi konsol dilarang"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Informasi berikut ini telah dikirim ke server"
+
+msgid "あなたのIPアドレス"
+msgstr "Alamat IP Anda."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Perangkat dan browser Anda"
+
+msgid "あなたの押下したキー"
+msgstr "Tombol yang Anda tekan."
+
+msgid "リダイレクトをします"
+msgstr "Pengalihan."
+
+msgid "右クリックは禁止されています"
+msgstr "Dilarang mengklik kanan."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Dilarang mencetak dan menyimpan ke PDF"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Dilarang menyalin atau memotong."
+
+msgid "あなたが起こしたイベント"
+msgstr "Peristiwa yang Anda sebabkan."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Dilarang menampilkan sumber HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Dilarang mengakses tanpa izin."
+
+msgid "画像が見つかりません"
+msgstr "Gambar tidak ditemukan."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan"
+

@@ -1,0 +1,266 @@
+# Norwegian translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Norwegian\n"
+"Language: no\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Innstilling"
+
+msgid "IPログリーダー"
+msgstr "IP-loggleser"
+
+msgid "IPアドレスログ"
+msgstr "IP-adresselogg"
+
+msgid "全クリア"
+msgstr "Alt klart."
+
+msgid "IPログが全て削除されました"
+msgstr "Alle IP-logger er slettet."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Tidsstempling"
+
+msgid "IPアドレス"
+msgstr "IP-adresse"
+
+msgid "ユーザーエージェント"
+msgstr "Brukeragent"
+
+msgid "イベント"
+msgstr "Arrangement"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ingen IP-adressedata tilgjengelig."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Feilsøkingsmodus, advarselsmeldinger på konsollen."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Høyreklikk på advarselsmeldinger."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Advarsler ved utskrift og lagring av PDF-filer."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Meldingen vises når du kopierer eller klipper."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Melding som skal vises når HTML-kilde vises"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Melding som skal vises i begynnelsen av kildekode når HTML er obfuskert og beskyttet."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Melding som vises hvis engangstokenet for autentisering er unormalt under HTML-beskyttelse."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML-tilsløring"
+
+msgid "無効"
+msgstr "Ugyldig"
+
+msgid "有効"
+msgstr "Gyldighet"
+
+msgid "HTML保護"
+msgstr "HTML-beskyttelse"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Hver gang den aktiveres, skjer det en omdirigering, noe som kan resultere i en nedgang i SEO"
+
+msgid "デバッグモード"
+msgstr "Feilsøkingsmodus"
+
+msgid "妨害＋記録のみ"
+msgstr "Kun forstyrrelser + opptak."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Avskjære + registrere + vise + omdirigere"
+
+msgid "ブラウザーコンソール"
+msgstr "Nettleserkonsoll"
+
+msgid "HTMLソース表示"
+msgstr "Visning av HTML-kilde"
+
+msgid "印刷"
+msgstr "Utskrift"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Utskriftsblokkering, men fungerer ikke bra i enkelte nettlesere"
+
+msgid "右クリック"
+msgstr "Høyreklikk"
+
+msgid "コピー・カット"
+msgstr "Copy-cut"
+
+msgid "テキスト選択"
+msgstr "Tekstvalg"
+
+msgid "デバッガー妨害"
+msgstr "Forstyrrelser i feilsøkingsprogrammet"
+
+msgid "リダイレクトするURL"
+msgstr "URL å omdirigere til"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Utdata av HEAD-koder under HTML-beskyttelse"
+
+msgid "出力しない"
+msgstr "Ingen utgang"
+
+msgid "TITLEタグのみ"
+msgstr "Kun TITLE-taggen"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Hentet fra HEAD-taggen i Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Engangskontroll av token under HTML-beskyttelse."
+
+msgid "基本設定"
+msgstr "Grunninnstilling"
+
+msgid "高度な設定"
+msgstr "Avanserte innstillinger"
+
+msgid "初期設定に戻す"
+msgstr "Tilbakestilling til standard"
+
+msgid "メッセージの設定"
+msgstr "Innstillinger for meldinger"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Angi URL-adressen som skal videresendes når du høyreklikker eller viser kildekode."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML kan ikke brukes for advarselsmeldinger"
+
+msgid "以下の文字列が使用できます"
+msgstr "Følgende strenger kan brukes"
+
+msgid "改行"
+msgstr "Ny linje"
+
+msgid "押下されたキー"
+msgstr "Trykk på tasten"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Innstillinger for Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "Om denne plugin-modulen."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "For å slette alle data avinstallerer du plugin-modulen og installerer den deretter på nytt"
+
+msgid "Neo HTML Protectorについて"
+msgstr "Om Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Denne utvidelsen har som mål å beskytte HTML, bilder osv. som sendes ut fra Wordpress, og beskytte den mot uautorisert bruk av innholdet!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Utvikler: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versjon"
+
+msgid "サポートページ"
+msgstr "Support-siden"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. sunget av Mr. Uramanira"
+
+msgid "支援のお願い"
+msgstr "Anmodning om assistanse."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Takk for at du bruker Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Vi har brukt mye tid og visdom på å utvikle og vedlikeholde denne utvidelsen, og vi er takknemlige for eventuelle donasjoner som kan hjelpe oss med å skaffe midler til fortsatte forbedringer og oppdateringer."
+
+msgid "寄付について"
+msgstr "Om donasjoner"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donasjoner er frivillige og ikke obligatoriske. Det er åpent for alle, slik at plugin-modulen kan brukes gratis. Vi setter imidlertid stor pris på din støtte for å fortsette utviklingen, og vi hjelper gjerne til på alle måter vi kan."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donasjoner kan gjøres via lenken nedenfor. Hvis du er fra Japan, kan du også donere gratis, og dessuten kan du enkelt donere ved hjelp av Amazon-gavekort."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Med din støtte vil vi gjøre vårt beste for å gi deg flotte oppdateringer i fremtiden!"
+
+msgid "寄付先"
+msgstr "Giver"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Vi takker for støtten og ser frem til å samarbeide med dere i fremtiden."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.no"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Feilsøkingsmodus og konsollaktivering er forbudt"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Følgende informasjon har blitt sendt til serveren"
+
+msgid "あなたのIPアドレス"
+msgstr "IP-adressen din."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Din enhet og nettleser"
+
+msgid "あなたの押下したキー"
+msgstr "Tastene du har trykket på."
+
+msgid "リダイレクトをします"
+msgstr "Viderekoblinger."
+
+msgid "右クリックは禁止されています"
+msgstr "Det er forbudt å høyreklikke."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Utskrift og lagring til PDF er forbudt"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopiering eller klipping er forbudt."
+
+msgid "あなたが起こしたイベント"
+msgstr "Hendelser du forårsaket."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Det er forbudt å vise HTML-kilder."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Uautorisert tilgang er forbudt."
+
+msgid "画像が見つかりません"
+msgstr "Bildet ble ikke funnet."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Dette nettstedet kan bare vises med informasjonskapsler og JavaScript aktivert"
+

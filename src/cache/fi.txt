@@ -1,0 +1,84 @@
+設定	Asetus
+IPログリーダー	IP-lokin lukija
+IPアドレスログ	IP-osoiteloki
+全クリア	Kaikki selvää.
+IPログが全て削除されました	Kaikki IP-lokit on poistettu.
+ID	ID
+IPアドレス	IP-osoite
+ユーザーエージェント	Käyttäjäagentti
+イベント	Tapahtuma
+日時	Päivämäärä ja kellonaika
+IPアドレスのデータはありません	IP-osoitetietoja ei ole saatavilla.
+デバッグモード、コンソールの警告メッセージ	Debug-tila, konsolin varoitusviestit.
+右クリックの警告メッセージ	Napsauta varoitusviestejä hiiren kakkospainikkeella.
+印刷、PDF保存の警告メッセージ	Varoitusviestit PDF-tiedostojen tulostamisessa ja tallentamisessa.
+コピー・カットした時に表示するメッセージ	Näytetään viesti kopioinnin tai leikkaamisen aikana.
+HTMLソース表示時に表示するメッセージ	HTML-lähdettä näytettäessä näytettävä viesti
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Viesti, joka näytetään lähdekoodin alussa, kun HTML on peitetty ja suojattu.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Näytettävä viesti, jos kertaluonteisen todennuksen tunniste on epänormaali HTML-suojauksen aikana.
+HTML難読化 (圧縮)	HTML:n peittäminen
+無効	Virheellinen
+有効	Voimassaolo
+HTML保護	HTML-suojaus
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka voi johtaa SEO:n heikkenemiseen.
+デバッグモード	Debug-tila
+妨害＋記録のみ	Häiriö + vain tallennus.
+妨害＋記録＋表示＋リダイレクト	Sieppaus + tallennus + näyttö + uudelleenohjaus
+ブラウザーコンソール	Selaimen konsoli
+HTMLソース表示	HTML-lähteen näyttäminen
+印刷	Tulostus
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Tulostuksen esto, mutta ei toimi hyvin joissakin selaimissa.
+右クリック	Klikkaa hiiren oikealla
+コピー・カット	Copy-cut
+テキスト選択	Tekstin valinta
+デバッガー妨害	Virheenkorjauksen häiriöt
+妨害	Häiriöt
+リダイレクトするURL	URL-osoite, johon ohjataan
+HTML保護時のHEADタグの出力	HEAD-tunnisteiden tulostus HTML-suojauksen aikana
+出力しない	Ei tuotosta
+TITLEタグのみ	Vain TITLE-tunniste
+WordpressのHEADタグより取得	Haettu Wordpressin HEAD-tagista
+HTML保護時の一度限りのトークンのチェック	Kertatarkistukset HTML-suojauksen aikana.
+基本設定	Perusasetus
+高度な設定	Lisäasetukset
+メッセージの設定	Viestiasetukset
+右クリックやソースコード表示時に転送する URL を設定します	Määritä URL-osoite, joka välitetään, kun napsautetaan hiiren oikealla painikkeella tai tarkastellaan lähdekoodia.
+警告メッセージにはHTMLは使用できません	Varoitusviesteissä ei voi käyttää HTML:ää
+以下の文字列が使用できます	Seuraavia merkkijonoja voidaan käyttää
+改行	Uusi linja
+押下されたキー	Painettu näppäin
+Neo HTML Protector 設定	Neo HTML Protector -asetukset
+初期設定に戻す	Palautus oletusasetuksiin
+このプラグインについて	Tietoja tästä lisäosasta.
+Neo HTML Protectorについて	Tietoja Neo HTML Protectorista
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sen sisällön luvattomalta käytöltä!
+開発者: 夜桜　なの	Kehittäjä: Nanoh Yozakura
+バージョン	Versio
+サポートページ	Tukisivu
+支援のお願い	Avunpyyntö.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Kiitos, että käytät Neo HTML Protectoria!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Tämän laajennuksen kehittämiseen ja ylläpitoon on käytetty paljon aikaa ja viisautta, ja olisimme kiitollisia mahdollisista lahjoituksista, jotka auttavat meitä keräämään varoja jatkuviin parannuksiin ja päivityksiin.
+寄付について	Tietoa lahjoituksista
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Lahjoitukset ovat vapaaehtoisia eivätkä pakollisia. Se on avoin kaikille, jotta laajennusta voidaan käyttää ilmaiseksi. Tukeasi kuitenkin arvostetaan kovasti kehityksen jatkamiseksi, ja autamme mielellämme kaikin tavoin.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Lahjoituksia voi tehdä alla olevan linkin kautta. Jos olet Japanista, voit myös lahjoittaa ilmaiseksi, ja lisäksi voit lahjoittaa helposti Amazonin lahjakortilla.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Teemme parhaamme tuellanne, jotta voimme tuoda teille upeita päivityksiä myös tulevaisuudessa!
+寄付先	Luovuttaja
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kiitämme teitä tuestanne ja odotamme innolla yhteistyötä kanssanne tulevaisuudessa.
+デバッグモード、コンソールの起動は禁止されています	Vianmääritystila ja konsolin aktivointi on kielletty.
+以下の情報がサーバーに送信されました	Palvelimelle on lähetetty seuraavat tiedot
+あなたのIPアドレス	IP-osoitteesi.
+あなたの端末とブラウザ	Laitteesi ja selaimesi
+あなたの押下したキー	Painetut näppäimet.
+リダイレクトをします	Uudelleenohjaukset.
+右クリックは禁止されています	Napsauttaminen hiiren kakkospainikkeella on kielletty.
+印刷、PDFへの保存は禁止されています	Tulostaminen ja tallentaminen PDF-muodossa on kielletty
+コピー、カットは禁止されています	Kopiointi tai leikkaaminen on kielletty.
+あなたが起こしたイベント	Aiheuttamasi tapahtumat.
+HTMLソース表示は禁止されています	HTML-lähteen näyttäminen on kielletty.
+不正アクセスは禁止されています	Luvaton pääsy on kielletty.
+画像が見つかりません	Kuvaa ei löydy.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Voit tyhjentää kaikki tiedot poistamalla laajennuksen ja asentamalla sen sitten uudelleen.
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Neiti. lauloi herra Uramanira.
+タイムスタンプ	Aikaleima

@@ -1,0 +1,88 @@
+設定	Setare
+IPログリーダー	Cititor de jurnal IP
+IPアドレスログ	Jurnalul adresei IP
+全クリア	Liber.
+IPログが全て削除されました	Toate jurnalele IP au fost șterse.
+ID	ID
+IPアドレス	Adresa IP
+ユーザーエージェント	Agent utilizator
+イベント	Eveniment
+日時	Data și ora
+IPアドレスのデータはありません	Nu sunt disponibile date privind adresa IP.
+デバッグモード、コンソールの警告メッセージ	Modul de depanare, mesaje de avertizare în consolă.
+右クリックの警告メッセージ	Faceți clic dreapta pe mesajele de avertizare.
+印刷、PDF保存の警告メッセージ	Mesaje de avertizare pentru imprimarea și salvarea PDF-urilor.
+コピー・カットした時に表示するメッセージ	Mesaj afișat la copiere sau tăiere.
+HTMLソース表示時に表示するメッセージ	Mesajul care urmează să fie afișat la afișarea sursei HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesajul care trebuie afișat la începutul sursei atunci când HTML este ofuscat și protejat.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mesaj afișat dacă tokenul de autentificare unică este anormal în timpul protecției HTML.
+HTML難読化 (圧縮)	Ofuscare HTML
+無効	Invalid
+有効	Valabilitate
+HTML保護	Protecția HTML
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO
+デバッグモード	Modul de depanare
+妨害＋記録のみ	Interferență + numai înregistrare.
+妨害＋記録＋表示＋リダイレクト	Interceptare + înregistrare + afișare + redirecționare
+ブラウザーコンソール	Consola browserului
+HTMLソース表示	Afișarea sursei HTML
+印刷	Tipărire
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocarea imprimării, dar nu funcționează bine în unele browsere
+右クリック	Clic dreapta
+コピー・カット	Copiere-tăiere
+テキスト選択	Selectarea textului
+デバッガー妨害	Interferențe cu depanatorul
+妨害	Interferență
+リダイレクトするURL	URL către care să redirecționați
+HTML保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul protecției HTML
+出力しない	Fără ieșire
+TITLEタグのみ	Doar eticheta TITLE
+WordpressのHEADタグより取得	Retrieved from the HEAD tag in Wordpress
+HTML保護時の一度限りのトークンのチェック	Verificări unice ale jetoanelor în timpul protecției HTML.
+基本設定	Setarea de bază
+高度な設定	Setări avansate
+メッセージの設定	Setări de mesaje
+右クリックやソースコード表示時に転送する URL を設定します	Setați URL-ul care urmează să fie redirecționat atunci când faceți clic dreapta sau vizualizați codul sursă.
+警告メッセージにはHTMLは使用できません	HTML nu poate fi utilizat pentru mesajele de avertizare
+以下の文字列が使用できます	Pot fi utilizate următoarele șiruri de caractere
+改行	Linie nouă
+押下されたキー	Tastă apăsată
+Neo HTML Protector 設定	
+初期設定に戻す	
+このプラグインについて	Despre acest plugin.
+Neo HTML Protectorについて	Despre Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său!
+開発者: 夜桜　なの	Dezvoltator: Nano Yozakura
+バージョン	Versiune
+サポートページ	Pagina de asistență
+支援のお願い	Cerere de asistență.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Vă mulțumim pentru utilizarea Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	O mulțime de timp și înțelepciune au fost investite în dezvoltarea și întreținerea acestui plugin, și am fi recunoscători pentru donații, dacă există, pentru a ne ajuta să strângem fonduri pentru îmbunătățiri și actualizări continue.
+寄付について	Despre donații
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donațiile sunt voluntare și nu obligatorii. Acesta este deschis tuturor, astfel încât pluginul să poată fi utilizat gratuit. Cu toate acestea, sprijinul dvs. este foarte apreciat pentru a continua dezvoltarea și am fi bucuroși să vă ajutăm în orice fel putem.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donațiile pot fi făcute prin intermediul linkului de mai jos. Dacă sunteți din Japonia, puteți, de asemenea, să donați gratuit și, în plus, puteți dona cu ușurință folosind voucherele cadou Amazon.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Cu sprijinul dvs., vom face tot posibilul să vă aducem actualizări excelente în viitor!
+寄付先	Donator
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor.
+デバッグモード、コンソールの起動は禁止されています	Modul de depanare și activarea consolei sunt interzise
+以下の情報がサーバーに送信されました	Următoarele informații au fost trimise către server
+あなたのIPアドレス	Adresa dvs. de IP.
+あなたの端末とブラウザ	Dispozitivul și browserul dvs.
+あなたの押下したキー	
+リダイレクトをします	Redirecționări.
+右クリックは禁止されています	Clicul dreapta este interzis.
+印刷、PDFへの保存は禁止されています	Tipărirea și salvarea în format PDF este interzisă
+コピー、カットは禁止されています	Copierea sau tăierea este interzisă.
+あなたが起こしたイベント	Evenimentele pe care le-ați provocat.
+HTMLソース表示は禁止されています	Afișarea sursei HTML este interzisă.
+不正アクセスは禁止されています	Accesul neautorizat este interzis.
+画像が見つかりません	Imaginea nu a fost găsită.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate
+初期設定に戻す	Resetarea la setările implicite
+Neo HTML Protector 設定	
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Pentru a șterge toate datele, dezinstalați plug-in-ul și apoi reinstalați-l
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. cântată de dl Uramanira
+あなたの押下したキー	Tastele dvs. apăsate.
+Neo HTML Protector 設定	Setări Neo HTML Protector
+タイムスタンプ	ștampilarea timpului

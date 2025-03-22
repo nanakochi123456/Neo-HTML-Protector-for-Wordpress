@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-22 22:49+0900\n"
-"PO-Revision-Date: 2025-03-22 22:49+0900\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -33,6 +33,9 @@ msgstr "All IP logs have been deleted."
 msgid "ID"
 msgstr "ID"
 
+msgid "タイムスタンプ"
+msgstr "Time-stamping"
+
 msgid "IPアドレス"
 msgstr "IP address"
 
@@ -41,9 +44,6 @@ msgstr "User agent"
 
 msgid "イベント"
 msgstr "Events"
-
-msgid "日時"
-msgstr "Date and Time"
 
 msgid "IPアドレスのデータはありません"
 msgstr "No IP address data available"
@@ -117,23 +117,20 @@ msgstr "Text selection"
 msgid "デバッガー妨害"
 msgstr "Debugger interference"
 
-msgid "妨害"
-msgstr "Interference"
-
 msgid "リダイレクトするURL"
 msgstr "URL to redirect"
 
-msgid "HTML保護時のheadタグの出力"
-msgstr "Output of head tag when HTML is protected"
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Output of HEAD tag during HTML protection"
 
 msgid "出力しない"
 msgstr "No output"
 
-msgid "titleタグのみ"
-msgstr "Title tag only"
+msgid "TITLEタグのみ"
+msgstr "TITLE tag only"
 
-msgid "Wordpressのheadタグより取得"
-msgstr "Retrieved from Wordpress head tag"
+msgid "WordpressのHEADタグより取得"
+msgstr "Retrieved from Wordpress HEAD tag"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
 msgstr "One-time token checks during HTML protection"
@@ -143,6 +140,9 @@ msgstr "Basic setting"
 
 msgid "高度な設定"
 msgstr "Advanced Settings"
+
+msgid "初期設定に戻す"
+msgstr "Restore default settings"
 
 msgid "メッセージの設定"
 msgstr "Message Settings"
@@ -165,11 +165,11 @@ msgstr "Pressed key"
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector Settings"
 
-msgid "初期設定に戻す"
-msgstr "Restore default settings"
-
 msgid "このプラグインについて"
 msgstr "About this Plug-in"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "To clear all data, uninstall the plugin and install it again"
 
 msgid "Neo HTML Protectorについて"
 msgstr "About Neo HTML Protector"
@@ -185,6 +185,12 @@ msgstr "Version"
 
 msgid "サポートページ"
 msgstr "Support Page"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. Uramanira sings"
 
 msgid "支援のお願い"
 msgstr "Request for Support"
@@ -214,7 +220,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "We appreciate your support and look forward to working with you in the future."
 
 msgid "https://google.co.jp"
-msgstr "https://google.com"
+msgstr "https://www.google.com"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Debug mode and console activation is prohibited"

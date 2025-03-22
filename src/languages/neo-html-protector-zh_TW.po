@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-22 22:49+0900\n"
-"PO-Revision-Date: 2025-03-22 22:49+0900\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -33,6 +33,9 @@ msgstr "所有 IP 記錄都已刪除。"
 msgid "ID"
 msgstr "ID"
 
+msgid "タイムスタンプ"
+msgstr "時間戳記"
+
 msgid "IPアドレス"
 msgstr "IP 位址"
 
@@ -41,9 +44,6 @@ msgstr "使用者代理"
 
 msgid "イベント"
 msgstr "活動"
-
-msgid "日時"
-msgstr "日期和時間"
 
 msgid "IPアドレスのデータはありません"
 msgstr "沒有可用的 IP 位址資料。"
@@ -117,23 +117,20 @@ msgstr "文字選擇"
 msgid "デバッガー妨害"
 msgstr "除錯器干擾"
 
-msgid "妨害"
-msgstr "干擾"
-
 msgid "リダイレクトするURL"
 msgstr "要重定向到的 URL。"
 
-msgid "HTML保護時のheadタグの出力"
-msgstr "在 HTML 保護期間輸出 head 標籤"
+msgid "HTML保護時のHEADタグの出力"
+msgstr "在 HTML 保護期間輸出 HEAD 標籤"
 
 msgid "出力しない"
 msgstr "無輸出"
 
-msgid "titleタグのみ"
-msgstr "僅標題標籤"
+msgid "TITLEタグのみ"
+msgstr "僅 TITLE 標籤"
 
-msgid "Wordpressのheadタグより取得"
-msgstr "取自 Wordpress head 標籤"
+msgid "WordpressのHEADタグより取得"
+msgstr "取自 Wordpress 中的 HEAD 標籤"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
 msgstr "在 HTML 保護期間進行一次性令牌檢查。"
@@ -143,6 +140,9 @@ msgstr "基本設定"
 
 msgid "高度な設定"
 msgstr "進階設定"
+
+msgid "初期設定に戻す"
+msgstr "重設為預設值"
 
 msgid "メッセージの設定"
 msgstr "訊息設定"
@@ -165,11 +165,11 @@ msgstr "按鍵"
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector 設定"
 
-msgid "初期設定に戻す"
-msgstr "重設為預設值"
-
 msgid "このプラグインについて"
 msgstr "關於此外掛程式。"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "若要清除所有資料，請解除安裝外掛程式，然後再重新安裝"
 
 msgid "Neo HTML Protectorについて"
 msgstr "關於 Neo HTML Protector"
@@ -178,13 +178,19 @@ msgid "このプラグインはあなたのWordpressから出力されるHTMLや
 msgstr "此插件旨在保護從 Wordpress 輸出的 HTML、圖片等，並防止其內容在未經授權的情況下被使用！"
 
 msgid "開発者: 夜桜　なの"
-msgstr "開發人員: Nanoh Yozakura"
+msgstr "開發人員: Nano Yozakura"
 
 msgid "バージョン"
 msgstr "版本"
 
 msgid "サポートページ"
 msgstr "支援頁面"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "由 Uramanira 先生演唱的 Miss."
 
 msgid "支援のお願い"
 msgstr "請求協助。"

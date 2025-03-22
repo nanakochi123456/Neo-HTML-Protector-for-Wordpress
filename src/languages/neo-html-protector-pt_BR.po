@@ -1,0 +1,266 @@
+# Portuguese (Brazilian) translations for Neo HTML Protector package.
+# Copyright (C) %year THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.0.20\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:29+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Portuguese (Brazilian)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Configuração"
+
+msgid "IPログリーダー"
+msgstr "Leitor de registro de IP"
+
+msgid "IPアドレスログ"
+msgstr "Registro de endereço IP"
+
+msgid "全クリア"
+msgstr "Tudo limpo."
+
+msgid "IPログが全て削除されました"
+msgstr "Todos os registros de IP foram excluídos."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Registro de data e hora"
+
+msgid "IPアドレス"
+msgstr "Endereço IP"
+
+msgid "ユーザーエージェント"
+msgstr "Agente do usuário"
+
+msgid "イベント"
+msgstr "Evento"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Não há dados de endereço IP disponíveis."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modo de depuração, mensagens de aviso do console."
+
+msgid "右クリックの警告メッセージ"
+msgstr "Clique com o botão direito do mouse nas mensagens de aviso."
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Mensagens de aviso para imprimir e salvar PDFs."
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Mensagem exibida ao copiar ou cortar."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Mensagem a ser exibida ao exibir a fonte HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Mensagem a ser exibida no início do código-fonte quando o HTML for ofuscado e protegido."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Mensagem exibida se o token de autenticação de uso único for anormal durante a proteção HTML."
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ofuscação"
+
+msgid "無効"
+msgstr "Inválido"
+
+msgid "有効"
+msgstr "Validade"
+
+msgid "HTML保護"
+msgstr "Proteção de HTML"
+
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
+msgstr "Sempre que ele é ativado, há um redirecionamento, o que pode resultar em uma queda no SEO"
+
+msgid "デバッグモード"
+msgstr "Modo de depuração"
+
+msgid "妨害＋記録のみ"
+msgstr "Interferência + registro apenas."
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Interceptação + registro + exibição + redirecionamento"
+
+msgid "ブラウザーコンソール"
+msgstr "Console do navegador"
+
+msgid "HTMLソース表示"
+msgstr "Exibição da fonte HTML"
+
+msgid "印刷"
+msgstr "Impressão"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Bloqueio de impressão, mas não funciona bem em alguns navegadores"
+
+msgid "右クリック"
+msgstr "Clique com o botão direito do mouse"
+
+msgid "コピー・カット"
+msgstr "Cópia-corte"
+
+msgid "テキスト選択"
+msgstr "Seleção de texto"
+
+msgid "デバッガー妨害"
+msgstr "Interferência do depurador"
+
+msgid "リダイレクトするURL"
+msgstr "URL para o qual redirecionar"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Saída de tags HEAD durante a proteção de HTML"
+
+msgid "出力しない"
+msgstr "Nenhuma saída"
+
+msgid "TITLEタグのみ"
+msgstr "Somente a tag TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Recuperado da tag HEAD no Wordpress"
+
+msgid "HTML保護時の一度限りのトークンのチェック"
+msgstr "Verificações únicas de token durante a proteção HTML."
+
+msgid "基本設定"
+msgstr "Configuração básica"
+
+msgid "高度な設定"
+msgstr "Configurações avançadas"
+
+msgid "初期設定に戻す"
+msgstr "Redefinição para o padrão"
+
+msgid "メッセージの設定"
+msgstr "Configurações de mensagens"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Defina o URL a ser encaminhado ao clicar com o botão direito do mouse ou visualizar o código-fonte."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML não pode ser usado para mensagens de aviso"
+
+msgid "以下の文字列が使用できます"
+msgstr "As seguintes cadeias de caracteres podem ser usadas"
+
+msgid "改行"
+msgstr "Nova linha"
+
+msgid "押下されたキー"
+msgstr "Tecla pressionada"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Configurações do Neo HTML Protector"
+
+msgid "このプラグインについて"
+msgstr "Sobre esse plug-in."
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "Para limpar todos os dados, desinstale o plug-in e, em seguida, reinstale-o"
+
+msgid "Neo HTML Protectorについて"
+msgstr "Sobre o Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
+msgstr "Esse plug-in tem o objetivo de proteger o HTML, as imagens etc. emitidos pelo Wordpress e protegê-lo contra o uso não autorizado de seu conteúdo!"
+
+msgid "開発者: 夜桜　なの"
+msgstr "Desenvolvedor: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versão"
+
+msgid "サポートページ"
+msgstr "Página de suporte"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Srta. cantada pelo Sr. Uramanira"
+
+msgid "支援のお願い"
+msgstr "Solicitação de assistência."
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Obrigado por usar o Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção deste plug-in, e ficaríamos gratos por doações, se houver, para nos ajudar a levantar fundos para melhorias e atualizações contínuas."
+
+msgid "寄付について"
+msgstr "Sobre as doações"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "As doações são voluntárias e não obrigatórias. Elas estão abertas a todos para que o plug-in possa ser usado gratuitamente. No entanto, seu apoio é muito apreciado para continuar o desenvolvimento e ficaremos felizes em ajudar da maneira que pudermos."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "As doações podem ser feitas por meio do link abaixo. Se você é do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar usando vales-presente da Amazon."
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Com o seu apoio, faremos o possível para trazer ótimas atualizações no futuro!"
+
+msgid "寄付先"
+msgstr "Doador"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Agradecemos seu apoio e esperamos trabalhar com você no futuro."
+
+msgid "https://google.co.jp"
+msgstr "https://www.google.com.br"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "O modo de depuração e a ativação do console são proibidos"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "As seguintes informações foram enviadas ao servidor"
+
+msgid "あなたのIPアドレス"
+msgstr "Seu endereço IP."
+
+msgid "あなたの端末とブラウザ"
+msgstr "Seu dispositivo e navegador"
+
+msgid "あなたの押下したキー"
+msgstr "Suas teclas pressionadas."
+
+msgid "リダイレクトをします"
+msgstr "Redirecionamentos."
+
+msgid "右クリックは禁止されています"
+msgstr "É proibido clicar com o botão direito do mouse."
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "É proibido imprimir e salvar em PDF"
+
+msgid "コピー、カットは禁止されています"
+msgstr "É proibido copiar ou cortar."
+
+msgid "あなたが起こしたイベント"
+msgstr "Eventos que você causou."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "A exibição do código-fonte HTML é proibida."
+
+msgid "不正アクセスは禁止されています"
+msgstr "O acesso não autorizado é proibido."
+
+msgid "画像が見つかりません"
+msgstr "Imagem não encontrada."
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Este site só pode ser visualizado com cookies e JavaScript ativados"
+

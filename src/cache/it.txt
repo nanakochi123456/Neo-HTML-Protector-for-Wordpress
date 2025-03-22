@@ -1,0 +1,87 @@
+設定	Impostazione
+IPログリーダー	Lettore di log IP
+IPアドレスログ	Registro degli indirizzi IP
+全クリア	Tutto libero.
+IPログが全て削除されました	Tutti i registri IP sono stati eliminati.
+ID	ID
+IPアドレス	Indirizzo IP
+ユーザーエージェント	Agente utente
+イベント	Evento
+日時	Data e ora
+IPアドレスのデータはありません	Non sono disponibili dati sull'indirizzo IP.
+デバッグモード、コンソールの警告メッセージ	Modalità di debug, messaggi di avviso della console.
+右クリックの警告メッセージ	Fare clic con il tasto destro del mouse sui messaggi di avviso.
+印刷、PDF保存の警告メッセージ	Messaggi di avviso per la stampa e il salvataggio dei PDF.
+コピー・カットした時に表示するメッセージ	Messaggio visualizzato durante la copia o il taglio.
+HTMLソース表示時に表示するメッセージ	Messaggio da visualizzare quando si mostra il sorgente HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Messaggio da visualizzare all'inizio del sorgente quando l'HTML è offuscato e protetto.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Messaggio visualizzato se il token di autenticazione una tantum è anomalo durante la protezione HTML.
+HTML難読化 (圧縮)	Offuscamento HTML
+無効	Non valido
+有効	Validità
+HTML保護	Protezione HTML
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ogni volta che viene attivato, si verifica un reindirizzamento, che può comportare un calo della SEO.
+デバッグモード	Modalità debug
+妨害＋記録のみ	Solo interferenze + record.
+妨害＋記録＋表示＋リダイレクト	Intercettazione + registrazione + visualizzazione + reindirizzamento
+ブラウザーコンソール	Console del browser
+HTMLソース表示	Visualizzazione dell'origine HTML
+印刷	Stampa
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocco della stampa ma non funziona bene in alcuni browser
+右クリック	Fare clic con il tasto destro del mouse
+コピー・カット	Copia-taglia
+テキスト選択	Selezione del testo
+デバッガー妨害	Interferenze del debugger
+妨害	Interferenza
+リダイレクトするURL	URL a cui reindirizzare
+HTML保護時のHEADタグの出力	Output dei tag HEAD durante la protezione HTML
+出力しない	Nessuna uscita
+TITLEタグのみ	Solo il tag TITLE
+WordpressのHEADタグより取得	Recuperato dal tag HEAD in Wordpress
+HTML保護時の一度限りのトークンのチェック	Controllo dei token una tantum durante la protezione HTML.
+基本設定	Impostazione di base
+高度な設定	Impostazioni avanzate
+メッセージの設定	Impostazioni dei messaggi
+右クリックやソースコード表示時に転送する URL を設定します	Impostare l'URL da inoltrare quando si fa clic con il tasto destro del mouse o si visualizza il codice sorgente.
+警告メッセージにはHTMLは使用できません	L'HTML non può essere utilizzato per i messaggi di avviso
+以下の文字列が使用できます	È possibile utilizzare le seguenti stringhe
+改行	Nuova linea
+押下されたキー	Tasto premuto
+Neo HTML Protector 設定	Impostazioni di Neo HTML Protector
+初期設定に戻す	Ripristino delle impostazioni predefinite
+このプラグインについて	Informazioni su questo plugin.
+Neo HTML Protectorについて	Informazioni su Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Questo plugin ha lo scopo di proteggere l'HTML, le immagini, ecc. in uscita dal vostro Wordpress e di proteggerlo dall'uso non autorizzato del suo contenuto!
+開発者: 夜桜　なの	Sviluppatore: Nanoh Yozakura
+バージョン	Versione
+サポートページ	Pagina di supporto
+支援のお願い	Richiesta di assistenza.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Grazie per aver utilizzato Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Lo sviluppo e la manutenzione di questo plugin hanno richiesto molto tempo e saggezza e saremmo grati di ricevere eventuali donazioni per aiutarci a raccogliere fondi per i continui miglioramenti e aggiornamenti.
+寄付について	Informazioni sulle donazioni
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Le donazioni sono volontarie e non obbligatorie. È aperto a tutti in modo che il plugin possa essere utilizzato gratuitamente. Tuttavia, il vostro sostegno è molto apprezzato per continuare lo sviluppo e saremo felici di aiutarvi in qualsiasi modo.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Le donazioni possono essere effettuate tramite il link sottostante. Se siete giapponesi, potete anche donare gratuitamente e, inoltre, potete facilmente donare utilizzando i buoni regalo di Amazon.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Con il vostro supporto, faremo del nostro meglio per portarvi grandi aggiornamenti in futuro!
+寄付先	Donatore
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi ringraziamo per il vostro sostegno e ci auguriamo di poter lavorare con voi in futuro.
+デバッグモード、コンソールの起動は禁止されています	La modalità di debug e l'attivazione della console sono vietate
+以下の情報がサーバーに送信されました	Le seguenti informazioni sono state inviate al server
+あなたのIPアドレス	Il vostro indirizzo IP.
+あなたの端末とブラウザ	Il vostro dispositivo e il vostro browser
+あなたの押下したキー	I tasti premuti.
+リダイレクトをします	Reindirizzamenti.
+右クリックは禁止されています	È vietato fare clic con il tasto destro del mouse.
+印刷、PDFへの保存は禁止されています	È vietato stampare e salvare in PDF
+コピー、カットは禁止されています	È vietato copiare o tagliare.
+あなたが起こしたイベント	Eventi causati da voi.
+HTMLソース表示は禁止されています	La visualizzazione dell'origine HTML è vietata.
+不正アクセスは禁止されています	È vietato l'accesso non autorizzato.
+画像が見つかりません	Immagine non trovata.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Questo sito web può essere visualizzato solo con i cookie e JavaScript abilitati.
+HTML保護時のheadタグの出力	Output dei tag head durante la protezione HTML
+titleタグのみ	Solo il tag del titolo
+Wordpressのheadタグより取得	Recuperato dal tag head di Wordpress
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Per cancellare tutti i dati, disinstallare il plug-in e poi reinstallarlo.
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. cantata dal signor Uramanira
+タイムスタンプ	Marcatura temporale

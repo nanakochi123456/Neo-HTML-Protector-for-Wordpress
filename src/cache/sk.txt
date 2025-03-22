@@ -1,0 +1,84 @@
+設定	Nastavenie
+IPログリーダー	Čítačka protokolov IP
+IPアドレスログ	Protokol IP adries
+全クリア	Všetko čisté.
+IPログが全て削除されました	Všetky protokoly IP boli odstránené.
+ID	ID
+IPアドレス	IP adresa
+ユーザーエージェント	Používateľský agent
+イベント	Udalosť
+日時	Dátum a čas
+IPアドレスのデータはありません	Nie sú k dispozícii žiadne údaje o IP adrese.
+デバッグモード、コンソールの警告メッセージ	Režim ladenia, konzolové varovné správy.
+右クリックの警告メッセージ	Výstražné správy kliknutím pravým tlačidlom myši.
+印刷、PDF保存の警告メッセージ	Upozornenia pri tlači a ukladaní súborov PDF.
+コピー・カットした時に表示するメッセージ	Správa zobrazená pri kopírovaní alebo rezaní.
+HTMLソース表示時に表示するメッセージ	Správa, ktorá sa má zobraziť pri zobrazení zdroja HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Správa, ktorá sa zobrazí na začiatku zdroja, keď je HTML obfuskované a chránené.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Správa sa zobrazí, ak je jednorazový overovací token počas ochrany HTML abnormálny.
+HTML難読化 (圧縮)	Obfuskácia HTML
+無効	Neplatné
+有効	Platnosť
+HTML保護	Ochrana HTML
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Vždy, keď je aktivovaná, dôjde k presmerovaniu, čo môže mať za následok pokles SEO
+デバッグモード	Režim ladenia
+妨害＋記録のみ	Iba rušenie + záznam.
+妨害＋記録＋表示＋リダイレクト	Zachytenie + záznam + zobrazenie + presmerovanie
+ブラウザーコンソール	Konzola prehliadača
+HTMLソース表示	Zobrazenie zdroja HTML
+印刷	Tlač
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokovanie tlače, ale v niektorých prehliadačoch nefunguje dobre
+右クリック	Kliknutie pravým tlačidlom myši na
+コピー・カット	Kopírovanie
+テキスト選択	Výber textu
+デバッガー妨害	Rušenie ladiaceho programu
+妨害	Rušenie
+リダイレクトするURL	Adresa URL, na ktorú sa má presmerovať
+HTML保護時のHEADタグの出力	Výstup značiek HEAD počas ochrany HTML
+出力しない	Žiadny výstup
+TITLEタグのみ	Len značka TITLE
+WordpressのHEADタグより取得	Získané zo značky HEAD v aplikácii Wordpress
+HTML保護時の一度限りのトークンのチェック	Jednorazové kontroly tokenov počas ochrany HTML.
+基本設定	Základné nastavenie
+高度な設定	Rozšírené nastavenia
+メッセージの設定	Nastavenia správy
+右クリックやソースコード表示時に転送する URL を設定します	Nastavenie adresy URL, ktorá sa má presmerovať pri kliknutí pravým tlačidlom myši alebo pri zobrazení zdrojového kódu.
+警告メッセージにはHTMLは使用できません	HTML nemožno použiť pre varovné správy
+以下の文字列が使用できます	Môžu sa použiť tieto reťazce
+改行	Nový riadok
+押下されたキー	Stlačené tlačidlo
+Neo HTML Protector 設定	Nastavenia programu Neo HTML Protector
+初期設定に戻す	Resetovanie na predvolené nastavenie
+このプラグインについて	O tomto zásuvnom module.
+Neo HTML Protectorについて	O programe Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Cieľom tohto pluginu je chrániť HTML, obrázky atď. výstup z vášho Wordpressu a chrániť ho pred neoprávneným použitím jeho obsahu!
+開発者: 夜桜　なの	Vývojár: Nano Yozakura
+バージョン	Verzia
+サポートページ	Stránka podpory
+支援のお願い	Žiadosť o pomoc.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Ďakujeme, že používate Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Vývoju a údržbe tohto doplnku bolo venované veľa času a múdrosti a boli by sme vďační za prípadné dary, ktoré by nám pomohli získať finančné prostriedky na ďalšie vylepšenia a aktualizácie.
+寄付について	O daroch
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Príspevky sú dobrovoľné a nie sú povinné. Je otvorený pre všetkých, aby sa zásuvný modul mohol používať bezplatne. Vašu podporu však veľmi oceníme, aby sme mohli pokračovať vo vývoji, a budeme radi, ak nám pomôžete akýmkoľvek spôsobom.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Prispieť môžete prostredníctvom nižšie uvedeného odkazu. Ak ste z Japonska, môžete prispieť aj bezplatne a navyše môžete jednoducho prispieť pomocou darčekových poukážok Amazon.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	S vašou podporou urobíme všetko pre to, aby sme vám v budúcnosti prinášali skvelé aktualizácie!
+寄付先	Darca
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Ďakujeme vám za vašu podporu a tešíme sa na spoluprácu v budúcnosti.
+デバッグモード、コンソールの起動は禁止されています	Režim ladenia a aktivácia konzoly je zakázaná
+以下の情報がサーバーに送信されました	Na server boli odoslané tieto informácie
+あなたのIPアドレス	Vaša IP adresa.
+あなたの端末とブラウザ	Vaše zariadenie a prehliadač
+あなたの押下したキー	Vaše stlačené klávesy.
+リダイレクトをします	Presmerovania.
+右クリックは禁止されています	Kliknutie pravým tlačidlom myši je zakázané.
+印刷、PDFへの保存は禁止されています	Tlač a ukladanie do PDF je zakázané
+コピー、カットは禁止されています	Kopírovanie alebo strihanie je zakázané.
+あなたが起こしたイベント	Udalosti, ktoré ste spôsobili.
+HTMLソース表示は禁止されています	Zobrazenie zdroja HTML je zakázané.
+不正アクセスは禁止されています	Neoprávnený prístup je zakázaný.
+画像が見つかりません	Obrázok nebol nájdený.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Ak chcete vymazať všetky údaje, odinštalujte doplnok a potom ho znova nainštalujte.
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. spieva pán Uramanira
+タイムスタンプ	časové pečiatkovanie

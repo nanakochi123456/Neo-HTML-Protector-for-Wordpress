@@ -10,7 +10,17 @@ $neohp_table_name = esc_sql($neohp_table_name);
 // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 $wpdb->query(
 	$wpdb->prepare(
-		"DELETE FROM `$neohp_table_name`"
+		"DROP TABLE IF EXISTS `$neohp_table_name`"
+	)
+);
+
+$neohp_table_name = $wpdb->prefix . 'view_source_log';
+$neohp_table_name = esc_sql($neohp_table_name);
+
+// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+$wpdb->query(
+	$wpdb->prepare(
+		"DROP TABLE IF EXISTS `$neohp_table_name`"
 	)
 );
 
@@ -19,10 +29,13 @@ delete_option('neohp_rightclick_message');
 delete_option('neohp_printout_message');
 delete_option('neohp_htmlsource_message');
 delete_option('neohp_htmlprotect_message');
+delete_option('neohp_nonceerror_message');
 delete_option('neohp_copycut_message');
 delete_option('neohp_redirect_url');
 delete_option('neohp_htmlcompress');
 delete_option('neohp_htmlprotect');
+delete_option('html_protect_head');
+delete_option('html_protect_nonce');
 delete_option('neohp_alert_f12');
 delete_option('neohp_alert_i');
 delete_option('neohp_alert_j');

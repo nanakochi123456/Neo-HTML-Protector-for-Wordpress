@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-22 22:49+0900\n"
-"PO-Revision-Date: 2025-03-22 22:49+0900\n"
+"POT-Creation-Date: 2025-03-23 02:27+0900\n"
+"PO-Revision-Date: 2025-03-23 02:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -33,6 +33,9 @@ msgstr "所有 IP 日志均已删除。"
 msgid "ID"
 msgstr "身份证"
 
+msgid "タイムスタンプ"
+msgstr "时间戳"
+
 msgid "IPアドレス"
 msgstr "IP 地址"
 
@@ -41,9 +44,6 @@ msgstr "用户代理"
 
 msgid "イベント"
 msgstr "活动"
-
-msgid "日時"
-msgstr "日期和时间"
 
 msgid "IPアドレスのデータはありません"
 msgstr "无 IP 地址数据。"
@@ -117,23 +117,20 @@ msgstr "文本选择"
 msgid "デバッガー妨害"
 msgstr "调试器干扰"
 
-msgid "妨害"
-msgstr "干涉"
-
 msgid "リダイレクトするURL"
 msgstr "要重定向到的 URL"
 
-msgid "HTML保護時のheadタグの出力"
-msgstr "在 HTML 保护过程中输出头部标记"
+msgid "HTML保護時のHEADタグの出力"
+msgstr "在 HTML 保护过程中输出 HEAD 标记"
 
 msgid "出力しない"
 msgstr "无输出"
 
-msgid "titleタグのみ"
-msgstr "仅标题标签"
+msgid "TITLEタグのみ"
+msgstr "仅 TITLE 标签"
 
-msgid "Wordpressのheadタグより取得"
-msgstr "取自 Wordpress head 标签"
+msgid "WordpressのHEADタグより取得"
+msgstr "从 Wordpress 的 HEAD 标签中提取"
 
 msgid "HTML保護時の一度限りのトークンのチェック"
 msgstr "在 HTML 保护过程中进行一次性令牌检查。"
@@ -143,6 +140,9 @@ msgstr "基本设置"
 
 msgid "高度な設定"
 msgstr "高级设置"
+
+msgid "初期設定に戻す"
+msgstr "重置为默认值"
 
 msgid "メッセージの設定"
 msgstr "信息设置"
@@ -165,11 +165,11 @@ msgstr "按键"
 msgid "Neo HTML Protector 設定"
 msgstr "尼欧 HTML 保护程序设置"
 
-msgid "初期設定に戻す"
-msgstr "重置为默认值"
-
 msgid "このプラグインについて"
 msgstr "关于此插件。"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "要清除所有数据，请卸载插件，然后重新安装"
 
 msgid "Neo HTML Protectorについて"
 msgstr "关于 Neo HTML Protector"
@@ -185,6 +185,12 @@ msgstr "版本"
 
 msgid "サポートページ"
 msgstr "支持页面"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "乌拉马尼拉先生演唱的《小姐"
 
 msgid "支援のお願い"
 msgstr "请求援助。"
@@ -214,7 +220,7 @@ msgid "ご支援いただけることに感謝し、今後ともよろしくお�
 msgstr "我们感谢您的支持，并期待今后与您合作。"
 
 msgid "https://google.co.jp"
-msgstr "https://www.google.cn"
+msgstr "https://www.baidu.com"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "禁止调试模式和控制台激活"

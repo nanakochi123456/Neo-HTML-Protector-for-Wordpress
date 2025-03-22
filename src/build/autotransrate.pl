@@ -83,19 +83,33 @@ sub pottransrate() {
 		}
 		if($_ =~/^msgstr\s+\"(.*?)\"/) {
 			if($str ne "") {
-				print STDERR "--------------------------------\n";
-				print STDERR "Detected $str\n";
 				$multiline=0;
-#	print "DEBUG [$from_lang] [$to_lang] [$str] [$cache]\n";
-				my ($tstr, $cached)=&transrate($from_lang, $to_lang, $str, $cache);
-				print STDERR "Transrate $tstr\n";
+				my $tstr;
+				my $cached;
+				if($str=~/^http/) {
+					$tstr=$to_table->{search};
+				} else {
+					($tstr, $cached)=&transrate($from_lang, $to_lang, $str, $cache);
+				}
+
+				$tstr=~s/Nanoh Yozakura/Nano Yozakura/g;
+				if($str =~/ISIS/) {
+					$tstr="ISIS chan";
+				}
 
 				if(!$cached) {
+					print STDERR "--------------------------------\n";
+					print STDERR "Detected [$str]\n";
+					print STDERR "Transrate [$tstr]\n";
+				}
+
+				if(!($cached) && !($str=~/^http/)) {
 					open(my $fh, ">>", $cache) || die "$cache can't write\n";
 					print $fh "$str\t$tstr\n";
 					close($fh);
 				}
 
+				$tstr=~s/\"//g;
 				print "msgid \"$str\"\n";
 				print "msgstr \"$tstr\"\n";
 				print "\n";
@@ -112,13 +126,13 @@ sub transrate() {
 	if($tstr ne "") {
 		return($tstr, 1);
 	}
-	print STDERR `$DPTRAN_USAGE` . "\n";
+#	print STDERR `$DPTRAN_USAGE` . "\n";
 
 	my $from_table=&searchtable($table_file, $from);
 	my $to_table=&searchtable($table_file, $to);
 
 	my $from_lang = "";
-	my $from_lang = $from_table->{deepl};
+	$from_lang = $from_table->{deepl};
 	if($from_table->{deepl} ne "") {
 		$from_lang = $from_table->{deepl};
 	}
@@ -168,15 +182,16 @@ sub searchtable() {
 		s/[\r|\n]//g;
 		if($_ ne '') {
 			my @fields = split(/\t/, $_);
-			next if scalar(@fields) != 4;
-			my ($deepl, $browser, $english, $japanese)=@fields;
+			next if scalar(@fields) != 5;
+			my ($deepl, $browser, $english, $japanese, $search)=@fields;
 			if($deepl eq $lang || $browser eq $lang) {
 				close($fh);
 				my $ret={
 					deepl=>$deepl,
 					lang=>$browser,
 					english=>$english,
-					japanese=>$japanese
+					japanese=>$japanese,
+					search=>$search
 				};
 				return $ret;
 			}

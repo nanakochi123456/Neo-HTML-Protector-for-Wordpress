@@ -1,0 +1,84 @@
+設定	Nastavitev
+IPログリーダー	Bralnik dnevnika IP
+IPアドレスログ	Dnevnik naslovov IP
+全クリア	Vse je jasno.
+IPログが全て削除されました	Vsi dnevniki IP so bili izbrisani.
+ID	ID
+IPアドレス	Naslov IP
+ユーザーエージェント	Uporabniški agent
+イベント	Dogodek
+日時	Datum in čas
+IPアドレスのデータはありません	Podatki o naslovu IP niso na voljo.
+デバッグモード、コンソールの警告メッセージ	Način za odpravljanje napak, konzolna opozorilna sporočila.
+右クリックの警告メッセージ	Opozorilna sporočila z desnim klikom.
+印刷、PDF保存の警告メッセージ	Opozorilna sporočila za tiskanje in shranjevanje datotek PDF.
+コピー・カットした時に表示するメッセージ	Pri kopiranju ali rezanju se prikaže sporočilo.
+HTMLソース表示時に表示するメッセージ	Sporočilo, ki se prikaže pri prikazu vira HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Sporočilo, ki se prikaže na začetku vira, ko je HTML zakrit in zaščiten.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Sporočilo, ki se prikaže, če je žeton za enkratno preverjanje pristnosti med zaščito HTML nenormalen.
+HTML難読化 (圧縮)	Obfuskacija HTML
+無効	Neveljavno
+有効	Veljavnost
+HTML保護	Zaščita HTML
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO.
+デバッグモード	Način odpravljanja napak
+妨害＋記録のみ	Samo motnje + zapis.
+妨害＋記録＋表示＋リダイレクト	Prevzem + snemanje + prikaz + preusmeritev
+ブラウザーコンソール	Konzola brskalnika
+HTMLソース表示	Prikaz vira HTML
+印刷	Tiskanje
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokiranje tiskanja, vendar v nekaterih brskalnikih ne deluje dobro
+右クリック	Z desnim klikom miške kliknite .
+コピー・カット	Kopiranje in rezanje
+テキスト選択	Izbira besedila
+デバッガー妨害	Motnje v delovanju razhroščevalnika
+妨害	Motnje
+リダイレクトするURL	URL za preusmeritev na
+HTML保護時のHEADタグの出力	Izpis oznak HEAD med zaščito HTML
+出力しない	Brez izhoda
+TITLEタグのみ	Samo oznaka TITLE
+WordpressのHEADタグより取得	Pridobljeno iz oznake HEAD v programu Wordpress
+HTML保護時の一度限りのトークンのチェック	Enkratno preverjanje žetonov med zaščito HTML.
+基本設定	Osnovna nastavitev
+高度な設定	Napredne nastavitve
+初期設定に戻す	Ponastavitev na privzeto vrednost
+メッセージの設定	Nastavitve sporočila
+右クリックやソースコード表示時に転送する URL を設定します	Nastavite URL, ki se posreduje pri desnem kliku ali ogledu izvorne kode.
+警告メッセージにはHTMLは使用できません	HTML ni mogoče uporabiti za opozorilna sporočila
+以下の文字列が使用できます	Uporabljajo se lahko naslednji nizi
+改行	Nova vrstica
+押下されたキー	Pritisnjena tipka
+Neo HTML Protector 設定	Nastavitve programa Neo HTML Protector
+このプラグインについて	O tem vtičniku.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Če želite počistiti vse podatke, odstranite vtičnik in ga znova namestite.
+Neo HTML Protectorについて	O programu Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Namen tega vtičnika je zaščititi HTML, slike itd., ki izhajajo iz vašega Wordpressa, in ga zaščititi pred nepooblaščeno uporabo njegove vsebine!
+開発者: 夜桜　なの	Razvijalec: Nano Yozakura
+バージョン	Različica
+サポートページ	Stran za podporo
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. poje g. Uramanira
+支援のお願い	Prošnja za pomoč.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Zahvaljujemo se vam za uporabo programa Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	V razvoj in vzdrževanje tega vtičnika je bilo vloženega veliko časa in modrosti, zato bi bili hvaležni za morebitne donacije, ki bi nam pomagale zbrati sredstva za nadaljnje izboljšave in posodobitve.
+寄付について	O donacijah
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih močeh.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donacije lahko prispevate prek spodnje povezave. Če ste iz Japonske, lahko darujete brezplačno, poleg tega pa lahko enostavno darujete z Amazonovimi darilnimi boni.
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali odlične posodobitve!
+寄付先	Donator
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti.
+デバッグモード、コンソールの起動は禁止されています	Prepovedan je način za odpravljanje napak in aktiviranje konzole
+以下の情報がサーバーに送信されました	V strežnik so bile poslane naslednje informacije
+あなたのIPアドレス	Vaš naslov IP.
+あなたの端末とブラウザ	Vaša naprava in brskalnik
+あなたの押下したキー	Vaše pritisnjene tipke.
+リダイレクトをします	Preusmeritve.
+右クリックは禁止されています	Klikanje z desno tipko miške je prepovedano.
+印刷、PDFへの保存は禁止されています	Tiskanje in shranjevanje v PDF je prepovedano.
+コピー、カットは禁止されています	Kopiranje ali rezanje je prepovedano.
+あなたが起こしたイベント	Dogodki, ki ste jih povzročili.
+HTMLソース表示は禁止されています	Prikaz vira HTML je prepovedan.
+不正アクセスは禁止されています	Nepooblaščen dostop je prepovedan.
+画像が見つかりません	Slike ni mogoče najti.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom
+タイムスタンプ	Označevanje časa
