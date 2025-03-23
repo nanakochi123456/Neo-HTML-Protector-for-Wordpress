@@ -13,11 +13,13 @@
 	const	jKey='j';
 	const	uKey='u';
 	const	pKey='p';
+	const	sKey='s';
 	const	rClick='r';
 	const	CopyCut='c';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
+	let		Nonce=NeoHPnonce;
 	let		unixTime = Math.floor(Date.now() / 1000);
 
 	function lower(str) {
@@ -73,6 +75,14 @@
 				event.preventDefault();
 			}
 		}
+
+		// Ctrl+S
+		if(FlagSmall.includes(sKey)) {
+			if (ctrl && lower(key) === sKey) {
+				sendIpToServer(CtrlKey+upper(sKey), sKey);
+				event.preventDefault();
+			}
+		}
 	});
 
 	// 右クリック
@@ -97,7 +107,7 @@
 	}
 
 	// テキスト選択禁止のみ 通知なし
-	if(FlagSmall.includes('s')) {
+	if(FlagSmall.includes('t')) {
 		document.body.style.userSelect = 'none';
 		document.body.style.webkitUserSelect = 'none'; // Safari対策
 		//document.body.style.msUserSelect = 'none'; // 古いIE対策 いらないのでコメントアウト
@@ -132,7 +142,9 @@
 		Flg=upper(Flg);
 
 		$.ajax({
-			url: NeoHPHome + "?neohp=ajax&tm=" + unixTime,
+			url: NeoHPHome
+				+ "?neohp=ajax&tm=" + unixTime
+				+ "&neononce=" + Nonce,
 			type: 'POST',
 			data: {
 				sec: 'papu',
@@ -147,7 +159,7 @@
 						= NeoHPHome
 						+ "?neohp=redirect"
 						+ "&tm=" + unixTime
-						+ "&neononce=" + NeoHPnonce;
+						+ "&neononce=" + Nonce;
 				}
 			}
 		});
