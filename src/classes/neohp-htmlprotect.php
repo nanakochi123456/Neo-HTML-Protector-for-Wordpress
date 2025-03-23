@@ -153,12 +153,18 @@ class neohp_htmlprotect {
 		$html .= 'location.href=atob(neUrl);';
 		$html .= '</script>';
 
-		// Wordpressから <head>の部分のみ取得
-		ob_start();
-		do_action('wp_head');
-		$head = $this->replace_image_urls(ob_get_clean());
+		if(get_option('html_protect_head', '0') !== '0') {
+			// Wordpressから <head>の部分のみ取得
+			ob_start();
+			do_action('wp_head');
+			$head = $this->replace_image_urls(ob_get_clean());
 
-		$html .= $this->sanitize_output_head($head);
+			if(get_option('html_protect_head', '0') === '2') {
+				$html .= $this->sanitize_output_head($head);
+			} else {
+				$html .= $this->sanitize_output_head_titleonly($head);
+			}
+		}
 		$html .= '<noscript>';
 		$html .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
 		$html .= '</noscript></head></html>';
@@ -342,6 +348,42 @@ class neohp_htmlprotect {
 			$buffer = preg_replace($search, $replace, $buffer);
 
 
+		}
+		return $buffer;
+	}
+
+	// HTML圧縮 titleオンリー
+	protected function sanitize_output_head_titleonly($buffer) {
+		if(!is_user_logged_in()) {
+			$search = array(
+				'#\s\/\>#s',			// XMLの /> を圧縮
+				'#\>[^\S ]+#s', 		// タグの後の空白を削除
+				'#[^\S ]+\<#s', 		// タグの前の空白を削除
+				'#(\s)+#s', 			// 連続した空白を削除
+				'#(\t)+#s', 			// 連続したタブを削除
+				'#<!--[\s\S]*?-->#s',	// コメントを削除
+				'#\t#s',				// 連続したタブを削除
+				'#<style.*?>.*?<\/style>#s',  // styleは不要
+				'#<script.*?>.*?<\/script>#s',  // scriptは不要
+				'#<meta.*?>#s', 		//metaは不要
+				'#<link.*?>#s', 		//linkは不要
+			);
+			$replace = array(
+				'>',
+				'>',
+				'<',
+				'\\1',
+				'',
+				'\\1',
+				' ',
+				' ',
+				' ',
+				' ',
+				' ',
+				' ',
+			);
+			$buffer = preg_replace($search, $replace, $buffer);
+			$buffer = preg_replace($search, $replace, $buffer);
 		}
 		return $buffer;
 	}

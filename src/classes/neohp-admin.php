@@ -347,7 +347,7 @@ class neohp_admin {
 			register_setting('neohp_advanced_group', 'view_source_alert_method');
 			add_settings_field(
 				'view_source_alert_method',
-				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
+				__('HTML難読化・保護時のHEADタグの出力', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('view_source_alert_method', '0'));
 					echo $this->getselect("view_source_alert_method", $value

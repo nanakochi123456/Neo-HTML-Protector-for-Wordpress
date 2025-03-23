@@ -144,3 +144,4 @@ INPUT TYPE=\	输入类型=\\.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	如果在此屏幕上设置，高级设置选项卡中的语言设置将被忽略
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN 使用标记。
 META NAME=ALERT タグを使用	使用 META NAME=ALERT 标签。
+HTML難読化・保護時のHEADタグの出力	在 HTML 混淆和保护过程中输出 HEAD 标记

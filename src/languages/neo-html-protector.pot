@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"POT-Creation-Date: 2025-03-23 10:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,8 +174,8 @@ msgstr ""
 msgid "リダイレクトするURL"
 msgstr ""
 
-#: classes/neohp-admin.php:350 classes/neohp-admin.php:367
-msgid "HTML保護時のHEADタグの出力"
+#: classes/neohp-admin.php:350
+msgid "HTML難読化・保護時のHEADタグの出力"
 msgstr ""
 
 #: classes/neohp-admin.php:354
@@ -188,6 +188,10 @@ msgstr ""
 
 #: classes/neohp-admin.php:356
 msgid "META NAME=ALERT タグを使用"
+msgstr ""
+
+#: classes/neohp-admin.php:367
+msgid "HTML保護時のHEADタグの出力"
 msgstr ""
 
 #: classes/neohp-admin.php:371
@@ -565,6 +569,6 @@ msgstr ""
 msgid "画像が見つかりません"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:163
+#: classes/neohp-htmlprotect.php:169
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr ""

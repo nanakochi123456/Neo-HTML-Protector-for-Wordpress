@@ -130,3 +130,4 @@ HTMLのコメントタグを使用	Käytä HTML-kommenttimerkkejä.
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Käytä tagia.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jos asetus on tässä näytössä, lisäasetukset-välilehden kieliasetukset jätetään huomiotta.
 META NAME=ALERT タグを使用	Käytä META NAME=ALERT-tunnistetta.
+HTML難読化・保護時のHEADタグの出力	HEAD-tunnisteiden tulostaminen HTML:n peittämisen ja suojaamisen aikana

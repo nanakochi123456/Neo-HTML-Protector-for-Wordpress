@@ -137,3 +137,4 @@ INPUT TYPE=\	INPUT TYPE=\\
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Setting on this screen ignores the language settings on the Advanced tab
 INPUT TYPE=HIDDEN タグを使用	Use INPUT TYPE=HIDDEN tag
 META NAME=ALERT タグを使用	Use the META NAME=ALERT tag
+HTML難読化・保護時のHEADタグの出力	Output of HEAD tags during HTML obfuscation and protection

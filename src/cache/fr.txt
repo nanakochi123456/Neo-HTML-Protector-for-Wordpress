@@ -136,3 +136,4 @@ INPUT TYPE=\	TYPE D'ENTRÉE=\\N-.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Si ce paramètre est défini dans cet écran, les paramètres de langue de l'onglet des paramètres avancés sont ignorés.
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utiliser la balise.
 META NAME=ALERT タグを使用	Utilisez la balise META NAME=ALERT.
+HTML難読化・保護時のHEADタグの出力	Sortie des balises HEAD lors de l'obscurcissement et de la protection du code HTML
