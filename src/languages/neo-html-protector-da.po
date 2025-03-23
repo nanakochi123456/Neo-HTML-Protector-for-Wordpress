@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.25\n"
+"Project-Id-Version: Neo HTML Protector 0.0.27\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 19:04+0900\n"
-"PO-Revision-Date: 2025-03-23 19:04+0900\n"
+"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"PO-Revision-Date: 2025-03-23 20:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -161,6 +161,18 @@ msgstr "URL til at omdirigere til"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Det kan være en god idé at sende dem videre til sider som f.eks. brugsbetingelserne."
+
+msgid "ソース表示を許可する権限"
+msgstr "Myndighed til at tillade kildevisning."
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normal kildeudgang kun ved ADMIN-login"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normal kildeudgang med USER-login"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Vælg, om normal HTML-output kun er til administratorer eller brugerlogin"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Output af HEAD-tags under HTML-beskyttelse"

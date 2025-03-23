@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.25\n"
+"Project-Id-Version: Neo HTML Protector 0.0.27\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 19:04+0900\n"
-"PO-Revision-Date: 2025-03-23 19:04+0900\n"
+"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"PO-Revision-Date: 2025-03-23 20:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -161,6 +161,18 @@ msgstr "Adresa URL, na ktorú sa má presmerovať"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Možno ich budete chcieť presmerovať na stránky, ako sú napríklad Podmienky používania."
+
+msgid "ソース表示を許可する権限"
+msgstr "Povolenie zobrazenia zdroja."
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normálny výstup zdroja len pri prihlásení ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normálny výstup zdroja s prihlásením USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Vyberte, či je normálny výstup HTML určený len pre správcov alebo pre prihlásenie používateľa"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Výstup značiek HEAD počas ochrany HTML"

@@ -155,3 +155,7 @@ HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容�
 画像botをアクセス禁止にする	Kuvabotin kieltäminen.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Sisältöä ei voi suojata täydellisesti. Varoittamalla heitä kaikin mahdollisin tavoin ja olemalla valmistautunut, jos jotain tapahtuu, sinun pitäisi kuitenkin pystyä ratkaisemaan asia kansallisesti määrätyllä tavalla.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tietenkin sinun on parannettava käyttöehtojasi ja sivuston käytäntöjä. Tämä lisäosa ei ole käyttöehtoja luova sovellus, mutta se voi antaa sinulle vihjeen.
+ソース表示を許可する権限	Viranomainen, joka sallii lähteen näyttämisen.
+ADMINログイン時のみ通常のソース出力	Normaali lähteen ulostulo vain ADMIN-kirjautumisessa
+USERログインで通常のソース出力	Normaali lähteen ulostulo USER-kirjautumisella
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Valitse, onko normaali HTML-tuloste vain ylläpitäjille vai käyttäjille tarkoitettu.

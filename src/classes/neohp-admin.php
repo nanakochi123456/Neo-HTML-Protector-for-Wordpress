@@ -412,6 +412,40 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// debugger
+			register_setting('neohp_basic_group', 'neohp_alert_d');
+			add_settings_field(
+				'neohp_alert_d',
+				__('デバッガー妨害', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_alert_d', '1'));
+					echo $this->getselect("neohp_alert_d", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					);
+					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
+			// ソース表示を許可する権限
+			register_setting('neohp_basic_group', 'neohp_islogin');
+			add_settings_field(
+				'neohp_islogin',
+				__('ソース表示を許可する権限', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_islogin', 'admin'));
+					echo $this->getselect("neohp_islogin", $value
+						, 'admin=' . __('ADMINログイン時のみ通常のソース出力', 'neo-html-protector')
+						, 'user=' . __('USERログインで通常のソース出力', 'neo-html-protector')
+					);
+					echo '<br>' . esc_html( __('通常のHTML出力を管理者のみかユーザーログインかを選択します', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 			// HTML保護時のheadの出力
 			register_setting('neohp_advanced_group', 'neohp_html_protect_head');
 			add_settings_field(

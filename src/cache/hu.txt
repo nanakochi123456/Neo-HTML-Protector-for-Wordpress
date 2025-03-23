@@ -154,3 +154,7 @@ view-source:から始まるURLを入力すれば操作できてしまいます	A
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	A tartalom nem védhető tökéletesen. Azzal azonban, hogy minden lehetséges módon figyelmezteti őket, és felkészül, ha valami mégis megtörténik, képesnek kell lennie arra, hogy azt országosan előírt módon megoldja.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Természetesen javítania kell a felhasználási feltételeket és a webhelyre vonatkozó irányelveket. Ez a bővítmény nem egy felhasználási feltételeket generáló alkalmazás, de adhat egy tippet.
 画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	A képrobotok elkerülése megvédi az olyan tartalmakat, amelyeket a képkeresésből származó közvetlen hivatkozásokkal nem lehetne megvédeni.
+ソース表示を許可する権限	Hatóság a forrásmegjelenítés engedélyezéséhez.
+ADMINログイン時のみ通常のソース出力	Normál forráskimenet csak ADMIN bejelentkezéskor
+USERログインで通常のソース出力	Normál forráskimenet USER bejelentkezéssel
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Válassza ki, hogy a normál HTML kimenet csak a rendszergazdáknak vagy a felhasználóknak is szóljon.

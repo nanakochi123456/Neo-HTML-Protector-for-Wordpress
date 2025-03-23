@@ -155,3 +155,7 @@ HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容�
 画像botをアクセス禁止にする	Zbanowanie bota obrazu.
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ta wtyczka ma na celu ochronę kodu HTML, obrazów itp. wyjściowych z systemu Wordpress i ochronę przed nieautoryzowanym użyciem jego zawartości.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Treści nie mogą być doskonale chronione. Jednak ostrzegając ich w każdy możliwy sposób i będąc przygotowanym na wypadek, gdyby coś się wydarzyło, powinieneś być w stanie rozwiązać to w sposób zgodny z przepisami krajowymi.
+ソース表示を許可する権限	Uprawnienie do zezwalania na wyświetlanie źródła.
+ADMINログイン時のみ通常のソース出力	Normalne wyjście źródła tylko przy logowaniu ADMIN
+USERログインで通常のソース出力	Normalne wyjście źródłowe z loginem UŻYTKOWNIKA
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Wybierz, czy normalne wyjście HTML jest przeznaczone tylko dla administratorów, czy też dla użytkowników.

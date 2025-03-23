@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.25\n"
+"Project-Id-Version: Neo HTML Protector 0.0.27\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 19:04+0900\n"
-"PO-Revision-Date: 2025-03-23 19:04+0900\n"
+"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"PO-Revision-Date: 2025-03-23 20:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -161,6 +161,18 @@ msgstr "要重定向到的 URL"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "您可能需要将他们转发到 使用条款 等页面。"
+
+msgid "ソース表示を許可する権限"
+msgstr "允许源显示的权限。"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "仅在管理员登录时输出正常信号源"
+
+msgid "USERログインで通常のソース出力"
+msgstr "用户登录后的正常信号源输出"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "选择正常 HTML 输出是仅供管理员使用，还是供用户登录使用"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "在 HTML 保护过程中输出 HEAD 标记"

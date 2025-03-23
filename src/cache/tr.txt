@@ -152,3 +152,7 @@ WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が�
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	İçerik mükemmel bir şekilde korunamaz. Ancak, onları mümkün olan her şekilde uyararak ve bir şey olursa hazırlıklı olarak, bunu ulusal olarak öngörülen bir şekilde çözebilmelisiniz.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Elbette, kullanım koşullarınızı ve site politikalarınızı geliştirmeniz gerekecektir. Bu eklenti bir kullanım koşulları oluşturma uygulaması değildir, ancak size bir ipucu verebilir.
 画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Görsel botlardan kaçınmak, görsel aramadan doğrudan bağlantılarla korunamayan içeriği korur
+ソース表示を許可する権限	Kaynak gösterimine izin verme yetkisi.
+ADMINログイン時のみ通常のソース出力	Yalnızca ADMIN girişinde normal kaynak çıkışı
+USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak çıkışı
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Normal HTML çıktısının yalnızca yöneticiler için mi yoksa kullanıcı girişi için mi olduğunu seçin

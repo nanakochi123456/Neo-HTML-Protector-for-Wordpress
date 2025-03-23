@@ -154,3 +154,7 @@ view-source:から始まるURLを入力すれば操作できてしまいます	U
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Namen tega vtičnika je zaščititi HTML, slike itd., ki se izpišejo iz Wordpressa, in jih zaščititi pred nepooblaščeno uporabo njihove vsebine.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Vsebine ni mogoče popolnoma zaščititi. Vendar pa bi jih morali na vsak način opozoriti in biti pripravljeni, če se kaj zgodi, in to rešiti na nacionalno predpisan način.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Seveda boste morali izboljšati pogoje uporabe in pravila spletnega mesta. Ta vtičnik ni aplikacija za ustvarjanje pogojev uporabe, vendar vam lahko da namig.
+ソース表示を許可する権限	Pooblastilo za odobritev prikaza vira.
+ADMINログイン時のみ通常のソース出力	Običajni izhodni vir samo ob prijavi ADMIN
+USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Izberite, ali je običajni izpis HTML namenjen samo skrbnikom ali tudi prijavi uporabnika.

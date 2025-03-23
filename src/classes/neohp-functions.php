@@ -67,6 +67,16 @@ class neohp_func {
 		return $langs[0];
 	}
 
+	function login() {
+		if(get_option('neohp_islogin', 'admin') === 'admin') {
+			if ( current_user_can('administrator') ) {
+				return is_user_logged_in();
+			}
+			return false;
+		}
+		return is_user_logged_in();
+}
+
 	function err403() {
 		wp_die('403 Forbidden', 'Forbidden', array('response' => 403));
 	}

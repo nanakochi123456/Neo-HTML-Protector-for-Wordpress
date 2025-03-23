@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.25\n"
+"Project-Id-Version: Neo HTML Protector 0.0.27\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 19:04+0900\n"
-"PO-Revision-Date: 2025-03-23 19:04+0900\n"
+"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"PO-Revision-Date: 2025-03-23 20:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -161,6 +161,18 @@ msgstr "URL a la que redirigir"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Puede remitirles a páginas como las Condiciones de uso."
+
+msgid "ソース表示を許可する権限"
+msgstr "Autoridad para permitir la visualización de la fuente."
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Salida normal de la fuente sólo en el inicio de sesión ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Salida normal de la fuente con inicio de sesión de USUARIO"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Seleccione si la salida HTML normal es sólo para administradores o para el inicio de sesión de los usuarios."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Salida de etiquetas HEAD durante la protección HTML"

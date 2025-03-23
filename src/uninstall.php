@@ -47,8 +47,4 @@ delete_option('neohp_alert_p');
 delete_option('neohp_alert_d');
 delete_option('neohp_alert_message_lang');
 delete_option('neohp_view-source_message_lang');
-delete_option('view_source_alert_method');
-
-/* for old version */
-delete_option('neohp_alert_message');
-
+delete_option('neohp_islogin');

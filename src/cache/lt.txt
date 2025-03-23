@@ -155,3 +155,7 @@ view-source:から始まるURLを入力すれば操作できてしまいます	J
 画像botをアクセス禁止にする	Vaizdo boto uždraudimas.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Turinys negali būti puikiai apsaugotas. Vis dėlto, visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu mastu.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą.
+ソース表示を許可する権限	Įgaliojimas leisti rodyti šaltinį.
+ADMINログイン時のみ通常のソース出力	Įprastas šaltinio išėjimas tik ADMIN prisijungimo metu
+USERログインで通常のソース出力	Įprastas šaltinio išėjimas su vartotojo prisijungimu
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pasirinkite, ar įprasta HTML išvestis skirta tik administratoriams, ar tik naudotojo prisijungimui

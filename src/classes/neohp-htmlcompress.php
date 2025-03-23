@@ -36,7 +36,7 @@ class neohp_htmlcompress {
 
 	// HTML圧縮
 	protected function sanitize_output($buffer) {
-		if(!is_user_logged_in()) {
+		if( ! $this->neohp_func->login() ) {
 			$search = array(
 				'#\s\/\>#s',			// XMLの /> を圧縮
 				'#\>[^\S ]+#s', 		// タグの後の空白を削除

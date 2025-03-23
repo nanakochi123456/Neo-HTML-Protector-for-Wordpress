@@ -158,3 +158,7 @@ WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が�
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tento zásuvný modul chrání HTML, obrázky atd. vycházející z vašeho Wordpressu a chrání jej před neoprávněným použitím jeho obsahu.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Obsah nelze dokonale chránit. Pokud je však budete všemožně varovat a budete připraveni na to, že se něco stane, měli byste být schopni to vyřešit národně předepsaným způsobem.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Samozřejmě budete muset vylepšit podmínky používání a zásady webu. Tento doplněk není aplikací pro generování podmínek používání, ale může vám napovědět.
+ソース表示を許可する権限	Autorita pro povolení zobrazení zdroje.
+ADMINログイン時のみ通常のソース出力	Normální výstup zdroje pouze při přihlášení ADMIN
+USERログインで通常のソース出力	Normální výstup zdroje s přihlášením USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Vyberte, zda je normální výstup HTML určen pouze pro správce nebo pro přihlášení uživatelů.

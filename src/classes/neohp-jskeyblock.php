@@ -5,7 +5,10 @@
 
 $neohp_jskeyblock=new neohp_jskeyblock();
 class neohp_jskeyblock {
+	protected $neohp_func;
 	public function __construct() {
+		$this->neohp_func=new neohp_func();
+
 		// JavaScript‘}“ü
 		add_action('wp_enqueue_scripts', array($this, 'neohp_script') );
 
@@ -59,7 +62,7 @@ class neohp_jskeyblock {
 	    $versionmin = file_exists($scriptmin_path) ? filemtime($scriptmin_path) : false;
 
 		// ƒƒOƒCƒ“‚µ‚Ä‚È‚¢‚Æ‚«‚Ì‚Ý
-	    if(!is_user_logged_in()) {
+		if( ! $this->neohp_func->login() ) {
 			if($versionmin < $version) {
 		        wp_enqueue_script('neohp-script', $script_url, array('jquery'), $version, true);
 			} else {

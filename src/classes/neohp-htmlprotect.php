@@ -29,7 +29,7 @@ class neohp_htmlprotect {
 			add_action('wp_head', function () { ob_start(); }, 0);
 			add_action('wp_head', function () {
 				$head = ob_get_clean(); // head内容を取得
-				if(!is_user_logged_in()) {
+				if( ! $this->neohp_func->login() ) {
 					$head = $this->replace_image_urls($head);
 					if ( isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
 						echo $head;
@@ -281,7 +281,7 @@ class neohp_htmlprotect {
 		// ここで一時的なログからデータベースに移動する
 		$this->movedatabase();
 
-		if ( ! is_user_logged_in() ) {
+		if( ! $this->neohp_func->login() ) {
 			// RSSでないこと、、コメントの時でないこと
 			if (
 				strpos($_SERVER['REQUEST_URI'], '/feed/') === false
@@ -337,7 +337,7 @@ class neohp_htmlprotect {
 
 	// HTML圧縮
 	protected function sanitize_output_head($buffer) {
-		if(!is_user_logged_in()) {
+		if( ! $this->neohp_func->login() ) {
 			$search = array(
 				'#\s\/\>#s',			// XMLの /> を圧縮
 				'#\>[^\S ]+#s', 		// タグの後の空白を削除
@@ -375,7 +375,7 @@ class neohp_htmlprotect {
 
 	// HTML圧縮 titleオンリー
 	protected function sanitize_output_head_titleonly($buffer) {
-		if(!is_user_logged_in()) {
+		if( ! $this->neohp_func->login() ) {
 			$search = array(
 				'#\s\/\>#s',			// XMLの /> を圧縮
 				'#\>[^\S ]+#s', 		// タグの後の空白を削除

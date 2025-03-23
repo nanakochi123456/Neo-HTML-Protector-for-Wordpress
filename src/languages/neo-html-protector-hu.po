@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.25\n"
+"Project-Id-Version: Neo HTML Protector 0.0.27\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 19:04+0900\n"
-"PO-Revision-Date: 2025-03-23 19:04+0900\n"
+"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"PO-Revision-Date: 2025-03-23 20:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -161,6 +161,18 @@ msgstr "URL, ahová átirányítani kell"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Érdemes továbbítani őket olyan oldalakra, mint például a Felhasználási feltételek."
+
+msgid "ソース表示を許可する権限"
+msgstr "Hatóság a forrásmegjelenítés engedélyezéséhez."
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normál forráskimenet csak ADMIN bejelentkezéskor"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normál forráskimenet USER bejelentkezéssel"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Válassza ki, hogy a normál HTML kimenet csak a rendszergazdáknak vagy a felhasználóknak is szóljon."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "HEAD címkék kimenete a HTML-védelem során"
