@@ -137,3 +137,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Prikazana je samo beseda WARNING
 ページ保存	Shranjevanje strani
 ページの保存は禁止されています	Shranjevanje strani je prepovedano.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Splošno stiskanje HTML, nekatera spletna mesta imajo funkcijo de-obfuscation.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY pa se sploh ne izpiše.
+利用規約などのページに転送すると良いでしょう	Morda jih boste želeli preusmeriti na strani, kot so Pogoji uporabe.
+アドオンがインストールされていると操作できてしまいます	Če so nameščeni dodatki, ga je mogoče upravljati.
+あまりこのイベントに遭遇することはありません	S tem dogodkom se ne srečujemo pogosto.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Zaradi tega je način za odpravljanje napak nekoliko manj prijazen do uporabnika, nekateri brskalniki to vedenje ustavijo.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Za poslovno uporabo, kot so strani samo za člane ali notranje strani, je primerna možnost "brez izpisa" ali "samo oznaka TITLE".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Slike OGP ne bodo prikazane v delitvah v družabnih omrežjih, razen če so vzete iz oznake Wordpress HEAD.
+事実上デバッグモードから操作できてしまいます	Delujete lahko v načinu za odpravljanje napak.
+view-source:から始まるURLを入力すれば操作できてしまいます	Uporabite ga tako, da vnesete naslov URL, ki se začne z view-source:.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Preverite z ogledom vira v neprijavljenem brskalniku
+メニューからは操作できてしまいます	Z njim lahko upravljate v meniju.

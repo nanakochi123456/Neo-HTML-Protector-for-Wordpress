@@ -138,3 +138,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Hanya kata PERINGATAN yang ditampilkan. Silakan periksa dengan melihat sumbernya di browser yang tidak masuk.
 ページの保存は禁止されています	Dilarang menyimpan halaman.
 ページ保存	Simpan halaman
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Periksa dengan melihat sumbernya di peramban yang tidak masuk.
+メニューからは操作できてしまいます	Ini dapat dioperasikan dari menu.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Membuat mode debug sedikit kurang ramah pengguna, beberapa browser menghentikan perilaku ini
+利用規約などのページに転送すると良いでしょう	Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Untuk penggunaan korporat, seperti halaman khusus anggota atau internal, 'tidak ada output' atau 'tag TITLE saja' tidak masalah.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Kompresi HTML umum, beberapa situs memiliki de-obfuscation.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Hanya HTML minimal yang dihasilkan di luar kompresi HTML, dan konten dalam tag BODY tidak dihasilkan sama sekali.
+事実上デバッグモードから操作できてしまいます	Efeknya, Anda dapat mengoperasikan dari mode debug.
+あまりこのイベントに遭遇することはありません	Kami tidak terlalu sering menjumpai peristiwa ini.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Periksa dengan melihat sumbernya di peramban yang tidak masuk
+view-source:から始まるURLを入力すれば操作できてしまいます	Ini dapat dioperasikan dengan memasukkan URL yang dimulai dengan view-source:.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali jika diambil dari tag HEAD Wordpress
+アドオンがインストールされていると操作できてしまいます	Ini dapat dioperasikan jika add-on diinstal.

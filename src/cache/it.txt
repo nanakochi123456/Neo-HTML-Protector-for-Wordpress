@@ -147,3 +147,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Viene visualizzata solo la parola ATTENZIONE. Si prega di verificare visualizzando la fonte in un browser non collegato.
 ページ保存	Salvare la pagina
 ページの保存は禁止されています	Il salvataggio delle pagine è vietato.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Compressione generale dell'HTML, alcuni siti hanno la de-obfuscation.
+事実上デバッグモードから操作できてしまいます	In effetti, è possibile operare in modalità di debug.
+あまりこのイベントに遭遇することはありません	Non capita spesso di imbattersi in questo evento.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Al di là della compressione HTML, viene emesso solo un HTML minimo e il contenuto del tag BODY non viene emesso affatto.
+view-source:から始まるURLを入力すれば操作できてしまいます	Si può utilizzare inserendo un URL che inizia con view-source:.
+利用規約などのページに転送すると良いでしょう	Si consiglia di inoltrarli a pagine come le Condizioni d'uso.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Controllare visualizzando il sorgente in un browser non connesso.
+アドオンがインストールされていると操作できてしまいます	Può essere utilizzato se sono installati dei componenti aggiuntivi.
+メニューからは操作できてしまいます	Può essere azionato dal menu.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Rende la modalità di debug un po' meno facile da usare, alcuni browser bloccano questo comportamento
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Per l'uso aziendale, ad esempio per le pagine interne o riservate ai soci, va bene "nessun output" o "solo tag TITLE".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Le immagini OGP non saranno visualizzate nelle condivisioni sui social network a meno che non siano prese dal tag HEAD di Wordpress.

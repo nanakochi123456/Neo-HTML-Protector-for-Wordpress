@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -78,14 +78,29 @@ msgstr "Neveljavno"
 msgid "有効"
 msgstr "Veljavnost"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Splošno stiskanje HTML, nekatera spletna mesta imajo funkcijo de-obfuscation."
+
 msgid "HTML保護"
 msgstr "Zaščita HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY pa se sploh ne izpiše."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Prav tako beleži, kdaj je izvedeno dejanje view-source:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML."
+
+msgid "なし"
+msgstr "Brez"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Preverite z ogledom vira v neprijavljenem brskalniku"
 
 msgid "デバッグモード"
 msgstr "Način odpravljanja napak"
@@ -96,11 +111,20 @@ msgstr "Samo motnje + zapis."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Prevzem + snemanje + prikaz + preusmeritev"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Z njim lahko upravljate v meniju."
+
 msgid "ブラウザーコンソール"
 msgstr "Konzola brskalnika"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Delujete lahko v načinu za odpravljanje napak."
+
 msgid "HTMLソース表示"
 msgstr "Prikaz vira HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Uporabite ga tako, da vnesete naslov URL, ki se začne z view-source:."
 
 msgid "印刷"
 msgstr "Tiskanje"
@@ -114,8 +138,14 @@ msgstr "Shranjevanje strani"
 msgid "右クリック"
 msgstr "Z desnim klikom miške kliknite ."
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Če so nameščeni dodatki, ga je mogoče upravljati."
+
 msgid "コピー・カット"
 msgstr "Kopiranje in rezanje"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "S tem dogodkom se ne srečujemo pogosto."
 
 msgid "テキスト選択"
 msgstr "Izbira besedila"
@@ -123,8 +153,14 @@ msgstr "Izbira besedila"
 msgid "デバッガー妨害"
 msgstr "Motnje v delovanju razhroščevalnika"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Zaradi tega je način za odpravljanje napak nekoliko manj prijazen do uporabnika, nekateri brskalniki to vedenje ustavijo."
+
 msgid "リダイレクトするURL"
 msgstr "URL za preusmeritev na"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Morda jih boste želeli preusmeriti na strani, kot so Pogoji uporabe."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Izpis oznak HEAD med zaščito HTML"
@@ -137,6 +173,12 @@ msgstr "Samo oznaka TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Pridobljeno iz oznake HEAD v programu Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Za poslovno uporabo, kot so strani samo za člane ali notranje strani, je primerna možnost brez izpisa ali samo oznaka TITLE."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Slike OGP ne bodo prikazane v delitvah v družabnih omrežjih, razen če so vzete iz oznake Wordpress HEAD."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Jezik, v katerem je prikazano opozorilno sporočilo."
@@ -152,15 +194,6 @@ msgstr "Če je sporočilo prilagojeno, jezika ni mogoče spremeniti."
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Jezik, v katerem so prikazana sporočila izvornega pogleda."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML."
-
-msgid "なし"
-msgstr "Brez"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Prikazana je samo beseda WARNING"
 
 msgid "基本設定"
 msgstr "Osnovna nastavitev"

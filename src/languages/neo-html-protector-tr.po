@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -78,14 +78,29 @@ msgstr "Geçersiz"
 msgid "有効"
 msgstr "Geçerlilik"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Genel HTML sıkıştırma, bazı sitelerde de-obfuscation vardır."
+
 msgid "HTML保護"
 msgstr "HTML Koruması"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "HTML sıkıştırmasının ötesinde yalnızca minimum HTML çıktısı verilir ve BODY etiketindeki içerik hiç çıktılanmaz."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Ayrıca view-source: eyleminin ne zaman gerçekleştirildiğini de kaydeder."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Her etkinleştirildiğinde, SEO'da düşüşe neden olabilecek bir yönlendirme olur"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
+
+msgid "なし"
+msgstr "Olmadan"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin"
 
 msgid "デバッグモード"
 msgstr "Hata ayıklama modu"
@@ -96,11 +111,20 @@ msgstr "Sadece müdahale + kayıt."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Yakalama + kayıt + görüntüleme + yönlendirme"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Menüden çalıştırılabilir."
+
 msgid "ブラウザーコンソール"
 msgstr "Tarayıcı konsolu"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Aslında, hata ayıklama modunda çalışabilirsiniz."
+
 msgid "HTMLソース表示"
 msgstr "HTML kaynak gösterimi"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "View-source: ile başlayan bir URL girilerek çalıştırılabilir."
 
 msgid "印刷"
 msgstr "Baskı"
@@ -114,8 +138,14 @@ msgstr "Sayfa kaydet"
 msgid "右クリック"
 msgstr "Sağ tıklayın"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Eklentiler yüklüyse çalıştırılabilir."
+
 msgid "コピー・カット"
 msgstr "Kopyala-kes"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Bu olayla çok sık karşılaşmıyoruz."
 
 msgid "テキスト選択"
 msgstr "Metin seçimi"
@@ -123,8 +153,14 @@ msgstr "Metin seçimi"
 msgid "デバッガー妨害"
 msgstr "Hata ayıklayıcı müdahalesi"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Hata ayıklama modunu biraz daha az kullanıcı dostu yapar, bazı tarayıcılar bu davranışı durdurur"
+
 msgid "リダイレクトするURL"
 msgstr "Yönlendirilecek URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Onları Kullanım Koşulları gibi sayfalara yönlendirmek isteyebilirsiniz."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "HTML koruması sırasında HEAD etiketlerinin çıktısı"
@@ -137,6 +173,12 @@ msgstr "Yalnızca TITLE etiketi"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Wordpress'teki HEAD etiketinden alındı"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Yalnızca üyelere özel veya dahili sayfalar gibi kurumsal kullanım için 'çıktı yok' veya 'yalnızca TITLE etiketi' uygundur."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal ağ paylaşımlarında gösterilmeyecektir"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Uyarı mesajının görüntülendiği dil."
@@ -152,15 +194,6 @@ msgstr "Mesaj özelleştirilmişse dil değiştirilemez"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Görünüm kaynağı mesajlarının görüntülendiği dil."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
-
-msgid "なし"
-msgstr "Olmadan"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Yalnızca UYARI sözcüğü gösterilir. Lütfen kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin."
 
 msgid "基本設定"
 msgstr "Temel ayar"

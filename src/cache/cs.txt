@@ -141,3 +141,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Zobrazí se pouze slovo VAROVÁNÍ. Zkontrolujte to prosím zobrazením zdroje v nepřihlášeném prohlížeči.
 ページ保存	Uložení stránky
 ページの保存は禁止されています	Ukládání stránek je zakázáno.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Obecná komprese HTML, některé weby mají funkci de-obfuskace.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Nad rámec komprese HTML je vypsáno pouze minimální množství HTML a obsah značky BODY není vypsán vůbec.
+事実上デバッグモードから操作できてしまいます	V podstatě můžete pracovat v režimu ladění.
+view-source:から始まるURLを入力すれば操作できてしまいます	Lze ji ovládat zadáním adresy URL začínající na view-source:.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Režim ladění je méně uživatelsky přívětivý, některé prohlížeče toto chování zastavují.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pro firemní použití, jako jsou stránky určené pouze pro členy nebo interní stránky, je vhodné použít "bez výstupu" nebo "pouze značka TITLE".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrázky OGP se nebudou zobrazovat ve sdíleních na sociálních sítích, pokud nebudou převzaty z tagu HEAD ve Wordpressu.
+アドオンがインストールされていると操作できてしまいます	Pokud jsou nainstalovány doplňky, lze jej provozovat.
+利用規約などのページに転送すると良いでしょう	Možná je budete chtít přesměrovat na stránky, jako jsou například Podmínky používání.
+メニューからは操作できてしまいます	Lze jej ovládat z nabídky.
+あまりこのイベントに遭遇することはありません	S touto událostí se nesetkáváme příliš často.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Zkontrolujte zobrazení zdroje v nepřihlášeném prohlížeči.

@@ -144,3 +144,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Only the word WARNING is shown. Please confirm by viewing the source in a non-logged-in browser.
 ページ保存	Page save
 ページの保存は禁止されています	Saving pages is prohibited
+一般的なHTML圧縮です、難読化解除のサイトもあります	General HTML compression, some sites offer de-obfuscation
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	More than HTML compression, only minimal HTML is output, and the content in the BODY tag is not output at all.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Please confirm by viewing the source in a non-logged-in browser.
+メニューからは操作できてしまいます	It can be operated from the menu.
+事実上デバッグモードから操作できてしまいます	In effect, it can be operated from debug mode!
+view-source:から始まるURLを入力すれば操作できてしまいます	You can operate it by entering a URL that starts with "view-source:".
+アドオンがインストールされていると操作できてしまいます	If add-ons are installed, they can be operated
+あまりこのイベントに遭遇することはありません	We don't run into this event very often.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Makes debug mode a little less usable, some browsers will stop this behavior
+利用規約などのページに転送すると良いでしょう	You may want to forward it to the Terms of Use and other pages
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For corporate use, such as members-only pages or internal pages, "No output" or "TITLE tag only" is fine.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag
+ログインしていないブラウザーでソース表示を行って確認して下さい	Please confirm by viewing the source in a non-logged-in browser

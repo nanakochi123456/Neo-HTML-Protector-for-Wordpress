@@ -136,3 +136,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Endast ordet VARNING visas. Kontrollera genom att visa källan i en webbläsare som inte är inloggad.
 ページ保存	Sida spara
 ページの保存は禁止されています	Det är förbjudet att spara sidor.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Allmän HTML-komprimering, vissa webbplatser har de-obfuscation.
+事実上デバッグモードから操作できてしまいます	I själva verket kan du arbeta i felsökningsläge.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	För företagsanvändning, t.ex. sidor som endast är avsedda för medlemmar eller interna sidor, räcker det med "ingen utdata" eller "endast TITLE-tagg".
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Endast minimal HTML matas ut efter HTML-komprimering, och innehållet i BODY-taggen matas inte ut alls.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Kontrollera genom att visa källan i en icke-inloggad webbläsare
+メニューからは操作できてしまいます	Den kan manövreras från menyn.
+あまりこのイベントに遭遇することはありません	Det är inte så ofta vi stöter på den här typen av händelser.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder kommer inte att visas i sociala nätverk om de inte hämtas från Wordpress HEAD-taggen
+view-source:から始まるURLを入力すれば操作できてしまいます	Den kan manövreras genom att ange en URL som börjar med view-source:.
+アドオンがインストールされていると操作できてしまいます	Den kan användas om tilläggsprogram är installerade.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Gör felsökningsläget lite mindre användarvänligt, vissa webbläsare stoppar detta beteende
+利用規約などのページに転送すると良いでしょう	Du kanske vill vidarebefordra dem till sidor som användarvillkoren.

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -78,14 +78,29 @@ msgstr "Negalioja"
 msgid "有効"
 msgstr "Galiojimas"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija."
+
 msgid "HTML保護"
 msgstr "HTML apsauga"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Jame taip pat įrašoma, kada atliekamas veiksmas view-source:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."
+
+msgid "なし"
+msgstr "Be"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje"
 
 msgid "デバッグモード"
 msgstr "Derinimo režimas"
@@ -96,11 +111,20 @@ msgstr "Tik trukdžiai + įrašas."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Perėmimas + įrašymas + rodymas + nukreipimas"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Jį galima valdyti iš meniu."
+
 msgid "ブラウザーコンソール"
 msgstr "Naršyklės konsolė"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Iš tikrųjų galite dirbti derinimo režimu."
+
 msgid "HTMLソース表示"
 msgstr "HTML šaltinio rodymas"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ją galima naudoti įvedus URL, prasidedantį žodžiais view-source:."
 
 msgid "印刷"
 msgstr "Spausdinimas"
@@ -114,8 +138,14 @@ msgstr "Puslapio išsaugojimas"
 msgid "右クリック"
 msgstr "Dešiniuoju pelės klavišu spustelėkite"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Jį galima naudoti, jei yra įdiegta priedų."
+
 msgid "コピー・カット"
 msgstr "Kopijuoti-išpjauti"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Su tokiu įvykiu susiduriame nedažnai."
 
 msgid "テキスト選択"
 msgstr "Teksto pasirinkimas"
@@ -123,8 +153,14 @@ msgstr "Teksto pasirinkimas"
 msgid "デバッガー妨害"
 msgstr "Derintuvo trukdžiai"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Derinimo režimas tampa šiek tiek mažiau patogus vartotojui, kai kurios naršyklės sustabdo šį elgesį."
+
 msgid "リダイレクトするURL"
 msgstr "URL, į kurį reikia nukreipti"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Žymos HEAD išvedimas HTML apsaugos metu"
@@ -137,6 +173,12 @@ msgstr "Tik žyma TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Gauta iš Wordpress žymos HEAD"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Įmonių reikmėms, pvz., tik nariams skirtiems arba vidiniams puslapiams, tinka be išvesties arba tik TITLE žyma."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš Wordpress HEAD žymos."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Kalba, kuria rodomas įspėjimo pranešimas."
@@ -152,15 +194,6 @@ msgstr "Kalbos negalima keisti, jei pranešimas yra pritaikytas"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Kalba, kuria rodomi peržiūros šaltinio pranešimai."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."
-
-msgid "なし"
-msgstr "Be"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Rodomas tik žodis WARNING. Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje."
 
 msgid "基本設定"
 msgstr "Pagrindinis nustatymas"

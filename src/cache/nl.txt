@@ -137,3 +137,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Alleen het woord WAARSCHUWING wordt weergegeven. Controleer dit door de bron te bekijken in een browser die niet is ingelogd.
 ページ保存	Pagina opslaan
 ページの保存は禁止されています	Pagina's opslaan is verboden.
+メニューからは操作できてしまいます	Het kan worden bediend via het menu.
+view-source:から始まるURLを入力すれば操作できてしまいます	Het kan worden bediend door een URL in te voeren die begint met view-source:.
+アドオンがインストールされていると操作できてしまいます	Het kan worden bediend als add-ons zijn geïnstalleerd.
+あまりこのイベントに遭遇することはありません	We komen deze gebeurtenis niet vaak tegen.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Maakt de debugmodus iets minder gebruiksvriendelijk, sommige browsers stoppen dit gedrag
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Afbeeldingen van OGP worden niet weergegeven op sociale netwerken tenzij ze afkomstig zijn van de Wordpress HEAD-tag
+一般的なHTML圧縮です、難読化解除のサイトもあります	Algemene HTML-compressie, sommige sites hebben de-obfuscatie.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Er wordt alleen minimale HTML uitgevoerd voorbij HTML-compressie en de inhoud in de BODY-tag wordt helemaal niet uitgevoerd.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Controleer dit door de bron te bekijken in een niet-ingelogde browser
+事実上デバッグモードから操作できてしまいます	In feite kun je werken vanuit debugmodus.
+利用規約などのページに転送すると良いでしょう	Je kunt ze doorsturen naar pagina's zoals de Gebruiksvoorwaarden.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Voor zakelijk gebruik, zoals alleen voor leden of interne pagina's, is 'geen uitvoer' of 'alleen TITLE-tag' prima.

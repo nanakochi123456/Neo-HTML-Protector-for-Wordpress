@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -78,14 +78,29 @@ msgstr "Invalid"
 msgid "有効"
 msgstr "Validity"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "General HTML compression, some sites offer de-obfuscation"
+
 msgid "HTML保護"
 msgstr "HTML Protection"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "More than HTML compression, only minimal HTML is output, and the content in the BODY tag is not output at all."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "It also records when the view-source: operation is performed."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "SEO may drop because of redirects whenever they are activated"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection"
+
+msgid "なし"
+msgstr "Nashi"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Please confirm by viewing the source in a non-logged-in browser"
 
 msgid "デバッグモード"
 msgstr "Debug mode"
@@ -96,11 +111,20 @@ msgstr "Disturbance + record only"
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Intercept + Record + Display + Redirect"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "It can be operated from the menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Browser Console"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "In effect, it can be operated from debug mode!"
+
 msgid "HTMLソース表示"
 msgstr "HTML source display"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "You can operate it by entering a URL that starts with view-source:."
 
 msgid "印刷"
 msgstr "Printing"
@@ -114,8 +138,14 @@ msgstr "Page save"
 msgid "右クリック"
 msgstr "Right click"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "If add-ons are installed, they can be operated"
+
 msgid "コピー・カット"
 msgstr "Copy-cut"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "We don't run into this event very often."
 
 msgid "テキスト選択"
 msgstr "Text selection"
@@ -123,8 +153,14 @@ msgstr "Text selection"
 msgid "デバッガー妨害"
 msgstr "Debugger interference"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Makes debug mode a little less usable, some browsers will stop this behavior"
+
 msgid "リダイレクトするURL"
 msgstr "URL to redirect"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "You may want to forward it to the Terms of Use and other pages"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Output of HEAD tag during HTML protection"
@@ -137,6 +173,12 @@ msgstr "TITLE tag only"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Retrieved from Wordpress HEAD tag"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "For corporate use, such as members-only pages or internal pages, No output or TITLE tag only is fine."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Language in which alert messages are displayed"
@@ -152,15 +194,6 @@ msgstr "Language cannot be changed if the message is set to custom"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Language in which view-source messages are displayed"
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection"
-
-msgid "なし"
-msgstr "Nashi"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Only the word WARNING is shown. Please confirm by viewing the source in a non-logged-in browser."
 
 msgid "基本設定"
 msgstr "Basic setting"

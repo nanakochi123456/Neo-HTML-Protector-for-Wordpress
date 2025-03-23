@@ -138,3 +138,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Somente a palavra WARNING é exibida. Verifique visualizando a fonte em um navegador sem login.
 ページの保存は禁止されています	É proibido salvar páginas.
 ページ保存	Salvar página
+一般的なHTML圧縮です、難読化解除のサイトもあります	Compactação geral de HTML, alguns sites têm desofuscação.
+メニューからは操作できてしまいます	Ele pode ser operado no menu.
+事実上デバッグモードから操作できてしまいます	Na verdade, você pode operar no modo de depuração.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Torna o modo de depuração um pouco menos fácil de usar; alguns navegadores impedem esse comportamento
+view-source:から始まるURLを入力すれば操作できてしまいます	Ele pode ser operado inserindo um URL que começa com view-source:.
+アドオンがインストールされていると操作できてしまいます	Ele pode ser operado se os complementos estiverem instalados.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Somente o mínimo de HTML é gerado além da compactação HTML, e o conteúdo da tag BODY não é gerado de forma alguma.
+利用規約などのページに転送すると良いでしょう	Talvez você queira encaminhá-los para páginas como os Termos de Uso.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Verifique visualizando a fonte em um navegador sem login
+あまりこのイベントに遭遇することはありません	Não encontramos esse evento com muita frequência.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Para uso corporativo, como páginas internas ou somente para membros, "sem saída" ou "somente tag TITLE" é suficiente.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	As imagens do OGP não serão exibidas em compartilhamentos de redes sociais, a menos que sejam retiradas da tag HEAD do Wordpress

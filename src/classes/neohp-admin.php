@@ -168,6 +168,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('一般的なHTML圧縮です、難読化解除のサイトもあります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -185,11 +186,37 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					);
 
-					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') ) . '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
 			);
+
+			// HTMLソース表示時の警告の方法
+			register_setting('neohp_basic_group', 'view_source_alert_asciiart');
+			add_settings_field(
+				'view_source_alert_asciiart',
+				__('HTML難読化・保護時のHTMLソースコードのアスキーアートの出力', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$warning_ascii_art_array=[];
+					foreach ($warning_ascii_art	 as $k => $v) {
+						array_push($warning_ascii_art_array, "$k=$k");
+					}
+					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
+					echo $this->getselect("view_source_alert_asciiart", $value
+						, '0=' . __('なし', 'neo-html-protector')
+						, $warning_ascii_art_array
+					)
+					. '<br>' . __('ログインしていないブラウザーでソース表示を行って確認して下さい', 'neo-html-protector');
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 
 			// F12
 			register_setting('neohp_basic_group', 'neohp_alert_f12');
@@ -203,6 +230,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -220,6 +248,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -237,6 +266,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('事実上デバッグモードから操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -254,6 +284,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('view-source:から始まるURLを入力すれば操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -271,6 +302,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -289,6 +321,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -306,6 +339,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -323,6 +357,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('あまりこのイベントに遭遇することはありません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -339,6 +374,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -355,6 +391,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -369,6 +406,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
 					echo '<input type="url" name="neohp_redirect_url" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' . esc_html( __('利用規約などのページに転送すると良いでしょう', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -386,6 +424,8 @@ class neohp_admin {
 						, '1=' . __('TITLEタグのみ', 'neo-html-protector')
 						, '2=' . __('WordpressのHEADタグより取得', 'neo-html-protector')
 					);
+					echo '<br>' . esc_html( __('企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
@@ -434,29 +474,6 @@ class neohp_admin {
 						, $lang_array
 					);
 					echo '<br>' . __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector');
-				},
-				'neohp-advanced-settings',
-				'neohp_advanced_section'
-			);
-
-			// HTMLソース表示時の警告の方法
-			register_setting('neohp_advanced_group', 'view_source_alert_asciiart');
-			add_settings_field(
-				'view_source_alert_asciiart',
-				__('HTML難読化・保護時のHTMLソースコードのアスキーアートの出力', 'neo-html-protector'),
-
-				function() {
-					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-					$warning_ascii_art_array=[];
-					foreach ($warning_ascii_art	 as $k => $v) {
-						array_push($warning_ascii_art_array, "$k=$k");
-					}
-					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
-					echo $this->getselect("view_source_alert_asciiart", $value
-						, '0=' . __('なし', 'neo-html-protector')
-						, $warning_ascii_art_array
-					)
-					. '<br>' . __('WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。', 'neo-html-protector');
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

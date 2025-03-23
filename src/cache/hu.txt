@@ -137,3 +137,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Csak a FIGYELEM szó jelenik meg. Kérjük, ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben.
 ページ保存	Oldal mentése
 ページの保存は禁止されています	Az oldalak mentése tilos.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	A hibakeresési mód kissé kevésbé felhasználóbarát, néhány böngésző leállítja ezt a viselkedést.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Általános HTML tömörítés, néhány webhelyen van de-obfuszkálás.
+アドオンがインストールされていると操作できてしまいます	Akkor működtethető, ha a bővítmények telepítve vannak.
+あまりこのイベントに遭遇することはありません	Nem túl gyakran találkozunk ezzel az eseménnyel.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Az OGP képek nem jelennek meg a közösségi oldalakon, hacsak nem a Wordpress HEAD tagből származnak.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	A HTML tömörítésen túl csak minimális HTML kerül kimenetre, és a BODY tagben lévő tartalom egyáltalán nem kerül kimenetre.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben
+利用規約などのページに転送すると良いでしょう	Érdemes továbbítani őket olyan oldalakra, mint például a Felhasználási feltételek.
+メニューからは操作できてしまいます	A menüből működtethető.
+事実上デバッグモードから操作できてしまいます	Gyakorlatilag hibakeresési üzemmódban dolgozhat.
+view-source:から始まるURLを入力すれば操作できてしまいます	A view-source: kezdetű URL megadásával működtethető.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Vállalati használatra, például csak tagoknak vagy belső oldalakra a "nincs kimenet" vagy a "csak TITLE tag" megfelelő.

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -78,14 +78,29 @@ msgstr "Nederīgs"
 msgid "有効"
 msgstr "Derīguma termiņš"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Vispārīga HTML saspiešana, dažās vietnēs ir atdalīta obfuskācija."
+
 msgid "HTML保護"
 msgstr "HTML aizsardzība"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Pēc HTML saspiešanas tiek izvadīts tikai minimālais HTML apjoms, un BODY birkas saturs vispār netiek izvadīts."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Tā arī reģistrē, kad tiek veikta darbība view-source:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas var izraisīt SEO kritumu."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā."
+
+msgid "なし"
+msgstr "Bez"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies."
 
 msgid "デバッグモード"
 msgstr "Atkļūdošanas režīms"
@@ -96,11 +111,20 @@ msgstr "Tikai iejaukšanās + ieraksts."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Pārtveršana + ierakstīšana + rādīšana + novirzīšana"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "To var darbināt no izvēlnes."
+
 msgid "ブラウザーコンソール"
 msgstr "Pārlūka konsole"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Faktiski varat darboties atkļūdošanas režīmā."
+
 msgid "HTMLソース表示"
 msgstr "HTML avota rādīšana"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "To var izmantot, ievadot URL, kas sākas ar view-source:."
 
 msgid "印刷"
 msgstr "Drukāšana"
@@ -114,8 +138,14 @@ msgstr "Lapas saglabāšana"
 msgid "右クリック"
 msgstr "Ar peles labo pogu noklikšķiniet uz"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "To var darbināt, ja ir instalēti papildinājumi."
+
 msgid "コピー・カット"
 msgstr "Kopēt-izgriezt"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Ar šādu gadījumu mēs nesastopamies bieži."
 
 msgid "テキスト選択"
 msgstr "Teksta atlase"
@@ -123,8 +153,14 @@ msgstr "Teksta atlase"
 msgid "デバッガー妨害"
 msgstr "Atkļūdošanas traucējumi"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Debug režīms ir mazliet mazāk ērts lietotājam, dažas pārlūkprogrammas aptur šo darbību."
+
 msgid "リダイレクトするURL"
 msgstr "URL, uz kuru pāradresēt"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Iespējams, vēlēsieties pārsūtīt tos uz tādām lapām kā lietošanas noteikumi."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "HEAD tagu izvadīšana HTML aizsardzības laikā"
@@ -137,6 +173,12 @@ msgstr "Tikai birka TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Iegūti no Wordpress taga HEAD"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Uzņēmumu vajadzībām, piemēram, tikai biedriem vai iekšējām lapām, var izmantot bez izvades vai tikai TITLE tag."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Valoda, kurā tiek parādīts brīdinājuma ziņojums."
@@ -152,15 +194,6 @@ msgstr "Ja ziņojums ir pielāgots, valodu mainīt nevar."
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Valoda, kurā tiek rādīti skatījuma avota ziņojumi."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā."
-
-msgid "なし"
-msgstr "Bez"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Tiek parādīts tikai vārds WARNING. Lūdzu, pārbaudiet to, skatot avotu pārlūkā, kurā neesat pieteicies."
 
 msgid "基本設定"
 msgstr "Pamatnosacījumi"

@@ -141,3 +141,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Doar cuvântul AVERTISMENT este afișat. Vă rugăm să verificați vizualizând sursa într-un browser care nu este logat.
 ページ保存	Salvați pagina
 ページの保存は禁止されています	Salvarea paginilor este interzisă.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Verificați prin vizualizarea sursei într-un browser care nu este conectat.
+メニューからは操作できてしまいます	Acesta poate fi operat din meniu.
+事実上デバッグモードから操作できてしまいます	De fapt, puteți opera din modul de depanare.
+view-source:から始まるURLを入力すれば操作できてしまいます	Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:.
+アドオンがインストールされていると操作できてしまいます	Acesta poate fi utilizat dacă sunt instalate add-on-uri.
+あまりこのイベントに遭遇することはありません	Nu întâlnim acest eveniment foarte des.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Face modul de depanare un pic mai puțin ușor de utilizat, unele browsere opresc acest comportament
+利用規約などのページに転送すると良いでしょう	Este posibil să doriți să le trimiteți la pagini precum Termenii de utilizare.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pentru uzul corporativ, cum ar fi paginile interne sau cele destinate exclusiv membrilor, "fără ieșire" sau "doar tag-ul TITLE" este în regulă.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale decât dacă sunt preluate din tag-ul Wordpress HEAD
+ログインしていないブラウザーでソース表示を行って確認して下さい	Verificați prin vizualizarea sursei într-un browser care nu este conectat
+一般的なHTML圧縮です、難読化解除のサイトもあります	Compresie HTML generală, unele site-uri au de-obfuscation.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmisă, iar conținutul din tag-ul BODY nu este transmis deloc.

@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Zobrazí sa len slovo VAROVANIE. Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači.
 ページ保存	Uložiť stránku
 ページの保存は禁止されています	Ukladanie stránok je zakázané.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Všeobecná kompresia HTML, niektoré stránky majú de-obfuskáciu.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Mimo kompresie HTML sa vypisuje len minimum HTML a obsah v tagu BODY sa nevypisuje vôbec.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači.
+アドオンがインストールされていると操作できてしまいます	Ak sú nainštalované doplnky, je možné ho ovládať.
+あまりこのイベントに遭遇することはありません	S touto udalosťou sa nestretávame často.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Spôsobuje, že režim ladenia je o niečo menej užívateľsky prívetivý, niektoré prehliadače toto správanie zastavujú
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pre firemné použitie, napríklad pre stránky určené len pre členov alebo interné stránky, je vhodné použiť možnosť "bez výstupu" alebo "len tag TITLE".
+メニューからは操作できてしまいます	Možno ho ovládať z ponuky.
+事実上デバッグモードから操作できてしまいます	V podstate môžete pracovať v režime ladenia.
+view-source:から始まるURLを入力すれば操作できてしまいます	Je možné ho ovládať zadaním adresy URL začínajúcej na view-source:.
+利用規約などのページに転送すると良いでしょう	Možno ich budete chcieť presmerovať na stránky, ako sú napríklad Podmienky používania.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Skontrolujte zobrazením zdroja v neprihlásenom prehliadači
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrázky OGP sa nebudú zobrazovať v zdieľaniach na sociálnych sieťach, pokiaľ nie sú prevzaté zo značky Wordpress HEAD

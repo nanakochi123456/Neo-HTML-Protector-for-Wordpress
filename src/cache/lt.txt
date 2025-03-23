@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Rodomas tik žodis WARNING. Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje.
 ページ保存	Puslapio išsaugojimas
 ページの保存は禁止されています	Draudžiama išsaugoti puslapius.
+メニューからは操作できてしまいます	Jį galima valdyti iš meniu.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Įmonių reikmėms, pvz., tik nariams skirtiems arba vidiniams puslapiams, tinka "be išvesties" arba "tik TITLE žyma".
+一般的なHTML圧縮です、難読化解除のサイトもあります	Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje.
+アドオンがインストールされていると操作できてしまいます	Jį galima naudoti, jei yra įdiegta priedų.
+あまりこのイベントに遭遇することはありません	Su tokiu įvykiu susiduriame nedažnai.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Derinimo režimas tampa šiek tiek mažiau patogus vartotojui, kai kurios naršyklės sustabdo šį elgesį.
+利用規約などのページに転送すると良いでしょう	Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš "Wordpress HEAD" žymos.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas.
+事実上デバッグモードから操作できてしまいます	Iš tikrųjų galite dirbti derinimo režimu.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje
+view-source:から始まるURLを入力すれば操作できてしまいます	Ją galima naudoti įvedus URL, prasidedantį žodžiais view-source:.

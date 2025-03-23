@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -78,14 +78,29 @@ msgstr "Invalide"
 msgid "有効"
 msgstr "Validité"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Compression HTML générale, certains sites proposent une désobfuscation."
+
 msgid "HTML保護"
 msgstr "Protection HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Seul le HTML minimal est restitué au-delà de la compression HTML, et le contenu de la balise BODY n'est pas restitué du tout."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Il enregistre également le moment où l'action view-source : est effectuée."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Chaque fois qu'il est activé, il y a une redirection, ce qui peut entraîner une baisse du référencement."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."
+
+msgid "なし"
+msgstr "Aucun."
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Vérifier en affichant la source dans un navigateur non connecté"
 
 msgid "デバッグモード"
 msgstr "Mode débogage"
@@ -96,11 +111,20 @@ msgstr "Interférence + enregistrement uniquement."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Intercepter + enregistrer + afficher + rediriger"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Il peut être utilisé à partir du menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Console du navigateur"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "En effet, vous pouvez travailler en mode débogage."
+
 msgid "HTMLソース表示"
 msgstr "Affichage de la source HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Il peut être utilisé en entrant une URL commençant par view-source :."
 
 msgid "印刷"
 msgstr "Impression"
@@ -114,8 +138,14 @@ msgstr "Sauvegarde de la page"
 msgid "右クリック"
 msgstr "Cliquer avec le bouton droit de la souris"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Il peut être utilisé si des modules complémentaires sont installés."
+
 msgid "コピー・カット"
 msgstr "Copier-couper"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Nous ne rencontrons pas cet événement très souvent."
 
 msgid "テキスト選択"
 msgstr "Sélection de texte"
@@ -123,8 +153,14 @@ msgstr "Sélection de texte"
 msgid "デバッガー妨害"
 msgstr "Interférence du débogueur"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Rend le mode débogage un peu moins convivial, certains navigateurs empêchent ce comportement."
+
 msgid "リダイレクトするURL"
 msgstr "URL à rediriger vers"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Vous pouvez les renvoyer à des pages telles que les conditions d'utilisation."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Sortie des balises HEAD pendant la protection HTML"
@@ -137,6 +173,12 @@ msgstr "Balise TITLE uniquement"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Extrait de la balise HEAD dans Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pour les entreprises, telles que les pages réservées aux membres ou les pages internes, la mention pas de sortie ou balise TITLE uniquement convient parfaitement."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Les images d'OGP ne seront pas affichées dans les partages sur les réseaux sociaux à moins qu'elles ne proviennent de la balise HEAD de Wordpress."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Langue dans laquelle le message d'alerte est affiché."
@@ -152,15 +194,6 @@ msgstr "La langue ne peut pas être modifiée si le message est personnalisé"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Langue dans laquelle les messages de source de vue sont affichés."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."
-
-msgid "なし"
-msgstr "Aucun."
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Seul le mot AVERTISSEMENT est affiché. Veuillez vérifier en consultant la source dans un navigateur non connecté."
 
 msgid "基本設定"
 msgstr "Réglage de base"

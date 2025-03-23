@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -78,14 +78,29 @@ msgstr "Tidak valid"
 msgid "有効"
 msgstr "Validitas"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Kompresi HTML umum, beberapa situs memiliki de-obfuscation."
+
 msgid "HTML保護"
 msgstr "Perlindungan HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Hanya HTML minimal yang dihasilkan di luar kompresi HTML, dan konten dalam tag BODY tidak dihasilkan sama sekali."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Ini juga mencatat kapan tindakan view-source: diambil."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML."
+
+msgid "なし"
+msgstr "Tanpa"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Periksa dengan melihat sumbernya di peramban yang tidak masuk"
 
 msgid "デバッグモード"
 msgstr "Mode debug"
@@ -96,11 +111,20 @@ msgstr "Gangguan + rekam saja."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Cegat + rekam + tampilkan + alihkan"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Ini dapat dioperasikan dari menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Konsol browser"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Efeknya, Anda dapat mengoperasikan dari mode debug."
+
 msgid "HTMLソース表示"
 msgstr "Tampilan sumber HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ini dapat dioperasikan dengan memasukkan URL yang dimulai dengan view-source:."
 
 msgid "印刷"
 msgstr "Pencetakan"
@@ -114,8 +138,14 @@ msgstr "Simpan halaman"
 msgid "右クリック"
 msgstr "Klik kanan"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ini dapat dioperasikan jika add-on diinstal."
+
 msgid "コピー・カット"
 msgstr "Salin-potong"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Kami tidak terlalu sering menjumpai peristiwa ini."
 
 msgid "テキスト選択"
 msgstr "Pemilihan teks"
@@ -123,8 +153,14 @@ msgstr "Pemilihan teks"
 msgid "デバッガー妨害"
 msgstr "Gangguan debugger"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Membuat mode debug sedikit kurang ramah pengguna, beberapa browser menghentikan perilaku ini"
+
 msgid "リダイレクトするURL"
 msgstr "URL untuk dialihkan ke"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Output dari tag HEAD selama perlindungan HTML"
@@ -137,6 +173,12 @@ msgstr "Hanya tag JUDUL"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Diambil dari tag HEAD di Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Untuk penggunaan korporat, seperti halaman khusus anggota atau internal, 'tidak ada output' atau 'tag TITLE saja' tidak masalah."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali jika diambil dari tag HEAD Wordpress"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Bahasa yang digunakan untuk menampilkan pesan peringatan."
@@ -152,15 +194,6 @@ msgstr "Bahasa tidak dapat diubah jika pesan disesuaikan"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Bahasa yang digunakan untuk menampilkan pesan sumber tampilan."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML."
-
-msgid "なし"
-msgstr "Tanpa"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Hanya kata PERINGATAN yang ditampilkan. Silakan periksa dengan melihat sumbernya di browser yang tidak masuk."
 
 msgid "基本設定"
 msgstr "Pengaturan dasar"

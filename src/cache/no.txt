@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Bare ordet ADVARSEL vises. Kontroller ved å vise kilden i en nettleser som ikke er logget inn.
 ページ保存	Side lagre
 ページの保存は禁止されています	Det er forbudt å lagre sider.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Generell HTML-komprimering, noen nettsteder har de-obfuscation.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Sjekk ved å vise kilden i en nettleser som ikke er innlogget.
+メニューからは操作できてしまいます	Den kan betjenes fra menyen.
+アドオンがインストールされていると操作できてしまいます	Den kan betjenes hvis tilleggsprogrammer er installert.
+あまりこのイベントに遭遇することはありません	Det er ikke så ofte vi opplever dette.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Bare minimal HTML skrives ut utover HTML-komprimering, og innholdet i BODY-taggen skrives ikke ut i det hele tatt.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Sjekk ved å vise kilden i en nettleser som ikke er innlogget
+事実上デバッグモードから操作できてしまいます	Du kan i praksis operere fra feilsøkingsmodus.
+view-source:から始まるURLを入力すれば操作できてしまいます	Den kan brukes ved å skrive inn en URL som begynner med view-source:.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Gjør feilsøkingsmodus litt mindre brukervennlig, noen nettlesere stopper denne oppførselen
+利用規約などのページに転送すると良いでしょう	Det kan være lurt å videresende dem til sider som for eksempel vilkårene for bruk.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For bedriftsbruk, for eksempel sider som bare er for medlemmer eller interne sider, er "ingen utdata" eller "kun TITLE-tagg" helt greit.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder vil ikke vises i sosiale nettverk med mindre de er hentet fra Wordpress HEAD-taggen

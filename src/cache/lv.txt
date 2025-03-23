@@ -137,3 +137,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Tiek parādīts tikai vārds WARNING. Lūdzu, pārbaudiet to, skatot avotu pārlūkā, kurā neesat pieteicies.
 ページの保存は禁止されています	Lapu saglabāšana ir aizliegta.
 ページ保存	Lapas saglabāšana
+一般的なHTML圧縮です、難読化解除のサイトもあります	Vispārīga HTML saspiešana, dažās vietnēs ir atdalīta obfuskācija.
+メニューからは操作できてしまいます	To var darbināt no izvēlnes.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Debug režīms ir mazliet mazāk ērts lietotājam, dažas pārlūkprogrammas aptur šo darbību.
+利用規約などのページに転送すると良いでしょう	Iespējams, vēlēsieties pārsūtīt tos uz tādām lapām kā lietošanas noteikumi.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Pēc HTML saspiešanas tiek izvadīts tikai minimālais HTML apjoms, un BODY birkas saturs vispār netiek izvadīts.
+事実上デバッグモードから操作できてしまいます	Faktiski varat darboties atkļūdošanas režīmā.
+view-source:から始まるURLを入力すれば操作できてしまいます	To var izmantot, ievadot URL, kas sākas ar view-source:.
+アドオンがインストールされていると操作できてしまいます	To var darbināt, ja ir instalēti papildinājumi.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies.
+あまりこのイベントに遭遇することはありません	Ar šādu gadījumu mēs nesastopamies bieži.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Uzņēmumu vajadzībām, piemēram, tikai biedriem vai iekšējām lapām, var izmantot "bez izvades" vai "tikai TITLE tag".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga.

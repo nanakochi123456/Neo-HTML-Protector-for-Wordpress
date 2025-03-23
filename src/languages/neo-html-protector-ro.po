@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -78,14 +78,29 @@ msgstr "Invalid"
 msgid "有効"
 msgstr "Valabilitate"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Compresie HTML generală, unele site-uri au de-obfuscation."
+
 msgid "HTML保護"
 msgstr "Protecția HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmisă, iar conținutul din tag-ul BODY nu este transmis deloc."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML."
+
+msgid "なし"
+msgstr "Fără"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Verificați prin vizualizarea sursei într-un browser care nu este conectat"
 
 msgid "デバッグモード"
 msgstr "Modul de depanare"
@@ -96,11 +111,20 @@ msgstr "Interferență + numai înregistrare."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Interceptare + înregistrare + afișare + redirecționare"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Acesta poate fi operat din meniu."
+
 msgid "ブラウザーコンソール"
 msgstr "Consola browserului"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "De fapt, puteți opera din modul de depanare."
+
 msgid "HTMLソース表示"
 msgstr "Afișarea sursei HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:."
 
 msgid "印刷"
 msgstr "Tipărire"
@@ -114,8 +138,14 @@ msgstr "Salvați pagina"
 msgid "右クリック"
 msgstr "Clic dreapta"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Acesta poate fi utilizat dacă sunt instalate add-on-uri."
+
 msgid "コピー・カット"
 msgstr "Copiere-tăiere"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Nu întâlnim acest eveniment foarte des."
 
 msgid "テキスト選択"
 msgstr "Selectarea textului"
@@ -123,8 +153,14 @@ msgstr "Selectarea textului"
 msgid "デバッガー妨害"
 msgstr "Interferențe cu depanatorul"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Face modul de depanare un pic mai puțin ușor de utilizat, unele browsere opresc acest comportament"
+
 msgid "リダイレクトするURL"
 msgstr "URL către care să redirecționați"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Este posibil să doriți să le trimiteți la pagini precum Termenii de utilizare."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Ieșirea etichetelor HEAD în timpul protecției HTML"
@@ -137,6 +173,12 @@ msgstr "Doar eticheta TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Retrieved from the HEAD tag in Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pentru uzul corporativ, cum ar fi paginile interne sau cele destinate exclusiv membrilor, fără ieșire sau doar tag-ul TITLE este în regulă."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale decât dacă sunt preluate din tag-ul Wordpress HEAD"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Limba în care este afișat mesajul de alertă."
@@ -152,15 +194,6 @@ msgstr "Limba nu poate fi schimbată dacă mesajul este personalizat"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Limba în care sunt afișate mesajele sursei de vizualizare."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML."
-
-msgid "なし"
-msgstr "Fără"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Doar cuvântul AVERTISMENT este afișat. Vă rugăm să verificați vizualizând sursa într-un browser care nu este logat."
 
 msgid "基本設定"
 msgstr "Setarea de bază"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -78,14 +78,29 @@ msgstr "érvénytelen"
 msgid "有効"
 msgstr "érvényesség"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Általános HTML tömörítés, néhány webhelyen van de-obfuszkálás."
+
 msgid "HTML保護"
 msgstr "HTML védelem"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "A HTML tömörítésen túl csak minimális HTML kerül kimenetre, és a BODY tagben lévő tartalom egyáltalán nem kerül kimenetre."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "A view-source: művelet végrehajtásának időpontját is rögzíti."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Minden alkalommal, amikor aktiválódik, átirányítás történik, ami a SEO csökkenését eredményezheti."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Az ASCII-művészet kimenete a HTML-forráskódban a HTML elfedése és védelme során."
+
+msgid "なし"
+msgstr "Nélkül"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben"
 
 msgid "デバッグモード"
 msgstr "Hibakeresési mód"
@@ -96,11 +111,20 @@ msgstr "Csak interferencia + felvétel."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Elfogás + rögzítés + megjelenítés + átirányítás"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "A menüből működtethető."
+
 msgid "ブラウザーコンソール"
 msgstr "Böngésző konzol"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Gyakorlatilag hibakeresési üzemmódban dolgozhat."
+
 msgid "HTMLソース表示"
 msgstr "HTML forrás megjelenítése"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "A view-source: kezdetű URL megadásával működtethető."
 
 msgid "印刷"
 msgstr "Nyomtatás"
@@ -114,8 +138,14 @@ msgstr "Oldal mentése"
 msgid "右クリック"
 msgstr "Jobb gombbal kattintva"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Akkor működtethető, ha a bővítmények telepítve vannak."
+
 msgid "コピー・カット"
 msgstr "Copy-cut"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Nem túl gyakran találkozunk ezzel az eseménnyel."
 
 msgid "テキスト選択"
 msgstr "Szövegkijelölés"
@@ -123,8 +153,14 @@ msgstr "Szövegkijelölés"
 msgid "デバッガー妨害"
 msgstr "Hibakereső interferencia"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "A hibakeresési mód kissé kevésbé felhasználóbarát, néhány böngésző leállítja ezt a viselkedést."
+
 msgid "リダイレクトするURL"
 msgstr "URL, ahová átirányítani kell"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Érdemes továbbítani őket olyan oldalakra, mint például a Felhasználási feltételek."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "HEAD címkék kimenete a HTML-védelem során"
@@ -137,6 +173,12 @@ msgstr "Csak a TITLE címke"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "A Wordpress HEAD címkéjéből lekérdezve"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Vállalati használatra, például csak tagoknak vagy belső oldalakra a nincs kimenet vagy a csak TITLE tag megfelelő."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Az OGP képek nem jelennek meg a közösségi oldalakon, hacsak nem a Wordpress HEAD tagből származnak."
 
 msgid "alertメッセージを表示する言語"
 msgstr "A figyelmeztető üzenet megjelenítésének nyelve."
@@ -152,15 +194,6 @@ msgstr "A nyelv nem változtatható, ha az üzenet testreszabása történik"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Az a nyelv, amelyen a nézet-forrás üzenetek megjelennek."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Az ASCII-művészet kimenete a HTML-forráskódban a HTML elfedése és védelme során."
-
-msgid "なし"
-msgstr "Nélkül"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Csak a FIGYELEM szó jelenik meg. Kérjük, ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben."
 
 msgid "基本設定"
 msgstr "Alapbeállítás"

@@ -50,6 +50,19 @@ perl autotransrate.pl (options) > output_file
 EOM
 	exit;
 }
+my $from_table=&searchtable($table_file, $from);
+my $to_table=&searchtable($table_file, $to);
+my $from_lang = "";
+my $to_lang = $to_table->{english};
+if($from_table->{lang} ne "") {
+	$from_lang = $from_table->{english};
+} else {
+	$from_lang = "Auto";
+}
+
+print STDERR "-----------------------------------------------\n";
+print STDERR "autotranslate $from_lang to $to_lang\n";
+print STDERR `$DPTRAN_USAGE` . "\n";
 
 &topbanner($from, $to, $input_file, $table_file, $package_name, $email, $version);
 &pottransrate($from, $to, $table_file, $input_file, $cache_file);
@@ -128,7 +141,6 @@ sub transrate() {
 	if($tstr ne "") {
 		return($tstr, 1);
 	}
-#	print STDERR `$DPTRAN_USAGE` . "\n";
 
 	my $from_table=&searchtable($table_file, $from);
 	my $to_table=&searchtable($table_file, $to);

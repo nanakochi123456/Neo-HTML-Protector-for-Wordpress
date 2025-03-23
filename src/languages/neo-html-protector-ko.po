@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -78,14 +78,29 @@ msgstr "비활성화"
 msgid "有効"
 msgstr "유효"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "일반적인 HTML 압축, 난독화 해제 사이트도 있습니다."
+
 msgid "HTML保護"
 msgstr "HTML 보호"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "HTML 압축 이상의 최소한의 HTML만 출력하고, BODY 태그 내 내용이 전혀 출력되지 않습니다."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "View-source: 동작을 했을 때 기록도 합니다."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "활성화하면 반드시 리디렉션이 발생하기 때문에 SEO가 떨어질 수 있습니다."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "HTML 난독화 및 보호 시 HTML 소스 코드의 ASCII 아트 출력"
+
+msgid "なし"
+msgstr "없음"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "로그인하지 않은 브라우저에서 소스 보기를 통해 확인하시기 바랍니다."
 
 msgid "デバッグモード"
 msgstr "디버그 모드"
@@ -96,11 +111,20 @@ msgstr "방해 + 기록만 가능"
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "방해 + 기록 + 표시 + 리디렉션"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "메뉴에서 조작할 수 있습니다."
+
 msgid "ブラウザーコンソール"
 msgstr "브라우저 콘솔"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "사실상 디버그 모드에서 조작할 수 있습니다."
+
 msgid "HTMLソース表示"
 msgstr "HTML 소스 표시"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "View-source: 로 시작하는 URL을 입력하면 조작할 수 있습니다."
 
 msgid "印刷"
 msgstr "인쇄"
@@ -114,8 +138,14 @@ msgstr "페이지 저장"
 msgid "右クリック"
 msgstr "오른쪽 클릭"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "애드온이 설치되어 있으면 조작할 수 있습니다."
+
 msgid "コピー・カット"
 msgstr "카피 컷"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "이 이벤트를 자주 접할 수 없습니다."
 
 msgid "テキスト選択"
 msgstr "텍스트 선택"
@@ -123,8 +153,14 @@ msgstr "텍스트 선택"
 msgid "デバッガー妨害"
 msgstr "디버거 방해"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "디버그 모드의 사용성이 약간 떨어지며, 브라우저에 따라 이 동작이 중지되는 경우가 있습니다."
+
 msgid "リダイレクトするURL"
 msgstr "리디렉션할 URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "이용 약관 등의 페이지로 이동하는 것이 좋습니다."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "HTML 보호 시 HEAD 태그 출력"
@@ -137,6 +173,12 @@ msgstr "TITLE 태그만"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Wordpress의 HEAD 태그에서 가져옴"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "기업용 회원 전용 페이지나 사내 페이지 등에서는 '출력하지 않음', 'TITLE 태그만'으로도 충분합니다."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Wordpress의 HEAD 태그에서 가져오지 않으면 SNS 공유에서 OGP 이미지가 표시되지 않습니다."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Alert 메시지를 표시하는 언어"
@@ -152,15 +194,6 @@ msgstr "메시지를 맞춤 설정한 경우 언어를 변경할 수 없습니�
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "View-source 메시지를 표시하는 언어"
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "HTML 난독화 및 보호 시 HTML 소스 코드의 ASCII 아트 출력"
-
-msgid "なし"
-msgstr "없음"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "WARNING 글자만 표시되어 있습니다. 로그인하지 않은 브라우저에서 소스 보기를 통해 확인하시기 바랍니다."
 
 msgid "基本設定"
 msgstr "기본 설정"

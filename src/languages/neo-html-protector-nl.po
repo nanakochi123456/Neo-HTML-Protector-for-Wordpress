@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -78,14 +78,29 @@ msgstr "Ongeldig"
 msgid "有効"
 msgstr "Geldigheid"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Algemene HTML-compressie, sommige sites hebben de-obfuscatie."
+
 msgid "HTML保護"
 msgstr "HTML-bescherming"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Er wordt alleen minimale HTML uitgevoerd voorbij HTML-compressie en de inhoud in de BODY-tag wordt helemaal niet uitgevoerd."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Het registreert ook wanneer de view-source: actie wordt uitgevoerd."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Telkens wanneer deze wordt geactiveerd, is er een omleiding, wat kan resulteren in een daling van SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -beveiliging."
+
+msgid "なし"
+msgstr "Zonder"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Controleer dit door de bron te bekijken in een niet-ingelogde browser"
 
 msgid "デバッグモード"
 msgstr "Debugmodus"
@@ -96,11 +111,20 @@ msgstr "Alleen storing + opname."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Onderscheppen + opnemen + weergeven + omleiden"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Het kan worden bediend via het menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Browserconsole"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "In feite kun je werken vanuit debugmodus."
+
 msgid "HTMLソース表示"
 msgstr "HTML-bron weergeven"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Het kan worden bediend door een URL in te voeren die begint met view-source:."
 
 msgid "印刷"
 msgstr "Afdrukken"
@@ -114,8 +138,14 @@ msgstr "Pagina opslaan"
 msgid "右クリック"
 msgstr "Klik met de rechtermuisknop op"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Het kan worden bediend als add-ons zijn geïnstalleerd."
+
 msgid "コピー・カット"
 msgstr "Copy-cut"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "We komen deze gebeurtenis niet vaak tegen."
 
 msgid "テキスト選択"
 msgstr "Tekstselectie"
@@ -123,8 +153,14 @@ msgstr "Tekstselectie"
 msgid "デバッガー妨害"
 msgstr "Debugger-interferentie"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Maakt de debugmodus iets minder gebruiksvriendelijk, sommige browsers stoppen dit gedrag"
+
 msgid "リダイレクトするURL"
 msgstr "URL omleiden naar"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Je kunt ze doorsturen naar pagina's zoals de Gebruiksvoorwaarden."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Uitvoer van HEAD-tags tijdens HTML-beveiliging"
@@ -137,6 +173,12 @@ msgstr "Alleen TITLE-tag"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Opgehaald uit de HEAD-tag in Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Voor zakelijk gebruik, zoals alleen voor leden of interne pagina's, is 'geen uitvoer' of 'alleen TITLE-tag' prima."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Afbeeldingen van OGP worden niet weergegeven op sociale netwerken tenzij ze afkomstig zijn van de Wordpress HEAD-tag"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Taal waarin het waarschuwingsbericht wordt weergegeven."
@@ -152,15 +194,6 @@ msgstr "De taal kan niet worden gewijzigd als het bericht is aangepast"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Taal waarin bronberichten worden weergegeven."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -beveiliging."
-
-msgid "なし"
-msgstr "Zonder"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Alleen het woord WAARSCHUWING wordt weergegeven. Controleer dit door de bron te bekijken in een browser die niet is ingelogd."
 
 msgid "基本設定"
 msgstr "Basisinstelling"

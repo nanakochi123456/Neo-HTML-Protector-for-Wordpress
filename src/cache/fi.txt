@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Vain sana VAROITUS näkyy. Tarkista katsomalla lähde selaimella, johon ei ole kirjauduttu.
 ページ保存	Sivun tallentaminen
 ページの保存は禁止されています	Sivujen tallentaminen on kielletty.
+view-source:から始まるURLを入力すれば操作できてしまいます	Sitä voidaan käyttää syöttämällä URL-osoite, joka alkaa kirjaimella view-source:.
+アドオンがインストールされていると操作できてしまいます	Sitä voidaan käyttää, jos lisäosat on asennettu.
+あまりこのイベントに遭遇することはありません	Tätä tapahtumaa ei tapahdu kovin usein.
+利用規約などのページに転送すると良いでしょう	Haluat ehkä ohjata heidät esimerkiksi käyttöehtojen kaltaisille sivuille.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-kuvia ei näytetä sosiaalisissa verkostoissa, elleivät ne ole peräisin Wordpressin HEAD-tagista.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu sisään.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yrityskäyttöön, kuten vain jäsenille tarkoitettuihin tai sisäisiin sivuihin, riittää "ei tulostusta" tai "vain TITLE-tagi".
+一般的なHTML圧縮です、難読化解除のサイトもあります	Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML-pakkauksen jälkeen tulostetaan vain minimaalinen määrä HTML:ää, eikä BODY-tagin sisältöä tulosteta lainkaan.
+メニューからは操作できてしまいます	Sitä voidaan käyttää valikosta.
+事実上デバッグモードから操作できてしまいます	Voit siis toimia debug-tilassa.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Tekee debug-tilasta hieman vähemmän käyttäjäystävällisen, jotkin selaimet lopettavat tämän toiminnon.

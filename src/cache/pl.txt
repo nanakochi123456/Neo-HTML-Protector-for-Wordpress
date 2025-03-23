@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Wyświetlane jest tylko słowo OSTRZEŻENIE. Sprawdź źródło w niezalogowanej przeglądarce.
 ページ保存	Zapis strony
 ページの保存は禁止されています	Zapisywanie stron jest zabronione.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Sprawdź, wyświetlając źródło w niezalogowanej przeglądarce.
+view-source:から始まるURLを入力すれば操作できてしまいます	Można go obsługiwać, wprowadzając adres URL zaczynający się od view-source:.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, niektóre przeglądarki zatrzymują to zachowanie.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrazy OGP nie będą wyświetlane w sieciach społecznościowych, chyba że zostaną pobrane z tagu HEAD Wordpress.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Sprawdź, wyświetlając źródło w niezalogowanej przeglądarce
+事実上デバッグモードから操作できてしまいます	W efekcie można pracować w trybie debugowania.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	W przypadku użytku korporacyjnego, takiego jak strony tylko dla członków lub strony wewnętrzne, "brak wyjścia" lub "tylko znacznik TITLE" jest w porządku.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ogólna kompresja HTML, niektóre strony mają de-obfuscation.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawartość w znaczniku BODY nie jest w ogóle wyprowadzana.
+メニューからは操作できてしまいます	Można ją obsługiwać z poziomu menu.
+アドオンがインストールされていると操作できてしまいます	Może być obsługiwany po zainstalowaniu dodatków.
+あまりこのイベントに遭遇することはありません	Nie spotykamy się z tym wydarzeniem zbyt często.
+利用規約などのページに転送すると良いでしょう	Możesz przekierować ich na strony takie jak Warunki użytkowania.

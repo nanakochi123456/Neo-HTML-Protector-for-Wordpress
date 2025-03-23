@@ -135,3 +135,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Yalnızca UYARI sözcüğü gösterilir. Lütfen kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin.
 ページ保存	Sayfa kaydet
 ページの保存は禁止されています	Sayfaların kaydedilmesi yasaktır.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Genel HTML sıkıştırma, bazı sitelerde de-obfuscation vardır.
+事実上デバッグモードから操作できてしまいます	Aslında, hata ayıklama modunda çalışabilirsiniz.
+view-source:から始まるURLを入力すれば操作できてしまいます	View-source: ile başlayan bir URL girilerek çalıştırılabilir.
+あまりこのイベントに遭遇することはありません	Bu olayla çok sık karşılaşmıyoruz.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Hata ayıklama modunu biraz daha az kullanıcı dostu yapar, bazı tarayıcılar bu davranışı durdurur
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML sıkıştırmasının ötesinde yalnızca minimum HTML çıktısı verilir ve BODY etiketindeki içerik hiç çıktılanmaz.
+メニューからは操作できてしまいます	Menüden çalıştırılabilir.
+アドオンがインストールされていると操作できてしまいます	Eklentiler yüklüyse çalıştırılabilir.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin
+利用規約などのページに転送すると良いでしょう	Onları Kullanım Koşulları gibi sayfalara yönlendirmek isteyebilirsiniz.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yalnızca üyelere özel veya dahili sayfalar gibi kurumsal kullanım için 'çıktı yok' veya 'yalnızca TITLE etiketi' uygundur.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal ağ paylaşımlarında gösterilmeyecektir

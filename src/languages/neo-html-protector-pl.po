@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -78,14 +78,29 @@ msgstr "Nieważny"
 msgid "有効"
 msgstr "Ważność"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ogólna kompresja HTML, niektóre strony mają de-obfuscation."
+
 msgid "HTML保護"
 msgstr "Ochrona HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawartość w znaczniku BODY nie jest w ogóle wyprowadzana."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Rejestruje również, kiedy akcja view-source: jest podejmowana."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, co może skutkować spadkiem SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Wyświetlanie grafiki ASCII w kodzie źródłowym HTML podczas zaciemniania i ochrony HTML."
+
+msgid "なし"
+msgstr "Bez"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Sprawdź, wyświetlając źródło w niezalogowanej przeglądarce"
 
 msgid "デバッグモード"
 msgstr "Tryb debugowania"
@@ -96,11 +111,20 @@ msgstr "Tylko zakłócenia + zapis."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Przechwytywanie + rejestrowanie + wyświetlanie + przekierowywanie"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Można ją obsługiwać z poziomu menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Konsola przeglądarki"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "W efekcie można pracować w trybie debugowania."
+
 msgid "HTMLソース表示"
 msgstr "Wyświetlanie źródła HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Można go obsługiwać, wprowadzając adres URL zaczynający się od view-source:."
 
 msgid "印刷"
 msgstr "Drukowanie"
@@ -114,8 +138,14 @@ msgstr "Zapis strony"
 msgid "右クリック"
 msgstr "Kliknięcie prawym przyciskiem myszy"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Może być obsługiwany po zainstalowaniu dodatków."
+
 msgid "コピー・カット"
 msgstr "Kopia-cięcie"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Nie spotykamy się z tym wydarzeniem zbyt często."
 
 msgid "テキスト選択"
 msgstr "Wybór tekstu"
@@ -123,8 +153,14 @@ msgstr "Wybór tekstu"
 msgid "デバッガー妨害"
 msgstr "Zakłócenia debuggera"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, niektóre przeglądarki zatrzymują to zachowanie."
+
 msgid "リダイレクトするURL"
 msgstr "Adres URL do przekierowania"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Możesz przekierować ich na strony takie jak Warunki użytkowania."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Wyświetlanie znaczników HEAD podczas ochrony HTML"
@@ -137,6 +173,12 @@ msgstr "Tylko znacznik TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Pobrane z tagu HEAD w systemie Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "W przypadku użytku korporacyjnego, takiego jak strony tylko dla członków lub strony wewnętrzne, brak wyjścia lub tylko znacznik TITLE jest w porządku."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Obrazy OGP nie będą wyświetlane w sieciach społecznościowych, chyba że zostaną pobrane z tagu HEAD Wordpress."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Język, w którym wyświetlany jest komunikat alarmowy."
@@ -152,15 +194,6 @@ msgstr "Języka nie można zmienić, jeśli wiadomość jest spersonalizowana"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Język, w którym wyświetlane są komunikaty źródła widoku."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Wyświetlanie grafiki ASCII w kodzie źródłowym HTML podczas zaciemniania i ochrony HTML."
-
-msgid "なし"
-msgstr "Bez"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Wyświetlane jest tylko słowo OSTRZEŻENIE. Sprawdź źródło w niezalogowanej przeglądarce."
 
 msgid "基本設定"
 msgstr "Ustawienie podstawowe"

@@ -143,3 +143,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Seul le mot AVERTISSEMENT est affiché. Veuillez vérifier en consultant la source dans un navigateur non connecté.
 ページ保存	Sauvegarde de la page
 ページの保存は禁止されています	Il est interdit de sauvegarder des pages.
+メニューからは操作できてしまいます	Il peut être utilisé à partir du menu.
+事実上デバッグモードから操作できてしまいます	En effet, vous pouvez travailler en mode débogage.
+アドオンがインストールされていると操作できてしまいます	Il peut être utilisé si des modules complémentaires sont installés.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Les images d'OGP ne seront pas affichées dans les partages sur les réseaux sociaux à moins qu'elles ne proviennent de la balise HEAD de Wordpress.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Seul le HTML minimal est restitué au-delà de la compression HTML, et le contenu de la balise BODY n'est pas restitué du tout.
+view-source:から始まるURLを入力すれば操作できてしまいます	Il peut être utilisé en entrant une URL commençant par view-source :.
+あまりこのイベントに遭遇することはありません	Nous ne rencontrons pas cet événement très souvent.
+利用規約などのページに転送すると良いでしょう	Vous pouvez les renvoyer à des pages telles que les conditions d'utilisation.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pour les entreprises, telles que les pages réservées aux membres ou les pages internes, la mention "pas de sortie" ou "balise TITLE uniquement" convient parfaitement.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Vérifier en affichant la source dans un navigateur non connecté
+一般的なHTML圧縮です、難読化解除のサイトもあります	Compression HTML générale, certains sites proposent une désobfuscation.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Rend le mode débogage un peu moins convivial, certains navigateurs empêchent ce comportement.

@@ -144,3 +144,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Es wird nur das Wort WARNING angezeigt. Bitte überprüfen Sie die Quelle in einem nicht eingeloggten Browser.
 ページ保存	Seite speichern
 ページの保存は禁止されています	Das Speichern von Seiten ist verboten.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Allgemeine HTML-Komprimierung, einige Websites verfügen über eine Entschleierungsfunktion.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Über die HTML-Komprimierung hinaus wird nur minimales HTML ausgegeben, und der Inhalt im BODY-Tag wird überhaupt nicht ausgegeben.
+メニューからは操作できてしまいます	Sie kann über das Menü bedient werden.
+利用規約などのページに転送すると良いでしょう	Vielleicht möchten Sie sie auf Seiten wie die Nutzungsbedingungen weiterleiten.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Für die Verwendung in Unternehmen, z. B. auf Seiten, die nur für Mitglieder bestimmt sind, oder auf internen Seiten ist die Einstellung "keine Ausgabe" oder "nur TITLE-Tag" ausreichend.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Macht den Debug-Modus etwas weniger benutzerfreundlich, einige Browser unterbinden dieses Verhalten
+事実上デバッグモードから操作できてしまいます	In der Tat können Sie im Debug-Modus arbeiten.
+アドオンがインストールされていると操作できてしまいます	Sie kann bedient werden, wenn Add-ons installiert sind.
+あまりこのイベントに遭遇することはありません	Ein solches Ereignis kommt nicht sehr oft vor.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Überprüfen Sie die Quelle in einem nicht angemeldeten Browser
+view-source:から始まるURLを入力すれば操作できてしまいます	Sie kann durch Eingabe einer URL, die mit view-source: beginnt, bedient werden.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-Bilder werden nicht in sozialen Netzwerken angezeigt, es sei denn, sie stammen aus dem Wordpress HEAD-Tag

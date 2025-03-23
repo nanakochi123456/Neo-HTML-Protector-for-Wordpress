@@ -149,3 +149,15 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Kun ordet ADVARSEL vises. Tjek venligst ved at se kilden i en browser, der ikke er logget ind.
 ページ保存	Gem side
 ページの保存は禁止されています	Det er forbudt at gemme sider.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Generel HTML-komprimering, nogle sider har de-obfuscation.
+利用規約などのページに転送すると良いでしょう	Det kan være en god idé at sende dem videre til sider som f.eks. brugsbetingelserne.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Kun minimal HTML sendes ud efter HTML-komprimering, og indholdet i BODY-tagget sendes slet ikke ud.
+事実上デバッグモードから操作できてしまいます	Du kan faktisk arbejde i fejlsøgningstilstand.
+view-source:から始まるURLを入力すれば操作できてしまいます	Den kan betjenes ved at indtaste en URL, der begynder med view-source:.
+アドオンがインストールされていると操作できてしまいます	Den kan betjenes, hvis der er installeret add-ons.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-billeder vil ikke blive vist i sociale netværk, medmindre de er taget fra Wordpress HEAD-tagget.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Tjek ved at se kilden i en ikke-indlogget browser
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Til virksomhedsbrug, f.eks. sider kun for medlemmer eller interne sider, er "ingen output" eller "kun TITLE-tag" fint.
+メニューからは操作できてしまいます	Den kan betjenes fra menuen.
+あまりこのイベントに遭遇することはありません	Vi oplever ikke denne begivenhed særlig ofte.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Gør debug-tilstand lidt mindre brugervenlig, nogle browsere stopper denne adfærd

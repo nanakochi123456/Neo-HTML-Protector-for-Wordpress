@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -78,14 +78,29 @@ msgstr "Inválido"
 msgid "有効"
 msgstr "Validez"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Compresión HTML general, algunos sitios tienen desofuscación."
+
 msgid "HTML保護"
 msgstr "Protección HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Más allá de la compresión HTML, sólo se emite un mínimo de HTML, y el contenido de la etiqueta BODY no se emite en absoluto."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "También registra cuándo se realiza la acción ver-fuente:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Cada vez que se activa, se produce una redirección, lo que puede provocar una caída del SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Salida de arte ASCII en código fuente HTML durante la ofuscación y protección de HTML."
+
+msgid "なし"
+msgstr "Sin"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Compruébelo viendo la fuente en un navegador sin conexión"
 
 msgid "デバッグモード"
 msgstr "Modo depuración"
@@ -96,11 +111,20 @@ msgstr "Sólo interferencia + registro."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Interceptar + grabar + visualizar + redirigir"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Se puede manejar desde el menú."
+
 msgid "ブラウザーコンソール"
 msgstr "Consola de navegación"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "En efecto, puede operar desde el modo de depuración."
+
 msgid "HTMLソース表示"
 msgstr "Visualización de fuentes HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Se puede utilizar introduciendo una URL que empiece por view-source:."
 
 msgid "印刷"
 msgstr "Impresión"
@@ -114,8 +138,14 @@ msgstr "Guardar página"
 msgid "右クリック"
 msgstr "Haga clic con el botón derecho del ratón en"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Puede funcionar si se instalan complementos."
+
 msgid "コピー・カット"
 msgstr "Copia-corte"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "No nos encontramos con este suceso muy a menudo."
 
 msgid "テキスト選択"
 msgstr "Selección de texto"
@@ -123,8 +153,14 @@ msgstr "Selección de texto"
 msgid "デバッガー妨害"
 msgstr "Interferencia del depurador"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Hace que el modo de depuración sea un poco menos fácil de usar, algunos navegadores detienen este comportamiento"
+
 msgid "リダイレクトするURL"
 msgstr "URL a la que redirigir"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Puede remitirles a páginas como las Condiciones de uso."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Salida de etiquetas HEAD durante la protección HTML"
@@ -137,6 +173,12 @@ msgstr "Sólo etiqueta TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Obtenido de la etiqueta HEAD en Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Para uso corporativo, como páginas sólo para miembros o internas, sin salida o sólo etiqueta TITLE está bien."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Las imágenes de OGP no se mostrarán en las redes sociales a menos que se tomen de la etiqueta HEAD de Wordpress."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Idioma en el que se muestra el mensaje de alerta."
@@ -152,15 +194,6 @@ msgstr "No se puede cambiar el idioma si el mensaje está personalizado"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Idioma en el que se muestran los mensajes de origen de la vista."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Salida de arte ASCII en código fuente HTML durante la ofuscación y protección de HTML."
-
-msgid "なし"
-msgstr "Sin"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Sólo se muestra la palabra ADVERTENCIA. Compruébelo viendo la fuente en un navegador sin conexión."
 
 msgid "基本設定"
 msgstr "Configuración básica"

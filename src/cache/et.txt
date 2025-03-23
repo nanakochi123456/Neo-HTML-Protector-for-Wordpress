@@ -137,3 +137,16 @@ HTML難読化・保護時のHTMLソースコードのアスキーアートの出
 WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Kuvatakse ainult sõna HOIATUS. Palun kontrollige, vaadates allikat mitte sisselogitud brauseris.
 ページ保存	Lehekülje salvestamine
 ページの保存は禁止されています	Lehekülgede salvestamine on keelatud.
+一般的なHTML圧縮です、難読化解除のサイトもあります	Üldine HTML-kompressioon, mõnedel saitidel on de-obfuscation.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Väljastatakse ainult minimaalne HTML, mis ületab HTML-kompressiooni, ja BODY-tähe sisu ei väljastata üldse.
+ログインしていないブラウザーでソース表示を行って確認して下さい。	Kontrollige, vaadates allikat mitte sisselogitud brauseris.
+メニューからは操作できてしまいます	Seda saab kasutada menüüst.
+事実上デバッグモードから操作できてしまいます	Tegelikult saate tegutseda veaotsingurežiimil.
+view-source:から始まるURLを入力すれば操作できてしまいます	Seda saab kasutada, sisestades URL-i, mis algab sõnaga view-source:.
+あまりこのイベントに遭遇することはありません	Me ei kohta seda sündmust väga tihti.
+利用規約などのページに転送すると良いでしょう	Sa võid neid edastada sellistele lehekülgedele nagu kasutustingimused.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Ettevõtte kasutamisel, näiteks ainult liikmetele mõeldud või siselehekülgedel, sobib "no output" või "TITLE tag only".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP pilte ei kuvata sotsiaalvõrgustikes, välja arvatud juhul, kui need on võetud Wordpressi HEAD-tagist.
+アドオンがインストールされていると操作できてしまいます	Seda saab kasutada, kui on paigaldatud lisaseadmed.
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Muudab veaotsingurežiimi veidi vähem kasutajasõbralikuks, mõned brauserid lõpetavad selle käitumise
+ログインしていないブラウザーでソース表示を行って確認して下さい	Kontrollige, vaadates allikat mitte sisselogitud brauseris.

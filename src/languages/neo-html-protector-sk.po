@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -78,14 +78,29 @@ msgstr "Neplatné"
 msgid "有効"
 msgstr "Platnosť"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Všeobecná kompresia HTML, niektoré stránky majú de-obfuskáciu."
+
 msgid "HTML保護"
 msgstr "Ochrana HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Mimo kompresie HTML sa vypisuje len minimum HTML a obsah v tagu BODY sa nevypisuje vôbec."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Zaznamenáva tiež, kedy sa vykoná akcia view-source:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Vždy, keď je aktivovaná, dôjde k presmerovaniu, čo môže mať za následok pokles SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML."
+
+msgid "なし"
+msgstr "Bez"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Skontrolujte zobrazením zdroja v neprihlásenom prehliadači"
 
 msgid "デバッグモード"
 msgstr "Režim ladenia"
@@ -96,11 +111,20 @@ msgstr "Iba rušenie + záznam."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Zachytenie + záznam + zobrazenie + presmerovanie"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Možno ho ovládať z ponuky."
+
 msgid "ブラウザーコンソール"
 msgstr "Konzola prehliadača"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "V podstate môžete pracovať v režime ladenia."
+
 msgid "HTMLソース表示"
 msgstr "Zobrazenie zdroja HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Je možné ho ovládať zadaním adresy URL začínajúcej na view-source:."
 
 msgid "印刷"
 msgstr "Tlač"
@@ -114,8 +138,14 @@ msgstr "Uložiť stránku"
 msgid "右クリック"
 msgstr "Kliknutie pravým tlačidlom myši na"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ak sú nainštalované doplnky, je možné ho ovládať."
+
 msgid "コピー・カット"
 msgstr "Kopírovanie"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "S touto udalosťou sa nestretávame často."
 
 msgid "テキスト選択"
 msgstr "Výber textu"
@@ -123,8 +153,14 @@ msgstr "Výber textu"
 msgid "デバッガー妨害"
 msgstr "Rušenie ladiaceho programu"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Spôsobuje, že režim ladenia je o niečo menej užívateľsky prívetivý, niektoré prehliadače toto správanie zastavujú"
+
 msgid "リダイレクトするURL"
 msgstr "Adresa URL, na ktorú sa má presmerovať"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Možno ich budete chcieť presmerovať na stránky, ako sú napríklad Podmienky používania."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Výstup značiek HEAD počas ochrany HTML"
@@ -137,6 +173,12 @@ msgstr "Len značka TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Získané zo značky HEAD v aplikácii Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pre firemné použitie, napríklad pre stránky určené len pre členov alebo interné stránky, je vhodné použiť možnosť bez výstupu alebo len tag TITLE."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Obrázky OGP sa nebudú zobrazovať v zdieľaniach na sociálnych sieťach, pokiaľ nie sú prevzaté zo značky Wordpress HEAD"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Jazyk, v ktorom sa zobrazuje výstražná správa."
@@ -152,15 +194,6 @@ msgstr "Jazyk nie je možné zmeniť, ak je správa prispôsobená"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Jazyk, v ktorom sa zobrazujú správy zdroja zobrazenia."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML."
-
-msgid "なし"
-msgstr "Bez"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Zobrazí sa len slovo VAROVANIE. Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači."
 
 msgid "基本設定"
 msgstr "Základné nastavenie"

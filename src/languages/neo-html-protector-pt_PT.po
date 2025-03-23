@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 13:17+0900\n"
-"PO-Revision-Date: 2025-03-23 13:17+0900\n"
+"POT-Creation-Date: 2025-03-23 14:39+0900\n"
+"PO-Revision-Date: 2025-03-23 14:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -78,14 +78,29 @@ msgstr "Inválido"
 msgid "有効"
 msgstr "Validade"
 
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Compressão geral de HTML, alguns sítios têm desobfuscação."
+
 msgid "HTML保護"
 msgstr "Proteção HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Apenas o HTML mínimo é emitido para além da compressão HTML e o conteúdo da etiqueta BODY não é emitido de todo."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Também regista quando a ação view-source: é executada."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Sempre que é ativado, há um redireccionamento, o que pode resultar numa queda na SEO"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML."
+
+msgid "なし"
+msgstr "Sem"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Verificar visualizando a fonte num browser sem sessão iniciada"
 
 msgid "デバッグモード"
 msgstr "Modo de depuração"
@@ -96,11 +111,20 @@ msgstr "Interferência + registo apenas."
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr "Intercetar + registar + apresentar + redirecionar"
 
+msgid "メニューからは操作できてしまいます"
+msgstr "Pode ser acionado a partir do menu."
+
 msgid "ブラウザーコンソール"
 msgstr "Consola do navegador"
 
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "De facto, é possível operar a partir do modo de depuração."
+
 msgid "HTMLソース表示"
 msgstr "Apresentação da fonte HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Pode ser acionado introduzindo um URL que comece por view-source:."
 
 msgid "印刷"
 msgstr "Impressão"
@@ -114,8 +138,14 @@ msgstr "Guardar página"
 msgid "右クリック"
 msgstr "Clicar com o botão direito do rato"
 
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Pode ser utilizado se estiverem instalados suplementos."
+
 msgid "コピー・カット"
 msgstr "Copiar-cortar"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "Este acontecimento não é muito frequente."
 
 msgid "テキスト選択"
 msgstr "Seleção de texto"
@@ -123,8 +153,14 @@ msgstr "Seleção de texto"
 msgid "デバッガー妨害"
 msgstr "Interferência do depurador"
 
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Torna o modo de depuração um pouco menos fácil de utilizar, alguns browsers impedem este comportamento"
+
 msgid "リダイレクトするURL"
 msgstr "URL para onde redirecionar"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Poderá querer reencaminhá-los para páginas como as Condições de utilização."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Saída de etiquetas HEAD durante a proteção HTML"
@@ -137,6 +173,12 @@ msgstr "Apenas a etiqueta TITLE"
 
 msgid "WordpressのHEADタグより取得"
 msgstr "Obtido a partir da etiqueta HEAD no Wordpress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Para utilização empresarial, como páginas internas ou apenas para membros, sem saída ou apenas etiqueta TITLE é suficiente."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "As imagens do OGP não serão exibidas em partilhas nas redes sociais, a menos que sejam retiradas da etiqueta HEAD do Wordpress"
 
 msgid "alertメッセージを表示する言語"
 msgstr "Língua em que a mensagem de alerta é apresentada."
@@ -152,15 +194,6 @@ msgstr "A língua não pode ser alterada se a mensagem for personalizada"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Idioma em que são apresentadas as mensagens de origem da vista."
-
-msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr "Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML."
-
-msgid "なし"
-msgstr "Sem"
-
-msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
-msgstr "Apenas a palavra WARNING é apresentada. Verifique se está a ver a fonte num browser sem sessão iniciada."
 
 msgid "基本設定"
 msgstr "Definição básica"
