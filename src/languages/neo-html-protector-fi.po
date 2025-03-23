@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:20+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -180,6 +180,12 @@ msgstr "Yrityskäyttöön, kuten vain jäsenille tarkoitettuihin tai sisäisiin 
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "OGP-kuvia ei näytetä sosiaalisissa verkostoissa, elleivät ne ole peräisin Wordpressin HEAD-tagista."
 
+msgid "画像botをアクセス禁止にする"
+msgstr "Kuvabotin kieltäminen."
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "Kuvabottien välttäminen suojaa sisältöä, jota ei voida suojata suorilla kuvahaun linkeillä."
+
 msgid "alertメッセージを表示する言語"
 msgstr "Kieli, jolla hälytysviesti näytetään."
 
@@ -237,8 +243,14 @@ msgstr "Voit tyhjentää kaikki tiedot poistamalla laajennuksen ja asentamalla s
 msgid "Neo HTML Protectorについて"
 msgstr "Tietoja Neo HTML Protectorista"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sen sisällön luvattomalta käytöltä!"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sisällön luvattomalta käytöltä."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Sisältöä ei voi suojata täydellisesti. Varoittamalla heitä kaikin mahdollisin tavoin ja olemalla valmistautunut, jos jotain tapahtuu, sinun pitäisi kuitenkin pystyä ratkaisemaan asia kansallisesti määrätyllä tavalla."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Tietenkin sinun on parannettava käyttöehtojasi ja sivuston käytäntöjä. Tämä lisäosa ei ole käyttöehtoja luova sovellus, mutta se voi antaa sinulle vihjeen."
 
 msgid "開発者: 夜桜　なの"
 msgstr "Kehittäjä: Nano Yozakura"

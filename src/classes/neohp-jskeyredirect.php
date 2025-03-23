@@ -5,8 +5,10 @@
 
 $neohp_jskeyredirect=new neohp_jskeyredirect();
 class neohp_jskeyredirect {
+	protected $neohp_func;
 
 	public function __construct() {
+		$this->neohp_func=new neohp_func();
 		add_action('template_redirect', array($this, 'custom_redirect_based_on_query') );
 	}
 
@@ -16,7 +18,7 @@ class neohp_jskeyredirect {
 	    if (isset($_GET['neohp']) && $_GET['neohp'] === 'redirect') {
 			if(!isset($_GET['neononce'])
 			|| !wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['neononce'])), 'neohp_action')) {
-				die('403 Forbidden');
+				$this->neohp_func->err403();
 			}
 
 			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';

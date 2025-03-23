@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:21+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:29+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -180,6 +180,12 @@ msgstr "För företagsanvändning, t.ex. sidor som endast är avsedda för medle
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "OGP-bilder kommer inte att visas i sociala nätverk om de inte hämtas från Wordpress HEAD-taggen"
 
+msgid "画像botをアクセス禁止にする"
+msgstr "Förbud mot bildrobotar."
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "Genom att undvika bildrobotar skyddas innehåll som inte skulle kunna skyddas av direktlänkar från bildsökning"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Språk på vilket varningsmeddelandet visas."
 
@@ -237,8 +243,14 @@ msgstr "För att rensa alla data, avinstallera plug-in och installera sedan om d
 msgid "Neo HTML Protectorについて"
 msgstr "Om Neo HTML Protector"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "Detta plugin syftar till att skydda HTML, bilder etc. som matas ut från din Wordpress och skydda den från obehörig användning av dess innehåll!"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Detta plugin syftar till att skydda HTML, bilder etc. som matas ut från din Wordpress och skydda den från obehörig användning av dess innehåll."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Innehåll kan inte skyddas perfekt. Men genom att varna dem på alla möjliga sätt och vara förberedd om något händer, bör du kunna lösa det på ett nationellt föreskrivet sätt."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Naturligtvis måste du förbättra dina användarvillkor och webbplatspolicyer. Detta plugin är inte en app som genererar användarvillkor, men det kan ge dig en ledtråd."
 
 msgid "開発者: 夜桜　なの"
 msgstr "Utvecklare: Nano Yozakura"

@@ -10,6 +10,12 @@ class neohp_htmlcompress {
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
 
+		if(get_option('neohp_deny_imagebot', '0') === '1') {
+			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
+				$this->neohp_func->err403();
+			}
+		}
+
 		if(get_option('neohp_htmlcompress', '1') == 1) {
 			add_action('template_redirect', array($this, 'start_buffer'));
 			add_action('shutdown', array($this, 'end_buffer'));

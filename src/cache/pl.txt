@@ -150,3 +150,8 @@ HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容�
 アドオンがインストールされていると操作できてしまいます	Może być obsługiwany po zainstalowaniu dodatków.
 あまりこのイベントに遭遇することはありません	Nie spotykamy się z tym wydarzeniem zbyt często.
 利用規約などのページに転送すると良いでしょう	Możesz przekierować ich na strony takie jak Warunki użytkowania.
+画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Unikanie botów obrazów chroni treści, które nie mogą być chronione przez bezpośrednie linki z wyszukiwania obrazów.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Oczywiście konieczne będzie ulepszenie warunków użytkowania i zasad witryny. Ta wtyczka nie jest aplikacją do generowania warunków użytkowania, ale może dać ci wskazówkę.
+画像botをアクセス禁止にする	Zbanowanie bota obrazu.
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ta wtyczka ma na celu ochronę kodu HTML, obrazów itp. wyjściowych z systemu Wordpress i ochronę przed nieautoryzowanym użyciem jego zawartości.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Treści nie mogą być doskonale chronione. Jednak ostrzegając ich w każdy możliwy sposób i będąc przygotowanym na wypadek, gdyby coś się wydarzyło, powinieneś być w stanie rozwiązać to w sposób zgodny z przepisami krajowymi.

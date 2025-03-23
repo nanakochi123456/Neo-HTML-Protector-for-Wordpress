@@ -413,19 +413,36 @@ class neohp_admin {
 			);
 
 			// HTML保護時のheadの出力
-			register_setting('neohp_advanced_group', 'html_protect_head');
+			register_setting('neohp_advanced_group', 'neohp_html_protect_head');
 			add_settings_field(
-				'html_protect_head',
+				'neohp_html_protect_head',
 				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
 				function() {
-					$value = esc_html(get_option('html_protect_head', '2'));
-					echo $this->getselect("html_protect_head", $value
+					$value = esc_html(get_option('neohp_html_protect_head', '2'));
+					echo $this->getselect("neohp_html_protect_head", $value
 						, '0=' . __('出力しない', 'neo-html-protector')
 						, '1=' . __('TITLEタグのみ', 'neo-html-protector')
 						, '2=' . __('WordpressのHEADタグより取得', 'neo-html-protector')
 					);
 					echo '<br>' . esc_html( __('企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// 画像botを避ける
+			register_setting('neohp_advanced_group', 'neohp_deny_imagebot');
+			add_settings_field(
+				'neohp_deny_imagebot',
+				__('画像botをアクセス禁止にする', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_deny_imagebot', '0'));
+					echo $this->getselect("neohp_deny_imagebot", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					);
+					echo '<br>' . esc_html( __('画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
@@ -614,7 +631,9 @@ class neohp_admin {
 	private function about_page() {
 		?>
 <h2><?php echo __('Neo HTML Protectorについて', 'neo-html-protector') ?></h2>
-<p><?php echo __('このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています', 'neo-html-protector') ?></p>
+<p><?php echo __('このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。', 'neo-html-protector') ?></p>
+<p><?php echo __('コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。', 'neo-html-protector') ?></p>
+<p><?php echo __('もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。', 'neo-html-protector') ?></p>
 <p><?php echo __('開発者: 夜桜　なの', 'neo-html-protector') ?></p>
 <p><?php echo __('バージョン', 'neo-html-protector') ?>: <?php echo NEOHP_VERSION ?></p>
 <p><?php echo __('サポートページ', 'neo-html-protector') ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>

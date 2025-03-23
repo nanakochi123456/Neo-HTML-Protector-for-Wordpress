@@ -150,3 +150,8 @@ view-source:から始まるURLを入力すれば操作できてしまいます	D
 利用規約などのページに転送すると良いでしょう	Det kan være lurt å videresende dem til sider som for eksempel vilkårene for bruk.
 企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For bedriftsbruk, for eksempel sider som bare er for medlemmer eller interne sider, er "ingen utdata" eller "kun TITLE-tagg" helt greit.
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder vil ikke vises i sosiale nettverk med mindre de er hentet fra Wordpress HEAD-taggen
+画像botをアクセス禁止にする	Forbud mot bilderoboten.
+画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Ved å unngå bilderoboter beskyttes innhold som ikke kan beskyttes av direkte lenker fra bildesøk
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Denne utvidelsen har som mål å beskytte HTML, bilder osv. som sendes ut fra Wordpress, og beskytte den mot uautorisert bruk av innholdet.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Innhold kan ikke beskyttes perfekt. Men ved å advare dem på alle mulige måter og være forberedt hvis noe skulle skje, bør du kunne løse det på en nasjonalt forskriftsmessig måte.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Du må selvfølgelig forbedre vilkårene for bruk og retningslinjene for nettstedet. Denne plugin-modulen er ikke en app som genererer brukervilkår, men den kan gi deg et hint.

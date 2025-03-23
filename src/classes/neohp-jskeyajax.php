@@ -22,7 +22,7 @@ class neohp_jskeyajax {
 		}
 
 		if (!isset($_POST['sec']) || $_POST['sec'] !== 'papu') {
-			die('403 Forbidden');
+			$this->neohp_func->err403();
 		}
 
 		// ユーザーのIPアドレスを取得

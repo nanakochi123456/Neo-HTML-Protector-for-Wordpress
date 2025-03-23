@@ -13,6 +13,12 @@ class neohp_htmlprotect {
 		$this->neohp_database=new neohp_database();
 		$this->neohp_func=new neohp_func();
 
+		if(get_option('neohp_deny_imagebot', '0') === '1') {
+			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
+				$this->neohp_func->err403();
+			}
+		}
+
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') == 1) {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
@@ -164,7 +170,8 @@ class neohp_htmlprotect {
 
 		if(get_option('html_protect_head', '0') !== '0') {
 			// Wordpressから <head>の部分のみ取得
-			$head = $this->replace_image_urls($this->neohp_head_content);
+//			$head = $this->replace_image_urls($this->neohp_head_content);
+			$head = '';
 
 			if(get_option('html_protect_head', '0') === '2') {
 				$html .= $this->sanitize_output_head($head);

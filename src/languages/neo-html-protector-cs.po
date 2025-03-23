@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:20+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -180,6 +180,12 @@ msgstr "Pro firemní použití, jako jsou stránky určené pouze pro členy neb
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "Obrázky OGP se nebudou zobrazovat ve sdíleních na sociálních sítích, pokud nebudou převzaty z tagu HEAD ve Wordpressu."
 
+msgid "画像botをアクセス禁止にする"
+msgstr "Zákaz obrazového bota."
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "Vyhýbání se obrázkovým robotům chrání obsah, který by nemohl být chráněn přímými odkazy z vyhledávání obrázků."
+
 msgid "alertメッセージを表示する言語"
 msgstr "Jazyk, ve kterém se zobrazuje výstražná zpráva."
 
@@ -237,8 +243,14 @@ msgstr "Chcete-li vymazat všechna data, odinstalujte modul plug-in a znovu jej 
 msgid "Neo HTML Protectorについて"
 msgstr "O produktu Neo HTML Protector"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "Cílem tohoto pluginu je chránit výstup HTML, obrázků atd. z vašeho Wordpressu a chránit jej před neoprávněným použitím jeho obsahu!"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Tento zásuvný modul chrání HTML, obrázky atd. vycházející z vašeho Wordpressu a chrání jej před neoprávněným použitím jeho obsahu."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Obsah nelze dokonale chránit. Pokud je však budete všemožně varovat a budete připraveni na to, že se něco stane, měli byste být schopni to vyřešit národně předepsaným způsobem."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Samozřejmě budete muset vylepšit podmínky používání a zásady webu. Tento doplněk není aplikací pro generování podmínek používání, ale může vám napovědět."
 
 msgid "開発者: 夜桜　なの"
 msgstr "Vývojář: Nano Yozakura"

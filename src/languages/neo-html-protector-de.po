@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:20+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -180,6 +180,12 @@ msgstr "Für die Verwendung in Unternehmen, z. B. auf Seiten, die nur für Mitgl
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "OGP-Bilder werden nicht in sozialen Netzwerken angezeigt, es sei denn, sie stammen aus dem Wordpress HEAD-Tag"
 
+msgid "画像botをアクセス禁止にする"
+msgstr "Verbot des Bild-Bots."
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "Die Vermeidung von Image Bots schützt Inhalte, die nicht durch direkte Links aus der Bildersuche geschützt werden können"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Sprache, in der die Warnmeldung angezeigt wird."
 
@@ -237,8 +243,14 @@ msgstr "Um alle Daten zu löschen, deinstallieren Sie das Plug-in und installier
 msgid "Neo HTML Protectorについて"
 msgstr "Über Neo HTML Protector"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "Dieses Plugin schützt den HTML-Code, die Bilder usw., die von Ihrem Wordpress-System ausgegeben werden, und schützt es vor unautorisierter Nutzung seiner Inhalte!"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Dieses Plugin schützt den HTML-Code, die Bilder usw., die von Ihrem Wordpress-System ausgegeben werden, und verhindert die unbefugte Nutzung der Inhalte."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Inhalte können nicht perfekt geschützt werden. Wenn Sie sie jedoch auf jede erdenkliche Art und Weise warnen und darauf vorbereitet sind, dass etwas passiert, sollten Sie in der Lage sein, das Problem auf national vorgeschriebene Weise zu lösen."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Natürlich müssen Sie Ihre Nutzungsbedingungen und Website-Richtlinien verbessern. Dieses Plugin ist keine App zur Erstellung von Nutzungsbedingungen, aber es kann Ihnen einen Hinweis geben."
 
 msgid "開発者: 夜桜　なの"
 msgstr "Entwickler: Nano Yozakura"

@@ -159,3 +159,8 @@ view-source:から始まるURLを入力すれば操作できてしまいます	S
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Rende la modalità di debug un po' meno facile da usare, alcuni browser bloccano questo comportamento
 企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Per l'uso aziendale, ad esempio per le pagine interne o riservate ai soci, va bene "nessun output" o "solo tag TITLE".
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Le immagini OGP non saranno visualizzate nelle condivisioni sui social network a meno che non siano prese dal tag HEAD di Wordpress.
+画像botをアクセス禁止にする	Vietare il bot delle immagini.
+画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Evitare i bot di immagini protegge i contenuti che non potrebbero essere protetti da link diretti dalla ricerca di immagini.
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Questo plugin ha lo scopo di proteggere l'HTML, le immagini, ecc. in uscita dal vostro Wordpress e di proteggerlo dall'uso non autorizzato del suo contenuto.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	I contenuti non possono essere perfettamente protetti. Tuttavia, avvertendoli in tutti i modi possibili ed essendo preparati se dovesse accadere qualcosa, dovreste essere in grado di risolvere il problema in modo prescritto a livello nazionale.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Naturalmente, è necessario migliorare le condizioni d'uso e le politiche del sito. Questo plugin non è un'applicazione per la generazione di termini d'uso, ma può darvi un suggerimento.

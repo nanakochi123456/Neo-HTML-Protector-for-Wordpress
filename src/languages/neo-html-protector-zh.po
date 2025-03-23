@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:20+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -180,6 +180,12 @@ msgstr "对于企业使用的页面，如会员专享页面或内部页面，无
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "除非 OGP 图像来自 Wordpress HEAD 标签，否则不会显示在社交网络共享中。"
 
+msgid "画像botをアクセス禁止にする"
+msgstr "禁止图像机器人。"
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "避免图像机器人保护无法通过图像搜索直接链接保护的内容"
+
 msgid "alertメッセージを表示する言語"
 msgstr "显示警报信息的语言。"
 
@@ -237,8 +243,14 @@ msgstr "要清除所有数据，请卸载插件，然后重新安装"
 msgid "Neo HTML Protectorについて"
 msgstr "关于 Neo HTML Protector"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "该插件旨在保护 Wordpress 输出的 HTML、图片等，防止未经授权使用其内容！"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "该插件旨在保护 Wordpress 输出的 HTML、图片等，防止未经授权使用其内容。"
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "内容不可能得到完美的保护。但是，通过以各种可能的方式向他们发出警告，并在发生意外时做好准备，您应该能够以国家规定的方式解决问题。"
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "当然，您还需要完善您的使用条款和网站政策。这个插件不是一个使用条款生成应用程序，但它可以给你一个提示。"
 
 msgid "開発者: 夜桜　なの"
 msgstr "开发者：Nano Yozakura"

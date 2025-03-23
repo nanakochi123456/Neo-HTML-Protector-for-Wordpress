@@ -149,3 +149,8 @@ view-source:から始まるURLを入力すれば操作できてしまいます	T
 あまりこのイベントに遭遇することはありません	Ar šādu gadījumu mēs nesastopamies bieži.
 企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Uzņēmumu vajadzībām, piemēram, tikai biedriem vai iekšējām lapām, var izmantot "bez izvades" vai "tikai TITLE tag".
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga.
+画像botをアクセス禁止にする	Attēlu bota aizliegšana.
+画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas aizsargā saturu, ko nevarētu aizsargāt ar tiešajām saitēm no attēlu meklēšanas.
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no jūsu Wordpress, un pasargāt to no neatļautas satura izmantošanas.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Saturu nevar pilnībā aizsargāt. Tomēr, visos iespējamos veidos brīdinot un esot gataviem, ja kaut kas notiek, jums vajadzētu spēt to atrisināt valsts noteiktajā veidā.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Protams, jums būs jāuzlabo lietošanas noteikumi un vietnes politika. Šis spraudnis nav lietošanas noteikumu ģenerēšanas programma, taču tas var sniegt jums mājienu.

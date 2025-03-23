@@ -66,4 +66,8 @@ class neohp_func {
 		// 最初の言語を取得（優先度が高いもの）
 		return $langs[0];
 	}
+
+	function err403() {
+		wp_die('403 Forbidden', 'Forbidden', array('response' => 403));
+	}
 }

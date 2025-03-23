@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.25\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 16:20+0900\n"
-"PO-Revision-Date: 2025-03-23 16:20+0900\n"
+"POT-Creation-Date: 2025-03-23 17:28+0900\n"
+"PO-Revision-Date: 2025-03-23 17:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -180,6 +180,12 @@ msgstr "Įmonių reikmėms, pvz., tik nariams skirtiems arba vidiniams puslapiam
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr "OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš Wordpress HEAD žymos."
 
+msgid "画像botをアクセス禁止にする"
+msgstr "Vaizdo boto uždraudimas."
+
+msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
+msgstr "Vengiant paveikslėlių robotų, apsaugomas turinys, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš paveikslėlių paieškos"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Kalba, kuria rodomas įspėjimo pranešimas."
 
@@ -237,8 +243,14 @@ msgstr "Norėdami išvalyti visus duomenis, pašalinkite įskiepį ir iš naujo 
 msgid "Neo HTML Protectorについて"
 msgstr "Apie Neo HTML Protector"
 
-msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています"
-msgstr "Šiuo įskiepiu siekiama apsaugoti Wordpress išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo!"
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Šiuo įskiepiu siekiama apsaugoti Wordpress išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Turinys negali būti puikiai apsaugotas. Vis dėlto, visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu mastu."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą."
 
 msgid "開発者: 夜桜　なの"
 msgstr "Kūrėjas: Nano Yozakura"

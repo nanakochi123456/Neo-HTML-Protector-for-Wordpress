@@ -157,3 +157,8 @@ view-source:から始まるURLを入力すれば操作できてしまいます	Y
 企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For corporate use, such as members-only pages or internal pages, "No output" or "TITLE tag only" is fine.
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag
 ログインしていないブラウザーでソース表示を行って確認して下さい	Please confirm by viewing the source in a non-logged-in browser
+画像botをアクセス禁止にする	Ban the image bot
+画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	By avoiding image bots, you can protect content that could not be protected by direct links from image search.
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	This plugin is intended to protect the HTML, images, etc. output from your Wordpress and to protect your content from unauthorized use.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	We cannot protect the content perfectly, but we can warn people in every possible way and be prepared if something happens. However, by warning them in every way possible and being prepared for any eventuality, they should be able to resolve it in a nationally mandated manner.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Of course, you will need to enhance your Terms of Use and Site Policies. This plugin is not a terms of use generation application, but it can give you a hint.
