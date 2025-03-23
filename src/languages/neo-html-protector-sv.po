@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 10:04+0900\n"
-"PO-Revision-Date: 2025-03-23 10:05+0900\n"
+"POT-Creation-Date: 2025-03-23 11:05+0900\n"
+"PO-Revision-Date: 2025-03-23 11:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -161,6 +161,18 @@ msgstr "Det går inte att ändra språk om meddelandet är anpassat"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Språk på vilket view-source-meddelanden visas."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av HTML."
+
+msgid "フォント"
+msgstr "Typsnitt"
+
+msgid "なし"
+msgstr "Utan"
+
+msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
+msgstr "Endast ordet VARNING visas. Kontrollera genom att visa källan i en webbläsare som inte är inloggad."
 
 msgid "基本設定"
 msgstr "Grundinställning"

@@ -132,3 +132,7 @@ INPUT TYPE=HIDDEN タグを使用	JENIS MASUKAN = TERSEMBUNYIKAN Gunakan tag.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jika diatur pada layar ini, pengaturan bahasa di tab pengaturan lanjutan akan diabaikan
 META NAME=ALERT タグを使用	Gunakan tag META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Keluaran dari tag HEAD selama pengaburan dan perlindungan HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML.
+フォント	Font
+なし	Tanpa
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Hanya kata PERINGATAN yang ditampilkan. Silakan periksa dengan melihat sumbernya di browser yang tidak masuk.

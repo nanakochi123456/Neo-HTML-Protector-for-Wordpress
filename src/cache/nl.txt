@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Gebruik tag.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Als dit scherm is ingesteld, worden de taalinstellingen op het tabblad geavanceerde instellingen genegeerd.
 META NAME=ALERT タグを使用	Gebruik de tag META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Uitvoer van HEAD-tags tijdens HTML-verduistering en -beveiliging
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -beveiliging.
+フォント	Lettertype
+なし	Zonder
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Alleen het woord WAARSCHUWING wordt weergegeven. Controleer dit door de bron te bekijken in een browser die niet is ingelogd.

@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Naudokite žymą.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jei nustatyta šiame ekrane, kalbos nustatymai išplėstinių nustatymų skirtuke ignoruojami.
 META NAME=ALERT タグを使用	Naudokite žymą META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Žymos HEAD išvedimas, kai atliekamas HTML apipavidalinimas ir apsauga
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga.
+フォント	šriftas
+なし	Be
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Rodomas tik žodis WARNING. Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje.

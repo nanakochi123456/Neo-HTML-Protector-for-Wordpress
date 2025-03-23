@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 10:04+0900\n"
-"PO-Revision-Date: 2025-03-23 10:04+0900\n"
+"POT-Creation-Date: 2025-03-23 11:05+0900\n"
+"PO-Revision-Date: 2025-03-23 11:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -161,6 +161,18 @@ msgstr "如果自定义了信息，则无法更改语言"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "显示视图源信息的语言。"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"
+
+msgid "フォント"
+msgstr "字体"
+
+msgid "なし"
+msgstr "不带"
+
+msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
+msgstr "只显示警告字样。请在未登录的浏览器中查看源文件进行检查。"
 
 msgid "基本設定"
 msgstr "基本设置"

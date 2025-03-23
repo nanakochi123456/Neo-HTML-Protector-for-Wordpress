@@ -138,3 +138,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Tag verwenden.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Wenn diese Option auf diesem Bildschirm eingestellt ist, werden die Spracheinstellungen auf der Registerkarte "Erweiterte Einstellungen" ignoriert.
 META NAME=ALERT タグを使用	Verwenden Sie den META NAME=ALERT-Tag.
 HTML難読化・保護時のHEADタグの出力	Ausgabe von HEAD-Tags bei HTML-Verschleierung und -Schutz
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ausgabe von ASCII-Kunst im HTML-Quellcode während der HTML-Verschleierung und des HTML-Schutzes.
+フォント	Schriftart
+なし	Ohne
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Es wird nur das Wort WARNING angezeigt. Bitte überprüfen Sie die Quelle in einem nicht eingeloggten Browser.

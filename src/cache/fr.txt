@@ -137,3 +137,7 @@ INPUT TYPE=\	TYPE D'ENTRÉE=\\N-.
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utiliser la balise.
 META NAME=ALERT タグを使用	Utilisez la balise META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Sortie des balises HEAD lors de l'obscurcissement et de la protection du code HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML.
+フォント	Police
+なし	Aucun.
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Seul le mot AVERTISSEMENT est affiché. Veuillez vérifier en consultant la source dans un navigateur non connecté.

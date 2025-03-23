@@ -425,6 +425,29 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
+			// HTMLソース表示時の警告の方法
+			register_setting('neohp_advanced_group', 'view_source_alert_asciiart');
+			add_settings_field(
+				'view_source_alert_asciiart',
+				__('HTML難読化・保護時のHTMLソースコードのアスキーアートの出力', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$warning_ascii_art_array=[];
+					foreach ($warning_ascii_art	 as $k => $v) {
+						array_push($warning_ascii_art_array, "$k=" . __('フォント', 'neo-html-protector') . ": $k");
+					}
+					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
+					echo $this->getselect("view_source_alert_asciiart", $value
+						, '0=' . __('なし', 'neo-html-protector')
+						, $warning_ascii_art_array
+					)
+					. '<br>' . __('WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。', 'neo-html-protector');
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
 			// セクションの追加
 			add_settings_section(
 				'neohp_basic_section',

@@ -143,3 +143,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Brug tag.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Hvis den er indstillet på denne skærm, ignoreres sprogindstillingerne i fanen med avancerede indstillinger.
 META NAME=ALERT タグを使用	Brug META NAME=ALERT-tagget.
 HTML難読化・保護時のHEADタグの出力	Output af HEAD-tags under HTML-forvirring og -beskyttelse
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Output af ASCII-kunst i HTML-kildekode under HTML-forvirring og -beskyttelse.
+フォント	Skrifttype
+なし	Uden
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Kun ordet ADVARSEL vises. Tjek venligst ved at se kilden i en browser, der ikke er logget ind.

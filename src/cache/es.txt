@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utilizar etiqueta.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Si se configura en esta pantalla, se ignoran los ajustes de idioma de la pestaña de ajustes avanzados.
 META NAME=ALERT タグを使用	Utilice la etiqueta META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Salida de etiquetas HEAD durante la ofuscación y protección de HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Salida de arte ASCII en código fuente HTML durante la ofuscación y protección de HTML.
+フォント	Fuente
+なし	Sin
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Sólo se muestra la palabra ADVERTENCIA. Compruébelo viendo la fuente en un navegador sin conexión.

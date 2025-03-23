@@ -135,6 +135,11 @@ class neohp_htmlprotect {
 			$protectmsg = str_replace('$UA', $ua, $protectmsg);
 			$protectmsg = str_replace('\\n', "\n", $protectmsg);
 
+			// アスキーアートの追加
+			if(get_option('view_source_alert_asciiart', '0') !== '0') {
+				$protectmsg = $warning_ascii_art[get_option('view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
+			}
+
 			if(get_option('view_source_alert_method', '0') === '0') {
 				$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 			} elseif(get_option('view_source_alert_method', '0') === '1') {

@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Použiť tag.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ak je nastavené na tejto obrazovke, jazykové nastavenia na karte rozšírených nastavení sa ignorujú.
 META NAME=ALERT タグを使用	Použite značku META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Výstup značiek HEAD počas obfuskacie a ochrany HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML.
+フォント	Písmo
+なし	Bez
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Zobrazí sa len slovo VAROVANIE. Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači.

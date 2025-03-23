@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Címke használata.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ha ezen a képernyőn van beállítva, a Speciális beállítások lapon található nyelvi beállítások figyelmen kívül maradnak.
 META NAME=ALERT タグを使用	Használja a META NAME=ALERT címkét.
 HTML難読化・保護時のHEADタグの出力	A HEAD címkék kimenete a HTML elfedése és védelme során
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Az ASCII-művészet kimenete a HTML-forráskódban a HTML elfedése és védelme során.
+フォント	Betűtípus
+なし	Nélkül
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Csak a FIGYELEM szó jelenik meg. Kérjük, ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben.

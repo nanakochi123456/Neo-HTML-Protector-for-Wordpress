@@ -135,3 +135,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utilizați eticheta.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Dacă este setat pe acest ecran, setările de limbă din fila Setări avansate sunt ignorate
 META NAME=ALERT タグを使用	Utilizați eticheta META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul obscurcirii și protecției HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML.
+フォント	Font
+なし	Fără
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Doar cuvântul AVERTISMENT este afișat. Vă rugăm să verificați vizualizând sursa într-un browser care nu este logat.

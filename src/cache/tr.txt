@@ -129,3 +129,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Etiketi kullanın.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Bu ekranda ayarlanırsa, gelişmiş ayarlar sekmesindeki dil ayarları yok sayılır
 META NAME=ALERT タグを使用	META NAME=ALERT etiketini kullanın.
 HTML難読化・保護時のHEADタグの出力	HTML gizleme ve koruma sırasında HEAD etiketlerinin çıktısı
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı.
+フォント	Yazı tipi
+なし	Olmadan
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Yalnızca UYARI sözcüğü gösterilir. Lütfen kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin.

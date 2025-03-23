@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 10:04+0900\n"
-"PO-Revision-Date: 2025-03-23 10:05+0900\n"
+"POT-Creation-Date: 2025-03-23 11:05+0900\n"
+"PO-Revision-Date: 2025-03-23 11:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -161,6 +161,18 @@ msgstr "Η γλώσσα δεν μπορεί να αλλάξει εάν το μή
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Γλώσσα στην οποία εμφανίζονται τα μηνύματα της πηγής προβολής."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Έξοδος της τέχνης ASCII στον πηγαίο κώδικα HTML κατά τη διάρκεια της θόλωσης και της προστασίας της HTML."
+
+msgid "フォント"
+msgstr "γραμματοσειρά"
+
+msgid "なし"
+msgstr "χωρίς"
+
+msgid "WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。"
+msgstr "Εμφανίζεται μόνο η λέξη ΠΡΟΕΙΔΟΠΟΙΗΣΗ. Παρακαλούμε ελέγξτε προβάλλοντας την πηγή σε ένα πρόγραμμα περιήγησης χωρίς σύνδεση."
 
 msgid "基本設定"
 msgstr "βασική ρύθμιση"

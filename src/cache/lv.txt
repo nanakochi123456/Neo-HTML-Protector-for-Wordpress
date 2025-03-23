@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Izmantot tagu.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ja šajā ekrānā ir iestatīts, valodas iestatījumi cilnē Paplašinātie iestatījumi netiek ņemti vērā.
 META NAME=ALERT タグを使用	Izmantojiet tagu META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	HEAD tagu izvadīšana HTML aizsegšanas un aizsardzības laikā
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā.
+フォント	Fontu
+なし	Bez
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Tiek parādīts tikai vārds WARNING. Lūdzu, pārbaudiet to, skatot avotu pārlūkā, kurā neesat pieteicies.

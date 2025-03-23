@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Użyj znacznika.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	W przypadku ustawienia na tym ekranie, ustawienia języka w zakładce ustawień zaawansowanych są ignorowane
 META NAME=ALERT タグを使用	Użyj znacznika META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Wyjście znaczników HEAD podczas zaciemniania i ochrony HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Wyświetlanie grafiki ASCII w kodzie źródłowym HTML podczas zaciemniania i ochrony HTML.
+フォント	Czcionka
+なし	Bez
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Wyświetlane jest tylko słowo OSTRZEŻENIE. Sprawdź źródło w niezalogowanej przeglądarce.

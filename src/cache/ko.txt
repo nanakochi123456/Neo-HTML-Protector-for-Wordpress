@@ -138,3 +138,7 @@ INPUT TYPE=\	INPUT TYPE=\\
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN 태그 사용
 META NAME=ALERT タグを使用	META NAME=ALERT 태그 사용
 HTML難読化・保護時のHEADタグの出力	HTML 난독화 및 보호 시 HEAD 태그 출력
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML 난독화 및 보호 시 HTML 소스 코드의 ASCII 아트 출력
+フォント	폰트
+なし	없음
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	WARNING 글자만 표시되어 있습니다. 로그인하지 않은 브라우저에서 소스 보기를 통해 확인하시기 바랍니다.

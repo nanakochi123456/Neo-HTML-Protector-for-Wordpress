@@ -140,3 +140,7 @@ INPUT TYPE=\	输入类型=\\.
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN 使用标记。
 META NAME=ALERT タグを使用	使用 META NAME=ALERT 标签。
 HTML難読化・保護時のHEADタグの出力	在 HTML 混淆和保护过程中输出 HEAD 标记
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。
+フォント	字体
+なし	不带
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	只显示警告字样。请在未登录的浏览器中查看源文件进行检查。

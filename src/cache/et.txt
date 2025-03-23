@@ -131,3 +131,7 @@ INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Kasutage sildi.
 この画面で設定すると、高度な設定タブにある言語設定が無視されます	Kui see on sellel ekraanil määratud, ignoreeritakse edasiste seadete vahekaardil olevaid keeleseadeid.
 META NAME=ALERT タグを使用	Kasutage META NAME=ALERT sildi.
 HTML難読化・保護時のHEADタグの出力	HEAD-siltide väljastamine HTML-i varjutamise ja kaitse ajal
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII kunsti väljastamine HTML lähtekoodis HTML varjutamise ja kaitse ajal.
+フォント	Font
+なし	Ilma
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Kuvatakse ainult sõna HOIATUS. Palun kontrollige, vaadates allikat mitte sisselogitud brauseris.

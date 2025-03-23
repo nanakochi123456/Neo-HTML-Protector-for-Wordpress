@@ -141,3 +141,7 @@ INPUT TYPE=\	TIPO DI INPUT=\\.
 INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utilizzare il tag.
 META NAME=ALERT タグを使用	Utilizzare il tag META NAME=ALERT.
 HTML難読化・保護時のHEADタグの出力	Output dei tag HEAD durante l'offuscamento e la protezione dell'HTML
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Output di arte ASCII nel codice sorgente HTML durante l'offuscamento e la protezione dell'HTML.
+フォント	Carattere
+なし	Senza
+WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Viene visualizzata solo la parola ATTENZIONE. Si prega di verificare visualizzando la fonte in un browser non collegato.
