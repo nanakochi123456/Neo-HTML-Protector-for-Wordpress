@@ -7,6 +7,7 @@ $neohp_htmlprotect=new neohp_htmlprotect();
 class neohp_htmlprotect {
 	protected $neohp_database;
 	protected $neohp_func;
+	protected $neohp_head_content;
 
 	public function __construct() {
 		$this->neohp_database=new neohp_database();
@@ -17,9 +18,12 @@ class neohp_htmlprotect {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
 			 $this->imagetransfer();
 
-			add_action('template_redirect', array($this, 'neohp_check_and_redirect'), 2);
+//			add_action('template_redirect', array($this, 'neohp_check_and_redirect'), 2;
+			add_action('wp_head', array($this, 'neohp_check_and_redirect'), PHP_INT_MAX - 20000);
+//			add_action('template_redirect', array($this, 'start_buffer'), 2);
 		}
 	}
+
 
 	// OGP用画像転送
 	public function imagetransfer() {
@@ -142,7 +146,13 @@ class neohp_htmlprotect {
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
-		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+//		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+
+		add_action('wp_head', function () { ob_start(); }, 0);
+		add_action('wp_head', function () {
+			$this->neohp_head_content = ob_get_clean(); // head内容を取得
+		}, PHP_INT_MAX - 10000);
+
 		$html .= '<script>';
 		$html .= 'var neUrl="' . $neo_encoded_url . '";';
 		$html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
@@ -154,9 +164,7 @@ class neohp_htmlprotect {
 
 		if(get_option('html_protect_head', '0') !== '0') {
 			// Wordpressから <head>の部分のみ取得
-			ob_start();
-			do_action('wp_head');
-			$head = $this->replace_image_urls(ob_get_clean());
+			$head = $this->replace_image_urls($this->neohp_head_content);
 
 			if(get_option('html_protect_head', '0') === '2') {
 				$html .= $this->sanitize_output_head($head);

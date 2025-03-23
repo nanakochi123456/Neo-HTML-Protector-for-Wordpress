@@ -204,7 +204,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$warning_ascii_art_array=[];
 					foreach ($warning_ascii_art	 as $k => $v) {
-						array_push($warning_ascii_art_array, "$k=$k");
+						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
 					}
 					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
 					echo $this->getselect("view_source_alert_asciiart", $value
