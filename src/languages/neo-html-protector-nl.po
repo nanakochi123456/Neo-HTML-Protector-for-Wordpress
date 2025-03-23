@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:44+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -107,6 +107,9 @@ msgstr "Afdrukken"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Afdrukken blokkeren, maar werkt niet goed in sommige browsers"
+
+msgid "ページ保存"
+msgstr "Pagina opslaan"
 
 msgid "右クリック"
 msgstr "Klik met de rechtermuisknop op"
@@ -272,6 +275,9 @@ msgstr "Rechts klikken is verboden."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Afdrukken en opslaan als PDF is verboden"
+
+msgid "ページの保存は禁止されています"
+msgstr "Pagina's opslaan is verboden."
 
 msgid "コピー、カットは禁止されています"
 msgstr "Kopiëren of knippen is verboden."

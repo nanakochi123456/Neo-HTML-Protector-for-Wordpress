@@ -34,6 +34,9 @@ class neohp_jskeyblock {
 	    if(get_option('neohp_alert_s', '2') === '1')   { $html.="s";}
 	    if(get_option('neohp_alert_s', '2') === '2')   { $html.="S";}
 
+	    if(get_option('neohp_alert_t', '1') === '1')   { $html.="t";}
+	    if(get_option('neohp_alert_t', '1') === '2')   { $html.="T";}
+
 	    if(get_option('neohp_alert_p', '1') === '1')   { $html.="p";}
 	    if(get_option('neohp_alert_p', '1') === '2')   { $html.="P";}
 

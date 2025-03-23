@@ -79,6 +79,11 @@ class neohp_jskeyajax {
 			$value = get_option('neohp_printout_message', $neohp_printout_default);
 		}
 
+		// Ctrl+S
+		if (strpos($key, 'S') !== false	) {
+			$value = get_option('neohp_save_message', $neohp_save_default);
+		}
+
 		// Right Click
 		if (strpos($key, 'R') !== false	) {
 			$value = get_option('neohp_rightclick_message', $neohp_rightclick_default);

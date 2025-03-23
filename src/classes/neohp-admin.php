@@ -89,6 +89,20 @@ class neohp_admin {
 				'neohp_message_section'
 			);
 
+			// 保存のAlert メッセージ
+			register_setting('neohp_message_group', 'neohp_save_message');
+			add_settings_field(
+				'neohp_save_message',
+				__('印刷、PDF保存の警告メッセージ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_save_message', $neohp_save_default );
+					echo '<input type="text" name="neohp_save_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
 			// コピー、カットのメッセージ
 			register_setting('neohp_message_group', 'neohp_copycut_message');
 			add_settings_field(
@@ -263,6 +277,23 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// Ctrl+S
+			register_setting('neohp_basic_group', 'neohp_alert_s');
+			add_settings_field(
+				'neohp_alert_s',
+				'Ctrl+S (' . __('ページ保存', 'neo-html-protector') . ')',
+				function() {
+					$value = esc_html(get_option('neohp_alert_s', '2'));
+					echo $this->getselect("neohp_alert_s", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					);
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 			// Right Click
 			register_setting('neohp_basic_group', 'neohp_alert_r');
 			add_settings_field(
@@ -298,13 +329,13 @@ class neohp_admin {
 			);
 
 			// selection
-			register_setting('neohp_basic_group', 'neohp_alert_s');
+			register_setting('neohp_basic_group', 'neohp_alert_t');
 			add_settings_field(
-				'neohp_alert_s',
+				'neohp_alert_t',
 				__('テキスト選択', 'neo-html-protector'),
 				function() {
-					$value = esc_html(get_option('neohp_alert_s', '1'));
-					echo $this->getselect("neohp_alert_s", $value
+					$value = esc_html(get_option('neohp_alert_t', '1'));
+					echo $this->getselect("neohp_alert_t", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 					);

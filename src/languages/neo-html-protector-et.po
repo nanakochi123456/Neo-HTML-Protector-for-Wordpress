@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:43+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -107,6 +107,9 @@ msgstr "Trükkimine"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Prindi blokeerimine, kuid ei tööta hästi mõnes brauseris"
+
+msgid "ページ保存"
+msgstr "Lehekülje salvestamine"
 
 msgid "右クリック"
 msgstr "Paremklikk"
@@ -272,6 +275,9 @@ msgstr "Parempoolne klõpsamine on keelatud."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Printimine ja PDF-formaadis salvestamine on keelatud"
+
+msgid "ページの保存は禁止されています"
+msgstr "Lehekülgede salvestamine on keelatud."
 
 msgid "コピー、カットは禁止されています"
 msgstr "Kopeerimine või lõikamine on keelatud."

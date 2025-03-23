@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:44+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -107,6 +107,9 @@ msgstr "Tlač"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Blokovanie tlače, ale v niektorých prehliadačoch nefunguje dobre"
+
+msgid "ページ保存"
+msgstr "Uložiť stránku"
 
 msgid "右クリック"
 msgstr "Kliknutie pravým tlačidlom myši na"
@@ -272,6 +275,9 @@ msgstr "Kliknutie pravým tlačidlom myši je zakázané."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Tlač a ukladanie do PDF je zakázané"
+
+msgid "ページの保存は禁止されています"
+msgstr "Ukladanie stránok je zakázané."
 
 msgid "コピー、カットは禁止されています"
 msgstr "Kopírovanie alebo strihanie je zakázané."

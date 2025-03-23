@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:44+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -107,6 +107,9 @@ msgstr "Nyomtatás"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Nyomtatás blokkolás, de nem működik jól néhány böngészőben"
+
+msgid "ページ保存"
+msgstr "Oldal mentése"
 
 msgid "右クリック"
 msgstr "Jobb gombbal kattintva"
@@ -272,6 +275,9 @@ msgstr "A jobb gombbal való kattintás tilos."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "A nyomtatás és a PDF-be mentés tilos"
+
+msgid "ページの保存は禁止されています"
+msgstr "Az oldalak mentése tilos."
 
 msgid "コピー、カットは禁止されています"
 msgstr "A másolás és a vágás tilos."

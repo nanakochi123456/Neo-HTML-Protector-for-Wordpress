@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:43+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -107,6 +107,9 @@ msgstr "Stampa"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Blocco della stampa ma non funziona bene in alcuni browser"
+
+msgid "ページ保存"
+msgstr "Salvare la pagina"
 
 msgid "右クリック"
 msgstr "Fare clic con il tasto destro del mouse"
@@ -272,6 +275,9 @@ msgstr "È vietato fare clic con il tasto destro del mouse."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "È vietato stampare e salvare in PDF"
+
+msgid "ページの保存は禁止されています"
+msgstr "Il salvataggio delle pagine è vietato."
 
 msgid "コピー、カットは禁止されています"
 msgstr "È vietato copiare o tagliare."

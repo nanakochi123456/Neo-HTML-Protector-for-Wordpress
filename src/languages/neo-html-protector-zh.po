@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:43+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -107,6 +107,9 @@ msgstr "印刷"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "打印阻塞，但在某些浏览器中效果不佳"
+
+msgid "ページ保存"
+msgstr "保存页面"
 
 msgid "右クリック"
 msgstr "右击"
@@ -272,6 +275,9 @@ msgstr "禁止右键单击。"
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "禁止打印和保存为 PDF 格式"
+
+msgid "ページの保存は禁止されています"
+msgstr "禁止保存页面。"
 
 msgid "コピー、カットは禁止されています"
 msgstr "禁止复制或剪切。"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:44+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -107,6 +107,9 @@ msgstr "Pencetakan"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser"
+
+msgid "ページ保存"
+msgstr "Simpan halaman"
 
 msgid "右クリック"
 msgstr "Klik kanan"
@@ -272,6 +275,9 @@ msgstr "Dilarang mengklik kanan."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Dilarang mencetak dan menyimpan ke PDF"
+
+msgid "ページの保存は禁止されています"
+msgstr "Dilarang menyimpan halaman."
 
 msgid "コピー、カットは禁止されています"
 msgstr "Dilarang menyalin atau memotong."

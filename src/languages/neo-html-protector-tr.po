@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 12:43+0900\n"
-"PO-Revision-Date: 2025-03-23 12:44+0900\n"
+"POT-Creation-Date: 2025-03-23 13:17+0900\n"
+"PO-Revision-Date: 2025-03-23 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -107,6 +107,9 @@ msgstr "Baskı"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Baskı engelleme ancak bazı tarayıcılarda iyi çalışmıyor"
+
+msgid "ページ保存"
+msgstr "Sayfa kaydet"
 
 msgid "右クリック"
 msgstr "Sağ tıklayın"
@@ -272,6 +275,9 @@ msgstr "Sağ tıklamak yasaktır."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "PDF olarak yazdırmak ve kaydetmek yasaktır"
+
+msgid "ページの保存は禁止されています"
+msgstr "Sayfaların kaydedilmesi yasaktır."
 
 msgid "コピー、カットは禁止されています"
 msgstr "Kopyalanması veya kesilmesi yasaktır."
