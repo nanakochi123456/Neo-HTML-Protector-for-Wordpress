@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-23 11:32+0900\n"
+"POT-Creation-Date: 2025-03-23 12:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -212,10 +212,6 @@ msgstr ""
 
 #: classes/neohp-admin.php:415
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
-msgstr ""
-
-#: classes/neohp-admin.php:421
-msgid "フォント"
 msgstr ""
 
 #: classes/neohp-admin.php:425
