@@ -90,15 +90,8 @@ class neohp_htmlcompress {
 					$protectmsg = $warning_ascii_art[get_option('view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
 				}
 
-				if(get_option('view_source_alert_method', '0') === '0') {
-					$buffer = "<!--\n\n" . $protectmsg . "\n\n-->" . $buffer;
-				} elseif(get_option('view_source_alert_method', '0') === '1') {
-					$buffer = "<input type='hidden' value='\n\n" . $protectmsg . "\n\n'>" . $buffer;
-				} elseif(get_option('view_source_alert_method', '0') === '2') {
-					$buffer = "<meta name='ALERT' content='\n\n" . $protectmsg . "\n\n'>" . $buffer;
-				}
+				$buffer = "<!--\n\n" . $protectmsg . "\n\n-->" . $buffer;
 			}
-
 		}
 		return $buffer;
 	}

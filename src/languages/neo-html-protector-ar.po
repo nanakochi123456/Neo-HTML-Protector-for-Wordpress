@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 11:05+0900\n"
-"PO-Revision-Date: 2025-03-23 11:06+0900\n"
+"POT-Creation-Date: 2025-03-23 11:32+0900\n"
+"PO-Revision-Date: 2025-03-23 11:32+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -122,18 +122,6 @@ msgstr "تداخل مصحح الأخطاء"
 
 msgid "リダイレクトするURL"
 msgstr "عنوان URL لإعادة التوجيه إلى"
-
-msgid "HTML難読化・保護時のHEADタグの出力"
-msgstr "إخراج علامات HEAD أثناء تشويش HTML وحمايتها"
-
-msgid "HTMLのコメントタグを使用"
-msgstr "استخدم علامات تعليق HTML."
-
-msgid "INPUT TYPE=HIDDEN タグを使用"
-msgstr "نوع الإدخال = مخفي استخدم العلامة."
-
-msgid "META NAME=ALERT タグを使用"
-msgstr "استخدم علامة META NAME=ALERT."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "إخراج علامات HEAD أثناء حماية HTML"

@@ -140,13 +140,7 @@ class neohp_htmlprotect {
 				$protectmsg = $warning_ascii_art[get_option('view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
 			}
 
-			if(get_option('view_source_alert_method', '0') === '0') {
-				$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
-			} elseif(get_option('view_source_alert_method', '0') === '1') {
-				$html .= "<input type='hidden' value='\n\n" . $protectmsg . "\n\n'>";
-			} elseif(get_option('view_source_alert_method', '0') === '2') {
-				$html .= "<meta name='ALERT' content='\n\n" . $protectmsg . "\n\n'>";
-			}
+			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
 		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 		$html .= '<script>';

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 11:05+0900\n"
-"PO-Revision-Date: 2025-03-23 11:05+0900\n"
+"POT-Creation-Date: 2025-03-23 11:32+0900\n"
+"PO-Revision-Date: 2025-03-23 11:32+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -122,18 +122,6 @@ msgstr "Interférence du débogueur"
 
 msgid "リダイレクトするURL"
 msgstr "URL à rediriger vers"
-
-msgid "HTML難読化・保護時のHEADタグの出力"
-msgstr "Sortie des balises HEAD lors de l'obscurcissement et de la protection du code HTML"
-
-msgid "HTMLのコメントタグを使用"
-msgstr "Utiliser les balises de commentaires HTML."
-
-msgid "INPUT TYPE=HIDDEN タグを使用"
-msgstr "INPUT TYPE=HIDDEN Utiliser la balise."
-
-msgid "META NAME=ALERT タグを使用"
-msgstr "Utilisez la balise META NAME=ALERT."
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Sortie des balises HEAD pendant la protection HTML"

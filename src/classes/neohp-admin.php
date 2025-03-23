@@ -343,23 +343,6 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
-			// HTMLソース表示時の警告の方法
-			register_setting('neohp_advanced_group', 'view_source_alert_method');
-			add_settings_field(
-				'view_source_alert_method',
-				__('HTML難読化・保護時のHEADタグの出力', 'neo-html-protector'),
-				function() {
-					$value = esc_html(get_option('view_source_alert_method', '0'));
-					echo $this->getselect("view_source_alert_method", $value
-						, '0=' . __('HTMLのコメントタグを使用', 'neo-html-protector')
-						, '1=' . __('INPUT TYPE=HIDDEN タグを使用', 'neo-html-protector')
-						, '2=' . __('META NAME=ALERT タグを使用', 'neo-html-protector')
-					);
-				},
-				'neohp-advanced-settings',
-				'neohp_advanced_section'
-			);
-
 			// HTML保護時のheadの出力
 			register_setting('neohp_advanced_group', 'html_protect_head');
 			add_settings_field(
