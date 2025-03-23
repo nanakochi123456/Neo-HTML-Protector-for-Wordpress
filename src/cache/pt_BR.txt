@@ -126,3 +126,8 @@ view-sourceメッセージを表示する言語	Idioma em que as mensagens do vi
 簡体中国語	Chinês simplificado
 Wordpressの言語	Idiomas do Wordpress.
 メッセージをカスタム設定されている場合は言語を変更できません	O idioma não pode ser alterado se a mensagem for personalizada
+view-source:の動作をされた時の記録もします	Ele também registra quando a ação view-source: é executada.
+HTMLのコメントタグを使用	Use tags de comentário HTML.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Use a tag.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas
+META NAME=ALERT タグを使用	Use a tag META NAME=ALERT.

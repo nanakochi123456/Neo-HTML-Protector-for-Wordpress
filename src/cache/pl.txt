@@ -125,3 +125,8 @@ view-sourceメッセージを表示する言語	Język, w którym wyświetlane s
 トルコ語	Turecki
 Wordpressの言語	Języki Wordpress.
 メッセージをカスタム設定されている場合は言語を変更できません	Języka nie można zmienić, jeśli wiadomość jest spersonalizowana
+view-source:の動作をされた時の記録もします	Rejestruje również, kiedy akcja view-source: jest podejmowana.
+HTMLのコメントタグを使用	Używaj znaczników komentarzy HTML.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Użyj znacznika.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	W przypadku ustawienia na tym ekranie, ustawienia języka w zakładce ustawień zaawansowanych są ignorowane
+META NAME=ALERT タグを使用	Użyj znacznika META NAME=ALERT.

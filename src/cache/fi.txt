@@ -125,3 +125,8 @@ view-sourceメッセージを表示する言語	Kieli, jolla näkymän lähteen 
 イギリス英語	Brittiläinen englanti
 Wordpressの言語	Wordpress-kielet.
 メッセージをカスタム設定されている場合は言語を変更できません	Kieltä ei voi vaihtaa, jos viesti on räätälöity.
+view-source:の動作をされた時の記録もします	Se kirjaa myös, milloin view-source: -toiminto suoritetaan.
+HTMLのコメントタグを使用	Käytä HTML-kommenttimerkkejä.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Käytä tagia.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jos asetus on tässä näytössä, lisäasetukset-välilehden kieliasetukset jätetään huomiotta.
+META NAME=ALERT タグを使用	Käytä META NAME=ALERT-tunnistetta.

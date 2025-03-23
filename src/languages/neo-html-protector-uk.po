@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -81,6 +81,9 @@ msgstr "дійсність"
 msgid "HTML保護"
 msgstr "Захист HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Він також записує, коли виконується дія view-source:."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Щоразу, коли він активується, відбувається перенаправлення, що може призвести до падіння SEO"
 
@@ -123,6 +126,15 @@ msgstr "URL-адреса для перенаправлення"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Виведення тегів HEAD під час захисту HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Використовуйте теги коментарів HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Використовуйте тег."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Використовуйте тег META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Немає виходу"
 
@@ -164,6 +176,9 @@ msgstr "Встановіть URL-адресу для перенаправлен�
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML не можна використовувати для попереджувальних повідомлень"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Якщо встановлено на цьому екрані, налаштування мови на вкладці розширених налаштувань ігноруються"
 
 msgid "以下の文字列が使用できます"
 msgstr "Можна використовувати наступні рядки"

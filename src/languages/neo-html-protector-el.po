@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -81,6 +81,9 @@ msgstr "εγκυρότητα"
 msgid "HTML保護"
 msgstr "Προστασία HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Καταγράφει επίσης πότε πραγματοποιείται η ενέργεια view-source:."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Κάθε φορά που ενεργοποιείται, γίνεται ανακατεύθυνση, η οποία μπορεί να οδηγήσει σε πτώση του SEO."
 
@@ -123,6 +126,15 @@ msgstr "URL για ανακατεύθυνση σε"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Έξοδος ετικετών HEAD κατά την προστασία HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Χρησιμοποιήστε ετικέτες σχολίων HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Χρήση ετικέτας."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Χρησιμοποιήστε την ετικέτα META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Δεν υπάρχει έξοδος"
 
@@ -164,6 +176,9 @@ msgstr "Ορίστε τη διεύθυνση URL που θα προωθείτα�
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "Η HTML δεν μπορεί να χρησιμοποιηθεί για προειδοποιητικά μηνύματα"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Εάν οριστεί σε αυτήν την οθόνη, οι ρυθμίσεις γλώσσας στην καρτέλα Σύνθετες ρυθμίσεις αγνοούνται."
 
 msgid "以下の文字列が使用できます"
 msgstr "Μπορούν να χρησιμοποιηθούν οι ακόλουθες συμβολοσειρές"

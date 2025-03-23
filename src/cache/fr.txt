@@ -130,3 +130,9 @@ Wordpressの言語 / カスタム設定されたメッセージ	Langues Wordpres
 view-sourceメッセージを表示する言語	Langue dans laquelle les messages de source de vue sont affichés.
 Wordpressの言語	Langues Wordpress.
 メッセージをカスタム設定されている場合は言語を変更できません	La langue ne peut pas être modifiée si le message est personnalisé
+view-source:の動作をされた時の記録もします	Il enregistre également le moment où l'action view-source : est effectuée.
+HTMLのコメントタグを使用	Utiliser les balises de commentaires HTML.
+INPUT TYPE=\	TYPE D'ENTRÉE=\\N-.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Si ce paramètre est défini dans cet écran, les paramètres de langue de l'onglet des paramètres avancés sont ignorés.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utiliser la balise.
+META NAME=ALERT タグを使用	Utilisez la balise META NAME=ALERT.

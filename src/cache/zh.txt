@@ -133,3 +133,9 @@ Wordpressの言語 / カスタム設定されたメッセージ	Wordpress 语言
 view-sourceメッセージを表示する言語	显示视图源信息的语言。
 Wordpressの言語	Wordpress 语言。
 メッセージをカスタム設定されている場合は言語を変更できません	如果自定义了信息，则无法更改语言
+view-source:の動作をされた時の記録もします	它还会记录何时执行了视图源：操作。
+HTMLのコメントタグを使用	使用 HTML 注释标记。
+INPUT TYPE=\	输入类型=\\.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	如果在此屏幕上设置，高级设置选项卡中的语言设置将被忽略
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN 使用标记。
+META NAME=ALERT タグを使用	使用 META NAME=ALERT 标签。

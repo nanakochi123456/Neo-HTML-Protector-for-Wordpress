@@ -131,3 +131,9 @@ Wordpressの言語 / カスタム設定されたメッセージ	Wordpress Langua
 view-sourceメッセージを表示する言語	Language in which view-source messages are displayed
 Wordpressの言語	Wordpress Language
 メッセージをカスタム設定されている場合は言語を変更できません	Language cannot be changed if the message is set to custom
+view-source:の動作をされた時の記録もします	It also records when the view-source: operation is performed.
+HTMLのコメントタグを使用	Use HTML comment tags
+INPUT TYPE=\	INPUT TYPE=\\
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Setting on this screen ignores the language settings on the Advanced tab
+INPUT TYPE=HIDDEN タグを使用	Use INPUT TYPE=HIDDEN tag
+META NAME=ALERT タグを使用	Use the META NAME=ALERT tag

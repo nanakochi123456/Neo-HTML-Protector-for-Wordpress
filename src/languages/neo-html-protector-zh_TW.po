@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -81,6 +81,9 @@ msgstr "有效性"
 msgid "HTML保護"
 msgstr "HTML 保護"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "它也會記錄執行 view-source: 動作的時間。"
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "每當它被啟動時，就會有一個重定向，這可能會導致 SEO 下降。"
 
@@ -123,6 +126,15 @@ msgstr "要重定向到的 URL。"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "在 HTML 保護期間輸出 HEAD 標籤"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "使用 HTML 註解標籤。"
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN 使用標籤。"
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "使用 META NAME=ALERT 標籤。"
+
 msgid "出力しない"
 msgstr "無輸出"
 
@@ -164,6 +176,9 @@ msgstr "設定在按滑鼠右鍵或檢視原始碼時要轉寄的 URL。"
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "警告訊息不能使用 HTML"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "如果在此畫面中設定，則會忽略進階設定索引標籤中的語言設定。"
 
 msgid "以下の文字列が使用できます"
 msgstr "可以使用下列字串"

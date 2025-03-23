@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -81,6 +81,9 @@ msgstr "Gyldighed"
 msgid "HTML保護"
 msgstr "HTML-beskyttelse"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Den registrerer også, hvornår handlingen view-source: udføres."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Hver gang den aktiveres, sker der en omdirigering, som kan resultere i et fald i SEO."
 
@@ -123,6 +126,15 @@ msgstr "URL til at omdirigere til"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Output af HEAD-tags under HTML-beskyttelse"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Brug HTML-kommentarer."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Brug tag."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Brug META NAME=ALERT-tagget."
+
 msgid "出力しない"
 msgstr "Intet output"
 
@@ -164,6 +176,9 @@ msgstr "Indstil den URL, der skal videresendes, når du højreklikker eller ser 
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML kan ikke bruges til advarsler"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Hvis den er indstillet på denne skærm, ignoreres sprogindstillingerne i fanen med avancerede indstillinger."
 
 msgid "以下の文字列が使用できます"
 msgstr "Følgende strenge kan bruges"

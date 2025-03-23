@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -81,6 +81,9 @@ msgstr "Veljavnost"
 msgid "HTML保護"
 msgstr "Zaščita HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Prav tako beleži, kdaj je izvedeno dejanje view-source:."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO."
 
@@ -123,6 +126,15 @@ msgstr "URL za preusmeritev na"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Izpis oznak HEAD med zaščito HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Uporabite oznake za komentarje HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Uporabite oznako."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Uporabite oznako META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Brez izhoda"
 
@@ -164,6 +176,9 @@ msgstr "Nastavite URL, ki se posreduje pri desnem kliku ali ogledu izvorne kode.
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML ni mogoče uporabiti za opozorilna sporočila"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Če je nastavljeno na tem zaslonu, se jezikovne nastavitve v zavihku naprednih nastavitev ne upoštevajo."
 
 msgid "以下の文字列が使用できます"
 msgstr "Uporabljajo se lahko naslednji nizi"

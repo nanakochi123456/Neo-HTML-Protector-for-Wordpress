@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -81,6 +81,9 @@ msgstr "Valabilitate"
 msgid "HTML保護"
 msgstr "Protecția HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO"
 
@@ -123,6 +126,15 @@ msgstr "URL către care să redirecționați"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Ieșirea etichetelor HEAD în timpul protecției HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Utilizați etichete de comentariu HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Utilizați eticheta."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Utilizați eticheta META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Fără ieșire"
 
@@ -164,6 +176,9 @@ msgstr "Setați URL-ul care urmează să fie redirecționat atunci când faceți
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML nu poate fi utilizat pentru mesajele de avertizare"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Dacă este setat pe acest ecran, setările de limbă din fila Setări avansate sunt ignorate"
 
 msgid "以下の文字列が使用できます"
 msgstr "Pot fi utilizate următoarele șiruri de caractere"

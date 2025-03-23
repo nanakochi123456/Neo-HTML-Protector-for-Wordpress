@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (Brazilian)\n"
 "Language: pt_BR\n"
@@ -81,6 +81,9 @@ msgstr "Validade"
 msgid "HTML保護"
 msgstr "Proteção de HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Ele também registra quando a ação view-source: é executada."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Sempre que ele é ativado, há um redirecionamento, o que pode resultar em uma queda no SEO"
 
@@ -123,6 +126,15 @@ msgstr "URL para o qual redirecionar"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Saída de tags HEAD durante a proteção de HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Use tags de comentário HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Use a tag."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Use a tag META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Nenhuma saída"
 
@@ -164,6 +176,9 @@ msgstr "Defina o URL a ser encaminhado ao clicar com o botão direito do mouse o
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML não pode ser usado para mensagens de aviso"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas"
 
 msgid "以下の文字列が使用できます"
 msgstr "As seguintes cadeias de caracteres podem ser usadas"

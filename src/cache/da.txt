@@ -137,3 +137,8 @@ view-sourceメッセージを表示する言語	Sprog, som view source-meddelels
 中国語	Kinesisk
 Wordpressの言語	Wordpress-sprog.
 メッセージをカスタム設定されている場合は言語を変更できません	Sproget kan ikke ændres, hvis beskeden er tilpasset.
+view-source:の動作をされた時の記録もします	Den registrerer også, hvornår handlingen view-source: udføres.
+HTMLのコメントタグを使用	Brug HTML-kommentarer.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Brug tag.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Hvis den er indstillet på denne skærm, ignoreres sprogindstillingerne i fanen med avancerede indstillinger.
+META NAME=ALERT タグを使用	Brug META NAME=ALERT-tagget.

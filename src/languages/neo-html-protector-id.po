@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -81,6 +81,9 @@ msgstr "Validitas"
 msgid "HTML保護"
 msgstr "Perlindungan HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Ini juga mencatat kapan tindakan view-source: diambil."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO"
 
@@ -123,6 +126,15 @@ msgstr "URL untuk dialihkan ke"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Output dari tag HEAD selama perlindungan HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Gunakan tag komentar HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "JENIS MASUKAN = TERSEMBUNYIKAN Gunakan tag."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Gunakan tag META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Tidak ada output"
 
@@ -164,6 +176,9 @@ msgstr "Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode 
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML tidak dapat digunakan untuk pesan peringatan"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Jika diatur pada layar ini, pengaturan bahasa di tab pengaturan lanjutan akan diabaikan"
 
 msgid "以下の文字列が使用できます"
 msgstr "String berikut ini dapat digunakan"

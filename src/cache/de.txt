@@ -132,3 +132,8 @@ view-sourceメッセージを表示する言語	Sprache, in der die Meldungen de
 alertメッセージを表示する言語	Sprache, in der die Warnmeldung angezeigt wird.
 Wordpressの言語	Wordpress-Sprachen.
 メッセージをカスタム設定されている場合は言語を変更できません	Die Sprache kann nicht geändert werden, wenn die Nachricht individuell angepasst wurde.
+view-source:の動作をされた時の記録もします	Außerdem wird aufgezeichnet, wann die Aktion view-source: durchgeführt wird.
+HTMLのコメントタグを使用	Verwenden Sie HTML-Kommentar-Tags.
+INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Tag verwenden.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Wenn diese Option auf diesem Bildschirm eingestellt ist, werden die Spracheinstellungen auf der Registerkarte "Erweiterte Einstellungen" ignoriert.
+META NAME=ALERT タグを使用	Verwenden Sie den META NAME=ALERT-Tag.

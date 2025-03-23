@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -81,6 +81,9 @@ msgstr "Platnost"
 msgid "HTML保護"
 msgstr "Ochrana HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "Zaznamenává také, kdy byla provedena akce view-source:."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Pokaždé, když je aktivována, dojde k přesměrování, což může mít za následek pokles SEO."
 
@@ -123,6 +126,15 @@ msgstr "URL pro přesměrování na"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Výstup značek HEAD při ochraně HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "Používejte značky komentářů HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "INPUT TYPE=HIDDEN Použijte značku."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "Použijte značku META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "Žádný výstup"
 
@@ -164,6 +176,9 @@ msgstr "Nastavení adresy URL, která se má předávat při kliknutí pravým t
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "HTML nelze použít pro varovné zprávy"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Pokud je na této obrazovce nastaveno, nastavení jazyka na kartě pokročilých nastavení se ignoruje."
 
 msgid "以下の文字列が使用できます"
 msgstr "Lze použít následující řetězce"

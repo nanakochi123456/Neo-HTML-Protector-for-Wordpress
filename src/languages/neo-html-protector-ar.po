@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.20\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-23 06:43+0900\n"
-"PO-Revision-Date: 2025-03-23 06:43+0900\n"
+"POT-Creation-Date: 2025-03-23 09:48+0900\n"
+"PO-Revision-Date: 2025-03-23 09:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -81,6 +81,9 @@ msgstr "الصلاحية"
 msgid "HTML保護"
 msgstr "حماية HTML"
 
+msgid "view-source:の動作をされた時の記録もします"
+msgstr "كما أنه يسجل أيضًا وقت اتخاذ إجراء العرض-المصدر: تم اتخاذ الإجراء."
+
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "كلما تم تنشيطه، هناك إعادة توجيه، مما قد يؤدي إلى انخفاض في تحسين محركات البحث"
 
@@ -123,6 +126,15 @@ msgstr "عنوان URL لإعادة التوجيه إلى"
 msgid "HTML保護時のHEADタグの出力"
 msgstr "إخراج علامات HEAD أثناء حماية HTML"
 
+msgid "HTMLのコメントタグを使用"
+msgstr "استخدم علامات تعليق HTML."
+
+msgid "INPUT TYPE=HIDDEN タグを使用"
+msgstr "نوع الإدخال = مخفي استخدم العلامة."
+
+msgid "META NAME=ALERT タグを使用"
+msgstr "استخدم علامة META NAME=ALERT."
+
 msgid "出力しない"
 msgstr "لا يوجد مخرجات"
 
@@ -164,6 +176,9 @@ msgstr "قم بتعيين عنوان URL المراد إعادة توجيهه ع
 
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr "لا يمكن استخدام HTML للرسائل التحذيرية"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "في حالة تعيينها على هذه الشاشة، يتم تجاهل إعدادات اللغة في علامة تبويب الإعدادات المتقدمة"
 
 msgid "以下の文字列が使用できます"
 msgstr "يمكن استخدام السلاسل التالية"

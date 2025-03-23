@@ -171,7 +171,7 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					);
 
-					echo '<br>' .esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') ) . '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -343,6 +343,23 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// HTMLソース表示時の警告の方法
+			register_setting('neohp_advanced_group', 'view_source_alert_method');
+			add_settings_field(
+				'view_source_alert_method',
+				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('view_source_alert_method', '0'));
+					echo $this->getselect("view_source_alert_method", $value
+						, '0=' . __('HTMLのコメントタグを使用', 'neo-html-protector')
+						, '1=' . __('INPUT TYPE=HIDDEN タグを使用', 'neo-html-protector')
+						, '2=' . __('META NAME=ALERT タグを使用', 'neo-html-protector')
+					);
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
 			// HTML保護時のheadの出力
 			register_setting('neohp_advanced_group', 'html_protect_head');
 			add_settings_field(
@@ -370,7 +387,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$lang_array=[];
 					foreach ($neohp_lang as $k => $v) {
-						array_push($lang_array, "$k=$v");
+						array_push($lang_array, "$k=$k=$v");
 					}
 
 					echo $this->getselect("neohp_alert_message_lang", $value
@@ -394,7 +411,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$lang_array=[];
 					foreach ($neohp_lang as $k => $v) {
-						array_push($lang_array, "$k=$v");
+						array_push($lang_array, "$k=$k=$v");
 					}
 
 					echo $this->getselect("neohp_view-source_message_lang", $value
@@ -441,6 +458,7 @@ class neohp_admin {
 					echo 
 	  esc_html( __('右クリックやソースコード表示時に転送する URL を設定します', 'neo-html-protector') ) . '<br><br>'
 	. esc_html( __('警告メッセージにはHTMLは使用できません', 'neo-html-protector') ) 	. '<br><br>'
+	. esc_html( __('この画面で設定すると、高度な設定タブにある言語設定が無視されます' ) ) . '<br><br>'
 	. esc_html( __('以下の文字列が使用できます', 'neo-html-protector') )
 	. '<table><tr><td>\n</td><td>' . esc_html( __('改行', 'neo-html-protector') )
 	. '</td></tr><tr><td>$IP</td><td>' . esc_html( __('IPアドレス', 'neo-html-protector') )
