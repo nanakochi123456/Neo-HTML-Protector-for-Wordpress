@@ -27,27 +27,40 @@ class neohp_htmlprotect {
 			// headタグをキャプチャ開始
 			add_action('wp_head', function () {
 				ob_start();
+//				ob_start();	// for debug
 			}, 0);
 
 			// headタグを取得
 			add_action('wp_head', function () {
 				$this->neohp_head_content = ob_get_clean(); // head内容を取得
+				ob_end_clean();
 			}, PHP_INT_MAX - 2);
 
+			// for debug bodyの最後をキャプチャする
+/*
+			add_action('wp_footer', function () {
+				$neohp_all_content = ob_get_clean(); // head内容を取得
+				ob_end_clean();
+				$neohp_all_content = str_replace('> <', '><', $neohp_all_content);
+				$neohp_all_content = str_replace('><', ">\n<", $neohp_all_content);
+				echo '<textarea>' . esc_html($neohp_all_content) . '</textarea>';
+			}, PHP_INT_MAX);
+*/
 			// リダイレクト確認
 			add_action('wp_head', array($this, 'neohp_check_and_redirect'), PHP_INT_MAX - 1);
 
 			// 本物のコンテンツ
 			add_action('wp_head', function () {
 				$head = $this->neohp_head_content;
+//				$head = $this->replace_image_urls($head);
 				if( ! $this->neohp_func->login() ) {
-					$head = $this->replace_image_urls($head);
 					if ( isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
 					} else {
-						exit;
+//						exit;
 					}
 				}
 				$this->neohp_func->head_echo($head);
+//echo $head;
 			}, PHP_INT_MAX);
 		}
 	}
@@ -200,7 +213,9 @@ class neohp_htmlprotect {
 		$html .= 'document.cookie="nonce=' . $nonce . ';max-age=9;path=/";';
 		$html .= 'location.href=atob(neUrl);';
 		$html .= '</script>';
-
+echo $html;
+//		$html = $this->replace_image_urls($this->neohp_head_content);
+		$head = '';
 		if(get_option('neohp_html_protect_head', '0') !== '0') {
 			// Wordpressから <head>の部分のみ取得
 			$head = $this->replace_image_urls($this->neohp_head_content);
@@ -210,9 +225,8 @@ class neohp_htmlprotect {
 			} else {
 				$html .= $this->sanitize_output_head_titleonly($head);
 			}
-
-
 		}
+
 
 		$html .= '<noscript>';
 		$html .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
