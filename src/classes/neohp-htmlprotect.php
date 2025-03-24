@@ -51,16 +51,18 @@ class neohp_htmlprotect {
 
 			// 本物のコンテンツ
 			add_action('wp_head', function () {
-				$head = $this->neohp_head_content;
-//				$head = $this->replace_image_urls($head);
+				// 言語を取得
+				$lang = get_bloginfo('language');
+
+				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+				$head = $html . $this->neohp_head_content;
+				$head = $this->replace_image_urls($head);
 				if( ! $this->neohp_func->login() ) {
 					if ( isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
 					} else {
-//						exit;
 					}
 				}
 				$this->neohp_func->head_echo($head);
-//echo $head;
 			}, PHP_INT_MAX);
 		}
 	}
@@ -205,32 +207,38 @@ class neohp_htmlprotect {
 
 			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
 		}
+
+		// 言語を取得
+		$lang = get_bloginfo('language');
+
+		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 		$html .= '<script>';
 		$html .= 'var neUrl="' . $neo_encoded_url . '";';
 		$html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
 
 		$nonce = $this->neohp_func->create_short_nonce('neUrl');
 		$html .= 'document.cookie="nonce=' . $nonce . ';max-age=9;path=/";';
-		$html .= 'location.href=atob(neUrl);';
+		$html .= 'location.href=atob(neUrl)';
 		$html .= '</script>';
-echo $html;
-//		$html = $this->replace_image_urls($this->neohp_head_content);
+		echo $html;
+
+//		$html .= $this->replace_image_urls($this->neohp_head_content);
 		$head = '';
 		if(get_option('neohp_html_protect_head', '0') !== '0') {
 			// Wordpressから <head>の部分のみ取得
 			$head = $this->replace_image_urls($this->neohp_head_content);
 
 			if(get_option('neohp_html_protect_head', '0') === '2') {
-				$html .= $this->sanitize_output_head($head);
+				$head = $this->sanitize_output_head($head);
 			} else {
-				$html .= $this->sanitize_output_head_titleonly($head);
+				$head = $this->sanitize_output_head_titleonly($head);
 			}
 		}
 
-
-		$html .= '<noscript>';
-		$html .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
-		$html .= '</noscript></head></html>';
+		$head .= '<noscript>';
+		$head .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
+		$head .= '</noscript>';
+		$head .= '</head></html>';
 
 		$this->neohp_func->head_echo($head);
 

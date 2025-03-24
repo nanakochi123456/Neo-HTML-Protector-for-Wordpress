@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.29\n"
+"Project-Id-Version: Neo HTML Protector 0.0.31\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 15:09+0900\n"
-"PO-Revision-Date: 2025-03-24 15:10+0900\n"
+"POT-Creation-Date: 2025-03-24 19:10+0900\n"
+"PO-Revision-Date: 2025-03-24 19:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -92,6 +92,9 @@ msgstr "También registra cuándo se realiza la acción ver-fuente:."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "Cada vez que se activa, se produce una redirección, lo que puede provocar una caída del SEO"
+
+msgid "若干デザインが変わる可能性があります"
+msgstr "El diseño puede cambiar ligeramente."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Salida de arte ASCII en código fuente HTML durante la ofuscación y protección de HTML."

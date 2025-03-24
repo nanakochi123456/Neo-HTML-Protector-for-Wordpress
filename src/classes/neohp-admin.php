@@ -189,6 +189,7 @@ class neohp_admin {
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('若干デザインが変わる可能性があります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

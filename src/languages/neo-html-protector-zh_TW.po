@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.29\n"
+"Project-Id-Version: Neo HTML Protector 0.0.31\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 15:09+0900\n"
-"PO-Revision-Date: 2025-03-24 15:09+0900\n"
+"POT-Creation-Date: 2025-03-24 19:10+0900\n"
+"PO-Revision-Date: 2025-03-24 19:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -92,6 +92,9 @@ msgstr "它也會記錄執行 view-source: 動作的時間。"
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
 msgstr "每當它被啟動時，就會有一個重定向，這可能會導致 SEO 下降。"
+
+msgid "若干デザインが変わる可能性があります"
+msgstr "設計可能略有變更。"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保護過程中，輸出 HTML 原始碼中的 ASCII 藝術。"
