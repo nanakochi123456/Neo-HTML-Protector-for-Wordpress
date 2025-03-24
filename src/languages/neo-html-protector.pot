@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-23 20:19+0900\n"
+"POT-Creation-Date: 2025-03-24 13:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: neo-html-protector.php:42
+#: neo-html-protector.php:43
 msgid "設定"
 msgstr ""
 
@@ -392,6 +392,10 @@ msgstr ""
 msgid "バージョン"
 msgstr ""
 
+#: classes/neohp-admin.php:672
+msgid "ビルド"
+msgstr ""
+
 #: classes/neohp-admin.php:673
 msgid "サポートページ"
 msgstr ""
@@ -664,10 +668,10 @@ msgstr ""
 msgid "繁体中国語"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:82 classes/neohp-htmlprotect.php:100
+#: classes/neohp-htmlprotect.php:92 classes/neohp-htmlprotect.php:110
 msgid "画像が見つかりません"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:190
+#: classes/neohp-htmlprotect.php:200
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr ""
