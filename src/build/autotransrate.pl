@@ -243,7 +243,7 @@ my $ret=&searchtable($table_file, $to);
 
 	print <<EOM;
 # @{[$ret->{english}]} translations for $package package.
-# Copyright (C) %year THE $package\'S COPYRIGHT HOLDER
+# Copyright (C) $year THE $package\'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the $package package.
 #  <$email>, $year.
 #
