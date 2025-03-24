@@ -102,54 +102,52 @@ class neohp_func {
 	}
 
 	function head_echo($head) {
-//echo ($head);
-//return;
-if(1){
-echo (wp_kses( $head,
-    [
-        'link' => [
-            'rel' => true,
-            'as' => true,
-            'type' => true,
-            'href' => true,
-            'title' => true,
-            'id' => true,
-			'media' => true,
-        ],
-        'meta' => [
-            'name' => true,
-            'property' => true,
-            'content' => true,
-            'http-equiv' => true,
-        ],
-        'style' => [
-            'id' => true,
-            'type' => true,
-            'media' => true,
-			'class' => true,
-        ],
-        'script' => [
-            'id' => true,
-            'src' => true,
-            'type' => true,
-            'async' => true,
-            'defer' => true,
-        ],
-        'title' => true,
-        'head' => true,
-        'html' => true,
-        'noscript' => true,
-        'img' => [
-            'src' => true,
-            'alt' => true,
-            'class' => true,
-            'width' => true,
-            'height' => true,
-            'style' => true,
-        ],
-    ]
-));
-}
+		echo wp_kses( $head,
+			[
+				'link' => [
+					'rel' => true,
+					'as' => true,
+					'type' => true,
+					'href' => true,
+					'title' => true,
+					'id' => true,
+					'media' => true,
+				],
+				'meta' => [
+					'name' => true,
+					'property' => true,
+					'content' => true,
+					'http-equiv' => true,
+				],
+				'style' => [
+					'id' => true,
+					'type' => true,
+					'media' => true,
+					'class' => true,
+				],
+				'script' => [
+					'id' => true,
+					'src' => true,
+					'type' => true,
+					'async' => true,
+					'defer' => true,
+				],
+				'title' => true,
+				'head' => true,
+				'html' => [
+					'lang' => true
+				],
+				'noscript' => true,
+				'img' => [
+					'src' => true,
+					'alt' => true,
+					'class' => true,
+					'width' => true,
+					'height' => true,
+					'style' => true,
+				],
+			]
+		);
 	}
 	function br_die($head) {
 		echo wp_kses( $head,

@@ -30,6 +30,12 @@
 		return str.toUpperCase();
 	}
 
+	// 動作を停止する
+	function stop(event) {
+		event.preventDefault();
+		event.stopPropagation();
+	}
+
 	// キーのみの処理
 	document.addEventListener(keydown, (event) => {
 		var ctrl = event.ctrlKey,
@@ -40,7 +46,7 @@
 		if(FlagSmall.includes(fKey)) {
 			if (key === 'F12') {
 				sendIpToServer('F12', fKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 
@@ -48,7 +54,7 @@
 		if(FlagSmall.includes(iKey)) {
 			if (ctrl && shift && lower(key) === iKey) {
 				sendIpToServer(CtrlKey+ShiftKey+upper(iKey), iKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 
@@ -56,7 +62,7 @@
 		if(FlagSmall.includes(jKey)) {
 			if (ctrl && shift && lower(key) === 'j') {
 				sendIpToServer(CtrlKey+ShiftKey+upper(jKey), jKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 
@@ -64,7 +70,7 @@
 		if(FlagSmall.includes(uKey)) {
 			if (ctrl && lower(key) === uKey) {
 				sendIpToServer(CtrlKey+upper(uKey), uKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 
@@ -72,7 +78,7 @@
 		if(FlagSmall.includes(pKey)) {
 			if (ctrl && lower(key) === pKey) {
 				sendIpToServer(CtrlKey+upper(pKey), pKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 
@@ -80,29 +86,25 @@
 		if(FlagSmall.includes(sKey)) {
 			if (ctrl && lower(key) === sKey) {
 				sendIpToServer(CtrlKey+upper(sKey), sKey);
-				event.preventDefault();
+				stop(event);
 			}
 		}
 	});
 
 	// 右クリック
 	if(FlagSmall.includes(rClick)) {
+		// mousedown mouseup dragstart
 		$(document).on('contextmenu', (event)=> {
 			sendIpToServer('Right Click', rClick);
-			event.preventDefault();
+			stop(event);
 		});
 	}
 
 	// copy, cut
 	if(FlagSmall.includes(CopyCut)) {
 		document.addEventListener('copy', (event) => {
-			sendIpToServer('Copy', CopyCut);
-			event.preventDefault();
-		});
-
-		document.addEventListener('cut', (event) => {
-			sendIpToServer('Cut', CopyCut);
-			event.preventDefault();
+			sendIpToServer('Copy Cut', CopyCut);
+			stop(event);
 		});
 	}
 
@@ -112,20 +114,8 @@
 		document.body.style.webkitUserSelect = 'none'; // Safari対策
 		//document.body.style.msUserSelect = 'none'; // 古いIE対策 いらないのでコメントアウト
 
-		$(document).on('selectstart', (event) => {
-			event.preventDefault();
-		});
-
-		document.addEventListener('touchstart', (event) => {
-			event.preventDefault();
-		});
-
-		document.addEventListener('touchmove', (event) => {
-			event.preventDefault();
-		});
-
-		document.addEventListener('touchend', (event) => {
-			event.preventDefault();
+		$(document).on('selectstart touchstart touchmove touchend', (event) => {
+			stop(event);
 		});
 	}
 
@@ -136,6 +126,7 @@
 			debugger;
 		}, 100);
 	}
+
 
 	// IPアドレスをサーバーに送信
 	function sendIpToServer(Keys, Flg) {

@@ -7,22 +7,24 @@ global $wpdb;
 $neohp_table_name = $wpdb->prefix . 'user_ip_log';
 $neohp_table_name = esc_sql($neohp_table_name);
 
-// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 $wpdb->query(
 	$wpdb->prepare(
 		"DROP TABLE IF EXISTS `$neohp_table_name`"
 	)
 );
+// phpcs:enable
 
 $neohp_table_name = $wpdb->prefix . 'view_source_log';
 $neohp_table_name = esc_sql($neohp_table_name);
 
-// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 $wpdb->query(
 	$wpdb->prepare(
 		"DROP TABLE IF EXISTS `$neohp_table_name`"
 	)
 );
+// phpcs:enable
 
 delete_option('neohp_debugmode_message');
 delete_option('neohp_rightclick_message');

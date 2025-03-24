@@ -681,8 +681,8 @@ class neohp_admin {
 <p><?php echo esc_html( __('寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。', 'neo-html-protector') ) ?></p>
 
 <p><?php echo esc_html( __('ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。', 'neo-html-protector') ) ?></p>
-<p><?php echo esc_html( __('皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('寄付先', 'neo-html-protector') ) ?>:<a target="_blank" href="https://support.773.moe/donate">https://support.773.moe/donate</a></p>
+<p><?php echo esc_html( __('皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('ご支援いただけることに感謝し、今後ともよろしくお願いいたします。', 'neo-html-protector') ) ?></p>
 		<?php
 	}

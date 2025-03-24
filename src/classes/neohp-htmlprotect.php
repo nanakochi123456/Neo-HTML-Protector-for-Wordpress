@@ -220,7 +220,8 @@ class neohp_htmlprotect {
 		$html .= 'document.cookie="nonce=' . $nonce . ';max-age=9;path=/";';
 		$html .= 'location.href=atob(neUrl)';
 		$html .= '</script>';
-		echo $html;
+		$this->neohp_func->head_echo($html);
+//		echo $html;
 
 //		$html .= $this->replace_image_urls($this->neohp_head_content);
 		$head = '';
