@@ -162,3 +162,6 @@ USERログインで通常のソース出力	Normal källutgång med USER-inloggn
 無効なIPアドレス	Ogiltig IP-adress.
 無効なユーザーエイジェント	Ogiltig användaragent.
 若干デザインが変わる可能性があります	Designen kan komma att ändras något.
+画像をダウンロードから保護します	Skyddar bilder från nedladdning.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	När du aktiverar det laddas JavaScript innan bilderna laddas, så SEO kan minska
+画像の保護	Bildskydd.

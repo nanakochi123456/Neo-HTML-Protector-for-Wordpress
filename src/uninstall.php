@@ -36,6 +36,7 @@ delete_option('neohp_copycut_message');
 delete_option('neohp_redirect_url');
 delete_option('neohp_htmlcompress');
 delete_option('neohp_htmlprotect');
+delete_option('neohp_imageprotect');
 delete_option('html_protect_head');
 delete_option('html_protect_nonce');
 delete_option('neohp_alert_f12');

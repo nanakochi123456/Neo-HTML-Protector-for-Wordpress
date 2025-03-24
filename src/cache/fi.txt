@@ -164,3 +164,6 @@ USERログインで通常のソース出力	Normaali lähteen ulostulo USER-kirj
 無効なIPアドレス	Virheellinen IP-osoite.
 無効なユーザーエイジェント	Virheellinen käyttäjäagentti.
 若干デザインが変わる可能性があります	Muotoilu saattaa muuttua hieman.
+画像をダウンロードから保護します	Suojaa kuvia lataukselta.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Aina kun otat sen käyttöön, JavaScript ladataan ennen kuvien lataamista, joten SEO saattaa pudota.
+画像の保護	Kuvan suojaus.

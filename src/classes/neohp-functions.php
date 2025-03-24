@@ -95,7 +95,11 @@ class neohp_func {
 			return false;
 		}
 		return is_user_logged_in();
-}
+	}
+
+	function user() {
+		return is_user_logged_in();
+	}
 
 	function err403() {
 		wp_die('403 Forbidden', 'Forbidden', array('response' => 403));

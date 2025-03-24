@@ -164,3 +164,6 @@ USERログインで通常のソース出力	Normálny výstup zdroja s prihláse
 無効なIPアドレス	Neplatná IP adresa.
 無効なユーザーエイジェント	Neplatný používateľský agent.
 若干デザインが変わる可能性があります	Dizajn sa môže mierne zmeniť.
+画像をダウンロードから保護します	Chráni obrázky pred sťahovaním.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Pri každej aktivácii sa JavaScript načíta pred načítaním obrázkov, takže SEO môže klesnúť
+画像の保護	Ochrana obrazu.

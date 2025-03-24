@@ -164,3 +164,6 @@ USERログインで通常のソース出力	Tavaline allikas väljund koos USER 
 無効なIPアドレス	Vale IP-aadress.
 無効なユーザーエイジェント	Vale kasutajaagent.
 若干デザインが変わる可能性があります	Disain võib veidi muutuda.
+画像をダウンロードから保護します	Kaitseb pilte allalaadimise eest.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kui te selle lubate, laaditakse JavaScript enne piltide laadimist, nii et SEO võib langeda.
+画像の保護	Pildi kaitse.

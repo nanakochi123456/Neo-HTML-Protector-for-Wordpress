@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.31\n"
+"Project-Id-Version: Neo HTML Protector 0.0.33\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 19:10+0900\n"
-"PO-Revision-Date: 2025-03-24 19:11+0900\n"
+"POT-Creation-Date: 2025-03-25 05:18+0900\n"
+"PO-Revision-Date: 2025-03-25 05:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -95,6 +95,15 @@ msgstr "Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Dizainas gali šiek tiek pasikeisti."
+
+msgid "画像の保護"
+msgstr "Vaizdo apsauga."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Apsaugo vaizdus nuo atsisiuntimo."
+
+msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Įjungus šią funkciją, JavaScript įkeliamas prieš įkeliant paveikslėlius, todėl SEO gali sumažėti."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."
@@ -303,11 +312,11 @@ msgstr "Aukos yra savanoriškos ir neprivalomos. Ji yra atvira visiems, kad įsk
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Paaukoti galite naudodamiesi toliau pateikta nuoroda. Jei esate iš Japonijos, taip pat galite aukoti nemokamai, be to, galite lengvai aukoti naudodami Amazon dovanų kuponus."
 
-msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puikiais atnaujinimais!"
-
 msgid "寄付先"
 msgstr "Donoras"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puikiais atnaujinimais!"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje."

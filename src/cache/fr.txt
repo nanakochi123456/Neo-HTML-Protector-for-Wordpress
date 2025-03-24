@@ -169,3 +169,6 @@ USERログインで通常のソース出力	Sortie normale de la source avec log
 無効なIPアドレス	Adresse IP non valide.
 無効なユーザーエイジェント	Agent utilisateur non valide.
 若干デザインが変わる可能性があります	Le design peut être légèrement modifié.
+画像をダウンロードから保護します	Protège les images contre le téléchargement.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Chaque fois que vous l'activez, le JavaScript est chargé avant les images, de sorte que le référencement peut diminuer.
+画像の保護	Protection de l'image.

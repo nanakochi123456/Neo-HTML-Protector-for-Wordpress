@@ -161,3 +161,6 @@ USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak 
 無効なIPアドレス	Geçersiz IP adresi.
 無効なユーザーエイジェント	Geçersiz kullanıcı aracısı.
 若干デザインが変わる可能性があります	Tasarım biraz değişebilir.
+画像をダウンロードから保護します	Görüntüleri indirilmeye karşı korur.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Bunu etkinleştirdiğinizde, JavaScript görüntüler yüklenmeden önce yüklenir, bu nedenle SEO düşebilir
+画像の保護	Görüntü koruması.

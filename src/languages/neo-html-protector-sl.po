@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.31\n"
+"Project-Id-Version: Neo HTML Protector 0.0.33\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 19:10+0900\n"
-"PO-Revision-Date: 2025-03-24 19:11+0900\n"
+"POT-Creation-Date: 2025-03-25 05:18+0900\n"
+"PO-Revision-Date: 2025-03-25 05:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -95,6 +95,15 @@ msgstr "Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Oblikovanje se lahko nekoliko spremeni."
+
+msgid "画像の保護"
+msgstr "Zaščita slik."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Zaščita slik pred prenosom."
+
+msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Ko jo omogočite, se JavaScript naloži pred nalaganjem slik, zato se lahko SEO zmanjša."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML."
@@ -303,11 +312,11 @@ msgstr "Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporablja
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Donacije lahko prispevate prek spodnje povezave. Če ste iz Japonske, lahko darujete brezplačno, poleg tega pa lahko enostavno darujete z Amazonovimi darilnimi boni."
 
-msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali odlične posodobitve!"
-
 msgid "寄付先"
 msgstr "Donator"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali odlične posodobitve!"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti."

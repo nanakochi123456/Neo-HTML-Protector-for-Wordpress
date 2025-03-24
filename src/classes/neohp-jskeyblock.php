@@ -48,6 +48,8 @@ class neohp_jskeyblock {
 		$nonce = wp_create_nonce('neohp_action');
 	    ?>
 <script id='neohp'>var NeoHPHome="<?php echo esc_js($home) ?>",NeoHPFlg="<?php echo esc_js($html) ?>",NeoHPnonce="<?php echo esc_js($nonce) ?>"</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+
 		<?php
 	}
 

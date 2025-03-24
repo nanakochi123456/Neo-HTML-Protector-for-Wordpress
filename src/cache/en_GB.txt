@@ -171,3 +171,6 @@ USERログインで通常のソース出力	Normal source output with USER login
 無効なIPアドレス	Invalid IP address.
 無効なユーザーエイジェント	Invalid user agent.
 若干デザインが変わる可能性があります	Design may change slightly.
+画像をダウンロードから保護します	Protects images from downloading.
+有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Whenever you activate it, the JavaScript is loaded before the images are loaded, so SEO may drop
+画像の保護	Image protection.

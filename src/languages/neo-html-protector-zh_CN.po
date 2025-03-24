@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.31\n"
+"Project-Id-Version: Neo HTML Protector 0.0.33\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 19:10+0900\n"
-"PO-Revision-Date: 2025-03-24 19:10+0900\n"
+"POT-Creation-Date: 2025-03-25 05:18+0900\n"
+"PO-Revision-Date: 2025-03-25 05:18+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -95,6 +95,15 @@ msgstr "无论何时激活，都会出现重定向，这可能会导致搜索引
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "设计可能略有改动。"
+
+msgid "画像の保護"
+msgstr "图像保护。"
+
+msgid "画像をダウンロードから保護します"
+msgstr "保护图像免受下载。"
+
+msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "启用该功能后，JavaScript 会在加载图像之前加载，因此搜索引擎优化效果可能会下降。"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"
@@ -303,11 +312,11 @@ msgstr "捐赠是自愿的，不是强制性的。它对所有人开放，因此
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "您可以通过以下链接捐款。如果您来自日本，也可以免费捐款，此外，您还可以使用亚马逊礼券轻松捐款。"
 
-msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "有了您的支持，我们将尽最大努力在未来为您带来更好的更新！"
-
 msgid "寄付先"
 msgstr "捐助方"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "有了您的支持，我们将尽最大努力在未来为您带来更好的更新！"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "我们感谢您的支持，并期待今后与您合作。"

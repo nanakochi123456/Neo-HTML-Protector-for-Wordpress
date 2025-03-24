@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.31\n"
+"Project-Id-Version: Neo HTML Protector 0.0.33\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 19:10+0900\n"
-"PO-Revision-Date: 2025-03-24 19:10+0900\n"
+"POT-Creation-Date: 2025-03-25 05:18+0900\n"
+"PO-Revision-Date: 2025-03-25 05:18+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -95,6 +95,15 @@ msgstr "Chaque fois qu'il est activé, il y a une redirection, ce qui peut entra
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Le design peut être légèrement modifié."
+
+msgid "画像の保護"
+msgstr "Protection de l'image."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Protège les images contre le téléchargement."
+
+msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Chaque fois que vous l'activez, le JavaScript est chargé avant les images, de sorte que le référencement peut diminuer."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."
@@ -303,11 +312,11 @@ msgstr "Les dons sont volontaires et non obligatoires. Il est ouvert à tous afi
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Les dons peuvent être effectués via le lien ci-dessous. Si vous venez du Japon, vous pouvez également faire un don gratuit, et vous pouvez également faire un don en utilisant des chèques-cadeaux Amazon."
 
-msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "Grâce à votre soutien, nous ferons de notre mieux pour vous offrir de superbes mises à jour à l'avenir !"
-
 msgid "寄付先"
 msgstr "Donateur"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Grâce à votre soutien, nous ferons de notre mieux pour vous offrir de superbes mises à jour à l'avenir !"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Nous vous remercions de votre soutien et nous nous réjouissons de travailler avec vous à l'avenir."

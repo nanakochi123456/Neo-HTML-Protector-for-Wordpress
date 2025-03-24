@@ -195,6 +195,25 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// 画像保護
+			register_setting('neohp_basic_group', 'neohp_imageprotect');
+			add_settings_field(
+				'neohp_imageprotect',
+				__('画像の保護', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_imageprotect', '0'));
+					echo wp_kses( $this->getselect("neohp_imageprotect", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+
+					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 			// HTMLソース表示時の警告の方法
 			register_setting('neohp_basic_group', 'view_source_alert_asciiart');
 			add_settings_field(
