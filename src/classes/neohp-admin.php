@@ -476,7 +476,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
-					echo '<br>' . esc_html( __('画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

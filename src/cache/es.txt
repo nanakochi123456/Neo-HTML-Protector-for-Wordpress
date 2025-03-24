@@ -160,3 +160,6 @@ ADMINログイン時のみ通常のソース出力	Salida normal de la fuente s�
 USERログインで通常のソース出力	Salida normal de la fuente con inicio de sesión de USUARIO
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Seleccione si la salida HTML normal es sólo para administradores o para el inicio de sesión de los usuarios.
 ビルド	Construya
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitar los robots de imágenes frente al HTML protege contenidos que no podrían protegerse mediante enlaces directos desde la búsqueda de imágenes.
+無効なIPアドレス	Dirección IP no válida.
+無効なユーザーエイジェント	Agente de usuario no válido.

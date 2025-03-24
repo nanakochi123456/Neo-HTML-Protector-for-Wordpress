@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.28\n"
+"Project-Id-Version: Neo HTML Protector 0.0.29\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 13:11+0900\n"
-"PO-Revision-Date: 2025-03-24 13:12+0900\n"
+"POT-Creation-Date: 2025-03-24 14:59+0900\n"
+"PO-Revision-Date: 2025-03-24 14:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -195,8 +195,8 @@ msgstr "Az OGP képek nem jelennek meg a közösségi oldalakon, hacsak nem a Wo
 msgid "画像botをアクセス禁止にする"
 msgstr "A képrobot betiltása."
 
-msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
-msgstr "A képrobotok elkerülése megvédi az olyan tartalmakat, amelyeket a képkeresésből származó közvetlen hivatkozásokkal nem lehetne megvédeni."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
+msgstr "A képrobotok elkerülése a HTML-hez képest megvédi azt a tartalmat, amelyet a képkeresésből származó közvetlen linkek nem tudnának megvédeni."
 
 msgid "alertメッセージを表示する言語"
 msgstr "A figyelmeztető üzenet megjelenítésének nyelve."
@@ -308,6 +308,12 @@ msgstr "Donor"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Köszönjük támogatását, és örömmel várjuk a jövőbeni együttműködést."
+
+msgid "無効なIPアドレス"
+msgstr "Érvénytelen IP-cím."
+
+msgid "無効なユーザーエイジェント"
+msgstr "Érvénytelen felhasználói ügynök."
 
 msgid "https://google.co.jp"
 msgstr "https://google.hu"

@@ -159,3 +159,6 @@ ADMINログイン時のみ通常のソース出力	Običajni izhodni vir samo ob
 USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Izberite, ali je običajni izpis HTML namenjen samo skrbnikom ali tudi prijavi uporabnika.
 ビルド	Zgraditi
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izogibanje slikovnim robotom v primerjavi s HTML varuje vsebino, ki je ne bi bilo mogoče zaščititi z neposrednimi povezavami iz iskanja slik.
+無効なIPアドレス	Nepravilen naslov IP.
+無効なユーザーエイジェント	Nepravilen uporabniški agent.

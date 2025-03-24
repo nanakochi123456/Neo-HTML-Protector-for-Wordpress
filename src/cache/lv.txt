@@ -159,3 +159,6 @@ ADMINログイン時のみ通常のソース出力	Parastā avota izvade tikai p
 USERログインで通常のソース出力	Parastā avota izvade ar lietotāja pieteikšanos
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Izvēlieties, vai parastā HTML izvades programma ir paredzēta tikai administratoriem vai arī lietotāja pieteikšanās.
 ビルド	Izveidot
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt, izmantojot tiešās saites no attēlu meklēšanas.
+無効なIPアドレス	Nederīga IP adrese.
+無効なユーザーエイジェント	Nederīgs lietotāja aģents.

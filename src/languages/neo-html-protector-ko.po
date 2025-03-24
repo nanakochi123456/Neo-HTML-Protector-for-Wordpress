@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.28\n"
+"Project-Id-Version: Neo HTML Protector 0.0.29\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 13:11+0900\n"
-"PO-Revision-Date: 2025-03-24 13:12+0900\n"
+"POT-Creation-Date: 2025-03-24 14:59+0900\n"
+"PO-Revision-Date: 2025-03-24 14:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -195,8 +195,8 @@ msgstr "Wordpress의 HEAD 태그에서 가져오지 않으면 SNS 공유에서 O
 msgid "画像botをアクセス禁止にする"
 msgstr "이미지 봇 접근 금지 설정하기"
 
-msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
-msgstr "이미지 봇을 피함으로써 이미지 검색에서 직リン(直リン)되어 보호할 수 없었던 콘텐츠를 보호할 수 있습니다."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
+msgstr "이미지 봇을 HTML에 대한 이미지 봇을 피함으로써 이미지 검색에서 직접 링크되어 보호할 수 없었던 콘텐츠를 보호할 수 있습니다."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Alert 메시지를 표시하는 언어"
@@ -308,6 +308,12 @@ msgstr "기부처"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "항상 응원해 주셔서 감사드리며, 앞으로도 많은 관심 부탁 드립니다."
+
+msgid "無効なIPアドレス"
+msgstr "잘못된 IP 주소"
+
+msgid "無効なユーザーエイジェント"
+msgstr "비활성화된 사용자 에이전트"
 
 msgid "https://google.co.jp"
 msgstr "https://google.co.kr"

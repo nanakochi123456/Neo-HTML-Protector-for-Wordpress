@@ -160,3 +160,6 @@ ADMINログイン時のみ通常のソース出力	Tavaline allikas väljund ain
 USERログインで通常のソース出力	Tavaline allikas väljund koos USER sisselogimisega
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Valige, kas tavaline HTML-väljund on mõeldud ainult administraatoritele või ka kasutajale sisselogimiseks.
 ビルド	Ehitada
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Pildibootide vältimine HTML-i suhtes kaitseb sisu, mida ei saaks kaitsta otselinkide abil pildiotsingust.
+無効なIPアドレス	Vale IP-aadress.
+無効なユーザーエイジェント	Vale kasutajaagent.

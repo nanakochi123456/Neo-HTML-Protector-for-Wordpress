@@ -6,18 +6,38 @@
 $neohp_func=new neohp_func();
 class neohp_func {
 	public function get_user_ip() {
+		$ip = '';
+
 		if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-			$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+			$ip = sanitize_text_field( wp_unslash( $_SERVER['HTTP_X_FORWARDED_FOR'] ) );
 		} elseif (!empty($_SERVER['HTTP_X_REAL_IP'])) {
-			$ip = $_SERVER['HTTP_X_REAL_IP'];
-		} else {
-			$ip = $_SERVER['REMOTE_ADDR'];
+			$ip = sanitize_text_field( wp_unslash( $_SERVER['HTTP_X_REAL_IP'] ) );
+		} elseif ( isset( $_SERVER['REMOTE_ADDR'] ) ) {  // ここで isset() を使って明示的に確認
+			$ip = sanitize_text_field( wp_unslash( $_SERVER['REMOTE_ADDR'] ) );
 		}
+
+		if ( filter_var( $ip, FILTER_VALIDATE_IP ) === false ) {
+			// 不正なIPアドレスの処理（必要に応じて）
+			$ip = __('無効なIPアドレス', 'neo-html-protector');
+		}
+
 		return esc_html($ip);
 	}
 
 	public function get_user_agent() {
-		return substr(esc_html($_SERVER['HTTP_USER_AGENT']), 0, 4096);
+		$ua = '';
+
+		// $_SERVER['HTTP_USER_AGENT'] を最初にサニタイズ
+		if ( isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
+			$ua = sanitize_text_field( wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) );
+		}
+
+		// ユーザーエージェントが無効かどうかをチェック
+		if ( !preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $ua ) ) {
+			$ua = __('無効なユーザーエイジェント', 'neo-html-protector');
+		}
+
+		return esc_html($ua);
 	}
 
 	public function get_current_url() {
@@ -79,5 +99,44 @@ class neohp_func {
 
 	function err403() {
 		wp_die('403 Forbidden', 'Forbidden', array('response' => 403));
+	}
+
+	function head_echo($head) {
+		echo wp_kses( $head,
+			[
+				'link' => [
+					'rel' => true,
+					'as' => true,
+					'type' => true,
+					'href' => true,
+					'title' => true,
+					'id' => true,
+				],
+				'meta' => [
+					'name' => true,
+					'property' => true,
+					'content' => true,
+				],
+				'style' => [
+					'id' => true,
+				],
+				'script' => [
+					'id' => true,
+					'src' => true,
+					'type' => true,
+				],
+				'title' => true,
+				'head' => true,
+				'html' => true,
+				'noscript' => true,
+			]
+		);
+	}
+	function br_die($head) {
+		echo wp_kses( $head,
+			[
+				'br' => true
+			]
+		);
 	}
 }

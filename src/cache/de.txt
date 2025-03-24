@@ -166,3 +166,6 @@ ADMINログイン時のみ通常のソース出力	Normale Quellenausgabe nur be
 USERログインで通常のソース出力	Normale Quellenausgabe mit USER-Anmeldung
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Legen Sie fest, ob die normale HTML-Ausgabe nur für Administratoren oder für die Benutzeranmeldung bestimmt ist.
 ビルド	Bauen
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Die Vermeidung von Bild-Bots gegenüber HTML schützt Inhalte, die durch direkte Links aus der Bildersuche nicht geschützt werden könnten.
+無効なIPアドレス	Ungültige IP-Adresse.
+無効なユーザーエイジェント	Ungültiger Benutzer-Agent.

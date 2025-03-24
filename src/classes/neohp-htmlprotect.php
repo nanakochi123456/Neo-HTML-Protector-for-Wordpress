@@ -47,7 +47,7 @@ class neohp_htmlprotect {
 						exit;
 					}
 				}
-				echo $head;
+				$this->neohp_func->head_echo($head);
 			}, PHP_INT_MAX);
 		}
 	}
@@ -89,14 +89,32 @@ class neohp_htmlprotect {
 					'image/jp2',
 				];
 				if (!in_array($mime, $allowed_types)) {
-					wp_die(__('画像が見つかりません' . $mime, 'neo-html-protector'));
+					wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 				}
 
 				// 必要に応じて、適切なコンテンツタイプを設定
 				header('Content-Type: ' . $mine); // 画像の形式に合わせて自動設定
 				
 				// 画像を出力して転送
-				readfile($image_path);
+				global $wp_filesystem;
+
+				if ( ! function_exists( 'WP_Filesystem' ) ) {
+					require_once ABSPATH . 'wp-admin/includes/file.php';
+				}
+
+				WP_Filesystem();
+
+				if ( $wp_filesystem->exists( $image_path ) ) {
+					$mime_type = wp_check_filetype( $image_path )['type'];
+					if ( $mime_type ) {
+						// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+						// This is image file (binary)
+						header( 'Content-Type: ' . $mime_type );
+						header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
+						echo $wp_filesystem->get_contents( $image_path );
+						// phpcs:enable
+					}
+				}
 
 				$user_ip = $this->neohp_func->get_user_ip();
 				// 一時的なデータベースも削除
@@ -107,7 +125,7 @@ class neohp_htmlprotect {
 				exit; // その後の処理を停止
 			} else {
 				// 画像が見つからない場合の処理（404など）
-				wp_die(__('画像が見つかりません', 'neo-html-protector'));
+				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 			}
 		}
 	}
@@ -200,7 +218,7 @@ class neohp_htmlprotect {
 		$html .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
 		$html .= '</noscript></head></html>';
 
-		echo $html;
+		$this->neohp_func->head_echo($head);
 
 		if($this->is_not_bot()) {
 			// ユーザーのIPアドレスを取得
@@ -328,7 +346,7 @@ class neohp_htmlprotect {
 						$this->neohp_database->insert_user_ip(
 							$user_ip, $current_url, 'nonce error', $ua
 						);
-						wp_die($value);
+						$this->neohp_func->br_die($value);
 					}
 				} else {
 					// クッキーがない場合、9秒のクッキーを発行してリダイレクト

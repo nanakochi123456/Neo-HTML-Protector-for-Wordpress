@@ -160,3 +160,6 @@ ADMINログイン時のみ通常のソース出力	Normálny výstup zdroja len 
 USERログインで通常のソース出力	Normálny výstup zdroja s prihlásením USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Vyberte, či je normálny výstup HTML určený len pre správcov alebo pre prihlásenie používateľa
 ビルド	Zostaviť
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov.
+無効なIPアドレス	Neplatná IP adresa.
+無効なユーザーエイジェント	Neplatný používateľský agent.

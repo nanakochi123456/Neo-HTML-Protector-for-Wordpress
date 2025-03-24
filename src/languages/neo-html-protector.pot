@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 13:11+0900\n"
+"POT-Creation-Date: 2025-03-24 14:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -283,8 +283,8 @@ msgstr ""
 
 #: classes/neohp-admin.php:479
 msgid ""
-"画像botを避けることにより画像検索から直リンされることによって守れなかったコン"
-"テンツを守ることができます"
+"画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって"
+"守れなかったコンテンツを守ることができます"
 msgstr ""
 
 #: classes/neohp-admin.php:489
@@ -452,6 +452,14 @@ msgstr ""
 
 #: classes/neohp-admin.php:685
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr ""
+
+#: classes/neohp-functions.php:21
+msgid "無効なIPアドレス"
+msgstr ""
+
+#: classes/neohp-functions.php:37
+msgid "無効なユーザーエイジェント"
 msgstr ""
 
 #: classes/neohp-global.php:6
@@ -668,10 +676,10 @@ msgstr ""
 msgid "繁体中国語"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:92 classes/neohp-htmlprotect.php:110
+#: classes/neohp-htmlprotect.php:92 classes/neohp-htmlprotect.php:128
 msgid "画像が見つかりません"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:200
+#: classes/neohp-htmlprotect.php:218
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr ""

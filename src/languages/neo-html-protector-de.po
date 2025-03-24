@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.28\n"
+"Project-Id-Version: Neo HTML Protector 0.0.29\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-24 13:11+0900\n"
-"PO-Revision-Date: 2025-03-24 13:12+0900\n"
+"POT-Creation-Date: 2025-03-24 14:59+0900\n"
+"PO-Revision-Date: 2025-03-24 14:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -195,8 +195,8 @@ msgstr "OGP-Bilder werden nicht in sozialen Netzwerken angezeigt, es sei denn, s
 msgid "画像botをアクセス禁止にする"
 msgstr "Verbot des Bild-Bots."
 
-msgid "画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます"
-msgstr "Die Vermeidung von Image Bots schützt Inhalte, die nicht durch direkte Links aus der Bildersuche geschützt werden können"
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
+msgstr "Die Vermeidung von Bild-Bots gegenüber HTML schützt Inhalte, die durch direkte Links aus der Bildersuche nicht geschützt werden könnten."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Sprache, in der die Warnmeldung angezeigt wird."
@@ -308,6 +308,12 @@ msgstr "Spender"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Wir danken Ihnen für Ihre Unterstützung und freuen uns auf die künftige Zusammenarbeit mit Ihnen."
+
+msgid "無効なIPアドレス"
+msgstr "Ungültige IP-Adresse."
+
+msgid "無効なユーザーエイジェント"
+msgstr "Ungültiger Benutzer-Agent."
 
 msgid "https://google.co.jp"
 msgstr "https://google.de"
