@@ -116,6 +116,9 @@ class neohp_func {
 					'title' => true,
 					'id' => true,
 					'media' => true,
+					'crossorigin' => true,
+					'onload' => true,
+					'sizes' => true,
 				],
 				'meta' => [
 					'name' => true,
