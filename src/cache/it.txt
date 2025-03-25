@@ -176,3 +176,7 @@ USERログインで通常のソース出力	Uscita normale della sorgente con lo
 画像をダウンロードから保護します	Protegge le immagini dal download.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ogni volta che lo si attiva, il JavaScript viene caricato prima del caricamento delle immagini, per cui il SEO può diminuire.
 画像の保護	Protezione dell'immagine.
+画像URLのみ保護	Solo gli URL delle immagini sono protetti.
+画像データも保護	Anche i dati delle immagini sono protetti
+画像は遅延読み込みをします	Il caricamento delle immagini è ritardato.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	La cache delle immagini non funziona quando anche i dati delle immagini sono protetti, quindi il sito viene caricato più lentamente alla visita successiva, con un conseguente calo della SEO.

@@ -6,12 +6,12 @@
 $neohp_imageprotect=new neohp_imageprotect();
 class neohp_imageprotect {
 	protected $neohp_func;
-	protected $neohp_jskeyblock;
-	protected $neohp_head_content;
+	protected $neohp_javascript;
+	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
 
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
-		$this->neohp_jskeyblock = new neohp_jskeyblock();
+		$this->neohp_javascript = new neohp_javascript();
 
 		if(get_option('neohp_deny_imagebot', '0') === '1') {
 			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
@@ -20,10 +20,11 @@ class neohp_imageprotect {
 		}
 
 		// JavaScript挿入
-		add_action('wp_enqueue_scripts', array($this->neohp_jskeyblock, 'neohp_script') );
+		add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
 
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
-		if(get_option('neohp_imageprotect', '0') == 1 ) {
+
+		if(get_option('neohp_imageprotect', '0') !== '0' ) {
 			// headタグをキャプチャ開始
 			add_action('wp_head', function () {
 				ob_start();
@@ -33,6 +34,9 @@ class neohp_imageprotect {
 			add_action('wp_footer', function () {
 				$neohp_all_content = ob_get_clean(); // head内容を取得
 				ob_end_clean();
+				$lang = get_bloginfo('language');
+				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+				echo $html;
 				if( ! $this->neohp_func->user() ) {
 					echo $this->processImageTags($neohp_all_content);
 				} else {
@@ -58,7 +62,8 @@ class neohp_imageprotect {
 		$encoded_iv = base64_encode($iv);
 
 		// 暗号化されたURLとIVを一緒に返す（Base64エンコードされたURL）
-		return urlencode(base64_encode($encrypted_url . '::' . $encoded_iv));
+//		return urlencode($this->url_safe_base64_encode($encrypted_url . '::' . $encoded_iv));
+		return urlencode($this->swap_Case($this->url_safe_base64_encode($encrypted_url . '::' . $encoded_iv)));
 	}
 
 	// nonce生成のための関数
@@ -66,6 +71,33 @@ class neohp_imageprotect {
 		return bin2hex(random_bytes(16)); // 16バイトのランダムなnonceを生成
 	}
 
+function url_safe_base64_encode($data) {
+	return str_replace(['+', '/', '='], ['-', '_', '.'], base64_encode($data));
+}
+
+	// URLからhttp://example.com:80 を削除して、画像データも保護であれば頭にクエリーとnonceをつける
+	function removeSchemeAndHost($url) {
+		// 正規表現パターン
+		$pattern = '/^https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(?::\d+)?/i';
+
+		$replace = '';
+//		if (get_option('neohp_imageprotect', '0') == '2') {
+			$nonce = wp_create_nonce('neohp_imageprotect');
+			$site_url = get_site_url();
+			$replace = "$site_url\?neohp\=protect\&nonce=$nonce\&img\=";
+//		}
+		// 正規表現を使ってスキーマとホスト名、ポート名を削除
+		$result = preg_replace($pattern, $replace, $url);
+		return $result;
+	}
+
+	//どうせなら大文字と小文字を入れ替える
+	function swap_case($str) {
+		return preg_replace_callback('/[a-zA-Z]/', function ($match) {
+			$char = $match[0];
+			return ctype_lower($char) ? strtoupper($char) : strtolower($char);
+		}, $str);
+	}
 	// 実際の処理
 	function processImageTags($html) {
 		// セキュリティ制御のためのnonce生成
@@ -85,14 +117,14 @@ class neohp_imageprotect {
 
 			// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
 			if (isset($attributes['src'])) {
-				$encoded_src = $this->encryptAndEncodeImageUrl($attributes['src'], $nonce);
+				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce);
 				$attributes['data-src'] = $encoded_src;
 				// 最小GIFをsrcに設定
-				$attributes['src'] = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
+				$attributes['src'] = $this->mingif;
 			}
 
 			if (isset($attributes['srcset'])) {
-				$encoded_srcset = $this->encryptAndEncodeImageUrl($attributes['srcset'], $nonce);
+				$encoded_srcset = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['srcset']), $nonce);
 				$attributes['data-srcset'] = $encoded_srcset;
 				unset($attributes['srcset']); // srcset属性を削除
 			}

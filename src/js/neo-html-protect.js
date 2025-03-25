@@ -166,65 +166,81 @@
 		return e.innerHTML;
 	}
 
-///////////////////////////////////////////////////////////////
-// 暗号化されたURLを復号化する関数
+	/////////////////////////////////////////////////
+	// 暗号化されたURLを復号化する関数
 
-function decryptAndDecodeImageUrl(encryptedData, nonce) {
-	try {
-		// Base64デコードして暗号化されたデータとIVを分ける
-		const decodedData = atob(encryptedData);
-		const parts = decodedData.split('::');
-
-		if (parts.length !== 2) {
-			console.error("Invalid encrypted data format");
-			return null;
-		}
-
-		const encryptedUrl = parts[0];
-		const encodedIv = parts[1];
-
-		// IVをBase64デコード
-		const iv = CryptoJS.enc.Base64.parse(encodedIv);
-
-		// nonceをキーとしてSHA256で生成（WordArray型）
-		const key = CryptoJS.SHA256(nonce);
-
-		// 暗号化データをBase64からパース
-		const encryptedWordArray = CryptoJS.enc.Base64.parse(encryptedUrl);
-
-		// AESで復号化
-		const decrypted = CryptoJS.AES.decrypt(
-			{ ciphertext: encryptedWordArray },
-			key,
-			{
-				iv: iv,
-				mode: CryptoJS.mode.CBC,
-				padding: CryptoJS.pad.Pkcs7
-			}
-		);
-
-		if (!decrypted) {
-			console.error("Decryption failed");
-			return null;
-		}
-
-		// 復号化したURLを文字列に変換
-		const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
-		
-		if (!decryptedUrl) {
-			console.error("Decryption result is empty");
-			return null;
-		}
-
-		return decryptedUrl;
-	} catch (error) {
-		console.error("Decryption failed:", error);
-		return null;
+	function urlSafeBase64Decode(str) {
+		let base64 = str.replace(/-/g, '+').replace(/_/g, '/').replace(/\./g, '=');
+	//	  return atob(base64);
+		return atob(swapCase(base64));
 	}
-}
+
+	// どうせなら大文字と小文字を入れ替える
+	function swapCase(str) {
+		return str.replace(/[a-zA-Z]/g, function(char) {
+			return char === upper(char)
+				? lower(char)
+				: upper(char);
+		});
+	}
+
+	function decryptAndDecodeImageUrl(encryptedData, nonce) {
+		try {
+			// Base64デコードして暗号化されたデータとIVを分ける
+
+			const decodedData = urlSafeBase64Decode(encryptedData);
+			const parts = decodedData.split('::');
+
+			if (parts.length !== 2) {
+				console.error("Invalid encrypted data format");
+				return null;
+			}
+
+			const encryptedUrl = parts[0];
+			const encodedIv = parts[1];
+
+			// IVをBase64デコード
+			const iv = CryptoJS.enc.Base64.parse(encodedIv);
+
+			// nonceをキーとしてSHA256で生成（WordArray型）
+			const key = CryptoJS.SHA256(nonce);
+
+			// 暗号化データをBase64からパース
+			const encryptedWordArray = CryptoJS.enc.Base64.parse(encryptedUrl);
+
+			// AESで復号化
+			const decrypted = CryptoJS.AES.decrypt(
+				{ ciphertext: encryptedWordArray },
+				key,
+				{
+					iv: iv,
+					mode: CryptoJS.mode.CBC,
+					padding: CryptoJS.pad.Pkcs7
+				}
+			);
+
+			if (!decrypted) {
+				console.error("Decryption failed");
+				return null;
+			}
+
+			// 復号化したURLを文字列に変換
+			const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
+			
+			if (!decryptedUrl) {
+				console.error("Decryption result is empty");
+				return null;
+			}
+
+			return decryptedUrl;
+		} catch (error) {
+			console.error("Decryption failed:", error);
+			return null;
+		}
+	}
 
 
-// 例: 画像のdata-src属性を取得して復号化する lazyロード
+	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 
 	document.addEventListener('DOMContentLoaded', function() {
 		// IntersectionObserverを使ってlazyロードを実現

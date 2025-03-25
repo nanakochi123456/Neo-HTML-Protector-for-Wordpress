@@ -164,3 +164,7 @@ USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak 
 画像をダウンロードから保護します	Görüntüleri indirilmeye karşı korur.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Bunu etkinleştirdiğinizde, JavaScript görüntüler yüklenmeden önce yüklenir, bu nedenle SEO düşebilir
 画像の保護	Görüntü koruması.
+画像データも保護	Görüntü verileri de korunur
+画像は遅延読み込みをします	Görüntüler gecikmeli yükleniyor.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri de korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
+画像URLのみ保護	Yalnızca görüntü URL'leri korunur.

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.33\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 05:18+0900\n"
-"PO-Revision-Date: 2025-03-25 05:19+0900\n"
+"POT-Creation-Date: 2025-03-25 09:59+0900\n"
+"PO-Revision-Date: 2025-03-25 09:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -99,11 +99,23 @@ msgstr "Het ontwerp kan lichtjes veranderen."
 msgid "画像の保護"
 msgstr "Beeldbescherming."
 
+msgid "画像URLのみ保護"
+msgstr "Alleen URL's van afbeeldingen zijn beschermd."
+
+msgid "画像データも保護"
+msgstr "Beeldgegevens ook beschermd"
+
 msgid "画像をダウンロードから保護します"
 msgstr "Beschermt afbeeldingen tegen downloaden."
 
+msgid "画像は遅延読み込みをします"
+msgstr "Afbeeldingen laden vertraagd."
+
 msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
 msgstr "Telkens wanneer je het activeert, wordt het JavaScript geladen voordat de afbeeldingen worden geladen, dus SEO kan dalen"
+
+msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr "Het cachen van afbeeldingen werkt niet als de afbeeldingsgegevens ook beschermd zijn, dus de site laadt langzamer bij het volgende bezoek, wat kan resulteren in een daling van de SEO."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -beveiliging."

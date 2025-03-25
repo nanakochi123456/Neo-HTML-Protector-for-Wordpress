@@ -204,11 +204,14 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imageprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_imageprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('有効', 'neo-html-protector')
+						, '1=' . __('画像URLのみ保護', 'neo-html-protector')
+						, '2=' . __('画像データも保護', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像は遅延読み込みをします', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

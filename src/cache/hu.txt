@@ -166,3 +166,7 @@ USERログインで通常のソース出力	Normál forráskimenet USER bejelent
 画像をダウンロードから保護します	Védi a képeket a letöltéstől.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Amikor engedélyezi, a JavaScript betöltődik a képek betöltése előtt, így a SEO csökkenhet.
 画像の保護	Képvédelem.
+画像URLのみ保護	Csak a kép URL címei védettek.
+画像データも保護	A képi adatok is védettek
+画像は遅延読み込みをします	A képek késve töltődnek be.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	A képek gyorsítótárazása nem működik, ha a képadatok is védettek, így az oldal lassabban töltődik be a következő látogatáskor, ami a SEO-értékek csökkenéséhez vezethet.

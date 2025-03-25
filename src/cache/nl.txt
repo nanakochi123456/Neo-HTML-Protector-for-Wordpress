@@ -166,3 +166,7 @@ USERログインで通常のソース出力	Normale bronuitvoer met USER-login
 画像をダウンロードから保護します	Beschermt afbeeldingen tegen downloaden.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Telkens wanneer je het activeert, wordt het JavaScript geladen voordat de afbeeldingen worden geladen, dus SEO kan dalen
 画像の保護	Beeldbescherming.
+画像URLのみ保護	Alleen URL's van afbeeldingen zijn beschermd.
+画像データも保護	Beeldgegevens ook beschermd
+画像は遅延読み込みをします	Afbeeldingen laden vertraagd.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Het cachen van afbeeldingen werkt niet als de afbeeldingsgegevens ook beschermd zijn, dus de site laadt langzamer bij het volgende bezoek, wat kan resulteren in een daling van de SEO.

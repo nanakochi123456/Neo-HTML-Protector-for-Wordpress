@@ -170,3 +170,7 @@ USERログインで通常のソース出力	Normální výstup zdroje s přihlá
 画像をダウンロードから保護します	Chrání obrázky před stahováním.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kdykoli ji povolíte, JavaScript se načte před načtením obrázků, takže SEO může klesnout.
 画像の保護	Ochrana obrazu.
+画像URLのみ保護	Chráněny jsou pouze adresy URL obrázků.
+画像データも保護	Chráněna jsou také obrazová data
+画像は遅延読み込みをします	Obrázky se načítají se zpožděním.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukládání obrázků do mezipaměti nefunguje, pokud jsou chráněna i data obrázků, takže se web při další návštěvě načítá pomaleji, což může mít za následek pokles SEO.

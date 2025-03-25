@@ -167,3 +167,7 @@ USERログインで通常のソース出力	Normalne wyjście źródłowe z logi
 画像をダウンロードから保護します	Chroni obrazy przed pobraniem.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Za każdym razem, gdy ją włączysz, JavaScript jest ładowany przed załadowaniem obrazów, więc SEO może spaść
 画像の保護	Ochrona obrazu.
+画像URLのみ保護	Chronione są tylko adresy URL obrazów.
+画像データも保護	Dane obrazu również są chronione
+画像は遅延読み込みをします	Obrazy ładują się z opóźnieniem.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Buforowanie obrazów nie działa, gdy dane obrazu są również chronione, więc strona ładuje się wolniej przy następnej wizycie, co może skutkować spadkiem SEO.

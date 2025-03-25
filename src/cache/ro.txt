@@ -171,3 +171,7 @@ USERログインで通常のソース出力	Ieșire sursă normală cu autentifi
 画像をダウンロードから保護します	Protejează imaginile de descărcare.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ori de câte ori îl activați, JavaScript este încărcat înainte ca imaginile să fie încărcate, astfel încât SEO poate scădea
 画像の保護	Protecția imaginii.
+画像URLのみ保護	Doar URL-urile imaginilor sunt protejate.
+画像データも保護	Datele de imagine sunt, de asemenea, protejate
+画像は遅延読み込みをします	Imaginile sunt încărcate cu întârziere.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt, de asemenea, protejate, astfel încât site-ul se încarcă mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO

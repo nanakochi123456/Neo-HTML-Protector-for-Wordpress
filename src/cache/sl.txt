@@ -166,3 +166,7 @@ USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 画像をダウンロードから保護します	Zaščita slik pred prenosom.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ko jo omogočite, se JavaScript naloži pred nalaganjem slik, zato se lahko SEO zmanjša.
 画像の保護	Zaščita slik.
+画像URLのみ保護	Zaščiteni so samo URL-ji slik.
+画像データも保護	Zaščiteni so tudi slikovni podatki
+画像は遅延読み込みをします	Slike se nalagajo z zamudo.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Če so zaščiteni tudi slikovni podatki, predpomnilnik slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, zaradi česar se lahko zmanjša SEO.

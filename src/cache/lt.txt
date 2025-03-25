@@ -167,3 +167,7 @@ USERログインで通常のソース出力	Įprastas šaltinio išėjimas su va
 画像をダウンロードから保護します	Apsaugo vaizdus nuo atsisiuntimo.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Įjungus šią funkciją, "JavaScript" įkeliamas prieš įkeliant paveikslėlius, todėl SEO gali sumažėti.
 画像の保護	Vaizdo apsauga.
+画像URLのみ保護	Saugomi tik paveikslėlių URL adresai.
+画像データも保護	Vaizdo duomenys taip pat apsaugoti
+画像は遅延読み込みをします	Vėluojama įkelti vaizdus.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys taip pat yra apsaugoti, todėl svetainė kito apsilankymo metu įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas.

@@ -173,3 +173,7 @@ USERログインで通常のソース出力	Normale Quellenausgabe mit USER-Anme
 画像をダウンロードから保護します	Schützt Bilder vor dem Herunterladen.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Wenn Sie die Funktion aktivieren, wird das JavaScript geladen, bevor die Bilder geladen werden, so dass die Suchmaschinenoptimierung möglicherweise zurückgeht.
 画像の保護	Bildschutz.
+画像URLのみ保護	Nur Bild-URLs sind geschützt.
+画像データも保護	Bilddaten ebenfalls geschützt
+画像は遅延読み込みをします	Bilder werden verzögert geladen.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Die Zwischenspeicherung von Bildern funktioniert nicht, wenn auch die Bilddaten geschützt sind, so dass die Website beim nächsten Besuch langsamer geladen wird, was zu einer Verschlechterung der Suchmaschinenoptimierung führen kann.

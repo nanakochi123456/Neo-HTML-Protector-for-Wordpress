@@ -51,9 +51,7 @@ class neohp_htmlprotect {
 
 			// 本物のコンテンツ
 			add_action('wp_head', function () {
-				// 言語を取得
 				$lang = get_bloginfo('language');
-
 				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 				$head = $html . $this->neohp_head_content;
 				$head = $this->replace_image_urls($head);

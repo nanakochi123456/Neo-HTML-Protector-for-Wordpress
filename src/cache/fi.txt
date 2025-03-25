@@ -167,3 +167,7 @@ USERログインで通常のソース出力	Normaali lähteen ulostulo USER-kirj
 画像をダウンロードから保護します	Suojaa kuvia lataukselta.
 有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Aina kun otat sen käyttöön, JavaScript ladataan ennen kuvien lataamista, joten SEO saattaa pudota.
 画像の保護	Kuvan suojaus.
+画像URLのみ保護	Vain kuvien URL-osoitteet on suojattu.
+画像データも保護	Myös kuvatiedot suojattu
+画像は遅延読み込みをします	Kuvat latautuvat viiveellä.
+画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Kuvien välimuistitallennus ei toimi, kun myös kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia.
