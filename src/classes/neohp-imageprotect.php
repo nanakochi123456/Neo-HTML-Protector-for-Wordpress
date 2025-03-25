@@ -62,7 +62,6 @@ class neohp_imageprotect {
 		$encoded_iv = base64_encode($iv);
 
 		// 暗号化されたURLとIVを一緒に返す（Base64エンコードされたURL）
-//		return urlencode($this->url_safe_base64_encode($encrypted_url . '::' . $encoded_iv));
 		return urlencode($this->swap_Case($this->url_safe_base64_encode($encrypted_url . '::' . $encoded_iv)));
 	}
 
@@ -77,18 +76,28 @@ function url_safe_base64_encode($data) {
 
 	// URLからhttp://example.com:80 を削除して、画像データも保護であれば頭にクエリーとnonceをつける
 	function removeSchemeAndHost($url) {
-		// 正規表現パターン
-		$pattern = '/^https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(?::\d+)?/i';
+return $url;
+		$nonce = wp_create_nonce('neohp_imageprotect');
+		$site_url = get_site_url();
+		$replace  = '';
+		if(0){
+		$replace = "$site_url?neohp=protect&nonce=$nonce&img=";
+		}
 
-		$replace = '';
-//		if (get_option('neohp_imageprotect', '0') == '2') {
-			$nonce = wp_create_nonce('neohp_imageprotect');
-			$site_url = get_site_url();
-			$replace = "$site_url\?neohp\=protect\&nonce=$nonce\&img\=";
-//		}
-		// 正規表現を使ってスキーマとホスト名、ポート名を削除
-		$result = preg_replace($pattern, $replace, $url);
-		return $result;
+		$pattern = '/https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(?::\d+)?/i';
+
+		// カンマで分割
+		$parts = explode(',', $url);
+		
+		foreach ($parts as &$part) {
+			// 各パーツごとに置換
+			$part = preg_replace($pattern, $replace, $part);
+		}
+		
+		// カンマで再構築
+		$url = implode(',', $parts);
+
+		return $url;
 	}
 
 	//どうせなら大文字と小文字を入れ替える

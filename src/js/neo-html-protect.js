@@ -251,14 +251,17 @@
 			entries.forEach(entry => {
 				if (entry.isIntersecting) {
 					const img = entry.target;
-					const encryptedData = img.getAttribute('data-src');
+					const encryptedData_src = img.getAttribute('data-src');
+					const encryptedData_srcset = img.getAttribute('data-srcset');
 					const nonce = img.getAttribute('data-nonce');
 					
 					// 画像URLを復号化
-					const decryptedUrl = decryptAndDecodeImageUrl(encryptedData, nonce);
+					const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
+					const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
 					
 					// 復号化したURLを元のsrcに設定
-					img.src = decryptedUrl;
+					img.src = decryptedUrl_src;
+					img.srcset = decryptedUrl_srcset;
 
 					// 読み込んだ画像は監視から外す
 					observer.unobserve(img);
