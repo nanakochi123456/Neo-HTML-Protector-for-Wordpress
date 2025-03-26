@@ -169,3 +169,5 @@ USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak 
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri de korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
 画像URLのみ保護	Yalnızca görüntü URL'leri korunur.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Resim verilerinizi de korumak istediğinizde, bir .htaccess dosyası ile /wp-contents/uploads içine kısıtlamalar yerleştirebilirsiniz.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Yalnızca resim URL'si korunduğunda, resim gecikmeli olarak yüklenir, aksi takdirde Wordpress tarafından ayarlanan varsayılan kullanılır
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri de korunduğunda, veritabanı aşırı yüklenebilir

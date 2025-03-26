@@ -172,3 +172,5 @@ USERログインで通常のソース出力	Saída de fonte normal com login de 
 画像URLのみ保護	Somente os URLs de imagem são protegidos.
 画像は遅延読み込みをします	O carregamento das imagens está atrasado.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Se também quiser proteger seus dados de imagem, você pode colocar restrições em /wp-contents/uploads com um arquivo .htaccess.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Quando apenas o URL da imagem estiver protegido, a imagem terá um carregamento atrasado; caso contrário, será usado o padrão definido pelo Wordpress
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Quando os dados de imagem também são protegidos, o banco de dados pode ficar sobrecarregado

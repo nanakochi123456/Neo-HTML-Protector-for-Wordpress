@@ -172,3 +172,5 @@ USERログインで通常のソース出力	Normal kildeutgang med USER-påloggi
 画像データも保護	Bildedata er også beskyttet
 画像は遅延読み込みをします	Bilder lastes inn med forsinkelse.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Hvis du også ønsker å beskytte bildedataene dine, kan du legge inn begrensninger i /wp-contents/uploads med en .htaccess-fil.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Når bare bilde-URL-en er beskyttet, vil bildet lastes inn med forsinkelse, ellers vil standardinnstillingen som er angitt av Wordpress, bli brukt
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Når bildedata også er beskyttet, kan databasen bli overbelastet

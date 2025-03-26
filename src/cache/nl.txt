@@ -171,3 +171,5 @@ USERログインで通常のソース出力	Normale bronuitvoer met USER-login
 画像は遅延読み込みをします	Afbeeldingen laden vertraagd.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Het cachen van afbeeldingen werkt niet als de afbeeldingsgegevens ook beschermd zijn, dus de site laadt langzamer bij het volgende bezoek, wat kan resulteren in een daling van de SEO.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Als je ook je afbeeldingsgegevens wilt beschermen, kun je beperkingen plaatsen in /wp-contents/uploads met een .htaccess bestand.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Als alleen de URL van de afbeelding is beschermd, wordt de afbeelding vertraagd geladen, anders wordt de standaardinstelling van Wordpress gebruikt.
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Als afbeeldingsgegevens ook worden beschermd, kan de database overbelast raken

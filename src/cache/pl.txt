@@ -172,3 +172,5 @@ USERログインで通常のソース出力	Normalne wyjście źródłowe z logi
 画像は遅延読み込みをします	Obrazy ładują się z opóźnieniem.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Buforowanie obrazów nie działa, gdy dane obrazu są również chronione, więc strona ładuje się wolniej przy następnej wizycie, co może skutkować spadkiem SEO.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Jeśli chcesz również chronić swoje dane obrazu, możesz umieścić ograniczenia w /wp-contents/uploads za pomocą pliku .htaccess.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Gdy chroniony jest tylko adres URL obrazu, obraz zostanie załadowany z opóźnieniem, w przeciwnym razie zostanie użyty domyślny ustawiony przez Wordpress
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Gdy dane obrazu są również chronione, baza danych może zostać przeciążona

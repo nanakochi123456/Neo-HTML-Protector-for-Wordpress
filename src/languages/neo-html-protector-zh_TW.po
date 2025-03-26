@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.36\n"
+"Project-Id-Version: Neo HTML Protector 0.0.38\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 10:37+0900\n"
-"PO-Revision-Date: 2025-03-26 10:38+0900\n"
+"POT-Creation-Date: 2025-03-26 12:40+0900\n"
+"PO-Revision-Date: 2025-03-26 12:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -108,8 +108,8 @@ msgstr "影像資料也受到保護"
 msgid "画像をダウンロードから保護します"
 msgstr "保護影像免於下載。"
 
-msgid "画像は遅延読み込みをします"
-msgstr "圖片延遲載入。"
+msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
+msgstr "當只有圖片 URL 受保護時，圖片會進行延遲載入，否則會使用 Wordpress 設定的預設值。"
 
 msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
 msgstr "每當您啟用它時，JavaScript 會在載入圖片之前載入，因此 SEO 可能會下降。"
@@ -117,8 +117,8 @@ msgstr "每當您啟用它時，JavaScript 會在載入圖片之前載入，因�
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "當圖像資料也受到保護時，圖像快取就無法運作，因此網站在下次造訪時會載入得更慢，這可能會導致 SEO 下降"
 
-msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
-msgstr "當您還想要保護您的圖片資料時，您可以使用 .htaccess 檔案在 /wp-contents/uploads 中放置限制。"
+msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "當影像資料也受到保護時，資料庫可能會超載"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保護過程中，輸出 HTML 原始碼中的 ASCII 藝術。"

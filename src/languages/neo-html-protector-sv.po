@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.36\n"
+"Project-Id-Version: Neo HTML Protector 0.0.38\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 10:37+0900\n"
-"PO-Revision-Date: 2025-03-26 10:38+0900\n"
+"POT-Creation-Date: 2025-03-26 12:40+0900\n"
+"PO-Revision-Date: 2025-03-26 12:41+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -108,8 +108,8 @@ msgstr "Bilddata skyddas också"
 msgid "画像をダウンロードから保護します"
 msgstr "Skyddar bilder från nedladdning."
 
-msgid "画像は遅延読み込みをします"
-msgstr "Bilderna laddas med fördröjning."
+msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
+msgstr "När endast bild-URL:en är skyddad kommer bilden att laddas med fördröjning, annars används standardvärdet som ställts in av Wordpress"
 
 msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
 msgstr "När du aktiverar det laddas JavaScript innan bilderna laddas, så SEO kan minska"
@@ -117,8 +117,8 @@ msgstr "När du aktiverar det laddas JavaScript innan bilderna laddas, så SEO k
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Cachelagring av bilder fungerar inte när bilddata också är skyddade, så webbplatsen laddas långsammare vid nästa besök, vilket kan leda till sämre SEO"
 
-msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
-msgstr "Om du även vill skydda dina bilddata kan du lägga in begränsningar i /wp-contents/uploads med en .htaccess-fil."
+msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "När bilddata också skyddas kan databasen bli överbelastad"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av HTML."

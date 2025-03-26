@@ -177,3 +177,5 @@ USERログインで通常のソース出力	Sortie normale de la source avec log
 画像は遅延読み込みをします	Le chargement des images est retardé.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	La mise en cache des images ne fonctionne pas lorsque les données des images sont également protégées, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui peut entraîner une baisse du référencement.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Si vous souhaitez également protéger vos données d'image, vous pouvez placer des restrictions dans le fichier /wp-contents/uploads à l'aide d'un fichier .htaccess.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Si seule l'URL de l'image est protégée, l'image sera chargée en différé, sinon la valeur par défaut définie par Wordpress sera utilisée.
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Lorsque les données d'image sont également protégées, la base de données peut être surchargée

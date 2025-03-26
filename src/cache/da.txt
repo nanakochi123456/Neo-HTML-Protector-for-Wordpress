@@ -183,3 +183,5 @@ USERログインで通常のソース出力	Normal kildeudgang med USER-login
 画像は遅延読み込みをします	Indlæsning af billeder er forsinket.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Billedcaching fungerer ikke, når billeddata også er beskyttet, så siden indlæses langsommere ved næste besøg, hvilket kan resultere i et fald i SEO.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Hvis du også vil beskytte dine billeddata, kan du lægge begrænsninger ind i /wp-contents/uploads med en .htaccess-fil.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Når kun billedets URL er beskyttet, vil billedet blive indlæst med forsinkelse, ellers vil Wordpress' standardindstilling blive brugt.
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Når billeddata også er beskyttet, kan databasen blive overbelastet

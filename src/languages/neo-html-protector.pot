@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"POT-Creation-Date: 2025-03-26 12:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,7 +154,9 @@ msgid "画像をダウンロードから保護します"
 msgstr ""
 
 #: classes/neohp-admin.php:212
-msgid "画像は遅延読み込みをします"
+msgid ""
+"画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設"
+"定されたデフォルトが使用されます"
 msgstr ""
 
 #: classes/neohp-admin.php:213
@@ -171,8 +173,7 @@ msgstr ""
 
 #: classes/neohp-admin.php:215
 msgid ""
-"画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をか"
-"けることもできます"
+"画像データも保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr ""
 
 #: classes/neohp-admin.php:225
@@ -716,7 +717,7 @@ msgid "繁体中国語"
 msgstr ""
 
 #: classes/neohp-htmlprotect.php:105 classes/neohp-htmlprotect.php:141
-#: classes/neohp-imageprotect.php:110 classes/neohp-imageprotect.php:140
+#: classes/neohp-imageprotect.php:111 classes/neohp-imageprotect.php:141
 msgid "画像が見つかりません"
 msgstr ""
 

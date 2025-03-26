@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.36\n"
+"Project-Id-Version: Neo HTML Protector 0.0.38\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 10:37+0900\n"
-"PO-Revision-Date: 2025-03-26 10:38+0900\n"
+"POT-Creation-Date: 2025-03-26 12:40+0900\n"
+"PO-Revision-Date: 2025-03-26 12:41+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -108,8 +108,8 @@ msgstr "Datele de imagine sunt, de asemenea, protejate"
 msgid "画像をダウンロードから保護します"
 msgstr "Protejează imaginile de descărcare."
 
-msgid "画像は遅延読み込みをします"
-msgstr "Imaginile sunt încărcate cu întârziere."
+msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
+msgstr "Atunci când numai URL-ul imaginii este protejat, imaginea se va încărca cu întârziere, în caz contrar se va utiliza valoarea implicită stabilită de Wordpress"
 
 msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
 msgstr "Ori de câte ori îl activați, JavaScript este încărcat înainte ca imaginile să fie încărcate, astfel încât SEO poate scădea"
@@ -117,8 +117,8 @@ msgstr "Ori de câte ori îl activați, JavaScript este încărcat înainte ca i
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt, de asemenea, protejate, astfel încât site-ul se încarcă mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO"
 
-msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
-msgstr "Atunci când doriți să vă protejați și datele de imagine, puteți plasa restricții în /wp-contents/uploads cu un fișier .htaccess."
+msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Atunci când sunt protejate și datele de imagine, baza de date poate fi supraîncărcată"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML."

@@ -209,10 +209,10 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像は遅延読み込みをします', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データも保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

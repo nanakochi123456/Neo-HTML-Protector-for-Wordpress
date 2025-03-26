@@ -173,3 +173,5 @@ USERログインで通常のソース出力	Output sumber normal dengan login PE
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache gambar tidak berfungsi ketika data gambar juga dilindungi, sehingga situs dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO
 画像は遅延読み込みをします	Gambar tertunda pemuatannya.
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Bila Anda juga ingin melindungi data gambar Anda, Anda dapat menempatkan pembatasan di /wp-contents/uploads dengan file .htaccess.
+画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ketika hanya URL gambar yang diproteksi, gambar akan melakukan pemuatan yang tertunda, jika tidak, default yang ditetapkan oleh Wordpress akan digunakan
+画像データも保護した時には、データベースの負荷が高くなる可能性があります	Apabila data gambar juga dilindungi, basis data dapat menjadi kelebihan beban

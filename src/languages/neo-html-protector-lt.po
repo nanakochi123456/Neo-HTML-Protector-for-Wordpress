@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.36\n"
+"Project-Id-Version: Neo HTML Protector 0.0.38\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 10:37+0900\n"
-"PO-Revision-Date: 2025-03-26 10:38+0900\n"
+"POT-Creation-Date: 2025-03-26 12:40+0900\n"
+"PO-Revision-Date: 2025-03-26 12:41+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -108,8 +108,8 @@ msgstr "Vaizdo duomenys taip pat apsaugoti"
 msgid "画像をダウンロードから保護します"
 msgstr "Apsaugo vaizdus nuo atsisiuntimo."
 
-msgid "画像は遅延読み込みをします"
-msgstr "Vėluojama įkelti vaizdus."
+msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
+msgstr "Kai apsaugotas tik paveikslėlio URL adresas, paveikslėlis bus įkeliamas pavėluotai, kitu atveju bus naudojamas Wordpress nustatytas numatytasis."
 
 msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
 msgstr "Įjungus šią funkciją, JavaScript įkeliamas prieš įkeliant paveikslėlius, todėl SEO gali sumažėti."
@@ -117,8 +117,8 @@ msgstr "Įjungus šią funkciją, JavaScript įkeliamas prieš įkeliant paveiks
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys taip pat yra apsaugoti, todėl svetainė kito apsilankymo metu įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas."
 
-msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
-msgstr "Jei taip pat norite apsaugoti vaizdų duomenis, galite nustatyti apribojimus /wp-contents/uploads naudodami .htaccess failą."
+msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Kai saugomi ir vaizdo duomenys, duomenų bazė gali būti perkrauta."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."

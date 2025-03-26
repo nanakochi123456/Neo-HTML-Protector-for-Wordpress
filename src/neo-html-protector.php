@@ -2,7 +2,7 @@
 /**
  * Plugin Name:	Neo HTML Protector
  * Plugin URI:	https://github.com/nanakochi123456/Neo-Webp-AVIF-Converter-for-Wordpress	
- * Description:	HTML Protect and Copyright Protect
+ * Description:	HTML / Image Protect and Copyright Protect
  * Version:	0.0.38
  * Requires at least: 6.0
  * Requires PHP: 8.1
@@ -17,7 +17,7 @@ defined('ABSPATH') or die('Oh! No!');
 
 define( 'NEOHP_VERSION', '0.0.38' );
 define( 'NEOHP_REQUIRED_WP_VERSION', '6.0' );
-define( 'NEOHP_BUILD', '20250326115544+0900' );
+define( 'NEOHP_BUILD', '20250326124131+0900' );
 define( 'NEOHP_PLUGIN', __FILE__ );
 define( 'NEOHP_PLUGIN_DIR', untrailingslashit( dirname( NEOHP_PLUGIN ) ) );
 define( 'NEOHP_LANG_DIR', NEOHP_PLUGIN_DIR . '/languages/' );
