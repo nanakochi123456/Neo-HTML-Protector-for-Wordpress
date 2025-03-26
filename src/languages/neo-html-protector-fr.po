@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -68,6 +68,12 @@ msgstr "Message à afficher au début de la source lorsque le HTML est obscurci 
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Message affiché si le jeton d'authentification unique est anormal pendant la protection HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Message affiché si les cookies et Javascript ne sont pas activés."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "En pratique, cela n'est visible que lorsque Javascript est désactivé."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Obfuscation HTML"
@@ -342,6 +348,9 @@ msgstr "Adresse IP non valide."
 msgid "https://google.co.jp"
 msgstr "https://google.fr"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Ce site web ne peut être consulté que si les cookies et JavaScript sont activés."
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Le mode débogage et l'activation de la console sont interdits"
 
@@ -491,7 +500,4 @@ msgstr "Le chinois traditionnel"
 
 msgid "画像が見つかりません"
 msgstr "Image non trouvée."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Ce site web ne peut être consulté que si les cookies et JavaScript sont activés."
 

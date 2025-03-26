@@ -174,3 +174,5 @@ USERログインで通常のソース出力	Saída de fonte normal com login de 
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Se também quiser proteger seus dados de imagem, você pode colocar restrições em /wp-contents/uploads com um arquivo .htaccess.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Quando apenas o URL da imagem estiver protegido, a imagem terá um carregamento atrasado; caso contrário, será usado o padrão definido pelo Wordpress
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Quando os dados de imagem também são protegidos, o banco de dados pode ficar sobrecarregado
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mensagem exibida se os cookies e o Javascript não estiverem ativados.
+実際にはJavascriptが無効時のみ表示されます	Na prática, isso só fica visível quando o Javascript está desativado.

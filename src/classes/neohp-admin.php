@@ -138,7 +138,7 @@ class neohp_admin {
 				__('HTML難読化・保護時にソースの先頭に表示するメッセージ', 'neo-html-protector'),
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-					$value = get_option('neohp_htmlprotect_message', $neohp_viewsource_default );
+					$value = get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default );
 					echo '<input type="text" name="neohp_htmlprotect_message" value="' . esc_html( $value ) . '" class="regular-text">';
 				},
 				'neohp-message-settings',
@@ -152,6 +152,21 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_nonceerror_message', $neohp_nonceerror_default );
 					echo '<input type="text" name="neohp_nonceerror_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
+			// no cookie, no js時のメッセージ
+			register_setting('neohp_message_group', 'neohp_nocookienojs_message');
+			add_settings_field(
+				'neohp_nocookienojs_message',
+				__('CookieやJavascriptが有効でない場合に表示するメッセージ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_nocookienojs_message', $neohp_nocookienojs_default );
+					echo '<input type="text" name="neohp_nocookienojs_message" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' .esc_html( __('実際にはJavascriptが無効時のみ表示されます', 'neo-html-protector') );
 				},
 				'neohp-message-settings',
 				'neohp_message_section'

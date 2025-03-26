@@ -187,3 +187,5 @@ USERログインで通常のソース出力	USER 登入後的正常來源輸出
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	當您還想要保護您的圖片資料時，您可以使用 .htaccess 檔案在 /wp-contents/uploads 中放置限制。
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	當只有圖片 URL 受保護時，圖片會進行延遲載入，否則會使用 Wordpress 設定的預設值。
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	當影像資料也受到保護時，資料庫可能會超載
+CookieやJavascriptが有効でない場合に表示するメッセージ	如果 cookies 和 Javascript 未啟用，則會顯示訊息。
+実際にはJavascriptが無効時のみ表示されます	實際上，只有關閉 Javascript 時才能看到。

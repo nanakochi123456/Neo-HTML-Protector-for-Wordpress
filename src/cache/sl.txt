@@ -173,3 +173,5 @@ USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Če želite zaščititi tudi podatke o slikah, lahko v datoteko /wp-contents/uploads postavite omejitve z datoteko .htaccess.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Če je zaščiten samo URL slike, se slika naloži z zamudo, sicer se uporabi privzeta nastavitev Wordpressa.
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Če so zaščiteni tudi slikovni podatki, lahko pride do preobremenitve podatkovne zbirke.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Sporočilo se prikaže, če piškotki in Javascript niso omogočeni.
+実際にはJavascriptが無効時のみ表示されます	V praksi je to vidno le, če je Javascript onemogočen.

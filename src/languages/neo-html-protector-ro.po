@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:41+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -68,6 +68,12 @@ msgstr "Mesajul care trebuie afișat la începutul sursei atunci când HTML este
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Mesaj afișat dacă tokenul de autentificare unică este anormal în timpul protecției HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Mesaj afișat dacă cookie-urile și Javascript nu sunt activate."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "În practică, acest lucru este vizibil numai atunci când Javascript este dezactivat."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Ofuscare HTML"
@@ -342,6 +348,9 @@ msgstr "Adresă IP invalidă."
 msgid "https://google.co.jp"
 msgstr "https://google.ro"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate"
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Modul de depanare și activarea consolei sunt interzise"
 
@@ -491,7 +500,4 @@ msgstr "Chineză tradițională"
 
 msgid "画像が見つかりません"
 msgstr "Imaginea nu a fost găsită."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate"
 

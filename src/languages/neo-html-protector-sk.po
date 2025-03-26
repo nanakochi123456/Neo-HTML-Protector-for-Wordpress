@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:41+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -68,6 +68,12 @@ msgstr "Správa, ktorá sa zobrazí na začiatku zdroja, keď je HTML obfuskovan
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Správa sa zobrazí, ak je jednorazový overovací token počas ochrany HTML abnormálny."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "V praxi je to viditeľné len vtedy, keď je vypnutý Javascript."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Obfuskácia HTML"
@@ -342,6 +348,9 @@ msgstr "Neplatná IP adresa."
 msgid "https://google.co.jp"
 msgstr "https://google.sk"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript"
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Režim ladenia a aktivácia konzoly je zakázaná"
 
@@ -491,7 +500,4 @@ msgstr "Tradičná čínština"
 
 msgid "画像が見つかりません"
 msgstr "Obrázok nebol nájdený."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript"
 

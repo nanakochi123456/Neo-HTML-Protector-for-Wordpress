@@ -173,3 +173,5 @@ USERログインで通常のソース出力	Normál forráskimenet USER bejelent
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Ha a képadatokat is védeni szeretné, akkor a /wp-contents/uploads fájlban egy .htaccess fájl segítségével korlátozásokat helyezhet el.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ha csak a kép URL címe védett, akkor a kép késleltetett betöltés lesz, egyébként a Wordpress által beállított alapértelmezettet fogja használni.
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ha a képi adatok is védettek, az adatbázis túlterhelődhet.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Üzenet jelenik meg, ha a cookie-k és a Javascript nem engedélyezett.
+実際にはJavascriptが無効時のみ表示されます	A gyakorlatban ez csak akkor látható, ha a Javascript le van tiltva.

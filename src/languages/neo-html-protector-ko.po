@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -68,6 +68,12 @@ msgstr "HTML 난독화 및 보호 시 소스 첫머리에 표시하는 메시지
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "HTML 보호 시 일회성 인증 토큰이 비정상일 경우 표시되는 메시지입니다."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "쿠키와 자바스크립트가 활성화되지 않은 경우 표시되는 메시지"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "실제로는 Javascript가 비활성화되었을 때만 표시됩니다."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML 난독화"
@@ -342,6 +348,9 @@ msgstr "잘못된 IP 주소"
 msgid "https://google.co.jp"
 msgstr "https://google.co.kr"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "이 웹사이트는 쿠키와 자바스크립트가 활성화되어 있지 않으면 볼 수 없습니다."
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "디버그 모드, 콘솔 부팅이 금지되어 있습니다."
 
@@ -491,7 +500,4 @@ msgstr "중국어 번체"
 
 msgid "画像が見つかりません"
 msgstr "이미지를 찾을 수 없습니다"
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "이 웹사이트는 쿠키와 자바스크립트가 활성화되어 있지 않으면 볼 수 없습니다."
 

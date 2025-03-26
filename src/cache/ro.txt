@@ -178,3 +178,5 @@ USERログインで通常のソース出力	Ieșire sursă normală cu autentifi
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Atunci când doriți să vă protejați și datele de imagine, puteți plasa restricții în /wp-contents/uploads cu un fișier .htaccess.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Atunci când numai URL-ul imaginii este protejat, imaginea se va încărca cu întârziere, în caz contrar se va utiliza valoarea implicită stabilită de Wordpress
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Atunci când sunt protejate și datele de imagine, baza de date poate fi supraîncărcată
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mesaj afișat dacă cookie-urile și Javascript nu sunt activate.
+実際にはJavascriptが無効時のみ表示されます	În practică, acest lucru este vizibil numai atunci când Javascript este dezactivat.

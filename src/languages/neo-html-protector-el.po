@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -68,6 +68,12 @@ msgstr "Μήνυμα που θα εμφανίζεται στην αρχή της
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Μήνυμα που εμφανίζεται εάν το διακριτικό ελέγχου ταυτότητας μιας χρήσης είναι μη φυσιολογικό κατά τη διάρκεια της προστασίας HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Μήνυμα που εμφανίζεται εάν τα cookies και η Javascript δεν είναι ενεργοποιημένα."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Στην πράξη, αυτό είναι ορατό μόνο όταν η Javascript είναι απενεργοποιημένη."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Αποκρυπτογράφηση HTML"
@@ -342,6 +348,9 @@ msgstr "Μη έγκυρη διεύθυνση IP."
 msgid "https://google.co.jp"
 msgstr "https://google.gr"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Αυτός ο ιστότοπος μπορεί να προβληθεί μόνο με ενεργοποιημένα cookies και JavaScript"
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Απαγορεύεται η λειτουργία εντοπισμού σφαλμάτων και η ενεργοποίηση της κονσόλας"
 
@@ -491,7 +500,4 @@ msgstr "παραδοσιακά κινέζικα"
 
 msgid "画像が見つかりません"
 msgstr "Η εικόνα δεν βρέθηκε."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Αυτός ο ιστότοπος μπορεί να προβληθεί μόνο με ενεργοποιημένα cookies και JavaScript"
 

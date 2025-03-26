@@ -174,3 +174,5 @@ USERログインで通常のソース出力	Normálny výstup zdroja s prihláse
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Ak chcete chrániť aj svoje obrazové údaje, môžete umiestniť obmedzenia do súboru /wp-contents/uploads pomocou súboru .htaccess.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ak je chránená iba adresa URL obrázka, obrázok sa načíta s oneskorením, inak sa použije predvolené nastavenie Wordpress
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ak sú chránené aj obrazové údaje, môže dôjsť k preťaženiu databázy
+CookieやJavascriptが有効でない場合に表示するメッセージ	Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript.
+実際にはJavascriptが無効時のみ表示されます	V praxi je to viditeľné len vtedy, keď je vypnutý Javascript.

@@ -174,3 +174,5 @@ USERログインで通常のソース出力	Tavaline allikas väljund koos USER 
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Kui soovite kaitsta ka oma pildiandmeid, võite panna piirangud /wp-contents/uploads faili .htaccess abil.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Kui ainult pildi URL on kaitstud, teeb pilt hilinenud laadimist, vastasel juhul kasutatakse Wordpressi poolt määratud vaikimisi seadistust.
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Kui ka pildiandmed on kaitstud, võib andmebaas muutuda ülekoormatuks.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Kui küpsised ja Javascript ei ole lubatud, kuvatakse teade.
+実際にはJavascriptが無効時のみ表示されます	Praktikas on see nähtav ainult siis, kui Javascript on välja lülitatud.

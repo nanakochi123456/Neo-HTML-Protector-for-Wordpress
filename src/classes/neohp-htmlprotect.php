@@ -52,7 +52,7 @@ class neohp_htmlprotect {
 			// 本物のコンテンツ
 			add_action('wp_head', function () {
 				$lang = get_bloginfo('language');
-				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+					$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 				$head = $html . $this->neohp_head_content;
 				$head = $this->replace_image_urls($head);
 				if( ! $this->neohp_func->login() ) {
@@ -187,7 +187,7 @@ class neohp_htmlprotect {
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
 			$ua = $this->neohp_func->get_user_agent();
-			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
+			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) );
 
 			// ユーザーのIPアドレスを取得
 			$user_ip = $this->neohp_func->get_user_ip();
@@ -235,7 +235,7 @@ class neohp_htmlprotect {
 		}
 
 		$head .= '<noscript>';
-		$head .= esc_html( __('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector') );
+		$head .= esc_html( get_option('neohp_nocookienojs_message', $neohp_nocookienojs_default ) );
 		$head .= '</noscript>';
 		$head .= '</head></html>';
 

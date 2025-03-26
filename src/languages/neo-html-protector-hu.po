@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -68,6 +68,12 @@ msgstr "A forrás elején megjelenítendő üzenet, ha a HTML kódot homályosí
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "A megjelenő üzenet, ha az egyszeri hitelesítési token rendellenes a HTML-védelem során."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Üzenet jelenik meg, ha a cookie-k és a Javascript nem engedélyezett."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "A gyakorlatban ez csak akkor látható, ha a Javascript le van tiltva."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML homályosítás"
@@ -342,6 +348,9 @@ msgstr "Érvénytelen IP-cím."
 msgid "https://google.co.jp"
 msgstr "https://google.hu"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Ez a weboldal csak cookie-k és JavaScript engedélyezésével tekinthető meg."
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "A hibakeresési mód és a konzol aktiválása tilos."
 
@@ -491,7 +500,4 @@ msgstr "Hagyományos kínai"
 
 msgid "画像が見つかりません"
 msgstr "A kép nem található."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Ez a weboldal csak cookie-k és JavaScript engedélyezésével tekinthető meg."
 

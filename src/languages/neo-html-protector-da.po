@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -68,6 +68,12 @@ msgstr "Besked, der vises i begyndelsen af kilden, når HTML er obfuskeret og be
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Meddelelse, der vises, hvis tokenet til engangsgodkendelse er unormalt under HTML-beskyttelse."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Meddelelse vises, hvis cookies og Javascript ikke er aktiveret."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "I praksis er dette kun synligt, når Javascript er deaktiveret."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML-forvirring"
@@ -342,6 +348,9 @@ msgstr "Ugyldig IP-adresse."
 msgid "https://google.co.jp"
 msgstr "https://google.dk"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Denne hjemmeside kan kun ses med cookies og JavaScript aktiveret."
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Fejlsøgningstilstand og konsolaktivering er forbudt"
 
@@ -491,7 +500,4 @@ msgstr "Traditionelt kinesisk"
 
 msgid "画像が見つかりません"
 msgstr "Billedet blev ikke fundet."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Denne hjemmeside kan kun ses med cookies og JavaScript aktiveret."
 

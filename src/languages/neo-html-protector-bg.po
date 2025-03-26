@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Bulgarian\n"
 "Language: bg\n"
@@ -68,6 +68,12 @@ msgstr "Съобщение, което да се показва в начало�
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Съобщение, което се показва, ако еднократният токен за удостоверяване е анормален по време на защитата на HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Съобщение, което се показва, ако бисквитките и Javascript не са разрешени."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "На практика това е видимо само когато Javascript е изключен."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Обфускация на HTML"
@@ -342,6 +348,9 @@ msgstr "Невалиден IP адрес."
 msgid "https://google.co.jp"
 msgstr "https://google.bg"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Този уебсайт може да се разглежда само с активирани бисквитки и JavaScript"
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Режимът за отстраняване на грешки и активирането на конзолата са забранени"
 
@@ -491,7 +500,4 @@ msgstr "традиционен китайски език"
 
 msgid "画像が見つかりません"
 msgstr "Изображението не е намерено."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Този уебсайт може да се разглежда само с активирани бисквитки и JavaScript"
 

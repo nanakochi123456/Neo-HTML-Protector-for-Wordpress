@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:41+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -68,6 +68,12 @@ msgstr "Sporočilo, ki se prikaže na začetku vira, ko je HTML zakrit in zašč
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Sporočilo, ki se prikaže, če je žeton za enkratno preverjanje pristnosti med zaščito HTML nenormalen."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Sporočilo se prikaže, če piškotki in Javascript niso omogočeni."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "V praksi je to vidno le, če je Javascript onemogočen."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Obfuskacija HTML"
@@ -342,6 +348,9 @@ msgstr "Nepravilen naslov IP."
 msgid "https://google.co.jp"
 msgstr "https://google.si"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom"
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Prepovedan je način za odpravljanje napak in aktiviranje konzole"
 
@@ -491,7 +500,4 @@ msgstr "Tradicionalna kitajščina"
 
 msgid "画像が見つかりません"
 msgstr "Slike ni mogoče najti."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom"
 

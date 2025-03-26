@@ -174,3 +174,5 @@ USERログインで通常のソース出力	Įprastas šaltinio išėjimas su va
 画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Jei taip pat norite apsaugoti vaizdų duomenis, galite nustatyti apribojimus /wp-contents/uploads naudodami .htaccess failą.
 画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Kai apsaugotas tik paveikslėlio URL adresas, paveikslėlis bus įkeliamas pavėluotai, kitu atveju bus naudojamas "Wordpress" nustatytas numatytasis.
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Kai saugomi ir vaizdo duomenys, duomenų bazė gali būti perkrauta.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Pranešimas rodomas, jei slapukai ir Javascript nėra įjungti.
+実際にはJavascriptが無効時のみ表示されます	Praktiškai tai matoma tik tada, kai "Javascript" yra išjungtas.

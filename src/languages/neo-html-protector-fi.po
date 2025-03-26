@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.38\n"
+"Project-Id-Version: Neo HTML Protector 0.0.39\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 12:40+0900\n"
-"PO-Revision-Date: 2025-03-26 12:40+0900\n"
+"POT-Creation-Date: 2025-03-26 13:03+0900\n"
+"PO-Revision-Date: 2025-03-26 13:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -68,6 +68,12 @@ msgstr "Viesti, joka näytetään lähdekoodin alussa, kun HTML on peitetty ja s
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
 msgstr "Näytettävä viesti, jos kertaluonteisen todennuksen tunniste on epänormaali HTML-suojauksen aikana."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Näytetään viesti, jos evästeet ja Javascript eivät ole käytössä."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Käytännössä tämä näkyy vain, kun Javascript on poistettu käytöstä."
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML:n peittäminen"
@@ -342,6 +348,9 @@ msgstr "Virheellinen IP-osoite."
 msgid "https://google.co.jp"
 msgstr "https://google.fi"
 
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä."
+
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Vianmääritystila ja konsolin aktivointi on kielletty."
 
@@ -491,7 +500,4 @@ msgstr "Perinteinen kiina"
 
 msgid "画像が見つかりません"
 msgstr "Kuvaa ei löydy."
-
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä."
 
