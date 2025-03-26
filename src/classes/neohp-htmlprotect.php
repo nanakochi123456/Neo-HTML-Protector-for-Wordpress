@@ -52,7 +52,12 @@ class neohp_htmlprotect {
 			// 本物のコンテンツ
 			add_action('wp_head', function () {
 				$lang = get_bloginfo('language');
-					$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+				header( 'Content-Type: text/html' );
+				header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );
+				header( 'Cache-Control: post-check=0, pre-check=0', false);
+				header( 'Pragma: no-cache' );
+				header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
+				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 				$head = $html . $this->neohp_head_content;
 				$head = $this->replace_image_urls($head);
 				if( ! $this->neohp_func->login() ) {
@@ -185,7 +190,7 @@ class neohp_htmlprotect {
 
 
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-		if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
+		if(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) !== '') {
 			$ua = $this->neohp_func->get_user_agent();
 			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) );
 

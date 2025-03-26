@@ -716,11 +716,10 @@ class neohp_admin {
 <p><?php echo esc_html( __('サポートページ', 'neo-html-protector') ) ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>
 <p><a target="_blank" href="https://support.773.moe/donate/"><img src="<?php echo esc_html( NEOHP_IMG_URL ) ?>/nano.gif" alt="Donate Button" width="240" style="border-radius: 30px"></a></p>
 		<?php
-		// phpcs:disable Scripts must be registered/enqueued via wp_enqueue_script()
+		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscape
 		// This is an officially provided embedded HTML, and is unlikely to be processed from outside
-		?>
-<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm44565088/script?w=640&h=360"></script><br><a target="_blank" href="https://www.nicovideo.jp/watch/sm44565088">[<?php echo esc_html( __('ISISちゃん', 'neo-html-protector') ) ?>]Give Me Merorin 1.6 <?php echo esc_html( __('Miss. 裏まにら氏歌唱', 'neo-html-protector') ) ?></a></p>
-		<?php
+echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm44565088/script?w=640&h=360"></script><br><a target="_blank" href="https://www.nicovideo.jp/watch/sm44565088">[' . esc_html(__('ISISちゃん', 'neo-html-protector')) . '] Give Me Merorin 1.6 ' . __('Miss. 裏まにら氏歌唱', 'neo-html-protector') . '</a></p>';
 		// phpcs:enable
 		?>
 <h2><?php echo esc_html( __('支援のお願い', 'neo-html-protector') ) ?></h2>

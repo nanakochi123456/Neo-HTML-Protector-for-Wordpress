@@ -48,7 +48,7 @@ class neohp {
 
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-functions.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-database.php';
-//require_once NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+require_once NEOHP_PLUGIN_DIR . '/classes/neohp-javascript.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-htmlprotect.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-htmlcompress.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-cssprintblock.php';
