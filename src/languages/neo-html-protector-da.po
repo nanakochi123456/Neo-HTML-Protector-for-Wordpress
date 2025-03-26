@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.40\n"
+"Project-Id-Version: Neo HTML Protector 0.0.44\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 15:09+0900\n"
-"PO-Revision-Date: 2025-03-26 15:10+0900\n"
+"POT-Creation-Date: 2025-03-27 00:33+0900\n"
+"PO-Revision-Date: 2025-03-27 00:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -105,32 +105,20 @@ msgstr "Designet kan ændre sig en smule."
 msgid "画像の保護"
 msgstr "Billedbeskyttelse."
 
-msgid "画像URLのみ保護"
-msgstr "Kun billed-URL'er er beskyttet."
-
-msgid "画像データも保護"
-msgstr "Billeddata er også beskyttet"
+msgid "画像を保護"
+msgstr ""
 
 msgid "画像をダウンロードから保護します"
 msgstr "Beskytter billeder mod at blive downloadet."
 
-msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
-msgstr "Når kun billed-URL'en er beskyttet, dekrypteres den faktiske billedoverførsel af JavaScript, og billedet vises på en generisk måde."
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr ""
 
-msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Billeddata forhindrer også næsten fuldstændig download, når de er beskyttet, udsender en komplet engangswebadresse, autentificerer med et token, der er gemt i sessionen, og viser billedet fra php, hvilket forhindrer næsten fuldstændigt billedtyveri."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr ""
 
-msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
-msgstr "Når kun billedets URL er beskyttet, vil billedet blive indlæst med forsinkelse, ellers vil Wordpress' standardindstilling blive brugt."
-
-msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Når du aktiverer URL-beskyttelse af billeder, indlæses JavaScript altid, før billedet indlæses, så det kan gå ud over SEO!"
-
-msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Billedcaching fungerer ikke, når billeddata også er beskyttet, så siden indlæses langsommere ved næste besøg, hvilket kan resultere i et fald i SEO."
-
-msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr "Når billeddata også er beskyttet, kan databasen blive overbelastet"
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr ""
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output af ASCII-kunst i HTML-kildekode under HTML-forvirring og -beskyttelse."

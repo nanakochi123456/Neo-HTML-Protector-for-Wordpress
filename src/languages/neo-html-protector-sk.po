@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.40\n"
+"Project-Id-Version: Neo HTML Protector 0.0.44\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 15:09+0900\n"
-"PO-Revision-Date: 2025-03-26 15:10+0900\n"
+"POT-Creation-Date: 2025-03-27 00:33+0900\n"
+"PO-Revision-Date: 2025-03-27 00:42+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -105,32 +105,20 @@ msgstr "Dizajn sa môže mierne zmeniť."
 msgid "画像の保護"
 msgstr "Ochrana obrazu."
 
-msgid "画像URLのみ保護"
-msgstr "Chránené sú len adresy URL obrázkov."
-
-msgid "画像データも保護"
-msgstr "Chránené sú aj obrazové údaje"
+msgid "画像を保護"
+msgstr ""
 
 msgid "画像をダウンロードから保護します"
 msgstr "Chráni obrázky pred sťahovaním."
 
-msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
-msgstr "Ak je chránená iba adresa URL obrázka, je chránená iba adresa URL obrázka, skutočný prenos obrázka sa dešifruje pomocou JavaScriptu a obrázok sa zobrazí všeobecným spôsobom."
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr ""
 
-msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Údaje o obrázku tiež zabraňujú takmer úplnému stiahnutiu, keď sú chránené, vydávajú úplnú jednorazovú adresu URL, overujú sa pomocou tokenu uloženého v relácii a zobrazujú obrázok z php, čím zabraňujú takmer úplnej krádeži obrázka."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr ""
 
-msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
-msgstr "Ak je chránená iba adresa URL obrázka, obrázok sa načíta s oneskorením, inak sa použije predvolené nastavenie Wordpress"
-
-msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Vždy, keď povolíte ochranu len URL obrázka, JavaScript sa načíta vždy pred načítaním obrázka, takže SEO môže utrpieť!"
-
-msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Ukladanie obrázkov do vyrovnávacej pamäte nefunguje, keď sú chránené aj obrazové údaje, takže sa stránka pri ďalšej návšteve načíta pomalšie, čo môže mať za následok pokles SEO."
-
-msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr "Ak sú chránené aj obrazové údaje, môže dôjsť k preťaženiu databázy"
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr ""
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML."

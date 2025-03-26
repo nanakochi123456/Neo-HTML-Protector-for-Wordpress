@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.40\n"
+"Project-Id-Version: Neo HTML Protector 0.0.44\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 15:09+0900\n"
-"PO-Revision-Date: 2025-03-26 15:10+0900\n"
+"POT-Creation-Date: 2025-03-27 00:33+0900\n"
+"PO-Revision-Date: 2025-03-27 00:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -105,32 +105,20 @@ msgstr "Muotoilu saattaa muuttua hieman."
 msgid "画像の保護"
 msgstr "Kuvan suojaus."
 
-msgid "画像URLのみ保護"
-msgstr "Vain kuvien URL-osoitteet on suojattu."
-
-msgid "画像データも保護"
-msgstr "Myös kuvatiedot suojattu"
+msgid "画像を保護"
+msgstr ""
 
 msgid "画像をダウンロードから保護します"
 msgstr "Suojaa kuvia lataukselta."
 
-msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
-msgstr "Kun vain kuvan URL-osoite on suojattu, vain kuvan URL-osoite on suojattu, varsinainen kuvansiirto puretaan JavaScriptillä ja kuva näytetään yleisellä tavalla."
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr ""
 
-msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Kuvatiedot estävät myös lähes täydellisen lataamisen, kun ne on suojattu, antavat täydellisen kertaluonteisen URL-osoitteen, todennetaan istuntoon tallennetulla tunnisteella ja näytetään kuva php:stä, mikä estää lähes täydellisen kuvavarkauden."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr ""
 
-msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
-msgstr "Kun vain kuvan URL-osoite on suojattu, kuva latautuu viiveellä, muuten käytetään Wordpressin asettamaa oletusarvoa."
-
-msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Aina kun otat käyttöön vain kuvan URL-osoitteen suojauksen, JavaScript ladataan aina ennen kuvan lataamista, joten hakukoneoptimointi voi kärsiä!"
-
-msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Kuvien välimuistitallennus ei toimi, kun myös kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia."
-
-msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr "Kun myös kuvatiedot suojataan, tietokanta voi ylikuormittua."
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr ""
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana."

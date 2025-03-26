@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.40\n"
+"Project-Id-Version: Neo HTML Protector 0.0.44\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 15:09+0900\n"
-"PO-Revision-Date: 2025-03-26 15:10+0900\n"
+"POT-Creation-Date: 2025-03-27 00:33+0900\n"
+"PO-Revision-Date: 2025-03-27 00:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -105,32 +105,20 @@ msgstr "Desain mungkin sedikit berubah."
 msgid "画像の保護"
 msgstr "Perlindungan gambar."
 
-msgid "画像URLのみ保護"
-msgstr "Hanya URL gambar yang dilindungi."
-
-msgid "画像データも保護"
-msgstr "Data gambar juga dilindungi"
+msgid "画像を保護"
+msgstr ""
 
 msgid "画像をダウンロードから保護します"
 msgstr "Melindungi gambar agar tidak diunduh."
 
-msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
-msgstr "Ketika hanya URL gambar yang dilindungi, hanya URL gambar yang dilindungi, transfer gambar yang sebenarnya didekripsi oleh JavaScript dan gambar ditampilkan dengan cara yang umum."
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr ""
 
-msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Data gambar juga mencegah pengunduhan yang hampir selesai saat diproteksi, mengeluarkan URL satu kali yang lengkap, mengautentikasi dengan token yang tersimpan di sesi dan menampilkan gambar dari php, sehingga mencegah pencurian gambar yang hampir selesai."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr ""
 
-msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
-msgstr "Ketika hanya URL gambar yang diproteksi, gambar akan melakukan pemuatan yang tertunda, jika tidak, default yang ditetapkan oleh Wordpress akan digunakan"
-
-msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Kapan pun Anda mengaktifkan proteksi khusus URL gambar, JavaScript selalu dimuat sebelum gambar dimuat, sehingga SEO mungkin akan terganggu!"
-
-msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Cache gambar tidak berfungsi ketika data gambar juga dilindungi, sehingga situs dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO"
-
-msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr "Apabila data gambar juga dilindungi, basis data dapat menjadi kelebihan beban"
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr ""
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML."

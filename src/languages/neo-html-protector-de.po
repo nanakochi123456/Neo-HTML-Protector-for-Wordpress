@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.40\n"
+"Project-Id-Version: Neo HTML Protector 0.0.44\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 15:09+0900\n"
-"PO-Revision-Date: 2025-03-26 15:10+0900\n"
+"POT-Creation-Date: 2025-03-27 00:33+0900\n"
+"PO-Revision-Date: 2025-03-27 00:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -105,32 +105,20 @@ msgstr "Das Design kann sich geringfügig ändern."
 msgid "画像の保護"
 msgstr "Bildschutz."
 
-msgid "画像URLのみ保護"
-msgstr "Nur Bild-URLs sind geschützt."
-
-msgid "画像データも保護"
-msgstr "Bilddaten ebenfalls geschützt"
+msgid "画像を保護"
+msgstr ""
 
 msgid "画像をダウンロードから保護します"
 msgstr "Schützt Bilder vor dem Herunterladen."
 
-msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
-msgstr "Wenn nur die Bild-URL geschützt ist, wird nur die Bild-URL geschützt, die eigentliche Bildübertragung wird durch JavaScript entschlüsselt und das Bild wird in einer generischen Form angezeigt."
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr ""
 
-msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Bilddaten verhindern auch ein fast vollständiges Herunterladen, wenn sie geschützt sind, geben eine vollständige Einmal-URL aus, authentifizieren sich mit einem in der Sitzung gespeicherten Token und zeigen das Bild von php an, wodurch ein fast vollständiger Bilddiebstahl verhindert wird."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr ""
 
-msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
-msgstr "Wenn nur die Bild-URL geschützt ist, wird das Bild verzögert geladen, andernfalls wird die Standardeinstellung von Wordpress verwendet"
-
-msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Wenn Sie den reinen URL-Schutz für Bilder aktivieren, wird JavaScript immer geladen, bevor das Bild geladen wird, so dass die Suchmaschinenoptimierung darunter leiden kann!"
-
-msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Die Zwischenspeicherung von Bildern funktioniert nicht, wenn auch die Bilddaten geschützt sind, so dass die Website beim nächsten Besuch langsamer geladen wird, was zu einer Verschlechterung der Suchmaschinenoptimierung führen kann."
-
-msgid "画像データも保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr "Wenn auch Bilddaten geschützt sind, kann die Datenbank überlastet werden."
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr ""
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Ausgabe von ASCII-Kunst im HTML-Quellcode während der HTML-Verschleierung und des HTML-Schutzes."

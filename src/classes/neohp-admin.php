@@ -219,18 +219,15 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imageprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_imageprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('画像URLのみ保護', 'neo-html-protector')
-						, '2=' . __('画像データも保護', 'neo-html-protector')
+						, '1=' . __('画像を保護', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます', 'neo-html-protector') );
 					echo '<br>';
-					echo '<br>' .esc_html( __('画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('画像データも保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データを保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
