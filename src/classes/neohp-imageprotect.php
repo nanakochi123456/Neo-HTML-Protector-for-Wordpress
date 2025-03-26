@@ -21,6 +21,8 @@ class neohp_imageprotect {
 			}
 		}
 
+		session_start();
+
 		// JavaScript挿入
 		add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
 
@@ -30,7 +32,6 @@ class neohp_imageprotect {
 			// headタグをキャプチャ開始
 
 			add_action('template_redirect', function () {
-				session_start();
 				$this->protectimage();
 			}, 0);
 
