@@ -114,7 +114,6 @@
 								const encryptedData_src = img.getAttribute('data-src');
 								const encryptedData_srcset = img.getAttribute('data-srcset');
 								const nonce = img.getAttribute('data-nonce');
-
 								// 画像URLを復号化
 								const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
 								const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);

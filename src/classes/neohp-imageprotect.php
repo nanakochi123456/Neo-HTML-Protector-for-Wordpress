@@ -3,6 +3,7 @@
  * Neo HTML Protector neohp_imageprotect
  */
 
+define( 'NEOHP_REQUIRED_CRYPTO_JS_VERSION', '4.2.0' );
 define('NEOHP_IMAGE_EXPIRE', 60 * 10);
 $neohp_imageprotect=new neohp_imageprotect();
 
@@ -63,7 +64,8 @@ class neohp_imageprotect {
 					// 各パーツごとに置換
 					$this->neohp_func->deletetransient($part);
 				}
-				$this->neohp_func->deletetransient('nonce');
+				// nonceは放置する
+				// $this->neohp_func->deletetransient('nonce');
 
 				$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce);
 				// WordPressのアップロードディレクトリのURLを取得
@@ -171,15 +173,15 @@ class neohp_imageprotect {
 			)
 		);
 
+			// 暗号化されたデータとIVを分割
 		// 暗号化されたデータとIVを分割
-	// 暗号化されたデータとIVを分割
-	$parts = explode(':', $decodedData);
-	if (count($parts) !== 2) {
-		error_log("Invalid data format: " . $decodedData);
-		return "";
-	}
+		$parts = explode(':', $decodedData);
+		if (count($parts) !== 2) {
+			error_log("Invalid data format: " . $decodedData);
+			return "";
+		}
 
-	list($encrypted_url, $encoded_iv) = $parts;
+		list($encrypted_url, $encoded_iv) = $parts;
 
 		// IVをデコード
 		$iv = base64_decode($encoded_iv);
@@ -315,6 +317,8 @@ class neohp_imageprotect {
 				// nonceをcookieに追加（オプション）
 				$this->neohp_func->settransient(
 					'nonce', $this->nonce, NEOHP_IMAGE_EXPIRE);
+
+				$attributes['data-nonce'] = $this->nonce;
 			}
 		}
 		return $attributes;
