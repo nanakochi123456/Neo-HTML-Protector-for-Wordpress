@@ -3,7 +3,7 @@
  * Plugin Name:	Neo HTML Protector
  * Plugin URI:	https://github.com/nanakochi123456/Neo-Webp-AVIF-Converter-for-Wordpress	
  * Description:	HTML / Image Protect and Copyright Protect
- * Version:	0.0.40
+ * Version:	0.0.42
  * Requires at least: 6.0
  * Requires PHP: 8.1
  * Author: Nano Yozakura
@@ -15,9 +15,11 @@
 
 defined('ABSPATH') or die('Oh! No!');
 
-define( 'NEOHP_VERSION', '0.0.40' );
+define( 'NEOHP_VERSION', '0.0.42' );
 define( 'NEOHP_REQUIRED_WP_VERSION', '6.0' );
-define( 'NEOHP_BUILD', '20250326150949+0900' );
+define( 'NEOHP_REQUIRED_CRYPTO_JS_VERSION', '0.0.42' );
+// https://github.com/brix/crypto-js/tags
+define( 'NEOHP_BUILD', '20250326215214+0900' );
 define( 'NEOHP_PLUGIN', __FILE__ );
 define( 'NEOHP_PLUGIN_DIR', untrailingslashit( dirname( NEOHP_PLUGIN ) ) );
 define( 'NEOHP_LANG_DIR', NEOHP_PLUGIN_DIR . '/languages/' );
@@ -49,6 +51,7 @@ class neohp {
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-functions.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-database.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-javascript.php';
+require_once NEOHP_PLUGIN_DIR . '/classes/neohp-imageprotect.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-htmlprotect.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-htmlcompress.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-cssprintblock.php';
