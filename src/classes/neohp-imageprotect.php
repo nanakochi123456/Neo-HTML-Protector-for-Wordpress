@@ -57,7 +57,7 @@ class neohp_imageprotect {
 
 			if(isset($encoded_image_url)) {
 				$transient=$this->neohp_func->gettransient($encoded_image_url);
-				$nonce=$this->neohp_func->gettransient('nonce');
+				$nonce=$this->neohp_func->gettransient($transient . '_nonce');
 				$parts = explode(',', $transient);
 				
 				foreach ($parts as &$part) {
@@ -129,9 +129,8 @@ class neohp_imageprotect {
 							exit;
 						}
 					}
-				} else {
-					wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 				}
+				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 			}
 		}
 	}
@@ -316,7 +315,7 @@ class neohp_imageprotect {
 
 				// nonceをcookieに追加（オプション）
 				$this->neohp_func->settransient(
-					'nonce', $this->nonce, NEOHP_IMAGE_EXPIRE);
+					$transientstr . '_nonce', $this->nonce, NEOHP_IMAGE_EXPIRE);
 
 				$attributes['data-nonce'] = $this->nonce;
 			}
