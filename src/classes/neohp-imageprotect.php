@@ -40,17 +40,11 @@ class neohp_imageprotect {
 			}, 0);
 
 			// 画像のリプレイスフィルタ
-//			if( ! $this->neohp_func->user() ) {
-				if(get_option('neohp_imageprotect', '0') === '1') {
-					add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTags'), 100, 2);
-				} else {
-					add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode2'), 2, 2);
-				}
-//			}
+			add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
 		}
 	}
 
-	// Mode2で画像を表示する
+	// Mode1で画像を表示する
 	function protectimage() {
 		if (isset($_GET['neohp']) && $_GET['neohp'] == 'img' && isset($_GET['img'])) {
 			$encoded_image_url = sanitize_text_field($_GET['img']);
@@ -221,40 +215,9 @@ class neohp_imageprotect {
 			return ctype_lower($char) ? strtoupper($char) : strtolower($char);
 		}, $str);
 	}
-	// 実際の処理 mode1
-	function processImageTags($attributes, $attachment) {
-		$site_url = get_site_url();
 
-		if (isset($attributes['src'])) {
-			// site_urlと同一の時のみ処理する
-			if (strpos($attributes['src'], $site_url) === 0) {
-				// classを追加する
-				if (isset($attributes['class'])) {
-					$attributes['class'] .= ' protected';
-				} else {
-					$attributes['class'] = 'protected';
-				}
-
-				// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
-				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $this->nonce);
-				$attributes['data-src'] = $encoded_src;
-				// 最小GIFをsrcに設定
-				$attributes['src'] = $this->mingif;
-
-				if (isset($attributes['srcset'])) {
-					$encoded_srcset = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['srcset']), $this->nonce);
-					$attributes['data-srcset'] = $encoded_srcset;
-					unset($attributes['srcset']); // srcset属性を削除
-				}
-
-				// nonceをimgタグに追加（オプション）
-				$attributes['data-nonce'] = $this->nonce;
-			}
-		}
-		return $attributes;
-	}
-	// 実際の処理 mode2
-	function processImageTagsMode2($attributes, $attachment) {
+	// 実際の処理 Mode1
+	function processImageTagsMode1($attributes, $attachment) {
 		$site_url = get_site_url();
 		// transientの初期化
 		$transient = [];
