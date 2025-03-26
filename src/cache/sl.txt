@@ -170,3 +170,4 @@ USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 画像データも保護	Zaščiteni so tudi slikovni podatki
 画像は遅延読み込みをします	Slike se nalagajo z zamudo.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Če so zaščiteni tudi slikovni podatki, predpomnilnik slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, zaradi česar se lahko zmanjša SEO.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Če želite zaščititi tudi podatke o slikah, lahko v datoteko /wp-contents/uploads postavite omejitve z datoteko .htaccess.

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -116,6 +116,9 @@ msgstr "Bunu etkinleştirdiğinizde, JavaScript görüntüler yüklenmeden önce
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Görüntü verileri de korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir"
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Resim verilerinizi de korumak istediğinizde, bir .htaccess dosyası ile /wp-contents/uploads içine kısıtlamalar yerleştirebilirsiniz."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
@@ -335,9 +338,6 @@ msgstr "Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalı
 
 msgid "無効なIPアドレス"
 msgstr "Geçersiz IP adresi."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Geçersiz kullanıcı aracısı."
 
 msgid "https://google.co.jp"
 msgstr "https://google.com.tr"

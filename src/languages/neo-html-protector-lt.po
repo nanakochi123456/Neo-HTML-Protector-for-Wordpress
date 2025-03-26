@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -116,6 +116,9 @@ msgstr "Įjungus šią funkciją, JavaScript įkeliamas prieš įkeliant paveiks
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys taip pat yra apsaugoti, todėl svetainė kito apsilankymo metu įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas."
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Jei taip pat norite apsaugoti vaizdų duomenis, galite nustatyti apribojimus /wp-contents/uploads naudodami .htaccess failą."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."
@@ -335,9 +338,6 @@ msgstr "Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje."
 
 msgid "無効なIPアドレス"
 msgstr "Netinkamas IP adresas."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Netinkamas naudotojo agentas."
 
 msgid "https://google.co.jp"
 msgstr "https://google.lt"

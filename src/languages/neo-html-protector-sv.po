@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -116,6 +116,9 @@ msgstr "När du aktiverar det laddas JavaScript innan bilderna laddas, så SEO k
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Cachelagring av bilder fungerar inte när bilddata också är skyddade, så webbplatsen laddas långsammare vid nästa besök, vilket kan leda till sämre SEO"
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Om du även vill skydda dina bilddata kan du lägga in begränsningar i /wp-contents/uploads med en .htaccess-fil."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av HTML."
@@ -335,9 +338,6 @@ msgstr "Vi tackar för ert stöd och ser fram emot att arbeta med er i framtiden
 
 msgid "無効なIPアドレス"
 msgstr "Ogiltig IP-adress."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Ogiltig användaragent."
 
 msgid "https://google.co.jp"
 msgstr "https://google.se"

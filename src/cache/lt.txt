@@ -171,3 +171,4 @@ USERログインで通常のソース出力	Įprastas šaltinio išėjimas su va
 画像データも保護	Vaizdo duomenys taip pat apsaugoti
 画像は遅延読み込みをします	Vėluojama įkelti vaizdus.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys taip pat yra apsaugoti, todėl svetainė kito apsilankymo metu įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Jei taip pat norite apsaugoti vaizdų duomenis, galite nustatyti apribojimus /wp-contents/uploads naudodami .htaccess failą.

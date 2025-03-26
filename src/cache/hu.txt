@@ -170,3 +170,4 @@ USERログインで通常のソース出力	Normál forráskimenet USER bejelent
 画像データも保護	A képi adatok is védettek
 画像は遅延読み込みをします	A képek késve töltődnek be.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	A képek gyorsítótárazása nem működik, ha a képadatok is védettek, így az oldal lassabban töltődik be a következő látogatáskor, ami a SEO-értékek csökkenéséhez vezethet.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Ha a képadatokat is védeni szeretné, akkor a /wp-contents/uploads fájlban egy .htaccess fájl segítségével korlátozásokat helyezhet el.

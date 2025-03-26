@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -116,6 +116,9 @@ msgstr "Κάθε φορά που την ενεργοποιείτε, η JavaScrip
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Η προσωρινή αποθήκευση εικόνων δεν λειτουργεί όταν τα δεδομένα εικόνων είναι επίσης προστατευμένα, οπότε ο ιστότοπος φορτώνει πιο αργά στην επόμενη επίσκεψη, γεγονός που μπορεί να οδηγήσει σε πτώση του SEO."
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Όταν θέλετε επίσης να προστατεύσετε τα δεδομένα των εικόνων σας, μπορείτε να τοποθετήσετε περιορισμούς στο /wp-contents/uploads με ένα αρχείο .htaccess."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Έξοδος της τέχνης ASCII στον πηγαίο κώδικα HTML κατά τη διάρκεια της θόλωσης και της προστασίας της HTML."
@@ -335,9 +338,6 @@ msgstr "Σας ευχαριστούμε για την υποστήριξή σα�
 
 msgid "無効なIPアドレス"
 msgstr "Μη έγκυρη διεύθυνση IP."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Μη έγκυρος πράκτορας χρήστη."
 
 msgid "https://google.co.jp"
 msgstr "https://google.gr"

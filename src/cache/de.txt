@@ -177,3 +177,4 @@ USERログインで通常のソース出力	Normale Quellenausgabe mit USER-Anme
 画像データも保護	Bilddaten ebenfalls geschützt
 画像は遅延読み込みをします	Bilder werden verzögert geladen.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Die Zwischenspeicherung von Bildern funktioniert nicht, wenn auch die Bilddaten geschützt sind, so dass die Website beim nächsten Besuch langsamer geladen wird, was zu einer Verschlechterung der Suchmaschinenoptimierung führen kann.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Wenn Sie auch Ihre Bilddaten schützen wollen, können Sie in /wp-contents/uploads mit einer .htaccess-Datei Einschränkungen vornehmen.

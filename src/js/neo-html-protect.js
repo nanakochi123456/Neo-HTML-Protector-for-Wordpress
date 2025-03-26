@@ -14,6 +14,7 @@
 	const	uKey='u';
 	const	pKey='p';
 	const	sKey='s';
+	const	zKey='z';
 	const	rClick='r';
 	const	CopyCut='c';
 
@@ -185,99 +186,106 @@
 	}
 
 	function decryptAndDecodeImageUrl(encryptedData, nonce) {
-		try {
-			// Base64デコードして暗号化されたデータとIVを分ける
+		if (typeof CryptoJS !== 'undefined') {
+			try {
+				// Base64デコードして暗号化されたデータとIVを分ける
 
-			const decodedData = urlSafeBase64Decode(encryptedData);
-			const parts = decodedData.split('::');
+				const decodedData = urlSafeBase64Decode(encryptedData);
+				const parts = decodedData.split(':');
 
-			if (parts.length !== 2) {
-				console.error("Invalid encrypted data format");
-				return null;
-			}
-
-			const encryptedUrl = parts[0];
-			const encodedIv = parts[1];
-
-			// IVをBase64デコード
-			const iv = CryptoJS.enc.Base64.parse(encodedIv);
-
-			// nonceをキーとしてSHA256で生成（WordArray型）
-			const key = CryptoJS.SHA256(nonce);
-
-			// 暗号化データをBase64からパース
-			const encryptedWordArray = CryptoJS.enc.Base64.parse(encryptedUrl);
-
-			// AESで復号化
-			const decrypted = CryptoJS.AES.decrypt(
-				{ ciphertext: encryptedWordArray },
-				key,
-				{
-					iv: iv,
-					mode: CryptoJS.mode.CBC,
-					padding: CryptoJS.pad.Pkcs7
+				if (parts.length !== 2) {
+					console.error("Invalid encrypted data format");
+					return null;
 				}
-			);
 
-			if (!decrypted) {
-				console.error("Decryption failed");
+				const encryptedUrl = parts[0];
+				const encodedIv = parts[1];
+
+				// IVをBase64デコード
+				const iv = CryptoJS.enc.Base64.parse(encodedIv);
+
+				// nonceをキーとしてSHA256で生成（WordArray型）
+				const key = CryptoJS.SHA256(nonce);
+
+				// 暗号化データをBase64からパース
+				const encryptedWordArray = CryptoJS.enc.Base64.parse(encryptedUrl);
+
+				// AESで復号化
+				const decrypted = CryptoJS.AES.decrypt(
+					{ ciphertext: encryptedWordArray },
+					key,
+					{
+						iv: iv,
+						mode: CryptoJS.mode.CBC,
+						padding: CryptoJS.pad.Pkcs7
+					}
+				);
+
+				if (!decrypted) {
+					console.error("Decryption failed");
+					return null;
+				}
+
+				// 復号化したURLを文字列に変換
+				const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
+				
+				if (!decryptedUrl) {
+					console.error("Decryption result is empty");
+					return null;
+				}
+
+				return decryptedUrl;
+			} catch (error) {
+				console.error("Decryption failed:", error);
 				return null;
 			}
-
-			// 復号化したURLを文字列に変換
-			const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
-			
-			if (!decryptedUrl) {
-				console.error("Decryption result is empty");
-				return null;
-			}
-
-			return decryptedUrl;
-		} catch (error) {
-			console.error("Decryption failed:", error);
-			return null;
 		}
 	}
 
-
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 
-	document.addEventListener('DOMContentLoaded', function() {
-		// IntersectionObserverを使ってlazyロードを実現
-		const imgTags = document.querySelectorAll('img[data-src]');
+	if(FlagSmall.includes(zKey)) {
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof CryptoJS !== 'undefined') {
+				// IntersectionObserverを使ってlazyロードを実現
+				const imgTags = document.querySelectorAll('img[data-src]');
 
-		// IntersectionObserverのコールバック関数
-		const observer = new IntersectionObserver((entries, observer) => {
-			entries.forEach(entry => {
-				if (entry.isIntersecting) {
-					const img = entry.target;
-					const encryptedData_src = img.getAttribute('data-src');
-					const encryptedData_srcset = img.getAttribute('data-srcset');
-					const nonce = img.getAttribute('data-nonce');
-					
-					// 画像URLを復号化
-					const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
-					const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
-					
-					// 復号化したURLを元のsrcに設定
-					img.src = decryptedUrl_src;
-					img.srcset = decryptedUrl_srcset;
+				// IntersectionObserverのコールバック関数
+				const observer = new IntersectionObserver((entries, observer) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							const img = entry.target;
+							if (img.className.includes('protected')) {
+								const encryptedData_src = img.getAttribute('data-src');
+								const encryptedData_srcset = img.getAttribute('data-srcset');
+								const nonce = img.getAttribute('data-nonce');
+								
+								// 画像URLを復号化
+								const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
+								const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
+								
+								// 復号化したURLを元のsrcに設定
+								img.src = decryptedUrl_src;
+								img.srcset = decryptedUrl_srcset;
 
-					// 読み込んだ画像は監視から外す
-					observer.unobserve(img);
-				}
-			});
-		}, {
-			root: null, // ビューポートが基準
-			rootMargin: '0px', // ビューポートの周囲のマージン
-			threshold: 0.1 // 画像が10%表示されたらロード
+								// 読み込んだ画像は監視から外す
+								observer.unobserve(img);
+							}
+						}
+					});
+				}, {
+					root: null, // ビューポートが基準
+					rootMargin: '0px', // ビューポートの周囲のマージン
+					threshold: 0.1 // 画像が10%表示されたらロード
+				});
+
+				// 画像が表示されるまで監視を開始
+				imgTags.forEach(function(img) {
+					observer.observe(img);
+				});
+			}
 		});
-
-		// 画像が表示されるまで監視を開始
-		imgTags.forEach(function(img) {
-			observer.observe(img);
-		});
-	});
+	}
 
 /*
 // 例: 画像のdata-src属性を取得して復号化する 非lazyロード

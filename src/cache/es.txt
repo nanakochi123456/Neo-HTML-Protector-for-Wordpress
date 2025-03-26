@@ -171,3 +171,4 @@ USERログインで通常のソース出力	Salida normal de la fuente con inici
 画像データも保護	Los datos de imagen también están protegidos
 画像は遅延読み込みをします	Las imágenes tardan en cargarse.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	El almacenamiento en caché de las imágenes no funciona cuando los datos de las imágenes también están protegidos, por lo que el sitio se carga más lentamente en la siguiente visita, lo que puede provocar un descenso del SEO.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Si también desea proteger sus datos de imagen, puede colocar restricciones en /wp-contents/uploads con un archivo .htaccess.

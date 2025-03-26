@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -116,6 +116,9 @@ msgstr "Chaque fois que vous l'activez, le JavaScript est chargé avant les imag
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "La mise en cache des images ne fonctionne pas lorsque les données des images sont également protégées, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui peut entraîner une baisse du référencement."
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Si vous souhaitez également protéger vos données d'image, vous pouvez placer des restrictions dans le fichier /wp-contents/uploads à l'aide d'un fichier .htaccess."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."
@@ -335,9 +338,6 @@ msgstr "Nous vous remercions de votre soutien et nous nous réjouissons de trava
 
 msgid "無効なIPアドレス"
 msgstr "Adresse IP non valide."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Agent utilisateur non valide."
 
 msgid "https://google.co.jp"
 msgstr "https://google.fr"

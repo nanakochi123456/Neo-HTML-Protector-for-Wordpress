@@ -171,3 +171,4 @@ USERログインで通常のソース出力	Tavaline allikas väljund koos USER 
 画像データも保護	Kaitstud on ka pildiandmed
 画像は遅延読み込みをします	Piltide laadimine on hilinenud.
 画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Piltide vahemälu ei tööta, kui ka pildiandmed on kaitstud, seega laadib sait järgmisel külastusel aeglasemalt, mis võib põhjustada SEO langust.
+画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Kui soovite kaitsta ka oma pildiandmeid, võite panna piirangud /wp-contents/uploads faili .htaccess abil.

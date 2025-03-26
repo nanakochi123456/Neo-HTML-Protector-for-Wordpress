@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.33\n"
+"Project-Id-Version: Neo HTML Protector 0.0.36\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-25 09:59+0900\n"
-"PO-Revision-Date: 2025-03-25 09:59+0900\n"
+"POT-Creation-Date: 2025-03-26 10:37+0900\n"
+"PO-Revision-Date: 2025-03-26 10:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -116,6 +116,9 @@ msgstr "Ko jo omogočite, se JavaScript naloži pred nalaganjem slik, zato se la
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Če so zaščiteni tudi slikovni podatki, predpomnilnik slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, zaradi česar se lahko zmanjša SEO."
+
+msgid "画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます"
+msgstr "Če želite zaščititi tudi podatke o slikah, lahko v datoteko /wp-contents/uploads postavite omejitve z datoteko .htaccess."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML."
@@ -335,9 +338,6 @@ msgstr "Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v priho
 
 msgid "無効なIPアドレス"
 msgstr "Nepravilen naslov IP."
-
-msgid "無効なユーザーエイジェント"
-msgstr "Nepravilen uporabniški agent."
 
 msgid "https://google.co.jp"
 msgstr "https://google.si"

@@ -5,6 +5,11 @@
 
 $neohp_func=new neohp_func();
 class neohp_func {
+//	protected $neohp_func;
+	public function __construct() {
+//		$this->neohp_func=new neohp_func();
+	}
+
 	public function get_user_ip() {
 		$ip = '';
 
@@ -33,9 +38,9 @@ class neohp_func {
 		}
 
 		// ユーザーエージェントが無効かどうかをチェック
-		if ( !preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $ua ) ) {
-			$ua = __('無効なユーザーエイジェント', 'neo-html-protector');
-		}
+//		if ( !preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $ua ) ) {
+//			$ua = __('無効なユーザーエイジェント', 'neo-html-protector');
+//		}
 
 		return esc_html($ua);
 	}
@@ -106,6 +111,8 @@ class neohp_func {
 	}
 
 	function head_echo($head) {
+		echo $head;
+/*
 		echo wp_kses( $head,
 			[
 				'link' => [
@@ -155,6 +162,7 @@ class neohp_func {
 				],
 			]
 		);
+*/
 	}
 	function br_die($head) {
 		echo wp_kses( $head,
@@ -162,5 +170,49 @@ class neohp_func {
 				'br' => true
 			]
 		);
+	}
+
+	function url_safe_base64_encode($data) {
+		return str_replace(['+', '/', '='], ['-', '_', '.'], base64_encode($data));
+	}
+
+	function url_safe_base64_decode($data) {
+		return base64_decode(str_replace(['-', '_', '.'], ['+', '/', '='], $data) );
+	}
+
+	function settransient($name, $value, $expire) {
+		$user_id = get_current_user_id();
+		if ($user_id == 0) {
+			$user_id = session_id(); // セッションIDを使う
+		}
+		$transient_key = 'neohp_'
+			. $this->url_safe_base64_encode(
+				md5 ( $user_id . '_' . $name )
+			);
+		set_transient( $transient_key, $value, $expire );
+	}
+
+	function gettransient($name) {
+		$user_id = get_current_user_id();
+		if ($user_id == 0) {
+			$user_id = session_id(); // セッションIDを使う
+		}
+		$transient_key = 'neohp_'
+			. $this->url_safe_base64_encode(
+				md5 ( $user_id . '_' . $name )
+			);
+		return get_transient( $transient_key );
+	}
+
+	function deletetransient($name) {
+		$user_id = get_current_user_id();
+		if ($user_id == 0) {
+			$user_id = session_id(); // セッションIDを使う
+		}
+		$transient_key = 'neohp_'
+			. $this->url_safe_base64_encode(
+				md5 ( $user_id . '_' . $name )
+			);
+		delete_transient( $transient_key );
 	}
 }

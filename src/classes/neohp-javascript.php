@@ -95,12 +95,14 @@ class neohp_javascript {
 	}
 
 	function add_cryptojs_script() {
-		wp_enqueue_script(
-			'crypto-js', // ハンドル名
-			'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/' . NEOHP_REQUIRED_CRYPTO_JS_VERSION . '/crypto-js.min.js', // 外部URL
-			array(), // 依存するスクリプト（今回は無し）
-			null, // バージョン番号（最新を指定する場合はnull）
-			true // フッターに追加するかどうか（trueでフッター）
-		);
+	if(get_option('neohp_imageprotect', '0') === '1') {
+			wp_enqueue_script(
+				'crypto-js', // ハンドル名
+				'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/' . NEOHP_REQUIRED_CRYPTO_JS_VERSION . '/crypto-js.min.js', // 外部URL
+				array(), // 依存するスクリプト（今回は無し）
+				null, // バージョン番号（最新を指定する場合はnull）
+				true // フッターに追加するかどうか（trueでフッター）
+			);
+		}
 	}
 }
