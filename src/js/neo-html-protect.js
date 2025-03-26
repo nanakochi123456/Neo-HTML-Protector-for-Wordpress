@@ -122,10 +122,85 @@
 
 	// デバッガ妨害
 	if(FlagSmall.includes('d')) {
+		// 1個目 コンソールクリア＆debuggerコマンド実行
 		setInterval(function() {
 			console.clear();
 			debugger;
 		}, 100);
+
+		// 2個目 debuggerコマンドを無効化する
+
+		Object.defineProperty(window, 'debugger', {
+			set: function() {},
+			get: function() {}
+		});
+
+		// 3個目 console.logを無効化する
+
+		console.log = function() {};
+
+		// 4個目 デバッガーが開かれたかチェックする
+		// だめなのでコメントアウト
+/*
+		var isDebuggerActive = false;
+		setInterval(function() {
+			if (new Date() - performance.timing.navigationStart < 500) {
+				alert("debugger open");
+			}
+		}, 100);
+*/
+
+		// 5個目 開発者ツールの開閉をチェックする
+		// だめなのでコメントアウト
+/*
+		var lastTime = 0;
+		setInterval(function() {
+			var now = new Date();
+			if (now - lastTime > 5000) {
+				lastTime = now;
+			} else {
+				alert('Debugger opened!');
+			}
+		}, 100);
+*/
+		// 6個目 console.debugを無効化する
+
+		console.debug = function() {};
+
+
+		// 7個目 window.onerror をカスタマイズしてデバッガの検出を試みる
+		// 意味ないのでコメントアウト
+/*
+		window.onerror = function(message, source, lineno, colno, error) {
+			if (error.stack.indexOf('Debugger') !== -1) {
+				alert('Debugger detected!');
+			}
+		};
+*/
+
+		// 8個目 開発者ツールの起動を検出 デバッガや開発者ツールが開かれたことを検出して、警告を表示する
+		// だめなのでコメントアウト
+/*
+		var lastTime = new Date();
+		setInterval(function() {
+			if (new Date() - lastTime > 1000) {
+				lastTime = new Date();
+			} else {
+				alert("開発者ツールが開かれています");
+			}
+		}, 100);
+*/
+		// 9個目 スクリーンショットの防止（全画面時のみ）
+
+		document.documentElement.requestFullscreen();
+
+		// 10個目 debuggerコマンドを使ったデバッガの無効化
+
+		Object.defineProperty(window, 'debugger', {
+			set: function() {},
+			get: function() {}
+		});
+
 	}
 
 
@@ -193,10 +268,10 @@
 				const decodedData = urlSafeBase64Decode(encryptedData);
 				const parts = decodedData.split(':');
 
-				if (parts.length !== 2) {
-					console.error("Invalid encrypted data format");
-					return null;
-				}
+//				if (parts.length !== 2) {
+//					console.error("Invalid encrypted data format");
+//					return null;
+//				}
 
 				const encryptedUrl = parts[0];
 				const encodedIv = parts[1];
@@ -221,23 +296,23 @@
 					}
 				);
 
-				if (!decrypted) {
-					console.error("Decryption failed");
-					return null;
-				}
+//				if (!decrypted) {
+//					console.error("Decryption failed");
+//					return null;
+//				}
 
 				// 復号化したURLを文字列に変換
 				const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
 				
-				if (!decryptedUrl) {
-					console.error("Decryption result is empty");
-					return null;
-				}
+//				if (!decryptedUrl) {
+//					console.error("Decryption result is empty");
+//					return null;
+//				}
 
 				return decryptedUrl;
 			} catch (error) {
-				console.error("Decryption failed:", error);
-				return null;
+//				console.error("Decryption failed:", error);
+//				return null;
 			}
 		}
 	}
