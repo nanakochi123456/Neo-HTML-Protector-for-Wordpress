@@ -51,3 +51,4 @@ delete_option('neohp_alert_d');
 delete_option('neohp_alert_message_lang');
 delete_option('neohp_view-source_message_lang');
 delete_option('neohp_islogin');
+delete_option('neohp_nocookienojs_message');

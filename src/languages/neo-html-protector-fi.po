@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:03+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -114,11 +114,17 @@ msgstr "Myös kuvatiedot suojattu"
 msgid "画像をダウンロードから保護します"
 msgstr "Suojaa kuvia lataukselta."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Kun vain kuvan URL-osoite on suojattu, vain kuvan URL-osoite on suojattu, varsinainen kuvansiirto puretaan JavaScriptillä ja kuva näytetään yleisellä tavalla."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Kuvatiedot estävät myös lähes täydellisen lataamisen, kun ne on suojattu, antavat täydellisen kertaluonteisen URL-osoitteen, todennetaan istuntoon tallennetulla tunnisteella ja näytetään kuva php:stä, mikä estää lähes täydellisen kuvavarkauden."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Kun vain kuvan URL-osoite on suojattu, kuva latautuu viiveellä, muuten käytetään Wordpressin asettamaa oletusarvoa."
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Aina kun otat sen käyttöön, JavaScript ladataan ennen kuvien lataamista, joten SEO saattaa pudota."
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Aina kun otat käyttöön vain kuvan URL-osoitteen suojauksen, JavaScript ladataan aina ennen kuvan lataamista, joten hakukoneoptimointi voi kärsiä!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Kuvien välimuistitallennus ei toimi, kun myös kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia."
@@ -131,6 +137,9 @@ msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suo
 
 msgid "なし"
 msgstr "Ei mitään."
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähde näytetään."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu sisään."

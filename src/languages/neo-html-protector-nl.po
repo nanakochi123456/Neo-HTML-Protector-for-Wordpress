@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:04+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -114,11 +114,17 @@ msgstr "Beeldgegevens ook beschermd"
 msgid "画像をダウンロードから保護します"
 msgstr "Beschermt afbeeldingen tegen downloaden."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Wanneer alleen de URL van de afbeelding is beveiligd, wordt de feitelijke overdracht van de afbeelding gedecodeerd door JavaScript en wordt de afbeelding op een generieke manier weergegeven."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Beeldgegevens voorkomen ook bijna volledig downloaden wanneer ze beveiligd zijn, een volledige eenmalige URL uitgeven, authenticeren met een token dat is opgeslagen in de sessie en de afbeelding weergeven vanaf php, waardoor bijna volledige diefstal van afbeeldingen wordt voorkomen."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Als alleen de URL van de afbeelding is beschermd, wordt de afbeelding vertraagd geladen, anders wordt de standaardinstelling van Wordpress gebruikt."
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Telkens wanneer je het activeert, wordt het JavaScript geladen voordat de afbeeldingen worden geladen, dus SEO kan dalen"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Wanneer je URL-only bescherming van afbeeldingen inschakelt, wordt JavaScript altijd geladen voordat de afbeelding wordt geladen, dus SEO kan hieronder lijden!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Het cachen van afbeeldingen werkt niet als de afbeeldingsgegevens ook beschermd zijn, dus de site laadt langzamer bij het volgende bezoek, wat kan resulteren in een daling van de SEO."
@@ -131,6 +137,9 @@ msgstr "Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -
 
 msgid "なし"
 msgstr "Zonder"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "ASCII-teken weergeven dat de intentie om te waarschuwen aangeeft wanneer HTML-bron wordt weergegeven."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Controleer dit door de bron te bekijken in een niet-ingelogde browser"

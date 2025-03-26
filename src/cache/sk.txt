@@ -176,3 +176,7 @@ USERログインで通常のソース出力	Normálny výstup zdroja s prihláse
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ak sú chránené aj obrazové údaje, môže dôjsť k preťaženiu databázy
 CookieやJavascriptが有効でない場合に表示するメッセージ	Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript.
 実際にはJavascriptが無効時のみ表示されます	V praxi je to viditeľné len vtedy, keď je vypnutý Javascript.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ak je chránená iba adresa URL obrázka, je chránená iba adresa URL obrázka, skutočný prenos obrázka sa dešifruje pomocou JavaScriptu a obrázok sa zobrazí všeobecným spôsobom.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Vždy, keď povolíte ochranu len URL obrázka, JavaScript sa načíta vždy pred načítaním obrázka, takže SEO môže utrpieť!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazenie umenia ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Údaje o obrázku tiež zabraňujú takmer úplnému stiahnutiu, keď sú chránené, vydávajú úplnú jednorazovú adresu URL, overujú sa pomocou tokenu uloženého v relácii a zobrazujú obrázok z php, čím zabraňujú takmer úplnej krádeži obrázka.

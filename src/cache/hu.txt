@@ -175,3 +175,7 @@ USERログインで通常のソース出力	Normál forráskimenet USER bejelent
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ha a képi adatok is védettek, az adatbázis túlterhelődhet.
 CookieやJavascriptが有効でない場合に表示するメッセージ	Üzenet jelenik meg, ha a cookie-k és a Javascript nem engedélyezett.
 実際にはJavascriptが無効時のみ表示されます	A gyakorlatban ez csak akkor látható, ha a Javascript le van tiltva.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ha csak a kép URL címe védett, csak a kép URL címe védett, a tényleges képátvitelt a JavaScript dekódolja, és a kép általános módon jelenik meg.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	A képadatok védett állapotban is megakadályozzák a szinte teljes letöltést, kiad egy teljes egyszeri URL-t, hitelesíti a munkamenetben tárolt tokennel, és megjeleníti a képet a php-ból, így megakadályozza a szinte teljes képlopást.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ha engedélyezi a csak a kép URL címére vonatkozó védelmet, a JavaScript mindig betöltődik a kép betöltése előtt, így a SEO szenvedhet!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	A HTML-forrás megjelenítésekor a figyelmeztetés szándékát jelző ASCII-kép megjelenítése.

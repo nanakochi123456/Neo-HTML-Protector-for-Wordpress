@@ -173,3 +173,7 @@ USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak 
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri de korunduğunda, veritabanı aşırı yüklenebilir
 CookieやJavascriptが有効でない場合に表示するメッセージ	Çerezler ve Javascript etkinleştirilmemişse görüntülenen mesaj.
 実際にはJavascriptが無効時のみ表示されます	Pratikte, bu yalnızca Javascript devre dışı bırakıldığında görülebilir.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Yalnızca görüntü URL'si korunduğunda, gerçek görüntü aktarımının şifresi JavaScript tarafından çözülür ve görüntü genel bir şekilde görüntülenir.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri ayrıca korunduğunda neredeyse tamamen indirmeyi önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece neredeyse tamamen görüntü hırsızlığını önler.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Yalnızca resim URL'si korumasını etkinleştirdiğinizde, JavaScript her zaman resim yüklenmeden önce yüklenir, bu nedenle SEO zarar görebilir!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin.

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:04+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -114,11 +114,17 @@ msgstr "Zaščiteni so tudi slikovni podatki"
 msgid "画像をダウンロードから保護します"
 msgstr "Zaščita slik pred prenosom."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Če je zaščiten samo URL slike, je zaščiten samo URL slike, dejanski prenos slike dešifrira JavaScript in slika je prikazana na splošen način."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Podatki o slikah prav tako preprečujejo skoraj popoln prenos, če so zaščiteni, izdajo popoln enkratni naslov URL, se avtentificirajo z žetonom, shranjenim v seji, in prikažejo sliko iz php, s čimer preprečijo skoraj popolno krajo slik."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Če je zaščiten samo URL slike, se slika naloži z zamudo, sicer se uporabi privzeta nastavitev Wordpressa."
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Ko jo omogočite, se JavaScript naloži pred nalaganjem slik, zato se lahko SEO zmanjša."
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Če omogočite zaščito samo URL-ja slike, se JavaScript vedno naloži pred nalaganjem slike, zato lahko to negativno vpliva na SEO!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Če so zaščiteni tudi slikovni podatki, predpomnilnik slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, zaradi česar se lahko zmanjša SEO."
@@ -131,6 +137,9 @@ msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito H
 
 msgid "なし"
 msgstr "Brez"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Prikaz umetnosti ASCII, ki označuje namen opozorila, ko je prikazan vir HTML."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Preverite z ogledom vira v neprijavljenem brskalniku"

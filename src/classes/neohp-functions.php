@@ -111,7 +111,10 @@ class neohp_func {
 	}
 
 	function head_echo($head) {
+		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+		// Unknown cause, but the design may be broken even if the content in the HTML head tag is exactly the same.
 		echo $head;
+		// phpcs:enable
 /*
 		echo wp_kses( $head,
 			[

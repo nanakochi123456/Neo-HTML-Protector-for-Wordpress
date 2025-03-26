@@ -1,7 +1,7 @@
 @echo off
 :deepl (by dptran) auto transrate
 
-set VERSION=0.0.39
+set VERSION=0.0.40
 set PACKAGE=Neo HTML Protector
 set EMAIL=plugin@773.moe
 
@@ -10,6 +10,8 @@ IF "%1" neq "" goto exec
 @echo on
 
 wsl xgettext --language=PHP --from-code=utf-8 --keyword=__ --keyword=_e --output=languages/neo-html-protector.pot neo-html-protector.php classes/*.php
+
+:https://developers.deepl.com/docs/resources/supported-languages#translation-target-languages
 
 call 1make.bat en
 call 1make.bat en_US
@@ -46,6 +48,8 @@ call 1make.bat sk
 call 1make.bat sl
 call 1make.bat sv
 call 1make.bat tr
+
+:20250326 add
 
 
 

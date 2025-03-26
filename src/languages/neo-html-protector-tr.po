@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:04+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -114,11 +114,17 @@ msgstr "Görüntü verileri de korunur"
 msgid "画像をダウンロードから保護します"
 msgstr "Görüntüleri indirilmeye karşı korur."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Yalnızca görüntü URL'si korunduğunda, gerçek görüntü aktarımının şifresi JavaScript tarafından çözülür ve görüntü genel bir şekilde görüntülenir."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Görüntü verileri ayrıca korunduğunda neredeyse tamamen indirmeyi önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece neredeyse tamamen görüntü hırsızlığını önler."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Yalnızca resim URL'si korunduğunda, resim gecikmeli olarak yüklenir, aksi takdirde Wordpress tarafından ayarlanan varsayılan kullanılır"
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Bunu etkinleştirdiğinizde, JavaScript görüntüler yüklenmeden önce yüklenir, bu nedenle SEO düşebilir"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Yalnızca resim URL'si korumasını etkinleştirdiğinizde, JavaScript her zaman resim yüklenmeden önce yüklenir, bu nedenle SEO zarar görebilir!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Görüntü verileri de korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir"
@@ -131,6 +137,9 @@ msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatın�
 
 msgid "なし"
 msgstr "Olmadan"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin"

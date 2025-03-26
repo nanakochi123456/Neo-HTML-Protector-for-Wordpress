@@ -224,8 +224,11 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます', 'neo-html-protector') );
+					echo '<br>';
 					echo '<br>' .esc_html( __('画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データも保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
 				},
@@ -250,6 +253,7 @@ class neohp_admin {
 						, '0=' . __('なし', 'neo-html-protector')
 						, $warning_ascii_art_array
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('ログインしていないブラウザーでソース表示を行って確認して下さい', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -711,7 +715,14 @@ class neohp_admin {
 <p><?php echo esc_html( __('バージョン', 'neo-html-protector') ) ?>: <?php echo esc_html( NEOHP_VERSION ) ?> <?php esc_html( __('ビルド', 'neo-html-protector') ) ?>: <?php echo esc_html( NEOHP_BUILD ) ?></p>
 <p><?php echo esc_html( __('サポートページ', 'neo-html-protector') ) ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>
 <p><a target="_blank" href="https://support.773.moe/donate/"><img src="<?php echo esc_html( NEOHP_IMG_URL ) ?>/nano.gif" alt="Donate Button" width="240" style="border-radius: 30px"></a></p>
+		<?php
+		// phpcs:disable Scripts must be registered/enqueued via wp_enqueue_script()
+		// This is an officially provided embedded HTML, and is unlikely to be processed from outside
+		?>
 <p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm44565088/script?w=640&h=360"></script><br><a target="_blank" href="https://www.nicovideo.jp/watch/sm44565088">[<?php echo esc_html( __('ISISちゃん', 'neo-html-protector') ) ?>]Give Me Merorin 1.6 <?php echo esc_html( __('Miss. 裏まにら氏歌唱', 'neo-html-protector') ) ?></a></p>
+		<?php
+		// phpcs:enable
+		?>
 <h2><?php echo esc_html( __('支援のお願い', 'neo-html-protector') ) ?></h2>
 <p><?php echo esc_html( __('Neo HTML Protectorをご利用いただき、ありがとうございます！', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。', 'neo-html-protector') ) ?></p>

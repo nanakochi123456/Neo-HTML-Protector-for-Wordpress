@@ -175,3 +175,7 @@ USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Če so zaščiteni tudi slikovni podatki, lahko pride do preobremenitve podatkovne zbirke.
 CookieやJavascriptが有効でない場合に表示するメッセージ	Sporočilo se prikaže, če piškotki in Javascript niso omogočeni.
 実際にはJavascriptが無効時のみ表示されます	V praksi je to vidno le, če je Javascript onemogočen.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Če je zaščiten samo URL slike, je zaščiten samo URL slike, dejanski prenos slike dešifrira JavaScript in slika je prikazana na splošen način.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Podatki o slikah prav tako preprečujejo skoraj popoln prenos, če so zaščiteni, izdajo popoln enkratni naslov URL, se avtentificirajo z žetonom, shranjenim v seji, in prikažejo sliko iz php, s čimer preprečijo skoraj popolno krajo slik.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Če omogočite zaščito samo URL-ja slike, se JavaScript vedno naloži pred nalaganjem slike, zato lahko to negativno vpliva na SEO!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikaz umetnosti ASCII, ki označuje namen opozorila, ko je prikazan vir HTML.

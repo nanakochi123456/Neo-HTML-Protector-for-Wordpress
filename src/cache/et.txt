@@ -176,3 +176,7 @@ USERログインで通常のソース出力	Tavaline allikas väljund koos USER 
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Kui ka pildiandmed on kaitstud, võib andmebaas muutuda ülekoormatuks.
 CookieやJavascriptが有効でない場合に表示するメッセージ	Kui küpsised ja Javascript ei ole lubatud, kuvatakse teade.
 実際にはJavascriptが無効時のみ表示されます	Praktikas on see nähtav ainult siis, kui Javascript on välja lülitatud.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Kui ainult pildi URL on kaitstud, on kaitstud ainult pildi URL, tegelik pildiülekanne dekrüpteeritakse JavaScriptiga ja pilt kuvatakse üldisel viisil.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Pildiandmed takistavad ka peaaegu täielikku allalaadimist, kui need on kaitstud, väljastab täieliku ühekordse URL-i, autentib sessioonis salvestatud sümboliga ja kuvab pildi php-st, takistades seega peaaegu täielikku pildivargust.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kui te lubate ainult pildi URL-kaitset, laaditakse JavaScript alati enne pildi laadimist, seega võib SEO kannatada!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatuse esitamise kavatsust, kui kuvatakse HTML-allika.

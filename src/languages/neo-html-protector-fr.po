@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:03+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -114,11 +114,17 @@ msgstr "Les données d'image sont également protégées"
 msgid "画像をダウンロードから保護します"
 msgstr "Protège les images contre le téléchargement."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Lorsque seule l'URL de l'image est protégée, le transfert de l'image est décrypté par JavaScript et l'image est affichée de manière générique."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Les données d'image empêchent également un téléchargement presque complet lorsqu'elles sont protégées, émettent une URL complète à usage unique, s'authentifient à l'aide d'un jeton stocké dans la session et affichent l'image à partir de php, empêchant ainsi un vol d'image presque complet."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Si seule l'URL de l'image est protégée, l'image sera chargée en différé, sinon la valeur par défaut définie par Wordpress sera utilisée."
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Chaque fois que vous l'activez, le JavaScript est chargé avant les images, de sorte que le référencement peut diminuer."
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Lorsque vous activez la protection des images par URL uniquement, JavaScript est toujours chargé avant l'image, ce qui peut nuire au référencement !"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "La mise en cache des images ne fonctionne pas lorsque les données des images sont également protégées, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui peut entraîner une baisse du référencement."
@@ -131,6 +137,9 @@ msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement
 
 msgid "なし"
 msgstr "Aucun."
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Afficher un dessin ASCII indiquant l'intention d'avertir lorsque la source HTML est affichée."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Vérifier en affichant la source dans un navigateur non connecté"

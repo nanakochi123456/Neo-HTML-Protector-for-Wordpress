@@ -182,3 +182,7 @@ USERログインで通常のソース出力	Normale Quellenausgabe mit USER-Anme
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Wenn auch Bilddaten geschützt sind, kann die Datenbank überlastet werden.
 CookieやJavascriptが有効でない場合に表示するメッセージ	Meldung wird angezeigt, wenn Cookies und Javascript nicht aktiviert sind.
 実際にはJavascriptが無効時のみ表示されます	In der Praxis wird sie nur angezeigt, wenn Javascript deaktiviert ist.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Wenn nur die Bild-URL geschützt ist, wird nur die Bild-URL geschützt, die eigentliche Bildübertragung wird durch JavaScript entschlüsselt und das Bild wird in einer generischen Form angezeigt.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Bilddaten verhindern auch ein fast vollständiges Herunterladen, wenn sie geschützt sind, geben eine vollständige Einmal-URL aus, authentifizieren sich mit einem in der Sitzung gespeicherten Token und zeigen das Bild von php an, wodurch ein fast vollständiger Bilddiebstahl verhindert wird.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Wenn Sie den reinen URL-Schutz für Bilder aktivieren, wird JavaScript immer geladen, bevor das Bild geladen wird, so dass die Suchmaschinenoptimierung darunter leiden kann!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Anzeige von ASCII-Zeichen, die auf die Absicht hinweisen, eine Warnung auszusprechen, wenn der HTML-Quelltext angezeigt wird.

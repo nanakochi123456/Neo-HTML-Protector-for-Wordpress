@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:03+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -114,11 +114,17 @@ msgstr "图像数据也受到保护"
 msgid "画像をダウンロードから保護します"
 msgstr "保护图像免受下载。"
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "当只有图像 URL 受保护时，只有图像 URL 受保护，实际图像传输由 JavaScript 解密，图像以通用方式显示。"
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "图像数据在受到保护时还能防止几乎完全的下载，发布完整的一次性 URL，使用会话中存储的令牌进行身份验证，并从 php 中显示图像，从而防止几乎完全的图像盗窃。"
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "当只有图片 URL 受保护时，图片将进行延迟加载，否则将使用 Wordpress 设置的默认值"
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "启用该功能后，JavaScript 会在加载图像之前加载，因此搜索引擎优化效果可能会下降。"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "无论何时启用纯 URL 图像保护，JavaScript 都会在加载图像之前加载，因此搜索引擎优化可能会受到影响！"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "当图片数据也受到保护时，图片缓存不起作用，因此网站在下次访问时加载速度会更慢，这可能会导致搜索引擎优化效果下降"
@@ -131,6 +137,9 @@ msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺�
 
 msgid "なし"
 msgstr "不带"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "在显示 HTML 源文件时，显示 ASCII 文字，表明警告的意图。"
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "在未登录的浏览器中查看源文件进行检查"

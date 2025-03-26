@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:04+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -114,11 +114,17 @@ msgstr "Bildedata er også beskyttet"
 msgid "画像をダウンロードから保護します"
 msgstr "Beskytter bilder mot nedlasting."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "Når bare bilde-URL-en er beskyttet, dekrypteres selve bildeoverføringen av JavaScript, og bildet vises på en generisk måte."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Bildedata forhindrer også nesten fullstendig nedlasting når de er beskyttet, utsteder en komplett engangsadresse, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "Når bare bilde-URL-en er beskyttet, vil bildet lastes inn med forsinkelse, ellers vil standardinnstillingen som er angitt av Wordpress, bli brukt"
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Når du aktiverer det, lastes JavaScript inn før bildene lastes inn, slik at SEO kan falle"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Når du aktiverer URL-beskyttelse for bilder, lastes JavaScript alltid inn før bildet lastes inn, så SEO kan bli skadelidende!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Caching av bilder fungerer ikke når bildedata også er beskyttet, slik at nettstedet lastes inn saktere ved neste besøk, noe som kan føre til dårligere SEO"
@@ -131,6 +137,9 @@ msgstr "Utskrift av ASCII-kunst i HTML-kildekoden under HTML-tilsløring og -bes
 
 msgid "なし"
 msgstr "Uten"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Vis ASCII-tegninger som indikerer intensjonen om å advare når HTML-kilde vises."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Sjekk ved å vise kilden i en nettleser som ikke er innlogget"

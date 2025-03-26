@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:03+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(UK)\n"
 "Language: en_GB\n"
@@ -114,11 +114,17 @@ msgstr "Image data also protected"
 msgid "画像をダウンロードから保護します"
 msgstr "Protects images from downloading."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "When only the image URL is protected, only the image URL is protected, the actual image transfer is decrypted by JavaScript and the image is displayed in a generic way."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Image data also prevents almost complete downloading when protected, issues a complete one-time URL, authenticates with a token stored in the session and displays the image from php, thus preventing almost complete image theft."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "When only the image URL is protected, the image will do a delayed load, otherwise the default set by Wordpress will be used"
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "Whenever you activate it, the JavaScript is loaded before the images are loaded, so SEO may drop"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "Whenever you enable image URL-only protection, JavaScript is always loaded before the image is loaded, so SEO may suffer!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Image caching does not work when image data is also protected, so the site loads more slowly on the next visit, which may result in a drop in SEO"
@@ -131,6 +137,9 @@ msgstr "Output of ASCII art in HTML source code during HTML obfuscation and prot
 
 msgid "なし"
 msgstr "Without"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Display ASCII art indicating the intention to warn when HTML source is displayed."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Check by viewing the source in a non-logged-in browser"

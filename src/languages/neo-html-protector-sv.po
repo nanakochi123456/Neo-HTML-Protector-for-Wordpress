@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.39\n"
+"Project-Id-Version: Neo HTML Protector 0.0.40\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-26 13:03+0900\n"
-"PO-Revision-Date: 2025-03-26 13:04+0900\n"
+"POT-Creation-Date: 2025-03-26 15:09+0900\n"
+"PO-Revision-Date: 2025-03-26 15:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -114,11 +114,17 @@ msgstr "Bilddata skyddas också"
 msgid "画像をダウンロードから保護します"
 msgstr "Skyddar bilder från nedladdning."
 
+msgid "画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します"
+msgstr "När endast bild-URL:en är skyddad dekrypteras den faktiska bildöverföringen med JavaScript och bilden visas på ett generiskt sätt."
+
+msgid "画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Bilddata förhindrar också nästan fullständig nedladdning när den skyddas, utfärdar en fullständig engångs-URL, autentiserar med en token som lagras i sessionen och visar bilden från php, vilket förhindrar nästan fullständig bildstöld."
+
 msgid "画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます"
 msgstr "När endast bild-URL:en är skyddad kommer bilden att laddas med fördröjning, annars används standardvärdet som ställts in av Wordpress"
 
-msgid "有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
-msgstr "När du aktiverar det laddas JavaScript innan bilderna laddas, så SEO kan minska"
+msgid "画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません"
+msgstr "När du aktiverar skydd för endast URL-adresser för bilder laddas JavaScript alltid innan bilden laddas, så SEO kan bli lidande!"
 
 msgid "画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Cachelagring av bilder fungerar inte när bilddata också är skyddade, så webbplatsen laddas långsammare vid nästa besök, vilket kan leda till sämre SEO"
@@ -131,6 +137,9 @@ msgstr "Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av
 
 msgid "なし"
 msgstr "Utan"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Kontrollera genom att visa källan i en icke-inloggad webbläsare"

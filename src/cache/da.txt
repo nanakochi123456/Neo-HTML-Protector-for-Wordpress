@@ -187,3 +187,7 @@ USERログインで通常のソース出力	Normal kildeudgang med USER-login
 画像データも保護した時には、データベースの負荷が高くなる可能性があります	Når billeddata også er beskyttet, kan databasen blive overbelastet
 CookieやJavascriptが有効でない場合に表示するメッセージ	Meddelelse vises, hvis cookies og Javascript ikke er aktiveret.
 実際にはJavascriptが無効時のみ表示されます	I praksis er dette kun synligt, når Javascript er deaktiveret.
+画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Når kun billed-URL'en er beskyttet, dekrypteres den faktiske billedoverførsel af JavaScript, og billedet vises på en generisk måde.
+画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Billeddata forhindrer også næsten fuldstændig download, når de er beskyttet, udsender en komplet engangswebadresse, autentificerer med et token, der er gemt i sessionen, og viser billedet fra php, hvilket forhindrer næsten fuldstændigt billedtyveri.
+画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Når du aktiverer URL-beskyttelse af billeder, indlæses JavaScript altid, før billedet indlæses, så det kan gå ud over SEO!
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vis ASCII-tegninger, der angiver intentionen om at advare, når HTML-kilden vises.
