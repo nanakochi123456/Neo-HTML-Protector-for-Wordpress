@@ -180,3 +180,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Správ
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Vždy, keď povolíte ochranu len URL obrázka, JavaScript sa načíta vždy pred načítaním obrázka, takže SEO môže utrpieť!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazenie umenia ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML.
 画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Údaje o obrázku tiež zabraňujú takmer úplnému stiahnutiu, keď sú chránené, vydávajú úplnú jednorazovú adresu URL, overujú sa pomocou tokenu uloženého v relácii a zobrazujú obrázok z php, čím zabraňujú takmer úplnej krádeži obrázka.
+画像を保護	Ochrana obrazu.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Takmer úplne zabráni sťahovaniu, keď sú údaje o obrázku chránené, vydá kompletnú jednorazovú adresu URL, overí sa pomocou tokenu uloženého v relácii a zobrazí obrázok z php, čím takmer úplne zabráni krádeži obrázka.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukladanie obrázkov do vyrovnávacej pamäte nefunguje, keď sú údaje o obrázkoch chránené, takže sa stránka pri ďalšej návšteve načíta pomalšie, čo môže mať za následok pokles SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zaťaženie databázy môže byť vyššie, keď sú obrazové údaje chránené
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Upozorňujeme, že obrázky zadané ako pútavé sa šíria ako OGP a nemožno ich chrániť. Ak ich musíte chrániť, zmeňte výber výstupu značky HEAD pri ochrane HTML v rozšírených nastaveniach.

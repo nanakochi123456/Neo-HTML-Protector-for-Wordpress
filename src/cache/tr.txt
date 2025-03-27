@@ -177,3 +177,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Çerez
 画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri ayrıca korunduğunda neredeyse tamamen indirmeyi önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece neredeyse tamamen görüntü hırsızlığını önler.
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Yalnızca resim URL'si korumasını etkinleştirdiğinizde, JavaScript her zaman resim yüklenmeden önce yüklenir, bu nedenle SEO zarar görebilir!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin.
+画像を保護	Görüntü koruması.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri korunduğunda indirmeyi neredeyse tamamen önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece görüntü hırsızlığını neredeyse tamamen önler.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri korunduğunda veritabanı yükü daha yüksek olabilir
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Göz alıcı olarak belirtilen görüntülerin OGP olarak yayıldığını ve korunamayacağını unutmayın. Bunları korumanız gerekiyorsa, lütfen gelişmiş ayarlarda HTML'yi korurken HEAD etiketinin çıktısının seçimini değiştirin.

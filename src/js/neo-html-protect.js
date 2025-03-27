@@ -14,7 +14,6 @@
 	const	uKey='u';
 	const	pKey='p';
 	const	sKey='s';
-	const	zKey='z';
 	const	rClick='r';
 	const	CopyCut='c';
 

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.44\n"
+"Project-Id-Version: Neo HTML Protector 0.0.45\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-27 00:45+0900\n"
-"PO-Revision-Date: 2025-03-27 00:46+0900\n"
+"POT-Creation-Date: 2025-03-27 21:24+0900\n"
+"PO-Revision-Date: 2025-03-27 21:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -104,4 +104,400 @@ msgstr "设计可能略有改动。"
 
 msgid "画像の保護"
 msgstr "图像保护。"
+
+msgid "画像を保護"
+msgstr "图像保护。"
+
+msgid "画像をダウンロードから保護します"
+msgstr "保护图像免于下载。"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "当图像数据受到保护时，几乎可以完全防止下载，发出完整的一次性 URL，使用会话中存储的令牌进行身份验证，并从 php 显示图像，从而几乎完全防止图像被盗。"
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr "当图片数据受到保护时，图片缓存不起作用，因此下次访问网站时加载速度会变慢，这可能会导致搜索引擎优化效果下降"
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "保护图像数据时，数据库负载可能会更高"
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "请注意，指定为醒目的图像会作为 OGP 传播，无法对其进行保护。如果必须保护，请在高级设置中更改保护 HTML 时 HEAD 标记输出的选择。"
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"
+
+msgid "なし"
+msgstr "不带"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "在显示 HTML 源文件时，显示 ASCII 文字，表明警告的意图。"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "在未登录的浏览器中查看源文件进行检查"
+
+msgid "デバッグモード"
+msgstr "调试模式"
+
+msgid "妨害＋記録のみ"
+msgstr "仅干扰+记录。"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "拦截 + 记录 + 显示 + 重定向"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "可通过菜单进行操作。"
+
+msgid "ブラウザーコンソール"
+msgstr "浏览器控制台"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "实际上，您可以在调试模式下进行操作。"
+
+msgid "HTMLソース表示"
+msgstr "显示 HTML 源代码"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "可通过输入以 view-source: 开头的 URL 进行操作。"
+
+msgid "印刷"
+msgstr "印刷"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "打印阻塞，但在某些浏览器中效果不佳"
+
+msgid "ページ保存"
+msgstr "保存页面"
+
+msgid "右クリック"
+msgstr "右击"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "如果安装了附加组件，就可以进行操作。"
+
+msgid "コピー・カット"
+msgstr "复制剪切"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "我们并不经常遇到这种情况。"
+
+msgid "テキスト選択"
+msgstr "文本选择"
+
+msgid "デバッガー妨害"
+msgstr "调试器干扰"
+
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "使调试模式对用户不那么友好，有些浏览器会阻止这种行为"
+
+msgid "リダイレクトするURL"
+msgstr "要重定向到的 URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "您可能需要将他们转发到 使用条款 等页面。"
+
+msgid "ソース表示を許可する権限"
+msgstr "允许源显示的权限。"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "仅在管理员登录时输出正常信号源"
+
+msgid "USERログインで通常のソース出力"
+msgstr "用户登录后的正常信号源输出"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "选择正常 HTML 输出是仅供管理员使用，还是供用户登录使用"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "在 HTML 保护过程中输出 HEAD 标记"
+
+msgid "出力しない"
+msgstr "无输出"
+
+msgid "TITLEタグのみ"
+msgstr "仅 TITLE 标签"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "从 Wordpress 的 HEAD 标签中提取"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "对于企业使用的页面，如会员专享页面或内部页面，无输出 或 仅 TITLE 标签 即可。"
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "除非 OGP 图像来自 Wordpress HEAD 标签，否则不会显示在社交网络共享中。"
+
+msgid "画像botをアクセス禁止にする"
+msgstr "禁止图像机器人。"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
+msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索直接链接保护的内容。"
+
+msgid "alertメッセージを表示する言語"
+msgstr "显示警报信息的语言。"
+
+msgid "Wordpressの言語"
+msgstr "Wordpress 语言。"
+
+msgid "ブラウザの設定言語"
+msgstr "浏览器设置语言"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "如果自定义了信息，则无法更改语言"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "显示视图源信息的语言。"
+
+msgid "基本設定"
+msgstr "基本设置"
+
+msgid "高度な設定"
+msgstr "高级设置"
+
+msgid "初期設定に戻す"
+msgstr "重置为默认值"
+
+msgid "メッセージの設定"
+msgstr "信息设置"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "设置右键单击或查看源代码时要转发的 URL。"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "警告信息不能使用 HTML"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "如果在此屏幕上设置，高级设置选项卡中的语言设置将被忽略"
+
+msgid "以下の文字列が使用できます"
+msgstr "可以使用以下字符串"
+
+msgid "改行"
+msgstr "新线"
+
+msgid "押下されたキー"
+msgstr "按键"
+
+msgid "Neo HTML Protector 設定"
+msgstr "尼欧 HTML 保护程序设置"
+
+msgid "このプラグインについて"
+msgstr "关于此插件。"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "要清除所有数据，请卸载插件，然后重新安装"
+
+msgid "Neo HTML Protectorについて"
+msgstr "关于 Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "该插件旨在保护 Wordpress 输出的 HTML、图片等，防止未经授权使用其内容。"
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "内容不可能得到完美的保护。但是，通过以各种可能的方式向他们发出警告，并在发生意外时做好准备，您应该能够以国家规定的方式解决问题。"
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "当然，您还需要完善您的使用条款和网站政策。这个插件不是一个使用条款生成应用程序，但它可以给你一个提示。"
+
+msgid "開発者: 夜桜　なの"
+msgstr "开发者：Nano Yozakura"
+
+msgid "バージョン"
+msgstr "版本"
+
+msgid "ビルド"
+msgstr "构建"
+
+msgid "サポートページ"
+msgstr "支持页面"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "乌拉马尼拉先生演唱的《小姐"
+
+msgid "支援のお願い"
+msgstr "请求援助。"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "感谢您使用 Neo HTML Protector！"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "本插件的开发和维护耗费了我们大量的时间和智慧，如果有捐赠，我们将不胜感激，以帮助我们筹集资金进行持续改进和更新。"
+
+msgid "寄付について"
+msgstr "关于捐赠"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "捐赠是自愿的，不是强制性的。它对所有人开放，因此插件可以免费使用。但是，我们非常希望得到您的支持以继续开发，我们也非常乐意提供力所能及的帮助。"
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "您可以通过以下链接捐款。如果您来自日本，也可以免费捐款，此外，您还可以使用亚马逊礼券轻松捐款。"
+
+msgid "寄付先"
+msgstr "捐助方"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "有了您的支持，我们将尽最大努力在未来为您带来更好的更新！"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "我们感谢您的支持，并期待今后与您合作。"
+
+msgid "無効なIPアドレス"
+msgstr "无效 IP 地址。"
+
+msgid "https://google.co.jp"
+msgstr "https://www.baidu.com"
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "只有在启用 cookie 和 JavaScript 后才能浏览本网站"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "禁止调试模式和控制台激活"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "以下信息已发送至服务器"
+
+msgid "あなたのIPアドレス"
+msgstr "您的 IP 地址"
+
+msgid "あなたの端末とブラウザ"
+msgstr "您的设备和浏览器"
+
+msgid "あなたの押下したキー"
+msgstr "您按下的键"
+
+msgid "リダイレクトをします"
+msgstr "重定向。"
+
+msgid "右クリックは禁止されています"
+msgstr "禁止右键单击。"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "禁止打印和保存为 PDF 格式"
+
+msgid "ページの保存は禁止されています"
+msgstr "禁止保存页面。"
+
+msgid "コピー、カットは禁止されています"
+msgstr "禁止复制或剪切。"
+
+msgid "あなたが起こしたイベント"
+msgstr "你造成的事件"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "禁止显示 HTML 源代码。"
+
+msgid "不正アクセスは禁止されています"
+msgstr "禁止未经授权的访问。"
+
+msgid "アラビア語"
+msgstr "阿拉伯语"
+
+msgid "ブルガリア語"
+msgstr "保加利亚语"
+
+msgid "チェコ語"
+msgstr "捷克语"
+
+msgid "デンマーク語"
+msgstr "丹麦语"
+
+msgid "ドイツ語"
+msgstr "德语"
+
+msgid "現代ギリシア語"
+msgstr "现代希腊语"
+
+msgid "英語"
+msgstr "英语"
+
+msgid "イギリス英語"
+msgstr "英式英语"
+
+msgid "アメリカ英語"
+msgstr "美式英语"
+
+msgid "スペイン語"
+msgstr "西班牙语"
+
+msgid "エストニア語"
+msgstr "爱沙尼亚语"
+
+msgid "フィンランド語"
+msgstr "芬兰语"
+
+msgid "フランス語"
+msgstr "法语"
+
+msgid "ハンガリー語"
+msgstr "匈牙利语"
+
+msgid "インドネシア語"
+msgstr "印度尼西亚语"
+
+msgid "イタリア語"
+msgstr "意大利语"
+
+msgid "日本語"
+msgstr "日语"
+
+msgid "朝鮮語"
+msgstr "韩语"
+
+msgid "リトアニア語"
+msgstr "立陶宛语"
+
+msgid "ラトビア語"
+msgstr "拉脱维亚语"
+
+msgid "ノルウェー語"
+msgstr "挪威语"
+
+msgid "オランダ語"
+msgstr "荷兰语"
+
+msgid "ポーランド語"
+msgstr "波兰语"
+
+msgid "ポルトガリア語"
+msgstr "葡萄牙语"
+
+msgid "ブラジルポルトガル語"
+msgstr "巴西葡萄牙语"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "欧洲葡萄牙语"
+
+msgid "ルーマニア語"
+msgstr "罗马尼亚语"
+
+msgid "ロシア語"
+msgstr "俄语"
+
+msgid "スロバキア語"
+msgstr "斯"
+
+msgid "スロベニア語"
+msgstr "斯洛文尼亚语"
+
+msgid "スウェーデン語"
+msgstr "瑞典语"
+
+msgid "トルコ語"
+msgstr "土耳其语"
+
+msgid "ウクライナ語"
+msgstr "乌克兰语"
+
+msgid "中国語"
+msgstr "中文"
+
+msgid "簡体中国語"
+msgstr "简体中文"
+
+msgid "繁体中国語"
+msgstr "繁体中文"
+
+msgid "画像が見つかりません"
+msgstr "未找到图像。"
 

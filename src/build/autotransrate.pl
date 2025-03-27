@@ -7,7 +7,8 @@ use warnings;
 use Getopt::Long;
 use POSIX qw(strftime);
 
-my $DPTRAN='~/.cargo/bin/dptran';
+#my $DPTRAN='~/.cargo/bin/dptran';
+my $DPTRAN='php build/deepl.php';
 my $DPTRAN_USAGE=$DPTRAN . ' -u';
 
 my $input_file="";
@@ -62,7 +63,7 @@ if($from_table->{lang} ne "") {
 
 print STDERR "-----------------------------------------------\n";
 print STDERR "autotranslate $from_lang to $to_lang\n";
-print STDERR `$DPTRAN_USAGE` . "\n";
+#print STDERR `$DPTRAN_USAGE` . "\n";
 
 &topbanner($from, $to, $input_file, $table_file, $package_name, $email, $version);
 &pottransrate($from, $to, $table_file, $input_file, $cache_file);
@@ -117,7 +118,7 @@ sub pottransrate() {
 				}
 
 				if(!($cached) && !($str=~/^http/)) {
-					if($tstr ne "") {
+					if($tstr ne "" && $tstr ne "Auth Key not set") {
 						open(my $fh, ">>", $cache) || die "$cache can't write\n";
 						print $fh "$str\t$tstr\n";
 						close($fh);
@@ -156,9 +157,9 @@ sub transrate() {
 	}
 
 	my $cmd=$DPTRAN
-		. ($from ne "" ? " --from $from_lang" : "")
-		. ($to ne "" ? " --to $to_lang" : "")
-		. " \'$str\'";
+		. ($from ne "" ? " --from=$from_lang" : "")
+		. ($to ne "" ? " --to=$to_lang" : "")
+		. " --input=\'$str\'";
 
 	print STDERR $cmd . "\n";
 	my $result = `$cmd`;

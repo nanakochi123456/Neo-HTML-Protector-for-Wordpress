@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.44\n"
+"Project-Id-Version: Neo HTML Protector 0.0.45\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-27 00:33+0900\n"
-"PO-Revision-Date: 2025-03-27 00:39+0900\n"
+"POT-Creation-Date: 2025-03-27 21:24+0900\n"
+"PO-Revision-Date: 2025-03-27 21:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -106,19 +106,22 @@ msgid "画像の保護"
 msgstr "Kuvan suojaus."
 
 msgid "画像を保護"
-msgstr ""
+msgstr "Kuvan suojaus."
 
 msgid "画像をダウンロードから保護します"
 msgstr "Suojaa kuvia lataukselta."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr ""
+msgstr "Estää lähes kokonaan lataamisen, kun kuvatiedot on suojattu, antaa täydellisen kertaluonteisen URL-osoitteen, todentaa istuntoon tallennetulla tunnisteella ja näyttää kuvan php:stä, mikä estää lähes kokonaan kuvavarkaudet."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr ""
+msgstr "Kuvien välimuistitallennus ei toimi, kun kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr ""
+msgstr "Tietokannan kuormitus voi olla suurempi, kun kuvatiedot on suojattu."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen tulostuksen valintaa, kun suojaat HTML:ää lisäasetuksissa."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana."

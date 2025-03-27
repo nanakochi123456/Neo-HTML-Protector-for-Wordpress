@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.44\n"
+"Project-Id-Version: Neo HTML Protector 0.0.45\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-27 00:33+0900\n"
-"PO-Revision-Date: 2025-03-27 00:35+0900\n"
+"POT-Creation-Date: 2025-03-27 21:24+0900\n"
+"PO-Revision-Date: 2025-03-27 21:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -106,19 +106,22 @@ msgid "画像の保護"
 msgstr "Protection de l'image."
 
 msgid "画像を保護"
-msgstr ""
+msgstr "Protection de l'image."
 
 msgid "画像をダウンロードから保護します"
 msgstr "Protège les images contre le téléchargement."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr ""
+msgstr "Il empêche presque totalement le téléchargement lorsque les données de l'image sont protégées, émet une URL complète à usage unique, s'authentifie à l'aide d'un jeton stocké dans la session et affiche l'image à partir de php, empêchant ainsi presque totalement le vol d'images."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr ""
+msgstr "La mise en cache des images ne fonctionne pas lorsque les données des images sont protégées, de sorte que le site se chargera plus lentement lors de la prochaine visite, ce qui peut entraîner une baisse du référencement."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr ""
+msgstr "La charge de la base de données peut être plus élevée lorsque les données d'image sont protégées"
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Notez que les images spécifiées comme accrocheuses sont diffusées en tant qu'OGP et ne peuvent pas être protégées. Si vous devez les protéger, veuillez modifier la sélection de la sortie de la balise HEAD lors de la protection du HTML dans les paramètres avancés."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."

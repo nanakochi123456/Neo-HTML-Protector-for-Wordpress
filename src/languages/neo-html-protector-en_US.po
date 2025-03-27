@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.44\n"
+"Project-Id-Version: Neo HTML Protector 0.0.45\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-27 00:47+0900\n"
-"PO-Revision-Date: 2025-03-27 00:47+0900\n"
+"POT-Creation-Date: 2025-03-27 21:24+0900\n"
+"PO-Revision-Date: 2025-03-27 21:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -106,8 +106,398 @@ msgid "画像の保護"
 msgstr "Image Protection"
 
 msgid "画像を保護"
-msgstr ""
+msgstr "Image Protection"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Protects images from downloading"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Almost completely prevents downloading when image data is protected, issues a complete one-time URL, authenticates with a token stored in the session, and displays the image from php, thus almost completely preventing image theft"
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
+msgstr "Image caching does not work when image data is protected, so the site will load slower the next time you visit, which may result in lower SEO"
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Database load may be higher when image data is protected"
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Please note that images specified as eye catchers will be spread as OGP and cannot be protected. If you must protect them, please change the output selection of the HEAD tag when HTML is protected in the advanced settings."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection"
+
+msgid "なし"
+msgstr "Nashi"
+
+msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Displays ASCII art to indicate warning intent when HTML source is displayed"
+
+msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
+msgstr "Please confirm by viewing the source in a non-logged-in browser"
+
+msgid "デバッグモード"
+msgstr "Debug mode"
+
+msgid "妨害＋記録のみ"
+msgstr "Disturbance + record only"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Intercept + Record + Display + Redirect"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "It can be operated from the menu."
+
+msgid "ブラウザーコンソール"
+msgstr "Browser Console"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "In effect, it can be operated from debug mode!"
+
+msgid "HTMLソース表示"
+msgstr "HTML source display"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "You can operate it by entering a URL that starts with view-source:."
+
+msgid "印刷"
+msgstr "Printing"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Some browsers do not work well, although they prevent printing"
+
+msgid "ページ保存"
+msgstr "Page save"
+
+msgid "右クリック"
+msgstr "Right click"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "If add-ons are installed, they can be operated"
+
+msgid "コピー・カット"
+msgstr "Copy-cut"
+
+msgid "あまりこのイベントに遭遇することはありません"
+msgstr "We don't run into this event very often."
+
+msgid "テキスト選択"
+msgstr "Text selection"
+
+msgid "デバッガー妨害"
+msgstr "Debugger interference"
+
+msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Makes debug mode a little less usable, some browsers will stop this behavior"
+
+msgid "リダイレクトするURL"
+msgstr "URL to redirect"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "You may want to forward it to the Terms of Use and other pages"
+
+msgid "ソース表示を許可する権限"
+msgstr "Authority to allow source display"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normal source output only at ADMIN login"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normal source output with USER login"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Select whether normal HTML output is for administrators only or user login"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Output of HEAD tag during HTML protection"
+
+msgid "出力しない"
+msgstr "No output"
+
+msgid "TITLEタグのみ"
+msgstr "TITLE tag only"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Retrieved from Wordpress HEAD tag"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "For corporate use, such as members-only pages or internal pages, No output or TITLE tag only is fine."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag"
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Ban the image bot"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
+msgstr "By avoiding image bots for HTML, you can protect content that could not be protected by direct links from image searches."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Language in which alert messages are displayed"
+
+msgid "Wordpressの言語"
+msgstr "Wordpress Language"
+
+msgid "ブラウザの設定言語"
+msgstr "Browser Preference Language"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Language cannot be changed if the message is set to custom"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Language in which view-source messages are displayed"
+
+msgid "基本設定"
+msgstr "Basic setting"
+
+msgid "高度な設定"
+msgstr "Advanced Settings"
+
+msgid "初期設定に戻す"
+msgstr "Restore default settings"
+
+msgid "メッセージの設定"
+msgstr "Message Settings"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Set the URL to be forwarded when right-clicking or viewing source code"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML is not allowed in warning messages"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Setting on this screen ignores the language settings on the Advanced tab"
+
+msgid "以下の文字列が使用できます"
+msgstr "The following strings can be used"
+
+msgid "改行"
+msgstr "New line"
+
+msgid "押下されたキー"
+msgstr "Pressed key"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML Protector Settings"
+
+msgid "このプラグインについて"
+msgstr "About this Plug-in"
+
+msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
+msgstr "To clear all data, uninstall the plugin and install it again"
+
+msgid "Neo HTML Protectorについて"
+msgstr "About Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "This plugin is intended to protect the HTML, images, etc. output from your Wordpress and to protect your content from unauthorized use."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "We cannot protect the content perfectly, but we can warn people in every possible way and be prepared if something happens. However, by warning them in every way possible and being prepared for any eventuality, they should be able to resolve it in a nationally mandated manner."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Of course, you will need to enhance your Terms of Use and Site Policies. This plugin is not a terms of use generation application, but it can give you a hint."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Developer: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Version"
+
+msgid "ビルド"
+msgstr "Build"
+
+msgid "サポートページ"
+msgstr "Support Page"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss. Uramanira sings"
+
+msgid "支援のお願い"
+msgstr "Request for Support"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Thank you for using Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "The development and maintenance of this plugin has taken a lot of time and wisdom, and we would appreciate a donation, if any, to help us raise funds for continued improvements and updates."
+
+msgid "寄付について"
+msgstr "About Donations"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donations are voluntary and not mandatory. Anyone is welcome to use our plug-ins free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donations can be made by clicking on the link below. If you are in Japan, you can also donate for free, and furthermore, you can easily donate with Amazon gift certificates."
+
+msgid "寄付先"
+msgstr "Donations"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "With your support, we will do our best to bring you great updates in the future!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "We appreciate your support and look forward to working with you in the future."
+
+msgid "無効なIPアドレス"
+msgstr "Invalid IP address"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgstr "This website can only be viewed with cookies and JavaScript enabled"
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Debug mode and console activation is prohibited"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "The following information has been sent to the server"
+
+msgid "あなたのIPアドレス"
+msgstr "Your IP address"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Your device and browser"
+
+msgid "あなたの押下したキー"
+msgstr "Your pressed key"
+
+msgid "リダイレクトをします"
+msgstr "Redirects."
+
+msgid "右クリックは禁止されています"
+msgstr "Right-clicking is prohibited"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Printing and saving to PDF is prohibited"
+
+msgid "ページの保存は禁止されています"
+msgstr "Saving pages is prohibited"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Copying or cutting is prohibited"
+
+msgid "あなたが起こしたイベント"
+msgstr "Events you have caused"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML source display is prohibited"
+
+msgid "不正アクセスは禁止されています"
+msgstr "Unauthorized access is prohibited."
+
+msgid "アラビア語"
+msgstr "Arabic"
+
+msgid "ブルガリア語"
+msgstr "Bulgarian"
+
+msgid "チェコ語"
+msgstr "Czech"
+
+msgid "デンマーク語"
+msgstr "Danish"
+
+msgid "ドイツ語"
+msgstr "German"
+
+msgid "現代ギリシア語"
+msgstr "Modern Greek"
+
+msgid "英語"
+msgstr "English"
+
+msgid "イギリス英語"
+msgstr "British English"
+
+msgid "アメリカ英語"
+msgstr "American English"
+
+msgid "スペイン語"
+msgstr "Spanish"
+
+msgid "エストニア語"
+msgstr "Estonian"
+
+msgid "フィンランド語"
+msgstr "Finnish"
+
+msgid "フランス語"
+msgstr "French"
+
+msgid "ハンガリー語"
+msgstr "Hungarian"
+
+msgid "インドネシア語"
+msgstr "Indonesian"
+
+msgid "イタリア語"
+msgstr "Italian"
+
+msgid "日本語"
+msgstr "Japanese"
+
+msgid "朝鮮語"
+msgstr "Korean"
+
+msgid "リトアニア語"
+msgstr "Lithuanian"
+
+msgid "ラトビア語"
+msgstr "Latvian"
+
+msgid "ノルウェー語"
+msgstr "Norwegian"
+
+msgid "オランダ語"
+msgstr "Dutch"
+
+msgid "ポーランド語"
+msgstr "Polish"
+
+msgid "ポルトガリア語"
+msgstr "Portuguese"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazilian Portuguese"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "European Portuguese"
+
+msgid "ルーマニア語"
+msgstr "Romanian"
+
+msgid "ロシア語"
+msgstr "Russian"
+
+msgid "スロバキア語"
+msgstr "Slovak"
+
+msgid "スロベニア語"
+msgstr "Slovenian"
+
+msgid "スウェーデン語"
+msgstr "Swedish"
+
+msgid "トルコ語"
+msgstr "Turkish"
+
+msgid "ウクライナ語"
+msgstr "Ukrainian"
+
+msgid "中国語"
+msgstr "Chinese"
+
+msgid "簡体中国語"
+msgstr "Simplified Chinese"
+
+msgid "繁体中国語"
+msgstr "Traditional Chinese"
+
+msgid "画像が見つかりません"
+msgstr "Image not found"
 

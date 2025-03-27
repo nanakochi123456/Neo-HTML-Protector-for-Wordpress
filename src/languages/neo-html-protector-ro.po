@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.44\n"
+"Project-Id-Version: Neo HTML Protector 0.0.45\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-27 00:33+0900\n"
-"PO-Revision-Date: 2025-03-27 00:42+0900\n"
+"POT-Creation-Date: 2025-03-27 21:24+0900\n"
+"PO-Revision-Date: 2025-03-27 21:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -106,19 +106,22 @@ msgid "画像の保護"
 msgstr "Protecția imaginii."
 
 msgid "画像を保護"
-msgstr ""
+msgstr "Protecția imaginii."
 
 msgid "画像をダウンロードから保護します"
 msgstr "Protejează imaginile de descărcare."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr ""
+msgstr "Împiedică aproape complet descărcarea atunci când datele de imagine sunt protejate, emite o adresă URL unică completă, se autentifică cu un simbol stocat în sesiune și afișează imaginea din php, prevenind astfel aproape complet furtul de imagini."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr ""
+msgstr "Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt protejate, astfel încât site-ul se va încărca mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO"
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
-msgstr ""
+msgstr "Încărcarea bazei de date poate fi mai mare atunci când datele de imagine sunt protejate"
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Rețineți că imaginile specificate ca eye-catching sunt răspândite ca OGP și nu pot fi protejate. Dacă trebuie să le protejați, vă rugăm să modificați selecția de ieșire a etichetei HEAD atunci când protejați HTML în setările avansate."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML."

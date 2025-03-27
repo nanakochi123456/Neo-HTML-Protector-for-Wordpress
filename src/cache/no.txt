@@ -180,3 +180,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Meldin
 画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Bildedata forhindrer også nesten fullstendig nedlasting når de er beskyttet, utsteder en komplett engangsadresse, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri.
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Når du aktiverer URL-beskyttelse for bilder, lastes JavaScript alltid inn før bildet lastes inn, så SEO kan bli skadelidende!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vis ASCII-tegninger som indikerer intensjonen om å advare når HTML-kilde vises.
+画像を保護	Bildebeskyttelse.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Forhindrer nesten fullstendig nedlasting når bildedataene er beskyttet, utsteder en komplett engangsURL, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching av bilder fungerer ikke når bildedata er beskyttet, slik at nettstedet lastes inn langsommere ved neste besøk, noe som kan føre til dårligere SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Databasebelastningen kan være høyere når bildedata er beskyttet
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Merk at bilder som er angitt som iøynefallende, spres som OGP og kan ikke beskyttes. Hvis du må beskytte dem, må du endre valget av utdata for HEAD-taggen når du beskytter HTML i de avanserte innstillingene.

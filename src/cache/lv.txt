@@ -179,3 +179,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Ja sī
 画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Attēlu dati arī novērš gandrīz pilnīgu lejupielādi, ja tie ir aizsargāti, izdod pilnīgu vienreizēju URL, autentificējas ar sesijā saglabāto žetonu un parāda attēlu no php, tādējādi novēršot gandrīz pilnīgu attēlu zādzību.
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ikreiz, kad iespējojat tikai attēlu URL aizsardzību, JavaScript vienmēr tiek ielādēts pirms attēla ielādēšanas, tāpēc var ciest SEO!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots.
+画像を保護	Attēlu aizsardzība.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Gandrīz pilnībā novērš lejupielādi, ja attēla dati ir aizsargāti, izdod pilnīgu vienreizēju URL, autentificē ar sesijā saglabāto žetonu un parāda attēlu no php, tādējādi gandrīz pilnībā novēršot attēla zādzību.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Attēlu kešēšana nedarbojas, ja attēlu dati ir aizsargāti, tāpēc nākamā apmeklējuma laikā vietne ielādēsies lēnāk, un tas var izraisīt SEO samazināšanos.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Datubāzes slodze var būt lielāka, ja attēla dati ir aizsargāti.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ņemiet vērā, ka attēli, kas norādīti kā uzkrītoši, tiek izplatīti kā OGP, un tos nevar aizsargāt. Ja jums tie ir jāaizsargā, lūdzu, mainiet HEAD taga izvades izvēli, aizsargājot HTML, paplašinātajos iestatījumos.

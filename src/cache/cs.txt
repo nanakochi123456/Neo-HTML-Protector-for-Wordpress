@@ -183,3 +183,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Zpráv
 画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Obrazová data také zabraňují téměř úplnému stažení, pokud jsou chráněna, vydávají kompletní jednorázovou adresu URL, ověřují se pomocí tokenu uloženého v relaci a zobrazují obrázek z php, čímž zabraňují téměř úplné krádeži obrázku.
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Pokud povolíte ochranu pouze URL obrázků, JavaScript se vždy načte před načtením obrázku, takže může dojít k poškození SEO!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazení obrázku ASCII označujícího záměr varovat při zobrazení zdroje HTML.
+画像を保護	Ochrana obrazu.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Téměř zcela zabrání stahování, pokud jsou data obrázku chráněna, vydá kompletní jednorázovou adresu URL, ověří se pomocí tokenu uloženého v relaci a zobrazí obrázek z php, čímž téměř zcela zabrání krádeži obrázku.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukládání obrázků do mezipaměti nefunguje, pokud jsou data obrázků chráněna, takže se web při další návštěvě načítá pomaleji, což může mít za následek pokles SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zatížení databáze může být vyšší, pokud jsou obrazová data chráněna.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Všimněte si, že obrázky zadané jako poutavé se šíří jako OGP a nelze je chránit. Pokud je musíte chránit, změňte prosím výběr výstupu značky HEAD při ochraně HTML v pokročilém nastavení.

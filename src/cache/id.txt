@@ -181,3 +181,8 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Pesan 
 画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kapan pun Anda mengaktifkan proteksi khusus URL gambar, JavaScript selalu dimuat sebelum gambar dimuat, sehingga SEO mungkin akan terganggu!
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan ketika sumber HTML ditampilkan.
 画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ketika hanya URL gambar yang dilindungi, hanya URL gambar yang dilindungi, transfer gambar yang sebenarnya didekripsi oleh JavaScript dan gambar ditampilkan dengan cara yang umum.
+画像を保護	Perlindungan gambar.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Hampir sepenuhnya mencegah pengunduhan ketika data gambar diproteksi, mengeluarkan URL satu kali yang lengkap, mengautentikasi dengan token yang tersimpan dalam sesi dan menampilkan gambar dari php, sehingga hampir sepenuhnya mencegah pencurian gambar.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching gambar tidak berfungsi ketika data gambar dilindungi, sehingga situs akan dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Beban basis data mungkin lebih tinggi ketika data gambar dilindungi
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan.
