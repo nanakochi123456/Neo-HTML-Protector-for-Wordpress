@@ -3,29 +3,25 @@
  * Neo HTML Protector neohp_imageprotect
  */
 
-define( 'NEOHP_REQUIRED_CRYPTO_JS_VERSION', '4.2.0' );
-define('NEOHP_IMAGE_EXPIRE', 10);
+define('NEOHP_IMAGE_EXPIRE', 60);
 $neohp_imageprotect=new neohp_imageprotect();
 
 class neohp_imageprotect {
 	protected $neohp_func;
 	protected $neohp_javascript;
 	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
-	protected $nonce;
+	protected $outputPngDone = false;
 
-	
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
 		$this->neohp_javascript = new neohp_javascript();
-		$this->nonce = $this->generateNonce();
+//		$this->nonce = $this->generateNonce();
 
 		if(get_option('neohp_deny_imagebot', '0') === '1') {
 			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
 				$this->neohp_func->err403();
 			}
 		}
-
-		//session_start();
 
 		// JavaScript挿入
 		add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
@@ -40,7 +36,29 @@ class neohp_imageprotect {
 			}, 0);
 
 			// 画像のリプレイスフィルタ
-			add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+//			add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+
+			add_action('wp_head', function () {
+				ob_start();
+			}, 0);
+
+			// これでHTMLすべてキャプチャできるはず
+			add_action('wp_footer', function () {
+				$neohp_all_content = ob_get_clean(); // head内容を取得
+				ob_end_clean();
+				$lang = get_bloginfo('language');
+				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+				echo $html;
+				if( ! $this->neohp_func->user() ) {
+//					if(get_option('neohp_imageprotect', '0') === '1') {
+						echo $this->processImageTagsMode2($neohp_all_content);
+//					} else {
+//						echo $this->processImageTagsMode2($neohp_all_content);
+//					}
+				} else {
+					echo $neohp_all_content;
+				}
+			}, 99999);
 		}
 	}
 
@@ -82,6 +100,7 @@ class neohp_imageprotect {
 
 	// pngで文字列を描画し、終了する
 	function outputPng($text) {
+		static $neohp_outputPngDone = false;
 		// 画像の幅と高さ
 		$width = 1200;
 		$height = 800;
@@ -103,7 +122,7 @@ class neohp_imageprotect {
 		//$text = "Hello, World! This is a long text that should wrap.";
 
 		// フォントサイズ
-		$fontSize = 20;
+		$fontSize = 16;
 
 		// 行の最大幅を設定
 		$maxWidth = $width - 20; // 左右に少し余白を残す
@@ -125,12 +144,12 @@ class neohp_imageprotect {
 
 			// 文字を描画
 			imagettftext($image, $fontSize, 0, $x, $y, $textColor, $fontPath, $line);
-
 			// 次の行のY座標を設定
 			$y += $fontSize + 15; // 行間を調整
 		}
 
 		// ヘッダーを送信して画像を出力
+//		header('Content-Type: text/html');
 		header('Content-Type: image/png');
 		imagepng($image);
 
@@ -140,8 +159,9 @@ class neohp_imageprotect {
 	}
 
 	// 警告出力関数＆デバッグ
-	function alert($string, $image_path, $mime, $nonce) {
+	function alert($string, $image_path, $mime, $nonce, $transient, $encoded_image_url) {
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+
 		$value = get_option('neohp_imagedownload_message', $neohp_imagedownload_default );
 		$user_ip = $this->neohp_func->get_user_ip();
 		$ua = $this->neohp_func->get_user_agent();
@@ -152,11 +172,15 @@ class neohp_imageprotect {
 
 		$this->outputPng(
 			  $value . "\n\n"
-			. $string . "\n\n"
-			. "image_path=".$image_path . "\n\n"
-			. "mime=".$mime . "\n\n"
-			. "nonce=".$nonce
+//			. $string . "\n\n"
+//			. "image_path=".$image_path . "\n\n"
+//			. "mime=".$mime . "\n\n"
+//			. "nonce=".$nonce . "\n\n"
+//			. "transien=".$transient . "\n\n"
+//			. "encoded_image_url=".$encoded_image_url
 		);
+
+		exit;
 	}
 
 	// Mode1で画像を表示する
@@ -166,17 +190,23 @@ class neohp_imageprotect {
 
 			if(isset($encoded_image_url)) {
 				$transient=$this->neohp_func->gettransient($encoded_image_url);
-				$nonce=$this->neohp_func->gettransient($transient . '_nonce');
-				$parts = explode(',', $transient);
-				
-				foreach ($parts as &$part) {
-					// 各パーツごとに置換
-					$this->neohp_func->deletetransient($part);
-				}
-				// nonceは放置する
-				// $this->neohp_func->deletetransient('nonce');
+				if($transient !== '') {
+					$nonce=$this->neohp_func->gettransient($encoded_image_url . '_nonce');
+					$parts = explode(',', $transient);
+					
+					foreach ($parts as &$part) {
+						// 各パーツごとに置換
+						$this->neohp_func->deletetransient($part);
+						$this->neohp_func->deletetransient($part . '_nonce');
+					}
+					// nonceは放置する
+					//$this->neohp_func->deletetransient($transient . '_nonce');
 
-				$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce);
+					$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce);
+				} else {
+					$image_url = '';
+				}
+
 				// WordPressのアップロードディレクトリのURLを取得
 				$upload_base_url = content_url();
 
@@ -208,41 +238,52 @@ class neohp_imageprotect {
 						'image/heic',
 						'image/jp2',
 					];
+/*
+				$this->alert(
+					  'outputed'
+					, $image_path
+					, $mime
+					, $nonce
+					, ""//$transient
+					, $encoded_image_url
+				);
+*/
 					if (!in_array($mime, $allowed_types)) {
-						$this->alert(
-							  'mime type checked'
-							, $image_path
-							, $mime
-							, $nonce
-						);
+//						$this->alert(
+//							  'mime type checked'
+//							, $image_path
+//							, $mime
+//							, $nonce
+//							, $transient
+//						);
 
 //						wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
-					}
+					} else {
+						// 画像を出力して転送
+						global $wp_filesystem;
 
-					// 画像を出力して転送
-					global $wp_filesystem;
+						if ( ! function_exists( 'WP_Filesystem' ) ) {
+							require_once ABSPATH . 'wp-admin/includes/file.php';
+						}
 
-					if ( ! function_exists( 'WP_Filesystem' ) ) {
-						require_once ABSPATH . 'wp-admin/includes/file.php';
-					}
+						WP_Filesystem();
 
-					WP_Filesystem();
+						if ( $wp_filesystem->exists( $image_path ) ) {
+							$mime_type = wp_check_filetype( $image_path )['type'];
+							if ( $mime_type ) {
+								header( 'Content-Type: ' . $mime_type );
+								header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
+								header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );
+								header( 'Cache-Control: post-check=0, pre-check=0', false);
+								header( 'Pragma: no-cache' );
+								header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
+								// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+								// This is image file (binary)
 
-					if ( $wp_filesystem->exists( $image_path ) ) {
-						$mime_type = wp_check_filetype( $image_path )['type'];
-						if ( $mime_type ) {
-							header( 'Content-Type: ' . $mime_type );
-							header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
-							header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );
-							header( 'Cache-Control: post-check=0, pre-check=0', false);
-							header( 'Pragma: no-cache' );
-							header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
-							// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-							// This is image file (binary)
-
-							echo $wp_filesystem->get_contents( $image_path );
-							// phpcs:enable
-							exit;
+								echo $wp_filesystem->get_contents( $image_path );
+								// phpcs:enable
+								exit;
+							}
 						}
 					}
 				}
@@ -251,6 +292,8 @@ class neohp_imageprotect {
 					, $image_path
 					, $mime
 					, $nonce
+					, ""
+					, $transient
 				);
 
 
@@ -302,7 +345,6 @@ class neohp_imageprotect {
 			)
 		);
 
-			// 暗号化されたデータとIVを分割
 		// 暗号化されたデータとIVを分割
 		$parts = explode(':', $decodedData);
 		if (count($parts) !== 2) {
@@ -352,12 +394,111 @@ class neohp_imageprotect {
 		}, $str);
 	}
 
+	// 実際の処理 mode2
+	function processImageTagsMode2($html) {
+		// セキュリティ制御のためのnonce生成
+		$nonce = $this->generateNonce();
+
+		// imgタグを正規表現で処理
+		$html = preg_replace_callback('/<img[^>]+>/i', function($matches) use ($nonce) {
+			$img_tag = $matches[0];
+			$site_url = get_site_url();
+
+			// imgタグの属性をパース
+			$attributes = [];
+			preg_match_all('/([a-zA-Z0-9\-]+)="([^"]+)"/', $img_tag, $attr_matches, PREG_SET_ORDER);
+			
+			foreach ($attr_matches as $attr) {
+				$attributes[$attr[1]] = $attr[2];
+			}
+
+			// transientの初期化
+			$transient = [];
+
+			if (isset($attributes['src'])) {
+				// site_urlと同一の時のみ処理する
+				if (strpos($attributes['src'], $site_url) === 0) {
+					// classを追加する
+					if (isset($attributes['class'])) {
+						$attributes['class'] .= ' protected';
+					} else {
+						$attributes['class'] = 'protected';
+					}
+					// classを追加する
+					if (isset($attributes['class'])) {
+						$attributes['class'] .= ' protected';
+					} else {
+						$attributes['class'] = 'protected';
+					}
+
+					// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
+					$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce);
+					$attributes['src'] =
+						$site_url . '?neohp=img&img='
+								  .  $encoded_src;
+					// エンコードしたsrcを名前にしてtransientセット
+					array_push($transient, $encoded_src);
+
+					if (isset($attributes['srcset'])) {
+						$parts = explode(',', $attributes['srcset'] );
+						foreach ($parts as &$part) {
+							// 各パーツごとに置換
+							$pattern = '/([^\s,]+)\s*(\d+)(x|w|h)?/';
+							preg_match($pattern, $part, $matches);
+							if (!empty($matches)) {
+								$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce);	// URL
+		//$encoded_src=$this->removeSchemeAndHost($matches[1]);
+								$size = $matches[2]; 		//100
+								$type = isset($matches[3]) ? $matches[3] : '';	// x or w or h
+								$part = 
+									$site_url . '?neohp=img&img='
+											  .  $encoded_src
+											  . ' ' . $size . $type;
+								// エンコードしたsrcを名前にしてtransientセット
+								array_push($transient, $encoded_src);
+							}
+						}
+						$url = implode(',', $parts);
+						$attributes['srcset'] = $url;
+					}
+
+					// 結合しすべてにpushする
+					$transientstr = implode(',', $transient);
+					foreach ($transient as $transitent_name) {
+						$this->neohp_func->settransient(
+							$transitent_name, $transientstr, NEOHP_IMAGE_EXPIRE);
+						$this->neohp_func->settransient(
+							$transitent_name . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
+					}
+
+					// nonceをcookieに追加（オプション）
+					//$this->neohp_func->settransient(
+					//	'nonce', $nonce, NEOHP_IMAGE_EXPIRE);
+
+					// 新しいimgタグを作成
+					$new_img_tag = '<img';
+					foreach ($attributes as $attr_name => $attr_value) {
+						$new_img_tag .= ' ' . $attr_name . '="' . $attr_value . '"';
+					}
+					$new_img_tag .= '>';
+
+					return $new_img_tag;
+				} else {
+					return $img_tag;
+				}
+			}
+		}, $html);
+
+		return $html;
+	}
+
+/*
 	// 実際の処理 Mode1
 	function processImageTagsMode1($attributes, $attachment) {
 		$site_url = get_site_url();
 		// transientの初期化
 		$transient = [];
-
+		$nonce=$this->generateNonce()
 		if (isset($attributes['src'])) {
 			// site_urlと同一の時のみ処理する
 			if (strpos($attributes['src'], $site_url) === 0) {
@@ -375,7 +516,7 @@ class neohp_imageprotect {
 				}
 
 				// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
-				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $this->nonce);
+				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce);
 				$attributes['src'] =
 					$site_url . '?neohp=img&img='
 							  .  $encoded_src;
@@ -389,7 +530,7 @@ class neohp_imageprotect {
 						$pattern = '/([^\s,]+)\s*(\d+)(x|w|h)?/';
 						preg_match($pattern, $part, $matches);
 						if (!empty($matches)) {
-							$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $this->nonce);	// URL
+							$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce);	// URL
 	//$encoded_src=$this->removeSchemeAndHost($matches[1]);
 							$size = $matches[2]; 		//100
 							$type = isset($matches[3]) ? $matches[3] : '';	// x or w or h
@@ -414,11 +555,12 @@ class neohp_imageprotect {
 
 				// nonceをcookieに追加（オプション）
 				$this->neohp_func->settransient(
-					$transientstr . '_nonce', $this->nonce, NEOHP_IMAGE_EXPIRE);
+					$transientstr . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
 
-				$attributes['data-nonce'] = $this->nonce;
+				$attributes['data-nonce'] = $nonce;
 			}
 		}
 		return $attributes;
 	}
+*/
 }
