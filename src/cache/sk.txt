@@ -185,3 +185,4 @@ HTMLソース表示をした時に警告の意思を示すアスキーアート�
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukladanie obrázkov do vyrovnávacej pamäte nefunguje, keď sú údaje o obrázkoch chránené, takže sa stránka pri ďalšej návšteve načíta pomalšie, čo môže mať za následok pokles SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zaťaženie databázy môže byť vyššie, keď sú obrazové údaje chránené
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Upozorňujeme, že obrázky zadané ako pútavé sa šíria ako OGP a nemožno ich chrániť. Ak ich musíte chrániť, zmeňte výber výstupu značky HEAD pri ochrane HTML v rozšírených nastaveniach.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Správa zobrazená na obrázku po jeho stiahnutí a obrázok je chránený Len v angličtine

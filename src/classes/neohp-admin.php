@@ -172,6 +172,23 @@ class neohp_admin {
 				'neohp_message_section'
 			);
 
+			// 画像がダウンロードされた時のメッセージ
+			register_setting('neohp_message_group', 'neohp_imagedownload_message');
+			add_settings_field(
+				'neohp_imagedownload_message',
+				__('画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_imagedownload_message', $neohp_imagedownload_default );
+					echo '<input type="text" name="neohp_imagedownload_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
+
+
+
 			// HTML圧縮
 			register_setting('neohp_basic_group', 'neohp_htmlcompress');
 			add_settings_field(

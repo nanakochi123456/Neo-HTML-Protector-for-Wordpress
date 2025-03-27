@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.47\n"
+"Project-Id-Version: Neo HTML Protector 0.0.48\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 02:42+0900\n"
-"PO-Revision-Date: 2025-03-28 02:43+0900\n"
+"POT-Creation-Date: 2025-03-28 04:38+0900\n"
+"PO-Revision-Date: 2025-03-28 04:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -74,6 +74,9 @@ msgstr "Meddelelse vises, hvis cookies og Javascript ikke er aktiveret."
 
 msgid "実際にはJavascriptが無効時のみ表示されます"
 msgstr "I praksis er dette kun synligt, når Javascript er deaktiveret."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Meddelelse, der vises på billedet, når billedet er downloadet, og billedet er beskyttet Kun på engelsk"
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML-forvirring"

@@ -8,6 +8,16 @@ $neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 $neohp_nocookienojs_default =
 	__('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector');
 
+$neohp_imagedownload_default =
+	sprintf("%s\\n\\n%s\\n\\n%s\\n\\n%s\\n%s\\n%s\\n"
+		, 'WARNING'
+		, 'Downloading images is prohibited.'
+		, 'The following information has been sent to the server.'
+		, 'Your IP address: $IP'
+		, 'Your User-agent: $UA'
+		, 'Event: Image downloading'
+	);
+
 $neohp_debugmode_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
 		, __('デバッグモード、コンソールの起動は禁止されています', 'neo-html-protector')

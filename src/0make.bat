@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.0.47
+set VERSION=0.0.48
 set NAME=neo-html-protector
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --assume_function_wrapper --rewrite_polyfills false  --assume_function_wrapper
@@ -24,7 +24,7 @@ echo Snapshot %datetime:~0,14%
 call 2version.bat %VERSION% %datetime:~0,14%
 
 @echo on
-wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* classes/*.php js/*.js languages/*
+wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* classes/* js/*.js languages/*
 
 @echo off
 copy %NAME%-%datetime:~0,14%.7z %FTP%

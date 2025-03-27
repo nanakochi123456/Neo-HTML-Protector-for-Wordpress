@@ -185,3 +185,4 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Komuni
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Obciążenie bazy danych może być większe, gdy dane obrazu są chronione
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Należy pamiętać, że obrazy określone jako przyciągające wzrok są rozpowszechniane jako OGP i nie mogą być chronione. Jeśli musisz je chronić, zmień wybór wyjścia znacznika HEAD podczas ochrony HTML w ustawieniach zaawansowanych.
 HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Wyświetla grafikę ASCII wskazującą zamiar ostrzeżenia, gdy wyświetlane jest źródło HTML.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Komunikat wyświetlany na obrazie, gdy obraz jest pobierany, a obraz jest chroniony Tylko w języku angielskim

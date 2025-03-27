@@ -141,7 +141,8 @@ class neohp_imageprotect {
 
 	// 警告出力関数＆デバッグ
 	function alert($string, $image_path, $mime, $nonce) {
-		$value = "WARNING\n\nDownloading images is prohibited.\\n\\nThe following information has been sent to the server.\\n\\nYour IP address: \$IP\\nYour User-agent: \$UA\\nEvent: Image downloading\n";
+		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+		$value = get_option('neohp_imagedownload_message', $neohp_imagedownload_default );
 		$user_ip = $this->neohp_func->get_user_ip();
 		$ua = $this->neohp_func->get_user_agent();
 
