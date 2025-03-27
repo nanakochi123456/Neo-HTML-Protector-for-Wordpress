@@ -55,6 +55,6 @@ require 'vendor/autoload.php';
 use DeepL\Translator;
 $translator = new \DeepL\Translator($authKey);
 
-$result = $translator->translateText($input, null, $to);
+$result = $translator->translateText($input, $from, $to);
 //$result = $translator->translateText('ハローワールド!', null, 'EN-US');
 echo $result->text . "\n"; // Bonjour, le monde!

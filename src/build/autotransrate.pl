@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# autotransrater by dptran ＠＠
+# autotransrater
 # https://github.com/yotiosoft/dptran/blob/main/README_JA.md
 
 use strict;

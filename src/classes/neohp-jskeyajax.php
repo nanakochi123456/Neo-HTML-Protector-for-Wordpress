@@ -54,6 +54,9 @@ class neohp_jskeyajax {
 		}
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 
+		// なにもかもページの保存になるのを修正
+		$key = str_replace('Shift', 'shift', $key);
+
 		// debugmode or console
 		if (strpos($key, 'F12') !== false
 		 || strpos($key, 'I') !== false
