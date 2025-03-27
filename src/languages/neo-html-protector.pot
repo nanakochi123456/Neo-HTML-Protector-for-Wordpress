@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-27 21:28+0900\n"
+"POT-Creation-Date: 2025-03-28 02:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -508,7 +508,7 @@ msgstr ""
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr ""
 
-#: classes/neohp-functions.php:26
+#: classes/neohp-functions.php:21
 msgid "無効なIPアドレス"
 msgstr ""
 
@@ -731,6 +731,5 @@ msgid "繁体中国語"
 msgstr ""
 
 #: classes/neohp-htmlprotect.php:110 classes/neohp-htmlprotect.php:146
-#: classes/neohp-imageprotect.php:97 classes/neohp-imageprotect.php:127
 msgid "画像が見つかりません"
 msgstr ""

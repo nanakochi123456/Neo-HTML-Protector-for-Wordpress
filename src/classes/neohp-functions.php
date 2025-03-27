@@ -5,11 +5,6 @@
 
 $neohp_func=new neohp_func();
 class neohp_func {
-//	protected $neohp_func;
-	public function __construct() {
-//		$this->neohp_func=new neohp_func();
-	}
-
 	public function get_user_ip() {
 		$ip = '';
 
@@ -186,11 +181,13 @@ class neohp_func {
 	function settransient($name, $value, $expire) {
 		$user_id = get_current_user_id();
 		if ($user_id == 0) {
-			$user_id = session_id(); // セッションIDを使う
+			// $user_id = session_id(); // セッションIDを使う
+			$user_id = sha1($this->get_user_ip());	// IPアドレスを使用
+			// MAP-E等で同じIPアドレスを10～100人共有されたとして、1つのWordpressからしたらそう大きくないと考える、それが嫌ならIPV6のレンタルサーバーを利用すべき
 		}
 		$transient_key = 'neohp_'
 			. $this->url_safe_base64_encode(
-				md5 ( $user_id . '_' . $name )
+				sha1 ( $user_id . '_' . $name )
 			);
 		set_transient( $transient_key, $value, $expire );
 	}
@@ -198,11 +195,12 @@ class neohp_func {
 	function gettransient($name) {
 		$user_id = get_current_user_id();
 		if ($user_id == 0) {
-			$user_id = session_id(); // セッションIDを使う
+			// $user_id = session_id(); // セッションIDを使う
+			$user_id = sha1($this->get_user_ip());	// IPアドレスを使用
 		}
 		$transient_key = 'neohp_'
 			. $this->url_safe_base64_encode(
-				md5 ( $user_id . '_' . $name )
+				sha1 ( $user_id . '_' . $name )
 			);
 		return get_transient( $transient_key );
 	}
@@ -210,11 +208,12 @@ class neohp_func {
 	function deletetransient($name) {
 		$user_id = get_current_user_id();
 		if ($user_id == 0) {
-			$user_id = session_id(); // セッションIDを使う
+			// $user_id = session_id(); // セッションIDを使う
+			$user_id = sha1($this->get_user_ip());	// IPアドレスを使用
 		}
 		$transient_key = 'neohp_'
 			. $this->url_safe_base64_encode(
-				md5 ( $user_id . '_' . $name )
+				sha1 ( $user_id . '_' . $name )
 			);
 		delete_transient( $transient_key );
 	}

@@ -13,6 +13,3 @@ var NeoHPnonce;
 
 /** @const */
 var jQuery;
-
-/** @const */
-var CryptoJS;

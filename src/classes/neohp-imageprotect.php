@@ -4,7 +4,7 @@
  */
 
 define( 'NEOHP_REQUIRED_CRYPTO_JS_VERSION', '4.2.0' );
-define('NEOHP_IMAGE_EXPIRE', 60 * 10);
+define('NEOHP_IMAGE_EXPIRE', 10);
 $neohp_imageprotect=new neohp_imageprotect();
 
 class neohp_imageprotect {
@@ -25,7 +25,7 @@ class neohp_imageprotect {
 			}
 		}
 
-		session_start();
+		//session_start();
 
 		// JavaScript挿入
 		add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
@@ -42,6 +42,120 @@ class neohp_imageprotect {
 			// 画像のリプレイスフィルタ
 			add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
 		}
+	}
+
+	// 文字列を1文字ずつ処理して改行を挿入する関数
+	function wrapText($text, $fontPath, $fontSize, $maxWidth) {
+		$lines = [];
+		$currentLine = '';
+
+		// 改行を考慮して行に分割
+		$parts = preg_split('/\n/', $text);
+
+		foreach ($parts as $part) {
+			// 1文字ずつ処理
+			for ($i = 0; $i < strlen($part); $i++) {
+				$char = $part[$i];
+				$bbox = imagettfbbox($fontSize, 0, $fontPath, $currentLine . $char);
+				$lineWidth = $bbox[2] - $bbox[0]; // 幅を正しく計算
+
+				// 文字を追加して幅が最大幅を超えるかチェック
+				if ($lineWidth <= $maxWidth) {
+					$currentLine .= $char;
+				} else {
+					if (strlen($currentLine) > 0) {
+						$lines[] = $currentLine; // 現在の行を保存
+					}
+					$currentLine = $char; // 新しい行を作成
+				}
+			}
+
+			// 行の終わりで確定して次の行に移動
+//			if (strlen($currentLine) > 0) {
+				$lines[] = $currentLine;
+				$currentLine = ''; // 行をリセット
+//			}
+		}
+
+		return $lines;
+	}
+
+	// pngで文字列を描画し、終了する
+	function outputPng($text) {
+		// 画像の幅と高さ
+		$width = 1200;
+		$height = 800;
+
+		// 画像作成
+		$image = imagecreatetruecolor($width, $height);
+
+		// 背景色設定（黄色）
+		$bgColor = imagecolorallocate($image, 255, 255, 0);
+		imagefill($image, 0, 0, $bgColor);
+
+		// 文字色設定（黒色）
+		$textColor = imagecolorallocate($image, 0, 0, 0);
+
+		// フォントファイルのパス
+		$fontPath = __DIR__ . '/VeraSe.ttf'; // フォントファイルの場所（スクリプトと同じディレクトリ）
+
+		// 文字列
+		//$text = "Hello, World! This is a long text that should wrap.";
+
+		// フォントサイズ
+		$fontSize = 20;
+
+		// 行の最大幅を設定
+		$maxWidth = $width - 20; // 左右に少し余白を残す
+
+		// テキストを改行付きで分割
+		$lines = $this->wrapText($text, $fontPath, $fontSize, $maxWidth);
+
+		// 初期のY座標を設定
+		$y = 40; // Y座標（適宜調整）
+
+		// 各行を描画
+		foreach ($lines as $line) {
+			// 文字列のバウンディングボックスを取得
+			$bbox = imagettfbbox($fontSize, 0, $fontPath, $line);
+			// 文字列の幅を計算
+			$textWidth = $bbox[2] - $bbox[0];
+			// X座標を中央に設定
+			$x = (int)(($width - $textWidth) / 2);
+
+			// 文字を描画
+			imagettftext($image, $fontSize, 0, $x, $y, $textColor, $fontPath, $line);
+
+			// 次の行のY座標を設定
+			$y += $fontSize + 15; // 行間を調整
+		}
+
+		// ヘッダーを送信して画像を出力
+		header('Content-Type: image/png');
+		imagepng($image);
+
+		// 画像リソースを解放
+		imagedestroy($image);
+		exit;
+	}
+
+	// 警告出力関数＆デバッグ
+	function alert($string, $image_path, $mime, $nonce) {
+		$value = "WARNING\n\nDownloading images is prohibited.\\n\\nThe following information has been sent to the server.\\n\\nYour IP address: \$IP\\nYour User-agent: \$UA\\nEvent: Image downloading\n";
+		$user_ip = $this->neohp_func->get_user_ip();
+		$ua = $this->neohp_func->get_user_agent();
+
+		$value = str_replace('$IP', $user_ip, $value);
+		$value = str_replace('$UA', $ua, $value);
+		$value = str_replace('\\n', "\n", $value);
+
+		$this->outputPng(
+			  $value . "\n\n"
+			. $string . "\n\n"
+			. "image_path=".$image_path . "\n\n"
+			. "mime=".$mime . "\n\n"
+			. "nonce=".$nonce
+		);
 	}
 
 	// Mode1で画像を表示する
@@ -94,7 +208,14 @@ class neohp_imageprotect {
 						'image/jp2',
 					];
 					if (!in_array($mime, $allowed_types)) {
-						wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
+						$this->alert(
+							  'mime type checked'
+							, $image_path
+							, $mime
+							, $nonce
+						);
+
+//						wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 					}
 
 					// 画像を出力して転送
@@ -124,8 +245,22 @@ class neohp_imageprotect {
 						}
 					}
 				}
-				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
+				$this->alert(
+					  'outputed'
+					, $image_path
+					, $mime
+					, $nonce
+				);
+
+
+//				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 			}
+			$this->alert(
+				  'function end'
+				, $image_path
+				, $mime
+				, $nonce
+			);
 		}
 	}
 	
