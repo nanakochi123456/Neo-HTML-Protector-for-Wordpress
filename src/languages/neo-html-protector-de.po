@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.50\n"
+"Project-Id-Version: Neo HTML Protector 0.0.52\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 10:52+0900\n"
-"PO-Revision-Date: 2025-03-28 10:53+0900\n"
+"POT-Creation-Date: 2025-03-28 12:34+0900\n"
+"PO-Revision-Date: 2025-03-28 12:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -257,6 +257,18 @@ msgstr "Die Sprache kann nicht geändert werden, wenn die Nachricht individuell 
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Sprache, in der die Meldungen der View-Source angezeigt werden."
+
+msgid "一時使用トークンのビット数"
+msgstr "Anzahl der Bits in Token für die vorübergehende Verwendung"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Gibt die Stärke des temporären Tokens an, das als Passwort zur Verschlüsselung der Bild-URL-Informationen verwendet wird"
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Hashing-Algorithmus"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Temporäre Token werden als Passwörter verwendet, um die Bild-URL-Informationen zu verschlüsseln, aber sie müssen gehasht werden, legen Sie die Stärke des Hashings."
 
 msgid "基本設定"
 msgstr "Grundeinstellung"

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.50\n"
+"Project-Id-Version: Neo HTML Protector 0.0.52\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 10:52+0900\n"
-"PO-Revision-Date: 2025-03-28 10:52+0900\n"
+"POT-Creation-Date: 2025-03-28 12:34+0900\n"
+"PO-Revision-Date: 2025-03-28 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -257,6 +257,18 @@ msgstr "如果自定义了信息，则无法更改语言"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "显示视图源信息的语言。"
+
+msgid "一時使用トークンのビット数"
+msgstr "临时使用标记的位数"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "指定用作密码的临时使用标记的强度，以加密图像 URL 信息"
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "散列算法"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "临时令牌用作密码来加密图像 URL 信息，但必须进行散列，并设置散列强度。"
 
 msgid "基本設定"
 msgstr "基本设置"

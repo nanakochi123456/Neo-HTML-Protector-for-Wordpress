@@ -198,3 +198,9 @@ add_filterを使用して画像を保護	Protect images using add_filter
 wp_head～wp_footerの間をキャプチャして画像を保護	Capture and protect images between wp_head and wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	The method using add_filter filters img tags when they are published, while the method using wp_head to wp_footer processes all img tags in the content.
 OS標準搭載のスクリーンショット機能を保護することはできません	The standard OS screenshot function cannot be protected
+一時使用トークンのビット数	Number of bits in temporary use tokens
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Temporary use tokens are used as passwords, but specify their strength
+ハッシュ化アルゴリズム	Hashing algorithm
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporary tokens are used as passwords, but they must be hashed; set the strength of the hashing.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifies the strength of the temporary use token used as a password to encrypt the image URL information
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporary tokens are used as passwords to encrypt the image URL information, but they must be hashed, set the strength of the hashing.

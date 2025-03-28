@@ -189,3 +189,9 @@ add_filterを使用して画像を保護	Képek védelme add_filter használatá
 wp_head～wp_footerの間をキャプチャして画像を保護	Képek rögzítése és védelme a wp_head és wp_footer között
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Az add_filtert használó módszer az img címkéket szűri a közzétételkor, míg a wp_head to wp_footer módszer a tartalomban lévő összes img címkét feldolgozza.
 OS標準搭載のスクリーンショット機能を保護することはできません	Az operációs rendszer standard képernyőkép funkciója nem védhető
+一時使用トークンのビット数	Az ideiglenes használatú tokenek bitjeinek száma
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Az ideiglenes használatú tokeneket jelszóként használják, de meg kell adni az erősségüket.
+ハッシュ化アルゴリズム	Hashing algoritmus
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Az ideiglenes tokeneket jelszóként használják, de azokat hash-olni kell; állítsa be a hash-olás erősségét.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Megadja a kép URL-információjának titkosításához jelszóként használt ideiglenes használati jelszó erősségét.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Az ideiglenes tokeneket jelszóként használják a kép URL-információjának titkosítására, de azokat hash-olni kell, állítsa be a hash erősségét.

@@ -195,3 +195,9 @@ add_filterを使用して画像を保護	Protéger les images à l'aide de add_f
 wp_head～wp_footerの間をキャプチャして画像を保護	Capturer et protéger les images entre wp_head et wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	La méthode utilisant add_filter filtre les balises img lorsqu'elles sont publiées, tandis que la méthode utilisant wp_head to wp_footer traite toutes les balises img dans le contenu.
 OS標準搭載のスクリーンショット機能を保護することはできません	La fonction de capture d'écran standard du système d'exploitation ne peut pas être protégée
+一時使用トークンのビット数	Nombre de bits dans les jetons d'utilisation temporaire
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Les jetons d'utilisation temporaire sont utilisés comme des mots de passe, mais leur force est spécifiée.
+ハッシュ化アルゴリズム	Algorithme de hachage
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme des mots de passe, mais ils doivent être hachés ; définissez la force du hachage.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Spécifie la force du jeton d'utilisation temporaire utilisé comme mot de passe pour crypter les informations de l'URL de l'image.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme mots de passe pour crypter les informations de l'URL de l'image, mais ils doivent être hachés, en définissant la force du hachage.

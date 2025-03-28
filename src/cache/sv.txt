@@ -188,3 +188,9 @@ add_filterを使用して画像を保護	Skydda bilder med hjälp av add_filter
 wp_head～wp_footerの間をキャプチャして画像を保護	Fånga och skydda bilder mellan wp_head och wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoden som använder add_filter filtrerar img-taggar när de publiceras, medan metoden som använder wp_head till wp_footer bearbetar alla img-taggar i innehållet.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS:s standardfunktion för skärmdump kan inte skyddas
+一時使用トークンのビット数	Antal bitar i polletter för tillfällig användning
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Tokens för tillfällig användning används som lösenord, men anger deras styrka
+ハッシュ化アルゴリズム	Hashing-algoritm
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporära tokens används som lösenord, men de måste hashas; ställ in styrkan på hashningen.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Anger styrkan för den tillfälliga användningstoken som används som lösenord för att kryptera URL-informationen för bilden
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporary tokens används som lösenord för att kryptera bild-URL-informationen, men de måste hashas, ställ in styrkan på hashingen.

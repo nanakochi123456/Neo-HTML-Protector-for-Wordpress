@@ -150,7 +150,6 @@ class neohp_imageprotect {
 		}
 
 		// ヘッダーを送信して画像を出力
-//		header('Content-Type: text/html');
 		header('Content-Type: image/png');
 		imagepng($image);
 
@@ -171,16 +170,7 @@ class neohp_imageprotect {
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
 
-		$this->outputPng(
-			  $value . "\n\n"
-//			. $string . "\n\n"
-//			. "image_path=".$image_path . "\n\n"
-//			. "mime=".$mime . "\n\n"
-//			. "nonce=".$nonce . "\n\n"
-//			. "transien=".$transient . "\n\n"
-//			. "encoded_image_url=".$encoded_image_url
-		);
-
+		$this->outputPng($value . "\n");
 		exit;
 	}
 
@@ -312,7 +302,8 @@ class neohp_imageprotect {
 		$method = 'AES-256-CBC';
 
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$key = hash('sha256', $nonce, true); // sha256で生成された256ビットキー
+		$value = get_option('neohp_hash_bits', 'sha256');
+		$key = hash($value, $nonce, true); // sha512で生成された512ビットキー
 		$iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($method)); // 初期化ベクトルの生成
 
 		// URLを暗号化
@@ -334,7 +325,8 @@ class neohp_imageprotect {
 		$method = 'AES-256-CBC';
 		
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$key = hash('sha256', $nonce, true); // sha256で生成された256ビットキー
+		$value = get_option('neohp_hash_bits', 'sha256');
+		$key = hash($value, $nonce, true); // sha512で生成された512ビットキー
 
 		// URLデコードしてケースを入れ替え
 		$decodedData = $this->neohp_func->url_safe_base64_decode(
@@ -363,10 +355,16 @@ class neohp_imageprotect {
 
 	// nonce生成のための関数
 	function generateNonce() {
-		return bin2hex(random_bytes(32)); // 32バイトのランダムなnonceを生成
+		$value = get_option('neohp_nonce_bits', '32');
+		if($value < 16) {
+			$value = 16;
+		}
+		$value=(int)$value;
+
+		return bin2hex(random_bytes($value)); // 512バイト(4096bit)のランダムなnonceを生成
 	}
 
-	// URLからhttp://example.com:80 を削除して、画像データも保護であれば頭にクエリーとnonceをつける
+	// URLからhttp://example.com:80 を削除
 	function removeSchemeAndHost($url) {
 		$pattern = '/https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(?::\d+)?/i';
 
@@ -384,7 +382,7 @@ class neohp_imageprotect {
 		return $url;
 	}
 
-	//どうせなら大文字と小文字を入れ替える
+	// どうせなら大文字と小文字を入れ替える
 	function swap_case($str) {
 		return preg_replace_callback('/[a-zA-Z]/', function ($match) {
 			$char = $match[0];

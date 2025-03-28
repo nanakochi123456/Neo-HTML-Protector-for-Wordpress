@@ -189,3 +189,9 @@ add_filterを使用して画像を保護	Attēlu aizsardzība, izmantojot add_fi
 wp_head～wp_footerの間をキャプチャして画像を保護	Attēlu uzņemšana un aizsardzība starp wp_head un wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode, kas izmanto add_filter, filtrē img tagus, kad tie tiek publicēti, savukārt metode, kas izmanto wp_head līdz wp_footer, apstrādā visus saturā esošos img tagus.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS standarta ekrānšāviņu funkciju nevar aizsargāt
+一時使用トークンのビット数	Bitu skaits pagaidu lietošanas žetonos
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Pagaidu lietošanas žetonus izmanto kā paroles, bet norāda to stiprumu.
+ハッシュ化アルゴリズム	šifrēšanas algoritms
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, taču tie ir jāsalāgo; iestatiet salāgošanas stiprumu.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.

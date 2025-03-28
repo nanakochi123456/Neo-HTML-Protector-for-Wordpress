@@ -190,3 +190,9 @@ add_filterを使用して画像を保護	Suojaa kuvat add_filterin avulla
 wp_head～wp_footerの間をキャプチャして画像を保護	Kaappaa ja suojaa kuvat wp_headin ja wp_footerin välissä.
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Menetelmä, jossa käytetään add_filteriä, suodattaa img-tagit, kun ne julkaistaan, kun taas menetelmä, jossa käytetään wp_head to wp_footer, käsittelee kaikki sisällön img-tagit.
 OS標準搭載のスクリーンショット機能を保護することはできません	Käyttöjärjestelmän tavallista kuvakaappaustoimintoa ei voi suojata
+一時使用トークンのビット数	Väliaikaisen käytön merkkien bittien lukumäärä
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Väliaikaisen käytön tunnuksia käytetään kuten salasanoja, mutta niiden vahvuus määritetään.
+ハッシュ化アルゴリズム	Hashing-algoritmi
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina, mutta ne on hakkeroitava; määritä hakkeroinnin vahvuus.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrittää kuvan URL-osoitteen tietojen salaamiseen salasanana käytettävän tilapäisen käyttömerkin vahvuuden.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina kuvan URL-osoitteen tietojen salaamiseen, mutta ne on hakkeroitava, aseta hakkeroinnin vahvuus.

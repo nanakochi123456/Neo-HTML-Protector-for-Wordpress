@@ -187,3 +187,9 @@ add_filterを使用して画像を保護	Add_filter kullanarak görüntüleri ko
 wp_head～wp_footerの間をキャプチャして画像を保護	Wp_head ve wp_footer arasındaki görüntüleri yakalayın ve koruyun
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Add_filter kullanan yöntem img etiketlerini yayınlandıklarında filtrelerken, wp_head to wp_footer kullanan yöntem içerikteki tüm img etiketlerini işler.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standart işletim sistemi ekran görüntüsü işlevi korunamaz
+一時使用トークンのビット数	Geçici kullanım belirteçlerindeki bit sayısı
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Geçici kullanım belirteçleri parola olarak kullanılır, ancak güçlerini belirtin
+ハッシュ化アルゴリズム	Hashing algoritması
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler parola olarak kullanılır, ancak karma hale getirilmeleri gerekir; karmanın gücünü ayarlayın.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.

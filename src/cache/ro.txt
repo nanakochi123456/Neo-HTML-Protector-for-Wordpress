@@ -194,3 +194,9 @@ add_filterを使用して画像を保護	Protejați imaginile utilizând add_fil
 wp_head～wp_footerの間をキャプチャして画像を保護	Capturați și protejați imaginile dintre wp_head și wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoda care utilizează add_filter filtrează etichetele img atunci când acestea sunt publicate, în timp ce metoda care utilizează wp_head to wp_footer procesează toate etichetele img din conținut.
 OS標準搭載のスクリーンショット機能を保護することはできません	Funcția standard de captură de ecran a sistemului de operare nu poate fi protejată
+一時使用トークンのビット数	Număr de biți în jetoanele de utilizare temporară
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Jetoanele de utilizare temporară sunt utilizate ca parole, dar se specifică puterea acestora
+ハッシュ化アルゴリズム	Algoritmul hashing
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole, dar trebuie să fie hașurate; setați puterea hașurării.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării.

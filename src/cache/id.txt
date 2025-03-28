@@ -191,3 +191,9 @@ add_filterを使用して画像を保護	Melindungi gambar menggunakan add_filte
 wp_head～wp_footerの間をキャプチャして画像を保護	Menangkap dan melindungi gambar di antara wp_head dan wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode yang menggunakan add_filter menyaring tag img saat dipublikasikan, sedangkan metode yang menggunakan wp_head ke wp_footer memproses semua tag img di dalam konten.
 OS標準搭載のスクリーンショット機能を保護することはできません	Fungsi tangkapan layar OS standar tidak dapat diproteksi
+一時使用トークンのビット数	Jumlah bit dalam token penggunaan sementara
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token penggunaan sementara digunakan sebagai kata sandi, tetapi tentukan kekuatannya
+ハッシュ化アルゴリズム	Algoritma hashing
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi, tetapi harus di-hash; atur kekuatan hashing.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.

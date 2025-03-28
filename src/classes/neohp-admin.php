@@ -590,6 +590,56 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
+			// nonceのbit数
+			register_setting('neohp_advanced_group', 'neohp_nonce_bits');
+			add_settings_field(
+				'neohp_nonce_bits',
+				__('一時使用トークンのビット数', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_nonce_bits', '32'));
+					echo wp_kses( $this->getselect("neohp_nonce_bits", $value
+						, '16=' . '128bits (16bytes)'
+						, '32=' . '256bits (32bytes)'
+						, '48=' . '384bits (48bytes)'
+						, '64=' . '512bits (64bytes)'
+						, '96=' . '768bits (96bytes)'
+						, '128=' . '1024bits (128bytes)'
+						, '192=' . '1536bits (192bytes)'
+						, '256=' . '2048bits (256bytes)'
+						, '384=' . '3072bits (384bytes)'
+						, '512=' . '4096bits (512bytes)'
+						, '768=' . '6144bits (768bytes)'
+						, '1024=' . '8192bits (1024bytes)'
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// hashのbit数
+			register_setting('neohp_advanced_group', 'neohp_hash_bits');
+			add_settings_field(
+				'neohp_hash_bits',
+				__('ハッシュ化アルゴリズム', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_hash_bits', 'sha256'));
+					echo wp_kses( $this->getselect("neohp_hash_bits", $value
+						, 'sha224=' . 'sha2 224bits'
+						, 'sha256=' . 'sha2 256bits'
+						, 'sha384=' . 'sha2 384bits'
+						, 'sha512=' . 'sha2 512bits'
+						, 'sha3-224=' . 'sha3 224bits'
+						, 'sha3-256=' . 'sha3 256bits'
+						, 'sha3-384=' . 'sha3 384bits'
+						, 'sha3-512=' . 'sha3 512bits'
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
 			// セクションの追加
 			add_settings_section(
 				'neohp_basic_section',

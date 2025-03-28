@@ -190,3 +190,9 @@ add_filterを使用して画像を保護	Piltide kaitsmine add_filter abil
 wp_head～wp_footerの間をキャプチャして画像を保護	Piltide jäädvustamine ja kaitsmine wp_head ja wp_footer vahel
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Meetod, mis kasutab add_filter'i, filtreerib img-tähed nende avaldamisel, samas kui meetod, mis kasutab wp_head to wp_footer, töötleb kõiki img-tähed sisu sees.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS-i standardset ekraanipildi funktsiooni ei saa kaitsta
+一時使用トークンのビット数	Bittide arv ajutiselt kasutatavates märkides
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Ajutise kasutamise märgiseid kasutatakse nagu paroole, kuid täpsustage nende tugevus
+ハッシュ化アルゴリズム	Hashing algoritm
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ajutisi märgiseid kasutatakse paroolidena, kuid need peavad olema räsitud; määrake räsimise tugevus.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrab ajutise kasutustunnuse tugevuse, mida kasutatakse paroolina pildi URL-teabe krüpteerimiseks.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ajutisi märgiseid kasutatakse paroolidena pildi URL-teabe krüpteerimiseks, kuid neid tuleb hashteldada, määrata hashteldamise tugevus.

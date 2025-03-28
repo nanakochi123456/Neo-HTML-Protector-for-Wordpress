@@ -190,3 +190,9 @@ add_filterを使用して画像を保護	Apsaugokite vaizdus naudodami add_filte
 wp_head～wp_footerの間をキャプチャして画像を保護	Užfiksuokite ir apsaugokite vaizdus tarp wp_head ir wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Naudojant metodą add_filter filtruojamos img žymės, kai jos paskelbiamos, o naudojant metodą wp_head to wp_footer apdorojamos visos turinyje esančios img žymės.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standartinė OS ekrano nuotraukos funkcija negali būti apsaugota
+一時使用トークンのビット数	Laikino naudojimo žetonų bitų skaičius
+一時使用トークンをパスワードとして使用しますが、その強度を指定します	Laikino naudojimo žetonai naudojami kaip slaptažodžiai, tačiau nurodomas jų stiprumas
+ハッシュ化アルゴリズム	šifravimo algoritmas
+一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai, tačiau jie turi būti koduojami; nustatykite kodavimo stiprumą.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nurodo laikino naudojimo simbolio, naudojamo kaip slaptažodis vaizdo URL informacijai užšifruoti, stiprumą.
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai vaizdo URL informacijai užšifruoti, tačiau jie turi būti šifruojami, nustatykite šifravimo stiprumą.
