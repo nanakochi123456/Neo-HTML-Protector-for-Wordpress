@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.48\n"
+"Project-Id-Version: Neo HTML Protector 0.0.50\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 08:42+0900\n"
-"PO-Revision-Date: 2025-03-28 08:42+0900\n"
+"POT-Creation-Date: 2025-03-28 09:23+0900\n"
+"PO-Revision-Date: 2025-03-28 09:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -108,8 +108,11 @@ msgstr "Muotoilu saattaa muuttua hieman."
 msgid "画像の保護"
 msgstr "Kuvan suojaus."
 
-msgid "画像を保護"
-msgstr "Kuvan suojaus."
+msgid "add_filterを使用して画像を保護"
+msgstr "Suojaa kuvat add_filterin avulla"
+
+msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
+msgstr "Kaappaa ja suojaa kuvat wp_headin ja wp_footerin välissä."
 
 msgid "画像をダウンロードから保護します"
 msgstr "Suojaa kuvia lataukselta."
@@ -122,6 +125,9 @@ msgstr "Kuvien välimuistitallennus ei toimi, kun kuvatiedot on suojattu, joten 
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Tietokannan kuormitus voi olla suurempi, kun kuvatiedot on suojattu."
+
+msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Menetelmä, jossa käytetään add_filteriä, suodattaa img-tagit, kun ne julkaistaan, kun taas menetelmä, jossa käytetään wp_head to wp_footer, käsittelee kaikki sisällön img-tagit."
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen tulostuksen valintaa, kun suojaat HTML:ää lisäasetuksissa."

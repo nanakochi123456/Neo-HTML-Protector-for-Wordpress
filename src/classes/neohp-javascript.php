@@ -11,15 +11,15 @@ class neohp_javascript {
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
 
-		// JavaScript‘}“ü
+		// JavaScriptæŒ¿å…¥
 		add_action('wp_enqueue_scripts', array($this, 'neohp_script'), 100 );
 
-		// ƒtƒ‰ƒO‚ÌJavaScript‘}“ü
+		// ãƒ•ãƒ©ã‚°ã®JavaScriptæŒ¿å…¥
 		add_action('wp_head', array($this, 'neohp_flagscript'), 101 );
 	}
 
 	public function neohp_flagscript() {
-		// ƒtƒ‰ƒO‚ÌJavaScript‚Ì‘}“ü
+		// ãƒ•ãƒ©ã‚°ã®JavaScriptã®æŒ¿å…¥
 		$html="";
 		if(get_option('neohp_alert_f12', '2') === '1') { $html.="f";}
 		if(get_option('neohp_alert_f12', '2') === '2') { $html.="F";}
@@ -67,7 +67,7 @@ class neohp_javascript {
 		$neohp_javascriptexec = 1;
 	}
 
-	// JavaScript‘}“ü
+	// JavaScriptæŒ¿å…¥
 	public function neohp_script() {
 		$script_path = NEOHP_JS_DIR . 'neo-html-protect.js';
 		$script_url = NEOHP_JS_URL . 'neo-html-protect.js';
@@ -77,7 +77,7 @@ class neohp_javascript {
 		$scriptmin_url = NEOHP_JS_URL . 'neo-html-protect.min.js';
 		$versionmin = file_exists($scriptmin_path) ? filemtime($scriptmin_path) : false;
 
-		// ƒƒOƒCƒ“‚µ‚Ä‚È‚¢‚Æ‚«‚Ì‚Ý
+		// ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãªã„ã¨ãã®ã¿
 		if( ! $this->neohp_func->login() ) {
 			if($versionmin < $version) {
 				wp_enqueue_script('neohp', $script_url, array('jquery'), $version, true);

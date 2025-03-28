@@ -36,29 +36,30 @@ class neohp_imageprotect {
 			}, 0);
 
 			// 画像のリプレイスフィルタ
-//			add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+			if(get_option('neohp_imageprotect', '0') === '1' ) {
+				add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+			}
 
-			add_action('wp_head', function () {
-				ob_start();
-			}, 0);
+			// 全体のHTMLを書き換える
+			if(get_option('neohp_imageprotect', '0') === '2' ) {
+				add_action('wp_head', function () {
+					ob_start();
+				}, 0);
 
-			// これでHTMLすべてキャプチャできるはず
-			add_action('wp_footer', function () {
-				$neohp_all_content = ob_get_clean(); // head内容を取得
-				ob_end_clean();
-				$lang = get_bloginfo('language');
-				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
-				echo $html;
-				if( ! $this->neohp_func->user() ) {
-//					if(get_option('neohp_imageprotect', '0') === '1') {
+				// これでHTMLすべてキャプチャできるはず
+				add_action('wp_footer', function () {
+					$neohp_all_content = ob_get_clean(); // head内容を取得
+					ob_end_clean();
+					$lang = get_bloginfo('language');
+					$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+					echo $html;
+					if( ! $this->neohp_func->user() ) {
 						echo $this->processImageTagsMode2($neohp_all_content);
-//					} else {
-//						echo $this->processImageTagsMode2($neohp_all_content);
-//					}
-				} else {
-					echo $neohp_all_content;
-				}
-			}, 99999);
+					} else {
+						echo $neohp_all_content;
+					}
+				}, 99999);
+			}
 		}
 	}
 
@@ -199,9 +200,6 @@ class neohp_imageprotect {
 						$this->neohp_func->deletetransient($part);
 						$this->neohp_func->deletetransient($part . '_nonce');
 					}
-					// nonceは放置する
-					//$this->neohp_func->deletetransient($transient . '_nonce');
-
 					$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce);
 				} else {
 					$image_url = '';
@@ -471,10 +469,6 @@ class neohp_imageprotect {
 							$transitent_name . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
 					}
 
-					// nonceをcookieに追加（オプション）
-					//$this->neohp_func->settransient(
-					//	'nonce', $nonce, NEOHP_IMAGE_EXPIRE);
-
 					// 新しいimgタグを作成
 					$new_img_tag = '<img';
 					foreach ($attributes as $attr_name => $attr_value) {
@@ -492,13 +486,13 @@ class neohp_imageprotect {
 		return $html;
 	}
 
-/*
+
 	// 実際の処理 Mode1
 	function processImageTagsMode1($attributes, $attachment) {
 		$site_url = get_site_url();
 		// transientの初期化
 		$transient = [];
-		$nonce=$this->generateNonce()
+		$nonce=$this->generateNonce();
 		if (isset($attributes['src'])) {
 			// site_urlと同一の時のみ処理する
 			if (strpos($attributes['src'], $site_url) === 0) {
@@ -551,16 +545,11 @@ class neohp_imageprotect {
 				foreach ($transient as $transitent_name) {
 					$this->neohp_func->settransient(
 						$transitent_name, $transientstr, NEOHP_IMAGE_EXPIRE);
+					$this->neohp_func->settransient(
+						$transitent_name . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
 				}
-
-				// nonceをcookieに追加（オプション）
-				$this->neohp_func->settransient(
-					$transientstr . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
-
-				$attributes['data-nonce'] = $nonce;
 			}
 		}
 		return $attributes;
 	}
-*/
 }

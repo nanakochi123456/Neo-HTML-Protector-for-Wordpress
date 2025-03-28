@@ -236,7 +236,8 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imageprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_imageprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('画像を保護', 'neo-html-protector')
+						, '1=' . __('add_filterを使用して画像を保護', 'neo-html-protector')
+						, '2=' . __('wp_head～wp_footerの間をキャプチャして画像を保護', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
@@ -244,6 +245,7 @@ class neohp_admin {
 					echo '<br>';
 					echo '<br>' .esc_html( __('画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データを保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください', 'neo-html-protector') );
 				},
 				'neohp-settings',

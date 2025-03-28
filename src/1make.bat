@@ -1,7 +1,7 @@
 @echo off
 :deepl (by dptran) auto transrate
 
-set VERSION=0.0.48
+set VERSION=0.0.50
 set PACKAGE=Neo HTML Protector
 set EMAIL=plugin@773.moe
 
@@ -57,10 +57,13 @@ goto end
 
 :exec
 set LANG=%1
+@echo on
 
 wsl perl build/autotransrate.pl --from=ja --to=%LANG% --cache=cache/%LANG%.txt --input=languages/neo-html-protector.pot --table=build/language_table.txt --package='%PACKAGE%' --email='%EMAIL%' --version='%VERSION%' > languages/neo-html-protector-%LANG%.po
 
 wsl msgfmt languages/neo-html-protector-%LANG%.po -o languages/neo-html-protector-%LANG%.mo
+
+@echo off
 
 goto exit
 

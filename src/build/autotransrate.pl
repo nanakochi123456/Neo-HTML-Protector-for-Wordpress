@@ -8,7 +8,7 @@ use Getopt::Long;
 use POSIX qw(strftime);
 
 #my $DPTRAN='~/.cargo/bin/dptran';
-my $DPTRAN='php build/deepl.php';
+my $DPTRAN='/usr/bin/php build/deepl.php';
 my $DPTRAN_USAGE=$DPTRAN . ' -u';
 
 my $input_file="";

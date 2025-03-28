@@ -7,17 +7,17 @@ $neohp_cssprintblock=new neohp_cssprintblock();
 class neohp_cssprintblock {
 
 	public function __construct() {
-		// ƒtƒƒ“ƒgƒGƒ“ƒh‚ÅCSS‚ğ“Ç‚İ‚Ş
+		// ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰ã§CSSã‚’èª­ã¿è¾¼ã‚€
 		add_action('wp_enqueue_scripts', array($this, 'enqueue_styles'));
 	}
 
-	// CSS‚ğ“o˜^‚µ‚Äˆóü‚ğ‘j~
+	// CSSã‚’ç™»éŒ²ã—ã¦å°åˆ·ã‚’é˜»æ­¢
 	public function enqueue_styles() {
 		if(get_option('neohp_alert_p', '0') === '1'
 		|| get_option('neohp_alert_p', '0') === '2') {
 			wp_register_style('neohp-style', false);
 			wp_enqueue_style('neohp-style');
-			// ƒCƒ“ƒ‰ƒCƒ“CSS‚ğ’Ç‰Á
+			// ã‚¤ãƒ³ãƒ©ã‚¤ãƒ³CSSã‚’è¿½åŠ 
 			wp_add_inline_style('neohp-style', '@media print{body{display:none !important}}');
 		}
 
