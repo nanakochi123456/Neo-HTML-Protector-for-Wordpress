@@ -197,3 +197,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi, tetapi harus di-hash; atur kekuatan hashing.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat

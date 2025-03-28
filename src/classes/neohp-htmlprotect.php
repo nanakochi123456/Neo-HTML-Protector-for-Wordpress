@@ -53,10 +53,7 @@ class neohp_htmlprotect {
 			add_action('wp_head', function () {
 				$lang = get_bloginfo('language');
 				header( 'Content-Type: text/html' );
-				header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );
-				header( 'Cache-Control: post-check=0, pre-check=0', false);
-				header( 'Pragma: no-cache' );
-				header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
+				$this->neohp_func->cachezero();
 				$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 				$head = $html . $this->neohp_head_content;
 				$head = $this->replace_image_urls($head);

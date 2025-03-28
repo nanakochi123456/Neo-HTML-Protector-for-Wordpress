@@ -194,3 +194,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporära tokens används som lösenord, men de måste hashas; ställ in styrkan på hashningen.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Anger styrkan för den tillfälliga användningstoken som används som lösenord för att kryptera URL-informationen för bilden
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporary tokens används som lösenord för att kryptera bild-URL-informationen, men de måste hashas, ställ in styrkan på hashingen.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten ökar när du går till de alternativ som anges under rullgardinsmenyn, men belastningen på servern ökar

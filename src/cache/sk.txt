@@ -196,3 +196,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá, ale musia byť zahashované; nastavte silu zahashovania.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Určuje silu tokenu dočasného použitia, ktorý sa používa ako heslo na šifrovanie informácií o adrese URL obrázka.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá na šifrovanie informácií o adrese URL obrázka, ale musia byť zaheslované, nastavte silu zaheslovania.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita sa zvyšuje, keď prejdete na možnosti uvedené pod rozbaľovacou ponukou, ale zaťaženie servera sa zvyšuje

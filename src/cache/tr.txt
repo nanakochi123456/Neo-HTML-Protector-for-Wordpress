@@ -193,3 +193,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler parola olarak kullanılır, ancak karma hale getirilmeleri gerekir; karmanın gücünü ayarlayın.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar

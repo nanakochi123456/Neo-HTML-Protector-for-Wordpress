@@ -196,3 +196,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai, tačiau jie turi būti koduojami; nustatykite kodavimo stiprumą.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nurodo laikino naudojimo simbolio, naudojamo kaip slaptažodis vaizdo URL informacijai užšifruoti, stiprumą.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai vaizdo URL informacijai užšifruoti, tačiau jie turi būti šifruojami, nustatykite šifravimo stiprumą.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, tačiau didėja serverio apkrova.

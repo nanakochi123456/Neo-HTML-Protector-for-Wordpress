@@ -195,3 +195,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Tijdelijke tokens worden gebruikt als wachtwoorden, maar ze moeten gehasht worden; stel de sterkte van de hashing in.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specificeert de sterkte van het tijdelijke gebruikstoken dat wordt gebruikt als wachtwoord om de URL-informatie van de afbeelding te coderen.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Tijdelijke tokens worden gebruikt als wachtwoorden om de URL-informatie van de afbeelding te versleutelen, maar ze moeten worden gehasht en de sterkte van de hashing moet worden ingesteld.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	De intensiteit neemt toe naarmate je naar de opties onder het vervolgkeuzemenu gaat, maar de belasting van de server neemt toe

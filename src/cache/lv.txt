@@ -195,3 +195,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, taču tie ir jāsalāgo; iestatiet salāgošanas stiprumu.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.

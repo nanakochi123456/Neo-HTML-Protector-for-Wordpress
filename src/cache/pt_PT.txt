@@ -196,3 +196,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Os tokens temporários são utilizados como palavras-passe, mas têm de ser submetidos a hash; defina a força do hash.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Especifica a força do token de utilização temporária utilizado como palavra-passe para encriptar a informação do URL da imagem
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Os tokens temporários são utilizados como palavras-passe para encriptar a informação do URL da imagem, mas têm de ser transformados em hash, definir a força do hash.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	A intensidade aumenta à medida que avança para as opções listadas abaixo do menu pendente, mas a carga no servidor aumenta

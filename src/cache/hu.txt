@@ -195,3 +195,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Az ideiglenes tokeneket jelszóként használják, de azokat hash-olni kell; állítsa be a hash-olás erősségét.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Megadja a kép URL-információjának titkosításához jelszóként használt ideiglenes használati jelszó erősségét.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Az ideiglenes tokeneket jelszóként használják a kép URL-információjának titkosítására, de azokat hash-olni kell, állítsa be a hash erősségét.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Az intenzitás növekszik, ahogy a legördülő menü alatt felsorolt opciókat választja, de a szerver terhelése is nő

@@ -195,3 +195,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Začasni žetoni se uporabljajo kot gesla, vendar jih je treba hashati; nastavite moč hashanja.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Določa moč žetona za začasno uporabo, ki se uporablja kot geslo za šifriranje podatkov URL slike.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Začasni žetoni se uporabljajo kot gesla za šifriranje podatkov URL slike, vendar jih je treba hashirati in nastaviti moč hashiranja.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzivnost se povečuje, ko preidete na možnosti, navedene pod spustnim menijem, vendar se poveča obremenitev strežnika.

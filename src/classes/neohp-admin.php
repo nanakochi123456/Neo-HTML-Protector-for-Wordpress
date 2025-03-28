@@ -612,6 +612,7 @@ class neohp_admin {
 						, '1024=' . '8192bits (1024bytes)'
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
@@ -635,6 +636,7 @@ class neohp_admin {
 						, 'sha3-512=' . 'sha3 512bits'
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

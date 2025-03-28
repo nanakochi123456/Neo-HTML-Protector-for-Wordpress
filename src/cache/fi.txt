@@ -196,3 +196,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina, mutta ne on hakkeroitava; määritä hakkeroinnin vahvuus.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrittää kuvan URL-osoitteen tietojen salaamiseen salasanana käytettävän tilapäisen käyttömerkin vahvuuden.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina kuvan URL-osoitteen tietojen salaamiseen, mutta ne on hakkeroitava, aseta hakkeroinnin vahvuus.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Voimakkuus kasvaa, kun siirryt pudotusvalikon alapuolella lueteltuihin vaihtoehtoihin, mutta palvelimen kuormitus kasvaa.

@@ -11,6 +11,8 @@ class neohp_imageprotect {
 	protected $neohp_javascript;
 	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
 	protected $outputPngDone = false;
+	protected $neohp_hash_keys;
+	protected $neohp_nonce_bits;
 
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
@@ -29,6 +31,15 @@ class neohp_imageprotect {
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 
 		if(get_option('neohp_imageprotect', '0') !== '0' ) {
+			// 暗号化強度の設定
+			$this->neohp_hash_keys = get_option('neohp_hash_bits', 'sha256');
+			$this->neohp_nonce_bits = get_option('neohp_nonce_bits', '32');
+			$this->neohp_nonce_bits=(int)$this->neohp_nonce_bits;
+			if($this->neohp_nonce_bits < 16) {
+				$this->neohp_nonce_bits = 16;
+			}
+
+
 			// headタグをキャプチャ開始
 
 			add_action('template_redirect', function () {
@@ -151,6 +162,7 @@ class neohp_imageprotect {
 
 		// ヘッダーを送信して画像を出力
 		header('Content-Type: image/png');
+		$this->neohp_func->cachezero();
 		imagepng($image);
 
 		// 画像リソースを解放
@@ -261,10 +273,7 @@ class neohp_imageprotect {
 							if ( $mime_type ) {
 								header( 'Content-Type: ' . $mime_type );
 								header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
-								header( 'Cache-Control: no-store, no-cache, must-revalidate, max-age=0' );
-								header( 'Cache-Control: post-check=0, pre-check=0', false);
-								header( 'Pragma: no-cache' );
-								header( 'Expires: Wed, 11 Jan 1984 05:00:00 GMT' );
+								$this->neohp_func->cachezero();
 								// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 								// This is image file (binary)
 
@@ -302,8 +311,7 @@ class neohp_imageprotect {
 		$method = 'AES-256-CBC';
 
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$value = get_option('neohp_hash_bits', 'sha256');
-		$key = hash($value, $nonce, true); // sha512で生成された512ビットキー
+		$key = hash($this->neohp_hash_keys, $nonce, true); // sha512で生成された512ビットキー
 		$iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($method)); // 初期化ベクトルの生成
 
 		// URLを暗号化
@@ -325,8 +333,7 @@ class neohp_imageprotect {
 		$method = 'AES-256-CBC';
 		
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$value = get_option('neohp_hash_bits', 'sha256');
-		$key = hash($value, $nonce, true); // sha512で生成された512ビットキー
+		$key = hash($this->neohp_hash_keys, $nonce, true); // sha512で生成された512ビットキー
 
 		// URLデコードしてケースを入れ替え
 		$decodedData = $this->neohp_func->url_safe_base64_decode(
@@ -355,13 +362,7 @@ class neohp_imageprotect {
 
 	// nonce生成のための関数
 	function generateNonce() {
-		$value = get_option('neohp_nonce_bits', '32');
-		if($value < 16) {
-			$value = 16;
-		}
-		$value=(int)$value;
-
-		return bin2hex(random_bytes($value)); // 512バイト(4096bit)のランダムなnonceを生成
+		return bin2hex(random_bytes($this->neohp_nonce_bits)); // 512バイト(4096bit)のランダムなnonceを生成
 	}
 
 	// URLからhttp://example.com:80 を削除

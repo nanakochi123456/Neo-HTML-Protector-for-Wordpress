@@ -201,3 +201,5 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme des mots de passe, mais ils doivent être hachés ; définissez la force du hachage.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Spécifie la force du jeton d'utilisation temporaire utilisé comme mot de passe pour crypter les informations de l'URL de l'image.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme mots de passe pour crypter les informations de l'URL de l'image, mais ils doivent être hachés, en définissant la force du hachage.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて、サーバーへの負荷が高くなります	La charge du serveur augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	L'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, mais la charge sur le serveur augmente.

@@ -196,3 +196,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ajutisi märgiseid kasutatakse paroolidena, kuid need peavad olema räsitud; määrake räsimise tugevus.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrab ajutise kasutustunnuse tugevuse, mida kasutatakse paroolina pildi URL-teabe krüpteerimiseks.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ajutisi märgiseid kasutatakse paroolidena pildi URL-teabe krüpteerimiseks, kuid neid tuleb hashteldada, määrata hashteldamise tugevus.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiivsus suureneb, kui minna rippmenüüst allpool loetletud valikute juurde, kuid koormus serverile suureneb

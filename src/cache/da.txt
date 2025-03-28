@@ -207,3 +207,4 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens bruges som adgangskoder, men de skal hashes; indstil styrken af hashingen.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Angiver styrken af det midlertidige brugstoken, der bruges som adgangskode til at kryptere billedets URL-oplysninger
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens bruges som adgangskoder til at kryptere billedets URL-oplysninger, men de skal hashes, og styrken af hashingen skal indstilles.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten øges, når du går til indstillingerne under rullemenuen, men belastningen på serveren øges
