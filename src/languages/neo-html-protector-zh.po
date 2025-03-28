@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:11+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -135,6 +135,21 @@ msgstr "请注意，指定为醒目的图像会作为 OGP 传播，无法对其�
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "无法保护标准操作系统截屏功能"
 
+msgid "画像URLの保護"
+msgstr "保护图像 URL"
+
+msgid "即時読み込みをして有効"
+msgstr "立即加载有效。"
+
+msgid "遅延読み込みをして有効"
+msgstr "启用延迟加载。"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "与图像保护结合使用，单独使用意义不大。"
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "它是由 JavaScript 动态读取的，这会影响搜索引擎优化。"
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"
 
@@ -257,6 +272,75 @@ msgstr "如果自定义了信息，则无法更改语言"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "显示视图源信息的语言。"
+
+msgid "一時使用トークンの有効期限"
+msgstr "临时使用令牌的到期日。"
+
+msgid "1分"
+msgstr "一分钟"
+
+msgid "2分"
+msgstr "2 分钟"
+
+msgid "3分"
+msgstr "3 分钟"
+
+msgid "4分"
+msgstr "4 分钟"
+
+msgid "5分"
+msgstr "5 分钟"
+
+msgid "6分"
+msgstr "6 分钟"
+
+msgid "7分"
+msgstr "7 分钟"
+
+msgid "8分"
+msgstr "8 分钟"
+
+msgid "9分"
+msgstr "9 分钟"
+
+msgid "10分"
+msgstr "10 分钟"
+
+msgid "15分"
+msgstr "15 分钟"
+
+msgid "20分"
+msgstr "20 分钟"
+
+msgid "25分"
+msgstr "25 分钟"
+
+msgid "30分"
+msgstr "30 分钟"
+
+msgid "35分"
+msgstr "35 分钟"
+
+msgid "40分"
+msgstr "40 分钟"
+
+msgid "45分"
+msgstr "45 分钟"
+
+msgid "50分"
+msgstr "50 分钟"
+
+msgid "55分"
+msgstr "55 分钟"
+
+msgid "1時間"
+msgstr "1 小时"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "设置图片 URL 信息的有效期。"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "加载后，图像 URL 信息和临时使用标记将被禁用"
 
 msgid "一時使用トークンのビット数"
 msgstr "临时使用标记的位数"

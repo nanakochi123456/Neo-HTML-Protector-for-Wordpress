@@ -194,3 +194,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar
+画像URLの保護	Görüntü URL'lerinin korunması
+即時読み込みをして有効	Anında yükleme ile etkilidir.
+遅延読み込みをして有効	Gecikmeli yükleme ile etkinleştirildi.
+画像の保護と組み合わせて使用します、単体では意味がありません	Görüntü koruma ile birlikte kullanıldığında tek başına anlamlı değildir.
+JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript tarafından dinamik olarak okunur ve bu da SEO'yu etkiler.
+一時使用トークンの有効期限	Geçici kullanım belirteçlerinin son kullanma tarihi.
+1分	Bir dakika
+2分	2 dakika
+3分	3 dakika.
+4分	4 dakika.
+5分	5 dakika.
+6分	6 dakika.
+7分	7 dakika
+8分	8 dakika.
+9分	9 dakika.
+10分	10 dakika.
+15分	15 dakika.
+20分	20 dakika.
+25分	25 dakika.
+30分	30 dakika.
+35分	35 dakika.
+40分	40 dakika.
+45分	45 dakika.
+50分	50 dakika.
+55分	55 dakika.
+1時間	1 saat
+画像URL情報の有効期限を設定します	Görüntü URL bilgilerinin son kullanma tarihini ayarlar.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Yüklendikten sonra, görüntü URL bilgileri ve geçici kullanım belirteçleri devre dışı bırakılır

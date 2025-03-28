@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:11+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -135,6 +135,21 @@ msgstr "Pange tähele, et pilte, mis on määratud silmatorkavaks, levitatakse O
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "OS-i standardset ekraanipildi funktsiooni ei saa kaitsta"
 
+msgid "画像URLの保護"
+msgstr "Pildi URL-ide kaitse"
+
+msgid "即時読み込みをして有効"
+msgstr "Toimib kohese laadimisega."
+
+msgid "遅延読み込みをして有効"
+msgstr "Lubatud hilinenud laadimisega."
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Kasutatakse koos kujutise kaitsega, kuid see ei ole üksi mõttekas."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "Seda loeb dünaamiliselt JavaScript, mis mõjutab SEO-d."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII kunsti väljastamine HTML lähtekoodis HTML varjutamise ja kaitse ajal."
 
@@ -257,6 +272,75 @@ msgstr "Keelt ei saa muuta, kui sõnum on kohandatud."
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Keel, milles kuvatakse vaateallika sõnumeid."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Ajutise kasutamise märgiste kehtivusaeg."
+
+msgid "1分"
+msgstr "üks minut"
+
+msgid "2分"
+msgstr "2 minutit"
+
+msgid "3分"
+msgstr "3 min."
+
+msgid "4分"
+msgstr "4 min."
+
+msgid "5分"
+msgstr "5 minutit."
+
+msgid "6分"
+msgstr "6 min."
+
+msgid "7分"
+msgstr "7 minutit"
+
+msgid "8分"
+msgstr "8 min."
+
+msgid "9分"
+msgstr "9 min."
+
+msgid "10分"
+msgstr "10 minutit."
+
+msgid "15分"
+msgstr "15 minutit."
+
+msgid "20分"
+msgstr "20 minutit."
+
+msgid "25分"
+msgstr "25 minutit."
+
+msgid "30分"
+msgstr "30 minutit."
+
+msgid "35分"
+msgstr "35 minutit."
+
+msgid "40分"
+msgstr "40 minutit."
+
+msgid "45分"
+msgstr "45 minutit."
+
+msgid "50分"
+msgstr "50 minutit."
+
+msgid "55分"
+msgstr "55 minutit."
+
+msgid "1時間"
+msgstr "1 tund"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Määrab pildi URL-i teabe aegumiskuupäeva."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Pärast laadimist on pildi URL-teave ja ajutise kasutamise märgised keelatud."
 
 msgid "一時使用トークンのビット数"
 msgstr "Bittide arv ajutiselt kasutatavates märkides"

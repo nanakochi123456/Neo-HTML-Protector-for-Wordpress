@@ -198,3 +198,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat
+画像URLの保護	Perlindungan URL gambar
+即時読み込みをして有効	Efektif dengan pemuatan langsung.
+遅延読み込みをして有効	Diaktifkan dengan pemuatan tertunda.
+画像の保護と組み合わせて使用します、単体では意味がありません	Digunakan dalam kombinasi dengan perlindungan gambar, ini tidak berarti jika berdiri sendiri.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Ini dibaca secara dinamis oleh JavaScript, yang mempengaruhi SEO.
+一時使用トークンの有効期限	Tanggal kedaluwarsa token penggunaan sementara.
+1分	Satu menit
+2分	2 menit
+3分	3 menit.
+4分	4 menit.
+5分	5 menit.
+6分	6 menit.
+7分	7 menit
+8分	8 menit.
+9分	9 menit.
+10分	10 menit.
+15分	15 menit.
+20分	20 menit.
+25分	25 menit.
+30分	30 menit.
+35分	35 menit.
+40分	40 menit.
+45分	45 menit.
+50分	50 menit.
+55分	55 menit.
+1時間	1 jam
+画像URL情報の有効期限を設定します	Menetapkan tanggal kedaluwarsa informasi URL gambar.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Setelah dimuat, informasi URL gambar dan token penggunaan sementara dinonaktifkan

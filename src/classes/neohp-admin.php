@@ -253,6 +253,26 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// 画像URL保護
+			register_setting('neohp_basic_group', 'neohp_imageprotectjs');
+			add_settings_field(
+				'neohp_imageprotectjs',
+				__('画像URLの保護', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_imageprotectjs', '0'));
+					echo wp_kses( $this->getselect("neohp_imageprotectjs", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('即時読み込みをして有効', 'neo-html-protector')
+						, '2=' . __('遅延読み込みをして有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+
+					echo '<br>' .esc_html( __('画像の保護と組み合わせて使用します、単体では意味がありません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('JavaScriptにより動的に読まれますのでSEOに影響があります', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 			// HTMLソース表示時の警告の方法
 			register_setting('neohp_basic_group', 'view_source_alert_asciiart');
 			add_settings_field(
@@ -585,6 +605,42 @@ class neohp_admin {
 						, $lang_array
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// nonceのbit数
+			register_setting('neohp_advanced_group', 'neohp_nonce_expire');
+			add_settings_field(
+				'neohp_nonce_expire',
+				__('一時使用トークンの有効期限', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_nonce_expire', '20'));
+					echo wp_kses( $this->getselect("neohp_nonce_expire", $value
+						, '1='  . __('1分', 'neo-html-protector')
+						, '2='  . __('2分', 'neo-html-protector')
+						, '3='  . __('3分', 'neo-html-protector')
+						, '4='  . __('4分', 'neo-html-protector')
+						, '5='  . __('5分', 'neo-html-protector')
+						, '6='  . __('6分', 'neo-html-protector')
+						, '7='  . __('7分', 'neo-html-protector')
+						, '8='  . __('8分', 'neo-html-protector')
+						, '9='  . __('9分', 'neo-html-protector')
+						, '10='  . __('10分', 'neo-html-protector')
+						, '15='  . __('15分', 'neo-html-protector')
+						, '20='  . __('20分', 'neo-html-protector')
+						, '25='  . __('25分', 'neo-html-protector')
+						, '30='  . __('30分', 'neo-html-protector')
+						, '35='  . __('35分', 'neo-html-protector')
+						, '40='  . __('40分', 'neo-html-protector')
+						, '45='  . __('45分', 'neo-html-protector')
+						, '50='  . __('50分', 'neo-html-protector')
+						, '55='  . __('55分', 'neo-html-protector')
+						, '60='  . __('1時間', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('画像URL情報の有効期限を設定します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('一度読み込まれると画像URL情報と一時使用トークンは無効化されます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

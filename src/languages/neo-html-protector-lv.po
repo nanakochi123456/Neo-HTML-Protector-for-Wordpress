@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:12+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -135,6 +135,21 @@ msgstr "Ņemiet vērā, ka attēli, kas norādīti kā uzkrītoši, tiek izplat�
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "OS standarta ekrānšāviņu funkciju nevar aizsargāt"
 
+msgid "画像URLの保護"
+msgstr "Attēlu URL aizsardzība"
+
+msgid "即時読み込みをして有効"
+msgstr "Efektīva ar tūlītēju iekraušanu."
+
+msgid "遅延読み込みをして有効"
+msgstr "Ieslēgts ar aizkavētu ielādi."
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "To izmanto kopā ar attēlu aizsardzību, bet atsevišķi tā nav nozīmīga."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "To dinamiski nolasa JavaScript, kas ietekmē SEO."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā."
 
@@ -257,6 +272,75 @@ msgstr "Ja ziņojums ir pielāgots, valodu mainīt nevar."
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Valoda, kurā tiek rādīti skatījuma avota ziņojumi."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Pagaidu lietošanas žetonu derīguma termiņš."
+
+msgid "1分"
+msgstr "Viena minūte"
+
+msgid "2分"
+msgstr "2 minūtes"
+
+msgid "3分"
+msgstr "3 min."
+
+msgid "4分"
+msgstr "4 min."
+
+msgid "5分"
+msgstr "5 minūtes."
+
+msgid "6分"
+msgstr "6 min."
+
+msgid "7分"
+msgstr "7 minūtes"
+
+msgid "8分"
+msgstr "8 min."
+
+msgid "9分"
+msgstr "9 min."
+
+msgid "10分"
+msgstr "10 minūtes."
+
+msgid "15分"
+msgstr "15 minūtes."
+
+msgid "20分"
+msgstr "20 minūtes."
+
+msgid "25分"
+msgstr "25 minūtes."
+
+msgid "30分"
+msgstr "30 minūtes."
+
+msgid "35分"
+msgstr "35 minūtes."
+
+msgid "40分"
+msgstr "40 minūtes."
+
+msgid "45分"
+msgstr "45 minūtes."
+
+msgid "50分"
+msgstr "50 minūtes."
+
+msgid "55分"
+msgstr "55 minūtes."
+
+msgid "1時間"
+msgstr "1 stunda"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Iestatīts attēla URL informācijas derīguma termiņš."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Pēc ielādēšanas attēla URL informācija un pagaidu lietošanas žetoni ir atspējoti."
 
 msgid "一時使用トークンのビット数"
 msgstr "Bitu skaits pagaidu lietošanas žetonos"

@@ -3,7 +3,6 @@
  * Neo HTML Protector neohp_imageprotect
  */
 
-define('NEOHP_IMAGE_EXPIRE', 60);
 $neohp_imageprotect=new neohp_imageprotect();
 
 class neohp_imageprotect {
@@ -13,11 +12,11 @@ class neohp_imageprotect {
 	protected $outputPngDone = false;
 	protected $neohp_hash_keys;
 	protected $neohp_nonce_bits;
+	protected $neohp_image_expire;
 
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
 		$this->neohp_javascript = new neohp_javascript();
-//		$this->nonce = $this->generateNonce();
 
 		if(get_option('neohp_deny_imagebot', '0') === '1') {
 			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
@@ -31,6 +30,9 @@ class neohp_imageprotect {
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 
 		if(get_option('neohp_imageprotect', '0') !== '0' ) {
+			// https://milltalk.jp/boards/212564 より20分が妥当
+			$this->neohp_image_expire = (int)get_option('neohp_nonce_expire', '20') * 60;
+
 			// 暗号化強度の設定
 			$this->neohp_hash_keys = get_option('neohp_hash_bits', 'sha256');
 			$this->neohp_nonce_bits = get_option('neohp_nonce_bits', '32');
@@ -49,6 +51,9 @@ class neohp_imageprotect {
 			// 画像のリプレイスフィルタ
 			if(get_option('neohp_imageprotect', '0') === '1' ) {
 				add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+				if(get_option('neohp_imageprotect', '0') !== '0' ) {
+					add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1js'), 2, 2);
+				}
 			}
 
 			// 全体のHTMLを書き換える
@@ -65,7 +70,11 @@ class neohp_imageprotect {
 					$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 					echo $html;
 					if( ! $this->neohp_func->user() ) {
-						echo $this->processImageTagsMode2($neohp_all_content);
+						$content=$this->processImageTagsMode2($neohp_all_content);
+						if(get_option('neohp_imageprotect', '0') !== '0' ) {
+							$content=$this->processImageTagsMode2js($content);
+						}
+						echo $content;
 					} else {
 						echo $neohp_all_content;
 					}
@@ -249,15 +258,6 @@ class neohp_imageprotect {
 				);
 */
 					if (!in_array($mime, $allowed_types)) {
-//						$this->alert(
-//							  'mime type checked'
-//							, $image_path
-//							, $mime
-//							, $nonce
-//							, $transient
-//						);
-
-//						wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 					} else {
 						// 画像を出力して転送
 						global $wp_filesystem;
@@ -292,9 +292,6 @@ class neohp_imageprotect {
 					, ""
 					, $transient
 				);
-
-
-//				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 			}
 			$this->alert(
 				  'function end'
@@ -463,9 +460,9 @@ class neohp_imageprotect {
 					$transientstr = implode(',', $transient);
 					foreach ($transient as $transitent_name) {
 						$this->neohp_func->settransient(
-							$transitent_name, $transientstr, NEOHP_IMAGE_EXPIRE);
+							$transitent_name, $transientstr, $this->neohp_image_expire);
 						$this->neohp_func->settransient(
-							$transitent_name . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
+							$transitent_name . '_nonce', $nonce, $this->neohp_image_expire);
 					}
 
 					// 新しいimgタグを作成
@@ -543,12 +540,20 @@ class neohp_imageprotect {
 				$transientstr = implode(',', $transient);
 				foreach ($transient as $transitent_name) {
 					$this->neohp_func->settransient(
-						$transitent_name, $transientstr, NEOHP_IMAGE_EXPIRE);
+						$transitent_name, $transientstr, $this->neohp_image_expire);
 					$this->neohp_func->settransient(
-						$transitent_name . '_nonce', $nonce, NEOHP_IMAGE_EXPIRE);
+						$transitent_name . '_nonce', $nonce, $this->neohp_image_expire);
 				}
 			}
 		}
 		return $attributes;
+	}
+
+	function processImageTagsMode1js($attributes, $attachment) {
+		return $attributes;
+	}
+
+	function processImageTagsMode2js($content) {
+		return $content;
 	}
 }

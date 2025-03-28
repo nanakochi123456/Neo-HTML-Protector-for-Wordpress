@@ -196,3 +196,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.
+画像URLの保護	Attēlu URL aizsardzība
+即時読み込みをして有効	Efektīva ar tūlītēju iekraušanu.
+遅延読み込みをして有効	Ieslēgts ar aizkavētu ielādi.
+画像の保護と組み合わせて使用します、単体では意味がありません	To izmanto kopā ar attēlu aizsardzību, bet atsevišķi tā nav nozīmīga.
+JavaScriptにより動的に読まれますのでSEOに影響があります	To dinamiski nolasa JavaScript, kas ietekmē SEO.
+一時使用トークンの有効期限	Pagaidu lietošanas žetonu derīguma termiņš.
+1分	Viena minūte
+2分	2 minūtes
+3分	3 min.
+4分	4 min.
+5分	5 minūtes.
+6分	6 min.
+7分	7 minūtes
+8分	8 min.
+9分	9 min.
+10分	10 minūtes.
+15分	15 minūtes.
+20分	20 minūtes.
+25分	25 minūtes.
+30分	30 minūtes.
+35分	35 minūtes.
+40分	40 minūtes.
+45分	45 minūtes.
+50分	50 minūtes.
+55分	55 minūtes.
+1時間	1 stunda
+画像URL情報の有効期限を設定します	Iestatīts attēla URL informācijas derīguma termiņš.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Pēc ielādēšanas attēla URL informācija un pagaidu lietošanas žetoni ir atspējoti.

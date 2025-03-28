@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:12+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -135,6 +135,21 @@ msgstr "Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, dise
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Fungsi tangkapan layar OS standar tidak dapat diproteksi"
 
+msgid "画像URLの保護"
+msgstr "Perlindungan URL gambar"
+
+msgid "即時読み込みをして有効"
+msgstr "Efektif dengan pemuatan langsung."
+
+msgid "遅延読み込みをして有効"
+msgstr "Diaktifkan dengan pemuatan tertunda."
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Digunakan dalam kombinasi dengan perlindungan gambar, ini tidak berarti jika berdiri sendiri."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "Ini dibaca secara dinamis oleh JavaScript, yang mempengaruhi SEO."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML."
 
@@ -257,6 +272,75 @@ msgstr "Bahasa tidak dapat diubah jika pesan disesuaikan"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Bahasa yang digunakan untuk menampilkan pesan sumber tampilan."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Tanggal kedaluwarsa token penggunaan sementara."
+
+msgid "1分"
+msgstr "Satu menit"
+
+msgid "2分"
+msgstr "2 menit"
+
+msgid "3分"
+msgstr "3 menit."
+
+msgid "4分"
+msgstr "4 menit."
+
+msgid "5分"
+msgstr "5 menit."
+
+msgid "6分"
+msgstr "6 menit."
+
+msgid "7分"
+msgstr "7 menit"
+
+msgid "8分"
+msgstr "8 menit."
+
+msgid "9分"
+msgstr "9 menit."
+
+msgid "10分"
+msgstr "10 menit."
+
+msgid "15分"
+msgstr "15 menit."
+
+msgid "20分"
+msgstr "20 menit."
+
+msgid "25分"
+msgstr "25 menit."
+
+msgid "30分"
+msgstr "30 menit."
+
+msgid "35分"
+msgstr "35 menit."
+
+msgid "40分"
+msgstr "40 menit."
+
+msgid "45分"
+msgstr "45 menit."
+
+msgid "50分"
+msgstr "50 menit."
+
+msgid "55分"
+msgstr "55 menit."
+
+msgid "1時間"
+msgstr "1 jam"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Menetapkan tanggal kedaluwarsa informasi URL gambar."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Setelah dimuat, informasi URL gambar dan token penggunaan sementara dinonaktifkan"
 
 msgid "一時使用トークンのビット数"
 msgstr "Jumlah bit dalam token penggunaan sementara"

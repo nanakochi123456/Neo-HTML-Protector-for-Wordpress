@@ -203,3 +203,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme mots de passe pour crypter les informations de l'URL de l'image, mais ils doivent être hachés, en définissant la force du hachage.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて、サーバーへの負荷が高くなります	La charge du serveur augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	L'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, mais la charge sur le serveur augmente.
+画像URLの保護	Protection des URL d'images
+即時読み込みをして有効	Effectif dès le chargement immédiat.
+遅延読み込みをして有効	Activé avec chargement différé.
+画像の保護と組み合わせて使用します、単体では意味がありません	Utilisée en combinaison avec la protection de l'image, elle n'est pas significative en soi.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Il est lu dynamiquement par JavaScript, ce qui affecte le référencement.
+一時使用トークンの有効期限	Date d'expiration des jetons d'utilisation temporaire.
+1分	Une minute
+2分	2 minutes
+3分	3 min.
+4分	4 min.
+5分	5 minutes.
+6分	6 min.
+7分	7 minutes
+8分	8 min.
+9分	9 min.
+10分	10 minutes.
+15分	15 minutes.
+20分	20 minutes.
+25分	25 minutes.
+30分	30 minutes.
+35分	35 minutes.
+40分	40 minutes.
+45分	45 minutes.
+50分	50 minutes.
+55分	55 minutes.
+1時間	1 heure
+画像URL情報の有効期限を設定します	Définit la date d'expiration des informations de l'URL de l'image.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Une fois chargées, les informations de l'URL de l'image et les jetons d'utilisation temporaire sont désactivés.

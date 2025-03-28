@@ -197,3 +197,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Angir styrken på det midlertidige brukstokenet som brukes som passord for å kryptere bilde-URL-informasjonen
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens brukes som passord for å kryptere bilde-URL-informasjonen, men de må hashes, og styrken på hashingen må stilles inn.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten øker etter hvert som du går til alternativene som er oppført under rullegardinmenyen, men belastningen på serveren øker
+画像URLの保護	Beskyttelse av bilde-URL-er
+即時読み込みをして有効	Virker med umiddelbar lasting.
+遅延読み込みをして有効	Aktivert med forsinket lasting.
+画像の保護と組み合わせて使用します、単体では意味がありません	Den brukes i kombinasjon med bildebeskyttelse, men er ikke meningsfull alene.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Den leses dynamisk av JavaScript, noe som påvirker SEO.
+一時使用トークンの有効期限	Utløpsdato for tokens for midlertidig bruk.
+1分	Ett minutt
+2分	2 minutter
+3分	3 min.
+4分	4 min.
+5分	5 minutter.
+6分	6 min.
+7分	7 minutter
+8分	8 min.
+9分	9 min.
+10分	10 minutter.
+15分	15 minutter.
+20分	20 minutter.
+25分	25 minutter.
+30分	30 minutter.
+35分	35 minutter.
+40分	40 minutter.
+45分	45 minutter.
+50分	50 minutter.
+55分	55 minutter.
+1時間	1 time
+画像URL情報の有効期限を設定します	Angir utløpsdatoen for bilde-URL-informasjonen.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Når bildet er lastet inn, deaktiveres URL-informasjonen og midlertidige brukstokener

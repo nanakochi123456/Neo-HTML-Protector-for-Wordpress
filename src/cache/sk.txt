@@ -197,3 +197,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Určuje silu tokenu dočasného použitia, ktorý sa používa ako heslo na šifrovanie informácií o adrese URL obrázka.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá na šifrovanie informácií o adrese URL obrázka, ale musia byť zaheslované, nastavte silu zaheslovania.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita sa zvyšuje, keď prejdete na možnosti uvedené pod rozbaľovacou ponukou, ale zaťaženie servera sa zvyšuje
+画像URLの保護	Ochrana adries URL obrázkov
+即時読み込みをして有効	Účinné pri okamžitom naložení.
+遅延読み込みをして有効	Povolené s oneskoreným načítaním.
+画像の保護と組み合わせて使用します、単体では意味がありません	Používa sa v kombinácii s ochranou obrazu, sama o sebe nemá význam.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Číta sa dynamicky pomocou JavaScriptu, čo ovplyvňuje SEO.
+一時使用トークンの有効期限	Dátum skončenia platnosti tokenov na dočasné používanie.
+1分	Jedna minúta
+2分	2 minúty
+3分	3 min.
+4分	4 min.
+5分	5 minút.
+6分	6 min.
+7分	7 minút
+8分	8 min.
+9分	9 min.
+10分	10 minút.
+15分	15 minút.
+20分	20 minút.
+25分	25 minút.
+30分	30 minút.
+35分	35 minút.
+40分	40 minút.
+45分	45 minút.
+50分	50 minút.
+55分	55 minút.
+1時間	1 hodina
+画像URL情報の有効期限を設定します	Nastaví dátum skončenia platnosti informácií o adrese URL obrázka.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Po načítaní sú informácie o adrese URL obrázka a tokeny dočasného použitia vypnuté.

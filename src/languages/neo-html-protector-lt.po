@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:12+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -135,6 +135,21 @@ msgstr "Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, sklei
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Standartinė OS ekrano nuotraukos funkcija negali būti apsaugota"
 
+msgid "画像URLの保護"
+msgstr "Paveikslėlių URL adresų apsauga"
+
+msgid "即時読み込みをして有効"
+msgstr "Veiksminga iš karto pakraunant."
+
+msgid "遅延読み込みをして有効"
+msgstr "Įjungta su uždelstu įkrovimu."
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Naudojama kartu su vaizdo apsauga, tačiau pati savaime ji nėra reikšminga."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "Jį dinamiškai skaito JavaScript, o tai turi įtakos SEO."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga."
 
@@ -257,6 +272,75 @@ msgstr "Kalbos negalima keisti, jei pranešimas yra pritaikytas"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Kalba, kuria rodomi peržiūros šaltinio pranešimai."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Laikino naudojimo žetonų galiojimo pabaigos data."
+
+msgid "1分"
+msgstr "Viena minutė"
+
+msgid "2分"
+msgstr "2 minutės"
+
+msgid "3分"
+msgstr "3 min."
+
+msgid "4分"
+msgstr "4 min."
+
+msgid "5分"
+msgstr "5 min."
+
+msgid "6分"
+msgstr "6 min."
+
+msgid "7分"
+msgstr "7 minutės"
+
+msgid "8分"
+msgstr "8 min."
+
+msgid "9分"
+msgstr "9 min."
+
+msgid "10分"
+msgstr "10 min."
+
+msgid "15分"
+msgstr "15 min."
+
+msgid "20分"
+msgstr "20 minučių."
+
+msgid "25分"
+msgstr "25 minutės."
+
+msgid "30分"
+msgstr "30 minučių."
+
+msgid "35分"
+msgstr "35 minutės."
+
+msgid "40分"
+msgstr "40 minučių."
+
+msgid "45分"
+msgstr "45 minutės."
+
+msgid "50分"
+msgstr "50 minučių."
+
+msgid "55分"
+msgstr "55 minutės."
+
+msgid "1時間"
+msgstr "1 val."
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Nustato vaizdo URL informacijos galiojimo datą."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Kai vaizdas įkeliamas, paveikslėlio URL informacija ir laikino naudojimo žetonai išjungiami."
 
 msgid "一時使用トークンのビット数"
 msgstr "Laikino naudojimo žetonų bitų skaičius"

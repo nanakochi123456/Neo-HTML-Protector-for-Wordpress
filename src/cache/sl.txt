@@ -196,3 +196,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Določa moč žetona za začasno uporabo, ki se uporablja kot geslo za šifriranje podatkov URL slike.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Začasni žetoni se uporabljajo kot gesla za šifriranje podatkov URL slike, vendar jih je treba hashirati in nastaviti moč hashiranja.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzivnost se povečuje, ko preidete na možnosti, navedene pod spustnim menijem, vendar se poveča obremenitev strežnika.
+画像URLの保護	Zaščita slikovnih naslovov URL
+即時読み込みをして有効	Učinkovito s takojšnjim polnjenjem.
+遅延読み込みをして有効	Omogočeno z odloženim nalaganjem.
+画像の保護と組み合わせて使用します、単体では意味がありません	Uporablja se v kombinaciji z zaščito slike, sama po sebi pa ni smiselna.
+JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript ga bere dinamično, kar vpliva na SEO.
+一時使用トークンの有効期限	Datum poteka veljavnosti žetonov za začasno uporabo.
+1分	Ena minuta
+2分	2 minuti
+3分	3 min.
+4分	4 min.
+5分	5 minut.
+6分	6 min.
+7分	7 minut
+8分	8 min.
+9分	9 min.
+10分	10 minut.
+15分	15 minut.
+20分	20 minut.
+25分	25 minut.
+30分	30 minut.
+35分	35 minut.
+40分	40 minut.
+45分	45 minut.
+50分	50 minut.
+55分	55 minut.
+1時間	1 ura
+画像URL情報の有効期限を設定します	Nastavi datum poteka veljavnosti podatkov URL slike.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Po nalaganju so informacije URL slike in žetoni za začasno uporabo onemogočeni.

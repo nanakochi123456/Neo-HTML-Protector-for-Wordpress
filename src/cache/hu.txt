@@ -196,3 +196,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Megadja a kép URL-információjának titkosításához jelszóként használt ideiglenes használati jelszó erősségét.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Az ideiglenes tokeneket jelszóként használják a kép URL-információjának titkosítására, de azokat hash-olni kell, állítsa be a hash erősségét.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Az intenzitás növekszik, ahogy a legördülő menü alatt felsorolt opciókat választja, de a szerver terhelése is nő
+画像URLの保護	A kép URL-címek védelme
+即時読み込みをして有効	Azonnali betöltéssel hatékony.
+遅延読み込みをして有効	Késleltetett betöltéssel engedélyezve.
+画像の保護と組み合わせて使用します、単体では意味がありません	A képvédelemmel együtt használva, önmagában nincs értelme.
+JavaScriptにより動的に読まれますのでSEOに影響があります	A JavaScript dinamikusan olvassa be, ami hatással van a SEO-ra.
+一時使用トークンの有効期限	Az ideiglenes használatú tokenek lejárati dátuma.
+1分	Egy perc
+2分	2 perc
+3分	3 perc.
+4分	4 perc.
+5分	5 perc.
+6分	6 perc.
+7分	7 perc
+8分	8 perc.
+9分	9 perc.
+10分	10 perc.
+15分	15 perc.
+20分	20 perc.
+25分	25 perc.
+30分	30 perc.
+35分	35 perc.
+40分	40 perc.
+45分	45 perc.
+50分	50 perc.
+55分	55 perc.
+1時間	1 óra
+画像URL情報の有効期限を設定します	Beállítja a kép URL-információjának lejárati dátumát.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	A betöltés után a kép URL-információ és az ideiglenes használatra vonatkozó tokenek letiltásra kerülnek.

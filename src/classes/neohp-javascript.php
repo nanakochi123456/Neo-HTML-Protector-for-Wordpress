@@ -3,6 +3,9 @@
  * Neo HTML Protector neohp_javascript
  */
 
+// https://github.com/brix/crypto-js/tags
+define( 'NEOHP_REQUIRED_CRYPTO_JS_VERSION', '4.2.0' );
+
 $neohp_javascriptexec = 0;
 $neohp_javascript=new neohp_javascript();
 
@@ -47,8 +50,8 @@ class neohp_javascript {
 
 		if(get_option('neohp_alert_d', '0') === '1')   { $html.="d";}
 
-		if(get_option('neohp_imageprotect', '0') === '1') { $html.="z";}
-		if(get_option('neohp_imageprotect', '0') === '2') { $html.="Z";}
+		if(get_option('neohp_imageprotectjs', '0') === '1') { $html.="z";}
+		if(get_option('neohp_imageprotectjs', '0') === '2') { $html.="Z";}
 
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');
@@ -79,6 +82,8 @@ class neohp_javascript {
 
 		// ログインしてないときのみ
 		if( ! $this->neohp_func->login() ) {
+			$this->add_cryptojs_script();
+
 			if($versionmin < $version) {
 				wp_enqueue_script('neohp', $script_url, array('jquery'), $version, true);
 			} else {
@@ -86,5 +91,17 @@ class neohp_javascript {
 			}
 		}
 
+	}
+
+	function add_cryptojs_script() {
+		if(get_option('neohp_imageprotectjs', '0') !== '0') {
+			wp_enqueue_script(
+				'crypto-js', // ハンドル名
+				'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/' . NEOHP_REQUIRED_CRYPTO_JS_VERSION . '/crypto-js.min.js', // 外部URL
+				array(), // 依存するスクリプト（今回は無し）
+				null, // バージョン番号（最新を指定する場合はnull）
+				true // フッターに追加するかどうか（trueでフッター）
+			);
+		}
 	}
 }

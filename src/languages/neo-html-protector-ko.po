@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:11+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -135,6 +135,21 @@ msgstr "아이캐치로 지정한 이미지는 OGP로 확산되므로 보호할 
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "OS 표준 탑재 스크린샷 기능을 보호할 수 없습니다."
 
+msgid "画像URLの保護"
+msgstr "이미지 URL 보호"
+
+msgid "即時読み込みをして有効"
+msgstr "즉시 불러오기 및 활성화"
+
+msgid "遅延読み込みをして有効"
+msgstr "지연 로딩을 통해 활성화"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "이미지 보호와 함께 사용되며, 단독으로는 의미가 없습니다."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "자바스크립트에 의해 동적으로 읽혀지므로 SEO에 영향을 미칠 수 있습니다."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "HTML 난독화 및 보호 시 HTML 소스 코드의 ASCII 아트 출력"
 
@@ -257,6 +272,75 @@ msgstr "메시지를 맞춤 설정한 경우 언어를 변경할 수 없습니�
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "View-source 메시지를 표시하는 언어"
+
+msgid "一時使用トークンの有効期限"
+msgstr "임시 사용 토큰의 유효기간"
+
+msgid "1分"
+msgstr "1분"
+
+msgid "2分"
+msgstr "2분"
+
+msgid "3分"
+msgstr "3분"
+
+msgid "4分"
+msgstr "4분"
+
+msgid "5分"
+msgstr "5분"
+
+msgid "6分"
+msgstr "6분"
+
+msgid "7分"
+msgstr "7분"
+
+msgid "8分"
+msgstr "8분"
+
+msgid "9分"
+msgstr "9분"
+
+msgid "10分"
+msgstr "10분"
+
+msgid "15分"
+msgstr "15분"
+
+msgid "20分"
+msgstr "20분"
+
+msgid "25分"
+msgstr "25분"
+
+msgid "30分"
+msgstr "30분"
+
+msgid "35分"
+msgstr "35분"
+
+msgid "40分"
+msgstr "40분"
+
+msgid "45分"
+msgstr "45분"
+
+msgid "50分"
+msgstr "50분"
+
+msgid "55分"
+msgstr "55분"
+
+msgid "1時間"
+msgstr "1시간"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "이미지 URL 정보 유효기간 설정"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "이미지 URL 정보와 임시 사용 토큰은 일단 로드되면 비활성화됩니다."
 
 msgid "一時使用トークンのビット数"
 msgstr "임시 사용 토큰의 비트 수"

@@ -201,3 +201,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește
+画像URLの保護	Protecția URL-urilor imaginilor
+即時読み込みをして有効	Efectiv cu încărcare imediată.
+遅延読み込みをして有効	Activat cu încărcare întârziată.
+画像の保護と組み合わせて使用します、単体では意味がありません	Folosit în combinație cu protecția imaginii, acesta nu este semnificativ în sine.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Acesta este citit dinamic de JavaScript, ceea ce afectează SEO.
+一時使用トークンの有効期限	Data de expirare a jetoanelor de utilizare temporară.
+1分	Un minut
+2分	2 minute
+3分	3 min.
+4分	4 min.
+5分	5 minute.
+6分	6 min.
+7分	7 minute
+8分	8 min.
+9分	9 min.
+10分	10 minute.
+15分	15 minute.
+20分	20 de minute.
+25分	25 de minute.
+30分	30 de minute.
+35分	35 de minute.
+40分	40 de minute.
+45分	45 de minute.
+50分	50 de minute.
+55分	55 de minute.
+1時間	1 oră
+画像URL情報の有効期限を設定します	Setează data de expirare a informațiilor URL ale imaginii.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Odată încărcate, informațiile URL ale imaginii și jetoanele de utilizare temporară sunt dezactivate

@@ -21,7 +21,7 @@ class neohp_jskeyajax {
 			return;
 		}
 
-		if (!isset($_POST['sec']) || $_POST['sec'] !== 'papu') {
+		if (!isset($_POST['sec']) || $_POST['sec'] !== 'none') {
 			$this->neohp_func->err403();
 		}
 

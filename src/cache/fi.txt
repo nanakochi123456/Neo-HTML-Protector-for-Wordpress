@@ -197,3 +197,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrittää kuvan URL-osoitteen tietojen salaamiseen salasanana käytettävän tilapäisen käyttömerkin vahvuuden.
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina kuvan URL-osoitteen tietojen salaamiseen, mutta ne on hakkeroitava, aseta hakkeroinnin vahvuus.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Voimakkuus kasvaa, kun siirryt pudotusvalikon alapuolella lueteltuihin vaihtoehtoihin, mutta palvelimen kuormitus kasvaa.
+画像URLの保護	Kuvien URL-osoitteiden suojaaminen
+即時読み込みをして有効	Vaikuttaa välittömästi ladattaessa.
+遅延読み込みをして有効	Käytössä viivästetyllä latauksella.
+画像の保護と組み合わせて使用します、単体では意味がありません	Sitä käytetään yhdessä kuvasuojauksen kanssa, mutta yksinään se ei ole mielekäs.
+JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript lukee sitä dynaamisesti, mikä vaikuttaa hakukoneoptimointiin.
+一時使用トークンの有効期限	Väliaikaisen käytön kuponkien viimeinen voimassaolopäivä.
+1分	Yksi minuutti
+2分	2 minuuttia
+3分	3 min.
+4分	4 min.
+5分	5 minuuttia.
+6分	6 min.
+7分	7 minuuttia
+8分	8 min.
+9分	9 min.
+10分	10 minuuttia.
+15分	15 minuuttia.
+20分	20 minuuttia.
+25分	25 minuuttia.
+30分	30 minuuttia.
+35分	35 minuuttia.
+40分	40 minuuttia.
+45分	45 minuuttia.
+50分	50 minuuttia.
+55分	55 minuuttia.
+1時間	1 tunti
+画像URL情報の有効期限を設定します	Asettaa kuvan URL-osoitteen tietojen voimassaolon päättymispäivän.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kun kuva on ladattu, kuvan URL-osoite ja tilapäisen käytön tunnisteet poistetaan käytöstä.

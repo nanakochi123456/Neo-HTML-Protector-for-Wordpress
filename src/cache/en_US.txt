@@ -206,3 +206,31 @@ OS標準搭載のスクリーンショット機能を保護することはでき
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Set the strength of the temporary tokens used as passwords to encrypt the image URL information, which must be hashed.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて、サーバーへの負荷が高くなります	The load on the server increases as you move down the drop-down menu to the lower choices
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	The intensity increases as you move down the drop-down menu, but the load on the server increases
+画像URLの保護	Image URL Protection
+即時読み込みをして有効	Effective with immediate loading
+遅延読み込みをして有効	Effective with delayed loading.
+画像の保護と組み合わせて使用します、単体では意味がありません	Used in combination with image protection, it is not meaningful on its own
+JavaScriptにより動的に読まれますのでSEOに影響があります	It is read dynamically by JavaScript, which affects SEO.
+一時使用トークンの有効期限	Expiration date of temporary use tokens
+1分	One minute
+2分	2 minutes
+3分	3 minutes
+4分	4 minutes
+5分	5 min.
+6分	6 minutes
+7分	7 minutes
+8分	8 minutes
+9分	9 minutes
+10分	10 min.
+15分	15 min.
+20分	20 min.
+25分	25 min.
+30分	30 min.
+35分	35 min.
+40分	40 min.
+45分	45 min.
+50分	50 minutes
+55分	55 min.
+1時間	1 hour
+画像URL情報の有効期限を設定します	Sets the expiration date of the image URL information
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Once loaded, the image URL information and temporary use token will be disabled

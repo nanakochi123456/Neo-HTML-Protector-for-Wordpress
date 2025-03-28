@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.53\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 13:11+0900\n"
-"PO-Revision-Date: 2025-03-28 13:12+0900\n"
+"POT-Creation-Date: 2025-03-28 19:07+0900\n"
+"PO-Revision-Date: 2025-03-28 19:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -135,6 +135,21 @@ msgstr "Göz alıcı olarak belirtilen görüntülerin OGP olarak yayıldığın
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Standart işletim sistemi ekran görüntüsü işlevi korunamaz"
 
+msgid "画像URLの保護"
+msgstr "Görüntü URL'lerinin korunması"
+
+msgid "即時読み込みをして有効"
+msgstr "Anında yükleme ile etkilidir."
+
+msgid "遅延読み込みをして有効"
+msgstr "Gecikmeli yükleme ile etkinleştirildi."
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Görüntü koruma ile birlikte kullanıldığında tek başına anlamlı değildir."
+
+msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
+msgstr "JavaScript tarafından dinamik olarak okunur ve bu da SEO'yu etkiler."
+
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
 
@@ -257,6 +272,75 @@ msgstr "Mesaj özelleştirilmişse dil değiştirilemez"
 
 msgid "view-sourceメッセージを表示する言語"
 msgstr "Görünüm kaynağı mesajlarının görüntülendiği dil."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Geçici kullanım belirteçlerinin son kullanma tarihi."
+
+msgid "1分"
+msgstr "Bir dakika"
+
+msgid "2分"
+msgstr "2 dakika"
+
+msgid "3分"
+msgstr "3 dakika."
+
+msgid "4分"
+msgstr "4 dakika."
+
+msgid "5分"
+msgstr "5 dakika."
+
+msgid "6分"
+msgstr "6 dakika."
+
+msgid "7分"
+msgstr "7 dakika"
+
+msgid "8分"
+msgstr "8 dakika."
+
+msgid "9分"
+msgstr "9 dakika."
+
+msgid "10分"
+msgstr "10 dakika."
+
+msgid "15分"
+msgstr "15 dakika."
+
+msgid "20分"
+msgstr "20 dakika."
+
+msgid "25分"
+msgstr "25 dakika."
+
+msgid "30分"
+msgstr "30 dakika."
+
+msgid "35分"
+msgstr "35 dakika."
+
+msgid "40分"
+msgstr "40 dakika."
+
+msgid "45分"
+msgstr "45 dakika."
+
+msgid "50分"
+msgstr "50 dakika."
+
+msgid "55分"
+msgstr "55 dakika."
+
+msgid "1時間"
+msgstr "1 saat"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Görüntü URL bilgilerinin son kullanma tarihini ayarlar."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Yüklendikten sonra, görüntü URL bilgileri ve geçici kullanım belirteçleri devre dışı bırakılır"
 
 msgid "一時使用トークンのビット数"
 msgstr "Geçici kullanım belirteçlerindeki bit sayısı"
