@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.50\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 09:23+0900\n"
-"PO-Revision-Date: 2025-03-28 09:23+0900\n"
+"POT-Creation-Date: 2025-03-28 10:52+0900\n"
+"PO-Revision-Date: 2025-03-28 10:52+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -131,6 +131,9 @@ msgstr "使用 add_filter 的方法会在发布时过滤 img 标记，而使用 
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "请注意，指定为醒目的图像会作为 OGP 传播，无法对其进行保护。如果必须保护，请在高级设置中更改保护 HTML 时 HEAD 标记输出的选择。"
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "无法保护标准操作系统截屏功能"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"

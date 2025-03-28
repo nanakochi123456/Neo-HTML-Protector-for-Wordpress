@@ -187,3 +187,4 @@ HTMLソース表示をした時に警告の意思を示すアスキーアート�
 add_filterを使用して画像を保護	Skydda bilder med hjälp av add_filter
 wp_head～wp_footerの間をキャプチャして画像を保護	Fånga och skydda bilder mellan wp_head och wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoden som använder add_filter filtrerar img-taggar när de publiceras, medan metoden som använder wp_head till wp_footer bearbetar alla img-taggar i innehållet.
+OS標準搭載のスクリーンショット機能を保護することはできません	OS:s standardfunktion för skärmdump kan inte skyddas
