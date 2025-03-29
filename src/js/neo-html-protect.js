@@ -20,6 +20,8 @@
 	let		none='none';
 	let		undefined='undefined';
 	let		Document=document;
+	let		body='body';
+	let		black='black';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -42,6 +44,8 @@
 	rClick=rClick + nullstr;
 	CopyCut=CopyCut + nullstr;
 	none=none + nullstr;
+	body=body + nullstr;
+	black=black + nullstr;
 	undefined=undefined + nullstr;
 
 	function lower(str) {
@@ -128,7 +132,8 @@
 
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 	if(FlagAll.includes(upper(zKey))) {
-		Document.addEventListener('DOMContentLoaded', function() {
+//		Document.addEventListener('DOMContentLoaded', function() {
+		$(Document).ready(function() {
 			if (typeof Cryptojs !== undefined) {
 				// IntersectionObserverを使ってlazyロードを実現
 				const imgTags = Document.querySelectorAll('img[data-src]');
@@ -175,7 +180,8 @@
 /*
 	// 例: 画像のdata-src属性を取得して復号化する 非lazyロード
 	if(FlagAll.includes(zKey)) {
-		Document.addEventListener('DOMContentLoaded', function() {
+//		Document.addEventListener('DOMContentLoaded', function() {
+		$(Document).ready(function() {
 			if (typeof Cryptojs !== undefined) {
 				// すべての img[data-src] タグを取得
 				const imgTags = Document.querySelectorAll('img[data-src]');
@@ -213,7 +219,7 @@
 
 	// キーのみの処理
 
-	$(Document).on("keyup", (event) => {
+	$(Document).on("keydown keypress keyup", (event) => {
 		if(FlagSmall.includes(PrintScreenKey)) {
 			if (event.keyCode === 44) {
 				sendIpToServer('PrintScreen', PrintScreenKey);
@@ -267,8 +273,6 @@
 			mediaQuery.addEventListener('change', (e) => {
 				if (e.matches) {
 					Document.body.style.display = none;
-				} else {
-					Document.body.style.display = nullstr;
 				}
 			});
 
@@ -290,7 +294,7 @@
 	// 右クリック
 	if(FlagSmall.includes(rClick)) {
 		// mousedown mouseup dragstart
-		$(Document).on('contextmenu', (event)=> {
+		$(Document).on('contextmenu', (event) => {
 			sendIpToServer('Right Click', rClick);
 			stop(event);
 		});
@@ -298,7 +302,7 @@
 
 	// copy, cut
 	if(FlagSmall.includes(CopyCut)) {
-		Document.addEventListener('copy', (event) => {
+		$(Document).on('copy', (event) => {
 			sendIpToServer('Copy Cut', CopyCut);
 			stop(event);
 		});
@@ -306,12 +310,15 @@
 
 	// テキスト選択禁止のみ 通知なし
 	if(FlagSmall.includes('t')) {
-		Document.body.style.userSelect = none;
-		Document.body.style.mozUserSelect = none; // Firefox対策
-		Document.body.style.webkitUserSelect = none; // Safari対策
-		//Document.body.style.msUserSelect = none; // 古いIE対策 いらないのでコメントアウト
+		$(body).css({
+			'user-select': none,
+			'-webkit-user-select': none, // Safari, Chrome
+			'-moz-user-select': none,	 // Firefox
+			'-ms-user-select': none 	 // Internet Explorer, Edge
+		});
 
-		Document.querySelectorAll('img').forEach(img => {
+//		Document.querySelectorAll('img').forEach(img => {
+		$('img').each(function() {
 			img.style.pointerEvents = none;
 		});
 
@@ -420,17 +427,51 @@
 			success: function(response) {
 				// alertで表示後URL転送
 				if(FlagAll.includes(Flg)) {
+					// 全部真っ黒にする
+					$('*').css({
+						'background-color': black,
+						'color': black,
+					});
+
+					$('img,video,audio,iframe').css({
+						'display': none
+					});
+					var text=response.replace(/\\n/g, '<br>');
+
+					var newDiv = $('<div>')
+						.html(text) // 文字を設定
+						.css({
+							'position': 'fixed',			 // 画面上で固定
+							'top': '50%',					 // 画面の中央に配置
+							'left': '50%',
+							'transform': 'translate(-50%, -50%)', // 中央揃え
+							'background-color': 'yellow',	 // 背景色を黄色に
+							'color': black,				 // 文字色を黒に
+							'padding': '20px',				 // パディング
+							'border-radius': '10px',		 // 角を丸く
+							'z-index': '9999',				 // 最前面に表示
+							'font-weight': 'bold'			 // 文字を太字に
+						});
+
+					// body に追加
+					$(body).append(newDiv);
+
+/*
 					alert(escapeHtml(response.replace(/\\n/g, '\n')));
-					location.href
-						= NeoHPHome
-						+ "?neohp=redirect"
-						+ "&tm=" + unixTime
-						+ "&neononce=" + Nonce;
+*/
+					setTimeout(function() {
+						location.href = NeoHPHome
+										+ "?neohp=redirect"
+										+ "&tm=" + unixTime
+										+ "&neononce=" + Nonce;
+					}, 5000);  // 5000ミリ秒 = 5秒
+
 				}
 			}
 		});
 	}
 
+/*
 	// JavaScriptでエスケープする関数
 	function escapeHtml(str) {
 		var e = Document.createElement('div');
@@ -440,5 +481,5 @@
 		}
 		return e.innerHTML;
 	}
-
+*/
 })(jQuery);
