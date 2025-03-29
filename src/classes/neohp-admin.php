@@ -273,9 +273,9 @@ class neohp_admin {
 			);
 
 			// HTMLソース表示時の警告の方法
-			register_setting('neohp_basic_group', 'view_source_alert_asciiart');
+			register_setting('neohp_basic_group', 'neohp_view_source_alert_asciiart');
 			add_settings_field(
-				'view_source_alert_asciiart',
+				'neohp_view_source_alert_asciiart',
 				__('HTML難読化・保護時のHTMLソースコードのアスキーアートの出力', 'neo-html-protector'),
 
 				function() {
@@ -284,8 +284,8 @@ class neohp_admin {
 					foreach ($warning_ascii_art	 as $k => $v) {
 						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
 					}
-					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
-					echo wp_kses( $this->getselect("view_source_alert_asciiart", $value
+					$value = esc_html(get_option('neohp_view_source_alert_asciiart', '0'));
+					echo wp_kses( $this->getselect("neohp_view_source_alert_asciiart", $value
 						, '0=' . __('表示なし', 'neo-html-protector')
 						, $warning_ascii_art_array
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );

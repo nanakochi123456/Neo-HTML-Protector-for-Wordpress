@@ -38,5 +38,5 @@ function neohp_delete_options() {
 	delete_option('neohp_rightclick_message');
 	delete_option('neohp_save_message');
 	delete_option('neohp_view-source_message_lang');
-	delete_option('view_source_alert_asciiart');
+	delete_option('neohp_view_source_alert_asciiart');
 }

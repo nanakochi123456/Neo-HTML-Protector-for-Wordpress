@@ -92,8 +92,8 @@ class neohp_htmlcompress {
 				$protectmsg = str_replace('\\n', "\n", $protectmsg);
 
 				// アスキーアートの追加
-				if(get_option('view_source_alert_asciiart', '0') !== '0') {
-					$protectmsg = $warning_ascii_art[get_option('view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
+				if(get_option('neohp_view_source_alert_asciiart', '0') !== '0') {
+					$protectmsg = $warning_ascii_art[get_option('neohp_view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
 				}
 
 				$buffer = "<!--\n\n" . $protectmsg . "\n\n-->" . $buffer;
