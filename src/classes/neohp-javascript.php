@@ -53,8 +53,8 @@ class neohp_javascript {
 		if(get_option('neohp_imageprotectjs', '0') === '1') { $html.="z";}
 		if(get_option('neohp_imageprotectjs', '0') === '2') { $html.="Z";}
 
-		if(get_option('neohp_alert_printscreen', '0') === '1') { $html.="a";}
-		if(get_option('neohp_alert_printscreen', '0') === '2') { $html.="A";}
+		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
+		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
 
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');
