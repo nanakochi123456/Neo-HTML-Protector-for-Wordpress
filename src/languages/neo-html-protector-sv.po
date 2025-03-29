@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.59\n"
+"Project-Id-Version: Neo HTML Protector 0.0.60\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 23:20+0900\n"
-"PO-Revision-Date: 2025-03-29 23:21+0900\n"
+"POT-Creation-Date: 2025-03-30 01:05+0900\n"
+"PO-Revision-Date: 2025-03-30 01:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -56,6 +56,12 @@ msgstr "Högerklicka på varningsmeddelanden."
 
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr "Varningsmeddelanden för utskrift och lagring av PDF-filer."
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Skärmdump av varningsmeddelanden."
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Varningsmeddelande om att spara sidan."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Meddelande som visas vid kopiering eller skärning."
@@ -185,6 +191,12 @@ msgstr "Tryckning"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Utskriftsblockering men fungerar inte bra i vissa webbläsare"
+
+msgid "スクリーンショット"
+msgstr "Skärmdump"
+
+msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgstr "Vissa operativsystem och webbläsare kanske inte kan fånga upp eller upptäcka"
 
 msgid "ページ保存"
 msgstr "Sida spara"
@@ -497,6 +509,9 @@ msgstr "Högerklickning är förbjuden."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Utskrift och sparande till PDF är förbjudet"
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Skärmdumpar är förbjudna."
 
 msgid "ページの保存は禁止されています"
 msgstr "Det är förbjudet att spara sidor."

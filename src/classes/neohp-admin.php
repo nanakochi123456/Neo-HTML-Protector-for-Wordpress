@@ -89,11 +89,25 @@ class neohp_admin {
 				'neohp_message_section'
 			);
 
+			// スクリーンショットのメッセージ
+			register_setting('neohp_message_group', 'neohp_printscreen_message');
+			add_settings_field(
+				'neohp_printscreen_message',
+				__('スクリーンショットの警告メッセージ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_printscreen_message', $neohp_printscreen_default );
+					echo '<input type="text" name="neohp_printscreen_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
 			// 保存のAlert メッセージ
 			register_setting('neohp_message_group', 'neohp_save_message');
 			add_settings_field(
 				'neohp_save_message',
-				__('印刷、PDF保存の警告メッセージ', 'neo-html-protector'),
+				__('ページ保存の警告メッセージ', 'neo-html-protector'),
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_save_message', $neohp_save_default );
@@ -383,6 +397,24 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
+			// PrintScreen
+			register_setting('neohp_basic_group', 'neohp_alert_printscreen');
+			add_settings_field(
+				'neohp_alert_printscreen',
+				'PrintScreen (' . __('スクリーンショット', 'neo-html-protector') . ')',
+				function() {
+					$value = esc_html(get_option('neohp_alert_printscreen', '2'));
+					echo wp_kses( $this->getselect("neohp_alert_printscreen", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('OSやブラウザによっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

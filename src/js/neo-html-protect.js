@@ -5,7 +5,6 @@
 /** @suppress {undefinedVars} */
 
 (function($) {
-	let		keydown='keydown';
 	let		CtrlKey='Ctrl+';
 	let		ShiftKey='Shift+';
 	let		fKey='f';
@@ -17,19 +16,19 @@
 	let		zKey='z';
 	let		rClick='r';
 	let		CopyCut='c';
+	let		PrintScreenKey='a';
 	let		none='none';
 	let		undefined='undefined';
+	let		Document=document;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
 	let		Nonce=NeoHPnonce;
 	let		unixTime = Math.floor(Date.now() / 1000);
 	let		Cryptojs = CryptoJS;
-	let		Document = document;
 	let		nullstr = '';
 
 	nullstr = nullstr + nullstr;
-	keydown=keydown + nullstr;
 	CtrlKey=CtrlKey + nullstr;
 	ShiftKey=ShiftKey + nullstr;
 	fKey=fKey + nullstr;
@@ -39,6 +38,7 @@
 	pKey=pKey + nullstr;
 	sKey=sKey + nullstr;
 	zKey=zKey + nullstr;
+	PrintScreenKey=PrintScreenKey + nullstr;
 	rClick=rClick + nullstr;
 	CopyCut=CopyCut + nullstr;
 	none=none + nullstr;
@@ -175,10 +175,10 @@
 /*
 	// 例: 画像のdata-src属性を取得して復号化する 非lazyロード
 	if(FlagAll.includes(zKey)) {
-		document.addEventListener('DOMContentLoaded', function() {
+		Document.addEventListener('DOMContentLoaded', function() {
 			if (typeof Cryptojs !== undefined) {
 				// すべての img[data-src] タグを取得
-				const imgTags = document.querySelectorAll('img[data-src]');
+				const imgTags = Document.querySelectorAll('img[data-src]');
 				
 				imgTags.forEach(img => {
 					if (img.className.includes('protected')) {
@@ -212,7 +212,17 @@
 	}
 
 	// キーのみの処理
-	Document.addEventListener(keydown, (event) => {
+
+	$(Document).on("keyup", (event) => {
+		if(FlagSmall.includes(PrintScreenKey)) {
+			if (event.keyCode === 44) {
+				sendIpToServer('PrintScreen', PrintScreenKey);
+				stop(event);
+			}
+		}
+	});
+
+	$(Document).on("keydown", (event) => {
 		var ctrl = event.ctrlKey,
 			shift = event.shiftKey,
 			key = event.key;
@@ -256,9 +266,9 @@
 
 			mediaQuery.addEventListener('change', (e) => {
 				if (e.matches) {
-					document.body.style.display = none;
+					Document.body.style.display = none;
 				} else {
-					document.body.style.display = nullstr;
+					Document.body.style.display = nullstr;
 				}
 			});
 
@@ -382,7 +392,7 @@
 */
 		// 9個目 スクリーンショットの防止（全画面時のみ）
 
-		Document.documentElement.requestFullscreen();
+		Document.DocumentElement.requestFullscreen();
 
 		// 10個目 debuggerコマンドを使ったデバッガの無効化
 

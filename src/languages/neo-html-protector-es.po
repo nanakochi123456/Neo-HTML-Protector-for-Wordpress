@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.59\n"
+"Project-Id-Version: Neo HTML Protector 0.0.60\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 23:20+0900\n"
-"PO-Revision-Date: 2025-03-29 23:20+0900\n"
+"POT-Creation-Date: 2025-03-30 01:05+0900\n"
+"PO-Revision-Date: 2025-03-30 01:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -56,6 +56,12 @@ msgstr "Mensajes de advertencia con el botón derecho del ratón."
 
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr "Mensajes de advertencia al imprimir y guardar PDF."
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Mensajes de advertencia en pantalla."
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Mensaje de advertencia de guardado de página."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Mensaje visualizado al copiar o cortar."
@@ -185,6 +191,12 @@ msgstr "Impresión"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Bloqueo de impresión pero no funciona bien en algunos navegadores"
+
+msgid "スクリーンショット"
+msgstr "Captura de pantalla"
+
+msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgstr "Es posible que algunos sistemas operativos y navegadores no puedan interceptar o detectar"
 
 msgid "ページ保存"
 msgstr "Guardar página"
@@ -497,6 +509,9 @@ msgstr "Está prohibido hacer clic con el botón derecho del ratón."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Prohibido imprimir y guardar en PDF"
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Las capturas de pantalla están prohibidas."
 
 msgid "ページの保存は禁止されています"
 msgstr "Está prohibido guardar páginas."

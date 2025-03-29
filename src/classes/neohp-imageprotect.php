@@ -432,13 +432,17 @@ class neohp_imageprotect {
 				if (strpos($attributes['src'], $site_url) === 0) {
 					// classを追加する
 					if (isset($attributes['class'])) {
-						$attributes['class'] .= ' protected';
+						if (strpos($attributes['class'], 'protected') === false) {
+							$attributes['class'] .= ' protected';
+						}
 					} else {
 						$attributes['class'] = 'protected';
 					}
 					// classを追加する
 					if (isset($attributes['class'])) {
-						$attributes['class'] .= ' protected';
+						if (strpos($attributes['class'], 'protected') === false) {
+							$attributes['class'] .= ' protected';
+						}
 					} else {
 						$attributes['class'] = 'protected';
 					}
@@ -512,13 +516,17 @@ class neohp_imageprotect {
 			if (strpos($attributes['src'], $site_url) === 0) {
 				// classを追加する
 				if (isset($attributes['class'])) {
-					$attributes['class'] .= ' protected';
+					if (strpos($attributes['class'], 'protected') === false) {
+						$attributes['class'] .= ' protected';
+					}
 				} else {
 					$attributes['class'] = 'protected';
 				}
 				// classを追加する
 				if (isset($attributes['class'])) {
-					$attributes['class'] .= ' protected';
+					if (strpos($attributes['class'], 'protected') === false) {
+						$attributes['class'] .= ' protected';
+					}
 				} else {
 					$attributes['class'] = 'protected';
 				}
@@ -584,13 +592,6 @@ class neohp_imageprotect {
 		if (isset($attributes['src'])) {
 			// site_urlと同一の時のみ処理する
 			if (strpos($attributes['src'], $site_url) === 0) {
-				// classを追加する
-				if (isset($attributes['class'])) {
-				//	$attributes['class'] .= ' protected';
-				} else {
-				//	$attributes['class'] = 'protected';
-				}
-
 				// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
 				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, 'sha256');
 				$attributes['data-src'] = $encoded_src;
@@ -630,13 +631,6 @@ class neohp_imageprotect {
 			if (isset($attributes['src'])) {
 				// site_urlと同一の時のみ処理する
 				if (strpos($attributes['src'], $site_url) === 0) {
-					// classを追加する
-					if (isset($attributes['class'])) {
-					//	$attributes['class'] .= ' protected';
-					} else {
-					//	$attributes['class'] = 'protected';
-					}
-
 					// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
 					$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, 'sha256');
 					$attributes['data-src'] = $encoded_src;

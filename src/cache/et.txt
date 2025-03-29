@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	1 x 1 piksline läbipaistev pilt GIF
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab SEO-d.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kui pildiandmed on kaitstud, ei tööta pildi vahemälu, mistõttu veebileht laadib järgmisel külastusel aeglasemalt, mis mõjutab SEO-d.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin tuvastatud See plugin ei tööta õigesti, kui cache plugin on lubatud.
+スクリーンショット	Ekraanipilt
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Mõned operatsioonisüsteemid ja veebilehitsejad ei pruugi olla võimelised kinni pidama või tuvastama
+スクリーンショットの警告メッセージ	Ekraanipiltide hoiatussõnumid.
+ページ保存の警告メッセージ	Lehekülje salvestamise hoiatusteade.
+スクリーンショットは禁止されています	Ekraanipildid on keelatud.

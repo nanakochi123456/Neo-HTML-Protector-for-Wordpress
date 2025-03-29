@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	Przezroczysty obraz 1 x 1 piksel w f
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Za każdym razem, gdy jest aktywowany, następuje przekierowanie, które ma wpływ na SEO
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Gdy dane obrazu są chronione, buforowanie obrazu nie działa, więc strona ładuje się wolniej przy następnej wizycie, co wpływa na SEO
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Wykryto wtyczkę pamięci podręcznej Ta wtyczka nie będzie działać poprawnie, jeśli wtyczka pamięci podręcznej jest włączona.
+スクリーンショット	Zrzut ekranu
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Niektóre systemy operacyjne i przeglądarki mogą nie być w stanie przechwycić lub wykryć
+スクリーンショットの警告メッセージ	Komunikaty ostrzegawcze na zrzutach ekranu.
+ページ保存の警告メッセージ	Komunikat ostrzegawczy dotyczący zapisywania strony.
+スクリーンショットは禁止されています	Zrzuty ekranu są zabronione.

@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	1 x 1 pixel gennemsigtigt billede i 
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Hver gang den aktiveres, sker der en omdirigering, som har indflydelse på SEO
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Når billeddata er beskyttet, fungerer billedcaching ikke, så siden indlæses langsommere ved næste besøg, hvilket påvirker SEO.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache-plugin opdaget Dette plugin vil ikke fungere korrekt, hvis cache-plugin er aktiveret.
+スクリーンショット	Skærmbillede
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Nogle operativsystemer og browsere er muligvis ikke i stand til at opfange eller registrere
+スクリーンショットの警告メッセージ	Skærmbillede af advarsler.
+ページ保存の警告メッセージ	Advarselsmeddelelse om sideopbevaring.
+スクリーンショットは禁止されています	Skærmbilleder er forbudt.

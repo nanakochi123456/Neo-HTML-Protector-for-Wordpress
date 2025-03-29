@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	1 x 1 pixeles átlátszó kép GIF f
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Amikor aktiválódik, átirányítás történik, ami hatással van a SEO-ra.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ha a képadatok védettek, a képek gyorsítótárazása nem működik, így az oldal lassabban töltődik be a következő látogatáskor, ami hatással van a SEO-ra.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin észlelve Ez a plugin nem fog megfelelően működni, ha a cache plugin engedélyezve van.
+スクリーンショット	Képernyőkép
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Egyes operációs rendszerek és böngészők esetleg nem képesek megszakítani vagy felismerni a
+スクリーンショットの警告メッセージ	Pillanatkép figyelmeztető üzenetek.
+ページ保存の警告メッセージ	Oldal mentése figyelmeztető üzenet.
+スクリーンショットは禁止されています	Képernyőképek készítése tilos.

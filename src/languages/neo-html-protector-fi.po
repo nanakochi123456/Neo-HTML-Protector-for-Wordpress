@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.59\n"
+"Project-Id-Version: Neo HTML Protector 0.0.60\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 23:20+0900\n"
-"PO-Revision-Date: 2025-03-29 23:20+0900\n"
+"POT-Creation-Date: 2025-03-30 01:05+0900\n"
+"PO-Revision-Date: 2025-03-30 01:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -56,6 +56,12 @@ msgstr "Napsauta varoitusviestejä hiiren kakkospainikkeella."
 
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr "Varoitusviestit PDF-tiedostojen tulostamisessa ja tallentamisessa."
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Varoitusviestit kuvakaappauksella."
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Sivun tallennuksen varoitusviesti."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Näytetään viesti kopioinnin tai leikkaamisen aikana."
@@ -185,6 +191,12 @@ msgstr "Tulostus"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Tulostuksen esto, mutta ei toimi hyvin joissakin selaimissa."
+
+msgid "スクリーンショット"
+msgstr "Kuvakaappaus"
+
+msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgstr "Jotkin käyttöjärjestelmät ja selaimet eivät ehkä pysty estämään tai havaitsemaan"
 
 msgid "ページ保存"
 msgstr "Sivun tallentaminen"
@@ -497,6 +509,9 @@ msgstr "Napsauttaminen hiiren kakkospainikkeella on kielletty."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Tulostaminen ja tallentaminen PDF-muodossa on kielletty"
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Kuvakaappaukset ovat kiellettyjä."
 
 msgid "ページの保存は禁止されています"
 msgstr "Sivujen tallentaminen on kielletty."

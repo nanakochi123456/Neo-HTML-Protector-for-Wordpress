@@ -51,6 +51,17 @@ $neohp_printout_default =
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
+$neohp_printscreen_default =
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('スクリーンショットは禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
+		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
+		, 'URL: $URL'
+		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('リダイレクトをします', 'neo-html-protector')
+	);
+
 $neohp_save_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
 		, __('ページの保存は禁止されています', 'neo-html-protector')

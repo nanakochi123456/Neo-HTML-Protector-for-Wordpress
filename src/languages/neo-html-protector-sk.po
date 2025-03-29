@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.59\n"
+"Project-Id-Version: Neo HTML Protector 0.0.60\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 23:20+0900\n"
-"PO-Revision-Date: 2025-03-29 23:21+0900\n"
+"POT-Creation-Date: 2025-03-30 01:05+0900\n"
+"PO-Revision-Date: 2025-03-30 01:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -56,6 +56,12 @@ msgstr "Výstražné správy kliknutím pravým tlačidlom myši."
 
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr "Upozornenia pri tlači a ukladaní súborov PDF."
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Upozornenia na obrazovke."
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Varovná správa o uložení stránky."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Správa zobrazená pri kopírovaní alebo rezaní."
@@ -185,6 +191,12 @@ msgstr "Tlač"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Blokovanie tlače, ale v niektorých prehliadačoch nefunguje dobre"
+
+msgid "スクリーンショット"
+msgstr "Snímka obrazovky"
+
+msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgstr "Niektoré operačné systémy a prehliadače nemusia byť schopné zachytiť alebo zistiť"
 
 msgid "ページ保存"
 msgstr "Uložiť stránku"
@@ -497,6 +509,9 @@ msgstr "Kliknutie pravým tlačidlom myši je zakázané."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Tlač a ukladanie do PDF je zakázané"
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Snímky obrazovky sú zakázané."
 
 msgid "ページの保存は禁止されています"
 msgstr "Ukladanie stránok je zakázané."

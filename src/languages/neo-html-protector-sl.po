@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.59\n"
+"Project-Id-Version: Neo HTML Protector 0.0.60\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 23:20+0900\n"
-"PO-Revision-Date: 2025-03-29 23:21+0900\n"
+"POT-Creation-Date: 2025-03-30 01:05+0900\n"
+"PO-Revision-Date: 2025-03-30 01:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -56,6 +56,12 @@ msgstr "Opozorilna sporočila z desnim klikom."
 
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr "Opozorilna sporočila za tiskanje in shranjevanje datotek PDF."
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Zaslonska opozorilna sporočila."
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Opozorilno sporočilo o shranjevanju strani."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Pri kopiranju ali rezanju se prikaže sporočilo."
@@ -185,6 +191,12 @@ msgstr "Tiskanje"
 
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr "Blokiranje tiskanja, vendar v nekaterih brskalnikih ne deluje dobro"
+
+msgid "スクリーンショット"
+msgstr "Posnetek zaslona"
+
+msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgstr "Nekateri operacijski sistemi in brskalniki morda ne bodo mogli prestreči ali odkriti"
 
 msgid "ページ保存"
 msgstr "Shranjevanje strani"
@@ -497,6 +509,9 @@ msgstr "Klikanje z desno tipko miške je prepovedano."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Tiskanje in shranjevanje v PDF je prepovedano."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Posnetki zaslona so prepovedani."
 
 msgid "ページの保存は禁止されています"
 msgstr "Shranjevanje strani je prepovedano."

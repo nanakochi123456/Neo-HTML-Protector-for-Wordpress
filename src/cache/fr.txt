@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Chaque fois qu'il est activé, une redirection se produit, ce qui a un impact sur le référencement.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lorsque les données des images sont protégées, la mise en cache des images ne fonctionne pas, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui affecte le référencement.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin de cache détecté Ce plugin ne fonctionnera pas correctement si le plugin de cache est activé.
+スクリーンショット	Capture d'écran
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Certains systèmes d'exploitation et navigateurs peuvent ne pas être en mesure d'intercepter ou de détecter les
+スクリーンショットの警告メッセージ	Capture d'écran des messages d'avertissement.
+ページ保存の警告メッセージ	Message d'avertissement concernant l'enregistrement de la page.
+スクリーンショットは禁止されています	Les captures d'écran sont interdites.

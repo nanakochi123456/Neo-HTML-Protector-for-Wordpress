@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	GIF formatında 1 x 1 piksel şeffaf
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Her etkinleştirildiğinde, SEO üzerinde etkisi olan bir yönlendirme gerçekleşir
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Görüntü verileri korunduğunda, görüntü önbelleğe alma çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'yu etkiler
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Önbellek eklentisi algılandı Önbellek eklentisi etkinse bu eklenti düzgün çalışmayacaktır.
+スクリーンショット	Ekran görüntüsü
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Bazı işletim sistemleri ve tarayıcılar aşağıdakileri engelleyemeyebilir veya tespit edemeyebilir
+スクリーンショットの警告メッセージ	Ekran görüntüsü uyarı mesajları.
+ページ保存の警告メッセージ	Sayfa kaydetme uyarı mesajı.
+スクリーンショットは禁止されています	Ekran görüntüleri yasaktır.

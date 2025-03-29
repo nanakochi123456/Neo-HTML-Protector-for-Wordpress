@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	1 x 1 pikselin läpinäkyvä kuva GI
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka vaikuttaa SEO:hon.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kun kuvatiedot on suojattu, kuvien välimuistitallennus ei toimi, joten sivusto latautuu hitaammin seuraavalla vierailulla, mikä vaikuttaa hakukoneoptimointiin.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Välimuistilaajennus havaittu Tämä lisäosa ei toimi oikein, jos välimuistilaajennus on käytössä.
+スクリーンショット	Kuvakaappaus
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Jotkin käyttöjärjestelmät ja selaimet eivät ehkä pysty estämään tai havaitsemaan
+スクリーンショットの警告メッセージ	Varoitusviestit kuvakaappauksella.
+ページ保存の警告メッセージ	Sivun tallennuksen varoitusviesti.
+スクリーンショットは禁止されています	Kuvakaappaukset ovat kiellettyjä.

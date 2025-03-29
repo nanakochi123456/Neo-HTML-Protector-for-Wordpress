@@ -93,6 +93,11 @@ class neohp_jskeyajax {
 $value=$neohp_rightclick_default;
 		}
 
+		// PrintScreen
+		if (strpos($key, 'PrintScreen') !== false	) {
+			$value = get_option('neohp_printscreen_message', $neohp_printscreen_default);
+		}
+
 
 		$value = str_replace('$IP', $user_ip, $value);
 		$value = str_replace('$URL', $url, $value);

@@ -205,3 +205,8 @@ GIF形式で1×1ピクセルの透過画像	Průhledný obrázek 1 x 1 pixel ve 
 有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Pokaždé, když je aktivována, dojde k přesměrování, které má vliv na SEO.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Pokud jsou data obrázků chráněna, nefunguje ukládání obrázků do mezipaměti, takže se web při další návštěvě načítá pomaleji, což ovlivňuje SEO.
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zjištěn zásuvný modul mezipaměti Tento zásuvný modul nebude fungovat správně, pokud je povolen zásuvný modul mezipaměti.
+スクリーンショット	Snímek obrazovky
+OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Některé operační systémy a prohlížeče nemusí být schopny zachytit nebo detekovat
+スクリーンショットの警告メッセージ	Výstražné zprávy na obrazovce.
+ページ保存の警告メッセージ	Varovná zpráva o uložení stránky.
+スクリーンショットは禁止されています	Snímky obrazovky jsou zakázány.
