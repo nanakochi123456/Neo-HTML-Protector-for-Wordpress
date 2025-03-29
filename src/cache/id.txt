@@ -4,10 +4,10 @@ IPアドレスログ	Catatan alamat IP
 全クリア	Semua aman.
 IPログが全て削除されました	Semua log IP telah dihapus.
 ID	ID
+タイムスタンプ	Stempel waktu
 IPアドレス	Alamat IP
 ユーザーエージェント	Agen Pengguna
 イベント	Acara
-日時	Tanggal dan waktu
 IPアドレスのデータはありません	Tidak ada data alamat IP yang tersedia.
 デバッグモード、コンソールの警告メッセージ	Mode debug, pesan peringatan konsol.
 右クリックの警告メッセージ	Klik kanan pesan peringatan.
@@ -16,193 +16,74 @@ IPアドレスのデータはありません	Tidak ada data alamat IP yang terse
 HTMLソース表示時に表示するメッセージ	Pesan yang akan ditampilkan saat menampilkan sumber HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Pesan yang akan ditampilkan di awal sumber ketika HTML dikaburkan dan diproteksi.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Pesan yang ditampilkan jika token autentikasi satu kali tidak normal selama perlindungan HTML.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Pesan yang ditampilkan jika cookie dan Javascript tidak diaktifkan.
+実際にはJavascriptが無効時のみ表示されます	Dalam praktiknya, ini hanya terlihat ketika Javascript dinonaktifkan.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Pesan yang ditampilkan pada gambar ketika gambar diunduh dan gambar dilindungi hanya dalam bahasa Inggris
 HTML難読化 (圧縮)	Pengaburan HTML
 無効	Tidak valid
 有効	Validitas
-HTML保護	Perlindungan HTML
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO
-デバッグモード	Mode debug
-妨害＋記録のみ	Gangguan + rekam saja.
-妨害＋記録＋表示＋リダイレクト	Cegat + rekam + tampilkan + alihkan
-ブラウザーコンソール	Konsol browser
-HTMLソース表示	Tampilan sumber HTML
-印刷	Pencetakan
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser
-右クリック	Klik kanan
-コピー・カット	Salin-potong
-テキスト選択	Pemilihan teks
-デバッガー妨害	Gangguan debugger
-妨害	Gangguan
-リダイレクトするURL	URL untuk dialihkan ke
-HTML保護時のHEADタグの出力	Output dari tag HEAD selama perlindungan HTML
-出力しない	Tidak ada output
-TITLEタグのみ	Hanya tag JUDUL
-WordpressのHEADタグより取得	Diambil dari tag HEAD di Wordpress
-HTML保護時の一度限りのトークンのチェック	Pemeriksaan token satu kali selama perlindungan HTML.
-基本設定	Pengaturan dasar
-高度な設定	Pengaturan lanjutan
-メッセージの設定	Pengaturan pesan
-右クリックやソースコード表示時に転送する URL を設定します	Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode sumber.
-警告メッセージにはHTMLは使用できません	HTML tidak dapat digunakan untuk pesan peringatan
-以下の文字列が使用できます	String berikut ini dapat digunakan
-改行	Baris baru
-押下されたキー	Tombol yang ditekan
-Neo HTML Protector 設定	Pengaturan Neo HTML Protector
-初期設定に戻す	Mengatur ulang ke default
-このプラグインについて	Tentang plugin ini.
-Neo HTML Protectorについて	Tentang Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah!
-開発者: 夜桜　なの	Pengembang: Nanoh Yozakura
-バージョン	Versi
-サポートページ	Halaman dukungan
-支援のお願い	Permintaan bantuan.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Terima kasih telah menggunakan Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Banyak waktu dan kebijaksanaan telah dicurahkan untuk pengembangan dan pemeliharaan plugin ini, dan kami akan berterima kasih atas donasi, jika ada, untuk membantu kami menggalang dana guna perbaikan dan pembaruan yang berkelanjutan.
-寄付について	Tentang donasi
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga plugin ini dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Dengan dukungan Anda, kami akan melakukan yang terbaik untuk menghadirkan pembaruan yang hebat di masa depan!
-寄付先	Donor
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang.
-デバッグモード、コンソールの起動は禁止されています	Mode debug dan aktivasi konsol dilarang
-以下の情報がサーバーに送信されました	Informasi berikut ini telah dikirim ke server
-あなたのIPアドレス	Alamat IP Anda.
-あなたの端末とブラウザ	Perangkat dan browser Anda
-あなたの押下したキー	Tombol yang Anda tekan.
-リダイレクトをします	Pengalihan.
-右クリックは禁止されています	Dilarang mengklik kanan.
-印刷、PDFへの保存は禁止されています	Dilarang mencetak dan menyimpan ke PDF
-コピー、カットは禁止されています	Dilarang menyalin atau memotong.
-あなたが起こしたイベント	Peristiwa yang Anda sebabkan.
-HTMLソース表示は禁止されています	Dilarang menampilkan sumber HTML.
-不正アクセスは禁止されています	Dilarang mengakses tanpa izin.
-画像が見つかりません	Gambar tidak ditemukan.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Untuk menghapus semua data, hapus instalan pengaya, lalu instal ulang
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	
-Miss. 裏まにら氏歌唱	Nona. dinyanyikan oleh Mr Uramanira
-タイムスタンプ	Stempel waktu
-alertメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan peringatan.
-Wordpressの言語 / カスタム設定されたメッセージ	Bahasa Wordpress / pesan yang dikonfigurasi khusus
-ブラウザの設定言語	Bahasa pengaturan browser
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Mengubah pengaturan dari default akan menonaktifkan pesan khusus
-view-sourceメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan sumber tampilan.
-アラビア語	Bahasa Arab
-ブルガリア語	Bahasa Bulgaria
-ドイツ語	Bahasa Jerman
-現代ギリシア語	Bahasa Yunani modern
-英語	Bahasa Inggris
-アメリカ英語	Bahasa Inggris Amerika
-ハンガリー語	Hongaria
-インドネシア語	Bahasa Indonesia
-イタリア語	Bahasa Italia
-日本語	Bahasa Jepang
-リトアニア語	Lithuania
-ノルウェー語	Bahasa Norwegia
-ポルトガリア語	Bahasa Portugis
-ヨーロピアンポルトガル語	Bahasa Portugis Eropa
-ルーマニア語	Bahasa Rumania
-ロシア語	Bahasa Rusia
-スロバキア語	Slowakia
-スロベニア語	Bahasa Slovenia
-スウェーデン語	Bahasa Swedia
-トルコ語	Bahasa Turki
-ウクライナ語	Ukraina
-繁体中国語	Bahasa Tionghoa tradisional
-チェコ語	Ceko
-デンマーク語	Bahasa Denmark
-イギリス英語	Bahasa Inggris Inggris
-スペイン語	Bahasa Spanyol
-エストニア語	Bahasa Estonia
-フィンランド語	Bahasa Finlandia
-フランス語	Bahasa Prancis
-朝鮮語	Bahasa Korea
-ラトビア語	Bahasa Latvia
-オランダ語	Bahasa Belanda
-ポーランド語	Bahasa Polandia
-ブラジルポルトガル語	Portugis Brasil
-中国語	Bahasa Mandarin
-簡体中国語	Bahasa Mandarin yang disederhanakan
-Wordpressの言語	Bahasa Wordpress.
-メッセージをカスタム設定されている場合は言語を変更できません	Bahasa tidak dapat diubah jika pesan disesuaikan
-view-source:の動作をされた時の記録もします	Ini juga mencatat kapan tindakan view-source: diambil.
-HTMLのコメントタグを使用	Gunakan tag komentar HTML.
-INPUT TYPE=HIDDEN タグを使用	JENIS MASUKAN = TERSEMBUNYIKAN Gunakan tag.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jika diatur pada layar ini, pengaturan bahasa di tab pengaturan lanjutan akan diabaikan
-META NAME=ALERT タグを使用	Gunakan tag META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	Keluaran dari tag HEAD selama pengaburan dan perlindungan HTML
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML.
-フォント	Font
-なし	Tanpa
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Hanya kata PERINGATAN yang ditampilkan. Silakan periksa dengan melihat sumbernya di browser yang tidak masuk.
-ページの保存は禁止されています	Dilarang menyimpan halaman.
-ページ保存	Simpan halaman
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Periksa dengan melihat sumbernya di peramban yang tidak masuk.
-メニューからは操作できてしまいます	Ini dapat dioperasikan dari menu.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Membuat mode debug sedikit kurang ramah pengguna, beberapa browser menghentikan perilaku ini
-利用規約などのページに転送すると良いでしょう	Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Untuk penggunaan korporat, seperti halaman khusus anggota atau internal, 'tidak ada output' atau 'tag TITLE saja' tidak masalah.
 一般的なHTML圧縮です、難読化解除のサイトもあります	Kompresi HTML umum, beberapa situs memiliki de-obfuscation.
+HTML保護	Perlindungan HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Hanya HTML minimal yang dihasilkan di luar kompresi HTML, dan konten dalam tag BODY tidak dihasilkan sama sekali.
-事実上デバッグモードから操作できてしまいます	Efeknya, Anda dapat mengoperasikan dari mode debug.
-あまりこのイベントに遭遇することはありません	Kami tidak terlalu sering menjumpai peristiwa ini.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Periksa dengan melihat sumbernya di peramban yang tidak masuk
-view-source:から始まるURLを入力すれば操作できてしまいます	Ini dapat dioperasikan dengan memasukkan URL yang dimulai dengan view-source:.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali jika diambil dari tag HEAD Wordpress
-アドオンがインストールされていると操作できてしまいます	Ini dapat dioperasikan jika add-on diinstal.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Menghindari bot gambar melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar
-画像botをアクセス禁止にする	Melarang bot gambar.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Konten tidak dapat dilindungi dengan sempurna. Namun, dengan memperingatkan mereka dengan segala cara yang memungkinkan dan bersiap-siap jika sesuatu terjadi, Anda seharusnya dapat menyelesaikannya dengan cara yang ditentukan secara nasional.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tentu saja, Anda perlu meningkatkan persyaratan penggunaan dan kebijakan situs Anda. Plugin ini bukanlah aplikasi pembuat ketentuan penggunaan, tetapi dapat memberikan Anda petunjuk.
-ソース表示を許可する権限	Otoritas untuk mengizinkan tampilan sumber.
-ADMINログイン時のみ通常のソース出力	Keluaran sumber normal hanya saat login ADMIN
-USERログインで通常のソース出力	Output sumber normal dengan login PENGGUNA
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Pilih apakah output HTML normal hanya untuk administrator atau login pengguna
-ビルド	Membangun
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar.
-無効なIPアドレス	Alamat IP tidak valid.
-無効なユーザーエイジェント	Agen pengguna tidak valid.
+view-source:の動作をされた時の記録もします	Ini juga mencatat kapan tindakan view-source: diambil.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO
 若干デザインが変わる可能性があります	Desain mungkin sedikit berubah.
-画像をダウンロードから保護します	Melindungi gambar agar tidak diunduh.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kapan pun Anda mengaktifkannya, JavaScript dimuat sebelum gambar dimuat, sehingga SEO dapat menurun
 画像の保護	Perlindungan gambar.
-画像URLのみ保護	Hanya URL gambar yang dilindungi.
-画像データも保護	Data gambar juga dilindungi
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache gambar tidak berfungsi ketika data gambar juga dilindungi, sehingga situs dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO
-画像は遅延読み込みをします	Gambar tertunda pemuatannya.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Bila Anda juga ingin melindungi data gambar Anda, Anda dapat menempatkan pembatasan di /wp-contents/uploads dengan file .htaccess.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ketika hanya URL gambar yang diproteksi, gambar akan melakukan pemuatan yang tertunda, jika tidak, default yang ditetapkan oleh Wordpress akan digunakan
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Apabila data gambar juga dilindungi, basis data dapat menjadi kelebihan beban
-CookieやJavascriptが有効でない場合に表示するメッセージ	Pesan yang ditampilkan jika cookie dan Javascript tidak diaktifkan.
-実際にはJavascriptが無効時のみ表示されます	Dalam praktiknya, ini hanya terlihat ketika Javascript dinonaktifkan.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Data gambar juga mencegah pengunduhan yang hampir selesai saat diproteksi, mengeluarkan URL satu kali yang lengkap, mengautentikasi dengan token yang tersimpan di sesi dan menampilkan gambar dari php, sehingga mencegah pencurian gambar yang hampir selesai.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kapan pun Anda mengaktifkan proteksi khusus URL gambar, JavaScript selalu dimuat sebelum gambar dimuat, sehingga SEO mungkin akan terganggu!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan ketika sumber HTML ditampilkan.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ketika hanya URL gambar yang dilindungi, hanya URL gambar yang dilindungi, transfer gambar yang sebenarnya didekripsi oleh JavaScript dan gambar ditampilkan dengan cara yang umum.
-画像を保護	Perlindungan gambar.
+add_filterを使用して画像を保護	Melindungi gambar menggunakan add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Menangkap dan melindungi gambar di antara wp_head dan wp_footer
+画像をダウンロードから保護します	Melindungi gambar agar tidak diunduh.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Hampir sepenuhnya mencegah pengunduhan ketika data gambar diproteksi, mengeluarkan URL satu kali yang lengkap, mengautentikasi dengan token yang tersimpan dalam sesi dan menampilkan gambar dari php, sehingga hampir sepenuhnya mencegah pencurian gambar.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching gambar tidak berfungsi ketika data gambar dilindungi, sehingga situs akan dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Beban basis data mungkin lebih tinggi ketika data gambar dilindungi
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Pesan yang ditampilkan pada gambar ketika gambar diunduh dan gambar dilindungi hanya dalam bahasa Inggris
-add_filterを使用して画像を保護	Melindungi gambar menggunakan add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Menangkap dan melindungi gambar di antara wp_head dan wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode yang menggunakan add_filter menyaring tag img saat dipublikasikan, sedangkan metode yang menggunakan wp_head ke wp_footer memproses semua tag img di dalam konten.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan.
 OS標準搭載のスクリーンショット機能を保護することはできません	Fungsi tangkapan layar OS standar tidak dapat diproteksi
-一時使用トークンのビット数	Jumlah bit dalam token penggunaan sementara
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token penggunaan sementara digunakan sebagai kata sandi, tetapi tentukan kekuatannya
-ハッシュ化アルゴリズム	Algoritma hashing
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi, tetapi harus di-hash; atur kekuatan hashing.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat
 画像URLの保護	Perlindungan URL gambar
 即時読み込みをして有効	Efektif dengan pemuatan langsung.
 遅延読み込みをして有効	Diaktifkan dengan pemuatan tertunda.
 画像の保護と組み合わせて使用します、単体では意味がありません	Digunakan dalam kombinasi dengan perlindungan gambar, ini tidak berarti jika berdiri sendiri.
 JavaScriptにより動的に読まれますのでSEOに影響があります	Ini dibaca secara dinamis oleh JavaScript, yang mempengaruhi SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML.
+表示なし	Tidak ada indikasi
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan ketika sumber HTML ditampilkan.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Periksa dengan melihat sumbernya di peramban yang tidak masuk
+デバッグモード	Mode debug
+妨害＋記録のみ	Gangguan + rekam saja.
+妨害＋記録＋表示＋リダイレクト	Cegat + rekam + tampilkan + alihkan
+メニューからは操作できてしまいます	Ini dapat dioperasikan dari menu.
+ブラウザーコンソール	Konsol browser
+事実上デバッグモードから操作できてしまいます	Efeknya, Anda dapat mengoperasikan dari mode debug.
+HTMLソース表示	Tampilan sumber HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Ini dapat dioperasikan dengan memasukkan URL yang dimulai dengan view-source:.
+印刷	Pencetakan
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser
+ページ保存	Simpan halaman
+右クリック	Klik kanan
+アドオンがインストールされていると操作できてしまいます	Ini dapat dioperasikan jika add-on diinstal.
+コピー・カット	Salin-potong
+あまりこのイベントに遭遇することはありません	Kami tidak terlalu sering menjumpai peristiwa ini.
+テキスト選択	Pemilihan teks
+デバッガー妨害	Gangguan debugger
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Membuat mode debug sedikit kurang ramah pengguna, beberapa browser menghentikan perilaku ini
+リダイレクトするURL	URL untuk dialihkan ke
+利用規約などのページに転送すると良いでしょう	Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan.
+ソース表示を許可する権限	Otoritas untuk mengizinkan tampilan sumber.
+ADMINログイン時のみ通常のソース出力	Keluaran sumber normal hanya saat login ADMIN
+USERログインで通常のソース出力	Output sumber normal dengan login PENGGUNA
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pilih apakah output HTML normal hanya untuk administrator atau login pengguna
+HTML保護時のHEADタグの出力	Output dari tag HEAD selama perlindungan HTML
+出力しない	Tidak ada output
+TITLEタグのみ	Hanya tag JUDUL
+WordpressのHEADタグより取得	Diambil dari tag HEAD di Wordpress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Untuk penggunaan korporat, seperti halaman khusus anggota atau internal, 'tidak ada output' atau 'tag TITLE saja' tidak masalah.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali jika diambil dari tag HEAD Wordpress
+画像botをアクセス禁止にする	Melarang bot gambar.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar.
+alertメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan peringatan.
+Wordpressの言語	Bahasa Wordpress.
+ブラウザの設定言語	Bahasa pengaturan browser
+メッセージをカスタム設定されている場合は言語を変更できません	Bahasa tidak dapat diubah jika pesan disesuaikan
+view-sourceメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan sumber tampilan.
 一時使用トークンの有効期限	Tanggal kedaluwarsa token penggunaan sementara.
 1分	Satu menit
 2分	2 menit
@@ -226,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Ini
 1時間	1 jam
 画像URL情報の有効期限を設定します	Menetapkan tanggal kedaluwarsa informasi URL gambar.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Setelah dimuat, informasi URL gambar dan token penggunaan sementara dinonaktifkan
+一時使用トークンのビット数	Jumlah bit dalam token penggunaan sementara
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat
+ハッシュ化アルゴリズム	Algoritma hashing
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.
+基本設定	Pengaturan dasar
+高度な設定	Pengaturan lanjutan
+初期設定に戻す	Mengatur ulang ke default
+メッセージの設定	Pengaturan pesan
+右クリックやソースコード表示時に転送する URL を設定します	Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode sumber.
+警告メッセージにはHTMLは使用できません	HTML tidak dapat digunakan untuk pesan peringatan
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jika diatur pada layar ini, pengaturan bahasa di tab pengaturan lanjutan akan diabaikan
+以下の文字列が使用できます	String berikut ini dapat digunakan
+改行	Baris baru
+押下されたキー	Tombol yang ditekan
+Neo HTML Protector 設定	Pengaturan Neo HTML Protector
+このプラグインについて	Tentang plugin ini.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Untuk menghapus semua data, hapus instalan pengaya, lalu instal ulang
+Neo HTML Protectorについて	Tentang Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Konten tidak dapat dilindungi dengan sempurna. Namun, dengan memperingatkan mereka dengan segala cara yang memungkinkan dan bersiap-siap jika sesuatu terjadi, Anda seharusnya dapat menyelesaikannya dengan cara yang ditentukan secara nasional.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tentu saja, Anda perlu meningkatkan persyaratan penggunaan dan kebijakan situs Anda. Plugin ini bukanlah aplikasi pembuat ketentuan penggunaan, tetapi dapat memberikan Anda petunjuk.
+開発者: 夜桜　なの	Pengembang: Nano Yozakura
+バージョン	Versi
+ビルド	Membangun
+サポートページ	Halaman dukungan
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Nona. dinyanyikan oleh Mr Uramanira
+支援のお願い	Permintaan bantuan.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Terima kasih telah menggunakan Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Banyak waktu dan kebijaksanaan telah dicurahkan untuk pengembangan dan pemeliharaan plugin ini, dan kami akan berterima kasih atas donasi, jika ada, untuk membantu kami menggalang dana guna perbaikan dan pembaruan yang berkelanjutan.
+寄付について	Tentang donasi
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon.
+寄付先	Donor
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Dengan dukungan Anda, kami akan melakukan yang terbaik untuk menghadirkan pembaruan yang hebat di masa depan!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang.
+無効なIPアドレス	Alamat IP tidak valid.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan
+デバッグモード、コンソールの起動は禁止されています	Mode debug dan aktivasi konsol dilarang
+以下の情報がサーバーに送信されました	Informasi berikut ini telah dikirim ke server
+あなたのIPアドレス	Alamat IP Anda.
+あなたの端末とブラウザ	Perangkat dan browser Anda
+あなたの押下したキー	Tombol yang Anda tekan.
+リダイレクトをします	Pengalihan.
+右クリックは禁止されています	Dilarang mengklik kanan.
+印刷、PDFへの保存は禁止されています	Dilarang mencetak dan menyimpan ke PDF
+ページの保存は禁止されています	Dilarang menyimpan halaman.
+コピー、カットは禁止されています	Dilarang menyalin atau memotong.
+あなたが起こしたイベント	Peristiwa yang Anda sebabkan.
+HTMLソース表示は禁止されています	Dilarang menampilkan sumber HTML.
+不正アクセスは禁止されています	Dilarang mengakses tanpa izin.
+アラビア語	Bahasa Arab
+ブルガリア語	Bahasa Bulgaria
+チェコ語	Ceko
+デンマーク語	Bahasa Denmark
+ドイツ語	Bahasa Jerman
+現代ギリシア語	Bahasa Yunani modern
+英語	Bahasa Inggris
+イギリス英語	Bahasa Inggris Inggris
+アメリカ英語	Bahasa Inggris Amerika
+スペイン語	Bahasa Spanyol
+エストニア語	Bahasa Estonia
+フィンランド語	Bahasa Finlandia
+フランス語	Bahasa Prancis
+ハンガリー語	Hongaria
+インドネシア語	Bahasa Indonesia
+イタリア語	Bahasa Italia
+日本語	Bahasa Jepang
+朝鮮語	Bahasa Korea
+リトアニア語	Lithuania
+ラトビア語	Bahasa Latvia
+ノルウェー語	Bahasa Norwegia
+オランダ語	Bahasa Belanda
+ポーランド語	Bahasa Polandia
+ポルトガリア語	Bahasa Portugis
+ブラジルポルトガル語	Portugis Brasil
+ヨーロピアンポルトガル語	Bahasa Portugis Eropa
+ルーマニア語	Bahasa Rumania
+ロシア語	Bahasa Rusia
+スロバキア語	Slowakia
+スロベニア語	Bahasa Slovenia
+スウェーデン語	Bahasa Swedia
+トルコ語	Bahasa Turki
+ウクライナ語	Ukraina
+中国語	Bahasa Mandarin
+簡体中国語	Bahasa Mandarin yang disederhanakan
+繁体中国語	Bahasa Tionghoa tradisional
+画像が見つかりません	Gambar tidak ditemukan.

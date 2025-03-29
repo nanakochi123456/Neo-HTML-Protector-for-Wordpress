@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -153,8 +153,8 @@ msgstr "它是由 JavaScript 動態讀取的，這會影響 SEO。"
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保護過程中，輸出 HTML 原始碼中的 ASCII 藝術。"
 
-msgid "なし"
-msgstr "橆"
+msgid "表示なし"
+msgstr "無指示"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "當顯示 HTML 原始碼時，顯示 ASCII 文字表示警告的意圖。"
@@ -217,7 +217,7 @@ msgid "デバッグモードの使い勝手を少し悪くします、ブラウ�
 msgstr "使調試模式對使用者較不友善，有些瀏覽器會停止此行為"
 
 msgid "リダイレクトするURL"
-msgstr "要重定向到的 URL。"
+msgstr "要重定向到的 URL"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "您可能想要將他們轉寄到使用條款等頁面。"

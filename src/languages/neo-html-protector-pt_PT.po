@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -153,8 +153,8 @@ msgstr "É lido dinamicamente pelo JavaScript, o que afecta a SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML."
 
-msgid "なし"
-msgstr "Sem"
+msgid "表示なし"
+msgstr "Sem indicação"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Mostrar arte ASCII indicando a intenção de avisar quando a fonte HTML é apresentada."
@@ -223,7 +223,7 @@ msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Poderá querer reencaminhá-los para páginas como as Condições de utilização."
 
 msgid "ソース表示を許可する権限"
-msgstr "Autoridade para autorizar a visualização da fonte."
+msgstr "Autoridade para permitir a visualização da fonte."
 
 msgid "ADMINログイン時のみ通常のソース出力"
 msgstr "Saída de fonte normal apenas no login de ADMIN"
@@ -439,7 +439,7 @@ msgid "寄付について"
 msgstr "Sobre os donativos"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Os donativos são voluntários e não obrigatórios. Está aberto a toda a gente para que o plugin possa ser utilizado gratuitamente. No entanto, o seu apoio é muito apreciado para continuar o desenvolvimento e teremos todo o gosto em ajudar no que pudermos."
+msgstr "Os donativos são voluntários e não obrigatórios. Está aberto a todos para que o plugin possa ser utilizado gratuitamente. No entanto, o seu apoio é muito apreciado para continuar o desenvolvimento e teremos todo o gosto em ajudar no que pudermos."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Os donativos podem ser feitos através da ligação abaixo. Se for do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar utilizando vales de oferta da Amazon."

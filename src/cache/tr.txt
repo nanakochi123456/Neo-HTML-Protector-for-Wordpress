@@ -16,189 +16,74 @@ IPアドレスのデータはありません	IP adresi verisi mevcut değil.
 HTMLソース表示時に表示するメッセージ	HTML kaynağı görüntülenirken görüntülenecek mesaj
 HTML難読化・保護時にソースの先頭に表示するメッセージ	HTML gizlendiğinde ve korunduğunda kaynağın başında görüntülenecek mesaj.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	HTML koruması sırasında tek seferlik kimlik doğrulama belirteci anormalse görüntülenen mesaj.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Çerezler ve Javascript etkinleştirilmemişse görüntülenen mesaj.
+実際にはJavascriptが無効時のみ表示されます	Pratikte, bu yalnızca Javascript devre dışı bırakıldığında görülebilir.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Görüntü indirildiğinde ve görüntü korumalı olduğunda görüntü üzerinde görüntülenen mesaj Yalnızca İngilizce
 HTML難読化 (圧縮)	HTML gizleme
 無効	Geçersiz
 有効	Geçerlilik
-HTML保護	HTML Koruması
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Her etkinleştirildiğinde, SEO'da düşüşe neden olabilecek bir yönlendirme olur
-デバッグモード	Hata ayıklama modu
-妨害＋記録のみ	Sadece müdahale + kayıt.
-妨害＋記録＋表示＋リダイレクト	Yakalama + kayıt + görüntüleme + yönlendirme
-ブラウザーコンソール	Tarayıcı konsolu
-HTMLソース表示	HTML kaynak gösterimi
-印刷	Baskı
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Baskı engelleme ancak bazı tarayıcılarda iyi çalışmıyor
-右クリック	Sağ tıklayın
-コピー・カット	Kopyala-kes
-テキスト選択	Metin seçimi
-デバッガー妨害	Hata ayıklayıcı müdahalesi
-リダイレクトするURL	Yönlendirilecek URL
-HTML保護時のHEADタグの出力	HTML koruması sırasında HEAD etiketlerinin çıktısı
-出力しない	Çıktı yok
-TITLEタグのみ	Yalnızca TITLE etiketi
-WordpressのHEADタグより取得	Wordpress'teki HEAD etiketinden alındı
-HTML保護時の一度限りのトークンのチェック	HTML koruması sırasında tek seferlik token kontrolleri.
-基本設定	Temel ayar
-高度な設定	Gelişmiş ayarlar
-初期設定に戻す	Varsayılana sıfırlama
-メッセージの設定	Mesaj ayarları
-右クリックやソースコード表示時に転送する URL を設定します	Sağ tıklandığında veya kaynak kodu görüntülendiğinde iletilecek URL'yi ayarlayın.
-警告メッセージにはHTMLは使用できません	Uyarı mesajları için HTML kullanılamaz
-以下の文字列が使用できます	Aşağıdaki dizeler kullanılabilir
-改行	Yeni hat
-押下されたキー	Basılan tuş
-Neo HTML Protector 設定	Neo HTML Koruyucu Ayarları
-このプラグインについて	Bu eklenti hakkında.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Tüm verileri temizlemek için eklentiyi kaldırın ve ardından yeniden yükleyin
-Neo HTML Protectorについて	Neo HTML Protector Hakkında
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Bu eklenti, Wordpress'inizin HTML, resim vb. çıktılarını korumayı ve içeriğinin izinsiz kullanımından korumayı amaçlamaktadır!
-開発者: 夜桜　なの	Geliştirici: Nano Yozakura
-バージョン	Versiyon
-サポートページ	Destek sayfası
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Bayan. Bay Uramanira tarafından söylendi
-支援のお願い	Yardım talebi.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector kullandığınız için teşekkür ederiz!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Bu eklentinin geliştirilmesi ve bakımı için çok fazla zaman ve bilgelik harcandı ve eğer varsa, sürekli iyileştirmeler ve güncellemeler için fon toplamamıza yardımcı olacak bağışlar için minnettar oluruz.
-寄付について	Bağışlar hakkında
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Bağışlar gönüllülük esasına dayanır ve zorunlu değildir. Eklentinin ücretsiz olarak kullanılabilmesi için herkese açıktır. Bununla birlikte, geliştirmeye devam etmek için desteğiniz çok takdir edilmektedir ve elimizden gelen her şekilde yardımcı olmaktan mutluluk duyarız.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Bağışlar aşağıdaki link üzerinden yapılabilir. Japonya'dan geliyorsanız, ücretsiz bağış yapabilir ve ayrıca Amazon hediye çeklerini kullanarak kolayca bağışta bulunabilirsiniz.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Desteğinizle, gelecekte size harika güncellemeler sunmak için elimizden geleni yapacağız!
-寄付先	Donör
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalışmayı dört gözle bekliyoruz.
-デバッグモード、コンソールの起動は禁止されています	Hata ayıklama modu ve konsol aktivasyonu yasaktır
-以下の情報がサーバーに送信されました	Aşağıdaki bilgiler sunucuya gönderilmiştir
-あなたのIPアドレス	IP adresiniz.
-あなたの端末とブラウザ	Cihazınız ve tarayıcınız
-あなたの押下したキー	Basılı tuşlarınız.
-リダイレクトをします	Yönlendirmeler.
-右クリックは禁止されています	Sağ tıklamak yasaktır.
-印刷、PDFへの保存は禁止されています	PDF olarak yazdırmak ve kaydetmek yasaktır
-コピー、カットは禁止されています	Kopyalanması veya kesilmesi yasaktır.
-あなたが起こしたイベント	Sebep olduğunuz olaylar.
-HTMLソース表示は禁止されています	HTML kaynak gösterimi yasaktır.
-不正アクセスは禁止されています	Yetkisiz erişim yasaktır.
-画像が見つかりません	Resim bulunamadı.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Bu web sitesi yalnızca çerezler ve JavaScript etkinken görüntülenebilir
-alertメッセージを表示する言語	Uyarı mesajının görüntülendiği dil.
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress dilleri / özel yapılandırılmış mesajlar
-view-sourceメッセージを表示する言語	Görünüm kaynağı mesajlarının görüntülendiği dil.
-ドイツ語	Almanca
-英語	İngilizce
-スペイン語	İspanyolca
-フランス語	Fransızca
-ハンガリー語	Macarca
-インドネシア語	Endonezce
-日本語	Japonca
-朝鮮語	Korece
-ノルウェー語	Norveççe
-オランダ語	Hollandaca
-ポーランド語	Lehçe
-ポルトガリア語	Portekizce
-ブラジルポルトガル語	Brezilya Portekizcesi
-ルーマニア語	Romence
-ロシア語	Rusça
-スロベニア語	Slovence
-スウェーデン語	İsveççe
-トルコ語	Türkçe
-ウクライナ語	Ukraynaca
-中国語	Çince
-簡体中国語	Basitleştirilmiş Çince
-繁体中国語	Geleneksel Çince
-ブラウザの設定言語	Tarayıcı ayar dili
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Ayarı varsayılandan değiştirmek özel mesajları devre dışı bırakacaktır
-アラビア語	Arapça
-ブルガリア語	Bulgarca
-チェコ語	Çekçe
-デンマーク語	Danca
-現代ギリシア語	Modern Yunanca
-イギリス英語	İngiliz İngilizcesi
-アメリカ英語	Amerikan İngilizcesi
-エストニア語	Estonca
-リトアニア語	Litvanca
-スロバキア語	Slovakça
-フィンランド語	Fince
-イタリア語	İtalyanca
-ラトビア語	Letonca
-ヨーロピアンポルトガル語	Avrupa Portekizcesi
-Wordpressの言語	Wordpress dilleri.
-メッセージをカスタム設定されている場合は言語を変更できません	Mesaj özelleştirilmişse dil değiştirilemez
-view-source:の動作をされた時の記録もします	Ayrıca view-source: eyleminin ne zaman gerçekleştirildiğini de kaydeder.
-HTMLのコメントタグを使用	HTML yorum etiketlerini kullanın.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Etiketi kullanın.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Bu ekranda ayarlanırsa, gelişmiş ayarlar sekmesindeki dil ayarları yok sayılır
-META NAME=ALERT タグを使用	META NAME=ALERT etiketini kullanın.
-HTML難読化・保護時のHEADタグの出力	HTML gizleme ve koruma sırasında HEAD etiketlerinin çıktısı
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı.
-フォント	Yazı tipi
-なし	Olmadan
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Yalnızca UYARI sözcüğü gösterilir. Lütfen kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin.
-ページ保存	Sayfa kaydet
-ページの保存は禁止されています	Sayfaların kaydedilmesi yasaktır.
 一般的なHTML圧縮です、難読化解除のサイトもあります	Genel HTML sıkıştırma, bazı sitelerde de-obfuscation vardır.
-事実上デバッグモードから操作できてしまいます	Aslında, hata ayıklama modunda çalışabilirsiniz.
-view-source:から始まるURLを入力すれば操作できてしまいます	View-source: ile başlayan bir URL girilerek çalıştırılabilir.
-あまりこのイベントに遭遇することはありません	Bu olayla çok sık karşılaşmıyoruz.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Hata ayıklama modunu biraz daha az kullanıcı dostu yapar, bazı tarayıcılar bu davranışı durdurur
+HTML保護	HTML Koruması
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML sıkıştırmasının ötesinde yalnızca minimum HTML çıktısı verilir ve BODY etiketindeki içerik hiç çıktılanmaz.
-メニューからは操作できてしまいます	Menüden çalıştırılabilir.
-アドオンがインストールされていると操作できてしまいます	Eklentiler yüklüyse çalıştırılabilir.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin
-利用規約などのページに転送すると良いでしょう	Onları Kullanım Koşulları gibi sayfalara yönlendirmek isteyebilirsiniz.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yalnızca üyelere özel veya dahili sayfalar gibi kurumsal kullanım için 'çıktı yok' veya 'yalnızca TITLE etiketi' uygundur.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal ağ paylaşımlarında gösterilmeyecektir
-画像botをアクセス禁止にする	Görüntü botunun yasaklanması.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Bu eklenti, Wordpress'inizin HTML, resim vb. çıktılarını korumayı ve içeriğinin izinsiz kullanımından korumayı amaçlamaktadır.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	İçerik mükemmel bir şekilde korunamaz. Ancak, onları mümkün olan her şekilde uyararak ve bir şey olursa hazırlıklı olarak, bunu ulusal olarak öngörülen bir şekilde çözebilmelisiniz.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Elbette, kullanım koşullarınızı ve site politikalarınızı geliştirmeniz gerekecektir. Bu eklenti bir kullanım koşulları oluşturma uygulaması değildir, ancak size bir ipucu verebilir.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Görsel botlardan kaçınmak, görsel aramadan doğrudan bağlantılarla korunamayan içeriği korur
-ソース表示を許可する権限	Kaynak gösterimine izin verme yetkisi.
-ADMINログイン時のみ通常のソース出力	Yalnızca ADMIN girişinde normal kaynak çıkışı
-USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak çıkışı
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Normal HTML çıktısının yalnızca yöneticiler için mi yoksa kullanıcı girişi için mi olduğunu seçin
-ビルド	Inşa etmek
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur.
-無効なIPアドレス	Geçersiz IP adresi.
-無効なユーザーエイジェント	Geçersiz kullanıcı aracısı.
+view-source:の動作をされた時の記録もします	Ayrıca view-source: eyleminin ne zaman gerçekleştirildiğini de kaydeder.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Her etkinleştirildiğinde, SEO'da düşüşe neden olabilecek bir yönlendirme olur
 若干デザインが変わる可能性があります	Tasarım biraz değişebilir.
-画像をダウンロードから保護します	Görüntüleri indirilmeye karşı korur.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Bunu etkinleştirdiğinizde, JavaScript görüntüler yüklenmeden önce yüklenir, bu nedenle SEO düşebilir
 画像の保護	Görüntü koruması.
-画像データも保護	Görüntü verileri de korunur
-画像は遅延読み込みをします	Görüntüler gecikmeli yükleniyor.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri de korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
-画像URLのみ保護	Yalnızca görüntü URL'leri korunur.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Resim verilerinizi de korumak istediğinizde, bir .htaccess dosyası ile /wp-contents/uploads içine kısıtlamalar yerleştirebilirsiniz.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Yalnızca resim URL'si korunduğunda, resim gecikmeli olarak yüklenir, aksi takdirde Wordpress tarafından ayarlanan varsayılan kullanılır
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri de korunduğunda, veritabanı aşırı yüklenebilir
-CookieやJavascriptが有効でない場合に表示するメッセージ	Çerezler ve Javascript etkinleştirilmemişse görüntülenen mesaj.
-実際にはJavascriptが無効時のみ表示されます	Pratikte, bu yalnızca Javascript devre dışı bırakıldığında görülebilir.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Yalnızca görüntü URL'si korunduğunda, gerçek görüntü aktarımının şifresi JavaScript tarafından çözülür ve görüntü genel bir şekilde görüntülenir.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri ayrıca korunduğunda neredeyse tamamen indirmeyi önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece neredeyse tamamen görüntü hırsızlığını önler.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Yalnızca resim URL'si korumasını etkinleştirdiğinizde, JavaScript her zaman resim yüklenmeden önce yüklenir, bu nedenle SEO zarar görebilir!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin.
-画像を保護	Görüntü koruması.
+add_filterを使用して画像を保護	Add_filter kullanarak görüntüleri koruma
+wp_head～wp_footerの間をキャプチャして画像を保護	Wp_head ve wp_footer arasındaki görüntüleri yakalayın ve koruyun
+画像をダウンロードから保護します	Görüntüleri indirilmeye karşı korur.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri korunduğunda indirmeyi neredeyse tamamen önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece görüntü hırsızlığını neredeyse tamamen önler.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri korunduğunda veritabanı yükü daha yüksek olabilir
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Göz alıcı olarak belirtilen görüntülerin OGP olarak yayıldığını ve korunamayacağını unutmayın. Bunları korumanız gerekiyorsa, lütfen gelişmiş ayarlarda HTML'yi korurken HEAD etiketinin çıktısının seçimini değiştirin.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Görüntü indirildiğinde ve görüntü korumalı olduğunda görüntü üzerinde görüntülenen mesaj Yalnızca İngilizce
-add_filterを使用して画像を保護	Add_filter kullanarak görüntüleri koruma
-wp_head～wp_footerの間をキャプチャして画像を保護	Wp_head ve wp_footer arasındaki görüntüleri yakalayın ve koruyun
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Add_filter kullanan yöntem img etiketlerini yayınlandıklarında filtrelerken, wp_head to wp_footer kullanan yöntem içerikteki tüm img etiketlerini işler.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Göz alıcı olarak belirtilen görüntülerin OGP olarak yayıldığını ve korunamayacağını unutmayın. Bunları korumanız gerekiyorsa, lütfen gelişmiş ayarlarda HTML'yi korurken HEAD etiketinin çıktısının seçimini değiştirin.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standart işletim sistemi ekran görüntüsü işlevi korunamaz
-一時使用トークンのビット数	Geçici kullanım belirteçlerindeki bit sayısı
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Geçici kullanım belirteçleri parola olarak kullanılır, ancak güçlerini belirtin
-ハッシュ化アルゴリズム	Hashing algoritması
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler parola olarak kullanılır, ancak karma hale getirilmeleri gerekir; karmanın gücünü ayarlayın.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar
 画像URLの保護	Görüntü URL'lerinin korunması
 即時読み込みをして有効	Anında yükleme ile etkilidir.
 遅延読み込みをして有効	Gecikmeli yükleme ile etkinleştirildi.
 画像の保護と組み合わせて使用します、単体では意味がありません	Görüntü koruma ile birlikte kullanıldığında tek başına anlamlı değildir.
 JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript tarafından dinamik olarak okunur ve bu da SEO'yu etkiler.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı.
+表示なし	Belirti yok
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin
+デバッグモード	Hata ayıklama modu
+妨害＋記録のみ	Sadece müdahale + kayıt.
+妨害＋記録＋表示＋リダイレクト	Yakalama + kayıt + görüntüleme + yönlendirme
+メニューからは操作できてしまいます	Menüden çalıştırılabilir.
+ブラウザーコンソール	Tarayıcı konsolu
+事実上デバッグモードから操作できてしまいます	Aslında, hata ayıklama modunda çalışabilirsiniz.
+HTMLソース表示	HTML kaynak gösterimi
+view-source:から始まるURLを入力すれば操作できてしまいます	View-source: ile başlayan bir URL girilerek çalıştırılabilir.
+印刷	Baskı
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Baskı engelleme ancak bazı tarayıcılarda iyi çalışmıyor
+ページ保存	Sayfa kaydet
+右クリック	Sağ tıklayın
+アドオンがインストールされていると操作できてしまいます	Eklentiler yüklüyse çalıştırılabilir.
+コピー・カット	Kopyala-kes
+あまりこのイベントに遭遇することはありません	Bu olayla çok sık karşılaşmıyoruz.
+テキスト選択	Metin seçimi
+デバッガー妨害	Hata ayıklayıcı müdahalesi
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Hata ayıklama modunu biraz daha az kullanıcı dostu yapar, bazı tarayıcılar bu davranışı durdurur
+リダイレクトするURL	Yönlendirilecek URL
+利用規約などのページに転送すると良いでしょう	Onları Kullanım Koşulları gibi sayfalara yönlendirmek isteyebilirsiniz.
+ソース表示を許可する権限	Kaynak gösterimine izin verme yetkisi.
+ADMINログイン時のみ通常のソース出力	Yalnızca ADMIN girişinde normal kaynak çıkışı
+USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak çıkışı
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Normal HTML çıktısının yalnızca yöneticiler için mi yoksa kullanıcı girişi için mi olduğunu seçin
+HTML保護時のHEADタグの出力	HTML koruması sırasında HEAD etiketlerinin çıktısı
+出力しない	Çıktı yok
+TITLEタグのみ	Yalnızca TITLE etiketi
+WordpressのHEADタグより取得	Wordpress'teki HEAD etiketinden alındı
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yalnızca üyelere özel veya dahili sayfalar gibi kurumsal kullanım için 'çıktı yok' veya 'yalnızca TITLE etiketi' uygundur.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal ağ paylaşımlarında gösterilmeyecektir
+画像botをアクセス禁止にする	Görüntü botunun yasaklanması.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur.
+alertメッセージを表示する言語	Uyarı mesajının görüntülendiği dil.
+Wordpressの言語	Wordpress dilleri.
+ブラウザの設定言語	Tarayıcı ayar dili
+メッセージをカスタム設定されている場合は言語を変更できません	Mesaj özelleştirilmişse dil değiştirilemez
+view-sourceメッセージを表示する言語	Görünüm kaynağı mesajlarının görüntülendiği dil.
 一時使用トークンの有効期限	Geçici kullanım belirteçlerinin son kullanma tarihi.
 1分	Bir dakika
 2分	2 dakika
@@ -222,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Jav
 1時間	1 saat
 画像URL情報の有効期限を設定します	Görüntü URL bilgilerinin son kullanma tarihini ayarlar.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Yüklendikten sonra, görüntü URL bilgileri ve geçici kullanım belirteçleri devre dışı bırakılır
+一時使用トークンのビット数	Geçici kullanım belirteçlerindeki bit sayısı
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar
+ハッシュ化アルゴリズム	Hashing algoritması
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.
+基本設定	Temel ayar
+高度な設定	Gelişmiş ayarlar
+初期設定に戻す	Varsayılana sıfırlama
+メッセージの設定	Mesaj ayarları
+右クリックやソースコード表示時に転送する URL を設定します	Sağ tıklandığında veya kaynak kodu görüntülendiğinde iletilecek URL'yi ayarlayın.
+警告メッセージにはHTMLは使用できません	Uyarı mesajları için HTML kullanılamaz
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Bu ekranda ayarlanırsa, gelişmiş ayarlar sekmesindeki dil ayarları yok sayılır
+以下の文字列が使用できます	Aşağıdaki dizeler kullanılabilir
+改行	Yeni hat
+押下されたキー	Basılan tuş
+Neo HTML Protector 設定	Neo HTML Koruyucu Ayarları
+このプラグインについて	Bu eklenti hakkında.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Tüm verileri temizlemek için eklentiyi kaldırın ve ardından yeniden yükleyin
+Neo HTML Protectorについて	Neo HTML Protector Hakkında
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Bu eklenti, Wordpress'inizin HTML, resim vb. çıktılarını korumayı ve içeriğinin izinsiz kullanımından korumayı amaçlamaktadır.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	İçerik mükemmel bir şekilde korunamaz. Ancak, onları mümkün olan her şekilde uyararak ve bir şey olursa hazırlıklı olarak, bunu ulusal olarak öngörülen bir şekilde çözebilmelisiniz.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Elbette, kullanım koşullarınızı ve site politikalarınızı geliştirmeniz gerekecektir. Bu eklenti bir kullanım koşulları oluşturma uygulaması değildir, ancak size bir ipucu verebilir.
+開発者: 夜桜　なの	Geliştirici: Nano Yozakura
+バージョン	Versiyon
+ビルド	Inşa etmek
+サポートページ	Destek sayfası
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Bayan. Bay Uramanira Uramanira tarafından seslendirildi
+支援のお願い	Yardım talebi.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector kullandığınız için teşekkür ederiz!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Bu eklentinin geliştirilmesi ve bakımı için çok fazla zaman ve bilgelik harcandı ve eğer varsa, sürekli iyileştirmeler ve güncellemeler için fon toplamamıza yardımcı olacak bağışlar için minnettar oluruz.
+寄付について	Bağışlar hakkında
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Bağışlar gönüllülük esasına dayanır ve zorunlu değildir. Eklentinin ücretsiz olarak kullanılabilmesi için herkese açıktır. Bununla birlikte, geliştirmeye devam etmek için desteğiniz çok takdir edilmektedir ve elimizden gelen her şekilde yardımcı olmaktan mutluluk duyarız.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Bağışlar aşağıdaki link üzerinden yapılabilir. Japonya'dan geliyorsanız, ücretsiz bağış yapabilir ve ayrıca Amazon hediye çeklerini kullanarak kolayca bağışta bulunabilirsiniz.
+寄付先	Donör
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Desteğinizle, gelecekte size harika güncellemeler sunmak için elimizden geleni yapacağız!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalışmayı dört gözle bekliyoruz.
+無効なIPアドレス	Geçersiz IP adresi.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Bu web sitesi yalnızca çerezler ve JavaScript etkinken görüntülenebilir
+デバッグモード、コンソールの起動は禁止されています	Hata ayıklama modu ve konsol aktivasyonu yasaktır
+以下の情報がサーバーに送信されました	Aşağıdaki bilgiler sunucuya gönderilmiştir
+あなたのIPアドレス	IP adresiniz.
+あなたの端末とブラウザ	Cihazınız ve tarayıcınız
+あなたの押下したキー	Basılı tuşlarınız.
+リダイレクトをします	Yönlendirmeler.
+右クリックは禁止されています	Sağ tıklamak yasaktır.
+印刷、PDFへの保存は禁止されています	PDF olarak yazdırmak ve kaydetmek yasaktır
+ページの保存は禁止されています	Sayfaların kaydedilmesi yasaktır.
+コピー、カットは禁止されています	Kopyalanması veya kesilmesi yasaktır.
+あなたが起こしたイベント	Sebep olduğunuz olaylar.
+HTMLソース表示は禁止されています	HTML kaynak gösterimi yasaktır.
+不正アクセスは禁止されています	Yetkisiz erişim yasaktır.
+アラビア語	Arapça
+ブルガリア語	Bulgarca
+チェコ語	Çekçe
+デンマーク語	Danca
+ドイツ語	Almanca
+現代ギリシア語	Modern Yunanca
+英語	İngilizce
+イギリス英語	İngiliz İngilizcesi
+アメリカ英語	Amerikan İngilizcesi
+スペイン語	İspanyolca
+エストニア語	Estonca
+フィンランド語	Fince
+フランス語	Fransızca
+ハンガリー語	Macarca
+インドネシア語	Endonezce
+イタリア語	İtalyanca
+日本語	Japonca
+朝鮮語	Korece
+リトアニア語	Litvanca
+ラトビア語	Letonca
+ノルウェー語	Norveççe
+オランダ語	Hollandaca
+ポーランド語	Lehçe
+ポルトガリア語	Portekizce
+ブラジルポルトガル語	Brezilya Portekizcesi
+ヨーロピアンポルトガル語	Avrupa Portekizcesi
+ルーマニア語	Romence
+ロシア語	Rusça
+スロバキア語	Slovakça
+スロベニア語	Slovence
+スウェーデン語	İsveççe
+トルコ語	Türkçe
+ウクライナ語	Ukraynaca
+中国語	Çince
+簡体中国語	Basitleştirilmiş Çince
+繁体中国語	Geleneksel Çince
+画像が見つかりません	Resim bulunamadı.

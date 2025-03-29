@@ -4,10 +4,10 @@ IPアドレスログ	IP adrešu žurnāls
 全クリア	Viss tīrs.
 IPログが全て削除されました	Visi IP žurnāli ir dzēsti.
 ID	ID
+タイムスタンプ	Laika atzīmēšana
 IPアドレス	IP adrese
 ユーザーエージェント	Lietotāja aģents
 イベント	Pasākums
-日時	Datums un laiks
 IPアドレスのデータはありません	IP adreses dati nav pieejami.
 デバッグモード、コンソールの警告メッセージ	Debug režīms, konsoles brīdinājuma ziņojumi.
 右クリックの警告メッセージ	Ar peles labo pogu noklikšķiniet uz brīdinājuma ziņojumiem.
@@ -16,191 +16,74 @@ IPアドレスのデータはありません	IP adreses dati nav pieejami.
 HTMLソース表示時に表示するメッセージ	Paziņojums, kas tiks parādīts, kad tiks parādīts HTML avots
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Ziņa, kas tiek parādīta avota sākumā, ja HTML ir aizsegts un aizsargāts.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Tiek parādīts ziņojums, ja vienreizējās autentifikācijas žetons HTML aizsardzības laikā ir nepareizs.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Ja sīkfaili un Javascript nav iespējoti, tiek parādīts ziņojums.
+実際にはJavascriptが無効時のみ表示されます	Praksē tas ir redzams tikai tad, ja ir atspējots Javascript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Ziņa, kas parādās uz attēla, kad attēls ir lejupielādēts un attēls ir aizsargāts Tikai angļu valodā
 HTML難読化 (圧縮)	HTML aizsegšana
 無効	Nederīgs
 有効	Derīguma termiņš
-HTML保護	HTML aizsardzība
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas var izraisīt SEO kritumu.
-デバッグモード	Atkļūdošanas režīms
-妨害＋記録のみ	Tikai iejaukšanās + ieraksts.
-妨害＋記録＋表示＋リダイレクト	Pārtveršana + ierakstīšana + rādīšana + novirzīšana
-ブラウザーコンソール	Pārlūka konsole
-HTMLソース表示	HTML avota rādīšana
-印刷	Drukāšana
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Drukas bloķēšana, bet dažās pārlūkprogrammās nedarbojas labi
-右クリック	Ar peles labo pogu noklikšķiniet uz
-コピー・カット	Kopēt-izgriezt
-テキスト選択	Teksta atlase
-デバッガー妨害	Atkļūdošanas traucējumi
-妨害	Traucējumi
-リダイレクトするURL	URL, uz kuru pāradresēt
-HTML保護時のHEADタグの出力	HEAD tagu izvadīšana HTML aizsardzības laikā
-出力しない	Nav izejas
-TITLEタグのみ	Tikai birka TITLE
-WordpressのHEADタグより取得	Iegūti no Wordpress taga HEAD
-HTML保護時の一度限りのトークンのチェック	Vienreizējas žetonu pārbaudes HTML aizsardzības laikā.
-基本設定	Pamatnosacījumi
-高度な設定	Uzlabotie iestatījumi
-メッセージの設定	Ziņu iestatījumi
-右クリックやソースコード表示時に転送する URL を設定します	Iestatiet URL, kas tiks pārsūtīts, kad noklikšķinot ar peles labo pogu vai skatot avota kodu.
-警告メッセージにはHTMLは使用できません	HTML nevar izmantot brīdinājuma ziņojumiem
-以下の文字列が使用できます	Var izmantot šādas virknes
-改行	Jaunā līnija
-押下されたキー	Nospiests taustiņš
-Neo HTML Protector 設定	Neo HTML aizsarga iestatījumi
-初期設定に戻す	Noklusējuma iestatījumu atiestatīšana
-このプラグインについて	Par šo spraudni.
-Neo HTML Protectorについて	Par programmu Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no Wordpress, un pasargāt to no neatļautas satura izmantošanas!
-開発者: 夜桜　なの	Izstrādātājs: Nanoh Yozakura
-バージョン	Versija
-サポートページ	Atbalsta lapa
-支援のお願い	Palīdzības pieprasījums.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Paldies, ka izmantojat Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Šī spraudņa izstrādē un uzturēšanā ir ieguldīts daudz laika un gudrības, un mēs būsim pateicīgi par ziedojumiem, ja tādi būs, lai palīdzētu mums piesaistīt līdzekļus turpmāku uzlabojumu un atjauninājumu veikšanai.
-寄付について	Par ziedojumiem
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ziedojumi ir brīvprātīgi un nav obligāti. Tas ir pieejams ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Ar jūsu atbalstu mēs darīsim visu iespējamo, lai nākotnē nodrošinātu jums lieliskus atjauninājumus!
-寄付先	Donors
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Mēs pateicamies jums par atbalstu un ceram uz turpmāku sadarbību.
-デバッグモード、コンソールの起動は禁止されています	Debug režīms un konsoles aktivizēšana ir aizliegta
-以下の情報がサーバーに送信されました	Uz serveri ir nosūtīta šāda informācija
-あなたのIPアドレス	Jūsu IP adrese.
-あなたの端末とブラウザ	Jūsu ierīce un pārlūkprogramma
-あなたの押下したキー	Jūsu nospiestie taustiņi.
-リダイレクトをします	Pārvirzījumi.
-右クリックは禁止されています	Klikšķināt ar peles labo pogu ir aizliegts.
-印刷、PDFへの保存は禁止されています	Drukāt un saglabāt PDF formātā ir aizliegts
-コピー、カットは禁止されています	Kopēt vai griezt ir aizliegts.
-あなたが起こしたイベント	Notikumi, kurus jūs izraisījāt.
-HTMLソース表示は禁止されています	HTML avota rādīšana ir aizliegta.
-不正アクセスは禁止されています	Nesankcionēta piekļuve ir aizliegta.
-画像が見つかりません	Attēls nav atrasts.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šo tīmekļa vietni var apskatīt tikai ar iespējot sīkfailus un JavaScript.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Lai notīrītu visus datus, atinstalējiet spraudni un pēc tam instalējiet to no jauna.
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. dzied Uramanira kungs
-タイムスタンプ	Laika atzīmēšana
-view-sourceメッセージを表示する言語	Valoda, kurā tiek rādīti skatījuma avota ziņojumi.
-アラビア語	Arābu valoda
-ブルガリア語	Bulgāru valoda
-チェコ語	Čehu
-デンマーク語	Dāņu valoda
-ドイツ語	Vācu valoda
-現代ギリシア語	Mūsdienu grieķu valoda
-英語	Angļu valoda
-イギリス英語	Britu angļu valoda
-フィンランド語	Somu valoda
-ハンガリー語	Ungāru
-インドネシア語	Indonēziešu valoda
-日本語	Japāņu valoda
-朝鮮語	Korejiešu valoda
-ポルトガリア語	Portugāļu valoda
-ブラジルポルトガル語	Brazīlijas portugāļu valoda
-ロシア語	Krievu valoda
-スロバキア語	Slovākijas
-トルコ語	Turku valoda
-繁体中国語	Tradicionālā ķīniešu valoda
-alertメッセージを表示する言語	Valoda, kurā tiek parādīts brīdinājuma ziņojums.
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress valodas / pielāgotas konfigurētas ziņas
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Mainot iestatījumu no noklusējuma, tiks atspējoti pielāgotie ziņojumi.
-アメリカ英語	Amerikāņu angļu valoda
-スペイン語	Spāņu valoda
-エストニア語	Igauņu valoda
-フランス語	Franču valoda
-イタリア語	Itāļu valoda
-リトアニア語	Lietuviešu valoda
-ラトビア語	Latviešu valoda
-ノルウェー語	Norvēģu valoda
-オランダ語	Holandiešu valoda
-ポーランド語	Poļu valoda
-ヨーロピアンポルトガル語	Eiropas portugāļu valoda
-ルーマニア語	Rumāņu valoda
-スロベニア語	Slovēņu valoda
-ウクライナ語	Ukraiņu
-簡体中国語	Vienkāršotā ķīniešu valoda
-ブラウザの設定言語	Pārlūkprogrammas iestatījumu valoda
-スウェーデン語	Zviedru valoda
-中国語	Ķīniešu valoda
-Wordpressの言語	Wordpress valodas.
-メッセージをカスタム設定されている場合は言語を変更できません	Ja ziņojums ir pielāgots, valodu mainīt nevar.
-view-source:の動作をされた時の記録もします	Tā arī reģistrē, kad tiek veikta darbība view-source:.
-HTMLのコメントタグを使用	Izmantojiet HTML komentāru tagus.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Izmantot tagu.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ja šajā ekrānā ir iestatīts, valodas iestatījumi cilnē Paplašinātie iestatījumi netiek ņemti vērā.
-META NAME=ALERT タグを使用	Izmantojiet tagu META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	HEAD tagu izvadīšana HTML aizsegšanas un aizsardzības laikā
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā.
-フォント	Fontu
-なし	Bez
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Tiek parādīts tikai vārds WARNING. Lūdzu, pārbaudiet to, skatot avotu pārlūkā, kurā neesat pieteicies.
-ページの保存は禁止されています	Lapu saglabāšana ir aizliegta.
-ページ保存	Lapas saglabāšana
 一般的なHTML圧縮です、難読化解除のサイトもあります	Vispārīga HTML saspiešana, dažās vietnēs ir atdalīta obfuskācija.
-メニューからは操作できてしまいます	To var darbināt no izvēlnes.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Debug režīms ir mazliet mazāk ērts lietotājam, dažas pārlūkprogrammas aptur šo darbību.
-利用規約などのページに転送すると良いでしょう	Iespējams, vēlēsieties pārsūtīt tos uz tādām lapām kā lietošanas noteikumi.
+HTML保護	HTML aizsardzība
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Pēc HTML saspiešanas tiek izvadīts tikai minimālais HTML apjoms, un BODY birkas saturs vispār netiek izvadīts.
-事実上デバッグモードから操作できてしまいます	Faktiski varat darboties atkļūdošanas režīmā.
-view-source:から始まるURLを入力すれば操作できてしまいます	To var izmantot, ievadot URL, kas sākas ar view-source:.
-アドオンがインストールされていると操作できてしまいます	To var darbināt, ja ir instalēti papildinājumi.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies.
-あまりこのイベントに遭遇することはありません	Ar šādu gadījumu mēs nesastopamies bieži.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Uzņēmumu vajadzībām, piemēram, tikai biedriem vai iekšējām lapām, var izmantot "bez izvades" vai "tikai TITLE tag".
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga.
-画像botをアクセス禁止にする	Attēlu bota aizliegšana.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas aizsargā saturu, ko nevarētu aizsargāt ar tiešajām saitēm no attēlu meklēšanas.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no jūsu Wordpress, un pasargāt to no neatļautas satura izmantošanas.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Saturu nevar pilnībā aizsargāt. Tomēr, visos iespējamos veidos brīdinot un esot gataviem, ja kaut kas notiek, jums vajadzētu spēt to atrisināt valsts noteiktajā veidā.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Protams, jums būs jāuzlabo lietošanas noteikumi un vietnes politika. Šis spraudnis nav lietošanas noteikumu ģenerēšanas programma, taču tas var sniegt jums mājienu.
-ソース表示を許可する権限	Iestāde, kas atļauj avota rādīšanu.
-ADMINログイン時のみ通常のソース出力	Parastā avota izvade tikai pie ADMIN pieteikšanās
-USERログインで通常のソース出力	Parastā avota izvade ar lietotāja pieteikšanos
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Izvēlieties, vai parastā HTML izvades programma ir paredzēta tikai administratoriem vai arī lietotāja pieteikšanās.
-ビルド	Izveidot
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt, izmantojot tiešās saites no attēlu meklēšanas.
-無効なIPアドレス	Nederīga IP adrese.
-無効なユーザーエイジェント	Nederīgs lietotāja aģents.
+view-source:の動作をされた時の記録もします	Tā arī reģistrē, kad tiek veikta darbība view-source:.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas var izraisīt SEO kritumu.
 若干デザインが変わる可能性があります	Dizains var nedaudz mainīties.
-画像をダウンロードから保護します	Aizsargā attēlus no lejupielādes.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ikreiz, kad to iespējojat, JavaScript tiek ielādēts pirms attēlu ielādēšanas, tāpēc SEO var samazināties.
 画像の保護	Attēlu aizsardzība.
-画像URLのみ保護	Aizsargāti ir tikai attēlu URL.
-画像データも保護	Aizsargāti arī attēlu dati
-画像は遅延読み込みをします	Attēlu ielāde aizkavējas.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Attēlu kešēšana nedarbojas, ja ir aizsargāti arī attēlu dati, tāpēc nākamajā apmeklējumā vietne ielādējas lēnāk, un tas var izraisīt SEO samazināšanos.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Ja vēlaties aizsargāt arī attēlu datus, varat noteikt ierobežojumus /wp-contents/uploads, izmantojot .htaccess failu.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ja ir aizsargāts tikai attēla URL, attēls tiks ielādēts ar kavēšanos, pretējā gadījumā tiks izmantots Wordpress iestatītais noklusējuma iestatījums.
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ja tiek aizsargāti arī attēlu dati, datu bāze var tikt pārslogota.
-CookieやJavascriptが有効でない場合に表示するメッセージ	Ja sīkfaili un Javascript nav iespējoti, tiek parādīts ziņojums.
-実際にはJavascriptが無効時のみ表示されます	Praksē tas ir redzams tikai tad, ja ir atspējots Javascript.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ja ir aizsargāts tikai attēla URL, tiek aizsargāts tikai attēla URL, faktisko attēla pārsūtīšanu atšifrē JavaScript, un attēls tiek parādīts vispārīgā veidā.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Attēlu dati arī novērš gandrīz pilnīgu lejupielādi, ja tie ir aizsargāti, izdod pilnīgu vienreizēju URL, autentificējas ar sesijā saglabāto žetonu un parāda attēlu no php, tādējādi novēršot gandrīz pilnīgu attēlu zādzību.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ikreiz, kad iespējojat tikai attēlu URL aizsardzību, JavaScript vienmēr tiek ielādēts pirms attēla ielādēšanas, tāpēc var ciest SEO!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots.
-画像を保護	Attēlu aizsardzība.
+add_filterを使用して画像を保護	Attēlu aizsardzība, izmantojot add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Attēlu uzņemšana un aizsardzība starp wp_head un wp_footer
+画像をダウンロードから保護します	Aizsargā attēlus no lejupielādes.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Gandrīz pilnībā novērš lejupielādi, ja attēla dati ir aizsargāti, izdod pilnīgu vienreizēju URL, autentificē ar sesijā saglabāto žetonu un parāda attēlu no php, tādējādi gandrīz pilnībā novēršot attēla zādzību.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Attēlu kešēšana nedarbojas, ja attēlu dati ir aizsargāti, tāpēc nākamā apmeklējuma laikā vietne ielādēsies lēnāk, un tas var izraisīt SEO samazināšanos.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Datubāzes slodze var būt lielāka, ja attēla dati ir aizsargāti.
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ņemiet vērā, ka attēli, kas norādīti kā uzkrītoši, tiek izplatīti kā OGP, un tos nevar aizsargāt. Ja jums tie ir jāaizsargā, lūdzu, mainiet HEAD taga izvades izvēli, aizsargājot HTML, paplašinātajos iestatījumos.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Ziņa, kas parādās uz attēla, kad attēls ir lejupielādēts un attēls ir aizsargāts Tikai angļu valodā
-add_filterを使用して画像を保護	Attēlu aizsardzība, izmantojot add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Attēlu uzņemšana un aizsardzība starp wp_head un wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode, kas izmanto add_filter, filtrē img tagus, kad tie tiek publicēti, savukārt metode, kas izmanto wp_head līdz wp_footer, apstrādā visus saturā esošos img tagus.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ņemiet vērā, ka attēli, kas norādīti kā uzkrītoši, tiek izplatīti kā OGP, un tos nevar aizsargāt. Ja jums tie ir jāaizsargā, lūdzu, mainiet HEAD taga izvades izvēli, aizsargājot HTML, paplašinātajos iestatījumos.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS standarta ekrānšāviņu funkciju nevar aizsargāt
-一時使用トークンのビット数	Bitu skaits pagaidu lietošanas žetonos
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Pagaidu lietošanas žetonus izmanto kā paroles, bet norāda to stiprumu.
-ハッシュ化アルゴリズム	šifrēšanas algoritms
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, taču tie ir jāsalāgo; iestatiet salāgošanas stiprumu.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.
 画像URLの保護	Attēlu URL aizsardzība
 即時読み込みをして有効	Efektīva ar tūlītēju iekraušanu.
 遅延読み込みをして有効	Ieslēgts ar aizkavētu ielādi.
 画像の保護と組み合わせて使用します、単体では意味がありません	To izmanto kopā ar attēlu aizsardzību, bet atsevišķi tā nav nozīmīga.
 JavaScriptにより動的に読まれますのでSEOに影響があります	To dinamiski nolasa JavaScript, kas ietekmē SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā.
+表示なし	Nav norāžu
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies.
+デバッグモード	Atkļūdošanas režīms
+妨害＋記録のみ	Tikai iejaukšanās + ieraksts.
+妨害＋記録＋表示＋リダイレクト	Pārtveršana + ierakstīšana + rādīšana + novirzīšana
+メニューからは操作できてしまいます	To var darbināt no izvēlnes.
+ブラウザーコンソール	Pārlūka konsole
+事実上デバッグモードから操作できてしまいます	Faktiski varat darboties atkļūdošanas režīmā.
+HTMLソース表示	HTML avota rādīšana
+view-source:から始まるURLを入力すれば操作できてしまいます	To var izmantot, ievadot URL, kas sākas ar view-source:.
+印刷	Drukāšana
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Drukas bloķēšana, bet dažās pārlūkprogrammās nedarbojas labi
+ページ保存	Lapas saglabāšana
+右クリック	Ar peles labo pogu noklikšķiniet uz
+アドオンがインストールされていると操作できてしまいます	To var darbināt, ja ir instalēti papildinājumi.
+コピー・カット	Kopēt-izgriezt
+あまりこのイベントに遭遇することはありません	Ar šādu gadījumu mēs nesastopamies bieži.
+テキスト選択	Teksta atlase
+デバッガー妨害	Atkļūdošanas traucējumi
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Debug režīms ir mazliet mazāk ērts lietotājam, dažas pārlūkprogrammas aptur šo darbību.
+リダイレクトするURL	URL, uz kuru pāradresēt
+利用規約などのページに転送すると良いでしょう	Iespējams, vēlēsieties pārsūtīt tos uz tādām lapām kā lietošanas noteikumi.
+ソース表示を許可する権限	Iestāde, kas atļauj avota rādīšanu.
+ADMINログイン時のみ通常のソース出力	Parastā avota izvade tikai pie ADMIN pieteikšanās
+USERログインで通常のソース出力	Parastā avota izvade ar lietotāja pieteikšanos
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Izvēlieties, vai parastā HTML izvades programma ir paredzēta tikai administratoriem vai arī lietotāja pieteikšanās.
+HTML保護時のHEADタグの出力	HEAD tagu izvadīšana HTML aizsardzības laikā
+出力しない	Nav izejas
+TITLEタグのみ	Tikai birka TITLE
+WordpressのHEADタグより取得	Iegūti no Wordpress taga HEAD
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Uzņēmumu vajadzībām, piemēram, tikai biedriem vai iekšējām lapām, var izmantot "bez izvades" vai "tikai TITLE tag".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga.
+画像botをアクセス禁止にする	Attēlu bota aizliegšana.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt, izmantojot tiešās saites no attēlu meklēšanas.
+alertメッセージを表示する言語	Valoda, kurā tiek parādīts brīdinājuma ziņojums.
+Wordpressの言語	Wordpress valodas.
+ブラウザの設定言語	Pārlūkprogrammas iestatījumu valoda
+メッセージをカスタム設定されている場合は言語を変更できません	Ja ziņojums ir pielāgots, valodu mainīt nevar.
+view-sourceメッセージを表示する言語	Valoda, kurā tiek rādīti skatījuma avota ziņojumi.
 一時使用トークンの有効期限	Pagaidu lietošanas žetonu derīguma termiņš.
 1分	Viena minūte
 2分	2 minūtes
@@ -224,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	To 
 1時間	1 stunda
 画像URL情報の有効期限を設定します	Iestatīts attēla URL informācijas derīguma termiņš.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Pēc ielādēšanas attēla URL informācija un pagaidu lietošanas žetoni ir atspējoti.
+一時使用トークンのビット数	Bitu skaits pagaidu lietošanas žetonos
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.
+ハッシュ化アルゴリズム	šifrēšanas algoritms
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.
+基本設定	Pamatnosacījumi
+高度な設定	Uzlabotie iestatījumi
+初期設定に戻す	Noklusējuma iestatījumu atiestatīšana
+メッセージの設定	Ziņu iestatījumi
+右クリックやソースコード表示時に転送する URL を設定します	Iestatiet URL, kas tiks pārsūtīts, kad noklikšķinot ar peles labo pogu vai skatot avota kodu.
+警告メッセージにはHTMLは使用できません	HTML nevar izmantot brīdinājuma ziņojumiem
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ja šajā ekrānā ir iestatīts, valodas iestatījumi cilnē Paplašinātie iestatījumi netiek ņemti vērā.
+以下の文字列が使用できます	Var izmantot šādas virknes
+改行	Jaunā līnija
+押下されたキー	Nospiests taustiņš
+Neo HTML Protector 設定	Neo HTML aizsarga iestatījumi
+このプラグインについて	Par šo spraudni.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Lai notīrītu visus datus, atinstalējiet spraudni un pēc tam instalējiet to no jauna.
+Neo HTML Protectorについて	Par programmu Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no jūsu Wordpress, un pasargāt to no neatļautas satura izmantošanas.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Saturu nevar pilnībā aizsargāt. Tomēr, visos iespējamos veidos brīdinot un esot gataviem, ja kaut kas notiek, jums vajadzētu spēt to atrisināt valsts noteiktajā veidā.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Protams, jums būs jāuzlabo lietošanas noteikumi un vietnes politika. Šis spraudnis nav lietošanas noteikumu ģenerēšanas programma, taču tas var sniegt jums mājienu.
+開発者: 夜桜　なの	Izstrādātājs: Nano Yozakura
+バージョン	Versija
+ビルド	Izveidot
+サポートページ	Atbalsta lapa
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. dzied Uramanira kungs
+支援のお願い	Palīdzības pieprasījums.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Paldies, ka izmantojat Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Šī spraudņa izstrādē un uzturēšanā ir ieguldīts daudz laika un gudrības, un mēs būsim pateicīgi par ziedojumiem, ja tādi būs, lai palīdzētu mums piesaistīt līdzekļus turpmāku uzlabojumu un atjauninājumu veikšanai.
+寄付について	Par ziedojumiem
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ziedojumi ir brīvprātīgi un nav obligāti. Tā ir pieejama ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus.
+寄付先	Donors
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Ar jūsu atbalstu mēs darīsim visu iespējamo, lai nākotnē nodrošinātu jums lieliskus atjauninājumus!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Mēs pateicamies jums par atbalstu un ceram uz turpmāku sadarbību.
+無効なIPアドレス	Nederīga IP adrese.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šo tīmekļa vietni var apskatīt tikai ar iespējot sīkfailus un JavaScript.
+デバッグモード、コンソールの起動は禁止されています	Debug režīms un konsoles aktivizēšana ir aizliegta
+以下の情報がサーバーに送信されました	Uz serveri ir nosūtīta šāda informācija
+あなたのIPアドレス	Jūsu IP adrese.
+あなたの端末とブラウザ	Jūsu ierīce un pārlūkprogramma
+あなたの押下したキー	Jūsu nospiestie taustiņi.
+リダイレクトをします	Pārvirzījumi.
+右クリックは禁止されています	Klikšķināt ar peles labo pogu ir aizliegts.
+印刷、PDFへの保存は禁止されています	Drukāt un saglabāt PDF formātā ir aizliegts
+ページの保存は禁止されています	Lapu saglabāšana ir aizliegta.
+コピー、カットは禁止されています	Kopēt vai griezt ir aizliegts.
+あなたが起こしたイベント	Notikumi, kurus jūs izraisījāt.
+HTMLソース表示は禁止されています	HTML avota rādīšana ir aizliegta.
+不正アクセスは禁止されています	Nesankcionēta piekļuve ir aizliegta.
+アラビア語	Arābu valoda
+ブルガリア語	Bulgāru valoda
+チェコ語	Čehu
+デンマーク語	Dāņu valoda
+ドイツ語	Vācu valoda
+現代ギリシア語	Mūsdienu grieķu valoda
+英語	Angļu valoda
+イギリス英語	Britu angļu valoda
+アメリカ英語	Amerikāņu angļu valoda
+スペイン語	Spāņu valoda
+エストニア語	Igauņu valoda
+フィンランド語	Somu valoda
+フランス語	Franču valoda
+ハンガリー語	Ungāru
+インドネシア語	Indonēziešu valoda
+イタリア語	Itāļu valoda
+日本語	Japāņu valoda
+朝鮮語	Korejiešu valoda
+リトアニア語	Lietuviešu valoda
+ラトビア語	Latviešu valoda
+ノルウェー語	Norvēģu valoda
+オランダ語	Holandiešu valoda
+ポーランド語	Poļu valoda
+ポルトガリア語	Portugāļu valoda
+ブラジルポルトガル語	Brazīlijas portugāļu valoda
+ヨーロピアンポルトガル語	Eiropas portugāļu valoda
+ルーマニア語	Rumāņu valoda
+ロシア語	Krievu valoda
+スロバキア語	Slovākijas
+スロベニア語	Slovēņu valoda
+スウェーデン語	Zviedru valoda
+トルコ語	Turku valoda
+ウクライナ語	Ukraiņu
+中国語	Ķīniešu valoda
+簡体中国語	Vienkāršotā ķīniešu valoda
+繁体中国語	Tradicionālā ķīniešu valoda
+画像が見つかりません	Attēls nav atrasts.

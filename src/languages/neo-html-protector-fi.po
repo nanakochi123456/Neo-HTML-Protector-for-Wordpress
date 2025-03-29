@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -67,7 +67,7 @@ msgid "HTML難読化・保護時にソースの先頭に表示するメッセー
 msgstr "Viesti, joka näytetään lähdekoodin alussa, kun HTML on peitetty ja suojattu."
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
-msgstr "Näytettävä viesti, jos kertaluonteisen todennuksen tunniste on epänormaali HTML-suojauksen aikana."
+msgstr "Näytettävä viesti, jos kertaluonteinen todennusmerkki on epänormaali HTML-suojauksen aikana."
 
 msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
 msgstr "Näytetään viesti, jos evästeet ja Javascript eivät ole käytössä."
@@ -94,7 +94,7 @@ msgid "HTML保護"
 msgstr "HTML-suojaus"
 
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
-msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen määrä HTML:ää, eikä BODY-tagin sisältöä tulosteta lainkaan."
+msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-tunnisteen sisältöä tulosteta lainkaan."
 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Se kirjaa myös, milloin view-source: -toiminto suoritetaan."
@@ -153,8 +153,8 @@ msgstr "JavaScript lukee sitä dynaamisesti, mikä vaikuttaa hakukoneoptimointii
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana."
 
-msgid "なし"
-msgstr "Ei mitään."
+msgid "表示なし"
+msgstr "Ei merkintää"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähde näytetään."

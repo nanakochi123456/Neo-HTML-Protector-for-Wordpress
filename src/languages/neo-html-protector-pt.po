@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -19,61 +19,61 @@ msgid "設定"
 msgstr "Configuração"
 
 msgid "IPログリーダー"
-msgstr "Leitor de registo IP"
+msgstr "Leitor de registro de IP"
 
 msgid "IPアドレスログ"
-msgstr "Registo do endereço IP"
+msgstr "Registro de endereço IP"
 
 msgid "全クリア"
 msgstr "Tudo limpo."
 
 msgid "IPログが全て削除されました"
-msgstr "Todos os registos de IP foram eliminados."
+msgstr "Todos os registros de IP foram excluídos."
 
 msgid "ID"
 msgstr "ID"
 
 msgid "タイムスタンプ"
-msgstr "Marcação de tempo"
+msgstr "Registro de data e hora"
 
 msgid "IPアドレス"
 msgstr "Endereço IP"
 
 msgid "ユーザーエージェント"
-msgstr "Agente do utilizador"
+msgstr "Agente do usuário"
 
 msgid "イベント"
 msgstr "Evento"
 
 msgid "IPアドレスのデータはありません"
-msgstr "Não existem dados de endereço IP disponíveis."
+msgstr "Não há dados de endereço IP disponíveis."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
-msgstr "Modo de depuração, mensagens de aviso da consola."
+msgstr "Modo de depuração, mensagens de aviso do console."
 
 msgid "右クリックの警告メッセージ"
-msgstr "Clique com o botão direito do rato nas mensagens de aviso."
+msgstr "Clique com o botão direito do mouse nas mensagens de aviso."
 
 msgid "印刷、PDF保存の警告メッセージ"
-msgstr "Mensagens de aviso para imprimir e guardar PDFs."
+msgstr "Mensagens de aviso para imprimir e salvar PDFs."
 
 msgid "コピー・カットした時に表示するメッセージ"
-msgstr "Mensagem apresentada quando se está a copiar ou a cortar."
+msgstr "Mensagem exibida ao copiar ou cortar."
 
 msgid "HTMLソース表示時に表示するメッセージ"
-msgstr "Mensagem a apresentar quando se mostra a fonte HTML"
+msgstr "Mensagem a ser exibida ao exibir a fonte HTML"
 
 msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
-msgstr "Mensagem a ser apresentada no início da fonte quando o HTML é ofuscado e protegido."
+msgstr "Mensagem a ser exibida no início do código-fonte quando o HTML for ofuscado e protegido."
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
-msgstr "Mensagem apresentada se o token de autenticação única for anormal durante a proteção HTML."
+msgstr "Mensagem exibida se o token de autenticação de uso único for anormal durante a proteção HTML."
 
 msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
-msgstr "Mensagem apresentada se os cookies e o Javascript não estiverem activados."
+msgstr "Mensagem exibida se os cookies e o Javascript não estiverem ativados."
 
 msgid "実際にはJavascriptが無効時のみ表示されます"
-msgstr "Na prática, isto só é visível quando o Javascript está desativado."
+msgstr "Na prática, isso só fica visível quando o Javascript está desativado."
 
 msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
 msgstr "Mensagem exibida na imagem quando o download da imagem é feito e a imagem está protegida Somente em inglês"
@@ -88,25 +88,25 @@ msgid "有効"
 msgstr "Validade"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
-msgstr "Compressão geral de HTML, alguns sítios têm desobfuscação."
+msgstr "Compactação geral de HTML, alguns sites têm desofuscação."
 
 msgid "HTML保護"
-msgstr "Proteção HTML"
+msgstr "Proteção de HTML"
 
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
-msgstr "Apenas o HTML mínimo é emitido para além da compressão HTML e o conteúdo da etiqueta BODY não é emitido de todo."
+msgstr "Somente o mínimo de HTML é gerado além da compactação HTML, e o conteúdo da tag BODY não é gerado de forma alguma."
 
 msgid "view-source:の動作をされた時の記録もします"
-msgstr "Também regista quando a ação view-source: é executada."
+msgstr "Ele também registra quando a ação view-source: é executada."
 
 msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Sempre que é ativado, há um redireccionamento, o que pode resultar numa queda na SEO"
+msgstr "Sempre que ele é ativado, há um redirecionamento, o que pode resultar em uma queda no SEO"
 
 msgid "若干デザインが変わる可能性があります"
-msgstr "O design pode ser ligeiramente alterado."
+msgstr "O design pode sofrer pequenas alterações."
 
 msgid "画像の保護"
-msgstr "Proteção da imagem."
+msgstr "Proteção de imagem."
 
 msgid "add_filterを使用して画像を保護"
 msgstr "Proteger imagens usando add_filter"
@@ -115,10 +115,10 @@ msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
 msgstr "Capturar e proteger imagens entre wp_head e wp_footer"
 
 msgid "画像をダウンロードから保護します"
-msgstr "Protege as imagens contra descarregamento."
+msgstr "Protege as imagens contra download."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Impede quase completamente o download quando os dados da imagem estão protegidos, emite um URL único completo, autentica-se com um token armazenado na sessão e exibe a imagem do php, impedindo assim quase completamente o roubo de imagens."
+msgstr "Impede quase completamente o download quando os dados da imagem estão protegidos, emite um URL completo de uso único, autentica-se com um token armazenado na sessão e exibe a imagem do php, impedindo assim quase completamente o roubo de imagens."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "O cache de imagens não funciona quando os dados da imagem estão protegidos, portanto, o site carregará mais lentamente na próxima visita, o que pode resultar em uma queda no SEO"
@@ -153,38 +153,38 @@ msgstr "Ele é lido dinamicamente pelo JavaScript, o que afeta o SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML."
 
-msgid "なし"
-msgstr "Sem"
+msgid "表示なし"
+msgstr "Sem indicação"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Mostrar arte ASCII indicando a intenção de avisar quando a fonte HTML é apresentada."
+msgstr "Exibir arte ASCII indicando a intenção de avisar quando a fonte HTML for exibida."
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
-msgstr "Verificar visualizando a fonte num browser sem sessão iniciada"
+msgstr "Verifique visualizando a fonte em um navegador sem login"
 
 msgid "デバッグモード"
 msgstr "Modo de depuração"
 
 msgid "妨害＋記録のみ"
-msgstr "Interferência + registo apenas."
+msgstr "Interferência + registro apenas."
 
 msgid "妨害＋記録＋表示＋リダイレクト"
-msgstr "Intercetar + registar + apresentar + redirecionar"
+msgstr "Interceptação + registro + exibição + redirecionamento"
 
 msgid "メニューからは操作できてしまいます"
-msgstr "Pode ser acionado a partir do menu."
+msgstr "Ele pode ser operado no menu."
 
 msgid "ブラウザーコンソール"
-msgstr "Consola do navegador"
+msgstr "Console do navegador"
 
 msgid "事実上デバッグモードから操作できてしまいます"
-msgstr "De facto, é possível operar a partir do modo de depuração."
+msgstr "Na verdade, você pode operar no modo de depuração."
 
 msgid "HTMLソース表示"
-msgstr "Apresentação da fonte HTML"
+msgstr "Exibição da fonte HTML"
 
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
-msgstr "Pode ser acionado introduzindo um URL que comece por view-source:."
+msgstr "Ele pode ser operado inserindo um URL que começa com view-source:."
 
 msgid "印刷"
 msgstr "Impressão"
@@ -193,19 +193,19 @@ msgid "印刷阻止をするもものの、ブラウザによってはうまく�
 msgstr "Bloqueio de impressão, mas não funciona bem em alguns navegadores"
 
 msgid "ページ保存"
-msgstr "Guardar página"
+msgstr "Salvar página"
 
 msgid "右クリック"
-msgstr "Clicar com o botão direito do rato"
+msgstr "Clique com o botão direito do mouse"
 
 msgid "アドオンがインストールされていると操作できてしまいます"
-msgstr "Pode ser utilizado se estiverem instalados suplementos."
+msgstr "Ele pode ser operado se os complementos estiverem instalados."
 
 msgid "コピー・カット"
-msgstr "Copiar-cortar"
+msgstr "Cópia-corte"
 
 msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Este acontecimento não é muito frequente."
+msgstr "Não encontramos esse evento com muita frequência."
 
 msgid "テキスト選択"
 msgstr "Seleção de texto"
@@ -214,64 +214,64 @@ msgid "デバッガー妨害"
 msgstr "Interferência do depurador"
 
 msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
-msgstr "Torna o modo de depuração um pouco menos fácil de utilizar, alguns browsers impedem este comportamento"
+msgstr "Torna o modo de depuração um pouco menos fácil de usar; alguns navegadores impedem esse comportamento"
 
 msgid "リダイレクトするURL"
-msgstr "URL para onde redirecionar"
+msgstr "URL para o qual redirecionar"
 
 msgid "利用規約などのページに転送すると良いでしょう"
-msgstr "Poderá querer reencaminhá-los para páginas como as Condições de utilização."
+msgstr "Talvez você queira encaminhá-los para páginas como os Termos de Uso."
 
 msgid "ソース表示を許可する権限"
-msgstr "Autoridade para permitir a visualização da fonte."
+msgstr "Autoridade para permitir a exibição da fonte."
 
 msgid "ADMINログイン時のみ通常のソース出力"
-msgstr "Saída de fonte normal apenas no login de ADMIN"
+msgstr "Saída de fonte normal somente no login de ADMIN"
 
 msgid "USERログインで通常のソース出力"
 msgstr "Saída de fonte normal com login de USUÁRIO"
 
 msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
-msgstr "Selecione se a saída HTML normal é apenas para administradores ou para o início de sessão do utilizador"
+msgstr "Selecione se a saída HTML normal é apenas para administradores ou para login de usuário"
 
 msgid "HTML保護時のHEADタグの出力"
-msgstr "Saída de etiquetas HEAD durante a proteção HTML"
+msgstr "Saída de tags HEAD durante a proteção de HTML"
 
 msgid "出力しない"
-msgstr "Sem saída"
+msgstr "Nenhuma saída"
 
 msgid "TITLEタグのみ"
-msgstr "Apenas a etiqueta TITLE"
+msgstr "Somente a tag TITLE"
 
 msgid "WordpressのHEADタグより取得"
-msgstr "Obtido a partir da etiqueta HEAD no Wordpress"
+msgstr "Recuperado da tag HEAD no Wordpress"
 
 msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
-msgstr "Para utilização empresarial, como páginas internas ou apenas para membros, sem saída ou apenas etiqueta TITLE é suficiente."
+msgstr "Para uso corporativo, como páginas internas ou somente para membros, sem saída ou somente tag TITLE é suficiente."
 
 msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
-msgstr "As imagens do OGP não serão exibidas em partilhas nas redes sociais, a menos que sejam retiradas da etiqueta HEAD do Wordpress"
+msgstr "As imagens do OGP não serão exibidas em compartilhamentos de redes sociais, a menos que sejam retiradas da tag HEAD do Wordpress"
 
 msgid "画像botをアクセス禁止にする"
-msgstr "Banir o bot de imagens."
+msgstr "Banimento do bot de imagens."
 
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitar os bots de imagem em relação ao HTML protege os conteúdos que não poderiam ser protegidos por ligações diretas a partir da pesquisa de imagens."
+msgstr "Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens."
 
 msgid "alertメッセージを表示する言語"
-msgstr "Língua em que a mensagem de alerta é apresentada."
+msgstr "Idioma em que a mensagem de alerta é exibida."
 
 msgid "Wordpressの言語"
-msgstr "Línguas do Wordpress."
+msgstr "Idiomas do Wordpress."
 
 msgid "ブラウザの設定言語"
-msgstr "Idioma de definição do navegador"
+msgstr "Idioma de configuração do navegador"
 
 msgid "メッセージをカスタム設定されている場合は言語を変更できません"
-msgstr "A língua não pode ser alterada se a mensagem for personalizada"
+msgstr "O idioma não pode ser alterado se a mensagem for personalizada"
 
 msgid "view-sourceメッセージを表示する言語"
-msgstr "Idioma em que são apresentadas as mensagens de origem da vista."
+msgstr "Idioma em que as mensagens do view-source são exibidas."
 
 msgid "一時使用トークンの有効期限"
 msgstr "Data de validade dos tokens de uso temporário."
@@ -358,58 +358,58 @@ msgid "画像URL情報を暗号化するのに一時使用トークンをパス�
 msgstr "Os tokens temporários são usados como senhas para criptografar as informações do URL da imagem, mas devem ser transformados em hash e definir a força do hash."
 
 msgid "基本設定"
-msgstr "Definição básica"
+msgstr "Configuração básica"
 
 msgid "高度な設定"
-msgstr "Definições avançadas"
+msgstr "Configurações avançadas"
 
 msgid "初期設定に戻す"
-msgstr "Reposição das predefinições"
+msgstr "Redefinição para o padrão"
 
 msgid "メッセージの設定"
-msgstr "Definições de mensagens"
+msgstr "Configurações de mensagens"
 
 msgid "右クリックやソースコード表示時に転送する URL を設定します"
-msgstr "Defina o URL a ser encaminhado quando clicar com o botão direito do rato ou visualizar o código fonte."
+msgstr "Defina o URL a ser encaminhado ao clicar com o botão direito do mouse ou visualizar o código-fonte."
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "O HTML não pode ser utilizado para mensagens de aviso"
+msgstr "HTML não pode ser usado para mensagens de aviso"
 
 msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
-msgstr "Se for definido neste ecrã, as definições de idioma no separador de definições avançadas são ignoradas"
+msgstr "Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas"
 
 msgid "以下の文字列が使用できます"
-msgstr "Podem ser utilizadas as seguintes cadeias de caracteres"
+msgstr "As seguintes cadeias de caracteres podem ser usadas"
 
 msgid "改行"
 msgstr "Nova linha"
 
 msgid "押下されたキー"
-msgstr "Tecla premida"
+msgstr "Tecla pressionada"
 
 msgid "Neo HTML Protector 設定"
-msgstr "Definições do Neo HTML Protetor"
+msgstr "Configurações do Neo HTML Protector"
 
 msgid "このプラグインについて"
-msgstr "Sobre este plugin."
+msgstr "Sobre esse plug-in."
 
 msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
-msgstr "Para limpar todos os dados, desinstale o plug-in e volte a instalá-lo"
+msgstr "Para limpar todos os dados, desinstale o plug-in e, em seguida, reinstale-o"
 
 msgid "Neo HTML Protectorについて"
-msgstr "Acerca do Neo HTML Protetor"
+msgstr "Sobre o Neo HTML Protector"
 
 msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
-msgstr "Este plugin tem como objetivo proteger o HTML, as imagens, etc. do seu Wordpress e protegê-lo contra a utilização não autorizada do seu conteúdo."
+msgstr "Esse plug-in tem o objetivo de proteger o HTML, as imagens etc. emitidos pelo Wordpress e protegê-lo contra o uso não autorizado de seu conteúdo."
 
 msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
-msgstr "Os conteúdos não podem ser perfeitamente protegidos. No entanto, se os avisar de todas as formas possíveis e se estiver preparado para o caso de acontecer alguma coisa, deverá conseguir resolvê-la de uma forma prescrita a nível nacional."
+msgstr "O conteúdo não pode ser perfeitamente protegido. No entanto, avisando-os de todas as maneiras possíveis e estando preparado caso algo aconteça, você poderá resolver o problema de maneira nacionalmente prescrita."
 
 msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
-msgstr "Naturalmente, terá de melhorar as suas condições de utilização e as políticas do sítio. Este plugin não é uma aplicação de geração de termos de utilização, mas pode dar-lhe uma pista."
+msgstr "É claro que você precisará aprimorar seus termos de uso e as políticas do site. Este plug-in não é um aplicativo de geração de termos de uso, mas pode lhe dar uma dica."
 
 msgid "開発者: 夜桜　なの"
-msgstr "Criador: Nano Yozakura"
+msgstr "Desenvolvedor: Nano Yozakura"
 
 msgid "バージョン"
 msgstr "Versão"
@@ -418,40 +418,40 @@ msgid "ビルド"
 msgstr "Construir"
 
 msgid "サポートページ"
-msgstr "Página de apoio"
+msgstr "Página de suporte"
 
 msgid "ISISちゃん"
 msgstr "ISIS chan"
 
 msgid "Miss. 裏まにら氏歌唱"
-msgstr "Menina cantada pelo Sr. Uramanira"
+msgstr "Srta. cantada pelo Sr. Uramanira"
 
 msgid "支援のお願い"
-msgstr "Pedido de assistência."
+msgstr "Solicitação de assistência."
 
 msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
-msgstr "Obrigado por utilizar o Neo HTML Protetor!"
+msgstr "Obrigado por usar o Neo HTML Protector!"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "Dedicámos muito tempo e sabedoria ao desenvolvimento e manutenção deste plugin e agradecemos eventuais donativos para nos ajudar a angariar fundos para melhorias e actualizações contínuas."
+msgstr "Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção deste plug-in, e ficaríamos gratos por doações, se houver, para nos ajudar a levantar fundos para melhorias e atualizações contínuas."
 
 msgid "寄付について"
-msgstr "Sobre os donativos"
+msgstr "Sobre as doações"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Os donativos são voluntários e não obrigatórios. Está aberto a toda a gente para que o plugin possa ser utilizado gratuitamente. No entanto, o seu apoio é muito apreciado para continuar o desenvolvimento e teremos todo o gosto em ajudar no que pudermos."
+msgstr "As doações são voluntárias e não obrigatórias. Elas estão abertas a todos para que o plug-in possa ser usado gratuitamente. No entanto, seu apoio é muito apreciado para continuar o desenvolvimento e ficaremos felizes em ajudar da maneira que pudermos."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
-msgstr "Os donativos podem ser feitos através da ligação abaixo. Se for do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar utilizando vales de oferta da Amazon."
+msgstr "As doações podem ser feitas por meio do link abaixo. Se você é do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar usando vales-presente da Amazon."
 
 msgid "寄付先"
 msgstr "Doador"
 
 msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
-msgstr "Com o vosso apoio, faremos o nosso melhor para vos trazer grandes actualizações no futuro!"
+msgstr "Com o seu apoio, faremos o possível para trazer ótimas atualizações no futuro!"
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
-msgstr "Agradecemos o vosso apoio e esperamos poder trabalhar convosco no futuro."
+msgstr "Agradecemos seu apoio e esperamos trabalhar com você no futuro."
 
 msgid "無効なIPアドレス"
 msgstr "Endereço IP inválido."
@@ -460,46 +460,46 @@ msgid "https://google.co.jp"
 msgstr "https://google.pt"
 
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Este sítio Web só pode ser visualizado com os cookies e o JavaScript activados"
+msgstr "Este site só pode ser visualizado com cookies e JavaScript ativados"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
-msgstr "O modo de depuração e a ativação da consola são proibidos"
+msgstr "O modo de depuração e a ativação do console são proibidos"
 
 msgid "以下の情報がサーバーに送信されました"
-msgstr "Foram enviadas as seguintes informações para o servidor"
+msgstr "As seguintes informações foram enviadas ao servidor"
 
 msgid "あなたのIPアドレス"
-msgstr "O seu endereço IP."
+msgstr "Seu endereço IP."
 
 msgid "あなたの端末とブラウザ"
-msgstr "O seu dispositivo e browser"
+msgstr "Seu dispositivo e navegador"
 
 msgid "あなたの押下したキー"
-msgstr "As suas teclas premidas."
+msgstr "Suas teclas pressionadas."
 
 msgid "リダイレクトをします"
-msgstr "Redireccionamentos."
+msgstr "Redirecionamentos."
 
 msgid "右クリックは禁止されています"
-msgstr "É proibido clicar com o botão direito do rato."
+msgstr "É proibido clicar com o botão direito do mouse."
 
 msgid "印刷、PDFへの保存は禁止されています"
-msgstr "É proibido imprimir e guardar em PDF"
+msgstr "É proibido imprimir e salvar em PDF"
 
 msgid "ページの保存は禁止されています"
-msgstr "É proibido guardar páginas."
+msgstr "É proibido salvar páginas."
 
 msgid "コピー、カットは禁止されています"
 msgstr "É proibido copiar ou cortar."
 
 msgid "あなたが起こしたイベント"
-msgstr "Eventos causados por si."
+msgstr "Eventos que você causou."
 
 msgid "HTMLソース表示は禁止されています"
-msgstr "É proibida a apresentação da fonte HTML."
+msgstr "A exibição do código-fonte HTML é proibida."
 
 msgid "不正アクセスは禁止されています"
-msgstr "É proibido o acesso não autorizado."
+msgstr "O acesso não autorizado é proibido."
 
 msgid "アラビア語"
 msgstr "Árabe"
@@ -508,7 +508,7 @@ msgid "ブルガリア語"
 msgstr "Búlgaro"
 
 msgid "チェコ語"
-msgstr "Checo"
+msgstr "Tcheco"
 
 msgid "デンマーク語"
 msgstr "Dinamarquês"
@@ -532,7 +532,7 @@ msgid "スペイン語"
 msgstr "Espanhol"
 
 msgid "エストニア語"
-msgstr "Estónio"
+msgstr "Estoniano"
 
 msgid "フィンランド語"
 msgstr "Finlandês"
@@ -565,10 +565,10 @@ msgid "ノルウェー語"
 msgstr "Norueguês"
 
 msgid "オランダ語"
-msgstr "Neerlandês"
+msgstr "Holandês"
 
 msgid "ポーランド語"
-msgstr "Polaco"
+msgstr "Polonês"
 
 msgid "ポルトガリア語"
 msgstr "Português"

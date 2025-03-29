@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -118,7 +118,7 @@ msgid "画像をダウンロードから保護します"
 msgstr "Beskytter bilder mot nedlasting."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Forhindrer nesten fullstendig nedlasting når bildedataene er beskyttet, utsteder en komplett engangsURL, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri."
+msgstr "Forhindrer nesten fullstendig nedlasting når bildedataene er beskyttet, utsteder en komplett engangsadresse, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
 msgstr "Caching av bilder fungerer ikke når bildedata er beskyttet, slik at nettstedet lastes inn langsommere ved neste besøk, noe som kan føre til dårligere SEO"
@@ -139,7 +139,7 @@ msgid "画像URLの保護"
 msgstr "Beskyttelse av bilde-URL-er"
 
 msgid "即時読み込みをして有効"
-msgstr "Virker med umiddelbar lasting."
+msgstr "Virker med umiddelbar innlasting."
 
 msgid "遅延読み込みをして有効"
 msgstr "Aktivert med forsinket lasting."
@@ -153,8 +153,8 @@ msgstr "Den leses dynamisk av JavaScript, noe som påvirker SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Utskrift av ASCII-kunst i HTML-kildekoden under HTML-tilsløring og -beskyttelse."
 
-msgid "なし"
-msgstr "Uten"
+msgid "表示なし"
+msgstr "Ingen indikasjon"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Vis ASCII-tegninger som indikerer intensjonen om å advare når HTML-kilde vises."
@@ -373,7 +373,7 @@ msgid "右クリックやソースコード表示時に転送する URL を設�
 msgstr "Angi URL-adressen som skal videresendes når du høyreklikker eller viser kildekode."
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "HTML kan ikke brukes for advarselsmeldinger"
+msgstr "HTML kan ikke brukes til advarselsmeldinger"
 
 msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
 msgstr "Hvis dette skjermbildet er valgt, ignoreres språkinnstillingene i fanen Avanserte innstillinger"

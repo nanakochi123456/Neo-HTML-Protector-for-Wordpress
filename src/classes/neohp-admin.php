@@ -287,7 +287,7 @@ class neohp_admin {
 					}
 					$value = esc_html(get_option('view_source_alert_asciiart', '0'));
 					echo wp_kses( $this->getselect("view_source_alert_asciiart", $value
-						, '0=' . __('なし', 'neo-html-protector')
+						, '0=' . __('表示なし', 'neo-html-protector')
 						, $warning_ascii_art_array
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );

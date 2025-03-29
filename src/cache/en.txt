@@ -4,11 +4,10 @@ IPアドレスログ	IP address log
 全クリア	All clear
 IPログが全て削除されました	All IP logs have been deleted.
 ID	ID
+タイムスタンプ	Time-stamping
 IPアドレス	IP address
 ユーザーエージェント	User agent
 イベント	Events
-URL	Uniform resouce locator
-日時	Date and Time
 IPアドレスのデータはありません	No IP address data available
 デバッグモード、コンソールの警告メッセージ	Debug mode, console warning messages
 右クリックの警告メッセージ	Right-click warning message
@@ -17,51 +16,136 @@ IPアドレスのデータはありません	No IP address data available
 HTMLソース表示時に表示するメッセージ	Message to be displayed when displaying HTML source
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Message to be displayed at the beginning of the source when HTML is obfuscated/protected
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Message displayed when one-time authentication token is abnormal during HTML protection
+CookieやJavascriptが有効でない場合に表示するメッセージ	Message displayed when cookies and Javascript are not enabled
+実際にはJavascriptが無効時のみ表示されます	In fact, it is only displayed when Javascript is disabled
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Message displayed on the image when the image is downloaded and the image is protected English only
 HTML難読化 (圧縮)	HTML obfuscation
 無効	Invalid
 有効	Validity
+一般的なHTML圧縮です、難読化解除のサイトもあります	General HTML compression, some sites offer de-obfuscation
 HTML保護	HTML Protection
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	More than HTML compression, only minimal HTML is output, and the content in the BODY tag is not output at all.
+view-source:の動作をされた時の記録もします	It also records when the view-source: operation is performed.
 有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	SEO may drop because of redirects whenever they are activated
+若干デザインが変わる可能性があります	Design may change slightly.
+画像の保護	Image Protection
+add_filterを使用して画像を保護	Protect images using add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Capture between wp_head and wp_footer to protect images
+画像をダウンロードから保護します	Protects images from downloading
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Almost completely prevents downloading when image data is protected, issues a complete one-time URL, authenticates with a token stored in the session, and displays the image from php, thus almost completely preventing image theft
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Image caching does not work when image data is protected, so the site will load slower the next time you visit, which may result in lower SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Database load may be higher when image data is protected
+add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	The method using add_filter filters img tags when they are published, while the method using wp_head to wp_footer processes all img tags in the content.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Please note that images specified as eye catchers will be spread as OGP and cannot be protected. If you must protect them, please change the output selection of the HEAD tag when HTML is protected in the advanced settings.
+OS標準搭載のスクリーンショット機能を保護することはできません	The OS standard built-in screenshot function cannot be protected
+画像URLの保護	Image URL Protection
+即時読み込みをして有効	Effective with immediate loading
+遅延読み込みをして有効	Effective with delayed loading.
+画像の保護と組み合わせて使用します、単体では意味がありません	Used in combination with image protection, it is not meaningful on its own
+JavaScriptにより動的に読まれますのでSEOに影響があります	It is read dynamically by JavaScript, which affects SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Output of ASCII art in HTML source code during HTML obfuscation and protection
+表示なし	No indication
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Displays ASCII art to indicate warning intent when HTML source is displayed
+ログインしていないブラウザーでソース表示を行って確認して下さい	Please confirm by viewing the source in a non-logged-in browser
 デバッグモード	Debug mode
 妨害＋記録のみ	Disturbance + record only
 妨害＋記録＋表示＋リダイレクト	Intercept + Record + Display + Redirect
+メニューからは操作できてしまいます	It can be operated from the menu.
 ブラウザーコンソール	Browser Console
+事実上デバッグモードから操作できてしまいます	In effect, it can be operated from debug mode!
 HTMLソース表示	HTML source display
+view-source:から始まるURLを入力すれば操作できてしまいます	You can operate it by entering a URL that starts with "view-source:".
 印刷	Printing
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Some browsers do not work well, although they prevent printing
+ページ保存	Page save
 右クリック	Right click
+アドオンがインストールされていると操作できてしまいます	If add-ons are installed, they can be operated
 コピー・カット	Copy-cut
+あまりこのイベントに遭遇することはありません	We don't run into this event very often.
 テキスト選択	Text selection
 デバッガー妨害	Debugger interference
-妨害	Interference
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Makes debug mode a little less usable, some browsers will stop this behavior
 リダイレクトするURL	URL to redirect
-HTML保護時のheadタグの出力	Output of head tag when HTML is protected
+利用規約などのページに転送すると良いでしょう	You may want to forward it to the Terms of Use and other pages
+ソース表示を許可する権限	Authority to allow source display
+ADMINログイン時のみ通常のソース出力	Normal source output only at ADMIN login
+USERログインで通常のソース出力	Normal source output with USER login
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Select whether normal HTML output is for administrators only or user login
+HTML保護時のHEADタグの出力	Output of HEAD tag during HTML protection
 出力しない	No output
-titleタグのみ	Title tag only
-Wordpressのheadタグより取得	Retrieved from Wordpress head tag
-HTML保護時の&lt;head&gt;タグの出力	HTML protection when
+TITLEタグのみ	TITLE tag only
+WordpressのHEADタグより取得	Retrieved from Wordpress HEAD tag
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For corporate use, such as members-only pages or internal pages, "No output" or "TITLE tag only" is fine.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag
+画像botをアクセス禁止にする	Ban the image bot
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	By avoiding image bots for HTML, you can protect content that could not be protected by direct links from image searches.
+alertメッセージを表示する言語	Language in which alert messages are displayed
+Wordpressの言語	Wordpress Language
+ブラウザの設定言語	Browser Preference Language
+メッセージをカスタム設定されている場合は言語を変更できません	Language cannot be changed if the message is set to custom
+view-sourceメッセージを表示する言語	Language in which view-source messages are displayed
+一時使用トークンの有効期限	Expiration date of temporary use tokens
+1分	One minute
+2分	2 minutes
+3分	3 minutes
+4分	4 minutes
+5分	5 min.
+6分	6 minutes
+7分	7 minutes
+8分	8 minutes
+9分	9 minutes
+10分	10 min.
+15分	15 min.
+20分	20 min.
+25分	25 min.
+30分	30 min.
+35分	35 min.
+40分	40 min.
+45分	45 min.
+50分	50 minutes
+55分	55 min.
+1時間	1 hour
+画像URL情報の有効期限を設定します	Sets the expiration date of the image URL information
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Once loaded, the image URL information and temporary use token will be disabled
+一時使用トークンのビット数	Number of bits in temporary use token
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifies the strength of the temporary use token used as a password to encrypt the image URL information
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	The intensity increases as you move down the drop-down menu, but the load on the server increases
+ハッシュ化アルゴリズム	Hashing algorithm
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Set the strength of the temporary tokens used as passwords to encrypt the image URL information, which must be hashed.
 基本設定	Basic setting
 高度な設定	Advanced Settings
+初期設定に戻す	Restore default settings
 メッセージの設定	Message Settings
 右クリックやソースコード表示時に転送する URL を設定します	Set the URL to be forwarded when right-clicking or viewing source code
 警告メッセージにはHTMLは使用できません	HTML is not allowed in warning messages
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Setting on this screen ignores the language settings on the Advanced tab
 以下の文字列が使用できます	The following strings can be used
 改行	New line
 押下されたキー	Pressed key
+Neo HTML Protector 設定	Neo HTML Protector Settings
+このプラグインについて	About this Plug-in
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	To clear all data, uninstall the plugin and install it again
 Neo HTML Protectorについて	About Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	This plugin is intended to protect the HTML, images, etc. output from your Wordpress to protect against unauthorized use of your content!
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	This plugin is intended to protect the HTML, images, etc. output from your Wordpress and to protect your content from unauthorized use.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	We cannot protect the content perfectly, but we can warn people in every possible way and be prepared if something happens. However, by warning them in every way possible and being prepared for any eventuality, they should be able to resolve it in a nationally mandated manner.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Of course, you will need to enhance your Terms of Use and Site Policies. This plugin is not a terms of use generation application, but it can give you a hint.
 開発者: 夜桜　なの	Developer: Nano Yozakura
 バージョン	Version
+ビルド	Build
 サポートページ	Support Page
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. Uramanira sings
 支援のお願い	Request for Support
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Thank you for using Neo HTML Protector!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	The development and maintenance of this plugin has taken a lot of time and wisdom, and we would appreciate a donation, if any, to help us raise funds for continued improvements and updates.
 寄付について	About Donations
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donations are voluntary and not mandatory. Anyone is welcome to use our plug-ins free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can.
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donations are voluntary and not mandatory. Anyone is welcome to use the plugin free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donations can be made by clicking on the link below. If you are in Japan, you can also donate for free, and furthermore, you can easily donate with Amazon gift certificates.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	With your support, we will do our best to bring you great updates in the future!
 寄付先	Donations
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	With your support, we will do our best to bring you great updates in the future!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	We appreciate your support and look forward to working with you in the future.
+無効なIPアドレス	Invalid IP address
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	This website can only be viewed with cookies and JavaScript enabled
 デバッグモード、コンソールの起動は禁止されています	Debug mode and console activation is prohibited
 以下の情報がサーバーに送信されました	The following information has been sent to the server
 あなたのIPアドレス	Your IP address
@@ -70,24 +154,11 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	T
 リダイレクトをします	Redirects.
 右クリックは禁止されています	Right-clicking is prohibited
 印刷、PDFへの保存は禁止されています	Printing and saving to PDF is prohibited
+ページの保存は禁止されています	Saving pages is prohibited
 コピー、カットは禁止されています	Copying or cutting is prohibited
 あなたが起こしたイベント	Events you have caused
 HTMLソース表示は禁止されています	HTML source display is prohibited
 不正アクセスは禁止されています	Unauthorized access is prohibited.
-画像が見つかりません	Image not found
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	This website can only be viewed with cookies and JavaScript enabled
-HTML保護時の一度限りのトークンのチェック	One-time token checks during HTML protection
-初期設定に戻す	Restore default settings
-このプラグインについて	About this Plug-in
-Neo HTML Protector 設定, 	Neo HTML Protector Settings,.
-Neo HTML Protector 設定	Neo HTML Protector Settings
-HTML保護時のHEADタグの出力	Output of HEAD tag during HTML protection
-TITLEタグのみ	TITLE tag only
-WordpressのHEADタグより取得	Retrieved from Wordpress HEAD tag
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	To clear all data, uninstall the plugin and install it again
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. Uramanira sings
-タイムスタンプ	Time-stamping
 アラビア語	Arabic
 ブルガリア語	Bulgarian
 チェコ語	Czech
@@ -124,113 +195,4 @@ Miss. 裏まにら氏歌唱	Miss. Uramanira sings
 中国語	Chinese
 簡体中国語	Simplified Chinese
 繁体中国語	Traditional Chinese
-alertメッセージを表示する言語	Language in which alert messages are displayed
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress Languages / Custom configured messages
-ブラウザの設定言語	Browser Preference Language
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Changing the setting from the default will disable custom messages
-view-sourceメッセージを表示する言語	Language in which view-source messages are displayed
-Wordpressの言語	Wordpress Language
-メッセージをカスタム設定されている場合は言語を変更できません	Language cannot be changed if the message is set to custom
-view-source:の動作をされた時の記録もします	It also records when the view-source: operation is performed.
-HTMLのコメントタグを使用	Use HTML comment tags
-INPUT TYPE=\	INPUT TYPE=\\
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Setting on this screen ignores the language settings on the Advanced tab
-INPUT TYPE=HIDDEN タグを使用	Use INPUT TYPE=HIDDEN tag
-META NAME=ALERT タグを使用	Use the META NAME=ALERT tag
-HTML難読化・保護時のHEADタグの出力	Output of HEAD tags during HTML obfuscation and protection
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Output of ASCII art in HTML source code during HTML obfuscation and protection
-フォント	Font
-なし	Nashi
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Only the word WARNING is shown. Please confirm by viewing the source in a non-logged-in browser.
-ページ保存	Page save
-ページの保存は禁止されています	Saving pages is prohibited
-一般的なHTML圧縮です、難読化解除のサイトもあります	General HTML compression, some sites offer de-obfuscation
-HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	More than HTML compression, only minimal HTML is output, and the content in the BODY tag is not output at all.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Please confirm by viewing the source in a non-logged-in browser.
-メニューからは操作できてしまいます	It can be operated from the menu.
-事実上デバッグモードから操作できてしまいます	In effect, it can be operated from debug mode!
-view-source:から始まるURLを入力すれば操作できてしまいます	You can operate it by entering a URL that starts with "view-source:".
-アドオンがインストールされていると操作できてしまいます	If add-ons are installed, they can be operated
-あまりこのイベントに遭遇することはありません	We don't run into this event very often.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Makes debug mode a little less usable, some browsers will stop this behavior
-利用規約などのページに転送すると良いでしょう	You may want to forward it to the Terms of Use and other pages
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For corporate use, such as members-only pages or internal pages, "No output" or "TITLE tag only" is fine.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP images will not show up in SNS shares unless they are taken from the Wordpress HEAD tag
-ログインしていないブラウザーでソース表示を行って確認して下さい	Please confirm by viewing the source in a non-logged-in browser
-画像botをアクセス禁止にする	Ban the image bot
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	By avoiding image bots, you can protect content that could not be protected by direct links from image search.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	This plugin is intended to protect the HTML, images, etc. output from your Wordpress and to protect your content from unauthorized use.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	We cannot protect the content perfectly, but we can warn people in every possible way and be prepared if something happens. However, by warning them in every way possible and being prepared for any eventuality, they should be able to resolve it in a nationally mandated manner.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Of course, you will need to enhance your Terms of Use and Site Policies. This plugin is not a terms of use generation application, but it can give you a hint.
-ソース表示を許可する権限	Authority to allow source display
-ADMINログイン時のみ通常のソース出力	Normal source output only at ADMIN login
-USERログインで通常のソース出力	Normal source output with USER login
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Select whether normal HTML output is for administrators only or user login
-ビルド	Build
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	By avoiding image bots for HTML, you can protect content that could not be protected by direct links from image searches.
-無効なIPアドレス	Invalid IP address
-無効なユーザーエイジェント	Invalid user agent
-若干デザインが変わる可能性があります	Design may change slightly.
-画像をダウンロードから保護します	Protects images from downloading
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Whenever you enable it, JavaScript will be loaded before images are loaded, so SEO may be degraded
-画像の保護	Image Protection
-画像URLのみ保護	Only the image URL is protected
-画像データも保護	Image data is also protected
-画像は遅延読み込みをします	Images are loaded with delay.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Image caching does not work when image data is also protected, so the site will load slower on the next visit, which may result in a drop in SEO
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	If you want to protect image data as well, you can also place restrictions in /wp-contents/uploads with a .htaccess file
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	When only the image URL is protected, the image will be delayed loading, otherwise the default set by Wordpress will be used
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Database load may increase when image data is also protected
-CookieやJavascriptが有効でない場合に表示するメッセージ	Message displayed when cookies and Javascript are not enabled
-実際にはJavascriptが無効時のみ表示されます	In fact, it is only displayed when Javascript is disabled
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	When only the image URL is protected, only the image URL is protected, and the actual image transfer is decrypted by JavaScript and then the image is displayed in a general way.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	When image data is also protected, it prevents almost complete downloading, issues a complete one-time URL, authenticates with a token stored in the session, and displays the image from php, thus preventing almost complete image theft.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Whenever you enable image URL-only protection, JavaScript is always loaded before the image is loaded, so SEO may suffer!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Displays ASCII art to indicate warning intent when HTML source is displayed
-画像を保護	Image Protection
-画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Almost completely prevents downloading when image data is protected, issues a complete one-time URL, authenticates with a token stored in the session, and displays the image from php, thus almost completely preventing image theft
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Image caching does not work when image data is protected, so the site will load slower the next time you visit, which may result in lower SEO
-画像データを保護した時には、データベースの負荷が高くなる可能性があります	Database load may be higher when image data is protected
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Please note that images specified as eye catchers will be spread as OGP and cannot be protected. If you must protect them, please change the output selection of the HEAD tag when HTML is protected in the advanced settings.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ (英語のみ)	Message displayed when an image is downloaded and the image is protected
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Message displayed on the image when the image is downloaded and the image is protected English only
-add_filterを使用して画像を保護	Protect images using add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Capture between wp_head and wp_footer to protect images
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	The method using add_filter filters img tags when they are published, while the method using wp_head to wp_footer processes all img tags in the content.
-OS標準搭載のスクリーンショット機能を保護することはできません	The OS standard built-in screenshot function cannot be protected
-一時使用トークンのビット数	Number of bits in temporary use token
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Use a temporary use token as a password, but specify its strength
-ハッシュ化アルゴリズム	Hashing algorithm
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Set the strength of the temporary tokens used as passwords, which must be hashed.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifies the strength of the temporary use token used as a password to encrypt the image URL information
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Set the strength of the temporary tokens used as passwords to encrypt the image URL information, which must be hashed.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて、サーバーへの負荷が高くなります	The load on the server increases as you move down the drop-down menu to the lower choices
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	The intensity increases as you move down the drop-down menu, but the load on the server increases
-画像URLの保護	Image URL Protection
-即時読み込みをして有効	Effective with immediate loading
-遅延読み込みをして有効	Effective with delayed loading.
-画像の保護と組み合わせて使用します、単体では意味がありません	Used in combination with image protection, it is not meaningful on its own
-JavaScriptにより動的に読まれますのでSEOに影響があります	It is read dynamically by JavaScript, which affects SEO.
-一時使用トークンの有効期限	Expiration date of temporary use tokens
-1分	One minute
-2分	2 minutes
-3分	3 minutes
-4分	4 minutes
-5分	5 min.
-6分	6 minutes
-7分	7 minutes
-8分	8 minutes
-9分	9 minutes
-10分	10 min.
-15分	15 min.
-20分	20 min.
-25分	25 min.
-30分	30 min.
-35分	35 min.
-40分	40 min.
-45分	45 min.
-50分	50 minutes
-55分	55 min.
-1時間	1 hour
-画像URL情報の有効期限を設定します	Sets the expiration date of the image URL information
-一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Once loaded, the image URL information and temporary use token will be disabled
+画像が見つかりません	Image not found

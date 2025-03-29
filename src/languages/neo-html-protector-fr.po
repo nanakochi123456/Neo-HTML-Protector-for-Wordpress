@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -153,8 +153,8 @@ msgstr "Il est lu dynamiquement par JavaScript, ce qui affecte le référencemen
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML."
 
-msgid "なし"
-msgstr "Aucun."
+msgid "表示なし"
+msgstr "Aucune indication"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Afficher un dessin ASCII indiquant l'intention d'avertir lorsque la source HTML est affichée."

@@ -4,10 +4,10 @@ IPアドレスログ	IP-adresselogg
 全クリア	Alt klart.
 IPログが全て削除されました	Alle IP-logger er slettet.
 ID	ID
+タイムスタンプ	Tidsstempling
 IPアドレス	IP-adresse
 ユーザーエージェント	Brukeragent
 イベント	Arrangement
-日時	Dato og klokkeslett
 IPアドレスのデータはありません	Ingen IP-adressedata tilgjengelig.
 デバッグモード、コンソールの警告メッセージ	Feilsøkingsmodus, advarselsmeldinger på konsollen.
 右クリックの警告メッセージ	Høyreklikk på advarselsmeldinger.
@@ -16,192 +16,74 @@ IPアドレスのデータはありません	Ingen IP-adressedata tilgjengelig.
 HTMLソース表示時に表示するメッセージ	Melding som skal vises når HTML-kilde vises
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Melding som skal vises i begynnelsen av kildekode når HTML er obfuskert og beskyttet.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Melding som vises hvis engangstokenet for autentisering er unormalt under HTML-beskyttelse.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Melding som vises hvis informasjonskapsler og Javascript ikke er aktivert.
+実際にはJavascriptが無効時のみ表示されます	I praksis er dette bare synlig når Javascript er deaktivert.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Melding som vises på bildet når bildet er lastet ned og bildet er beskyttet Kun på engelsk
 HTML難読化 (圧縮)	HTML-tilsløring
 無効	Ugyldig
 有効	Gyldighet
+一般的なHTML圧縮です、難読化解除のサイトもあります	Generell HTML-komprimering, noen nettsteder har de-obfuscation.
 HTML保護	HTML-beskyttelse
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Bare minimal HTML skrives ut utover HTML-komprimering, og innholdet i BODY-taggen skrives ikke ut i det hele tatt.
+view-source:の動作をされた時の記録もします	Den registrerer også når handlingen view-source: utføres.
 有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Hver gang den aktiveres, skjer det en omdirigering, noe som kan resultere i en nedgang i SEO
+若干デザインが変わる可能性があります	Designet kan endres noe.
+画像の保護	Bildebeskyttelse.
+add_filterを使用して画像を保護	Beskytt bilder ved hjelp av add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Ta og beskytt bilder mellom wp_head og wp_footer
+画像をダウンロードから保護します	Beskytter bilder mot nedlasting.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Forhindrer nesten fullstendig nedlasting når bildedataene er beskyttet, utsteder en komplett engangsadresse, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching av bilder fungerer ikke når bildedata er beskyttet, slik at nettstedet lastes inn langsommere ved neste besøk, noe som kan føre til dårligere SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Databasebelastningen kan være høyere når bildedata er beskyttet
+add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoden som bruker add_filter filtrerer img-koder når de publiseres, mens metoden som bruker wp_head to wp_footer behandler alle img-koder i innholdet.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Merk at bilder som er angitt som iøynefallende, spres som OGP og kan ikke beskyttes. Hvis du må beskytte dem, må du endre valget av utdata for HEAD-taggen når du beskytter HTML i de avanserte innstillingene.
+OS標準搭載のスクリーンショット機能を保護することはできません	Skjermbildefunksjonen i standard OS kan ikke beskyttes
+画像URLの保護	Beskyttelse av bilde-URL-er
+即時読み込みをして有効	Virker med umiddelbar innlasting.
+遅延読み込みをして有効	Aktivert med forsinket lasting.
+画像の保護と組み合わせて使用します、単体では意味がありません	Den brukes i kombinasjon med bildebeskyttelse, men er ikke meningsfull alene.
+JavaScriptにより動的に読まれますのでSEOに影響があります	Den leses dynamisk av JavaScript, noe som påvirker SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Utskrift av ASCII-kunst i HTML-kildekoden under HTML-tilsløring og -beskyttelse.
+表示なし	Ingen indikasjon
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vis ASCII-tegninger som indikerer intensjonen om å advare når HTML-kilde vises.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Sjekk ved å vise kilden i en nettleser som ikke er innlogget
 デバッグモード	Feilsøkingsmodus
 妨害＋記録のみ	Kun forstyrrelser + opptak.
 妨害＋記録＋表示＋リダイレクト	Avskjære + registrere + vise + omdirigere
+メニューからは操作できてしまいます	Den kan betjenes fra menyen.
 ブラウザーコンソール	Nettleserkonsoll
+事実上デバッグモードから操作できてしまいます	Du kan i praksis operere fra feilsøkingsmodus.
 HTMLソース表示	Visning av HTML-kilde
+view-source:から始まるURLを入力すれば操作できてしまいます	Den kan brukes ved å skrive inn en URL som begynner med view-source:.
 印刷	Utskrift
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Utskriftsblokkering, men fungerer ikke bra i enkelte nettlesere
+ページ保存	Side lagre
 右クリック	Høyreklikk
+アドオンがインストールされていると操作できてしまいます	Den kan betjenes hvis tilleggsprogrammer er installert.
 コピー・カット	Copy-cut
+あまりこのイベントに遭遇することはありません	Det er ikke så ofte vi opplever dette.
 テキスト選択	Tekstvalg
 デバッガー妨害	Forstyrrelser i feilsøkingsprogrammet
-妨害	Forstyrrelser
-リダイレクトするURL	URL å omdirigere til
-HTML保護時のHEADタグの出力	Utdata av HEAD-koder under HTML-beskyttelse
-出力しない	Ingen utgang
-TITLEタグのみ	Kun TITLE-taggen
-WordpressのHEADタグより取得	Hentet fra HEAD-taggen i Wordpress
-HTML保護時の一度限りのトークンのチェック	Engangskontroll av token under HTML-beskyttelse.
-基本設定	Grunninnstilling
-高度な設定	Avanserte innstillinger
-メッセージの設定	Innstillinger for meldinger
-右クリックやソースコード表示時に転送する URL を設定します	Angi URL-adressen som skal videresendes når du høyreklikker eller viser kildekode.
-警告メッセージにはHTMLは使用できません	HTML kan ikke brukes for advarselsmeldinger
-以下の文字列が使用できます	Følgende strenger kan brukes
-改行	Ny linje
-押下されたキー	Trykk på tasten
-Neo HTML Protector 設定	Innstillinger for Neo HTML Protector
-初期設定に戻す	Tilbakestilling til standard
-このプラグインについて	Om denne plugin-modulen.
-Neo HTML Protectorについて	Om Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Denne utvidelsen har som mål å beskytte HTML, bilder osv. som sendes ut fra Wordpress, og beskytte den mot uautorisert bruk av innholdet!
-開発者: 夜桜　なの	Utvikler: Nano Yozakura
-バージョン	Versjon
-サポートページ	Support-siden
-支援のお願い	Anmodning om assistanse.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Takk for at du bruker Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Vi har brukt mye tid og visdom på å utvikle og vedlikeholde denne utvidelsen, og vi er takknemlige for eventuelle donasjoner som kan hjelpe oss med å skaffe midler til fortsatte forbedringer og oppdateringer.
-寄付について	Om donasjoner
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasjoner er frivillige og ikke obligatoriske. Det er åpent for alle, slik at plugin-modulen kan brukes gratis. Vi setter imidlertid stor pris på din støtte for å fortsette utviklingen, og vi hjelper gjerne til på alle måter vi kan.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasjoner kan gjøres via lenken nedenfor. Hvis du er fra Japan, kan du også donere gratis, og dessuten kan du enkelt donere ved hjelp av Amazon-gavekort.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Med din støtte vil vi gjøre vårt beste for å gi deg flotte oppdateringer i fremtiden!
-寄付先	Giver
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi takker for støtten og ser frem til å samarbeide med dere i fremtiden.
-デバッグモード、コンソールの起動は禁止されています	Feilsøkingsmodus og konsollaktivering er forbudt
-以下の情報がサーバーに送信されました	Følgende informasjon har blitt sendt til serveren
-あなたのIPアドレス	IP-adressen din.
-あなたの端末とブラウザ	Din enhet og nettleser
-あなたの押下したキー	Tastene du har trykket på.
-リダイレクトをします	Viderekoblinger.
-右クリックは禁止されています	Det er forbudt å høyreklikke.
-印刷、PDFへの保存は禁止されています	Utskrift og lagring til PDF er forbudt
-コピー、カットは禁止されています	Kopiering eller klipping er forbudt.
-あなたが起こしたイベント	Hendelser du forårsaket.
-HTMLソース表示は禁止されています	Det er forbudt å vise HTML-kilder.
-不正アクセスは禁止されています	Uautorisert tilgang er forbudt.
-画像が見つかりません	Bildet ble ikke funnet.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Dette nettstedet kan bare vises med informasjonskapsler og JavaScript aktivert
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	For å slette alle data avinstallerer du plugin-modulen og installerer den deretter på nytt
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. sunget av Mr. Uramanira
-タイムスタンプ	Tidsstempling
-alertメッセージを表示する言語	Språk som varselmeldingen vises på.
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress-språk / spesialkonfigurerte meldinger
-ブラウザの設定言語	Språk for nettleserinnstillinger
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Hvis du endrer innstillingen fra standardinnstillingen, deaktiveres egendefinerte meldinger
-view-sourceメッセージを表示する言語	Språk som meldingene i visningskilden vises på.
-アラビア語	Arabisk
-ブルガリア語	Bulgarsk
-イギリス英語	Britisk engelsk
-アメリカ英語	Amerikansk engelsk
-フィンランド語	Finsk
-インドネシア語	Indonesisk
-イタリア語	Italiensk
-朝鮮語	Koreansk
-ラトビア語	Latvisk
-ノルウェー語	Norsk
-ヨーロピアンポルトガル語	Europeisk portugisisk
-ルーマニア語	Rumensk
-ロシア語	Russisk
-スロバキア語	Slovakisk
-トルコ語	Tyrkisk
-ウクライナ語	Ukrainsk
-簡体中国語	Forenklet kinesisk
-繁体中国語	Tradisjonell kinesisk
-チェコ語	Tsjekkisk
-デンマーク語	Dansk
-ドイツ語	Tysk
-現代ギリシア語	Moderne gresk
-英語	Engelsk
-スペイン語	Spansk
-ポーランド語	Polsk
-ポルトガリア語	Portugisisk
-ブラジルポルトガル語	Brasiliansk portugisisk
-スロベニア語	Slovensk
-スウェーデン語	Svensk
-中国語	Kinesisk
-エストニア語	Estisk
-フランス語	Fransk
-ハンガリー語	Ungarsk
-日本語	Japansk
-リトアニア語	Litauisk
-オランダ語	Nederlandsk
-Wordpressの言語	Wordpress-språk.
-メッセージをカスタム設定されている場合は言語を変更できません	Språket kan ikke endres hvis meldingen er tilpasset
-view-source:の動作をされた時の記録もします	Den registrerer også når handlingen view-source: utføres.
-HTMLのコメントタグを使用	Bruk HTML-kommentarer.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Bruk tag.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Hvis dette skjermbildet er valgt, ignoreres språkinnstillingene i fanen Avanserte innstillinger
-META NAME=ALERT タグを使用	Bruk META NAME=ALERT-taggen.
-HTML難読化・保護時のHEADタグの出力	Utdata fra HEAD-tagger under tilsløring og beskyttelse av HTML
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Utskrift av ASCII-kunst i HTML-kildekoden under HTML-tilsløring og -beskyttelse.
-フォント	Skrifttype
-なし	Uten
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Bare ordet ADVARSEL vises. Kontroller ved å vise kilden i en nettleser som ikke er logget inn.
-ページ保存	Side lagre
-ページの保存は禁止されています	Det er forbudt å lagre sider.
-一般的なHTML圧縮です、難読化解除のサイトもあります	Generell HTML-komprimering, noen nettsteder har de-obfuscation.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Sjekk ved å vise kilden i en nettleser som ikke er innlogget.
-メニューからは操作できてしまいます	Den kan betjenes fra menyen.
-アドオンがインストールされていると操作できてしまいます	Den kan betjenes hvis tilleggsprogrammer er installert.
-あまりこのイベントに遭遇することはありません	Det er ikke så ofte vi opplever dette.
-HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Bare minimal HTML skrives ut utover HTML-komprimering, og innholdet i BODY-taggen skrives ikke ut i det hele tatt.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Sjekk ved å vise kilden i en nettleser som ikke er innlogget
-事実上デバッグモードから操作できてしまいます	Du kan i praksis operere fra feilsøkingsmodus.
-view-source:から始まるURLを入力すれば操作できてしまいます	Den kan brukes ved å skrive inn en URL som begynner med view-source:.
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Gjør feilsøkingsmodus litt mindre brukervennlig, noen nettlesere stopper denne oppførselen
+リダイレクトするURL	URL å omdirigere til
 利用規約などのページに転送すると良いでしょう	Det kan være lurt å videresende dem til sider som for eksempel vilkårene for bruk.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For bedriftsbruk, for eksempel sider som bare er for medlemmer eller interne sider, er "ingen utdata" eller "kun TITLE-tagg" helt greit.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder vil ikke vises i sosiale nettverk med mindre de er hentet fra Wordpress HEAD-taggen
-画像botをアクセス禁止にする	Forbud mot bilderoboten.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Ved å unngå bilderoboter beskyttes innhold som ikke kan beskyttes av direkte lenker fra bildesøk
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Denne utvidelsen har som mål å beskytte HTML, bilder osv. som sendes ut fra Wordpress, og beskytte den mot uautorisert bruk av innholdet.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Innhold kan ikke beskyttes perfekt. Men ved å advare dem på alle mulige måter og være forberedt hvis noe skulle skje, bør du kunne løse det på en nasjonalt forskriftsmessig måte.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Du må selvfølgelig forbedre vilkårene for bruk og retningslinjene for nettstedet. Denne plugin-modulen er ikke en app som genererer brukervilkår, men den kan gi deg et hint.
 ソース表示を許可する権限	Myndighet til å tillate kildevisning.
 ADMINログイン時のみ通常のソース出力	Normal kildeutgang kun ved ADMIN-pålogging
 USERログインで通常のソース出力	Normal kildeutgang med USER-pålogging
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Velg om normal HTML-utdata kun skal være for administratorer eller brukerinnlogging
-ビルド	Bygge
+HTML保護時のHEADタグの出力	Utdata av HEAD-koder under HTML-beskyttelse
+出力しない	Ingen utgang
+TITLEタグのみ	Kun TITLE-taggen
+WordpressのHEADタグより取得	Hentet fra HEAD-taggen i Wordpress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	For bedriftsbruk, for eksempel sider som bare er for medlemmer eller interne sider, er "ingen utdata" eller "kun TITLE-tagg" helt greit.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder vil ikke vises i sosiale nettverk med mindre de er hentet fra Wordpress HEAD-taggen
+画像botをアクセス禁止にする	Forbud mot bilderoboten.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Ved å unngå bilderoboter i forhold til HTML beskytter man innhold som ikke kan beskyttes av direkte lenker fra bildesøk.
-無効なIPアドレス	Ugyldig IP-adresse.
-無効なユーザーエイジェント	Ugyldig brukeragent.
-若干デザインが変わる可能性があります	Designet kan endres noe.
-画像をダウンロードから保護します	Beskytter bilder mot nedlasting.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Når du aktiverer det, lastes JavaScript inn før bildene lastes inn, slik at SEO kan falle
-画像の保護	Bildebeskyttelse.
-画像URLのみ保護	Bare URL-adresser til bilder er beskyttet.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching av bilder fungerer ikke når bildedata også er beskyttet, slik at nettstedet lastes inn saktere ved neste besøk, noe som kan føre til dårligere SEO
-画像データも保護	Bildedata er også beskyttet
-画像は遅延読み込みをします	Bilder lastes inn med forsinkelse.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Hvis du også ønsker å beskytte bildedataene dine, kan du legge inn begrensninger i /wp-contents/uploads med en .htaccess-fil.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Når bare bilde-URL-en er beskyttet, vil bildet lastes inn med forsinkelse, ellers vil standardinnstillingen som er angitt av Wordpress, bli brukt
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Når bildedata også er beskyttet, kan databasen bli overbelastet
-CookieやJavascriptが有効でない場合に表示するメッセージ	Melding som vises hvis informasjonskapsler og Javascript ikke er aktivert.
-実際にはJavascriptが無効時のみ表示されます	I praksis er dette bare synlig når Javascript er deaktivert.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Når bare bilde-URL-en er beskyttet, dekrypteres selve bildeoverføringen av JavaScript, og bildet vises på en generisk måte.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Bildedata forhindrer også nesten fullstendig nedlasting når de er beskyttet, utsteder en komplett engangsadresse, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Når du aktiverer URL-beskyttelse for bilder, lastes JavaScript alltid inn før bildet lastes inn, så SEO kan bli skadelidende!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vis ASCII-tegninger som indikerer intensjonen om å advare når HTML-kilde vises.
-画像を保護	Bildebeskyttelse.
-画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Forhindrer nesten fullstendig nedlasting når bildedataene er beskyttet, utsteder en komplett engangsURL, autentiserer med et token som er lagret i økten og viser bildet fra php, og forhindrer dermed nesten fullstendig bildetyveri.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching av bilder fungerer ikke når bildedata er beskyttet, slik at nettstedet lastes inn langsommere ved neste besøk, noe som kan føre til dårligere SEO
-画像データを保護した時には、データベースの負荷が高くなる可能性があります	Databasebelastningen kan være høyere når bildedata er beskyttet
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Merk at bilder som er angitt som iøynefallende, spres som OGP og kan ikke beskyttes. Hvis du må beskytte dem, må du endre valget av utdata for HEAD-taggen når du beskytter HTML i de avanserte innstillingene.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Melding som vises på bildet når bildet er lastet ned og bildet er beskyttet Kun på engelsk
-add_filterを使用して画像を保護	Beskytt bilder ved hjelp av add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Ta og beskytt bilder mellom wp_head og wp_footer
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoden som bruker add_filter filtrerer img-koder når de publiseres, mens metoden som bruker wp_head to wp_footer behandler alle img-koder i innholdet.
-OS標準搭載のスクリーンショット機能を保護することはできません	Skjermbildefunksjonen i standard OS kan ikke beskyttes
-一時使用トークンのビット数	Antall bits i tokens for midlertidig bruk
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Midlertidige tokens brukes som passord, men angir styrken
-ハッシュ化アルゴリズム	Hashing-algoritme
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens brukes som passord, men de må hashes; angi styrken på hashingen.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Angir styrken på det midlertidige brukstokenet som brukes som passord for å kryptere bilde-URL-informasjonen
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens brukes som passord for å kryptere bilde-URL-informasjonen, men de må hashes, og styrken på hashingen må stilles inn.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten øker etter hvert som du går til alternativene som er oppført under rullegardinmenyen, men belastningen på serveren øker
-画像URLの保護	Beskyttelse av bilde-URL-er
-即時読み込みをして有効	Virker med umiddelbar lasting.
-遅延読み込みをして有効	Aktivert med forsinket lasting.
-画像の保護と組み合わせて使用します、単体では意味がありません	Den brukes i kombinasjon med bildebeskyttelse, men er ikke meningsfull alene.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Den leses dynamisk av JavaScript, noe som påvirker SEO.
+alertメッセージを表示する言語	Språk som varselmeldingen vises på.
+Wordpressの言語	Wordpress-språk.
+ブラウザの設定言語	Språk for nettleserinnstillinger
+メッセージをカスタム設定されている場合は言語を変更できません	Språket kan ikke endres hvis meldingen er tilpasset
+view-sourceメッセージを表示する言語	Språk som meldingene i visningskilden vises på.
 一時使用トークンの有効期限	Utløpsdato for tokens for midlertidig bruk.
 1分	Ett minutt
 2分	2 minutter
@@ -225,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Den
 1時間	1 time
 画像URL情報の有効期限を設定します	Angir utløpsdatoen for bilde-URL-informasjonen.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Når bildet er lastet inn, deaktiveres URL-informasjonen og midlertidige brukstokener
+一時使用トークンのビット数	Antall bits i tokens for midlertidig bruk
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Angir styrken på det midlertidige brukstokenet som brukes som passord for å kryptere bilde-URL-informasjonen
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten øker etter hvert som du går til alternativene som er oppført under rullegardinmenyen, men belastningen på serveren øker
+ハッシュ化アルゴリズム	Hashing-algoritme
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Midlertidige tokens brukes som passord for å kryptere bilde-URL-informasjonen, men de må hashes, og styrken på hashingen må stilles inn.
+基本設定	Grunninnstilling
+高度な設定	Avanserte innstillinger
+初期設定に戻す	Tilbakestilling til standard
+メッセージの設定	Innstillinger for meldinger
+右クリックやソースコード表示時に転送する URL を設定します	Angi URL-adressen som skal videresendes når du høyreklikker eller viser kildekode.
+警告メッセージにはHTMLは使用できません	HTML kan ikke brukes til advarselsmeldinger
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Hvis dette skjermbildet er valgt, ignoreres språkinnstillingene i fanen Avanserte innstillinger
+以下の文字列が使用できます	Følgende strenger kan brukes
+改行	Ny linje
+押下されたキー	Trykk på tasten
+Neo HTML Protector 設定	Innstillinger for Neo HTML Protector
+このプラグインについて	Om denne plugin-modulen.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	For å slette alle data avinstallerer du plugin-modulen og installerer den deretter på nytt
+Neo HTML Protectorについて	Om Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Denne utvidelsen har som mål å beskytte HTML, bilder osv. som sendes ut fra Wordpress, og beskytte den mot uautorisert bruk av innholdet.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Innhold kan ikke beskyttes perfekt. Men ved å advare dem på alle mulige måter og være forberedt hvis noe skulle skje, bør du kunne løse det på en nasjonalt forskriftsmessig måte.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Du må selvfølgelig forbedre vilkårene for bruk og retningslinjene for nettstedet. Denne plugin-modulen er ikke en app som genererer brukervilkår, men den kan gi deg et hint.
+開発者: 夜桜　なの	Utvikler: Nano Yozakura
+バージョン	Versjon
+ビルド	Bygge
+サポートページ	Support-siden
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. sunget av Mr. Uramanira
+支援のお願い	Anmodning om assistanse.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Takk for at du bruker Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Vi har brukt mye tid og visdom på å utvikle og vedlikeholde denne utvidelsen, og vi er takknemlige for eventuelle donasjoner som kan hjelpe oss med å skaffe midler til fortsatte forbedringer og oppdateringer.
+寄付について	Om donasjoner
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasjoner er frivillige og ikke obligatoriske. Det er åpent for alle, slik at plugin-modulen kan brukes gratis. Vi setter imidlertid stor pris på din støtte for å fortsette utviklingen, og vi hjelper gjerne til på alle måter vi kan.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasjoner kan gjøres via lenken nedenfor. Hvis du er fra Japan, kan du også donere gratis, og dessuten kan du enkelt donere ved hjelp av Amazon-gavekort.
+寄付先	Giver
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Med din støtte vil vi gjøre vårt beste for å gi deg flotte oppdateringer i fremtiden!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi takker for støtten og ser frem til å samarbeide med dere i fremtiden.
+無効なIPアドレス	Ugyldig IP-adresse.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Dette nettstedet kan bare vises med informasjonskapsler og JavaScript aktivert
+デバッグモード、コンソールの起動は禁止されています	Feilsøkingsmodus og konsollaktivering er forbudt
+以下の情報がサーバーに送信されました	Følgende informasjon har blitt sendt til serveren
+あなたのIPアドレス	IP-adressen din.
+あなたの端末とブラウザ	Din enhet og nettleser
+あなたの押下したキー	Tastene du har trykket på.
+リダイレクトをします	Viderekoblinger.
+右クリックは禁止されています	Det er forbudt å høyreklikke.
+印刷、PDFへの保存は禁止されています	Utskrift og lagring til PDF er forbudt
+ページの保存は禁止されています	Det er forbudt å lagre sider.
+コピー、カットは禁止されています	Kopiering eller klipping er forbudt.
+あなたが起こしたイベント	Hendelser du forårsaket.
+HTMLソース表示は禁止されています	Det er forbudt å vise HTML-kilder.
+不正アクセスは禁止されています	Uautorisert tilgang er forbudt.
+アラビア語	Arabisk
+ブルガリア語	Bulgarsk
+チェコ語	Tsjekkisk
+デンマーク語	Dansk
+ドイツ語	Tysk
+現代ギリシア語	Moderne gresk
+英語	Engelsk
+イギリス英語	Britisk engelsk
+アメリカ英語	Amerikansk engelsk
+スペイン語	Spansk
+エストニア語	Estisk
+フィンランド語	Finsk
+フランス語	Fransk
+ハンガリー語	Ungarsk
+インドネシア語	Indonesisk
+イタリア語	Italiensk
+日本語	Japansk
+朝鮮語	Koreansk
+リトアニア語	Litauisk
+ラトビア語	Latvisk
+ノルウェー語	Norsk
+オランダ語	Nederlandsk
+ポーランド語	Polsk
+ポルトガリア語	Portugisisk
+ブラジルポルトガル語	Brasiliansk portugisisk
+ヨーロピアンポルトガル語	Europeisk portugisisk
+ルーマニア語	Rumensk
+ロシア語	Russisk
+スロバキア語	Slovakisk
+スロベニア語	Slovensk
+スウェーデン語	Svensk
+トルコ語	Tyrkisk
+ウクライナ語	Ukrainsk
+中国語	Kinesisk
+簡体中国語	Forenklet kinesisk
+繁体中国語	Tradisjonell kinesisk
+画像が見つかりません	Bildet ble ikke funnet.

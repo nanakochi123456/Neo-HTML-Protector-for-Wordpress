@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -153,8 +153,8 @@ msgstr "JavaScript tarafından dinamik olarak okunur ve bu da SEO'yu etkiler."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
 
-msgid "なし"
-msgstr "Olmadan"
+msgid "表示なし"
+msgstr "Belirti yok"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin."
@@ -424,7 +424,7 @@ msgid "ISISちゃん"
 msgstr "ISIS chan"
 
 msgid "Miss. 裏まにら氏歌唱"
-msgstr "Bayan. Bay Uramanira tarafından söylendi"
+msgstr "Bayan. Bay Uramanira Uramanira tarafından seslendirildi"
 
 msgid "支援のお願い"
 msgstr "Yardım talebi."

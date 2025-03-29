@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -153,8 +153,8 @@ msgstr "It is read dynamically by JavaScript, which affects SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection"
 
-msgid "なし"
-msgstr "Nashi"
+msgid "表示なし"
+msgstr "No indication"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Displays ASCII art to indicate warning intent when HTML source is displayed"
@@ -439,7 +439,7 @@ msgid "寄付について"
 msgstr "About Donations"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Donations are voluntary and not mandatory. Anyone is welcome to use our plug-ins free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can."
+msgstr "Donations are voluntary and not mandatory. Anyone is welcome to use the plugin free of charge. However, your support is greatly appreciated to continue development and we would be happy to help in any way we can."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Donations can be made by clicking on the link below. If you are in Japan, you can also donate for free, and furthermore, you can easily donate with Amazon gift certificates."

@@ -4,10 +4,10 @@ IPアドレスログ	Protokol IP adries
 全クリア	Všetko čisté.
 IPログが全て削除されました	Všetky protokoly IP boli odstránené.
 ID	ID
+タイムスタンプ	časové pečiatkovanie
 IPアドレス	IP adresa
 ユーザーエージェント	Používateľský agent
 イベント	Udalosť
-日時	Dátum a čas
 IPアドレスのデータはありません	Nie sú k dispozícii žiadne údaje o IP adrese.
 デバッグモード、コンソールの警告メッセージ	Režim ladenia, konzolové varovné správy.
 右クリックの警告メッセージ	Výstražné správy kliknutím pravým tlačidlom myši.
@@ -16,192 +16,74 @@ IPアドレスのデータはありません	Nie sú k dispozícii žiadne údaj
 HTMLソース表示時に表示するメッセージ	Správa, ktorá sa má zobraziť pri zobrazení zdroja HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Správa, ktorá sa zobrazí na začiatku zdroja, keď je HTML obfuskované a chránené.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Správa sa zobrazí, ak je jednorazový overovací token počas ochrany HTML abnormálny.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript.
+実際にはJavascriptが無効時のみ表示されます	V praxi je to viditeľné len vtedy, keď je vypnutý Javascript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Správa zobrazená na obrázku po jeho stiahnutí a obrázok je chránený Len v angličtine
 HTML難読化 (圧縮)	Obfuskácia HTML
 無効	Neplatné
 有効	Platnosť
-HTML保護	Ochrana HTML
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Vždy, keď je aktivovaná, dôjde k presmerovaniu, čo môže mať za následok pokles SEO
-デバッグモード	Režim ladenia
-妨害＋記録のみ	Iba rušenie + záznam.
-妨害＋記録＋表示＋リダイレクト	Zachytenie + záznam + zobrazenie + presmerovanie
-ブラウザーコンソール	Konzola prehliadača
-HTMLソース表示	Zobrazenie zdroja HTML
-印刷	Tlač
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokovanie tlače, ale v niektorých prehliadačoch nefunguje dobre
-右クリック	Kliknutie pravým tlačidlom myši na
-コピー・カット	Kopírovanie
-テキスト選択	Výber textu
-デバッガー妨害	Rušenie ladiaceho programu
-妨害	Rušenie
-リダイレクトするURL	Adresa URL, na ktorú sa má presmerovať
-HTML保護時のHEADタグの出力	Výstup značiek HEAD počas ochrany HTML
-出力しない	Žiadny výstup
-TITLEタグのみ	Len značka TITLE
-WordpressのHEADタグより取得	Získané zo značky HEAD v aplikácii Wordpress
-HTML保護時の一度限りのトークンのチェック	Jednorazové kontroly tokenov počas ochrany HTML.
-基本設定	Základné nastavenie
-高度な設定	Rozšírené nastavenia
-メッセージの設定	Nastavenia správy
-右クリックやソースコード表示時に転送する URL を設定します	Nastavenie adresy URL, ktorá sa má presmerovať pri kliknutí pravým tlačidlom myši alebo pri zobrazení zdrojového kódu.
-警告メッセージにはHTMLは使用できません	HTML nemožno použiť pre varovné správy
-以下の文字列が使用できます	Môžu sa použiť tieto reťazce
-改行	Nový riadok
-押下されたキー	Stlačené tlačidlo
-Neo HTML Protector 設定	Nastavenia programu Neo HTML Protector
-初期設定に戻す	Resetovanie na predvolené nastavenie
-このプラグインについて	O tomto zásuvnom module.
-Neo HTML Protectorについて	O programe Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Cieľom tohto pluginu je chrániť HTML, obrázky atď. výstup z vášho Wordpressu a chrániť ho pred neoprávneným použitím jeho obsahu!
-開発者: 夜桜　なの	Vývojár: Nano Yozakura
-バージョン	Verzia
-サポートページ	Stránka podpory
-支援のお願い	Žiadosť o pomoc.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Ďakujeme, že používate Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Vývoju a údržbe tohto doplnku bolo venované veľa času a múdrosti a boli by sme vďační za prípadné dary, ktoré by nám pomohli získať finančné prostriedky na ďalšie vylepšenia a aktualizácie.
-寄付について	O daroch
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Príspevky sú dobrovoľné a nie sú povinné. Je otvorený pre všetkých, aby sa zásuvný modul mohol používať bezplatne. Vašu podporu však veľmi oceníme, aby sme mohli pokračovať vo vývoji, a budeme radi, ak nám pomôžete akýmkoľvek spôsobom.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Prispieť môžete prostredníctvom nižšie uvedeného odkazu. Ak ste z Japonska, môžete prispieť aj bezplatne a navyše môžete jednoducho prispieť pomocou darčekových poukážok Amazon.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	S vašou podporou urobíme všetko pre to, aby sme vám v budúcnosti prinášali skvelé aktualizácie!
-寄付先	Darca
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Ďakujeme vám za vašu podporu a tešíme sa na spoluprácu v budúcnosti.
-デバッグモード、コンソールの起動は禁止されています	Režim ladenia a aktivácia konzoly je zakázaná
-以下の情報がサーバーに送信されました	Na server boli odoslané tieto informácie
-あなたのIPアドレス	Vaša IP adresa.
-あなたの端末とブラウザ	Vaše zariadenie a prehliadač
-あなたの押下したキー	Vaše stlačené klávesy.
-リダイレクトをします	Presmerovania.
-右クリックは禁止されています	Kliknutie pravým tlačidlom myši je zakázané.
-印刷、PDFへの保存は禁止されています	Tlač a ukladanie do PDF je zakázané
-コピー、カットは禁止されています	Kopírovanie alebo strihanie je zakázané.
-あなたが起こしたイベント	Udalosti, ktoré ste spôsobili.
-HTMLソース表示は禁止されています	Zobrazenie zdroja HTML je zakázané.
-不正アクセスは禁止されています	Neoprávnený prístup je zakázaný.
-画像が見つかりません	Obrázok nebol nájdený.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Ak chcete vymazať všetky údaje, odinštalujte doplnok a potom ho znova nainštalujte.
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. spieva pán Uramanira
-タイムスタンプ	časové pečiatkovanie
-alertメッセージを表示する言語	Jazyk, v ktorom sa zobrazuje výstražná správa.
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress jazyky / vlastné nakonfigurované správy
-ブラウザの設定言語	Jazyk nastavenia prehliadača
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Zmena nastavenia z predvoleného vypne vlastné správy
-ブルガリア語	Bulharčina
-チェコ語	Čeština
-デンマーク語	Dánčina
-英語	Angličtina
-イギリス英語	Britská angličtina
-アメリカ英語	Americká angličtina
-スペイン語	Španielčina
-日本語	Japončina
-リトアニア語	Litovčina
-ノルウェー語	Nórčina
-ルーマニア語	Rumunčina
-スロバキア語	Slovenská
-スロベニア語	Slovinčina
-スウェーデン語	Švédčina
-トルコ語	Turečtina
-中国語	Čínština
-view-sourceメッセージを表示する言語	Jazyk, v ktorom sa zobrazujú správy zdroja zobrazenia.
-アラビア語	Arabčina
-ドイツ語	Nemčina
-現代ギリシア語	Moderná gréčtina
-エストニア語	Estónčina
-フィンランド語	Fínčina
-フランス語	Francúzština
-ハンガリー語	Maďarský
-インドネシア語	Indonézština
-イタリア語	Taliančina
-朝鮮語	Kórejčina
-ラトビア語	Lotyščina
-オランダ語	Holandčina
-ポーランド語	Poľština
-ポルトガリア語	Portugalčina
-ブラジルポルトガル語	Brazílska portugalčina
-ヨーロピアンポルトガル語	Európska portugalčina
-ロシア語	Ruština
-ウクライナ語	Ukrajinčina
-簡体中国語	Zjednodušená čínština
-繁体中国語	Tradičná čínština
-Wordpressの言語	Jazyky Wordpress.
-メッセージをカスタム設定されている場合は言語を変更できません	Jazyk nie je možné zmeniť, ak je správa prispôsobená
-view-source:の動作をされた時の記録もします	Zaznamenáva tiež, kedy sa vykoná akcia view-source:.
-HTMLのコメントタグを使用	Používajte značky komentárov HTML.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Použiť tag.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ak je nastavené na tejto obrazovke, jazykové nastavenia na karte rozšírených nastavení sa ignorujú.
-META NAME=ALERT タグを使用	Použite značku META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	Výstup značiek HEAD počas obfuskacie a ochrany HTML
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML.
-フォント	Písmo
-なし	Bez
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Zobrazí sa len slovo VAROVANIE. Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači.
-ページ保存	Uložiť stránku
-ページの保存は禁止されています	Ukladanie stránok je zakázané.
 一般的なHTML圧縮です、難読化解除のサイトもあります	Všeobecná kompresia HTML, niektoré stránky majú de-obfuskáciu.
+HTML保護	Ochrana HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Mimo kompresie HTML sa vypisuje len minimum HTML a obsah v tagu BODY sa nevypisuje vôbec.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Skontrolujte to zobrazením zdroja v neprihlásenom prehliadači.
-アドオンがインストールされていると操作できてしまいます	Ak sú nainštalované doplnky, je možné ho ovládať.
-あまりこのイベントに遭遇することはありません	S touto udalosťou sa nestretávame často.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Spôsobuje, že režim ladenia je o niečo menej užívateľsky prívetivý, niektoré prehliadače toto správanie zastavujú
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pre firemné použitie, napríklad pre stránky určené len pre členov alebo interné stránky, je vhodné použiť možnosť "bez výstupu" alebo "len tag TITLE".
-メニューからは操作できてしまいます	Možno ho ovládať z ponuky.
-事実上デバッグモードから操作できてしまいます	V podstate môžete pracovať v režime ladenia.
-view-source:から始まるURLを入力すれば操作できてしまいます	Je možné ho ovládať zadaním adresy URL začínajúcej na view-source:.
-利用規約などのページに転送すると良いでしょう	Možno ich budete chcieť presmerovať na stránky, ako sú napríklad Podmienky používania.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Skontrolujte zobrazením zdroja v neprihlásenom prehliadači
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrázky OGP sa nebudú zobrazovať v zdieľaniach na sociálnych sieťach, pokiaľ nie sú prevzaté zo značky Wordpress HEAD
-画像botをアクセス禁止にする	Zákaz obrazového bota.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Vyhýbanie sa obrázkovým robotom chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tento zásuvný modul je zameraný na ochranu HTML, obrázkov atď., ktoré vychádzajú z vášho Wordpressu, a chráni ho pred neoprávneným použitím jeho obsahu.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Obsah nemožno dokonale chrániť. Ak ich však budete všemožne upozorňovať a budete pripravení, ak sa niečo stane, mali by ste to byť schopní vyriešiť národne predpísaným spôsobom.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Samozrejme, budete musieť zlepšiť podmienky používania a zásady používania webu. Tento zásuvný modul nie je aplikácia na generovanie podmienok používania, ale môže vám napovedať.
-ソース表示を許可する権限	Povolenie zobrazenia zdroja.
-ADMINログイン時のみ通常のソース出力	Normálny výstup zdroja len pri prihlásení ADMIN
-USERログインで通常のソース出力	Normálny výstup zdroja s prihlásením USER
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Vyberte, či je normálny výstup HTML určený len pre správcov alebo pre prihlásenie používateľa
-ビルド	Zostaviť
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov.
-無効なIPアドレス	Neplatná IP adresa.
-無効なユーザーエイジェント	Neplatný používateľský agent.
+view-source:の動作をされた時の記録もします	Zaznamenáva tiež, kedy sa vykoná akcia view-source:.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Vždy, keď je aktivovaná, dôjde k presmerovaniu, čo môže mať za následok pokles SEO
 若干デザインが変わる可能性があります	Dizajn sa môže mierne zmeniť.
-画像をダウンロードから保護します	Chráni obrázky pred sťahovaním.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Pri každej aktivácii sa JavaScript načíta pred načítaním obrázkov, takže SEO môže klesnúť
 画像の保護	Ochrana obrazu.
-画像URLのみ保護	Chránené sú len adresy URL obrázkov.
-画像データも保護	Chránené sú aj obrazové údaje
-画像は遅延読み込みをします	Obrázky sa načítavajú s oneskorením.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukladanie obrázkov do vyrovnávacej pamäte nefunguje, keď sú chránené aj obrazové údaje, takže sa stránka pri ďalšej návšteve načíta pomalšie, čo môže mať za následok pokles SEO.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Ak chcete chrániť aj svoje obrazové údaje, môžete umiestniť obmedzenia do súboru /wp-contents/uploads pomocou súboru .htaccess.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Ak je chránená iba adresa URL obrázka, obrázok sa načíta s oneskorením, inak sa použije predvolené nastavenie Wordpress
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Ak sú chránené aj obrazové údaje, môže dôjsť k preťaženiu databázy
-CookieやJavascriptが有効でない場合に表示するメッセージ	Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript.
-実際にはJavascriptが無効時のみ表示されます	V praxi je to viditeľné len vtedy, keď je vypnutý Javascript.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Ak je chránená iba adresa URL obrázka, je chránená iba adresa URL obrázka, skutočný prenos obrázka sa dešifruje pomocou JavaScriptu a obrázok sa zobrazí všeobecným spôsobom.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Vždy, keď povolíte ochranu len URL obrázka, JavaScript sa načíta vždy pred načítaním obrázka, takže SEO môže utrpieť!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazenie umenia ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Údaje o obrázku tiež zabraňujú takmer úplnému stiahnutiu, keď sú chránené, vydávajú úplnú jednorazovú adresu URL, overujú sa pomocou tokenu uloženého v relácii a zobrazujú obrázok z php, čím zabraňujú takmer úplnej krádeži obrázka.
-画像を保護	Ochrana obrazu.
+add_filterを使用して画像を保護	Ochrana obrázkov pomocou add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Zachytávanie a ochrana obrázkov medzi wp_head a wp_footer
+画像をダウンロードから保護します	Chráni obrázky pred sťahovaním.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Takmer úplne zabráni sťahovaniu, keď sú údaje o obrázku chránené, vydá kompletnú jednorazovú adresu URL, overí sa pomocou tokenu uloženého v relácii a zobrazí obrázok z php, čím takmer úplne zabráni krádeži obrázka.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukladanie obrázkov do vyrovnávacej pamäte nefunguje, keď sú údaje o obrázkoch chránené, takže sa stránka pri ďalšej návšteve načíta pomalšie, čo môže mať za následok pokles SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zaťaženie databázy môže byť vyššie, keď sú obrazové údaje chránené
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Upozorňujeme, že obrázky zadané ako pútavé sa šíria ako OGP a nemožno ich chrániť. Ak ich musíte chrániť, zmeňte výber výstupu značky HEAD pri ochrane HTML v rozšírených nastaveniach.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Správa zobrazená na obrázku po jeho stiahnutí a obrázok je chránený Len v angličtine
-add_filterを使用して画像を保護	Ochrana obrázkov pomocou add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Zachytávanie a ochrana obrázkov medzi wp_head a wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metóda využívajúca add_filter filtruje značky img pri ich publikovaní, zatiaľ čo metóda využívajúca wp_head až wp_footer spracuje všetky značky img v obsahu.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Upozorňujeme, že obrázky zadané ako pútavé sa šíria ako OGP a nemožno ich chrániť. Ak ich musíte chrániť, zmeňte výber výstupu značky HEAD pri ochrane HTML v rozšírených nastaveniach.
 OS標準搭載のスクリーンショット機能を保護することはできません	Štandardnú funkciu snímky obrazovky operačného systému nemožno chrániť
-一時使用トークンのビット数	Počet bitov v žetónoch dočasného použitia
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Tokeny na dočasné použitie sa používajú ako heslá, ale určte ich silu
-ハッシュ化アルゴリズム	Algoritmus hashovania
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá, ale musia byť zahashované; nastavte silu zahashovania.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Určuje silu tokenu dočasného použitia, ktorý sa používa ako heslo na šifrovanie informácií o adrese URL obrázka.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá na šifrovanie informácií o adrese URL obrázka, ale musia byť zaheslované, nastavte silu zaheslovania.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita sa zvyšuje, keď prejdete na možnosti uvedené pod rozbaľovacou ponukou, ale zaťaženie servera sa zvyšuje
 画像URLの保護	Ochrana adries URL obrázkov
 即時読み込みをして有効	Účinné pri okamžitom naložení.
 遅延読み込みをして有効	Povolené s oneskoreným načítaním.
 画像の保護と組み合わせて使用します、単体では意味がありません	Používa sa v kombinácii s ochranou obrazu, sama o sebe nemá význam.
 JavaScriptにより動的に読まれますのでSEOに影響があります	Číta sa dynamicky pomocou JavaScriptu, čo ovplyvňuje SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML.
+表示なし	Žiadny údaj
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazenie umenia ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Skontrolujte zobrazením zdroja v neprihlásenom prehliadači
+デバッグモード	Režim ladenia
+妨害＋記録のみ	Iba rušenie + záznam.
+妨害＋記録＋表示＋リダイレクト	Zachytenie + záznam + zobrazenie + presmerovanie
+メニューからは操作できてしまいます	Možno ho ovládať z ponuky.
+ブラウザーコンソール	Konzola prehliadača
+事実上デバッグモードから操作できてしまいます	V podstate môžete pracovať v režime ladenia.
+HTMLソース表示	Zobrazenie zdroja HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Je možné ho ovládať zadaním adresy URL začínajúcej na view-source:.
+印刷	Tlač
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokovanie tlače, ale v niektorých prehliadačoch nefunguje dobre
+ページ保存	Uložiť stránku
+右クリック	Kliknutie pravým tlačidlom myši na
+アドオンがインストールされていると操作できてしまいます	Ak sú nainštalované doplnky, je možné ho ovládať.
+コピー・カット	Kopírovanie
+あまりこのイベントに遭遇することはありません	S touto udalosťou sa nestretávame často.
+テキスト選択	Výber textu
+デバッガー妨害	Rušenie ladiaceho programu
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Spôsobuje, že režim ladenia je o niečo menej užívateľsky prívetivý, niektoré prehliadače toto správanie zastavujú
+リダイレクトするURL	Adresa URL, na ktorú sa má presmerovať
+利用規約などのページに転送すると良いでしょう	Možno ich budete chcieť presmerovať na stránky, ako sú napríklad Podmienky používania.
+ソース表示を許可する権限	Povolenie zobrazenia zdroja.
+ADMINログイン時のみ通常のソース出力	Normálny výstup zdroja len pri prihlásení ADMIN
+USERログインで通常のソース出力	Normálny výstup zdroja s prihlásením USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Vyberte, či je normálny výstup HTML určený len pre správcov alebo pre prihlásenie používateľa
+HTML保護時のHEADタグの出力	Výstup značiek HEAD počas ochrany HTML
+出力しない	Žiadny výstup
+TITLEタグのみ	Len značka TITLE
+WordpressのHEADタグより取得	Získané zo značky HEAD v aplikácii Wordpress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pre firemné použitie, napríklad pre stránky určené len pre členov alebo interné stránky, je vhodné použiť možnosť "bez výstupu" alebo "len tag TITLE".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrázky OGP sa nebudú zobrazovať v zdieľaniach na sociálnych sieťach, pokiaľ nie sú prevzaté zo značky Wordpress HEAD
+画像botをアクセス禁止にする	Zákaz obrazového bota.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov.
+alertメッセージを表示する言語	Jazyk, v ktorom sa zobrazuje výstražná správa.
+Wordpressの言語	Jazyky Wordpress.
+ブラウザの設定言語	Jazyk nastavenia prehliadača
+メッセージをカスタム設定されている場合は言語を変更できません	Jazyk nie je možné zmeniť, ak je správa prispôsobená
+view-sourceメッセージを表示する言語	Jazyk, v ktorom sa zobrazujú správy zdroja zobrazenia.
 一時使用トークンの有効期限	Dátum skončenia platnosti tokenov na dočasné používanie.
 1分	Jedna minúta
 2分	2 minúty
@@ -225,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Č�
 1時間	1 hodina
 画像URL情報の有効期限を設定します	Nastaví dátum skončenia platnosti informácií o adrese URL obrázka.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Po načítaní sú informácie o adrese URL obrázka a tokeny dočasného použitia vypnuté.
+一時使用トークンのビット数	Počet bitov v žetónoch dočasného použitia
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Určuje silu tokenu dočasného použitia, ktorý sa používa ako heslo na šifrovanie informácií o adrese URL obrázka.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita sa zvyšuje, keď prejdete na možnosti uvedené pod rozbaľovacou ponukou, ale zaťaženie servera sa zvyšuje
+ハッシュ化アルゴリズム	Algoritmus hashovania
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny sa používajú ako heslá na šifrovanie informácií o adrese URL obrázka, ale musia byť zaheslované, nastavte silu zaheslovania.
+基本設定	Základné nastavenie
+高度な設定	Rozšírené nastavenia
+初期設定に戻す	Resetovanie na predvolené nastavenie
+メッセージの設定	Nastavenia správy
+右クリックやソースコード表示時に転送する URL を設定します	Nastavenie adresy URL, ktorá sa má presmerovať pri kliknutí pravým tlačidlom myši alebo pri zobrazení zdrojového kódu.
+警告メッセージにはHTMLは使用できません	HTML nemožno použiť pre varovné správy
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ak je nastavené na tejto obrazovke, jazykové nastavenia na karte rozšírených nastavení sa ignorujú.
+以下の文字列が使用できます	Môžu sa použiť tieto reťazce
+改行	Nový riadok
+押下されたキー	Stlačené tlačidlo
+Neo HTML Protector 設定	Nastavenia programu Neo HTML Protector
+このプラグインについて	O tomto zásuvnom module.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Ak chcete vymazať všetky údaje, odinštalujte doplnok a potom ho znova nainštalujte.
+Neo HTML Protectorについて	O programe Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tento zásuvný modul je zameraný na ochranu HTML, obrázkov atď., ktoré vychádzajú z vášho Wordpressu, a chráni ho pred neoprávneným použitím jeho obsahu.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Obsah nemožno dokonale chrániť. Ak ich však budete všemožne upozorňovať a budete pripravení, ak sa niečo stane, mali by ste to byť schopní vyriešiť národne predpísaným spôsobom.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Samozrejme, budete musieť zlepšiť podmienky používania a zásady používania webu. Tento zásuvný modul nie je aplikácia na generovanie podmienok používania, ale môže vám napovedať.
+開発者: 夜桜　なの	Vývojár: Nano Yozakura
+バージョン	Verzia
+ビルド	Zostaviť
+サポートページ	Stránka podpory
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. spieva pán Uramanira
+支援のお願い	Žiadosť o pomoc.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Ďakujeme, že používate Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Vývoju a údržbe tohto doplnku bolo venované veľa času a múdrosti a boli by sme vďační za prípadné dary, ktoré by nám pomohli získať finančné prostriedky na ďalšie vylepšenia a aktualizácie.
+寄付について	O daroch
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Príspevky sú dobrovoľné a nie sú povinné. Je otvorený pre všetkých, aby sa zásuvný modul mohol používať bezplatne. Vašu podporu však veľmi oceníme, aby sme mohli pokračovať vo vývoji, a budeme radi, ak nám pomôžete akýmkoľvek spôsobom.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Prispieť môžete prostredníctvom nižšie uvedeného odkazu. Ak ste z Japonska, môžete prispieť aj bezplatne a navyše môžete jednoducho prispieť pomocou darčekových poukážok Amazon.
+寄付先	Darca
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	S vašou podporou urobíme všetko pre to, aby sme vám v budúcnosti prinášali skvelé aktualizácie!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Ďakujeme vám za vašu podporu a tešíme sa na spoluprácu v budúcnosti.
+無効なIPアドレス	Neplatná IP adresa.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript
+デバッグモード、コンソールの起動は禁止されています	Režim ladenia a aktivácia konzoly je zakázaná
+以下の情報がサーバーに送信されました	Na server boli odoslané tieto informácie
+あなたのIPアドレス	Vaša IP adresa.
+あなたの端末とブラウザ	Vaše zariadenie a prehliadač
+あなたの押下したキー	Vaše stlačené klávesy.
+リダイレクトをします	Presmerovania.
+右クリックは禁止されています	Kliknutie pravým tlačidlom myši je zakázané.
+印刷、PDFへの保存は禁止されています	Tlač a ukladanie do PDF je zakázané
+ページの保存は禁止されています	Ukladanie stránok je zakázané.
+コピー、カットは禁止されています	Kopírovanie alebo strihanie je zakázané.
+あなたが起こしたイベント	Udalosti, ktoré ste spôsobili.
+HTMLソース表示は禁止されています	Zobrazenie zdroja HTML je zakázané.
+不正アクセスは禁止されています	Neoprávnený prístup je zakázaný.
+アラビア語	Arabčina
+ブルガリア語	Bulharčina
+チェコ語	Čeština
+デンマーク語	Dánčina
+ドイツ語	Nemčina
+現代ギリシア語	Moderná gréčtina
+英語	Angličtina
+イギリス英語	Britská angličtina
+アメリカ英語	Americká angličtina
+スペイン語	Španielčina
+エストニア語	Estónčina
+フィンランド語	Fínčina
+フランス語	Francúzština
+ハンガリー語	Maďarský
+インドネシア語	Indonézština
+イタリア語	Taliančina
+日本語	Japončina
+朝鮮語	Kórejčina
+リトアニア語	Litovčina
+ラトビア語	Lotyščina
+ノルウェー語	Nórčina
+オランダ語	Holandčina
+ポーランド語	Poľština
+ポルトガリア語	Portugalčina
+ブラジルポルトガル語	Brazílska portugalčina
+ヨーロピアンポルトガル語	Európska portugalčina
+ルーマニア語	Rumunčina
+ロシア語	Ruština
+スロバキア語	Slovenská
+スロベニア語	Slovinčina
+スウェーデン語	Švédčina
+トルコ語	Turečtina
+ウクライナ語	Ukrajinčina
+中国語	Čínština
+簡体中国語	Zjednodušená čínština
+繁体中国語	Tradičná čínština
+画像が見つかりません	Obrázok nebol nájdený.

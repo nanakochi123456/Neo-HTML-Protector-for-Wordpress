@@ -4,10 +4,10 @@ IPアドレスログ	IP adresų žurnalas
 全クリア	Viskas aišku.
 IPログが全て削除されました	Visi IP žurnalai buvo ištrinti.
 ID	ID
+タイムスタンプ	Laiko žymėjimas
 IPアドレス	IP adresas
 ユーザーエージェント	Vartotojo agentas
 イベント	Renginys
-日時	Data ir laikas
 IPアドレスのデータはありません	IP adreso duomenų nėra.
 デバッグモード、コンソールの警告メッセージ	Derinimo režimas, konsolės įspėjamieji pranešimai.
 右クリックの警告メッセージ	Dešiniuoju pelės klavišu spustelėkite įspėjamuosius pranešimus.
@@ -16,192 +16,74 @@ IPアドレスのデータはありません	IP adreso duomenų nėra.
 HTMLソース表示時に表示するメッセージ	Pranešimas, rodomas rodant HTML šaltinį
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Pranešimas, kuris bus rodomas šaltinio pradžioje, kai HTML yra užtušuotas ir apsaugotas.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Pranešimas rodomas, jei HTML apsaugos metu vienkartinis autentifikavimo simbolis yra nenormalus.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Pranešimas rodomas, jei slapukai ir Javascript nėra įjungti.
+実際にはJavascriptが無効時のみ表示されます	Praktiškai tai matoma tik tada, kai "Javascript" yra išjungtas.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Pranešimas, rodomas ant atvaizdo, kai atvaizdas atsisiunčiamas ir atvaizdas yra apsaugotas Tik anglų kalba
 HTML難読化 (圧縮)	HTML užgožimas
 無効	Negalioja
 有効	Galiojimas
-HTML保護	HTML apsauga
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO
-デバッグモード	Derinimo režimas
-妨害＋記録のみ	Tik trukdžiai + įrašas.
-妨害＋記録＋表示＋リダイレクト	Perėmimas + įrašymas + rodymas + nukreipimas
-ブラウザーコンソール	Naršyklės konsolė
-HTMLソース表示	HTML šaltinio rodymas
-印刷	Spausdinimas
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Spausdinimo blokavimas, tačiau kai kuriose naršyklėse jis neveikia gerai
-右クリック	Dešiniuoju pelės klavišu spustelėkite
-コピー・カット	Kopijuoti-išpjauti
-テキスト選択	Teksto pasirinkimas
-デバッガー妨害	Derintuvo trukdžiai
-妨害	Trikdžiai
-リダイレクトするURL	URL, į kurį reikia nukreipti
-HTML保護時のHEADタグの出力	Žymos HEAD išvedimas HTML apsaugos metu
-出力しない	Nėra išvesties
-TITLEタグのみ	Tik žyma TITLE
-WordpressのHEADタグより取得	Gauta iš "Wordpress" žymos HEAD
-HTML保護時の一度限りのトークンのチェック	Vienkartiniai žetonų patikrinimai HTML apsaugos metu.
-基本設定	Pagrindinis nustatymas
-高度な設定	Išplėstiniai nustatymai
-メッセージの設定	Pranešimų nustatymai
-右クリックやソースコード表示時に転送する URL を設定します	Nustatykite URL adresą, kuris bus persiunčiamas spustelėjus dešinįjį pelės klavišą arba peržiūrint šaltinio kodą.
-警告メッセージにはHTMLは使用できません	HTML negalima naudoti įspėjamiesiems pranešimams
-以下の文字列が使用できます	Galima naudoti šias eilutes
-改行	Nauja eilutė
-押下されたキー	Paspaustas klavišas
-Neo HTML Protector 設定	"Neo HTML Protector" nustatymai
-初期設定に戻す	Numatytųjų nustatymų atkūrimas
-このプラグインについて	Apie šį įskiepį.
-Neo HTML Protectorについて	Apie "Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Šiuo įskiepiu siekiama apsaugoti "Wordpress" išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo!
-開発者: 夜桜　なの	Kūrėjas: Nanoh Yozakura
-バージョン	Versija
-サポートページ	Paramos puslapis
-支援のお願い	Pagalbos prašymas.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Dėkojame, kad naudojate "Neo HTML Protector"!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Šio įskiepio kūrimui ir priežiūrai skirta daug laiko ir išminties, todėl būtume dėkingi už aukas, jei tokių būtų, kurios padėtų mums surinkti lėšų tolesniam tobulinimui ir atnaujinimams.
-寄付について	Apie aukas
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Aukos yra savanoriškos ir neprivalomos. Ji yra atvira visiems, kad įskiepiu būtų galima naudotis nemokamai. Tačiau jūsų parama labai vertinama, kad būtų galima tęsti plėtrą, ir mes mielai padėsime, kuo tik galėsime.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Paaukoti galite naudodamiesi toliau pateikta nuoroda. Jei esate iš Japonijos, taip pat galite aukoti nemokamai, be to, galite lengvai aukoti naudodami "Amazon" dovanų kuponus.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puikiais atnaujinimais!
-寄付先	Donoras
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje.
-デバッグモード、コンソールの起動は禁止されています	Draudžiama įjungti derinimo režimą ir konsolę
-以下の情報がサーバーに送信されました	Į serverį buvo išsiųsta ši informacija
-あなたのIPアドレス	Jūsų IP adresas.
-あなたの端末とブラウザ	Jūsų prietaisas ir naršyklė
-あなたの押下したキー	Jūsų paspausti klavišai.
-リダイレクトをします	Peradresavimai.
-右クリックは禁止されています	Draudžiama spausti dešiniuoju pelės klavišu.
-印刷、PDFへの保存は禁止されています	Draudžiama spausdinti ir išsaugoti PDF formatu
-コピー、カットは禁止されています	Draudžiama kopijuoti ar karpyti.
-あなたが起こしたイベント	Įvykiai, kuriuos sukėlėte.
-HTMLソース表示は禁止されています	HTML šaltinį rodyti draudžiama.
-不正アクセスは禁止されています	Neteisėta prieiga draudžiama.
-画像が見つかりません	Vaizdas nerastas.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šią svetainę galima peržiūrėti tik su įjungtais slapukais ir "JavaScript".
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Norėdami išvalyti visus duomenis, pašalinkite įskiepį ir iš naujo jį įdiekite.
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. dainuoja p. Uramanira
-タイムスタンプ	Laiko žymėjimas
-alertメッセージを表示する言語	Kalba, kuria rodomas įspėjimo pranešimas.
-Wordpressの言語 / カスタム設定されたメッセージ	"Wordpress" kalbos / pagal užsakymą sukonfigūruoti pranešimai
-ブラウザの設定言語	Naršyklės nustatymų kalba
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Pakeitus numatytąjį nustatymą, bus išjungti pasirinktiniai pranešimai
-view-sourceメッセージを表示する言語	Kalba, kuria rodomi peržiūros šaltinio pranešimai.
-アラビア語	Arabų kalba
-ブルガリア語	Bulgarų kalba
-チェコ語	čekų kalba
-デンマーク語	Danų kalba
-ドイツ語	Vokiečių kalba
-現代ギリシア語	šiuolaikinė graikų kalba
-英語	Anglų kalba
-エストニア語	Estų kalba
-フランス語	Prancūzų kalba
-日本語	Japonų kalba
-朝鮮語	Korėjiečių kalba
-リトアニア語	Lietuvių kalba
-ラトビア語	Latvių kalba
-ノルウェー語	Norvegų kalba
-オランダ語	Olandų kalba
-ポーランド語	Lenkų kalba
-ポルトガリア語	Portugalų kalba
-ブラジルポルトガル語	Brazilijos portugalų kalba
-ヨーロピアンポルトガル語	Europos portugalų kalba
-ロシア語	Rusų kalba
-スロバキア語	Slovakų
-スロベニア語	Slovėnų kalba
-スウェーデン語	Švedų kalba
-トルコ語	Turkų kalba
-簡体中国語	Supaprastinta kinų kalba
-イギリス英語	Britų anglų kalba
-フィンランド語	Suomių kalba
-ハンガリー語	Vengrų
-イタリア語	Italų kalba
-ウクライナ語	Ukrainiečių kalba
-繁体中国語	Tradicinė kinų kalba
-アメリカ英語	Amerikiečių anglų kalba
-スペイン語	Ispanų kalba
-インドネシア語	Indoneziečių kalba
-ルーマニア語	Rumunų kalba
-中国語	Kinų kalba
-Wordpressの言語	"Wordpress" kalbos.
-メッセージをカスタム設定されている場合は言語を変更できません	Kalbos negalima keisti, jei pranešimas yra pritaikytas
-view-source:の動作をされた時の記録もします	Jame taip pat įrašoma, kada atliekamas veiksmas view-source:.
-HTMLのコメントタグを使用	Naudokite HTML komentarų žymas.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Naudokite žymą.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jei nustatyta šiame ekrane, kalbos nustatymai išplėstinių nustatymų skirtuke ignoruojami.
-META NAME=ALERT タグを使用	Naudokite žymą META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	Žymos HEAD išvedimas, kai atliekamas HTML apipavidalinimas ir apsauga
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga.
-フォント	šriftas
-なし	Be
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Rodomas tik žodis WARNING. Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje.
-ページ保存	Puslapio išsaugojimas
-ページの保存は禁止されています	Draudžiama išsaugoti puslapius.
-メニューからは操作できてしまいます	Jį galima valdyti iš meniu.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Įmonių reikmėms, pvz., tik nariams skirtiems arba vidiniams puslapiams, tinka "be išvesties" arba "tik TITLE žyma".
 一般的なHTML圧縮です、難読化解除のサイトもあります	Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje.
-アドオンがインストールされていると操作できてしまいます	Jį galima naudoti, jei yra įdiegta priedų.
-あまりこのイベントに遭遇することはありません	Su tokiu įvykiu susiduriame nedažnai.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Derinimo režimas tampa šiek tiek mažiau patogus vartotojui, kai kurios naršyklės sustabdo šį elgesį.
-利用規約などのページに転送すると良いでしょう	Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš "Wordpress HEAD" žymos.
+HTML保護	HTML apsauga
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas.
-事実上デバッグモードから操作できてしまいます	Iš tikrųjų galite dirbti derinimo režimu.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje
-view-source:から始まるURLを入力すれば操作できてしまいます	Ją galima naudoti įvedus URL, prasidedantį žodžiais view-source:.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Vengiant paveikslėlių robotų, apsaugomas turinys, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš paveikslėlių paieškos
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šiuo įskiepiu siekiama apsaugoti "Wordpress" išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo.
-画像botをアクセス禁止にする	Vaizdo boto uždraudimas.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Turinys negali būti puikiai apsaugotas. Vis dėlto, visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu mastu.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą.
-ソース表示を許可する権限	Įgaliojimas leisti rodyti šaltinį.
-ADMINログイン時のみ通常のソース出力	Įprastas šaltinio išėjimas tik ADMIN prisijungimo metu
-USERログインで通常のソース出力	Įprastas šaltinio išėjimas su vartotojo prisijungimu
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Pasirinkite, ar įprasta HTML išvestis skirta tik administratoriams, ar tik naudotojo prisijungimui
-ビルド	Sukurti
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vengdami vaizdų robotų ir HTML, apsaugote turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos.
-無効なIPアドレス	Netinkamas IP adresas.
-無効なユーザーエイジェント	Netinkamas naudotojo agentas.
+view-source:の動作をされた時の記録もします	Jame taip pat įrašoma, kada atliekamas veiksmas view-source:.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO
 若干デザインが変わる可能性があります	Dizainas gali šiek tiek pasikeisti.
-画像をダウンロードから保護します	Apsaugo vaizdus nuo atsisiuntimo.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Įjungus šią funkciją, "JavaScript" įkeliamas prieš įkeliant paveikslėlius, todėl SEO gali sumažėti.
 画像の保護	Vaizdo apsauga.
-画像URLのみ保護	Saugomi tik paveikslėlių URL adresai.
-画像データも保護	Vaizdo duomenys taip pat apsaugoti
-画像は遅延読み込みをします	Vėluojama įkelti vaizdus.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys taip pat yra apsaugoti, todėl svetainė kito apsilankymo metu įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Jei taip pat norite apsaugoti vaizdų duomenis, galite nustatyti apribojimus /wp-contents/uploads naudodami .htaccess failą.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Kai apsaugotas tik paveikslėlio URL adresas, paveikslėlis bus įkeliamas pavėluotai, kitu atveju bus naudojamas "Wordpress" nustatytas numatytasis.
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Kai saugomi ir vaizdo duomenys, duomenų bazė gali būti perkrauta.
-CookieやJavascriptが有効でない場合に表示するメッセージ	Pranešimas rodomas, jei slapukai ir Javascript nėra įjungti.
-実際にはJavascriptが無効時のみ表示されます	Praktiškai tai matoma tik tada, kai "Javascript" yra išjungtas.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Kai apsaugotas tik paveikslėlio URL, apsaugotas tik paveikslėlio URL, tikrasis paveikslėlio perdavimas iššifruojamas naudojant "JavaScript", o paveikslėlis rodomas bendriniu būdu.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Vaizdų duomenys taip pat neleidžia beveik visiškai atsisiųsti, kai yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuojasi pagal sesijoje saugomą simbolį ir rodo vaizdą iš php, taip užkirsdami kelią beveik visiškam vaizdo vagystei.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Kai įjungiate tik paveikslėlio URL apsaugą, prieš įkeliant paveikslėlį visada įkeliamas "JavaScript", todėl gali nukentėti SEO!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai rodomas HTML šaltinis.
-画像を保護	Vaizdo apsauga.
+add_filterを使用して画像を保護	Apsaugokite vaizdus naudodami add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Užfiksuokite ir apsaugokite vaizdus tarp wp_head ir wp_footer
+画像をダウンロードから保護します	Apsaugo vaizdus nuo atsisiuntimo.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkirsdamas kelią paveikslėlio vagystei.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys yra apsaugoti, todėl kito apsilankymo metu svetainė bus įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Duomenų bazės apkrova gali būti didesnė, kai saugomi vaizdo duomenys
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite išvesties žymės HEAD pasirinkimą, kai saugote HTML.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Pranešimas, rodomas ant atvaizdo, kai atvaizdas atsisiunčiamas ir atvaizdas yra apsaugotas Tik anglų kalba
-add_filterを使用して画像を保護	Apsaugokite vaizdus naudodami add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Užfiksuokite ir apsaugokite vaizdus tarp wp_head ir wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Naudojant metodą add_filter filtruojamos img žymės, kai jos paskelbiamos, o naudojant metodą wp_head to wp_footer apdorojamos visos turinyje esančios img žymės.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite žymės HEAD išvesties pasirinkimą, kai saugote HTML.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standartinė OS ekrano nuotraukos funkcija negali būti apsaugota
-一時使用トークンのビット数	Laikino naudojimo žetonų bitų skaičius
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Laikino naudojimo žetonai naudojami kaip slaptažodžiai, tačiau nurodomas jų stiprumas
-ハッシュ化アルゴリズム	šifravimo algoritmas
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai, tačiau jie turi būti koduojami; nustatykite kodavimo stiprumą.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nurodo laikino naudojimo simbolio, naudojamo kaip slaptažodis vaizdo URL informacijai užšifruoti, stiprumą.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai vaizdo URL informacijai užšifruoti, tačiau jie turi būti šifruojami, nustatykite šifravimo stiprumą.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, tačiau didėja serverio apkrova.
 画像URLの保護	Paveikslėlių URL adresų apsauga
 即時読み込みをして有効	Veiksminga iš karto pakraunant.
 遅延読み込みをして有効	Įjungta su uždelstu įkrovimu.
 画像の保護と組み合わせて使用します、単体では意味がありません	Naudojama kartu su vaizdo apsauga, tačiau pati savaime ji nėra reikšminga.
 JavaScriptにより動的に読まれますのでSEOに影響があります	Jį dinamiškai skaito "JavaScript", o tai turi įtakos SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga.
+表示なし	Jokių požymių
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai rodomas HTML šaltinis.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje
+デバッグモード	Derinimo režimas
+妨害＋記録のみ	Tik trukdžiai + įrašas.
+妨害＋記録＋表示＋リダイレクト	Perėmimas + įrašymas + rodymas + nukreipimas
+メニューからは操作できてしまいます	Jį galima valdyti iš meniu.
+ブラウザーコンソール	Naršyklės konsolė
+事実上デバッグモードから操作できてしまいます	Iš tikrųjų galite dirbti derinimo režimu.
+HTMLソース表示	HTML šaltinio rodymas
+view-source:から始まるURLを入力すれば操作できてしまいます	Ją galima naudoti įvedus URL, prasidedantį žodžiais view-source:.
+印刷	Spausdinimas
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Spausdinimo blokavimas, tačiau kai kuriose naršyklėse jis neveikia gerai
+ページ保存	Puslapio išsaugojimas
+右クリック	Dešiniuoju pelės klavišu spustelėkite
+アドオンがインストールされていると操作できてしまいます	Jį galima naudoti, jei yra įdiegta priedų.
+コピー・カット	Kopijuoti-išpjauti
+あまりこのイベントに遭遇することはありません	Su tokiu įvykiu susiduriame nedažnai.
+テキスト選択	Teksto pasirinkimas
+デバッガー妨害	Derintuvo trukdžiai
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Derinimo režimas tampa šiek tiek mažiau patogus vartotojui, kai kurios naršyklės sustabdo šį elgesį.
+リダイレクトするURL	URL, į kurį reikia nukreipti
+利用規約などのページに転送すると良いでしょう	Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos.
+ソース表示を許可する権限	Įgaliojimas leisti rodyti šaltinį.
+ADMINログイン時のみ通常のソース出力	Įprastas šaltinio išėjimas tik ADMIN prisijungimo metu
+USERログインで通常のソース出力	Įprastas šaltinio išėjimas su vartotojo prisijungimu
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pasirinkite, ar įprasta HTML išvestis skirta tik administratoriams, ar tik naudotojo prisijungimui
+HTML保護時のHEADタグの出力	Žymos HEAD išvedimas HTML apsaugos metu
+出力しない	Nėra išvesties
+TITLEタグのみ	Tik žyma TITLE
+WordpressのHEADタグより取得	Gauta iš "Wordpress" žymos HEAD
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Įmonių reikmėms, pvz., tik nariams skirtiems arba vidiniams puslapiams, tinka "be išvesties" arba "tik TITLE žyma".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš "Wordpress HEAD" žymos.
+画像botをアクセス禁止にする	Vaizdo boto uždraudimas.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vengdami vaizdų robotų ir HTML, apsaugote turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos.
+alertメッセージを表示する言語	Kalba, kuria rodomas įspėjimo pranešimas.
+Wordpressの言語	"Wordpress" kalbos.
+ブラウザの設定言語	Naršyklės nustatymų kalba
+メッセージをカスタム設定されている場合は言語を変更できません	Kalbos negalima keisti, jei pranešimas yra pritaikytas
+view-sourceメッセージを表示する言語	Kalba, kuria rodomi peržiūros šaltinio pranešimai.
 一時使用トークンの有効期限	Laikino naudojimo žetonų galiojimo pabaigos data.
 1分	Viena minutė
 2分	2 minutės
@@ -225,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Jį
 1時間	1 val.
 画像URL情報の有効期限を設定します	Nustato vaizdo URL informacijos galiojimo datą.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kai vaizdas įkeliamas, paveikslėlio URL informacija ir laikino naudojimo žetonai išjungiami.
+一時使用トークンのビット数	Laikino naudojimo žetonų bitų skaičius
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nurodo laikino naudojimo simbolio, naudojamo kaip slaptažodis vaizdo URL informacijai užšifruoti, stiprumą.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, tačiau didėja serverio apkrova.
+ハッシュ化アルゴリズム	šifravimo algoritmas
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai vaizdo URL informacijai užšifruoti, tačiau jie turi būti šifruojami, nustatykite šifravimo stiprumą.
+基本設定	Pagrindinis nustatymas
+高度な設定	Išplėstiniai nustatymai
+初期設定に戻す	Numatytųjų nustatymų atkūrimas
+メッセージの設定	Pranešimų nustatymai
+右クリックやソースコード表示時に転送する URL を設定します	Nustatykite URL adresą, kuris bus persiunčiamas spustelėjus dešinįjį pelės klavišą arba peržiūrint šaltinio kodą.
+警告メッセージにはHTMLは使用できません	HTML negalima naudoti įspėjamiesiems pranešimams
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jei nustatyta šiame ekrane, kalbos nustatymai išplėstinių nustatymų skirtuke ignoruojami.
+以下の文字列が使用できます	Galima naudoti šias eilutes
+改行	Nauja eilutė
+押下されたキー	Paspaustas klavišas
+Neo HTML Protector 設定	"Neo HTML Protector" nustatymai
+このプラグインについて	Apie šį įskiepį.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Norėdami išvalyti visus duomenis, pašalinkite įskiepį ir iš naujo jį įdiekite.
+Neo HTML Protectorについて	Apie "Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šiuo įskiepiu siekiama apsaugoti "Wordpress" išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Turinys negali būti puikiai apsaugotas. Tačiau visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu būdu.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą.
+開発者: 夜桜　なの	Kūrėjas: Nano Yozakura
+バージョン	Versija
+ビルド	Sukurti
+サポートページ	Paramos puslapis
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. dainuoja p. Uramanira
+支援のお願い	Pagalbos prašymas.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Dėkojame, kad naudojate "Neo HTML Protector"!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Šio įskiepio kūrimui ir priežiūrai skirta daug laiko ir išminties, todėl būtume dėkingi už aukas, jei tokių būtų, kurios padėtų mums surinkti lėšų tolesniam tobulinimui ir atnaujinimams.
+寄付について	Apie aukas
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Aukos yra savanoriškos ir neprivalomos. Ji yra atvira visiems, kad įskiepiu būtų galima naudotis nemokamai. Tačiau jūsų parama labai vertinama, kad būtų galima tęsti plėtrą, ir mes mielai padėsime, kuo tik galėsime.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Paaukoti galite naudodamiesi toliau pateikta nuoroda. Jei esate iš Japonijos, taip pat galite aukoti nemokamai, be to, galite lengvai aukoti naudodami "Amazon" dovanų kuponus.
+寄付先	Donoras
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puikiais atnaujinimais!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje.
+無効なIPアドレス	Netinkamas IP adresas.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šią svetainę galima peržiūrėti tik su įjungtais slapukais ir "JavaScript".
+デバッグモード、コンソールの起動は禁止されています	Draudžiama įjungti derinimo režimą ir konsolę
+以下の情報がサーバーに送信されました	Į serverį buvo išsiųsta ši informacija
+あなたのIPアドレス	Jūsų IP adresas.
+あなたの端末とブラウザ	Jūsų prietaisas ir naršyklė
+あなたの押下したキー	Jūsų paspausti klavišai.
+リダイレクトをします	Peradresavimai.
+右クリックは禁止されています	Draudžiama spausti dešiniuoju pelės klavišu.
+印刷、PDFへの保存は禁止されています	Draudžiama spausdinti ir išsaugoti PDF formatu
+ページの保存は禁止されています	Draudžiama išsaugoti puslapius.
+コピー、カットは禁止されています	Draudžiama kopijuoti ar karpyti.
+あなたが起こしたイベント	Įvykiai, kuriuos sukėlėte.
+HTMLソース表示は禁止されています	HTML šaltinį rodyti draudžiama.
+不正アクセスは禁止されています	Neteisėta prieiga draudžiama.
+アラビア語	Arabų kalba
+ブルガリア語	Bulgarų kalba
+チェコ語	čekų kalba
+デンマーク語	Danų kalba
+ドイツ語	Vokiečių kalba
+現代ギリシア語	šiuolaikinė graikų kalba
+英語	Anglų kalba
+イギリス英語	Britų anglų kalba
+アメリカ英語	Amerikiečių anglų kalba
+スペイン語	Ispanų kalba
+エストニア語	Estų kalba
+フィンランド語	Suomių kalba
+フランス語	Prancūzų kalba
+ハンガリー語	Vengrų
+インドネシア語	Indoneziečių kalba
+イタリア語	Italų kalba
+日本語	Japonų kalba
+朝鮮語	Korėjiečių kalba
+リトアニア語	Lietuvių kalba
+ラトビア語	Latvių kalba
+ノルウェー語	Norvegų kalba
+オランダ語	Olandų kalba
+ポーランド語	Lenkų kalba
+ポルトガリア語	Portugalų kalba
+ブラジルポルトガル語	Brazilijos portugalų kalba
+ヨーロピアンポルトガル語	Europos portugalų kalba
+ルーマニア語	Rumunų kalba
+ロシア語	Rusų kalba
+スロバキア語	Slovakų
+スロベニア語	Slovėnų kalba
+スウェーデン語	Švedų kalba
+トルコ語	Turkų kalba
+ウクライナ語	Ukrainiečių kalba
+中国語	Kinų kalba
+簡体中国語	Supaprastinta kinų kalba
+繁体中国語	Tradicinė kinų kalba
+画像が見つかりません	Vaizdas nerastas.

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -153,8 +153,8 @@ msgstr "To dinamiski nolasa JavaScript, kas ietekmē SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā."
 
-msgid "なし"
-msgstr "Bez"
+msgid "表示なし"
+msgstr "Nav norāžu"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots."
@@ -439,7 +439,7 @@ msgid "寄付について"
 msgstr "Par ziedojumiem"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Ziedojumi ir brīvprātīgi un nav obligāti. Tas ir pieejams ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim."
+msgstr "Ziedojumi ir brīvprātīgi un nav obligāti. Tā ir pieejama ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus."

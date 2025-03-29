@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -115,7 +115,7 @@ msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
 msgstr "捕捉并保护 wp_head 和 wp_footer 之间的图像"
 
 msgid "画像をダウンロードから保護します"
-msgstr "保护图像免于下载。"
+msgstr "保护图像免受下载。"
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "当图像数据受到保护时，几乎可以完全防止下载，发出完整的一次性 URL，使用会话中存储的令牌进行身份验证，并从 php 显示图像，从而几乎完全防止图像被盗。"
@@ -153,8 +153,8 @@ msgstr "它是由 JavaScript 动态读取的，这会影响搜索引擎优化。
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保护过程中输出 HTML 源代码中的 ASCII 艺术。"
 
-msgid "なし"
-msgstr "不带"
+msgid "表示なし"
+msgstr "无指示"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "在显示 HTML 源文件时，显示 ASCII 文字，表明警告的意图。"
@@ -217,7 +217,7 @@ msgid "デバッグモードの使い勝手を少し悪くします、ブラウ�
 msgstr "使调试模式对用户不那么友好，有些浏览器会阻止这种行为"
 
 msgid "リダイレクトするURL"
-msgstr "要重定向到的 URL"
+msgstr "重定向到的 URL。"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "您可能需要将他们转发到 使用条款 等页面。"
@@ -433,7 +433,7 @@ msgid "Neo HTML Protectorをご利用いただき、ありがとうございま�
 msgstr "感谢您使用 Neo HTML Protector！"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "本插件的开发和维护耗费了我们大量的时间和智慧，如果有捐赠，我们将不胜感激，以帮助我们筹集资金进行持续改进和更新。"
+msgstr "我们投入了大量的时间和智慧来开发和维护这个插件，如果您能帮助我们筹集资金来继续改进和更新这个插件，我们将不胜感激。"
 
 msgid "寄付について"
 msgstr "关于捐赠"

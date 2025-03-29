@@ -4,10 +4,10 @@ IPアドレスログ	IP-osoiteloki
 全クリア	Kaikki selvää.
 IPログが全て削除されました	Kaikki IP-lokit on poistettu.
 ID	ID
+タイムスタンプ	Aikaleima
 IPアドレス	IP-osoite
 ユーザーエージェント	Käyttäjäagentti
 イベント	Tapahtuma
-日時	Päivämäärä ja kellonaika
 IPアドレスのデータはありません	IP-osoitetietoja ei ole saatavilla.
 デバッグモード、コンソールの警告メッセージ	Debug-tila, konsolin varoitusviestit.
 右クリックの警告メッセージ	Napsauta varoitusviestejä hiiren kakkospainikkeella.
@@ -15,55 +15,137 @@ IPアドレスのデータはありません	IP-osoitetietoja ei ole saatavilla.
 コピー・カットした時に表示するメッセージ	Näytetään viesti kopioinnin tai leikkaamisen aikana.
 HTMLソース表示時に表示するメッセージ	HTML-lähdettä näytettäessä näytettävä viesti
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Viesti, joka näytetään lähdekoodin alussa, kun HTML on peitetty ja suojattu.
-HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Näytettävä viesti, jos kertaluonteisen todennuksen tunniste on epänormaali HTML-suojauksen aikana.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Näytettävä viesti, jos kertaluonteinen todennusmerkki on epänormaali HTML-suojauksen aikana.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Näytetään viesti, jos evästeet ja Javascript eivät ole käytössä.
+実際にはJavascriptが無効時のみ表示されます	Käytännössä tämä näkyy vain, kun Javascript on poistettu käytöstä.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Kuvassa näkyvä viesti, kun kuva ladataan ja kuva on suojattu Vain englanninkielinen versio
 HTML難読化 (圧縮)	HTML:n peittäminen
 無効	Virheellinen
 有効	Voimassaolo
+一般的なHTML圧縮です、難読化解除のサイトもあります	Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto.
 HTML保護	HTML-suojaus
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-tunnisteen sisältöä tulosteta lainkaan.
+view-source:の動作をされた時の記録もします	Se kirjaa myös, milloin view-source: -toiminto suoritetaan.
 有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka voi johtaa SEO:n heikkenemiseen.
+若干デザインが変わる可能性があります	Muotoilu saattaa muuttua hieman.
+画像の保護	Kuvan suojaus.
+add_filterを使用して画像を保護	Suojaa kuvat add_filterin avulla
+wp_head～wp_footerの間をキャプチャして画像を保護	Kaappaa ja suojaa kuvat wp_headin ja wp_footerin välissä.
+画像をダウンロードから保護します	Suojaa kuvia lataukselta.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Estää lähes kokonaan lataamisen, kun kuvatiedot on suojattu, antaa täydellisen kertaluonteisen URL-osoitteen, todentaa istuntoon tallennetulla tunnisteella ja näyttää kuvan php:stä, mikä estää lähes kokonaan kuvavarkaudet.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Kuvien välimuistitallennus ei toimi, kun kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Tietokannan kuormitus voi olla suurempi, kun kuvatiedot on suojattu.
+add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Menetelmä, jossa käytetään add_filteriä, suodattaa img-tagit, kun ne julkaistaan, kun taas menetelmä, jossa käytetään wp_head to wp_footer, käsittelee kaikki sisällön img-tagit.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen tulostuksen valintaa, kun suojaat HTML:ää lisäasetuksissa.
+OS標準搭載のスクリーンショット機能を保護することはできません	Käyttöjärjestelmän tavallista kuvakaappaustoimintoa ei voi suojata
+画像URLの保護	Kuvien URL-osoitteiden suojaaminen
+即時読み込みをして有効	Vaikuttaa välittömästi ladattaessa.
+遅延読み込みをして有効	Käytössä viivästetyllä latauksella.
+画像の保護と組み合わせて使用します、単体では意味がありません	Sitä käytetään yhdessä kuvasuojauksen kanssa, mutta yksinään se ei ole mielekäs.
+JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript lukee sitä dynaamisesti, mikä vaikuttaa hakukoneoptimointiin.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana.
+表示なし	Ei merkintää
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähde näytetään.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu sisään.
 デバッグモード	Debug-tila
 妨害＋記録のみ	Häiriö + vain tallennus.
 妨害＋記録＋表示＋リダイレクト	Sieppaus + tallennus + näyttö + uudelleenohjaus
+メニューからは操作できてしまいます	Sitä voidaan käyttää valikosta.
 ブラウザーコンソール	Selaimen konsoli
+事実上デバッグモードから操作できてしまいます	Voit siis toimia debug-tilassa.
 HTMLソース表示	HTML-lähteen näyttäminen
+view-source:から始まるURLを入力すれば操作できてしまいます	Sitä voidaan käyttää syöttämällä URL-osoite, joka alkaa kirjaimella view-source:.
 印刷	Tulostus
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Tulostuksen esto, mutta ei toimi hyvin joissakin selaimissa.
+ページ保存	Sivun tallentaminen
 右クリック	Klikkaa hiiren oikealla
+アドオンがインストールされていると操作できてしまいます	Sitä voidaan käyttää, jos lisäosat on asennettu.
 コピー・カット	Copy-cut
+あまりこのイベントに遭遇することはありません	Tätä tapahtumaa ei tapahdu kovin usein.
 テキスト選択	Tekstin valinta
 デバッガー妨害	Virheenkorjauksen häiriöt
-妨害	Häiriöt
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Tekee debug-tilasta hieman vähemmän käyttäjäystävällisen, jotkin selaimet lopettavat tämän toiminnon.
 リダイレクトするURL	URL-osoite, johon ohjataan
+利用規約などのページに転送すると良いでしょう	Haluat ehkä ohjata heidät esimerkiksi käyttöehtojen kaltaisille sivuille.
+ソース表示を許可する権限	Viranomainen, joka sallii lähteen näyttämisen.
+ADMINログイン時のみ通常のソース出力	Normaali lähteen ulostulo vain ADMIN-kirjautumisessa
+USERログインで通常のソース出力	Normaali lähteen ulostulo USER-kirjautumisella
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Valitse, onko normaali HTML-tuloste vain ylläpitäjille vai käyttäjille tarkoitettu.
 HTML保護時のHEADタグの出力	HEAD-tunnisteiden tulostus HTML-suojauksen aikana
 出力しない	Ei tuotosta
 TITLEタグのみ	Vain TITLE-tunniste
 WordpressのHEADタグより取得	Haettu Wordpressin HEAD-tagista
-HTML保護時の一度限りのトークンのチェック	Kertatarkistukset HTML-suojauksen aikana.
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yrityskäyttöön, kuten vain jäsenille tarkoitettuihin tai sisäisiin sivuihin, riittää "ei tulostusta" tai "vain TITLE-tagi".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-kuvia ei näytetä sosiaalisissa verkostoissa, elleivät ne ole peräisin Wordpressin HEAD-tagista.
+画像botをアクセス禁止にする	Kuvabotin kieltäminen.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Kuvabottien välttäminen suhteessa HTML:ään suojaa sisältöä, jota ei voitaisi suojata suorilla kuvahaun linkeillä.
+alertメッセージを表示する言語	Kieli, jolla hälytysviesti näytetään.
+Wordpressの言語	Wordpress-kielet.
+ブラウザの設定言語	Selaimen asetuskieli
+メッセージをカスタム設定されている場合は言語を変更できません	Kieltä ei voi vaihtaa, jos viesti on räätälöity.
+view-sourceメッセージを表示する言語	Kieli, jolla näkymän lähteen viestit näytetään.
+一時使用トークンの有効期限	Väliaikaisen käytön kuponkien viimeinen voimassaolopäivä.
+1分	Yksi minuutti
+2分	2 minuuttia
+3分	3 min.
+4分	4 min.
+5分	5 minuuttia.
+6分	6 min.
+7分	7 minuuttia
+8分	8 min.
+9分	9 min.
+10分	10 minuuttia.
+15分	15 minuuttia.
+20分	20 minuuttia.
+25分	25 minuuttia.
+30分	30 minuuttia.
+35分	35 minuuttia.
+40分	40 minuuttia.
+45分	45 minuuttia.
+50分	50 minuuttia.
+55分	55 minuuttia.
+1時間	1 tunti
+画像URL情報の有効期限を設定します	Asettaa kuvan URL-osoitteen tietojen voimassaolon päättymispäivän.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kun kuva on ladattu, kuvan URL-osoite ja tilapäisen käytön tunnisteet poistetaan käytöstä.
+一時使用トークンのビット数	Väliaikaisen käytön merkkien bittien lukumäärä
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrittää kuvan URL-osoitteen tietojen salaamiseen salasanana käytettävän tilapäisen käyttömerkin vahvuuden.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Voimakkuus kasvaa, kun siirryt pudotusvalikon alapuolella lueteltuihin vaihtoehtoihin, mutta palvelimen kuormitus kasvaa.
+ハッシュ化アルゴリズム	Hashing-algoritmi
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina kuvan URL-osoitteen tietojen salaamiseen, mutta ne on hakkeroitava, aseta hakkeroinnin vahvuus.
 基本設定	Perusasetus
 高度な設定	Lisäasetukset
+初期設定に戻す	Palautus oletusasetuksiin
 メッセージの設定	Viestiasetukset
 右クリックやソースコード表示時に転送する URL を設定します	Määritä URL-osoite, joka välitetään, kun napsautetaan hiiren oikealla painikkeella tai tarkastellaan lähdekoodia.
 警告メッセージにはHTMLは使用できません	Varoitusviesteissä ei voi käyttää HTML:ää
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jos asetus on tässä näytössä, lisäasetukset-välilehden kieliasetukset jätetään huomiotta.
 以下の文字列が使用できます	Seuraavia merkkijonoja voidaan käyttää
 改行	Uusi linja
 押下されたキー	Painettu näppäin
 Neo HTML Protector 設定	Neo HTML Protector -asetukset
-初期設定に戻す	Palautus oletusasetuksiin
 このプラグインについて	Tietoja tästä lisäosasta.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Voit tyhjentää kaikki tiedot poistamalla laajennuksen ja asentamalla sen sitten uudelleen.
 Neo HTML Protectorについて	Tietoja Neo HTML Protectorista
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sen sisällön luvattomalta käytöltä!
-開発者: 夜桜　なの	Kehittäjä: Nanoh Yozakura
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sisällön luvattomalta käytöltä.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Sisältöä ei voi suojata täydellisesti. Varoittamalla heitä kaikin mahdollisin tavoin ja olemalla valmistautunut, jos jotain tapahtuu, sinun pitäisi kuitenkin pystyä ratkaisemaan asia kansallisesti määrätyllä tavalla.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tietenkin sinun on parannettava käyttöehtojasi ja sivuston käytäntöjä. Tämä lisäosa ei ole käyttöehtoja luova sovellus, mutta se voi antaa sinulle vihjeen.
+開発者: 夜桜　なの	Kehittäjä: Nano Yozakura
 バージョン	Versio
+ビルド	Rakentaa
 サポートページ	Tukisivu
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Neiti. lauloi herra Uramanira.
 支援のお願い	Avunpyyntö.
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Kiitos, että käytät Neo HTML Protectoria!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Tämän laajennuksen kehittämiseen ja ylläpitoon on käytetty paljon aikaa ja viisautta, ja olisimme kiitollisia mahdollisista lahjoituksista, jotka auttavat meitä keräämään varoja jatkuviin parannuksiin ja päivityksiin.
 寄付について	Tietoa lahjoituksista
 寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Lahjoitukset ovat vapaaehtoisia eivätkä pakollisia. Se on avoin kaikille, jotta laajennusta voidaan käyttää ilmaiseksi. Tukeasi kuitenkin arvostetaan kovasti kehityksen jatkamiseksi, ja autamme mielellämme kaikin tavoin.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Lahjoituksia voi tehdä alla olevan linkin kautta. Jos olet Japanista, voit myös lahjoittaa ilmaiseksi, ja lisäksi voit lahjoittaa helposti Amazonin lahjakortilla.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Teemme parhaamme tuellanne, jotta voimme tuoda teille upeita päivityksiä myös tulevaisuudessa!
 寄付先	Luovuttaja
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Teemme parhaamme tuellanne, jotta voimme tuoda teille upeita päivityksiä myös tulevaisuudessa!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kiitämme teitä tuestanne ja odotamme innolla yhteistyötä kanssanne tulevaisuudessa.
+無効なIPアドレス	Virheellinen IP-osoite.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä.
 デバッグモード、コンソールの起動は禁止されています	Vianmääritystila ja konsolin aktivointi on kielletty.
 以下の情報がサーバーに送信されました	Palvelimelle on lähetetty seuraavat tiedot
 あなたのIPアドレス	IP-osoitteesi.
@@ -72,23 +154,19 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	K
 リダイレクトをします	Uudelleenohjaukset.
 右クリックは禁止されています	Napsauttaminen hiiren kakkospainikkeella on kielletty.
 印刷、PDFへの保存は禁止されています	Tulostaminen ja tallentaminen PDF-muodossa on kielletty
+ページの保存は禁止されています	Sivujen tallentaminen on kielletty.
 コピー、カットは禁止されています	Kopiointi tai leikkaaminen on kielletty.
 あなたが起こしたイベント	Aiheuttamasi tapahtumat.
 HTMLソース表示は禁止されています	HTML-lähteen näyttäminen on kielletty.
 不正アクセスは禁止されています	Luvaton pääsy on kielletty.
-画像が見つかりません	Kuvaa ei löydy.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Voit tyhjentää kaikki tiedot poistamalla laajennuksen ja asentamalla sen sitten uudelleen.
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Neiti. lauloi herra Uramanira.
-タイムスタンプ	Aikaleima
-ブラウザの設定言語	Selaimen asetuskieli
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Asetusten muuttaminen oletusarvosta poistaa mukautetut viestit käytöstä.
 アラビア語	Arabia
+ブルガリア語	Bulgarian
 チェコ語	Tšekki
 デンマーク語	Tanska
 ドイツ語	Saksa
 現代ギリシア語	Nykykreikka
+英語	Englanti
+イギリス英語	Brittiläinen englanti
 アメリカ英語	Amerikkalainen englanti
 スペイン語	Espanja
 エストニア語	Viro
@@ -117,111 +195,4 @@ Miss. 裏まにら氏歌唱	Neiti. lauloi herra Uramanira.
 中国語	Kiina
 簡体中国語	Yksinkertaistettu kiina
 繁体中国語	Perinteinen kiina
-alertメッセージを表示する言語	Kieli, jolla hälytysviesti näytetään.
-Wordpressの言語 / カスタム設定されたメッセージ	Wordpress-kielet / mukautetut viestit
-view-sourceメッセージを表示する言語	Kieli, jolla näkymän lähteen viestit näytetään.
-ブルガリア語	Bulgarian
-英語	Englanti
-イギリス英語	Brittiläinen englanti
-Wordpressの言語	Wordpress-kielet.
-メッセージをカスタム設定されている場合は言語を変更できません	Kieltä ei voi vaihtaa, jos viesti on räätälöity.
-view-source:の動作をされた時の記録もします	Se kirjaa myös, milloin view-source: -toiminto suoritetaan.
-HTMLのコメントタグを使用	Käytä HTML-kommenttimerkkejä.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Käytä tagia.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jos asetus on tässä näytössä, lisäasetukset-välilehden kieliasetukset jätetään huomiotta.
-META NAME=ALERT タグを使用	Käytä META NAME=ALERT-tunnistetta.
-HTML難読化・保護時のHEADタグの出力	HEAD-tunnisteiden tulostaminen HTML:n peittämisen ja suojaamisen aikana
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana.
-フォント	Fontti
-なし	Ei mitään.
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Vain sana VAROITUS näkyy. Tarkista katsomalla lähde selaimella, johon ei ole kirjauduttu.
-ページ保存	Sivun tallentaminen
-ページの保存は禁止されています	Sivujen tallentaminen on kielletty.
-view-source:から始まるURLを入力すれば操作できてしまいます	Sitä voidaan käyttää syöttämällä URL-osoite, joka alkaa kirjaimella view-source:.
-アドオンがインストールされていると操作できてしまいます	Sitä voidaan käyttää, jos lisäosat on asennettu.
-あまりこのイベントに遭遇することはありません	Tätä tapahtumaa ei tapahdu kovin usein.
-利用規約などのページに転送すると良いでしょう	Haluat ehkä ohjata heidät esimerkiksi käyttöehtojen kaltaisille sivuille.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-kuvia ei näytetä sosiaalisissa verkostoissa, elleivät ne ole peräisin Wordpressin HEAD-tagista.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu sisään.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Yrityskäyttöön, kuten vain jäsenille tarkoitettuihin tai sisäisiin sivuihin, riittää "ei tulostusta" tai "vain TITLE-tagi".
-一般的なHTML圧縮です、難読化解除のサイトもあります	Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto.
-HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML-pakkauksen jälkeen tulostetaan vain minimaalinen määrä HTML:ää, eikä BODY-tagin sisältöä tulosteta lainkaan.
-メニューからは操作できてしまいます	Sitä voidaan käyttää valikosta.
-事実上デバッグモードから操作できてしまいます	Voit siis toimia debug-tilassa.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Tekee debug-tilasta hieman vähemmän käyttäjäystävällisen, jotkin selaimet lopettavat tämän toiminnon.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Kuvabottien välttäminen suojaa sisältöä, jota ei voida suojata suorilla kuvahaun linkeillä.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tämän laajennuksen tarkoituksena on suojata Wordpressin tuottamaa HTML:ää, kuvia jne. ja suojata sitä sisällön luvattomalta käytöltä.
-画像botをアクセス禁止にする	Kuvabotin kieltäminen.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Sisältöä ei voi suojata täydellisesti. Varoittamalla heitä kaikin mahdollisin tavoin ja olemalla valmistautunut, jos jotain tapahtuu, sinun pitäisi kuitenkin pystyä ratkaisemaan asia kansallisesti määrätyllä tavalla.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tietenkin sinun on parannettava käyttöehtojasi ja sivuston käytäntöjä. Tämä lisäosa ei ole käyttöehtoja luova sovellus, mutta se voi antaa sinulle vihjeen.
-ソース表示を許可する権限	Viranomainen, joka sallii lähteen näyttämisen.
-ADMINログイン時のみ通常のソース出力	Normaali lähteen ulostulo vain ADMIN-kirjautumisessa
-USERログインで通常のソース出力	Normaali lähteen ulostulo USER-kirjautumisella
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Valitse, onko normaali HTML-tuloste vain ylläpitäjille vai käyttäjille tarkoitettu.
-ビルド	Rakentaa
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Kuvabottien välttäminen suhteessa HTML:ään suojaa sisältöä, jota ei voitaisi suojata suorilla kuvahaun linkeillä.
-無効なIPアドレス	Virheellinen IP-osoite.
-無効なユーザーエイジェント	Virheellinen käyttäjäagentti.
-若干デザインが変わる可能性があります	Muotoilu saattaa muuttua hieman.
-画像をダウンロードから保護します	Suojaa kuvia lataukselta.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Aina kun otat sen käyttöön, JavaScript ladataan ennen kuvien lataamista, joten SEO saattaa pudota.
-画像の保護	Kuvan suojaus.
-画像URLのみ保護	Vain kuvien URL-osoitteet on suojattu.
-画像データも保護	Myös kuvatiedot suojattu
-画像は遅延読み込みをします	Kuvat latautuvat viiveellä.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Kuvien välimuistitallennus ei toimi, kun myös kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Kun haluat suojata myös kuvatiedot, voit asettaa rajoituksia osoitteeseen /wp-contents/uploads .htaccess-tiedoston avulla.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Kun vain kuvan URL-osoite on suojattu, kuva latautuu viiveellä, muuten käytetään Wordpressin asettamaa oletusarvoa.
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Kun myös kuvatiedot suojataan, tietokanta voi ylikuormittua.
-CookieやJavascriptが有効でない場合に表示するメッセージ	Näytetään viesti, jos evästeet ja Javascript eivät ole käytössä.
-実際にはJavascriptが無効時のみ表示されます	Käytännössä tämä näkyy vain, kun Javascript on poistettu käytöstä.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Kun vain kuvan URL-osoite on suojattu, vain kuvan URL-osoite on suojattu, varsinainen kuvansiirto puretaan JavaScriptillä ja kuva näytetään yleisellä tavalla.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Kuvatiedot estävät myös lähes täydellisen lataamisen, kun ne on suojattu, antavat täydellisen kertaluonteisen URL-osoitteen, todennetaan istuntoon tallennetulla tunnisteella ja näytetään kuva php:stä, mikä estää lähes täydellisen kuvavarkauden.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Aina kun otat käyttöön vain kuvan URL-osoitteen suojauksen, JavaScript ladataan aina ennen kuvan lataamista, joten hakukoneoptimointi voi kärsiä!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähde näytetään.
-画像を保護	Kuvan suojaus.
-画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Estää lähes kokonaan lataamisen, kun kuvatiedot on suojattu, antaa täydellisen kertaluonteisen URL-osoitteen, todentaa istuntoon tallennetulla tunnisteella ja näyttää kuvan php:stä, mikä estää lähes kokonaan kuvavarkaudet.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Kuvien välimuistitallennus ei toimi, kun kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia.
-画像データを保護した時には、データベースの負荷が高くなる可能性があります	Tietokannan kuormitus voi olla suurempi, kun kuvatiedot on suojattu.
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen tulostuksen valintaa, kun suojaat HTML:ää lisäasetuksissa.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Kuvassa näkyvä viesti, kun kuva ladataan ja kuva on suojattu Vain englanninkielinen versio
-add_filterを使用して画像を保護	Suojaa kuvat add_filterin avulla
-wp_head～wp_footerの間をキャプチャして画像を保護	Kaappaa ja suojaa kuvat wp_headin ja wp_footerin välissä.
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Menetelmä, jossa käytetään add_filteriä, suodattaa img-tagit, kun ne julkaistaan, kun taas menetelmä, jossa käytetään wp_head to wp_footer, käsittelee kaikki sisällön img-tagit.
-OS標準搭載のスクリーンショット機能を保護することはできません	Käyttöjärjestelmän tavallista kuvakaappaustoimintoa ei voi suojata
-一時使用トークンのビット数	Väliaikaisen käytön merkkien bittien lukumäärä
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Väliaikaisen käytön tunnuksia käytetään kuten salasanoja, mutta niiden vahvuus määritetään.
-ハッシュ化アルゴリズム	Hashing-algoritmi
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina, mutta ne on hakkeroitava; määritä hakkeroinnin vahvuus.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrittää kuvan URL-osoitteen tietojen salaamiseen salasanana käytettävän tilapäisen käyttömerkin vahvuuden.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Väliaikaisia tunnuksia käytetään salasanoina kuvan URL-osoitteen tietojen salaamiseen, mutta ne on hakkeroitava, aseta hakkeroinnin vahvuus.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Voimakkuus kasvaa, kun siirryt pudotusvalikon alapuolella lueteltuihin vaihtoehtoihin, mutta palvelimen kuormitus kasvaa.
-画像URLの保護	Kuvien URL-osoitteiden suojaaminen
-即時読み込みをして有効	Vaikuttaa välittömästi ladattaessa.
-遅延読み込みをして有効	Käytössä viivästetyllä latauksella.
-画像の保護と組み合わせて使用します、単体では意味がありません	Sitä käytetään yhdessä kuvasuojauksen kanssa, mutta yksinään se ei ole mielekäs.
-JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript lukee sitä dynaamisesti, mikä vaikuttaa hakukoneoptimointiin.
-一時使用トークンの有効期限	Väliaikaisen käytön kuponkien viimeinen voimassaolopäivä.
-1分	Yksi minuutti
-2分	2 minuuttia
-3分	3 min.
-4分	4 min.
-5分	5 minuuttia.
-6分	6 min.
-7分	7 minuuttia
-8分	8 min.
-9分	9 min.
-10分	10 minuuttia.
-15分	15 minuuttia.
-20分	20 minuuttia.
-25分	25 minuuttia.
-30分	30 minuuttia.
-35分	35 minuuttia.
-40分	40 minuuttia.
-45分	45 minuuttia.
-50分	50 minuuttia.
-55分	55 minuuttia.
-1時間	1 tunti
-画像URL情報の有効期限を設定します	Asettaa kuvan URL-osoitteen tietojen voimassaolon päättymispäivän.
-一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kun kuva on ladattu, kuvan URL-osoite ja tilapäisen käytön tunnisteet poistetaan käytöstä.
+画像が見つかりません	Kuvaa ei löydy.

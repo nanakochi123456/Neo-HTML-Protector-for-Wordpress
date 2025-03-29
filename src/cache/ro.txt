@@ -4,10 +4,10 @@ IPアドレスログ	Jurnalul adresei IP
 全クリア	Liber.
 IPログが全て削除されました	Toate jurnalele IP au fost șterse.
 ID	ID
+タイムスタンプ	ștampilarea timpului
 IPアドレス	Adresa IP
 ユーザーエージェント	Agent utilizator
 イベント	Eveniment
-日時	Data și ora
 IPアドレスのデータはありません	Nu sunt disponibile date privind adresa IP.
 デバッグモード、コンソールの警告メッセージ	Modul de depanare, mesaje de avertizare în consolă.
 右クリックの警告メッセージ	Faceți clic dreapta pe mesajele de avertizare.
@@ -16,196 +16,74 @@ IPアドレスのデータはありません	Nu sunt disponibile date privind ad
 HTMLソース表示時に表示するメッセージ	Mesajul care urmează să fie afișat la afișarea sursei HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesajul care trebuie afișat la începutul sursei atunci când HTML este ofuscat și protejat.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mesaj afișat dacă tokenul de autentificare unică este anormal în timpul protecției HTML.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mesaj afișat dacă cookie-urile și Javascript nu sunt activate.
+実際にはJavascriptが無効時のみ表示されます	În practică, acest lucru este vizibil numai atunci când Javascript este dezactivat.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Mesajul afișat pe imagine atunci când imaginea este descărcată și imaginea este protejată Numai în limba engleză
 HTML難読化 (圧縮)	Ofuscare HTML
 無効	Invalid
 有効	Valabilitate
-HTML保護	Protecția HTML
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO
-デバッグモード	Modul de depanare
-妨害＋記録のみ	Interferență + numai înregistrare.
-妨害＋記録＋表示＋リダイレクト	Interceptare + înregistrare + afișare + redirecționare
-ブラウザーコンソール	Consola browserului
-HTMLソース表示	Afișarea sursei HTML
-印刷	Tipărire
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocarea imprimării, dar nu funcționează bine în unele browsere
-右クリック	Clic dreapta
-コピー・カット	Copiere-tăiere
-テキスト選択	Selectarea textului
-デバッガー妨害	Interferențe cu depanatorul
-妨害	Interferență
-リダイレクトするURL	URL către care să redirecționați
-HTML保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul protecției HTML
-出力しない	Fără ieșire
-TITLEタグのみ	Doar eticheta TITLE
-WordpressのHEADタグより取得	Retrieved from the HEAD tag in Wordpress
-HTML保護時の一度限りのトークンのチェック	Verificări unice ale jetoanelor în timpul protecției HTML.
-基本設定	Setarea de bază
-高度な設定	Setări avansate
-メッセージの設定	Setări de mesaje
-右クリックやソースコード表示時に転送する URL を設定します	Setați URL-ul care urmează să fie redirecționat atunci când faceți clic dreapta sau vizualizați codul sursă.
-警告メッセージにはHTMLは使用できません	HTML nu poate fi utilizat pentru mesajele de avertizare
-以下の文字列が使用できます	Pot fi utilizate următoarele șiruri de caractere
-改行	Linie nouă
-押下されたキー	Tastă apăsată
-Neo HTML Protector 設定	
-初期設定に戻す	
-このプラグインについて	Despre acest plugin.
-Neo HTML Protectorについて	Despre Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său!
-開発者: 夜桜　なの	Dezvoltator: Nano Yozakura
-バージョン	Versiune
-サポートページ	Pagina de asistență
-支援のお願い	Cerere de asistență.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Vă mulțumim pentru utilizarea Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	O mulțime de timp și înțelepciune au fost investite în dezvoltarea și întreținerea acestui plugin, și am fi recunoscători pentru donații, dacă există, pentru a ne ajuta să strângem fonduri pentru îmbunătățiri și actualizări continue.
-寄付について	Despre donații
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donațiile sunt voluntare și nu obligatorii. Acesta este deschis tuturor, astfel încât pluginul să poată fi utilizat gratuit. Cu toate acestea, sprijinul dvs. este foarte apreciat pentru a continua dezvoltarea și am fi bucuroși să vă ajutăm în orice fel putem.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donațiile pot fi făcute prin intermediul linkului de mai jos. Dacă sunteți din Japonia, puteți, de asemenea, să donați gratuit și, în plus, puteți dona cu ușurință folosind voucherele cadou Amazon.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Cu sprijinul dvs., vom face tot posibilul să vă aducem actualizări excelente în viitor!
-寄付先	Donator
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor.
-デバッグモード、コンソールの起動は禁止されています	Modul de depanare și activarea consolei sunt interzise
-以下の情報がサーバーに送信されました	Următoarele informații au fost trimise către server
-あなたのIPアドレス	Adresa dvs. de IP.
-あなたの端末とブラウザ	Dispozitivul și browserul dvs.
-あなたの押下したキー	
-リダイレクトをします	Redirecționări.
-右クリックは禁止されています	Clicul dreapta este interzis.
-印刷、PDFへの保存は禁止されています	Tipărirea și salvarea în format PDF este interzisă
-コピー、カットは禁止されています	Copierea sau tăierea este interzisă.
-あなたが起こしたイベント	Evenimentele pe care le-ați provocat.
-HTMLソース表示は禁止されています	Afișarea sursei HTML este interzisă.
-不正アクセスは禁止されています	Accesul neautorizat este interzis.
-画像が見つかりません	Imaginea nu a fost găsită.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate
-初期設定に戻す	Resetarea la setările implicite
-Neo HTML Protector 設定	
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Pentru a șterge toate datele, dezinstalați plug-in-ul și apoi reinstalați-l
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. cântată de dl Uramanira
-あなたの押下したキー	Tastele dvs. apăsate.
-Neo HTML Protector 設定	Setări Neo HTML Protector
-タイムスタンプ	ștampilarea timpului
-alertメッセージを表示する言語	Limba în care este afișat mesajul de alertă.
-Wordpressの言語 / カスタム設定されたメッセージ	Limbi Wordpress / mesaje configurate personalizat
-ブラウザの設定言語	Limba de setare a browserului
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	Modificarea setării de la valoarea implicită va dezactiva mesajele personalizate
-view-sourceメッセージを表示する言語	Limba în care sunt afișate mesajele sursei de vizualizare.
-アラビア語	Arabă
-ブルガリア語	Bulgară
-チェコ語	Cehă
-現代ギリシア語	Greaca modernă
-英語	Engleză
-スペイン語	Spaniolă
-イタリア語	Italiană
-リトアニア語	Lituaniană
-ノルウェー語	Norvegiană
-オランダ語	Olandeză
-ブラジルポルトガル語	Portugheză braziliană
-ヨーロピアンポルトガル語	Portugheză europeană
-ルーマニア語	Română
-ロシア語	Rusă
-スロバキア語	Slovacă
-スロベニア語	Slovenă
-簡体中国語	Chineză simplificată
-デンマーク語	Daneză
-ドイツ語	Germană
-イギリス英語	Engleza britanică
-アメリカ英語	Engleză americană
-エストニア語	Estonă
-フィンランド語	Finlandeză
-フランス語	Franceză
-ハンガリー語	Maghiară
-インドネシア語	Indoneziană
-日本語	Japoneză
-朝鮮語	Coreeană
-ラトビア語	Letonă
-ポーランド語	Poloneză
-ポルトガリア語	Portugheză
-スウェーデン語	Suedeză
-トルコ語	Turcă
-中国語	Chineză
-繁体中国語	Chineză tradițională
-ウクライナ語	Ucraineană
-Wordpressの言語	Limbi Wordpress.
-メッセージをカスタム設定されている場合は言語を変更できません	Limba nu poate fi schimbată dacă mesajul este personalizat
-view-source:の動作をされた時の記録もします	Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:.
-HTMLのコメントタグを使用	Utilizați etichete de comentariu HTML.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Utilizați eticheta.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Dacă este setat pe acest ecran, setările de limbă din fila Setări avansate sunt ignorate
-META NAME=ALERT タグを使用	Utilizați eticheta META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul obscurcirii și protecției HTML
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML.
-フォント	Font
-なし	Fără
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Doar cuvântul AVERTISMENT este afișat. Vă rugăm să verificați vizualizând sursa într-un browser care nu este logat.
-ページ保存	Salvați pagina
-ページの保存は禁止されています	Salvarea paginilor este interzisă.
-ログインしていないブラウザーでソース表示を行って確認して下さい。	Verificați prin vizualizarea sursei într-un browser care nu este conectat.
-メニューからは操作できてしまいます	Acesta poate fi operat din meniu.
-事実上デバッグモードから操作できてしまいます	De fapt, puteți opera din modul de depanare.
-view-source:から始まるURLを入力すれば操作できてしまいます	Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:.
-アドオンがインストールされていると操作できてしまいます	Acesta poate fi utilizat dacă sunt instalate add-on-uri.
-あまりこのイベントに遭遇することはありません	Nu întâlnim acest eveniment foarte des.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Face modul de depanare un pic mai puțin ușor de utilizat, unele browsere opresc acest comportament
-利用規約などのページに転送すると良いでしょう	Este posibil să doriți să le trimiteți la pagini precum Termenii de utilizare.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pentru uzul corporativ, cum ar fi paginile interne sau cele destinate exclusiv membrilor, "fără ieșire" sau "doar tag-ul TITLE" este în regulă.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale decât dacă sunt preluate din tag-ul Wordpress HEAD
-ログインしていないブラウザーでソース表示を行って確認して下さい	Verificați prin vizualizarea sursei într-un browser care nu este conectat
 一般的なHTML圧縮です、難読化解除のサイトもあります	Compresie HTML generală, unele site-uri au de-obfuscation.
+HTML保護	Protecția HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmisă, iar conținutul din tag-ul BODY nu este transmis deloc.
-画像botをアクセス禁止にする	Interzicerea robotului de imagine.
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Conținutul nu poate fi protejat perfect. Cu toate acestea, avertizându-i în toate modurile posibile și fiind pregătiți în cazul în care se întâmplă ceva, ar trebui să fiți în măsură să rezolvați problema într-un mod prescris la nivel național.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Desigur, va trebui să vă îmbunătățiți condițiile de utilizare și politicile site-ului. Acest plugin nu este o aplicație de generare a termenilor de utilizare, dar vă poate oferi un indiciu.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Evitarea roboților de imagini protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini
-ソース表示を許可する権限	Autoritatea de a permite afișarea sursei.
-ADMINログイン時のみ通常のソース出力	Ieșire sursă normală numai la autentificarea ADMIN
-USERログインで通常のソース出力	Ieșire sursă normală cu autentificare USER
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Selectați dacă ieșirea HTML normală este doar pentru administratori sau pentru autentificarea utilizatorului
-ビルド	Construi
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini.
-無効なIPアドレス	Adresă IP invalidă.
-無効なユーザーエイジェント	Agent utilizator invalid.
+view-source:の動作をされた時の記録もします	Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO
 若干デザインが変わる可能性があります	Designul se poate schimba ușor.
-画像をダウンロードから保護します	Protejează imaginile de descărcare.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ori de câte ori îl activați, JavaScript este încărcat înainte ca imaginile să fie încărcate, astfel încât SEO poate scădea
 画像の保護	Protecția imaginii.
-画像URLのみ保護	Doar URL-urile imaginilor sunt protejate.
-画像データも保護	Datele de imagine sunt, de asemenea, protejate
-画像は遅延読み込みをします	Imaginile sunt încărcate cu întârziere.
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt, de asemenea, protejate, astfel încât site-ul se încarcă mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Atunci când doriți să vă protejați și datele de imagine, puteți plasa restricții în /wp-contents/uploads cu un fișier .htaccess.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Atunci când numai URL-ul imaginii este protejat, imaginea se va încărca cu întârziere, în caz contrar se va utiliza valoarea implicită stabilită de Wordpress
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Atunci când sunt protejate și datele de imagine, baza de date poate fi supraîncărcată
-CookieやJavascriptが有効でない場合に表示するメッセージ	Mesaj afișat dacă cookie-urile și Javascript nu sunt activate.
-実際にはJavascriptが無効時のみ表示されます	În practică, acest lucru este vizibil numai atunci când Javascript este dezactivat.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Atunci când numai URL-ul imaginii este protejat, numai URL-ul imaginii este protejat, transferul real al imaginii este decriptat de JavaScript și imaginea este afișată într-un mod generic.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Datele de imagine previn, de asemenea, descărcarea aproape completă atunci când sunt protejate, emit un URL complet o singură dată, se autentifică cu un simbol stocat în sesiune și afișează imaginea din php, prevenind astfel furtul aproape complet al imaginii.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Ori de câte ori activați protecția URL numai pentru imagini, JavaScript este întotdeauna încărcat înainte de încărcarea imaginii, astfel încât SEO poate avea de suferit!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează ASCII art indicând intenția de a avertiza atunci când este afișată sursa HTML.
-画像を保護	Protecția imaginii.
-画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Împiedică aproape complet descărcarea atunci când datele de imagine sunt protejate, emite o adresă URL unică completă, se autentifică cu un simbol stocat în sesiune și afișează imaginea din php, prevenind astfel aproape complet furtul de imagini.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt protejate, astfel încât site-ul se va încărca mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO
-画像データを保護した時には、データベースの負荷が高くなる可能性があります	Încărcarea bazei de date poate fi mai mare atunci când datele de imagine sunt protejate
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Rețineți că imaginile specificate ca eye-catching sunt răspândite ca OGP și nu pot fi protejate. Dacă trebuie să le protejați, vă rugăm să modificați selecția de ieșire a etichetei HEAD atunci când protejați HTML în setările avansate.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Mesajul afișat pe imagine atunci când imaginea este descărcată și imaginea este protejată Numai în limba engleză
 add_filterを使用して画像を保護	Protejați imaginile utilizând add_filter
 wp_head～wp_footerの間をキャプチャして画像を保護	Capturați și protejați imaginile dintre wp_head și wp_footer
+画像をダウンロードから保護します	Protejează imaginile de descărcare.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Previne aproape complet descărcarea atunci când datele imaginii sunt protejate, emite o adresă URL unică completă, se autentifică cu un simbol stocat în sesiune și afișează imaginea din php, prevenind astfel aproape complet furtul de imagini.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt protejate, astfel încât site-ul se va încărca mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Încărcarea bazei de date poate fi mai mare atunci când datele de imagine sunt protejate
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoda care utilizează add_filter filtrează etichetele img atunci când acestea sunt publicate, în timp ce metoda care utilizează wp_head to wp_footer procesează toate etichetele img din conținut.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Rețineți că imaginile specificate ca eye-catching sunt răspândite ca OGP și nu pot fi protejate. Dacă trebuie să le protejați, vă rugăm să modificați selecția de ieșire a etichetei HEAD atunci când protejați HTML în setările avansate.
 OS標準搭載のスクリーンショット機能を保護することはできません	Funcția standard de captură de ecran a sistemului de operare nu poate fi protejată
-一時使用トークンのビット数	Număr de biți în jetoanele de utilizare temporară
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Jetoanele de utilizare temporară sunt utilizate ca parole, dar se specifică puterea acestora
-ハッシュ化アルゴリズム	Algoritmul hashing
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole, dar trebuie să fie hașurate; setați puterea hașurării.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește
 画像URLの保護	Protecția URL-urilor imaginilor
 即時読み込みをして有効	Efectiv cu încărcare imediată.
 遅延読み込みをして有効	Activat cu încărcare întârziată.
 画像の保護と組み合わせて使用します、単体では意味がありません	Folosit în combinație cu protecția imaginii, acesta nu este semnificativ în sine.
 JavaScriptにより動的に読まれますのでSEOに影響があります	Acesta este citit dinamic de JavaScript, ceea ce afectează SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML.
+表示なし	Nici o indicație
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează ASCII art indicând intenția de a avertiza atunci când este afișată sursa HTML.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Verificați prin vizualizarea sursei într-un browser care nu este conectat
+デバッグモード	Modul de depanare
+妨害＋記録のみ	Interferență + numai înregistrare.
+妨害＋記録＋表示＋リダイレクト	Interceptare + înregistrare + afișare + redirecționare
+メニューからは操作できてしまいます	Acesta poate fi operat din meniu.
+ブラウザーコンソール	Consola browserului
+事実上デバッグモードから操作できてしまいます	De fapt, puteți opera din modul de depanare.
+HTMLソース表示	Afișarea sursei HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:.
+印刷	Tipărire
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocarea imprimării, dar nu funcționează bine în unele browsere
+ページ保存	Salvați pagina
+右クリック	Clic dreapta
+アドオンがインストールされていると操作できてしまいます	Acesta poate fi utilizat dacă sunt instalate add-on-uri.
+コピー・カット	Copiere-tăiere
+あまりこのイベントに遭遇することはありません	Nu întâlnim acest eveniment foarte des.
+テキスト選択	Selectarea textului
+デバッガー妨害	Interferențe cu depanatorul
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Face modul de depanare un pic mai puțin ușor de utilizat, unele browsere opresc acest comportament
+リダイレクトするURL	URL către care să redirecționați
+利用規約などのページに転送すると良いでしょう	Este posibil să doriți să le trimiteți la pagini precum Termenii de utilizare.
+ソース表示を許可する権限	Autoritatea de a permite afișarea sursei.
+ADMINログイン時のみ通常のソース出力	Ieșire sursă normală numai la autentificarea ADMIN
+USERログインで通常のソース出力	Ieșire sursă normală cu autentificare USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Selectați dacă ieșirea HTML normală este doar pentru administratori sau pentru autentificarea utilizatorului
+HTML保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul protecției HTML
+出力しない	Fără ieșire
+TITLEタグのみ	Doar eticheta TITLE
+WordpressのHEADタグより取得	Retrieved from the HEAD tag in Wordpress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pentru uzul corporativ, cum ar fi paginile interne sau cele destinate exclusiv membrilor, "fără ieșire" sau "doar tag-ul TITLE" este în regulă.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale decât dacă sunt preluate din tag-ul Wordpress HEAD
+画像botをアクセス禁止にする	Interzicerea robotului de imagine.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini.
+alertメッセージを表示する言語	Limba în care este afișat mesajul de alertă.
+Wordpressの言語	Limbi Wordpress.
+ブラウザの設定言語	Limba de setare a browserului
+メッセージをカスタム設定されている場合は言語を変更できません	Limba nu poate fi schimbată dacă mesajul este personalizat
+view-sourceメッセージを表示する言語	Limba în care sunt afișate mesajele sursei de vizualizare.
 一時使用トークンの有効期限	Data de expirare a jetoanelor de utilizare temporară.
 1分	Un minut
 2分	2 minute
@@ -229,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Ace
 1時間	1 oră
 画像URL情報の有効期限を設定します	Setează data de expirare a informațiilor URL ale imaginii.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Odată încărcate, informațiile URL ale imaginii și jetoanele de utilizare temporară sunt dezactivate
+一時使用トークンのビット数	Număr de biți în jetoanele de utilizare temporară
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește
+ハッシュ化アルゴリズム	Algoritmul hashing
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării.
+基本設定	Setarea de bază
+高度な設定	Setări avansate
+初期設定に戻す	Resetarea la setările implicite
+メッセージの設定	Setări de mesaje
+右クリックやソースコード表示時に転送する URL を設定します	Setați URL-ul care urmează să fie redirecționat atunci când faceți clic dreapta sau vizualizați codul sursă.
+警告メッセージにはHTMLは使用できません	HTML nu poate fi utilizat pentru mesajele de avertizare
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Dacă este setat pe acest ecran, setările de limbă din fila Setări avansate sunt ignorate
+以下の文字列が使用できます	Pot fi utilizate următoarele șiruri de caractere
+改行	Linie nouă
+押下されたキー	Tastă apăsată
+Neo HTML Protector 設定	Setări Neo HTML Protector
+このプラグインについて	Despre acest plugin.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Pentru a șterge toate datele, dezinstalați plug-in-ul și apoi reinstalați-l
+Neo HTML Protectorについて	Despre Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Conținutul nu poate fi protejat perfect. Cu toate acestea, avertizându-i în toate modurile posibile și fiind pregătiți în cazul în care se întâmplă ceva, ar trebui să fiți în măsură să rezolvați problema într-un mod prescris la nivel național.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Desigur, va trebui să vă îmbunătățiți condițiile de utilizare și politicile site-ului. Acest plugin nu este o aplicație de generare a termenilor de utilizare, dar vă poate oferi un indiciu.
+開発者: 夜桜　なの	Dezvoltator: Nano Yozakura
+バージョン	Versiune
+ビルド	Construi
+サポートページ	Pagina de asistență
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss. cântată de dl Uramanira
+支援のお願い	Cerere de asistență.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Vă mulțumim pentru utilizarea Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	O mulțime de timp și înțelepciune au fost investite în dezvoltarea și întreținerea acestui plugin, și am fi recunoscători pentru donații, dacă există, pentru a ne ajuta să strângem fonduri pentru îmbunătățiri și actualizări continue.
+寄付について	Despre donații
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donațiile sunt voluntare și nu obligatorii. Acesta este deschis tuturor, astfel încât pluginul să poată fi utilizat gratuit. Cu toate acestea, sprijinul dvs. este foarte apreciat pentru a continua dezvoltarea și am fi bucuroși să vă ajutăm în orice fel putem.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donațiile pot fi făcute prin intermediul linkului de mai jos. Dacă sunteți din Japonia, puteți, de asemenea, să donați gratuit și, în plus, puteți dona cu ușurință folosind voucherele cadou Amazon.
+寄付先	Donator
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Cu sprijinul dvs., vom face tot posibilul să vă aducem actualizări excelente în viitor!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor.
+無効なIPアドレス	Adresă IP invalidă.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate
+デバッグモード、コンソールの起動は禁止されています	Modul de depanare și activarea consolei sunt interzise
+以下の情報がサーバーに送信されました	Următoarele informații au fost trimise către server
+あなたのIPアドレス	Adresa dvs. de IP.
+あなたの端末とブラウザ	Dispozitivul și browserul dvs.
+あなたの押下したキー	Tastele dvs. apăsate.
+リダイレクトをします	Redirecționări.
+右クリックは禁止されています	Clicul dreapta este interzis.
+印刷、PDFへの保存は禁止されています	Tipărirea și salvarea în format PDF este interzisă
+ページの保存は禁止されています	Salvarea paginilor este interzisă.
+コピー、カットは禁止されています	Copierea sau tăierea este interzisă.
+あなたが起こしたイベント	Evenimentele pe care le-ați provocat.
+HTMLソース表示は禁止されています	Afișarea sursei HTML este interzisă.
+不正アクセスは禁止されています	Accesul neautorizat este interzis.
+アラビア語	Arabă
+ブルガリア語	Bulgară
+チェコ語	Cehă
+デンマーク語	Daneză
+ドイツ語	Germană
+現代ギリシア語	Greaca modernă
+英語	Engleză
+イギリス英語	Engleza britanică
+アメリカ英語	Engleză americană
+スペイン語	Spaniolă
+エストニア語	Estonă
+フィンランド語	Finlandeză
+フランス語	Franceză
+ハンガリー語	Maghiară
+インドネシア語	Indoneziană
+イタリア語	Italiană
+日本語	Japoneză
+朝鮮語	Coreeană
+リトアニア語	Lituaniană
+ラトビア語	Letonă
+ノルウェー語	Norvegiană
+オランダ語	Olandeză
+ポーランド語	Poloneză
+ポルトガリア語	Portugheză
+ブラジルポルトガル語	Portugheză braziliană
+ヨーロピアンポルトガル語	Portugheză europeană
+ルーマニア語	Română
+ロシア語	Rusă
+スロバキア語	Slovacă
+スロベニア語	Slovenă
+スウェーデン語	Suedeză
+トルコ語	Turcă
+ウクライナ語	Ucraineană
+中国語	Chineză
+簡体中国語	Chineză simplificată
+繁体中国語	Chineză tradițională
+画像が見つかりません	Imaginea nu a fost găsită.

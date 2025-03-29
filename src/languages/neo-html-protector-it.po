@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.53\n"
+"Project-Id-Version: Neo HTML Protector 0.0.54\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-28 19:07+0900\n"
-"PO-Revision-Date: 2025-03-28 19:07+0900\n"
+"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"PO-Revision-Date: 2025-03-29 13:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -55,7 +55,7 @@ msgid "右クリックの警告メッセージ"
 msgstr "Fare clic con il tasto destro del mouse sui messaggi di avviso."
 
 msgid "印刷、PDF保存の警告メッセージ"
-msgstr "Messaggi di avviso per la stampa e il salvataggio dei PDF."
+msgstr "Messaggi di avviso per la stampa e il salvataggio di PDF."
 
 msgid "コピー・カットした時に表示するメッセージ"
 msgstr "Messaggio visualizzato durante la copia o il taglio."
@@ -153,8 +153,8 @@ msgstr "Viene letto dinamicamente da JavaScript, il che influisce sulla SEO."
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output di arte ASCII nel codice sorgente HTML durante l'offuscamento e la protezione dell'HTML."
 
-msgid "なし"
-msgstr "Senza"
+msgid "表示なし"
+msgstr "Nessuna indicazione"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Visualizza un'immagine ASCII che indica l'intenzione di avvertire quando viene visualizzata l'origine HTML."
@@ -211,7 +211,7 @@ msgid "テキスト選択"
 msgstr "Selezione del testo"
 
 msgid "デバッガー妨害"
-msgstr "Interferenze del debugger"
+msgstr "Interferenza del debugger"
 
 msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
 msgstr "Rende la modalità di debug un po' meno facile da usare, alcuni browser bloccano questo comportamento"

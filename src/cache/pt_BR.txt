@@ -4,10 +4,10 @@ IPアドレスログ	Registro de endereço IP
 全クリア	Tudo limpo.
 IPログが全て削除されました	Todos os registros de IP foram excluídos.
 ID	ID
+タイムスタンプ	Registro de data e hora
 IPアドレス	Endereço IP
 ユーザーエージェント	Agente do usuário
 イベント	Evento
-日時	Data e hora
 IPアドレスのデータはありません	Não há dados de endereço IP disponíveis.
 デバッグモード、コンソールの警告メッセージ	Modo de depuração, mensagens de aviso do console.
 右クリックの警告メッセージ	Clique com o botão direito do mouse nas mensagens de aviso.
@@ -16,192 +16,74 @@ IPアドレスのデータはありません	Não há dados de endereço IP disp
 HTMLソース表示時に表示するメッセージ	Mensagem a ser exibida ao exibir a fonte HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Mensagem a ser exibida no início do código-fonte quando o HTML for ofuscado e protegido.
 HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mensagem exibida se o token de autenticação de uso único for anormal durante a proteção HTML.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mensagem exibida se os cookies e o Javascript não estiverem ativados.
+実際にはJavascriptが無効時のみ表示されます	Na prática, isso só fica visível quando o Javascript está desativado.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Mensagem exibida na imagem quando o download da imagem é feito e a imagem está protegida Somente em inglês
 HTML難読化 (圧縮)	Ofuscação
 無効	Inválido
 有効	Validade
-HTML保護	Proteção de HTML
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Sempre que ele é ativado, há um redirecionamento, o que pode resultar em uma queda no SEO
-デバッグモード	Modo de depuração
-妨害＋記録のみ	Interferência + registro apenas.
-妨害＋記録＋表示＋リダイレクト	Interceptação + registro + exibição + redirecionamento
-ブラウザーコンソール	Console do navegador
-HTMLソース表示	Exibição da fonte HTML
-印刷	Impressão
-印刷阻止をするもものの、ブラウザによってはうまく動作しません	Bloqueio de impressão, mas não funciona bem em alguns navegadores
-右クリック	Clique com o botão direito do mouse
-コピー・カット	Cópia-corte
-テキスト選択	Seleção de texto
-デバッガー妨害	Interferência do depurador
-妨害	Interferência
-リダイレクトするURL	URL para o qual redirecionar
-HTML保護時のHEADタグの出力	Saída de tags HEAD durante a proteção de HTML
-出力しない	Nenhuma saída
-TITLEタグのみ	Somente a tag TITLE
-WordpressのHEADタグより取得	Recuperado da tag HEAD no Wordpress
-HTML保護時の一度限りのトークンのチェック	Verificações únicas de token durante a proteção HTML.
-基本設定	Configuração básica
-高度な設定	Configurações avançadas
-メッセージの設定	Configurações de mensagens
-右クリックやソースコード表示時に転送する URL を設定します	Defina o URL a ser encaminhado ao clicar com o botão direito do mouse ou visualizar o código-fonte.
-警告メッセージにはHTMLは使用できません	HTML não pode ser usado para mensagens de aviso
-以下の文字列が使用できます	As seguintes cadeias de caracteres podem ser usadas
-改行	Nova linha
-押下されたキー	Tecla pressionada
-Neo HTML Protector 設定	Configurações do Neo HTML Protector
-初期設定に戻す	Redefinição para o padrão
-このプラグインについて	Sobre esse plug-in.
-Neo HTML Protectorについて	Sobre o Neo HTML Protector
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています	Esse plug-in tem o objetivo de proteger o HTML, as imagens etc. emitidos pelo Wordpress e protegê-lo contra o uso não autorizado de seu conteúdo!
-開発者: 夜桜　なの	Desenvolvedor: Nano Yozakura
-バージョン	Versão
-サポートページ	Página de suporte
-支援のお願い	Solicitação de assistência.
-Neo HTML Protectorをご利用いただき、ありがとうございます！	Obrigado por usar o Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção deste plug-in, e ficaríamos gratos por doações, se houver, para nos ajudar a levantar fundos para melhorias e atualizações contínuas.
-寄付について	Sobre as doações
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	As doações são voluntárias e não obrigatórias. Elas estão abertas a todos para que o plug-in possa ser usado gratuitamente. No entanto, seu apoio é muito apreciado para continuar o desenvolvimento e ficaremos felizes em ajudar da maneira que pudermos.
-ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	As doações podem ser feitas por meio do link abaixo. Se você é do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar usando vales-presente da Amazon.
-皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Com o seu apoio, faremos o possível para trazer ótimas atualizações no futuro!
-寄付先	Doador
-ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Agradecemos seu apoio e esperamos trabalhar com você no futuro.
-デバッグモード、コンソールの起動は禁止されています	O modo de depuração e a ativação do console são proibidos
-以下の情報がサーバーに送信されました	As seguintes informações foram enviadas ao servidor
-あなたのIPアドレス	Seu endereço IP.
-あなたの端末とブラウザ	Seu dispositivo e navegador
-あなたの押下したキー	Suas teclas pressionadas.
-リダイレクトをします	Redirecionamentos.
-右クリックは禁止されています	É proibido clicar com o botão direito do mouse.
-印刷、PDFへの保存は禁止されています	É proibido imprimir e salvar em PDF
-コピー、カットは禁止されています	É proibido copiar ou cortar.
-あなたが起こしたイベント	Eventos que você causou.
-HTMLソース表示は禁止されています	A exibição do código-fonte HTML é proibida.
-不正アクセスは禁止されています	O acesso não autorizado é proibido.
-画像が見つかりません	Imagem não encontrada.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Este site só pode ser visualizado com cookies e JavaScript ativados
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Para limpar todos os dados, desinstale o plug-in e, em seguida, reinstale-o
-ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	
-Miss. 裏まにら氏歌唱	Srta. cantada pelo Sr. Uramanira
-タイムスタンプ	Registro de data e hora
-Wordpressの言語 / カスタム設定されたメッセージ	Idiomas do Wordpress / mensagens configuradas de forma personalizada
-ブルガリア語	Búlgaro
-チェコ語	Tcheco
-デンマーク語	Dinamarquês
-ドイツ語	Alemão
-現代ギリシア語	Grego moderno
-英語	Inglês
-イギリス英語	Inglês britânico
-アメリカ英語	Inglês americano
-スペイン語	Espanhol
-エストニア語	Estoniano
-フィンランド語	Finlandês
-フランス語	Francês
-ハンガリー語	Húngaro
-インドネシア語	Indonésio
-イタリア語	Italiano
-ノルウェー語	Norueguês
-オランダ語	Holandês
-ポーランド語	Polonês
-ポルトガリア語	Português
-ヨーロピアンポルトガル語	Português europeu
-ルーマニア語	Romeno
-ロシア語	Russo
-トルコ語	Turco
-繁体中国語	Chinês tradicional
-alertメッセージを表示する言語	Idioma em que a mensagem de alerta é exibida.
-ブラウザの設定言語	Idioma de configuração do navegador
-設定をデフォルトから変更すると、カスタムメッセージが使用できなくなります	A alteração da configuração padrão desabilitará as mensagens personalizadas
-view-sourceメッセージを表示する言語	Idioma em que as mensagens do view-source são exibidas.
-アラビア語	Árabe
-日本語	Japonês
-朝鮮語	Coreano
-リトアニア語	Lituano
-ラトビア語	Letão
-ブラジルポルトガル語	Português do Brasil
-スロバキア語	Eslovaco
-スロベニア語	Esloveno
-スウェーデン語	Sueco
-ウクライナ語	Ucraniano
-中国語	Chinês
-簡体中国語	Chinês simplificado
-Wordpressの言語	Idiomas do Wordpress.
-メッセージをカスタム設定されている場合は言語を変更できません	O idioma não pode ser alterado se a mensagem for personalizada
-view-source:の動作をされた時の記録もします	Ele também registra quando a ação view-source: é executada.
-HTMLのコメントタグを使用	Use tags de comentário HTML.
-INPUT TYPE=HIDDEN タグを使用	INPUT TYPE=HIDDEN Use a tag.
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas
-META NAME=ALERT タグを使用	Use a tag META NAME=ALERT.
-HTML難読化・保護時のHEADタグの出力	Saída de tags HEAD durante a ofuscação e proteção de HTML
-HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML.
-フォント	Fonte
-なし	Sem
-WARNINGの文字のみです。ログインしていないブラウザーでソース表示を行って確認して下さい。	Somente a palavra WARNING é exibida. Verifique visualizando a fonte em um navegador sem login.
-ページの保存は禁止されています	É proibido salvar páginas.
-ページ保存	Salvar página
 一般的なHTML圧縮です、難読化解除のサイトもあります	Compactação geral de HTML, alguns sites têm desofuscação.
-メニューからは操作できてしまいます	Ele pode ser operado no menu.
-事実上デバッグモードから操作できてしまいます	Na verdade, você pode operar no modo de depuração.
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Torna o modo de depuração um pouco menos fácil de usar; alguns navegadores impedem esse comportamento
-view-source:から始まるURLを入力すれば操作できてしまいます	Ele pode ser operado inserindo um URL que começa com view-source:.
-アドオンがインストールされていると操作できてしまいます	Ele pode ser operado se os complementos estiverem instalados.
+HTML保護	Proteção de HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Somente o mínimo de HTML é gerado além da compactação HTML, e o conteúdo da tag BODY não é gerado de forma alguma.
-利用規約などのページに転送すると良いでしょう	Talvez você queira encaminhá-los para páginas como os Termos de Uso.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Verifique visualizando a fonte em um navegador sem login
-あまりこのイベントに遭遇することはありません	Não encontramos esse evento com muita frequência.
-企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Para uso corporativo, como páginas internas ou somente para membros, "sem saída" ou "somente tag TITLE" é suficiente.
-WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	As imagens do OGP não serão exibidas em compartilhamentos de redes sociais, a menos que sejam retiradas da tag HEAD do Wordpress
-画像botをアクセス禁止にする	Banimento do bot de imagens.
-画像botを避けることにより画像検索から直リンされることによって守れなかったコンテンツを守ることができます	Evitar bots de imagem protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens
-このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Esse plug-in tem o objetivo de proteger o HTML, as imagens etc. emitidos pelo Wordpress e protegê-lo contra o uso não autorizado de seu conteúdo.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	O conteúdo não pode ser perfeitamente protegido. No entanto, avisando-os de todas as maneiras possíveis e estando preparado caso algo aconteça, você poderá resolver o problema de maneira nacionalmente prescrita.
-もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	É claro que você precisará aprimorar seus termos de uso e as políticas do site. Este plug-in não é um aplicativo de geração de termos de uso, mas pode lhe dar uma dica.
-ソース表示を許可する権限	Autoridade para permitir a exibição da fonte.
-ADMINログイン時のみ通常のソース出力	Saída de fonte normal somente no login de ADMIN
-USERログインで通常のソース出力	Saída de fonte normal com login de USUÁRIO
-通常のHTML出力を管理者のみかユーザーログインかを選択します	Selecione se a saída HTML normal é apenas para administradores ou para login de usuário
-ビルド	Construir
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens.
-無効なIPアドレス	Endereço IP inválido.
-無効なユーザーエイジェント	Agente de usuário inválido.
+view-source:の動作をされた時の記録もします	Ele também registra quando a ação view-source: é executada.
+有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Sempre que ele é ativado, há um redirecionamento, o que pode resultar em uma queda no SEO
 若干デザインが変わる可能性があります	O design pode sofrer pequenas alterações.
-画像をダウンロードから保護します	Protege as imagens contra download.
-有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Sempre que você o ativa, o JavaScript é carregado antes do carregamento das imagens, portanto, o SEO pode cair
 画像の保護	Proteção de imagem.
-画像データも保護	Dados de imagem também protegidos
-画像データも保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	O cache de imagem não funciona quando os dados da imagem também estão protegidos, portanto, o site carrega mais lentamente na próxima visita, o que pode resultar em uma queda no SEO
-画像URLのみ保護	Somente os URLs de imagem são protegidos.
-画像は遅延読み込みをします	O carregamento das imagens está atrasado.
-画像データも保護した時には、/wp-contents/uploadsに.htaccessファイルで制限をかけることもできます	Se também quiser proteger seus dados de imagem, você pode colocar restrições em /wp-contents/uploads com um arquivo .htaccess.
-画像URLのみ保護した時には画像は遅延読み込みをします、それ以外はWordpressで設定されたデフォルトが使用されます	Quando apenas o URL da imagem estiver protegido, a imagem terá um carregamento atrasado; caso contrário, será usado o padrão definido pelo Wordpress
-画像データも保護した時には、データベースの負荷が高くなる可能性があります	Quando os dados de imagem também são protegidos, o banco de dados pode ficar sobrecarregado
-CookieやJavascriptが有効でない場合に表示するメッセージ	Mensagem exibida se os cookies e o Javascript não estiverem ativados.
-実際にはJavascriptが無効時のみ表示されます	Na prática, isso só fica visível quando o Javascript está desativado.
-画像URLのみ保護した時には画像URLのみ保護し、実際の画像の転送はJavaScriptで解読後一般的な方法で画像を表示します	Quando somente o URL da imagem está protegido, somente o URL da imagem está protegido, a transferência real da imagem é descriptografada pelo JavaScript e a imagem é exibida de forma genérica.
-画像データも保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Os dados da imagem também impedem o download quase completo quando protegidos, emitem um URL único completo, autenticam com um token armazenado na sessão e exibem a imagem do php, impedindo assim o roubo quase completo da imagem.
-画像URLのみ保護を有効化した時は必ずJavaScriptが読み込まれてから画像が読み込まれますので、SEOが落ちるかもしれません	Sempre que você ativa a proteção somente do URL da imagem, o JavaScript é sempre carregado antes do carregamento da imagem, portanto, o SEO pode ser prejudicado!
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Exibir arte ASCII indicando a intenção de avisar quando a fonte HTML for exibida.
-画像を保護	Proteção de imagem.
+add_filterを使用して画像を保護	Proteger imagens usando add_filter
+wp_head～wp_footerの間をキャプチャして画像を保護	Capturar e proteger imagens entre wp_head e wp_footer
+画像をダウンロードから保護します	Protege as imagens contra download.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Impede quase completamente o download quando os dados da imagem estão protegidos, emite um URL único completo, autentica-se com um token armazenado na sessão e exibe a imagem do php, impedindo assim quase completamente o roubo de imagens.
 画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	O cache de imagens não funciona quando os dados da imagem estão protegidos, portanto, o site carregará mais lentamente na próxima visita, o que pode resultar em uma queda no SEO
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	A carga do banco de dados pode ser maior quando os dados da imagem estão protegidos
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Observe que as imagens especificadas como atraentes são distribuídas como OGP e não podem ser protegidas. Se você precisar protegê-las, altere a seleção da saída da tag HEAD ao proteger o HTML nas configurações avançadas.
-画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Mensagem exibida na imagem quando o download da imagem é feito e a imagem está protegida Somente em inglês
-add_filterを使用して画像を保護	Proteger imagens usando add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Capturar e proteger imagens entre wp_head e wp_footer
 add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	O método que usa add_filter filtra as tags img quando elas são publicadas, enquanto o método que usa wp_head para wp_footer processa todas as tags img no conteúdo.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Observe que as imagens especificadas como atraentes são distribuídas como OGP e não podem ser protegidas. Se você precisar protegê-las, altere a seleção da saída da tag HEAD ao proteger o HTML nas configurações avançadas.
 OS標準搭載のスクリーンショット機能を保護することはできません	A função padrão de captura de tela do sistema operacional não pode ser protegida
-一時使用トークンのビット数	Número de bits em tokens de uso temporário
-一時使用トークンをパスワードとして使用しますが、その強度を指定します	Os tokens de uso temporário são usados como senhas, mas especificam sua força
-ハッシュ化アルゴリズム	Algoritmo de hashing
-一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Os tokens temporários são usados como senhas, mas devem ser transformados em hash; defina a força do hash.
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Especifica a força do token de uso temporário usado como uma senha para criptografar as informações do URL da imagem
-画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Os tokens temporários são usados como senhas para criptografar as informações do URL da imagem, mas devem ser transformados em hash e definir a força do hash.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	A intensidade aumenta à medida que você vai para as opções listadas abaixo do menu suspenso, mas a carga no servidor aumenta
 画像URLの保護	Proteção de URLs de imagens
 即時読み込みをして有効	Eficaz com carregamento imediato.
 遅延読み込みをして有効	Ativado com carregamento atrasado.
 画像の保護と組み合わせて使用します、単体では意味がありません	Usado em combinação com a proteção de imagem, ele não é significativo por si só.
 JavaScriptにより動的に読まれますのでSEOに影響があります	Ele é lido dinamicamente pelo JavaScript, o que afeta o SEO.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Saída de arte ASCII no código-fonte HTML durante a ofuscação e proteção do HTML.
+表示なし	Sem indicação
+HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Exibir arte ASCII indicando a intenção de avisar quando a fonte HTML for exibida.
+ログインしていないブラウザーでソース表示を行って確認して下さい	Verifique visualizando a fonte em um navegador sem login
+デバッグモード	Modo de depuração
+妨害＋記録のみ	Interferência + registro apenas.
+妨害＋記録＋表示＋リダイレクト	Interceptação + registro + exibição + redirecionamento
+メニューからは操作できてしまいます	Ele pode ser operado no menu.
+ブラウザーコンソール	Console do navegador
+事実上デバッグモードから操作できてしまいます	Na verdade, você pode operar no modo de depuração.
+HTMLソース表示	Exibição da fonte HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Ele pode ser operado inserindo um URL que começa com view-source:.
+印刷	Impressão
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Bloqueio de impressão, mas não funciona bem em alguns navegadores
+ページ保存	Salvar página
+右クリック	Clique com o botão direito do mouse
+アドオンがインストールされていると操作できてしまいます	Ele pode ser operado se os complementos estiverem instalados.
+コピー・カット	Cópia-corte
+あまりこのイベントに遭遇することはありません	Não encontramos esse evento com muita frequência.
+テキスト選択	Seleção de texto
+デバッガー妨害	Interferência do depurador
+デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Torna o modo de depuração um pouco menos fácil de usar; alguns navegadores impedem esse comportamento
+リダイレクトするURL	URL para o qual redirecionar
+利用規約などのページに転送すると良いでしょう	Talvez você queira encaminhá-los para páginas como os Termos de Uso.
+ソース表示を許可する権限	Autoridade para permitir a exibição da fonte.
+ADMINログイン時のみ通常のソース出力	Saída de fonte normal somente no login de ADMIN
+USERログインで通常のソース出力	Saída de fonte normal com login de USUÁRIO
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Selecione se a saída HTML normal é apenas para administradores ou para login de usuário
+HTML保護時のHEADタグの出力	Saída de tags HEAD durante a proteção de HTML
+出力しない	Nenhuma saída
+TITLEタグのみ	Somente a tag TITLE
+WordpressのHEADタグより取得	Recuperado da tag HEAD no Wordpress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Para uso corporativo, como páginas internas ou somente para membros, "sem saída" ou "somente tag TITLE" é suficiente.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	As imagens do OGP não serão exibidas em compartilhamentos de redes sociais, a menos que sejam retiradas da tag HEAD do Wordpress
+画像botをアクセス禁止にする	Banimento do bot de imagens.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens.
+alertメッセージを表示する言語	Idioma em que a mensagem de alerta é exibida.
+Wordpressの言語	Idiomas do Wordpress.
+ブラウザの設定言語	Idioma de configuração do navegador
+メッセージをカスタム設定されている場合は言語を変更できません	O idioma não pode ser alterado se a mensagem for personalizada
+view-sourceメッセージを表示する言語	Idioma em que as mensagens do view-source são exibidas.
 一時使用トークンの有効期限	Data de validade dos tokens de uso temporário.
 1分	Um minuto
 2分	2 minutos
@@ -225,3 +107,92 @@ JavaScriptにより動的に読まれますのでSEOに影響があります	Ele
 1時間	1 hora
 画像URL情報の有効期限を設定します	Define a data de validade das informações de URL da imagem.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Depois de carregadas, as informações de URL da imagem e os tokens de uso temporário são desativados
+一時使用トークンのビット数	Número de bits em tokens de uso temporário
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Especifica a força do token de uso temporário usado como uma senha para criptografar as informações do URL da imagem
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	A intensidade aumenta à medida que você vai para as opções listadas abaixo do menu suspenso, mas a carga no servidor aumenta
+ハッシュ化アルゴリズム	Algoritmo de hashing
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Os tokens temporários são usados como senhas para criptografar as informações do URL da imagem, mas devem ser transformados em hash e definir a força do hash.
+基本設定	Configuração básica
+高度な設定	Configurações avançadas
+初期設定に戻す	Redefinição para o padrão
+メッセージの設定	Configurações de mensagens
+右クリックやソースコード表示時に転送する URL を設定します	Defina o URL a ser encaminhado ao clicar com o botão direito do mouse ou visualizar o código-fonte.
+警告メッセージにはHTMLは使用できません	HTML não pode ser usado para mensagens de aviso
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas
+以下の文字列が使用できます	As seguintes cadeias de caracteres podem ser usadas
+改行	Nova linha
+押下されたキー	Tecla pressionada
+Neo HTML Protector 設定	Configurações do Neo HTML Protector
+このプラグインについて	Sobre esse plug-in.
+データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Para limpar todos os dados, desinstale o plug-in e, em seguida, reinstale-o
+Neo HTML Protectorについて	Sobre o Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Esse plug-in tem o objetivo de proteger o HTML, as imagens etc. emitidos pelo Wordpress e protegê-lo contra o uso não autorizado de seu conteúdo.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	O conteúdo não pode ser perfeitamente protegido. No entanto, avisando-os de todas as maneiras possíveis e estando preparado caso algo aconteça, você poderá resolver o problema de maneira nacionalmente prescrita.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	É claro que você precisará aprimorar seus termos de uso e as políticas do site. Este plug-in não é um aplicativo de geração de termos de uso, mas pode lhe dar uma dica.
+開発者: 夜桜　なの	Desenvolvedor: Nano Yozakura
+バージョン	Versão
+ビルド	Construir
+サポートページ	Página de suporte
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Srta. cantada pelo Sr. Uramanira
+支援のお願い	Solicitação de assistência.
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Obrigado por usar o Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção deste plug-in, e ficaríamos gratos por doações, se houver, para nos ajudar a levantar fundos para melhorias e atualizações contínuas.
+寄付について	Sobre as doações
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	As doações são voluntárias e não obrigatórias. Elas estão abertas a todos para que o plug-in possa ser usado gratuitamente. No entanto, seu apoio é muito apreciado para continuar o desenvolvimento e ficaremos felizes em ajudar da maneira que pudermos.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	As doações podem ser feitas por meio do link abaixo. Se você é do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar usando vales-presente da Amazon.
+寄付先	Doador
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Com o seu apoio, faremos o possível para trazer ótimas atualizações no futuro!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Agradecemos seu apoio e esperamos trabalhar com você no futuro.
+無効なIPアドレス	Endereço IP inválido.
+このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Este site só pode ser visualizado com cookies e JavaScript ativados
+デバッグモード、コンソールの起動は禁止されています	O modo de depuração e a ativação do console são proibidos
+以下の情報がサーバーに送信されました	As seguintes informações foram enviadas ao servidor
+あなたのIPアドレス	Seu endereço IP.
+あなたの端末とブラウザ	Seu dispositivo e navegador
+あなたの押下したキー	Suas teclas pressionadas.
+リダイレクトをします	Redirecionamentos.
+右クリックは禁止されています	É proibido clicar com o botão direito do mouse.
+印刷、PDFへの保存は禁止されています	É proibido imprimir e salvar em PDF
+ページの保存は禁止されています	É proibido salvar páginas.
+コピー、カットは禁止されています	É proibido copiar ou cortar.
+あなたが起こしたイベント	Eventos que você causou.
+HTMLソース表示は禁止されています	A exibição do código-fonte HTML é proibida.
+不正アクセスは禁止されています	O acesso não autorizado é proibido.
+アラビア語	Árabe
+ブルガリア語	Búlgaro
+チェコ語	Tcheco
+デンマーク語	Dinamarquês
+ドイツ語	Alemão
+現代ギリシア語	Grego moderno
+英語	Inglês
+イギリス英語	Inglês britânico
+アメリカ英語	Inglês americano
+スペイン語	Espanhol
+エストニア語	Estoniano
+フィンランド語	Finlandês
+フランス語	Francês
+ハンガリー語	Húngaro
+インドネシア語	Indonésio
+イタリア語	Italiano
+日本語	Japonês
+朝鮮語	Coreano
+リトアニア語	Lituano
+ラトビア語	Letão
+ノルウェー語	Norueguês
+オランダ語	Holandês
+ポーランド語	Polonês
+ポルトガリア語	Português
+ブラジルポルトガル語	Português do Brasil
+ヨーロピアンポルトガル語	Português europeu
+ルーマニア語	Romeno
+ロシア語	Russo
+スロバキア語	Eslovaco
+スロベニア語	Esloveno
+スウェーデン語	Sueco
+トルコ語	Turco
+ウクライナ語	Ucraniano
+中国語	Chinês
+簡体中国語	Chinês simplificado
+繁体中国語	Chinês tradicional
+画像が見つかりません	Imagem não encontrada.
