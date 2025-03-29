@@ -198,3 +198,7 @@ HTMLソース表示は禁止されています	L'affichage de la source HTML est
 画像が見つかりません	Image non trouvée.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Bien que l'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, la charge sur le serveur est plus importante et la quantité de HTML transférée peut être plus élevée
 JavaScriptにより遅延読まれますのでSEOに影響があります	Retard de lecture dû à JavaScript, ce qui affecte le référencement
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ce qui est réellement téléchargé en forçant le téléchargement de l'image.
+PNG形式で黄色い背景の警告画面	Écran d'avertissement sur fond jaune au format PNG.
+GIF形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format GIF.
+意味のないHTMLドキュメント	Documents HTML sans signification

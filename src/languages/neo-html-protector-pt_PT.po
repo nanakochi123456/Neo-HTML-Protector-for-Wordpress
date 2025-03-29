@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.56\n"
+"Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 19:26+0900\n"
-"PO-Revision-Date: 2025-03-29 19:28+0900\n"
+"POT-Creation-Date: 2025-03-29 22:50+0900\n"
+"PO-Revision-Date: 2025-03-29 22:50+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -227,6 +227,18 @@ msgstr "Saída de fonte normal com login de USUÁRIO"
 
 msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
 msgstr "Selecione se a saída HTML normal é apenas para administradores ou para o início de sessão do utilizador"
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "O que é efetivamente descarregado ao forçar a imagem a ser descarregada."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ecrã de aviso com fundo amarelo em formato PNG."
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Imagem transparente de 1 x 1 pixel em formato GIF."
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Documentos HTML sem sentido"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Saída de etiquetas HEAD durante a proteção HTML"

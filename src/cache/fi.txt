@@ -198,3 +198,7 @@ HTMLソース表示は禁止されています	HTML-lähteen näyttäminen on ki
 画像が見つかりません	Kuvaa ei löydy.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Vaikka intensiteetti kasvaa, kun siirryt pudotusvalikon alapuolella lueteltuihin vaihtoehtoihin, palvelimen kuormitus on suurempi ja siirretyn HTML:n määrä voi olla suurempi.
 JavaScriptにより遅延読まれますのでSEOに影響があります	Viivästynyt lukeminen JavaScriptin takia, mikä vaikuttaa SEO:hon
+画像を無理やりダウンロードして実際にダウンロードされるもの	Se, mitä todella ladataan pakottamalla kuva ladattavaksi.
+PNG形式で黄色い背景の警告画面	Varoitusnäyttö keltaisella taustalla PNG-muodossa.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pikselin läpinäkyvä kuva GIF-muodossa.
+意味のないHTMLドキュメント	Merkityksettömät HTML-dokumentit

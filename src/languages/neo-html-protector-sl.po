@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.56\n"
+"Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 19:26+0900\n"
-"PO-Revision-Date: 2025-03-29 19:28+0900\n"
+"POT-Creation-Date: 2025-03-29 22:50+0900\n"
+"PO-Revision-Date: 2025-03-29 22:50+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -227,6 +227,18 @@ msgstr "Običajni izhod vira s prijavo USER"
 
 msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
 msgstr "Izberite, ali je običajni izpis HTML namenjen samo skrbnikom ali tudi prijavi uporabnika."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Kaj se dejansko prenese, če se slika prenese s prisilo."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Opozorilni zaslon z rumenim ozadjem v formatu PNG."
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "1 x 1 piksel prozorne slike v formatu GIF."
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Nesmiselni dokumenti HTML"
 
 msgid "HTML保護時のHEADタグの出力"
 msgstr "Izpis oznak HEAD med zaščito HTML"

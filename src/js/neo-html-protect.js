@@ -26,21 +26,23 @@
 	let		unixTime = Math.floor(Date.now() / 1000);
 	let		Cryptojs = CryptoJS;
 	let		Document = document;
+	let		nullstr = '';
 
-	keydown=keydown + '';
-	CtrlKey=CtrlKey + '';
-	ShiftKey=ShiftKey + '';
-	fKey=fKey + '';
-	iKey=iKey + '';
-	jKey=jKey + '';
-	uKey=uKey + '';
-	pKey=pKey + '';
-	sKey=sKey + '';
-	zKey=zKey + '';
-	rClick=rClick + '';
-	CopyCut=CopyCut + '';
-	none=none + '';
-	undefined=undefined + '';
+	nullstr = nullstr + nullstr;
+	keydown=keydown + nullstr;
+	CtrlKey=CtrlKey + nullstr;
+	ShiftKey=ShiftKey + nullstr;
+	fKey=fKey + nullstr;
+	iKey=iKey + nullstr;
+	jKey=jKey + nullstr;
+	uKey=uKey + nullstr;
+	pKey=pKey + nullstr;
+	sKey=sKey + nullstr;
+	zKey=zKey + nullstr;
+	rClick=rClick + nullstr;
+	CopyCut=CopyCut + nullstr;
+	none=none + nullstr;
+	undefined=undefined + nullstr;
 
 	function lower(str) {
 		return str.toLowerCase();
@@ -249,6 +251,17 @@
 
 		// Ctrl+P
 		if(FlagSmall.includes(pKey)) {
+			// @media print{body{display:none !important}} 相当
+			const mediaQuery = window.matchMedia('print');
+
+			mediaQuery.addEventListener('change', (e) => {
+				if (e.matches) {
+					document.body.style.display = none;
+				} else {
+					document.body.style.display = nullstr;
+				}
+			});
+
 			if (ctrl && lower(key) === pKey) {
 				sendIpToServer(CtrlKey+upper(pKey), pKey);
 				stop(event);
@@ -284,8 +297,13 @@
 	// テキスト選択禁止のみ 通知なし
 	if(FlagSmall.includes('t')) {
 		Document.body.style.userSelect = none;
+		Document.body.style.mozUserSelect = none; // Firefox対策
 		Document.body.style.webkitUserSelect = none; // Safari対策
 		//Document.body.style.msUserSelect = none; // 古いIE対策 いらないのでコメントアウト
+
+		Document.querySelectorAll('img').forEach(img => {
+			img.style.pointerEvents = none;
+		});
 
 		$(Document).on('selectstart touchstart touchmove touchend', (event) => {
 			stop(event);

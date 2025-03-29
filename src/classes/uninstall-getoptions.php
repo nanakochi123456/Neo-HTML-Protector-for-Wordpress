@@ -25,6 +25,7 @@ function neohp_delete_options() {
 	delete_option('neohp_htmlprotect_message');
 	delete_option('neohp_htmlsource_message');
 	delete_option('neohp_imagedownload_message');
+	delete_option('neohp_imagedownload_real');
 	delete_option('neohp_imageprotect');
 	delete_option('neohp_imageprotectjs');
 	delete_option('neohp_islogin');

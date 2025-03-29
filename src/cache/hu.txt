@@ -198,3 +198,7 @@ HTMLソース表示は禁止されています	A HTML-forrás megjelenítése ti
 画像が見つかりません	A kép nem található.
 ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Bár az intenzitás nő, ahogy a legördülő menü alatt felsorolt opciók felé halad, a szerver terhelése nagyobb, és az átvitt HTML mennyisége is nagyobb lehet.
 JavaScriptにより遅延読まれますのでSEOに影響があります	Késleltetett olvasás a JavaScript miatt, ami befolyásolja a SEO-t
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ami ténylegesen letöltésre kerül a kép letöltésének kikényszerítésével.
+PNG形式で黄色い背景の警告画面	Figyelmeztető képernyő sárga háttérrel PNG formátumban.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pixeles átlátszó kép GIF formátumban.
+意味のないHTMLドキュメント	Értelmetlen HTML dokumentumok

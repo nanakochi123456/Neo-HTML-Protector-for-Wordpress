@@ -195,7 +195,18 @@ class neohp_imageprotect {
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
 
-		$this->outputPng($value . "\n");
+		if(get_option('neohp_imagedownload_real', '0') === '0') {
+			$this->outputPng($value . "\n");
+		} elseif(get_option('neohp_imagedownload_real', '0') === '1') {
+			header('Content-Type: image/gif');
+			$mingif_array=explode(',', $this->mingif);
+			$this->neohp_func->cachezero();
+			echo base64_decode($mingif_array[1]);
+		} elseif(get_option('neohp_imagedownload_real', '0') === '2') {
+			header('Content-Type: text/html');
+			$this->neohp_func->cachezero();
+			echo '<!doctype html><html></html>';
+		}
 		exit;
 	}
 
@@ -322,7 +333,7 @@ class neohp_imageprotect {
 
 		// 暗号化されたURLとIVを一緒に返す（Base64エンコードされたURL）
 		return urlencode(
-			$this->swap_Case(
+			$this->swap_case(
 				$this->neohp_func->url_safe_base64_encode($encrypted_url . ':' . $encoded_iv)
 			)
 		);
@@ -362,7 +373,7 @@ class neohp_imageprotect {
 
 	// nonce生成のための関数
 	function generateNonce() {
-		return $this->swap_Case(
+		return $this->swap_case(
 			$this->neohp_func->url_safe_base64_encode(
 				random_bytes($this->neohp_nonce_bits)
 			)
