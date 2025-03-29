@@ -202,3 +202,6 @@ JavaScriptにより遅延読まれますのでSEOに影響があります	Vėluo
 PNG形式で黄色い背景の警告画面	Įspėjamasis ekranas su geltonu fonu PNG formatu.
 GIF形式で1×1ピクセルの透過画像	1 x 1 pikselio skaidrus GIF formato vaizdas.
 意味のないHTMLドキュメント	Bereikšmiai HTML dokumentai
+有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Kai jis aktyvuojamas, įvyksta nukreipimas, kuris turi įtakos SEO optimizavimui.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spartinančioji atmintinė, todėl svetainė kito apsilankymo metu įkeliama lėčiau, o tai turi įtakos SEO.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Aptiktas talpyklos įskiepis Šis įskiepis neveiks tinkamai, jei įjungtas talpyklos įskiepis.

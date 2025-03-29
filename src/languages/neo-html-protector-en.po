@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -99,8 +99,8 @@ msgstr "More than HTML compression, only minimal HTML is output, and the content
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "It also records when the view-source: operation is performed."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "SEO may drop because of redirects whenever they are activated"
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Whenever it is activated, a redirect will occur, which will affect SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Design may change slightly."
@@ -120,8 +120,8 @@ msgstr "Protects images from downloading"
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Almost completely prevents downloading when image data is protected, issues a complete one-time URL, authenticates with a token stored in the session, and displays the image from php, thus almost completely preventing image theft"
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Image caching does not work when image data is protected, so the site will load slower the next time you visit, which may result in lower SEO"
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "When image data is protected, image caching does not work, so the site will load slower on the next visit, which affects SEO"
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Database load may be higher when image data is protected"
@@ -461,6 +461,9 @@ msgstr "With your support, we will do our best to bring you great updates in the
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "We appreciate your support and look forward to working with you in the future."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Cache plugin detected This plugin will not work properly if cache plugin is enabled"
 
 msgid "無効なIPアドレス"
 msgstr "Invalid IP address"

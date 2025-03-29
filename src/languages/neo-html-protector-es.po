@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -99,8 +99,8 @@ msgstr "Más allá de la compresión HTML, sólo se emite un mínimo de HTML, y 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "También registra cuándo se realiza la acción ver-fuente:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Cada vez que se activa, se produce una redirección, lo que puede provocar una caída del SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Cada vez que se activa, se produce una redirección, lo que repercute en el SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "El diseño puede cambiar ligeramente."
@@ -120,8 +120,8 @@ msgstr "Protege las imágenes de las descargas."
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Impide casi por completo la descarga cuando los datos de la imagen están protegidos, emite una URL completa de un solo uso, se autentica con un token almacenado en la sesión y muestra la imagen desde php, impidiendo así casi por completo el robo de imágenes."
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "El almacenamiento en caché de imágenes no funciona cuando los datos de las imágenes están protegidos, por lo que el sitio se cargará más lentamente en la siguiente visita, lo que puede provocar un descenso del SEO."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Cuando los datos de las imágenes están protegidos, la caché de imágenes no funciona, por lo que el sitio se carga más lentamente en la siguiente visita, lo que afecta al SEO."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "La carga de la base de datos puede ser mayor cuando los datos de la imagen están protegidos"
@@ -461,6 +461,9 @@ msgstr "Con tu apoyo, haremos todo lo posible para ofrecerte grandes actualizaci
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Le agradecemos su apoyo y esperamos trabajar con usted en el futuro."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugin de caché detectado Este plugin no funcionará correctamente si el plugin de caché está activado."
 
 msgid "無効なIPアドレス"
 msgstr "Dirección IP no válida."

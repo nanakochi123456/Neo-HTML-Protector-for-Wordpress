@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -99,8 +99,8 @@ msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Se kirjaa myös, milloin view-source: -toiminto suoritetaan."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka voi johtaa SEO:n heikkenemiseen."
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka vaikuttaa SEO:hon."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Muotoilu saattaa muuttua hieman."
@@ -120,8 +120,8 @@ msgstr "Suojaa kuvia lataukselta."
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Estää lähes kokonaan lataamisen, kun kuvatiedot on suojattu, antaa täydellisen kertaluonteisen URL-osoitteen, todentaa istuntoon tallennetulla tunnisteella ja näyttää kuvan php:stä, mikä estää lähes kokonaan kuvavarkaudet."
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Kuvien välimuistitallennus ei toimi, kun kuvatiedot on suojattu, joten sivusto latautuu hitaammin seuraavalla käynnillä, mikä voi heikentää hakukoneoptimointia."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Kun kuvatiedot on suojattu, kuvien välimuistitallennus ei toimi, joten sivusto latautuu hitaammin seuraavalla vierailulla, mikä vaikuttaa hakukoneoptimointiin."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Tietokannan kuormitus voi olla suurempi, kun kuvatiedot on suojattu."
@@ -461,6 +461,9 @@ msgstr "Teemme parhaamme tuellanne, jotta voimme tuoda teille upeita päivityksi
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Kiitämme teitä tuestanne ja odotamme innolla yhteistyötä kanssanne tulevaisuudessa."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Välimuistilaajennus havaittu Tämä lisäosa ei toimi oikein, jos välimuistilaajennus on käytössä."
 
 msgid "無効なIPアドレス"
 msgstr "Virheellinen IP-osoite."

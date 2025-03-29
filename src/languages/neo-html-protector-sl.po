@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -99,8 +99,8 @@ msgstr "Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Prav tako beleži, kdaj je izvedeno dejanje view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO."
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Ko je aktivirana, pride do preusmeritve, ki vpliva na SEO."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Oblikovanje se lahko nekoliko spremeni."
@@ -120,8 +120,8 @@ msgstr "Zaščita slik pred prenosom."
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Skoraj v celoti prepreči prenos, če so podatki o sliki zaščiteni, izda celoten enkratni URL, se avtentificira z žetonom, shranjenim v seji, in prikaže sliko iz php, s čimer skoraj v celoti prepreči krajo slike."
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Če so slikovni podatki zaščiteni, predpomnilnik slik ne deluje, zato se bo spletno mesto ob naslednjem obisku nalagalo počasneje, zaradi česar se lahko zmanjša SEO."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Če so slikovni podatki zaščiteni, predpomnjenje slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, kar vpliva na SEO."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Obremenitev podatkovne zbirke je lahko večja, če so slikovni podatki zaščiteni."
@@ -461,6 +461,9 @@ msgstr "Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali od
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Zaznan vtičnik predpomnilnika Ta vtičnik ne bo deloval pravilno, če je omogočen vtičnik predpomnilnika."
 
 msgid "無効なIPアドレス"
 msgstr "Nepravilen naslov IP."

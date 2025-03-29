@@ -220,7 +220,7 @@ class neohp_admin {
 
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
-					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOに影響があります', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('若干デザインが変わる可能性があります', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -243,7 +243,7 @@ class neohp_admin {
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます', 'neo-html-protector') );
 					echo '<br>';
-					echo '<br>' .esc_html( __('画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データを保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください', 'neo-html-protector') );
@@ -800,6 +800,7 @@ class neohp_admin {
 		<div class="wrap">
 			<form method="post" action="options.php">
 				<?php
+				$this->cache_alert();
 				settings_fields('neohp_basic_group');
 				do_settings_sections('neohp-settings');
 				submit_button();
@@ -814,6 +815,7 @@ class neohp_admin {
 		<div class="wrap">
 			<form method="post" action="options.php">
 				<?php
+				$this->cache_alert();
 				settings_fields('neohp_message_group');
 				do_settings_sections('neohp-message-settings');
 				submit_button();
@@ -828,6 +830,7 @@ class neohp_admin {
 		<div class="wrap">
 			<form method="post" action="options.php">
 				<?php
+				$this->cache_alert();
 				settings_fields('neohp_advanced_group');
 				do_settings_sections('neohp-advanced-settings');
 				submit_button();
@@ -875,5 +878,29 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <p><?php echo esc_html( __('ご支援いただけることに感謝し、今後ともよろしくお願いいたします。', 'neo-html-protector') ) ?></p>
 		<?php
 	}
-}
 
+	function cache_alert() {
+		if($this->is_cache_plugin_active() ) {
+			echo '<div class="notice notice-error"><p>' . __('キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません', 'neo-html-protector') . '</p></div>';
+		}
+	}
+
+	function is_cache_plugin_active() {
+		$active_plugins = (array) get_option( 'active_plugins', array() );
+
+		$cache_plugins = array(
+			'wp-super-cache/wp-cache.php',
+			'w3-total-cache/w3-total-cache.php',
+			'litespeed-cache/litespeed-cache.php',
+			'wp-rocket/wp-rocket.php'
+		);
+
+		foreach ( $cache_plugins as $plugin ) {
+			if ( in_array( $plugin, $active_plugins ) || array_key_exists( $plugin, (array) get_site_option( 'active_sitewide_plugins' ) ) ) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+}

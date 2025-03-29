@@ -202,3 +202,6 @@ JavaScriptにより遅延読まれますのでSEOに影響があります	Zakasn
 PNG形式で黄色い背景の警告画面	Opozorilni zaslon z rumenim ozadjem v formatu PNG.
 GIF形式で1×1ピクセルの透過画像	1 x 1 piksel prozorne slike v formatu GIF.
 意味のないHTMLドキュメント	Nesmiselni dokumenti HTML
+有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Ko je aktivirana, pride do preusmeritve, ki vpliva na SEO.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Če so slikovni podatki zaščiteni, predpomnjenje slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, kar vpliva na SEO.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zaznan vtičnik predpomnilnika Ta vtičnik ne bo deloval pravilno, če je omogočen vtičnik predpomnilnika.

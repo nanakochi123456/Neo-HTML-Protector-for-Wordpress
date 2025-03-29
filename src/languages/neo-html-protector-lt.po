@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -99,8 +99,8 @@ msgstr "Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žym�
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Jame taip pat įrašoma, kada atliekamas veiksmas view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Kai jis aktyvuojamas, įvyksta nukreipimas, kuris turi įtakos SEO optimizavimui."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Dizainas gali šiek tiek pasikeisti."
@@ -120,8 +120,8 @@ msgstr "Apsaugo vaizdus nuo atsisiuntimo."
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkirsdamas kelią paveikslėlio vagystei."
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys yra apsaugoti, todėl kito apsilankymo metu svetainė bus įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spartinančioji atmintinė, todėl svetainė kito apsilankymo metu įkeliama lėčiau, o tai turi įtakos SEO."
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Duomenų bazės apkrova gali būti didesnė, kai saugomi vaizdo duomenys"
@@ -461,6 +461,9 @@ msgstr "Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puik
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Aptiktas talpyklos įskiepis Šis įskiepis neveiks tinkamai, jei įjungtas talpyklos įskiepis."
 
 msgid "無効なIPアドレス"
 msgstr "Netinkamas IP adresas."

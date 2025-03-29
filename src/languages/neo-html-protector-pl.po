@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.59\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 22:50+0900\n"
-"PO-Revision-Date: 2025-03-29 22:50+0900\n"
+"POT-Creation-Date: 2025-03-29 23:20+0900\n"
+"PO-Revision-Date: 2025-03-29 23:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -99,8 +99,8 @@ msgstr "Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawar
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Rejestruje również, kiedy akcja view-source: jest podejmowana."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません"
-msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, co może skutkować spadkiem SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
+msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, które ma wpływ na SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Projekt może ulec nieznacznym zmianom."
@@ -120,8 +120,8 @@ msgstr "Chroni obrazy przed pobraniem."
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
 msgstr "Prawie całkowicie zapobiega pobieraniu, gdy dane obrazu są chronione, wydaje kompletny jednorazowy adres URL, uwierzytelnia się za pomocą tokena przechowywanego w sesji i wyświetla obraz z php, tym samym prawie całkowicie zapobiegając kradzieży obrazu."
 
-msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません"
-msgstr "Buforowanie obrazów nie działa, gdy dane obrazu są chronione, więc strona będzie ładować się wolniej przy następnej wizycie, co może skutkować spadkiem SEO."
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Gdy dane obrazu są chronione, buforowanie obrazu nie działa, więc strona ładuje się wolniej przy następnej wizycie, co wpływa na SEO"
 
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Obciążenie bazy danych może być większe, gdy dane obrazu są chronione"
@@ -461,6 +461,9 @@ msgstr "Dzięki waszemu wsparciu dołożymy wszelkich starań, aby w przyszłoś
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "Dziękujemy za wsparcie i cieszymy się na współpracę w przyszłości."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Wykryto wtyczkę pamięci podręcznej Ta wtyczka nie będzie działać poprawnie, jeśli wtyczka pamięci podręcznej jest włączona."
 
 msgid "無効なIPアドレス"
 msgstr "Nieprawidłowy adres IP."

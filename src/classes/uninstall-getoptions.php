@@ -3,6 +3,7 @@
 // This is auto generate file
 
 function neohp_delete_options() {
+	delete_option('active_plugins');
 	delete_option('neohp_alert_c');
 	delete_option('neohp_alert_d');
 	delete_option('neohp_alert_f12');

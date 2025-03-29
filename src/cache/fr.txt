@@ -202,3 +202,6 @@ JavaScriptにより遅延読まれますのでSEOに影響があります	Retard
 PNG形式で黄色い背景の警告画面	Écran d'avertissement sur fond jaune au format PNG.
 GIF形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format GIF.
 意味のないHTMLドキュメント	Documents HTML sans signification
+有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Chaque fois qu'il est activé, une redirection se produit, ce qui a un impact sur le référencement.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lorsque les données des images sont protégées, la mise en cache des images ne fonctionne pas, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui affecte le référencement.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin de cache détecté Ce plugin ne fonctionnera pas correctement si le plugin de cache est activé.
