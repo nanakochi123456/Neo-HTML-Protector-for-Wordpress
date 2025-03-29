@@ -14,6 +14,7 @@
 	let		uKey='u';
 	let		pKey='p';
 	let		sKey='s';
+	let		zKey='z';
 	let		rClick='r';
 	let		CopyCut='c';
 	let		none='none';
@@ -32,6 +33,7 @@
 	uKey=uKey + '';
 	pKey=pKey + '';
 	sKey=sKey + '';
+	zKey=zKey + '';
 	rClick=rClick + '';
 	CopyCut=CopyCut + '';
 	none=none + '';
@@ -70,10 +72,10 @@
 				const decodedData = urlSafeBase64Decode(encryptedData);
 				const parts = decodedData.split(':');
 
-//				if (parts.length !== 2) {
-//					console.error("Invalid encrypted data format");
-//					return null;
-//				}
+				if (parts.length !== 2) {
+					console.error("Invalid encrypted data format");
+					return null;
+				}
 
 				const encryptedUrl = parts[0];
 				const encodedIv = parts[1];
@@ -121,7 +123,7 @@
 
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 
-	if(FlagSmall.includes(zKey)) {
+	if(FlagAll.includes(upper(zKey))) {
 		document.addEventListener('DOMContentLoaded', function() {
 			if (typeof CryptoJS !== 'undefined') {
 				// IntersectionObserverを使ってlazyロードを実現
@@ -136,7 +138,6 @@
 								const encryptedData_src = img.getAttribute('data-src');
 								const encryptedData_srcset = img.getAttribute('data-srcset');
 								const nonce = img.getAttribute('data-nonce');
-								
 								// 画像URLを復号化
 								const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
 								const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);

@@ -10,7 +10,8 @@ class neohp_imageprotect {
 	protected $neohp_javascript;
 	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
 	protected $outputPngDone = false;
-	protected $neohp_hash_keys;
+	protected $neohp_hash_keys  = "sha256";
+	protected $neohp_hash_keys_js = "sha256";
 	protected $neohp_nonce_bits;
 	protected $neohp_image_expire;
 
@@ -35,6 +36,7 @@ class neohp_imageprotect {
 
 			// 暗号化強度の設定
 			$this->neohp_hash_keys = get_option('neohp_hash_bits', 'sha256');
+			$this->neohp_hash_keys_js = get_option('neohp_hashjs_bits', 'sha256');
 			$this->neohp_nonce_bits = get_option('neohp_nonce_bits', '32');
 			$this->neohp_nonce_bits=(int)$this->neohp_nonce_bits;
 			if($this->neohp_nonce_bits < 16) {
@@ -71,7 +73,7 @@ class neohp_imageprotect {
 					echo $html;
 					if( ! $this->neohp_func->user() ) {
 						$content=$this->processImageTagsMode2($neohp_all_content);
-						if(get_option('neohp_imageprotect', '0') !== '0' ) {
+						if(get_option('neohp_imageprotectjs', '0') !== '0' ) {
 							$content=$this->processImageTagsMode2js($content);
 						}
 						echo $content;
@@ -211,7 +213,7 @@ class neohp_imageprotect {
 						$this->neohp_func->deletetransient($part);
 						$this->neohp_func->deletetransient($part . '_nonce');
 					}
-					$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce);
+					$image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce, $this->neohp_hash_keys);
 				} else {
 					$image_url = '';
 				}
@@ -303,12 +305,11 @@ class neohp_imageprotect {
 	}
 	
 	// 画像URLをnonceを使って暗号化し、Base64エンコードする関数
-	function encryptAndEncodeImageUrl($url, $nonce) {
+	function encryptAndEncodeImageUrl($url, $nonce, $sha) {
 		// 暗号化方法（AES-256-CBC）
 		$method = 'AES-256-CBC';
-
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$key = hash($this->neohp_hash_keys, $nonce, true); // sha512で生成された512ビットキー
+		$key = hash($sha, $nonce, true); // sha512?で生成された512ビットキー
 		$iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($method)); // 初期化ベクトルの生成
 
 		// URLを暗号化
@@ -325,12 +326,12 @@ class neohp_imageprotect {
 		);
 	}
 
-	function decodeAndDecryptImageUrl($encodedData, $nonce) {
+	function decodeAndDecryptImageUrl($encodedData, $nonce, $sha) {
 		// 暗号化方法（AES-256-CBC）
 		$method = 'AES-256-CBC';
-		
+
 		// nonceをパスワードとして使用し、暗号化キーを生成
-		$key = hash($this->neohp_hash_keys, $nonce, true); // sha512で生成された512ビットキー
+		$key = hash($sha, $nonce, true);
 
 		// URLデコードしてケースを入れ替え
 		$decodedData = $this->neohp_func->url_safe_base64_decode(
@@ -359,7 +360,11 @@ class neohp_imageprotect {
 
 	// nonce生成のための関数
 	function generateNonce() {
-		return bin2hex(random_bytes($this->neohp_nonce_bits)); // 512バイト(4096bit)のランダムなnonceを生成
+		return $this->swap_Case(
+			$this->neohp_func->url_safe_base64_encode(
+				random_bytes($this->neohp_nonce_bits)
+			)
+		);
 	}
 
 	// URLからhttp://example.com:80 を削除
@@ -426,7 +431,7 @@ class neohp_imageprotect {
 					}
 
 					// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
-					$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce);
+					$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, $this->neohp_hash_keys);
 					$attributes['src'] =
 						$site_url . '?neohp=img&img='
 								  .  $encoded_src;
@@ -440,7 +445,7 @@ class neohp_imageprotect {
 							$pattern = '/([^\s,]+)\s*(\d+)(x|w|h)?/';
 							preg_match($pattern, $part, $matches);
 							if (!empty($matches)) {
-								$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce);	// URL
+								$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce, $this->neohp_hash_keys);	// URL
 		//$encoded_src=$this->removeSchemeAndHost($matches[1]);
 								$size = $matches[2]; 		//100
 								$type = isset($matches[3]) ? $matches[3] : '';	// x or w or h
@@ -506,7 +511,7 @@ class neohp_imageprotect {
 				}
 
 				// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
-				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce);
+				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, $this->neohp_hash_keys);
 				$attributes['src'] =
 					$site_url . '?neohp=img&img='
 							  .  $encoded_src;
@@ -520,7 +525,7 @@ class neohp_imageprotect {
 						$pattern = '/([^\s,]+)\s*(\d+)(x|w|h)?/';
 						preg_match($pattern, $part, $matches);
 						if (!empty($matches)) {
-							$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce);	// URL
+							$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($matches[1]), $nonce, $this->neohp_hash_keys);	// URL
 	//$encoded_src=$this->removeSchemeAndHost($matches[1]);
 							$size = $matches[2]; 		//100
 							$type = isset($matches[3]) ? $matches[3] : '';	// x or w or h
@@ -550,10 +555,104 @@ class neohp_imageprotect {
 	}
 
 	function processImageTagsMode1js($attributes, $attachment) {
+		// セキュリティ制御のためのnonce生成
+		$nonce = $this->generateNonce();
+
+		$site_url = get_site_url();
+
+		// imgタグの属性をパース
+//		$attributes = [];
+//		preg_match_all('/([a-zA-Z0-9\-]+)="([^"]+)"/', $img_tag, $attr_matches, PREG_SET_ORDER);
+		
+//		foreach ($attr_matches as $attr) {
+//			$attributes[$attr[1]] = $attr[2];
+//		}
+
+		if (isset($attributes['src'])) {
+			// site_urlと同一の時のみ処理する
+			if (strpos($attributes['src'], $site_url) === 0) {
+				// classを追加する
+				if (isset($attributes['class'])) {
+				//	$attributes['class'] .= ' protected';
+				} else {
+				//	$attributes['class'] = 'protected';
+				}
+
+				// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
+				$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, 'sha256');
+				$attributes['data-src'] = $encoded_src;
+				// 最小GIFをsrcに設定
+				$attributes['src'] = $this->mingif;
+
+				if (isset($attributes['srcset'])) {
+					$encoded_srcset = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['srcset']), $nonce, 'sha256');
+					$attributes['data-srcset'] = $encoded_srcset;
+					unset($attributes['srcset']); // srcset属性を削除
+				}
+
+				// nonceをimgタグに追加（オプション）
+				$attributes['data-nonce'] = $nonce;
+			}
+		}
 		return $attributes;
 	}
 
-	function processImageTagsMode2js($content) {
-		return $content;
+	function processImageTagsMode2js($html) {
+		// セキュリティ制御のためのnonce生成
+		$nonce = $this->generateNonce();
+
+		// imgタグを正規表現で処理
+		$html = preg_replace_callback('/<img[^>]+>/i', function($matches) use ($nonce) {	
+			$img_tag = $matches[0];
+			$site_url = get_site_url();
+
+			// imgタグの属性をパース
+			$attributes = [];
+			preg_match_all('/([a-zA-Z0-9\-]+)="([^"]+)"/', $img_tag, $attr_matches, PREG_SET_ORDER);
+			
+			foreach ($attr_matches as $attr) {
+				$attributes[$attr[1]] = $attr[2];
+			}
+
+			if (isset($attributes['src'])) {
+				// site_urlと同一の時のみ処理する
+				if (strpos($attributes['src'], $site_url) === 0) {
+					// classを追加する
+					if (isset($attributes['class'])) {
+					//	$attributes['class'] .= ' protected';
+					} else {
+					//	$attributes['class'] = 'protected';
+					}
+
+					// srcとsrcsetが存在する場合、それらを暗号化してBase64エンコードして変換
+					$encoded_src = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['src']), $nonce, 'sha256');
+					$attributes['data-src'] = $encoded_src;
+					// 最小GIFをsrcに設定
+					$attributes['src'] = $this->mingif;
+
+					if (isset($attributes['srcset'])) {
+						$encoded_srcset = $this->encryptAndEncodeImageUrl($this->removeSchemeAndHost($attributes['srcset']), $nonce, 'sha256');
+						$attributes['data-srcset'] = $encoded_srcset;
+						unset($attributes['srcset']); // srcset属性を削除
+					}
+
+					// nonceをimgタグに追加（オプション）
+					$attributes['data-nonce'] = $nonce;
+
+					// 新しいimgタグを作成
+					$new_img_tag = '<img';
+					foreach ($attributes as $attr_name => $attr_value) {
+						$new_img_tag .= ' ' . $attr_name . '="' . $attr_value . '"';
+					}
+					$new_img_tag .= '>';
+
+					return $new_img_tag;
+				} else {
+					return $img_tag;
+				}
+			}
+		}, $html);
+
+		return $html;
 	}
 }

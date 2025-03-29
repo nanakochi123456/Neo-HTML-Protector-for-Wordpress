@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.54\n"
+"Project-Id-Version: Neo HTML Protector 0.0.55\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 13:34+0900\n"
-"PO-Revision-Date: 2025-03-29 13:34+0900\n"
+"POT-Creation-Date: 2025-03-29 16:17+0900\n"
+"PO-Revision-Date: 2025-03-29 16:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -348,14 +348,17 @@ msgstr "临时使用标记的位数"
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
 msgstr "指定用作密码的临时使用标记的强度，以加密图像 URL 信息"
 
-msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
-msgstr "当您选择下拉菜单下面的选项时，强度会增加，但服务器的负载也会增加"
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "虽然强度会随着下拉菜单下面列出的选项的增加而增加，但服务器的负载会增加，传输的 HTML 数量也会增加"
 
 msgid "ハッシュ化アルゴリズム"
 msgstr "散列算法"
 
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
 msgstr "临时令牌用作密码来加密图像 URL 信息，但必须进行散列，并设置散列强度。"
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "当您选择下拉菜单下面的选项时，强度会增加，但服务器的负载也会增加"
 
 msgid "基本設定"
 msgstr "基本设置"

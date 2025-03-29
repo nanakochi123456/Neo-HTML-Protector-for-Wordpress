@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 13:34+0900\n"
+"POT-Creation-Date: 2025-03-29 16:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -503,10 +503,10 @@ msgid ""
 "の強度を指定します"
 msgstr ""
 
-#: classes/neohp-admin.php:671 classes/neohp-admin.php:695
+#: classes/neohp-admin.php:671
 msgid ""
 "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるもの"
-"の、サーバーへの負荷が高くなります"
+"の、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
 msgstr ""
 
 #: classes/neohp-admin.php:681
@@ -517,6 +517,12 @@ msgstr ""
 msgid ""
 "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、そ"
 "の時ハッシュ化が必要です、その強度を設定します"
+msgstr ""
+
+#: classes/neohp-admin.php:695
+msgid ""
+"ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるもの"
+"の、サーバーへの負荷が高くなります"
 msgstr ""
 
 #: classes/neohp-admin.php:704 classes/neohp-admin.php:757

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.54\n"
+"Project-Id-Version: Neo HTML Protector 0.0.55\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 13:34+0900\n"
-"PO-Revision-Date: 2025-03-29 13:34+0900\n"
+"POT-Creation-Date: 2025-03-29 16:17+0900\n"
+"PO-Revision-Date: 2025-03-29 16:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -348,14 +348,17 @@ msgstr "Număr de biți în jetoanele de utilizare temporară"
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
 msgstr "Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii"
 
-msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
-msgstr "Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește"
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Deși intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, sarcina pe server este mai mare și cantitatea de HTML transferată poate fi mai mare"
 
 msgid "ハッシュ化アルゴリズム"
 msgstr "Algoritmul hashing"
 
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
 msgstr "Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește"
 
 msgid "基本設定"
 msgstr "Setarea de bază"

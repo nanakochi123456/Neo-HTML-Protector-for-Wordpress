@@ -18,6 +18,7 @@ function neohp_delete_options() {
 	delete_option('neohp_debugmode_message');
 	delete_option('neohp_deny_imagebot');
 	delete_option('neohp_hash_bits');
+	delete_option('neohp_hashjs_bits');
 	delete_option('neohp_html_protect_head');
 	delete_option('neohp_htmlcompress');
 	delete_option('neohp_htmlprotect');

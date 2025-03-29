@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.54\n"
+"Project-Id-Version: Neo HTML Protector 0.0.55\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 13:34+0900\n"
-"PO-Revision-Date: 2025-03-29 13:34+0900\n"
+"POT-Creation-Date: 2025-03-29 16:17+0900\n"
+"PO-Revision-Date: 2025-03-29 16:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -348,14 +348,17 @@ msgstr "Numero di bit nei token di uso temporaneo"
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
 msgstr "Specifica la forza del token di utilizzo temporaneo usato come password per criptare le informazioni dell'URL dell'immagine."
 
-msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
-msgstr "L'intensità aumenta man mano che si passa alle opzioni elencate sotto il menu a discesa, ma il carico sul server aumenta"
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Sebbene l'intensità aumenti man mano che si passa alle opzioni elencate sotto il menu a discesa, il carico sul server è più elevato e la quantità di HTML trasferita può essere più alta"
 
 msgid "ハッシュ化アルゴリズム"
 msgstr "Algoritmo di hashing"
 
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
 msgstr "I token temporanei vengono utilizzati come password per crittografare le informazioni dell'URL dell'immagine, ma devono essere sottoposti a hashing, impostando la forza dell'hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "L'intensità aumenta man mano che si passa alle opzioni elencate sotto il menu a discesa, ma il carico sul server aumenta"
 
 msgid "基本設定"
 msgstr "Impostazione di base"

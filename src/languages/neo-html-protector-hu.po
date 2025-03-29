@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.54\n"
+"Project-Id-Version: Neo HTML Protector 0.0.55\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 13:34+0900\n"
-"PO-Revision-Date: 2025-03-29 13:34+0900\n"
+"POT-Creation-Date: 2025-03-29 16:17+0900\n"
+"PO-Revision-Date: 2025-03-29 16:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -348,14 +348,17 @@ msgstr "Az ideiglenes használatú tokenek bitjeinek száma"
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
 msgstr "Megadja a kép URL-információjának titkosításához jelszóként használt ideiglenes használati jelszó erősségét."
 
-msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
-msgstr "Az intenzitás növekszik, ahogy a legördülő menü alatt felsorolt opciókat választja, de a szerver terhelése is nő"
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Bár az intenzitás nő, ahogy a legördülő menü alatt felsorolt opciók felé halad, a szerver terhelése nagyobb, és az átvitt HTML mennyisége is nagyobb lehet."
 
 msgid "ハッシュ化アルゴリズム"
 msgstr "Hashing algoritmus"
 
 msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
 msgstr "Az ideiglenes tokeneket jelszóként használják a kép URL-információjának titkosítására, de azokat hash-olni kell, állítsa be a hash erősségét."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Az intenzitás növekszik, ahogy a legördülő menü alatt felsorolt opciókat választja, de a szerver terhelése is nő"
 
 msgid "基本設定"
 msgstr "Alapbeállítás"
