@@ -18,6 +18,7 @@
 	let		rClick='r';
 	let		CopyCut='c';
 	let		none='none';
+	let		undefined='undefined';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -37,6 +38,7 @@
 	rClick=rClick + '';
 	CopyCut=CopyCut + '';
 	none=none + '';
+	undefined=undefined + '';
 
 	function lower(str) {
 		return str.toLowerCase();
@@ -51,7 +53,6 @@
 
 	function urlSafeBase64Decode(str) {
 		let base64 = str.replace(/-/g, '+').replace(/_/g, '/').replace(/\./g, '=');
-	//	  return atob(base64);
 		return atob(swapCase(base64));
 	}
 
@@ -65,7 +66,7 @@
 	}
 
 	function decryptAndDecodeImageUrl(encryptedData, nonce) {
-		if (typeof CryptoJS !== 'undefined') {
+		if (typeof CryptoJS !== undefined) {
 			try {
 				// Base64デコードして暗号化されたデータとIVを分ける
 
@@ -100,18 +101,18 @@
 					}
 				);
 
-//				if (!decrypted) {
-//					console.error("Decryption failed");
-//					return null;
-//				}
+				if (!decrypted) {
+					console.error("Decryption failed");
+					return null;
+				}
 
 				// 復号化したURLを文字列に変換
 				const decryptedUrl = decrypted.toString(CryptoJS.enc.Utf8);
 				
-//				if (!decryptedUrl) {
-//					console.error("Decryption result is empty");
-//					return null;
-//				}
+				if (!decryptedUrl) {
+					console.error("Decryption result is empty");
+					return null;
+				}
 
 				return decryptedUrl;
 			} catch (error) {
@@ -125,7 +126,7 @@
 
 	if(FlagAll.includes(upper(zKey))) {
 		document.addEventListener('DOMContentLoaded', function() {
-			if (typeof CryptoJS !== 'undefined') {
+			if (typeof CryptoJS !== undefined) {
 				// IntersectionObserverを使ってlazyロードを実現
 				const imgTags = document.querySelectorAll('img[data-src]');
 
@@ -144,7 +145,10 @@
 								
 								// 復号化したURLを元のsrcに設定
 								img.src = decryptedUrl_src;
-								img.srcset = decryptedUrl_srcset;
+
+								if(typeof decryptedUrl_srcset !== undefined) {
+									img.srcset = decryptedUrl_srcset;
+								}
 
 								// 読み込んだ画像は監視から外す
 								observer.unobserve(img);
