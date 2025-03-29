@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.55\n"
+"Project-Id-Version: Neo HTML Protector 0.0.56\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 16:17+0900\n"
-"PO-Revision-Date: 2025-03-29 16:17+0900\n"
+"POT-Creation-Date: 2025-03-29 19:26+0900\n"
+"PO-Revision-Date: 2025-03-29 19:27+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -138,17 +138,11 @@ msgstr "لا يمكن حماية وظيفة لقطة الشاشة القياسي
 msgid "画像URLの保護"
 msgstr "حماية عناوين URL للصور"
 
-msgid "即時読み込みをして有効"
-msgstr "فعال مع التحميل الفوري."
-
-msgid "遅延読み込みをして有効"
-msgstr "ممكّن مع تأخير التحميل."
-
 msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
 msgstr "تُستخدم مع حماية الصورة، فهي ليست ذات معنى بمفردها."
 
-msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
-msgstr "تتم قراءتها ديناميكيًا بواسطة JavaScript، مما يؤثر على تحسين محركات البحث."
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "تأخر القراءة بسبب جافا سكريبت، مما يؤثر على تحسين محركات البحث"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "إخراج فن ASCII في التعليمات البرمجية المصدرية لـ HTML أثناء تشويش HTML وحمايته."

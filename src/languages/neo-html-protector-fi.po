@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.55\n"
+"Project-Id-Version: Neo HTML Protector 0.0.56\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 16:17+0900\n"
-"PO-Revision-Date: 2025-03-29 16:17+0900\n"
+"POT-Creation-Date: 2025-03-29 19:26+0900\n"
+"PO-Revision-Date: 2025-03-29 19:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -138,17 +138,11 @@ msgstr "Käyttöjärjestelmän tavallista kuvakaappaustoimintoa ei voi suojata"
 msgid "画像URLの保護"
 msgstr "Kuvien URL-osoitteiden suojaaminen"
 
-msgid "即時読み込みをして有効"
-msgstr "Vaikuttaa välittömästi ladattaessa."
-
-msgid "遅延読み込みをして有効"
-msgstr "Käytössä viivästetyllä latauksella."
-
 msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
 msgstr "Sitä käytetään yhdessä kuvasuojauksen kanssa, mutta yksinään se ei ole mielekäs."
 
-msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
-msgstr "JavaScript lukee sitä dynaamisesti, mikä vaikuttaa hakukoneoptimointiin."
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Viivästynyt lukeminen JavaScriptin takia, mikä vaikuttaa SEO:hon"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suojauksen aikana."

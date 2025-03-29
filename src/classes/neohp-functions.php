@@ -88,6 +88,15 @@ class neohp_func {
 	}
 
 	function login() {
+		if ( ! function_exists( 'is_user_logged_in' ) ) {
+			$wp_load_path = dirname(__FILE__);
+			while ( $wp_load_path && !file_exists( $wp_load_path . '/wp-load.php' ) ) {
+				$wp_load_path = dirname($wp_load_path);
+			}
+			if ( file_exists( $wp_load_path . '/wp-load.php' ) ) {
+				require_once( $wp_load_path . '/wp-load.php' );
+			}
+		}
 		if(get_option('neohp_islogin', 'admin') === 'admin') {
 			if ( current_user_can('administrator') ) {
 				return is_user_logged_in();
@@ -98,6 +107,15 @@ class neohp_func {
 	}
 
 	function user() {
+		if ( ! function_exists( 'is_user_logged_in' ) ) {
+			$wp_load_path = dirname(__FILE__);
+			while ( $wp_load_path && !file_exists( $wp_load_path . '/wp-load.php' ) ) {
+				$wp_load_path = dirname($wp_load_path);
+			}
+			if ( file_exists( $wp_load_path . '/wp-load.php' ) ) {
+				require_once( $wp_load_path . '/wp-load.php' );
+			}
+		}
 		return is_user_logged_in();
 	}
 

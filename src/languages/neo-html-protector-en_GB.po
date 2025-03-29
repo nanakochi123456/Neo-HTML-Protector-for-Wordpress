@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.55\n"
+"Project-Id-Version: Neo HTML Protector 0.0.56\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 16:17+0900\n"
-"PO-Revision-Date: 2025-03-29 16:17+0900\n"
+"POT-Creation-Date: 2025-03-29 19:26+0900\n"
+"PO-Revision-Date: 2025-03-29 19:27+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(UK)\n"
 "Language: en_GB\n"
@@ -138,17 +138,11 @@ msgstr "The standard OS screenshot function cannot be protected"
 msgid "画像URLの保護"
 msgstr "Protection of image URLs"
 
-msgid "即時読み込みをして有効"
-msgstr "Effective with immediate loading."
-
-msgid "遅延読み込みをして有効"
-msgstr "Enabled with delayed loading."
-
 msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
 msgstr "Used in combination with image protection, it is not meaningful on its own."
 
-msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
-msgstr "It is read dynamically by JavaScript, which affects SEO."
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Delayed reading due to JavaScript, which affects SEO"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection."

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.55\n"
+"Project-Id-Version: Neo HTML Protector 0.0.56\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-29 16:17+0900\n"
-"PO-Revision-Date: 2025-03-29 16:17+0900\n"
+"POT-Creation-Date: 2025-03-29 19:26+0900\n"
+"PO-Revision-Date: 2025-03-29 19:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -138,17 +138,11 @@ msgstr "Štandardnú funkciu snímky obrazovky operačného systému nemožno ch
 msgid "画像URLの保護"
 msgstr "Ochrana adries URL obrázkov"
 
-msgid "即時読み込みをして有効"
-msgstr "Účinné pri okamžitom naložení."
-
-msgid "遅延読み込みをして有効"
-msgstr "Povolené s oneskoreným načítaním."
-
 msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
 msgstr "Používa sa v kombinácii s ochranou obrazu, sama o sebe nemá význam."
 
-msgid "JavaScriptにより動的に読まれますのでSEOに影響があります"
-msgstr "Číta sa dynamicky pomocou JavaScriptu, čo ovplyvňuje SEO."
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Oneskorené čítanie kvôli JavaScriptu, ktoré ovplyvňuje SEO"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Výstup umenia ASCII v zdrojovom kóde HTML počas obfuskacie a ochrany HTML."

@@ -19,70 +19,72 @@ class neohp_imageprotect {
 		$this->neohp_func=new neohp_func();
 		$this->neohp_javascript = new neohp_javascript();
 
-		if(get_option('neohp_deny_imagebot', '0') === '1') {
-			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
-				$this->neohp_func->err403();
-			}
-		}
-
-		// JavaScript挿入
-		add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
-
-		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
-
-		if(get_option('neohp_imageprotect', '0') !== '0' ) {
-			// https://milltalk.jp/boards/212564 より20分が妥当
-			$this->neohp_image_expire = (int)get_option('neohp_nonce_expire', '20') * 60;
-
-			// 暗号化強度の設定
-			$this->neohp_hash_keys = get_option('neohp_hash_bits', 'sha256');
-			$this->neohp_hash_keys_js = get_option('neohp_hashjs_bits', 'sha256');
-			$this->neohp_nonce_bits = get_option('neohp_nonce_bits', '32');
-			$this->neohp_nonce_bits=(int)$this->neohp_nonce_bits;
-			if($this->neohp_nonce_bits < 16) {
-				$this->neohp_nonce_bits = 16;
-			}
-
-
-			// headタグをキャプチャ開始
-
-			add_action('template_redirect', function () {
-				$this->protectimage();
-			}, 0);
-
-			// 画像のリプレイスフィルタ
-			if(get_option('neohp_imageprotect', '0') === '1' ) {
-				add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
-				if(get_option('neohp_imageprotect', '0') !== '0' ) {
-					add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1js'), 2, 2);
+		add_action( 'plugins_loaded', function() {
+			if(get_option('neohp_deny_imagebot', '0') === '1') {
+				if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
+					$this->neohp_func->err403();
 				}
 			}
 
-			// 全体のHTMLを書き換える
-			if(get_option('neohp_imageprotect', '0') === '2' ) {
-				add_action('wp_head', function () {
-					ob_start();
+			// JavaScript挿入
+			add_action('wp_enqueue_scripts', array($this->neohp_javascript, 'neohp_script') );
+
+			// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
+
+			if(get_option('neohp_imageprotect', '0') !== '0' && ! $this->neohp_func->user() ) {
+				// https://milltalk.jp/boards/212564 より20分が妥当
+				$this->neohp_image_expire = (int)get_option('neohp_nonce_expire', '20') * 60;
+
+				// 暗号化強度の設定
+				$this->neohp_hash_keys = get_option('neohp_hash_bits', 'sha256');
+				$this->neohp_hash_keys_js = get_option('neohp_hashjs_bits', 'sha256');
+				$this->neohp_nonce_bits = get_option('neohp_nonce_bits', '32');
+				$this->neohp_nonce_bits=(int)$this->neohp_nonce_bits;
+				if($this->neohp_nonce_bits < 16) {
+					$this->neohp_nonce_bits = 16;
+				}
+
+
+				// headタグをキャプチャ開始
+
+				add_action('template_redirect', function () {
+					$this->protectimage();
 				}, 0);
 
-				// これでHTMLすべてキャプチャできるはず
-				add_action('wp_footer', function () {
-					$neohp_all_content = ob_get_clean(); // head内容を取得
-					ob_end_clean();
-					$lang = get_bloginfo('language');
-					$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
-					echo $html;
-					if( ! $this->neohp_func->user() ) {
-						$content=$this->processImageTagsMode2($neohp_all_content);
-						if(get_option('neohp_imageprotectjs', '0') !== '0' ) {
-							$content=$this->processImageTagsMode2js($content);
-						}
-						echo $content;
-					} else {
-						echo $neohp_all_content;
+				// 画像のリプレイスフィルタ
+				if(get_option('neohp_imageprotect', '0') === '1' ) {
+					add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1'), 2, 2);
+					if(get_option('neohp_imageprotect', '0') !== '0' ) {
+						add_filter('wp_get_attachment_image_attributes', array($this, 'processImageTagsMode1js'), 2, 2);
 					}
-				}, 99999);
+				}
+
+				// 全体のHTMLを書き換える
+				if(get_option('neohp_imageprotect', '0') === '2' ) {
+					add_action('wp_head', function () {
+						ob_start();
+					}, 0);
+
+					// これでHTMLすべてキャプチャできるはず
+					add_action('wp_footer', function () {
+						$neohp_all_content = ob_get_clean(); // head内容を取得
+						ob_end_clean();
+						$lang = get_bloginfo('language');
+						$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+						echo $html;
+						if( ! $this->neohp_func->user() ) {
+							$content=$this->processImageTagsMode2($neohp_all_content);
+							if(get_option('neohp_imageprotectjs', '0') !== '0' ) {
+								$content=$this->processImageTagsMode2js($content);
+							}
+							echo $content;
+						} else {
+							echo $neohp_all_content;
+						}
+					}, 99999);
+				}
 			}
-		}
+		});
 	}
 
 	// 文字列を1文字ずつ処理して改行を挿入する関数

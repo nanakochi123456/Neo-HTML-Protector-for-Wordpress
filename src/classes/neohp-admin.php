@@ -262,12 +262,11 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imageprotectjs', '0'));
 					echo wp_kses( $this->getselect("neohp_imageprotectjs", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('即時読み込みをして有効', 'neo-html-protector')
-						, '2=' . __('遅延読み込みをして有効', 'neo-html-protector')
+						, '2=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像の保護と組み合わせて使用します、単体では意味がありません', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('JavaScriptにより動的に読まれますのでSEOに影響があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('JavaScriptにより遅延読まれますのでSEOに影響があります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
