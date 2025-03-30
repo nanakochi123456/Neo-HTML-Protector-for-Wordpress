@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Lizenz
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Das Plug-in wurde als Open Source entwickelt und ist unter der GPL 2.0 oder einer späteren Version lizenziert.
 本プラグインには以下のライブラリを同梱しています	Die folgenden Bibliotheken sind in diesem Plug-in enthalten
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Andere Raspberry Pi5, ChatGPT und deepl werden für die Entwicklung dieses Plugins verwendet
+imgタグが呼び出されるごとに画像を保護	Schützen Sie das Bild jedes Mal, wenn das img-Tag aufgerufen wird.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Schützen Sie alle in Wordpress hochgeladenen Bilder in allen HTML-Ausgaben

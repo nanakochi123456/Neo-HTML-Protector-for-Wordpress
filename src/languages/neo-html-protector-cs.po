@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -114,11 +114,11 @@ msgstr "Design se může mírně změnit."
 msgid "画像の保護"
 msgstr "Ochrana obrazu."
 
-msgid "add_filterを使用して画像を保護"
-msgstr "Ochrana obrázků pomocí add_filter"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Chrání obrázek při každém volání značky img."
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "Zachycení a ochrana obrázků mezi wp_head a wp_footer"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Ochrana všech obrázků nahraných do Wordpressu ve všech výstupech HTML"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Chrání obrázky před stahováním."
@@ -485,6 +485,9 @@ msgstr "Zásuvný modul byl vyvinut jako open source a je licencován pod licenc
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Součástí tohoto modulu plug-in jsou následující knihovny"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Ostatní Raspberry Pi5, ChatGPT a deepl jsou použity při vývoji tohoto pluginu"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "Zjištěn zásuvný modul mezipaměti Tento zásuvný modul nebude fungovat správně, pokud je povolen zásuvný modul mezipaměti."

@@ -49,6 +49,7 @@
 	body=body + nullstr;
 	black=black + nullstr;
 	undefined=undefined + nullstr;
+	px20=px20 + nullstr;
 
 	function lower(str) {
 		return str.toLowerCase() + nullstr;
@@ -325,7 +326,7 @@
 			img.style.pointerEvents = none;
 		});
 
-		$(Document).on('selectstart touchstart touchmove touchend', (event) => {
+		$(Document).on('selectstart touchmove', (event) => {
 			stop(event);
 		});
 	}

@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Licencia
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Zásuvný modul bol vyvinutý ako open source a je licencovaný pod licenciou GPL 2.0 alebo novšou verziou.
 本プラグインには以下のライブラリを同梱しています	Súčasťou tohto doplnku sú tieto knižnice
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ostatné Raspberry Pi5, ChatGPT a deepl sa používajú pri vývoji tohto doplnku
+imgタグが呼び出されるごとに画像を保護	Chráňte obrázok pri každom volaní značky img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ochrana všetkých obrázkov nahraných do aplikácie Wordpress vo všetkých výstupoch HTML

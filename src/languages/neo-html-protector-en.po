@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -114,11 +114,11 @@ msgstr "Design may change slightly."
 msgid "画像の保護"
 msgstr "Image Protection"
 
-msgid "add_filterを使用して画像を保護"
-msgstr "Protect images using add_filter"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Protect the image each time the img tag is called"
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "Capture between wp_head and wp_footer to protect images"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Protect all images uploaded to Wordpress out of all HTML output"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Protects images from downloading"
@@ -485,6 +485,9 @@ msgstr "This plug-in is developed as open source and is licensed under GPL2.0 or
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "The following libraries are included with this plug-in"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Other Raspberry Pi5, ChatGPT and deepl are used in the development of this plugin"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "Cache plugin detected This plugin will not work properly if cache plugin is enabled"

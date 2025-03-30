@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Licenca
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Vtičnik je bil razvit kot odprta koda in je licenciran pod licenco GPL 2.0 ali novejšo različico.
 本プラグインには以下のライブラリを同梱しています	Ta vtičnik vključuje naslednje knjižnice
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika
+imgタグが呼び出されるごとに画像を保護	Zaščita slike ob vsakem klicu oznake img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Zaščitite vse slike, naložene v Wordpress, v vseh izhodih HTML

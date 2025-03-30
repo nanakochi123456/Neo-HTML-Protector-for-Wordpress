@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -114,11 +114,11 @@ msgstr "Dizainas gali šiek tiek pasikeisti."
 msgid "画像の保護"
 msgstr "Vaizdo apsauga."
 
-msgid "add_filterを使用して画像を保護"
-msgstr "Apsaugokite vaizdus naudodami add_filter"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Apsaugokite paveikslėlį kiekvieną kartą, kai iškviečiama žyma img."
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "Užfiksuokite ir apsaugokite vaizdus tarp wp_head ir wp_footer"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Apsaugokite visus į Wordpress įkeltus paveikslėlius visuose HTML išvedimuose"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Apsaugo vaizdus nuo atsisiuntimo."
@@ -485,6 +485,9 @@ msgstr "Įskiepis sukurtas kaip atvirojo kodo programa ir licencijuojamas pagal 
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Į šį papildinį įtrauktos šios bibliotekos"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "Aptiktas talpyklos įskiepis Šis įskiepis neveiks tinkamai, jei įjungtas talpyklos įskiepis."

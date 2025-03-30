@@ -250,8 +250,8 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imageprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_imageprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('add_filterを使用して画像を保護', 'neo-html-protector')
-						, '2=' . __('wp_head～wp_footerの間をキャプチャして画像を保護', 'neo-html-protector')
+						, '1=' . __('imgタグが呼び出されるごとに画像を保護', 'neo-html-protector')
+						, '2=' . __('出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
@@ -919,6 +919,7 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <ol>
 <li><?php echo '<a target="_blank" href="https://github.com/brix/crypto-js/">crypto-js</a> - The MIT License' ?></li>
 </ol>
+<p><?php echo esc_html( __('その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています', 'neo-html-protector') ) ?></p>
 		<?php
 	}
 

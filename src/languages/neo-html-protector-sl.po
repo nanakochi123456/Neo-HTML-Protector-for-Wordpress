@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:50+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:22+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -114,11 +114,11 @@ msgstr "Oblikovanje se lahko nekoliko spremeni."
 msgid "画像の保護"
 msgstr "Zaščita slik."
 
-msgid "add_filterを使用して画像を保護"
-msgstr "Zaščita slik z uporabo add_filter"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Zaščita slike ob vsakem klicu oznake img."
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "Zajem in zaščita slik med wp_head in wp_footer"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Zaščitite vse slike, naložene v Wordpress, v vseh izhodih HTML"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Zaščita slik pred prenosom."
@@ -485,6 +485,9 @@ msgstr "Vtičnik je bil razvit kot odprta koda in je licenciran pod licenco GPL 
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Ta vtičnik vključuje naslednje knjižnice"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "Zaznan vtičnik predpomnilnika Ta vtičnik ne bo deloval pravilno, če je omogočen vtičnik predpomnilnika."

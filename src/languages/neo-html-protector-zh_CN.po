@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -114,11 +114,11 @@ msgstr "设计可能略有改动。"
 msgid "画像の保護"
 msgstr "图像保护。"
 
-msgid "add_filterを使用して画像を保護"
-msgstr "使用 add_filter 保护图像"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "在每次调用 img 标记时保护图像。"
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "捕捉并保护 wp_head 和 wp_footer 之间的图像"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "在所有 HTML 输出中保护上传到 Wordpress 的所有图像"
 
 msgid "画像をダウンロードから保護します"
 msgstr "保护图像免受下载。"
@@ -485,6 +485,9 @@ msgstr "该插件为开放源码开发，并根据 GPL 2.0 或更高版本获得
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "该插件包含以下库"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "开发该插件时还使用了其他树莓派 5、ChatGPT 和 deepl。"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "检测到缓存插件 如果启用了缓存插件，此插件将无法正常工作。"

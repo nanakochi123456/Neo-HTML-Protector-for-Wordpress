@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Licencija
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Įskiepis sukurtas kaip atvirojo kodo programa ir licencijuojamas pagal GPL 2.0 arba vėlesnę versiją.
 本プラグインには以下のライブラリを同梱しています	Į šį papildinį įtrauktos šios bibliotekos
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį
+imgタグが呼び出されるごとに画像を保護	Apsaugokite paveikslėlį kiekvieną kartą, kai iškviečiama žyma img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Apsaugokite visus į "Wordpress" įkeltus paveikslėlius visuose HTML išvedimuose

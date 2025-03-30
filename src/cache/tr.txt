@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Ruhsat
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Eklenti açık kaynak olarak geliştirilmiştir ve GPL 2.0 veya sonraki sürümleri altında lisanslanmıştır.
 本プラグインには以下のライブラリを同梱しています	Aşağıdaki kütüphaneler bu eklentiye dahildir
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Bu eklentinin geliştirilmesinde diğer Raspberry Pi5, ChatGPT ve deepl kullanılmıştır
+imgタグが呼び出されるごとに画像を保護	Img etiketi her çağrıldığında görüntüyü korur.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Wordpress'e yüklenen tüm görüntüleri tüm HTML çıktılarında koruyun

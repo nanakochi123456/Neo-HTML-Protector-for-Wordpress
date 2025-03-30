@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,11 +164,11 @@ msgid "画像の保護"
 msgstr ""
 
 #: classes/neohp-admin.php:253
-msgid "add_filterを使用して画像を保護"
+msgid "imgタグが呼び出されるごとに画像を保護"
 msgstr ""
 
 #: classes/neohp-admin.php:254
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
 msgstr ""
 
 #: classes/neohp-admin.php:257
@@ -717,7 +717,11 @@ msgstr ""
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr ""
 
-#: classes/neohp-admin.php:929
+#: classes/neohp-admin.php:922
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr ""
+
+#: classes/neohp-admin.php:930
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"

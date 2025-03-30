@@ -215,3 +215,6 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 ライセンス	Engedély
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	A bővítményt nyílt forráskóddal fejlesztették ki, és a GPL 2.0 vagy későbbi verziók alatt áll.
 本プラグインには以下のライブラリを同梱しています	A következő könyvtárakat tartalmazza ez a beépülő modul
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Egyéb Raspberry Pi5, ChatGPT és deepl használják a fejlesztés során a plugin
+imgタグが呼び出されるごとに画像を保護	Védi a képet minden egyes img tag meghívásakor.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Védje a Wordpressbe feltöltött összes képet minden HTML kimeneten

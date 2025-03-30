@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -114,11 +114,11 @@ msgstr "設計可能略有變更。"
 msgid "画像の保護"
 msgstr "圖像保護。"
 
-msgid "add_filterを使用して画像を保護"
-msgstr "使用 add_filter 保護影像"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "每次呼叫 img 標籤時，保護圖片。"
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "擷取並保護 wp_head 與 wp_footer 之間的影像"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "在所有 HTML 輸出中保護上傳至 Wordpress 的所有圖片"
 
 msgid "画像をダウンロードから保護します"
 msgstr "保護影像免於下載。"
@@ -485,6 +485,9 @@ msgstr "該外掛程式是以開放原始碼的方式開發，並已取得 GPL 2
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "本外掛程式包含下列函式庫"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "開發此外掛程式時使用其他 Raspberry Pi5、ChatGPT 和 deepl"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "偵測到快取記憶體外掛程式 如果啟用快取記憶體外掛程式，此外掛程式將無法正常運作。"

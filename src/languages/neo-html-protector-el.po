@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:49+0900\n"
-"PO-Revision-Date: 2025-03-31 01:49+0900\n"
+"POT-Creation-Date: 2025-03-31 02:20+0900\n"
+"PO-Revision-Date: 2025-03-31 02:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -114,11 +114,11 @@ msgstr "Ο σχεδιασμός μπορεί να αλλάξει ελαφρώς.
 msgid "画像の保護"
 msgstr "Προστασία εικόνας."
 
-msgid "add_filterを使用して画像を保護"
-msgstr "Προστασία εικόνων με χρήση του add_filter"
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Προστατεύει την εικόνα κάθε φορά που καλείται η ετικέτα img."
 
-msgid "wp_head～wp_footerの間をキャプチャして画像を保護"
-msgstr "Σύλληψη και προστασία εικόνων μεταξύ wp_head και wp_footer"
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Προστασία όλων των εικόνων που μεταφορτώνονται στο Wordpress σε όλες τις εξόδους HTML"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Προστατεύει τις εικόνες από τη λήψη."
@@ -485,6 +485,9 @@ msgstr "Το πρόσθετο έχει αναπτυχθεί ως ανοικτο�
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Οι ακόλουθες βιβλιοθήκες περιλαμβάνονται σε αυτό το πρόσθετο"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Άλλα Raspberry Pi5, ChatGPT και deepl χρησιμοποιούνται στην ανάπτυξη αυτού του plugin"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "Εντοπίστηκε το πρόσθετο cache Αυτό το πρόσθετο δεν θα λειτουργήσει σωστά αν το πρόσθετο cache είναι ενεργοποιημένο."
