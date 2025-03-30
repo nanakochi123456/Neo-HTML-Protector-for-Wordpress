@@ -43,8 +43,8 @@ class neohp_func {
 	public function get_current_url() {
 		// URLを取得
 		$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
-		$host = $_SERVER['HTTP_HOST'];
-		$request_uri = $_SERVER['REQUEST_URI'];
+		$host = (isset($_SERVER['HTTP_HOST']) ? sanitize_text_field(wp_unslash($_SERVER['HTTP_HOST'])) : 'Ignore Hostname');
+		$request_uri = (isset($_SERVER['REQUEST_URI']) ? sanitize_text_field(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
 		$current_url = $scheme . '://' . $host . $request_uri;
 		return $current_url;
 	}
@@ -78,7 +78,7 @@ class neohp_func {
 
 	function getlang() {
 		// ブラウザの優先言語を取得
-		$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+		$language = (isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? sanitize_text_field(wp_unslash($_SERVER['HTTP_ACCEPT_LANGUAGE'])) : 'Ignore Language');
 
 		// 言語と優先度を分割
 		$langs = explode(',', $language);

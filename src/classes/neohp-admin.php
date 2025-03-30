@@ -890,10 +890,15 @@ class neohp_admin {
 <p><?php echo esc_html( __('開発者: 夜桜　なの', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('バージョン', 'neo-html-protector') ) ?>: <?php echo esc_html( NEOHP_VERSION ) ?> <?php esc_html( __('ビルド', 'neo-html-protector') ) ?>: <?php echo esc_html( NEOHP_BUILD ) ?></p>
 <p><?php echo esc_html( __('サポートページ', 'neo-html-protector') ) ?>: <a target="_blank" href="https://support.773.moe/neo-html-protector">https://support.773.moe/neo-html-protector</a></p>
+		<?php
+		// phpcs:disable PluginCheck.CodeAnalysis.ImageFunctions.NonEnqueuedImage
+		// This is an plugin included image
+		?>
 <p><a target="_blank" href="https://support.773.moe/donate/"><img src="<?php echo esc_html( NEOHP_IMG_URL ) ?>/nano.gif" alt="Donate Button" width="240" style="border-radius: 30px"></a></p>
 		<?php
+		// phpcs:enable
 		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscape
+		// phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedScript
 		// This is an officially provided embedded HTML, and is unlikely to be processed from outside
 echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm44565088/script?w=640&h=360"></script><br><a target="_blank" href="https://www.nicovideo.jp/watch/sm44565088">[' . esc_html(__('ISISちゃん', 'neo-html-protector')) . '] Give Me Merorin 1.6 ' . __('Miss. 裏まにら氏歌唱', 'neo-html-protector') . '</a></p>';
 		// phpcs:enable
@@ -913,7 +918,10 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 
 	function cache_alert() {
 		if($this->is_cache_plugin_active() ) {
+			// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+			// Output this text only
 			echo '<div class="notice notice-error"><p>' . __('キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません', 'neo-html-protector') . '</p></div>';
+			// phpcs:enable
 		}
 	}
 

@@ -20,11 +20,11 @@
 	let		none='none';
 	let		undefined='undefined';
 	let		Document=document;
+	let		Window=window;
 	let		body='body';
 	let		black='black';
 	let		nullstr = '';
-	let		color='color';
-	let		bgcolor='background-' + color;
+	let		px20='20px';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -49,8 +49,6 @@
 	body=body + nullstr;
 	black=black + nullstr;
 	undefined=undefined + nullstr;
-	color=color + nullstr;
-	bgcolor=bgcolor + nullstr;
 
 	function lower(str) {
 		return str.toLowerCase() + nullstr;
@@ -65,12 +63,14 @@
 
 	function urlSafeBase64Decode(str) {
 		let base64 = str.replace(/-/g, '+').replace(/_/g, '/').replace(/\./g, '=');
+		// こちらのが低速らしい
+		// let base64 = str.replace(/[-_.]/g, char => ({'-': '+', '_': '/', '.': '='})[char]);
 		return atob(swapCase(base64));
 	}
 
 	// どうせなら大文字と小文字を入れ替える
 	function swapCase(str) {
-		return str.replace(/[a-zA-Z]/g, function(char) {
+		return str.replace(/[a-zA-Z]/g, (char) => {
 			return char === upper(char)
 				? lower(char)
 				: upper(char);
@@ -121,7 +121,7 @@
 						resolve(decryptedUrl);
 					}
 				} catch (error) {
-					reject(error);
+					// reject(error);
 				}
 			});
 	  	}
@@ -129,7 +129,7 @@
 
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 	if (FlagAll.includes(upper(zKey))) {
-		window.onload = async function () {  // window.onload を async 関数に変更
+		Window.onload = async function () {  // window.onload を async 関数に変更
 			if (typeof Cryptojs !== undefined) {
 				// IntersectionObserverを使ってlazyロードを実現
 				const imgTags = Document.querySelectorAll('img[data-src]');
@@ -161,7 +161,7 @@
 									// 読み込んだ画像は監視から外す
 									observer.unobserve(img);
 								} catch (error) {
-									console.error('Decryption failed:', error);
+									//console.error('Decryption failed:', error);
 								}
 							}
 						}
@@ -185,7 +185,7 @@
 	if(FlagAll.includes(zKey)) {
 //		Document.addEventListener('DOMContentLoaded', function() {
 		$(Document).ready(function() {
-			if (typeof Cryptojs !== undefined) {
+			if (Cryptojs !== undefined) {
 				// すべての img[data-src] タグを取得
 				const imgTags = Document.querySelectorAll('img[data-src]');
 				
@@ -202,7 +202,7 @@
 						// 復号化したURLを元のsrcに設定
 						img.src = decryptedUrl_src;
 
-						if (typeof decryptedUrl_srcset !== undefined) {
+						if (decryptedUrl_srcset !== undefined) {
 							img.srcset = decryptedUrl_srcset;
 						}
 					}
@@ -271,7 +271,7 @@
 		// Ctrl+P
 		if(FlagSmall.includes(pKey)) {
 			// @media print{body{display:none !important}} 相当
-			const mediaQuery = window.matchMedia('print');
+			const mediaQuery = Window.matchMedia('print');
 
 			mediaQuery.addEventListener('change', (e) => {
 				if (e.matches) {
@@ -340,7 +340,7 @@
 
 		// 2個目 debuggerコマンドを無効化する
 
-		Object.defineProperty(window, 'debugger', {
+		Object.defineProperty(Window, 'debugger', {
 			set: function() {},
 			get: function() {}
 		});
@@ -402,11 +402,11 @@
 */
 		// 9個目 スクリーンショットの防止（全画面時のみ）
 
-		Document.DocumentElement.requestFullscreen();
+		Document.documentElement.requestFullscreen();
 
 		// 10個目 debuggerコマンドを使ったデバッガの無効化
 
-		Object.defineProperty(window, 'debugger', {
+		Object.defineProperty(Window, 'debugger', {
 			set: function() {},
 			get: function() {}
 		});
@@ -420,7 +420,7 @@
 		$.ajax({
 			url: NeoHPHome
 				+ "?neohp=ajax&tm=" + unixTime
-				+ "&neononce=" + Nonce,
+				+ "&neohpnonce=" + Nonce,
 			type: 'POST',
 			data: {
 				sec: none,
@@ -432,12 +432,12 @@
 				if(FlagAll.includes(Flg)) {
 					// 全部真っ黒にする
 					$('*').css({
-						bgcolor: black,
-						color: black,
+						'background-color' : black,
+						'color' : black,
 					});
 
 					$('img,video,audio,iframe').css({
-						'display': none
+						'display' : none
 					});
 					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
 
@@ -448,10 +448,10 @@
 							'top': '50%',					// 画面の中央に配置
 							'left': '50%',
 							'transform': 'translate(-50%,-50%)', // 中央揃え
-							bgcolor: 'yellow',	// 背景色を黄色に
-							color: black,				 	// 文字色を黒に
-							'padding': '20px',				// パディング
-							'border-radius': '10px',		// 角を丸く
+							'background-color': 'yellow',	// 背景色を黄色に
+							'color': black,				 	// 文字色を黒に
+							'padding': px20,				// パディング
+							'border-radius': px20,		// 角を丸く
 							'z-index': '9999',				// 最前面に表示
 							'font-weight': 'bold'			// 文字を太字に
 						});

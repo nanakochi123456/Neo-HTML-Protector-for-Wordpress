@@ -15,7 +15,8 @@ class neohp_cssprintblock {
 	public function enqueue_styles() {
 		if(get_option('neohp_alert_p', '0') === '1'
 		|| get_option('neohp_alert_p', '0') === '2') {
-			wp_register_style('neohp-style', false);
+			wp_register_style('neohp-style', false, array(), NEOHP_VERSION);
+
 			wp_enqueue_style('neohp-style');
 			// インラインCSSを追加
 			wp_add_inline_style('neohp-style', '@media print{body{display:none !important}}');

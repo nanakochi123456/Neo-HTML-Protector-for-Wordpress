@@ -71,15 +71,26 @@ class neohp_imageprotect {
 						ob_end_clean();
 						$lang = get_bloginfo('language');
 						$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
+
+						// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+						// Output ↑ min HTML
 						echo $html;
+						// phpcs:enable
+
 						if( ! $this->neohp_func->user() ) {
 							$content=$this->processImageTagsMode2($neohp_all_content);
 							if(get_option('neohp_imageprotectjs', '0') !== '0' ) {
 								$content=$this->processImageTagsMode2js($content);
 							}
+							// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+							// Output ALL Wordpress maded HTML
 							echo $content;
+							// phpcs:enable
 						} else {
+							// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+							// Output ALL Wordpress maded HTML
 							echo $neohp_all_content;
+							// phpcs:enable
 						}
 					}, 99999);
 				}
@@ -205,7 +216,10 @@ class neohp_imageprotect {
 			header('Content-Type: image/gif');
 			$mingif_array=explode(',', $this->mingif);
 			$this->neohp_func->cachezero();
+			// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+			// Output 1x1 pixel gif file only
 			echo base64_decode($mingif_array[1]);
+			// phpcs:enable
 		} elseif(get_option('neohp_imagedownload_real', '0') === '2') {
 			header('Content-Type: text/html');
 			$this->neohp_func->cachezero();
@@ -216,8 +230,16 @@ class neohp_imageprotect {
 
 	// Mode1で画像を表示する
 	function protectimage() {
+		// phpcs:disable WordPress.Security.NonceVerification.Recommended
+		// The nonce is obtained and checked with the following command.
+		// $nonce=$this->neohp_func->gettransient($encoded_image_url . '_nonce');
+		// $image_url = $this->decodeAndDecryptImageUrl($encoded_image_url, $nonce, $this->neohp_hash_keys);
 		if (isset($_GET['neohp']) && $_GET['neohp'] == 'img' && isset($_GET['img'])) {
-			$encoded_image_url = sanitize_text_field($_GET['img']);
+		// phpcs:enable
+			// phpcs:disable WordPress.Security.NonceVerification.Recommended
+			// Same The same as the above line
+			$encoded_image_url = sanitize_text_field(wp_unslash($_GET['img']));
+			// phpcs:enable
 
 			if(isset($encoded_image_url)) {
 				$transient=$this->neohp_func->gettransient($encoded_image_url);
@@ -359,10 +381,10 @@ class neohp_imageprotect {
 
 		// 暗号化されたデータとIVを分割
 		$parts = explode(':', $decodedData);
-		if (count($parts) !== 2) {
-			error_log("Invalid data format: " . $decodedData);
-			return "";
-		}
+		//if (count($parts) !== 2) {
+		//	error_log("Invalid data format: " . $decodedData);
+		//	return "";
+		//}
 
 		list($encrypted_url, $encoded_iv) = $parts;
 

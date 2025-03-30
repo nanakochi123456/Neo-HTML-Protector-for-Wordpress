@@ -102,7 +102,7 @@ class neohp_javascript {
 				'crypto-js', // ハンドル名
 				'https://cdnjs.cloudflare.com/ajax/libs/crypto-js/' . NEOHP_REQUIRED_CRYPTO_JS_VERSION . '/crypto-js.min.js', // 外部URL
 				array(), // 依存するスクリプト（今回は無し）
-				null, // バージョン番号（最新を指定する場合はnull）
+				NEOHP_VERSION, // バージョン番号（最新を指定する場合はnull）
 				true // フッターに追加するかどうか（trueでフッター）
 			);
 		}

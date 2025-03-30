@@ -21,14 +21,23 @@ class neohp_jskeyajax {
 			return;
 		}
 
+		if ( ! (isset($_GET['neohpnonce']) && $_GET['neohpnonce'] !== '' ) ) {
+			return;
+		}
+
+		if ( ! wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['neohpnonce'])), 'neohp_action') ) {
+			return;
+		}
+
 		if (!isset($_POST['sec']) || $_POST['sec'] !== 'none') {
 			$this->neohp_func->err403();
 		}
 
 		// ユーザーのIPアドレスを取得
 		$user_ip = $this->neohp_func->get_user_ip();
-		$url = $_POST['url'];
-		$key = $_POST['key'];
+		$url = isset($_POST['url']) ? sanitize_text_field(wp_unslash($_POST['url'])) : 'Unknown';
+		$key = isset($_POST['key']) ? sanitize_text_field(wp_unslash($_POST['key'])) : 'Unknown';
+
 		// IPアドレスを保存するテーブルがなければ作成
 		$wpdb = $this->neohp_database->create_user_ip();
 
