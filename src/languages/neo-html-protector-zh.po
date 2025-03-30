@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.66\n"
+"Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:01+0900\n"
-"PO-Revision-Date: 2025-03-31 01:01+0900\n"
+"POT-Creation-Date: 2025-03-31 01:49+0900\n"
+"PO-Revision-Date: 2025-03-31 01:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -476,6 +476,15 @@ msgstr "有了您的支持，我们将尽最大努力在未来为您带来更好
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "我们感谢您的支持，并期待今后与您合作。"
+
+msgid "ライセンス"
+msgstr "许可"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "该插件为开放源码开发，并根据 GPL 2.0 或更高版本获得许可。"
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "该插件包含以下库"
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "检测到缓存插件 如果启用了缓存插件，此插件将无法正常工作。"

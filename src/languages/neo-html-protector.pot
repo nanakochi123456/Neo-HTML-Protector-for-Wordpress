@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-31 01:01+0900\n"
+"POT-Creation-Date: 2025-03-31 01:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -703,7 +703,21 @@ msgstr ""
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr ""
 
-#: classes/neohp-admin.php:924
+#: classes/neohp-admin.php:917
+msgid "ライセンス"
+msgstr ""
+
+#: classes/neohp-admin.php:917
+msgid ""
+"本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセ"
+"ンスを適用しています。"
+msgstr ""
+
+#: classes/neohp-admin.php:918
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr ""
+
+#: classes/neohp-admin.php:929
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"
@@ -939,6 +953,6 @@ msgstr ""
 msgid "繁体中国語"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:109 classes/neohp-htmlprotect.php:147
+#: classes/neohp-htmlprotect.php:111 classes/neohp-htmlprotect.php:149
 msgid "画像が見つかりません"
 msgstr ""

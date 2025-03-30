@@ -15,9 +15,9 @@
 
 defined('ABSPATH') or die('Oh! No!');
 
-define( 'NEOHP_VERSION', '' );
+define( 'NEOHP_VERSION', '0.0.68' );
 define( 'NEOHP_REQUIRED_WP_VERSION', '6.0' );
-define( 'NEOHP_BUILD', '+0900' );
+define( 'NEOHP_BUILD', '20250331015013+0900' );
 define( 'NEOHP_PLUGIN', __FILE__ );
 define( 'NEOHP_PLUGIN_DIR', untrailingslashit( dirname( NEOHP_PLUGIN ) ) );
 define( 'NEOHP_LANG_DIR', NEOHP_PLUGIN_DIR . '/languages/' );

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.66\n"
+"Project-Id-Version: Neo HTML Protector 0.0.68\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 01:01+0900\n"
-"PO-Revision-Date: 2025-03-31 01:01+0900\n"
+"POT-Creation-Date: 2025-03-31 01:49+0900\n"
+"PO-Revision-Date: 2025-03-31 01:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -476,6 +476,15 @@ msgstr "여러분들의 성원에 힘입어 앞으로도 좋은 업데이트를 
 
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr "항상 응원해 주셔서 감사드리며, 앞으로도 많은 관심 부탁 드립니다."
+
+msgid "ライセンス"
+msgstr "라이선스"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "본 플러그인은 오픈소스로 개발되었으며, GPL2.0 이후 버전의 라이선스를 적용하고 있습니다."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "이 플러그인에는 다음과 같은 라이브러리가 포함되어 있습니다."
 
 msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
 msgstr "캐시 플러그인 감지됨 캐시 플러그인이 활성화되어 있으면 이 플러그인이 제대로 작동하지 않습니다."
