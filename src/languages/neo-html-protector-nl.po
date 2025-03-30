@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.64\n"
+"Project-Id-Version: Neo HTML Protector 0.0.66\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-30 22:12+0900\n"
-"PO-Revision-Date: 2025-03-30 22:12+0900\n"
+"POT-Creation-Date: 2025-03-31 01:01+0900\n"
+"PO-Revision-Date: 2025-03-31 01:02+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -227,6 +227,9 @@ msgstr "URL om naar door te verwijzen."
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Je kunt ze doorsturen naar pagina's zoals de Gebruiksvoorwaarden."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Als deze leeg wordt gelaten, wordt er doorverwezen naar de oorspronkelijke URL"
 
 msgid "ソース表示を許可する権限"
 msgstr "Autoriteit om bronweergave toe te staan."

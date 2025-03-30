@@ -23,6 +23,12 @@ class neohp_jskeyredirect {
 
 			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 			$redirect_url = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
+
+			if($redirect_url == '') {
+				if( isset($_GET['page']) ) {
+					$redirect_url = sanitize_text_field(wp_unslash($_GET['page']));
+				}
+			}
 			$redirect_url = add_query_arg('tm', $unixTime, $redirect_url);
 
 	        if (filter_var($redirect_url, FILTER_VALIDATE_URL)) {

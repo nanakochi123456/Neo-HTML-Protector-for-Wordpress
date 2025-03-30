@@ -58,6 +58,7 @@ class neohp_javascript {
 
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',
+			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPnonce='" . esc_js($nonce) . "';
 		";

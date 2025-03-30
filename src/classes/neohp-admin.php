@@ -518,6 +518,7 @@ class neohp_admin {
 					$value = esc_url(get_option('neohp_redirect_url', $neohp_redirect_default));
 					echo '<input type="url" name="neohp_redirect_url" value="' . esc_html( $value ) . '" class="regular-text">';
 					echo '<br>' . esc_html( __('利用規約などのページに転送すると良いでしょう', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('空欄にすると元のURLにリダイレクトをします', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

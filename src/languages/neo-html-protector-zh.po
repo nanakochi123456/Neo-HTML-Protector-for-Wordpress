@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.64\n"
+"Project-Id-Version: Neo HTML Protector 0.0.66\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-30 22:12+0900\n"
-"PO-Revision-Date: 2025-03-30 22:12+0900\n"
+"POT-Creation-Date: 2025-03-31 01:01+0900\n"
+"PO-Revision-Date: 2025-03-31 01:01+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -227,6 +227,9 @@ msgstr "重定向到的 URL。"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "您可能需要将他们转发到 使用条款 等页面。"
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "如果留空，将重定向到原始 URL"
 
 msgid "ソース表示を許可する権限"
 msgstr "允许源显示的权限。"

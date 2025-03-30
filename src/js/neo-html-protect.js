@@ -465,6 +465,7 @@
 					setTimeout(function() {
 						location.href = NeoHPHome
 										+ "?neohp=redirect"
+										+ "&page=" + encodeURIComponent(NeoHPPage)
 										+ "&tm=" + unixTime
 										+ "&neononce=" + Nonce;
 					}, 5000);  // 5000ミリ秒 = 5秒

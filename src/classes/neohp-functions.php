@@ -51,7 +51,7 @@ class neohp_func {
 
 	public function get_requiest_uri() {
 		// URLを取得
-		$request_uri = (isset($_SERVER['REQUEST_URI']) ? wp_unslash($_SERVER['REQUEST_URI']) : '/Ignore Request URI');
+		$request_uri = (isset($_SERVER['REQUEST_URI']) ? htmlspecialchars(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
 		return $request_uri;
 	}
 
