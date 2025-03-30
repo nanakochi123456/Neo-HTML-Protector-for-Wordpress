@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 16:11+0900\n"
+"POT-Creation-Date: 2025-03-30 22:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -645,61 +645,61 @@ msgstr ""
 msgid "サポートページ"
 msgstr ""
 
-#: classes/neohp-admin.php:898
+#: classes/neohp-admin.php:903
 msgid "ISISちゃん"
 msgstr ""
 
-#: classes/neohp-admin.php:898
+#: classes/neohp-admin.php:903
 msgid "Miss. 裏まにら氏歌唱"
 msgstr ""
 
-#: classes/neohp-admin.php:901
+#: classes/neohp-admin.php:906
 msgid "支援のお願い"
 msgstr ""
 
-#: classes/neohp-admin.php:902
+#: classes/neohp-admin.php:907
 msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
 msgstr ""
 
-#: classes/neohp-admin.php:903
+#: classes/neohp-admin.php:908
 msgid ""
 "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続"
 "き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がい"
 "れば、寄付をお願いできればと思います。"
 msgstr ""
 
-#: classes/neohp-admin.php:904
+#: classes/neohp-admin.php:909
 msgid "寄付について"
 msgstr ""
 
-#: classes/neohp-admin.php:905
+#: classes/neohp-admin.php:910
 msgid ""
 "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるよう"
 "に、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありが"
 "たく、少しでもご協力いただけると嬉しいです。"
 msgstr ""
 
-#: classes/neohp-admin.php:907
+#: classes/neohp-admin.php:912
 msgid ""
 "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をす"
 "ることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr ""
 
-#: classes/neohp-admin.php:908
+#: classes/neohp-admin.php:913
 msgid "寄付先"
 msgstr ""
 
-#: classes/neohp-admin.php:909
+#: classes/neohp-admin.php:914
 msgid ""
 "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張りま"
 "す！"
 msgstr ""
 
-#: classes/neohp-admin.php:910
+#: classes/neohp-admin.php:915
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr ""
 
-#: classes/neohp-admin.php:916
+#: classes/neohp-admin.php:923
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"

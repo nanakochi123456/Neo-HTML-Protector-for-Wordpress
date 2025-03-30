@@ -58,7 +58,7 @@ class neohp_htmlprotect {
 				$head = $html . $this->neohp_head_content;
 				$head = $this->replace_image_urls($head);
 				if( ! $this->neohp_func->login() ) {
-					if ( isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
+					if ( isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce(sanitize_text_field(wp_unslash($_COOKIE['nonce'])), 'neUrl')) {
 					} else {
 					}
 				}
@@ -72,7 +72,7 @@ class neohp_htmlprotect {
 	public function imagetransfer() {
 		// 現在の URL が「画像転送用の URL」かをチェック
 		if (isset($_GET['neohp']) && $_GET['neohp'] == 'image' && isset($_GET['ogp'])) {
-			$image_url = sanitize_text_field($_GET['ogp']);
+			$image_url = sanitize_text_field(wp_unslash($_GET['ogp']));
 			
 			// WordPressのアップロードディレクトリのパスを取得
 			$upload_dir = wp_upload_dir();
@@ -148,7 +148,7 @@ class neohp_htmlprotect {
 	// 9秒のクッキーを発行してエンコードされたURLを保存
 	public function neohp_set_cookie_and_redirect() {
 		// 現在のURLを取得
-		$request_url = $_SERVER['REQUEST_URI'];
+		$request_url = $this->neohp_func->get_requiest_uri();
 
 		// URLをBase64エンコード
 		$neo_encoded_url = base64_encode($request_url);
@@ -267,7 +267,7 @@ class neohp_htmlprotect {
 			$user_ip = $this->neohp_func->get_user_ip();
 
 			// クッキーにエンコードされたURLがある場合、デコードしてリダイレクト
-			$neo_encoded_url = $_COOKIE[$cookie_name];
+			$neo_encoded_url = sanitize_text_field(wp_unslash($_COOKIE[$cookie_name]));
 			$decoded_url = base64_decode($neo_encoded_url);
 
 			// クッキーを削除
@@ -279,7 +279,7 @@ class neohp_htmlprotect {
 			);
 
 			// 現在のページとリダイレクト先が異なる場合にリダイレクト
-			if ($_SERVER['REQUEST_URI'] !== $decoded_url) {
+			if ($this->neohp_func->get_requiest_uri() !== $decoded_url) {
 				header("Location: $decoded_url");
 				exit;
 			}
@@ -304,12 +304,15 @@ class neohp_htmlprotect {
 
 		$table_name = $wpdb->prefix . 'view_source_log';
 
+		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$results = $wpdb->get_results(
 			"
 			SELECT * FROM $table_name
 			WHERE timestamp <= NOW() - INTERVAL 10 SECOND
 			"
 		);
+		// phpcs:enable
 
 		// view_source_log から user_ip_logに移動して
 		// view_source_logを削除する
@@ -334,11 +337,15 @@ class neohp_htmlprotect {
 
 		if( ! $this->neohp_func->login() ) {
 			// RSSでないこと、、コメントの時でないこと
+			// phpcs:disable WordPress.Security.NonceVerification.Recommended
+			// if (isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
 			if (
-				strpos($_SERVER['REQUEST_URI'], '/feed/') === false
+				strpos($this->neohp_func->get_requiest_uri(), '/feed/') === false
 			 &&	empty($_GET['unapproved'])	// コメント投稿（承認待ち）
 			 &&	empty($_GET['moderation-hash']) // コメント投稿（承認用ハッシュあり）
 			) {
+			// phpcs:enable
+
 				// UNIXtime / 60
 				$min = floor(time() / 60);
 				$cookie_name = 'ne' . $min;
@@ -349,7 +356,7 @@ class neohp_htmlprotect {
 				// クッキーがセットされている場合、リダイレクト処理を実行
 				if (isset($_COOKIE[$cookie_name])
 				 || isset($_COOKIE[$cookie_name2])) {
-					if (isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce($_COOKIE['nonce'], 'neUrl')) {
+					if (isset($_COOKIE['nonce']) && $this->neohp_func->verify_short_nonce(sanitize_text_field(wp_unslash($_COOKIE['nonce'])), 'neUrl')) {
 						$this->neohp_redirect_from_cookie();
 					} else {
 						require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
@@ -381,7 +388,7 @@ class neohp_htmlprotect {
 
 	// botでないことを確認する
 	function is_not_bot() {
-		$user_agent = mb_strtolower($_SERVER['HTTP_USER_AGENT']);
+		$user_agent = mb_strtolower($this->neohp_func->get_user_agent());
 		// https://www.casis-iss.org/ex1911/
 		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly|wordpress/i', $user_agent);
 	}

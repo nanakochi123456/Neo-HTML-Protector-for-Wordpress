@@ -49,6 +49,12 @@ class neohp_func {
 		return $current_url;
 	}
 
+	public function get_requiest_uri() {
+		// URLを取得
+		$request_uri = (isset($_SERVER['REQUEST_URI']) ? sanitize_text_field(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
+		return $request_uri;
+	}
+
 	// ショートnonce
 	function create_short_nonce($action) {
 		$expires = time() + 10; // 10秒有効

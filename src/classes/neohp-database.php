@@ -9,7 +9,7 @@ class neohp_database {
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'user_ip_log';
 
-		// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$wpdb->query(
 			"CREATE TABLE IF NOT EXISTS `$table_name` (
 				id BIGINT NOT NULL AUTO_INCREMENT,
@@ -21,6 +21,7 @@ class neohp_database {
 				PRIMARY KEY (id)
 			)"
 		);
+		// phpcs:enable
 		return $wpdb;
 	}
 
@@ -39,14 +40,16 @@ class neohp_database {
 	public function drop_user_ip() {
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'user_ip_log';
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$wpdb->query("DROP TABLE IF EXISTS $table_name");
+		// phpcs:enable
 	}
 
 	public function create_view_source() {
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'view_source_log';
 
-		// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$wpdb->query(
 			"CREATE TABLE IF NOT EXISTS `$table_name` (
 				id BIGINT NOT NULL AUTO_INCREMENT,
@@ -58,6 +61,7 @@ class neohp_database {
 				PRIMARY KEY (id)
 			)"
 		);
+		// phpcs:enable
 		return $wpdb;
 	}
 
@@ -87,6 +91,8 @@ class neohp_database {
 	public function drop_view_source() {
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'view_source_log';
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
 		$wpdb->query("DROP TABLE IF EXISTS $table_name");
+		// phpcs:enable
 	}
 }
