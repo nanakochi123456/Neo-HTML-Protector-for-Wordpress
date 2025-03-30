@@ -196,7 +196,11 @@ class neohp_imageprotect {
 		$value = str_replace('\\n', "\n", $value);
 
 		if(get_option('neohp_imagedownload_real', '0') === '0') {
-			$this->outputPng($value . "\n");
+			$this->outputPng($value . "\n"
+				. "string=".$string . "\n"
+				. "image_path=".$image_path . "\n"
+				. "nonce=".$nonce . "\n"
+			);
 		} elseif(get_option('neohp_imagedownload_real', '0') === '1') {
 			header('Content-Type: image/gif');
 			$mingif_array=explode(',', $this->mingif);

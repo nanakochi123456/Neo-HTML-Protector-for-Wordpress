@@ -414,7 +414,7 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
-					echo '<br>' . esc_html( __('OSやブラウザによっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

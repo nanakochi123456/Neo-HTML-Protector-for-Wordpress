@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.0.62
+set VERSION=0.0.63
 set NAME=neo-html-protector
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --assume_function_wrapper --rewrite_polyfills false  --assume_function_wrapper

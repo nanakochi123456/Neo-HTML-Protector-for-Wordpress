@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 01:07+0900\n"
+"POT-Creation-Date: 2025-03-30 16:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,7 +293,8 @@ msgid "スクリーンショット"
 msgstr ""
 
 #: classes/neohp-admin.php:417
-msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
+msgid ""
+"OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr ""
 
 #: classes/neohp-admin.php:427

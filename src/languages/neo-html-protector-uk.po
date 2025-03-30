@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.60\n"
+"Project-Id-Version: Neo HTML Protector 0.0.62\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-30 01:07+0900\n"
-"PO-Revision-Date: 2025-03-30 01:07+0900\n"
+"POT-Creation-Date: 2025-03-30 16:11+0900\n"
+"PO-Revision-Date: 2025-03-30 16:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -195,8 +195,8 @@ msgstr "Блокування друку, але погано працює в д�
 msgid "スクリーンショット"
 msgstr "скріншот"
 
-msgid "OSやブラウザによっては妨害できず、もしくは検出しないことがあります"
-msgstr "Деякі операційні системи та браузери можуть бути не в змозі перехопити або виявити"
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Може бути не перехоплено або виявлено залежно від операційної системи, браузера та методу"
 
 msgid "ページ保存"
 msgstr "зберегти сторінку"

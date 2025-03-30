@@ -22,13 +22,15 @@
 	let		Document=document;
 	let		body='body';
 	let		black='black';
+	let		nullstr = '';
+	let		color='color';
+	let		bgcolor='background-' + color;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
 	let		Nonce=NeoHPnonce;
 	let		unixTime = Math.floor(Date.now() / 1000);
 	let		Cryptojs = CryptoJS;
-	let		nullstr = '';
 
 	nullstr = nullstr + nullstr;
 	CtrlKey=CtrlKey + nullstr;
@@ -47,13 +49,15 @@
 	body=body + nullstr;
 	black=black + nullstr;
 	undefined=undefined + nullstr;
+	color=color + nullstr;
+	bgcolor=bgcolor + nullstr;
 
 	function lower(str) {
-		return str.toLowerCase();
+		return str.toLowerCase() + nullstr;
 	}
 
 	function upper(str) {
-		return str.toUpperCase();
+		return str.toUpperCase() + nullstr;
 	}
 
 	/////////////////////////////////////////////////
@@ -73,96 +77,95 @@
 		});
 	}
 
-	function decryptAndDecodeImageUrl(encryptedData, nonce) {
+	// 暗号化した画像URLを復号化
+	async function decryptAndDecodeImageUrl(encryptedData, nonce) {
 		if (typeof Cryptojs !== undefined) {
-			try {
-				// Base64デコードして暗号化されたデータとIVを分ける
+			return new Promise((resolve, reject) => {
+				try {
+					// Base64デコードして暗号化されたデータとIVを分ける
+					const decodedData = urlSafeBase64Decode(encryptedData);
+					const parts = decodedData.split(':');
 
-				const decodedData = urlSafeBase64Decode(encryptedData);
-				const parts = decodedData.split(':');
+					const encryptedUrl = parts[0];
+					const encodedIv = parts[1];
 
-//				if (parts.length !== 2) {
-//					console.error("Invalid encrypted data format");
-//					return null;
-//				}
+					// IVをBase64デコード
+					const iv = Cryptojs.enc.Base64.parse(encodedIv);
 
-				const encryptedUrl = parts[0];
-				const encodedIv = parts[1];
+					// nonceをキーとしてSHA256で生成（WordArray型）
+					const key = Cryptojs.SHA256(nonce);
 
-				// IVをBase64デコード
-				const iv = Cryptojs.enc.Base64.parse(encodedIv);
+					// 暗号化データをBase64からパース
+					const encryptedWordArray = Cryptojs.enc.Base64.parse(encryptedUrl);
 
-				// nonceをキーとしてSHA256で生成（WordArray型）
-				const key = Cryptojs.SHA256(nonce);
+					// AESで復号化
+					const decrypted = Cryptojs.AES.decrypt(
+						{ ciphertext: encryptedWordArray },
+						key,
+						{
+							iv: iv,
+							mode: Cryptojs.mode.CBC,
+							padding: Cryptojs.pad.Pkcs7
+						}
+					);
 
-				// 暗号化データをBase64からパース
-				const encryptedWordArray = Cryptojs.enc.Base64.parse(encryptedUrl);
+					// 復号化したURLを文字列に変換
+					const decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-				// AESで復号化
-				const decrypted = Cryptojs.AES.decrypt(
-					{ ciphertext: encryptedWordArray },
-					key,
-					{
-						iv: iv,
-						mode: Cryptojs.mode.CBC,
-						padding: Cryptojs.pad.Pkcs7
+					if (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome') ) {
+						setTimeout(() => {
+							// decryption logic...
+							resolve(decryptedUrl); // 非同期で結果を返す
+						}, 20); // 少し遅延を加える
+					} else {
+						resolve(decryptedUrl);
 					}
-				);
-
-//				if (!decrypted) {
-//					console.error("Decryption failed");
-//					return null;
-//				}
-
-				// 復号化したURLを文字列に変換
-				const decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
-				
-//				if (!decryptedUrl) {
-//					console.error("Decryption result is empty");
-//					return null;
-//				}
-
-				return decryptedUrl;
-			} catch (error) {
-//				console.error("Decryption failed:", error);
-//				return null;
-			}
-		}
+				} catch (error) {
+					reject(error);
+				}
+			});
+	  	}
 	}
 
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
-	if(FlagAll.includes(upper(zKey))) {
-//		Document.addEventListener('DOMContentLoaded', function() {
-		$(Document).ready(function() {
+	if (FlagAll.includes(upper(zKey))) {
+		window.onload = async function () {  // window.onload を async 関数に変更
 			if (typeof Cryptojs !== undefined) {
 				// IntersectionObserverを使ってlazyロードを実現
 				const imgTags = Document.querySelectorAll('img[data-src]');
 
 				// IntersectionObserverのコールバック関数
-				const observer = new IntersectionObserver((entries, observer) => {
-					entries.forEach(entry => {
+				const observer = new IntersectionObserver(async (entries, observer) => {
+					for (const entry of entries) {
 						if (entry.isIntersecting) {
 							const img = entry.target;
 							if (img.className.includes('protected')) {
 								const encryptedData_src = img.getAttribute('data-src');
 								const encryptedData_srcset = img.getAttribute('data-srcset');
 								const nonce = img.getAttribute('data-nonce');
-								// 画像URLを復号化
-								const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
-								const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
-								
-								// 復号化したURLを元のsrcに設定
-								img.src = decryptedUrl_src;
 
-								if(typeof decryptedUrl_srcset !== undefined) {
-									img.srcset = decryptedUrl_srcset;
+								try {
+									// 画像URLを非同期で復号化
+									const decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
+									const decryptedUrl_srcset = encryptedData_srcset
+										? await decryptAndDecodeImageUrl(encryptedData_srcset, nonce)
+										: null;
+
+									// 復号化したURLを元のsrcに設定
+									img.src = decryptedUrl_src;
+
+									if (decryptedUrl_srcset !== undefined) {
+										img.srcset = decryptedUrl_srcset;
+									}
+
+									// 読み込んだ画像は監視から外す
+									observer.unobserve(img);
+								} catch (error) {
+									console.error('Decryption failed:', error);
 								}
-
-								// 読み込んだ画像は監視から外す
-								observer.unobserve(img);
 							}
 						}
-					});
+					}
 				}, {
 					root: null, // ビューポートが基準
 					rootMargin: '0px', // ビューポートの周囲のマージン
@@ -170,11 +173,11 @@
 				});
 
 				// 画像が表示されるまで監視を開始
-				imgTags.forEach(function(img) {
+				imgTags.forEach(function (img) {
 					observer.observe(img);
 				});
 			}
-		});
+		};
 	}
 
 /*
@@ -193,8 +196,8 @@
 						const nonce = img.getAttribute('data-nonce');
 						
 						// 画像URLを復号化
-						const decryptedUrl_src = decryptAndDecodeImageUrl(encryptedData_src, nonce);
-						const decryptedUrl_srcset = decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
+						const decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
+						const decryptedUrl_srcset = await decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
 						
 						// 復号化したURLを元のsrcに設定
 						img.src = decryptedUrl_src;
@@ -317,8 +320,8 @@
 			'-ms-user-select': none 	 // Internet Explorer, Edge
 		});
 
-//		Document.querySelectorAll('img').forEach(img => {
-		$('img').each(function() {
+		Document.querySelectorAll('img').forEach(img => {
+//		$('img').each(function() {
 			img.style.pointerEvents = none;
 		});
 
@@ -429,28 +432,28 @@
 				if(FlagAll.includes(Flg)) {
 					// 全部真っ黒にする
 					$('*').css({
-						'background-color': black,
-						'color': black,
+						bgcolor: black,
+						color: black,
 					});
 
 					$('img,video,audio,iframe').css({
 						'display': none
 					});
-					var text=response.replace(/\\n/g, '<br>');
+					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
 
 					var newDiv = $('<div>')
 						.html(text) // 文字を設定
 						.css({
-							'position': 'fixed',			 // 画面上で固定
-							'top': '50%',					 // 画面の中央に配置
+							'position': 'fixed',			// 画面上で固定
+							'top': '50%',					// 画面の中央に配置
 							'left': '50%',
-							'transform': 'translate(-50%, -50%)', // 中央揃え
-							'background-color': 'yellow',	 // 背景色を黄色に
-							'color': black,				 // 文字色を黒に
-							'padding': '20px',				 // パディング
-							'border-radius': '10px',		 // 角を丸く
-							'z-index': '9999',				 // 最前面に表示
-							'font-weight': 'bold'			 // 文字を太字に
+							'transform': 'translate(-50%,-50%)', // 中央揃え
+							bgcolor: 'yellow',	// 背景色を黄色に
+							color: black,				 	// 文字色を黒に
+							'padding': '20px',				// パディング
+							'border-radius': '10px',		// 角を丸く
+							'z-index': '9999',				// 最前面に表示
+							'font-weight': 'bold'			// 文字を太字に
 						});
 
 					// body に追加
@@ -482,4 +485,15 @@
 		return e.innerHTML;
 	}
 */
+
+	function escapeHTMLWithBr(str) {
+		return str
+			.replace(/<br\s*\/?>/gi, '__BR__')	// <br> を一時的に置き換え
+			.replace(/&/g, '&amp;') 			// & をエスケープ
+			.replace(/</g, '&lt;')				// < をエスケープ
+			.replace(/>/g, '&gt;')				// > をエスケープ
+			.replace(/"/g, '&quot;')            // " をエスケープ
+			.replace(/'/g, '&#039;')            // ' をエスケープ
+			.replace(/__BR__/g, '<br>');		// <br> を元に戻す
+	}
 })(jQuery);
