@@ -22,7 +22,9 @@ class neohp_htmlprotect {
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') == 1) {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
-			$this->imagetransfer();
+			add_action('template_redirect', function () {
+				$this->imagetransfer();
+			}, 0);
 
 			// headタグをキャプチャ開始
 			add_action('wp_head', function () {
@@ -72,7 +74,7 @@ class neohp_htmlprotect {
 	public function imagetransfer() {
 		// 現在の URL が「画像転送用の URL」かをチェック
 		if (isset($_GET['neohp']) && $_GET['neohp'] == 'image' && isset($_GET['ogp'])) {
-			if (isset($_GET['nonce']) && wp_nonce_field( sanitize_text_field(wp_unslash($_GET['nonce'])), 'neohp_ogp' ) ) {
+			if (isset($_GET['nonce']) && wp_verify_nonce( sanitize_text_field(wp_unslash($_GET['nonce'])), 'neohp_ogp' ) ) {
 
 				$image_url = sanitize_text_field(wp_unslash($_GET['ogp']));
 
