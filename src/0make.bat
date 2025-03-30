@@ -1,9 +1,11 @@
 @echo off
-set VERSION=0.0.65
+set VERSION=0.0.66
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
-set NAME=neo-html-protector
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
+set NAME=neo-html-protector
+set BROTLI=wsl brotli --quality=11 
+set GZIP=wsl 7za a -tgzip -mx9 -mpass=10 -mfb=256
 set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --assume_function_wrapper --rewrite_polyfills false  --assume_function_wrapper
 rem --assume_function_wrapper
 rem ADVANCED_OPTIMIZATIONS
@@ -12,12 +14,20 @@ rem SIMPLE_OPTIMIZATIONS
 
 @echo on
 %CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
+%BROTLI% js/neo-html-protect.min.js
+%GZIP% js/neo-html-protect.min.js.gz js/neo-html-protect.min.js
 wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
+
 wsl curl -o js/crypto-js.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.js
+
+wsl sleep 1
+
 wsl curl -o js/crypto-js.min.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.min.js
+%BROTLI% js/crypto-js.min.js
+%GZIP% js/crypto-js.min.js.gz js/crypto-js.min.js
 
 @echo off
-pause
+:pause
 
 :pause
 @echo off

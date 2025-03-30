@@ -44,14 +44,14 @@ class neohp_func {
 		// URLを取得
 		$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
 		$host = (isset($_SERVER['HTTP_HOST']) ? sanitize_text_field(wp_unslash($_SERVER['HTTP_HOST'])) : 'Ignore Hostname');
-		$request_uri = (isset($_SERVER['REQUEST_URI']) ? sanitize_text_field(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
+		$request_uri = $this->get_requiest_uri();
 		$current_url = $scheme . '://' . $host . $request_uri;
 		return $current_url;
 	}
 
 	public function get_requiest_uri() {
 		// URLを取得
-		$request_uri = (isset($_SERVER['REQUEST_URI']) ? sanitize_text_field(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
+		$request_uri = (isset($_SERVER['REQUEST_URI']) ? wp_unslash($_SERVER['REQUEST_URI']) : '/Ignore Request URI');
 		return $request_uri;
 	}
 

@@ -72,76 +72,79 @@ class neohp_htmlprotect {
 	public function imagetransfer() {
 		// 現在の URL が「画像転送用の URL」かをチェック
 		if (isset($_GET['neohp']) && $_GET['neohp'] == 'image' && isset($_GET['ogp'])) {
-			$image_url = sanitize_text_field(wp_unslash($_GET['ogp']));
-			
-			// WordPressのアップロードディレクトリのパスを取得
-			$upload_dir = wp_upload_dir();
-			$upload_base_url = $upload_dir['baseurl']; // 例: https://support.773.moe/wp-content/uploads
-			
-			// URLからアップロードディレクトリのベース部分を取り除く
-			$relative_path = str_replace($upload_base_url, '', $image_url);
-			
-			// WordPressのアップロードディレクトリのファイルパスを生成
-			$image_path = $upload_dir['basedir'] . $relative_path;
-			
-			// 画像ファイルが存在する場合、リダイレクト
-			if (file_exists($image_path)) {
-				$mime = mime_content_type($image_path);
+			if (isset($_GET['nonce']) && wp_nonce_field( sanitize_text_field(wp_unslash($_GET['nonce'])), 'neohp_ogp' ) ) {
 
-				// コンテンツタイプが正しいか確認
-				$allowed_types = [
-					'image/jpeg',
-					'image/png',
-					'image/gif',
-					'image/bmp',
-					'image/webp',
-					'image/avif',
-					'image/tiff',
-					'image/svg+xml',
-					'image/vnd.microsoft.icon',
-					'image/heif',
-					'image/heic',
-					'image/jp2',
-				];
-				if (!in_array($mime, $allowed_types)) {
-					wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
-				}
+				$image_url = sanitize_text_field(wp_unslash($_GET['ogp']));
 
-				// 必要に応じて、適切なコンテンツタイプを設定
-				header('Content-Type: ' . $mine); // 画像の形式に合わせて自動設定
+				// WordPressのアップロードディレクトリのパスを取得
+				$upload_dir = wp_upload_dir();
+				$upload_base_url = $upload_dir['baseurl']; // 例: https://support.773.moe/wp-content/uploads
 				
-				// 画像を出力して転送
-				global $wp_filesystem;
+				// URLからアップロードディレクトリのベース部分を取り除く
+				$relative_path = str_replace($upload_base_url, '', $image_url);
+				
+				// WordPressのアップロードディレクトリのファイルパスを生成
+				$image_path = $upload_dir['basedir'] . $relative_path;
 
-				if ( ! function_exists( 'WP_Filesystem' ) ) {
-					require_once ABSPATH . 'wp-admin/includes/file.php';
-				}
+				// 画像ファイルが存在する場合、リダイレクト
+				if (file_exists($image_path)) {
+					$mime = mime_content_type($image_path);
 
-				WP_Filesystem();
-
-				if ( $wp_filesystem->exists( $image_path ) ) {
-					$mime_type = wp_check_filetype( $image_path )['type'];
-					if ( $mime_type ) {
-						// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-						// This is image file (binary)
-						header( 'Content-Type: ' . $mime_type );
-						header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
-						echo $wp_filesystem->get_contents( $image_path );
-						// phpcs:enable
+					// コンテンツタイプが正しいか確認
+					$allowed_types = [
+						'image/jpeg',
+						'image/png',
+						'image/gif',
+						'image/bmp',
+						'image/webp',
+						'image/avif',
+						'image/tiff',
+						'image/svg+xml',
+						'image/vnd.microsoft.icon',
+						'image/heif',
+						'image/heic',
+						'image/jp2',
+					];
+					if (!in_array($mime, $allowed_types)) {
+						wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 					}
+
+					// 必要に応じて、適切なコンテンツタイプを設定
+					header('Content-Type: ' . $mime); // 画像の形式に合わせて自動設定
+					
+					// 画像を出力して転送
+					global $wp_filesystem;
+
+					if ( ! function_exists( 'WP_Filesystem' ) ) {
+						require_once ABSPATH . 'wp-admin/includes/file.php';
+					}
+
+					WP_Filesystem();
+
+					if ( $wp_filesystem->exists( $image_path ) ) {
+						$mime_type = $mime;
+
+						if ( $mime_type ) {
+							// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+							// This is image file (binary)
+							header( 'Content-Type: ' . $mime_type );
+							header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
+							echo $wp_filesystem->get_contents( $image_path );
+							// phpcs:enable
+						}
+					}
+
+					$user_ip = $this->neohp_func->get_user_ip();
+					// 一時的なデータベースも削除
+					$this->neohp_database->delete_view_source(
+						array( 'ip' => $user_ip)
+					);
+
+					exit; // その後の処理を停止
 				}
-
-				$user_ip = $this->neohp_func->get_user_ip();
-				// 一時的なデータベースも削除
-				$this->neohp_database->delete_view_source(
-					array( 'ip' => $user_ip)
-				);
-
-				exit; // その後の処理を停止
-			} else {
-				// 画像が見つからない場合の処理（404など）
-				wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 			}
+			// 画像が見つからない場合の処理（404など）
+			wp_die(esc_html(__('画像が見つかりません', 'neo-html-protector')));
 		}
 	}
 
@@ -494,8 +497,14 @@ class neohp_htmlprotect {
 		// 正規表現で twitter:image と og:image のURLを置き換える
 		$pattern = '/(<meta\s+(?:property|name)="(?:twitter:image|og:image)"\s+content=")(https?:\/\/[^"]+)(")/';
 
+		// nonceの生成
+		$nonce = wp_create_nonce('neohp_ogp');
+
 		// 置換後の URL にサイトのURLを追加
-		$replacement = '$1' . $site_url . '/?neohp=image&ogp=$2' . '$3';
+		$replacement = '$1' . $site_url
+					 . '/?neohp=image'
+					 . '&nonce=' . $nonce
+					 . '&ogp=$2' . '$3';
 
 		// コンテンツ内の該当する部分を置き換え
 		$content = preg_replace($pattern, $replacement, $content);

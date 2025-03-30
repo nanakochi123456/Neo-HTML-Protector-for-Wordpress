@@ -79,8 +79,8 @@ class neohp_htmlcompress {
 			// <!doctype html>の前に警告メッセージを表示する
 			require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 
-			if(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) !== '') {
-				$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_viewsource_default ) );
+			if(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) !== '') {
+				$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) );
 				$ua = $this->neohp_func->get_user_agent();
 				$current_url = $this->neohp_func->get_current_url();
 				$user_ip = $this->neohp_func->get_user_ip();
