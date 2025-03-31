@@ -218,3 +218,5 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Bu eklentinin geliştirilmesinde diğer Raspberry Pi5, ChatGPT ve deepl kullanılmıştır
 imgタグが呼び出されるごとに画像を保護	Img etiketi her çağrıldığında görüntüyü korur.
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Wordpress'e yüklenen tüm görüntüleri tüm HTML çıktılarında koruyun
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'img etiketi her çağrıldığında görüntüyü koru' için, img etiketlerini yayınlarken add_filter ve filtre kullanın, temaya bağlı olarak bu doğru çalışmayabilir
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Wordpress'e yüklenen tüm resimleri tüm HTML çıktılarının dışında koru' neredeyse tüm Wordpress etkinliklerini yakalayacak ve içerikteki img etiketleriyle ilgili her şeyi işleyecektir. Bazı temalar düzgün çalışmayacaktır

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.68\n"
+"Project-Id-Version: Neo HTML Protector 0.0.70\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 02:20+0900\n"
-"PO-Revision-Date: 2025-03-31 02:20+0900\n"
+"POT-Creation-Date: 2025-04-01 02:15+0900\n"
+"PO-Revision-Date: 2025-04-01 02:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -132,8 +132,11 @@ msgstr "이미지 데이터를 보호하면 이미지 캐싱이 작동하지 않
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "이미지 데이터를 보호할 때 데이터베이스의 부하가 높아질 수 있습니다."
 
-msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "Add_filter를 사용한 방식은 img 태그 발행 시 필터링을 하고, wp_head~wp_footer를 사용한 방식은 콘텐츠 내 img 태그에 대해 모두 처리합니다. 테마에 따라 제대로 작동하지 않습니다."
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "'img 태그가 호출될 때마다 이미지 보호'의 경우 add_filter를 사용하여 img 태그 발행 시 필터링을 수행하며, 테마에 따라 제대로 작동하지 않을 수 있습니다."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "'출력되는 전체 HTML 중 워드프레스에 업로드된 이미지를 모두 보호'의 경우 워드프레스의 거의 모든 동작을 캡처하고 콘텐츠 내 img 태그에 대해 모두 처리합니다. 테마에 따라 제대로 작동하지 않습니다."
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "아이캐치로 지정한 이미지는 OGP로 확산되므로 보호할 수 없습니다. 꼭 보호해야 하는 경우 고급 설정에서 HTML 보호 시 HEAD 태그의 출력 선택을 변경해 주세요."

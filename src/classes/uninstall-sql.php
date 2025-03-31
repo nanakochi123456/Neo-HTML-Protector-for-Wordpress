@@ -1,6 +1,8 @@
 <?php
 // Neo HTML Protector drop sql
 
+defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
+
 function neohp_drop_sql() {
 	global $wpdb;
 	$neohp_table_name = $wpdb->prefix . 'user_ip_log';

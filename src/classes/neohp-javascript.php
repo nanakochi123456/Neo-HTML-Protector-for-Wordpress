@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_javascript
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_javascriptexec = 0;
 $neohp_javascript=new neohp_javascript();
 

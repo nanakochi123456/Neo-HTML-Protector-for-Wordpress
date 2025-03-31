@@ -2,6 +2,8 @@
 // Neo HTML Protector delete options
 // This is auto generate file
 
+defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
+
 function neohp_delete_options() {
 	delete_option('active_plugins');
 	delete_option('neohp_alert_c');

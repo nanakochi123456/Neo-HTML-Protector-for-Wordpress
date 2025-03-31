@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.68\n"
+"Project-Id-Version: Neo HTML Protector 0.0.70\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 02:20+0900\n"
-"PO-Revision-Date: 2025-03-31 02:22+0900\n"
+"POT-Creation-Date: 2025-04-01 02:15+0900\n"
+"PO-Revision-Date: 2025-04-01 02:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -132,8 +132,11 @@ msgstr "Quando os dados da imagem estão protegidos, o cache da imagem não func
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "A carga do banco de dados pode ser maior quando os dados da imagem estão protegidos"
 
-msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "O método que usa add_filter filtra as tags img quando elas são publicadas, enquanto o método que usa wp_head para wp_footer processa todas as tags img no conteúdo."
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Para Proteger a imagem sempre que a tag img for chamada, use add_filter e filtro ao publicar tags img; dependendo do tema, isso pode não funcionar corretamente"
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "A opção Protect all images uploaded to Wordpress out of all HTML output"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Observe que as imagens especificadas como atraentes são distribuídas como OGP e não podem ser protegidas. Se você precisar protegê-las, altere a seleção da saída da tag HEAD ao proteger o HTML nas configurações avançadas."

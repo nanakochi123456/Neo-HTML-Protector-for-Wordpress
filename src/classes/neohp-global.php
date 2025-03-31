@@ -3,6 +3,8 @@
  * Neo HTML Protector global
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 
 $neohp_nocookienojs_default =

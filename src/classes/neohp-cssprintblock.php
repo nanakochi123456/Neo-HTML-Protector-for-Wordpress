@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_cssprintblock
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_cssprintblock=new neohp_cssprintblock();
 class neohp_cssprintblock {
 

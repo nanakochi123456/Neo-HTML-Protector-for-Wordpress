@@ -7,6 +7,7 @@
 (function($) {
 	let		CtrlKey='Ctrl+';
 	let		ShiftKey='Shift+';
+	let		CommandKey='Command+';
 	let		fKey='f';
 	let		iKey='i';
 	let		jKey='j';
@@ -35,6 +36,7 @@
 	nullstr = nullstr + nullstr;
 	CtrlKey=CtrlKey + nullstr;
 	ShiftKey=ShiftKey + nullstr;
+	CommandKey=CommandKey + nullstr;
 	fKey=fKey + nullstr;
 	iKey=iKey + nullstr;
 	jKey=jKey + nullstr;
@@ -224,18 +226,46 @@
 	// キーのみの処理
 
 	$(Document).on("keydown keypress keyup", (event) => {
+
+
+	});
+
+	$(Document).on("keydown keypress keyup", (event) => {
+		var ctrl = event.ctrlKey,
+			shift = event.shiftKey,
+			meta = event.metaKey,
+			key = event.key;
+
+		// PrintScreen
 		if(FlagSmall.includes(PrintScreenKey)) {
 			if (event.keyCode === 44) {
 				sendIpToServer('PrintScreen', PrintScreenKey);
 				stop(event);
 			}
-		}
-	});
+//		}
+		// Win+Shift+S (Windows sniping tool)
+//		if(FlagSmall.includes(PrintScreenKey) ) {
+			if (meta && shift && lower(event.key) === 's') {
+				sendIpToServer('Win+' + ShiftKey+ 'S', fKey);
+				stop(event);
+			}
+//		}
 
-	$(Document).on("keydown", (event) => {
-		var ctrl = event.ctrlKey,
-			shift = event.shiftKey,
-			key = event.key;
+		// Shift+Command+3 (macos)
+//		if(FlagSmall.includes(PrintScreenKey) ) {
+			if (meta && shift && key === '3') {
+				sendIpToServer(ShiftKey + CommandKey + '3', fKey);
+				stop(event);
+			}
+//		}
+
+		// Shift+Command+4 (macos)
+//		if(FlagSmall.includes(PrintScreenKey) ) {
+			if (meta && shift && key === '4') {
+				sendIpToServer(ShiftKey + CommandKey + '4', fKey);
+				stop(event);
+			}
+		}
 
 		// F12
 		if(FlagSmall.includes(fKey)) {
@@ -460,9 +490,6 @@
 					// body に追加
 					$(body).append(newDiv);
 
-/*
-					alert(escapeHtml(response.replace(/\\n/g, '\n')));
-*/
 					setTimeout(function() {
 						location.href = NeoHPHome
 										+ "?neohp=redirect"
@@ -476,7 +503,6 @@
 		});
 	}
 
-/*
 	// JavaScriptでエスケープする関数
 	function escapeHtml(str) {
 		var e = Document.createElement('div');
@@ -486,7 +512,6 @@
 		}
 		return e.innerHTML;
 	}
-*/
 
 	function escapeHTMLWithBr(str) {
 		return str

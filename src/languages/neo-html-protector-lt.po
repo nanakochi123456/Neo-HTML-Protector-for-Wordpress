@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.68\n"
+"Project-Id-Version: Neo HTML Protector 0.0.70\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 02:20+0900\n"
-"PO-Revision-Date: 2025-03-31 02:21+0900\n"
+"POT-Creation-Date: 2025-04-01 02:15+0900\n"
+"PO-Revision-Date: 2025-04-01 02:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -132,8 +132,11 @@ msgstr "Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spart
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Duomenų bazės apkrova gali būti didesnė, kai saugomi vaizdo duomenys"
 
-msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "Naudojant metodą add_filter filtruojamos img žymės, kai jos paskelbiamos, o naudojant metodą wp_head to wp_footer apdorojamos visos turinyje esančios img žymės."
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Dėl Apsaugoti vaizdą kiekvieną kartą, kai iškviečiama img žyma, naudokite add_filter ir filtrą skelbdami img žymas, priklausomai nuo temos tai gali neveikti teisingai."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Apsaugoti visus vaizdus, įkeltus į Wordpress, iš visų HTML išvesties užfiksuos beveik visą Wordpress veiklą ir apdoros viską, kas susiję su turinio img žymėmis. Kai kurios temos neveiks teisingai"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite žymės HEAD išvesties pasirinkimą, kai saugote HTML."

@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_jskeyajax
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_jskeyajax=new neohp_jskeyajax();
 class neohp_jskeyajax {
 	protected $neohp_database;
@@ -103,7 +105,9 @@ $value=$neohp_rightclick_default;
 		}
 
 		// PrintScreen
-		if (strpos($key, 'PrintScreen') !== false	) {
+		if (strpos($key, 'PrintScreen') !== false
+		 || strpos($key, 'Win') !== false
+		 || strpos($key, 'Command') !== false ) {
 			$value = get_option('neohp_printscreen_message', $neohp_printscreen_default);
 		}
 

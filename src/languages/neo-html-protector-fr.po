@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.68\n"
+"Project-Id-Version: Neo HTML Protector 0.0.70\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 02:20+0900\n"
-"PO-Revision-Date: 2025-03-31 02:20+0900\n"
+"POT-Creation-Date: 2025-04-01 02:15+0900\n"
+"PO-Revision-Date: 2025-04-01 02:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -132,8 +132,11 @@ msgstr "Lorsque les données des images sont protégées, la mise en cache des i
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "La charge de la base de données peut être plus élevée lorsque les données d'image sont protégées"
 
-msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "La méthode utilisant add_filter filtre les balises img lorsqu'elles sont publiées, tandis que la méthode utilisant wp_head to wp_footer traite toutes les balises img dans le contenu."
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Pour Protéger l'image à chaque fois que la balise img est appelée, utilisez add_filter et filter lors de la publication des balises img, selon le thème cela peut ne pas fonctionner correctement"
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "L'option Protéger toutes les images téléchargées vers Wordpress de toutes les sorties HTML capturera presque toute l'activité de Wordpress et traitera tout ce qui concerne les balises img dans le contenu. Certains thèmes ne fonctionneront pas correctement"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Notez que les images spécifiées comme accrocheuses sont diffusées en tant qu'OGP et ne peuvent pas être protégées. Si vous devez les protéger, veuillez modifier la sélection de la sortie de la balise HEAD lors de la protection du HTML dans les paramètres avancés."

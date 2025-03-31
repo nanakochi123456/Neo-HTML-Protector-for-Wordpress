@@ -3,6 +3,8 @@
  * Neo HTML Protector admin IPログリーダー
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 if (is_admin()) {
 	$neohp_iplogreader = new neohp_iplogreader();
 }
@@ -120,23 +122,24 @@ class neohp_iplogreader {
 			<table class="wp-list-table widefat fixed striped">
 			<thead><tr>
 			<th><?php echo esc_html( __('ID', 'neo-html-protector') ) ?></th>
-			<th colspan='2'><?php echo esc_html( __('タイムスタンプ', 'neo-html-protector') ) ?></th></tr></thead>			<th colspan='2'><?php echo esc_html( __('IPアドレス', 'neo-html-protector') ) ?></th>
+			<th colspan='2'><?php echo esc_html( __('タイムスタンプ', 'neo-html-protector') ) ?></th>
+			<th colspan='2'><?php echo esc_html( __('IPアドレス', 'neo-html-protector') ) ?></th>
 			<th colspan='5'><?php echo esc_html( __('ユーザーエージェント', 'neo-html-protector') ) ?></th>
 			<th colspan='2'><?php echo esc_html( __('イベント', 'neo-html-protector') ) ?></th>
 			<th colspan='3'><?php echo esc_html('URL') ?></th>
 
-			<tbody>
+			</tr></thead><tbody>
 			<?php
 
 			foreach ($results as $row) {
 				?>
 				<tr>
 					<td><?php echo esc_html( $row->id ) ?></td>
+					<td colspan='2'><?php echo esc_html( $row->timestamp ) ?></td>
 					<td colspan='2'><?php echo esc_html( $row->ip ) ?></td>
 					<td colspan='5'><?php echo esc_html( $row->ua ) ?></td>
 					<td colspan='2'><?php echo esc_html( $row->keyb ) ?></td>
 					<td colspan='3'><?php echo esc_html( $row->url ) ?></td>
-					<td colspan='2'><?php echo esc_html( $row->timestamp ) ?></td>
 				</tr>
 				<?php
 			}

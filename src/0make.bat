@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.0.69
+set VERSION=0.0.71
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
@@ -16,8 +16,8 @@ rem SIMPLE_OPTIMIZATIONS
 %CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
 wsl rm js/neo-html-protect.min.js.br
 wsl rm js/neo-html-protect.min.js.gz
-%BROTLI% js/neo-html-protect.min.js
-%GZIP% js/neo-html-protect.min.js.gz js/neo-html-protect.min.js
+:%BROTLI% js/neo-html-protect.min.js
+:%GZIP% js/neo-html-protect.min.js.gz js/neo-html-protect.min.js
 wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
 
 wsl curl -o js/crypto-js.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.js
@@ -28,8 +28,8 @@ wsl curl -o js/crypto-js.min.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js
 wsl rm js/crypto-js.min.js.br
 wsl rm js/crypto-js.min.js.js
 
-%BROTLI% js/crypto-js.min.js
-%GZIP% js/crypto-js.min.js.gz js/crypto-js.min.js
+:%BROTLI% js/crypto-js.min.js
+:%GZIP% js/crypto-js.min.js.gz js/crypto-js.min.js
 
 @echo off
 :pause

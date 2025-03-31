@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_jskeyredirect
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_jskeyredirect=new neohp_jskeyredirect();
 class neohp_jskeyredirect {
 	protected $neohp_func;

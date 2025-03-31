@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_htmlcompress
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_htmlcompress=new neohp_htmlcompress();
 class neohp_htmlcompress {
 	protected $neohp_func;

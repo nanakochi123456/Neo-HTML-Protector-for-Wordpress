@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_htmlprotect
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_htmlprotect=new neohp_htmlprotect();
 class neohp_htmlprotect {
 	protected $neohp_database;

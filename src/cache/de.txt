@@ -218,3 +218,5 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Andere Raspberry Pi5, ChatGPT und deepl werden für die Entwicklung dieses Plugins verwendet
 imgタグが呼び出されるごとに画像を保護	Schützen Sie das Bild jedes Mal, wenn das img-Tag aufgerufen wird.
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Schützen Sie alle in Wordpress hochgeladenen Bilder in allen HTML-Ausgaben
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Für 'Protect image every time img tag is called', verwenden Sie add_filter und filtern Sie bei der Veröffentlichung von img tags, je nach Theme kann dies nicht korrekt funktionieren
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Die Option "Alle in Wordpress hochgeladenen Bilder vor der gesamten HTML-Ausgabe schützen" erfasst fast alle Wordpress-Aktivitäten und verarbeitet alles, was die img-Tags im Inhalt betrifft. Einige Themes werden nicht korrekt funktionieren

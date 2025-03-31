@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_functions
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_func=new neohp_func();
 class neohp_func {
 	public function get_user_ip() {
@@ -51,8 +53,12 @@ class neohp_func {
 
 	public function get_requiest_uri() {
 		// URLを取得
+		// phpcs:disable WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+		// URL-encoded strings are also included here and cannot be fully encoded, so
 		$request_uri = (isset($_SERVER['REQUEST_URI']) ? htmlspecialchars(wp_unslash($_SERVER['REQUEST_URI'])) : '/Ignore Request URI');
+		// phpcs:enable
 		return $request_uri;
+
 	}
 
 	// ショートnonce

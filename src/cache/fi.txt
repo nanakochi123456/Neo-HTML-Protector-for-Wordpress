@@ -218,3 +218,5 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Muut Raspberry Pi5, ChatGPT ja deepl käytetään tämän laajennuksen kehittämisessä.
 imgタグが呼び出されるごとに画像を保護	Suojaa kuva aina, kun img-tunnistetta kutsutaan.
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Suojaa kaikki Wordpressiin ladatut kuvat kaikissa HTML-tulosteissa.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Jos haluat 'Suojaa kuva aina kun img-tagia kutsutaan', käytä add_filter ja suodatinta, kun julkaiset img-tagit, teemasta riippuen tämä ei välttämättä toimi oikein.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Suojaa kaikki Wordpressiin ladatut kuvat kaikista HTML-tulosteista' kaappaa lähes kaiken Wordpressin toiminnan ja käsittelee kaiken sisällön img-tunnisteista. Jotkin teemat eivät toimi oikein

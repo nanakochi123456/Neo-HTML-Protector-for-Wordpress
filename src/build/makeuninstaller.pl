@@ -24,6 +24,9 @@ print "<?php\n";
 print "// Neo HTML Protector delete options\n";
 print "// This is auto generate file\n";
 print "\n";
+print "defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');\n";
+print "\n";
+
 print "function neohp_delete_options() {\n";
 foreach my $key (sort keys %opt) {
     print "	delete_option('$key');\n";

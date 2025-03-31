@@ -218,3 +218,5 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį
 imgタグが呼び出されるごとに画像を保護	Apsaugokite paveikslėlį kiekvieną kartą, kai iškviečiama žyma img.
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Apsaugokite visus į "Wordpress" įkeltus paveikslėlius visuose HTML išvedimuose
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Dėl "Apsaugoti vaizdą kiekvieną kartą, kai iškviečiama img žyma", naudokite add_filter ir filtrą skelbdami img žymas, priklausomai nuo temos tai gali neveikti teisingai.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Apsaugoti visus vaizdus, įkeltus į "Wordpress", iš visų HTML išvesties" užfiksuos beveik visą "Wordpress" veiklą ir apdoros viską, kas susiję su turinio img žymėmis. Kai kurios temos neveiks teisingai

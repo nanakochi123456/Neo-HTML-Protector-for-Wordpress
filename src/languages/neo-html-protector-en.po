@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.68\n"
+"Project-Id-Version: Neo HTML Protector 0.0.70\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-03-31 02:20+0900\n"
-"PO-Revision-Date: 2025-03-31 02:20+0900\n"
+"POT-Creation-Date: 2025-04-01 02:15+0900\n"
+"PO-Revision-Date: 2025-04-01 02:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -132,8 +132,11 @@ msgstr "When image data is protected, image caching does not work, so the site w
 msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
 msgstr "Database load may be higher when image data is protected"
 
-msgid "add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "The method using add_filter filters img tags when they are published, while the method using wp_head to wp_footer processes all img tags in the content."
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "For protect image each time img tag is called, use add_filter to filter when img tag is issued, some themes do not work correctly"
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "For Protect all images uploaded to Wordpress out of all HTML output, it captures almost all Wordpress actions and handles everything about img tags in the content. Some themes will not work correctly"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Please note that images specified as eye catchers will be spread as OGP and cannot be protected. If you must protect them, please change the output selection of the HEAD tag when HTML is protected in the advanced settings."

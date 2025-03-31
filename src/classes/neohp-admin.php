@@ -3,6 +3,8 @@
  * Neo HTML Protector admin
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 if (is_admin()) {
 	$neohp_admin = new neohp_admin();
 }
@@ -259,7 +261,8 @@ class neohp_admin {
 					echo '<br>';
 					echo '<br>' .esc_html( __('画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データを保護した時には、データベースの負荷が高くなる可能性があります', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('OS標準搭載のスクリーンショット機能を保護することはできません', 'neo-html-protector') );
 				},

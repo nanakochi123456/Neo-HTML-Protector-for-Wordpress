@@ -3,6 +3,8 @@
  * Neo HTML Protector neohp_database
  */
 
+defined('ABSPATH') or die('Oh! No!');
+
 $neohp_database=new neohp_database();
 class neohp_database {
 	public function create_user_ip() {
