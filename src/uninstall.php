@@ -3,8 +3,8 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit;
 }
 
-require "classes/uninstall-getoptions.php";
+require plugin_dir_path(__FILE__) . "classes/uninstall-getoptions.php";
 neohp_delete_options();
 
-require "classes/uninstall_sql.php";
+require plugin_dir_path(__FILE__) . "classes/uninstall-sql.php";
 neohp_drop_sql();
