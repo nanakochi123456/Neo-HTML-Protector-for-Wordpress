@@ -50,7 +50,12 @@ class neohp_admin {
 		// 設定を登録
 		add_action('admin_init', function() {
 			// デバッグモードのAlert メッセージ
-			register_setting('neohp_message_group', 'neohp_debugmode_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_debugmode_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_debugmode_message',
 				__('デバッグモード、コンソールの警告メッセージ', 'neo-html-protector'),
@@ -64,7 +69,12 @@ class neohp_admin {
 			);
 
 			// 右クリックのAlert メッセージ
-			register_setting('neohp_message_group', 'neohp_rightclick_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_rightclick_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_rightclick_message',
 				__('右クリックの警告メッセージ', 'neo-html-protector'),
@@ -78,7 +88,12 @@ class neohp_admin {
 			);
 
 			// 印刷のAlert メッセージ
-			register_setting('neohp_message_group', 'neohp_printout_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_printout_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_printout_message',
 				__('印刷、PDF保存の警告メッセージ', 'neo-html-protector'),
@@ -92,7 +107,12 @@ class neohp_admin {
 			);
 
 			// スクリーンショットのメッセージ
-			register_setting('neohp_message_group', 'neohp_printscreen_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_printscreen_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_printscreen_message',
 				__('スクリーンショットの警告メッセージ', 'neo-html-protector'),
@@ -106,7 +126,12 @@ class neohp_admin {
 			);
 
 			// 保存のAlert メッセージ
-			register_setting('neohp_message_group', 'neohp_save_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_save_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_save_message',
 				__('ページ保存の警告メッセージ', 'neo-html-protector'),
@@ -120,7 +145,12 @@ class neohp_admin {
 			);
 
 			// コピー、カットのメッセージ
-			register_setting('neohp_message_group', 'neohp_copycut_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_copycut_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_copycut_message',
 				__('コピー・カットした時に表示するメッセージ', 'neo-html-protector'),
@@ -134,7 +164,12 @@ class neohp_admin {
 			);
 
 			// HTMLソースのメッセージ
-			register_setting('neohp_message_group', 'neohp_htmlsource_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_htmlsource_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_htmlsource_message',
 				__('HTMLソース表示時に表示するメッセージ', 'neo-html-protector'),
@@ -148,7 +183,12 @@ class neohp_admin {
 			);
 
 			// HTML保護時のメッセージ
-			register_setting('neohp_message_group', 'neohp_htmlprotect_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_htmlprotect_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_htmlprotect_message',
 				__('HTML難読化・保護時にソースの先頭に表示するメッセージ', 'neo-html-protector'),
@@ -174,7 +214,12 @@ class neohp_admin {
 			);
 
 			// no cookie, no js時のメッセージ
-			register_setting('neohp_message_group', 'neohp_nocookienojs_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_nocookienojs_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_nocookienojs_message',
 				__('CookieやJavascriptが有効でない場合に表示するメッセージ', 'neo-html-protector'),
@@ -189,7 +234,12 @@ class neohp_admin {
 			);
 
 			// 画像がダウンロードされた時のメッセージ
-			register_setting('neohp_message_group', 'neohp_imagedownload_message');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_imagedownload_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_imagedownload_message',
 				__('画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ', 'neo-html-protector'),
@@ -206,7 +256,12 @@ class neohp_admin {
 
 
 			// HTML圧縮
-			register_setting('neohp_basic_group', 'neohp_htmlcompress');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_htmlcompress', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_htmlcompress',
 				__('HTML難読化 (圧縮)', 'neo-html-protector'),
@@ -223,7 +278,12 @@ class neohp_admin {
 			);
 
 			// HTML保護
-			register_setting('neohp_basic_group', 'neohp_htmlprotect');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_htmlprotect', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_htmlprotect',
 				__('HTML保護', 'neo-html-protector'),
@@ -244,7 +304,12 @@ class neohp_admin {
 			);
 
 			// 画像保護
-			register_setting('neohp_basic_group', 'neohp_imageprotect');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_imageprotect', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_imageprotect',
 				__('画像の保護', 'neo-html-protector'),
@@ -271,7 +336,12 @@ class neohp_admin {
 			);
 
 			// 画像URL保護
-			register_setting('neohp_basic_group', 'neohp_imageprotectjs');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_imageprotectjs', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_imageprotectjs',
 				__('画像URLの保護', 'neo-html-protector'),
@@ -290,7 +360,12 @@ class neohp_admin {
 			);
 
 			// HTMLソース表示時の警告の方法
-			register_setting('neohp_basic_group', 'neohp_view_source_alert_asciiart');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_view_source_alert_asciiart', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_view_source_alert_asciiart',
 				__('HTML難読化・保護時のHTMLソースコードのアスキーアートの出力', 'neo-html-protector'),
@@ -315,7 +390,12 @@ class neohp_admin {
 
 
 			// F12
-			register_setting('neohp_basic_group', 'neohp_alert_f12');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_f12', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_f12',
 				'F12 (' . __('デバッグモード', 'neo-html-protector') . ')',
@@ -333,7 +413,12 @@ class neohp_admin {
 			);
 
 			// Ctrl+Shift+I
-			register_setting('neohp_basic_group', 'neohp_alert_i');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_i', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_i',
 				'Ctrl+Shift+I (' . __('デバッグモード', 'neo-html-protector') . ')',
@@ -351,7 +436,12 @@ class neohp_admin {
 			);
 
 			// Ctrl+Shift+J
-			register_setting('neohp_basic_group', 'neohp_alert_j');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_j', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_j',
 				'Ctrl+Shift+J (' . __('ブラウザーコンソール', 'neo-html-protector') . ')',
@@ -369,7 +459,12 @@ class neohp_admin {
 			);
 
 			// Ctrl+U
-			register_setting('neohp_basic_group', 'neohp_alert_u');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_u', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_u',
 				'Ctrl + U (' . __('HTMLソース表示', 'neo-html-protector') . ')',
@@ -387,7 +482,12 @@ class neohp_admin {
 			);
 
 			// Ctrl+P
-			register_setting('neohp_basic_group', 'neohp_alert_p');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_p', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_p',
 				'Ctrl+P (' . __('印刷', 'neo-html-protector') . ')',
@@ -406,7 +506,12 @@ class neohp_admin {
 			);
 
 			// PrintScreen
-			register_setting('neohp_basic_group', 'neohp_alert_printscreen');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_printscreen', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_printscreen',
 				'PrintScreen (' . __('スクリーンショット', 'neo-html-protector') . ')',
@@ -424,7 +529,12 @@ class neohp_admin {
 			);
 
 			// Ctrl+S
-			register_setting('neohp_basic_group', 'neohp_alert_s');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_s', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_s',
 				'Ctrl+S (' . __('ページ保存', 'neo-html-protector') . ')',
@@ -442,7 +552,12 @@ class neohp_admin {
 			);
 
 			// Right Click
-			register_setting('neohp_basic_group', 'neohp_alert_r');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_r', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_r',
 				__('右クリック', 'neo-html-protector'),
@@ -460,7 +575,12 @@ class neohp_admin {
 			);
 
 			// Copy/Cut
-			register_setting('neohp_basic_group', 'neohp_alert_c');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_c', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_c',
 				__('コピー・カット', 'neo-html-protector'),
@@ -478,7 +598,12 @@ class neohp_admin {
 			);
 
 			// selection
-			register_setting('neohp_basic_group', 'neohp_alert_t');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_t', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_t',
 				__('テキスト選択', 'neo-html-protector'),
@@ -495,7 +620,12 @@ class neohp_admin {
 			);
 
 			// debugger
-			register_setting('neohp_basic_group', 'neohp_alert_d');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_d', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_d',
 				__('デバッガー妨害', 'neo-html-protector'),
@@ -512,7 +642,12 @@ class neohp_admin {
 			);
 
 			// 転送先URL
-			register_setting('neohp_basic_group', 'neohp_redirect_url');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_redirect_url', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_redirect_url',
 				__('リダイレクトするURL', 'neo-html-protector'),
@@ -528,7 +663,12 @@ class neohp_admin {
 			);
 
 			// debugger
-			register_setting('neohp_basic_group', 'neohp_alert_d');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_d', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_alert_d',
 				__('デバッガー妨害', 'neo-html-protector'),
@@ -545,7 +685,12 @@ class neohp_admin {
 			);
 
 			// ソース表示を許可する権限
-			register_setting('neohp_basic_group', 'neohp_islogin');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_islogin', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_islogin',
 				__('ソース表示を許可する権限', 'neo-html-protector'),
@@ -562,7 +707,12 @@ class neohp_admin {
 			);
 
 			// 画像を無理やりダウンロードして実際にダウンロードされるもの
-			register_setting('neohp_basic_group', 'neohp_imagedownload_real');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_imagedownload_real', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_imagedownload_real',
 				__('画像を無理やりダウンロードして実際にダウンロードされるもの', 'neo-html-protector'),
@@ -579,7 +729,12 @@ class neohp_admin {
 			);
 
 			// HTML保護時のheadの出力
-			register_setting('neohp_advanced_group', 'neohp_html_protect_head');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_html_protect_head', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_html_protect_head',
 				__('HTML保護時のHEADタグの出力', 'neo-html-protector'),
@@ -598,7 +753,12 @@ class neohp_admin {
 			);
 
 			// 画像botを避ける
-			register_setting('neohp_advanced_group', 'neohp_deny_imagebot');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_deny_imagebot', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_deny_imagebot',
 				__('画像botをアクセス禁止にする', 'neo-html-protector'),
@@ -615,7 +775,12 @@ class neohp_admin {
 			);
 
 			// alertメッセージの言語
-			register_setting('neohp_advanced_group', 'neohp_alert_message_lang');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_alert_message_lang', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'alert_message_lang',
 				__('alertメッセージを表示する言語', 'neo-html-protector'),
@@ -639,7 +804,12 @@ class neohp_admin {
 			);
 
 			// view-sourceメッセージの言語
-			register_setting('neohp_advanced_group', 'neohp_view-source_message_lang');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_view-source_message_lang', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'view-source_message_lang',
 				__('view-sourceメッセージを表示する言語', 'neo-html-protector'),
@@ -663,7 +833,12 @@ class neohp_admin {
 			);
 
 			// nonceのbit数
-			register_setting('neohp_advanced_group', 'neohp_nonce_expire');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_nonce_expire', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_nonce_expire',
 				__('一時使用トークンの有効期限', 'neo-html-protector'),
@@ -699,7 +874,12 @@ class neohp_admin {
 			);
 
 			// nonceのbit数
-			register_setting('neohp_advanced_group', 'neohp_nonce_bits');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_nonce_bits', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_nonce_bits',
 				__('一時使用トークンのビット数', 'neo-html-protector'),
@@ -727,7 +907,12 @@ class neohp_admin {
 			);
 
 			// hashのbit数
-			register_setting('neohp_advanced_group', 'neohp_hash_bits');
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_hash_bits', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
 			add_settings_field(
 				'neohp_hash_bits',
 				__('ハッシュ化アルゴリズム', 'neo-html-protector'),
