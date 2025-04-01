@@ -220,3 +220,5 @@ imgタグが呼び出されるごとに画像を保護	Védi a képet minden egy
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Védje a Wordpressbe feltöltött összes képet minden HTML kimeneten
 「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	A 'Kép védelme minden alkalommal, amikor az img tag meghívásra kerül', használja az add_filter és a szűrőt az img tagek publikálásakor, a témától függően ez nem biztos, hogy helyesen működik.
 「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	A "Védje az összes Wordpressbe feltöltött képet az összes HTML kimenetből" szinte az összes Wordpress tevékenységet rögzíti, és mindent feldolgoz a tartalomban lévő img címkékről. Néhány téma nem fog megfelelően működni
+設定が初期化されました	A beállítások inicializálása megtörtént.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	A bővítmény inicializálása Megjegyzendő, hogy az IP-napló olvasó adatai itt nem törlődnek.

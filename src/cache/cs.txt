@@ -220,3 +220,5 @@ imgタグが呼び出されるごとに画像を保護	Chrání obrázek při ka
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ochrana všech obrázků nahraných do Wordpressu ve všech výstupech HTML
 「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pro 'Chránit obrázek při každém volání tagu img' použijte add_filter a filtr při publikování tagů img, v závislosti na tématu to nemusí fungovat správně.
 「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Chránit všechny obrázky nahrané do Wordpressu ze všech výstupů HTML' zachytí téměř veškerou činnost Wordpressu a zpracuje vše o značkách img v obsahu. Některá témata nebudou fungovat správně
+設定が初期化されました	Nastavení bylo inicializováno.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializuje zásuvný modul Všimněte si, že data čtečky protokolu IP se zde neodstraní.

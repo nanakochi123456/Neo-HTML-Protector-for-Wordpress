@@ -220,3 +220,5 @@ imgタグが呼び出されるごとに画像を保護	Protege la imagen cada ve
 出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Proteger todas las imágenes subidas a Wordpress en toda la salida HTML
 「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Para 'Proteger la imagen cada vez que se llama a la etiqueta img', utilice add_filter y filtre al publicar etiquetas img, dependiendo del tema esto puede no funcionar correctamente
 「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Proteger todas las imágenes subidas a Wordpress fuera de toda la salida HTML' capturará casi toda la actividad de Wordpress y procesará todo sobre las etiquetas img en el contenido. Algunos temas no funcionarán correctamente
+設定が初期化されました	Se han inicializado los ajustes.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializa el plugin Tenga en cuenta que aquí no se borran los datos del lector de registros IP.

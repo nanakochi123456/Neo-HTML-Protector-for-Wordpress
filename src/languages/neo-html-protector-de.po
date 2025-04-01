@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.70\n"
+"Project-Id-Version: Neo HTML Protector 0.0.77\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 02:15+0900\n"
-"PO-Revision-Date: 2025-04-01 02:15+0900\n"
+"POT-Creation-Date: 2025-04-01 13:29+0900\n"
+"PO-Revision-Date: 2025-04-01 13:31+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -420,8 +420,11 @@ msgstr "Neo HTML Protector Einstellungen"
 msgid "このプラグインについて"
 msgstr "Über dieses Plugin."
 
-msgid "データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい"
-msgstr "Um alle Daten zu löschen, deinstallieren Sie das Plug-in und installieren Sie es anschließend neu."
+msgid "設定が初期化されました"
+msgstr "Die Einstellungen wurden initialisiert."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Initialisiert das Plugin Beachten Sie, dass die IP-Log-Leserdaten hier nicht gelöscht werden."
 
 msgid "Neo HTML Protectorについて"
 msgstr "Über Neo HTML Protector"
