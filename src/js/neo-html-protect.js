@@ -523,6 +523,7 @@
 						'display' : none
 					});
 					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
+					var time=NeoHPTime;
 
 					var newDiv = $('<div>')
 						.html(text) // 文字を設定
@@ -542,14 +543,15 @@
 					// body に追加
 					$(body).append(newDiv);
 
-					setTimeout(function() {
-						location.href = NeoHPHome
-										+ "?neohp=redirect"
-										+ "&page=" + encodeURIComponent(NeoHPPage)
-										+ "&tm=" + unixTime
-										+ "&neononce=" + Nonce;
-					}, 5000);  // 5000ミリ秒 = 5秒
-
+					if(time > 0) {
+						setTimeout(function() {
+							location.href = NeoHPHome
+											+ "?neohp=redirect"
+											+ "&page=" + encodeURIComponent(NeoHPPage)
+											+ "&tm=" + unixTime
+											+ "&neononce=" + Nonce;
+						}, time * 1000);  // 5000ミリ秒 = 5秒
+					}
 				}
 			}
 		});

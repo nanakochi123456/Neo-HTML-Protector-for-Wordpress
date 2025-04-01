@@ -57,11 +57,13 @@ class neohp_javascript {
 
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');
+		$time = (int)get_option('neohp_redirect_times', '5');
 
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
+			NeoHPTime="   . esc_js($time) . ",
 			NeoHPnonce='" . esc_js($nonce) . "';
 		";
 		$script = preg_replace('/[\r\n\t]+/', '', $script);

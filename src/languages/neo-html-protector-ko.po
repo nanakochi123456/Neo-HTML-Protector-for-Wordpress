@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.77\n"
+"Project-Id-Version: Neo HTML Protector 0.0.78\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 13:29+0900\n"
-"PO-Revision-Date: 2025-04-01 13:30+0900\n"
+"POT-Creation-Date: 2025-04-01 17:47+0900\n"
+"PO-Revision-Date: 2025-04-01 17:47+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -234,6 +234,72 @@ msgstr "이용 약관 등의 페이지로 이동하는 것이 좋습니다."
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr "비워두면 원래 URL로 리디렉션됩니다."
 
+msgid "リダイレクトまでの時間"
+msgstr "리디렉션 시간"
+
+msgid "リダイレクトなし"
+msgstr "리디렉션 없음"
+
+msgid "1秒"
+msgstr "1초"
+
+msgid "2秒"
+msgstr "2초"
+
+msgid "3秒"
+msgstr "3초"
+
+msgid "4秒"
+msgstr "4초"
+
+msgid "5秒"
+msgstr "5초"
+
+msgid "6秒"
+msgstr "6초"
+
+msgid "7秒"
+msgstr "7초"
+
+msgid "8秒"
+msgstr "8초"
+
+msgid "9秒"
+msgstr "9초"
+
+msgid "10秒"
+msgstr "10초"
+
+msgid "15秒"
+msgstr "15초"
+
+msgid "20秒"
+msgstr "20초"
+
+msgid "25秒"
+msgstr "25초"
+
+msgid "30秒"
+msgstr "30초"
+
+msgid "35秒"
+msgstr "35초"
+
+msgid "40秒"
+msgstr "40초"
+
+msgid "45秒"
+msgstr "45초"
+
+msgid "50秒"
+msgstr "50초"
+
+msgid "55秒"
+msgstr "55초"
+
+msgid "1分"
+msgstr "1분"
+
 msgid "ソース表示を許可する権限"
 msgstr "소스 표시 허용 권한"
 
@@ -299,9 +365,6 @@ msgstr "View-source 메시지를 표시하는 언어"
 
 msgid "一時使用トークンの有効期限"
 msgstr "임시 사용 토큰의 유효기간"
-
-msgid "1分"
-msgstr "1분"
 
 msgid "2分"
 msgstr "2분"

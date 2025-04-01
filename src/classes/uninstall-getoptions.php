@@ -38,6 +38,7 @@ function neohp_delete_options() {
 	delete_option('neohp_nonceerror_message');
 	delete_option('neohp_printout_message');
 	delete_option('neohp_printscreen_message');
+	delete_option('neohp_redirect_times');
 	delete_option('neohp_redirect_url');
 	delete_option('neohp_rightclick_message');
 	delete_option('neohp_save_message');

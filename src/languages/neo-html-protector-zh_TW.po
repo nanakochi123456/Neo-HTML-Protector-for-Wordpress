@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.77\n"
+"Project-Id-Version: Neo HTML Protector 0.0.78\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 13:29+0900\n"
-"PO-Revision-Date: 2025-04-01 13:29+0900\n"
+"POT-Creation-Date: 2025-04-01 17:47+0900\n"
+"PO-Revision-Date: 2025-04-01 17:47+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -234,6 +234,72 @@ msgstr "您可能想要將他們轉寄到使用條款等頁面。"
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr "如果留空，則會重定向至原始 URL"
 
+msgid "リダイレクトまでの時間"
+msgstr "該重新定向了。"
+
+msgid "リダイレクトなし"
+msgstr "無重定向"
+
+msgid "1秒"
+msgstr "1 秒"
+
+msgid "2秒"
+msgstr "2 秒"
+
+msgid "3秒"
+msgstr "3 秒"
+
+msgid "4秒"
+msgstr "4 秒"
+
+msgid "5秒"
+msgstr "5 秒"
+
+msgid "6秒"
+msgstr "6 秒。"
+
+msgid "7秒"
+msgstr "7 秒"
+
+msgid "8秒"
+msgstr "8 秒"
+
+msgid "9秒"
+msgstr "9 秒"
+
+msgid "10秒"
+msgstr "10 秒"
+
+msgid "15秒"
+msgstr "15 秒"
+
+msgid "20秒"
+msgstr "20 秒"
+
+msgid "25秒"
+msgstr "25 秒"
+
+msgid "30秒"
+msgstr "30 秒。"
+
+msgid "35秒"
+msgstr "35 秒"
+
+msgid "40秒"
+msgstr "40 秒"
+
+msgid "45秒"
+msgstr "45 秒"
+
+msgid "50秒"
+msgstr "50 秒"
+
+msgid "55秒"
+msgstr "55 秒"
+
+msgid "1分"
+msgstr "一分鐘"
+
 msgid "ソース表示を許可する権限"
 msgstr "允許來源顯示的權限。"
 
@@ -299,9 +365,6 @@ msgstr "顯示檢視來源訊息的語言。"
 
 msgid "一時使用トークンの有効期限"
 msgstr "臨時使用代用幣的到期日。"
-
-msgid "1分"
-msgstr "一分鐘"
 
 msgid "2分"
 msgstr "2 分鐘"

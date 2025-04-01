@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.77\n"
+"Project-Id-Version: Neo HTML Protector 0.0.78\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 13:29+0900\n"
-"PO-Revision-Date: 2025-04-01 13:31+0900\n"
+"POT-Creation-Date: 2025-04-01 17:47+0900\n"
+"PO-Revision-Date: 2025-04-01 17:47+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -234,6 +234,72 @@ msgstr "Μπορεί να θέλετε να τους προωθήσετε σε �
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr "Αν παραμείνει κενό, θα γίνει ανακατεύθυνση στην αρχική διεύθυνση URL"
 
+msgid "リダイレクトまでの時間"
+msgstr "Ώρα για αναπροσανατολισμό."
+
+msgid "リダイレクトなし"
+msgstr "Δεν υπάρχει ανακατεύθυνση"
+
+msgid "1秒"
+msgstr "1 δευτερόλεπτο"
+
+msgid "2秒"
+msgstr "2 δευτερόλεπτα."
+
+msgid "3秒"
+msgstr "3 δευτερόλεπτα."
+
+msgid "4秒"
+msgstr "4 δευτερόλεπτα."
+
+msgid "5秒"
+msgstr "5 δευτερόλεπτα."
+
+msgid "6秒"
+msgstr "6 δευτερόλεπτα."
+
+msgid "7秒"
+msgstr "7 δευτερόλεπτα."
+
+msgid "8秒"
+msgstr "8 δευτερόλεπτα."
+
+msgid "9秒"
+msgstr "9 δευτερόλεπτα."
+
+msgid "10秒"
+msgstr "10 δευτερόλεπτα."
+
+msgid "15秒"
+msgstr "15 δευτερόλεπτα."
+
+msgid "20秒"
+msgstr "20 δευτερόλεπτα."
+
+msgid "25秒"
+msgstr "25 δευτερόλεπτα."
+
+msgid "30秒"
+msgstr "30 δευτερόλεπτα."
+
+msgid "35秒"
+msgstr "35 δευτερόλεπτα."
+
+msgid "40秒"
+msgstr "40 δευτερόλεπτα."
+
+msgid "45秒"
+msgstr "45 δευτερόλεπτα."
+
+msgid "50秒"
+msgstr "50 δευτερόλεπτα."
+
+msgid "55秒"
+msgstr "55 δευτερόλεπτα."
+
+msgid "1分"
+msgstr "ένα λεπτό"
+
 msgid "ソース表示を許可する権限"
 msgstr "Αρχή που επιτρέπει την εμφάνιση της πηγής."
 
@@ -299,9 +365,6 @@ msgstr "Γλώσσα στην οποία εμφανίζονται τα μηνύ�
 
 msgid "一時使用トークンの有効期限"
 msgstr "Ημερομηνία λήξης των κουπονιών προσωρινής χρήσης."
-
-msgid "1分"
-msgstr "ένα λεπτό"
 
 msgid "2分"
 msgstr "2 λεπτά"

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.77\n"
+"Project-Id-Version: Neo HTML Protector 0.0.78\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 13:29+0900\n"
-"PO-Revision-Date: 2025-04-01 13:32+0900\n"
+"POT-Creation-Date: 2025-04-01 17:47+0900\n"
+"PO-Revision-Date: 2025-04-01 17:47+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -234,6 +234,72 @@ msgstr "Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr "Jika dibiarkan kosong, maka akan dialihkan ke URL asli"
 
+msgid "リダイレクトまでの時間"
+msgstr "Saatnya mengalihkan."
+
+msgid "リダイレクトなし"
+msgstr "Tidak ada pengalihan"
+
+msgid "1秒"
+msgstr "1 detik"
+
+msgid "2秒"
+msgstr "2 detik."
+
+msgid "3秒"
+msgstr "3 detik."
+
+msgid "4秒"
+msgstr "4 detik."
+
+msgid "5秒"
+msgstr "5 detik."
+
+msgid "6秒"
+msgstr "6 detik."
+
+msgid "7秒"
+msgstr "7 detik."
+
+msgid "8秒"
+msgstr "8 detik."
+
+msgid "9秒"
+msgstr "9 detik."
+
+msgid "10秒"
+msgstr "10 detik."
+
+msgid "15秒"
+msgstr "15 detik."
+
+msgid "20秒"
+msgstr "20 detik."
+
+msgid "25秒"
+msgstr "25 detik."
+
+msgid "30秒"
+msgstr "30 detik."
+
+msgid "35秒"
+msgstr "35 detik."
+
+msgid "40秒"
+msgstr "40 detik."
+
+msgid "45秒"
+msgstr "45 detik."
+
+msgid "50秒"
+msgstr "50 detik."
+
+msgid "55秒"
+msgstr "55 detik."
+
+msgid "1分"
+msgstr "Satu menit"
+
 msgid "ソース表示を許可する権限"
 msgstr "Otoritas untuk mengizinkan tampilan sumber."
 
@@ -299,9 +365,6 @@ msgstr "Bahasa yang digunakan untuk menampilkan pesan sumber tampilan."
 
 msgid "一時使用トークンの有効期限"
 msgstr "Tanggal kedaluwarsa token penggunaan sementara."
-
-msgid "1分"
-msgstr "Satu menit"
 
 msgid "2分"
 msgstr "2 menit"

@@ -655,7 +655,7 @@ class neohp_admin {
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
-
+	
 			add_settings_field(
 				'neohp_redirect_url',
 				__('リダイレクトするURL', 'neo-html-protector'),
@@ -665,6 +665,46 @@ class neohp_admin {
 					echo '<input type="url" name="neohp_redirect_url" value="' . esc_html( $value ) . '" class="regular-text">';
 					echo '<br>' . esc_html( __('利用規約などのページに転送すると良いでしょう', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('空欄にすると元のURLにリダイレクトをします', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
+			// リダイレクトする時間
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_redirect_times', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_redirect_times',
+				__('リダイレクトまでの時間', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_redirect_times', '5'));
+					echo wp_kses( $this->getselect("neohp_redirect_times", $value
+						, '0='  . __('リダイレクトなし', 'neo-html-protector')
+						, '1='  . __('1秒', 'neo-html-protector')
+						, '2='  . __('2秒', 'neo-html-protector')
+						, '3='  . __('3秒', 'neo-html-protector')
+						, '4='  . __('4秒', 'neo-html-protector')
+						, '5='  . __('5秒', 'neo-html-protector')
+						, '6='  . __('6秒', 'neo-html-protector')
+						, '7='  . __('7秒', 'neo-html-protector')
+						, '8='  . __('8秒', 'neo-html-protector')
+						, '9='  . __('9秒', 'neo-html-protector')
+						, '10='  . __('10秒', 'neo-html-protector')
+						, '15='  . __('15秒', 'neo-html-protector')
+						, '20='  . __('20秒', 'neo-html-protector')
+						, '25='  . __('25秒', 'neo-html-protector')
+						, '30='  . __('30秒', 'neo-html-protector')
+						, '35='  . __('35秒', 'neo-html-protector')
+						, '40='  . __('40秒', 'neo-html-protector')
+						, '45='  . __('45秒', 'neo-html-protector')
+						, '50='  . __('50秒', 'neo-html-protector')
+						, '55='  . __('55秒', 'neo-html-protector')
+						, '60='  . __('1分', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -840,9 +880,9 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
-			// nonceのbit数
+			// 一時使用トークンの有効期限
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_advanced_group', 'neohp_nonce_expire', array(
+			register_setting('neohp_advanced_group', 'neohp_redirect_times', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable

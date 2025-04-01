@@ -222,3 +222,24 @@ imgタグが呼び出されるごとに画像を保護	Protect the image each ti
 「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Protect all images uploaded to Wordpress out of all HTML output' will capture almost all Wordpress activity and process everything about the img tags in the content. Some themes will not work correctly
 設定が初期化されました	Settings have been initialised.
 プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Initialises the plugin Note that the IP log reader data is not deleted here.
+リダイレクトなし	No redirect
+1秒	1 second
+2秒	2 sec.
+3秒	3 sec.
+4秒	4 sec.
+5秒	5 sec.
+6秒	6 sec.
+7秒	7 sec.
+8秒	8 sec.
+9秒	9 sec.
+10秒	10 sec.
+15秒	15 seconds.
+20秒	20 sec.
+25秒	25 sec.
+30秒	30 seconds.
+35秒	35 seconds.
+40秒	40 seconds.
+45秒	45 seconds.
+50秒	50 sec.
+55秒	55 sec.
+リダイレクトまでの時間	Time to redirect.
