@@ -1119,8 +1119,8 @@ function neohp_clear_settings_handler() {
     // 設定クリアの処理
 //    delete_option('neohp_some_setting');
 
-require plugin_dir_path(__FILE__) . "uninstall-getoptions.php";
-//neohp_delete_options();
+	require plugin_dir_path(__FILE__) . "uninstall-getoptions.php";
+	neohp_delete_options();
 
     // 設定画面にリダイレクト
     wp_safe_redirect(admin_url('options-general.php?page=neohp-settings&tab=clear&message=success'));
