@@ -13,7 +13,9 @@ foreach my $file (@php_files) {
 		foreach(<$fh>) {
 			s/[\r|\n]//g;
 			if(/get_option\s*\(\s*['"]([^'#]+)['"]/) {
-				$opt{$1}="1";
+				if($1 ne 'active_plugins') {
+					$opt{$1}="1";
+				}
 			}
 		}
 		close($fh);

@@ -7,7 +7,10 @@
 (function($) {
 	let		CtrlKey='Ctrl+';
 	let		ShiftKey='Shift+';
+	let		WinKey='Win+';
+	let		AltKey='Alt+';
 	let		CommandKey='Command+';
+	let		PrintScreenKey='PrintScreen';
 	let		fKey='f';
 	let		iKey='i';
 	let		jKey='j';
@@ -17,7 +20,7 @@
 	let		zKey='z';
 	let		rClick='r';
 	let		CopyCut='c';
-	let		PrintScreenKey='a';
+	let		PrintScreen='a';
 	let		none='none';
 	let		undefined='undefined';
 	let		Document=document;
@@ -44,6 +47,8 @@
 	nullstr = nullstr+ nullstr;
 	CtrlKey			+= nullstr;
 	ShiftKey		+= nullstr;
+	AltKey			+= nullstr;
+	WinKey			+= nullstr;
 	CommandKey		+= nullstr;
 	fKey			+= nullstr;
 	iKey			+= nullstr;
@@ -52,6 +57,7 @@
 	pKey			+= nullstr;
 	sKey			+= nullstr;
 	zKey			+= nullstr;
+	PrintScreen		+= nullstr;
 	PrintScreenKey	+= nullstr;
 	rClick			+= nullstr;
 	CopyCut			+= nullstr;
@@ -236,20 +242,44 @@
 	$(Document).on("keydown keypress keyup", (event) => {
 		var ctrl = event.ctrlKey,
 			shift = event.shiftKey,
+			alt = event.altKey,
 			meta = event.metaKey,
-			key = event.key;
+			key = event.key,
+			code = event.keyCode;
 
 		// PrintScreen
-		if(FlagSmall.includes(PrintScreenKey)) {
-			if (event.keyCode === 44) {
-				sendIpToServer('PrintScreen', PrintScreenKey);
+		if(FlagSmall.includes(PrintScreen)) {
+			if (shift && code === 44) {
+				sendIpToServer(ShiftKey + PrintScreenKey, PrintScreen);
+				stop(event);
+			}
+
+			if (alt && code === 44) {
+				sendIpToServer(AltKey + PrintScreenKey, PrintScreen);
+				stop(event);
+			}
+
+			if (code === 44) {
+				sendIpToServer(PrintScreenKey, PrintScreen);
 				stop(event);
 			}
 
 			// Win+Shift+S (Windows sniping tool)
 			if(ua.includes("Windows")) {
 				if (meta && shift && lower(event.key) === 's') {
-					sendIpToServer('Win+' + ShiftKey+ 'S', fKey);
+					sendIpToServer(WinKey + ShiftKey+ 'S', fKey);
+					stop(event);
+				}
+
+				// Win+Alt+R (Game Bar)
+				if (meta && alt && lower(event.key) === 'r') {
+					sendIpToServer(WinKey + AltKey + 'R', fKey);
+					stop(event);
+				}
+
+				// Win+G (Game Bar)
+				if (meta && lower(event.key) === 'g') {
+					sendIpToServer(WinKey + 'G', fKey);
 					stop(event);
 				}
 			}

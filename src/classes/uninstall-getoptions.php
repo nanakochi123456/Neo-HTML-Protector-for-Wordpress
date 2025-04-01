@@ -5,7 +5,6 @@
 defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
 
 function neohp_delete_options() {
-	delete_option('active_plugins');
 	delete_option('neohp_alert_c');
 	delete_option('neohp_alert_d');
 	delete_option('neohp_alert_f12');

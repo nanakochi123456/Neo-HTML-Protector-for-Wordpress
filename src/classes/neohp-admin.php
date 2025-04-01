@@ -12,6 +12,7 @@ if (is_admin()) {
 class neohp_admin {
 	public function __construct() {
 		add_action('admin_menu', array($this, 'add_admin_menu'));
+		add_action('admin_post_neohp_clear_settings', array($this, 'neohp_clear_settings_handler') );
 	}
 
 	function getselect($name, $selected, ...$options) {
@@ -48,6 +49,9 @@ class neohp_admin {
 		);
 
 		// 設定を登録
+		add_action('admin_post_neohp_clear_settings', array($this, 'neohp_clear_settings_handler') );
+
+
 		add_action('admin_init', function() {
 			// デバッグモードのAlert メッセージ
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
@@ -523,6 +527,10 @@ class neohp_admin {
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
+					echo '<br>Windows/Linux = PrintScreen, Alt+PrintScreen, Shift+PrintScreen';
+					echo '<br>Windows = Windows+Shift+S, Windows+Alt+R, Windows+G';
+					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
+					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -997,21 +1005,19 @@ class neohp_admin {
 				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('初期設定に戻す', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=about" class="nav-tab <?php echo $active_tab === 'about' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('このプラグインについて', 'neo-html-protector') ) ?></a>
 			</h2>
-			<form method="post" action="options.php">
-				<?php
-				if ($active_tab === 'general') {
-					$this->general_settings();
-				} elseif ($active_tab === 'message') {
-					$this->message_settings();
-				} elseif ($active_tab === 'advanced') {
-					$this->advanced_settings();
-				} elseif ($active_tab === 'clear') {
-					$this->all_clear();
-				} elseif ($active_tab === 'about') {
-					$this->about_page();
-				}
-				?>
-			</form>
+			<?php
+			if ($active_tab === 'general') {
+				$this->general_settings();
+			} elseif ($active_tab === 'message') {
+				$this->message_settings();
+			} elseif ($active_tab === 'advanced') {
+				$this->advanced_settings();
+			} elseif ($active_tab === 'clear') {
+				$this->all_clear();
+			} elseif ($active_tab === 'about') {
+				$this->about_page();
+			}
+			?>
 		</div>
 		<?php
 	}
@@ -1061,10 +1067,41 @@ class neohp_admin {
 		<?php
 	}
 
+function neohp_clear_settings_handler() {
+    if (!isset($_POST['neohp_clear_settings_nonce']) || !wp_verify_nonce($_POST['neohp_clear_settings_nonce'], 'neohp_clear_settings_action')) {
+        wp_die('Nonce verification failed');
+    }
+
+    if (!current_user_can('manage_options')) {
+        wp_die('You do not have sufficient permissions');
+    }
+// die('Form submitted correctly! Processing now...');
+    // 設定クリアの処理
+//    delete_option('neohp_some_setting');
+
+require plugin_dir_path(__FILE__) . "uninstall-getoptions.php";
+//neohp_delete_options();
+
+    // 設定画面にリダイレクト
+    wp_safe_redirect(admin_url('options-general.php?page=neohp-settings&tab=clear&message=success'));
+    exit;
+}
+
 	function all_clear() {
+		if(isset($_GET['message']) && $_GET['message'] === 'success') {
+			echo '<div class="updated"><p>' . esc_html( __('設定が初期化されました', 'neo-html-protector') ) . '</p></div>';
+		}
 		?>
+		</form>
 		<div class="wrap">
-			<p><?php echo esc_html( __('データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい', 'neo-html-protector') ) ?></p>
+			<h2><?php echo esc_html( __('初期設定に戻す', 'neo-html-protector') ) ?></h2>
+			<p><?php echo esc_html( __('プラグインを初期化します なおIPログリーダーのデータはここでは削除されません', 'neo-html-protector') ) ?></p>
+<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
+    <input type="hidden" name="action" value="neohp_clear_settings">
+    <?php wp_nonce_field('neohp_clear_settings_action', 'neohp_clear_settings_nonce'); ?>
+    <input type="submit" class="button button-primary" value="クリア">
+</form>
+
 		</div>
 		<?php
 	}

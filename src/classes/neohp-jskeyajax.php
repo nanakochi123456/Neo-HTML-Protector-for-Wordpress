@@ -113,6 +113,8 @@ $value=$neohp_rightclick_default;
 		}
 
 
+		$key = str_replace('shift', 'Shift', $key);
+
 		$value = str_replace('$IP', $user_ip, $value);
 		$value = str_replace('$URL', $url, $value);
 		$value = str_replace('$KEY', $key, $value);
