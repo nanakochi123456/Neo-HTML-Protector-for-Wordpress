@@ -309,6 +309,9 @@ class neohp_htmlprotect {
 	public function movedatabase() {
 		global $wpdb;
 
+		// 一時的なログにview-sourceの検出情報を保存
+		$wpdb = $this->neohp_database->create_view_source();
+
 		$table_name = $wpdb->prefix . 'view_source_log';
 
 		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
