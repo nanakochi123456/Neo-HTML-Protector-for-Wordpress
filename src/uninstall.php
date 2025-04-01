@@ -8,3 +8,6 @@ neohp_delete_options();
 
 require plugin_dir_path(__FILE__) . "classes/uninstall-sql.php";
 neohp_drop_sql();
+
+require plugin_dir_path(__FILE__) . "classes/uninstall-transient.php";
+neohp_drop_transient();
