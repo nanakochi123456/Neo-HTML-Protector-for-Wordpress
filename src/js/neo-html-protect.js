@@ -26,32 +26,41 @@
 	let		black='black';
 	let		nullstr = '';
 	let		px20='20px';
+	let		ua=navigator.userAgent;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
 	let		Nonce=NeoHPnonce;
 	let		unixTime = Math.floor(Date.now() / 1000);
-	let		Cryptojs = CryptoJS;
 
-	nullstr = nullstr + nullstr;
-	CtrlKey=CtrlKey + nullstr;
-	ShiftKey=ShiftKey + nullstr;
-	CommandKey=CommandKey + nullstr;
-	fKey=fKey + nullstr;
-	iKey=iKey + nullstr;
-	jKey=jKey + nullstr;
-	uKey=uKey + nullstr;
-	pKey=pKey + nullstr;
-	sKey=sKey + nullstr;
-	zKey=zKey + nullstr;
-	PrintScreenKey=PrintScreenKey + nullstr;
-	rClick=rClick + nullstr;
-	CopyCut=CopyCut + nullstr;
-	none=none + nullstr;
-	body=body + nullstr;
-	black=black + nullstr;
-	undefined=undefined + nullstr;
-	px20=px20 + nullstr;
+	let		Cryptojs;
+
+	if (typeof CryptoJS !== undefined) {
+		Cryptojs = CryptoJS;
+	} else {
+		Cryptojs = undefined;
+	}
+
+	nullstr = nullstr+ nullstr;
+	CtrlKey			+= nullstr;
+	ShiftKey		+= nullstr;
+	CommandKey		+= nullstr;
+	fKey			+= nullstr;
+	iKey			+= nullstr;
+	jKey			+= nullstr;
+	uKey			+= nullstr;
+	pKey			+= nullstr;
+	sKey			+= nullstr;
+	zKey			+= nullstr;
+	PrintScreenKey	+= nullstr;
+	rClick			+= nullstr;
+	CopyCut			+= nullstr;
+	none			+= nullstr;
+	body			+= nullstr;
+	black			+= nullstr;
+	undefined		+= nullstr;
+	px20			+= nullstr;
+	ua				+= nullstr;
 
 	function lower(str) {
 		return str.toLowerCase() + nullstr;
@@ -115,7 +124,7 @@
 					// 復号化したURLを文字列に変換
 					const decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-					if (navigator.userAgent.includes('Safari') && !navigator.userAgent.includes('Chrome') ) {
+					if (ua.includes('Safari') && !ua.includes('Chrome') ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
@@ -224,12 +233,6 @@
 	}
 
 	// キーのみの処理
-
-	$(Document).on("keydown keypress keyup", (event) => {
-
-
-	});
-
 	$(Document).on("keydown keypress keyup", (event) => {
 		var ctrl = event.ctrlKey,
 			shift = event.shiftKey,
@@ -242,28 +245,47 @@
 				sendIpToServer('PrintScreen', PrintScreenKey);
 				stop(event);
 			}
-//		}
-		// Win+Shift+S (Windows sniping tool)
-//		if(FlagSmall.includes(PrintScreenKey) ) {
-			if (meta && shift && lower(event.key) === 's') {
-				sendIpToServer('Win+' + ShiftKey+ 'S', fKey);
-				stop(event);
-			}
-//		}
 
-		// Shift+Command+3 (macos)
-//		if(FlagSmall.includes(PrintScreenKey) ) {
-			if (meta && shift && key === '3') {
-				sendIpToServer(ShiftKey + CommandKey + '3', fKey);
-				stop(event);
+			// Win+Shift+S (Windows sniping tool)
+			if(ua.includes("Windows")) {
+				if (meta && shift && lower(event.key) === 's') {
+					sendIpToServer('Win+' + ShiftKey+ 'S', fKey);
+					stop(event);
+				}
 			}
-//		}
 
-		// Shift+Command+4 (macos)
-//		if(FlagSmall.includes(PrintScreenKey) ) {
-			if (meta && shift && key === '4') {
-				sendIpToServer(ShiftKey + CommandKey + '4', fKey);
-				stop(event);
+			if(ua.includes("Macintosh")) {
+				// Shift+Command+3 (macos)
+				if (meta && shift && key === '3') {
+					sendIpToServer(ShiftKey + CommandKey + '3', fKey);
+					stop(event);
+				}
+
+				// Shift+Command+4 (macos)
+				if (meta && shift && key === '4') {
+					sendIpToServer(ShiftKey + CommandKey + '4', fKey);
+					stop(event);
+				}
+			}
+
+			// Ctrl+Shift+P (chrome os)
+			if(ua.includes("CrOS")) {
+				if (ctrl && shift && lower(key) === 'p') {
+					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
+					stop(event);
+				}
+
+				// Ctrl+Shift+F5 (chrome os)
+				if (ctrl && shift && lower(key) === 'f5') {
+					sendIpToServer(CtrlKey + ShiftKey + 'F5', fKey);
+					stop(event);
+				}
+
+				// Ctrl+F5 (chrome os)
+				if (ctrl && lower(key) === 'f5') {
+					sendIpToServer(CtrlKey + 'F5', fKey);
+					stop(event);
+				}
 			}
 		}
 

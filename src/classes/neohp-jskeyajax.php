@@ -107,7 +107,8 @@ $value=$neohp_rightclick_default;
 		// PrintScreen
 		if (strpos($key, 'PrintScreen') !== false
 		 || strpos($key, 'Win') !== false
-		 || strpos($key, 'Command') !== false ) {
+		 || strpos($key, 'Command') !== false
+		 || strpos($key, 'F5') !== false ) {
 			$value = get_option('neohp_printscreen_message', $neohp_printscreen_default);
 		}
 
