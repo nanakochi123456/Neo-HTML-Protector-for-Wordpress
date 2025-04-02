@@ -4,7 +4,10 @@
 
 /** @suppress {undefinedVars} */
 
-(function($) {
+//(function($) {
+(($) => {
+	"use strict";
+
 	let		CtrlKey='Ctrl+';
 	let		ShiftKey='Shift+';
 	let		WinKey='Win+';
@@ -101,23 +104,23 @@
 			return new Promise((resolve, reject) => {
 				try {
 					// Base64デコードして暗号化されたデータとIVを分ける
-					const decodedData = urlSafeBase64Decode(encryptedData);
-					const parts = decodedData.split(':');
+					let decodedData = urlSafeBase64Decode(encryptedData);
+					let parts = decodedData.split(':');
 
-					const encryptedUrl = parts[0];
-					const encodedIv = parts[1];
+					let encryptedUrl = parts[0];
+					let encodedIv = parts[1];
 
 					// IVをBase64デコード
-					const iv = Cryptojs.enc.Base64.parse(encodedIv);
+					let iv = Cryptojs.enc.Base64.parse(encodedIv);
 
 					// nonceをキーとしてSHA256で生成（WordArray型）
-					const key = Cryptojs.SHA256(nonce);
+					let key = Cryptojs.SHA256(nonce);
 
 					// 暗号化データをBase64からパース
-					const encryptedWordArray = Cryptojs.enc.Base64.parse(encryptedUrl);
+					let encryptedWordArray = Cryptojs.enc.Base64.parse(encryptedUrl);
 
 					// AESで復号化
-					const decrypted = Cryptojs.AES.decrypt(
+					let decrypted = Cryptojs.AES.decrypt(
 						{ ciphertext: encryptedWordArray },
 						key,
 						{
@@ -128,7 +131,7 @@
 					);
 
 					// 復号化したURLを文字列に変換
-					const decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
+					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
 					if (ua.includes('Safari') && !ua.includes('Chrome') ) {
 						setTimeout(() => {
@@ -150,22 +153,22 @@
 		Window.onload = async function () {  // window.onload を async 関数に変更
 			if (typeof Cryptojs !== undefined) {
 				// IntersectionObserverを使ってlazyロードを実現
-				const imgTags = Document.querySelectorAll('img[data-src]');
+				let imgTags = Document.querySelectorAll('img[data-src]');
 
 				// IntersectionObserverのコールバック関数
-				const observer = new IntersectionObserver(async (entries, observer) => {
-					for (const entry of entries) {
+				let observer = new IntersectionObserver(async (entries, observer) => {
+					for (let entry of entries) {
 						if (entry.isIntersecting) {
-							const img = entry.target;
+							let img = entry.target;
 							if (img.className.includes('protected')) {
-								const encryptedData_src = img.getAttribute('data-src');
-								const encryptedData_srcset = img.getAttribute('data-srcset');
-								const nonce = img.getAttribute('data-nonce');
+								let encryptedData_src = img.getAttribute('data-src');
+								let encryptedData_srcset = img.getAttribute('data-srcset');
+								let nonce = img.getAttribute('data-nonce');
 
 								try {
 									// 画像URLを非同期で復号化
-									const decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
-									const decryptedUrl_srcset = encryptedData_srcset
+									let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
+									let decryptedUrl_srcset = encryptedData_srcset
 										? await decryptAndDecodeImageUrl(encryptedData_srcset, nonce)
 										: null;
 
@@ -205,17 +208,17 @@
 		$(Document).ready(function() {
 			if (Cryptojs !== undefined) {
 				// すべての img[data-src] タグを取得
-				const imgTags = Document.querySelectorAll('img[data-src]');
+				let imgTags = Document.querySelectorAll('img[data-src]');
 				
 				imgTags.forEach(img => {
 					if (img.className.includes('protected')) {
-						const encryptedData_src = img.getAttribute('data-src');
-						const encryptedData_srcset = img.getAttribute('data-srcset');
-						const nonce = img.getAttribute('data-nonce');
+						let encryptedData_src = img.getAttribute('data-src');
+						let encryptedData_srcset = img.getAttribute('data-srcset');
+						let nonce = img.getAttribute('data-nonce');
 						
 						// 画像URLを復号化
-						const decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
-						const decryptedUrl_srcset = await decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
+						let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
+						let decryptedUrl_srcset = await decryptAndDecodeImageUrl(encryptedData_srcset, nonce);
 						
 						// 復号化したURLを元のsrcに設定
 						img.src = decryptedUrl_src;
@@ -354,7 +357,7 @@
 		// Ctrl+P
 		if(FlagSmall.includes(pKey)) {
 			// @media print{body{display:none !important}} 相当
-			const mediaQuery = Window.matchMedia('print');
+			let mediaQuery = Window.matchMedia('print');
 
 			mediaQuery.addEventListener('change', (e) => {
 				if (e.matches) {
@@ -532,7 +535,7 @@
 							'top': '50%',					// 画面の中央に配置
 							'left': '50%',
 							'transform': 'translate(-50%,-50%)', // 中央揃え
-							'background-color': 'yellow',	// 背景色を黄色に
+							'background-color': '#ff0',	// 背景色を黄色に
 							'color': black,				 	// 文字色を黒に
 							'padding': px20,				// パディング
 							'border-radius': px20,		// 角を丸く
@@ -544,7 +547,7 @@
 					$(body).append(newDiv);
 
 					if(time > 0) {
-						setTimeout(function() {
+						setTimeout(() => {
 							location.href = NeoHPHome
 											+ "?neohp=redirect"
 											+ "&page=" + encodeURIComponent(NeoHPPage)
