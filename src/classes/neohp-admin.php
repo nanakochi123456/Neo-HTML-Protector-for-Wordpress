@@ -442,7 +442,7 @@ class neohp_admin {
 						, 'sentou=' . __('戦闘 - 40秒', 'neo-html-protector')
 						, 'sm3_opoyaji=' . __('おやじ - 3秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
-						, 'msx_open=' . __('レトロ風オープン - 48秒', 'neo-html-protector')
+						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 				},
 				'neohp-design-settings',

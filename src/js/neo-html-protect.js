@@ -21,7 +21,7 @@
 	let		pKey='p';
 	let		sKey='s';
 	let		zKey='z';
-	let		divKey='d';
+	let		divKey='b';
 	let		rClick='r';
 	let		CopyCut='c';
 	let		F5Key='F5';
