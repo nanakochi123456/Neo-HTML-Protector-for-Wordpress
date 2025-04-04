@@ -1,5 +1,5 @@
-xcopy /y audio\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\classes
-xcopy /y classes\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\audio
+xcopy /y audio\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\audio
+xcopy /y classes\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\classes
 xcopy /y img\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\img
 xcopy /y js\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\js
 xcopy /y languages\*.* s:\www\blog.773.moe\htdocs\wp-content\plugins\neo-html-protector\languages

@@ -560,13 +560,12 @@
 							'transform': 'translate(-50%,-50%)',
 							'background-color': 'black',		 // 背景を黒に
 							'color': 'red', 					  // 血のような赤文字
-							'padding': '30px',
+							'padding': px20,
 							'border': '3px solid red',			  // 赤い枠線で強調
-							'border-radius': '10px',
+							'border-radius': 0x20,
 							'z-index': '9999',
 							'font-weight': 'bold',
-							'font-size': '2rem',				  // 大きめの文字で目立たせる
-							'font-family': '"Creepster", cursive, sans-serif', // 怖いフォント（外部読み込みが必要）
+							'font-family': 'cursive, sans-serif', // 怖い内部フォント
 							'box-shadow': '0 0 20px red',		  // 怖い赤い光を放つような影
 							'text-shadow': '0 0 10px red',		  // 赤くにじんだ文字
 							'animation': 'shake 0.5s infinite',
