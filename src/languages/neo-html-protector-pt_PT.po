@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -164,6 +164,33 @@ msgstr "Mostrar arte ASCII indicando a intenção de avisar quando a fonte HTML 
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Verificar visualizando a fonte num browser sem sessão iniciada"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Design de exibição quando a ação alvo é acionada."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Desenho básico com letras pretas sobre fundo amarelo"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Desenho de estilo de terror com texto vermelho sobre fundo preto."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Som quando a ação alvo é executada."
+
+msgid "サウンドなし"
+msgstr "Sem som"
+
+msgid "戦闘 - 40秒"
+msgstr "Combate - 40 seg."
+
+msgid "おやじ - 3秒"
+msgstr "Pai - 3 segundos."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Fanfarra de estilo retro - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Abertura de estilo retro - 48 seg."
 
 msgid "デバッグモード"
 msgstr "Modo de depuração"
@@ -455,6 +482,9 @@ msgstr "Definições avançadas"
 
 msgid "初期設定に戻す"
 msgstr "Reposição das predefinições"
+
+msgid "デザイン・音の設定"
+msgstr "Design e definições de som"
 
 msgid "メッセージの設定"
 msgstr "Definições de mensagens"

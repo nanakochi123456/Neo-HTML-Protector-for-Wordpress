@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -164,6 +164,33 @@ msgstr "Visualizza un'immagine ASCII che indica l'intenzione di avvertire quando
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Controllare visualizzando il sorgente in un browser non connesso."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Visualizzazione del design quando viene attivata l'azione target."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Design essenziale con lettere nere su sfondo giallo"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Design in stile horror con testo rosso su sfondo nero."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Suona quando viene eseguita l'azione target."
+
+msgid "サウンドなし"
+msgstr "Senza suono"
+
+msgid "戦闘 - 40秒"
+msgstr "Combattimento - 40 sec."
+
+msgid "おやじ - 3秒"
+msgstr "Padre - 3 secondi."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Fanfara in stile retrò - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Apertura in stile retrò - 48 sec."
 
 msgid "デバッグモード"
 msgstr "Modalità debug"
@@ -455,6 +482,9 @@ msgstr "Impostazioni avanzate"
 
 msgid "初期設定に戻す"
 msgstr "Ripristino delle impostazioni predefinite"
+
+msgid "デザイン・音の設定"
+msgstr "Design e impostazioni sonore"
 
 msgid "メッセージの設定"
 msgstr "Impostazioni dei messaggi"

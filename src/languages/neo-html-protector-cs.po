@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -164,6 +164,33 @@ msgstr "Zobrazení obrázku ASCII označujícího záměr varovat při zobrazen�
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Zkontrolujte zobrazení zdroje v nepřihlášeném prohlížeči."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Návrh zobrazení při spuštění cílové akce."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Základní design s černými písmeny na žlutém pozadí"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Design v hororovém stylu s červeným textem na černém pozadí."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Zvuk při provedení cílové akce."
+
+msgid "サウンドなし"
+msgstr "Bez zvuku"
+
+msgid "戦闘 - 40秒"
+msgstr "Boj - 40 sec."
+
+msgid "おやじ - 3秒"
+msgstr "Otec - 3 sekundy."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Fanfáry v retro stylu - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Otevřeno v retro stylu - 48 s."
 
 msgid "デバッグモード"
 msgstr "Režim ladění"
@@ -455,6 +482,9 @@ msgstr "Rozšířená nastavení"
 
 msgid "初期設定に戻す"
 msgstr "Obnovení výchozího nastavení"
+
+msgid "デザイン・音の設定"
+msgstr "Design a nastavení zvuku"
 
 msgid "メッセージの設定"
 msgstr "Nastavení zpráv"

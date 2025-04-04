@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -164,6 +164,33 @@ msgstr "Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek 
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Displeja dizains, kad tiek aktivizēta mērķa darbība."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Pamata dizains ar melniem burtiem uz dzeltena fona"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Šausmu stila dizains ar sarkanu tekstu uz melna fona."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Skaņa, kad tiek veikta mērķa darbība."
+
+msgid "サウンドなし"
+msgstr "Bez skaņas"
+
+msgid "戦闘 - 40秒"
+msgstr "Cīņa - 40 sek."
+
+msgid "おやじ - 3秒"
+msgstr "Tēvs - 3 sekundes."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Retro stila fanfāra - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Retro stila atvēršana - 48 sek."
 
 msgid "デバッグモード"
 msgstr "Atkļūdošanas režīms"
@@ -455,6 +482,9 @@ msgstr "Uzlabotie iestatījumi"
 
 msgid "初期設定に戻す"
 msgstr "Noklusējuma iestatījumu atiestatīšana"
+
+msgid "デザイン・音の設定"
+msgstr "Dizains un skaņas iestatījumi"
 
 msgid "メッセージの設定"
 msgstr "Ziņu iestatījumi"

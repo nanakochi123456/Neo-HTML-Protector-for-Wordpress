@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -164,6 +164,33 @@ msgstr "Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan keti
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Periksa dengan melihat sumbernya di peramban yang tidak masuk"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Desain tampilan saat tindakan target dipicu."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Desain dasar dengan huruf-huruf hitam pada latar belakang kuning"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Desain bergaya horor dengan teks merah pada latar belakang hitam."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Bunyi ketika tindakan target diambil."
+
+msgid "サウンドなし"
+msgstr "Tanpa suara"
+
+msgid "戦闘 - 40秒"
+msgstr "Tempur - 40 detik."
+
+msgid "おやじ - 3秒"
+msgstr "Ayah - 3 detik."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Keriuhan gaya retro - 2 detik."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Gaya retro terbuka - 48 detik."
 
 msgid "デバッグモード"
 msgstr "Mode debug"
@@ -455,6 +482,9 @@ msgstr "Pengaturan lanjutan"
 
 msgid "初期設定に戻す"
 msgstr "Mengatur ulang ke default"
+
+msgid "デザイン・音の設定"
+msgstr "Pengaturan desain dan suara"
 
 msgid "メッセージの設定"
 msgstr "Pengaturan pesan"

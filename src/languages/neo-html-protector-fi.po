@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -164,6 +164,33 @@ msgstr "Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTM
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Tarkista tarkastelemalla lähdettä selaimessa, johon ei ole kirjauduttu sisään."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Näytön suunnittelu, kun kohdetoiminto käynnistyy."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Perusmalli, jossa on mustat kirjaimet keltaisella pohjalla"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Kauhutyylinen muotoilu, jossa on punainen teksti mustalla pohjalla."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Ääni, kun kohdetoiminto suoritetaan."
+
+msgid "サウンドなし"
+msgstr "Äänetön"
+
+msgid "戦闘 - 40秒"
+msgstr "Taistelu - 40 sek."
+
+msgid "おやじ - 3秒"
+msgstr "Isä - 3 sekuntia."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Retrotyylinen fanfaari - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Retro-tyylinen avaus - 48 sekuntia."
 
 msgid "デバッグモード"
 msgstr "Debug-tila"
@@ -455,6 +482,9 @@ msgstr "Lisäasetukset"
 
 msgid "初期設定に戻す"
 msgstr "Palautus oletusasetuksiin"
+
+msgid "デザイン・音の設定"
+msgstr "Suunnittelu ja ääniasetukset"
 
 msgid "メッセージの設定"
 msgstr "Viestiasetukset"

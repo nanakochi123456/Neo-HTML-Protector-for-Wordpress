@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -164,6 +164,33 @@ msgstr "عرض فن ASCII الذي يشير إلى نية التحذير عند 
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "التحقق من خلال عرض المصدر في متصفح غير مسجّل الدخول"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "تصميم العرض عند تشغيل الإجراء المستهدف."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "تصميم أساسي بأحرف سوداء على خلفية صفراء"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "تصميم بنمط الرعب مع نص أحمر على خلفية سوداء."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "الصوت عند اتخاذ الإجراء المستهدف."
+
+msgid "サウンドなし"
+msgstr "بلا صوت"
+
+msgid "戦闘 - 40秒"
+msgstr "القتال - 40 ثانية."
+
+msgid "おやじ - 3秒"
+msgstr "الأب - 3 ثوانٍ."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "ضجة على الطراز القديم - 2 ق."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "فتح على الطراز القديم - 48 ثانية."
 
 msgid "デバッグモード"
 msgstr "وضع التصحيح"
@@ -455,6 +482,9 @@ msgstr "الإعدادات المتقدمة"
 
 msgid "初期設定に戻す"
 msgstr "إعادة التعيين إلى الوضع الافتراضي"
+
+msgid "デザイン・音の設定"
+msgstr "إعدادات التصميم والصوت"
 
 msgid "メッセージの設定"
 msgstr "إعدادات الرسالة"

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -164,6 +164,33 @@ msgstr "A HTML-forrás megjelenítésekor a figyelmeztetés szándékát jelző 
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Ellenőrizze a forrás megtekintésével egy nem bejelentkezett böngészőben"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "A célművelet kiváltásakor megjelenő dizájn."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Alapvető design fekete betűkkel sárga háttéren"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Horror stílusú design, fekete alapon piros szöveggel."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Hang, amikor a célművelet végrehajtásra kerül."
+
+msgid "サウンドなし"
+msgstr "Hangtalan"
+
+msgid "戦闘 - 40秒"
+msgstr "Harc - 40 mp."
+
+msgid "おやじ - 3秒"
+msgstr "Apa - 3 másodperc."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Retro stílusú fanfár - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Retro stílusú nyitás - 48 mp."
 
 msgid "デバッグモード"
 msgstr "Hibakeresési mód"
@@ -455,6 +482,9 @@ msgstr "Speciális beállítások"
 
 msgid "初期設定に戻す"
 msgstr "Alapértelmezettre visszaállítása"
+
+msgid "デザイン・音の設定"
+msgstr "Tervezés és hangbeállítások"
 
 msgid "メッセージの設定"
 msgstr "Üzenet beállítások"

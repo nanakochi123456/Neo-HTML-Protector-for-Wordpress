@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -164,6 +164,33 @@ msgstr "Afișează ASCII art indicând intenția de a avertiza atunci când este
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Verificați prin vizualizarea sursei într-un browser care nu este conectat"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Afișează designul atunci când este declanșată acțiunea țintă."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Design de bază cu litere negre pe fundal galben"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Design în stil horror cu text roșu pe fundal negru."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Sună atunci când este efectuată acțiunea țintă."
+
+msgid "サウンドなし"
+msgstr "Fără sunet"
+
+msgid "戦闘 - 40秒"
+msgstr "Luptă - 40 sec."
+
+msgid "おやじ - 3秒"
+msgstr "Tată - 3 secunde."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Fanfară în stil retro - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Deschidere în stil retro - 48 sec."
 
 msgid "デバッグモード"
 msgstr "Modul de depanare"
@@ -455,6 +482,9 @@ msgstr "Setări avansate"
 
 msgid "初期設定に戻す"
 msgstr "Resetarea la setările implicite"
+
+msgid "デザイン・音の設定"
+msgstr "Design și setări de sunet"
 
 msgid "メッセージの設定"
 msgstr "Setări de mesaje"

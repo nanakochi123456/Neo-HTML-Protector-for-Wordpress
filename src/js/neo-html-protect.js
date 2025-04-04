@@ -21,8 +21,10 @@
 	let		pKey='p';
 	let		sKey='s';
 	let		zKey='z';
+	let		divKey='d';
 	let		rClick='r';
 	let		CopyCut='c';
+	let		F5Key='F5';
 	let		PrintScreen='a';
 	let		none='none';
 	let		undefined='undefined';
@@ -32,6 +34,7 @@
 	let		black='black';
 	let		nullstr = '';
 	let		px20='20px';
+	let		div='<div>';
 	let		ua=navigator.userAgent;
 
 	let		FlagAll=NeoHPFlg;
@@ -60,15 +63,18 @@
 	pKey			+= nullstr;
 	sKey			+= nullstr;
 	zKey			+= nullstr;
+	divKey			+= nullstr;
 	PrintScreen		+= nullstr;
 	PrintScreenKey	+= nullstr;
 	rClick			+= nullstr;
 	CopyCut			+= nullstr;
+	F5Key			+= nullstr;
 	none			+= nullstr;
 	body			+= nullstr;
 	black			+= nullstr;
 	undefined		+= nullstr;
 	px20			+= nullstr;
+	div				+= nullstr;
 	ua				+= nullstr;
 
 	function lower(str) {
@@ -310,13 +316,13 @@
 
 				// Ctrl+Shift+F5 (chrome os)
 				if (ctrl && shift && lower(key) === 'f5') {
-					sendIpToServer(CtrlKey + ShiftKey + 'F5', fKey);
+					sendIpToServer(CtrlKey + ShiftKey + F5Key, fKey);
 					stop(event);
 				}
 
 				// Ctrl+F5 (chrome os)
 				if (ctrl && lower(key) === 'f5') {
-					sendIpToServer(CtrlKey + 'F5', fKey);
+					sendIpToServer(CtrlKey + F5Key, fKey);
 					stop(event);
 				}
 			}
@@ -528,7 +534,7 @@
 					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
 					var time=NeoHPTime;
 
-					var newDiv = $('<div>')
+					var newDiv1 = $(div)
 						.html(text) // 文字を設定
 						.css({
 							'position': 'fixed',			// 画面上で固定
@@ -540,11 +546,56 @@
 							'padding': px20,				// パディング
 							'border-radius': px20,		// 角を丸く
 							'z-index': '9999',				// 最前面に表示
-							'font-weight': 'bold'			// 文字を太字に
+							'font-weight': 'bold',			// 文字を太字に
+							'animation': 'shake 0.5s infinite',
 						});
 
+
+					var newDiv2 = $(div)
+						.html(text)
+						.css({
+							'position': 'fixed',
+							'top': '50%',
+							'left': '50%',
+							'transform': 'translate(-50%,-50%)',
+							'background-color': 'black',		 // 背景を黒に
+							'color': 'red', 					  // 血のような赤文字
+							'padding': '30px',
+							'border': '3px solid red',			  // 赤い枠線で強調
+							'border-radius': '10px',
+							'z-index': '9999',
+							'font-weight': 'bold',
+							'font-size': '2rem',				  // 大きめの文字で目立たせる
+							'font-family': '"Creepster", cursive, sans-serif', // 怖いフォント（外部読み込みが必要）
+							'box-shadow': '0 0 20px red',		  // 怖い赤い光を放つような影
+							'text-shadow': '0 0 10px red',		  // 赤くにじんだ文字
+							'animation': 'shake 0.5s infinite',
+						});
+					var style = document.createElement('style');
+					style.innerHTML = `
+					@keyframes shake {
+					    0% { transform: translate(-50%, -50%) rotate(0deg); }
+					    25% { transform: translate(-50%, -52%) rotate(-1deg); }
+					    50% { transform: translate(-50%, -48%) rotate(1deg); }
+					    75% { transform: translate(-50%, -51%) rotate(0.5deg); }
+					    100% { transform: translate(-50%, -50%) rotate(0deg); }
+					}`;
+					document.head.appendChild(style);
+
 					// body に追加
-					$(body).append(newDiv);
+					if(FlagAll.includes(divKey)) {
+						$(body).append(newDiv2);
+					} else {
+						$(body).append(newDiv1);
+					}
+					// Audio要素を作成
+					if(NeoHPPlag !== '') {
+						if(!Window.NeoPlayed) {
+							Window.NeoPlayed = true;
+							var audio = new Audio(NeoHPPlag);
+							audio.play();
+						}
+					}
 
 					if(time > 0) {
 						setTimeout(() => {
@@ -562,7 +613,7 @@
 
 	// JavaScriptでエスケープする関数
 	function escapeHtml(str) {
-		var e = Document.createElement('div');
+		var e = Document.createElement(div);
 		if (str) {
 			e.innerText = str;
 			e.textContent = str;

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -164,6 +164,33 @@ msgstr "Displays ASCII art to indicate warning intent when HTML source is displa
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Please confirm by viewing the source in a non-logged-in browser"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Display design when the target action is taken"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Basic design with black letters on yellow background"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Horror-style design with red text on black background"
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Sound when the target action is taken"
+
+msgid "サウンドなし"
+msgstr "No sound"
+
+msgid "戦闘 - 40秒"
+msgstr "Combat - 40 sec."
+
+msgid "おやじ - 3秒"
+msgstr "Father - 3 sec."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Retro-style fanfare - 2 sec."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Retro-style open - 48 sec."
 
 msgid "デバッグモード"
 msgstr "Debug mode"
@@ -455,6 +482,9 @@ msgstr "Advanced Settings"
 
 msgid "初期設定に戻す"
 msgstr "Restore default settings"
+
+msgid "デザイン・音の設定"
+msgstr "Design and sound settings"
 
 msgid "メッセージの設定"
 msgstr "Message Settings"

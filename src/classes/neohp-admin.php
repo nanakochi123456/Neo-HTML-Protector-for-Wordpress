@@ -365,7 +365,7 @@ class neohp_admin {
 
 			// HTMLソース表示時の警告の方法
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_view_source_alert_asciiart', array(
+			register_setting('neohp_design_group', 'neohp_view_source_alert_asciiart', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -388,8 +388,65 @@ class neohp_admin {
 					echo '<br>' . esc_html( __('HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('ログインしていないブラウザーでソース表示を行って確認して下さい', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-design-settings',
+				'neohp_design_section'
+			);
+
+			// 警告メッセージのデザイン
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_design_group', 'neohp_alert_design', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_design',
+				__('対象アクションを起こした時の表示デザイン', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$warning_ascii_art_array=[];
+					foreach ($warning_ascii_art	 as $k => $v) {
+						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
+					}
+					$value = esc_html(get_option('neohp_alert_design', '0'));
+					echo wp_kses( $this->getselect("neohp_alert_design", $value
+						, '0=' . __('黄色の背景の黒文字のベーシックデザイン', 'neo-html-protector')
+						, '1=' . __('黒色の背景の赤文字のホラー風デザイン', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+				},
+				'neohp-design-settings',
+				'neohp_design_section'
+			);
+
+			// 音
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_design_group', 'neohp_alert_sound', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_sound',
+				__('対象アクションを起こした時のサウンド', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$warning_ascii_art_array=[];
+					foreach ($warning_ascii_art	 as $k => $v) {
+						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
+					}
+					$value = esc_html(get_option('neohp_alert_sound', '0'));
+					echo wp_kses( $this->getselect("neohp_alert_sound", $value
+						, '0=' . __('サウンドなし', 'neo-html-protector')
+						, 'sentou=' . __('戦闘 - 40秒', 'neo-html-protector')
+						, 'sm3_opoyaji=' . __('おやじ - 3秒', 'neo-html-protector')
+						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
+						, 'msx_open=' . __('レトロ風オープン - 48秒', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+				},
+				'neohp-design-settings',
+				'neohp_design_section'
 			);
 
 
@@ -1008,6 +1065,14 @@ class neohp_admin {
 				'neohp-allclear-settings'
 			);
 
+			add_settings_section(
+				'neohp_design_section',
+				__('デザイン・音の設定', 'neo-html-protector'),
+				function() {
+				},
+				'neohp-design-settings'
+			);
+
 			// セクションの追加
 			add_settings_section(
 				'neohp_message_section',
@@ -1041,6 +1106,7 @@ class neohp_admin {
 			<h2 class="nav-tab-wrapper">
 				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('基本設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('メッセージの設定', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=design" class="nav-tab <?php echo $active_tab === 'design' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('デザイン・音の設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('高度な設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('初期設定に戻す', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=about" class="nav-tab <?php echo $active_tab === 'about' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('このプラグインについて', 'neo-html-protector') ) ?></a>
@@ -1052,6 +1118,8 @@ class neohp_admin {
 				$this->message_settings();
 			} elseif ($active_tab === 'advanced') {
 				$this->advanced_settings();
+			} elseif ($active_tab === 'design') {
+				$this->design_settings();
 			} elseif ($active_tab === 'clear') {
 				$this->all_clear();
 			} elseif ($active_tab === 'about') {
@@ -1070,6 +1138,21 @@ class neohp_admin {
 				$this->cache_alert();
 				settings_fields('neohp_basic_group');
 				do_settings_sections('neohp-settings');
+				submit_button();
+				?>
+			</form>
+		</div>
+		<?php
+	}
+
+	function design_settings() {
+		?>
+		<div class="wrap">
+			<form method="post" action="options.php">
+				<?php
+				$this->cache_alert();
+				settings_fields('neohp_design_group');
+				do_settings_sections('neohp-design-settings');
 				submit_button();
 				?>
 			</form>

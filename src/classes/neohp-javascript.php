@@ -55,12 +55,23 @@ class neohp_javascript {
 		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
 		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
 
+		if(get_option('neohp_alert_design', '0') === '1') { $html.="d";}
+
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');
 		$time = (int)get_option('neohp_redirect_times', '5');
+		$plugin = plugins_url('../audio/sm3_opoyaji.mp3', __FILE__);
+		$plugin = dirname($plugin) . '/';
+
+		if(get_option('neohp_alert_sound', '0') !== '0') {
+			$plugin .= get_option('neohp_alert_sound', '0') . '.mp3';
+		} else {
+			$plugin = '';
+		}
 
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',
+			NeoHPPlag='"  . esc_js($plugin)."',
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPTime="   . esc_js($time) . ",

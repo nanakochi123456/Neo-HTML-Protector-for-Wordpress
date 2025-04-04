@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.78\n"
+"Project-Id-Version: Neo HTML Protector 0.0.80\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-01 17:47+0900\n"
-"PO-Revision-Date: 2025-04-01 17:47+0900\n"
+"POT-Creation-Date: 2025-04-04 12:34+0900\n"
+"PO-Revision-Date: 2025-04-04 12:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -164,6 +164,33 @@ msgstr "Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan vis
 
 msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
 msgstr "Kontrollera genom att visa källan i en icke-inloggad webbläsare"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Visa design när målåtgärden utlöses."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Grundläggande design med svarta bokstäver på gul bakgrund"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Design i skräckstil med röd text på svart bakgrund."
+
+msgid "対象アクションを起こした時のサウンド"
+msgstr "Ljud när den önskade åtgärden vidtas."
+
+msgid "サウンドなし"
+msgstr "Ljudlös"
+
+msgid "戦闘 - 40秒"
+msgstr "Strid - 40 sek."
+
+msgid "おやじ - 3秒"
+msgstr "Far - 3 sekunder."
+
+msgid "レトロ風ファンファーレ - 2秒"
+msgstr "Fanfar i retrostil - 2 s."
+
+msgid "レトロ風オープン - 48秒"
+msgstr "Retrostil öppen - 48 sek."
 
 msgid "デバッグモード"
 msgstr "Felsökningsläge"
@@ -455,6 +482,9 @@ msgstr "Avancerade inställningar"
 
 msgid "初期設定に戻す"
 msgstr "återställning till standard"
+
+msgid "デザイン・音の設定"
+msgstr "Design och ljudinställningar"
 
 msgid "メッセージの設定"
 msgstr "Inställningar för meddelanden"
