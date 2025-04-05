@@ -34,6 +34,8 @@
 	let		black='black';
 	let		nullstr = '';
 	let		px20='20px';
+	let		per50='50%';
+	let		fixed='fixed';
 	let		div='<div>';
 	let		ua=navigator.userAgent;
 
@@ -74,6 +76,8 @@
 	black			+= nullstr;
 	undefined		+= nullstr;
 	px20			+= nullstr;
+	per50			+= nullstr;
+	fixed			+= nullstr;
 	div				+= nullstr;
 	ua				+= nullstr;
 
@@ -176,7 +180,7 @@
 									let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
 									let decryptedUrl_srcset = encryptedData_srcset
 										? await decryptAndDecodeImageUrl(encryptedData_srcset, nonce)
-										: null;
+										: undefined;
 
 									// 復号化したURLを元のsrcに設定
 									img.src = decryptedUrl_src;
@@ -537,9 +541,9 @@
 					var newDiv1 = $(div)
 						.html(text) // 文字を設定
 						.css({
-							'position': 'fixed',			// 画面上で固定
-							'top': '50%',					// 画面の中央に配置
-							'left': '50%',
+							'position': fixed,				// 画面上で固定
+							'top': per50,					// 画面の中央に配置
+							'left': per50,
 							'transform': 'translate(-50%,-50%)', // 中央揃え
 							'background-color': '#ff0',	// 背景色を黄色に
 							'color': black,				 	// 文字色を黒に
@@ -554,11 +558,11 @@
 					var newDiv2 = $(div)
 						.html(text)
 						.css({
-							'position': 'fixed',
-							'top': '50%',
-							'left': '50%',
+							'position': fixed,
+							'top': per50,
+							'left': per50,
 							'transform': 'translate(-50%,-50%)',
-							'background-color': 'black',		 // 背景を黒に
+							'background-color': black,		 // 背景を黒に
 							'color': 'red', 					  // 血のような赤文字
 							'padding': px20,
 							'border': '3px solid red',			  // 赤い枠線で強調
@@ -572,13 +576,13 @@
 						});
 					var style = document.createElement('style');
 					style.innerHTML = `
-					@keyframes shake {
-					    0% { transform: translate(-50%, -50%) rotate(0deg); }
-					    25% { transform: translate(-50%, -52%) rotate(-1deg); }
-					    50% { transform: translate(-50%, -48%) rotate(1deg); }
-					    75% { transform: translate(-50%, -51%) rotate(0.5deg); }
-					    100% { transform: translate(-50%, -50%) rotate(0deg); }
-					}`;
+@keyframes shake{
+0%{transform:translate(-50%,-50%)rotate(0deg);}
+25%{transform:translate(-50%,-52%)rotate(-1deg);}
+50%{transform:translate(-50%,-48%)rotate(1deg);}
+75%{transform:translate(-50%,-51%)rotate(0.5deg);}
+100%{transform:translate(-50%,-50%)rotate(0deg);}
+}`;
 					document.head.appendChild(style);
 
 					// body に追加
