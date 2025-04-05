@@ -440,7 +440,8 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_sound", $value
 						, '0=' . __('サウンドなし', 'neo-html-protector')
 						, 'sentou=' . __('戦闘 - 40秒', 'neo-html-protector')
-						, 'sm3_opoyaji=' . __('おやじ - 3秒', 'neo-html-protector')
+						, 'sm3_oyaji1=' . __('おやじ ショート- 3秒', 'neo-html-protector')
+						, 'sm3_oyaji2=' . __('おやじ ロング - 23秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
