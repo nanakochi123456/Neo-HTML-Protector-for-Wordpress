@@ -36,7 +36,9 @@
 	let		px20='20px';
 	let		per50='50%';
 	let		fixed='fixed';
+	let		bold='bold';
 	let		div='<div>';
+	let		br='<br>';
 	let		ua=navigator.userAgent;
 
 	let		FlagAll=NeoHPFlg;
@@ -78,7 +80,9 @@
 	px20			+= nullstr;
 	per50			+= nullstr;
 	fixed			+= nullstr;
+	bold			+= nullstr;
 	div				+= nullstr;
+	br				+= nullstr;
 	ua				+= nullstr;
 
 	function lower(str) {
@@ -158,6 +162,10 @@
 	  	}
 	}
 
+	function getattr(img, attr) {
+		return img.getAttribute('data-' + attr);
+	}
+
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
 	if (FlagAll.includes(upper(zKey))) {
 		Window.onload = async function () {  // window.onload を async 関数に変更
@@ -171,9 +179,9 @@
 						if (entry.isIntersecting) {
 							let img = entry.target;
 							if (img.className.includes('protected')) {
-								let encryptedData_src = img.getAttribute('data-src');
-								let encryptedData_srcset = img.getAttribute('data-srcset');
-								let nonce = img.getAttribute('data-nonce');
+								let encryptedData_src = getattr(img, 'src');
+								let encryptedData_srcset = getattr(img, 'srcset');
+								let nonce = getattr(img, 'nonce');
 
 								try {
 									// 画像URLを非同期で復号化
@@ -204,7 +212,7 @@
 				});
 
 				// 画像が表示されるまで監視を開始
-				imgTags.forEach(function (img) {
+				imgTags.forEach((img) => {
 					observer.observe(img);
 				});
 			}
@@ -279,19 +287,19 @@
 
 			// Win+Shift+S (Windows sniping tool)
 			if(ua.includes("Windows")) {
-				if (meta && shift && lower(event.key) === 's') {
+				if (meta && shift && lower(key) === 's') {
 					sendIpToServer(WinKey + ShiftKey+ 'S', fKey);
 					stop(event);
 				}
 
 				// Win+Alt+R (Game Bar)
-				if (meta && alt && lower(event.key) === 'r') {
+				if (meta && alt && lower(key) === 'r') {
 					sendIpToServer(WinKey + AltKey + 'R', fKey);
 					stop(event);
 				}
 
 				// Win+G (Game Bar)
-				if (meta && lower(event.key) === 'g') {
+				if (meta && lower(key) === 'g') {
 					sendIpToServer(WinKey + 'G', fKey);
 					stop(event);
 				}
@@ -319,13 +327,13 @@
 				}
 
 				// Ctrl+Shift+F5 (chrome os)
-				if (ctrl && shift && lower(key) === 'f5') {
+				if (ctrl && shift && code === 116) {
 					sendIpToServer(CtrlKey + ShiftKey + F5Key, fKey);
 					stop(event);
 				}
 
 				// Ctrl+F5 (chrome os)
-				if (ctrl && lower(key) === 'f5') {
+				if (ctrl && code === 116) {
 					sendIpToServer(CtrlKey + F5Key, fKey);
 					stop(event);
 				}
@@ -334,7 +342,7 @@
 
 		// F12
 		if(FlagSmall.includes(fKey)) {
-			if (key === 'F12') {
+			if (code === 123) {
 				sendIpToServer('F12', fKey);
 				stop(event);
 			}
@@ -535,7 +543,7 @@
 					$('img,video,audio,iframe').css({
 						'display' : none
 					});
-					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
+					var text=escapeHTMLWithBr( response.replace(/\\n/g, br ) );
 					var time=NeoHPTime;
 
 					var newDiv1 = $(div)
@@ -550,7 +558,7 @@
 							'padding': px20,				// パディング
 							'border-radius': px20,		// 角を丸く
 							'z-index': '9999',				// 最前面に表示
-							'font-weight': 'bold',			// 文字を太字に
+							'font-weight': bold,			// 文字を太字に
 							'animation': 'shake 0.5s infinite',
 						});
 
@@ -566,23 +574,17 @@
 							'color': 'red', 					  // 血のような赤文字
 							'padding': px20,
 							'border': '3px solid red',			  // 赤い枠線で強調
-							'border-radius': 0x20,
+							'border-radius': px20,
 							'z-index': '9999',
-							'font-weight': 'bold',
-							'font-family': 'cursive, sans-serif', // 怖い内部フォント
+							'font-weight': bold,
+							'font-family': 'cursive,sans-serif', // 怖い内部フォント
 							'box-shadow': '0 0 20px red',		  // 怖い赤い光を放つような影
 							'text-shadow': '0 0 10px red',		  // 赤くにじんだ文字
 							'animation': 'shake 0.5s infinite',
 						});
 					var style = document.createElement('style');
-					style.innerHTML = `
-@keyframes shake{
-0%{transform:translate(-50%,-50%)rotate(0deg);}
-25%{transform:translate(-50%,-52%)rotate(-1deg);}
-50%{transform:translate(-50%,-48%)rotate(1deg);}
-75%{transform:translate(-50%,-51%)rotate(0.5deg);}
-100%{transform:translate(-50%,-50%)rotate(0deg);}
-}`;
+					// ここはソースから圧縮しておかないと最小化されない
+					style.innerHTML = `@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0deg)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(0.5deg)}100%{transform:translate(-50%,-50%)rotate(0deg)}}`;
 					document.head.appendChild(style);
 
 					// body に追加
@@ -592,7 +594,7 @@
 						$(body).append(newDiv1);
 					}
 					// Audio要素を作成
-					if(NeoHPPlag !== '') {
+					if(NeoHPPlag !== nullstr) {
 						if(!Window.NeoPlayed) {
 							Window.NeoPlayed = true;
 							var audio = new Audio(NeoHPPlag);
@@ -632,6 +634,6 @@
 			.replace(/>/g, '&gt;')				// > をエスケープ
 			.replace(/"/g, '&quot;')            // " をエスケープ
 			.replace(/'/g, '&#039;')            // ' をエスケープ
-			.replace(/__BR__/g, '<br>');		// <br> を元に戻す
+			.replace(/__BR__/g, br );		// <br> を元に戻す
 	}
 })(jQuery);

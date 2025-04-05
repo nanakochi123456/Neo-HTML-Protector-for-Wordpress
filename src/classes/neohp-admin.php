@@ -442,6 +442,7 @@ class neohp_admin {
 						, 'sentou=' . __('戦闘 - 40秒', 'neo-html-protector')
 						, 'sm3_oyaji1=' . __('おやじ ショート- 3秒', 'neo-html-protector')
 						, 'sm3_oyaji2=' . __('おやじ ロング - 23秒', 'neo-html-protector')
+						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
