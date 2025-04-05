@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.0.85
+set VERSION=0.0.87
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot

@@ -208,13 +208,13 @@ class neohp_imageprotect {
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
 
-		if(get_option('neohp_imagedownload_real', '0') === '0') {
+		if(get_option('neohp_imagedownload_real', '1') === '0') {
 			$this->outputPng($value . "\n"
 				. "string=".$string . "\n"
 				. "image_path=".$image_path . "\n"
 				. "nonce=".$nonce . "\n"
 			);
-		} elseif(get_option('neohp_imagedownload_real', '0') === '1') {
+		} elseif(get_option('neohp_imagedownload_real', '1') === '1') {
 			header('Content-Type: image/gif');
 			$mingif_array=explode(',', $this->mingif);
 			$this->neohp_func->cachezero();
@@ -222,7 +222,7 @@ class neohp_imageprotect {
 			// Output 1x1 pixel gif file only
 			echo base64_decode($mingif_array[1]);
 			// phpcs:enable
-		} elseif(get_option('neohp_imagedownload_real', '0') === '2') {
+		} elseif(get_option('neohp_imagedownload_real', '1') === '2') {
 			header('Content-Type: text/html');
 			$this->neohp_func->cachezero();
 			echo '<!doctype html><html></html>';

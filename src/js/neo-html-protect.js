@@ -38,8 +38,13 @@
 	let		fixed='fixed';
 	let		bold='bold';
 	let		div='<div>';
-	let		br='<br>';
-	let		ua=navigator.userAgent;
+	let		ua=nullstr;
+
+	let		Chrome='Chrome';
+	let		Edge='Edge';
+	let		Firefox='Firefox';
+	let		Safari='Safari';
+	let		Opera='Opera';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -82,8 +87,59 @@
 	fixed			+= nullstr;
 	bold			+= nullstr;
 	div				+= nullstr;
-	br				+= nullstr;
 	ua				+= nullstr;
+	Chrome			+= nullstr;
+	Edge			+= nullstr;
+	Firefox			+= nullstr;
+	Safari			+= nullstr;
+	Opera			+= nullstr;
+
+	async function detectBrowserAndOS() {
+		let ua = navigator.userAgent;
+		let browser = nullstr;
+		let os = nullstr;
+
+		// ブラウザ名の判定（userAgentData対応時）
+		if (navigator.userAgentData) {
+			const brands = navigator.userAgentData.brands || [];
+			for (const brand of brands) {
+				if (brand.brand.includes(Chrome)) browser = Chrome;
+				else if (brand.brand.includes(Edge)) browser = Edge;
+				else if (brand.brand.includes(Firefox)) browser = Firefox;
+				else if (brand.brand.includes(Safari) && browser === nullstr) browser = Safari;
+			}
+
+			// OS の高精度取得
+			const uaData = await navigator.userAgentData.getHighEntropyValues(["platform"]);
+			os = uaData.platform;
+		}
+
+		// フォールバック処理（userAgent）
+		if (browser === nullstr) {
+			if (ua.includes("Edg/")) browser = Edge;
+			else if (ua.includes("OPR/") || ua.includes(Opera)) browser = Opera;
+			else if (ua.includes(Chrome) && !ua.includes("Edg/") && !ua.includes("OPR/")) browser = Chrome;
+			else if (ua.includes(Firefox)) browser = Firefox;
+			else if (ua.includes(Safari) && !ua.includes(Chrome)) browser = Safari;
+		}
+
+		if (os === nullstr) {
+			if (/Nintendo/.test(ua)) os = "Nintendo";
+			else if (/PlayStation/.test(ua)) os = "PlayStation";
+			else if (/Xbox/.test(ua)) os = "Xbox";
+			else if (/Windows NT/.test(ua)) os = "Windows";
+			else if (/iPhone|iPad|iPod/.test(ua)) os = "iOS";
+			else if (/Mac OS X/.test(ua)) os = "macOS";
+			else if (/CrOS/.test(ua)) os = "Chrome OS";
+			else if (/Android/.test(ua)) os = "Android";
+			else if (/Linux/.test(ua)) os = "Linux";
+		}
+		return `${os}/${browser}`;
+	}
+
+	detectBrowserAndOS().then(result => {
+		ua = result;
+	});
 
 	function lower(str) {
 		return str.toLowerCase() + nullstr;
@@ -147,7 +203,7 @@
 					// 復号化したURLを文字列に変換
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-					if (ua.includes('Safari') && !ua.includes('Chrome') ) {
+					if ( ua.includes(Safari) && ua.includes('iOS') ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
@@ -425,7 +481,7 @@
 		});
 
 		Document.querySelectorAll('img').forEach(img => {
-//		$('img').each(function() {
+//		$('img').each(function(img) {
 			img.style.pointerEvents = none;
 		});
 
@@ -543,7 +599,7 @@
 					$('img,video,audio,iframe').css({
 						'display' : none
 					});
-					var text=escapeHTMLWithBr( response.replace(/\\n/g, br ) );
+					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
 					var time=NeoHPTime;
 
 					var newDiv1 = $(div)
@@ -634,6 +690,6 @@
 			.replace(/>/g, '&gt;')				// > をエスケープ
 			.replace(/"/g, '&quot;')            // " をエスケープ
 			.replace(/'/g, '&#039;')            // ' をエスケープ
-			.replace(/__BR__/g, br );		// <br> を元に戻す
+			.replace(/__BR__/g, '<br>');		// <br> を元に戻す
 	}
 })(jQuery);
