@@ -8,12 +8,6 @@
 (($) => {
 	"use strict";
 
-	let		CtrlKey='Ctrl+';
-	let		ShiftKey='Shift+';
-	let		WinKey='Win+';
-	let		AltKey='Alt+';
-	let		CommandKey='Command+';
-	let		PrintScreenKey='PrintScreen';
 	let		fKey='f';
 	let		iKey='i';
 	let		jKey='j';
@@ -31,20 +25,11 @@
 	let		Document=document;
 	let		Window=window;
 	let		body='body';
-	let		black='black';
 	let		nullstr = '';
-	let		px20='20px';
-	let		per50='50%';
-	let		fixed='fixed';
-	let		bold='bold';
 	let		div='<div>';
 	let		ua=nullstr;
 
-	let		Chrome='Chrome';
-	let		Edge='Edge';
-	let		Firefox='Firefox';
 	let		Safari='Safari';
-	let		Opera='Opera';
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -60,11 +45,6 @@
 	}
 
 	nullstr = nullstr+ nullstr;
-	CtrlKey			+= nullstr;
-	ShiftKey		+= nullstr;
-	AltKey			+= nullstr;
-	WinKey			+= nullstr;
-	CommandKey		+= nullstr;
 	fKey			+= nullstr;
 	iKey			+= nullstr;
 	jKey			+= nullstr;
@@ -74,30 +54,30 @@
 	zKey			+= nullstr;
 	divKey			+= nullstr;
 	PrintScreen		+= nullstr;
-	PrintScreenKey	+= nullstr;
 	rClick			+= nullstr;
 	CopyCut			+= nullstr;
 	F5Key			+= nullstr;
 	none			+= nullstr;
 	body			+= nullstr;
-	black			+= nullstr;
 	undefined		+= nullstr;
-	px20			+= nullstr;
-	per50			+= nullstr;
-	fixed			+= nullstr;
-	bold			+= nullstr;
 	div				+= nullstr;
 	ua				+= nullstr;
-	Chrome			+= nullstr;
-	Edge			+= nullstr;
-	Firefox			+= nullstr;
 	Safari			+= nullstr;
-	Opera			+= nullstr;
 
 	async function detectBrowserAndOS() {
 		let ua = navigator.userAgent;
 		let browser = nullstr;
 		let os = nullstr;
+
+		let		Chrome='Chrome';
+		let		Edge='Edge';
+		let		Firefox='Firefox';
+		let		Opera='Opera';
+
+		Chrome			+= nullstr;
+		Edge			+= nullstr;
+		Firefox			+= nullstr;
+		Opera			+= nullstr;
 
 		// ブラウザ名の判定（userAgentData対応時）
 		if (navigator.userAgentData) {
@@ -111,6 +91,7 @@
 
 			// OS の高精度取得
 			const uaData = await navigator.userAgentData.getHighEntropyValues(["platform"]);
+			// Windows, macOS, Chrome OS, Linux, FreeBSD
 			os = uaData.platform;
 		}
 
@@ -317,12 +298,26 @@
 
 	// キーのみの処理
 	$(Document).on("keydown keypress keyup", (event) => {
-		var ctrl = event.ctrlKey,
+		let ctrl = event.ctrlKey,
 			shift = event.shiftKey,
 			alt = event.altKey,
 			meta = event.metaKey,
 			key = event.key,
 			code = event.keyCode;
+
+		let		CtrlKey='Ctrl+';
+		let		ShiftKey='Shift+';
+		let		WinKey='Win+';
+		let		AltKey='Alt+';
+		let		CommandKey='Command+';
+		let		PrintScreenKey='PrintScreen';
+
+		CtrlKey			+= nullstr;
+		ShiftKey		+= nullstr;
+		AltKey			+= nullstr;
+		WinKey			+= nullstr;
+		CommandKey		+= nullstr;
+		PrintScreenKey	+= nullstr;
 
 		// PrintScreen
 		if(FlagSmall.includes(PrintScreen)) {
@@ -376,7 +371,7 @@
 			}
 
 			// Ctrl+Shift+P (chrome os)
-			if(ua.includes("CrOS")) {
+			if(ua.includes("Chrome OS")) {
 				if (ctrl && shift && lower(key) === 'p') {
 					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
 					stop(event);
@@ -577,6 +572,18 @@
 	function sendIpToServer(Keys, Flg) {
 		Flg=upper(Flg);
 
+		let		black='black';
+		let		px20='20px';
+		let		per50='50%';
+		let		fixed='fixed';
+		let		bold='bold';
+
+		black			+= nullstr;
+		px20			+= nullstr;
+		per50			+= nullstr;
+		fixed			+= nullstr;
+		bold			+= nullstr;
+
 		$.ajax({
 			url: NeoHPHome
 				+ "?neohp=ajax&tm=" + unixTime
@@ -596,9 +603,10 @@
 						'color' : black,
 					});
 
-					$('img,video,audio,iframe').css({
+					$('div,svg,canvas,img,video,audio,iframe').css({
 						'display' : none
 					});
+
 					var text=escapeHTMLWithBr( response.replace(/\\n/g, '<br>') );
 					var time=NeoHPTime;
 
@@ -640,7 +648,7 @@
 						});
 					var style = document.createElement('style');
 					// ここはソースから圧縮しておかないと最小化されない
-					style.innerHTML = `@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0deg)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(0.5deg)}100%{transform:translate(-50%,-50%)rotate(0deg)}}`;
+					style.innerHTML = `@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(0.5deg)}100%{transform:translate(-50%,-50%)rotate(0)}}`;
 					document.head.appendChild(style);
 
 					// body に追加
