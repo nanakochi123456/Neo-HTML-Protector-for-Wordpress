@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.89\n"
+"Project-Id-Version: Neo HTML Protector 0.0.91\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 00:33+0900\n"
-"PO-Revision-Date: 2025-04-07 00:33+0900\n"
+"POT-Creation-Date: 2025-04-07 01:44+0900\n"
+"PO-Revision-Date: 2025-04-07 01:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -195,6 +195,9 @@ msgstr "الأب، طويل - 23 ثانية"
 msgid "ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒"
 msgstr "شوبان إيتود، مرجع سابق 10-5، المفاتيح السوداء، نسخة سريعة - 59 ثانية"
 
+msgid "ショパン エチュード Op.10-12 革命 高速版 - 1分57秒"
+msgstr "شوبان إيتود المرجع السابق 10-12 ثورة، نسخة سريعة - 1 دقيقة و57 ثانية."
+
 msgid "レトロ風ファンファーレ - 2秒"
 msgstr "ضجة على الطراز القديم - 2 ق."
 
@@ -342,6 +345,24 @@ msgstr "55 ثانية"
 msgid "1分"
 msgstr "دقيقة واحدة"
 
+msgid "1分10秒"
+msgstr "1 دقيقة و10 ثوانٍ"
+
+msgid "1分20秒"
+msgstr "1 دقيقة و20 ثانية"
+
+msgid "1分30秒"
+msgstr "1 دقيقة و30 ثانية."
+
+msgid "1分40秒"
+msgstr "1 دقيقة و40 ثانية"
+
+msgid "1分50秒"
+msgstr "1 دقيقة و50 ثانية"
+
+msgid "2分"
+msgstr "2 دقيقة"
+
 msgid "ソース表示を許可する権限"
 msgstr "صلاحية السماح بعرض المصدر."
 
@@ -407,9 +428,6 @@ msgstr "اللغة التي يتم عرض رسائل مصدر العرض بها.
 
 msgid "一時使用トークンの有効期限"
 msgstr "تاريخ انتهاء صلاحية رموز الاستخدام المؤقت."
-
-msgid "2分"
-msgstr "2 دقيقة"
 
 msgid "3分"
 msgstr "3 دقائق."

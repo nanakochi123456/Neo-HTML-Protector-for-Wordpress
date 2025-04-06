@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.89\n"
+"Project-Id-Version: Neo HTML Protector 0.0.91\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 00:33+0900\n"
-"PO-Revision-Date: 2025-04-07 00:33+0900\n"
+"POT-Creation-Date: 2025-04-07 01:44+0900\n"
+"PO-Revision-Date: 2025-04-07 01:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -195,6 +195,9 @@ msgstr "Отче, довгий - 23 сек."
 msgid "ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒"
 msgstr "Шопен Етюд, ор.10-5, чорні клавіші, швидка версія - 59 сек."
 
+msgid "ショパン エチュード Op.10-12 革命 高速版 - 1分57秒"
+msgstr "Шопен Етюд ор.10-12 Революція, швидка версія - 1 хв 57 сек."
+
 msgid "レトロ風ファンファーレ - 2秒"
 msgstr "Фанфари в стилі ретро - 2 с."
 
@@ -342,6 +345,24 @@ msgstr "55 секунд."
 msgid "1分"
 msgstr "Одна хвилина."
 
+msgid "1分10秒"
+msgstr "1 хв 10 сек."
+
+msgid "1分20秒"
+msgstr "1 хв 20 сек."
+
+msgid "1分30秒"
+msgstr "1 хвилина 30 секунд."
+
+msgid "1分40秒"
+msgstr "1 хвилина 40 секунд."
+
+msgid "1分50秒"
+msgstr "1 хвилина 50 секунд."
+
+msgid "2分"
+msgstr "2 хвилини"
+
 msgid "ソース表示を許可する権限"
 msgstr "Повноваження для дозволу відображення джерела."
 
@@ -407,9 +428,6 @@ msgstr "Мова, якою відображаються повідомлення
 
 msgid "一時使用トークンの有効期限"
 msgstr "Термін дії токенів тимчасового користування."
-
-msgid "2分"
-msgstr "2 хвилини"
 
 msgid "3分"
 msgstr "3 хвилини."

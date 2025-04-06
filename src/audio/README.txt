@@ -2,6 +2,10 @@ fastkokken.mp3
 https://sakuramml.com/mmlbbs6/post.php?mml_id=2183
 Input by nano (nanakochi)
 
+fastkakumei.mp3
+https://sakuramml.com/mmlbbs6/post.php?mml_id=2182
+Input by nano (nanakochi)
+
 sentou.mp3
 https://sakuramml.com/mmlbbs6/post.php?mml_id=1650
 Composer nano (nanakochi)

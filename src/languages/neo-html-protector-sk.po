@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.89\n"
+"Project-Id-Version: Neo HTML Protector 0.0.91\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 00:33+0900\n"
-"PO-Revision-Date: 2025-04-07 00:34+0900\n"
+"POT-Creation-Date: 2025-04-07 01:44+0900\n"
+"PO-Revision-Date: 2025-04-07 01:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -195,6 +195,9 @@ msgstr "Otec, dlhý - 23 sek."
 msgid "ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒"
 msgstr "Chopinova etuda, op. 10-5, čierne klávesy, rýchla verzia - 59 sek."
 
+msgid "ショパン エチュード Op.10-12 革命 高速版 - 1分57秒"
+msgstr "Chopinova etuda op. 10-12 Revolution, rýchla verzia - 1 min 57 sek."
+
 msgid "レトロ風ファンファーレ - 2秒"
 msgstr "Fanfáry v retro štýle - 2 s."
 
@@ -342,6 +345,24 @@ msgstr "55 sekúnd."
 msgid "1分"
 msgstr "Jedna minúta"
 
+msgid "1分10秒"
+msgstr "1 min 10 sek."
+
+msgid "1分20秒"
+msgstr "1 min. 20 sek."
+
+msgid "1分30秒"
+msgstr "1 minúta 30 sekúnd."
+
+msgid "1分40秒"
+msgstr "1 minúta 40 sekúnd."
+
+msgid "1分50秒"
+msgstr "1 minúta a 50 sekúnd."
+
+msgid "2分"
+msgstr "2 minúty"
+
 msgid "ソース表示を許可する権限"
 msgstr "Povolenie zobrazenia zdroja."
 
@@ -407,9 +428,6 @@ msgstr "Jazyk, v ktorom sa zobrazujú správy zdroja zobrazenia."
 
 msgid "一時使用トークンの有効期限"
 msgstr "Dátum skončenia platnosti tokenov na dočasné používanie."
-
-msgid "2分"
-msgstr "2 minúty"
 
 msgid "3分"
 msgstr "3 min."

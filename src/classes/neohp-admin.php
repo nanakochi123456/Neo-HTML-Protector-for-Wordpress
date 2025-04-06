@@ -462,6 +462,7 @@ class neohp_admin {
 						, 'sm3_oyaji1=' . __('おやじ ショート- 3秒', 'neo-html-protector')
 						, 'sm3_oyaji2=' . __('おやじ ロング - 23秒', 'neo-html-protector')
 						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒', 'neo-html-protector')
+						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 高速版 - 1分57秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
@@ -808,6 +809,12 @@ class neohp_admin {
 						, '50='  . __('50秒', 'neo-html-protector')
 						, '55='  . __('55秒', 'neo-html-protector')
 						, '60='  . __('1分', 'neo-html-protector')
+						, '70='  . __('1分10秒', 'neo-html-protector')
+						, '80='  . __('1分20秒', 'neo-html-protector')
+						, '90='  . __('1分30秒', 'neo-html-protector')
+						, '100='  . __('1分40秒', 'neo-html-protector')
+						, '110='  . __('1分50秒', 'neo-html-protector')
+						, '120='  . __('2分', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 				},
 				'neohp-settings',
