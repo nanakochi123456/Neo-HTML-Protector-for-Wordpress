@@ -432,6 +432,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_design", $value
 						, '0=' . __('黄色の背景の黒文字のベーシックデザイン', 'neo-html-protector')
 						, '1=' . __('黒色の背景の赤文字のホラー風デザイン', 'neo-html-protector')
+						, '2=' . __('黒色の背景の赤文字の光る文字のデザイン', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 				},
 				'neohp-design-settings',

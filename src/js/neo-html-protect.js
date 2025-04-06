@@ -124,10 +124,12 @@
 		//alert(ua);
 	});
 
+	/** @noinline */
 	function lower(str) {
 		return str.toLowerCase() + nullstr;
 	}
 
+	/** @noinline */
 	function upper(str) {
 		return str.toUpperCase() + nullstr;
 	}
@@ -201,6 +203,7 @@
 	  	}
 	}
 
+	/** @noinline */
 	function getattr(img, attr) {
 		return img.getAttribute('data-' + attr);
 	}
@@ -293,6 +296,7 @@
 	// キーやマウスクリック等のイベント処理
 
 	// 動作を停止する
+	/** @noinline */
 	function stop(event) {
 		event.preventDefault();
 		event.stopPropagation();
@@ -650,46 +654,117 @@
 					var newDiv1 = $(div)
 						.html(text) // 文字を設定
 						.css({
-							'position': fixed,				// 画面上で固定
-							'top': per50,					// 画面の中央に配置
-							'left': per50,
-							'transform': 'translate(-50%,-50%)', // 中央揃え
-							'background-color': '#ff0',	// 背景色を黄色に
-							'color': black,				 	// 文字色を黒に
-							'padding': px20,				// パディング
-							'border-radius': px20,		// 角を丸く
-							'z-index': '9999',				// 最前面に表示
-							'font-weight': bold,			// 文字を太字に
-							'animation': 'shake 0.5s infinite',
+							position: fixed,				// 画面上で固定
+							top: per50,					// 画面の中央に配置
+							left: per50,
+							transform: 'translate(-50%,-50%)', // 中央揃え
+							backgroundColor: '#ff0',	// 背景色を黄色に
+							color: black,				 	// 文字色を黒に
+							fontSize: '1.5rem',
+							padding: px20,				// パディング
+							borderRadius: px20,		// 角を丸く
+							zIndex: '9999',				// 最前面に表示
+							fontWeight: bold,			// 文字を太字に
+							animation: 'shake 0.5s infinite',
 						});
 
 
 					var newDiv2 = $(div)
 						.html(text)
 						.css({
-							'position': fixed,
-							'top': per50,
-							'left': per50,
-							'transform': 'translate(-50%,-50%)',
-							'background-color': black,		 // 背景を黒に
-							'color': 'red', 					  // 血のような赤文字
-							'padding': px20,
-							'border': '3px solid red',			  // 赤い枠線で強調
-							'border-radius': px20,
-							'z-index': '9999',
-							'font-weight': bold,
-							'font-family': 'cursive,sans-serif', // 怖い内部フォント
-							'box-shadow': '0 0 20px red',		  // 怖い赤い光を放つような影
-							'text-shadow': '0 0 10px red',		  // 赤くにじんだ文字
-							'animation': 'shake 0.5s infinite',
+							position: fixed,
+							top: per50,
+							left: per50,
+							transform: 'translate(-50%,-50%)',
+							backgroundColor: black,		 // 背景を黒に
+							color: 'red', 					  // 血のような赤文字
+							padding: px20,
+							border: '3px solid red',			  // 赤い枠線で強調
+							borderRadius: px20,
+							zIndex: '9999',
+							fontWeight: bold,
+							fontSize: '1.5rem',
+							fontFamily: 'cursive,sans-serif', // 怖い内部フォント
+							boxShadow: '0 0 20px red',		  // 怖い赤い光を放つような影
+							textShadow: '0 0 20px red',		  // 赤くにじんだ文字
+							animation: 'shake 0.5s infinite',
 						});
-					var style = document.createElement('style');
+
+					var newDiv3 = $('<div>')
+						.html(text)
+						.css({
+							position: fixed,
+							top: per50,
+							left: per50,
+							transform: 'translate(-50%, -50%)',
+							backgroundColor: black,
+							color: '#ff2a2a',
+							padding: px20,
+							border: '3px double #f00',
+							borderRadius: px20,
+							fontFamily: '"Courier New",monospace',
+							fontSize: '1.5rem',
+							fontWeight: 'bold',
+							zIndex: 9999,
+							textShadow: '0 0 5px red, 0 0 10px #990000',
+							boxShadow: '0 0 30px red',
+							animation: 'glitch 1s infinite',
+							letterSpacing: '1px',
+						});
+
 					// ここはソースから圧縮しておかないと最小化されない
-					style.innerHTML = `@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(0.5deg)}100%{transform:translate(-50%,-50%)rotate(0)}}`;
-					document.head.appendChild(style);
+/*
+@keyframes shake{
+	0%{
+		transform:translate(-50%,-50%)rotate(0)
+	}
+	25%{
+		transform:translate(-50%,-52%)rotate(-1deg)
+	}
+	50%{
+		transform:translate(-50%,-48%)rotate(1deg)
+	}
+	75%{
+		transform:translate(-50%,-51%)rotate(.5deg)
+	}
+	100%{
+		transform:translate(-50%,-50%)rotate(0)
+	}
+}
+
+@keyframes glitch{
+	0%{
+		text-shadow:2px 2px red,-2px -2px #00f;
+		transform:translate(-50%,-50%)scale(1.01)
+	}
+	20%{
+		text-shadow:-2px 0 red, 2px 2px #0ff;
+		transform:translate(-50%,-50%)scale(0.99)rotate(.3deg)
+	}
+	40%{
+		text-shadow:2px -2px #f0f,-2px 2px #0f0;
+		transform:translate(-50%,-50%)scale(1.02)rotate(-.2deg)
+	}
+	60%{
+		text-shadow:-1px 1px red,1px -1px #00f;
+		transform:translate(-50%,-50%)scale(1.01)
+	}
+	80%{
+		text-shadow:0 0 5px red;
+		transform:translate(-50%,-50%)scale(1)
+	}
+	100%{
+		text-shadow:2px 2px red,-2px -2px #00f;
+		transform:translate(-50%, -50%)scale(1.01)
+	}
+}
+*/
+					$('<style>').html(`@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(.5deg)}100%{transform:translate(-50%,-50%)rotate(0)}}@keyframes glitch{0%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%,-50%)scale(1.01)}20%{text-shadow:-2px 0 red, 2px 2px #0ff;transform:translate(-50%,-50%)scale(0.99)rotate(.3deg)}40%{text-shadow:2px -2px #f0f,-2px 2px #0f0;transform:translate(-50%,-50%)scale(1.02)rotate(-.2deg)}60%{text-shadow:-1px 1px red,1px -1px #00f;transform:translate(-50%,-50%)scale(1.01)}80%{text-shadow:0 0 5px red;transform:translate(-50%,-50%)scale(1)}100%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%, -50%)scale(1.01)}}`).appendTo('head');
 
 					// body に追加
-					if(FlagAll.includes(divKey)) {
+					if(FlagAll.includes(upper(divKey))) {
+						$(body).append(newDiv3);
+					} else if(FlagAll.includes(lower(divKey))) {
 						$(body).append(newDiv2);
 					} else {
 						$(body).append(newDiv1);
@@ -718,6 +793,7 @@
 	}
 
 	// JavaScriptでエスケープする関数
+/*
 	function escapeHtml(str) {
 		var e = Document.createElement(div);
 		if (str) {
@@ -726,6 +802,7 @@
 		}
 		return e.innerHTML;
 	}
+*/
 
 	function escapeHTMLWithBr(str) {
 		return str

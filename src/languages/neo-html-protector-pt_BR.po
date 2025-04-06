@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.91\n"
+"Project-Id-Version: Neo HTML Protector 0.0.92\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 01:44+0900\n"
-"PO-Revision-Date: 2025-04-07 01:45+0900\n"
+"POT-Creation-Date: 2025-04-07 03:59+0900\n"
+"PO-Revision-Date: 2025-04-07 04:00+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (Brazilian)\n"
 "Language: pt_BR\n"
@@ -176,6 +176,9 @@ msgstr "Design básico com letras pretas em um fundo amarelo"
 
 msgid "黒色の背景の赤文字のホラー風デザイン"
 msgstr "Design em estilo de terror com texto vermelho sobre fundo preto."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Design de letras vermelhas brilhantes em um fundo preto."
 
 msgid "対象アクションを起こした時のサウンド"
 msgstr "Soa quando a ação alvo é executada."

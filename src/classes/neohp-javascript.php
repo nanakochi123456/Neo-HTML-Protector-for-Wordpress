@@ -59,6 +59,8 @@ class neohp_javascript {
 		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="D";}
 
 		if(get_option('neohp_alert_design', '0') === '1') { $html.="b";}
+		if(get_option('neohp_alert_design', '0') === '2') { $html.="B";}
+
 
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');

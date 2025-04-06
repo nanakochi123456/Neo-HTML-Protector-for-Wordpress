@@ -1,12 +1,12 @@
 @echo off
-set VERSION=0.0.91
+set VERSION=0.0.92
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set NAME=neo-html-protector
 set BROTLI=wsl brotli --quality=11 
 set GZIP=wsl 7za a -tgzip -mx9 -mpass=10 -mfb=256
-set CLOSURE=wsl npx google-closure-compiler --compilation_level SIMPLE_OPTIMIZATIONS --assume_function_wrapper --rewrite_polyfills false  --assume_function_wrapper
+set CLOSURE=wsl npx google-closure-compiler --compilation_level=SIMPLE_OPTIMIZATIONS --assume_function_wrapper=false --rewrite_polyfills=false
 rem --assume_function_wrapper
 rem ADVANCED_OPTIMIZATIONS
 rem WHITESPACE_ONLY

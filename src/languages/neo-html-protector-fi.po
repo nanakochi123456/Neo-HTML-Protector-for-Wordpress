@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.91\n"
+"Project-Id-Version: Neo HTML Protector 0.0.92\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 01:44+0900\n"
-"PO-Revision-Date: 2025-04-07 01:45+0900\n"
+"POT-Creation-Date: 2025-04-07 03:59+0900\n"
+"PO-Revision-Date: 2025-04-07 04:00+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -176,6 +176,9 @@ msgstr "Perusmalli, jossa on mustat kirjaimet keltaisella pohjalla"
 
 msgid "黒色の背景の赤文字のホラー風デザイン"
 msgstr "Kauhutyylinen muotoilu, jossa on punainen teksti mustalla pohjalla."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Hehkuvat punaiset kirjaimet mustalla pohjalla."
 
 msgid "対象アクションを起こした時のサウンド"
 msgstr "Ääni, kun kohdetoiminto suoritetaan."
