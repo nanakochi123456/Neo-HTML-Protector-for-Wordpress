@@ -112,6 +112,10 @@ $value=$neohp_rightclick_default;
 			$value = get_option('neohp_printscreen_message', $neohp_printscreen_default);
 		}
 
+		// Ctrl+Shift スクリーンショットの疑い
+		if (strpos($key, '?') !== false) {
+			$value = get_option('neohp_ctrlshift_message', $neohp_ctrlshift_default);
+		}
 
 		$key = str_replace('shift', 'Shift', $key);
 

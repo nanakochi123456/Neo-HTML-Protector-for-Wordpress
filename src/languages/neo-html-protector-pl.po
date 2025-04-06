@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -234,6 +234,12 @@ msgstr "Zrzut ekranu"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Mogą nie zostać przechwycone lub wykryte w zależności od systemu operacyjnego, przeglądarki i metody."
 
+msgid "スクリーンショットの疑い"
+msgstr "Podejrzane zrzuty ekranu."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Metoda wykrywania powyższych elementów nie jest idealna, stosowane jest wykrywanie prewencyjne."
+
 msgid "ページ保存"
 msgstr "Zapis strony"
 
@@ -348,11 +354,11 @@ msgstr "Wybierz, czy normalne wyjście HTML jest przeznaczone tylko dla administ
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Co jest faktycznie pobierane poprzez wymuszenie pobrania obrazu."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Ekran ostrzegawczy z żółtym tłem w formacie PNG."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "Przezroczysty obraz 1 x 1 piksel w formacie GIF."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ekran ostrzegawczy z żółtym tłem w formacie PNG."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Bezsensowne dokumenty HTML"
@@ -591,6 +597,9 @@ msgstr "Wtyczka została opracowana jako open source i jest licencjonowana na li
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Następujące biblioteki są dołączone do tej wtyczki"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ta wtyczka zawiera muzykę z nieautoryzowanej gry Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Inne Raspberry Pi5, ChatGPT i deepl są używane w rozwoju tej wtyczki"
 
@@ -632,6 +641,9 @@ msgstr "Drukowanie i zapisywanie w formacie PDF jest zabronione"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Zrzuty ekranu są zabronione."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Wykryto działanie na klawiszach, które nie są zwykle używane do obsługi strony internetowej."
 
 msgid "ページの保存は禁止されています"
 msgstr "Zapisywanie stron jest zabronione."

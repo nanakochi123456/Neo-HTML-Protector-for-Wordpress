@@ -129,6 +129,25 @@ class neohp_admin {
 				'neohp_message_section'
 			);
 
+			// スクリーンショットの疑いのメッセージ
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_ctrlshift_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_ctrlshift_message',
+				__('スクリーンショットの警告メッセージ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_ctrlshift_message', $neohp_ctrlshift_default );
+					echo '<input type="text" name="neohp_ctrlshift_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
 			// 保存のAlert メッセージ
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_message_group', 'neohp_save_message', array(
@@ -590,6 +609,32 @@ class neohp_admin {
 					echo '<br>Windows = Windows+Shift+S, Windows+Alt+R, Windows+G';
 					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
 					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
+			// スクリーンショットの疑い
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_alert_ctrlshift', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_ctrlshift',
+				__('スクリーンショットの疑い', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_alert_ctrlshift', '2'));
+					echo wp_kses( $this->getselect("neohp_alert_ctrlshift", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('上の項目の検出方法は完全ではありません、予防的に検出を行います', 'neo-html-protector') );
+					echo '<br>Windows = Windows+Shift, Ctrl+Shift, Windows+Alt';
+					echo '<br>macOS = Shift+Command';
+					echo '<br>Chrome OS = Ctrl+Shift';
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -1269,6 +1314,7 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <ol>
 <li><?php echo '<a target="_blank" href="https://github.com/brix/crypto-js/">crypto-js</a> - The MIT License' ?></li>
 </ol>
+<p><?php echo esc_html( __('このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています', 'neo-html-protector') ) ?></p>
 		<?php
 	}

@@ -55,6 +55,9 @@ class neohp_javascript {
 		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
 		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
 
+		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="d";}
+		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="D";}
+
 		if(get_option('neohp_alert_design', '0') === '1') { $html.="b";}
 
 		$home = home_url();

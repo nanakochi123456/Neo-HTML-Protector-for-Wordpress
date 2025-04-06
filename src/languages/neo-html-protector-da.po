@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -234,6 +234,12 @@ msgstr "Skærmbillede"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Kan muligvis ikke opfanges eller registreres afhængigt af operativsystem, browser og metode"
 
+msgid "スクリーンショットの疑い"
+msgstr "Formodede skærmbilleder."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Opdagelsesmetoden for ovenstående punkter er ikke perfekt, og der anvendes forebyggende opdagelse."
+
 msgid "ページ保存"
 msgstr "Gem side"
 
@@ -348,11 +354,11 @@ msgstr "Vælg, om normal HTML-output kun er til administratorer eller brugerlogi
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Hvad der rent faktisk downloades ved at tvinge billedet til at blive downloadet."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Advarselsskærm med gul baggrund i PNG-format."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 pixel gennemsigtigt billede i GIF-format."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Advarselsskærm med gul baggrund i PNG-format."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Meningsløse HTML-dokumenter"
@@ -591,6 +597,9 @@ msgstr "Plug-in'et er udviklet som open source og er licenseret under GPL 2.0 el
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Følgende biblioteker er inkluderet i dette plug-in"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Dette plug-in indeholder musik fra det uautoriserede Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Andre Raspberry Pi5, ChatGPT og deepl er brugt i udviklingen af dette plugin"
 
@@ -632,6 +641,9 @@ msgstr "Det er forbudt at printe og gemme til PDF"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Skærmbilleder er forbudt."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Betjening opdaget på taster, der normalt ikke bruges til betjening af hjemmesiden"
 
 msgid "ページの保存は禁止されています"
 msgstr "Det er forbudt at gemme sider."

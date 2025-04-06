@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -234,6 +234,12 @@ msgstr "Ekrano kopija"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Priklausomai nuo operacinės sistemos, naršyklės ir metodo, gali būti neperimta arba neaptikta."
 
+msgid "スクリーンショットの疑い"
+msgstr "Įtariamos ekrano nuotraukos."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Minėtų elementų aptikimo metodas nėra tobulas, naudojamas prevencinis aptikimas."
+
 msgid "ページ保存"
 msgstr "Puslapio išsaugojimas"
 
@@ -348,11 +354,11 @@ msgstr "Pasirinkite, ar įprasta HTML išvestis skirta tik administratoriams, ar
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Kas iš tikrųjų atsisiunčiama priverčiant atsisiųsti atvaizdą."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Įspėjamasis ekranas su geltonu fonu PNG formatu."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 pikselio skaidrus GIF formato vaizdas."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Įspėjamasis ekranas su geltonu fonu PNG formatu."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Bereikšmiai HTML dokumentai"
@@ -591,6 +597,9 @@ msgstr "Įskiepis sukurtas kaip atvirojo kodo programa ir licencijuojamas pagal 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Į šį papildinį įtrauktos šios bibliotekos"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Šiame įskiepyje yra neautorizuoto Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį"
 
@@ -632,6 +641,9 @@ msgstr "Draudžiama spausdinti ir išsaugoti PDF formatu"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Ekrano nuotraukos draudžiamos."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Operacija aptikta naudojant klavišus, kurie paprastai nenaudojami svetainės veikimui"
 
 msgid "ページの保存は禁止されています"
 msgstr "Draudžiama išsaugoti puslapius."

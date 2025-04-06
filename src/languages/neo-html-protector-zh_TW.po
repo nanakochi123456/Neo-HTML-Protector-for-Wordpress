@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -234,6 +234,12 @@ msgstr "截圖"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "視作業系統、瀏覽器或方法而定，可能不會被截取或偵測到"
 
+msgid "スクリーンショットの疑い"
+msgstr "疑似截圖。"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "上述項目的檢測方法並不完善，因此採用預防性檢測。"
+
 msgid "ページ保存"
 msgstr "頁面儲存"
 
@@ -348,11 +354,11 @@ msgstr "選擇一般 HTML 輸出是否僅供管理員或使用者登入使用"
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "強制下載影像實際下載的內容。"
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "PNG 格式的黃色背景警告畫面。"
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 像素的 GIF 格式透明影像。"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "PNG 格式的黃色背景警告畫面。"
 
 msgid "意味のないHTMLドキュメント"
 msgstr "無意義的 HTML 文件"
@@ -591,6 +597,9 @@ msgstr "該外掛程式是以開放原始碼的方式開發，並已取得 GPL 2
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "本外掛程式包含下列函式庫"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "本外掛程式包含來自未經授權的超級任天堂娛樂系統"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "開發此外掛程式時使用其他 Raspberry Pi5、ChatGPT 和 deepl"
 
@@ -632,6 +641,9 @@ msgstr "禁止列印和儲存為 PDF"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "禁止截圖。"
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "偵測到在非一般網站操作中使用的按鍵上進行操作"
 
 msgid "ページの保存は禁止されています"
 msgstr "禁止儲存頁面。"

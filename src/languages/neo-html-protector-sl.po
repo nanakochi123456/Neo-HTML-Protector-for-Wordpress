@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -234,6 +234,12 @@ msgstr "Posnetek zaslona"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Glede na operacijski sistem, brskalnik ali metodo morda ne bo prestreženo ali zaznano."
 
+msgid "スクリーンショットの疑い"
+msgstr "Domnevni posnetki zaslona."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Metoda odkrivanja za zgornje elemente ni popolna, zato se uporablja preventivno odkrivanje."
+
 msgid "ページ保存"
 msgstr "Shranjevanje strani"
 
@@ -348,11 +354,11 @@ msgstr "Izberite, ali je običajni izpis HTML namenjen samo skrbnikom ali tudi p
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Kaj se dejansko prenese, če se slika prenese s prisilo."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Opozorilni zaslon z rumenim ozadjem v formatu PNG."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 piksel prozorne slike v formatu GIF."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Opozorilni zaslon z rumenim ozadjem v formatu PNG."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Nesmiselni dokumenti HTML"
@@ -591,6 +597,9 @@ msgstr "Vtičnik je bil razvit kot odprta koda in je licenciran pod licenco GPL 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Ta vtičnik vključuje naslednje knjižnice"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ta vtičnik vsebuje glasbo iz neavtorizirane igre Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika"
 
@@ -632,6 +641,9 @@ msgstr "Tiskanje in shranjevanje v PDF je prepovedano."
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Posnetki zaslona so prepovedani."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Zaznano delovanje na tipkah, ki se običajno ne uporabljajo pri delovanju spletnega mesta"
 
 msgid "ページの保存は禁止されています"
 msgstr "Shranjevanje strani je prepovedano."

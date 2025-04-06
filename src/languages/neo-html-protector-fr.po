@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -234,6 +234,12 @@ msgstr "Capture d'écran"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Peut ne pas être intercepté ou détecté en fonction du système d'exploitation, du navigateur et de la méthode."
 
+msgid "スクリーンショットの疑い"
+msgstr "Captures d'écran suspectes."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "La méthode de détection des éléments ci-dessus n'étant pas parfaite, une détection préventive est utilisée."
+
 msgid "ページ保存"
 msgstr "Sauvegarde de la page"
 
@@ -348,11 +354,11 @@ msgstr "Indiquer si la sortie HTML normale est réservée aux administrateurs ou
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Ce qui est réellement téléchargé en forçant le téléchargement de l'image."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Écran d'avertissement sur fond jaune au format PNG."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "Image transparente de 1 x 1 pixel au format GIF."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Écran d'avertissement sur fond jaune au format PNG."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Documents HTML sans signification"
@@ -591,6 +597,9 @@ msgstr "Le plug-in a été développé en tant que source ouverte et est sous li
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Les bibliothèques suivantes sont incluses dans ce plug-in"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ce plug-in contient la musique du jeu non autorisé SM Trainer Hitomi 3 de la Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "D'autres Raspberry Pi5, ChatGPT et deepl sont utilisés dans le développement de ce plugin."
 
@@ -632,6 +641,9 @@ msgstr "L'impression et l'enregistrement au format PDF sont interdits"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Les captures d'écran sont interdites."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Opération détectée sur des touches qui ne sont pas normalement utilisées pour le fonctionnement du site web"
 
 msgid "ページの保存は禁止されています"
 msgstr "Il est interdit de sauvegarder des pages."

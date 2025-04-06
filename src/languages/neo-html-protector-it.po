@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -234,6 +234,12 @@ msgstr "Schermata"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Potrebbe non essere intercettato o rilevato a seconda del sistema operativo, del browser e del metodo."
 
+msgid "スクリーンショットの疑い"
+msgstr "Schermate sospette."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Il metodo di rilevamento per le voci di cui sopra non è perfetto, si ricorre al rilevamento preventivo."
+
 msgid "ページ保存"
 msgstr "Salvare la pagina"
 
@@ -348,11 +354,11 @@ msgstr "Selezionare se l'output HTML normale è solo per gli amministratori o pe
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Ciò che viene effettivamente scaricato forzando il download dell'immagine."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Schermata di avviso con sfondo giallo in formato PNG."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "Immagine trasparente di 1 x 1 pixel in formato GIF."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Schermata di avviso con sfondo giallo in formato PNG."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Documenti HTML senza senso"
@@ -591,6 +597,9 @@ msgstr "Il plug-in è stato sviluppato come open source e ha una licenza GPL 2.0
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Le seguenti librerie sono incluse in questo plug-in"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Questo plug-in contiene la musica del gioco non autorizzato per Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Per lo sviluppo di questo plugin sono stati utilizzati altri Raspberry Pi5, ChatGPT e deepl."
 
@@ -632,6 +641,9 @@ msgstr "È vietato stampare e salvare in PDF"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Le schermate sono vietate."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Operazione rilevata su tasti non normalmente utilizzati per il funzionamento del sito web"
 
 msgid "ページの保存は禁止されています"
 msgstr "Il salvataggio delle pagine è vietato."

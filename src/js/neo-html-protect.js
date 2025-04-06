@@ -20,6 +20,7 @@
 	let		CopyCut='c';
 	let		F5Key='F5';
 	let		PrintScreen='a';
+	let		CtrlShift='d';
 	let		none='none';
 	let		undefined='undefined';
 	let		Document=document;
@@ -120,6 +121,7 @@
 
 	detectBrowserAndOS().then(result => {
 		ua = result;
+		//alert(ua);
 	});
 
 	function lower(str) {
@@ -311,6 +313,7 @@
 		let		AltKey='Alt+';
 		let		CommandKey='Command+';
 		let		PrintScreenKey='PrintScreen';
+		let		hatena='?';
 
 		CtrlKey			+= nullstr;
 		ShiftKey		+= nullstr;
@@ -318,8 +321,39 @@
 		WinKey			+= nullstr;
 		CommandKey		+= nullstr;
 		PrintScreenKey	+= nullstr;
+		hatena			+= nullstr;
 
-		// PrintScreen
+		// スクショの疑い
+		if(FlagSmall.includes(CtrlShift)) {
+			if(ua.includes("Windows")) {
+				if (meta && shift) {
+					sendIpToServer(WinKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+				if (ctrl && shift) {
+					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+				if (meta && alt) {
+					sendIpToServer(WinKey + AltKey + hatena, fKey);
+					stop(event);
+				}
+			}
+			if(ua.includes("Chrome OS")) {
+				if (ctrl && shift) {
+					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+			}
+			if(ua.includes("macOS")) {
+				if (meta && shift) {
+					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
+					stop(event);
+				}
+			}
+		}
+
+		// PrintScreen etc
 		if(FlagSmall.includes(PrintScreen)) {
 			if (shift && code === 44) {
 				sendIpToServer(ShiftKey + PrintScreenKey, PrintScreen);
@@ -356,7 +390,7 @@
 				}
 			}
 
-			if(ua.includes("Macintosh")) {
+			if(ua.includes("macOS")) {
 				// Shift+Command+3 (macos)
 				if (meta && shift && key === '3') {
 					sendIpToServer(ShiftKey + CommandKey + '3', fKey);

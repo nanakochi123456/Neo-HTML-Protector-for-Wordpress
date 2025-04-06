@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -234,6 +234,12 @@ msgstr "截图"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "可能不会被拦截或检测到，这取决于操作系统、浏览器和方法"
 
+msgid "スクリーンショットの疑い"
+msgstr "疑似截图。"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "上述项目的检测方法并不完善，因此采用了预防性检测。"
+
 msgid "ページ保存"
 msgstr "保存页面"
 
@@ -348,11 +354,11 @@ msgstr "选择正常 HTML 输出是仅供管理员使用，还是供用户登录
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "通过强制下载图像实际下载了什么。"
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "PNG 格式的黄色背景警告屏幕。"
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 像素的 GIF 格式透明图像。"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "PNG 格式的黄色背景警告屏幕。"
 
 msgid "意味のないHTMLドキュメント"
 msgstr "无意义的 HTML 文档"
@@ -591,6 +597,9 @@ msgstr "该插件为开放源码开发，并根据 GPL 2.0 或更高版本获得
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "该插件包含以下库"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "本插件包含来自未经授权的超级任天堂娱乐系统（SNES）游戏 SM Trainer Hitomi 3 的音乐，该游戏由 EJ Ltd.开发，由插件创建者作曲，并已获得官方许可。"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "开发该插件时还使用了其他树莓派 5、ChatGPT 和 deepl。"
 
@@ -632,6 +641,9 @@ msgstr "禁止打印和保存为 PDF 格式"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "禁止截图。"
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "检测到在网站运行中通常不使用的按键上进行了操作"
 
 msgid "ページの保存は禁止されています"
 msgstr "禁止保存页面。"

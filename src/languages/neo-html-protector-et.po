@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -234,6 +234,12 @@ msgstr "Ekraanipilt"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Ei pruugi sõltuvalt operatsioonisüsteemist, brauserist või meetodist olla kinni peetud või tuvastatud."
 
+msgid "スクリーンショットの疑い"
+msgstr "Kahtlus ekraanipiltide kohta"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Eespool nimetatud elementide tuvastamise meetod ei ole täiuslik, kasutatakse ennetavat tuvastamist."
+
 msgid "ページ保存"
 msgstr "Lehekülje salvestamine"
 
@@ -348,11 +354,11 @@ msgstr "Valige, kas tavaline HTML-väljund on mõeldud ainult administraatoritel
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "Mida tegelikult alla laetakse, sundides pilti alla laadima."
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Kollase taustaga hoiatusekraan PNG-formaadis."
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 piksline läbipaistev pilt GIF-formaadis."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Kollase taustaga hoiatusekraan PNG-formaadis."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Tähenduseta HTML-dokumendid"
@@ -591,6 +597,9 @@ msgstr "Plug-in on välja töötatud avatud lähtekoodiga ja on litsentsitud GPL
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Selle pistikprogrammiga on kaasas järgmised raamatukogud"
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "See pistikprogramm sisaldab muusikat Super Nintendo Entertainment System"
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Muud Raspberry Pi5, ChatGPT ja deepl kasutatakse selle plugina arendamisel"
 
@@ -632,6 +641,9 @@ msgstr "Printimine ja PDF-formaadis salvestamine on keelatud"
 
 msgid "スクリーンショットは禁止されています"
 msgstr "Ekraanipildid on keelatud."
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "Avastatud operatsioon klahvidel, mida tavaliselt ei kasutata veebisaidi toimimiseks."
 
 msgid "ページの保存は禁止されています"
 msgstr "Lehekülgede salvestamine on keelatud."

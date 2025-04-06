@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.84\n"
+"Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-05 20:54+0900\n"
-"PO-Revision-Date: 2025-04-05 20:54+0900\n"
+"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"PO-Revision-Date: 2025-04-06 23:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -234,6 +234,12 @@ msgstr "스크린샷"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "OS, 브라우저, 방법에 따라 방해할 수 없거나 감지하지 못할 수 있습니다."
 
+msgid "スクリーンショットの疑い"
+msgstr "스크린샷의 의심"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "위 항목의 검출 방법은 완벽하지 않으며, 예방적으로 검출을 수행합니다."
+
 msgid "ページ保存"
 msgstr "페이지 저장"
 
@@ -348,11 +354,11 @@ msgstr "일반 HTML 출력을 관리자 전용 또는 사용자 로그인으로 
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr "이미지를 강제로 다운로드하여 실제로 다운로드되는 것"
 
-msgid "PNG形式で黄色い背景の警告画面"
-msgstr "PNG 형식의 노란색 배경의 경고 화면"
-
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "GIF 형식의 1×1 픽셀의 투명 이미지"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "PNG 형식의 노란색 배경의 경고 화면"
 
 msgid "意味のないHTMLドキュメント"
 msgstr "의미 없는 HTML 문서"
@@ -591,6 +597,9 @@ msgstr "본 플러그인은 오픈소스로 개발되었으며, GPL2.0 이후 �
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "이 플러그인에는 다음과 같은 라이브러리가 포함되어 있습니다."
 
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "이 플러그인에는 유한회사 에이제이가 개발하고 본 플러그인 제작자가 작곡한 슈퍼 패미컴 비공인 게임 'SM 조련사 히토미 3'의 곡이 포함되어 있으며 정식 라이선스를 취득했습니다."
+
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "기타 본 플러그인 개발에는 Raspberry Pi5와 ChatGPT, deepl을 사용하고 있습니다."
 
@@ -632,6 +641,9 @@ msgstr "인쇄, PDF로 저장하는 것은 금지되어 있습니다."
 
 msgid "スクリーンショットは禁止されています"
 msgstr "스크린샷은 금지되어 있습니다"
+
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+msgstr "웹 사이트 운영에서 일반적으로 사용하지 않는 키로 조작을 감지했습니다."
 
 msgid "ページの保存は禁止されています"
 msgstr "페이지 저장이 금지되어 있습니다"
