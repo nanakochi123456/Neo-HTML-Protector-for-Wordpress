@@ -39,11 +39,12 @@ class neohp_jskeyajax {
 		$user_ip = $this->neohp_func->get_user_ip();
 		$url = isset($_POST['url']) ? sanitize_text_field(wp_unslash($_POST['url'])) : 'Unknown';
 		$key = isset($_POST['key']) ? sanitize_text_field(wp_unslash($_POST['key'])) : 'Unknown';
+		$realua = isset($_POST['ua']) ? sanitize_text_field(wp_unslash($_POST['ua'])) : 'Unknown';
 
 		// IPアドレスを保存するテーブルがなければ作成
 		$wpdb = $this->neohp_database->create_user_ip();
 
-		$ua = $this->neohp_func->get_user_agent();
+		$ua = $realua . '<br>' . $this->neohp_func->get_user_agent();
 
 		$this->neohp_database->insert_user_ip(
 			$user_ip, $url, $key, $ua
@@ -124,6 +125,7 @@ $value=$neohp_rightclick_default;
 		$value = str_replace('$KEY', $key, $value);
 		$value = str_replace('$UA', $ua, $value);
 		$value = str_replace('\\n', "\n", $value);
+		$value = str_replace('<br>', "\n", $value);
 		echo esc_js( esc_html ( htmlspecialchars($value, ENT_QUOTES, 'UTF-8') ) ); // alert で表示
 		exit();
 	}

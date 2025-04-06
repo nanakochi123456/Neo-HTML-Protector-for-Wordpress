@@ -137,7 +137,7 @@ class neohp_iplogreader {
 					<td><?php echo esc_html( $row->id ) ?></td>
 					<td colspan='2'><?php echo esc_html( $row->timestamp ) ?></td>
 					<td colspan='2'><?php echo esc_html( $row->ip ) ?></td>
-					<td colspan='5'><?php echo esc_html( $row->ua ) ?></td>
+					<td colspan='5'><?php echo wp_kses( $row->ua, ['br'=>true] ) ?></td>
 					<td colspan='2'><?php echo esc_html( $row->keyb ) ?></td>
 					<td colspan='3'><?php echo esc_html( $row->url ) ?></td>
 				</tr>

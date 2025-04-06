@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.0.95
+set VERSION=0.0.96
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
@@ -22,7 +22,7 @@ wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
 
 :wsl curl -o js/crypto-js.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.js
 
-wsl sleep 1
+:wsl sleep 1
 
 :wsl curl -o js/crypto-js.min.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.min.js
 :wsl rm js/crypto-js.min.js.br

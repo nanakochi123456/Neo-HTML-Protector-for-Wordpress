@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.95\n"
+"Project-Id-Version: Neo HTML Protector 0.0.96\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 06:44+0900\n"
-"PO-Revision-Date: 2025-04-07 06:45+0900\n"
+"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"PO-Revision-Date: 2025-04-07 07:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -657,11 +657,14 @@ msgstr "Virheellinen IP-osoite."
 msgid "https://google.co.jp"
 msgstr "https://google.fi"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä."
 
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
-msgstr "Toiminta havaittiin näppäimillä, joita ei yleensä käytetä verkkosivuston toiminnassa."
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "On havaittu epätavallisia pääsy- tai toimintatapoja."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Joitakin toimintoja on rajoitettu turvallisuuden ja sisällön suojaamisen vuoksi."
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Vianmääritystila ja konsolin aktivointi on kielletty."
@@ -680,6 +683,9 @@ msgstr "Painetut näppäimet."
 
 msgid "リダイレクトをします"
 msgstr "Uudelleenohjaukset."
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Joitakin toimintoja on rajoitettu sisällön suojaamiseksi."
 
 msgid "右クリックは禁止されています"
 msgstr "Napsauttaminen hiiren kakkospainikkeella on kielletty."

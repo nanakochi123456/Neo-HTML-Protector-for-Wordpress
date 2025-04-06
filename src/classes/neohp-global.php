@@ -8,7 +8,7 @@ defined('ABSPATH') or die('Oh! No!');
 $neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 
 $neohp_nocookienojs_default =
-	__('このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector');
+	__('このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector');
 
 $neohp_imagedownload_default =
 	sprintf("%s\\n\\n%s\\n\\n%s\\n\\n%s\\n%s\\n%s\\n"
@@ -21,8 +21,9 @@ $neohp_imagedownload_default =
 	);
 
 $neohp_debugmode_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('ウェブサイトの操作において通常使用しないキーでの操作を検出しました', 'neo-html-protector')
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('セキュリティ並びにコンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('デバッグモード、コンソールの起動は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -33,7 +34,9 @@ $neohp_debugmode_default =
 	);
 
 $neohp_rightclick_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('右クリックは禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -44,7 +47,9 @@ $neohp_rightclick_default =
 	);
 
 $neohp_printout_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('印刷、PDFへの保存は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -55,7 +60,9 @@ $neohp_printout_default =
 	);
 
 $neohp_printscreen_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('スクリーンショットは禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -66,8 +73,9 @@ $neohp_printscreen_default =
 	);
 
 $neohp_ctrlshift_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
-		, __('ウェブサイトの操作において通常使用しないキーでの操作を検出しました', 'neo-html-protector')
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('セキュリティ並びにコンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('スクリーンショット、デバッグモード等の起動は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -78,7 +86,9 @@ $neohp_ctrlshift_default =
 	);
 
 $neohp_save_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('ページの保存は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -89,7 +99,9 @@ $neohp_save_default =
 	);
 
 $neohp_copycut_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('コピー、カットは禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -100,7 +112,9 @@ $neohp_copycut_default =
 	);
 
 $neohp_htmlsource_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('セキュリティ並びにコンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('HTMLソース表示は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -111,7 +125,9 @@ $neohp_htmlsource_default =
 	);
 
 $neohp_htmlprotect_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('セキュリティ並びにコンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
 		, __('HTMLソース表示は禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
@@ -121,7 +137,8 @@ $neohp_htmlprotect_default =
 	);
 
 $neohp_nonceerror_default =
-	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
 		, __('不正アクセスは禁止されています', 'neo-html-protector')
 		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.95\n"
+"Project-Id-Version: Neo HTML Protector 0.0.96\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 06:44+0900\n"
-"PO-Revision-Date: 2025-04-07 06:46+0900\n"
+"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"PO-Revision-Date: 2025-04-07 07:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -657,11 +657,14 @@ msgstr "Endereço IP inválido."
 msgid "https://google.co.jp"
 msgstr "https://google.pt"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "Este site só pode ser visualizado com cookies e JavaScript ativados"
 
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
-msgstr "Operação detectada em teclas que normalmente não são usadas na operação do site"
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Foram detectados métodos incomuns de acesso ou operação."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Algumas funções são restritas para segurança e proteção de conteúdo."
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "O modo de depuração e a ativação do console são proibidos"
@@ -680,6 +683,9 @@ msgstr "Suas teclas pressionadas."
 
 msgid "リダイレクトをします"
 msgstr "Redirecionamentos."
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Algumas funções são restritas para proteger o conteúdo."
 
 msgid "右クリックは禁止されています"
 msgstr "É proibido clicar com o botão direito do mouse."

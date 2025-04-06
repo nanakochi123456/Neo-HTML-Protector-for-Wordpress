@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.95\n"
+"Project-Id-Version: Neo HTML Protector 0.0.96\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 06:44+0900\n"
-"PO-Revision-Date: 2025-04-07 06:44+0900\n"
+"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"PO-Revision-Date: 2025-04-07 07:37+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -657,11 +657,14 @@ msgstr "无效 IP 地址。"
 msgid "https://google.co.jp"
 msgstr "https://baidu.com"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "只有在启用 cookie 和 JavaScript 后才能浏览本网站"
 
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
-msgstr "检测到在网站运行中通常不使用的按键上进行了操作"
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "检测到不寻常的访问或操作方法。"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "出于安全和内容保护的考虑，某些功能受到限制。"
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "禁止调试模式和控制台激活"
@@ -680,6 +683,9 @@ msgstr "您按下的键"
 
 msgid "リダイレクトをします"
 msgstr "重定向。"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "某些功能受到限制，以保护内容。"
 
 msgid "右クリックは禁止されています"
 msgstr "禁止右键单击。"

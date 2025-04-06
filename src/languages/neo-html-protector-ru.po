@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.95\n"
+"Project-Id-Version: Neo HTML Protector 0.0.96\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 06:44+0900\n"
-"PO-Revision-Date: 2025-04-07 06:45+0900\n"
+"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"PO-Revision-Date: 2025-04-07 07:37+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -657,11 +657,14 @@ msgstr "Неверный IP-адрес."
 msgid "https://google.co.jp"
 msgstr "https://yandex.com"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "Этот сайт можно просматривать только с включенными cookies и JavaScript"
 
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
-msgstr "Обнаружены операции на клавишах, которые обычно не используются в работе веб-сайта"
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Обнаружены необычные методы доступа или эксплуатации."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Некоторые функции ограничены в целях безопасности и защиты содержимого."
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Режим отладки и активация консоли запрещены"
@@ -680,6 +683,9 @@ msgstr "Ваши нажатые клавиши."
 
 msgid "リダイレクトをします"
 msgstr "Перенаправления."
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Некоторые функции ограничены для защиты содержимого."
 
 msgid "右クリックは禁止されています"
 msgstr "Щелчок правой кнопкой мыши запрещен."

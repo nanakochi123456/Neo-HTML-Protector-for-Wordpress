@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.95\n"
+"Project-Id-Version: Neo HTML Protector 0.0.96\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 06:44+0900\n"
-"PO-Revision-Date: 2025-04-07 06:45+0900\n"
+"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"PO-Revision-Date: 2025-04-07 07:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -657,11 +657,14 @@ msgstr "Alamat IP tidak valid."
 msgid "https://google.co.jp"
 msgstr "https://google.co.id"
 
-msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
+msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr "Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan"
 
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
-msgstr "Operasi terdeteksi pada tombol yang biasanya tidak digunakan dalam pengoperasian situs web"
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Metode akses atau operasi yang tidak biasa telah terdeteksi."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Beberapa fungsi dibatasi untuk keamanan dan perlindungan konten."
 
 msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr "Mode debug dan aktivasi konsol dilarang"
@@ -680,6 +683,9 @@ msgstr "Tombol yang Anda tekan."
 
 msgid "リダイレクトをします"
 msgstr "Pengalihan."
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Beberapa fungsi dibatasi untuk melindungi konten."
 
 msgid "右クリックは禁止されています"
 msgstr "Dilarang mengklik kanan."
