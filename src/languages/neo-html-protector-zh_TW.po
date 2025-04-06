@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -180,8 +180,8 @@ msgstr "恐怖風格設計，黑底紅字。"
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "黑底紅字的設計。"
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "當採取目標動作時會發出聲音。"
+msgid "対象アクションを起こした時のBGM"
+msgstr "當採取目標動作時的 BGM。"
 
 msgid "サウンドなし"
 msgstr "無聲"
@@ -206,6 +206,27 @@ msgstr "復古風格的 fanfare - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "復古式開啟 - 42 秒"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "選擇警告顯示時的背景音樂。"
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "採取目標行動時發出警告聲音。"
+
+msgid "有効 音量小さ目"
+msgstr "啟用 低音量"
+
+msgid "有効 音量大き目"
+msgstr "已啟用 音量最大"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "警告顯示時，所有按鍵/滑鼠事件都會發出嗶嗶聲"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "執行目標動作時擦除滑鼠游標。"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "警告顯示時，清除瀏覽器區域的滑鼠游標"
 
 msgid "デバッグモード"
 msgstr "偵錯模式"

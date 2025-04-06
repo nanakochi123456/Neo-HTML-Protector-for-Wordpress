@@ -271,3 +271,11 @@ imgタグが呼び出されるごとに画像を保護	Protege a imagem sempre q
 1分50秒	1 minuto e 50 segundos.
 黒色の背景の赤文字の光る文字のデザイン	Desenho de letras vermelhas brilhantes sobre um fundo preto.
 スクリーンショット、デバッグモード等の起動は禁止されています	É proibida a ativação de capturas de ecrã, do modo de depuração, etc.
+対象アクションを起こした時のBGM	BGM quando a ação-alvo é realizada.
+警告表示中のBGMを選択します	Selecionar a música de fundo durante a visualização do aviso.
+対象アクションを起こした時の警告音	Som de aviso quando a ação-alvo é tomada.
+有効 音量小さ目	Ativado Volume baixo
+有効 音量大き目	Ativado Volume mais alto
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Emite um sinal sonoro em todos os eventos de tecla/rato durante a visualização do aviso
+対象アクションを起こした時のマウスカーソルの消去	Apagar o cursor do rato quando a ação alvo é executada.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Limpar o cursor do rato na área do browser durante a apresentação do aviso

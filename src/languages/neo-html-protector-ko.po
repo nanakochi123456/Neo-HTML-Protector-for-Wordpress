@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -180,8 +180,8 @@ msgstr "검은색 배경에 붉은색 글자의 공포풍 디자인"
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "검은색 배경에 붉은색 글자가 빛나는 글자 디자인"
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "대상 동작이 발생했을 때 나는 소리"
+msgid "対象アクションを起こした時のBGM"
+msgstr "대상 액션 발생 시 배경음악"
 
 msgid "サウンドなし"
 msgstr "소리 없음"
@@ -206,6 +206,27 @@ msgstr "레트로풍 팡파르 - 2초"
 
 msgid "レトロ風オープン - 42秒"
 msgstr "레트로풍 오픈 - 42초"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "경고 표시 중 배경음악을 선택합니다"
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "대상 동작 발생 시 경고음 발생"
+
+msgid "有効 音量小さ目"
+msgstr "유효 볼륨 작게"
+
+msgid "有効 音量大き目"
+msgstr "유효 볼륨 크게"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "경고 표시 중 모든 키/마우스 이벤트에서 경고음이 울립니다."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "대상 동작 발생 시 마우스 커서 지우기"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "경고가 표시되는 동안 브라우저 영역의 마우스 커서를 지웁니다."
 
 msgid "デバッグモード"
 msgstr "디버그 모드"

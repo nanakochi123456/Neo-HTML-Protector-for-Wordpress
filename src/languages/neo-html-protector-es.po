@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -180,8 +180,8 @@ msgstr "Diseño de estilo terrorífico con texto en rojo sobre fondo negro."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Diseño de letras rojas brillantes sobre fondo negro."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Sonido cuando se realiza la acción objetivo."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM cuando se realiza la acción objetivo."
 
 msgid "サウンドなし"
 msgstr "Sin sonido"
@@ -206,6 +206,27 @@ msgstr "Fanfarria de estilo retro - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Estilo retro abierto - 42 seg."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Seleccione la música de fondo durante la visualización del aviso."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Sonido de advertencia cuando se realiza la acción objetivo."
+
+msgid "有効 音量小さ目"
+msgstr "Activado Volumen bajo"
+
+msgid "有効 音量大き目"
+msgstr "Activado Volumen más alto"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Pitidos en todos los eventos de tecla/ratón durante la visualización del aviso"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Borrar el cursor del ratón cuando se realiza la acción objetivo."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Despejar el cursor del ratón en el área del navegador durante la visualización del aviso"
 
 msgid "デバッグモード"
 msgstr "Modo depuración"

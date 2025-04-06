@@ -273,3 +273,11 @@ imgタグが呼び出されるごとに画像を保護	Protect the image each ti
 ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolution, fast version - 1 min 57 sec.
 黒色の背景の赤文字の光る文字のデザイン	Design of glowing red letters on a black background.
 スクリーンショット、デバッグモード等の起動は禁止されています	Activation of screenshots, debug mode, etc. is prohibited.
+警告表示中のBGMを選択します	Select the background music during the warning display.
+有効 音量小さ目	Enabled Low volume
+有効 音量大き目	Enabled Loudest volume
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Beeps on all key/mouse events during warning display
+対象アクションを起こした時のBGM	BGM when the target action is taken.
+対象アクションを起こした時の警告音	Warning sound when target action is taken.
+対象アクションを起こした時のマウスカーソルの消去	Erasing the mouse cursor when the target action is performed.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Clear mouse cursor in browser area during warning display

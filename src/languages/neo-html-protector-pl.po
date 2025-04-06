@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:34+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:46+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -180,8 +180,8 @@ msgstr "Projekt w stylu horroru z czerwonym tekstem na czarnym tle."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Projekt świecących czerwonych liter na czarnym tle."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Dźwięk po wykonaniu akcji docelowej."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM, gdy podjęta zostanie docelowa akcja."
 
 msgid "サウンドなし"
 msgstr "Bezdźwięczny"
@@ -206,6 +206,27 @@ msgstr "Fanfara w stylu retro - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Otwarcie w stylu retro - 42 sek."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Wybór muzyki w tle podczas wyświetlania ostrzeżenia."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Dźwięk ostrzeżenia po wykonaniu akcji docelowej."
+
+msgid "有効 音量小さ目"
+msgstr "Włączone Niski poziom głośności"
+
+msgid "有効 音量大き目"
+msgstr "Włączona Najgłośniejsza głośność"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Sygnały dźwiękowe przy wszystkich zdarzeniach klawiszy/myszy podczas wyświetlania ostrzeżenia"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Usuwanie kursora myszy po wykonaniu docelowej akcji."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Wyczyść kursor myszy w obszarze przeglądarki podczas wyświetlania ostrzeżenia"
 
 msgid "デバッグモード"
 msgstr "Tryb debugowania"

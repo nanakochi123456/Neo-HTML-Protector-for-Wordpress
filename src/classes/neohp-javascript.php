@@ -55,12 +55,16 @@ class neohp_javascript {
 		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
 		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
 
-		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="d";}
-		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="D";}
+		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="g";}
+		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="G";}
 
 		if(get_option('neohp_alert_design', '0') === '1') { $html.="b";}
 		if(get_option('neohp_alert_design', '0') === '2') { $html.="B";}
 
+		if(get_option('neohp_alert_beep', '0') === '1') {$html.="e";}
+		if(get_option('neohp_alert_beep', '0') === '2') {$html.="E";}
+
+		if(get_option('neohp_alert_mouse', '1') === '1') {$html.="m";}
 
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');

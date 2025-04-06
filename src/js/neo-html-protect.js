@@ -20,7 +20,7 @@
 	let		CopyCut='c';
 	let		F5Key='F5';
 	let		PrintScreen='a';
-	let		CtrlShift='d';
+	let		CtrlShift='g';
 	let		none='none';
 	let		undefined='undefined';
 	let		Document=document;
@@ -600,13 +600,42 @@
 		Document.documentElement.requestFullscreen();
 
 		// 10個目 debuggerコマンドを使ったデバッガの無効化
-
+		// BEEPが動作しないのでコメントアウト
+/*
 		Object.defineProperty(Window, 'debugger', {
 			set: function() {},
 			get: function() {}
 		});
-
+*/
 	}
+
+	// BEEPを鳴らす
+	let ctx = new (Window.AudioContext || Window.webkitAudioContext)();
+
+	function playBeep() {
+		let osc = ctx.createOscillator();
+		let gain = ctx.createGain();
+
+		osc.type = 'square';
+		osc.frequency.value = 880;
+		gain.gain.value = (FlagAll.includes('E') ? 0.5 : 0.2);
+
+		osc.connect(gain);
+		gain.connect(ctx.destination);
+
+		osc.start();
+		osc.stop(ctx.currentTime + 0.01); // 0.1秒だけ鳴らす
+	}
+
+	let lastTrigger = 0;
+	// beep音のイベント飛び先
+	function debounce() {
+		let now = Date.now();
+		if (now - lastTrigger > 9) { // 300ms以内の連続トリガーを防ぐ
+			playBeep();
+			lastTrigger = now;
+		}
+	};
 
 	// IPアドレスをサーバーに送信
 	function sendIpToServer(Keys, Flg) {
@@ -635,9 +664,23 @@
 				url: location.href,
 				key: Keys,
 			},
+			// alertで表示後URL転送
 			success: function(response) {
-				// alertで表示後URL転送
+				// マウスカーソルを透明pngで消去する
+				if(FlagAll.includes('m')) {
+					$("html").css({
+						cursor: "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII='),auto"
+					});
+				}
+
 				if(FlagAll.includes(Flg)) {
+					// BEEP音のイベント
+					if(FlagSmall.includes('e')) {
+						$(document).on('click contextmenu mousemove keydown touchstart', function() {
+							debounce();
+						});
+					}
+
 					// 全部真っ黒にする
 					$('*').css({
 						'background-color' : black,

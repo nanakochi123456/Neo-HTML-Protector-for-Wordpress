@@ -5,6 +5,7 @@
 defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
 
 function neohp_delete_options() {
+	delete_option('neohp_alert_beep');
 	delete_option('neohp_alert_c');
 	delete_option('neohp_alert_ctrlshift');
 	delete_option('neohp_alert_d');
@@ -13,6 +14,7 @@ function neohp_delete_options() {
 	delete_option('neohp_alert_i');
 	delete_option('neohp_alert_j');
 	delete_option('neohp_alert_message_lang');
+	delete_option('neohp_alert_mouse');
 	delete_option('neohp_alert_p');
 	delete_option('neohp_alert_printscreen');
 	delete_option('neohp_alert_r');

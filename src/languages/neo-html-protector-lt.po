@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -180,8 +180,8 @@ msgstr "Siaubo stiliaus dizainas su raudonu tekstu juodame fone."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Dizainas su šviečiančiomis raudonomis raidėmis juodame fone."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Garsas, kai atliekamas tikslinis veiksmas."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM, kai atliekamas tikslinis veiksmas."
 
 msgid "サウンドなし"
 msgstr "Be garso"
@@ -206,6 +206,27 @@ msgstr "Retro stiliaus fanfaros - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Retro stiliaus atidarymas - 42 sek."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Pasirinkite foninę muziką įspėjimo rodymo metu."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Įspėjamasis garsas, kai atliekamas tikslinis veiksmas."
+
+msgid "有効 音量小さ目"
+msgstr "Įjungta Mažas garsumas"
+
+msgid "有効 音量大き目"
+msgstr "Įjungta Garsiausias garsumas"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Įspėjimo rodymo metu skleidžiami garsiniai signalai, kai rodomi visi klaviatūros klavišų ir pelės paspaudimai"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Pelės žymeklio ištrynimas, kai atliekamas tikslinis veiksmas."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Išvalyti pelės žymeklį naršyklės srityje, kai rodomas įspėjimas"
 
 msgid "デバッグモード"
 msgstr "Derinimo režimas"

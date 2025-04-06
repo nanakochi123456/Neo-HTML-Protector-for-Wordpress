@@ -424,10 +424,6 @@ class neohp_admin {
 
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-					$warning_ascii_art_array=[];
-					foreach ($warning_ascii_art	 as $k => $v) {
-						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
-					}
 					$value = esc_html(get_option('neohp_alert_design', '0'));
 					echo wp_kses( $this->getselect("neohp_alert_design", $value
 						, '0=' . __('黄色の背景の黒文字のベーシックデザイン', 'neo-html-protector')
@@ -448,14 +444,10 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_sound',
-				__('対象アクションを起こした時のサウンド', 'neo-html-protector'),
+				__('対象アクションを起こした時のBGM', 'neo-html-protector'),
 
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
-					$warning_ascii_art_array=[];
-					foreach ($warning_ascii_art	 as $k => $v) {
-						array_push($warning_ascii_art_array, "$k=$k (" . strlen($v) . ' bytes)' );
-					}
 					$value = esc_html(get_option('neohp_alert_sound', '0'));
 					echo wp_kses( $this->getselect("neohp_alert_sound", $value
 						, '0=' . __('サウンドなし', 'neo-html-protector')
@@ -467,10 +459,62 @@ class neohp_admin {
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('警告表示中のBGMを選択します', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'
 			);
+
+
+			// BEEP音
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_design_group', 'neohp_alert_beep', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_beep',
+				__('対象アクションを起こした時の警告音', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_alert_beep', '0'));
+					echo wp_kses( $this->getselect("neohp_alert_beep", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効 音量小さ目', 'neo-html-protector')
+						, '2=' . __('有効 音量大き目', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします', 'neo-html-protector') );
+				},
+				'neohp-design-settings',
+				'neohp_design_section'
+			);
+
+			// マウスカーソルの消去
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_design_group', 'neohp_alert_mouse', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_mouse',
+				__('対象アクションを起こした時のマウスカーソルの消去', 'neo-html-protector'),
+
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = esc_html(get_option('neohp_alert_mouse', '1'));
+					echo wp_kses( $this->getselect("neohp_alert_mouse", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					echo '<br>' . esc_html( __('警告表示中にブラウザのエリアのマウスカーソルを消去します', 'neo-html-protector') );
+				},
+				'neohp-design-settings',
+				'neohp_design_section'
+			);
+
 
 
 			// F12

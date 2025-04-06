@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -180,8 +180,8 @@ msgstr "Horror-style design with red text on black background"
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Design of glowing red letters on black background"
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Sound when the target action is taken"
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM when the target action is taken"
 
 msgid "サウンドなし"
 msgstr "No sound"
@@ -206,6 +206,27 @@ msgstr "Retro-style fanfare - 2 sec."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Retro-style open - 42 sec."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Select BGM during warning display"
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Warning sound when target action is taken"
+
+msgid "有効 音量小さ目"
+msgstr "Enabled Low volume"
+
+msgid "有効 音量大き目"
+msgstr "Enabled Loud"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Beeps on all key/mouse events during warning display"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Clear mouse cursor when target action is taken"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Clear mouse cursor in browser area during warning display"
 
 msgid "デバッグモード"
 msgstr "Debug mode"

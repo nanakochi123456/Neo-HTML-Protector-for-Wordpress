@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -180,8 +180,8 @@ msgstr "Horror stílusú design, fekete alapon piros szöveggel."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Fekete háttéren izzó piros betűkkel."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Hang, amikor a célművelet végrehajtásra kerül."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM, amikor a célművelet végrehajtásra kerül."
 
 msgid "サウンドなし"
 msgstr "Hangtalan"
@@ -206,6 +206,27 @@ msgstr "Retro stílusú fanfár - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Retro stílusú nyitás - 42 mp."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Válassza ki a háttérzenét a figyelmeztető kijelzés alatt."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Figyelmeztető hangjelzés, amikor a célművelet végrehajtásra kerül."
+
+msgid "有効 音量小さ目"
+msgstr "Engedélyezve Alacsony hangerő"
+
+msgid "有効 音量大き目"
+msgstr "Engedélyezve Legnagyobb hangerő"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Hangjelzés minden billentyű/egér eseményre a figyelmeztető kijelző alatt"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Az egérkurzor törlése a célművelet végrehajtásakor."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Az egérkurzor törlése a böngésző területén a figyelmeztetés megjelenítése közben"
 
 msgid "デバッグモード"
 msgstr "Hibakeresési mód"

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -180,8 +180,8 @@ msgstr "Design i horror-stil med rød tekst på sort baggrund."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Design af glødende røde bogstaver på en sort baggrund."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Lyd, når målhandlingen udføres."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM, når målhandlingen udføres."
 
 msgid "サウンドなし"
 msgstr "Lydløs"
@@ -206,6 +206,27 @@ msgstr "Fanfare i retrostil - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Åben i retrostil - 42 sek."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Vælg baggrundsmusik under advarselsvisningen."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Advarselslyd, når målhandling udføres."
+
+msgid "有効 音量小さ目"
+msgstr "Aktiveret Lav lydstyrke"
+
+msgid "有効 音量大き目"
+msgstr "Aktiveret Højeste lydstyrke"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Bip ved alle taste-/musebegivenheder under advarselsvisning"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Sletter musemarkøren, når målhandlingen udføres."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Fjern musemarkøren i browserområdet under visning af advarsler"
 
 msgid "デバッグモード"
 msgstr "Fejlfindingstilstand"

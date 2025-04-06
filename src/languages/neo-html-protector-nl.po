@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:34+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:46+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -180,8 +180,8 @@ msgstr "Ontwerp in horrorstijl met rode tekst op zwarte achtergrond."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Ontwerp van gloeiende rode letters op een zwarte achtergrond."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Geluid wanneer de doelactie wordt uitgevoerd."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM wanneer de doelactie wordt uitgevoerd."
 
 msgid "サウンドなし"
 msgstr "Geluidloos"
@@ -206,6 +206,27 @@ msgstr "Retrostijl fanfare - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Retrostijl openen - 42 sec."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Selecteer de achtergrondmuziek tijdens de waarschuwingsweergave."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Waarschuwingsgeluid wanneer doelactie wordt uitgevoerd."
+
+msgid "有効 音量小さ目"
+msgstr "Ingeschakeld Laag volume"
+
+msgid "有効 音量大き目"
+msgstr "Ingeschakeld Luidste volume"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Pieptonen bij alle toets-/muisbewegingen tijdens waarschuwingsweergave"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "De muiscursor wissen wanneer de doelactie wordt uitgevoerd."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Verwijder de muiscursor in het browsergebied tijdens het weergeven van de waarschuwing"
 
 msgid "デバッグモード"
 msgstr "Debugmodus"

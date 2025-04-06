@@ -271,3 +271,11 @@ imgタグが呼び出されるごとに画像を保護	Img etiketi her çağrıl
 1分50秒	1 dakika 50 saniye.
 黒色の背景の赤文字の光る文字のデザイン	Siyah zemin üzerinde parlayan kırmızı harflerden oluşan tasarım.
 スクリーンショット、デバッグモード等の起動は禁止されています	Ekran görüntülerinin, hata ayıklama modunun vb. etkinleştirilmesi yasaktır.
+対象アクションを起こした時のBGM	Hedef eylem gerçekleştirildiğinde BGM.
+警告表示中のBGMを選択します	Uyarı ekranı sırasında arka plan müziğini seçin.
+対象アクションを起こした時の警告音	Hedef eylem gerçekleştirildiğinde uyarı sesi.
+有効 音量小さ目	Etkin Düşük ses seviyesi
+有効 音量大き目	Etkin En yüksek ses seviyesi
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Uyarı ekranı sırasında tüm tuş/fare olaylarında bip sesi çıkarır
+対象アクションを起こした時のマウスカーソルの消去	Hedef eylem gerçekleştirildiğinde fare imlecini silme.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Uyarı ekranı sırasında tarayıcı alanındaki fare imlecini temizleyin

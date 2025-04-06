@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.92\n"
+"Project-Id-Version: Neo HTML Protector 0.0.95\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 04:33+0900\n"
-"PO-Revision-Date: 2025-04-07 04:33+0900\n"
+"POT-Creation-Date: 2025-04-07 06:44+0900\n"
+"PO-Revision-Date: 2025-04-07 06:45+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -180,8 +180,8 @@ msgstr "Horror-stiilis kujundus punase tekstiga mustal taustal."
 msgid "黒色の背景の赤文字の光る文字のデザイン"
 msgstr "Kujundus hõõguvatest punastest tähtedest mustal taustal."
 
-msgid "対象アクションを起こした時のサウンド"
-msgstr "Helisignaal, kui sihttegevus on tehtud."
+msgid "対象アクションを起こした時のBGM"
+msgstr "BGM, kui sihttegevus on tehtud."
 
 msgid "サウンドなし"
 msgstr "Soundless"
@@ -206,6 +206,27 @@ msgstr "Retro stiilis fanfaar - 2 s."
 
 msgid "レトロ風オープン - 42秒"
 msgstr "Retro-stiilis avamine - 42 sek."
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Valige taustamuusika hoiatusekraani ajal."
+
+msgid "対象アクションを起こした時の警告音"
+msgstr "Hoiatussignaal, kui sihtmärgiks on võetud tegevus."
+
+msgid "有効 音量小さ目"
+msgstr "Lubatud Madal helitugevus"
+
+msgid "有効 音量大き目"
+msgstr "Lubatud Suurim helitugevus"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Helisignaalid kõikide klahvi/hiire sündmuste korral hoiatuste kuvamise ajal"
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Hiirekursori kustutamine, kui sihttoiming on sooritatud."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Hiirekursori kustutamine brauseri piirkonnas hoiatuse kuvamise ajal"
 
 msgid "デバッグモード"
 msgstr "Silitusrežiim"
