@@ -769,6 +769,7 @@
 					} else {
 						$(body).append(newDiv1);
 					}
+
 					// Audio要素を作成
 					if(NeoHPPlag !== nullstr) {
 						if(!Window.NeoPlayed) {

@@ -65,8 +65,7 @@ class neohp_javascript {
 		$home = home_url();
 		$nonce = wp_create_nonce('neohp_action');
 		$time = (int)get_option('neohp_redirect_times', '5');
-		$plugin = plugins_url('../audio/sm3_opoyaji.mp3', __FILE__);
-		$plugin = dirname($plugin) . '/';
+		$plugin = NEOHP_AUDIO_URL;
 
 		if(get_option('neohp_alert_sound', '0') !== '0') {
 			$plugin .= get_option('neohp_alert_sound', '0') . '.mp3';

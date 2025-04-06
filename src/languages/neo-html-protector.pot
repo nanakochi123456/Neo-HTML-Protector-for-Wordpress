@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-07 03:59+0900\n"
+"POT-Creation-Date: 2025-04-07 04:33+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -929,16 +929,12 @@ msgstr ""
 msgid "このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
 msgstr ""
 
-#: classes/neohp-global.php:25
-msgid "デバッグモード、コンソールの起動は禁止されています"
+#: classes/neohp-global.php:25 classes/neohp-global.php:70
+msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
 msgstr ""
 
-#: classes/neohp-global.php:26 classes/neohp-global.php:37
-#: classes/neohp-global.php:48 classes/neohp-global.php:59
-#: classes/neohp-global.php:71 classes/neohp-global.php:82
-#: classes/neohp-global.php:93 classes/neohp-global.php:104
-#: classes/neohp-global.php:115 classes/neohp-global.php:125
-msgid "以下の情報がサーバーに送信されました"
+#: classes/neohp-global.php:26
+msgid "デバッグモード、コンソールの起動は禁止されています"
 msgstr ""
 
 #: classes/neohp-global.php:27 classes/neohp-global.php:38
@@ -946,7 +942,7 @@ msgstr ""
 #: classes/neohp-global.php:72 classes/neohp-global.php:83
 #: classes/neohp-global.php:94 classes/neohp-global.php:105
 #: classes/neohp-global.php:116 classes/neohp-global.php:126
-msgid "あなたのIPアドレス"
+msgid "以下の情報がサーバーに送信されました"
 msgstr ""
 
 #: classes/neohp-global.php:28 classes/neohp-global.php:39
@@ -954,201 +950,209 @@ msgstr ""
 #: classes/neohp-global.php:73 classes/neohp-global.php:84
 #: classes/neohp-global.php:95 classes/neohp-global.php:106
 #: classes/neohp-global.php:117 classes/neohp-global.php:127
-msgid "あなたの端末とブラウザ"
+msgid "あなたのIPアドレス"
 msgstr ""
 
-#: classes/neohp-global.php:30 classes/neohp-global.php:41
-#: classes/neohp-global.php:52 classes/neohp-global.php:63
-#: classes/neohp-global.php:75 classes/neohp-global.php:86
-#: classes/neohp-global.php:108
-msgid "あなたの押下したキー"
+#: classes/neohp-global.php:29 classes/neohp-global.php:40
+#: classes/neohp-global.php:51 classes/neohp-global.php:62
+#: classes/neohp-global.php:74 classes/neohp-global.php:85
+#: classes/neohp-global.php:96 classes/neohp-global.php:107
+#: classes/neohp-global.php:118 classes/neohp-global.php:128
+msgid "あなたの端末とブラウザ"
 msgstr ""
 
 #: classes/neohp-global.php:31 classes/neohp-global.php:42
 #: classes/neohp-global.php:53 classes/neohp-global.php:64
 #: classes/neohp-global.php:76 classes/neohp-global.php:87
-#: classes/neohp-global.php:98 classes/neohp-global.php:109
+#: classes/neohp-global.php:109
+msgid "あなたの押下したキー"
+msgstr ""
+
+#: classes/neohp-global.php:32 classes/neohp-global.php:43
+#: classes/neohp-global.php:54 classes/neohp-global.php:65
+#: classes/neohp-global.php:77 classes/neohp-global.php:88
+#: classes/neohp-global.php:99 classes/neohp-global.php:110
 msgid "リダイレクトをします"
 msgstr ""
 
-#: classes/neohp-global.php:36
+#: classes/neohp-global.php:37
 msgid "右クリックは禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:47
+#: classes/neohp-global.php:48
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:58 classes/neohp-global.php:70
+#: classes/neohp-global.php:59
 msgid "スクリーンショットは禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:69
-msgid "ウェブサイトの操作において通常使用しないキーでの操作を検出しました"
+#: classes/neohp-global.php:71
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:81
+#: classes/neohp-global.php:82
 msgid "ページの保存は禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:92
+#: classes/neohp-global.php:93
 msgid "コピー、カットは禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:97 classes/neohp-global.php:119
-#: classes/neohp-global.php:129
+#: classes/neohp-global.php:98 classes/neohp-global.php:120
+#: classes/neohp-global.php:130
 msgid "あなたが起こしたイベント"
 msgstr ""
 
-#: classes/neohp-global.php:103 classes/neohp-global.php:114
+#: classes/neohp-global.php:104 classes/neohp-global.php:115
 msgid "HTMLソース表示は禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:124
+#: classes/neohp-global.php:125
 msgid "不正アクセスは禁止されています"
 msgstr ""
 
-#: classes/neohp-global.php:133
+#: classes/neohp-global.php:134
 msgid "アラビア語"
 msgstr ""
 
-#: classes/neohp-global.php:134
+#: classes/neohp-global.php:135
 msgid "ブルガリア語"
 msgstr ""
 
-#: classes/neohp-global.php:135
+#: classes/neohp-global.php:136
 msgid "チェコ語"
 msgstr ""
 
-#: classes/neohp-global.php:136
+#: classes/neohp-global.php:137
 msgid "デンマーク語"
 msgstr ""
 
-#: classes/neohp-global.php:137
+#: classes/neohp-global.php:138
 msgid "ドイツ語"
 msgstr ""
 
-#: classes/neohp-global.php:138
+#: classes/neohp-global.php:139
 msgid "現代ギリシア語"
 msgstr ""
 
-#: classes/neohp-global.php:139
+#: classes/neohp-global.php:140
 msgid "英語"
 msgstr ""
 
-#: classes/neohp-global.php:140
+#: classes/neohp-global.php:141
 msgid "イギリス英語"
 msgstr ""
 
-#: classes/neohp-global.php:141
+#: classes/neohp-global.php:142
 msgid "アメリカ英語"
 msgstr ""
 
-#: classes/neohp-global.php:142
+#: classes/neohp-global.php:143
 msgid "スペイン語"
 msgstr ""
 
-#: classes/neohp-global.php:143
+#: classes/neohp-global.php:144
 msgid "エストニア語"
 msgstr ""
 
-#: classes/neohp-global.php:144
+#: classes/neohp-global.php:145
 msgid "フィンランド語"
 msgstr ""
 
-#: classes/neohp-global.php:145
+#: classes/neohp-global.php:146
 msgid "フランス語"
 msgstr ""
 
-#: classes/neohp-global.php:146
+#: classes/neohp-global.php:147
 msgid "ハンガリー語"
 msgstr ""
 
-#: classes/neohp-global.php:147
+#: classes/neohp-global.php:148
 msgid "インドネシア語"
 msgstr ""
 
-#: classes/neohp-global.php:148
+#: classes/neohp-global.php:149
 msgid "イタリア語"
 msgstr ""
 
-#: classes/neohp-global.php:149
+#: classes/neohp-global.php:150
 msgid "日本語"
 msgstr ""
 
-#: classes/neohp-global.php:150
+#: classes/neohp-global.php:151
 msgid "朝鮮語"
 msgstr ""
 
-#: classes/neohp-global.php:151
+#: classes/neohp-global.php:152
 msgid "リトアニア語"
 msgstr ""
 
-#: classes/neohp-global.php:152
+#: classes/neohp-global.php:153
 msgid "ラトビア語"
 msgstr ""
 
-#: classes/neohp-global.php:153
+#: classes/neohp-global.php:154
 msgid "ノルウェー語"
 msgstr ""
 
-#: classes/neohp-global.php:154
+#: classes/neohp-global.php:155
 msgid "オランダ語"
 msgstr ""
 
-#: classes/neohp-global.php:155
+#: classes/neohp-global.php:156
 msgid "ポーランド語"
 msgstr ""
 
-#: classes/neohp-global.php:156
+#: classes/neohp-global.php:157
 msgid "ポルトガリア語"
 msgstr ""
 
-#: classes/neohp-global.php:157
+#: classes/neohp-global.php:158
 msgid "ブラジルポルトガル語"
 msgstr ""
 
-#: classes/neohp-global.php:158
+#: classes/neohp-global.php:159
 msgid "ヨーロピアンポルトガル語"
 msgstr ""
 
-#: classes/neohp-global.php:159
+#: classes/neohp-global.php:160
 msgid "ルーマニア語"
 msgstr ""
 
-#: classes/neohp-global.php:160
+#: classes/neohp-global.php:161
 msgid "ロシア語"
 msgstr ""
 
-#: classes/neohp-global.php:161
+#: classes/neohp-global.php:162
 msgid "スロバキア語"
 msgstr ""
 
-#: classes/neohp-global.php:162
+#: classes/neohp-global.php:163
 msgid "スロベニア語"
 msgstr ""
 
-#: classes/neohp-global.php:163
+#: classes/neohp-global.php:164
 msgid "スウェーデン語"
 msgstr ""
 
-#: classes/neohp-global.php:164
+#: classes/neohp-global.php:165
 msgid "トルコ語"
 msgstr ""
 
-#: classes/neohp-global.php:165
+#: classes/neohp-global.php:166
 msgid "ウクライナ語"
 msgstr ""
 
-#: classes/neohp-global.php:166
+#: classes/neohp-global.php:167
 msgid "中国語"
 msgstr ""
 
-#: classes/neohp-global.php:167
+#: classes/neohp-global.php:168
 msgid "簡体中国語"
 msgstr ""
 
-#: classes/neohp-global.php:168
+#: classes/neohp-global.php:169
 msgid "繁体中国語"
 msgstr ""
 
