@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.0.89\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-06 23:04+0900\n"
-"PO-Revision-Date: 2025-04-06 23:05+0900\n"
+"POT-Creation-Date: 2025-04-07 00:33+0900\n"
+"PO-Revision-Date: 2025-04-07 00:33+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -59,6 +59,9 @@ msgstr "Предупреждающие сообщения при печати и
 
 msgid "スクリーンショットの警告メッセージ"
 msgstr "Предупреждающие сообщения на скриншотах."
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Предполагаемое предупреждающее сообщение на скриншоте."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Предупреждение о сохранении страницы."

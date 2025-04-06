@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-06 23:04+0900\n"
+"POT-Creation-Date: 2025-04-07 00:33+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,8 +74,12 @@ msgstr ""
 msgid "印刷、PDF保存の警告メッセージ"
 msgstr ""
 
-#: classes/neohp-admin.php:122 classes/neohp-admin.php:141
+#: classes/neohp-admin.php:122
 msgid "スクリーンショットの警告メッセージ"
+msgstr ""
+
+#: classes/neohp-admin.php:141
+msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr ""
 
 #: classes/neohp-admin.php:160

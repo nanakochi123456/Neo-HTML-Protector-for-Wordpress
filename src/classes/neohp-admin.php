@@ -138,7 +138,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_ctrlshift_message',
-				__('スクリーンショットの警告メッセージ', 'neo-html-protector'),
+				__('スクリーンショットの疑いの警告メッセージ', 'neo-html-protector'),
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_ctrlshift_message', $neohp_ctrlshift_default );
@@ -606,7 +606,7 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
 					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
 					echo '<br>Windows/Linux = PrintScreen, Alt+PrintScreen, Shift+PrintScreen';
-					echo '<br>Windows = Windows+Shift+S, Windows+Alt+R, Windows+G';
+					echo '<br>Windows = Windows+Shift+S, Ctrl+Shift+S, Windows+Alt+R, Windows+G';
 					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
 					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
 				},

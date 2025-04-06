@@ -323,6 +323,80 @@
 		PrintScreenKey	+= nullstr;
 		hatena			+= nullstr;
 
+		// PrintScreen etc
+		if(FlagSmall.includes(PrintScreen)) {
+			if (shift && code === 44) {
+				sendIpToServer(ShiftKey + PrintScreenKey, PrintScreen);
+				stop(event);
+			}
+
+			if (alt && code === 44) {
+				sendIpToServer(AltKey + PrintScreenKey, PrintScreen);
+				stop(event);
+			}
+
+			if (code === 44) {
+				sendIpToServer(PrintScreenKey, PrintScreen);
+				stop(event);
+			}
+
+			if(ua.includes("Windows")) {
+				// Ctrl+Shift+S
+				if (ctrl && shift && lower(key) === sKey) {
+					sendIpToServer(CtrlKey + ShiftKey+ upper(sKey), fKey);
+					stop(event);
+				}
+
+				// Win+Shift+S (Windows sniping tool)
+				if (meta && shift && lower(key) === sKey) {
+					sendIpToServer(WinKey + ShiftKey+ upper(sKey), fKey);
+					stop(event);
+				}
+
+				// Win+Alt+R (Game Bar)
+				if (meta && alt && lower(key) === 'r') {
+					sendIpToServer(WinKey + AltKey + 'R', fKey);
+					stop(event);
+				}
+
+				// Win+G (Game Bar)
+				if (meta && lower(key) === 'g') {
+					sendIpToServer(WinKey + 'G', fKey);
+					stop(event);
+				}
+			}
+
+			if(ua.includes("macOS")) {
+				// Shift+Command+3～6 (macos)
+				if (meta && shift) {
+					if(key >= '3' && key <= '6' ) {
+						sendIpToServer(ShiftKey + CommandKey + key, fKey);
+						stop(event);
+					}
+				}
+			}
+
+			// Ctrl+Shift+P (chrome os)
+			if(ua.includes("Chrome OS")) {
+				if (ctrl && shift && lower(key) === 'p') {
+					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
+					stop(event);
+				}
+
+				// Ctrl+Shift+F5 (chrome os)
+				if (ctrl && shift && code === 116) {
+					sendIpToServer(CtrlKey + ShiftKey + F5Key, fKey);
+					stop(event);
+				}
+
+				// Ctrl+F5 (chrome os)
+				if (ctrl && code === 116) {
+					sendIpToServer(CtrlKey + F5Key, fKey);
+					stop(event);
+				}
+			}
+		}
+
 		// スクショの疑い
 		if(FlagSmall.includes(CtrlShift)) {
 			if(ua.includes("Windows")) {
@@ -348,78 +422,6 @@
 			if(ua.includes("macOS")) {
 				if (meta && shift) {
 					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
-					stop(event);
-				}
-			}
-		}
-
-		// PrintScreen etc
-		if(FlagSmall.includes(PrintScreen)) {
-			if (shift && code === 44) {
-				sendIpToServer(ShiftKey + PrintScreenKey, PrintScreen);
-				stop(event);
-			}
-
-			if (alt && code === 44) {
-				sendIpToServer(AltKey + PrintScreenKey, PrintScreen);
-				stop(event);
-			}
-
-			if (code === 44) {
-				sendIpToServer(PrintScreenKey, PrintScreen);
-				stop(event);
-			}
-
-			// Win+Shift+S (Windows sniping tool)
-			if(ua.includes("Windows")) {
-				if (meta && shift && lower(key) === 's') {
-					sendIpToServer(WinKey + ShiftKey+ 'S', fKey);
-					stop(event);
-				}
-
-				// Win+Alt+R (Game Bar)
-				if (meta && alt && lower(key) === 'r') {
-					sendIpToServer(WinKey + AltKey + 'R', fKey);
-					stop(event);
-				}
-
-				// Win+G (Game Bar)
-				if (meta && lower(key) === 'g') {
-					sendIpToServer(WinKey + 'G', fKey);
-					stop(event);
-				}
-			}
-
-			if(ua.includes("macOS")) {
-				// Shift+Command+3 (macos)
-				if (meta && shift && key === '3') {
-					sendIpToServer(ShiftKey + CommandKey + '3', fKey);
-					stop(event);
-				}
-
-				// Shift+Command+4 (macos)
-				if (meta && shift && key === '4') {
-					sendIpToServer(ShiftKey + CommandKey + '4', fKey);
-					stop(event);
-				}
-			}
-
-			// Ctrl+Shift+P (chrome os)
-			if(ua.includes("Chrome OS")) {
-				if (ctrl && shift && lower(key) === 'p') {
-					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
-					stop(event);
-				}
-
-				// Ctrl+Shift+F5 (chrome os)
-				if (ctrl && shift && code === 116) {
-					sendIpToServer(CtrlKey + ShiftKey + F5Key, fKey);
-					stop(event);
-				}
-
-				// Ctrl+F5 (chrome os)
-				if (ctrl && code === 116) {
-					sendIpToServer(CtrlKey + F5Key, fKey);
 					stop(event);
 				}
 			}
@@ -625,6 +627,7 @@
 			type: 'POST',
 			data: {
 				sec: none,
+				ua: ua,
 				url: location.href,
 				key: Keys,
 			},
