@@ -8,29 +8,35 @@
 (($) => {
 	"use strict";
 
-	let		fKey='f';
-	let		iKey='i';
-	let		jKey='j';
-	let		uKey='u';
-	let		pKey='p';
-	let		sKey='s';
-	let		zKey='z';
-	let		divKey='b';
-	let		rClick='r';
-	let		CopyCut='c';
-	let		F5Key='F5';
-	let		PrintScreen='a';
-	let		CtrlShift='g';
-	let		none='none';
-	let		undefined='undefined';
+	let		nullstr = '';
+	let		slash = '/';
+	nullstr += nullstr;
+	slash += nullstr;
+	let		fKey='f'	+ nullstr;
+	let		iKey='i'	+ nullstr;
+	let		jKey='j'	+ nullstr;
+	let		uKey='u'	+ nullstr;
+	let		pKey='p'	+ nullstr;
+	let		sKey='s'	+ nullstr;
+	let		zKey='z'	+ nullstr;
+	let		divKey='b'	+ nullstr;
+	let		rClick='r'	+ nullstr;
+	let		CopyCut='c'	+ nullstr;
+	let		F5Key='F5'	+ nullstr;
+	let		PrintScreen='a'	+ nullstr;
+	let		CtrlShift='g'	+ nullstr;
+	let		none='none'	+ nullstr;
+	let		undefined='undefined'	+ nullstr;
 	let		Document=document;
 	let		Window=window;
-	let		body='body';
-	let		nullstr = '';
-	let		div='<div>';
+	let		body='body'	+ nullstr;
+	let		div='<div>'	+ nullstr;
 	let		ua=nullstr;
 
-	let		Safari='Safari';
+	let		Windows = 'Windows'	+ nullstr;
+	let		macOS = 'macOS'		+ nullstr;
+	let		ChromeOS = 'Chrome OS'	+ nullstr;
+	let		Safari='Safari'	+ nullstr;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -45,40 +51,23 @@
 		Cryptojs = undefined;
 	}
 
-	nullstr = nullstr+ nullstr;
-	fKey			+= nullstr;
-	iKey			+= nullstr;
-	jKey			+= nullstr;
-	uKey			+= nullstr;
-	pKey			+= nullstr;
-	sKey			+= nullstr;
-	zKey			+= nullstr;
-	divKey			+= nullstr;
-	PrintScreen		+= nullstr;
-	rClick			+= nullstr;
-	CopyCut			+= nullstr;
-	F5Key			+= nullstr;
-	none			+= nullstr;
-	body			+= nullstr;
-	undefined		+= nullstr;
-	div				+= nullstr;
-	ua				+= nullstr;
-	Safari			+= nullstr;
-
 	async function detectBrowserAndOS() {
 		let ua = navigator.userAgent;
 		let browser = nullstr;
 		let os = nullstr;
 
-		let		Chrome='Chrome';
-		let		Edge='Edge';
-		let		Firefox='Firefox';
-		let		Opera='Opera';
+		let		Chrome='Chrome'		+ nullstr;
+		let		Edge='Edge'			+ nullstr;
+		let		Firefox='Firefox'	+ nullstr;
+		let		Opera='Opera'		+ nullstr;
+		let		OPR="OPR"			+ slash;
+		let		EDG="EDG"			+ slash;
 
-		Chrome			+= nullstr;
-		Edge			+= nullstr;
-		Firefox			+= nullstr;
-		Opera			+= nullstr;
+		let		Nintendo = 'Nintendo'	+ nullstr;
+		let		PlayStation = 'PlayStation'	+ nullstr;
+		let		Xbox = 'Xbox'		+ nullstr;
+		let		Linux = 'Linux'		+ nullstr;
+		let		Android = 'Android'	+ nullstr;
 
 		// ブラウザ名の判定（userAgentData対応時）
 		if (navigator.userAgentData) {
@@ -98,25 +87,26 @@
 
 		// フォールバック処理（userAgent）
 		if (browser === nullstr) {
-			if (ua.includes("Edg/")) browser = Edge;
-			else if (ua.includes("OPR/") || ua.includes(Opera)) browser = Opera;
-			else if (ua.includes(Chrome) && !ua.includes("Edg/") && !ua.includes("OPR/")) browser = Chrome;
+			if (ua.includes(EDG)) browser = Edge;
+			else if (ua.includes(OPR) || ua.includes(Opera)) browser = Opera;
+			else if (ua.includes(Chrome) && !ua.includes(EDG) && !ua.includes(OPR)) browser = Chrome;
 			else if (ua.includes(Firefox)) browser = Firefox;
 			else if (ua.includes(Safari) && !ua.includes(Chrome)) browser = Safari;
 		}
 
 		if (os === nullstr) {
-			if (/Nintendo/.test(ua)) os = "Nintendo";
-			else if (/PlayStation/.test(ua)) os = "PlayStation";
-			else if (/Xbox/.test(ua)) os = "Xbox";
-			else if (/Windows NT/.test(ua)) os = "Windows";
+			if(ua.includes(Nintendo)) os = Nintendo;
+			else if (ua.includes(PlayStation)) os = PlayStation;
+			else if (ua.includes(Xbox)) os=Xbox;
+			else if (ua.includes(Windows + ' NT')) os = Windows;
 			else if (/iPhone|iPad|iPod/.test(ua)) os = "iOS";
-			else if (/Mac OS X/.test(ua)) os = "macOS";
-			else if (/CrOS/.test(ua)) os = "Chrome OS";
-			else if (/Android/.test(ua)) os = "Android";
-			else if (/Linux/.test(ua)) os = "Linux";
+			else if (/Mac OS X/.test(ua)) os = macOS;
+			else if (/CrOS/.test(ua)) os = ChromeOS;
+			else if (ua.includes(Android)) os = Android;
+			else if (ua.includes(Linux)) os = Linux;
 		}
-		return `${os}/${browser}`;
+//		return `${os}/${browser}`;
+		return os + slash + browser;
 	}
 
 	detectBrowserAndOS().then(result => {
@@ -311,21 +301,13 @@
 			key = event.key,
 			code = event.keyCode;
 
-		let		CtrlKey='Ctrl+';
-		let		ShiftKey='Shift+';
-		let		WinKey='Win+';
-		let		AltKey='Alt+';
-		let		CommandKey='Command+';
-		let		PrintScreenKey='PrintScreen';
-		let		hatena='?';
-
-		CtrlKey			+= nullstr;
-		ShiftKey		+= nullstr;
-		AltKey			+= nullstr;
-		WinKey			+= nullstr;
-		CommandKey		+= nullstr;
-		PrintScreenKey	+= nullstr;
-		hatena			+= nullstr;
+		let		CtrlKey='Ctrl + '	+ nullstr;
+		let		ShiftKey='Shift + '	+ nullstr;
+		let		WinKey='Win + '		+ nullstr;
+		let		AltKey='Alt + '		+ nullstr;
+		let		CommandKey='Command + '	+ nullstr;
+		let		PrintScreenKey='PrintScreen'	+ nullstr;
+		let		hatena='?'	+ nullstr;
 
 		// PrintScreen etc
 		if(FlagSmall.includes(PrintScreen)) {
@@ -344,7 +326,7 @@
 				stop(event);
 			}
 
-			if(ua.includes("Windows")) {
+			if(ua.includes(Windows)) {
 				// Ctrl+Shift+S
 				if (ctrl && shift && lower(key) === sKey) {
 					sendIpToServer(CtrlKey + ShiftKey+ upper(sKey), fKey);
@@ -370,7 +352,7 @@
 				}
 			}
 
-			if(ua.includes("macOS")) {
+			if(ua.includes(macOS)) {
 				// Shift+Command+3～6 (macos)
 				if (meta && shift) {
 					if(key >= '3' && key <= '6' ) {
@@ -381,7 +363,7 @@
 			}
 
 			// Ctrl+Shift+P (chrome os)
-			if(ua.includes("Chrome OS")) {
+			if(ua.includes(ChromeOS)) {
 				if (ctrl && shift && lower(key) === 'p') {
 					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
 					stop(event);
@@ -403,7 +385,7 @@
 
 		// スクショの疑い
 		if(FlagSmall.includes(CtrlShift)) {
-			if(ua.includes("Windows")) {
+			if(ua.includes(Windows)) {
 				if (meta && shift) {
 					sendIpToServer(WinKey + ShiftKey + hatena, fKey);
 					stop(event);
@@ -417,13 +399,13 @@
 					stop(event);
 				}
 			}
-			if(ua.includes("Chrome OS")) {
+			if(ua.includes(ChromeOS)) {
 				if (ctrl && shift) {
 					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
 					stop(event);
 				}
 			}
-			if(ua.includes("macOS")) {
+			if(ua.includes(macOS)) {
 				if (meta && shift) {
 					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
 					stop(event);
@@ -641,17 +623,14 @@
 	function sendIpToServer(Keys, Flg) {
 		Flg=upper(Flg);
 
-		let		black='black';
-		let		px20='20px';
-		let		per50='50%';
-		let		fixed='fixed';
-		let		bold='bold';
-
-		black			+= nullstr;
-		px20			+= nullstr;
-		per50			+= nullstr;
-		fixed			+= nullstr;
-		bold			+= nullstr;
+		let		black='black'	+ nullstr;
+		let		px20='20px'		+ nullstr;
+		let		per50='50%'		+ nullstr;
+		let		fixed='fixed'	+ nullstr;
+		let		bold='bold'		+ nullstr;
+		let		vw85='85vw'		+ nullstr;
+		let		translate='translate(-50%,-50%)'	+ nullstr;
+		let		zindex='9999'	+ nullstr;
 
 		$.ajax({
 			url: NeoHPHome
@@ -697,18 +676,24 @@
 					var newDiv1 = $(div)
 						.html(text) // 文字を設定
 						.css({
-							position: fixed,				// 画面上で固定
-							top: per50,					// 画面の中央に配置
+							position: fixed,
+							top: per50,
 							left: per50,
-							transform: 'translate(-50%,-50%)', // 中央揃え
-							backgroundColor: '#ff0',	// 背景色を黄色に
-							color: black,				 	// 文字色を黒に
+							transform: translate,
+							backgroundColor: '#ff0',
+							color: black,
 							fontSize: '1.5rem',
-							padding: px20,				// パディング
-							borderRadius: px20,		// 角を丸く
-							zIndex: '9999',				// 最前面に表示
-							fontWeight: bold,			// 文字を太字に
+							padding: px20,
+							border: '10px solid transparent', // 太めの透明ボーダー
+							borderImage: 'repeating-linear-gradient(45deg, #000 0 10px, #ff0 10px 20px) 10', // 斜めストライプ
+							zIndex: zindex,
+							fontWeight: bold,
+							fontFamily: '"Yu Mincho","YuMincho","MS Mincho","Hiragino Mincho Pro","SimSun","PMingLiU","Batang","Times New Roman",serif',
+							//SimSun=中国本土で使われてる明朝体スタイル
+							//PMingLiU=台湾で使われている明朝体スタイル
+							//Batang=韓国語用
 							animation: 'shake 0.5s infinite',
+							width: vw85,
 						});
 
 
@@ -718,19 +703,20 @@
 							position: fixed,
 							top: per50,
 							left: per50,
-							transform: 'translate(-50%,-50%)',
+							transform: translate,
 							backgroundColor: black,		 // 背景を黒に
 							color: 'red', 					  // 血のような赤文字
 							padding: px20,
 							border: '3px solid red',			  // 赤い枠線で強調
 							borderRadius: px20,
-							zIndex: '9999',
+							zIndex: zindex,
 							fontWeight: bold,
 							fontSize: '1.5rem',
 							fontFamily: 'cursive,sans-serif', // 怖い内部フォント
 							boxShadow: '0 0 20px red',		  // 怖い赤い光を放つような影
 							textShadow: '0 0 20px red',		  // 赤くにじんだ文字
 							animation: 'shake 0.5s infinite',
+							width: vw85,
 						});
 
 					var newDiv3 = $('<div>')
@@ -739,7 +725,7 @@
 							position: fixed,
 							top: per50,
 							left: per50,
-							transform: 'translate(-50%, -50%)',
+							transform: translate,
 							backgroundColor: black,
 							color: '#ff2a2a',
 							padding: px20,
@@ -748,11 +734,12 @@
 							fontFamily: '"Courier New",monospace',
 							fontSize: '1.5rem',
 							fontWeight: 'bold',
-							zIndex: 9999,
+							zIndex: zindex,
 							textShadow: '0 0 5px red, 0 0 10px #990000',
 							boxShadow: '0 0 30px red',
 							animation: 'glitch 1s infinite',
 							letterSpacing: '1px',
+							width: vw85,
 						});
 
 					// ここはソースから圧縮しておかないと最小化されない

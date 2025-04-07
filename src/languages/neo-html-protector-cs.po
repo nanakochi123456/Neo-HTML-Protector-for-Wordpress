@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.96\n"
+"Project-Id-Version: Neo HTML Protector 0.0.97\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 07:37+0900\n"
-"PO-Revision-Date: 2025-04-07 07:37+0900\n"
+"POT-Creation-Date: 2025-04-07 12:28+0900\n"
+"PO-Revision-Date: 2025-04-07 12:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -689,6 +689,9 @@ msgstr "Některé funkce jsou z důvodu ochrany obsahu omezeny."
 
 msgid "右クリックは禁止されています"
 msgstr "Klikání pravým tlačítkem myši je zakázáno."
+
+msgid "あなたが押下したキー"
+msgstr "Stisknutá klávesa."
 
 msgid "印刷、PDFへの保存は禁止されています"
 msgstr "Tisk a ukládání do PDF je zakázáno"

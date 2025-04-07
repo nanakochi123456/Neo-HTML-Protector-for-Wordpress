@@ -42,7 +42,7 @@ $neohp_rightclick_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
@@ -55,7 +55,7 @@ $neohp_printout_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
@@ -68,7 +68,7 @@ $neohp_printscreen_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
@@ -81,7 +81,7 @@ $neohp_ctrlshift_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
@@ -94,7 +94,7 @@ $neohp_save_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
@@ -120,7 +120,7 @@ $neohp_htmlsource_default =
 		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
 		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
 		, 'URL: $URL'
-		, __('あなたの押下したキー', 'neo-html-protector') . ': $KEY'
+		, __('あなたが押下したキー', 'neo-html-protector') . ': $KEY'
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 

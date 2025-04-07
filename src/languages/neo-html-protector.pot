@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-07 07:37+0900\n"
+"POT-Creation-Date: 2025-04-07 12:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1001,10 +1001,7 @@ msgstr ""
 msgid "あなたの端末とブラウザ"
 msgstr ""
 
-#: classes/neohp-global.php:32 classes/neohp-global.php:45
-#: classes/neohp-global.php:58 classes/neohp-global.php:71
-#: classes/neohp-global.php:84 classes/neohp-global.php:97
-#: classes/neohp-global.php:123
+#: classes/neohp-global.php:32
 msgid "あなたの押下したキー"
 msgstr ""
 
@@ -1023,6 +1020,12 @@ msgstr ""
 
 #: classes/neohp-global.php:40
 msgid "右クリックは禁止されています"
+msgstr ""
+
+#: classes/neohp-global.php:45 classes/neohp-global.php:58
+#: classes/neohp-global.php:71 classes/neohp-global.php:84
+#: classes/neohp-global.php:97 classes/neohp-global.php:123
+msgid "あなたが押下したキー"
 msgstr ""
 
 #: classes/neohp-global.php:53
