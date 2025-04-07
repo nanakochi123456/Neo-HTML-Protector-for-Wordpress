@@ -16,11 +16,13 @@ class neohp_admin {
 	}
 
 	function getselect($name, $selected, ...$options) {
-		$html = "<select name=\"{$name}\">\n";
+		$id = "select_" . htmlspecialchars($name);
+		$hiddenId = "hidden_" . htmlspecialchars($name);
 		
+		$html = "<select name=\"{$name}\" id=\"{$id}\" onchange=\"document.getElementById('{$hiddenId}').value = this.value\">\n";
+
 		foreach ($options as $option) {
 			if (is_array($option)) {
-				// 配列になっている場合は implode で文字列化
 				foreach ($option as $opt) {
 					list($value, $label) = explode('=', $opt, 2);
 					$isSelected = ($value == $selected) ? ' selected' : '';
@@ -34,7 +36,7 @@ class neohp_admin {
 		}
 
 		$html .= "</select>\n";
-		
+		$html .= "<input type=\"hidden\" name=\"{$name}_selected\" id=\"{$hiddenId}\" value=\"" . htmlspecialchars($selected) . "\">\n";
 		return $html;
 	}
 
@@ -293,7 +295,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_htmlcompress", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('一般的なHTML圧縮です、難読化解除のサイトもあります', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -315,7 +317,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_htmlprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
@@ -342,7 +344,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('imgタグが呼び出されるごとに画像を保護', 'neo-html-protector')
 						, '2=' . __('出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
 					echo '<br>' .esc_html( __('画像をダウンロードから保護します', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます', 'neo-html-protector') );
@@ -373,7 +375,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_imageprotectjs", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '2=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
 					echo '<br>' .esc_html( __('画像の保護と組み合わせて使用します、単体では意味がありません', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('JavaScriptにより遅延読まれますのでSEOに影響があります', 'neo-html-protector') );
@@ -403,9 +405,28 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_view_source_alert_asciiart", $value
 						, '0=' . __('表示なし', 'neo-html-protector')
 						, $warning_ascii_art_array
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					?>
+<script>
+	const asciiData = <?= json_encode($warning_ascii_art, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>;
+
+	let lastSelected = document.getElementById("hidden_neohp_view_source_alert_asciiart").value;
+
+	setInterval(() => {
+		const current = document.getElementById("hidden_neohp_view_source_alert_asciiart").value;
+
+		if (current !== lastSelected) {
+			lastSelected = current;
+			document.getElementById("hidden_neohp_view_source_alert_asciiart").value = current;
+		}
+
+		const key = document.getElementById("hidden_neohp_view_source_alert_asciiart").value;
+		document.getElementById("asciiart").value = asciiData[key] || "";
+	}, 500);
+</script>';
+					<?php
+					echo '<br>' . '<textarea style="font-size: 12px; width:60vw; height:300px; font-family: Consolas, Menlo, monospace;" id="asciiart" readonly></textarea>';
 					echo '<br>' . esc_html( __('HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );
-					echo '<br>' . esc_html( __('ログインしていないブラウザーでソース表示を行って確認して下さい', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'
@@ -429,7 +450,7 @@ class neohp_admin {
 						, '0=' . __('黄色の背景の黒文字のベーシックデザイン', 'neo-html-protector')
 						, '1=' . __('黒色の背景の赤文字のホラー風デザイン', 'neo-html-protector')
 						, '2=' . __('黒色の背景の赤文字の光る文字のデザイン', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'
@@ -451,14 +472,33 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_alert_sound', '0'));
 					echo wp_kses( $this->getselect("neohp_alert_sound", $value
 						, '0=' . __('サウンドなし', 'neo-html-protector')
-						, 'sentou=' . __('戦闘 - 40秒', 'neo-html-protector')
-						, 'sm3_oyaji1=' . __('おやじ ショート- 3秒', 'neo-html-protector')
-						, 'sm3_oyaji2=' . __('おやじ ロング - 23秒', 'neo-html-protector')
-						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒', 'neo-html-protector')
-						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 高速版 - 1分57秒', 'neo-html-protector')
-						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2秒', 'neo-html-protector')
-						, 'msx_open=' . __('レトロ風オープン - 42秒', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+						, 'sentou=' . __('戦闘 - 39.8秒', 'neo-html-protector')
+						, 'sm3_oyaji1=' . __('おやじ ショート- 3.7秒', 'neo-html-protector')
+						, 'sm3_oyaji2=' . __('おやじ ロング - 22.7秒', 'neo-html-protector')
+						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒', 'neo-html-protector')
+						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒', 'neo-html-protector')
+						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒', 'neo-html-protector')
+						, 'msx_open=' . __('レトロ風オープン - 41.2秒', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . '<audio id="testaudio" controls></audio>';
+					?>
+<script>
+	const audio = document.getElementById("testaudio");
+	let lastSrc = "";
+
+	setInterval(() => {
+		const hiddenSrc = document.getElementById("hidden_neohp_alert_sound");
+		const currentSrc = "<?php echo NEOHP_AUDIO_URL ?>" + hiddenSrc.value + ".mp3";
+
+		if (currentSrc !== lastSrc) {
+			lastSrc = currentSrc;
+			audio.src = currentSrc;
+			audio.load(); // ← ソースを更新したら再読み込み
+			//audio.play(); // ← 自動再生（ミュートでないとブロックされることもある）
+		}
+	}, 500);
+</script>
+					<?php
 					echo '<br>' . esc_html( __('警告表示中のBGMを選択します', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
@@ -484,7 +524,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効 音量小さ目', 'neo-html-protector')
 						, '2=' . __('有効 音量大き目', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
@@ -508,7 +548,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_mouse", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('警告表示中にブラウザのエリアのマウスカーソルを消去します', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
@@ -533,7 +573,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -556,7 +596,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -579,7 +619,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('事実上デバッグモードから操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -602,7 +642,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('view-source:から始まるURLを入力すれば操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -625,7 +665,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
 				},
@@ -649,7 +689,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
 					echo '<br>Windows/Linux = PrintScreen, Alt+PrintScreen, Shift+PrintScreen';
 					echo '<br>Windows = Windows+Shift+S, Ctrl+Shift+S, Windows+Alt+R, Windows+G';
@@ -676,7 +716,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('上の項目の検出方法は完全ではありません、予防的に検出を行います', 'neo-html-protector') );
 					echo '<br>Windows = Windows+Shift, Ctrl+Shift, Windows+Alt';
 					echo '<br>macOS = Shift+Command';
@@ -702,7 +742,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -725,7 +765,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -748,7 +788,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('あまりこのイベントに遭遇することはありません', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -770,7 +810,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_t", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -792,7 +832,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_d", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -860,7 +900,7 @@ class neohp_admin {
 						, '100='  . __('1分40秒', 'neo-html-protector')
 						, '110='  . __('1分50秒', 'neo-html-protector')
 						, '120='  . __('2分', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -881,7 +921,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_alert_d", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -903,7 +943,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_islogin", $value
 						, 'admin=' . __('ADMINログイン時のみ通常のソース出力', 'neo-html-protector')
 						, 'user=' . __('USERログインで通常のソース出力', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('通常のHTML出力を管理者のみかユーザーログインかを選択します', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -926,7 +966,7 @@ class neohp_admin {
 						, '1=' . __('GIF形式で1×1ピクセルの透過画像', 'neo-html-protector')
 						, '0=' . __('PNG形式で黄色い背景の警告画面', 'neo-html-protector')
 						, '2=' . __('意味のないHTMLドキュメント', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -948,7 +988,7 @@ class neohp_admin {
 						, '0=' . __('出力しない', 'neo-html-protector')
 						, '1=' . __('TITLEタグのみ', 'neo-html-protector')
 						, '2=' . __('WordpressのHEADタグより取得', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません', 'neo-html-protector') );
 				},
@@ -971,7 +1011,7 @@ class neohp_admin {
 					echo wp_kses( $this->getselect("neohp_deny_imagebot", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
@@ -1000,7 +1040,7 @@ class neohp_admin {
 						, '0=' . __('Wordpressの言語', 'neo-html-protector')
 						, '1=' . __('ブラウザの設定言語', 'neo-html-protector')
 						, $lang_array
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
@@ -1029,7 +1069,7 @@ class neohp_admin {
 						, '0=' . __('Wordpressの言語', 'neo-html-protector')
 						, '1=' . __('ブラウザの設定言語', 'neo-html-protector')
 						, $lang_array
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
@@ -1069,7 +1109,7 @@ class neohp_admin {
 						, '50='  . __('50分', 'neo-html-protector')
 						, '55='  . __('55分', 'neo-html-protector')
 						, '60='  . __('1時間', 'neo-html-protector')
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像URL情報の有効期限を設定します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('一度読み込まれると画像URL情報と一時使用トークンは無効化されます', 'neo-html-protector') );
 				},
@@ -1102,7 +1142,7 @@ class neohp_admin {
 						, '512=' . '4096bits (512bytes)'
 						, '768=' . '6144bits (768bytes)'
 						, '1024=' . '8192bits (1024bytes)'
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります', 'neo-html-protector') );
 				},
@@ -1131,7 +1171,7 @@ class neohp_admin {
 						, 'sha3-256=' . 'sha3 256bits'
 						, 'sha3-384=' . 'sha3 384bits'
 						, 'sha3-512=' . 'sha3 512bits'
-					), [ 'select'=>['name'=>true], 'option'=>['value'=>true, 'selected'=>true] ] );
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります', 'neo-html-protector') );
 				},
