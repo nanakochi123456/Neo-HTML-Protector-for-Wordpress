@@ -31,6 +31,12 @@ class neohp_jskeyajax {
 			return;
 		}
 
+		for($i = 0; $i < 99; $i++) {
+			if (ob_get_level() > 0) {
+				ob_end_clean();  // バッファがあれば終了
+			}
+		}
+
 		if (!isset($_POST['sec']) || $_POST['sec'] !== 'none') {
 			$this->neohp_func->err403();
 		}

@@ -70,7 +70,7 @@ class neohp_imageprotect {
 					// これでHTMLすべてキャプチャできるはず
 					add_action('wp_footer', function () {
 						$neohp_all_content = ob_get_clean(); // head内容を取得
-						ob_end_clean();
+						//ob_end_clean();
 						$lang = get_bloginfo('language');
 						$html = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">';
 

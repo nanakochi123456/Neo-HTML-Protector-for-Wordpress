@@ -1406,6 +1406,12 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <ol>
 <li><?php echo '<a target="_blank" href="https://github.com/brix/crypto-js/">crypto-js</a> - The MIT License' ?></li>
 </ol>
+<p><?php echo esc_html( __('本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています', 'neo-html-protector') ) ?></p>
+<ol>
+<li><?php echo '<a target="_blank" href="https://rakko.tools/tools/68/">アスキーアート（AA）作成</a> - ラッコ株式会社 ライセンス確認済' ?></li>
+<li><?php echo '<a target="_blank" href="https://lazesoftware.com/ja/tool/hugeaagen/">巨大文字AAジェネレーター</a> - LAZE SOFTWARE ライセンス確認済' ?></li>
+<li><?php echo '<a target="_blank" href="https://www.dafont.com/bitstream-vera-seri.font">Bitstream Vera Serif</a> - The Gnome Project ライセンス確認済' ?></li>
+</ol>
 <p><?php echo esc_html( __('このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています', 'neo-html-protector') ) ?></p>
 		<?php

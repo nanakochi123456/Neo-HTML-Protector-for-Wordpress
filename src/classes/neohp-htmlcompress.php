@@ -19,20 +19,14 @@ class neohp_htmlcompress {
 		}
 
 		if(get_option('neohp_htmlcompress', '1') == 1) {
-			add_action('template_redirect', array($this, 'start_buffer'));
-			add_action('shutdown', array($this, 'end_buffer'));
-		}
-	}
-
-	// 出力バッファを開始
-	public function start_buffer() {
-		ob_start(array($this, 'sanitize_output'));
-	}
-
-	// 出力バッファを終了
-	public function end_buffer() {
-		if (ob_get_length()) {
-			ob_end_flush();
+			add_action('template_redirect', function() {
+				ob_start(array($this, 'sanitize_output'));
+			}, 1);
+			add_action('wp_footer', function() {
+				if ( ob_get_length() ) {
+					ob_end_flush();
+				}
+			}, PHP_INT_MAX);
 		}
 	}
 

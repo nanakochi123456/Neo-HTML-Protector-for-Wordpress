@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.98\n"
+"Project-Id-Version: Neo HTML Protector 0.1.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 13:43+0900\n"
-"PO-Revision-Date: 2025-04-07 13:48+0900\n"
+"POT-Creation-Date: 2025-04-08 08:48+0900\n"
+"PO-Revision-Date: 2025-04-08 08:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -164,9 +164,6 @@ msgstr "Žiadny údaj"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Zobrazenie umenia ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML."
-
-msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
-msgstr "Skontrolujte zobrazením zdroja v neprihlásenom prehliadači"
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Návrh zobrazenia pri spustení cieľovej akcie."
@@ -641,6 +638,9 @@ msgstr "Zásuvný modul bol vyvinutý ako open source a je licencovaný pod lice
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Súčasťou tohto doplnku sú tieto knižnice"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Tento zásuvný modul obsahuje písmo a súbory písma pre umenie ASCII generované"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Tento zásuvný modul obsahuje hudbu z neautorizovanej hry pre Super Nintendo Entertainment System"

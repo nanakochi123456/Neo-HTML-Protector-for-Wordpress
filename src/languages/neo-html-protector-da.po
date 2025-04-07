@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.98\n"
+"Project-Id-Version: Neo HTML Protector 0.1.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 13:43+0900\n"
-"PO-Revision-Date: 2025-04-07 13:45+0900\n"
+"POT-Creation-Date: 2025-04-08 08:48+0900\n"
+"PO-Revision-Date: 2025-04-08 08:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -164,9 +164,6 @@ msgstr "Ingen indikation"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "Vis ASCII-tegninger, der angiver intentionen om at advare, når HTML-kilden vises."
-
-msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
-msgstr "Tjek ved at se kilden i en ikke-indlogget browser"
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Vis design, når målhandlingen udløses."
@@ -641,6 +638,9 @@ msgstr "Plug-in'et er udviklet som open source og er licenseret under GPL 2.0 el
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "Følgende biblioteker er inkluderet i dette plug-in"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Dette plug-in indeholder skrifttypen og skrifttypefilerne til ASCII-kunst genereret af"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Dette plug-in indeholder musik fra det uautoriserede Super Nintendo Entertainment System"

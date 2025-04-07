@@ -645,14 +645,14 @@
 			},
 			// alertで表示後URL転送
 			success: function(response) {
-				// マウスカーソルを透明pngで消去する
-				if(FlagAll.includes('m')) {
-					$("html").css({
-						cursor: "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII='),auto"
-					});
-				}
-
 				if(FlagAll.includes(Flg)) {
+					// マウスカーソルを透明pngで消去する
+					if(FlagAll.includes('m')) {
+						$("html").css({
+							cursor: "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII='),auto"
+						});
+					}
+
 					// BEEP音のイベント
 					if(FlagSmall.includes('e')) {
 						$(document).on('click contextmenu mousemove keydown touchstart', function() {

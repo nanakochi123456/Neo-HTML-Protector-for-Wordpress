@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.0.98\n"
+"Project-Id-Version: Neo HTML Protector 0.1.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-07 13:43+0900\n"
-"PO-Revision-Date: 2025-04-07 13:43+0900\n"
+"POT-Creation-Date: 2025-04-08 08:48+0900\n"
+"PO-Revision-Date: 2025-04-08 08:48+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -164,9 +164,6 @@ msgstr "無指示"
 
 msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
 msgstr "當顯示 HTML 原始碼時，顯示 ASCII 文字表示警告的意圖。"
-
-msgid "ログインしていないブラウザーでソース表示を行って確認して下さい"
-msgstr "在未登入的瀏覽器中檢視來源進行檢查"
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "當觸發目標動作時顯示設計。"
@@ -641,6 +638,9 @@ msgstr "該外掛程式是以開放原始碼的方式開發，並已取得 GPL 2
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "本外掛程式包含下列函式庫"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "這個外掛程式包含字型和字型檔案，用於由"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "本外掛程式包含來自未經授權的超級任天堂娛樂系統"
