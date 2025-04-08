@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:31+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -62,6 +62,9 @@ msgstr "截屏警告信息。"
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "所谓的截图警告信息。"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "选中所有文本时发出警告信息。"
 
 msgid "ページ保存の警告メッセージ"
 msgstr "页面保存警告信息。"
@@ -252,6 +255,9 @@ msgstr "拦截 + 记录 + 显示 + 重定向"
 msgid "メニューからは操作できてしまいます"
 msgstr "可通过菜单进行操作。"
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "火狐浏览器的调试模式"
+
 msgid "ブラウザーコンソール"
 msgstr "浏览器控制台"
 
@@ -282,6 +288,9 @@ msgstr "疑似截图。"
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "上述项目的检测方法并不完善，因此采用了预防性检测。"
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "它可以检测屏幕截图以及调试模式等。"
+
 msgid "ページ保存"
 msgstr "保存页面"
 
@@ -296,6 +305,9 @@ msgstr "复制剪切"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "我们并不经常遇到这种情况。"
+
+msgid "テキスト全選択"
+msgstr "全文选择"
 
 msgid "テキスト選択"
 msgstr "文本选择"
@@ -555,6 +567,9 @@ msgstr "重置为默认值"
 msgid "デザイン・音の設定"
 msgstr "设计和音效设置"
 
+msgid "イベントの設定"
+msgstr "事件配置。"
+
 msgid "メッセージの設定"
 msgstr "信息设置"
 
@@ -725,6 +740,9 @@ msgstr "禁止复制或剪切。"
 
 msgid "あなたが起こしたイベント"
 msgstr "你造成的事件"
+
+msgid "テキストの選択は禁止されています"
+msgstr "禁止选择文本。"
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "禁止显示 HTML 源代码。"

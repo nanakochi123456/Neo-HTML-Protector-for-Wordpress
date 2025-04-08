@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:32+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -62,6 +62,9 @@ msgstr "Mensajes de advertencia en pantalla."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Supuesto mensaje de advertencia de captura de pantalla."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Mensaje de advertencia cuando se selecciona todo el texto."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Mensaje de advertencia de guardado de página."
@@ -252,6 +255,9 @@ msgstr "Interceptar + grabar + visualizar + redirigir"
 msgid "メニューからは操作できてしまいます"
 msgstr "Se puede manejar desde el menú."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modo depuración en Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Consola de navegación"
 
@@ -282,6 +288,9 @@ msgstr "Capturas de pantalla sospechosas."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "El método de detección de los puntos anteriores no es perfecto, se utiliza la detección preventiva."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Detecta capturas de pantalla, así como modos de depuración, etc."
+
 msgid "ページ保存"
 msgstr "Guardar página"
 
@@ -296,6 +305,9 @@ msgstr "Copia-corte"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "No nos encontramos con este suceso muy a menudo."
+
+msgid "テキスト全選択"
+msgstr "Selección de texto completo"
 
 msgid "テキスト選択"
 msgstr "Selección de texto"
@@ -555,6 +567,9 @@ msgstr "Restablecimiento de los valores predeterminados"
 msgid "デザイン・音の設定"
 msgstr "Diseño y ajustes de sonido"
 
+msgid "イベントの設定"
+msgstr "Configuración de eventos."
+
 msgid "メッセージの設定"
 msgstr "Configuración de mensajes"
 
@@ -725,6 +740,9 @@ msgstr "Queda prohibida la copia o el recorte."
 
 msgid "あなたが起こしたイベント"
 msgstr "Sucesos que provocaste."
+
+msgid "テキストの選択は禁止されています"
+msgstr "La selección de texto está prohibida."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "La visualización de fuentes HTML está prohibida."

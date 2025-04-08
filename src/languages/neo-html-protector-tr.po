@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:33+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -62,6 +62,9 @@ msgstr "Ekran görüntüsü uyarı mesajları."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "İddia edilen ekran görüntüsü uyarı mesajı."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Tüm metin seçildiğinde uyarı mesajı."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Sayfa kaydetme uyarı mesajı."
@@ -252,6 +255,9 @@ msgstr "Yakalama + kayıt + görüntüleme + yönlendirme"
 msgid "メニューからは操作できてしまいます"
 msgstr "Menüden çalıştırılabilir."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Firefox'ta hata ayıklama modu"
+
 msgid "ブラウザーコンソール"
 msgstr "Tarayıcı konsolu"
 
@@ -282,6 +288,9 @@ msgstr "Ekran görüntüleri şüphesi"
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Yukarıdaki maddeler için tespit yöntemi mükemmel değildir, önleyici tespit kullanılır."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ekran görüntülerinin yanı sıra hata ayıklama modlarını vb. algılar."
+
 msgid "ページ保存"
 msgstr "Sayfa kaydet"
 
@@ -296,6 +305,9 @@ msgstr "Kopyala-kes"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "Bu olayla çok sık karşılaşmıyoruz."
+
+msgid "テキスト全選択"
+msgstr "Tam metin seçimi"
 
 msgid "テキスト選択"
 msgstr "Metin seçimi"
@@ -555,6 +567,9 @@ msgstr "Varsayılana sıfırlama"
 msgid "デザイン・音の設定"
 msgstr "Tasarım ve ses ayarları"
 
+msgid "イベントの設定"
+msgstr "Olay yapılandırması."
+
 msgid "メッセージの設定"
 msgstr "Mesaj ayarları"
 
@@ -725,6 +740,9 @@ msgstr "Kopyalanması veya kesilmesi yasaktır."
 
 msgid "あなたが起こしたイベント"
 msgstr "Sebep olduğunuz olaylar."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Metin seçimi yasaktır."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "HTML kaynak gösterimi yasaktır."

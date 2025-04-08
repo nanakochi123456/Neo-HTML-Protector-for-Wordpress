@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:33+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -62,6 +62,9 @@ msgstr "Upozornenia na obrazovke."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Údajná varovná správa na snímke obrazovky."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Upozornenie pri výbere celého textu."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Varovná správa o uložení stránky."
@@ -252,6 +255,9 @@ msgstr "Zachytenie + záznam + zobrazenie + presmerovanie"
 msgid "メニューからは操作できてしまいます"
 msgstr "Možno ho ovládať z ponuky."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Režim ladenia v prehliadači Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Konzola prehliadača"
 
@@ -282,6 +288,9 @@ msgstr "Podozrivé snímky obrazovky."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Metóda detekcie uvedených položiek nie je dokonalá, používa sa preventívna detekcia."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Zisťuje snímky obrazovky, ako aj režimy ladenia atď."
+
 msgid "ページ保存"
 msgstr "Uložiť stránku"
 
@@ -296,6 +305,9 @@ msgstr "Kopírovanie"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "S touto udalosťou sa nestretávame často."
+
+msgid "テキスト全選択"
+msgstr "Výber celého textu"
 
 msgid "テキスト選択"
 msgstr "Výber textu"
@@ -555,6 +567,9 @@ msgstr "Resetovanie na predvolené nastavenie"
 msgid "デザイン・音の設定"
 msgstr "Dizajn a nastavenia zvuku"
 
+msgid "イベントの設定"
+msgstr "Konfigurácia udalosti."
+
 msgid "メッセージの設定"
 msgstr "Nastavenia správy"
 
@@ -725,6 +740,9 @@ msgstr "Kopírovanie alebo strihanie je zakázané."
 
 msgid "あなたが起こしたイベント"
 msgstr "Udalosti, ktoré ste spôsobili."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Výber textu je zakázaný."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "Zobrazenie zdroja HTML je zakázané."

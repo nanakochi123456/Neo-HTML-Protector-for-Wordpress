@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:33+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -62,6 +62,9 @@ msgstr "Schermafbeelding van waarschuwingsberichten."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Vermeend waarschuwingsbericht van schermafbeelding."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Waarschuwingsbericht wanneer alle tekst is geselecteerd."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Waarschuwing voor opslaan pagina."
@@ -252,6 +255,9 @@ msgstr "Onderscheppen + opnemen + weergeven + omleiden"
 msgid "メニューからは操作できてしまいます"
 msgstr "Het kan worden bediend via het menu."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Debugmodus in Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Browserconsole"
 
@@ -282,6 +288,9 @@ msgstr "Vermoedelijke screenshots."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "De detectiemethode voor de bovenstaande items is niet perfect, er wordt preventieve detectie gebruikt."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Het detecteert schermafbeeldingen en debugmodi, enz."
+
 msgid "ページ保存"
 msgstr "Pagina opslaan"
 
@@ -296,6 +305,9 @@ msgstr "Copy-cut"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "We komen deze gebeurtenis niet vaak tegen."
+
+msgid "テキスト全選択"
+msgstr "Selectie volledige tekst"
 
 msgid "テキスト選択"
 msgstr "Tekstselectie"
@@ -555,6 +567,9 @@ msgstr "Standaardinstellingen herstellen"
 msgid "デザイン・音の設定"
 msgstr "Ontwerp en geluidsinstellingen"
 
+msgid "イベントの設定"
+msgstr "Gebeurtenisconfiguratie."
+
 msgid "メッセージの設定"
 msgstr "Berichtinstellingen"
 
@@ -725,6 +740,9 @@ msgstr "Kopiëren of knippen is verboden."
 
 msgid "あなたが起こしたイベント"
 msgstr "Gebeurtenissen die je hebt veroorzaakt."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Tekstselectie is verboden."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "HTML-bronweergave is verboden."

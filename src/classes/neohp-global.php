@@ -111,6 +111,19 @@ $neohp_copycut_default =
 		, __('リダイレクトをします', 'neo-html-protector')
 	);
 
+$neohp_textselect_default =
+	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
+		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')
+		, __('コンテンツ保護のため一部の機能を制限しています', 'neo-html-protector')
+		, __('テキストの選択は禁止されています', 'neo-html-protector')
+		, __('以下の情報がサーバーに送信されました', 'neo-html-protector')
+		, __('あなたのIPアドレス', 'neo-html-protector') . ': $IP'
+		, __('あなたの端末とブラウザ', 'neo-html-protector') . ': $UA'
+		, 'URL: $URL'
+		, __('あなたが起こしたイベント', 'neo-html-protector') . ': $KEY'
+		, __('リダイレクトをします', 'neo-html-protector')
+	);
+
 $neohp_htmlsource_default =
 	sprintf("%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s\\n%s"
 		, __('通常とは異なる方法でのアクセスや操作が検出されました', 'neo-html-protector')

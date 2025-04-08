@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:33+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -62,6 +62,9 @@ msgstr "Ekrānšāviņu brīdinājuma ziņojumi."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Iespējamais ekrānšāviņš brīdinājuma ziņojums."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Brīdinājuma ziņojums, ja ir atlasīts viss teksts."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Lapas saglabāšanas brīdinājuma ziņojums."
@@ -252,6 +255,9 @@ msgstr "Pārtveršana + ierakstīšana + rādīšana + novirzīšana"
 msgid "メニューからは操作できてしまいます"
 msgstr "To var darbināt no izvēlnes."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Debugēšanas režīms programmā Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Pārlūka konsole"
 
@@ -282,6 +288,9 @@ msgstr "Iespējamie ekrānšāviņi."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Iepriekš minēto elementu noteikšanas metode nav perfekta, tiek izmantota profilaktiska noteikšana."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Tā nosaka ekrānšāviņus, kā arī atkļūdošanas režīmus utt."
+
 msgid "ページ保存"
 msgstr "Lapas saglabāšana"
 
@@ -296,6 +305,9 @@ msgstr "Kopēt-izgriezt"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "Ar šādu gadījumu mēs nesastopamies bieži."
+
+msgid "テキスト全選択"
+msgstr "Pilna teksta atlase"
 
 msgid "テキスト選択"
 msgstr "Teksta atlase"
@@ -555,6 +567,9 @@ msgstr "Noklusējuma iestatījumu atiestatīšana"
 msgid "デザイン・音の設定"
 msgstr "Dizains un skaņas iestatījumi"
 
+msgid "イベントの設定"
+msgstr "Notikumu konfigurācija."
+
 msgid "メッセージの設定"
 msgstr "Ziņu iestatījumi"
 
@@ -725,6 +740,9 @@ msgstr "Kopēt vai griezt ir aizliegts."
 
 msgid "あなたが起こしたイベント"
 msgstr "Notikumi, kurus jūs izraisījāt."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Teksta atlase ir aizliegta."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "HTML avota rādīšana ir aizliegta."

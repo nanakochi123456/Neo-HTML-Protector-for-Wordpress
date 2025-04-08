@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:32+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -62,6 +62,9 @@ msgstr "Screenshot der Warnmeldungen."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Angebliche Bildschirmfoto-Warnmeldung."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Warnmeldung, wenn der gesamte Text ausgewählt ist."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Warnmeldung beim Speichern der Seite."
@@ -252,6 +255,9 @@ msgstr "Abfangen + Aufzeichnen + Anzeigen + Weiterleiten"
 msgid "メニューからは操作できてしまいます"
 msgstr "Sie kann über das Menü bedient werden."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Debug-Modus in Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Browser-Konsole"
 
@@ -282,6 +288,9 @@ msgstr "Verdächtige Bildschirmfotos."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Die Erkennungsmethode für die oben genannten Punkte ist nicht perfekt, es wird eine präventive Erkennung verwendet."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Es erkennt sowohl Screenshots als auch Debug-Modi usw."
+
 msgid "ページ保存"
 msgstr "Seite speichern"
 
@@ -296,6 +305,9 @@ msgstr "Kopierschnitt"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "Ein solches Ereignis kommt nicht sehr oft vor."
+
+msgid "テキスト全選択"
+msgstr "Volltextauswahl"
 
 msgid "テキスト選択"
 msgstr "Textauswahl"
@@ -555,6 +567,9 @@ msgstr "Zurücksetzen auf Standardwerte"
 msgid "デザイン・音の設定"
 msgstr "Design und Klangeinstellungen"
 
+msgid "イベントの設定"
+msgstr "Konfiguration des Ereignisses."
+
 msgid "メッセージの設定"
 msgstr "Einstellungen für Nachrichten"
 
@@ -725,6 +740,9 @@ msgstr "Kopieren oder Ausschneiden ist verboten."
 
 msgid "あなたが起こしたイベント"
 msgstr "Ereignisse, die Sie verursacht haben."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Die Textauswahl ist verboten."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "Die Anzeige des HTML-Quelltextes ist verboten."

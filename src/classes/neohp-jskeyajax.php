@@ -79,6 +79,8 @@ class neohp_jskeyajax {
 		if (strpos($key, 'F12') !== false
 		 || strpos($key, 'I') !== false
 		 || strpos($key, 'J') !== false
+		 || strpos($key, 'K') !== false
+		 || strpos($key, 'C') !== false
 		) {
 			$value = get_option('neohp_debugmode_message', $neohp_debugmode_default);
 		}
@@ -88,6 +90,11 @@ class neohp_jskeyajax {
 		 || strpos($key, 'Cut') !== false
 		) {
 			$value = get_option('neohp_copycut_message', $neohp_copycut_default);
+		}
+
+		// Ctrl+A
+		if (strpos($key, 'A') !== false	) {
+			$value = get_option('neohp_textselect_message', $neohp_textselect_default);
 		}
 
 		// Ctrl+U

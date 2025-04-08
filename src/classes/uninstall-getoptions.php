@@ -5,14 +5,17 @@
 defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
 
 function neohp_delete_options() {
+	delete_option('neohp_alert_a');
 	delete_option('neohp_alert_beep');
 	delete_option('neohp_alert_c');
+	delete_option('neohp_alert_copycut');
 	delete_option('neohp_alert_ctrlshift');
 	delete_option('neohp_alert_d');
 	delete_option('neohp_alert_design');
 	delete_option('neohp_alert_f12');
 	delete_option('neohp_alert_i');
 	delete_option('neohp_alert_j');
+	delete_option('neohp_alert_k');
 	delete_option('neohp_alert_message_lang');
 	delete_option('neohp_alert_mouse');
 	delete_option('neohp_alert_p');
@@ -48,6 +51,7 @@ function neohp_delete_options() {
 	delete_option('neohp_redirect_url');
 	delete_option('neohp_rightclick_message');
 	delete_option('neohp_save_message');
+	delete_option('neohp_textselect_message');
 	delete_option('neohp_view-source_message_lang');
 	delete_option('neohp_view_source_alert_asciiart');
 }

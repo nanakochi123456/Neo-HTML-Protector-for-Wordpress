@@ -47,6 +47,18 @@ class neohp_javascript {
 		if(get_option('neohp_alert_p', '1') === '1')   { $html.="p";}
 		if(get_option('neohp_alert_p', '1') === '2')   { $html.="P";}
 
+		if(get_option('neohp_alert_a', '2') === '1')   { $html.="h";}
+		if(get_option('neohp_alert_a', '2') === '2')   { $html.="H";}
+
+		if(get_option('neohp_alert_k', '2') === '1')   { $html.="k";}
+		if(get_option('neohp_alert_k', '2') === '2')   { $html.="K";}
+
+		if(get_option('neohp_alert_c', '2') === '1')   { $html.="c";}
+		if(get_option('neohp_alert_c', '2') === '2')   { $html.="C";}
+
+		if(get_option('neohp_alert_copycut', '2') === '1')   { $html.="y";}
+		if(get_option('neohp_alert_copycut', '2') === '2')   { $html.="Y";}
+
 		if(get_option('neohp_alert_d', '0') === '1')   { $html.="d";}
 
 		if(get_option('neohp_imageprotectjs', '0') === '1') { $html.="z";}
@@ -55,8 +67,8 @@ class neohp_javascript {
 		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
 		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
 
-		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="g";}
-		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="G";}
+		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="x";}
+		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="X";}
 
 		if(get_option('neohp_alert_design', '0') === '1') { $html.="b";}
 		if(get_option('neohp_alert_design', '0') === '2') { $html.="B";}
@@ -78,8 +90,13 @@ class neohp_javascript {
 		}
 
 		$script = "const 
-			NeoHPHome='"  . esc_js($home) . "',
-			NeoHPPlag='"  . esc_js($plugin)."',
+			NeoHPHome='"  . esc_js($home) . "',";
+		if($plugin !== '') {
+			$script .= "
+				NeoHPPlag='"  . esc_js($plugin)."',";
+		}
+
+		$script .= "
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPTime="   . esc_js($time) . ",

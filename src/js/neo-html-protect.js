@@ -19,12 +19,15 @@
 	let		pKey='p'	+ nullstr;
 	let		sKey='s'	+ nullstr;
 	let		zKey='z'	+ nullstr;
+	let		kKey='k'	+ nullstr;
+	let		aKey='a'	+ nullstr;
+	let		cKey='c'	+ nullstr;
 	let		divKey='b'	+ nullstr;
 	let		rClick='r'	+ nullstr;
-	let		CopyCut='c'	+ nullstr;
+	let		CopyCut='y'	+ nullstr;
 	let		F5Key='F5'	+ nullstr;
-	let		PrintScreen='a'	+ nullstr;
-	let		CtrlShift='g'	+ nullstr;
+	let		PrintScreen='n'	+ nullstr;
+	let		CtrlShift='x'	+ nullstr;
 	let		none='none'	+ nullstr;
 	let		undefined='undefined'	+ nullstr;
 	let		Document=document;
@@ -37,6 +40,7 @@
 	let		macOS = 'macOS'		+ nullstr;
 	let		ChromeOS = 'Chrome OS'	+ nullstr;
 	let		Safari='Safari'	+ nullstr;
+	let		Firefox='Firefox'	+ nullstr;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -58,7 +62,6 @@
 
 		let		Chrome='Chrome'		+ nullstr;
 		let		Edge='Edge'			+ nullstr;
-		let		Firefox='Firefox'	+ nullstr;
 		let		Opera='Opera'		+ nullstr;
 		let		OPR="OPR"			+ slash;
 		let		EDG="EDG"			+ slash;
@@ -383,36 +386,6 @@
 			}
 		}
 
-		// スクショの疑い
-		if(FlagSmall.includes(CtrlShift)) {
-			if(ua.includes(Windows)) {
-				if (meta && shift) {
-					sendIpToServer(WinKey + ShiftKey + hatena, fKey);
-					stop(event);
-				}
-				if (ctrl && shift) {
-					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
-					stop(event);
-				}
-				if (meta && alt) {
-					sendIpToServer(WinKey + AltKey + hatena, fKey);
-					stop(event);
-				}
-			}
-			if(ua.includes(ChromeOS)) {
-				if (ctrl && shift) {
-					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
-					stop(event);
-				}
-			}
-			if(ua.includes(macOS)) {
-				if (meta && shift) {
-					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
-					stop(event);
-				}
-			}
-		}
-
 		// F12
 		if(FlagSmall.includes(fKey)) {
 			if (code === 123) {
@@ -425,6 +398,32 @@
 		if(FlagSmall.includes(iKey)) {
 			if (ctrl && shift && lower(key) === iKey) {
 				sendIpToServer(CtrlKey+ShiftKey+upper(iKey), iKey);
+				stop(event);
+			}
+		}
+
+		// Ctrl+Shift+K (Firefox)
+		if(ua.includes(Firefox)) {
+			if(FlagSmall.includes(kKey)) {
+				if (ctrl && shift && lower(key) === kKey) {
+					sendIpToServer(CtrlKey+ShiftKey+upper(kKey), kKey);
+					stop(event);
+				}
+			}
+		}
+
+		// Ctrl+A
+		if(FlagSmall.includes(aKey)) {
+			if (ctrl && lower(key) === aKey) {
+				sendIpToServer(CtrlKey+ShiftKey+upper(aKey), aKey);
+				stop(event);
+			}
+		}
+
+		// Ctrl+Shift+C
+		if(FlagSmall.includes(cKey)) {
+			if (ctrl && shift && lower(key) === cKey) {
+				sendIpToServer(CtrlKey+ShiftKey+upper(cKey), cKey);
 				stop(event);
 			}
 		}
@@ -467,6 +466,36 @@
 			if (ctrl && lower(key) === sKey) {
 				sendIpToServer(CtrlKey+upper(sKey), sKey);
 				stop(event);
+			}
+		}
+
+		// スクショの疑いなど
+		if(FlagSmall.includes(CtrlShift)) {
+			if(ua.includes(Windows)) {
+				if (meta && shift) {
+					sendIpToServer(WinKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+				if (ctrl && shift) {
+					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+				if (meta && alt) {
+					sendIpToServer(WinKey + AltKey + hatena, fKey);
+					stop(event);
+				}
+			}
+			if(ua.includes(ChromeOS)) {
+				if (ctrl && shift) {
+					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
+					stop(event);
+				}
+			}
+			if(ua.includes(macOS)) {
+				if (meta && shift) {
+					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
+					stop(event);
+				}
 			}
 		}
 	});
@@ -801,7 +830,7 @@
 					}
 
 					// Audio要素を作成
-					if(NeoHPPlag !== nullstr) {
+					if(typeof NeoHPPlag !== undefined) {
 						if(!Window.NeoPlayed) {
 							Window.NeoPlayed = true;
 							var audio = new Audio(NeoHPPlag);

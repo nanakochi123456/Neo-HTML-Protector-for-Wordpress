@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:32+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -62,6 +62,9 @@ msgstr "Skærmbillede af advarsler."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Påstået advarsel om skærmbillede."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Advarselsmeddelelse, når al tekst er valgt."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Advarselsmeddelelse om sideopbevaring."
@@ -252,6 +255,9 @@ msgstr "Aflytning + registrering + visning + omdirigering"
 msgid "メニューからは操作できてしまいます"
 msgstr "Den kan betjenes fra menuen."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Fejlfindingstilstand i Firefox"
+
 msgid "ブラウザーコンソール"
 msgstr "Browser-konsol"
 
@@ -282,6 +288,9 @@ msgstr "Formodede skærmbilleder."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Opdagelsesmetoden for ovenstående punkter er ikke perfekt, og der anvendes forebyggende opdagelse."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Den registrerer skærmbilleder samt fejlsøgningstilstande osv."
+
 msgid "ページ保存"
 msgstr "Gem side"
 
@@ -296,6 +305,9 @@ msgstr "Copy-cut"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "Vi oplever ikke denne begivenhed særlig ofte."
+
+msgid "テキスト全選択"
+msgstr "Valg af fuld tekst"
 
 msgid "テキスト選択"
 msgstr "Valg af tekst"
@@ -555,6 +567,9 @@ msgstr "Nulstilling til standard"
 msgid "デザイン・音の設定"
 msgstr "Design og lydindstillinger"
 
+msgid "イベントの設定"
+msgstr "Konfiguration af begivenheder."
+
 msgid "メッセージの設定"
 msgstr "Indstillinger for beskeder"
 
@@ -725,6 +740,9 @@ msgstr "Det er forbudt at kopiere eller klippe."
 
 msgid "あなたが起こしたイベント"
 msgstr "Begivenheder, du har forårsaget."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Tekstvalg er forbudt."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "Visning af HTML-kilder er forbudt."

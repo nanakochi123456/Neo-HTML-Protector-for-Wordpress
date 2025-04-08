@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.3\n"
+"Project-Id-Version: Neo HTML Protector 0.1.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 14:31+0900\n"
-"PO-Revision-Date: 2025-04-08 14:33+0900\n"
+"POT-Creation-Date: 2025-04-08 17:51+0900\n"
+"PO-Revision-Date: 2025-04-08 17:51+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -62,6 +62,9 @@ msgstr "Ekrano nuotraukos įspėjamieji pranešimai."
 
 msgid "スクリーンショットの疑いの警告メッセージ"
 msgstr "Tariamas ekrano nuotraukos įspėjamasis pranešimas."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Įspėjamasis pranešimas, kai pasirenkamas visas tekstas."
 
 msgid "ページ保存の警告メッセージ"
 msgstr "Puslapio išsaugojimo įspėjamasis pranešimas."
@@ -252,6 +255,9 @@ msgstr "Perėmimas + įrašymas + rodymas + nukreipimas"
 msgid "メニューからは操作できてしまいます"
 msgstr "Jį galima valdyti iš meniu."
 
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Firefox derinimo režimas"
+
 msgid "ブラウザーコンソール"
 msgstr "Naršyklės konsolė"
 
@@ -282,6 +288,9 @@ msgstr "Įtariamos ekrano nuotraukos."
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Minėtų elementų aptikimo metodas nėra tobulas, naudojamas prevencinis aptikimas."
 
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ji aptinka ekrano nuotraukas, taip pat derinimo režimus ir kt."
+
 msgid "ページ保存"
 msgstr "Puslapio išsaugojimas"
 
@@ -296,6 +305,9 @@ msgstr "Kopijuoti-išpjauti"
 
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr "Su tokiu įvykiu susiduriame nedažnai."
+
+msgid "テキスト全選択"
+msgstr "Viso teksto atranka"
 
 msgid "テキスト選択"
 msgstr "Teksto pasirinkimas"
@@ -555,6 +567,9 @@ msgstr "Numatytųjų nustatymų atkūrimas"
 msgid "デザイン・音の設定"
 msgstr "Dizainas ir garso nustatymai"
 
+msgid "イベントの設定"
+msgstr "Įvykio konfigūracija."
+
 msgid "メッセージの設定"
 msgstr "Pranešimų nustatymai"
 
@@ -725,6 +740,9 @@ msgstr "Draudžiama kopijuoti ar karpyti."
 
 msgid "あなたが起こしたイベント"
 msgstr "Įvykiai, kuriuos sukėlėte."
+
+msgid "テキストの選択は禁止されています"
+msgstr "Teksto pasirinkimas draudžiamas."
 
 msgid "HTMLソース表示は禁止されています"
 msgstr "HTML šaltinį rodyti draudžiama."

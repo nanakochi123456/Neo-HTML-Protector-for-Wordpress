@@ -150,6 +150,25 @@ class neohp_admin {
 				'neohp_message_section'
 			);
 
+			// テキスト全選択時のメッセージ
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_message_group', 'neohp_textselect_message', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_textselect_message',
+				__('テキスト全選択時の警告メッセージ', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_textselect_message', $neohp_textselect_default );
+					echo '<input type="text" name="neohp_textselect_message" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-message-settings',
+				'neohp_message_section'
+			);
+
 			// 保存のAlert メッセージ
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_message_group', 'neohp_save_message', array(
@@ -564,7 +583,7 @@ class neohp_admin {
 
 			// F12
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_f12', array(
+			register_setting('neohp_event_group', 'neohp_alert_f12', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -581,13 +600,13 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Ctrl+Shift+I
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_i', array(
+			register_setting('neohp_event_group', 'neohp_alert_i', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -604,13 +623,36 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
+			);
+
+			// Ctrl+Shift+K
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_event_group', 'neohp_alert_k', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_k',
+				'Ctrl+Shift+K (' . __('Firefoxにおけるデバッグモード', 'neo-html-protector') . ')',
+				function() {
+					$value = esc_html(get_option('neohp_alert_k', '2'));
+					echo wp_kses( $this->getselect("neohp_alert_k", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
+				},
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Ctrl+Shift+J
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_j', array(
+			register_setting('neohp_event_group', 'neohp_alert_j', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -627,13 +669,13 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('事実上デバッグモードから操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Ctrl+U
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_u', array(
+			register_setting('neohp_event_group', 'neohp_alert_u', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -650,13 +692,13 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('view-source:から始まるURLを入力すれば操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Ctrl+P
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_p', array(
+			register_setting('neohp_event_group', 'neohp_alert_p', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -674,13 +716,13 @@ class neohp_admin {
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('印刷阻止をするもものの、ブラウザによってはうまく動作しません', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// PrintScreen
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_printscreen', array(
+			register_setting('neohp_event_group', 'neohp_alert_printscreen', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -701,13 +743,13 @@ class neohp_admin {
 					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
 					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// スクリーンショットの疑い
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_ctrlshift', array(
+			register_setting('neohp_event_group', 'neohp_alert_ctrlshift', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -723,17 +765,18 @@ class neohp_admin {
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('上の項目の検出方法は完全ではありません、予防的に検出を行います', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('スクリーンショットだけではなく、デバッグモード等も検出します', 'neo-html-protector') );
 					echo '<br>Windows = Windows+Shift, Ctrl+Shift, Windows+Alt';
 					echo '<br>macOS = Shift+Command';
 					echo '<br>Chrome OS = Ctrl+Shift';
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Ctrl+S
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_s', array(
+			register_setting('neohp_event_group', 'neohp_alert_s', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -750,13 +793,13 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('メニューからは操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Right Click
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_r', array(
+			register_setting('neohp_event_group', 'neohp_alert_r', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -773,36 +816,60 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// Copy/Cut
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_c', array(
+			register_setting('neohp_event_group', 'neohp_alert_copycut', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
 
 			add_settings_field(
-				'neohp_alert_c',
+				'neohp_alert_copycut',
 				__('コピー・カット', 'neo-html-protector'),
 				function() {
-					$value = esc_html(get_option('neohp_alert_c', '1'));
-					echo wp_kses( $this->getselect("neohp_alert_c", $value
+					$value = esc_html(get_option('neohp_alert_copycut', '1'));
+					echo wp_kses( $this->getselect("neohp_alert_copycut", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('あまりこのイベントに遭遇することはありません', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
+
+			// Ctrl+A selection
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_event_group', 'neohp_alert_a', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_a',
+				'Ctrl+A (' . __('テキスト全選択', 'neo-html-protector') . ')',
+				function() {
+					$value = esc_html(get_option('neohp_alert_a', '2'));
+					echo wp_kses( $this->getselect("neohp_alert_a", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
+				},
+				'neohp-event-settings',
+				'neohp_event_section'
+			);
+
 
 			// selection
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_t', array(
+			register_setting('neohp_event_group', 'neohp_alert_t', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -818,8 +885,8 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
 				},
-				'neohp-settings',
-				'neohp_basic_section'
+				'neohp-event-settings',
+				'neohp_event_section'
 			);
 
 			// debugger
@@ -1217,6 +1284,14 @@ class neohp_admin {
 				'neohp-design-settings'
 			);
 
+			add_settings_section(
+				'neohp_event_section',
+				__('イベントの設定', 'neo-html-protector'),
+				function() {
+				},
+				'neohp-event-settings'
+			);
+
 			// セクションの追加
 			add_settings_section(
 				'neohp_message_section',
@@ -1249,6 +1324,7 @@ class neohp_admin {
 			<h1><?php echo esc_html( __('Neo HTML Protector 設定', 'neo-html-protector') ) ?></h1>
 			<h2 class="nav-tab-wrapper">
 				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('基本設定', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=event" class="nav-tab <?php echo $active_tab === 'event' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('イベントの設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('メッセージの設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=design" class="nav-tab <?php echo $active_tab === 'design' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('デザイン・音の設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('高度な設定', 'neo-html-protector') ) ?></a>
@@ -1264,6 +1340,8 @@ class neohp_admin {
 				$this->advanced_settings();
 			} elseif ($active_tab === 'design') {
 				$this->design_settings();
+			} elseif ($active_tab === 'event') {
+				$this->event_settings();
 			} elseif ($active_tab === 'clear') {
 				$this->all_clear();
 			} elseif ($active_tab === 'about') {
@@ -1297,6 +1375,21 @@ class neohp_admin {
 				$this->cache_alert();
 				settings_fields('neohp_design_group');
 				do_settings_sections('neohp-design-settings');
+				submit_button();
+				?>
+			</form>
+		</div>
+		<?php
+	}
+
+	function event_settings() {
+		?>
+		<div class="wrap">
+			<form method="post" action="options.php">
+				<?php
+				$this->cache_alert();
+				settings_fields('neohp_event_group');
+				do_settings_sections('neohp-event-settings');
 				submit_button();
 				?>
 			</form>
