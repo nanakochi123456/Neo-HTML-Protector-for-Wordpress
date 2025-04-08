@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-08 08:48+0900\n"
+"POT-Creation-Date: 2025-04-08 11:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgstr ""
 msgid "タイムスタンプ"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:126 classes/neohp-admin.php:1226
+#: classes/neohp-admin-iplogreader.php:126 classes/neohp-admin.php:1229
 msgid "IPアドレス"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:127 classes/neohp-admin.php:1227
+#: classes/neohp-admin-iplogreader.php:127 classes/neohp-admin.php:1230
 msgid "ユーザーエージェント"
 msgstr ""
 
@@ -121,21 +121,21 @@ msgstr ""
 
 #: classes/neohp-admin.php:296 classes/neohp-admin.php:318
 #: classes/neohp-admin.php:344 classes/neohp-admin.php:376
-#: classes/neohp-admin.php:524 classes/neohp-admin.php:549
-#: classes/neohp-admin.php:573 classes/neohp-admin.php:596
-#: classes/neohp-admin.php:619 classes/neohp-admin.php:642
-#: classes/neohp-admin.php:665 classes/neohp-admin.php:689
-#: classes/neohp-admin.php:716 classes/neohp-admin.php:742
-#: classes/neohp-admin.php:765 classes/neohp-admin.php:788
-#: classes/neohp-admin.php:811 classes/neohp-admin.php:833
-#: classes/neohp-admin.php:922 classes/neohp-admin.php:1012
+#: classes/neohp-admin.php:527 classes/neohp-admin.php:552
+#: classes/neohp-admin.php:576 classes/neohp-admin.php:599
+#: classes/neohp-admin.php:622 classes/neohp-admin.php:645
+#: classes/neohp-admin.php:668 classes/neohp-admin.php:692
+#: classes/neohp-admin.php:719 classes/neohp-admin.php:745
+#: classes/neohp-admin.php:768 classes/neohp-admin.php:791
+#: classes/neohp-admin.php:814 classes/neohp-admin.php:836
+#: classes/neohp-admin.php:925 classes/neohp-admin.php:1015
 msgid "無効"
 msgstr ""
 
 #: classes/neohp-admin.php:297 classes/neohp-admin.php:319
-#: classes/neohp-admin.php:377 classes/neohp-admin.php:550
-#: classes/neohp-admin.php:834 classes/neohp-admin.php:923
-#: classes/neohp-admin.php:1013
+#: classes/neohp-admin.php:377 classes/neohp-admin.php:553
+#: classes/neohp-admin.php:837 classes/neohp-admin.php:926
+#: classes/neohp-admin.php:1016
 msgid "有効"
 msgstr ""
 
@@ -284,666 +284,678 @@ msgid "おやじ ロング - 22.7秒"
 msgstr ""
 
 #: classes/neohp-admin.php:478
-msgid "ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒"
+msgid "マリンバの乱打 - 演奏版 - 37.8秒"
 msgstr ""
 
 #: classes/neohp-admin.php:479
-msgid "ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒"
+msgid "パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒"
 msgstr ""
 
 #: classes/neohp-admin.php:480
-msgid "レトロ風ファンファーレ - 2.2秒"
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒"
 msgstr ""
 
 #: classes/neohp-admin.php:481
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒"
+msgstr ""
+
+#: classes/neohp-admin.php:482
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒"
+msgstr ""
+
+#: classes/neohp-admin.php:483
+msgid "レトロ風ファンファーレ - 2.2秒"
+msgstr ""
+
+#: classes/neohp-admin.php:484
 msgid "レトロ風オープン - 41.2秒"
 msgstr ""
 
-#: classes/neohp-admin.php:502
+#: classes/neohp-admin.php:505
 msgid "警告表示中のBGMを選択します"
 msgstr ""
 
-#: classes/neohp-admin.php:518
+#: classes/neohp-admin.php:521
 msgid "対象アクションを起こした時の警告音"
 msgstr ""
 
-#: classes/neohp-admin.php:525
+#: classes/neohp-admin.php:528
 msgid "有効 音量小さ目"
 msgstr ""
 
-#: classes/neohp-admin.php:526
+#: classes/neohp-admin.php:529
 msgid "有効 音量大き目"
 msgstr ""
 
-#: classes/neohp-admin.php:528
+#: classes/neohp-admin.php:531
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr ""
 
-#: classes/neohp-admin.php:543
+#: classes/neohp-admin.php:546
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr ""
 
-#: classes/neohp-admin.php:552
+#: classes/neohp-admin.php:555
 msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
 msgstr ""
 
-#: classes/neohp-admin.php:569 classes/neohp-admin.php:592
+#: classes/neohp-admin.php:572 classes/neohp-admin.php:595
 msgid "デバッグモード"
 msgstr ""
 
-#: classes/neohp-admin.php:574 classes/neohp-admin.php:597
-#: classes/neohp-admin.php:620 classes/neohp-admin.php:643
-#: classes/neohp-admin.php:666 classes/neohp-admin.php:690
-#: classes/neohp-admin.php:717 classes/neohp-admin.php:743
-#: classes/neohp-admin.php:766 classes/neohp-admin.php:789
-#: classes/neohp-admin.php:812
+#: classes/neohp-admin.php:577 classes/neohp-admin.php:600
+#: classes/neohp-admin.php:623 classes/neohp-admin.php:646
+#: classes/neohp-admin.php:669 classes/neohp-admin.php:693
+#: classes/neohp-admin.php:720 classes/neohp-admin.php:746
+#: classes/neohp-admin.php:769 classes/neohp-admin.php:792
+#: classes/neohp-admin.php:815
 msgid "妨害＋記録のみ"
 msgstr ""
 
-#: classes/neohp-admin.php:575 classes/neohp-admin.php:598
-#: classes/neohp-admin.php:621 classes/neohp-admin.php:644
-#: classes/neohp-admin.php:667 classes/neohp-admin.php:691
-#: classes/neohp-admin.php:718 classes/neohp-admin.php:744
-#: classes/neohp-admin.php:767 classes/neohp-admin.php:790
+#: classes/neohp-admin.php:578 classes/neohp-admin.php:601
+#: classes/neohp-admin.php:624 classes/neohp-admin.php:647
+#: classes/neohp-admin.php:670 classes/neohp-admin.php:694
+#: classes/neohp-admin.php:721 classes/neohp-admin.php:747
+#: classes/neohp-admin.php:770 classes/neohp-admin.php:793
 msgid "妨害＋記録＋表示＋リダイレクト"
 msgstr ""
 
-#: classes/neohp-admin.php:577 classes/neohp-admin.php:600
-#: classes/neohp-admin.php:669 classes/neohp-admin.php:746
+#: classes/neohp-admin.php:580 classes/neohp-admin.php:603
+#: classes/neohp-admin.php:672 classes/neohp-admin.php:749
 msgid "メニューからは操作できてしまいます"
 msgstr ""
 
-#: classes/neohp-admin.php:615
+#: classes/neohp-admin.php:618
 msgid "ブラウザーコンソール"
 msgstr ""
 
-#: classes/neohp-admin.php:623
+#: classes/neohp-admin.php:626
 msgid "事実上デバッグモードから操作できてしまいます"
 msgstr ""
 
-#: classes/neohp-admin.php:638
+#: classes/neohp-admin.php:641
 msgid "HTMLソース表示"
 msgstr ""
 
-#: classes/neohp-admin.php:646
+#: classes/neohp-admin.php:649
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr ""
 
-#: classes/neohp-admin.php:661
+#: classes/neohp-admin.php:664
 msgid "印刷"
 msgstr ""
 
-#: classes/neohp-admin.php:670
+#: classes/neohp-admin.php:673
 msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
 msgstr ""
 
-#: classes/neohp-admin.php:685
+#: classes/neohp-admin.php:688
 msgid "スクリーンショット"
 msgstr ""
 
-#: classes/neohp-admin.php:693
+#: classes/neohp-admin.php:696
 msgid ""
 "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr ""
 
-#: classes/neohp-admin.php:712
+#: classes/neohp-admin.php:715
 msgid "スクリーンショットの疑い"
 msgstr ""
 
-#: classes/neohp-admin.php:720
+#: classes/neohp-admin.php:723
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr ""
 
-#: classes/neohp-admin.php:738
+#: classes/neohp-admin.php:741
 msgid "ページ保存"
 msgstr ""
 
-#: classes/neohp-admin.php:761
+#: classes/neohp-admin.php:764
 msgid "右クリック"
 msgstr ""
 
-#: classes/neohp-admin.php:769 classes/neohp-admin.php:814
+#: classes/neohp-admin.php:772 classes/neohp-admin.php:817
 msgid "アドオンがインストールされていると操作できてしまいます"
 msgstr ""
 
-#: classes/neohp-admin.php:784
+#: classes/neohp-admin.php:787
 msgid "コピー・カット"
 msgstr ""
 
-#: classes/neohp-admin.php:792
+#: classes/neohp-admin.php:795
 msgid "あまりこのイベントに遭遇することはありません"
 msgstr ""
 
-#: classes/neohp-admin.php:807
+#: classes/neohp-admin.php:810
 msgid "テキスト選択"
 msgstr ""
 
-#: classes/neohp-admin.php:829 classes/neohp-admin.php:918
+#: classes/neohp-admin.php:832 classes/neohp-admin.php:921
 msgid "デバッガー妨害"
 msgstr ""
 
-#: classes/neohp-admin.php:836 classes/neohp-admin.php:925
+#: classes/neohp-admin.php:839 classes/neohp-admin.php:928
 msgid ""
 "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止めら"
 "れてしまいます"
 msgstr ""
 
-#: classes/neohp-admin.php:851
+#: classes/neohp-admin.php:854
 msgid "リダイレクトするURL"
 msgstr ""
 
-#: classes/neohp-admin.php:856
+#: classes/neohp-admin.php:859
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr ""
 
-#: classes/neohp-admin.php:857
+#: classes/neohp-admin.php:860
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr ""
 
-#: classes/neohp-admin.php:872
+#: classes/neohp-admin.php:875
 msgid "リダイレクトまでの時間"
 msgstr ""
 
-#: classes/neohp-admin.php:876
+#: classes/neohp-admin.php:879
 msgid "リダイレクトなし"
 msgstr ""
 
-#: classes/neohp-admin.php:877
+#: classes/neohp-admin.php:880
 msgid "1秒"
 msgstr ""
 
-#: classes/neohp-admin.php:878
+#: classes/neohp-admin.php:881
 msgid "2秒"
 msgstr ""
 
-#: classes/neohp-admin.php:879
+#: classes/neohp-admin.php:882
 msgid "3秒"
 msgstr ""
 
-#: classes/neohp-admin.php:880
+#: classes/neohp-admin.php:883
 msgid "4秒"
 msgstr ""
 
-#: classes/neohp-admin.php:881
+#: classes/neohp-admin.php:884
 msgid "5秒"
 msgstr ""
 
-#: classes/neohp-admin.php:882
+#: classes/neohp-admin.php:885
 msgid "6秒"
 msgstr ""
 
-#: classes/neohp-admin.php:883
+#: classes/neohp-admin.php:886
 msgid "7秒"
 msgstr ""
 
-#: classes/neohp-admin.php:884
+#: classes/neohp-admin.php:887
 msgid "8秒"
 msgstr ""
 
-#: classes/neohp-admin.php:885
+#: classes/neohp-admin.php:888
 msgid "9秒"
 msgstr ""
 
-#: classes/neohp-admin.php:886
+#: classes/neohp-admin.php:889
 msgid "10秒"
 msgstr ""
 
-#: classes/neohp-admin.php:887
+#: classes/neohp-admin.php:890
 msgid "15秒"
 msgstr ""
 
-#: classes/neohp-admin.php:888
+#: classes/neohp-admin.php:891
 msgid "20秒"
 msgstr ""
 
-#: classes/neohp-admin.php:889
+#: classes/neohp-admin.php:892
 msgid "25秒"
 msgstr ""
 
-#: classes/neohp-admin.php:890
+#: classes/neohp-admin.php:893
 msgid "30秒"
 msgstr ""
 
-#: classes/neohp-admin.php:891
+#: classes/neohp-admin.php:894
 msgid "35秒"
 msgstr ""
 
-#: classes/neohp-admin.php:892
+#: classes/neohp-admin.php:895
 msgid "40秒"
 msgstr ""
 
-#: classes/neohp-admin.php:893
+#: classes/neohp-admin.php:896
 msgid "45秒"
 msgstr ""
 
-#: classes/neohp-admin.php:894
+#: classes/neohp-admin.php:897
 msgid "50秒"
 msgstr ""
 
-#: classes/neohp-admin.php:895
+#: classes/neohp-admin.php:898
 msgid "55秒"
 msgstr ""
 
-#: classes/neohp-admin.php:896 classes/neohp-admin.php:1092
+#: classes/neohp-admin.php:899 classes/neohp-admin.php:1095
 msgid "1分"
 msgstr ""
 
-#: classes/neohp-admin.php:897
+#: classes/neohp-admin.php:900
 msgid "1分10秒"
 msgstr ""
 
-#: classes/neohp-admin.php:898
+#: classes/neohp-admin.php:901
 msgid "1分20秒"
 msgstr ""
 
-#: classes/neohp-admin.php:899
+#: classes/neohp-admin.php:902
 msgid "1分30秒"
 msgstr ""
 
-#: classes/neohp-admin.php:900
+#: classes/neohp-admin.php:903
 msgid "1分40秒"
 msgstr ""
 
-#: classes/neohp-admin.php:901
+#: classes/neohp-admin.php:904
 msgid "1分50秒"
 msgstr ""
 
-#: classes/neohp-admin.php:902 classes/neohp-admin.php:1093
+#: classes/neohp-admin.php:905 classes/neohp-admin.php:1096
 msgid "2分"
 msgstr ""
 
-#: classes/neohp-admin.php:940
+#: classes/neohp-admin.php:943
 msgid "ソース表示を許可する権限"
 msgstr ""
 
-#: classes/neohp-admin.php:944
+#: classes/neohp-admin.php:947
 msgid "ADMINログイン時のみ通常のソース出力"
 msgstr ""
 
-#: classes/neohp-admin.php:945
+#: classes/neohp-admin.php:948
 msgid "USERログインで通常のソース出力"
 msgstr ""
 
-#: classes/neohp-admin.php:947
+#: classes/neohp-admin.php:950
 msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
 msgstr ""
 
-#: classes/neohp-admin.php:962
+#: classes/neohp-admin.php:965
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
 msgstr ""
 
-#: classes/neohp-admin.php:966
+#: classes/neohp-admin.php:969
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr ""
 
-#: classes/neohp-admin.php:967
+#: classes/neohp-admin.php:970
 msgid "PNG形式で黄色い背景の警告画面"
 msgstr ""
 
-#: classes/neohp-admin.php:968
+#: classes/neohp-admin.php:971
 msgid "意味のないHTMLドキュメント"
 msgstr ""
 
-#: classes/neohp-admin.php:984
+#: classes/neohp-admin.php:987
 msgid "HTML保護時のHEADタグの出力"
 msgstr ""
 
-#: classes/neohp-admin.php:988
+#: classes/neohp-admin.php:991
 msgid "出力しない"
 msgstr ""
 
-#: classes/neohp-admin.php:989
+#: classes/neohp-admin.php:992
 msgid "TITLEタグのみ"
 msgstr ""
 
-#: classes/neohp-admin.php:990
+#: classes/neohp-admin.php:993
 msgid "WordpressのHEADタグより取得"
 msgstr ""
 
-#: classes/neohp-admin.php:992
+#: classes/neohp-admin.php:995
 msgid ""
 "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」"
 "で良いでしょう"
 msgstr ""
 
-#: classes/neohp-admin.php:993
+#: classes/neohp-admin.php:996
 msgid ""
 "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
 msgstr ""
 
-#: classes/neohp-admin.php:1008
+#: classes/neohp-admin.php:1011
 msgid "画像botをアクセス禁止にする"
 msgstr ""
 
-#: classes/neohp-admin.php:1015
+#: classes/neohp-admin.php:1018
 msgid ""
 "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって"
 "守れなかったコンテンツを守ることができます"
 msgstr ""
 
-#: classes/neohp-admin.php:1030
+#: classes/neohp-admin.php:1033
 msgid "alertメッセージを表示する言語"
 msgstr ""
 
-#: classes/neohp-admin.php:1040 classes/neohp-admin.php:1069
+#: classes/neohp-admin.php:1043 classes/neohp-admin.php:1072
 msgid "Wordpressの言語"
 msgstr ""
 
-#: classes/neohp-admin.php:1041 classes/neohp-admin.php:1070
+#: classes/neohp-admin.php:1044 classes/neohp-admin.php:1073
 msgid "ブラウザの設定言語"
 msgstr ""
 
-#: classes/neohp-admin.php:1044 classes/neohp-admin.php:1073
+#: classes/neohp-admin.php:1047 classes/neohp-admin.php:1076
 msgid "メッセージをカスタム設定されている場合は言語を変更できません"
 msgstr ""
 
-#: classes/neohp-admin.php:1059
+#: classes/neohp-admin.php:1062
 msgid "view-sourceメッセージを表示する言語"
 msgstr ""
 
-#: classes/neohp-admin.php:1088
+#: classes/neohp-admin.php:1091
 msgid "一時使用トークンの有効期限"
 msgstr ""
 
-#: classes/neohp-admin.php:1094
+#: classes/neohp-admin.php:1097
 msgid "3分"
 msgstr ""
 
-#: classes/neohp-admin.php:1095
+#: classes/neohp-admin.php:1098
 msgid "4分"
 msgstr ""
 
-#: classes/neohp-admin.php:1096
+#: classes/neohp-admin.php:1099
 msgid "5分"
 msgstr ""
 
-#: classes/neohp-admin.php:1097
+#: classes/neohp-admin.php:1100
 msgid "6分"
 msgstr ""
 
-#: classes/neohp-admin.php:1098
+#: classes/neohp-admin.php:1101
 msgid "7分"
 msgstr ""
 
-#: classes/neohp-admin.php:1099
+#: classes/neohp-admin.php:1102
 msgid "8分"
 msgstr ""
 
-#: classes/neohp-admin.php:1100
+#: classes/neohp-admin.php:1103
 msgid "9分"
 msgstr ""
 
-#: classes/neohp-admin.php:1101
+#: classes/neohp-admin.php:1104
 msgid "10分"
 msgstr ""
 
-#: classes/neohp-admin.php:1102
+#: classes/neohp-admin.php:1105
 msgid "15分"
 msgstr ""
 
-#: classes/neohp-admin.php:1103
+#: classes/neohp-admin.php:1106
 msgid "20分"
 msgstr ""
 
-#: classes/neohp-admin.php:1104
+#: classes/neohp-admin.php:1107
 msgid "25分"
 msgstr ""
 
-#: classes/neohp-admin.php:1105
+#: classes/neohp-admin.php:1108
 msgid "30分"
 msgstr ""
 
-#: classes/neohp-admin.php:1106
+#: classes/neohp-admin.php:1109
 msgid "35分"
 msgstr ""
 
-#: classes/neohp-admin.php:1107
+#: classes/neohp-admin.php:1110
 msgid "40分"
 msgstr ""
 
-#: classes/neohp-admin.php:1108
+#: classes/neohp-admin.php:1111
 msgid "45分"
 msgstr ""
 
-#: classes/neohp-admin.php:1109
+#: classes/neohp-admin.php:1112
 msgid "50分"
 msgstr ""
 
-#: classes/neohp-admin.php:1110
+#: classes/neohp-admin.php:1113
 msgid "55分"
 msgstr ""
 
-#: classes/neohp-admin.php:1111
+#: classes/neohp-admin.php:1114
 msgid "1時間"
 msgstr ""
 
-#: classes/neohp-admin.php:1113
+#: classes/neohp-admin.php:1116
 msgid "画像URL情報の有効期限を設定します"
 msgstr ""
 
-#: classes/neohp-admin.php:1114
+#: classes/neohp-admin.php:1117
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr ""
 
-#: classes/neohp-admin.php:1129
+#: classes/neohp-admin.php:1132
 msgid "一時使用トークンのビット数"
 msgstr ""
 
-#: classes/neohp-admin.php:1146
+#: classes/neohp-admin.php:1149
 msgid ""
 "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、そ"
 "の強度を指定します"
 msgstr ""
 
-#: classes/neohp-admin.php:1147
+#: classes/neohp-admin.php:1150
 msgid ""
 "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるもの"
 "の、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
 msgstr ""
 
-#: classes/neohp-admin.php:1162
+#: classes/neohp-admin.php:1165
 msgid "ハッシュ化アルゴリズム"
 msgstr ""
 
-#: classes/neohp-admin.php:1175
+#: classes/neohp-admin.php:1178
 msgid ""
 "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、そ"
 "の時ハッシュ化が必要です、その強度を設定します"
 msgstr ""
 
-#: classes/neohp-admin.php:1176
+#: classes/neohp-admin.php:1179
 msgid ""
 "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるもの"
 "の、サーバーへの負荷が高くなります"
 msgstr ""
 
-#: classes/neohp-admin.php:1185 classes/neohp-admin.php:1246
+#: classes/neohp-admin.php:1188 classes/neohp-admin.php:1249
 msgid "基本設定"
 msgstr ""
 
-#: classes/neohp-admin.php:1193 classes/neohp-admin.php:1249
+#: classes/neohp-admin.php:1196 classes/neohp-admin.php:1252
 msgid "高度な設定"
 msgstr ""
 
-#: classes/neohp-admin.php:1201 classes/neohp-admin.php:1250
-#: classes/neohp-admin.php:1359
+#: classes/neohp-admin.php:1204 classes/neohp-admin.php:1253
+#: classes/neohp-admin.php:1362
 msgid "初期設定に戻す"
 msgstr ""
 
-#: classes/neohp-admin.php:1209 classes/neohp-admin.php:1248
+#: classes/neohp-admin.php:1212 classes/neohp-admin.php:1251
 msgid "デザイン・音の設定"
 msgstr ""
 
-#: classes/neohp-admin.php:1218 classes/neohp-admin.php:1247
+#: classes/neohp-admin.php:1221 classes/neohp-admin.php:1250
 msgid "メッセージの設定"
 msgstr ""
 
-#: classes/neohp-admin.php:1221
+#: classes/neohp-admin.php:1224
 msgid "右クリックやソースコード表示時に転送する URL を設定します"
 msgstr ""
 
-#: classes/neohp-admin.php:1222
+#: classes/neohp-admin.php:1225
 msgid "警告メッセージにはHTMLは使用できません"
 msgstr ""
 
-#: classes/neohp-admin.php:1223
+#: classes/neohp-admin.php:1226
 msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
 msgstr ""
 
-#: classes/neohp-admin.php:1224
+#: classes/neohp-admin.php:1227
 msgid "以下の文字列が使用できます"
 msgstr ""
 
-#: classes/neohp-admin.php:1225
+#: classes/neohp-admin.php:1228
 msgid "改行"
 msgstr ""
 
-#: classes/neohp-admin.php:1229
+#: classes/neohp-admin.php:1232
 msgid "押下されたキー"
 msgstr ""
 
-#: classes/neohp-admin.php:1244
+#: classes/neohp-admin.php:1247
 msgid "Neo HTML Protector 設定"
 msgstr ""
 
-#: classes/neohp-admin.php:1251
+#: classes/neohp-admin.php:1254
 msgid "このプラグインについて"
 msgstr ""
 
-#: classes/neohp-admin.php:1354
+#: classes/neohp-admin.php:1357
 msgid "設定が初期化されました"
 msgstr ""
 
-#: classes/neohp-admin.php:1360
+#: classes/neohp-admin.php:1363
 msgid ""
 "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
 msgstr ""
 
-#: classes/neohp-admin.php:1374
+#: classes/neohp-admin.php:1377
 msgid "Neo HTML Protectorについて"
 msgstr ""
 
-#: classes/neohp-admin.php:1375
+#: classes/neohp-admin.php:1378
 msgid ""
 "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテン"
 "ツの不正利用から守ることを目的としています。"
 msgstr ""
 
-#: classes/neohp-admin.php:1376
+#: classes/neohp-admin.php:1379
 msgid ""
 "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告"
 "し、もし何かがあった場合に備えて準備することにより国で定められている方法で解"
 "決することができるはずです。"
 msgstr ""
 
-#: classes/neohp-admin.php:1377
+#: classes/neohp-admin.php:1380
 msgid ""
 "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグイン"
 "は利用規約生成アプリではありませんが、そのヒントを与えることができます。"
 msgstr ""
 
-#: classes/neohp-admin.php:1378
+#: classes/neohp-admin.php:1381
 msgid "開発者: 夜桜　なの"
 msgstr ""
 
-#: classes/neohp-admin.php:1379
+#: classes/neohp-admin.php:1382
 msgid "バージョン"
 msgstr ""
 
-#: classes/neohp-admin.php:1379
+#: classes/neohp-admin.php:1382
 msgid "ビルド"
 msgstr ""
 
-#: classes/neohp-admin.php:1380
+#: classes/neohp-admin.php:1383
 msgid "サポートページ"
 msgstr ""
 
-#: classes/neohp-admin.php:1391
+#: classes/neohp-admin.php:1394
 msgid "ISISちゃん"
 msgstr ""
 
-#: classes/neohp-admin.php:1391
+#: classes/neohp-admin.php:1394
 msgid "Miss. 裏まにら氏歌唱"
 msgstr ""
 
-#: classes/neohp-admin.php:1394
+#: classes/neohp-admin.php:1397
 msgid "支援のお願い"
 msgstr ""
 
-#: classes/neohp-admin.php:1395
+#: classes/neohp-admin.php:1398
 msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
 msgstr ""
 
-#: classes/neohp-admin.php:1396
+#: classes/neohp-admin.php:1399
 msgid ""
 "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続"
 "き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がい"
 "れば、寄付をお願いできればと思います。"
 msgstr ""
 
-#: classes/neohp-admin.php:1397
+#: classes/neohp-admin.php:1400
 msgid "寄付について"
 msgstr ""
 
-#: classes/neohp-admin.php:1398
+#: classes/neohp-admin.php:1401
 msgid ""
 "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるよう"
 "に、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありが"
 "たく、少しでもご協力いただけると嬉しいです。"
 msgstr ""
 
-#: classes/neohp-admin.php:1400
+#: classes/neohp-admin.php:1403
 msgid ""
 "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をす"
 "ることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr ""
 
-#: classes/neohp-admin.php:1401
+#: classes/neohp-admin.php:1404
 msgid "寄付先"
 msgstr ""
 
-#: classes/neohp-admin.php:1402
+#: classes/neohp-admin.php:1405
 msgid ""
 "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張りま"
 "す！"
 msgstr ""
 
-#: classes/neohp-admin.php:1403
+#: classes/neohp-admin.php:1406
 msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
 msgstr ""
 
-#: classes/neohp-admin.php:1404
+#: classes/neohp-admin.php:1407
 msgid "ライセンス"
 msgstr ""
 
-#: classes/neohp-admin.php:1404
+#: classes/neohp-admin.php:1407
 msgid ""
 "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセ"
 "ンスを適用しています。"
 msgstr ""
 
-#: classes/neohp-admin.php:1405
+#: classes/neohp-admin.php:1408
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1409
+#: classes/neohp-admin.php:1412
 msgid ""
 "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイ"
 "ルを同梱しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1415
+#: classes/neohp-admin.php:1418
 msgid ""
 "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲し"
 "た、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にラ"
 "イセンスされています"
 msgstr ""
 
-#: classes/neohp-admin.php:1416
+#: classes/neohp-admin.php:1419
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1424
+#: classes/neohp-admin.php:1427
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"
