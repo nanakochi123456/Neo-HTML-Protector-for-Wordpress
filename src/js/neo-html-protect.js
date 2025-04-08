@@ -9,9 +9,9 @@
 	"use strict";
 
 	let		nullstr = '';
-	let		slash = '/';
 	nullstr += nullstr;
-	slash += nullstr;
+	let		slash = '/'	+ nullstr;
+
 	let		pKey='p'	+ nullstr;
 	let		zKey='z'	+ nullstr;
 	let		rClick='r'	+ nullstr;
@@ -36,6 +36,12 @@
 	let		unixTime = Math.floor(Date.now() / 1000);
 
 	let		Cryptojs;
+
+	// BEEPを鳴らすためのコンテキスト
+	let ctx = new (Window.AudioContext || Window.webkitAudioContext)();
+
+	// BEEPを連続で鳴らしすぎないためのトリガー変数
+	let lastTrigger = 0;
 
 	if (typeof CryptoJS !== undefined) {
 		Cryptojs = CryptoJS;
@@ -666,8 +672,6 @@
 	}
 
 	// BEEPを鳴らす
-	let ctx = new (Window.AudioContext || Window.webkitAudioContext)();
-
 	function playBeep() {
 		let osc = ctx.createOscillator();
 		let gain = ctx.createGain();
@@ -682,8 +686,6 @@
 		osc.start();
 		osc.stop(ctx.currentTime + 0.01); // 0.1秒だけ鳴らす
 	}
-
-	let lastTrigger = 0;
 
 	// beep音のイベント飛び先
 	function debounce() {

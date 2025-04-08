@@ -2,8 +2,8 @@
 set VERSION=0.1.6
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
-set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set NAME=neo-html-protector
+set FTP=x:\ftp\pub\Wordpress\%NAME%\snapshot
 set BROTLI=wsl brotli --quality=11 
 set GZIP=wsl 7za a -tgzip -mx9 -mpass=10 -mfb=256
 set CLOSURE=wsl npx google-closure-compiler --compilation_level=SIMPLE_OPTIMIZATIONS --assume_function_wrapper=false --rewrite_polyfills=false
