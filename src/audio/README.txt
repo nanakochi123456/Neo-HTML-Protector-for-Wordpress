@@ -10,6 +10,10 @@ fasttokoroten.mp3 (Cutted)
 https://sakuramml.com/mmlbbs6/post.php?mml_id=2715
 Input by nano (nanakochi)
 
+w-fanfa.mp3
+https://sakuramml.com/mmlbbs6/post.php?mml_id=1398
+Composer nano
+
 sentou.mp3
 https://sakuramml.com/mmlbbs6/post.php?mml_id=1650
 Composer nano (nanakochi)

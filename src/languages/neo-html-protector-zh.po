@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.1\n"
+"Project-Id-Version: Neo HTML Protector 0.1.3\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 11:44+0900\n"
-"PO-Revision-Date: 2025-04-08 11:45+0900\n"
+"POT-Creation-Date: 2025-04-08 14:31+0900\n"
+"PO-Revision-Date: 2025-04-08 14:31+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -207,6 +207,9 @@ msgstr "肖邦练习曲作品 10-12 革命，打字版，快速版 - 1 分 54.9 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒"
 msgstr "肖邦降 B 小调回旋曲，作品 2，打字版，快速缩写版 - 1 分 46.1 秒。"
 
+msgid "ファンファーレ - 19.3秒"
+msgstr "Fanfare - 19.3 秒"
+
 msgid "レトロ風ファンファーレ - 2.2秒"
 msgstr "复古风格的大合唱 - 2.2 秒。"
 
@@ -215,6 +218,9 @@ msgstr "复古式开启 - 41.2 秒"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "选择警告显示时的背景音乐。"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "火狐浏览器会屏蔽音频。"
 
 msgid "対象アクションを起こした時の警告音"
 msgstr "采取目标行动时发出警告声。"

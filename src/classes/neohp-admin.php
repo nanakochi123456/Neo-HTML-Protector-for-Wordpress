@@ -480,6 +480,7 @@ class neohp_admin {
 						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒', 'neo-html-protector')
 						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒', 'neo-html-protector')
 						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒', 'neo-html-protector')
+						, 'w-fanfa=' . __('ファンファーレ - 19.3秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 41.2秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
@@ -503,6 +504,7 @@ class neohp_admin {
 </script>
 					<?php
 					echo '<br>' . esc_html( __('警告表示中のBGMを選択します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('Firefoxでは音声ブロックされます', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'

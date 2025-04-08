@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.1\n"
+"Project-Id-Version: Neo HTML Protector 0.1.3\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 11:44+0900\n"
-"PO-Revision-Date: 2025-04-08 11:47+0900\n"
+"POT-Creation-Date: 2025-04-08 14:31+0900\n"
+"PO-Revision-Date: 2025-04-08 14:32+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -207,6 +207,9 @@ msgstr "Chopin Etűd Op.10-12 Forradalom, gépelt változat, gyors változat - 1
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒"
 msgstr "Chopin b-moll scherzo, Op2, gépelt változat, gyors rövidített változat - 1 perc 46,1 mp."
 
+msgid "ファンファーレ - 19.3秒"
+msgstr "Fanfare - 19.3 s."
+
 msgid "レトロ風ファンファーレ - 2.2秒"
 msgstr "Retro stílusú fanfár - 2,2 s."
 
@@ -215,6 +218,9 @@ msgstr "Retro stílusú nyitás - 41,2 mp."
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Válassza ki a háttérzenét a figyelmeztető kijelzés alatt."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "A Firefox blokkolja a hangot."
 
 msgid "対象アクションを起こした時の警告音"
 msgstr "Figyelmeztető hangjelzés, amikor a célművelet végrehajtásra kerül."

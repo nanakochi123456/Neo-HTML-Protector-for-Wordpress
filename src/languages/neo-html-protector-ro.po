@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.1\n"
+"Project-Id-Version: Neo HTML Protector 0.1.3\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 11:44+0900\n"
-"PO-Revision-Date: 2025-04-08 11:48+0900\n"
+"POT-Creation-Date: 2025-04-08 14:31+0900\n"
+"PO-Revision-Date: 2025-04-08 14:33+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -207,6 +207,9 @@ msgstr "Chopin Etude Op.10-12 Revoluție, versiune tipărită, versiune rapidă 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒"
 msgstr "Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 46.1 sec."
 
+msgid "ファンファーレ - 19.3秒"
+msgstr "Fanfară - 19.3 s."
+
 msgid "レトロ風ファンファーレ - 2.2秒"
 msgstr "Fanfară în stil retro - 2,2 s."
 
@@ -215,6 +218,9 @@ msgstr "Deschidere în stil retro - 41,2 sec."
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Selectați muzica de fundal în timpul afișării avertismentelor."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Firefox va bloca audio."
 
 msgid "対象アクションを起こした時の警告音"
 msgstr "Avertizare sonoră atunci când se întreprinde o acțiune țintă."
