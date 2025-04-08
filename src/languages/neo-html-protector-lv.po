@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:10+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -165,8 +165,8 @@ msgstr "ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsar
 msgid "表示なし"
 msgstr "Nav norāžu"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Rādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad HTML avots tiek rādīts ar view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Displeja dizains, kad tiek aktivizēta mērķa darbība."
@@ -270,6 +270,9 @@ msgstr "HTML avota rādīšana"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "To var izmantot, ievadot URL, kas sākas ar view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Apvienojumā ar HTML aizsardzību saturu var aizsargāt."
+
 msgid "印刷"
 msgstr "Drukāšana"
 
@@ -302,9 +305,6 @@ msgstr "To var darbināt, ja ir instalēti papildinājumi."
 
 msgid "コピー・カット"
 msgstr "Kopēt-izgriezt"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Ar šādu gadījumu mēs nesastopamies bieži."
 
 msgid "テキスト全選択"
 msgstr "Pilna teksta atlase"
@@ -537,6 +537,9 @@ msgstr "Iestatīts attēla URL informācijas derīguma termiņš."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Pēc ielādēšanas attēla URL informācija un pagaidu lietošanas žetoni ir atspējoti."
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Attēls tiks ielādēts laiski, bet attēls tiks piespiedu kārtā ielādēts 30 sekundes pirms norādītā laika."
+
 msgid "一時使用トークンのビット数"
 msgstr "Bitu skaits pagaidu lietošanas žetonos"
 
@@ -593,6 +596,15 @@ msgstr "Nospiests taustiņš"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML aizsarga iestatījumi"
+
+msgid "メッセージ"
+msgstr "Ziņa."
+
+msgid "デザイン・音"
+msgstr "Dizains un skaņa"
+
+msgid "初期化"
+msgstr "Inicializācija"
 
 msgid "このプラグインについて"
 msgstr "Par šo spraudni."

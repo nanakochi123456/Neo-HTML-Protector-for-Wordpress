@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Hibakeresési mód a Firefoxban
 テキスト全選択時の警告メッセージ	Figyelmeztető üzenet, ha az összes szöveg ki van jelölve.
 スクリーンショットだけではなく、デバッグモード等も検出します	Felismeri a képernyőképeket, valamint a hibakeresési módokat stb.
 イベントの設定	Eseménykonfiguráció.
+メッセージ	Üzenet.
+デザイン・音	Tervezés és hangzás
+初期化	Inicializálás
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	A HTML-forrás view-source segítségével történő megjelenítésekor a figyelmeztetés szándékát jelző ASCII-kép megjelenítése.
+HTML保護と組み合わせることでコンテンツを保護することができます	A HTML-védelemmel kombinálva a tartalom védhető
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	A kép lustán töltődik be, de a képet 30 másodperccel a megadott idő előtt be kell tölteni.

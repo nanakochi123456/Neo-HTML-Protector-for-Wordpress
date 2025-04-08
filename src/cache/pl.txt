@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Tryb debugowania w przeglądarce Firefo
 テキスト全選択時の警告メッセージ	Komunikat ostrzegawczy po zaznaczeniu całego tekstu.
 スクリーンショットだけではなく、デバッグモード等も検出します	Wykrywa zrzuty ekranu, a także tryby debugowania itp.
 イベントの設定	Konfiguracja zdarzenia.
+メッセージ	Wiadomość.
+デザイン・音	Projekt i dźwięk
+初期化	Inicjalizacja
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Wyświetla grafikę ASCII wskazującą zamiar ostrzeżenia podczas wyświetlania źródła HTML z view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	W połączeniu z ochroną HTML, zawartość może być chroniona
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Obraz będzie ładowany leniwie, ale będzie musiał zostać załadowany 30 sekund przed określonym czasem.

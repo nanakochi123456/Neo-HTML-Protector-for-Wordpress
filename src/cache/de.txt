@@ -306,3 +306,9 @@ Firefoxにおけるデバッグモード	Debug-Modus in Firefox
 テキスト全選択時の警告メッセージ	Warnmeldung, wenn der gesamte Text ausgewählt ist.
 スクリーンショットだけではなく、デバッグモード等も検出します	Es erkennt sowohl Screenshots als auch Debug-Modi usw.
 イベントの設定	Konfiguration des Ereignisses.
+メッセージ	Nachricht.
+デザイン・音	Design und Ton
+初期化	Initialisierung
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Anzeige von ASCII-Zeichen, die auf die Absicht hinweisen, eine Warnung auszusprechen, wenn der HTML-Quelltext mit view-source angezeigt wird.
+HTML保護と組み合わせることでコンテンツを保護することができます	In Kombination mit HTML-Schutz können Inhalte geschützt werden
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Das Bild wird verzögert geladen, aber 30 Sekunden vor der angegebenen Zeit muss das Bild geladen werden.

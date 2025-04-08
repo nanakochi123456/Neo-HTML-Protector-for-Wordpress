@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -165,8 +165,8 @@ msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito H
 msgid "表示なし"
 msgstr "Brez navedbe"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Prikaz umetnosti ASCII, ki označuje namen opozorila, ko je prikazan vir HTML."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Prikaz umetnosti ASCII, ki označuje namero opozorila pri prikazu izvorne kode HTML s funkcijo view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Prikažite zasnovo, ko se sproži ciljno dejanje."
@@ -270,6 +270,9 @@ msgstr "Prikaz vira HTML"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Uporabite ga tako, da vnesete naslov URL, ki se začne z view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "V kombinaciji z zaščito HTML lahko vsebino zaščitite"
+
 msgid "印刷"
 msgstr "Tiskanje"
 
@@ -302,9 +305,6 @@ msgstr "Če so nameščeni dodatki, ga je mogoče upravljati."
 
 msgid "コピー・カット"
 msgstr "Kopiranje in rezanje"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "S tem dogodkom se ne srečujemo pogosto."
 
 msgid "テキスト全選択"
 msgstr "Izbor celotnega besedila"
@@ -537,6 +537,9 @@ msgstr "Nastavi datum poteka veljavnosti podatkov URL slike."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Po nalaganju so informacije URL slike in žetoni za začasno uporabo onemogočeni."
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Slika se bo nalagala lenobno, vendar se bo prisilno nalagala 30 sekund pred tem določenim časom."
+
 msgid "一時使用トークンのビット数"
 msgstr "Število bitov v žetonih za začasno uporabo"
 
@@ -593,6 +596,15 @@ msgstr "Pritisnjena tipka"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Nastavitve programa Neo HTML Protector"
+
+msgid "メッセージ"
+msgstr "Sporočilo."
+
+msgid "デザイン・音"
+msgstr "Oblikovanje in zvok"
+
+msgid "初期化"
+msgstr "Inicializacija"
 
 msgid "このプラグインについて"
 msgstr "O tem vtičniku."

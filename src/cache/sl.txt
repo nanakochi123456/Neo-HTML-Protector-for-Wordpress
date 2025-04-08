@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Način za odpravljanje napak v brskalni
 テキスト全選択時の警告メッセージ	Opozorilno sporočilo, ko je izbrano vse besedilo.
 スクリーンショットだけではなく、デバッグモード等も検出します	Zaznava posnetke zaslona in načine odpravljanja napak itd.
 イベントの設定	Konfiguracija dogodka.
+メッセージ	Sporočilo.
+デザイン・音	Oblikovanje in zvok
+初期化	Inicializacija
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikaz umetnosti ASCII, ki označuje namero opozorila pri prikazu izvorne kode HTML s funkcijo view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	V kombinaciji z zaščito HTML lahko vsebino zaščitite
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Slika se bo nalagala lenobno, vendar se bo prisilno nalagala 30 sekund pred tem določenim časom.

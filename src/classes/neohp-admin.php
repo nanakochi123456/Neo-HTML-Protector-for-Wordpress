@@ -445,7 +445,7 @@ class neohp_admin {
 </script>';
 					<?php
 					echo '<br>' . '<textarea style="font-size: 12px; width:60vw; height:300px; font-family: Consolas, Menlo, monospace;" id="asciiart" readonly></textarea>';
-					echo '<br>' . esc_html( __('HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'
@@ -691,6 +691,7 @@ class neohp_admin {
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('view-source:から始まるURLを入力すれば操作できてしまいます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('HTML保護と組み合わせることでコンテンツを保護することができます', 'neo-html-protector') );
 				},
 				'neohp-event-settings',
 				'neohp_event_section'
@@ -829,7 +830,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_copycut',
-				__('コピー・カット', 'neo-html-protector'),
+				__('コピー・カット', 'neo-html-protector') . '<br>' . 'Ctrl+C',
 				function() {
 					$value = esc_html(get_option('neohp_alert_copycut', '1'));
 					echo wp_kses( $this->getselect("neohp_alert_copycut", $value
@@ -837,7 +838,6 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('あまりこのイベントに遭遇することはありません', 'neo-html-protector') );
 				},
 				'neohp-event-settings',
 				'neohp_event_section'
@@ -1150,7 +1150,7 @@ class neohp_admin {
 
 			// 一時使用トークンの有効期限
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_advanced_group', 'neohp_redirect_times', array(
+			register_setting('neohp_advanced_group', 'neohp_nonce_expire', array(
 				'sanitize_callback' => 'sanitize_text_field',
 			));
 			// phpcs:enable
@@ -1184,6 +1184,7 @@ class neohp_admin {
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像URL情報の有効期限を設定します', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('一度読み込まれると画像URL情報と一時使用トークンは無効化されます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
@@ -1324,11 +1325,11 @@ class neohp_admin {
 			<h1><?php echo esc_html( __('Neo HTML Protector 設定', 'neo-html-protector') ) ?></h1>
 			<h2 class="nav-tab-wrapper">
 				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('基本設定', 'neo-html-protector') ) ?></a>
-				<a href="?page=neohp-settings&tab=event" class="nav-tab <?php echo $active_tab === 'event' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('イベントの設定', 'neo-html-protector') ) ?></a>
-				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('メッセージの設定', 'neo-html-protector') ) ?></a>
-				<a href="?page=neohp-settings&tab=design" class="nav-tab <?php echo $active_tab === 'design' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('デザイン・音の設定', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=event" class="nav-tab <?php echo $active_tab === 'event' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('イベント', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('メッセージ', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=design" class="nav-tab <?php echo $active_tab === 'design' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('デザイン・音', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('高度な設定', 'neo-html-protector') ) ?></a>
-				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('初期設定に戻す', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=clear" class="nav-tab <?php echo $active_tab === 'clear' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('初期化', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=about" class="nav-tab <?php echo $active_tab === 'about' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('このプラグインについて', 'neo-html-protector') ) ?></a>
 			</h2>
 			<?php

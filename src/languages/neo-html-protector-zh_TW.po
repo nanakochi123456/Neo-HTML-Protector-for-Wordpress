@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -165,8 +165,8 @@ msgstr "在 HTML 混淆和保護過程中，輸出 HTML 原始碼中的 ASCII �
 msgid "表示なし"
 msgstr "無指示"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "當顯示 HTML 原始碼時，顯示 ASCII 文字表示警告的意圖。"
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "在使用 view-source 顯示 HTML 原始碼時，顯示 ASCII 文字以表示警告的意圖。"
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "當觸發目標動作時顯示設計。"
@@ -270,6 +270,9 @@ msgstr "HTML 原始碼顯示"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "可透過輸入以 view-source: 開頭的 URL 來操作。"
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "結合 HTML 保護，可保護內容"
+
 msgid "印刷"
 msgstr "印刷"
 
@@ -302,9 +305,6 @@ msgstr "若安裝附加元件，則可進行操作。"
 
 msgid "コピー・カット"
 msgstr "複切"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "我們不常遇到這種情況。"
 
 msgid "テキスト全選択"
 msgstr "全文選擇"
@@ -537,6 +537,9 @@ msgstr "設定影像 URL 資訊的到期日。"
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "載入後，影像 URL 資訊和臨時使用代碼會停用"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "圖片會被懶惰地載入，但圖片會被強制在此指定時間前 30 秒載入。"
+
 msgid "一時使用トークンのビット数"
 msgstr "臨時使用代幣的位元數"
 
@@ -593,6 +596,15 @@ msgstr "按鍵"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector 設定"
+
+msgid "メッセージ"
+msgstr "訊息。"
+
+msgid "デザイン・音"
+msgstr "設計與音效"
+
+msgid "初期化"
+msgstr "初始化"
 
 msgid "このプラグインについて"
 msgstr "關於此外掛程式。"

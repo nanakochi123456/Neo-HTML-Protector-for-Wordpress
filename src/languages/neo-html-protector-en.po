@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -165,8 +165,8 @@ msgstr "Output of ASCII art in HTML source code during HTML obfuscation and prot
 msgid "表示なし"
 msgstr "No indication"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Displays ASCII art to indicate warning intent when HTML source is displayed"
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Display ASCII art to indicate warning intention when HTML source is displayed in view-source"
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Display design when the target action is taken"
@@ -270,6 +270,9 @@ msgstr "HTML source display"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "You can operate it by entering a URL that starts with view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Can be combined with HTML protection to protect content"
+
 msgid "印刷"
 msgstr "Printing"
 
@@ -302,9 +305,6 @@ msgstr "If add-ons are installed, they can be operated"
 
 msgid "コピー・カット"
 msgstr "Copy-cut"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "We don't run into this event very often."
 
 msgid "テキスト全選択"
 msgstr "Text select all"
@@ -537,6 +537,9 @@ msgstr "Sets the expiration date of the image URL information"
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Once loaded, the image URL information and temporary use token will be disabled"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "The image will be loaded lazily, but the image will be forced to be loaded 30 seconds before this specified time"
+
 msgid "一時使用トークンのビット数"
 msgstr "Number of bits in temporary use token"
 
@@ -593,6 +596,15 @@ msgstr "Pressed key"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector Settings"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "デザイン・音"
+msgstr "Design & Sound"
+
+msgid "初期化"
+msgstr "Initialization"
 
 msgid "このプラグインについて"
 msgstr "About this Plug-in"

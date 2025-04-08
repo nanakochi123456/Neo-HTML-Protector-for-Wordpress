@@ -83,11 +83,15 @@ class neohp_javascript {
 		$time = (int)get_option('neohp_redirect_times', '5');
 		$plugin = NEOHP_AUDIO_URL;
 
+		// サウンド
 		if(get_option('neohp_alert_sound', '0') !== '0') {
 			$plugin .= get_option('neohp_alert_sound', '0') . '.mp3';
 		} else {
 			$plugin = '';
 		}
+
+		// 一時使用トークンの有効期限
+		$nonce_expire = get_option('neohp_nonce_expire', '20');
 
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',";
@@ -97,6 +101,7 @@ class neohp_javascript {
 		}
 
 		$script .= "
+			NeoHPExpire='". esc_js($nonce_expire) . "',
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPTime="   . esc_js($time) . ",

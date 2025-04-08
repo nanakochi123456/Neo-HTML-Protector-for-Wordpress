@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -165,8 +165,8 @@ msgstr "Saída de arte ASCII no código-fonte HTML durante a ofuscação e prote
 msgid "表示なし"
 msgstr "Sem indicação"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Mostrar arte ASCII indicando a intenção de avisar quando a fonte HTML é apresentada."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Exibe arte ASCII indicando a intenção de avisar ao exibir a fonte HTML com view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Design de exibição quando a ação alvo é acionada."
@@ -270,6 +270,9 @@ msgstr "Apresentação da fonte HTML"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Pode ser acionado introduzindo um URL que comece por view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Combinado com a proteção HTML, o conteúdo pode ser protegido"
+
 msgid "印刷"
 msgstr "Impressão"
 
@@ -302,9 +305,6 @@ msgstr "Pode ser utilizado se estiverem instalados suplementos."
 
 msgid "コピー・カット"
 msgstr "Copiar-cortar"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Este acontecimento não é muito frequente."
 
 msgid "テキスト全選択"
 msgstr "Seleção de texto integral"
@@ -537,6 +537,9 @@ msgstr "Define a data de expiração das informações do URL da imagem."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Uma vez carregadas, as informações do URL da imagem e os tokens de utilização temporária são desactivados"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "A imagem será carregada de forma preguiçosa, mas será forçada a ser carregada 30 segundos antes desta hora especificada."
+
 msgid "一時使用トークンのビット数"
 msgstr "Número de bits em fichas de utilização temporária"
 
@@ -593,6 +596,15 @@ msgstr "Tecla premida"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Definições do Neo HTML Protetor"
+
+msgid "メッセージ"
+msgstr "Mensagem."
+
+msgid "デザイン・音"
+msgstr "Design e som"
+
+msgid "初期化"
+msgstr "Inicialização"
 
 msgid "このプラグインについて"
 msgstr "Sobre este plugin."

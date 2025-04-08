@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -165,8 +165,8 @@ msgstr "Output di arte ASCII nel codice sorgente HTML durante l'offuscamento e l
 msgid "表示なし"
 msgstr "Nessuna indicazione"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Visualizza un'immagine ASCII che indica l'intenzione di avvertire quando viene visualizzata l'origine HTML."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Visualizza un'immagine ASCII che indica l'intenzione di avvertire quando si visualizza il sorgente HTML con view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Visualizzazione del design quando viene attivata l'azione target."
@@ -270,6 +270,9 @@ msgstr "Visualizzazione dell'origine HTML"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Si può utilizzare inserendo un URL che inizia con view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "In combinazione con la protezione HTML, il contenuto può essere protetto"
+
 msgid "印刷"
 msgstr "Stampa"
 
@@ -302,9 +305,6 @@ msgstr "Può essere utilizzato se sono installati dei componenti aggiuntivi."
 
 msgid "コピー・カット"
 msgstr "Copia-taglia"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Non capita spesso di imbattersi in questo evento."
 
 msgid "テキスト全選択"
 msgstr "Selezione del testo completo"
@@ -537,6 +537,9 @@ msgstr "Imposta la data di scadenza delle informazioni sull'URL dell'immagine."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Una volta caricate, le informazioni sull'URL dell'immagine e i token di utilizzo temporaneo sono disabilitati."
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "L'immagine sarà caricata in modo pigro, ma sarà forzata a essere caricata 30 secondi prima dell'ora specificata."
+
 msgid "一時使用トークンのビット数"
 msgstr "Numero di bit nei token di uso temporaneo"
 
@@ -593,6 +596,15 @@ msgstr "Tasto premuto"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Impostazioni di Neo HTML Protector"
+
+msgid "メッセージ"
+msgstr "Messaggio."
+
+msgid "デザイン・音"
+msgstr "Design e suono"
+
+msgid "初期化"
+msgstr "Inizializzazione"
 
 msgid "このプラグインについて"
 msgstr "Informazioni su questo plugin."

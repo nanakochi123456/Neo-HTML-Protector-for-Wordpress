@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -165,8 +165,8 @@ msgstr "HTML 난독화 및 보호 시 HTML 소스 코드의 ASCII 아트 출력"
 msgid "表示なし"
 msgstr "표시 없음"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "HTML 소스 표시 시 경고 의사를 나타내는 아스키 아트를 표시합니다."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "View-source에서 HTML 소스 표시 시 경고 의사를 나타내는 아스키아트를 표시합니다."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "대상 행동 발생 시 표시 디자인"
@@ -270,6 +270,9 @@ msgstr "HTML 소스 표시"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "View-source: 로 시작하는 URL을 입력하면 조작할 수 있습니다."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "HTML 보호와 결합하여 콘텐츠를 보호할 수 있습니다."
+
 msgid "印刷"
 msgstr "인쇄"
 
@@ -302,9 +305,6 @@ msgstr "애드온이 설치되어 있으면 조작할 수 있습니다."
 
 msgid "コピー・カット"
 msgstr "카피 컷"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "이 이벤트를 자주 접할 수 없습니다."
 
 msgid "テキスト全選択"
 msgstr "텍스트 전체 선택"
@@ -537,6 +537,9 @@ msgstr "이미지 URL 정보 유효기간 설정"
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "이미지 URL 정보와 임시 사용 토큰은 일단 로드되면 비활성화됩니다."
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "이미지가 지연 로딩되지만, 지정한 시간 30초 전에 강제로 이미지가 로드됩니다."
+
 msgid "一時使用トークンのビット数"
 msgstr "임시 사용 토큰의 비트 수"
 
@@ -593,6 +596,15 @@ msgstr "누른 키"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector 설정"
+
+msgid "メッセージ"
+msgstr "메시지"
+
+msgid "デザイン・音"
+msgstr "디자인・소리"
+
+msgid "初期化"
+msgstr "초기화"
 
 msgid "このプラグインについて"
 msgstr "이 플러그인 소개"

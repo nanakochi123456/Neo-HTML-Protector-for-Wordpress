@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Modul de depanare în Firefox
 テキスト全選択時の警告メッセージ	Mesaj de avertizare atunci când tot textul este selectat.
 スクリーンショットだけではなく、デバッグモード等も検出します	Acesta detectează capturi de ecran, precum și moduri de depanare etc.
 イベントの設定	Configurarea evenimentului.
+メッセージ	Mesaj.
+デザイン・音	Design și sunet
+初期化	Inițializare
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează caractere ASCII care indică intenția de a avertiza la afișarea sursei HTML cu view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	Combinat cu protecția HTML, conținutul poate fi protejat
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imaginea va fi încărcată leneș, dar va fi forțată să fie încărcată cu 30 de secunde înainte de ora specificată.

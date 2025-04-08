@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -165,8 +165,8 @@ msgstr "Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și 
 msgid "表示なし"
 msgstr "Nici o indicație"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Afișează ASCII art indicând intenția de a avertiza atunci când este afișată sursa HTML."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Afișează caractere ASCII care indică intenția de a avertiza la afișarea sursei HTML cu view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Afișează designul atunci când este declanșată acțiunea țintă."
@@ -270,6 +270,9 @@ msgstr "Afișarea sursei HTML"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Combinat cu protecția HTML, conținutul poate fi protejat"
+
 msgid "印刷"
 msgstr "Tipărire"
 
@@ -302,9 +305,6 @@ msgstr "Acesta poate fi utilizat dacă sunt instalate add-on-uri."
 
 msgid "コピー・カット"
 msgstr "Copiere-tăiere"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Nu întâlnim acest eveniment foarte des."
 
 msgid "テキスト全選択"
 msgstr "Selectarea textului integral"
@@ -537,6 +537,9 @@ msgstr "Setează data de expirare a informațiilor URL ale imaginii."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Odată încărcate, informațiile URL ale imaginii și jetoanele de utilizare temporară sunt dezactivate"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Imaginea va fi încărcată leneș, dar va fi forțată să fie încărcată cu 30 de secunde înainte de ora specificată."
+
 msgid "一時使用トークンのビット数"
 msgstr "Număr de biți în jetoanele de utilizare temporară"
 
@@ -593,6 +596,15 @@ msgstr "Tastă apăsată"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Setări Neo HTML Protector"
+
+msgid "メッセージ"
+msgstr "Mesaj."
+
+msgid "デザイン・音"
+msgstr "Design și sunet"
+
+msgid "初期化"
+msgstr "Inițializare"
 
 msgid "このプラグインについて"
 msgstr "Despre acest plugin."

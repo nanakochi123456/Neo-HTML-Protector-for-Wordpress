@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Firefox'ta hata ayıklama modu
 テキスト全選択時の警告メッセージ	Tüm metin seçildiğinde uyarı mesajı.
 スクリーンショットだけではなく、デバッグモード等も検出します	Ekran görüntülerinin yanı sıra hata ayıklama modlarını vb. algılar.
 イベントの設定	Olay yapılandırması.
+メッセージ	Mesaj.
+デザイン・音	Tasarım ve ses
+初期化	Başlatma
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağını view-source ile görüntülerken uyarma niyetini belirten ASCII resmini görüntüleyin.
+HTML保護と組み合わせることでコンテンツを保護することができます	HTML koruması ile birlikte içerik korunabilir
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Görüntü tembel olarak yüklenecek, ancak görüntü bu belirtilen süreden 30 saniye önce yüklenmeye zorlanacaktır.

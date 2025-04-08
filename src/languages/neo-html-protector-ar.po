@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:09+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -165,8 +165,8 @@ msgstr "إخراج فن ASCII في التعليمات البرمجية المص�
 msgid "表示なし"
 msgstr "لا يوجد مؤشر"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "عرض فن ASCII الذي يشير إلى نية التحذير عند عرض مصدر HTML."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "عرض فن ASCII الذي يشير إلى نية التحذير عند عرض مصدر HTML مع عرض المصدر."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "تصميم العرض عند تشغيل الإجراء المستهدف."
@@ -270,6 +270,9 @@ msgstr "عرض مصدر HTML"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "يمكن تشغيله عن طريق إدخال عنوان URL يبدأ بـ عرض المصدر:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "بالاقتران مع حماية HTML، يمكن حماية المحتوى"
+
 msgid "印刷"
 msgstr "الطباعة"
 
@@ -302,9 +305,6 @@ msgstr "يمكن تشغيله إذا تم تثبيت الوظائف الإضاف
 
 msgid "コピー・カット"
 msgstr "قص النسخ"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "لا نواجه هذا الحدث كثيراً."
 
 msgid "テキスト全選択"
 msgstr "اختيار النص الكامل"
@@ -537,6 +537,9 @@ msgstr "تعيين تاريخ انتهاء صلاحية معلومات عنوا�
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "بمجرد التحميل، يتم تعطيل معلومات عنوان URL الخاص بالصورة ورموز الاستخدام المؤقت"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "سيتم تحميل الصورة بشكل بطيء، ولكن سيتم تحميل الصورة بشكل إجباري قبل 30 ثانية من هذا الوقت المحدد."
+
 msgid "一時使用トークンのビット数"
 msgstr "عدد البتات في رموز الاستخدام المؤقت"
 
@@ -593,6 +596,15 @@ msgstr "مفتاح مضغوط"
 
 msgid "Neo HTML Protector 設定"
 msgstr "إعدادات واقي HTML الجديد"
+
+msgid "メッセージ"
+msgstr "الرسالة."
+
+msgid "デザイン・音"
+msgstr "التصميم والصوت"
+
+msgid "初期化"
+msgstr "التهيئة"
 
 msgid "このプラグインについて"
 msgstr "حول هذه الإضافة."

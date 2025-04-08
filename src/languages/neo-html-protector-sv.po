@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -165,8 +165,8 @@ msgstr "Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av
 msgid "表示なし"
 msgstr "Ingen indikation"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas med view-source."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Visa design när målåtgärden utlöses."
@@ -270,6 +270,9 @@ msgstr "Visning av HTML-källa"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Den kan manövreras genom att ange en URL som börjar med view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "I kombination med HTML-skydd kan innehållet skyddas"
+
 msgid "印刷"
 msgstr "Tryckning"
 
@@ -302,9 +305,6 @@ msgstr "Den kan användas om tilläggsprogram är installerade."
 
 msgid "コピー・カット"
 msgstr "Kopiera och klippa"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Det är inte så ofta vi stöter på den här typen av händelser."
 
 msgid "テキスト全選択"
 msgstr "Urval av fulltext"
@@ -537,6 +537,9 @@ msgstr "Ställer in utgångsdatum för URL-informationen för bilden."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "När bilden har laddats in inaktiveras URL-informationen och tokens för tillfällig användning"
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Bilden kommer att laddas långsamt, men bilden kommer att tvingas att laddas 30 sekunder före den angivna tiden."
+
 msgid "一時使用トークンのビット数"
 msgstr "Antal bitar i polletter för tillfällig användning"
 
@@ -593,6 +596,15 @@ msgstr "Tryck på tangenten"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Inställningar för Neo HTML Protector"
+
+msgid "メッセージ"
+msgstr "Meddelande."
+
+msgid "デザイン・音"
+msgstr "Design och ljud"
+
+msgid "初期化"
+msgstr "Initialisering"
 
 msgid "このプラグインについて"
 msgstr "Om detta plugin."

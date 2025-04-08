@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Režim ladenia v prehliadači Firefox
 テキスト全選択時の警告メッセージ	Upozornenie pri výbere celého textu.
 スクリーンショットだけではなく、デバッグモード等も検出します	Zisťuje snímky obrazovky, ako aj režimy ladenia atď.
 イベントの設定	Konfigurácia udalosti.
+メッセージ	Správa.
+デザイン・音	Dizajn a zvuk
+初期化	Inicializácia
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazenie obrázku ASCII označujúceho zámer upozorniť pri zobrazení zdroja HTML pomocou funkcie view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	V kombinácii s ochranou HTML je možné chrániť obsah
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Obrázok sa bude načítavať lenivo, ale obrázok sa bude musieť načítať 30 sekúnd pred týmto zadaným časom.

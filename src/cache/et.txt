@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Firefoxi tõrjerežiim
 テキスト全選択時の警告メッセージ	Hoiatussõnum, kui kogu tekst on valitud.
 スクリーンショットだけではなく、デバッグモード等も検出します	See tuvastab nii ekraanipilte kui ka silumisrežiime jne.
 イベントの設定	Sündmuse konfiguratsioon.
+メッセージ	Sõnum.
+デザイン・音	Disain ja heli
+初期化	Initsialiseerimine
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatamise kavatsust HTML-allika kuvamisel view-source'iga.
+HTML保護と組み合わせることでコンテンツを保護することができます	Kombineerituna HTML-kaitsega saab sisu kaitsta
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Pilt laaditakse laisalt, kuid pilt on sunnitud laadima 30 sekundit enne seda määratud aega.

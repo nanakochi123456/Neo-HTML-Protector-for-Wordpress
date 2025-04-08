@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.4\n"
+"Project-Id-Version: Neo HTML Protector 0.1.6\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 17:51+0900\n"
-"PO-Revision-Date: 2025-04-08 17:51+0900\n"
+"POT-Creation-Date: 2025-04-08 20:08+0900\n"
+"PO-Revision-Date: 2025-04-08 20:09+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -165,8 +165,8 @@ msgstr "ASCII-taiteen tulostaminen HTML-lähdekoodiin HTML:n häivytyksen ja suo
 msgid "表示なし"
 msgstr "Ei merkintää"
 
-msgid "HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
-msgstr "Näyttää ASCII-artikkelin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähde näytetään."
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Näyttää ASCII-artin, joka ilmaisee aikomuksen varoittaa, kun HTML-lähdettä näytetään view-source-ohjelmalla."
 
 msgid "対象アクションを起こした時の表示デザイン"
 msgstr "Näytön suunnittelu, kun kohdetoiminto käynnistyy."
@@ -270,6 +270,9 @@ msgstr "HTML-lähteen näyttäminen"
 msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
 msgstr "Sitä voidaan käyttää syöttämällä URL-osoite, joka alkaa kirjaimella view-source:."
 
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Yhdistettynä HTML-suojaukseen sisältö voidaan suojata."
+
 msgid "印刷"
 msgstr "Tulostus"
 
@@ -302,9 +305,6 @@ msgstr "Sitä voidaan käyttää, jos lisäosat on asennettu."
 
 msgid "コピー・カット"
 msgstr "Copy-cut"
-
-msgid "あまりこのイベントに遭遇することはありません"
-msgstr "Tätä tapahtumaa ei tapahdu kovin usein."
 
 msgid "テキスト全選択"
 msgstr "Koko tekstin valinta"
@@ -537,6 +537,9 @@ msgstr "Asettaa kuvan URL-osoitteen tietojen voimassaolon päättymispäivän."
 msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
 msgstr "Kun kuva on ladattu, kuvan URL-osoite ja tilapäisen käytön tunnisteet poistetaan käytöstä."
 
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Kuva ladataan laiskasti, mutta kuva on pakko ladata 30 sekuntia ennen tätä määritettyä aikaa."
+
 msgid "一時使用トークンのビット数"
 msgstr "Väliaikaisen käytön merkkien bittien lukumäärä"
 
@@ -593,6 +596,15 @@ msgstr "Painettu näppäin"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector -asetukset"
+
+msgid "メッセージ"
+msgstr "Viesti."
+
+msgid "デザイン・音"
+msgstr "Suunnittelu ja ääni"
+
+msgid "初期化"
+msgstr "Alustaminen"
 
 msgid "このプラグインについて"
 msgstr "Tietoja tästä lisäosasta."

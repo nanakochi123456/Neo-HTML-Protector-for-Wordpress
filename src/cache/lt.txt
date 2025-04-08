@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	"Firefox" derinimo režimas
 テキスト全選択時の警告メッセージ	Įspėjamasis pranešimas, kai pasirenkamas visas tekstas.
 スクリーンショットだけではなく、デバッグモード等も検出します	Ji aptinka ekrano nuotraukas, taip pat derinimo režimus ir kt.
 イベントの設定	Įvykio konfigūracija.
+メッセージ	Pranešimas.
+デザイン・音	Dizainas ir garsas
+初期化	Iniciacija
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai HTML šaltinis rodomas naudojant view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	Kartu su HTML apsauga turinį galima apsaugoti
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Vaizdas bus įkeliamas tingiai, tačiau vaizdas bus priverstinai įkeltas likus 30 sekundžių iki nurodyto laiko.

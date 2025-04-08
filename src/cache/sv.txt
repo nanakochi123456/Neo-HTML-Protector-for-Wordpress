@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Felsökningsläge i Firefox
 テキスト全選択時の警告メッセージ	Varningsmeddelande när all text är markerad.
 スクリーンショットだけではなく、デバッグモード等も検出します	Den upptäcker skärmdumpar samt felsökningslägen etc.
 イベントの設定	Händelsekonfiguration.
+メッセージ	Meddelande.
+デザイン・音	Design och ljud
+初期化	Initialisering
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas med view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	I kombination med HTML-skydd kan innehållet skyddas
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Bilden kommer att laddas långsamt, men bilden kommer att tvingas att laddas 30 sekunder före den angivna tiden.

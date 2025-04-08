@@ -305,3 +305,9 @@ Firefoxにおけるデバッグモード	Debugēšanas režīms programmā Firef
 テキスト全選択時の警告メッセージ	Brīdinājuma ziņojums, ja ir atlasīts viss teksts.
 スクリーンショットだけではなく、デバッグモード等も検出します	Tā nosaka ekrānšāviņus, kā arī atkļūdošanas režīmus utt.
 イベントの設定	Notikumu konfigurācija.
+メッセージ	Ziņa.
+デザイン・音	Dizains un skaņa
+初期化	Inicializācija
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad HTML avots tiek rādīts ar view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	Apvienojumā ar HTML aizsardzību saturu var aizsargāt.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Attēls tiks ielādēts laiski, bet attēls tiks piespiedu kārtā ielādēts 30 sekundes pirms norādītā laika.

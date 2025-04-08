@@ -12,22 +12,10 @@
 	let		slash = '/';
 	nullstr += nullstr;
 	slash += nullstr;
-	let		fKey='f'	+ nullstr;
-	let		iKey='i'	+ nullstr;
-	let		jKey='j'	+ nullstr;
-	let		uKey='u'	+ nullstr;
 	let		pKey='p'	+ nullstr;
-	let		sKey='s'	+ nullstr;
 	let		zKey='z'	+ nullstr;
-	let		kKey='k'	+ nullstr;
-	let		aKey='a'	+ nullstr;
-	let		cKey='c'	+ nullstr;
-	let		divKey='b'	+ nullstr;
 	let		rClick='r'	+ nullstr;
 	let		CopyCut='y'	+ nullstr;
-	let		F5Key='F5'	+ nullstr;
-	let		PrintScreen='n'	+ nullstr;
-	let		CtrlShift='x'	+ nullstr;
 	let		none='none'	+ nullstr;
 	let		undefined='undefined'	+ nullstr;
 	let		Document=document;
@@ -250,8 +238,48 @@
 				imgTags.forEach((img) => {
 					observer.observe(img);
 				});
+				// 1回だけ実行されるnonceの有効期限分-30秒前の強制読み込み
+				setTimeout(() => {
+					document.querySelectorAll('img[data-src].protected').forEach(img => {
+						const currentSrc = img.getAttribute('src') || '';
+						const isPlaceholder = currentSrc.startsWith('data:') || currentSrc === location.href;
+
+						if (isPlaceholder) {
+							//console.log('🔁 強制ロード:', img);
+							decryptAndApplyImage(img);
+						}
+					});
+				}, NeoHPExpire*60*1000 -30*1000);
 			}
 		};
+	}
+
+	// 指定した秒数にlazyロードで読み込まれてない画像を強制読み込みする
+	async function decryptAndApplyImage(img) {
+		let encryptedData_src = getattr(img, 'src');
+		let encryptedData_srcset = getattr(img, 'srcset');
+		let nonce = getattr(img, 'nonce');
+
+		try {
+			let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
+			let decryptedUrl_srcset = encryptedData_srcset
+				? await decryptAndDecodeImageUrl(encryptedData_srcset, nonce)
+				: null;
+
+			img.src = decryptedUrl_src;
+			if (decryptedUrl_srcset) {
+				img.srcset = decryptedUrl_srcset;
+			}
+
+/* 以下不要
+			// 復号＆設定が済んだら data-* 属性を削除して二度と処理されないようにする
+			img.removeAttribute('data-src');
+			if (img.hasAttribute('data-srcset')) img.removeAttribute('data-srcset');
+			if (img.hasAttribute('data-nonce')) img.removeAttribute('data-nonce');
+*/
+		} catch (error) {
+	//		console.error('🔒 復号化失敗:', error);
+		}
 	}
 
 /*
@@ -295,6 +323,19 @@
 		event.stopPropagation();
 	}
 
+	// @media print{body{display:none !important}} 相当
+
+	if(FlagSmall.includes(pKey)) {
+		let mediaQuery = Window.matchMedia('print');
+
+		mediaQuery.addEventListener('change', (e) => {
+			if (e.matches) {
+				//Document.body.style.display = none;
+				 $(body).css('display', none);
+			}
+		});
+	}
+
 	// キーのみの処理
 	$(Document).on("keydown keypress keyup", (event) => {
 		let ctrl = event.ctrlKey,
@@ -309,8 +350,19 @@
 		let		WinKey='Win + '		+ nullstr;
 		let		AltKey='Alt + '		+ nullstr;
 		let		CommandKey='Command + '	+ nullstr;
-		let		PrintScreenKey='PrintScreen'	+ nullstr;
-		let		hatena='?'	+ nullstr;
+		let		PrintScreenKey='PrintScreen' + nullstr;
+		let		PrintScreen='n'		+ nullstr;
+		let		hatena='?'			+ nullstr;
+		let		F5Key='F5'			+ nullstr;
+		let		fKey='f'			+ nullstr;
+		let		iKey='i'			+ nullstr;
+		let		jKey='j'			+ nullstr;
+		let		uKey='u'			+ nullstr;
+		let		sKey='s'			+ nullstr;
+		let		kKey='k'			+ nullstr;
+		let		aKey='a'			+ nullstr;
+		let		cKey='c'			+ nullstr;
+		let		CtrlShift='x'		+ nullstr;
 
 		// PrintScreen etc
 		if(FlagSmall.includes(PrintScreen)) {
@@ -367,8 +419,8 @@
 
 			// Ctrl+Shift+P (chrome os)
 			if(ua.includes(ChromeOS)) {
-				if (ctrl && shift && lower(key) === 'p') {
-					sendIpToServer(CtrlKey + ShiftKey + 'P', fKey);
+				if (ctrl && shift && lower(key) === pKey) {
+					sendIpToServer(CtrlKey + ShiftKey + upper(pKey), fKey);
 					stop(event);
 				}
 
@@ -397,7 +449,7 @@
 		// Ctrl+Shift+I
 		if(FlagSmall.includes(iKey)) {
 			if (ctrl && shift && lower(key) === iKey) {
-				sendIpToServer(CtrlKey+ShiftKey+upper(iKey), iKey);
+				sendIpToServer(CtrlKey + ShiftKey + upper(iKey), iKey);
 				stop(event);
 			}
 		}
@@ -406,7 +458,7 @@
 		if(ua.includes(Firefox)) {
 			if(FlagSmall.includes(kKey)) {
 				if (ctrl && shift && lower(key) === kKey) {
-					sendIpToServer(CtrlKey+ShiftKey+upper(kKey), kKey);
+					sendIpToServer(CtrlKey + ShiftKey + upper(kKey), kKey);
 					stop(event);
 				}
 			}
@@ -415,7 +467,7 @@
 		// Ctrl+A
 		if(FlagSmall.includes(aKey)) {
 			if (ctrl && lower(key) === aKey) {
-				sendIpToServer(CtrlKey+ShiftKey+upper(aKey), aKey);
+				sendIpToServer(CtrlKey + ShiftKey + upper(aKey), aKey);
 				stop(event);
 			}
 		}
@@ -423,7 +475,7 @@
 		// Ctrl+Shift+C
 		if(FlagSmall.includes(cKey)) {
 			if (ctrl && shift && lower(key) === cKey) {
-				sendIpToServer(CtrlKey+ShiftKey+upper(cKey), cKey);
+				sendIpToServer(CtrlKey + ShiftKey + upper(cKey), cKey);
 				stop(event);
 			}
 		}
@@ -431,7 +483,7 @@
 		// Ctrl+Shift+J
 		if(FlagSmall.includes(jKey)) {
 			if (ctrl && shift && lower(key) === jKey) {
-				sendIpToServer(CtrlKey+ShiftKey+upper(jKey), jKey);
+				sendIpToServer(CtrlKey + ShiftKey + upper(jKey), jKey);
 				stop(event);
 			}
 		}
@@ -439,24 +491,15 @@
 		// Ctrl+U
 		if(FlagSmall.includes(uKey)) {
 			if (ctrl && lower(key) === uKey) {
-				sendIpToServer(CtrlKey+upper(uKey), uKey);
+				sendIpToServer(CtrlKey + upper(uKey), uKey);
 				stop(event);
 			}
 		}
 
 		// Ctrl+P
 		if(FlagSmall.includes(pKey)) {
-			// @media print{body{display:none !important}} 相当
-			let mediaQuery = Window.matchMedia('print');
-
-			mediaQuery.addEventListener('change', (e) => {
-				if (e.matches) {
-					Document.body.style.display = none;
-				}
-			});
-
 			if (ctrl && lower(key) === pKey) {
-				sendIpToServer(CtrlKey+upper(pKey), pKey);
+				sendIpToServer(CtrlKey + upper(pKey), pKey);
 				stop(event);
 			}
 		}
@@ -464,7 +507,7 @@
 		// Ctrl+S
 		if(FlagSmall.includes(sKey)) {
 			if (ctrl && lower(key) === sKey) {
-				sendIpToServer(CtrlKey+upper(sKey), sKey);
+				sendIpToServer(CtrlKey + upper(sKey), sKey);
 				stop(event);
 			}
 		}
@@ -529,6 +572,7 @@
 		Document.querySelectorAll('img').forEach(img => {
 //		$('img').each(function(img) {
 			img.style.pointerEvents = none;
+			//$(img).css('pointer-events', none);
 		});
 
 		$(Document).on('selectstart touchmove', (event) => {
@@ -608,7 +652,8 @@
 */
 		// 9個目 スクリーンショットの防止（全画面時のみ）
 
-		Document.documentElement.requestFullscreen();
+		//Document.documentElement.requestFullscreen();
+		$(':root')[0].requestFullscreen();
 
 		// 10個目 debuggerコマンドを使ったデバッガの無効化
 		// BEEPが動作しないのでコメントアウト
@@ -639,6 +684,7 @@
 	}
 
 	let lastTrigger = 0;
+
 	// beep音のイベント飛び先
 	function debounce() {
 		let now = Date.now();
@@ -660,6 +706,7 @@
 		let		vw85='85vw'		+ nullstr;
 		let		translate='translate(-50%,-50%)'	+ nullstr;
 		let		zindex='9999'	+ nullstr;
+		let		divKey='b'		+ nullstr;
 
 		$.ajax({
 			url: NeoHPHome

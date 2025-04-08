@@ -306,3 +306,9 @@ Firefoxにおけるデバッグモード	Modo depuración en Firefox
 テキスト全選択時の警告メッセージ	Mensaje de advertencia cuando se selecciona todo el texto.
 スクリーンショットだけではなく、デバッグモード等も検出します	Detecta capturas de pantalla, así como modos de depuración, etc.
 イベントの設定	Configuración de eventos.
+メッセージ	Mensaje.
+デザイン・音	Diseño y sonido
+初期化	Inicialización
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Mostrar arte ASCII indicando la intención de advertir al mostrar la fuente HTML con view-source.
+HTML保護と組み合わせることでコンテンツを保護することができます	Combinado con la protección HTML, el contenido puede protegerse
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	La imagen se cargará perezosamente, pero se forzará la carga de la imagen 30 segundos antes de esta hora especificada.
