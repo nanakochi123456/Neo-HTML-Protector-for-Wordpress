@@ -70,7 +70,6 @@
 		let		SamsungBrowser='Samsung'+ B;
 		let		UCBrowser='UC'		+ B;
 		let		QQBrowser='QQ'		+ B;
-		let		YandexBrowser='Yandex' + B;
 		let		Puffin='Puffin'		+ nullstr;
 		let		CocCoc='CocCoc'		+ nullstr;
 		let		Maxthon='Maxthon'	+ nullstr;
@@ -113,12 +112,13 @@
 
 		// フォールバック処理（userAgent）
 		if (browser === nullstr) {
-			if(/Android.*Chrome\/|CriOS\//.test(ua) === false && /Android/.test(ua)) browser='AndroidBrowser';
-			else if(ua.includes(Vivaldi)) browser = Vivaldi;
+//			if(/Android.*Chrome\/|CriOS\//.test(ua) === false && /Android/.test(ua)) browser=Android + B;
+//			else
+			if(ua.includes(Vivaldi)) browser = Vivaldi;
 			else if(ua.includes(SamsungBrowser)) browser = SamsungBrowser;
 			else if(ua.includes(UCBrowser)) browser = UCBrowser;
 			else if(ua.includes(QQBrowser)) browser = QQBrowser;
-			else if(ua.includes(YandexBrowser)) browser = YandexBrowser;
+			else if(ua.includes("Ya" + B)) browser = "Yandex" + B;
 			else if(ua.includes(Puffin)) browser = Puffin;
 			else if(ua.includes(CocCoc)) browser = CocCoc;
 			else if(ua.includes(Maxthon)) browser = Maxthon;
@@ -218,7 +218,8 @@
 					// 復号化したURLを文字列に変換
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-					if ( ua.includes(Safari) && ua.includes('iOS') ) {
+					// iOSのみ遅延を加える
+					if ( ua.includes('iOS') ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
