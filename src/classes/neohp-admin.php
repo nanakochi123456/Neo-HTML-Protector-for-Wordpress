@@ -840,6 +840,8 @@ class neohp_admin {
 						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('アドオンがインストールされていると操作できてしまいます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります', 'neo-html-protector') );
 				},
 				'neohp-event-settings',
 				'neohp_event_section'

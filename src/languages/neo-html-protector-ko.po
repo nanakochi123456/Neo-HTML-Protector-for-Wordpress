@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.8\n"
+"Project-Id-Version: Neo HTML Protector 0.1.9\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 19:22+0900\n"
-"PO-Revision-Date: 2025-04-09 19:22+0900\n"
+"POT-Creation-Date: 2025-04-09 21:39+0900\n"
+"PO-Revision-Date: 2025-04-09 21:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -311,6 +311,9 @@ msgstr "애드온이 설치되어 있으면 조작할 수 있습니다."
 
 msgid "コピー・カット"
 msgstr "카피 컷"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "본 플러그인의 설정에 따라 이 이벤트에 도달하지 못할 수도 있습니다."
 
 msgid "テキスト全選択"
 msgstr "텍스트 전체 선택"

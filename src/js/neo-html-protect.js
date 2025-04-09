@@ -28,6 +28,8 @@
 	let		Windows = 'Windows'	+ nullstr;
 	let		macOS = 'macOS'		+ nullstr;
 	let		ChromeOS = 'Chrome OS'	+ nullstr;
+	let		Android = 'Android'	+ nullstr;
+	let		iOS = 'iOS'	+ nullstr;
 	let		Safari='Safari'	+ nullstr;
 	let		Firefox='Firefox'	+ nullstr;
 
@@ -85,7 +87,6 @@
 		let		PlayStation = 'PlayStation'	+ nullstr;
 		let		Xbox = 'Xbox'		+ nullstr;
 		let		Linux = 'Linux'		+ nullstr;
-		let		Android = 'Android'	+ nullstr;
 
 		// ブラウザ名の判定（userAgentData対応時）
 		if (Navigator.userAgentData) {
@@ -139,7 +140,7 @@
 			else if (ua.includes(PlayStation)) os = PlayStation;
 			else if (ua.includes(Xbox)) os=Xbox;
 			else if (ua.includes(Windows + ' NT')) os = Windows;
-			else if (/iPhone|iPad|iPod/.test(ua)) os = "iOS";
+			else if (/iPhone|iPad|iPod/.test(ua)) os = iOS;
 			else if (/Mac OS X/.test(ua)) os = macOS;
 			else if (/CrOS/.test(ua)) os = ChromeOS;
 			else if (ua.includes(Android)) os = Android;
@@ -219,7 +220,7 @@
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
 					// iOSのみ遅延を加える
-					if ( ua.includes('iOS') ) {
+					if ( ua.includes(iOS) ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
@@ -756,7 +757,6 @@
 		let		fixed='fixed'	+ nullstr;
 		let		bold='bold'		+ nullstr;
 		let		vw85='85vw'		+ nullstr;
-		let		rem15='1.3rem'	+ nullstr;
 		let		translate='translate(-50%,-50%)'	+ nullstr;
 		let		zindex='9999'	+ nullstr;
 		let		divKey='b'		+ nullstr;
@@ -785,7 +785,7 @@
 
 					// BEEP音のイベント
 					if(FlagSmall.includes('e')) {
-						$(document).on('click contextmenu mousemove keydown touchstart', function() {
+						$(document).on('click contextmenu mousemove keydown touchstart touchmove touchend', function() {
 							debounce();
 						});
 					}
@@ -812,7 +812,6 @@
 							transform: translate,
 							backgroundColor: '#ff0',
 							color: black,
-							fontSize: rem15,
 							padding: px20,
 							border: '10px solid transparent', // 太めの透明ボーダー
 							borderImage: 'repeating-linear-gradient(45deg, #000 0 10px, #ff0 10px 20px) 10', // 斜めストライプ
@@ -841,7 +840,6 @@
 							borderRadius: px20,
 							zIndex: zindex,
 							fontWeight: bold,
-							fontSize: rem15,
 							fontFamily: 'cursive,sans-serif', // 怖い内部フォント
 							boxShadow: '0 0 20px red',		  // 怖い赤い光を放つような影
 							textShadow: '0 0 20px red',		  // 赤くにじんだ文字
@@ -862,7 +860,6 @@
 							border: '3px double #f00',
 							borderRadius: px20,
 							fontFamily: '"Courier New",monospace',
-							fontSize: rem15,
 							fontWeight: bold,
 							zIndex: zindex,
 							textShadow: '0 0 5px red, 0 0 10px #900',
@@ -928,6 +925,13 @@
 						$(body).append(newDiv2);
 					} else {
 						$(body).append(newDiv1);
+					}
+
+					// スマホかタブレット以外はフォントを大きくする
+					if(! (ua.includes(Android) || ua.includes(iOS)) ) {
+						$(body).css({fontSize: "1.3rem"});
+					} else {
+						$(body).css({fontSize: ".8rem"});
 					}
 
 					// Audio要素を作成
