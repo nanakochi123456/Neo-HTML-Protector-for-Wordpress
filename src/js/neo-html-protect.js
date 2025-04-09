@@ -20,6 +20,7 @@
 	let		undefined='undefined'	+ nullstr;
 	let		Document=document;
 	let		Window=window;
+	let		Navigator=navigator
 	let		body='body'	+ nullstr;
 	let		div='<div>'	+ nullstr;
 	let		ua=nullstr;
@@ -57,13 +58,27 @@
 	}
 
 	async function detectBrowserAndOS() {
-		let ua = navigator.userAgent;
+		let ua = Navigator.userAgent;
 		let browser = nullstr;
 		let os = nullstr;
 
 		let		Chrome='Chrome'		+ nullstr;
 		let		Edge='Edge'			+ nullstr;
 		let		Opera='Opera'		+ nullstr;
+		let		Vivaldi='Vivaldi'	+ nullstr;
+		let		B='Browser'			+ nullstr;
+		let		SamsungBrowser='Samsung'+ B;
+		let		UCBrowser='UC'		+ B;
+		let		QQBrowser='QQ'		+ B;
+		let		YandexBrowser='Yandex' + B;
+		let		Puffin='Puffin'		+ nullstr;
+		let		CocCoc='CocCoc'		+ nullstr;
+		let		Maxthon='Maxthon'	+ nullstr;
+		let		Dolphin='Dolphin'	+ nullstr;
+		let		SeaMonkey='SeaMonkey'+nullstr;
+		let		Sleipnir='Sleipnir'	+ nullstr;
+		let		Konqueror='Konqueror'+nullstr;
+
 		let		OPR="OPR"			+ slash;
 		let		EDG="EDG"			+ slash;
 
@@ -74,24 +89,45 @@
 		let		Android = 'Android'	+ nullstr;
 
 		// ブラウザ名の判定（userAgentData対応時）
-		if (navigator.userAgentData) {
-			const brands = navigator.userAgentData.brands || [];
+		if (Navigator.userAgentData) {
+			const brands = Navigator.userAgentData.brands || [];
 			for (const brand of brands) {
 				if (brand.brand.includes(Chrome)) browser = Chrome;
+				else if (brand.brand.includes(Opera)) browser = Opera;
 				else if (brand.brand.includes(Edge)) browser = Edge;
 				else if (brand.brand.includes(Firefox)) browser = Firefox;
 				else if (brand.brand.includes(Safari) && browser === nullstr) browser = Safari;
 			}
 
 			// OS の高精度取得
-			const uaData = await navigator.userAgentData.getHighEntropyValues(["platform"]);
+			const uaData = await Navigator.userAgentData.getHighEntropyValues(["platform"]);
 			// Windows, macOS, Chrome OS, Linux, FreeBSD
 			os = uaData.platform;
 		}
 
+		// Braveなら別の取得方式
+		var	isBrave = Navigator.brave && await Navigator.brave.isBrave();
+		if(isBrave) {
+			browser='Brave';
+		}
+
 		// フォールバック処理（userAgent）
 		if (browser === nullstr) {
-			if (ua.includes(EDG)) browser = Edge;
+			if(/Android.*Chrome\/|CriOS\//.test(ua) === false && /Android/.test(ua)) browser='AndroidBrowser';
+			else if(ua.includes(Vivaldi)) browser = Vivaldi;
+			else if(ua.includes(SamsungBrowser)) browser = SamsungBrowser;
+			else if(ua.includes(UCBrowser)) browser = UCBrowser;
+			else if(ua.includes(QQBrowser)) browser = QQBrowser;
+			else if(ua.includes(YandexBrowser)) browser = YandexBrowser;
+			else if(ua.includes(Puffin)) browser = Puffin;
+			else if(ua.includes(CocCoc)) browser = CocCoc;
+			else if(ua.includes(Maxthon)) browser = Maxthon;
+			else if(ua.includes(Dolphin)) browser = Dolphin;
+			else if(ua.includes(SeaMonkey)) browser = SeaMonkey;
+			else if(ua.includes(Sleipnir)) browser = Sleipnir;
+			else if(ua.includes(Konqueror)) browser = Konqueror;
+
+			else if (ua.includes(EDG)) browser = Edge;
 			else if (ua.includes(OPR) || ua.includes(Opera)) browser = Opera;
 			else if (ua.includes(Chrome) && !ua.includes(EDG) && !ua.includes(OPR)) browser = Chrome;
 			else if (ua.includes(Firefox)) browser = Firefox;
@@ -719,6 +755,7 @@
 		let		fixed='fixed'	+ nullstr;
 		let		bold='bold'		+ nullstr;
 		let		vw85='85vw'		+ nullstr;
+		let		rem15='1.3rem'	+ nullstr;
 		let		translate='translate(-50%,-50%)'	+ nullstr;
 		let		zindex='9999'	+ nullstr;
 		let		divKey='b'		+ nullstr;
@@ -774,7 +811,7 @@
 							transform: translate,
 							backgroundColor: '#ff0',
 							color: black,
-							fontSize: '1.5rem',
+							fontSize: rem15,
 							padding: px20,
 							border: '10px solid transparent', // 太めの透明ボーダー
 							borderImage: 'repeating-linear-gradient(45deg, #000 0 10px, #ff0 10px 20px) 10', // 斜めストライプ
@@ -803,7 +840,7 @@
 							borderRadius: px20,
 							zIndex: zindex,
 							fontWeight: bold,
-							fontSize: '1.5rem',
+							fontSize: rem15,
 							fontFamily: 'cursive,sans-serif', // 怖い内部フォント
 							boxShadow: '0 0 20px red',		  // 怖い赤い光を放つような影
 							textShadow: '0 0 20px red',		  // 赤くにじんだ文字
@@ -819,15 +856,15 @@
 							left: per50,
 							transform: translate,
 							backgroundColor: black,
-							color: '#ff2a2a',
+							color: '#f33',
 							padding: px20,
 							border: '3px double #f00',
 							borderRadius: px20,
 							fontFamily: '"Courier New",monospace',
-							fontSize: '1.5rem',
-							fontWeight: 'bold',
+							fontSize: rem15,
+							fontWeight: bold,
 							zIndex: zindex,
-							textShadow: '0 0 5px red, 0 0 10px #990000',
+							textShadow: '0 0 5px red, 0 0 10px #900',
 							boxShadow: '0 0 30px red',
 							animation: 'glitch 1s infinite',
 							letterSpacing: '1px',
@@ -881,7 +918,7 @@
 	}
 }
 */
-					$('<style>').html(`@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(.5deg)}100%{transform:translate(-50%,-50%)rotate(0)}}@keyframes glitch{0%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%,-50%)scale(1.01)}20%{text-shadow:-2px 0 red, 2px 2px #0ff;transform:translate(-50%,-50%)scale(0.99)rotate(.3deg)}40%{text-shadow:2px -2px #f0f,-2px 2px #0f0;transform:translate(-50%,-50%)scale(1.02)rotate(-.2deg)}60%{text-shadow:-1px 1px red,1px -1px #00f;transform:translate(-50%,-50%)scale(1.01)}80%{text-shadow:0 0 5px red;transform:translate(-50%,-50%)scale(1)}100%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%, -50%)scale(1.01)}}`).appendTo('head');
+					$('<style>').html(`@keyframes shake{0%{transform:translate(-50%,-50%)rotate(0)}25%{transform:translate(-50%,-52%)rotate(-1deg)}50%{transform:translate(-50%,-48%)rotate(1deg)}75%{transform:translate(-50%,-51%)rotate(.5deg)}100%{transform:translate(-50%,-50%)rotate(0)}}@keyframes glitch{0%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%,-50%)scale(1.01)}20%{text-shadow:-2px 0 red,2px 2px #0ff;transform:translate(-50%,-50%)scale(0.99)rotate(.3deg)}40%{text-shadow:2px -2px #f0f,-2px 2px #0f0;transform:translate(-50%,-50%)scale(1.02)rotate(-.2deg)}60%{text-shadow:-1px 1px red,1px -1px #00f;transform:translate(-50%,-50%)scale(1.01)}80%{text-shadow:0 0 5px red;transform:translate(-50%,-50%)scale(1)}100%{text-shadow:2px 2px red,-2px -2px #00f;transform:translate(-50%,-50%)scale(1.01)}}`).appendTo('head');
 
 					// body に追加
 					if(FlagAll.includes(upper(divKey))) {

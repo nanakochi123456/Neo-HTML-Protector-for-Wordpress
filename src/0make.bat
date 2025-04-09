@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.1.7
+set VERSION=0.1.8
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -40,7 +40,6 @@ wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
 for /f "tokens=2 delims==" %%I in ('"wmic os get localdatetime /value"') do set datetime=%%I
 :DT=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%
 copy ..\*.md .
-copy ..\*.txt .
 echo Snapshot %datetime:~0,14%
 call 2version.bat %VERSION% %datetime:~0,14%
 
@@ -50,6 +49,5 @@ wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/
 @echo off
 copy %NAME%-%datetime:~0,14%.7z %FTP%
 del *.md
-del *.txt
 del %NAME%-%datetime:~0,14%.7z
 pause
