@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:08+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -111,8 +111,8 @@ msgstr "Al di là della compressione HTML, viene emesso solo un HTML minimo e il
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Registra anche quando viene eseguita l'azione view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Ogni volta che viene attivato, si verifica un reindirizzamento che ha un impatto sulla SEO."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Ogni volta che viene attivato, si verifica un reindirizzamento che influisce in modo significativo sulla SEO."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Il design può variare leggermente."
@@ -222,11 +222,14 @@ msgstr "Apertura in stile retrò - 41,2 sec."
 msgid "警告表示中のBGMを選択します"
 msgstr "Selezionare la musica di sottofondo durante la visualizzazione degli avvisi."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Creare un'atmosfera sorprendente"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox blocca l'audio."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Suono di avviso quando viene eseguita un'azione mirata."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Segnale acustico quando viene eseguita un'azione mirata."
 
 msgid "有効 音量小さ目"
 msgstr "Abilitato Volume basso"
@@ -236,6 +239,9 @@ msgstr "Abilitato Volume più alto"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Emette un segnale acustico su tutti gli eventi dei tasti/mouse durante la visualizzazione degli avvisi."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Creare un'atmosfera come se il dispositivo fosse fuori controllo durante la visualizzazione degli avvisi."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Cancellazione del cursore del mouse quando viene eseguita l'azione di destinazione."

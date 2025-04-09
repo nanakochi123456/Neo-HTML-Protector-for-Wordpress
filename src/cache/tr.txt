@@ -311,3 +311,7 @@ Firefoxにおけるデバッグモード	Firefox'ta hata ayıklama modu
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağını view-source ile görüntülerken uyarma niyetini belirten ASCII resmini görüntüleyin.
 HTML保護と組み合わせることでコンテンツを保護することができます	HTML koruması ile birlikte içerik korunabilir
 画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Görüntü tembel olarak yüklenecek, ancak görüntü bu belirtilen süreden 30 saniye önce yüklenmeye zorlanacaktır.
+有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Her etkinleştirildiğinde, SEO'yu önemli ölçüde etkileyen bir yönlendirme gerçekleşir
+びっくりするような雰囲気を作ります	Şaşırtıcı bir atmosfer yaratın
+対象アクションを起こした時のビープ音	Hedef eylem gerçekleştirildiğinde bip sesi.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Uyarı ekranı sırasında cihaz kontrolden çıkmış gibi bir atmosfer yaratın

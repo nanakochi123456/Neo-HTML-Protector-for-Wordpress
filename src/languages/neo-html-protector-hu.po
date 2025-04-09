@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:10+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -111,8 +111,8 @@ msgstr "A HTML tömörítésen túl csak minimális HTML kerül kimenetre, és a
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "A view-source: művelet végrehajtásának időpontját is rögzíti."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Amikor aktiválódik, átirányítás történik, ami hatással van a SEO-ra."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Amikor aktiválódik, átirányítás történik, ami jelentősen befolyásolja a SEO-t."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "A dizájn kissé változhat."
@@ -222,11 +222,14 @@ msgstr "Retro stílusú nyitás - 41,2 mp."
 msgid "警告表示中のBGMを選択します"
 msgstr "Válassza ki a háttérzenét a figyelmeztető kijelzés alatt."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Meglepő légkör létrehozása"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "A Firefox blokkolja a hangot."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Figyelmeztető hangjelzés, amikor a célművelet végrehajtásra kerül."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Sípoló hangjelzés, amikor a célzott művelet végrehajtásra kerül."
 
 msgid "有効 音量小さ目"
 msgstr "Engedélyezve Alacsony hangerő"
@@ -236,6 +239,9 @@ msgstr "Engedélyezve Legnagyobb hangerő"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Hangjelzés minden billentyű/egér eseményre a figyelmeztető kijelző alatt"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Olyan hangulatot teremt, mintha a készülék elszabadult volna a figyelmeztető kijelző alatt."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Az egérkurzor törlése a célművelet végrehajtásakor."

@@ -320,3 +320,7 @@ Firefoxにおけるデバッグモード	Debug mode in Firefox
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Display ASCII art to indicate warning intention when HTML source is displayed in view-source
 HTML保護と組み合わせることでコンテンツを保護することができます	Can be combined with HTML protection to protect content
 画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	The image will be loaded lazily, but the image will be forced to be loaded 30 seconds before this specified time
+有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Whenever it is activated, a redirect occurs, which significantly affects SEO
+びっくりするような雰囲気を作ります	Create a Surprising Atmosphere
+対象アクションを起こした時のビープ音	Beep sound when target action is taken
+警告表示中に端末が暴走したかのような雰囲気を作ります	Creates an atmosphere as if the terminal has gone out of control during the warning display

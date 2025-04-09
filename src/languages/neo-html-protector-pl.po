@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:10+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -111,8 +111,8 @@ msgstr "Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawar
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Rejestruje również, kiedy akcja view-source: jest podejmowana."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, które ma wpływ na SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, co znacząco wpływa na SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Projekt może ulec nieznacznym zmianom."
@@ -222,11 +222,14 @@ msgstr "Otwarcie w stylu retro - 41,2 sek."
 msgid "警告表示中のBGMを選択します"
 msgstr "Wybór muzyki w tle podczas wyświetlania ostrzeżenia."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Stwórz zaskakującą atmosferę"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox zablokuje dźwięk."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Dźwięk ostrzeżenia po wykonaniu akcji docelowej."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Sygnał dźwiękowy po wykonaniu akcji docelowej."
 
 msgid "有効 音量小さ目"
 msgstr "Włączone Niski poziom głośności"
@@ -236,6 +239,9 @@ msgstr "Włączona Najgłośniejsza głośność"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Sygnały dźwiękowe przy wszystkich zdarzeniach klawiszy/myszy podczas wyświetlania ostrzeżenia"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Stwórz atmosferę, jakby urządzenie wymknęło się spod kontroli podczas wyświetlania ostrzeżenia."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Usuwanie kursora myszy po wykonaniu docelowej akcji."

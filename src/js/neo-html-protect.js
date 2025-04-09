@@ -35,6 +35,13 @@
 	let		Nonce=NeoHPnonce;
 	let		unixTime = Math.floor(Date.now() / 1000);
 
+
+	let		datastr = 'data-' + nullstr;
+	let		srcstr = 'src' + nullstr;
+	let		srcsetstr = srcstr + 'set';
+	let		noncestr = 'nonce' + nullstr;
+
+	let		eventflag = 0;
 	let		Cryptojs;
 
 	// BEEPを鳴らすためのコンテキスト
@@ -192,7 +199,14 @@
 
 	/** @noinline */
 	function getattr(img, attr) {
-		return img.getAttribute('data-' + attr);
+		return img.getAttribute(datastr + attr);
+	}
+
+	/** @noinline */
+	function removeattr(img, attr) {
+		if (img.hasAttribute(datastr + attr )) {
+			img.removeAttribute(datastr + attr);
+		}
 	}
 
 	// 例: 画像のdata-src属性を取得して復号化する lazyロード
@@ -208,9 +222,9 @@
 						if (entry.isIntersecting) {
 							let img = entry.target;
 							if (img.className.includes('protected')) {
-								let encryptedData_src = getattr(img, 'src');
-								let encryptedData_srcset = getattr(img, 'srcset');
-								let nonce = getattr(img, 'nonce');
+								let encryptedData_src = getattr(img, srcstr);
+								let encryptedData_srcset = getattr(img, srcsetstr);
+								let nonce = getattr(img, noncestr);
 
 								try {
 									// 画像URLを非同期で復号化
@@ -247,7 +261,7 @@
 				// 1回だけ実行されるnonceの有効期限分-30秒前の強制読み込み
 				setTimeout(() => {
 					document.querySelectorAll('img[data-src].protected').forEach(img => {
-						const currentSrc = img.getAttribute('src') || '';
+						const currentSrc = img.getAttribute(srcstr) || '';
 						const isPlaceholder = currentSrc.startsWith('data:') || currentSrc === location.href;
 
 						if (isPlaceholder) {
@@ -262,9 +276,9 @@
 
 	// 指定した秒数にlazyロードで読み込まれてない画像を強制読み込みする
 	async function decryptAndApplyImage(img) {
-		let encryptedData_src = getattr(img, 'src');
-		let encryptedData_srcset = getattr(img, 'srcset');
-		let nonce = getattr(img, 'nonce');
+		let encryptedData_src = getattr(img, srcstr);
+		let encryptedData_srcset = getattr(img, srcsetstr);
+		let nonce = getattr(img, noncestr);
 
 		try {
 			let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
@@ -277,14 +291,12 @@
 				img.srcset = decryptedUrl_srcset;
 			}
 
-/* 以下不要
-			// 復号＆設定が済んだら data-* 属性を削除して二度と処理されないようにする
-			img.removeAttribute('data-src');
-			if (img.hasAttribute('data-srcset')) img.removeAttribute('data-srcset');
-			if (img.hasAttribute('data-nonce')) img.removeAttribute('data-nonce');
-*/
+			// 再復号防止にdata-*を削除
+			removeattr(img, srcstr);
+			removeattr(img, srcsetstr);
+			removeattr(img, noncestr);
 		} catch (error) {
-	//		console.error('🔒 復号化失敗:', error);
+		//	console.error('🔒 復号化失敗:', error);
 		}
 	}
 
@@ -299,9 +311,9 @@
 				
 				imgTags.forEach(img => {
 					if (img.className.includes('protected')) {
-						let encryptedData_src = img.getAttribute('data-src');
-						let encryptedData_srcset = img.getAttribute('data-srcset');
-						let nonce = img.getAttribute('data-nonce');
+						let encryptedData_src = getattr(img, 'src');
+						let encryptedData_srcset = getattr(img, 'srcset');
+						let nonce = getattr(img, 'nonce');
 						
 						// 画像URLを復号化
 						let decryptedUrl_src = await decryptAndDecodeImageUrl(encryptedData_src, nonce);
@@ -325,6 +337,7 @@
 	// 動作を停止する
 	/** @noinline */
 	function stop(event) {
+		eventflag++;
 		event.preventDefault();
 		event.stopPropagation();
 	}
@@ -723,7 +736,8 @@
 			},
 			// alertで表示後URL転送
 			success: function(response) {
-				if(FlagAll.includes(Flg)) {
+
+				if(FlagAll.includes(Flg) && eventflag < 2) {
 					// マウスカーソルを透明pngで消去する
 					if(FlagAll.includes('m')) {
 						$("html").css({

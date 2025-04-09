@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:08+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -111,8 +111,8 @@ msgstr "除 HTML 压缩外，只输出最少量的 HTML，而且根本不输出 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "它还会记录何时执行了视图源：操作。"
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "无论何时激活，都会发生重定向，从而对搜索引擎优化产生影响"
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "无论何时激活，都会发生重定向，从而对搜索引擎优化产生重大影响"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "设计可能略有改动。"
@@ -222,11 +222,14 @@ msgstr "复古式开启 - 41.2 秒"
 msgid "警告表示中のBGMを選択します"
 msgstr "选择警告显示时的背景音乐。"
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "营造惊喜氛围"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "火狐浏览器会屏蔽音频。"
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "采取目标行动时发出警告声。"
+msgid "対象アクションを起こした時のビープ音"
+msgstr "采取目标行动时发出哔哔声。"
 
 msgid "有効 音量小さ目"
 msgstr "启用 低音量"
@@ -236,6 +239,9 @@ msgstr "已启用 最大声量"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "警告显示期间，所有按键/鼠标事件都会发出蜂鸣声"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "在警告显示期间营造一种设备失控的氛围"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "执行目标操作时擦除鼠标光标。"

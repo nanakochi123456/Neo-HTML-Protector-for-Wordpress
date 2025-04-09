@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:10+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -111,8 +111,8 @@ msgstr "Er wordt alleen minimale HTML uitgevoerd voorbij HTML-compressie en de i
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Het registreert ook wanneer de view-source: actie wordt uitgevoerd."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Telkens wanneer deze wordt geactiveerd, wordt er een omleiding uitgevoerd, wat invloed heeft op SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Telkens wanneer deze wordt geactiveerd, vindt er een omleiding plaats, wat SEO aanzienlijk beïnvloedt"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Het ontwerp kan lichtjes veranderen."
@@ -222,11 +222,14 @@ msgstr "Retrostijl open - 41,2 sec."
 msgid "警告表示中のBGMを選択します"
 msgstr "Selecteer de achtergrondmuziek tijdens de waarschuwingsweergave."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Creëer een verrassende sfeer"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox blokkeert audio."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Waarschuwingsgeluid wanneer doelactie wordt uitgevoerd."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Piepgeluid wanneer doelactie wordt uitgevoerd."
 
 msgid "有効 音量小さ目"
 msgstr "Ingeschakeld Laag volume"
@@ -236,6 +239,9 @@ msgstr "Ingeschakeld Luidste volume"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Pieptonen bij alle toets-/muisbewegingen tijdens waarschuwingsweergave"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Creëer een sfeer alsof het apparaat uit de hand is gelopen tijdens de waarschuwingsweergave"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "De muiscursor wissen wanneer de doelactie wordt uitgevoerd."

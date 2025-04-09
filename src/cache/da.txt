@@ -312,3 +312,7 @@ Firefoxにおけるデバッグモード	Fejlfindingstilstand i Firefox
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vis ASCII-tegninger, der angiver intentionen om at advare, når HTML-kilde vises med view-source.
 HTML保護と組み合わせることでコンテンツを保護することができます	Kombineret med HTML-beskyttelse kan indhold beskyttes
 画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Billedet bliver indlæst dovent, men det bliver tvunget til at blive indlæst 30 sekunder før det angivne tidspunkt.
+有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Hver gang den aktiveres, sker der en omdirigering, som påvirker SEO betydeligt
+びっくりするような雰囲気を作ります	Skab en overraskende atmosfære
+対象アクションを起こした時のビープ音	Bip-lyd, når målhandlingen udføres.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Skab en atmosfære, som om enheden er kommet ud af kontrol under advarselsvisningen

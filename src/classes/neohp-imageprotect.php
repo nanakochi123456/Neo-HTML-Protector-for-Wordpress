@@ -210,9 +210,9 @@ class neohp_imageprotect {
 
 		if(get_option('neohp_imagedownload_real', '1') === '0') {
 			$this->outputPng($value . "\n"
-				. "string=".$string . "\n"
-				. "image_path=".$image_path . "\n"
-				. "nonce=".$nonce . "\n"
+				//. "string=".$string . "\n"
+				//. "image_path=".$image_path . "\n"
+				//. "nonce=".$nonce . "\n"
 			);
 		} elseif(get_option('neohp_imagedownload_real', '1') === '1') {
 			header('Content-Type: image/gif');

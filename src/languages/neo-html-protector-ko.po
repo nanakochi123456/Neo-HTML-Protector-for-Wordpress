@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:08+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -111,8 +111,8 @@ msgstr "HTML 압축 이상의 최소한의 HTML만 출력하고, BODY 태그 내
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "View-source: 동작을 했을 때 기록도 합니다."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "활성화하면 반드시 리디렉션이 발생하기 때문에 SEO에 영향을 미칩니다."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "활성화하면 반드시 리디렉션이 발생하기 때문에 SEO에 큰 영향을 미칩니다."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "디자인이 약간 변경될 수 있습니다."
@@ -222,10 +222,13 @@ msgstr "레트로풍 오픈 - 41.2초"
 msgid "警告表示中のBGMを選択します"
 msgstr "경고 표시 중 배경음악을 선택합니다"
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "깜짝 놀랄만한 분위기를 연출합니다"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox에서는 음성 차단됩니다"
 
-msgid "対象アクションを起こした時の警告音"
+msgid "対象アクションを起こした時のビープ音"
 msgstr "대상 동작 발생 시 경고음 발생"
 
 msgid "有効 音量小さ目"
@@ -236,6 +239,9 @@ msgstr "유효 볼륨 크게"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "경고 표시 중 모든 키/마우스 이벤트에서 경고음이 울립니다."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "경고 표시 중 단말기가 폭주하는 듯한 분위기를 연출합니다."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "대상 동작 발생 시 마우스 커서 지우기"

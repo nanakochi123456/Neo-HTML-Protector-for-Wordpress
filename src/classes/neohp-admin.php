@@ -340,7 +340,7 @@ class neohp_admin {
 
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
-					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、SEOに影響があります', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('若干デザインが変わる可能性があります', 'neo-html-protector') );
 				},
 				'neohp-settings',
@@ -523,6 +523,7 @@ class neohp_admin {
 </script>
 					<?php
 					echo '<br>' . esc_html( __('警告表示中のBGMを選択します', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('びっくりするような雰囲気を作ります', 'neo-html-protector') );
 					echo '<br>' . esc_html( __('Firefoxでは音声ブロックされます', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
@@ -539,7 +540,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_beep',
-				__('対象アクションを起こした時の警告音', 'neo-html-protector'),
+				__('対象アクションを起こした時のビープ音', 'neo-html-protector'),
 
 				function() {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
@@ -550,6 +551,7 @@ class neohp_admin {
 						, '2=' . __('有効 音量大き目', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('警告表示中に端末が暴走したかのような雰囲気を作ります', 'neo-html-protector') );
 				},
 				'neohp-design-settings',
 				'neohp_design_section'

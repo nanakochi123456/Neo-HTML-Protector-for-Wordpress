@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:11+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -111,8 +111,8 @@ msgstr "Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Prav tako beleži, kdaj je izvedeno dejanje view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Ko je aktivirana, pride do preusmeritve, ki vpliva na SEO."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Ko je aktivirana, pride do preusmeritve, kar pomembno vpliva na SEO."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Oblikovanje se lahko nekoliko spremeni."
@@ -222,11 +222,14 @@ msgstr "Odpiranje v retro slogu - 41,2 sekunde."
 msgid "警告表示中のBGMを選択します"
 msgstr "Izberite glasbo v ozadju med prikazom opozorila."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ustvarite presenetljivo vzdušje"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox bo blokiral zvok."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Opozorilni zvok, ko se izvede ciljno dejanje."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Piskajoč zvok, ko se izvede ciljno dejanje."
 
 msgid "有効 音量小さ目"
 msgstr "Omogočeno Nizka glasnost"
@@ -236,6 +239,9 @@ msgstr "Omogočeno Najglasnejša glasnost"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Med prikazom opozorila piska ob vseh dogodkih s tipko/mišico"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Med prikazom opozorila ustvarite vzdušje, kot da je naprava ušla izpod nadzora."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Brisanje kazalca miške, ko se izvede ciljno dejanje."

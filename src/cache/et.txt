@@ -311,3 +311,7 @@ Firefoxにおけるデバッグモード	Firefoxi tõrjerežiim
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatamise kavatsust HTML-allika kuvamisel view-source'iga.
 HTML保護と組み合わせることでコンテンツを保護することができます	Kombineerituna HTML-kaitsega saab sisu kaitsta
 画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Pilt laaditakse laisalt, kuid pilt on sunnitud laadima 30 sekundit enne seda määratud aega.
+有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab oluliselt SEO-d.
+びっくりするような雰囲気を作ります	Luua üllatav atmosfäär
+対象アクションを起こした時のビープ音	Helisignaal, kui sihttegevus on tehtud.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Looge õhkkonda, nagu oleks seade hoiatusnäidiku ajal kontrolli alt väljunud

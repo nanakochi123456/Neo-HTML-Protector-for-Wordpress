@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:11+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -111,8 +111,8 @@ msgstr "Endast minimal HTML matas ut efter HTML-komprimering, och innehållet i 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Den registrerar också när åtgärden view-source: vidtas."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "När den aktiveras sker en omdirigering, vilket påverkar SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "När den aktiveras sker en omdirigering, vilket påverkar SEO avsevärt"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Designen kan komma att ändras något."
@@ -222,11 +222,14 @@ msgstr "Öppning i retrostil - 41,2 sek."
 msgid "警告表示中のBGMを選択します"
 msgstr "Välj bakgrundsmusik under varningsdisplayen."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Skapa en överraskande atmosfär"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox kommer att blockera ljud."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Varningsljud när målåtgärd vidtas."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Pip-ljud när målåtgärden vidtas."
 
 msgid "有効 音量小さ目"
 msgstr "Aktiverad Låg volym"
@@ -236,6 +239,9 @@ msgstr "Aktiverad Högsta volym"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Ljudsignaler vid alla tangent-/musrörelser under varningsvisning"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Skapa en atmosfär som om enheten har förlorat kontrollen under varningsdisplayen"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Radering av muspekaren när målåtgärden utförs."

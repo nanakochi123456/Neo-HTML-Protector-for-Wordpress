@@ -312,3 +312,7 @@ Firefoxにおけるデバッグモード	Modalità di debug in Firefox
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Visualizza un'immagine ASCII che indica l'intenzione di avvertire quando si visualizza il sorgente HTML con view-source.
 HTML保護と組み合わせることでコンテンツを保護することができます	In combinazione con la protezione HTML, il contenuto può essere protetto
 画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	L'immagine sarà caricata in modo pigro, ma sarà forzata a essere caricata 30 secondi prima dell'ora specificata.
+有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Ogni volta che viene attivato, si verifica un reindirizzamento che influisce in modo significativo sulla SEO.
+びっくりするような雰囲気を作ります	Creare un'atmosfera sorprendente
+対象アクションを起こした時のビープ音	Segnale acustico quando viene eseguita un'azione mirata.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Creare un'atmosfera come se il dispositivo fosse fuori controllo durante la visualizzazione degli avvisi.

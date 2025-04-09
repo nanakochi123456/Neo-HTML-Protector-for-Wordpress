@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:09+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -111,8 +111,8 @@ msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Se kirjaa myös, milloin view-source: -toiminto suoritetaan."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka vaikuttaa SEO:hon."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka vaikuttaa merkittävästi SEO:hon."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Muotoilu saattaa muuttua hieman."
@@ -222,11 +222,14 @@ msgstr "Retro-tyylinen avaus - 41,2 sekuntia."
 msgid "警告表示中のBGMを選択します"
 msgstr "Valitse taustamusiikki varoitusnäytön aikana."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Luo yllättävä tunnelma"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox estää äänen."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Varoitusääni, kun kohdetoimintoon ryhdytään."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Äänimerkkiääni, kun kohdetoiminto on suoritettu."
 
 msgid "有効 音量小さ目"
 msgstr "Käytössä Pieni äänenvoimakkuus"
@@ -236,6 +239,9 @@ msgstr "Käytössä Suurin äänenvoimakkuus"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Äänimerkit kaikista näppäin/hiiren tapahtumista varoitusnäytön aikana."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Luo varoitusnäytön aikana ilmapiiri kuin laite olisi menettänyt hallinnan."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Hiiren kursorin poistaminen, kun kohdetoiminto suoritetaan."

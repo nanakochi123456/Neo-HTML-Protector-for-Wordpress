@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:09+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -111,8 +111,8 @@ msgstr "Über die HTML-Komprimierung hinaus wird nur minimales HTML ausgegeben, 
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Außerdem wird aufgezeichnet, wann die Aktion view-source: durchgeführt wird."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Jedes Mal, wenn sie aktiviert wird, erfolgt eine Umleitung, die sich auf die Suchmaschinenoptimierung auswirkt."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Jedes Mal, wenn sie aktiviert wird, erfolgt eine Umleitung, was sich erheblich auf die Suchmaschinenoptimierung auswirkt."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Das Design kann sich geringfügig ändern."
@@ -222,11 +222,14 @@ msgstr "Retro-Stil offen - 41,2 Sek."
 msgid "警告表示中のBGMを選択します"
 msgstr "Wählen Sie die Hintergrundmusik während der Warnanzeige."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Schaffen Sie eine überraschende Atmosphäre"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox blockiert Audio."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Warnton, wenn die Zielaktion ausgeführt wird."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Piepton, wenn die Zielaktion ausgeführt wird."
 
 msgid "有効 音量小さ目"
 msgstr "Aktiviert Geringe Lautstärke"
@@ -236,6 +239,9 @@ msgstr "Aktiviert Lauteste Lautstärke"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Signaltöne bei allen Tasten-/Mausereignissen während der Warnanzeige"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Während der Warnanzeige eine Atmosphäre schaffen, als ob das Gerät außer Kontrolle geraten wäre"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Löschen des Mauszeigers, wenn die Zielaktion ausgeführt wird."

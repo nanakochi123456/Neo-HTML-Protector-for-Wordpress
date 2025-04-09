@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:09+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -111,8 +111,8 @@ msgstr "Väljastatakse ainult minimaalne HTML, mis ületab HTML-kompressiooni, j
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Samuti registreerib see, millal toimub tegevus view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab SEO-d."
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab oluliselt SEO-d."
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Disain võib veidi muutuda."
@@ -222,11 +222,14 @@ msgstr "Retro-stiilis avatud - 41,2 sek."
 msgid "警告表示中のBGMを選択します"
 msgstr "Valige taustamuusika hoiatusekraani ajal."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Luua üllatav atmosfäär"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox blokeerib heli."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Hoiatussignaal, kui sihtmärgiks on võetud tegevus."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Helisignaal, kui sihttegevus on tehtud."
 
 msgid "有効 音量小さ目"
 msgstr "Lubatud Madal helitugevus"
@@ -236,6 +239,9 @@ msgstr "Lubatud Suurim helitugevus"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Helisignaalid kõikide klahvi/hiire sündmuste korral hoiatuste kuvamise ajal"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Looge õhkkonda, nagu oleks seade hoiatusnäidiku ajal kontrolli alt väljunud"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Hiirekursori kustutamine, kui sihttoiming on sooritatud."

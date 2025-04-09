@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.6\n"
+"Project-Id-Version: Neo HTML Protector 0.1.7\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-08 20:08+0900\n"
-"PO-Revision-Date: 2025-04-08 20:11+0900\n"
+"POT-Creation-Date: 2025-04-09 12:49+0900\n"
+"PO-Revision-Date: 2025-04-09 12:49+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -111,8 +111,8 @@ msgstr "Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmi
 msgid "view-source:の動作をされた時の記録もします"
 msgstr "Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、SEOに影響があります"
-msgstr "Ori de câte ori este activat, are loc o redirecționare, care are un impact asupra SEO"
+msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
+msgstr "Ori de câte ori este activat, are loc o redirecționare, care afectează semnificativ SEO"
 
 msgid "若干デザインが変わる可能性があります"
 msgstr "Designul se poate schimba ușor."
@@ -222,11 +222,14 @@ msgstr "Deschidere în stil retro - 41,2 sec."
 msgid "警告表示中のBGMを選択します"
 msgstr "Selectați muzica de fundal în timpul afișării avertismentelor."
 
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Creați o atmosferă surprinzătoare"
+
 msgid "Firefoxでは音声ブロックされます"
 msgstr "Firefox va bloca audio."
 
-msgid "対象アクションを起こした時の警告音"
-msgstr "Avertizare sonoră atunci când se întreprinde o acțiune țintă."
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bip sonor atunci când este efectuată acțiunea țintă."
 
 msgid "有効 音量小さ目"
 msgstr "Activat Volum scăzut"
@@ -236,6 +239,9 @@ msgstr "Activat Volumul cel mai ridicat"
 
 msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
 msgstr "Bipuri la toate evenimentele tastelor/mousei în timpul afișării avertismentului"
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Creați o atmosferă ca și cum dispozitivul a scăpat de sub control în timpul afișării avertismentului"
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
 msgstr "Ștergerea cursorului mouse-ului atunci când este efectuată acțiunea țintă."
