@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:13+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -105,17 +105,26 @@ msgstr "Algemene HTML-compressie, sommige sites hebben de-obfuscatie."
 msgid "HTML保護"
 msgstr "HTML-bescherming"
 
+msgid "リダイレクトで有効"
+msgstr "Geldig voor omleidingen."
+
+msgid "JavaScript描画で有効"
+msgstr "Geldig voor JavaScript-weergave."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Er wordt alleen minimale HTML uitgevoerd voorbij HTML-compressie en de inhoud in de BODY-tag wordt helemaal niet uitgevoerd."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Het registreert ook wanneer de view-source: actie wordt uitgevoerd."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Als je Enabled"
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Telkens wanneer deze wordt geactiveerd, vindt er een omleiding plaats, wat SEO aanzienlijk beïnvloedt"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Ingeschakeld op omleiden is niet geldig voor Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Het ontwerp kan lichtjes veranderen."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Het inschakelen van JavaScript rendering zal de weergavesnelheid van de website aanzienlijk vertragen."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Beide hebben een grote invloed op SEO."
 
 msgid "画像の保護"
 msgstr "Beeldbescherming."

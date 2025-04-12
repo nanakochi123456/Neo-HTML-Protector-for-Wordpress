@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:13+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -105,17 +105,26 @@ msgstr "Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskaci
 msgid "HTML保護"
 msgstr "HTML apsauga"
 
+msgid "リダイレクトで有効"
+msgstr "Galioja nukreipimams."
+
+msgid "JavaScript描画で有効"
+msgstr "Galioja JavaScript atvaizdavimui."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Jame taip pat įrašoma, kada atliekamas veiksmas view-source:."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Jei pasirinksite Enabled for redirect"
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Kai jis aktyvuojamas, įvyksta nukreipimas, kuris daro didelę įtaką SEO"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Įjungta nukreipti negalioja Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Dizainas gali šiek tiek pasikeisti."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Įjungus JavaScript atvaizdavimą, gerokai sulėtės svetainės rodymo greitis."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Abu šie veiksniai daro didelę įtaką SEO."
 
 msgid "画像の保護"
 msgstr "Vaizdo apsauga."

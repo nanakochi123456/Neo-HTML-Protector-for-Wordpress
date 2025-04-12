@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Sonido de pitido cuando se realiza la acción objetivo.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Crear una atmósfera como si el aparato se hubiera descontrolado durante la visualización de la advertencia.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Dependiendo de la configuración de este plug-in, este evento puede ser raramente alcanzado
+JavaScript描画で有効	Válido para la representación de JavaScript.
+リダイレクトで有効	Válido para redirecciones.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Si selecciona Activado para la redirección, también se registrará cuando se realice el comportamiento ver-fuente:.
+リダイレクトで有効はFirefoxに対しては無効です	Activado en redirección no es válido para Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	La activación de JavaScript ralentizará considerablemente la velocidad de visualización del sitio web.
+いずれもSEOに著しく影響があります	Ambos tienen un impacto significativo en el SEO.

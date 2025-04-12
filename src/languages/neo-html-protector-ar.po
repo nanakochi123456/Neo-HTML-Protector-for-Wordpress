@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Arabic\n"
 "Language: ar\n"
@@ -105,17 +105,26 @@ msgstr "ضغط HTML عام، بعض المواقع لديها إزالة تشو�
 msgid "HTML保護"
 msgstr "حماية HTML"
 
+msgid "リダイレクトで有効"
+msgstr "صالح لعمليات إعادة التوجيه."
+
+msgid "JavaScript描画で有効"
+msgstr "صالح لعرض JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "يتم إخراج الحد الأدنى فقط من HTML خارج ضغط HTML، ولا يتم إخراج المحتوى الموجود في علامة BODY على الإطلاق."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "كما أنه يسجل أيضًا وقت اتخاذ إجراء العرض-المصدر: تم اتخاذ الإجراء."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "إذا قمت بتحديد ممكّن لإعادة التوجيه، فسوف يسجل أيضًا عندما يتم تنفيذ سلوك عرض المصدر: تم."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "كلما تم تنشيطه، تحدث إعادة توجيه، مما يؤثر بشكل كبير على تحسين محركات البحث"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "التمكين عند إعادة التوجيه غير صالح لمتصفح Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "قد يتغير التصميم قليلاً."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "سيؤدي التمكين في عرض JavaScript إلى إبطاء سرعة عرض الموقع الإلكتروني بشكل كبير"
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "كلاهما له تأثير كبير على تحسين محركات البحث."
 
 msgid "画像の保護"
 msgstr "حماية الصورة."

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:39+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -105,17 +105,26 @@ msgstr "一般 HTML 壓縮，某些網站有去混淆功能。"
 msgid "HTML保護"
 msgstr "HTML 保護"
 
+msgid "リダイレクトで有効"
+msgstr "對重定向有效。"
+
+msgid "JavaScript描画で有効"
+msgstr "對 JavaScript 渲染有效。"
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "在 HTML 壓縮之外，只會輸出最小的 HTML，而且完全不輸出 BODY 標籤中的內容。"
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "它也會記錄執行 view-source: 動作的時間。"
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "如果您選擇啟用重定向，它也會記錄檢視來源：行為完成的時間。"
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "每當它被啟動時，就會發生重定向，這會大大影響 SEO"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "重定向時啟用對 Firefox 無效"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "設計可能略有變更。"
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "啟用 JavaScript 渲染功能會大幅降低網站的顯示速度"
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "兩者對 SEO 都有重大影響。"
 
 msgid "画像の保護"
 msgstr "圖像保護。"

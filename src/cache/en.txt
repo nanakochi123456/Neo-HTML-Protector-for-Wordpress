@@ -325,3 +325,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Beep sound when target action is taken
 警告表示中に端末が暴走したかのような雰囲気を作ります	Creates an atmosphere as if the terminal has gone out of control during the warning display
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Depending on the configuration of this plug-in, you may rarely reach this event
+JavaScript描画で有効	Valid for JavaScript rendering
+リダイレクトで有効	Valid with redirect
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	If you choose to enable redirection, it will also record when the view-source: action is taken.
+リダイレクトで有効はFirefoxに対しては無効です	Enable on redirect is not valid for Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Enabling in JavaScript rendering will slow down the website significantly
+いずれもSEOに著しく影響があります	Both have a significant impact on SEO

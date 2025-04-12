@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -105,17 +105,26 @@ msgstr "Γενική συμπίεση HTML, ορισμένες τοποθεσί�
 msgid "HTML保護"
 msgstr "Προστασία HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Ισχύει για ανακατευθύνσεις."
+
+msgid "JavaScript描画で有効"
+msgstr "Ισχύει για απόδοση JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Μόνο η ελάχιστη HTML εξάγεται πέρα από τη συμπίεση HTML και το περιεχόμενο στην ετικέτα BODY δεν εξάγεται καθόλου."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Καταγράφει επίσης πότε πραγματοποιείται η ενέργεια view-source:."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Αν επιλέξετε Ενεργοποιημένο για ανακατεύθυνση, θα καταγράφει επίσης πότε γίνεται η συμπεριφορά view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Κάθε φορά που ενεργοποιείται, γίνεται ανακατεύθυνση, η οποία επηρεάζει σημαντικά το SEO"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Το Enabled on redirect δεν ισχύει για τον Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Ο σχεδιασμός μπορεί να αλλάξει ελαφρώς."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Η ενεργοποίηση της απόδοσης με JavaScript θα επιβραδύνει σημαντικά την ταχύτητα εμφάνισης του ιστότοπου"
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Και τα δύο έχουν σημαντικό αντίκτυπο στο SEO."
 
 msgid "画像の保護"
 msgstr "Προστασία εικόνας."

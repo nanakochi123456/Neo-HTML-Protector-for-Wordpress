@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Pip-ljud när målåtgärden vidtas.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Skapa en atmosfär som om enheten har förlorat kontrollen under varningsdisplayen
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Beroende på konfigurationen av detta plug-in kan denna händelse sällan nås
+JavaScript描画で有効	Giltig för JavaScript-rendering.
+リダイレクトで有効	Gäller för omdirigeringar.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Om du väljer Aktiverad för omdirigering registreras även när beteendet view-source: utförs.
+リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect är inte giltigt för Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Om du aktiverar JavaScript-rendering kommer webbplatsens visningshastighet att sänkas avsevärt
+いずれもSEOに著しく影響があります	Båda har en betydande inverkan på SEO.

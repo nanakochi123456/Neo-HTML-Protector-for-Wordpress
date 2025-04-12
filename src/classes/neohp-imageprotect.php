@@ -63,6 +63,10 @@ class neohp_imageprotect {
 
 				// 全体のHTMLを書き換える
 				if(get_option('neohp_imageprotect', '0') === '2' ) {
+					add_action('template_redirect', function (){
+						$this->neohp_func->cachezero();
+					}, 0);
+
 					add_action('wp_head', function () {
 						ob_start();
 					}, 0);
@@ -76,7 +80,7 @@ class neohp_imageprotect {
 
 						// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 						// Output ↑ min HTML
-						echo $html;
+						//echo $html;
 						// phpcs:enable
 
 						if( ! $this->neohp_func->user() ) {

@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Hedef eylem gerçekleştirildiğinde bip sesi.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Uyarı ekranı sırasında cihaz kontrolden çıkmış gibi bir atmosfer yaratın
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Bu eklentinin yapılandırmasına bağlı olarak, bu olaya nadiren ulaşılabilir
+JavaScript描画で有効	JavaScript oluşturma için geçerlidir.
+リダイレクトで有効	Yönlendirmeler için geçerlidir.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Yönlendirme için Etkin'i seçerseniz, view-source: davranışı tamamlandığında da kaydedecektir.
+リダイレクトで有効はFirefoxに対しては無効です	Yönlendirmede etkin Firefox için geçerli değil
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript oluşturmayı etkinleştirmek web sitesinin görüntülenme hızını önemli ölçüde yavaşlatacaktır
+いずれもSEOに著しく影響があります	Her ikisinin de SEO üzerinde önemli bir etkisi vardır.

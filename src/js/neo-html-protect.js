@@ -524,7 +524,7 @@
 		// Ctrl+A
 		if(FlagSmall.includes(aKey)) {
 			if (ctrl && lower(key) === aKey) {
-				sendIpToServer(CtrlKey + ShiftKey + upper(aKey), aKey);
+				sendIpToServer(CtrlKey + upper(aKey), aKey);
 				stop(event);
 			}
 		}

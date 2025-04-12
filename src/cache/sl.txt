@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Piskajoč zvok, ko se izvede ciljno dejanje.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Med prikazom opozorila ustvarite vzdušje, kot da je naprava ušla izpod nadzora.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Odvisno od konfiguracije tega vtičnika je ta dogodek lahko redko dosežen.
+JavaScript描画で有効	Velja za upodabljanje v javascriptu.
+リダイレクトで有効	Velja za preusmeritve.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Če izberete možnost Omogočeno za preusmeritev, se bo zabeležilo tudi, kdaj je izvedeno obnašanje view-source:.
+リダイレクトで有効はFirefoxに対しては無効です	Omogočeno pri preusmeritvi ne velja za Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Omogočanje upodabljanja v javascriptu bo znatno upočasnilo hitrost prikaza spletnega mesta.
+いずれもSEOに著しく影響があります	Oba imata pomemben vpliv na SEO.

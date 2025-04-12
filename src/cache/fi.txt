@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Äänimerkkiääni, kun kohdetoiminto on suoritettu.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Luo varoitusnäytön aikana ilmapiiri kuin laite olisi menettänyt hallinnan.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Liitännäisen kokoonpanosta riippuen tämä tapahtuma saattaa harvoin tulla vastaan.
+JavaScript描画で有効	Kelpaa JavaScript-toteutukselle.
+リダイレクトで有効	Voimassa uudelleenohjauksille.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Jos valitset uudelleenohjauksen asetukseksi Käytössä, se myös tallentaa, kun view-source: -käyttäytyminen on valmis.
+リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect ei ole voimassa Firefoxissa
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScriptin renderöinnin käyttöönotto hidastaa merkittävästi verkkosivuston näyttönopeutta.
+いずれもSEOに著しく影響があります	Molemmilla on merkittävä vaikutus hakukoneoptimointiin.

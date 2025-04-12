@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Segnale acustico quando viene eseguita un'azione mirata.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Creare un'atmosfera come se il dispositivo fosse fuori controllo durante la visualizzazione degli avvisi.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	A seconda della configurazione di questo plug-in, questo evento può essere raggiunto raramente
+JavaScript描画で有効	Valido per il rendering di JavaScript.
+リダイレクトで有効	Valido per i reindirizzamenti.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Se si seleziona Abilitato per il reindirizzamento, verrà registrato anche il comportamento di view-source:.
+リダイレクトで有効はFirefoxに対しては無効です	Abilitato al reindirizzamento non è valido per Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	L'abilitazione del rendering JavaScript rallenta notevolmente la velocità di visualizzazione del sito web.
+いずれもSEOに著しく影響があります	Entrambi hanno un impatto significativo sulla SEO.

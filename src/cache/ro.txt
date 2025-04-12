@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Bip sonor atunci când este efectuată acțiunea țintă.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Creați o atmosferă ca și cum dispozitivul a scăpat de sub control în timpul afișării avertismentului
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	În funcție de configurația acestui plug-in, acest eveniment poate fi atins rareori
+JavaScript描画で有効	Valabil pentru redarea JavaScript.
+リダイレクトで有効	Valabil pentru redirecționări.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Dacă selectați Activat pentru redirecționare, se va înregistra, de asemenea, când se realizează comportamentul view-source:.
+リダイレクトで有効はFirefoxに対しては無効です	Activat pe redirecționare nu este valabil pentru Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Activarea randării în JavaScript va încetini semnificativ viteza de afișare a site-ului web
+いずれもSEOに著しく影響があります	Ambele au un impact semnificativ asupra SEO.

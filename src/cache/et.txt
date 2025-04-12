@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Helisignaal, kui sihttegevus on tehtud.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Looge õhkkonda, nagu oleks seade hoiatusnäidiku ajal kontrolli alt väljunud
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Sõltuvalt selle pistikprogrammi konfiguratsioonist võib see sündmus harva toimuda
+JavaScript描画で有効	Kehtib JavaScripti renderdamiseks.
+リダイレクトで有効	Kehtib ümbersuunamiste puhul.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Kui te valite Ümbersuunamise jaoks käsu Lubatud, salvestab see ka selle, millal view-source: käitumine on tehtud.
+リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect ei kehti Firefoxi puhul
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScripti renderdamise lubamine aeglustab oluliselt veebilehe kuvamiskiirust.
+いずれもSEOに著しく影響があります	Mõlemal on märkimisväärne mõju SEO-le.

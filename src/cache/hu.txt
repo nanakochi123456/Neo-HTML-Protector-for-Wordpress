@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Sípoló hangjelzés, amikor a célzott művelet végrehajtásra kerül.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Olyan hangulatot teremt, mintha a készülék elszabadult volna a figyelmeztető kijelző alatt.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	A bővítmény konfigurációjától függően ez az esemény ritkán érhető el.
+JavaScript描画で有効	Érvényes a JavaScript rendereléshez.
+リダイレクトで有効	Érvényes az átirányításokra.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Ha az Átirányítás engedélyezve lehetőséget választja, akkor a view-source: viselkedés megtörténtét is rögzíti.
+リダイレクトで有効はFirefoxに対しては無効です	Az átirányítás engedélyezése nem érvényes a Firefox esetében
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	A JavaScript renderelés engedélyezése jelentősen lelassítja a weboldal megjelenítési sebességét.
+いずれもSEOに著しく影響があります	Mindkettő jelentős hatással van a SEO-ra.

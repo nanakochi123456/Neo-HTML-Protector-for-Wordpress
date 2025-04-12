@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Pípnutí při provedení cílové akce.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Vytvoření atmosféry, jako by se zařízení během zobrazení výstrahy vymklo kontrole.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	V závislosti na konfiguraci tohoto modulu plug-in může být tato událost dosažena jen zřídka.
+JavaScript描画で有効	Platí pro vykreslování v jazyce JavaScript.
+リダイレクトで有効	Platí pro přesměrování.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Pokud vyberete možnost Povoleno pro přesměrování, bude se také zaznamenávat, kdy se chování view-source: provede.
+リダイレクトで有効はFirefoxに対しては無効です	Povoleno při přesměrování neplatí pro Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Povolení vykreslování v JavaScriptu výrazně zpomalí rychlost zobrazování webových stránek.
+いずれもSEOに著しく影響があります	Obojí má významný vliv na SEO.

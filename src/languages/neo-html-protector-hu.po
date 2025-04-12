@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -105,17 +105,26 @@ msgstr "Általános HTML tömörítés, néhány webhelyen van de-obfuszkálás.
 msgid "HTML保護"
 msgstr "HTML védelem"
 
+msgid "リダイレクトで有効"
+msgstr "Érvényes az átirányításokra."
+
+msgid "JavaScript描画で有効"
+msgstr "Érvényes a JavaScript rendereléshez."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "A HTML tömörítésen túl csak minimális HTML kerül kimenetre, és a BODY tagben lévő tartalom egyáltalán nem kerül kimenetre."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "A view-source: művelet végrehajtásának időpontját is rögzíti."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Ha az Átirányítás engedélyezve lehetőséget választja, akkor a view-source: viselkedés megtörténtét is rögzíti."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Amikor aktiválódik, átirányítás történik, ami jelentősen befolyásolja a SEO-t."
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Az átirányítás engedélyezése nem érvényes a Firefox esetében"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "A dizájn kissé változhat."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "A JavaScript renderelés engedélyezése jelentősen lelassítja a weboldal megjelenítési sebességét."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Mindkettő jelentős hatással van a SEO-ra."
 
 msgid "画像の保護"
 msgstr "Képvédelem."

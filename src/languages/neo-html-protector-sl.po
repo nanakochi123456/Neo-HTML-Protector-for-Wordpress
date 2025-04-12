@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:41+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:14+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -105,17 +105,26 @@ msgstr "Splošno stiskanje HTML, nekatera spletna mesta imajo funkcijo de-obfusc
 msgid "HTML保護"
 msgstr "Zaščita HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Velja za preusmeritve."
+
+msgid "JavaScript描画で有効"
+msgstr "Velja za upodabljanje v javascriptu."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY pa se sploh ne izpiše."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Prav tako beleži, kdaj je izvedeno dejanje view-source:."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Če izberete možnost Omogočeno za preusmeritev, se bo zabeležilo tudi, kdaj je izvedeno obnašanje view-source:."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Ko je aktivirana, pride do preusmeritve, kar pomembno vpliva na SEO."
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Omogočeno pri preusmeritvi ne velja za Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Oblikovanje se lahko nekoliko spremeni."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Omogočanje upodabljanja v javascriptu bo znatno upočasnilo hitrost prikaza spletnega mesta."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Oba imata pomemben vpliv na SEO."
 
 msgid "画像の保護"
 msgstr "Zaščita slik."

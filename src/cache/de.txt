@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Piepton, wenn die Zielaktion ausgeführt wird.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Während der Warnanzeige eine Atmosphäre schaffen, als ob das Gerät außer Kontrolle geraten wäre
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Je nach Konfiguration des Plug-ins kann dieses Ereignis selten erreicht werden
+JavaScript描画で有効	Gültig für JavaScript-Rendering.
+リダイレクトで有効	Gültig für Weiterleitungen.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Wenn Sie für die Weiterleitung die Option Aktiviert wählen, wird auch aufgezeichnet, wann das Verhalten von view-source: beendet ist.
+リダイレクトで有効はFirefoxに対しては無効です	Aktiviert bei Weiterleitung ist nicht gültig für Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Die Aktivierung des JavaScript-Renderings wird die Anzeigegeschwindigkeit der Website erheblich verlangsamen.
+いずれもSEOに著しく影響があります	Beide haben einen erheblichen Einfluss auf SEO.

@@ -335,13 +335,17 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_htmlprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_htmlprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('有効', 'neo-html-protector')
+						, '1=' . __('リダイレクトで有効', 'neo-html-protector')
+						, '2=' . __('JavaScript描画で有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('view-source:の動作をされた時の記録もします', 'neo-html-protector') );
-					echo '<br>' . esc_html( __('有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります', 'neo-html-protector') );
-					echo '<br>' . esc_html( __('若干デザインが変わる可能性があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('リダイレクトで有効はFirefoxに対しては無効です', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります', 'neo-html-protector') );
+;
+					echo '<br>' .esc_html( __('いずれもSEOに著しく影響があります', 'neo-html-protector') );
+;
 				},
 				'neohp-settings',
 				'neohp_basic_section'

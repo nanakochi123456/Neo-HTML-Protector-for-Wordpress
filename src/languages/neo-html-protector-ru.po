@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -105,17 +105,26 @@ msgstr "Общее сжатие HTML, на некоторых сайтах - д�
 msgid "HTML保護"
 msgstr "Защита HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Действует для перенаправления."
+
+msgid "JavaScript描画で有効"
+msgstr "Действителен для рендеринга JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "За пределами сжатия HTML выводится только минимальный HTML, а содержимое тега BODY не выводится вообще."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Он также записывает, когда выполняется действие view-source:."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Если вы выберете Enabled для перенаправления, он также будет записывать, когда поведение view-source: будет выполнено."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "При его активации происходит редирект, что существенно влияет на SEO"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Включение перенаправления не действует для Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Дизайн может незначительно измениться."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Включение JavaScript-рендеринга значительно замедлит скорость отображения сайта"
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "И то, и другое оказывает значительное влияние на SEO."
 
 msgid "画像の保護"
 msgstr "Защита изображения."

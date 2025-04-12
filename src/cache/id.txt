@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Bunyi bip saat tindakan target dilakukan.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Menciptakan suasana seolah-olah perangkat sudah tidak terkendali selama tampilan peringatan
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Tergantung pada konfigurasi plug-in ini, acara ini mungkin jarang tercapai
+JavaScript描画で有効	Berlaku untuk rendering JavaScript.
+リダイレクトで有効	Berlaku untuk pengalihan.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Jika Anda memilih Diaktifkan untuk pengalihan, ini juga akan mencatat kapan perilaku view-source: dilakukan.
+リダイレクトで有効はFirefoxに対しては無効です	Diaktifkan pada pengalihan tidak berlaku untuk Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mengaktifkan rendering JavaScript akan secara signifikan memperlambat kecepatan tampilan situs web
+いずれもSEOに著しく影響があります	Keduanya memiliki dampak yang signifikan pada SEO.

@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Emite um bipe quando a ação alvo é executada.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Crie uma atmosfera como se o dispositivo estivesse fora de controle durante a exibição do aviso
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Dependendo da configuração desse plug-in, esse evento raramente pode ser alcançado
+JavaScript描画で有効	Válido para renderização de JavaScript.
+リダイレクトで有効	Válido para redirecionamentos.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Se você selecionar Enabled para redirecionamento, ele também registrará quando o comportamento view-source: for concluído.
+リダイレクトで有効はFirefoxに対しては無効です	Ativado no redirecionamento não é válido para o Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	A ativação da renderização de JavaScript reduzirá significativamente a velocidade de exibição do site
+いずれもSEOに著しく影響があります	Ambos têm um impacto significativo no SEO.

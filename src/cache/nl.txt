@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Piepgeluid wanneer doelactie wordt uitgevoerd.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Creëer een sfeer alsof het apparaat uit de hand is gelopen tijdens de waarschuwingsweergave
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Afhankelijk van de configuratie van deze plug-in kan deze gebeurtenis zelden worden bereikt
+JavaScript描画で有効	Geldig voor JavaScript-weergave.
+リダイレクトで有効	Geldig voor omleidingen.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Als je Enabled
+リダイレクトで有効はFirefoxに対しては無効です	Ingeschakeld op omleiden is niet geldig voor Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Het inschakelen van JavaScript rendering zal de weergavesnelheid van de website aanzienlijk vertragen.
+いずれもSEOに著しく影響があります	Beide hebben een grote invloed op SEO.

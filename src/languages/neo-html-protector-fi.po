@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -105,17 +105,26 @@ msgstr "Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto."
 msgid "HTML保護"
 msgstr "HTML-suojaus"
 
+msgid "リダイレクトで有効"
+msgstr "Voimassa uudelleenohjauksille."
+
+msgid "JavaScript描画で有効"
+msgstr "Kelpaa JavaScript-toteutukselle."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-tunnisteen sisältöä tulosteta lainkaan."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Se kirjaa myös, milloin view-source: -toiminto suoritetaan."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Jos valitset uudelleenohjauksen asetukseksi Käytössä, se myös tallentaa, kun view-source: -käyttäytyminen on valmis."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Aina kun se aktivoidaan, tapahtuu uudelleenohjaus, joka vaikuttaa merkittävästi SEO:hon."
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Enabled on redirect ei ole voimassa Firefoxissa"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Muotoilu saattaa muuttua hieman."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScriptin renderöinnin käyttöönotto hidastaa merkittävästi verkkosivuston näyttönopeutta."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Molemmilla on merkittävä vaikutus hakukoneoptimointiin."
 
 msgid "画像の保護"
 msgstr "Kuvan suojaus."

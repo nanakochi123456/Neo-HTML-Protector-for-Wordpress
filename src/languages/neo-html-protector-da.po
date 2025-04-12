@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -105,17 +105,26 @@ msgstr "Generel HTML-komprimering, nogle sider har de-obfuscation."
 msgid "HTML保護"
 msgstr "HTML-beskyttelse"
 
+msgid "リダイレクトで有効"
+msgstr "Gælder for omdirigeringer."
+
+msgid "JavaScript描画で有効"
+msgstr "Gyldig til JavaScript-rendering."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Kun minimal HTML sendes ud efter HTML-komprimering, og indholdet i BODY-tagget sendes slet ikke ud."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Den registrerer også, hvornår handlingen view-source: udføres."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Hvis du vælger Enabled for redirect, registreres det også, når view-source:-adfærden er udført."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Hver gang den aktiveres, sker der en omdirigering, som påvirker SEO betydeligt"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Aktiveret ved omdirigering er ikke gyldig for Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Designet kan ændre sig en smule."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Aktivering af JavaScript-rendering vil sænke hjemmesidens visningshastighed betydeligt"
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Begge dele har stor indflydelse på SEO."
 
 msgid "画像の保護"
 msgstr "Billedbeskyttelse."

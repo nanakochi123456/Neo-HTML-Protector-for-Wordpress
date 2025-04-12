@@ -20,6 +20,7 @@ class neohp_htmlcompress {
 
 		if(get_option('neohp_htmlcompress', '1') == 1) {
 			add_action('template_redirect', function() {
+				$this->neohp_func->cachezero();
 				ob_start(array($this, 'sanitize_output'));
 			}, 1);
 			add_action('wp_footer', function() {

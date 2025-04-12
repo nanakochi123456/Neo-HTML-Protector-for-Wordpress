@@ -317,3 +317,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Bip sonore lorsque l'action ciblée est effectuée.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Créer une atmosphère comme si l'appareil était devenu incontrôlable pendant l'affichage de l'avertissement.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	En fonction de la configuration de ce plug-in, cet événement peut rarement être atteint
+JavaScript描画で有効	Valable pour le rendu JavaScript.
+リダイレクトで有効	Valable pour les redirections.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Si vous sélectionnez Activé pour la redirection, il enregistrera également le moment où le comportement view-source : est effectué.
+リダイレクトで有効はFirefoxに対しては無効です	L'activation de la redirection n'est pas valable pour Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	L'activation du rendu JavaScript ralentira considérablement la vitesse d'affichage du site web.
+いずれもSEOに著しく影響があります	Tous deux ont un impact significatif sur le référencement.

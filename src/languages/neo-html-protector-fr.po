@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:39+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -105,17 +105,26 @@ msgstr "Compression HTML générale, certains sites proposent une désobfuscatio
 msgid "HTML保護"
 msgstr "Protection HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Valable pour les redirections."
+
+msgid "JavaScript描画で有効"
+msgstr "Valable pour le rendu JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Seul le HTML minimal est restitué au-delà de la compression HTML, et le contenu de la balise BODY n'est pas restitué du tout."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Il enregistre également le moment où l'action view-source : est effectuée."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Si vous sélectionnez Activé pour la redirection, il enregistrera également le moment où le comportement view-source : est effectué."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Chaque fois qu'il est activé, une redirection se produit, ce qui affecte considérablement le référencement."
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "L'activation de la redirection n'est pas valable pour Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Le design peut être légèrement modifié."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "L'activation du rendu JavaScript ralentira considérablement la vitesse d'affichage du site web."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Tous deux ont un impact significatif sur le référencement."
 
 msgid "画像の保護"
 msgstr "Protection de l'image."

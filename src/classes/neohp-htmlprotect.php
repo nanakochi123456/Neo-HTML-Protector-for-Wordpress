@@ -22,23 +22,33 @@ class neohp_htmlprotect {
 		}
 
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
-		if(get_option('neohp_htmlprotect', '0') == 1) {
+		if(get_option('neohp_htmlprotect', '0') !== '0') {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
 			add_action('template_redirect', function () {
 				$this->imagetransfer();
 			}, 0);
 
+			// 非常に高い優先度でキャッシュ0のヘッダを出す
+			add_action( 'template_redirect', array($this->neohp_func, 'cachezero'), 0 );
+
 			// headタグをキャプチャ開始
 			add_action('wp_head', function () {
-				ob_start();
-//				ob_start();	// for debug
+				if( ! $this->neohp_func->login() ) {
+					ob_start();
+				}
 			}, 0);
 
 			// headタグを取得
 			add_action('wp_head', function () {
-				$this->neohp_head_content = ob_get_clean(); // head内容を取得
-				ob_end_clean();
+				if( ! $this->neohp_func->login() ) {
+					$this->neohp_head_content = ob_get_clean(); // head内容を取得
+					ob_end_clean();
+				}
 			}, PHP_INT_MAX - 2);
+
+		}
+
+		if(get_option('neohp_htmlprotect', '0') === '1') {
 
 			// for debug bodyの最後をキャプチャする
 /*
@@ -69,8 +79,83 @@ class neohp_htmlprotect {
 				$this->neohp_func->head_echo($head);
 			}, PHP_INT_MAX);
 		}
+
+		// Base64で書くときもう１個キャプチャする
+		if(get_option('neohp_htmlprotect', '0') === '2') {
+			add_action('wp_head', function () {
+				if( ! $this->neohp_func->login() ) {
+					ob_start();
+				}
+			}, 0);
+
+			add_action('wp_footer', function () {
+				if( ! $this->neohp_func->login() ) {
+					$all = ob_get_clean();
+					$this->b64content($this->neohp_head_content . $all);
+				}
+			}, PHP_INT_MAX);
+		}
 	}
 
+	function b64content($all) {
+		$lang = get_bloginfo('language');
+		$title = wp_title('|', false, 'right') . get_bloginfo('name');
+		$all = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">' . $all;
+		$base64 = base64_encode($all);
+		$swapcase = $this->swap_case($base64);
+
+		$head = '';
+		if(get_option('neohp_html_protect_head', '0') !== '0') {
+			// Wordpressから <head>の部分のみ取得
+			$head = $this->replace_image_urls($this->neohp_head_content);
+
+			if(get_option('neohp_html_protect_head', '0') === '2') {
+				$head = $this->sanitize_output_head($head);
+			} else {
+				$head = $this->sanitize_output_head_titleonly($head);
+			}
+		}
+
+		$html .= '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">' . $head . '</head><body><script>';
+/*
+(()=>{
+	function neosc(s){
+		return s.replace(/[a-zA-Z]/g,(c)=>{
+			return c===c.toUpperCase()
+				?c.toLowerCase()
+				:c.toUpperCase();
+		});
+	}
+
+	function neoatob(base64) {
+		const binary = atob(base64);
+		const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+		const decoder = new TextDecoder("utf-8");
+		return decoder.decode(bytes);
+	}
+
+	document.open("text/html","replace");
+	document.write(
+		neoatob(
+			neosc("' . $base64 . '")
+		)
+	);
+})();
+*/
+		$html .= '(()=>{document.open("text/html","replace");document.write(function(a){a=atob(a);a=Uint8Array.from(a,b=>b.charCodeAt(0));return(new TextDecoder("utf-8")).decode(a)}(function(a){return a.replace(/[a-zA-Z]/g,b=>b===b.toUpperCase()?b.toLowerCase():b.toUpperCase())}("' . $swapcase . '")))})();';
+		$html .= '</script></body></html>';
+		ob_end_clean();
+		echo $html;
+		exit;
+	}
+
+	// どうせなら大文字と小文字を入れ替える
+	function swap_case($str) {
+		return preg_replace_callback('/[a-zA-Z]/', function ($match) {
+			$char = $match[0];
+			return ctype_lower($char) ? strtoupper($char) : strtolower($char);
+		}, $str);
+	}
 
 	// OGP用画像転送
 	public function imagetransfer() {
@@ -192,7 +277,6 @@ class neohp_htmlprotect {
 		$html = '';
 		// <!doctype html>の前に警告メッセージを表示する
 
-
 		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 		if(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) !== '') {
 			$ua = $this->neohp_func->get_user_agent();
@@ -228,7 +312,6 @@ class neohp_htmlprotect {
 		$html .= 'location.href=atob(neUrl)';
 		$html .= '</script>';
 		$this->neohp_func->head_echo($html);
-//		echo $html;
 
 //		$html .= $this->replace_image_urls($this->neohp_head_content);
 		$head = '';

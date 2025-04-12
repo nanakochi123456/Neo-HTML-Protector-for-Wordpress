@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:12+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -105,17 +105,26 @@ msgstr "Obecná komprese HTML, některé weby mají funkci de-obfuskace."
 msgid "HTML保護"
 msgstr "Ochrana HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Platí pro přesměrování."
+
+msgid "JavaScript描画で有効"
+msgstr "Platí pro vykreslování v jazyce JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Nad rámec komprese HTML je vypsáno pouze minimální množství HTML a obsah značky BODY není vypsán vůbec."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Zaznamenává také, kdy byla provedena akce view-source:."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Pokud vyberete možnost Povoleno pro přesměrování, bude se také zaznamenávat, kdy se chování view-source: provede."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Kdykoli je aktivována, dojde k přesměrování, které významně ovlivňuje SEO."
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Povoleno při přesměrování neplatí pro Firefox"
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Design se může mírně změnit."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Povolení vykreslování v JavaScriptu výrazně zpomalí rychlost zobrazování webových stránek."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Obojí má významný vliv na SEO."
 
 msgid "画像の保護"
 msgstr "Ochrana obrazu."

@@ -316,3 +316,9 @@ HTML保護と組み合わせることでコンテンツを保護することが�
 対象アクションを起こした時のビープ音	Pīkstiena signāls, kad tiek veikta mērķa darbība.
 警告表示中に端末が暴走したかのような雰囲気を作ります	Brīdinājuma rādīšanas laikā radiet atmosfēru, it kā ierīce būtu kļuvusi nekontrolējama.
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Atkarībā no šī spraudņa konfigurācijas šis notikums var tikt sasniegts reti.
+JavaScript描画で有効	Derīgs JavaScript renderēšanai.
+リダイレクトで有効	Derīgs novirzēm.
+リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Ja atlasāt Ieslēgts novirzīšanai, tiks reģistrēts arī tas, kad tiks veikta skatīšanas avota: uzvedība.
+リダイレクトで有効はFirefoxに対しては無効です	Pārvirzīšanas ieslēgšana nav derīga pārlūkprogrammā Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript atveidošanas ieslēgšana ievērojami palēninās vietnes rādīšanas ātrumu.
+いずれもSEOに著しく影響があります	Abiem faktoriem ir būtiska ietekme uz SEO.

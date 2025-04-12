@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.1.9\n"
+"Project-Id-Version: Neo HTML Protector 0.2.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-09 21:39+0900\n"
-"PO-Revision-Date: 2025-04-09 21:40+0900\n"
+"POT-Creation-Date: 2025-04-12 15:12+0900\n"
+"PO-Revision-Date: 2025-04-12 15:13+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -105,17 +105,26 @@ msgstr "Ogólna kompresja HTML, niektóre strony mają de-obfuscation."
 msgid "HTML保護"
 msgstr "Ochrona HTML"
 
+msgid "リダイレクトで有効"
+msgstr "Obowiązuje dla przekierowań."
+
+msgid "JavaScript描画で有効"
+msgstr "Ważne dla renderowania JavaScript."
+
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawartość w znaczniku BODY nie jest w ogóle wyprowadzana."
 
-msgid "view-source:の動作をされた時の記録もします"
-msgstr "Rejestruje również, kiedy akcja view-source: jest podejmowana."
+msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
+msgstr "Jeśli wybierzesz opcję Włączone dla przekierowania, będzie ono również rejestrować, kiedy zachowanie view-source: zostanie wykonane."
 
-msgid "有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります"
-msgstr "Za każdym razem, gdy jest aktywowany, następuje przekierowanie, co znacząco wpływa na SEO"
+msgid "リダイレクトで有効はFirefoxに対しては無効です"
+msgstr "Włączone przy przekierowaniu nie jest prawidłowe dla przeglądarki Firefox."
 
-msgid "若干デザインが変わる可能性があります"
-msgstr "Projekt może ulec nieznacznym zmianom."
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Włączenie renderowania JavaScript znacznie spowolni szybkość wyświetlania strony internetowej."
+
+msgid "いずれもSEOに著しく影響があります"
+msgstr "Oba mają znaczący wpływ na SEO."
 
 msgid "画像の保護"
 msgstr "Ochrona obrazu."

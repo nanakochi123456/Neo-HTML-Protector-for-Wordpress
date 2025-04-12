@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.1.9
+set VERSION=0.2.0
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -14,6 +14,8 @@ rem SIMPLE_OPTIMIZATIONS
 
 @echo on
 %CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
+%CLOSURE% --js=js/html-protect.js --js_output_file=js/html-protect.min.js  --externs js/externs.js
+
 :wsl rm js/neo-html-protect.min.js.br
 :wsl rm js/neo-html-protect.min.js.gz
 :%BROTLI% js/neo-html-protect.min.js
