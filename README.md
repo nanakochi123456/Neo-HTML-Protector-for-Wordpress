@@ -41,6 +41,8 @@ IPV4環境でのみ確認していますが、IPV6でも動作するはずです
 - 無効化して削除
 
 ## バージョン履歴
+v0.2.1 - JavaScriptで描画モードでソース表示にALERTメッセージを追加
+
 v0.2.0 - Firefox対策のためにHTML保護のJavaScriptで描画を追加
 
 v0.1.9 - tested.xlsx ブラウザバージョン互換表を作成、それに伴いAndroid Browserの検出をやめる

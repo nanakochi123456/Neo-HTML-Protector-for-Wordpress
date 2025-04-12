@@ -98,7 +98,46 @@ class neohp_htmlprotect {
 	}
 
 	function b64content($all) {
+		// 言語を強制する
+		if(get_option('neohp_view-source_message_lang', '0') !== '0') {
+			if(get_option('neohp_view-source_message_lang', '0') === '1') {
+				$lang = $this->neohp_func->getlang();
+			} else {
+				$lang = get_option('neohp_view-source_message_lang', '0');
+			}
+			$lang = str_replace('-', '_', $lang);
+			switch_to_locale( $lang );
+			unload_textdomain('neo-html-protector');
+			load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
+		}
+
+		// 言語を取得
 		$lang = get_bloginfo('language');
+
+		// <!doctype html>の前に警告メッセージを表示する
+
+		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+		if(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) !== '') {
+			$ua = $this->neohp_func->get_user_agent();
+			$protectmsg=esc_html(get_option('neohp_htmlprotect_message', $neohp_htmlprotect_default ) );
+
+			// ユーザーのIPアドレスを取得
+			$user_ip = $this->neohp_func->get_user_ip();
+
+			$protectmsg = str_replace('$IP', $user_ip, $protectmsg);
+			$protectmsg = str_replace('$URL', $current_url, $protectmsg);
+			$protectmsg = str_replace('$KEY', "view-source:$current_url", $protectmsg);
+			$protectmsg = str_replace('$UA', $ua, $protectmsg);
+			$protectmsg = str_replace('\\n', "\n", $protectmsg);
+
+			// アスキーアートの追加
+			if(get_option('neohp_view_source_alert_asciiart', '0') !== '0') {
+				$protectmsg = $warning_ascii_art[get_option('neohp_view_source_alert_asciiart', '0')] . "\n\n" . $protectmsg;
+			}
+
+			$html .= "<!--\n\n" . $protectmsg . "\n\n-->";
+		}
+
 		$title = wp_title('|', false, 'right') . get_bloginfo('name');
 		$all = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">' . $all;
 		$base64 = base64_encode($all);
