@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:13+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -105,26 +105,23 @@ msgstr "Algemene HTML-compressie, sommige sites hebben de-obfuscatie."
 msgid "HTML保護"
 msgstr "HTML-bescherming"
 
-msgid "リダイレクトで有効"
-msgstr "Geldig voor omleidingen."
-
-msgid "JavaScript描画で有効"
-msgstr "Geldig voor JavaScript-weergave."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Er wordt alleen minimale HTML uitgevoerd voorbij HTML-compressie en de inhoud in de BODY-tag wordt helemaal niet uitgevoerd."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Als je Enabled"
+msgid "Firefoxに対しては無効です"
+msgstr "Niet geldig voor Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Ingeschakeld op omleiden is niet geldig voor Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Heeft een aanzienlijke invloed op SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "HTML renderen met JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "HTML renderen met JavaScript als een Firefox-maatregel"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Het inschakelen van JavaScript rendering zal de weergavesnelheid van de website aanzienlijk vertragen."
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Beide hebben een grote invloed op SEO."
 
 msgid "画像の保護"
 msgstr "Beeldbescherming."
@@ -477,6 +474,12 @@ msgstr "De image bot verbieden."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Het vermijden van image bots ten opzichte van HTML beschermt inhoud die niet beschermd zou kunnen worden door directe links vanuit image search."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Toegang tot AI-leerbotten verbieden."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Het vermijden van de leerbot van de AI tegen HTML voorkomt dat het wordt gebruikt door de AI, maar pakt het niet volledig aan"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Taal waarin het waarschuwingsbericht wordt weergegeven."
 
@@ -717,8 +720,8 @@ msgstr "Ongeldig IP-adres."
 msgid "https://google.co.jp"
 msgstr "https://google.nl"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Deze website kan alleen worden bekeken met cookies en JavaScript ingeschakeld"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Cookies en JavaScript moeten ingeschakeld zijn om deze website te kunnen gebruiken."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Er zijn ongebruikelijke toegangs- of bedieningsmethoden gedetecteerd."

@@ -21,6 +21,29 @@ class neohp_htmlprotect {
 			}
 		}
 
+		if(get_option('neohp_deny_aibot', '0') === '1') {
+			$ua = $this->neohp_func->get_user_agent();
+			// ChatGPT
+			if(strpos($ua, 'GPTBot')) {
+				$this->neohp_func->err403();
+			}
+			if(strpos($ua, 'ChatGPT-User')) {
+				$this->neohp_func->err403();
+			}
+			// Google Gemini
+			if(strpos($ua, 'Google-Extended')) {
+				$this->neohp_func->err403();
+			}
+			// Common Crawl
+			if(strpos($ua, 'CCBot')) {
+				$this->neohp_func->err403();
+			}
+			// Stability AI
+			if(strpos($ua, 'StabilityAI')) {
+				$this->neohp_func->err403();
+			}
+		}
+
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') !== '0') {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）
@@ -81,7 +104,7 @@ class neohp_htmlprotect {
 		}
 
 		// Base64で書くときもう１個キャプチャする
-		if(get_option('neohp_htmlprotect', '0') === '2') {
+		if(get_option('neohp_htmlprotectjs', '0') === '1') {
 			add_action('wp_head', function () {
 				if( ! $this->neohp_func->login() ) {
 					ob_start();

@@ -322,3 +322,10 @@ JavaScript描画で有効	Giltig för JavaScript-rendering.
 リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect är inte giltigt för Firefox
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Om du aktiverar JavaScript-rendering kommer webbplatsens visningshastighet att sänkas avsevärt
 いずれもSEOに著しく影響があります	Båda har en betydande inverkan på SEO.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookies och JavaScript måste vara aktiverade för att du ska kunna använda den här webbplatsen.
+AI学習用botをアクセス禁止にする	Förbud mot tillgång till AI-inlärningsrobotar.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Att undvika att AI:s inlärningsbot använder HTML förhindrar att den används av AI:n, men det löser inte problemet helt och hållet
+Firefoxに対しては無効です	Gäller inte för Firefox.
+SEOに著しく影響があります	Påverkar SEO avsevärt.
+HTMLをJavaScriptで描画	Rendering av HTML med JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Rendering av HTML med JavaScript som en Firefox-åtgärd

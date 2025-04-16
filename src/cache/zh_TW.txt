@@ -323,3 +323,10 @@ JavaScript描画で有効	對 JavaScript 渲染有效。
 リダイレクトで有効はFirefoxに対しては無効です	重定向時啟用對 Firefox 無效
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	啟用 JavaScript 渲染功能會大幅降低網站的顯示速度
 いずれもSEOに著しく影響があります	兩者對 SEO 都有重大影響。
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	必須啟用 Cookie 和 JavaScript 才能使用本網站。
+AI学習用botをアクセス禁止にする	禁止存取 AI 學習機器人。
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	避免人工智慧針對 HTML 的學習機器人，可以防止它被人工智慧使用，但無法完全解決
+Firefoxに対しては無効です	對 Firefox 無效。
+SEOに著しく影響があります	顯著影響 SEO。
+HTMLをJavaScriptで描画	使用 JavaScript 渲染 HTML
+Firefox対策としてHTMLをJavaScriptで描画をします	以 JavaScript 繪製 HTML 作為 Firefox 的措施

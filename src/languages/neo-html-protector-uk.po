@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -105,26 +105,23 @@ msgstr "Загальне стиснення HTML, деякі сайти мают
 msgid "HTML保護"
 msgstr "Захист HTML"
 
-msgid "リダイレクトで有効"
-msgstr "Діє для редиректів."
-
-msgid "JavaScript描画で有効"
-msgstr "Дійсно для рендерингу JavaScript."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "За межами стиснення HTML виводиться лише мінімальний HTML, а вміст тегу BODY не виводиться взагалі."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Якщо ви виберете Увімкнено для переспрямування, воно також записуватиме, коли буде виконано поведінку view-source:."
+msgid "Firefoxに対しては無効です"
+msgstr "Не діє для Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Увімкнено при перенаправленні не діє для Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Істотно впливає на SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Відображення HTML за допомогою JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Відображення HTML за допомогою JavaScript у Firefox"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Увімкнення рендерингу JavaScript значно сповільнить швидкість відображення веб-сайту"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Обидва мають значний вплив на SEO."
 
 msgid "画像の保護"
 msgstr "Захист зображення."
@@ -477,6 +474,12 @@ msgstr "Заборона імідж-бота."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Уникнення ботів зображень у HTML захищає контент, який не можна захистити прямими посиланнями, від пошуку зображень."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Заборона доступу до навчальних ботів зі штучним інтелектом."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Уникнення використання бота для навчання ШІ проти HTML запобігає його використанню ШІ, але не повністю вирішує проблему"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Мова, якою відображається попереджувальне повідомлення."
 
@@ -717,8 +720,8 @@ msgstr "Неправильна IP-адреса."
 msgid "https://google.co.jp"
 msgstr "https://google.com.ua"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Цей веб-сайт можна переглядати лише з увімкненими файлами cookie та JavaScript"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Для використання цього веб-сайту необхідно увімкнути файли cookie та JavaScript."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Виявлено незвичні методи доступу або роботи."

@@ -322,3 +322,10 @@ JavaScript描画で有効	Berlaku untuk rendering JavaScript.
 リダイレクトで有効はFirefoxに対しては無効です	Diaktifkan pada pengalihan tidak berlaku untuk Firefox
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mengaktifkan rendering JavaScript akan secara signifikan memperlambat kecepatan tampilan situs web
 いずれもSEOに著しく影響があります	Keduanya memiliki dampak yang signifikan pada SEO.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookie dan JavaScript harus diaktifkan untuk menggunakan situs web ini.
+AI学習用botをアクセス禁止にする	Melarang akses ke bot pembelajaran AI.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Menghindari bot pembelajaran AI terhadap HTML mencegahnya digunakan oleh AI, tetapi tidak sepenuhnya mengatasi
+Firefoxに対しては無効です	Tidak berlaku untuk Firefox.
+SEOに著しく影響があります	Secara signifikan mempengaruhi SEO.
+HTMLをJavaScriptで描画	Merender HTML dengan JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Merender HTML dengan JavaScript sebagai ukuran Firefox

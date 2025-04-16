@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:14+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -105,26 +105,23 @@ msgstr "Compresie HTML generală, unele site-uri au de-obfuscation."
 msgid "HTML保護"
 msgstr "Protecția HTML"
 
-msgid "リダイレクトで有効"
-msgstr "Valabil pentru redirecționări."
-
-msgid "JavaScript描画で有効"
-msgstr "Valabil pentru redarea JavaScript."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmisă, iar conținutul din tag-ul BODY nu este transmis deloc."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Dacă selectați Activat pentru redirecționare, se va înregistra, de asemenea, când se realizează comportamentul view-source:."
+msgid "Firefoxに対しては無効です"
+msgstr "Nu este valabil pentru Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Activat pe redirecționare nu este valabil pentru Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Afectează semnificativ SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Renderizarea HTML cu JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Renderizarea HTML cu JavaScript ca măsură Firefox"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Activarea randării în JavaScript va încetini semnificativ viteza de afișare a site-ului web"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Ambele au un impact semnificativ asupra SEO."
 
 msgid "画像の保護"
 msgstr "Protecția imaginii."
@@ -477,6 +474,12 @@ msgstr "Interzicerea robotului de imagine."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Interzicerea accesului la roboții de învățare AI."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Evitarea robotului de învățare al AI împotriva HTML previne utilizarea acestuia de către AI, dar nu rezolvă complet problema"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Limba în care este afișat mesajul de alertă."
 
@@ -717,8 +720,8 @@ msgstr "Adresă IP invalidă."
 msgid "https://google.co.jp"
 msgstr "https://google.ro"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Cookie-urile și JavaScript trebuie să fie activate pentru a putea utiliza acest site."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Au fost detectate metode neobișnuite de acces sau funcționare."

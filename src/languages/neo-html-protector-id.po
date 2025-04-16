@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -105,26 +105,23 @@ msgstr "Kompresi HTML umum, beberapa situs memiliki de-obfuscation."
 msgid "HTML保護"
 msgstr "Perlindungan HTML"
 
-msgid "リダイレクトで有効"
-msgstr "Berlaku untuk pengalihan."
-
-msgid "JavaScript描画で有効"
-msgstr "Berlaku untuk rendering JavaScript."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Hanya HTML minimal yang dihasilkan di luar kompresi HTML, dan konten dalam tag BODY tidak dihasilkan sama sekali."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Jika Anda memilih Diaktifkan untuk pengalihan, ini juga akan mencatat kapan perilaku view-source: dilakukan."
+msgid "Firefoxに対しては無効です"
+msgstr "Tidak berlaku untuk Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Diaktifkan pada pengalihan tidak berlaku untuk Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Secara signifikan mempengaruhi SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Merender HTML dengan JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Merender HTML dengan JavaScript sebagai ukuran Firefox"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Mengaktifkan rendering JavaScript akan secara signifikan memperlambat kecepatan tampilan situs web"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Keduanya memiliki dampak yang signifikan pada SEO."
 
 msgid "画像の保護"
 msgstr "Perlindungan gambar."
@@ -477,6 +474,12 @@ msgstr "Melarang bot gambar."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Melarang akses ke bot pembelajaran AI."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Menghindari bot pembelajaran AI terhadap HTML mencegahnya digunakan oleh AI, tetapi tidak sepenuhnya mengatasi"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Bahasa yang digunakan untuk menampilkan pesan peringatan."
 
@@ -717,8 +720,8 @@ msgstr "Alamat IP tidak valid."
 msgid "https://google.co.jp"
 msgstr "https://google.co.id"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Cookie dan JavaScript harus diaktifkan untuk menggunakan situs web ini."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Metode akses atau operasi yang tidak biasa telah terdeteksi."

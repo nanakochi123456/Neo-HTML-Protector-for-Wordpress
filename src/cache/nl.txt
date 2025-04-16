@@ -322,3 +322,10 @@ JavaScript描画で有効	Geldig voor JavaScript-weergave.
 リダイレクトで有効はFirefoxに対しては無効です	Ingeschakeld op omleiden is niet geldig voor Firefox
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Het inschakelen van JavaScript rendering zal de weergavesnelheid van de website aanzienlijk vertragen.
 いずれもSEOに著しく影響があります	Beide hebben een grote invloed op SEO.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookies en JavaScript moeten ingeschakeld zijn om deze website te kunnen gebruiken.
+AI学習用botをアクセス禁止にする	Toegang tot AI-leerbotten verbieden.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Het vermijden van de leerbot van de AI tegen HTML voorkomt dat het wordt gebruikt door de AI, maar pakt het niet volledig aan
+Firefoxに対しては無効です	Niet geldig voor Firefox.
+SEOに著しく影響があります	Heeft een aanzienlijke invloed op SEO.
+HTMLをJavaScriptで描画	HTML renderen met JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML renderen met JavaScript als een Firefox-maatregel

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:06+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -105,26 +105,23 @@ msgstr "Общее сжатие HTML, на некоторых сайтах - д�
 msgid "HTML保護"
 msgstr "Защита HTML"
 
-msgid "リダイレクトで有効"
-msgstr "Действует для перенаправления."
-
-msgid "JavaScript描画で有効"
-msgstr "Действителен для рендеринга JavaScript."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "За пределами сжатия HTML выводится только минимальный HTML, а содержимое тега BODY не выводится вообще."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Если вы выберете Enabled для перенаправления, он также будет записывать, когда поведение view-source: будет выполнено."
+msgid "Firefoxに対しては無効です"
+msgstr "Не действует для Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Включение перенаправления не действует для Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Значительно влияет на SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Рендеринг HTML с помощью JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Рендеринг HTML с помощью JavaScript в Firefox"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Включение JavaScript-рендеринга значительно замедлит скорость отображения сайта"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "И то, и другое оказывает значительное влияние на SEO."
 
 msgid "画像の保護"
 msgstr "Защита изображения."
@@ -477,6 +474,12 @@ msgstr "Запрет имидж-бота."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Избегая ботов для изображений по отношению к HTML, вы защищаете контент, который не может быть защищен прямыми ссылками из поиска по изображениям."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Запрет доступа к обучающим ботам с искусственным интеллектом."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Отказ обучающегося бота ИИ от HTML предотвращает его использование ИИ, но не решает проблему полностью."
+
 msgid "alertメッセージを表示する言語"
 msgstr "Язык, на котором отображается сообщение о предупреждении."
 
@@ -717,8 +720,8 @@ msgstr "Неверный IP-адрес."
 msgid "https://google.co.jp"
 msgstr "https://yandex.com"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Этот сайт можно просматривать только с включенными cookies и JavaScript"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Для использования этого сайта необходимо включить Cookies и JavaScript."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Обнаружены необычные методы доступа или эксплуатации."

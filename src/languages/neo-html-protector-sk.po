@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:14+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -105,26 +105,23 @@ msgstr "Všeobecná kompresia HTML, niektoré stránky majú de-obfuskáciu."
 msgid "HTML保護"
 msgstr "Ochrana HTML"
 
-msgid "リダイレクトで有効"
-msgstr "Platí pre presmerovania."
-
-msgid "JavaScript描画で有効"
-msgstr "Platí pre vykresľovanie v jazyku JavaScript."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Mimo kompresie HTML sa vypisuje len minimum HTML a obsah v tagu BODY sa nevypisuje vôbec."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Ak vyberiete možnosť Zapnuté pre presmerovanie, bude sa zaznamenávať aj to, kedy sa vykoná správanie view-source:."
+msgid "Firefoxに対しては無効です"
+msgstr "Neplatí pre Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Povolené presmerovanie neplatí pre Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Výrazne ovplyvňuje SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Vykresľovanie HTML pomocou jazyka JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Vykresľovanie HTML pomocou JavaScriptu ako opatrenie prehliadača Firefox"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Zapnutie vykresľovania v jazyku JavaScript výrazne spomalí rýchlosť zobrazovania webovej stránky"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Obe majú významný vplyv na SEO."
 
 msgid "画像の保護"
 msgstr "Ochrana obrazu."
@@ -477,6 +474,12 @@ msgstr "Zákaz obrazového bota."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Zákaz prístupu k botom na učenie umelej inteligencie."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Vyhnutie sa učiacemu sa botovi proti HTML zabraňuje tomu, aby ho používala umelá inteligencia, ale úplne nerieši"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Jazyk, v ktorom sa zobrazuje výstražná správa."
 
@@ -717,8 +720,8 @@ msgstr "Neplatná IP adresa."
 msgid "https://google.co.jp"
 msgstr "https://google.sk"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Túto webovú lokalitu je možné zobraziť len s povolenými súbormi cookie a JavaScript"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ak chcete používať túto webovú stránku, musíte mať povolené súbory cookie a JavaScript."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Zistili sa neobvyklé metódy prístupu alebo prevádzky."

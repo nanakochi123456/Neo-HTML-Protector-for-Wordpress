@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -105,26 +105,23 @@ msgstr "一般 HTML 壓縮，某些網站有去混淆功能。"
 msgid "HTML保護"
 msgstr "HTML 保護"
 
-msgid "リダイレクトで有効"
-msgstr "對重定向有效。"
-
-msgid "JavaScript描画で有効"
-msgstr "對 JavaScript 渲染有效。"
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "在 HTML 壓縮之外，只會輸出最小的 HTML，而且完全不輸出 BODY 標籤中的內容。"
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "如果您選擇啟用重定向，它也會記錄檢視來源：行為完成的時間。"
+msgid "Firefoxに対しては無効です"
+msgstr "對 Firefox 無效。"
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "重定向時啟用對 Firefox 無效"
+msgid "SEOに著しく影響があります"
+msgstr "顯著影響 SEO。"
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "使用 JavaScript 渲染 HTML"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "以 JavaScript 繪製 HTML 作為 Firefox 的措施"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "啟用 JavaScript 渲染功能會大幅降低網站的顯示速度"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "兩者對 SEO 都有重大影響。"
 
 msgid "画像の保護"
 msgstr "圖像保護。"
@@ -477,6 +474,12 @@ msgstr "禁止圖像機器人。"
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "避免圖片殭屍相對於 HTML，可保護無法透過圖片搜尋的直接連結來保護的內容。"
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "禁止存取 AI 學習機器人。"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "避免人工智慧針對 HTML 的學習機器人，可以防止它被人工智慧使用，但無法完全解決"
+
 msgid "alertメッセージを表示する言語"
 msgstr "顯示警示訊息的語言。"
 
@@ -717,8 +720,8 @@ msgstr "無效 IP 位址。"
 msgid "https://google.co.jp"
 msgstr "https://google.com.tw"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "本網站只能在啟用 Cookie 和 JavaScript 的情況下檢視"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "必須啟用 Cookie 和 JavaScript 才能使用本網站。"
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "偵測到不尋常的存取或操作方法。"

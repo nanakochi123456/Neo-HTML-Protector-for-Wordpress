@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -105,26 +105,23 @@ msgstr "Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto."
 msgid "HTML保護"
 msgstr "HTML-suojaus"
 
-msgid "リダイレクトで有効"
-msgstr "Voimassa uudelleenohjauksille."
-
-msgid "JavaScript描画で有効"
-msgstr "Kelpaa JavaScript-toteutukselle."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-tunnisteen sisältöä tulosteta lainkaan."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Jos valitset uudelleenohjauksen asetukseksi Käytössä, se myös tallentaa, kun view-source: -käyttäytyminen on valmis."
+msgid "Firefoxに対しては無効です"
+msgstr "Ei voimassa Firefoxille."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Enabled on redirect ei ole voimassa Firefoxissa"
+msgid "SEOに著しく影響があります"
+msgstr "Vaikuttaa merkittävästi hakukoneoptimointiin."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "HTML:n renderöinti JavaScriptillä"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "HTML:n renderöinti JavaScriptillä Firefoxin toimenpiteenä"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "JavaScriptin renderöinnin käyttöönotto hidastaa merkittävästi verkkosivuston näyttönopeutta."
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Molemmilla on merkittävä vaikutus hakukoneoptimointiin."
 
 msgid "画像の保護"
 msgstr "Kuvan suojaus."
@@ -477,6 +474,12 @@ msgstr "Kuvabotin kieltäminen."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Kuvabottien välttäminen suhteessa HTML:ään suojaa sisältöä, jota ei voitaisi suojata suorilla kuvahaun linkeillä."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Kielletään pääsy tekoälyä oppiviin botteihin."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Tekoälyn oppivan botin välttäminen HTML:ää vastaan estää tekoälyä käyttämästä sitä, mutta se ei kuitenkaan täysin poista"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Kieli, jolla hälytysviesti näytetään."
 
@@ -717,8 +720,8 @@ msgstr "Virheellinen IP-osoite."
 msgid "https://google.co.jp"
 msgstr "https://google.fi"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Tätä verkkosivustoa voi tarkastella vain evästeiden ja JavaScriptin ollessa käytössä."
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Evästeiden ja JavaScriptin on oltava käytössä, jotta voit käyttää tätä verkkosivustoa."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "On havaittu epätavallisia pääsy- tai toimintatapoja."

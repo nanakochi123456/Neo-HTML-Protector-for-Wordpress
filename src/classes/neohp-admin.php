@@ -335,16 +335,39 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_htmlprotect', '0'));
 					echo wp_kses( $this->getselect("neohp_htmlprotect", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('リダイレクトで有効', 'neo-html-protector')
-						, '2=' . __('JavaScript描画で有効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('リダイレクトで有効はFirefoxに対しては無効です', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('Firefoxに対しては無効です', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('SEOに著しく影響があります', 'neo-html-protector') );
+;
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
+			// HTML保護
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_htmlprotectjs', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_htmlprotectjs',
+				__('HTMLをJavaScriptで描画', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_htmlprotectjs', '0'));
+					echo wp_kses( $this->getselect("neohp_htmlprotectjs", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+
+					echo '<br>' .esc_html( __('Firefox対策としてHTMLをJavaScriptで描画をします', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります', 'neo-html-protector') );
 ;
-					echo '<br>' .esc_html( __('いずれもSEOに著しく影響があります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('SEOに著しく影響があります', 'neo-html-protector') );
 ;
 				},
 				'neohp-settings',
@@ -1093,6 +1116,28 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// AIbotを避ける
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_deny_aibot', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_deny_aibot',
+				__('AI学習用botをアクセス禁止にする', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_deny_aibot', '0'));
+					echo wp_kses( $this->getselect("neohp_deny_aibot", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

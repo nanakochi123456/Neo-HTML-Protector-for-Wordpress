@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -105,26 +105,23 @@ msgstr "일반적인 HTML 압축, 난독화 해제 사이트도 있습니다."
 msgid "HTML保護"
 msgstr "HTML 보호"
 
-msgid "リダイレクトで有効"
-msgstr "리디렉션으로 유효"
-
-msgid "JavaScript描画で有効"
-msgstr "자바스크립트 드로잉에서 활성화"
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "HTML 압축 이상의 최소한의 HTML만 출력하고, BODY 태그 내 내용이 전혀 출력되지 않습니다."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "리디렉션에서 활성화를 선택하면 view-source: 동작을 했을 때 기록도 합니다."
+msgid "Firefoxに対しては無効です"
+msgstr "Firefox에서는 유효하지 않습니다."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "리디렉션에서 활성화는 Firefox에 대해 유효하지 않습니다."
+msgid "SEOに著しく影響があります"
+msgstr "SEO에 큰 영향을 미칩니다"
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "HTML을 자바스크립트로 그리기"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox 대책으로 HTML을 JavaScript로 그리는 것입니다."
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "자바스크립트 드로잉에서 활성화하면 웹사이트의 표시 속도가 현저히 느려집니다."
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "이 두 가지 모두 SEO에 큰 영향을 미칩니다."
 
 msgid "画像の保護"
 msgstr "이미지 보호"
@@ -477,6 +474,12 @@ msgstr "이미지 봇 접근 금지 설정하기"
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "이미지 봇을 HTML에 대한 이미지 봇을 피함으로써 이미지 검색에서 직접 링크되어 보호할 수 없었던 콘텐츠를 보호할 수 있습니다."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "AI 학습용 bot 접근 금지하기"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "AI의 학습용 봇을 HTML에 대해 피함으로써 AI에 이용되지 않도록 하지만, 완전히 대처할 수는 없습니다."
+
 msgid "alertメッセージを表示する言語"
 msgstr "Alert 메시지를 표시하는 언어"
 
@@ -717,8 +720,8 @@ msgstr "잘못된 IP 주소"
 msgid "https://google.co.jp"
 msgstr "https://google.co.kr"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "이 웹사이트는 쿠키와 자바스크립트가 활성화되어 있지 않으면 볼 수 없습니다."
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "이 웹사이트를 이용하려면 쿠키와 자바스크립트를 활성화해야 합니다."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "비정상적인 접근 및 조작이 감지되었습니다."

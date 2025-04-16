@@ -28,6 +28,7 @@ function neohp_delete_options() {
 	delete_option('neohp_copycut_message');
 	delete_option('neohp_ctrlshift_message');
 	delete_option('neohp_debugmode_message');
+	delete_option('neohp_deny_aibot');
 	delete_option('neohp_deny_imagebot');
 	delete_option('neohp_hash_bits');
 	delete_option('neohp_hashjs_bits');
@@ -35,6 +36,7 @@ function neohp_delete_options() {
 	delete_option('neohp_htmlcompress');
 	delete_option('neohp_htmlprotect');
 	delete_option('neohp_htmlprotect_message');
+	delete_option('neohp_htmlprotectjs');
 	delete_option('neohp_htmlsource_message');
 	delete_option('neohp_imagedownload_message');
 	delete_option('neohp_imagedownload_real');

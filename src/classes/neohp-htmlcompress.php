@@ -18,6 +18,29 @@ class neohp_htmlcompress {
 			}
 		}
 
+		if(get_option('neohp_deny_aibot', '0') === '1') {
+			$ua = $this->neohp_func->get_user_agent();
+			// ChatGPT
+			if(strpos($ua, 'GPTBot')) {
+				$this->neohp_func->err403();
+			}
+			if(strpos($ua, 'ChatGPT-User')) {
+				$this->neohp_func->err403();
+			}
+			// Google Gemini
+			if(strpos($ua, 'Google-Extended')) {
+				$this->neohp_func->err403();
+			}
+			// Common Crawl
+			if(strpos($ua, 'CCBot')) {
+				$this->neohp_func->err403();
+			}
+			// Stability AI
+			if(strpos($ua, 'StabilityAI')) {
+				$this->neohp_func->err403();
+			}
+		}
+
 		if(get_option('neohp_htmlcompress', '1') == 1) {
 			add_action('template_redirect', function() {
 				$this->neohp_func->cachezero();

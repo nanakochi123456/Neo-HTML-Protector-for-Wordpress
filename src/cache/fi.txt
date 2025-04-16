@@ -323,3 +323,10 @@ JavaScript描画で有効	Kelpaa JavaScript-toteutukselle.
 リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect ei ole voimassa Firefoxissa
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScriptin renderöinnin käyttöönotto hidastaa merkittävästi verkkosivuston näyttönopeutta.
 いずれもSEOに著しく影響があります	Molemmilla on merkittävä vaikutus hakukoneoptimointiin.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Evästeiden ja JavaScriptin on oltava käytössä, jotta voit käyttää tätä verkkosivustoa.
+AI学習用botをアクセス禁止にする	Kielletään pääsy tekoälyä oppiviin botteihin.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Tekoälyn oppivan botin välttäminen HTML:ää vastaan estää tekoälyä käyttämästä sitä, mutta se ei kuitenkaan täysin poista
+Firefoxに対しては無効です	Ei voimassa Firefoxille.
+SEOに著しく影響があります	Vaikuttaa merkittävästi hakukoneoptimointiin.
+HTMLをJavaScriptで描画	HTML:n renderöinti JavaScriptillä
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML:n renderöinti JavaScriptillä Firefoxin toimenpiteenä

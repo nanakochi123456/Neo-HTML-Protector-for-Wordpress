@@ -331,3 +331,10 @@ JavaScript描画で有効	Valid for JavaScript rendering
 リダイレクトで有効はFirefoxに対しては無効です	Enable on redirect is not valid for Firefox
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Enabling in JavaScript rendering will slow down the website significantly
 いずれもSEOに著しく影響があります	Both have a significant impact on SEO
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookies and JavaScript must be enabled in order to use this website.
+AI学習用botをアクセス禁止にする	Banning access to AI learning bots
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Avoiding the AI's learning bot against HTML prevents it from being used by the AI, but does not completely address the issue.
+Firefoxに対しては無効です	Not valid for Firefox
+SEOに著しく影響があります	It can significantly affect SEO
+HTMLをJavaScriptで描画	Rendering HTML with JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Rendering HTML with JavaScript as a Firefox countermeasure

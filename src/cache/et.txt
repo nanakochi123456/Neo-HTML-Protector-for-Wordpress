@@ -322,3 +322,10 @@ JavaScript描画で有効	Kehtib JavaScripti renderdamiseks.
 リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect ei kehti Firefoxi puhul
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScripti renderdamise lubamine aeglustab oluliselt veebilehe kuvamiskiirust.
 いずれもSEOに著しく影響があります	Mõlemal on märkimisväärne mõju SEO-le.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Selle veebisaidi kasutamiseks peavad küpsised ja JavaScript olema lubatud.
+AI学習用botをアクセス禁止にする	Tehisintellekti õppivate robotite juurdepääsu keelamine.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Tehisintellekti õpiboti HTML-i vastu vältimine takistab selle kasutamist tehisintellekti poolt, kuid ei lahenda täielikult
+Firefoxに対しては無効です	Ei kehti Firefoxi puhul.
+SEOに著しく影響があります	Mõjutab oluliselt SEO-d.
+HTMLをJavaScriptで描画	HTML-i renderdamine JavaScriptiga
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML-i renderdamine JavaScriptiga Firefoxi meetmena

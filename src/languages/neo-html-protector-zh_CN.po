@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -105,26 +105,23 @@ msgstr "一般 HTML 压缩，有些网站有去混淆功能。"
 msgid "HTML保護"
 msgstr "HTML 保护"
 
-msgid "リダイレクトで有効"
-msgstr "对重定向有效。"
-
-msgid "JavaScript描画で有効"
-msgstr "适用于 JavaScript 渲染。"
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "除 HTML 压缩外，只输出最少量的 HTML，而且根本不输出 BODY 标记中的内容。"
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "如果选择已启用重定向，它还会记录何时完成视图-源：行为。"
+msgid "Firefoxに対しては無効です"
+msgstr "不适用于 Firefox。"
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "重定向时启用不适用于 Firefox 浏览器"
+msgid "SEOに著しく影響があります"
+msgstr "显著影响搜索引擎优化。"
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "使用 JavaScript 渲染 HTML"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "使用 JavaScript 渲染 HTML 作为 Firefox 的一项措施"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "启用 JavaScript 渲染功能会大大降低网站的显示速度"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "这两者对搜索引擎优化都有重大影响。"
 
 msgid "画像の保護"
 msgstr "图像保护。"
@@ -477,6 +474,12 @@ msgstr "禁止图像机器人。"
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索直接链接保护的内容。"
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "禁止访问人工智能学习机器人。"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "避免人工智能学习机器人学习 HTML，可以防止人工智能使用 HTML，但不能完全解决以下问题"
+
 msgid "alertメッセージを表示する言語"
 msgstr "显示警报信息的语言。"
 
@@ -717,8 +720,8 @@ msgstr "无效 IP 地址。"
 msgid "https://google.co.jp"
 msgstr "https://baidu.com"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "只有在启用 cookie 和 JavaScript 后才能浏览本网站"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "使用本网站必须启用 Cookie 和 JavaScript。"
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "检测到不寻常的访问或操作方法。"

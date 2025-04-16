@@ -330,3 +330,10 @@ JavaScript描画で有効	适用于 JavaScript 渲染。
 リダイレクトで有効はFirefoxに対しては無効です	重定向时启用不适用于 Firefox 浏览器
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	启用 JavaScript 渲染功能会大大降低网站的显示速度
 いずれもSEOに著しく影響があります	这两者对搜索引擎优化都有重大影响。
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	使用本网站必须启用 Cookie 和 JavaScript。
+AI学習用botをアクセス禁止にする	禁止访问人工智能学习机器人。
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	避免人工智能学习机器人学习 HTML，可以防止人工智能使用 HTML，但不能完全解决以下问题
+Firefoxに対しては無効です	不适用于 Firefox。
+SEOに著しく影響があります	显著影响搜索引擎优化。
+HTMLをJavaScriptで描画	使用 JavaScript 渲染 HTML
+Firefox対策としてHTMLをJavaScriptで描画をします	使用 JavaScript 渲染 HTML 作为 Firefox 的一项措施

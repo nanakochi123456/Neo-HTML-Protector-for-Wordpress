@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:13+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -105,26 +105,23 @@ msgstr "Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskaci
 msgid "HTML保護"
 msgstr "HTML apsauga"
 
-msgid "リダイレクトで有効"
-msgstr "Galioja nukreipimams."
-
-msgid "JavaScript描画で有効"
-msgstr "Galioja JavaScript atvaizdavimui."
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "Jei pasirinksite Enabled for redirect"
+msgid "Firefoxに対しては無効です"
+msgstr "Negalioja Firefox."
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Įjungta nukreipti negalioja Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "Ženkliai veikia SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "HTML atvaizdavimas naudojant JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "HTML atvaizdavimas naudojant JavaScript kaip Firefox priemonė"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Įjungus JavaScript atvaizdavimą, gerokai sulėtės svetainės rodymo greitis."
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Abu šie veiksniai daro didelę įtaką SEO."
 
 msgid "画像の保護"
 msgstr "Vaizdo apsauga."
@@ -477,6 +474,12 @@ msgstr "Vaizdo boto uždraudimas."
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "Vengdami vaizdų robotų ir HTML, apsaugote turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Draudimas naudotis dirbtinio intelekto mokymosi robotais."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Jei dirbtinis intelektas vengia mokymosi boto prieš HTML, jis negali juo naudotis, tačiau visiškai nesprendžia"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Kalba, kuria rodomas įspėjimo pranešimas."
 
@@ -717,8 +720,8 @@ msgstr "Netinkamas IP adresas."
 msgid "https://google.co.jp"
 msgstr "https://google.lt"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "Šią svetainę galima peržiūrėti tik su įjungtais slapukais ir JavaScript."
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Norint naudotis šia svetaine, turi būti įjungti slapukai ir JavaScript."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Aptikti neįprasti prieigos ar veikimo būdai."

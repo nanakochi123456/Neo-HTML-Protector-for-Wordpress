@@ -8,7 +8,7 @@ defined('ABSPATH') or die('Oh! No!');
 $neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 
 $neohp_nocookienojs_default =
-	__('このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません', 'neo-html-protector');
+	__('このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります', 'neo-html-protector');
 
 $neohp_imagedownload_default =
 	sprintf("%s\\n\\n%s\\n\\n%s\\n\\n%s\\n%s\\n%s\\n"

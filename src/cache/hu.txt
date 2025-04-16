@@ -322,3 +322,10 @@ JavaScript描画で有効	Érvényes a JavaScript rendereléshez.
 リダイレクトで有効はFirefoxに対しては無効です	Az átirányítás engedélyezése nem érvényes a Firefox esetében
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	A JavaScript renderelés engedélyezése jelentősen lelassítja a weboldal megjelenítési sebességét.
 いずれもSEOに著しく影響があります	Mindkettő jelentős hatással van a SEO-ra.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	A weboldal használatához engedélyezni kell a sütiket és a JavaScriptet.
+AI学習用botをアクセス禁止にする	A mesterséges intelligenciát tanuló botokhoz való hozzáférés betiltása.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	A mesterséges intelligencia tanulási botjának HTML elleni elkerülése megakadályozza, hogy a mesterséges intelligencia felhasználja, de nem kezeli teljesen a
+Firefoxに対しては無効です	Firefoxra nem érvényes.
+SEOに著しく影響があります	Jelentősen befolyásolja a SEO-t.
+HTMLをJavaScriptで描画	HTML renderelése JavaScript segítségével
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML renderelése JavaScript mint Firefox intézkedés

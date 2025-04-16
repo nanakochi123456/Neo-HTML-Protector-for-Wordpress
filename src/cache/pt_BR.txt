@@ -322,3 +322,10 @@ JavaScript描画で有効	Válido para renderização de JavaScript.
 リダイレクトで有効はFirefoxに対しては無効です	Ativado no redirecionamento não é válido para o Firefox
 JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	A ativação da renderização de JavaScript reduzirá significativamente a velocidade de exibição do site
 いずれもSEOに著しく影響があります	Ambos têm um impacto significativo no SEO.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Os cookies e o JavaScript devem estar ativados para que você possa usar este site.
+AI学習用botをアクセス禁止にする	Proibição do acesso a bots de aprendizado de IA.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Evitar que o bot de aprendizado da IA use HTML impede que ele seja usado pela IA, mas não resolve completamente o problema
+Firefoxに対しては無効です	Não é válido para o Firefox.
+SEOに著しく影響があります	Afeta significativamente o SEO.
+HTMLをJavaScriptで描画	Renderização de HTML com JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Renderização de HTML com JavaScript como uma medida do Firefox

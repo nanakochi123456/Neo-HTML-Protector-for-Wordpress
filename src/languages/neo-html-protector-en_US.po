@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.0\n"
+"Project-Id-Version: Neo HTML Protector 0.2.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-12 15:12+0900\n"
-"PO-Revision-Date: 2025-04-12 15:12+0900\n"
+"POT-Creation-Date: 2025-04-16 11:05+0900\n"
+"PO-Revision-Date: 2025-04-16 11:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -105,26 +105,23 @@ msgstr "General HTML compression, some sites offer de-obfuscation"
 msgid "HTML保護"
 msgstr "HTML Protection"
 
-msgid "リダイレクトで有効"
-msgstr "Valid with redirect"
-
-msgid "JavaScript描画で有効"
-msgstr "Valid for JavaScript rendering"
-
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
 msgstr "More than HTML compression, only minimal HTML is output, and the content in the BODY tag is not output at all."
 
-msgid "リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします"
-msgstr "If you choose to enable redirection, it will also record when the view-source: action is taken."
+msgid "Firefoxに対しては無効です"
+msgstr "Not valid for Firefox"
 
-msgid "リダイレクトで有効はFirefoxに対しては無効です"
-msgstr "Enable on redirect is not valid for Firefox"
+msgid "SEOに著しく影響があります"
+msgstr "It can significantly affect SEO"
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Rendering HTML with JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Rendering HTML with JavaScript as a Firefox countermeasure"
 
 msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
 msgstr "Enabling in JavaScript rendering will slow down the website significantly"
-
-msgid "いずれもSEOに著しく影響があります"
-msgstr "Both have a significant impact on SEO"
 
 msgid "画像の保護"
 msgstr "Image Protection"
@@ -477,6 +474,12 @@ msgstr "Ban the image bot"
 msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
 msgstr "By avoiding image bots for HTML, you can protect content that could not be protected by direct links from image searches."
 
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Banning access to AI learning bots"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Avoiding the AI's learning bot against HTML prevents it from being used by the AI, but does not completely address the issue"
+
 msgid "alertメッセージを表示する言語"
 msgstr "Language in which alert messages are displayed"
 
@@ -717,8 +720,8 @@ msgstr "Invalid IP address"
 msgid "https://google.co.jp"
 msgstr "https://google.com"
 
-msgid "このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません"
-msgstr "This website can only be viewed with cookies and JavaScript enabled"
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Cookies and JavaScript must be enabled in order to use this website."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Unusual methods of access or operation have been detected"
