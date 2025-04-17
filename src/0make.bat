@@ -46,7 +46,7 @@ echo Snapshot %datetime:~0,14%
 call 2version.bat %VERSION% %datetime:~0,14%
 
 @echo on
-wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* classes/* js/*.js languages/*
+wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* audio/* classes/* js/* languages/*
 
 @echo off
 copy %NAME%-%datetime:~0,14%.7z %FTP%
