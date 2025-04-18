@@ -219,12 +219,12 @@
 					// 復号化したURLを文字列に変換
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-					// iOSのみ遅延を加える
-					if ( ua.includes(iOS) ) {
+					// iOSかmacのSafariのみ遅延を加える
+					if ( ua.includes(iOS) || ua.includes(Safari) ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
-						}, 20); // 少し遅延を加える
+						}, 50); // 少し遅延を加える
 					} else {
 						resolve(decryptedUrl);
 					}
