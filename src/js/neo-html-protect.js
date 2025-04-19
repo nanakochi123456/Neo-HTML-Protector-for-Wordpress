@@ -222,9 +222,11 @@
 					// 復号化したURLを文字列に変換
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
-					// iOSかmacのSafariのみ遅延を加える
-					if ( ua.includes(iOS) ||
-						 ua.includes(Safari) && ! ua.includes(Chrome) && ! ua.includes(EDG) ) {
+					// iOSかmacのSafari、macのSleipnirのみ遅延を加える
+					if ( ua.includes(iOS)
+					 ||  ua.includes(Safari) && ! ua.includes(Chrome) && ! ua.includes(EDG)
+					 ||  ua.includes(Sleipnir) && ua.includes(macOS)
+					) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
@@ -411,6 +413,7 @@
 		let		WinKey='Win + '		+ nullstr;
 		let		AltKey='Alt + '		+ nullstr;
 		let		CommandKey='Command + '	+ nullstr;
+		let		OptionKey='Option + '	+ nullstr;
 		let		PrintScreenKey='PrintScreen' + nullstr;
 		let		PrintScreen='n'		+ nullstr;
 		let		hatena='?'			+ nullstr;
@@ -561,10 +564,18 @@
 
 			// Ctrl+U
 			if(FlagSmall.includes(uKey)) {
-				if (ctrl && lower(key) === uKey) {
-					sendIpToServer(CtrlKey + upper(uKey), uKey);
-					stop(event);
-					return false;
+				if (ua.includes(macOS)) {
+					if (meta && alt && lower(key) === uKey) {
+						sendIpToServer(CommandKey + OptionKey + upper(uKey), uKey);
+						stop(event);
+						return false;
+					}
+				} else {
+					if (ctrl && lower(key) === uKey) {
+						sendIpToServer(CtrlKey + upper(uKey), uKey);
+						stop(event);
+						return false;
+					}
 				}
 			}
 
@@ -626,6 +637,11 @@
 			if(ua.includes(macOS)) {
 				if (meta && shift) {
 					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
+					stop(event);
+					return false;
+				}
+				if (meta && alt) {
+					sendIpToServer(CommandKey + OptionKey + hatena, fKey);
 					stop(event);
 					return false;
 				}
