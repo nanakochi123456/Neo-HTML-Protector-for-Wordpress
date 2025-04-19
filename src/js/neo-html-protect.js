@@ -776,8 +776,7 @@
 			},
 			// alertで表示後URL転送
 			success: function(response) {
-
-				if(FlagAll.includes(Flg) && eventflag < 2) {
+				if(FlagAll.includes(Flg) && eventflag < 3) {
 					// マウスカーソルを透明pngで消去する
 					if(FlagAll.includes('m')) {
 						$("html").css({
