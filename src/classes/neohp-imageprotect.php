@@ -11,6 +11,7 @@ class neohp_imageprotect {
 	protected $neohp_func;
 	protected $neohp_javascript;
 	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
+	protected $minpng = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=';
 	protected $outputPngDone = false;
 	protected $neohp_hash_keys  = "sha256";
 	protected $neohp_hash_keys_js = "sha256";
@@ -223,10 +224,18 @@ class neohp_imageprotect {
 			$mingif_array=explode(',', $this->mingif);
 			$this->neohp_func->cachezero();
 			// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-			// Output 1x1 pixel gif file only
+			// Output 1x1 pixel png file only
 			echo base64_decode($mingif_array[1]);
 			// phpcs:enable
 		} elseif(get_option('neohp_imagedownload_real', '1') === '2') {
+			header('Content-Type: image/gif');
+			$minpng_array=explode(',', $this->minpng);
+			$this->neohp_func->cachezero();
+			// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+			// Output 1x1 pixel gif file only
+			echo base64_decode($minpng_array[1]);
+			// phpcs:enable
+		} elseif(get_option('neohp_imagedownload_real', '1') === '3') {
 			header('Content-Type: text/html');
 			$this->neohp_func->cachezero();
 			echo '<!doctype html><html></html>';

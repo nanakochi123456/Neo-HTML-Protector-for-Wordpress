@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.2\n"
+"Project-Id-Version: Neo HTML Protector 0.2.5\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-17 14:35+0900\n"
-"PO-Revision-Date: 2025-04-17 14:35+0900\n"
+"POT-Creation-Date: 2025-04-19 21:27+0900\n"
+"PO-Revision-Date: 2025-04-19 21:27+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -443,6 +443,9 @@ msgstr "強制下載影像實際下載的內容。"
 
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 像素的 GIF 格式透明影像。"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "1 x 1 像素的 PNG 格式透明影像。"
 
 msgid "PNG形式で黄色い背景の警告画面"
 msgstr "PNG 格式的黃色背景警告畫面。"

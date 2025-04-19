@@ -1067,8 +1067,9 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_imagedownload_real', '1'));
 					echo wp_kses( $this->getselect("neohp_imagedownload_real", $value
 						, '1=' . __('GIF形式で1×1ピクセルの透過画像', 'neo-html-protector')
+						, '2=' . __('PNG形式で1×1ピクセルの透過画像', 'neo-html-protector')
 						, '0=' . __('PNG形式で黄色い背景の警告画面', 'neo-html-protector')
-						, '2=' . __('意味のないHTMLドキュメント', 'neo-html-protector')
+						, '3=' . __('意味のないHTMLドキュメント', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 				},
 				'neohp-settings',

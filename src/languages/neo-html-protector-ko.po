@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.2\n"
+"Project-Id-Version: Neo HTML Protector 0.2.5\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-17 14:35+0900\n"
-"PO-Revision-Date: 2025-04-17 14:35+0900\n"
+"POT-Creation-Date: 2025-04-19 21:27+0900\n"
+"PO-Revision-Date: 2025-04-19 21:27+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -443,6 +443,9 @@ msgstr "이미지를 강제로 다운로드하여 실제로 다운로드되는 �
 
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "GIF 형식의 1×1 픽셀의 투명 이미지"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "PNG 형식의 1×1 픽셀의 투명도 이미지"
 
 msgid "PNG形式で黄色い背景の警告画面"
 msgstr "PNG 형식의 노란색 배경의 경고 화면"

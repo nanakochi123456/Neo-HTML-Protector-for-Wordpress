@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.2\n"
+"Project-Id-Version: Neo HTML Protector 0.2.5\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-17 14:35+0900\n"
-"PO-Revision-Date: 2025-04-17 14:35+0900\n"
+"POT-Creation-Date: 2025-04-19 21:27+0900\n"
+"PO-Revision-Date: 2025-04-19 21:28+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -443,6 +443,9 @@ msgstr "Ce se descarcă efectiv prin forțarea descărcării imaginii."
 
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 pixel imagine transparentă în format GIF."
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "1 x 1 pixel imagine transparentă în format PNG."
 
 msgid "PNG形式で黄色い背景の警告画面"
 msgstr "Ecran de avertizare cu fundal galben în format PNG."

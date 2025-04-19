@@ -29,9 +29,12 @@
 	let		macOS = 'macOS'		+ nullstr;
 	let		ChromeOS = 'Chrome OS'	+ nullstr;
 	let		Android = 'Android'	+ nullstr;
-	let		iOS = 'iOS'	+ nullstr;
-	let		Safari='Safari'	+ nullstr;
+	let		iOS = 'iOS'			+ nullstr;
+	let		Chrome='Chrome'		+ nullstr;
+	let		Safari='Safari'		+ nullstr;
 	let		Firefox='Firefox'	+ nullstr;
+
+	let		EDG="EDG"			+ slash;
 
 	let		FlagAll=NeoHPFlg;
 	let		FlagSmall=lower(FlagAll);
@@ -64,7 +67,6 @@
 		let browser = nullstr;
 		let os = nullstr;
 
-		let		Chrome='Chrome'		+ nullstr;
 		let		Edge='Edge'			+ nullstr;
 		let		Opera='Opera'		+ nullstr;
 		let		Vivaldi='Vivaldi'	+ nullstr;
@@ -81,7 +83,6 @@
 		let		Konqueror='Konqueror'+nullstr;
 
 		let		OPR="OPR"			+ slash;
-		let		EDG="EDG"			+ slash;
 
 		let		Nintendo = 'Nintendo'	+ nullstr;
 		let		PlayStation = 'PlayStation'	+ nullstr;
@@ -220,7 +221,8 @@
 					let decryptedUrl = decrypted.toString(Cryptojs.enc.Utf8);
 
 					// iOSかmacのSafariのみ遅延を加える
-					if ( ua.includes(iOS) || ua.includes(Safari) ) {
+					if ( ua.includes(iOS) ||
+						 ua.includes(Safari) && ! ua.includes(Chrome) && ! ua.includes(EDG) ) {
 						setTimeout(() => {
 							// decryption logic...
 							resolve(decryptedUrl); // 非同期で結果を返す
