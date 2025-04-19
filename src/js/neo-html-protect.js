@@ -33,6 +33,7 @@
 	let		Chrome='Chrome'		+ nullstr;
 	let		Safari='Safari'		+ nullstr;
 	let		Firefox='Firefox'	+ nullstr;
+	let		Sleipnir='Sleipnir'	+ nullstr;
 
 	let		EDG="EDG"			+ slash;
 
@@ -79,7 +80,6 @@
 		let		Maxthon='Maxthon'	+ nullstr;
 		let		Dolphin='Dolphin'	+ nullstr;
 		let		SeaMonkey='SeaMonkey'+nullstr;
-		let		Sleipnir='Sleipnir'	+ nullstr;
 		let		Konqueror='Konqueror'+nullstr;
 
 		let		OPR="OPR"			+ slash;
@@ -497,60 +497,64 @@
 			}
 		}
 
-		// F12
-		if(FlagSmall.includes(fKey)) {
-			if (code === 123) {
-				sendIpToServer('F12', fKey);
-				stop(event);
-			}
-		}
-
-		// Ctrl+Shift+I
-		if(FlagSmall.includes(iKey)) {
-			if (ctrl && shift && lower(key) === iKey) {
-				sendIpToServer(CtrlKey + ShiftKey + upper(iKey), iKey);
-				stop(event);
-			}
-		}
-
-		// Ctrl+Shift+K (Firefox)
-		if(ua.includes(Firefox)) {
-			if(FlagSmall.includes(kKey)) {
-				if (ctrl && shift && lower(key) === kKey) {
-					sendIpToServer(CtrlKey + ShiftKey + upper(kKey), kKey);
+		// Sleipnirを除き有効
+		if(! ua.includes(Sleipnir)) {
+			// F12
+			if(FlagSmall.includes(fKey)) {
+				if (code === 123) {
+					sendIpToServer('F12', fKey);
 					stop(event);
 				}
 			}
+
+			// Ctrl+Shift+I
+			if(FlagSmall.includes(iKey)) {
+				if (ctrl && shift && lower(key) === iKey) {
+					sendIpToServer(CtrlKey + ShiftKey + upper(iKey), iKey);
+					stop(event);
+				}
+			}
+
+			// Ctrl+Shift+K (Firefox)
+			if(ua.includes(Firefox)) {
+				if(FlagSmall.includes(kKey)) {
+					if (ctrl && shift && lower(key) === kKey) {
+						sendIpToServer(CtrlKey + ShiftKey + upper(kKey), kKey);
+						stop(event);
+					}
+				}
+			}
+
+			// Ctrl+Shift+C
+			if(FlagSmall.includes(cKey)) {
+				if (ctrl && shift && lower(key) === cKey) {
+					sendIpToServer(CtrlKey + ShiftKey + upper(cKey), cKey);
+					stop(event);
+				}
+			}
+
+			// Ctrl+Shift+J
+			if(FlagSmall.includes(jKey)) {
+				if (ctrl && shift && lower(key) === jKey) {
+					sendIpToServer(CtrlKey + ShiftKey + upper(jKey), jKey);
+					stop(event);
+				}
+			}
+
+			// Ctrl+U
+			if(FlagSmall.includes(uKey)) {
+				if (ctrl && lower(key) === uKey) {
+					sendIpToServer(CtrlKey + upper(uKey), uKey);
+					stop(event);
+				}
+			}
+
 		}
 
 		// Ctrl+A
 		if(FlagSmall.includes(aKey)) {
 			if (ctrl && lower(key) === aKey) {
 				sendIpToServer(CtrlKey + upper(aKey), aKey);
-				stop(event);
-			}
-		}
-
-		// Ctrl+Shift+C
-		if(FlagSmall.includes(cKey)) {
-			if (ctrl && shift && lower(key) === cKey) {
-				sendIpToServer(CtrlKey + ShiftKey + upper(cKey), cKey);
-				stop(event);
-			}
-		}
-
-		// Ctrl+Shift+J
-		if(FlagSmall.includes(jKey)) {
-			if (ctrl && shift && lower(key) === jKey) {
-				sendIpToServer(CtrlKey + ShiftKey + upper(jKey), jKey);
-				stop(event);
-			}
-		}
-
-		// Ctrl+U
-		if(FlagSmall.includes(uKey)) {
-			if (ctrl && lower(key) === uKey) {
-				sendIpToServer(CtrlKey + upper(uKey), uKey);
 				stop(event);
 			}
 		}
