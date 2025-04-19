@@ -72,6 +72,7 @@
 		let		Opera='Opera'		+ nullstr;
 		let		Vivaldi='Vivaldi'	+ nullstr;
 		let		B='Browser'			+ nullstr;
+		let		Avast='Avast'		+ nullstr;
 		let		SamsungBrowser='Samsung'+ B;
 		let		UCBrowser='UC'		+ B;
 		let		QQBrowser='QQ'		+ B;
@@ -128,6 +129,7 @@
 			else if(ua.includes(SeaMonkey)) browser = SeaMonkey;
 			else if(ua.includes(Sleipnir)) browser = Sleipnir;
 			else if(ua.includes(Konqueror)) browser = Konqueror;
+			else if(ua.includes(Avast)) browser = Avast;
 
 			else if (ua.includes(EDG)) browser = Edge;
 			else if (ua.includes(OPR) || ua.includes(Opera)) browser = Opera;
@@ -428,16 +430,19 @@
 			if (shift && code === 44) {
 				sendIpToServer(ShiftKey + PrintScreenKey, PrintScreen);
 				stop(event);
+				return false;
 			}
 
 			if (alt && code === 44) {
 				sendIpToServer(AltKey + PrintScreenKey, PrintScreen);
 				stop(event);
+				return false;
 			}
 
 			if (code === 44) {
 				sendIpToServer(PrintScreenKey, PrintScreen);
 				stop(event);
+				return false;
 			}
 
 			if(ua.includes(Windows)) {
@@ -445,24 +450,28 @@
 				if (ctrl && shift && lower(key) === sKey) {
 					sendIpToServer(CtrlKey + ShiftKey+ upper(sKey), fKey);
 					stop(event);
+					return false;
 				}
 
 				// Win+Shift+S (Windows sniping tool)
 				if (meta && shift && lower(key) === sKey) {
 					sendIpToServer(WinKey + ShiftKey+ upper(sKey), fKey);
 					stop(event);
+					return false;
 				}
 
 				// Win+Alt+R (Game Bar)
 				if (meta && alt && lower(key) === 'r') {
 					sendIpToServer(WinKey + AltKey + 'R', fKey);
 					stop(event);
+					return false;
 				}
 
 				// Win+G (Game Bar)
 				if (meta && lower(key) === 'g') {
 					sendIpToServer(WinKey + 'G', fKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -472,6 +481,7 @@
 					if(key >= '3' && key <= '6' ) {
 						sendIpToServer(ShiftKey + CommandKey + key, fKey);
 						stop(event);
+						return false;
 					}
 				}
 			}
@@ -481,18 +491,21 @@
 				if (ctrl && shift && lower(key) === pKey) {
 					sendIpToServer(CtrlKey + ShiftKey + upper(pKey), fKey);
 					stop(event);
+					return false;
 				}
 
 				// Ctrl+Shift+F5 (chrome os)
 				if (ctrl && shift && code === 116) {
 					sendIpToServer(CtrlKey + ShiftKey + F5Key, fKey);
 					stop(event);
+					return false;
 				}
 
 				// Ctrl+F5 (chrome os)
 				if (ctrl && code === 116) {
 					sendIpToServer(CtrlKey + F5Key, fKey);
 					stop(event);
+					return false;
 				}
 			}
 		}
@@ -504,6 +517,7 @@
 				if (code === 123) {
 					sendIpToServer('F12', fKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -512,6 +526,7 @@
 				if (ctrl && shift && lower(key) === iKey) {
 					sendIpToServer(CtrlKey + ShiftKey + upper(iKey), iKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -521,6 +536,7 @@
 					if (ctrl && shift && lower(key) === kKey) {
 						sendIpToServer(CtrlKey + ShiftKey + upper(kKey), kKey);
 						stop(event);
+						return false;
 					}
 				}
 			}
@@ -530,6 +546,7 @@
 				if (ctrl && shift && lower(key) === cKey) {
 					sendIpToServer(CtrlKey + ShiftKey + upper(cKey), cKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -538,6 +555,7 @@
 				if (ctrl && shift && lower(key) === jKey) {
 					sendIpToServer(CtrlKey + ShiftKey + upper(jKey), jKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -546,6 +564,7 @@
 				if (ctrl && lower(key) === uKey) {
 					sendIpToServer(CtrlKey + upper(uKey), uKey);
 					stop(event);
+					return false;
 				}
 			}
 
@@ -556,6 +575,7 @@
 			if (ctrl && lower(key) === aKey) {
 				sendIpToServer(CtrlKey + upper(aKey), aKey);
 				stop(event);
+				return false;
 			}
 		}
 
@@ -564,6 +584,7 @@
 			if (ctrl && lower(key) === pKey) {
 				sendIpToServer(CtrlKey + upper(pKey), pKey);
 				stop(event);
+				return false;
 			}
 		}
 
@@ -572,6 +593,7 @@
 			if (ctrl && lower(key) === sKey) {
 				sendIpToServer(CtrlKey + upper(sKey), sKey);
 				stop(event);
+				return false;
 			}
 		}
 
@@ -581,26 +603,31 @@
 				if (meta && shift) {
 					sendIpToServer(WinKey + ShiftKey + hatena, fKey);
 					stop(event);
+					return false;
 				}
 				if (ctrl && shift) {
 					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
 					stop(event);
+					return false;
 				}
 				if (meta && alt) {
 					sendIpToServer(WinKey + AltKey + hatena, fKey);
 					stop(event);
+					return false;
 				}
 			}
 			if(ua.includes(ChromeOS)) {
 				if (ctrl && shift) {
 					sendIpToServer(CtrlKey + ShiftKey + hatena, fKey);
 					stop(event);
+					return false;
 				}
 			}
 			if(ua.includes(macOS)) {
 				if (meta && shift) {
 					sendIpToServer(ShiftKey + CommandKey + hatena, fKey);
 					stop(event);
+					return false;
 				}
 			}
 		}
@@ -612,6 +639,7 @@
 		$(Document).on('contextmenu', (event) => {
 			sendIpToServer('Right Click', rClick);
 			stop(event);
+			return false;
 		});
 	}
 
@@ -620,6 +648,7 @@
 		$(Document).on('copy', (event) => {
 			sendIpToServer('Copy Cut', CopyCut);
 			stop(event);
+			return false;
 		});
 	}
 
@@ -640,6 +669,7 @@
 
 		$(Document).on('selectstart touchmove', (event) => {
 			stop(event);
+			return false;
 		});
 	}
 
