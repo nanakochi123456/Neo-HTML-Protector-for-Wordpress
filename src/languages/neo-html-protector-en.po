@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.5\n"
+"Project-Id-Version: Neo HTML Protector 0.2.10\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-19 21:27+0900\n"
-"PO-Revision-Date: 2025-04-19 21:27+0900\n"
+"POT-Creation-Date: 2025-04-20 12:16+0900\n"
+"PO-Revision-Date: 2025-04-20 12:16+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -192,38 +192,32 @@ msgstr "BGM when the target action is taken"
 msgid "サウンドなし"
 msgstr "No sound"
 
-msgid "戦闘 - 39.8秒"
-msgstr "Combat - 39.8 sec."
+msgid "戦闘＆戦闘勝利 - 1分16.3秒"
+msgstr "Combat & Battle Wins - 1 min 16.3 sec"
 
-msgid "おやじ ショート- 3.7秒"
-msgstr "Oyaji Short - 3.7 sec."
+msgid "おやじ ショート- 3.8秒"
+msgstr "Oyaji Short - 3.8 sec."
 
-msgid "おやじ ロング - 22.7秒"
-msgstr "Father Long - 22.7 sec."
-
-msgid "マリンバの乱打 - 演奏版 - 37.8秒"
-msgstr "Marimba Rampant - Performed Version - 37.8 sec."
-
-msgid "パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒"
-msgstr "Beginning from Paganini 24 Caprices - Performed version - 27.4 sec."
+msgid "おやじ ロング - 23.5秒"
+msgstr "Father Long - 23.5 sec."
 
 msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒"
 msgstr "Chopin Etude, Op.10-5, black keys, typed version, fast version - 57.8 sec."
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒"
-msgstr "Chopin Etude Op.10-12 Revolution, typed version, fast version - 1 min 54.9 sec"
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒"
+msgstr "Chopin Etude, Op.10-12 Revolution, typed version, fast version - 1:00.0 min."
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒"
-msgstr "Chopin Scherzo in B flat minor, Op2, typed version, fast shortened version - 1 min 46.1 sec"
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
+msgstr "Chopin Scherzo in B flat minor, Op2, typed version, fast shortened version - 1:48.0 min."
 
-msgid "ファンファーレ - 19.3秒"
-msgstr "Fanfare - 19.3 sec."
+msgid "ファンファーレ - 22.3秒"
+msgstr "Fanfare - 22.3 sec."
 
 msgid "レトロ風ファンファーレ - 2.2秒"
 msgstr "Retro-style fanfare - 2.2 sec."
 
-msgid "レトロ風オープン - 41.2秒"
-msgstr "Retro-style open - 41.2 sec."
+msgid "レトロ風オープン - 42.1秒"
+msgstr "Retro-style open - 42.1 sec."
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Select BGM during warning display"

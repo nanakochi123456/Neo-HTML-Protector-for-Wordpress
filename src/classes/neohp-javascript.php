@@ -85,7 +85,7 @@ class neohp_javascript {
 
 		// サウンド
 		if(get_option('neohp_alert_sound', '0') !== '0') {
-			$plugin .= get_option('neohp_alert_sound', '0') . '.mp3';
+			$plugin .= get_option('neohp_alert_sound', '0') . '.m4a';
 		} else {
 			$plugin = '';
 		}

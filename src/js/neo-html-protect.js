@@ -464,18 +464,24 @@
 				}
 
 				// Win+Alt+R (Game Bar)
+				// 意味ないのでコメント
+/*
 				if (meta && alt && lower(key) === 'r') {
 					sendIpToServer(WinKey + AltKey + 'R', fKey);
 					stop(event);
 					return false;
 				}
+*/
 
 				// Win+G (Game Bar)
+				// 意味ないのでコメント
+/*
 				if (meta && lower(key) === 'g') {
 					sendIpToServer(WinKey + 'G', fKey);
 					stop(event);
 					return false;
 				}
+*/
 			}
 
 			if(ua.includes(macOS)) {
@@ -707,6 +713,7 @@
 		// 3個目 console.logを無効化する
 
 		console.log = function() {};
+		console.error = function() {};
 
 		// 4個目 デバッガーが開かれたかチェックする
 		// だめなのでコメントアウト

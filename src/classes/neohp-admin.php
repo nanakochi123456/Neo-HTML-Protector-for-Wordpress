@@ -518,17 +518,15 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_alert_sound', '0'));
 					echo wp_kses( $this->getselect("neohp_alert_sound", $value
 						, '0=' . __('サウンドなし', 'neo-html-protector')
-						, 'sentou=' . __('戦闘 - 39.8秒', 'neo-html-protector')
-						, 'sm3_oyaji1=' . __('おやじ ショート- 3.7秒', 'neo-html-protector')
-						, 'sm3_oyaji2=' . __('おやじ ロング - 22.7秒', 'neo-html-protector')
-						, 'tai=' . __('マリンバの乱打 - 演奏版 - 37.8秒', 'neo-html-protector')
-						, 'paganini=' . __('パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒', 'neo-html-protector')
+						, 'sentou=' . __('戦闘＆戦闘勝利 - 1分16.3秒', 'neo-html-protector')
+						, 'sm3_oyaji1=' . __('おやじ ショート- 3.8秒', 'neo-html-protector')
+						, 'sm3_oyaji2=' . __('おやじ ロング - 23.5秒', 'neo-html-protector')
 						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒', 'neo-html-protector')
-						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒', 'neo-html-protector')
-						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒', 'neo-html-protector')
-						, 'w-fanfa=' . __('ファンファーレ - 19.3秒', 'neo-html-protector')
+						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒', 'neo-html-protector')
+						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒', 'neo-html-protector')
+						, 'w-fanfa=' . __('ファンファーレ - 22.3秒', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒', 'neo-html-protector')
-						, 'msx_open=' . __('レトロ風オープン - 41.2秒', 'neo-html-protector')
+						, 'msx_open=' . __('レトロ風オープン - 42.1秒', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . '<audio id="testaudio" controls></audio>';
 					?>
@@ -538,7 +536,7 @@ class neohp_admin {
 
 	setInterval(() => {
 		const hiddenSrc = document.getElementById("hidden_neohp_alert_sound");
-		const currentSrc = "<?php echo NEOHP_AUDIO_URL ?>" + hiddenSrc.value + ".mp3";
+		const currentSrc = "<?php echo NEOHP_AUDIO_URL ?>" + hiddenSrc.value + ".m4a";
 
 		if (currentSrc !== lastSrc) {
 			lastSrc = currentSrc;
