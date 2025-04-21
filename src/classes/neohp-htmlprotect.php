@@ -120,16 +120,6 @@ class neohp_htmlprotect {
 		}
 	}
 
-
-	function obfuscate_html($string) {
-		return preg_replace_callback('/[^\x00-\x7F]/u', function ($matches) {
-			$char = $matches[0];
-			$utf32 = mb_convert_encoding($char, 'UTF-32BE', 'UTF-8');
-			$code = unpack('N', $utf32)[1]; // 4バイト整数
-			return sprintf('&#x%04X;', $code);
-		}, $string);
-	}
-
 	function b64content($all) {
 		// 言語を強制する
 		if(get_option('neohp_view-source_message_lang', '0') !== '0') {
@@ -173,7 +163,7 @@ class neohp_htmlprotect {
 
 		$title = wp_title('|', false, 'right') . get_bloginfo('name');
 		$all = '<!doctype html><html lang="' . $lang . '"><head><meta charset="UTF-8">' . $all;
-		$base64 = base64_encode( $this->obfuscate_html($all) );
+		$base64 = base64_encode($all);
 		$swapcase = $this->swap_case($base64);
 
 		$head = '';
@@ -214,7 +204,7 @@ class neohp_htmlprotect {
 	);
 })();
 */
-		$html .= '(()=>{document.open("text/html","replace");document.write(atob(function(b){return b.replace(/[a-zA-Z]/g,a=>a===a.toUpperCase()?a.toLowerCase():a.toUpperCase())}("' . $swapcase . '")));document.close()})();';
+		$html .= '(()=>{document.open("text/html","replace");document.write(function(a){a=atob(a);a=Uint8Array.from(a,b=>b.charCodeAt(0));return(new TextDecoder("utf-8")).decode(a)}(function(a){return a.replace(/[a-zA-Z]/g,b=>b===b.toUpperCase()?b.toLowerCase():b.toUpperCase())}("' . $swapcase . '")))})();';
 		$html .= '</script></body></html>';
 		ob_end_clean();
 		echo $html;
