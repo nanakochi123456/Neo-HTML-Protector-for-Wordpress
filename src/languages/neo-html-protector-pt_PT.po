@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.10\n"
+"Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-20 12:24+0900\n"
-"PO-Revision-Date: 2025-04-20 12:24+0900\n"
+"POT-Creation-Date: 2025-04-22 15:22+0900\n"
+"PO-Revision-Date: 2025-04-22 15:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -291,8 +291,11 @@ msgstr "Captura de ecrã"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Pode não ser intercetado ou detectado, dependendo do sistema operativo, do navegador e do método"
 
-msgid "スクリーンショットの疑い"
-msgstr "Capturas de ecrã suspeitas."
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Suspeita de capturas de ecrã quando as janelas são deslocadas para a retaguarda."
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Suspeita de capturas de ecrã com duas teclas premidas."
 
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "O método de deteção dos elementos acima referidos não é perfeito, pelo que se recorre à deteção preventiva."

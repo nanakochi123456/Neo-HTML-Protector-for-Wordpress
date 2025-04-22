@@ -47,8 +47,8 @@ class neohp_javascript {
 		if(get_option('neohp_alert_p', '1') === '1')   { $html.="p";}
 		if(get_option('neohp_alert_p', '1') === '2')   { $html.="P";}
 
-		if(get_option('neohp_alert_a', '2') === '1')   { $html.="h";}
-		if(get_option('neohp_alert_a', '2') === '2')   { $html.="H";}
+		if(get_option('neohp_alert_a', '2') === '1')   { $html.="a";}
+		if(get_option('neohp_alert_a', '2') === '2')   { $html.="A";}
 
 		if(get_option('neohp_alert_k', '2') === '1')   { $html.="k";}
 		if(get_option('neohp_alert_k', '2') === '2')   { $html.="K";}
@@ -64,8 +64,11 @@ class neohp_javascript {
 		if(get_option('neohp_imageprotectjs', '0') === '1') { $html.="z";}
 		if(get_option('neohp_imageprotectjs', '0') === '2') { $html.="Z";}
 
-		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="a";}
-		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="A";}
+		if(get_option('neohp_alert_printscreen', '2') === '1') { $html.="n";}
+		if(get_option('neohp_alert_printscreen', '2') === '2') { $html.="N";}
+
+		if(get_option('neohp_alert_blur', '1') === '1') { $html.="u";}
+		if(get_option('neohp_alert_blur', '1') === '2') { $html.="U";}
 
 		if(get_option('neohp_alert_ctrlshift', '2') === '1') { $html.="x";}
 		if(get_option('neohp_alert_ctrlshift', '2') === '2') { $html.="X";}

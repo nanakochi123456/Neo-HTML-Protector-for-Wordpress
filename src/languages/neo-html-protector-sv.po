@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.10\n"
+"Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-20 12:24+0900\n"
-"PO-Revision-Date: 2025-04-20 12:25+0900\n"
+"POT-Creation-Date: 2025-04-22 15:22+0900\n"
+"PO-Revision-Date: 2025-04-22 15:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -291,8 +291,11 @@ msgstr "Skärmdump"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Kanske inte kan fångas upp eller upptäckas beroende på operativsystem, webbläsare och metod"
 
-msgid "スクリーンショットの疑い"
-msgstr "Misstänkta skärmdumpar."
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Misstanke om skärmdumpar när fönster flyttas bakåt."
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Misstanke om skärmdumpar med två tangenttryckningar."
 
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "Detekteringsmetoden för ovanstående objekt är inte perfekt, förebyggande detektering används."

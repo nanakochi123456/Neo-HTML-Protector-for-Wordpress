@@ -14,6 +14,7 @@
 
 	let		pKey='p'	+ nullstr;
 	let		zKey='z'	+ nullstr;
+	let		uKey='u'	+ nullstr;
 	let		rClick='r'	+ nullstr;
 	let		CopyCut='y'	+ nullstr;
 	let		none='none'	+ nullstr;
@@ -50,6 +51,7 @@
 
 	let		eventflag = 0;
 	let		Cryptojs;
+	let		lastBlur = 0;
 
 	// BEEPを鳴らすためのコンテキスト
 	let ctx = new (Window.AudioContext || Window.webkitAudioContext)();
@@ -381,7 +383,6 @@
 	// 動作を停止する
 	/** @noinline */
 	function stop(event) {
-		eventflag++;
 		event.preventDefault();
 		event.stopPropagation();
 	}
@@ -395,6 +396,17 @@
 			if (e.matches) {
 				//Document.body.style.display = none;
 				 $(body).css('display', none);
+			}
+		});
+	}
+
+	// ウインドウが離れた時、スクショの疑い
+	if(FlagSmall.includes(uKey)) {
+		Window.addEventListener("blur", () => {
+			var now = Date.now();
+			if (now - lastBlur > 10000) { // 10秒以上間隔を空けたときだけログ
+				lastBlur = now;
+				sendIpToServer("blur", uKey);
 			}
 		});
 	}
@@ -414,8 +426,8 @@
 		let		AltKey='Alt + '		+ nullstr;
 		let		CommandKey='Command + '	+ nullstr;
 		let		OptionKey='Option + '	+ nullstr;
-		let		PrintScreenKey='PrintScreen' + nullstr;
 		let		PrintScreen='n'		+ nullstr;
+		let		PrintScreenKey='PrintScreen' + nullstr;
 		let		hatena='?'			+ nullstr;
 		let		F5Key='F5'			+ nullstr;
 		let		fKey='f'			+ nullstr;
@@ -833,7 +845,8 @@
 			},
 			// alertで表示後URL転送
 			success: function(response) {
-				if(FlagAll.includes(Flg) && eventflag < 3) {
+				if(FlagAll.includes(Flg) && eventflag < 1) {
+					eventflag++;
 					// マウスカーソルを透明pngで消去する
 					if(FlagAll.includes('m')) {
 						$("html").css({

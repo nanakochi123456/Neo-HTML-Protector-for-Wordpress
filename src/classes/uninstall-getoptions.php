@@ -7,6 +7,7 @@ defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
 function neohp_delete_options() {
 	delete_option('neohp_alert_a');
 	delete_option('neohp_alert_beep');
+	delete_option('neohp_alert_blur');
 	delete_option('neohp_alert_c');
 	delete_option('neohp_alert_copycut');
 	delete_option('neohp_alert_ctrlshift');

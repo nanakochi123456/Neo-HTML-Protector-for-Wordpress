@@ -775,7 +775,34 @@ class neohp_admin {
 				'neohp_event_section'
 			);
 
-			// スクリーンショットの疑い
+			// スクリーンショットの疑い（blue）
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_event_group', 'neohp_alert_blur', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_alert_blur',
+				'PrintScreen (' . __('ウインドウが背面に移動した時スクリーンショットの疑い', 'neo-html-protector') . ')',
+				function() {
+					$value = esc_html(get_option('neohp_alert_blur', '1'));
+					echo wp_kses( $this->getselect("neohp_alert_blur", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
+					echo '<br>Windows/Linux = PrintScreen, Alt+PrintScreen, Shift+PrintScreen';
+					echo '<br>Windows = Windows+Shift+S, Ctrl+Shift+S, Windows+Alt+R, Windows+G';
+					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
+					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
+				},
+				'neohp-event-settings',
+				'neohp_event_section'
+			);
+
+			// スクリーンショットの疑い（２キー）
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_event_group', 'neohp_alert_ctrlshift', array(
 				'sanitize_callback' => 'sanitize_text_field',
@@ -784,7 +811,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_ctrlshift',
-				__('スクリーンショットの疑い', 'neo-html-protector'),
+				__('2キー押下のスクリーンショットの疑い', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('neohp_alert_ctrlshift', '2'));
 					echo wp_kses( $this->getselect("neohp_alert_ctrlshift", $value

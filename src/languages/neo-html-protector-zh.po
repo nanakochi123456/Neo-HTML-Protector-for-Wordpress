@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.10\n"
+"Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-20 12:24+0900\n"
-"PO-Revision-Date: 2025-04-20 12:24+0900\n"
+"POT-Creation-Date: 2025-04-22 15:22+0900\n"
+"PO-Revision-Date: 2025-04-22 15:22+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -291,8 +291,11 @@ msgstr "截图"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "可能不会被拦截或检测到，这取决于操作系统、浏览器和方法"
 
-msgid "スクリーンショットの疑い"
-msgstr "疑似截图。"
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "当窗户移至后方时，有截图嫌疑。"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "怀疑按两个键就能截图。"
 
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "上述项目的检测方法并不完善，因此采用了预防性检测。"

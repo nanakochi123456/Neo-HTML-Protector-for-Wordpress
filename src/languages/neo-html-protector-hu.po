@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.10\n"
+"Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-20 12:24+0900\n"
-"PO-Revision-Date: 2025-04-20 12:24+0900\n"
+"POT-Creation-Date: 2025-04-22 15:22+0900\n"
+"PO-Revision-Date: 2025-04-22 15:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -291,8 +291,11 @@ msgstr "Képernyőkép"
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
 msgstr "Az operációs rendszertől, a böngészőtől és a módszertől függően előfordulhat, hogy nem kerül elfogásra vagy észlelésre."
 
-msgid "スクリーンショットの疑い"
-msgstr "Feltételezett képernyőképek."
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "A képernyőképek gyanúja, amikor az ablakok hátrafelé mozognak."
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Két billentyű lenyomásával készült képernyőképek gyanúja."
 
 msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
 msgstr "A fenti tételek észlelési módszere nem tökéletes, megelőző észlelést alkalmaznak."
