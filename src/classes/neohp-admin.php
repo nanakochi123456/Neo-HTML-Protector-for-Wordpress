@@ -784,7 +784,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_blur',
-				'PrintScreen (' . __('ウインドウが背面に移動した時スクリーンショットの疑い', 'neo-html-protector') . ')',
+				__('ウインドウが背面に移動した時スクリーンショットの疑い', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('neohp_alert_blur', '1'));
 					echo wp_kses( $this->getselect("neohp_alert_blur", $value
@@ -793,10 +793,7 @@ class neohp_admin {
 						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります', 'neo-html-protector') );
-					echo '<br>Windows/Linux = PrintScreen, Alt+PrintScreen, Shift+PrintScreen';
-					echo '<br>Windows = Windows+Shift+S, Ctrl+Shift+S, Windows+Alt+R, Windows+G';
-					echo '<br>macOS = Shift+Command+3, Shift+Command+4';
-					echo '<br>Chrome OS = Ctrl+Shift+P, Ctrl+F5, Ctrl+Shift+F5';
+					echo '<br>' . esc_html( __('あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。', 'neo-html-protector') );
 				},
 				'neohp-event-settings',
 				'neohp_event_section'

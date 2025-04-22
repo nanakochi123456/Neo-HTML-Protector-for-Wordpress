@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:22+0900\n"
-"PO-Revision-Date: 2025-04-22 15:23+0900\n"
+"POT-Creation-Date: 2025-04-22 15:52+0900\n"
+"PO-Revision-Date: 2025-04-22 15:53+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -293,6 +293,9 @@ msgstr "Ei pruugi sõltuvalt operatsioonisüsteemist, brauserist või meetodist 
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Kahtlus, et ekraanipilte saab teha, kui aknad on viidud tahapoole."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Lisaks sellele reageerib see ka muudele funktsioonidele kui ekraanipiltidele"
 
 msgid "2キー押下のスクリーンショットの疑い"
 msgstr "Kahtlus, et ekraanipilte tehakse kahe klahvivajutusega."

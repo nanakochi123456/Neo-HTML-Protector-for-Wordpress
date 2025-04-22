@@ -24,6 +24,8 @@
 	let		Navigator=navigator
 	let		body='body'	+ nullstr;
 	let		div='<div>'	+ nullstr;
+	let		blur='blur'	+ nullstr;
+
 	let		ua=nullstr;
 
 	let		Windows = 'Windows'	+ nullstr;
@@ -402,11 +404,13 @@
 
 	// ウインドウが離れた時、スクショの疑い
 	if(FlagSmall.includes(uKey)) {
-		Window.addEventListener("blur", () => {
-			var now = Date.now();
-			if (now - lastBlur > 10000) { // 10秒以上間隔を空けたときだけログ
-				lastBlur = now;
-				sendIpToServer("blur", uKey);
+		Window.addEventListener(blur, () => {
+			if (Document.visibilityState !== "hidden") {
+				var now = Date.now();
+				if (now - lastBlur > 10000) { // 10秒以上間隔を空けたときだけログ
+					lastBlur = now;
+					sendIpToServer(blur, uKey);
+				}
 			}
 		});
 	}

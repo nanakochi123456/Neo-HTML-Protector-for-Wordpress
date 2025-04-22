@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:22+0900\n"
-"PO-Revision-Date: 2025-04-22 15:22+0900\n"
+"POT-Creation-Date: 2025-04-22 15:52+0900\n"
+"PO-Revision-Date: 2025-04-22 15:52+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -293,6 +293,9 @@ msgstr "視作業系統、瀏覽器或方法而定，可能不會被截取或偵
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "將視窗移到後方時，有截圖的嫌疑。"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "此外，它還會對截圖以外的功能（切換標籤、切換視窗）作出反應。"
 
 msgid "2キー押下のスクリーンショットの疑い"
 msgstr "懷疑按兩下按鍵就能截圖。"

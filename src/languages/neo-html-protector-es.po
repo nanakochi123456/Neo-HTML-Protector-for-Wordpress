@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:22+0900\n"
-"PO-Revision-Date: 2025-04-22 15:23+0900\n"
+"POT-Creation-Date: 2025-04-22 15:52+0900\n"
+"PO-Revision-Date: 2025-04-22 15:53+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -293,6 +293,9 @@ msgstr "Puede no ser interceptado o detectado dependiendo del sistema operativo,
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Sospecha de capturas de pantalla cuando las ventanas se mueven hacia atrás."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Además, también reacciona a funciones distintas de las capturas de pantalla"
 
 msgid "2キー押下のスクリーンショットの疑い"
 msgstr "Sospecha de capturas de pantalla con dos pulsaciones de tecla."

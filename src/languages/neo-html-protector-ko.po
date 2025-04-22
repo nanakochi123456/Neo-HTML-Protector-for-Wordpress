@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:22+0900\n"
-"PO-Revision-Date: 2025-04-22 15:22+0900\n"
+"POT-Creation-Date: 2025-04-22 15:52+0900\n"
+"PO-Revision-Date: 2025-04-22 15:52+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -293,6 +293,9 @@ msgstr "OS, 브라우저, 방법에 따라 방해할 수 없거나 감지하지 
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "창이 뒷면으로 이동했을 때 스크린샷의 의심"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "또한, 스크린샷 이외의 기능(탭 전환, 창 전환)에도 반응하게 됩니다."
 
 msgid "2キー押下のスクリーンショットの疑い"
 msgstr "2키 누르기 스크린샷 의심"

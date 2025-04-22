@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.2.12\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:22+0900\n"
-"PO-Revision-Date: 2025-04-22 15:23+0900\n"
+"POT-Creation-Date: 2025-04-22 15:52+0900\n"
+"PO-Revision-Date: 2025-04-22 15:53+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -293,6 +293,9 @@ msgstr "Priklausomai nuo operacinės sistemos, naršyklės ir metodo, gali būti
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Įtarimas dėl ekrano nuotraukų, kai langai perkeliami į galą."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Be to, ji reaguoja ir į kitas funkcijas, ne tik į ekrano nuotraukas"
 
 msgid "2キー押下のスクリーンショットの疑い"
 msgstr "Įtarimas dėl ekrano nuotraukų su dviem klavišų paspaudimais."
