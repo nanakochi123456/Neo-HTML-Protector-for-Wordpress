@@ -14,7 +14,7 @@
 
 	let		pKey='p'	+ nullstr;
 	let		zKey='z'	+ nullstr;
-	let		uKey='u'	+ nullstr;
+	let		wKey='w'	+ nullstr;
 	let		rClick='r'	+ nullstr;
 	let		CopyCut='y'	+ nullstr;
 	let		none='none'	+ nullstr;
@@ -94,6 +94,8 @@
 		let		Xbox = 'Xbox'		+ nullstr;
 		let		Linux = 'Linux'		+ nullstr;
 
+		// Braveなら別の取得方式
+		let	isBrave = Navigator.brave && await Navigator.brave.isBrave();
 		// ブラウザ名の判定（userAgentData対応時）
 		if (Navigator.userAgentData) {
 			const brands = Navigator.userAgentData.brands || [];
@@ -106,13 +108,11 @@
 			}
 
 			// OS の高精度取得
-			const uaData = await Navigator.userAgentData.getHighEntropyValues(["platform"]);
+			let uaData = await Navigator.userAgentData.getHighEntropyValues(["platform"]);
 			// Windows, macOS, Chrome OS, Linux, FreeBSD
 			os = uaData.platform;
 		}
 
-		// Braveなら別の取得方式
-		var	isBrave = Navigator.brave && await Navigator.brave.isBrave();
 		if(isBrave) {
 			browser='Brave';
 		}
@@ -403,13 +403,13 @@
 	}
 
 	// ウインドウが離れた時、スクショの疑い
-	if(FlagSmall.includes(uKey)) {
+	if(FlagSmall.includes(wKey)) {
 		Window.addEventListener(blur, () => {
 			if (Document.visibilityState !== "hidden") {
 				var now = Date.now();
 				if (now - lastBlur > 10000) { // 10秒以上間隔を空けたときだけログ
 					lastBlur = now;
-					sendIpToServer(blur, uKey);
+					sendIpToServer(blur, wKey);
 				}
 			}
 		});
