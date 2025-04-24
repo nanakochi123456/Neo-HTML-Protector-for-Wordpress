@@ -56,7 +56,7 @@ class neohp_htmlcompress {
 			}, PHP_INT_MAX);
 
 			// view-source検知のため、head内にimgタグを生成
-			if(get_option('neohp_htmlprotect', '0') !== '0') {
+			if(get_option('neohp_htmlprotect', '0') === '0') {
 				add_action('wp_head', function() {
 	//				$home = home_url();
 					$home = "";
