@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.12\n"
+"Project-Id-Version: Neo HTML Protector 0.2.15\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:52+0900\n"
-"PO-Revision-Date: 2025-04-22 15:52+0900\n"
+"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"PO-Revision-Date: 2025-04-24 15:00+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -101,6 +101,9 @@ msgstr "유효"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "일반적인 HTML 압축, 난독화 해제 사이트도 있습니다."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "이 옵션을 활성화하면 view-source의 로그를 얻을 수 있습니다."
 
 msgid "HTML保護"
 msgstr "HTML 보호"
@@ -893,6 +896,9 @@ msgstr "중국어 간체자"
 
 msgid "繁体中国語"
 msgstr "중국어 번체"
+
+msgid "不正なリクエストです"
+msgstr "잘못된 요청입니다."
 
 msgid "画像が見つかりません"
 msgstr "이미지를 찾을 수 없습니다"

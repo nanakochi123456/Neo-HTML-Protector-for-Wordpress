@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.12\n"
+"Project-Id-Version: Neo HTML Protector 0.2.15\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:52+0900\n"
-"PO-Revision-Date: 2025-04-22 15:53+0900\n"
+"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"PO-Revision-Date: 2025-04-24 15:01+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -101,6 +101,9 @@ msgstr "Validitas"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Kompresi HTML umum, beberapa situs memiliki de-obfuscation."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Aktifkan opsi ini untuk mencatat sumber tampilan"
 
 msgid "HTML保護"
 msgstr "Perlindungan HTML"
@@ -893,6 +896,9 @@ msgstr "Bahasa Mandarin yang disederhanakan"
 
 msgid "繁体中国語"
 msgstr "Bahasa Tionghoa tradisional"
+
+msgid "不正なリクエストです"
+msgstr "Permintaan yang salah."
 
 msgid "画像が見つかりません"
 msgstr "Gambar tidak ditemukan."

@@ -342,3 +342,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 piksel gjennomsiktig bilde i P
 ウインドウが背面に移動した時スクリーンショットの疑い	Mistanke om skjermbilder når vinduer flyttes bakover.
 2キー押下のスクリーンショットの疑い	Mistanke om skjermbilder med to tastetrykk.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	I tillegg reagerer den også på andre funksjoner enn skjermbilder
+このオプションを有効にするとview-sourceのログが取得できます	Aktiver dette alternativet for å logge view-source
+不正なリクエストです	Feil forespørsel.

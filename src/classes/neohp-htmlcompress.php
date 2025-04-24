@@ -8,9 +8,12 @@ defined('ABSPATH') or die('Oh! No!');
 $neohp_htmlcompress=new neohp_htmlcompress();
 class neohp_htmlcompress {
 	protected $neohp_func;
+	protected $neohp_database;
+	protected $mingif = 'data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7';
 
 	public function __construct() {
 		$this->neohp_func=new neohp_func();
+		$this->neohp_database=new neohp_database();
 
 		if(get_option('neohp_deny_imagebot', '0') === '1') {
 			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
@@ -51,6 +54,91 @@ class neohp_htmlcompress {
 					ob_end_flush();
 				}
 			}, PHP_INT_MAX);
+
+			// view-source検知のため、head内にimgタグを生成
+			if(get_option('neohp_htmlprotect', '0') !== '0') {
+				add_action('wp_head', function() {
+	//				$home = home_url();
+					$home = "";
+					$home .= '?neohp=compress&amp;nonce=' . $this->neohp_func->create_short_nonce('compress');
+
+					echo '<img src="' . esc_url($home) . '" width="1" height="1" alt="" loading="eager" decoding="async">';
+
+					// そしてview-source DBにinsert
+					if($this->is_not_bot()) {
+						// ユーザーのIPアドレスを取得
+						$current_url = $this->neohp_func->get_current_url();
+						$user_ip = $this->neohp_func->get_user_ip();
+						$ua = $this->neohp_func->get_user_agent();
+
+						// 一時的なログにview-sourceの検出情報を保存
+						$wpdb = $this->neohp_database->create_view_source();
+
+						// テーブルに保存
+						$this->neohp_database->insert_view_source(
+							$user_ip, $current_url, 'view-source', $ua
+						);
+					}
+
+				}, PHP_INT_MAX);
+
+				add_action('template_redirect', function() {
+					// ここで一時的なログからデータベースに移動する
+					$this->movedatabase();
+
+					if (isset($_GET['neohp']) && $_GET['neohp'] === 'compress') {
+						if($this->neohp_func->verify_short_nonce($_GET['nonce'], 'compress') ) {
+							$this->neohp_func->cachezero();
+							header('Content-Type: image/gif');
+							$mingif_array=explode(',', $this->mingif);
+							echo base64_decode($mingif_array[1]);
+							exit;
+						}
+						wp_die(__('不正なリクエストです', 'neo_html_protector' ) );
+					}
+				}, 0);
+			}
+		}
+	}
+
+	// botでないことを確認する
+	function is_not_bot() {
+		$user_agent = mb_strtolower($this->neohp_func->get_user_agent());
+		// https://www.casis-iss.org/ex1911/
+		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly|wordpress/i', $user_agent);
+	}
+
+	public function movedatabase() {
+		global $wpdb;
+
+		// 一時的なログにview-sourceの検出情報を保存
+		$wpdb = $this->neohp_database->create_view_source();
+
+		$table_name = $wpdb->prefix . 'view_source_log';
+
+		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
+		// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		$results = $wpdb->get_results(
+			"
+			SELECT * FROM $table_name
+			WHERE timestamp <= NOW() - INTERVAL 10 SECOND
+			"
+		);
+		// phpcs:enable
+
+		// view_source_log から user_ip_logに移動して
+		// view_source_logを削除する
+		foreach ($results as $row) {
+			$this->neohp_database->insert_user_ip(
+				$row->ip,
+				$row->url,
+				'view-source',
+				$row->ua
+			);
+
+			$this->neohp_database->delete_view_source(
+				array( 'ip' => $row->ip)
+			);
 		}
 	}
 

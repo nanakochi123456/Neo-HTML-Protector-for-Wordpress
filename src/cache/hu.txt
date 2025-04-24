@@ -342,3 +342,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 képpontos átlátszó kép PN
 ウインドウが背面に移動した時スクリーンショットの疑い	A képernyőképek gyanúja, amikor az ablakok hátrafelé mozognak.
 2キー押下のスクリーンショットの疑い	Két billentyű lenyomásával készült képernyőképek gyanúja.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ezenkívül a képernyőképeken kívül más funkciókra is reagál
+このオプションを有効にするとview-sourceのログが取得できます	Engedélyezze ezt az opciót a view-source naplózásához
+不正なリクエストです	Helytelen kérés.

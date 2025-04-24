@@ -351,3 +351,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 pixel transparent image in PNG
 ウインドウが背面に移動した時スクリーンショットの疑い	Suspicion of screenshots when windows are moved to the rear.
 2キー押下のスクリーンショットの疑い	Suspicion of screenshots with two key presses.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	In addition, it also reacts to functions other than screenshots
+このオプションを有効にするとview-sourceのログが取得できます	Enable this option to log view-source
+不正なリクエストです	Incorrect request.

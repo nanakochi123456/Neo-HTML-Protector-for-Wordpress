@@ -343,3 +343,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 pikselin läpinäkyvä kuva PN
 ウインドウが背面に移動した時スクリーンショットの疑い	Epäilys kuvakaappauksista, kun ikkunat siirretään taaksepäin.
 2キー押下のスクリーンショットの疑い	Epäily kuvakaappauksista, joissa on kaksi näppäimen painallusta.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Lisäksi se reagoi myös muihin toimintoihin kuin kuvakaappauksiin
+このオプションを有効にするとview-sourceのログが取得できます	Ota tämä vaihtoehto käyttöön, jos haluat kirjautua view-source
+不正なリクエストです	Virheellinen pyyntö.

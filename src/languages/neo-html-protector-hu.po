@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.12\n"
+"Project-Id-Version: Neo HTML Protector 0.2.15\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:52+0900\n"
-"PO-Revision-Date: 2025-04-22 15:53+0900\n"
+"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"PO-Revision-Date: 2025-04-24 15:01+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -101,6 +101,9 @@ msgstr "érvényesség"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Általános HTML tömörítés, néhány webhelyen van de-obfuszkálás."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Engedélyezze ezt az opciót a view-source naplózásához"
 
 msgid "HTML保護"
 msgstr "HTML védelem"
@@ -893,6 +896,9 @@ msgstr "Egyszerűsített kínai"
 
 msgid "繁体中国語"
 msgstr "Hagyományos kínai"
+
+msgid "不正なリクエストです"
+msgstr "Helytelen kérés."
 
 msgid "画像が見つかりません"
 msgstr "A kép nem található."

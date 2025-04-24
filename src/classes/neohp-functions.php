@@ -63,7 +63,7 @@ class neohp_func {
 
 	// ショートnonce
 	function create_short_nonce($action) {
-		$expires = time() + 10; // 10秒有効
+		$expires = time() + 9; // 9秒有効
 		$nonce = hash_hmac('sha256', $action . '|' . $expires, wp_salt());
 		return base64_encode(json_encode([$nonce, $expires]));
 	}

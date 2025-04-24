@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.12\n"
+"Project-Id-Version: Neo HTML Protector 0.2.15\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:52+0900\n"
-"PO-Revision-Date: 2025-04-22 15:52+0900\n"
+"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"PO-Revision-Date: 2025-04-24 15:00+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -101,6 +101,9 @@ msgstr "Validité"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Compression HTML générale, certains sites proposent une désobfuscation."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Activez cette option pour enregistrer les données view-source"
 
 msgid "HTML保護"
 msgstr "Protection HTML"
@@ -893,6 +896,9 @@ msgstr "Chinois simplifié"
 
 msgid "繁体中国語"
 msgstr "Le chinois traditionnel"
+
+msgid "不正なリクエストです"
+msgstr "Demande incorrecte."
 
 msgid "画像が見つかりません"
 msgstr "Image non trouvée."

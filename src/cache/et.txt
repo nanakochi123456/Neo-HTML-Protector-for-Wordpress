@@ -342,3 +342,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 piksli suurune läbipaistev pi
 ウインドウが背面に移動した時スクリーンショットの疑い	Kahtlus, et ekraanipilte saab teha, kui aknad on viidud tahapoole.
 2キー押下のスクリーンショットの疑い	Kahtlus, et ekraanipilte tehakse kahe klahvivajutusega.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Lisaks sellele reageerib see ka muudele funktsioonidele kui ekraanipiltidele
+このオプションを有効にするとview-sourceのログが取得できます	Lülita see valik sisse, et logida view-source
+不正なリクエストです	Ebaõige taotlus.

@@ -342,3 +342,5 @@ PNG形式で1×1ピクセルの透過画像	PNG formatında 1 x 1 piksel şeffaf
 ウインドウが背面に移動した時スクリーンショットの疑い	Pencereler arkaya taşındığında ekran görüntüsü şüphesi.
 2キー押下のスクリーンショットの疑い	İki tuşa basarak ekran görüntüsü alma şüphesi.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ayrıca, ekran görüntüleri dışındaki işlevlere de tepki verir
+このオプションを有効にするとview-sourceのログが取得できます	Görünüm kaynağını günlüğe kaydetmek için bu seçeneği etkinleştirin
+不正なリクエストです	Yanlış istek.

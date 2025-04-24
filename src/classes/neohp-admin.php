@@ -316,6 +316,7 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('一般的なHTML圧縮です、難読化解除のサイトもあります', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('このオプションを有効にするとview-sourceのログが取得できます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
@@ -338,6 +339,7 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
+					echo '<br>' .esc_html( __('このオプションを有効にするとview-sourceのログが取得できます', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('Firefoxに対しては無効です', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('SEOに著しく影響があります', 'neo-html-protector') );

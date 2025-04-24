@@ -343,3 +343,5 @@ PNG形式で1×1ピクセルの透過画像	1 x 1 pixel průhledný obrázek ve 
 ウインドウが背面に移動した時スクリーンショットの疑い	Podezření na snímky obrazovky při posunutí oken dozadu.
 2キー押下のスクリーンショットの疑い	Podezření na snímky obrazovky se dvěma stisky kláves.
 あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Kromě toho reaguje i na jiné funkce než snímky obrazovky
+このオプションを有効にするとview-sourceのログが取得できます	Povolte tuto možnost pro protokolování view-source
+不正なリクエストです	Nesprávný požadavek.

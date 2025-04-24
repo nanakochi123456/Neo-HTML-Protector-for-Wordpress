@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.12\n"
+"Project-Id-Version: Neo HTML Protector 0.2.15\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-22 15:52+0900\n"
-"PO-Revision-Date: 2025-04-22 15:53+0900\n"
+"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"PO-Revision-Date: 2025-04-24 15:01+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -101,6 +101,9 @@ msgstr "Galiojimas"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Įjunkite šią parinktį, kad būtų galima prisijungti prie peržiūros šaltinio"
 
 msgid "HTML保護"
 msgstr "HTML apsauga"
@@ -893,6 +896,9 @@ msgstr "Supaprastinta kinų kalba"
 
 msgid "繁体中国語"
 msgstr "Tradicinė kinų kalba"
+
+msgid "不正なリクエストです"
+msgstr "Neteisingas prašymas."
 
 msgid "画像が見つかりません"
 msgstr "Vaizdas nerastas."
