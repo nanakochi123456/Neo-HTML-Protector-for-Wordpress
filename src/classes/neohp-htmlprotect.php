@@ -16,30 +16,13 @@ class neohp_htmlprotect {
 		$this->neohp_func=new neohp_func();
 
 		if(get_option('neohp_deny_imagebot', '0') === '1') {
-			if(strpos($this->neohp_func->get_user_agent(), 'mage')) {
+			if($this->neohp_func->is_image_bot() ) {
 				$this->neohp_func->err403();
 			}
 		}
 
 		if(get_option('neohp_deny_aibot', '0') === '1') {
-			$ua = $this->neohp_func->get_user_agent();
-			// ChatGPT
-			if(strpos($ua, 'GPTBot')) {
-				$this->neohp_func->err403();
-			}
-			if(strpos($ua, 'ChatGPT-User')) {
-				$this->neohp_func->err403();
-			}
-			// Google Gemini
-			if(strpos($ua, 'Google-Extended')) {
-				$this->neohp_func->err403();
-			}
-			// Common Crawl
-			if(strpos($ua, 'CCBot')) {
-				$this->neohp_func->err403();
-			}
-			// Stability AI
-			if(strpos($ua, 'StabilityAI')) {
+			if($this->neohp_func->is_ai_bot() ) {
 				$this->neohp_func->err403();
 			}
 		}
@@ -395,7 +378,7 @@ class neohp_htmlprotect {
 
 		$this->neohp_func->head_echo($head);
 
-		if($this->is_not_bot()) {
+		if($this->neohp_func->is_not_bot()) {
 			// ユーザーのIPアドレスを取得
 			$user_ip = $this->neohp_func->get_user_ip();
 			$ua = $this->neohp_func->get_user_agent();
@@ -539,13 +522,6 @@ class neohp_htmlprotect {
 				}
 			}
 		}
-	}
-
-	// botでないことを確認する
-	function is_not_bot() {
-		$user_agent = mb_strtolower($this->neohp_func->get_user_agent());
-		// https://www.casis-iss.org/ex1911/
-		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly|wordpress/i', $user_agent);
 	}
 
 	// HTML圧縮

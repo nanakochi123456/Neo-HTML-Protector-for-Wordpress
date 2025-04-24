@@ -257,4 +257,21 @@ class neohp_func {
 		header_remove( 'Last-Modified' );
 	}
 
+	// botでないことを確認する
+	function is_not_bot() {
+		$user_agent = mb_strtolower($this->get_user_agent());
+		// https://www.casis-iss.org/ex1911/
+		return !preg_match('/bot|crawl|slurp|spider|google|y!j|facebook|baidu|yeti|duckduckgo|daum|steeler|sonic|bubing|barkrowler|megaindex|admantx|proximic|mappy|yak|feedly|wordpress/i', $user_agent);
+	}
+
+	function is_image_bot() {
+		$user_agent = mb_strtolower($this->get_user_agent());
+		return !preg_match('/mage/i', $user_agent);
+	}
+
+	function is_ai_bot() {
+		$user_agent = mb_strtolower($this->get_user_agent());
+		return !preg_match('/gptbot|chatgpt-user|google-extended|ccbot|stabilityai/i', $user_agent);
+	}
+
 }
