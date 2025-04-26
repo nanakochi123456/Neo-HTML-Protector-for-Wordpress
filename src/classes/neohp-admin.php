@@ -520,15 +520,15 @@ class neohp_admin {
 					$value = esc_html(get_option('neohp_alert_sound', '0'));
 					echo wp_kses( $this->getselect("neohp_alert_sound", $value
 						, '0=' . __('サウンドなし', 'neo-html-protector')
-						, 'sentou=' . __('戦闘＆戦闘勝利 - 1分16.3秒', 'neo-html-protector')
-						, 'sm3_oyaji1=' . __('おやじ ショート- 3.8秒', 'neo-html-protector')
-						, 'sm3_oyaji2=' . __('おやじ ロング - 23.5秒', 'neo-html-protector')
-						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒', 'neo-html-protector')
-						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒', 'neo-html-protector')
-						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒', 'neo-html-protector')
-						, 'w-fanfa=' . __('ファンファーレ - 22.3秒', 'neo-html-protector')
-						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒', 'neo-html-protector')
-						, 'msx_open=' . __('レトロ風オープン - 42.1秒', 'neo-html-protector')
+						, 'sentou=' . __('戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later', 'neo-html-protector')
+						, 'sm3_oyaji1=' . __('おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ', 'neo-html-protector')
+						, 'sm3_oyaji2=' . __('おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ', 'neo-html-protector')
+						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
+						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
+						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
+						, 'w-fanfa=' . __('ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン', 'neo-html-protector')
+						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン', 'neo-html-protector')
+						, 'msx_open=' . __('レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . '<audio id="testaudio" controls></audio>';
 					?>
@@ -1590,6 +1590,7 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <li><?php echo '<a target="_blank" href="https://www.dafont.com/bitstream-vera-seri.font">Bitstream Vera Serif</a> - The Gnome Project ライセンス確認済' ?></li>
 </ol>
 <p><?php echo esc_html( __('このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています', 'neo-html-protector') ) ?></p>
+<p><?php echo esc_html( __('このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています', 'neo-html-protector') ) ?></p>
 		<?php
 	}

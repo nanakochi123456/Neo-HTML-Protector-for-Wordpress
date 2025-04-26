@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:01+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:54+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -195,32 +195,32 @@ msgstr "BGM, kad tiek veikta mērķa darbība."
 msgid "サウンドなし"
 msgstr "Bez skaņas"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "Cīņas un kaujas uzvaras - 1 min 16,3 sek."
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "Cīņas un kaujas uzvaras - 1 min 16,3 sek - Licence: CC2.1 vai jaunāka versija"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "Tēvs Short - 3,8 sekundes"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Tēvs Īss - 3,8 sekundes - Licence GPL2.0 vai jaunāka"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "Tēvs, garš - 23,5 sek."
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Tēvs Long - 23.5 sek - Licence GPL2.0 vai jaunāka"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "Šopēna etīde, op. 10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek."
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Šopēna etīde, op.10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "Šopēna etīde op.10-12 Revolūcija, mašīnraksta versija, ātrā versija - 1 min 57,6 sek."
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Šopēna etīde, op.10-12 Revolūcija, drukāta versija, ātrā versija - 1 min 57,6 sek - Licence: CC BY-ND 4.0 vai jaunāka versija"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "Šopēna Šerco b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48,0 sek."
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Šopēna Scherzo b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija"
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfāra - 22,3 s."
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfāra - 22,3 sekundes - Licence: publiskais īpašums"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "Retro stila fanfāra - 2,2 s."
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "Retro stila fanfāra - 2,2 s - Licence: publiskais īpašums"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "Atvērts retro stils - 42,1 s."
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "Retro-style open - 42,1 s - Licence: publiskais īpašums"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Izvēlieties fona mūziku brīdinājuma rādīšanas laikā."
@@ -713,6 +713,9 @@ msgstr "Šis spraudnis ietver fontu un fontu failus ASCII mākslai, ko ģenerē"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Šis spraudnis satur mūziku no neautorizētās Super Nintendo Entertainment System"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Šis spraudnis satur mūziku, izmantojot 'Keppy s YAMAHA C7', ko radījis Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Citi Aveņu Pi5, ChatGPT un deepl tiek izmantoti, izstrādājot šo spraudni"

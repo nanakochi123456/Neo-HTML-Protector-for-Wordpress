@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:01+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:53+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -195,32 +195,32 @@ msgstr "BGM, kun kohdetoiminto suoritetaan."
 msgid "サウンドなし"
 msgstr "Äänetön"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "Taistelu ja taisteluvoitot - 1 min 16.3 sekuntia"
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "Taistelu & taisteluvoitot - 1 min 16.3 sekuntia - Lisenssi: CC2.1 tai uudempi"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "Isä Short - 3,8 sekuntia"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Father Short - 3.8 sekuntia - Lisenssi GPL2.0 tai uudempi"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "Isä, pitkä - 23,5 sek."
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Isä Pitkä - 23.5 sekuntia - Lisenssi GPL2.0 tai uudempi"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "Chopinin etydi, Op.10-5, mustat näppäimet, kirjoitettu versio, nopea versio - 1 min 0.0 sec."
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopinin etydi, Op.10-5, mustat näppäimet, kirjoitettu versio, nopea versio - 1 min 0.0 sek - Lisenssi: CC BY-ND 4.0 tai uudempi"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "Chopin Etydi Op.10-12 Revolution, kirjoitettu versio, nopea versio - 1 min 57,6 sek."
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopinin etydi, op.10-12 Revolution, kirjoitettu versio, nopea versio - 1 min 57.6 sek - Lisenssi: CC BY-ND 4.0 tai uudempi"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "Chopin Scherzo b-molli, Op2, kirjoitettu versio, nopea lyhennetty versio - 1 min 48,0 sek."
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Scherzo h-molli, Op2, kirjoitettu versio, nopea lyhennetty versio - 1 min 48.0 sekuntia - Lisenssi: CC BY-ND 4.0 tai uudempi."
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfaari - 22.3 s."
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare - 22.3 sekuntia - Lisenssi: public domain"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "Retrotyylinen fanfaari - 2,2 s."
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "Retro-tyylinen fanfaari - 2.2 s - Lisenssi: public domain"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "Retro-tyylinen auki - 42,1 s."
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "Retro-style open - 42.1 s - Lisenssi: public domain"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Valitse taustamusiikki varoitusnäytön aikana."
@@ -713,6 +713,9 @@ msgstr "Tämä lisäosa sisältää fontin ja fonttitiedostot ASCII-taidetta var
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Tämä lisäosa sisältää musiikkia luvattomasta Super Nintendo Entertainment System"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Tämä lisäosa sisältää musiikkia, jossa käytetään 'Keppy s YAMAHA C7', jonka on luonut Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Muut Raspberry Pi5, ChatGPT ja deepl käytetään tämän laajennuksen kehittämisessä."

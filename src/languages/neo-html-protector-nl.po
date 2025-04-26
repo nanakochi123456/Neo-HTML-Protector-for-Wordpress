@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:01+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:54+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -195,32 +195,32 @@ msgstr "BGM wanneer de doelactie wordt uitgevoerd."
 msgid "サウンドなし"
 msgstr "Geluidloos"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "Gevechten en overwinningen - 1 min 16.3 sec"
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "Gevechten en overwinningen - 1 min 16.3 sec - Licentie: CC2.1 of hoger"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "Vader Kort - 3,8 seconden"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Vader Kort - 3.8 seconden - Licentie GPL2.0 of hoger"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "Vader, lang - 23,5 sec."
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Vader Lang - 23.5 sec - Licentie GPL2.0 of hoger"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "Chopin Etude, Op.10-5, zwarte toetsen, getypte versie, snelle versie - 1 min 0.0 sec."
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Etude, Op.10-5, zwarte toetsen, getypte versie, snelle versie - 1 min 0.0 sec - Licentie: CC BY-ND 4.0 of hoger"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "Chopin Etude Op.10-12 Revolutie, getypte versie, snelle versie - 1 min 57.6 sec."
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Etude, Op.10-12 Revolutie, getypte versie, snelle versie - 1 min 57.6 sec - Licentie: CC BY-ND 4.0 of hoger"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "Chopin Scherzo in Bes klein, Op2, getypte versie, snelle ingekorte versie - 1 min 48.0 sec."
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Scherzo in Bes klein, Op2, getypte versie, snelle ingekorte versie - 1 min 48.0 sec - Licentie: CC BY-ND 4.0 of later"
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfare - 22,3 s."
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare - 22.3 seconden - Licentie: publiek domein"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "Retrostijl fanfare - 2,2 s."
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare in retrostijl - 2.2 s - Licentie: publiek domein"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "Retrostijl open - 42,1 s."
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "Retrostijl open - 42.1 s - Licentie: publiek domein"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Selecteer de achtergrondmuziek tijdens de waarschuwingsweergave."
@@ -713,6 +713,9 @@ msgstr "Deze invoegtoepassing bevat het lettertype en de lettertypebestanden voo
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Deze plug-in bevat muziek uit het niet-geautoriseerde Super Nintendo Entertainment System"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Deze plugin bevat muziek met 'Keppy s YAMAHA C7' gemaakt door Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Andere Raspberry Pi5, ChatGPT en deepl zijn gebruikt bij de ontwikkeling van deze plugin"

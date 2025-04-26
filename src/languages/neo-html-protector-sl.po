@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:02+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:55+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -195,32 +195,32 @@ msgstr "BGM, ko se izvede ciljno dejanje."
 msgid "サウンドなし"
 msgstr "Brez zvoka"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "Zmage v bojih in bitkah - 1 min 16,3 s"
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "Boj in zmage v bitkah - 1 min 16,3 s - Licenca: CC2.1 ali novejša"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "Oče Short - 3,8 sekunde"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Father Short - 3,8 sekunde - Licenca GPL2.0 ali novejša"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "Oče, dolg - 23,5 sekunde."
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oče Long - 23,5 sekunde - Licenca GPL2.0 ali novejša"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "Chopinova etuda, op. 10-5, črne tipke, tipkana različica, hitra različica - 1 min 0,0 sek."
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopinova etuda, op. 10-5, črne tipke, tipkana različica, hitra različica - 1 min 0,0 s - Licenca: CC BY-ND 4.0 ali novejša"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "Chopinova etuda op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57,6 sek."
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopinova etuda, op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57,6 s - Licenca: CC BY-ND 4.0 ali novejša"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitro skrajšana različica - 1 min 48,0 sek."
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra skrajšana različica - 1 min 48,0 s - Licenca: CC BY-ND 4.0 ali novejša"
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfare - 22,3 s."
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare - 22,3 sekunde - Licenca: javna domena"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "Fanfare v retro slogu - 2,2 s."
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare v retro slogu - 2,2 s - Licenca: javna domena"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "Odpiranje v retro slogu - 42,1 s."
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "Retro-style open - 42,1 s - Licenca: javna lastnina"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Izberite glasbo v ozadju med prikazom opozorila."
@@ -713,6 +713,9 @@ msgstr "Ta vtičnik vključuje pisavo in datoteke pisav za umetnost ASCII, ki ji
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Ta vtičnik vsebuje glasbo iz neavtorizirane igre Super Nintendo Entertainment System"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ta vtičnik vsebuje glasbo z uporabo 'Keppy s YAMAHA C7', ki jo je ustvaril Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika"

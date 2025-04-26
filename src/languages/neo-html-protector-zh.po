@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:00+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:52+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -195,32 +195,32 @@ msgstr "采取目标行动时的 BGM。"
 msgid "サウンドなし"
 msgstr "无声"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "战斗和战斗胜利 - 1 分 16.3 秒"
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "战斗和战斗胜利 - 1 分 16.3 秒 - 授权许可：CC2.1 或更高版本"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "矮个子父亲 - 3.8 秒"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "父亲短 - 3.8 秒 - 许可证 GPL2.0 或更高版本"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "父亲，长 - 23.5 秒"
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "父亲长 - 23.5 秒 - 许可证 GPL2.0 或更高版本"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "肖邦练习曲，作品 10-5，黑键，打字版，快速版 - 1 分 0.0 秒。"
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "肖邦练习曲，作品 10-5，黑键，打字版，快速版 - 1 分 0.0 秒 - 授权许可：CC BY-ND 4.0 或更高版本"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "肖邦练习曲作品 10-12 革命，打字版，快速版 - 1 分 57.6 秒。"
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "肖邦练习曲，作品 10-12 革命，打字版，快速版 - 1 分 57.6 秒 - 授权许可：CC BY-ND 4.0 或更高版本"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "肖邦降 B 小调回旋曲，作品 2，打字版，快速缩短版 - 1 分 48.0 秒。"
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "肖邦降 B 小调回旋曲，作品 2，打字版，快速简版 - 1 分 48.0 秒 - 授权许可：CC BY-ND 4.0 或更高版本"
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfare - 22.3 秒"
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare - 22.3 秒 - 许可证：公有领域"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "复古风格的大合唱 - 2.2 秒。"
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "复古风大合唱 - 2.2 秒 - 授权许可：公有领域"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "复古式开启 - 42.1 秒。"
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "复古式开启 - 42.1 秒 - 授权许可：公有领域"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "选择警告显示时的背景音乐。"
@@ -713,6 +713,9 @@ msgstr "该插件包括字体和字体文件，用于由"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "本插件包含来自未经授权的超级任天堂娱乐系统（SNES）游戏 SM Trainer Hitomi 3 的音乐，该游戏由 EJ Ltd.开发，由插件创建者作曲，并已获得官方许可。"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "本插件包含使用 Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "开发该插件时还使用了其他树莓派 5、ChatGPT 和 deepl。"

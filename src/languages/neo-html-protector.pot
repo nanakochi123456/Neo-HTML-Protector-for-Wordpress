@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -294,39 +294,45 @@ msgid "サウンドなし"
 msgstr ""
 
 #: classes/neohp-admin.php:523
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
 msgstr ""
 
 #: classes/neohp-admin.php:524
-msgid "おやじ ショート- 3.8秒"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
 msgstr ""
 
 #: classes/neohp-admin.php:525
-msgid "おやじ ロング - 23.5秒"
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
 msgstr ""
 
 #: classes/neohp-admin.php:526
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
+msgid ""
+"ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス："
+"CC BY-ND 4.0 or later"
 msgstr ""
 
 #: classes/neohp-admin.php:527
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
+msgid ""
+"ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセン"
+"ス：CC BY-ND 4.0 or later"
 msgstr ""
 
 #: classes/neohp-admin.php:528
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
+msgid ""
+"ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセン"
+"ス：CC BY-ND 4.0 or later"
 msgstr ""
 
 #: classes/neohp-admin.php:529
-msgid "ファンファーレ - 22.3秒"
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
 msgstr ""
 
 #: classes/neohp-admin.php:530
-msgid "レトロ風ファンファーレ - 2.2秒"
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
 msgstr ""
 
 #: classes/neohp-admin.php:531
-msgid "レトロ風オープン - 42.1秒"
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
 msgstr ""
 
 #: classes/neohp-admin.php:552
@@ -1050,10 +1056,16 @@ msgid ""
 msgstr ""
 
 #: classes/neohp-admin.php:1593
+msgid ""
+"このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s "
+"YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr ""
+
+#: classes/neohp-admin.php:1594
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1601
+#: classes/neohp-admin.php:1602
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"
@@ -1327,10 +1339,10 @@ msgstr ""
 msgid "繁体中国語"
 msgstr ""
 
-#: classes/neohp-htmlcompress.php:97
+#: classes/neohp-htmlcompress.php:79
 msgid "不正なリクエストです"
 msgstr ""
 
-#: classes/neohp-htmlprotect.php:260 classes/neohp-htmlprotect.php:298
+#: classes/neohp-htmlprotect.php:243 classes/neohp-htmlprotect.php:281
 msgid "画像が見つかりません"
 msgstr ""

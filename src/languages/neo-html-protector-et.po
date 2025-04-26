@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.15\n"
+"Project-Id-Version: Neo HTML Protector 0.2.17\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-24 15:00+0900\n"
-"PO-Revision-Date: 2025-04-24 15:01+0900\n"
+"POT-Creation-Date: 2025-04-26 15:51+0900\n"
+"PO-Revision-Date: 2025-04-26 15:53+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -195,32 +195,32 @@ msgstr "BGM, kui sihttegevus on tehtud."
 msgid "サウンドなし"
 msgstr "Soundless"
 
-msgid "戦闘＆戦闘勝利 - 1分16.3秒"
-msgstr "Võidud võitluses ja lahingus - 1 min 16,3 sek."
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
+msgstr "Võitlus ja lahinguvõidud - 1 min 16.3 sek - Litsents: CC2.1 või uuemal litsentsil"
 
-msgid "おやじ ショート- 3.8秒"
-msgstr "Isa Short - 3,8 sekundit"
+msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Isa Short - 3.8 sekundit - Litsents GPL2.0 või uuem"
 
-msgid "おやじ ロング - 23.5秒"
-msgstr "Isa, pikk - 23,5 sek."
+msgid "おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Isa Long - 23.5 sek - Litsents GPL2.0 või uuem"
 
-msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒"
-msgstr "Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0,0 sek."
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0.0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul"
 
-msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒"
-msgstr "Chopini etüüd Op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek."
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopini etüüd, op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek - Litsents: CC BY-ND 4.0 või uuemal kujul"
 
-msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒"
-msgstr "Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek."
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul"
 
-msgid "ファンファーレ - 22.3秒"
-msgstr "Fanfaar - 22,3 s."
+msgid "ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン"
+msgstr "Fanfare - 22,3 sekundit - Licence: public domain"
 
-msgid "レトロ風ファンファーレ - 2.2秒"
-msgstr "Retro stiilis fanfaar - 2,2 s."
+msgid "レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン"
+msgstr "Retro stiilis fanfaar - 2.2 s - Licence: public domain"
 
-msgid "レトロ風オープン - 42.1秒"
-msgstr "Retrostiilis avatud - 42,1 s."
+msgid "レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン"
+msgstr "Retro-stiilis avatud - 42.1 s - Litsents: üldkasutatav"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Valige taustamuusika hoiatusekraani ajal."
@@ -713,6 +713,9 @@ msgstr "See pistikprogramm sisaldab kirjastiili ja kirjastiili faile ASCII kunst
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "See pistikprogramm sisaldab muusikat Super Nintendo Entertainment System"
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "See plugin sisaldab muusikat kasutades 'Keppy s YAMAHA C7' loodud Keppy"
 
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr "Muud Raspberry Pi5, ChatGPT ja deepl kasutatakse selle plugina arendamisel"

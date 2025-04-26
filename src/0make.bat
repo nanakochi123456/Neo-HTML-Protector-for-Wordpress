@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.2.17
+set VERSION=0.2.18
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -46,7 +46,7 @@ echo Snapshot %datetime:~0,14%
 call 2version.bat %VERSION% %datetime:~0,14%
 
 @echo on
-wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* audio/* classes/* js/* languages/*
+wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* audio/* audiosrc/* classes/* js/* languages/*
 
 @echo off
 copy %NAME%-%datetime:~0,14%.7z %FTP%
