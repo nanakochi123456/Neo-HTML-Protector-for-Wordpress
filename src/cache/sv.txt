@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Inga IP-adressuppgifter tillgängli
 デバッグモード、コンソールの警告メッセージ	Felsökningsläge, varningsmeddelanden i konsolen.
 右クリックの警告メッセージ	Högerklicka på varningsmeddelanden.
 印刷、PDF保存の警告メッセージ	Varningsmeddelanden för utskrift och lagring av PDF-filer.
+スクリーンショットの警告メッセージ	Skärmdump av varningsmeddelanden.
+スクリーンショットの疑いの警告メッセージ	Påstådd skärmdump varningsmeddelande.
+テキスト全選択時の警告メッセージ	Varningsmeddelande när all text är markerad.
+ページ保存の警告メッセージ	Varningsmeddelande om att spara sidan.
 コピー・カットした時に表示するメッセージ	Meddelande som visas vid kopiering eller skärning.
 HTMLソース表示時に表示するメッセージ	Meddelande som ska visas när HTML-källan visas
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Meddelande som ska visas i början av källan när HTML är fördunklad och skyddad.
@@ -23,52 +27,124 @@ HTML難読化 (圧縮)	Fördunkling av HTML
 無効	Ogiltig
 有効	Giltighet
 一般的なHTML圧縮です、難読化解除のサイトもあります	Allmän HTML-komprimering, vissa webbplatser har de-obfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Aktivera detta alternativ för att logga view-source
 HTML保護	HTML-skydd
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Endast minimal HTML matas ut efter HTML-komprimering, och innehållet i BODY-taggen matas inte ut alls.
-view-source:の動作をされた時の記録もします	Den registrerar också när åtgärden view-source: vidtas.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	När den aktiveras sker en omdirigering, vilket kan leda till att SEO minskar
-若干デザインが変わる可能性があります	Designen kan komma att ändras något.
+Firefoxに対しては無効です	Gäller inte för Firefox.
+SEOに著しく影響があります	Påverkar SEO avsevärt.
+HTMLをJavaScriptで描画	Rendering av HTML med JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Rendering av HTML med JavaScript som en Firefox-åtgärd
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Om du aktiverar JavaScript-rendering kommer webbplatsens visningshastighet att sänkas avsevärt
 画像の保護	Bildskydd.
-add_filterを使用して画像を保護	Skydda bilder med hjälp av add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Fånga och skydda bilder mellan wp_head och wp_footer
+imgタグが呼び出されるごとに画像を保護	Skydda bilden varje gång img-taggen anropas.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Skydda alla bilder som laddas upp till Wordpress i all HTML-utdata
 画像をダウンロードから保護します	Skyddar bilder från nedladdning.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Förhindrar nästan helt nedladdning när bilddatan är skyddad, utfärdar en komplett engångs-URL, autentiserar med en token som lagras i sessionen och visar bilden från php, vilket nästan helt förhindrar bildstöld.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cachelagring av bilder fungerar inte när bilddata är skyddade, vilket innebär att webbplatsen laddas långsammare vid nästa besök, vilket kan leda till sämre SEO
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	När bilddata är skyddade fungerar inte cachelagring av bilder, så webbplatsen laddas långsammare vid nästa besök, vilket påverkar SEO
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Databasbelastningen kan vara högre när bilddata skyddas
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoden som använder add_filter filtrerar img-taggar när de publiceras, medan metoden som använder wp_head till wp_footer bearbetar alla img-taggar i innehållet.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	För "Skydda bilden varje gång img-taggen anropas", använd add_filter och filter när du publicerar img-taggar, beroende på tema kanske detta inte fungerar korrekt
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Skydda alla bilder som laddas upp till Wordpress från all HTML-utdata" kommer att fånga nästan all Wordpress-aktivitet och bearbeta allt om img-taggarna i innehållet. Vissa teman kommer inte att fungera korrekt
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Observera att bilder som anges som iögonfallande sprids som OGP och inte kan skyddas. Om du måste skydda dem kan du ändra valet av utdata för HEAD-taggen när du skyddar HTML i de avancerade inställningarna.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS:s standardfunktion för skärmdump kan inte skyddas
 画像URLの保護	Skydd av URL:er för bilder
-即時読み込みをして有効	Effektiv med omedelbar laddning.
-遅延読み込みをして有効	Aktiverad med fördröjd laddning.
 画像の保護と組み合わせて使用します、単体では意味がありません	Det används i kombination med bildskydd och är inte meningsfullt i sig självt.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Den läses dynamiskt av JavaScript, vilket påverkar SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Fördröjd läsning på grund av JavaScript, vilket påverkar SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Utmatning av ASCII-konst i HTML-källkod under fördunkling och skydd av HTML.
 表示なし	Ingen indikation
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Kontrollera genom att visa källan i en icke-inloggad webbläsare
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas med view-source.
+対象アクションを起こした時の表示デザイン	Visa design när målåtgärden utlöses.
+黄色の背景の黒文字のベーシックデザイン	Grundläggande design med svarta bokstäver på gul bakgrund
+黒色の背景の赤文字のホラー風デザイン	Design i skräckstil med röd text på svart bakgrund.
+黒色の背景の赤文字の光る文字のデザイン	Design av glödande röda bokstäver på en svart bakgrund.
+対象アクションを起こした時のBGM	BGM när den önskade åtgärden vidtas.
+サウンドなし	Ljudlös
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Strid och segrar - 1 min 16.3 sek - Licens: CC2.1 eller senare
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekunder - Licens GPL2.0 eller senare
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23,5 sekunder - Licens GPL2.0 eller senare
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, svarta tangenter, maskinskriven version, snabbversion - 1 min 0.0 sek - Licens: CC BY-ND 4.0 eller senare
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 57.6 sek - Licens: CC BY-ND 4.0 eller senare
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo i B-moll, Op2, maskinskriven version, snabb förkortad version - 1 min 48.0 sek - Licens: CC BY-ND 4.0 eller senare
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22.3 sekunder - Licens: Public domain
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfar i retrostil - 2,2 s - Licens: Public domain
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Öppning i retrostil - 42,1 s - Licens: Public domain
+警告表示中のBGMを選択します	Välj bakgrundsmusik under varningsdisplayen.
+びっくりするような雰囲気を作ります	Skapa en överraskande atmosfär
+Firefoxでは音声ブロックされます	Firefox kommer att blockera ljud.
+対象アクションを起こした時のビープ音	Pip-ljud när målåtgärden vidtas.
+有効 音量小さ目	Aktiverad Låg volym
+有効 音量大き目	Aktiverad Högsta volym
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Ljudsignaler vid alla tangent-/musrörelser under varningsvisning
+警告表示中に端末が暴走したかのような雰囲気を作ります	Skapa en atmosfär som om enheten har förlorat kontrollen under varningsdisplayen
+対象アクションを起こした時のマウスカーソルの消去	Radering av muspekaren när målåtgärden utförs.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Tydlig muspekare i webbläsarområdet under varningsvisning
 デバッグモード	Felsökningsläge
 妨害＋記録のみ	Interferens + endast rekord.
 妨害＋記録＋表示＋リダイレクト	Avlyssna + registrera + visa + omdirigera
 メニューからは操作できてしまいます	Den kan manövreras från menyn.
+Firefoxにおけるデバッグモード	Felsökningsläge i Firefox
 ブラウザーコンソール	Webbläsarkonsol
 事実上デバッグモードから操作できてしまいます	I själva verket kan du arbeta i felsökningsläge.
 HTMLソース表示	Visning av HTML-källa
 view-source:から始まるURLを入力すれば操作できてしまいます	Den kan manövreras genom att ange en URL som börjar med view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	I kombination med HTML-skydd kan innehållet skyddas
 印刷	Tryckning
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Utskriftsblockering men fungerar inte bra i vissa webbläsare
+スクリーンショット	Skärmdump
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Kanske inte kan fångas upp eller upptäckas beroende på operativsystem, webbläsare och metod
+ウインドウが背面に移動した時スクリーンショットの疑い	Misstanke om skärmdumpar när fönster flyttas bakåt.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Dessutom reagerar den även på andra funktioner än skärmdumpar
+2キー押下のスクリーンショットの疑い	Misstanke om skärmdumpar med två tangenttryckningar.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Detekteringsmetoden för ovanstående objekt är inte perfekt, förebyggande detektering används.
+スクリーンショットだけではなく、デバッグモード等も検出します	Den upptäcker skärmdumpar samt felsökningslägen etc.
 ページ保存	Sida spara
 右クリック	Högerklicka
 アドオンがインストールされていると操作できてしまいます	Den kan användas om tilläggsprogram är installerade.
 コピー・カット	Kopiera och klippa
-あまりこのイベントに遭遇することはありません	Det är inte så ofta vi stöter på den här typen av händelser.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Beroende på konfigurationen av detta plug-in kan denna händelse sällan nås
+テキスト全選択	Urval av fulltext
 テキスト選択	Textval
 デバッガー妨害	Störning av debugger
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Gör felsökningsläget lite mindre användarvänligt, vissa webbläsare stoppar detta beteende
+リダイレクトするURL	URL att omdirigera till
+利用規約などのページに転送すると良いでしょう	Du kanske vill vidarebefordra dem till sidor som användarvillkoren.
+空欄にすると元のURLにリダイレクトをします	Om den lämnas tom kommer den att omdirigera till original-URL:en
+リダイレクトまでの時間	Dags att omdirigera.
+リダイレクトなし	Ingen omdirigering
+1秒	1 sekund
+2秒	2 sek.
+3秒	3 sekunder.
+4秒	4 sekunder.
+5秒	5 sekunder.
+6秒	6 sek.
+7秒	7 sek.
+8秒	8 sek.
+9秒	9 sek.
+10秒	10 sekunder.
+15秒	15 sekunder.
+20秒	20 sekunder.
+25秒	25 sekunder.
+30秒	30 sekunder.
+35秒	35 sekunder.
+40秒	40 sekunder.
+45秒	45 sekunder.
+50秒	50 sek.
+55秒	55 sekunder.
+1分	En minut
+1分10秒	1 min 10 sek.
+1分20秒	1 min 20 sek.
+1分30秒	1 minut och 30 sekunder.
+1分40秒	1 minut och 40 sekunder.
+1分50秒	1 minut och 50 sekunder.
+2分	2 minuter
 ソース表示を許可する権限	Behörighet att tillåta visning av källan.
 ADMINログイン時のみ通常のソース出力	Normal källutgång endast vid ADMIN-inloggning
 USERログインで通常のソース出力	Normal källutgång med USER-inloggning
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Välj om normal HTML-utskrift endast ska vara för administratörer eller för användarinloggning
+画像を無理やりダウンロードして実際にダウンロードされるもの	Det som faktiskt laddas ner genom att tvinga bilden att laddas ner.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pixel transparent bild i GIF-format.
+PNG形式で1×1ピクセルの透過画像	1 x 1 pixel transparent bild i PNG-format.
+PNG形式で黄色い背景の警告画面	Varningsskärm med gul bakgrund i PNG-format.
+意味のないHTMLドキュメント	Meningslösa HTML-dokument
 HTML保護時のHEADタグの出力	Utmatning av HEAD-taggar under HTML-skydd
 出力しない	Ingen utmatning
 TITLEタグのみ	Endast TITLE-tagg
@@ -77,14 +153,14 @@ WordpressのHEADタグより取得	Hämtas från HEAD-taggen i Wordpress
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP-bilder kommer inte att visas i sociala nätverk om de inte hämtas från Wordpress HEAD-taggen
 画像botをアクセス禁止にする	Förbud mot bildrobotar.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Genom att undvika bildrobotar i förhållande till HTML skyddas innehåll som inte skulle kunna skyddas av direktlänkar från bildsökning.
+AI学習用botをアクセス禁止にする	Förbud mot tillgång till AI-inlärningsrobotar.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Att undvika att AI:s inlärningsbot använder HTML förhindrar att den används av AI:n, men det löser inte problemet helt och hållet
 alertメッセージを表示する言語	Språk på vilket varningsmeddelandet visas.
 Wordpressの言語	Wordpress språk.
 ブラウザの設定言語	Språk för webbläsarinställningar
 メッセージをカスタム設定されている場合は言語を変更できません	Det går inte att ändra språk om meddelandet är anpassat
 view-sourceメッセージを表示する言語	Språk på vilket view-source-meddelanden visas.
 一時使用トークンの有効期限	Utgångsdatum för tokens för tillfällig användning.
-1分	En minut
-2分	2 minuter
 3分	3 min.
 4分	4 min.
 5分	5 minuter.
@@ -105,14 +181,18 @@ view-sourceメッセージを表示する言語	Språk på vilket view-source-me
 1時間	1 timme
 画像URL情報の有効期限を設定します	Ställer in utgångsdatum för URL-informationen för bilden.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	När bilden har laddats in inaktiveras URL-informationen och tokens för tillfällig användning
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Bilden kommer att laddas långsamt, men bilden kommer att tvingas att laddas 30 sekunder före den angivna tiden.
 一時使用トークンのビット数	Antal bitar i polletter för tillfällig användning
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Anger styrkan för den tillfälliga användningstoken som används som lösenord för att kryptera URL-informationen för bilden
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten ökar när du går till de alternativ som anges under rullgardinsmenyn, men belastningen på servern ökar
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Även om intensiteten ökar när du går till de alternativ som anges under rullgardinsmenyn, är belastningen på servern högre och mängden HTML som överförs kan vara högre
 ハッシュ化アルゴリズム	Hashing-algoritm
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Temporary tokens används som lösenord för att kryptera bild-URL-informationen, men de måste hashas, ställ in styrkan på hashingen.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiteten ökar när du går till de alternativ som anges under rullgardinsmenyn, men belastningen på servern ökar
 基本設定	Grundinställning
 高度な設定	Avancerade inställningar
 初期設定に戻す	återställning till standard
+デザイン・音の設定	Design och ljudinställningar
+イベントの設定	Händelsekonfiguration.
 メッセージの設定	Inställningar för meddelanden
 右クリックやソースコード表示時に転送する URL を設定します	Ange den URL som ska vidarebefordras när du högerklickar eller visar källkod.
 警告メッセージにはHTMLは使用できません	HTML kan inte användas för varningsmeddelanden
@@ -121,8 +201,12 @@ view-sourceメッセージを表示する言語	Språk på vilket view-source-me
 改行	Ny linje
 押下されたキー	Tryck på tangenten
 Neo HTML Protector 設定	Inställningar för Neo HTML Protector
+メッセージ	Meddelande.
+デザイン・音	Design och ljud
+初期化	Initialisering
 このプラグインについて	Om detta plugin.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	För att rensa alla data, avinstallera plug-in och installera sedan om det
+設定が初期化されました	Inställningarna har initialiserats.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Initialiserar insticksprogrammet Observera att IP-loggläsardata inte raderas här.
 Neo HTML Protectorについて	Om Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Detta plugin syftar till att skydda HTML, bilder etc. som matas ut från din Wordpress och skydda den från obehörig användning av dess innehåll.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Innehåll kan inte skyddas perfekt. Men genom att varna dem på alla möjliga sätt och vara förberedd om något händer, bör du kunna lösa det på ett nationellt föreskrivet sätt.
@@ -135,26 +219,46 @@ ISISちゃん	ISIS chan
 Miss. 裏まにら氏歌唱	Miss. sjungen av Mr Uramanira
 支援のお願い	Begäran om hjälp.
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Tack för att du använder Neo HTML Protector!
-本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Mycket tid och visdom har gått in i utvecklingen och underhållet av detta plugin, och vi skulle vara tacksamma för alla donationer om du kan hjälpa oss att samla in pengar för att fortsätta att förbättra och uppdatera det.
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Mycket tid och visdom har gått in i utvecklingen och underhållet av detta plugin, och vi skulle vara tacksamma för donationer, om några, för att hjälpa oss att samla in pengar för fortsatta förbättringar och uppdateringar.
 寄付について	Om donationer
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donationer är frivilliga och inte obligatoriska. Det är öppet för alla så att plugin kan användas gratis. Vi skulle dock vara mycket tacksamma för ditt stöd för att fortsätta utvecklingen och vi skulle gärna hjälpa till på något sätt vi kan.
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donationer är frivilliga och inte obligatoriska. Det är öppet för alla så att plugin-programmet kan användas gratis. Ditt stöd är dock mycket uppskattat för att fortsätta utvecklingen och vi skulle gärna hjälpa till på alla sätt vi kan.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donationer kan göras via länken nedan. Om du är från Japan kan du också donera gratis, och dessutom kan du enkelt donera med Amazon-presentkort.
 寄付先	Givare
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Med ditt stöd kommer vi att göra vårt bästa för att ge dig bra uppdateringar i framtiden!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vi tackar för ert stöd och ser fram emot att arbeta med er i framtiden.
+ライセンス	Licens
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin-programmet har utvecklats som öppen källkod och är licensierat enligt GPL 2.0 eller senare versioner.
+本プラグインには以下のライブラリを同梱しています	Följande bibliotek ingår i denna plug-in
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Denna plug-in innehåller teckensnitt och teckensnittsfiler för ASCII-bilder som genereras av
+アスキーアート（AA）作成	Skapande av ASCII-konst
+ラッコ株式会社 利用承諾取得済	Otters Ltd Samtycke för användning har erhållits.
+巨大文字AAジェネレーター	Jättekaraktär AA-generator
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Användningsmedgivande erhållet
+The Gnome Project 利用承諾取得済	Gnome-projektet Användningsmedgivande erhållet
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Denna plug-in innehåller musik från det oauktoriserade Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Pianoljudkällan "Keppys YAMAHA C7" som används i vissa delar är SoundFont skapad av KaleidonKep99 och används i enlighet med licensvillkoren.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Andra Raspberry Pi5, ChatGPT och deepl används vid utvecklingen av detta plugin
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin detected Detta plugin kommer inte att fungera korrekt om cache plugin är aktiverat.
 無効なIPアドレス	Ogiltig IP-adress.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Denna webbplats kan endast visas med cookies och JavaScript aktiverat
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookies och JavaScript måste vara aktiverade för att du ska kunna använda den här webbplatsen.
+通常とは異なる方法でのアクセスや操作が検出されました	Ovanliga metoder för åtkomst eller drift har upptäckts.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Vissa funktioner är begränsade av säkerhetsskäl och för att skydda innehållet.
 デバッグモード、コンソールの起動は禁止されています	Felsökningsläge och konsolaktivering är förbjudet
 以下の情報がサーバーに送信されました	Följande information har skickats till servern
 あなたのIPアドレス	Din IP-adress.
 あなたの端末とブラウザ	Din enhet och webbläsare
 あなたの押下したキー	Dina nedtryckta tangenter.
 リダイレクトをします	Omdirigeringar.
+コンテンツ保護のため一部の機能を制限しています	Vissa funktioner är begränsade för att skydda innehållet.
 右クリックは禁止されています	Högerklickning är förbjuden.
+あなたが押下したキー	Tangent som du tryckt på.
 印刷、PDFへの保存は禁止されています	Utskrift och sparande till PDF är förbjudet
+スクリーンショットは禁止されています	Skärmdumpar är förbjudna.
+スクリーンショット、デバッグモード等の起動は禁止されています	Aktivering av skärmdumpar, felsökningsläge etc. är förbjudet.
 ページの保存は禁止されています	Det är förbjudet att spara sidor.
 コピー、カットは禁止されています	Kopiering eller klippning är förbjuden.
 あなたが起こしたイベント	Händelser som du orsakade.
+テキストの選択は禁止されています	Textval är förbjudet.
 HTMLソース表示は禁止されています	Visning av HTML-källa är förbjuden.
 不正アクセスは禁止されています	Obehörig åtkomst är förbjuden.
 アラビア語	Arabiska
@@ -193,167 +297,13 @@ HTMLソース表示は禁止されています	Visning av HTML-källa är förbj
 中国語	Kinesiska
 簡体中国語	Förenklad kinesiska
 繁体中国語	Traditionell kinesiska
-画像が見つかりません	Bilden hittades inte.
-リダイレクトするURL	URL att omdirigera till
-利用規約などのページに転送すると良いでしょう	Du kanske vill vidarebefordra dem till sidor som användarvillkoren.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Även om intensiteten ökar när du går till de alternativ som anges under rullgardinsmenyn, är belastningen på servern högre och mängden HTML som överförs kan vara högre
-JavaScriptにより遅延読まれますのでSEOに影響があります	Fördröjd läsning på grund av JavaScript, vilket påverkar SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Det som faktiskt laddas ner genom att tvinga bilden att laddas ner.
-PNG形式で黄色い背景の警告画面	Varningsskärm med gul bakgrund i PNG-format.
-GIF形式で1×1ピクセルの透過画像	1 x 1 pixel transparent bild i GIF-format.
-意味のないHTMLドキュメント	Meningslösa HTML-dokument
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	När den aktiveras sker en omdirigering, vilket påverkar SEO
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	När bilddata är skyddade fungerar inte cachelagring av bilder, så webbplatsen laddas långsammare vid nästa besök, vilket påverkar SEO
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin detected Detta plugin kommer inte att fungera korrekt om cache plugin är aktiverat.
-スクリーンショット	Skärmdump
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Vissa operativsystem och webbläsare kanske inte kan fånga upp eller upptäcka
-スクリーンショットの警告メッセージ	Skärmdump av varningsmeddelanden.
-ページ保存の警告メッセージ	Varningsmeddelande om att spara sidan.
-スクリーンショットは禁止されています	Skärmdumpar är förbjudna.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Kanske inte kan fångas upp eller upptäckas beroende på operativsystem, webbläsare och metod
-空欄にすると元のURLにリダイレクトをします	Om den lämnas tom kommer den att omdirigera till original-URL:en
-ライセンス	Licens
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin-programmet har utvecklats som öppen källkod och är licensierat enligt GPL 2.0 eller senare versioner.
-本プラグインには以下のライブラリを同梱しています	Följande bibliotek ingår i denna plug-in
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Andra Raspberry Pi5, ChatGPT och deepl används vid utvecklingen av detta plugin
-imgタグが呼び出されるごとに画像を保護	Skydda bilden varje gång img-taggen anropas.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Skydda alla bilder som laddas upp till Wordpress i all HTML-utdata
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	För "Skydda bilden varje gång img-taggen anropas", använd add_filter och filter när du publicerar img-taggar, beroende på tema kanske detta inte fungerar korrekt
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Skydda alla bilder som laddas upp till Wordpress från all HTML-utdata" kommer att fånga nästan all Wordpress-aktivitet och bearbeta allt om img-taggarna i innehållet. Vissa teman kommer inte att fungera korrekt
-設定が初期化されました	Inställningarna har initialiserats.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Initialiserar insticksprogrammet Observera att IP-loggläsardata inte raderas här.
-リダイレクトなし	Ingen omdirigering
-1秒	1 sekund
-2秒	2 sek.
-3秒	3 sekunder.
-4秒	4 sekunder.
-5秒	5 sekunder.
-6秒	6 sek.
-7秒	7 sek.
-8秒	8 sek.
-9秒	9 sek.
-10秒	10 sekunder.
-15秒	15 sekunder.
-20秒	20 sekunder.
-25秒	25 sekunder.
-30秒	30 sekunder.
-35秒	35 sekunder.
-40秒	40 sekunder.
-45秒	45 sekunder.
-50秒	50 sek.
-55秒	55 sekunder.
-リダイレクトまでの時間	Dags att omdirigera.
-対象アクションを起こした時の表示デザイン	Visa design när målåtgärden utlöses.
-黄色の背景の黒文字のベーシックデザイン	Grundläggande design med svarta bokstäver på gul bakgrund
-黒色の背景の赤文字のホラー風デザイン	Design i skräckstil med röd text på svart bakgrund.
-対象アクションを起こした時のサウンド	Ljud när den önskade åtgärden vidtas.
-サウンドなし	Ljudlös
-戦闘 - 40秒	Strid - 40 sek.
-おやじ - 3秒	Far - 3 sekunder.
-レトロ風ファンファーレ - 2秒	Fanfar i retrostil - 2 s.
-レトロ風オープン - 48秒	Retrostil öppen - 48 sek.
-デザイン・音の設定	Design och ljudinställningar
-レトロ風オープン - 42秒	Retrostil öppen - 42 sek.
-おやじ ショート- 3秒	Fader kort - 3 sek.
-おやじ ロング - 23秒	Far, lång - 23 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopin Etyd, Op.10-5, svarta tangenter, snabbversion - 59 sek.
-スクリーンショットを取得しようとした動作を検出しました	Rörelse upptäckt när du försöker ta en skärmdump.
-スクリーンショットの疑い	Misstänkta skärmdumpar.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Detekteringsmetoden för ovanstående objekt är inte perfekt, förebyggande detektering används.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Detta insticksprogram innehåller musik från det icke auktoriserade Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Drift upptäcks på nycklar som normalt inte används vid driften av webbplatsen
-スクリーンショットの疑いの警告メッセージ	Påstådd skärmdump varningsmeddelande.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolution, snabbversion - 1 min 57 sek.
-1分10秒	1 min 10 sek.
-1分20秒	1 min 20 sek.
-1分30秒	1 minut och 30 sekunder.
-1分40秒	1 minut och 40 sekunder.
-1分50秒	1 minut och 50 sekunder.
-黒色の背景の赤文字の光る文字のデザイン	Design av glödande röda bokstäver på en svart bakgrund.
-スクリーンショット、デバッグモード等の起動は禁止されています	Aktivering av skärmdumpar, felsökningsläge etc. är förbjudet.
-対象アクションを起こした時のBGM	BGM när den önskade åtgärden vidtas.
-警告表示中のBGMを選択します	Välj bakgrundsmusik under varningsdisplayen.
-対象アクションを起こした時の警告音	Varningsljud när målåtgärd vidtas.
-有効 音量小さ目	Aktiverad Låg volym
-有効 音量大き目	Aktiverad Högsta volym
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Ljudsignaler vid alla tangent-/musrörelser under varningsvisning
-対象アクションを起こした時のマウスカーソルの消去	Radering av muspekaren när målåtgärden utförs.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Tydlig muspekare i webbläsarområdet under varningsvisning
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Denna webbplats kan endast visas med cookies och JavaScript aktiverat
-通常とは異なる方法でのアクセスや操作が検出されました	Ovanliga metoder för åtkomst eller drift har upptäckts.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Vissa funktioner är begränsade av säkerhetsskäl och för att skydda innehållet.
-コンテンツ保護のため一部の機能を制限しています	Vissa funktioner är begränsade för att skydda innehållet.
-あなたが押下したキー	Tangent som du tryckt på.
-戦闘 - 39.8秒	Strid - 39,8 s.
-おやじ ショート- 3.7秒	Fader Kort - 3,7 sekunder
-おやじ ロング - 22.7秒	Father Long - 22,7 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopin Etude, Op.10-5, svarta tangenter, snabbversion - 57,8 sek.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, snabbversion - 1 min 54,9 sek.
-レトロ風ファンファーレ - 2.2秒	Fanfar i retrostil - 2,2 s.
-レトロ風オープン - 41.2秒	Öppning i retrostil - 41,2 sek.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Denna plug-in innehåller teckensnitt och teckensnittsfiler för ASCII-bilder som genereras av
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Framförd version - 37,8 sek.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, början från 24 Caprices - Framförd version - 27.4 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopin Etude, Op.10-5, svarta tangenter, slagen version, snabb version - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 54,9 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Scherzo i B-moll, Op2, maskinskriven version, snabb förkortad version - 1 min 46,1 sek.
-ファンファーレ - 19.3秒	Fanfare - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox kommer att blockera ljud.
-Firefoxにおけるデバッグモード	Felsökningsläge i Firefox
-テキスト全選択	Urval av fulltext
-テキストの選択は禁止されています	Textval är förbjudet.
-テキスト全選択時の警告メッセージ	Varningsmeddelande när all text är markerad.
-スクリーンショットだけではなく、デバッグモード等も検出します	Den upptäcker skärmdumpar samt felsökningslägen etc.
-イベントの設定	Händelsekonfiguration.
-メッセージ	Meddelande.
-デザイン・音	Design och ljud
-初期化	Initialisering
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Visa ASCII-bilder som indikerar avsikten att varna när HTML-källan visas med view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	I kombination med HTML-skydd kan innehållet skyddas
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Bilden kommer att laddas långsamt, men bilden kommer att tvingas att laddas 30 sekunder före den angivna tiden.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	När den aktiveras sker en omdirigering, vilket påverkar SEO avsevärt
-びっくりするような雰囲気を作ります	Skapa en överraskande atmosfär
-対象アクションを起こした時のビープ音	Pip-ljud när målåtgärden vidtas.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Skapa en atmosfär som om enheten har förlorat kontrollen under varningsdisplayen
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Beroende på konfigurationen av detta plug-in kan denna händelse sällan nås
-JavaScript描画で有効	Giltig för JavaScript-rendering.
-リダイレクトで有効	Gäller för omdirigeringar.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Om du väljer Aktiverad för omdirigering registreras även när beteendet view-source: utförs.
-リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect är inte giltigt för Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Om du aktiverar JavaScript-rendering kommer webbplatsens visningshastighet att sänkas avsevärt
-いずれもSEOに著しく影響があります	Båda har en betydande inverkan på SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookies och JavaScript måste vara aktiverade för att du ska kunna använda den här webbplatsen.
-AI学習用botをアクセス禁止にする	Förbud mot tillgång till AI-inlärningsrobotar.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Att undvika att AI:s inlärningsbot använder HTML förhindrar att den används av AI:n, men det löser inte problemet helt och hållet
-Firefoxに対しては無効です	Gäller inte för Firefox.
-SEOに著しく影響があります	Påverkar SEO avsevärt.
-HTMLをJavaScriptで描画	Rendering av HTML med JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	Rendering av HTML med JavaScript som en Firefox-åtgärd
-PNG形式で1×1ピクセルの透過画像	1 x 1 pixel transparent bild i PNG-format.
-戦闘＆戦闘勝利 - 1分16.3秒	Strid och segrar i strid - 1 min 16,3 sek
-おやじ ショート- 3.8秒	Fader Kort - 3,8 sekunder
-おやじ ロング - 23.5秒	Far, lång - 23,5 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopin Etude Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 00.0 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Scherzo i B-moll, Op2, maskinskriven version, snabb förkortad version - 1 min 48,0 sek.
-ファンファーレ - 22.3秒	Fanfare - 22,3 s.
-レトロ風オープン - 42.1秒	Öppning i retrostil - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopin Etude, Op.10-5, svarta tangenter, maskinskriven version, snabbversion - 1 min 0,0 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopin Etude Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 57,6 sek.
-ウインドウが背面に移動した時スクリーンショットの疑い	Misstanke om skärmdumpar när fönster flyttas bakåt.
-2キー押下のスクリーンショットの疑い	Misstanke om skärmdumpar med två tangenttryckningar.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Dessutom reagerar den även på andra funktioner än skärmdumpar
-このオプションを有効にするとview-sourceのログが取得できます	Aktivera detta alternativ för att logga view-source
 不正なリクエストです	Felaktig begäran.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Strid och segrar - 1 min 16.3 sek - Licens: CC2.1 eller senare
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekunder - Licens GPL2.0 eller senare
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23,5 sekunder - Licens GPL2.0 eller senare
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-5, svarta tangenter, maskinskriven version, snabbversion - 1 min 0.0 sek - Licens: Public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 57.6 sek - Licens: Public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo i B-moll, Op2, maskinskriven version, snabb förkortad version - 1 min 48.0 sek - Licens: Public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22.3 sekunder - Licens: Public domain
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfar i retrostil - 2,2 s - Licens: Public domain
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Öppning i retrostil - 42,1 s - Licens: Public domain
+画像が見つかりません	Bilden hittades inte.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Genom att undvika bildrobotar i förhållande till HTML skyddas innehåll som inte skulle kunna skyddas av direktlänkar från bildsökning, även om detta inte kan åtgärdas helt och hållet.
+無効なUAをアクセス禁止にする	Inaktivera åtkomst till ogiltiga UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Undvik åtkomst om det finns en ogiltig teckensträng i användaragenten.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Varning för Internet Explorer och tidigare Microsoft Edge-åtkomst.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Undvik åtkomst till Internet Explorer och tidigare Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Detta insticksprogram innehåller musik från det icke auktoriserade Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Detta plugin innehåller musik som använder "Keppy s YAMAHA C7" skapad av Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, svarta tangenter, maskinskriven version, snabbversion - 1 min 0.0 sek - Licens: CC BY-ND 4.0 eller senare
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, maskinskriven version, snabbversion - 1 min 57.6 sek - Licens: CC BY-ND 4.0 eller senare
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo i B-moll, Op2, maskinskriven version, snabb förkortad version - 1 min 48.0 sek - Licens: CC BY-ND 4.0 eller senare
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Den webbläsare du använder för närvarande är en äldre version som inte längre stöds. För att få en säkrare och bekvämare surfmiljö bör du uppdatera till den senaste webbläsaren.

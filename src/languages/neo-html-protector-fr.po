@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:52+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -247,7 +247,7 @@ msgid "警告表示中に端末が暴走したかのような雰囲気を作り�
 msgstr "Créer une atmosphère comme si l'appareil était devenu incontrôlable pendant l'affichage de l'avertissement."
 
 msgid "対象アクションを起こした時のマウスカーソルの消去"
-msgstr "Effacement du curseur de la souris lorsque l'action cible est effectuée."
+msgstr "Effacement du curseur de la souris lors de l'exécution de l'action cible."
 
 msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
 msgstr "Effacer le curseur de la souris dans la zone du navigateur pendant l'affichage de l'avertissement"
@@ -442,7 +442,7 @@ msgid "通常のHTML出力を管理者のみかユーザーログインかを選
 msgstr "Indiquer si la sortie HTML normale est réservée aux administrateurs ou à la connexion des utilisateurs."
 
 msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
-msgstr "Ce qui est réellement téléchargé en forçant le téléchargement de l'image."
+msgstr "Ce qui est effectivement téléchargé en forçant le téléchargement de l'image."
 
 msgid "GIF形式で1×1ピクセルの透過画像"
 msgstr "Image transparente de 1 x 1 pixel au format GIF."
@@ -477,14 +477,26 @@ msgstr "Les images d'OGP ne seront pas affichées dans les partages sur les rés
 msgid "画像botをアクセス禁止にする"
 msgstr "Interdiction du robot imageur."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Le fait d'éviter les robots imageurs vis-à-vis du HTML protège le contenu qui ne pourrait pas être protégé par des liens directs à partir de la recherche d'images."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Le fait d'éviter les robots imageurs vis-à-vis du HTML protège le contenu qui ne pourrait pas être protégé par des liens directs à partir de la recherche d'images, bien que ce problème ne puisse pas être complètement résolu."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Interdire l'accès aux robots d'apprentissage de l'IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
-msgstr "Le fait d'éviter que le robot d'apprentissage de l'IA ne soit confronté à HTML empêche l'IA de l'utiliser, mais ne résout pas complètement le problème de l'utilisation de l'HTML."
+msgstr "Le fait d'éviter que le bot d'apprentissage de l'IA ne soit confronté à HTML empêche l'IA de l'utiliser, mais ne résout pas complètement le problème de l'utilisation de l'HTML."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Désactiver l'accès aux UA non valides."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Éviter l'accès si l'agent utilisateur contient une chaîne de caractères non valide."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Avertissement pour Internet Explorer et l'ancien accès à Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Éviter l'accès à Internet Explorer et à l'ancien Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Langue dans laquelle le message d'alerte est affiché."
@@ -899,6 +911,9 @@ msgstr "Chinois simplifié"
 
 msgid "繁体中国語"
 msgstr "Le chinois traditionnel"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Le navigateur que vous utilisez actuellement est une ancienne version qui n'est plus prise en charge. Pour un environnement de navigation plus sûr et plus confortable, veuillez mettre à jour votre navigateur."
 
 msgid "不正なリクエストです"
 msgstr "Demande incorrecte."

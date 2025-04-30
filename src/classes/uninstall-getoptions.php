@@ -43,6 +43,8 @@ function neohp_delete_options() {
 	delete_option('neohp_imagedownload_real');
 	delete_option('neohp_imageprotect');
 	delete_option('neohp_imageprotectjs');
+	delete_option('neohp_injustice_ie');
+	delete_option('neohp_injustice_ua');
 	delete_option('neohp_islogin');
 	delete_option('neohp_nocookienojs_message');
 	delete_option('neohp_nonce_bits');

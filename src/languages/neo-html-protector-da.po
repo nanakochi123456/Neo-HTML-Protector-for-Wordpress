@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:53+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Danish\n"
 "Language: da\n"
@@ -85,7 +85,7 @@ msgid "CookieやJavascriptが有効でない場合に表示するメッセージ
 msgstr "Meddelelse vises, hvis cookies og Javascript ikke er aktiveret."
 
 msgid "実際にはJavascriptが無効時のみ表示されます"
-msgstr "I praksis er dette kun synligt, når Javascript er slået fra."
+msgstr "I praksis er dette kun synligt, når Javascript er deaktiveret."
 
 msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
 msgstr "Meddelelse, der vises på billedet, når billedet er downloadet, og billedet er beskyttet Kun på engelsk"
@@ -477,14 +477,26 @@ msgstr "OGP-billeder vil ikke blive vist i sociale netværk, medmindre de er tag
 msgid "画像botをアクセス禁止にする"
 msgstr "Forbud mod billedrobot."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "At undgå billedbots i forhold til HTML beskytter indhold, der ikke kan beskyttes af direkte links fra billedsøgning."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "At undgå billedbots i forhold til HTML beskytter indhold, der ikke kan beskyttes af direkte links fra billedsøgning, selvom dette ikke kan løses helt."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Forbud mod adgang til AI-læringsrobotter."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "At undgå AI'ens læringsbot mod HTML forhindrer den i at blive brugt af AI'en, men det løser ikke problemet helt."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Deaktiver adgang til ugyldige UA'er."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Undgå adgang, hvis der er en ugyldig streng af tegn i brugeragenten."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Advarsel for Internet Explorer og tidligere Microsoft Edge-adgang."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Undgå adgang til Internet Explorer og det tidligere Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Sprog, som advarselsmeddelelsen vises på."
@@ -899,6 +911,9 @@ msgstr "Forenklet kinesisk"
 
 msgid "繁体中国語"
 msgstr "Traditionelt kinesisk"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Den browser, du bruger i øjeblikket, er en ældre version, der ikke længere understøttes. For at få et mere sikkert og behageligt browsermiljø skal du opdatere til den nyeste browser."
 
 msgid "不正なリクエストです"
 msgstr "Forkert anmodning."

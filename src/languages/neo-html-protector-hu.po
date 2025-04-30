@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:53+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:18+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -133,7 +133,7 @@ msgid "imgタグが呼び出されるごとに画像を保護"
 msgstr "Védi a képet minden egyes img tag meghívásakor."
 
 msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
-msgstr "Védje a Wordpressbe feltöltött összes képet minden HTML kimeneten"
+msgstr "Védje az összes Wordpressbe feltöltött képet minden HTML kimeneten"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Védi a képeket a letöltéstől."
@@ -477,14 +477,26 @@ msgstr "Az OGP képek nem jelennek meg a közösségi oldalakon, hacsak nem a Wo
 msgid "画像botをアクセス禁止にする"
 msgstr "A képrobot betiltása."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "A képrobotok elkerülése a HTML-hez képest megvédi azt a tartalmat, amelyet a képkeresésből származó közvetlen linkek nem tudnának megvédeni."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "A képrobotok elkerülése a HTML-hez képest megvédi azokat a tartalmakat, amelyeket a képkeresésből származó közvetlen linkek nem tudnának megvédeni, bár ezt nem lehet teljesen kiküszöbölni."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "A mesterséges intelligenciát tanuló botokhoz való hozzáférés betiltása."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "A mesterséges intelligencia tanulási botjának HTML elleni elkerülése megakadályozza, hogy a mesterséges intelligencia felhasználja, de nem kezeli teljesen a"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Az érvénytelen UA-k elérésének letiltása."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Kerülje a hozzáférést, ha a felhasználói ügynökben érvénytelen karaktersorozat van."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Figyelmeztetés az Internet Explorer és a korábbi Microsoft Edge hozzáféréshez."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Kerülje az Internet Explorer és a korábbi Microsoft Edge elérését."
 
 msgid "alertメッセージを表示する言語"
 msgstr "A figyelmeztető üzenet megjelenítésének nyelve."
@@ -899,6 +911,9 @@ msgstr "Egyszerűsített kínai"
 
 msgid "繁体中国語"
 msgstr "Hagyományos kínai"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "A jelenleg használt böngésző egy régebbi verzió, amely már nem támogatott. A biztonságosabb és kényelmesebb böngészési környezet érdekében frissítsen a legújabb böngészőre."
 
 msgid "不正なリクエストです"
 msgstr "Helytelen kérés."

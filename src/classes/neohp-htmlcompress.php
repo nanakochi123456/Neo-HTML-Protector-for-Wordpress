@@ -27,6 +27,19 @@ class neohp_htmlcompress {
 			}
 		}
 
+		if(get_option('neohp_injustice_ua', '0') === '1') {
+			if($this->neohp_func->is_injustice_ua() ) {
+				$this->neohp_func->err403();
+			}
+		}
+
+		if(get_option('neohp_injustice_ie', '0') === '1') {
+			if($this->neohp_func->is_ie() ) {
+				wp_die(__('現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします', 'neo_html_protector' ) );
+
+			}
+		}
+
 		if(get_option('neohp_htmlcompress', '1') == 1) {
 			add_action('template_redirect', function() {
 				$this->neohp_func->cachezero();

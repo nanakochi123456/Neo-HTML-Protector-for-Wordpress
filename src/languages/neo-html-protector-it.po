@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:52+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -55,7 +55,7 @@ msgid "右クリックの警告メッセージ"
 msgstr "Fare clic con il tasto destro del mouse sui messaggi di avviso."
 
 msgid "印刷、PDF保存の警告メッセージ"
-msgstr "Messaggi di avviso per la stampa e il salvataggio di PDF."
+msgstr "Messaggi di avviso per la stampa e il salvataggio dei PDF."
 
 msgid "スクリーンショットの警告メッセージ"
 msgstr "Messaggi di avviso della schermata."
@@ -133,7 +133,7 @@ msgid "imgタグが呼び出されるごとに画像を保護"
 msgstr "Proteggere l'immagine ogni volta che viene richiamato il tag img."
 
 msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
-msgstr "Proteggere tutte le immagini caricate su Wordpress in tutti gli output HTML"
+msgstr "Proteggere tutte le immagini caricate su Wordpress in tutti i risultati HTML"
 
 msgid "画像をダウンロードから保護します"
 msgstr "Protegge le immagini dal download."
@@ -271,7 +271,7 @@ msgid "ブラウザーコンソール"
 msgstr "Console del browser"
 
 msgid "事実上デバッグモードから操作できてしまいます"
-msgstr "In effetti, è possibile operare in modalità di debug."
+msgstr "In effetti, è possibile operare in modalità debug."
 
 msgid "HTMLソース表示"
 msgstr "Visualizzazione dell'origine HTML"
@@ -322,7 +322,7 @@ msgid "コピー・カット"
 msgstr "Copia-taglia"
 
 msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
-msgstr "A seconda della configurazione di questo plug-in, questo evento può essere raggiunto raramente"
+msgstr "A seconda della configurazione di questo plug-in, questo evento potrebbe essere raggiunto raramente"
 
 msgid "テキスト全選択"
 msgstr "Selezione del testo completo"
@@ -331,7 +331,7 @@ msgid "テキスト選択"
 msgstr "Selezione del testo"
 
 msgid "デバッガー妨害"
-msgstr "Interferenza del debugger"
+msgstr "Interferenze del debugger"
 
 msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
 msgstr "Rende la modalità di debug un po' meno facile da usare, alcuni browser bloccano questo comportamento"
@@ -477,14 +477,26 @@ msgstr "Le immagini OGP non saranno visualizzate nelle condivisioni sui social n
 msgid "画像botをアクセス禁止にする"
 msgstr "Vietare il bot delle immagini."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitare i bot di immagini rispetto all'HTML protegge i contenuti che non potrebbero essere protetti da link diretti dalla ricerca di immagini."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitare i bot di immagini rispetto all'HTML protegge i contenuti che non potrebbero essere protetti da link diretti dalla ricerca di immagini, anche se questo aspetto non può essere affrontato completamente."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Vietare l'accesso ai bot di apprendimento dell'intelligenza artificiale."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitare il bot di apprendimento dell'IA contro l'HTML ne impedisce l'utilizzo da parte dell'IA, ma non risolve completamente il problema."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Disabilita l'accesso agli UA non validi."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evita l'accesso se c'è una stringa di caratteri non valida nell'interprete."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Avviso per l'accesso a Internet Explorer e all'ex Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evitare l'accesso a Internet Explorer e all'ex Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Lingua in cui viene visualizzato il messaggio di avviso."
@@ -899,6 +911,9 @@ msgstr "Cinese semplificato"
 
 msgid "繁体中国語"
 msgstr "Cinese tradizionale"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Il browser attualmente in uso è una versione precedente non più supportata. Per un ambiente di navigazione più sicuro e confortevole, si prega di aggiornare al browser più recente."
 
 msgid "不正なリクエストです"
 msgstr "Richiesta errata."

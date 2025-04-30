@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Aucune adresse IP n'est disponible.
 デバッグモード、コンソールの警告メッセージ	Mode débogage, messages d'avertissement de la console.
 右クリックの警告メッセージ	Cliquez avec le bouton droit de la souris sur les messages d'avertissement.
 印刷、PDF保存の警告メッセージ	Messages d'avertissement pour l'impression et l'enregistrement des PDF.
+スクリーンショットの警告メッセージ	Capture d'écran des messages d'avertissement.
+スクリーンショットの疑いの警告メッセージ	Message d'avertissement d'une prétendue capture d'écran.
+テキスト全選択時の警告メッセージ	Message d'avertissement lorsque tout le texte est sélectionné.
+ページ保存の警告メッセージ	Message d'avertissement concernant l'enregistrement de la page.
 コピー・カットした時に表示するメッセージ	Message affiché lors de la copie ou de la découpe.
 HTMLソース表示時に表示するメッセージ	Message à afficher lors de l'affichage de la source HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Message à afficher au début de la source lorsque le HTML est obscurci et protégé.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	Obfuscation HTML
 無効	Invalide
 有効	Validité
 一般的なHTML圧縮です、難読化解除のサイトもあります	Compression HTML générale, certains sites proposent une désobfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Activez cette option pour enregistrer les données view-source
 HTML保護	Protection HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Seul le HTML minimal est restitué au-delà de la compression HTML, et le contenu de la balise BODY n'est pas restitué du tout.
-view-source:の動作をされた時の記録もします	Il enregistre également le moment où l'action view-source : est effectuée.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Chaque fois qu'il est activé, il y a une redirection, ce qui peut entraîner une baisse du référencement.
-若干デザインが変わる可能性があります	Le design peut être légèrement modifié.
+Firefoxに対しては無効です	Non valable pour Firefox.
+SEOに著しく影響があります	Affecte considérablement le référencement.
+HTMLをJavaScriptで描画	Rendre HTML avec JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Rendre HTML avec JavaScript comme mesure de Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	L'activation du rendu JavaScript ralentira considérablement la vitesse d'affichage du site web.
 画像の保護	Protection de l'image.
-add_filterを使用して画像を保護	Protéger les images à l'aide de add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Capturer et protéger les images entre wp_head et wp_footer
+imgタグが呼び出されるごとに画像を保護	Protège l'image chaque fois que la balise img est appelée.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protéger toutes les images téléchargées sur Wordpress dans toutes les sorties HTML
 画像をダウンロードから保護します	Protège les images contre le téléchargement.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Il empêche presque totalement le téléchargement lorsque les données de l'image sont protégées, émet une URL complète à usage unique, s'authentifie à l'aide d'un jeton stocké dans la session et affiche l'image à partir de php, empêchant ainsi presque totalement le vol d'images.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	La mise en cache des images ne fonctionne pas lorsque les données des images sont protégées, de sorte que le site se chargera plus lentement lors de la prochaine visite, ce qui peut entraîner une baisse du référencement.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lorsque les données des images sont protégées, la mise en cache des images ne fonctionne pas, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui affecte le référencement.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	La charge de la base de données peut être plus élevée lorsque les données d'image sont protégées
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	La méthode utilisant add_filter filtre les balises img lorsqu'elles sont publiées, tandis que la méthode utilisant wp_head to wp_footer traite toutes les balises img dans le contenu.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pour "Protéger l'image à chaque fois que la balise img est appelée", utilisez add_filter et filter lors de la publication des balises img, selon le thème cela peut ne pas fonctionner correctement
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	L'option "Protéger toutes les images téléchargées vers Wordpress de toutes les sorties HTML" capturera presque toute l'activité de Wordpress et traitera tout ce qui concerne les balises img dans le contenu. Certains thèmes ne fonctionneront pas correctement
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Notez que les images spécifiées comme accrocheuses sont diffusées en tant qu'OGP et ne peuvent pas être protégées. Si vous devez les protéger, veuillez modifier la sélection de la sortie de la balise HEAD lors de la protection du HTML dans les paramètres avancés.
 OS標準搭載のスクリーンショット機能を保護することはできません	La fonction de capture d'écran standard du système d'exploitation ne peut pas être protégée
 画像URLの保護	Protection des URL d'images
-即時読み込みをして有効	Effectif dès le chargement immédiat.
-遅延読み込みをして有効	Activé avec chargement différé.
 画像の保護と組み合わせて使用します、単体では意味がありません	Utilisée en combinaison avec la protection de l'image, elle n'est pas significative en soi.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Il est lu dynamiquement par JavaScript, ce qui affecte le référencement.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Retard de lecture dû à JavaScript, ce qui affecte le référencement
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Sortie de l'art ASCII dans le code source HTML pendant l'obscurcissement et la protection du HTML.
 表示なし	Aucune indication
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afficher un dessin ASCII indiquant l'intention d'avertir lorsque la source HTML est affichée.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Vérifier en affichant la source dans un navigateur non connecté
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afficher un dessin ASCII indiquant l'intention d'avertir lors de l'affichage d'une source HTML avec view-source.
+対象アクションを起こした時の表示デザイン	Affichage de la conception lorsque l'action cible est déclenchée.
+黄色の背景の黒文字のベーシックデザイン	Motif de base avec lettres noires sur fond jaune
+黒色の背景の赤文字のホラー風デザイン	Design de style horrifique avec texte rouge sur fond noir.
+黒色の背景の赤文字の光る文字のデザイン	Dessin de lettres rouges lumineuses sur fond noir.
+対象アクションを起こした時のBGM	BGM lorsque l'action cible est prise.
+サウンドなし	Sans bruit
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Combat et victoires - 1 min 16,3 sec - Licence : CC2.1 ou supérieure
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Père Court - 3,8 secondes - Licence GPL2.0 ou ultérieure
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Père Long - 23.5 sec - Licence GPL2.0 ou ultérieure
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, touches noires, version dactylographiée, version rapide - 1 min 0.0 sec - Licence : CC BY-ND 4.0 or later
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Révolution, version dactylographiée, version rapide - 1 min 57.6 sec - Licence : CC BY-ND 4.0 or later
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version abrégée rapide - 1 min 48,0 sec - Licence : CC BY-ND 4.0 ou ultérieure
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 secondes - Licence : domaine public
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfare rétro - 2,2 s - Licence : domaine public
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Ouverture rétro - 42,1 s - Licence : domaine public
+警告表示中のBGMを選択します	Sélectionnez la musique de fond pendant l'affichage de l'avertissement.
+びっくりするような雰囲気を作ります	Créer une atmosphère surprenante
+Firefoxでは音声ブロックされます	Firefox bloque l'audio.
+対象アクションを起こした時のビープ音	Bip sonore lorsque l'action ciblée est effectuée.
+有効 音量小さ目	Activé Volume faible
+有効 音量大き目	Activé Volume le plus fort
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bips à tous les événements touches/souris pendant l'affichage de l'avertissement
+警告表示中に端末が暴走したかのような雰囲気を作ります	Créer une atmosphère comme si l'appareil était devenu incontrôlable pendant l'affichage de l'avertissement.
+対象アクションを起こした時のマウスカーソルの消去	Effacement du curseur de la souris lors de l'exécution de l'action cible.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Effacer le curseur de la souris dans la zone du navigateur pendant l'affichage de l'avertissement
 デバッグモード	Mode débogage
 妨害＋記録のみ	Interférence + enregistrement uniquement.
 妨害＋記録＋表示＋リダイレクト	Intercepter + enregistrer + afficher + rediriger
 メニューからは操作できてしまいます	Il peut être utilisé à partir du menu.
+Firefoxにおけるデバッグモード	Mode débogage dans Firefox
 ブラウザーコンソール	Console du navigateur
 事実上デバッグモードから操作できてしまいます	En effet, vous pouvez travailler en mode débogage.
 HTMLソース表示	Affichage de la source HTML
 view-source:から始まるURLを入力すれば操作できてしまいます	Il peut être utilisé en entrant une URL commençant par view-source :.
+HTML保護と組み合わせることでコンテンツを保護することができます	Combiné à la protection HTML, le contenu peut être protégé
 印刷	Impression
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocage de l'impression mais ne fonctionne pas bien dans certains navigateurs
+スクリーンショット	Capture d'écran
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Peut ne pas être intercepté ou détecté en fonction du système d'exploitation, du navigateur et de la méthode.
+ウインドウが背面に移動した時スクリーンショットの疑い	Suspicion de captures d'écran lorsque les fenêtres sont déplacées vers l'arrière.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	En outre, il réagit également à des fonctions autres que les captures d'écran
+2キー押下のスクリーンショットの疑い	Suspicion de captures d'écran avec deux pressions de touches.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	La méthode de détection des éléments ci-dessus n'étant pas parfaite, une détection préventive est utilisée.
+スクリーンショットだけではなく、デバッグモード等も検出します	Il détecte les captures d'écran ainsi que les modes de débogage, etc.
 ページ保存	Sauvegarde de la page
 右クリック	Cliquer avec le bouton droit de la souris
 アドオンがインストールされていると操作できてしまいます	Il peut être utilisé si des modules complémentaires sont installés.
 コピー・カット	Copier-couper
-あまりこのイベントに遭遇することはありません	Nous ne rencontrons pas cet événement très souvent.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	En fonction de la configuration de ce plug-in, cet événement peut rarement être atteint
+テキスト全選択	Sélection du texte intégral
 テキスト選択	Sélection de texte
 デバッガー妨害	Interférence du débogueur
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Rend le mode débogage un peu moins convivial, certains navigateurs empêchent ce comportement.
 リダイレクトするURL	URL à rediriger vers
 利用規約などのページに転送すると良いでしょう	Vous pouvez les renvoyer à des pages telles que les conditions d'utilisation.
+空欄にすると元のURLにリダイレクトをします	Si elle est laissée vide, elle redirigera vers l'URL d'origine.
+リダイレクトまでの時間	Il est temps de se réorienter.
+リダイレクトなし	Pas de redirection
+1秒	1 seconde
+2秒	2 sec.
+3秒	3 sec.
+4秒	4 sec.
+5秒	5 sec.
+6秒	6 sec.
+7秒	7 sec.
+8秒	8 sec.
+9秒	9 sec.
+10秒	10 sec.
+15秒	15 secondes.
+20秒	20 sec.
+25秒	25 sec.
+30秒	30 secondes.
+35秒	35 secondes.
+40秒	40 secondes.
+45秒	45 secondes.
+50秒	50 sec.
+55秒	55 sec.
+1分	Une minute
+1分10秒	1 min 10 sec.
+1分20秒	1 min 20 sec.
+1分30秒	1 minute 30 secondes.
+1分40秒	1 minute 40 secondes.
+1分50秒	1 minute 50 secondes.
+2分	2 minutes
 ソース表示を許可する権限	L'autorité qui autorise l'affichage de la source.
 ADMINログイン時のみ通常のソース出力	Sortie de la source normale uniquement à la connexion ADMIN
 USERログインで通常のソース出力	Sortie normale de la source avec login USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Indiquer si la sortie HTML normale est réservée aux administrateurs ou à la connexion des utilisateurs.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ce qui est effectivement téléchargé en forçant le téléchargement de l'image.
+GIF形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format GIF.
+PNG形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format PNG.
+PNG形式で黄色い背景の警告画面	Écran d'avertissement sur fond jaune au format PNG.
+意味のないHTMLドキュメント	Documents HTML sans signification
 HTML保護時のHEADタグの出力	Sortie des balises HEAD pendant la protection HTML
 出力しない	Aucune sortie
 TITLEタグのみ	Balise TITLE uniquement
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Extrait de la balise HEAD dans Wordpress
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Les images d'OGP ne seront pas affichées dans les partages sur les réseaux sociaux à moins qu'elles ne proviennent de la balise HEAD de Wordpress.
 画像botをアクセス禁止にする	Interdiction du robot imageur.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Le fait d'éviter les robots imageurs vis-à-vis du HTML protège le contenu qui ne pourrait pas être protégé par des liens directs à partir de la recherche d'images.
+AI学習用botをアクセス禁止にする	Interdire l'accès aux robots d'apprentissage de l'IA.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Le fait d'éviter que le bot d'apprentissage de l'IA ne soit confronté à HTML empêche l'IA de l'utiliser, mais ne résout pas complètement le problème de l'utilisation de l'HTML.
 alertメッセージを表示する言語	Langue dans laquelle le message d'alerte est affiché.
 Wordpressの言語	Langues Wordpress.
 ブラウザの設定言語	Langue de configuration du navigateur
 メッセージをカスタム設定されている場合は言語を変更できません	La langue ne peut pas être modifiée si le message est personnalisé
 view-sourceメッセージを表示する言語	Langue dans laquelle les messages de source de vue sont affichés.
 一時使用トークンの有効期限	Date d'expiration des jetons d'utilisation temporaire.
-1分	Une minute
-2分	2 minutes
 3分	3 min.
 4分	4 min.
 5分	5 minutes.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Langue dans laquelle les message
 1時間	1 heure
 画像URL情報の有効期限を設定します	Définit la date d'expiration des informations de l'URL de l'image.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Une fois chargées, les informations de l'URL de l'image et les jetons d'utilisation temporaire sont désactivés.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	L'image sera chargée paresseusement, mais elle sera forcée à être chargée 30 secondes avant l'heure spécifiée.
 一時使用トークンのビット数	Nombre de bits dans les jetons d'utilisation temporaire
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Spécifie la force du jeton d'utilisation temporaire utilisé comme mot de passe pour crypter les informations de l'URL de l'image.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	L'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, mais la charge sur le serveur augmente.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Bien que l'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, la charge sur le serveur est plus importante et la quantité de HTML transférée peut être plus élevée
 ハッシュ化アルゴリズム	Algorithme de hachage
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Les jetons temporaires sont utilisés comme mots de passe pour crypter les informations de l'URL de l'image, mais ils doivent être hachés, en définissant la force du hachage.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	L'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, mais la charge sur le serveur augmente.
 基本設定	Réglage de base
 高度な設定	Paramètres avancés
 初期設定に戻す	Rétablissement des valeurs par défaut
+デザイン・音の設定	Conception et réglages du son
+イベントの設定	Configuration de l'événement.
 メッセージの設定	Paramètres des messages
 右クリックやソースコード表示時に転送する URL を設定します	Définir l'URL à transférer lors d'un clic droit ou de l'affichage du code source.
 警告メッセージにはHTMLは使用できません	HTML ne peut pas être utilisé pour les messages d'avertissement
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Langue dans laquelle les message
 改行	Nouvelle ligne
 押下されたキー	Touche enfoncée
 Neo HTML Protector 設定	Paramètres de Neo HTML Protector
+メッセージ	Message.
+デザイン・音	Conception et son
+初期化	Initialisation
 このプラグインについて	A propos de ce plugin.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Pour effacer toutes les données, désinstallez le plug-in et réinstallez-le.
+設定が初期化されました	Les réglages ont été initialisés.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Initialise le plugin Notez que les données du lecteur de journaux IP ne sont pas supprimées ici.
 Neo HTML Protectorについて	A propos de Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ce plugin vise à protéger le HTML, les images, etc. produits par votre Wordpress et à le protéger contre l'utilisation non autorisée de son contenu.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Le contenu ne peut être parfaitement protégé. Toutefois, en les avertissant par tous les moyens possibles et en vous préparant à l'éventualité d'un incident, vous devriez être en mesure de résoudre le problème d'une manière prescrite au niveau national.
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	M
 寄付先	Donateur
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Grâce à votre soutien, nous ferons de notre mieux pour vous offrir de superbes mises à jour à l'avenir !
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Nous vous remercions de votre soutien et nous nous réjouissons de travailler avec vous à l'avenir.
+ライセンス	Licence
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Le plug-in a été développé en tant que source ouverte et est sous licence GPL 2.0 ou versions ultérieures.
+本プラグインには以下のライブラリを同梱しています	Les bibliothèques suivantes sont incluses dans ce plug-in
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ce plug-in comprend la police et les fichiers de police pour l'art ASCII généré par
+アスキーアート（AA）作成	Création d'art ASCII
+ラッコ株式会社 利用承諾取得済	Otters Ltd Consentement à l'utilisation obtenu.
+巨大文字AAジェネレーター	Générateur de caractères géants AA
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Consentement d'utilisation obtenu
+The Gnome Project 利用承諾取得済	Le projet Gnome Consentement d'utilisation obtenu
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Ce plug-in contient la musique du jeu non autorisé Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	La source sonore du piano "Keppys YAMAHA C7" utilisée dans certaines parties est une SoundFont créée par KaleidonKep99 et utilisée conformément aux conditions de la licence.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	D'autres Raspberry Pi5, ChatGPT et deepl sont utilisés dans le développement de ce plugin.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin de cache détecté Ce plugin ne fonctionnera pas correctement si le plugin de cache est activé.
 無効なIPアドレス	Adresse IP non valide.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Ce site web ne peut être consulté que si les cookies et JavaScript sont activés.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Les cookies et JavaScript doivent être activés pour pouvoir utiliser ce site web.
+通常とは異なる方法でのアクセスや操作が検出されました	Des méthodes d'accès ou de fonctionnement inhabituelles ont été détectées.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Certaines fonctions sont limitées pour des raisons de sécurité et de protection du contenu.
 デバッグモード、コンソールの起動は禁止されています	Le mode débogage et l'activation de la console sont interdits
 以下の情報がサーバーに送信されました	Les informations suivantes ont été envoyées au serveur
 あなたのIPアドレス	Votre adresse IP.
 あなたの端末とブラウザ	Votre appareil et votre navigateur
 あなたの押下したキー	Vos touches pressées.
 リダイレクトをします	Redirections.
+コンテンツ保護のため一部の機能を制限しています	Certaines fonctions sont limitées pour protéger le contenu.
 右クリックは禁止されています	Le clic droit est interdit.
+あなたが押下したキー	Touche sur laquelle vous avez appuyé.
 印刷、PDFへの保存は禁止されています	L'impression et l'enregistrement au format PDF sont interdits
+スクリーンショットは禁止されています	Les captures d'écran sont interdites.
+スクリーンショット、デバッグモード等の起動は禁止されています	L'activation des captures d'écran, du mode débogage, etc. est interdite.
 ページの保存は禁止されています	Il est interdit de sauvegarder des pages.
 コピー、カットは禁止されています	La copie ou le découpage sont interdits.
 あなたが起こしたイベント	Les événements que vous avez provoqués.
+テキストの選択は禁止されています	La sélection de texte est interdite.
 HTMLソース表示は禁止されています	L'affichage de la source HTML est interdit.
 不正アクセスは禁止されています	L'accès non autorisé est interdit.
 アラビア語	Arabe
@@ -195,167 +297,13 @@ HTMLソース表示は禁止されています	L'affichage de la source HTML est
 中国語	Chinois
 簡体中国語	Chinois simplifié
 繁体中国語	Le chinois traditionnel
-画像が見つかりません	Image non trouvée.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Bien que l'intensité augmente au fur et à mesure que vous passez aux options énumérées sous le menu déroulant, la charge sur le serveur est plus importante et la quantité de HTML transférée peut être plus élevée
-JavaScriptにより遅延読まれますのでSEOに影響があります	Retard de lecture dû à JavaScript, ce qui affecte le référencement
-画像を無理やりダウンロードして実際にダウンロードされるもの	Ce qui est réellement téléchargé en forçant le téléchargement de l'image.
-PNG形式で黄色い背景の警告画面	Écran d'avertissement sur fond jaune au format PNG.
-GIF形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format GIF.
-意味のないHTMLドキュメント	Documents HTML sans signification
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Chaque fois qu'il est activé, une redirection se produit, ce qui a un impact sur le référencement.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lorsque les données des images sont protégées, la mise en cache des images ne fonctionne pas, de sorte que le site se charge plus lentement lors de la prochaine visite, ce qui affecte le référencement.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin de cache détecté Ce plugin ne fonctionnera pas correctement si le plugin de cache est activé.
-スクリーンショット	Capture d'écran
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Certains systèmes d'exploitation et navigateurs peuvent ne pas être en mesure d'intercepter ou de détecter les
-スクリーンショットの警告メッセージ	Capture d'écran des messages d'avertissement.
-ページ保存の警告メッセージ	Message d'avertissement concernant l'enregistrement de la page.
-スクリーンショットは禁止されています	Les captures d'écran sont interdites.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Peut ne pas être intercepté ou détecté en fonction du système d'exploitation, du navigateur et de la méthode.
-空欄にすると元のURLにリダイレクトをします	Si elle est laissée vide, elle redirigera vers l'URL d'origine.
-ライセンス	Licence
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Le plug-in a été développé en tant que source ouverte et est sous licence GPL 2.0 ou versions ultérieures.
-本プラグインには以下のライブラリを同梱しています	Les bibliothèques suivantes sont incluses dans ce plug-in
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	D'autres Raspberry Pi5, ChatGPT et deepl sont utilisés dans le développement de ce plugin.
-imgタグが呼び出されるごとに画像を保護	Protège l'image chaque fois que la balise img est appelée.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protéger toutes les images téléchargées sur Wordpress dans toutes les sorties HTML
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pour "Protéger l'image à chaque fois que la balise img est appelée", utilisez add_filter et filter lors de la publication des balises img, selon le thème cela peut ne pas fonctionner correctement
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	L'option "Protéger toutes les images téléchargées vers Wordpress de toutes les sorties HTML" capturera presque toute l'activité de Wordpress et traitera tout ce qui concerne les balises img dans le contenu. Certains thèmes ne fonctionneront pas correctement
-設定が初期化されました	Les réglages ont été initialisés.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Initialise le plugin Notez que les données du lecteur de journaux IP ne sont pas supprimées ici.
-リダイレクトなし	Pas de redirection
-1秒	1 seconde
-2秒	2 sec.
-3秒	3 sec.
-4秒	4 sec.
-5秒	5 sec.
-6秒	6 sec.
-7秒	7 sec.
-8秒	8 sec.
-9秒	9 sec.
-10秒	10 sec.
-15秒	15 secondes.
-20秒	20 sec.
-25秒	25 sec.
-30秒	30 secondes.
-35秒	35 secondes.
-40秒	40 secondes.
-45秒	45 secondes.
-50秒	50 sec.
-55秒	55 sec.
-リダイレクトまでの時間	Il est temps de se réorienter.
-対象アクションを起こした時の表示デザイン	Affichage de la conception lorsque l'action cible est déclenchée.
-黄色の背景の黒文字のベーシックデザイン	Motif de base avec lettres noires sur fond jaune
-黒色の背景の赤文字のホラー風デザイン	Design de style horrifique avec texte rouge sur fond noir.
-対象アクションを起こした時のサウンド	Son lorsque l'action cible est effectuée.
-サウンドなし	Sans bruit
-戦闘 - 40秒	Combat - 40 sec.
-おやじ - 3秒	Père - 3 secondes.
-レトロ風ファンファーレ - 2秒	Fanfare de style rétro - 2 s.
-レトロ風オープン - 48秒	Ouverture rétro - 48 sec.
-デザイン・音の設定	Conception et réglages du son
-レトロ風オープン - 42秒	Ouverture rétro - 42 sec.
-おやじ ショート- 3秒	Père Court - 3 sec.
-おやじ ロング - 23秒	Père, long - 23 sec.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopin Etude, Op.10-5, clés noires, version rapide - 59 sec.
-スクリーンショットを取得しようとした動作を検出しました	Mouvement détecté lors de la prise d'une capture d'écran.
-スクリーンショットの疑い	Captures d'écran suspectes.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	La méthode de détection des éléments ci-dessus n'étant pas parfaite, une détection préventive est utilisée.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ce plug-in contient la musique du jeu non autorisé "SM Trainer Hitomi 3" de la Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Opération détectée sur des touches qui ne sont pas normalement utilisées pour le fonctionnement du site web
-スクリーンショットの疑いの警告メッセージ	Message d'avertissement d'une prétendue capture d'écran.
-ショパン エチュード Op.10-12 革命 高速版 - 59秒	Chopin Etude Op.10-12 Revolution, version rapide - 59 sec.
-1分10秒	1 min 10 sec.
-1分20秒	1 min 20 sec.
-1分30秒	1 minute 30 secondes.
-1分40秒	1 minute 40 secondes.
-1分50秒	1 minute 50 secondes.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolution, version rapide - 1 min 57 sec.
-黒色の背景の赤文字の光る文字のデザイン	Dessin de lettres rouges lumineuses sur fond noir.
-スクリーンショット、デバッグモード等の起動は禁止されています	L'activation des captures d'écran, du mode débogage, etc. est interdite.
-警告表示中のBGMを選択します	Sélectionnez la musique de fond pendant l'affichage de l'avertissement.
-有効 音量小さ目	Activé Volume faible
-有効 音量大き目	Activé Volume le plus fort
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bips à tous les événements touches/souris pendant l'affichage de l'avertissement
-対象アクションを起こした時のBGM	BGM lorsque l'action cible est prise.
-対象アクションを起こした時の警告音	Avertissement sonore en cas d'action ciblée.
-対象アクションを起こした時のマウスカーソルの消去	Effacement du curseur de la souris lorsque l'action cible est effectuée.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Effacer le curseur de la souris dans la zone du navigateur pendant l'affichage de l'avertissement
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Ce site web ne peut être consulté que si les cookies et JavaScript sont activés.
-通常とは異なる方法でのアクセスや操作が検出されました	Des méthodes d'accès ou de fonctionnement inhabituelles ont été détectées.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Certaines fonctions sont limitées pour des raisons de sécurité et de protection du contenu.
-コンテンツ保護のため一部の機能を制限しています	Certaines fonctions sont limitées pour protéger le contenu.
-あなたが押下したキー	Touche sur laquelle vous avez appuyé.
-戦闘 - 39.8秒	Combat - 39,8 s.
-おやじ ショート- 3.7秒	Père court - 3,7 secondes
-おやじ ロング - 22.7秒	Père Long - 22,7 sec.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopin Etude, Op.10-5, clés noires, version rapide - 57.8 sec.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, version rapide - 1 min 54.9 sec.
-レトロ風ファンファーレ - 2.2秒	Fanfare de style rétro - 2,2 s.
-レトロ風オープン - 41.2秒	Ouverture rétro - 41,2 secondes
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ce plug-in comprend la police et les fichiers de police pour l'art ASCII généré par
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Version interprétée - 37.8 sec.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, début de 24 Caprices - Version interprétée - 27.4 sec.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopin Etude, Op.10-5, clés noires, version frappée, version rapide - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, version dactylographiée, version rapide - 1 min 54.9 sec.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version abrégée rapide - 1 min 46,1 sec.
-ファンファーレ - 19.3秒	Fanfare - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox bloque l'audio.
-Firefoxにおけるデバッグモード	Mode débogage dans Firefox
-テキスト全選択	Sélection du texte intégral
-テキストの選択は禁止されています	La sélection de texte est interdite.
-テキスト全選択時の警告メッセージ	Message d'avertissement lorsque tout le texte est sélectionné.
-スクリーンショットだけではなく、デバッグモード等も検出します	Il détecte les captures d'écran ainsi que les modes de débogage, etc.
-イベントの設定	Configuration de l'événement.
-メッセージ	Message.
-デザイン・音	Conception et son
-初期化	Initialisation
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afficher un dessin ASCII indiquant l'intention d'avertir lors de l'affichage d'une source HTML avec view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	Combiné à la protection HTML, le contenu peut être protégé
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	L'image sera chargée paresseusement, mais elle sera forcée à être chargée 30 secondes avant l'heure spécifiée.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Chaque fois qu'il est activé, une redirection se produit, ce qui affecte considérablement le référencement.
-びっくりするような雰囲気を作ります	Créer une atmosphère surprenante
-対象アクションを起こした時のビープ音	Bip sonore lorsque l'action ciblée est effectuée.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Créer une atmosphère comme si l'appareil était devenu incontrôlable pendant l'affichage de l'avertissement.
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	En fonction de la configuration de ce plug-in, cet événement peut rarement être atteint
-JavaScript描画で有効	Valable pour le rendu JavaScript.
-リダイレクトで有効	Valable pour les redirections.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Si vous sélectionnez Activé pour la redirection, il enregistrera également le moment où le comportement view-source : est effectué.
-リダイレクトで有効はFirefoxに対しては無効です	L'activation de la redirection n'est pas valable pour Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	L'activation du rendu JavaScript ralentira considérablement la vitesse d'affichage du site web.
-いずれもSEOに著しく影響があります	Tous deux ont un impact significatif sur le référencement.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Les cookies et JavaScript doivent être activés pour pouvoir utiliser ce site web.
-AI学習用botをアクセス禁止にする	Interdire l'accès aux robots d'apprentissage de l'IA.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Le fait d'éviter que le robot d'apprentissage de l'IA ne soit confronté à HTML empêche l'IA de l'utiliser, mais ne résout pas complètement le problème de l'utilisation de l'HTML.
-Firefoxに対しては無効です	Non valable pour Firefox.
-SEOに著しく影響があります	Affecte considérablement le référencement.
-HTMLをJavaScriptで描画	Rendre HTML avec JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	Rendre HTML avec JavaScript comme mesure de Firefox
-PNG形式で1×1ピクセルの透過画像	Image transparente de 1 x 1 pixel au format PNG.
-戦闘＆戦闘勝利 - 1分16.3秒	Combat et victoires - 1 min 16.3 sec
-おやじ ショート- 3.8秒	Père court - 3,8 secondes
-おやじ ロング - 23.5秒	Père, long - 23,5 sec.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopin Etude Op.10-12 Révolution, version dactylographiée, version rapide - 1 min 00.0 sec.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version abrégée rapide - 1 min 48,0 sec.
-ファンファーレ - 22.3秒	Fanfare - 22,3 s.
-レトロ風オープン - 42.1秒	Ouverture rétro - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopin Etude, Op.10-5, touches noires, version dactylographiée, version rapide - 1 min 0.0 sec.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopin Etude Op.10-12 Révolution, version dactylographiée, version rapide - 1 min 57.6 sec.
-ウインドウが背面に移動した時スクリーンショットの疑い	Suspicion de captures d'écran lorsque les fenêtres sont déplacées vers l'arrière.
-2キー押下のスクリーンショットの疑い	Suspicion de captures d'écran avec deux pressions de touches.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	En outre, il réagit également à des fonctions autres que les captures d'écran
-このオプションを有効にするとview-sourceのログが取得できます	Activez cette option pour enregistrer les données view-source
 不正なリクエストです	Demande incorrecte.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Combat et victoires - 1 min 16,3 sec - Licence : CC2.1 ou supérieure
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Père Court - 3,8 secondes - Licence GPL2.0 ou ultérieure
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Père Long - 23.5 sec - Licence GPL2.0 ou ultérieure
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-5, clés noires, version dactylographiée, version rapide - 1 min 0.0 sec - Licence : public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-12 Révolution, version dactylographiée, version rapide - 1 min 57.6 sec - Licence : public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version abrégée rapide - 1 min 48.0 sec - Licence : domaine public
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 secondes - Licence : domaine public
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfare rétro - 2,2 s - Licence : domaine public
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Ouverture rétro - 42,1 s - Licence : domaine public
-このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy	Ce plugin a été créé par Keppy
+画像が見つかりません	Image non trouvée.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Le fait d'éviter les robots imageurs vis-à-vis du HTML protège le contenu qui ne pourrait pas être protégé par des liens directs à partir de la recherche d'images, bien que ce problème ne puisse pas être complètement résolu.
+無効なUAをアクセス禁止にする	Désactiver l'accès aux UA non valides.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Éviter l'accès si l'agent utilisateur contient une chaîne de caractères non valide.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Avertissement pour Internet Explorer et l'ancien accès à Microsoft Edge.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Éviter l'accès à Internet Explorer et à l'ancien Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ce plug-in contient la musique du jeu non autorisé "SM Trainer Hitomi 3" de la Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ce plugin contient de la musique utilisant 'Keppy s YAMAHA C7' créé par Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, touches noires, version dactylographiée, version rapide - 1 min 0.0 sec - Licence : CC BY-ND 4.0 or later
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Révolution, version dactylographiée, version rapide - 1 min 57.6 sec - Licence : CC BY-ND 4.0 or later
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version abrégée rapide - 1 min 48,0 sec - Licence : CC BY-ND 4.0 ou ultérieure
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Le navigateur que vous utilisez actuellement est une ancienne version qui n'est plus prise en charge. Pour un environnement de navigation plus sûr et plus confortable, veuillez mettre à jour votre navigateur.

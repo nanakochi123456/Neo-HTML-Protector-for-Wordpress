@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:52+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -139,7 +139,7 @@ msgid "画像をダウンロードから保護します"
 msgstr "保护图像免受下载。"
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "当图像数据受到保护时，几乎可以完全防止下载，发出完整的一次性 URL，使用会话中存储的令牌进行身份验证，并从 php 显示图像，从而几乎完全防止图像被盗。"
+msgstr "当图像数据受到保护时，几乎可以完全防止下载，发布完整的一次性 URL，使用会话中存储的令牌进行身份验证，并从 php 显示图像，从而几乎完全防止图像被盗。"
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
 msgstr "当图像数据受到保护时，图像缓存将不起作用，因此网站在下次访问时加载速度会更慢，从而影响搜索引擎优化"
@@ -477,14 +477,26 @@ msgstr "除非 OGP 图像来自 Wordpress HEAD 标签，否则不会显示在社
 msgid "画像botをアクセス禁止にする"
 msgstr "禁止图像机器人。"
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索直接链接保护的内容。"
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索的直接链接得到保护的内容，尽管这一点无法完全解决。"
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "禁止访问人工智能学习机器人。"
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "避免人工智能学习机器人学习 HTML，可以防止人工智能使用 HTML，但不能完全解决以下问题"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "禁止访问无效 UA。"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "如果用户代理中存在无效字符串，则避免访问。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "对 Internet Explorer 和前 Microsoft Edge 访问的警告。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "避免访问 Internet Explorer 和以前的 Microsoft Edge。"
 
 msgid "alertメッセージを表示する言語"
 msgstr "显示警报信息的语言。"
@@ -899,6 +911,9 @@ msgstr "简体中文"
 
 msgid "繁体中国語"
 msgstr "繁体中文"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "您当前使用的浏览器是旧版本，已不再受支持。为获得更安全、更舒适的浏览环境，请更新至最新浏览器。"
 
 msgid "不正なリクエストです"
 msgstr "请求不正确。"

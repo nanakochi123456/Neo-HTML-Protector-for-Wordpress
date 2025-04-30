@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Nu sunt disponibile date privind ad
 デバッグモード、コンソールの警告メッセージ	Modul de depanare, mesaje de avertizare în consolă.
 右クリックの警告メッセージ	Faceți clic dreapta pe mesajele de avertizare.
 印刷、PDF保存の警告メッセージ	Mesaje de avertizare pentru imprimarea și salvarea PDF-urilor.
+スクリーンショットの警告メッセージ	Captură de ecran a mesajelor de avertizare.
+スクリーンショットの疑いの警告メッセージ	Presupusă captură de ecran cu mesaj de avertizare.
+テキスト全選択時の警告メッセージ	Mesaj de avertizare atunci când tot textul este selectat.
+ページ保存の警告メッセージ	Mesaj de avertizare privind salvarea paginii.
 コピー・カットした時に表示するメッセージ	Mesaj afișat la copiere sau tăiere.
 HTMLソース表示時に表示するメッセージ	Mesajul care urmează să fie afișat la afișarea sursei HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesajul care trebuie afișat la începutul sursei atunci când HTML este ofuscat și protejat.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	Ofuscare HTML
 無効	Invalid
 有効	Valabilitate
 一般的なHTML圧縮です、難読化解除のサイトもあります	Compresie HTML generală, unele site-uri au de-obfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Activați această opțiune pentru a înregistra view-source
 HTML保護	Protecția HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Dincolo de compresia HTML, doar o cantitate minimă de HTML este transmisă, iar conținutul din tag-ul BODY nu este transmis deloc.
-view-source:の動作をされた時の記録もします	Se înregistrează, de asemenea, momentul în care este efectuată acțiunea view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ori de câte ori este activat, există o redirecționare, care poate duce la o scădere a SEO
-若干デザインが変わる可能性があります	Designul se poate schimba ușor.
+Firefoxに対しては無効です	Nu este valabil pentru Firefox.
+SEOに著しく影響があります	Afectează semnificativ SEO.
+HTMLをJavaScriptで描画	Renderizarea HTML cu JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Renderizarea HTML cu JavaScript ca măsură Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Activarea randării în JavaScript va încetini semnificativ viteza de afișare a site-ului web
 画像の保護	Protecția imaginii.
-add_filterを使用して画像を保護	Protejați imaginile utilizând add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Capturați și protejați imaginile dintre wp_head și wp_footer
+imgタグが呼び出されるごとに画像を保護	Protejează imaginea de fiecare dată când este apelată eticheta img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protejați toate imaginile încărcate în Wordpress în toate rezultatele HTML
 画像をダウンロードから保護します	Protejează imaginile de descărcare.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Previne aproape complet descărcarea atunci când datele imaginii sunt protejate, emite o adresă URL unică completă, se autentifică cu un simbol stocat în sesiune și afișează imaginea din php, prevenind astfel aproape complet furtul de imagini.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Cache-ul imaginilor nu funcționează atunci când datele imaginilor sunt protejate, astfel încât site-ul se va încărca mai lent la următoarea vizită, ceea ce poate duce la o scădere a SEO
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Atunci când datele imaginilor sunt protejate, cache-ul imaginilor nu funcționează, astfel încât site-ul se încarcă mai greu la următoarea vizită, ceea ce afectează SEO
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Încărcarea bazei de date poate fi mai mare atunci când datele de imagine sunt protejate
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoda care utilizează add_filter filtrează etichetele img atunci când acestea sunt publicate, în timp ce metoda care utilizează wp_head to wp_footer procesează toate etichetele img din conținut.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pentru "Protect image every time img tag is called", utilizați add_filter și filtru atunci când publicați etichete img, în funcție de temă acest lucru poate să nu funcționeze corect
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Protect all images uploaded to Wordpress out of all HTML output" va capta aproape toată activitatea Wordpress și va procesa totul despre etichetele img din conținut. Unele teme nu vor funcționa corect
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Rețineți că imaginile specificate ca eye-catching sunt răspândite ca OGP și nu pot fi protejate. Dacă trebuie să le protejați, vă rugăm să modificați selecția de ieșire a etichetei HEAD atunci când protejați HTML în setările avansate.
 OS標準搭載のスクリーンショット機能を保護することはできません	Funcția standard de captură de ecran a sistemului de operare nu poate fi protejată
 画像URLの保護	Protecția URL-urilor imaginilor
-即時読み込みをして有効	Efectiv cu încărcare imediată.
-遅延読み込みをして有効	Activat cu încărcare întârziată.
 画像の保護と組み合わせて使用します、単体では意味がありません	Folosit în combinație cu protecția imaginii, acesta nu este semnificativ în sine.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Acesta este citit dinamic de JavaScript, ceea ce afectează SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Citire întârziată din cauza JavaScript, care afectează SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ieșirea de artă ASCII în codul sursă HTML în timpul ofuscării și protecției HTML.
 表示なし	Nici o indicație
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează ASCII art indicând intenția de a avertiza atunci când este afișată sursa HTML.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Verificați prin vizualizarea sursei într-un browser care nu este conectat
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează caractere ASCII care indică intenția de a avertiza la afișarea sursei HTML cu view-source.
+対象アクションを起こした時の表示デザイン	Afișează designul atunci când este declanșată acțiunea țintă.
+黄色の背景の黒文字のベーシックデザイン	Design de bază cu litere negre pe fundal galben
+黒色の背景の赤文字のホラー風デザイン	Design în stil horror cu text roșu pe fundal negru.
+黒色の背景の赤文字の光る文字のデザイン	Design de litere roșii strălucitoare pe un fundal negru.
+対象アクションを起こした時のBGM	BGM atunci când se întreprinde acțiunea țintă.
+サウンドなし	Fără sunet
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Lupte și victorii de luptă - 1 min 16.3 sec - Licență: CC2.1 sau ulterioară
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3.8 secunde - Licență GPL2.0 sau ulterioară
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23.5 sec - Licență GPL2.0 sau ulterioară
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, clape negre, versiune dactilografiată, versiune rapidă - 1 min 0.0 sec - Licence: CC BY-ND 4.0 or later
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 57.6 sec - Licență: CC BY-ND 4.0 sau ulterioară
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 48.0 sec - Licență: CC BY-ND 4.0 sau ulterioară
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfară - 22.3 secunde - Licență: domeniu public
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfară în stil retro - 2.2 s - Licență: domeniu public
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Deschidere în stil retro - 42.1 s - Licență: domeniul public
+警告表示中のBGMを選択します	Selectați muzica de fundal în timpul afișării avertismentelor.
+びっくりするような雰囲気を作ります	Creați o atmosferă surprinzătoare
+Firefoxでは音声ブロックされます	Firefox va bloca audio.
+対象アクションを起こした時のビープ音	Bip sonor atunci când este efectuată acțiunea țintă.
+有効 音量小さ目	Activat Volum scăzut
+有効 音量大き目	Activat Volumul cel mai ridicat
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bipuri la toate evenimentele tastelor/mousei în timpul afișării avertismentului
+警告表示中に端末が暴走したかのような雰囲気を作ります	Creați o atmosferă ca și cum dispozitivul a scăpat de sub control în timpul afișării avertismentului
+対象アクションを起こした時のマウスカーソルの消去	Ștergerea cursorului mouse-ului atunci când este efectuată acțiunea țintă.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Ștergeți cursorul mouse-ului din zona browserului în timpul afișării avertismentului
 デバッグモード	Modul de depanare
 妨害＋記録のみ	Interferență + numai înregistrare.
 妨害＋記録＋表示＋リダイレクト	Interceptare + înregistrare + afișare + redirecționare
 メニューからは操作できてしまいます	Acesta poate fi operat din meniu.
+Firefoxにおけるデバッグモード	Modul de depanare în Firefox
 ブラウザーコンソール	Consola browserului
 事実上デバッグモードから操作できてしまいます	De fapt, puteți opera din modul de depanare.
 HTMLソース表示	Afișarea sursei HTML
 view-source:から始まるURLを入力すれば操作できてしまいます	Acesta poate fi utilizat prin introducerea unui URL care începe cu view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	Combinat cu protecția HTML, conținutul poate fi protejat
 印刷	Tipărire
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blocarea imprimării, dar nu funcționează bine în unele browsere
+スクリーンショット	Captură de ecran
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Pot să nu fie interceptate sau detectate în funcție de sistemul de operare, browser și metodă
+ウインドウが背面に移動した時スクリーンショットの疑い	Suspiciune de capturi de ecran atunci când ferestrele sunt mutate în spate.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	În plus, reacționează și la alte funcții decât capturile de ecran
+2キー押下のスクリーンショットの疑い	Suspiciune de capturi de ecran cu două taste apăsate.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda de detectare pentru elementele de mai sus nu este perfectă, se utilizează detectarea preventivă.
+スクリーンショットだけではなく、デバッグモード等も検出します	Acesta detectează capturi de ecran, precum și moduri de depanare etc.
 ページ保存	Salvați pagina
 右クリック	Clic dreapta
 アドオンがインストールされていると操作できてしまいます	Acesta poate fi utilizat dacă sunt instalate add-on-uri.
 コピー・カット	Copiere-tăiere
-あまりこのイベントに遭遇することはありません	Nu întâlnim acest eveniment foarte des.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	În funcție de configurația acestui plug-in, acest eveniment poate fi atins rareori
+テキスト全選択	Selectarea textului integral
 テキスト選択	Selectarea textului
 デバッガー妨害	Interferențe cu depanatorul
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Face modul de depanare un pic mai puțin ușor de utilizat, unele browsere opresc acest comportament
 リダイレクトするURL	URL către care să redirecționați
 利用規約などのページに転送すると良いでしょう	Este posibil să doriți să le trimiteți la pagini precum Termenii de utilizare.
+空欄にすると元のURLにリダイレクトをします	Dacă este lăsat gol, acesta va redirecționa către URL-ul original
+リダイレクトまでの時間	Este timpul să redirecționați.
+リダイレクトなし	Nu există redirecționare
+1秒	1 secundă
+2秒	2 sec.
+3秒	3 sec.
+4秒	4 sec.
+5秒	5 sec.
+6秒	6 sec.
+7秒	7 sec.
+8秒	8 sec.
+9秒	9 sec.
+10秒	10 sec.
+15秒	15 secunde.
+20秒	20 sec.
+25秒	25 sec.
+30秒	30 de secunde.
+35秒	35 de secunde.
+40秒	40 de secunde.
+45秒	45 de secunde.
+50秒	50 sec.
+55秒	55 sec.
+1分	Un minut
+1分10秒	1 min 10 sec.
+1分20秒	1 min 20 sec.
+1分30秒	1 minut și 30 de secunde.
+1分40秒	1 minut și 40 de secunde.
+1分50秒	1 minut și 50 de secunde.
+2分	2 minute
 ソース表示を許可する権限	Autoritatea de a permite afișarea sursei.
 ADMINログイン時のみ通常のソース出力	Ieșire sursă normală numai la autentificarea ADMIN
 USERログインで通常のソース出力	Ieșire sursă normală cu autentificare USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Selectați dacă ieșirea HTML normală este doar pentru administratori sau pentru autentificarea utilizatorului
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ce se descarcă efectiv prin forțarea descărcării imaginii.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pixel imagine transparentă în format GIF.
+PNG形式で1×1ピクセルの透過画像	1 x 1 pixel imagine transparentă în format PNG.
+PNG形式で黄色い背景の警告画面	Ecran de avertizare cu fundal galben în format PNG.
+意味のないHTMLドキュメント	Documente HTML fără sens
 HTML保護時のHEADタグの出力	Ieșirea etichetelor HEAD în timpul protecției HTML
 出力しない	Fără ieșire
 TITLEタグのみ	Doar eticheta TITLE
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Retrieved from the HEAD tag in Wordpress
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale decât dacă sunt preluate din tag-ul Wordpress HEAD
 画像botをアクセス禁止にする	Interzicerea robotului de imagine.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini.
+AI学習用botをアクセス禁止にする	Interzicerea accesului la roboții de învățare AI.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Evitarea robotului de învățare al AI împotriva HTML previne utilizarea acestuia de către AI, dar nu rezolvă complet problema
 alertメッセージを表示する言語	Limba în care este afișat mesajul de alertă.
 Wordpressの言語	Limbi Wordpress.
 ブラウザの設定言語	Limba de setare a browserului
 メッセージをカスタム設定されている場合は言語を変更できません	Limba nu poate fi schimbată dacă mesajul este personalizat
 view-sourceメッセージを表示する言語	Limba în care sunt afișate mesajele sursei de vizualizare.
 一時使用トークンの有効期限	Data de expirare a jetoanelor de utilizare temporară.
-1分	Un minut
-2分	2 minute
 3分	3 min.
 4分	4 min.
 5分	5 minute.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Limba în care sunt afișate mes
 1時間	1 oră
 画像URL情報の有効期限を設定します	Setează data de expirare a informațiilor URL ale imaginii.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Odată încărcate, informațiile URL ale imaginii și jetoanele de utilizare temporară sunt dezactivate
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imaginea va fi încărcată leneș, dar va fi forțată să fie încărcată cu 30 de secunde înainte de ora specificată.
 一時使用トークンのビット数	Număr de biți în jetoanele de utilizare temporară
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Specifică puterea simbolului de utilizare temporară utilizat ca parolă pentru a cripta informațiile URL ale imaginii
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Deși intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, sarcina pe server este mai mare și cantitatea de HTML transferată poate fi mai mare
 ハッシュ化アルゴリズム	Algoritmul hashing
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Jetoanele temporare sunt utilizate ca parole pentru a cripta informațiile URL ale imaginii, dar acestea trebuie să fie hașurate, setați puterea hașurării.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, dar sarcina pe server crește
 基本設定	Setarea de bază
 高度な設定	Setări avansate
 初期設定に戻す	Resetarea la setările implicite
+デザイン・音の設定	Design și setări de sunet
+イベントの設定	Configurarea evenimentului.
 メッセージの設定	Setări de mesaje
 右クリックやソースコード表示時に転送する URL を設定します	Setați URL-ul care urmează să fie redirecționat atunci când faceți clic dreapta sau vizualizați codul sursă.
 警告メッセージにはHTMLは使用できません	HTML nu poate fi utilizat pentru mesajele de avertizare
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Limba în care sunt afișate mes
 改行	Linie nouă
 押下されたキー	Tastă apăsată
 Neo HTML Protector 設定	Setări Neo HTML Protector
+メッセージ	Mesaj.
+デザイン・音	Design și sunet
+初期化	Inițializare
 このプラグインについて	Despre acest plugin.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Pentru a șterge toate datele, dezinstalați plug-in-ul și apoi reinstalați-l
+設定が初期化されました	Setările au fost inițializate.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inițializează pluginul Rețineți că datele cititorului de jurnal IP nu sunt șterse aici.
 Neo HTML Protectorについて	Despre Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Acest plugin își propune să protejeze HTML-ul, imaginile etc. din Wordpress și să le protejeze de utilizarea neautorizată a conținutului său.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Conținutul nu poate fi protejat perfect. Cu toate acestea, avertizându-i în toate modurile posibile și fiind pregătiți în cazul în care se întâmplă ceva, ar trebui să fiți în măsură să rezolvați problema într-un mod prescris la nivel național.
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	V
 寄付先	Donator
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Cu sprijinul dvs., vom face tot posibilul să vă aducem actualizări excelente în viitor!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vă mulțumim pentru sprijin și așteptăm cu nerăbdare să lucrăm cu dvs. în viitor.
+ライセンス	Licență
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in-ul a fost dezvoltat ca sursă deschisă și este licențiat sub GPL 2.0 sau versiuni ulterioare.
+本プラグインには以下のライブラリを同梱しています	Următoarele biblioteci sunt incluse cu acest plug-in
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Acest plug-in include fontul și fișierele de font pentru arta ASCII generată de
+アスキーアート（AA）作成	Crearea de artă ASCII
+ラッコ株式会社 利用承諾取得済	Otters Ltd Consimțământ pentru utilizare obținut.
+巨大文字AAジェネレーター	Generator AA de caractere gigant
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Consimțământul de utilizare obținut
+The Gnome Project 利用承諾取得済	The Gnome Project Consimțământ de utilizare obținut
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Acest plug-in conține muzică din jocul neautorizat Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Sursa de sunet de pian "Keppys YAMAHA C7" utilizată în unele părți este SoundFont creat de KaleidonKep99 și utilizat în conformitate cu condițiile de licență.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Alte Raspberry Pi5, ChatGPT și deepl sunt utilizate în dezvoltarea acestui plugin
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin cache detectat Acest plugin nu va funcționa corect dacă pluginul cache este activat.
 無効なIPアドレス	Adresă IP invalidă.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookie-urile și JavaScript trebuie să fie activate pentru a putea utiliza acest site.
+通常とは異なる方法でのアクセスや操作が検出されました	Au fost detectate metode neobișnuite de acces sau funcționare.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Unele funcții sunt restricționate pentru securitate și protecția conținutului.
 デバッグモード、コンソールの起動は禁止されています	Modul de depanare și activarea consolei sunt interzise
 以下の情報がサーバーに送信されました	Următoarele informații au fost trimise către server
 あなたのIPアドレス	Adresa dvs. de IP.
 あなたの端末とブラウザ	Dispozitivul și browserul dvs.
 あなたの押下したキー	Tastele dvs. apăsate.
 リダイレクトをします	Redirecționări.
+コンテンツ保護のため一部の機能を制限しています	Unele funcții sunt restricționate pentru a proteja conținutul.
 右クリックは禁止されています	Clicul dreapta este interzis.
+あなたが押下したキー	Tasta apăsată.
 印刷、PDFへの保存は禁止されています	Tipărirea și salvarea în format PDF este interzisă
+スクリーンショットは禁止されています	Capturile de ecran sunt interzise.
+スクリーンショット、デバッグモード等の起動は禁止されています	Activarea capturilor de ecran, a modului de depanare etc. este interzisă.
 ページの保存は禁止されています	Salvarea paginilor este interzisă.
 コピー、カットは禁止されています	Copierea sau tăierea este interzisă.
 あなたが起こしたイベント	Evenimentele pe care le-ați provocat.
+テキストの選択は禁止されています	Selectarea textului este interzisă.
 HTMLソース表示は禁止されています	Afișarea sursei HTML este interzisă.
 不正アクセスは禁止されています	Accesul neautorizat este interzis.
 アラビア語	Arabă
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	Afișarea sursei HTML este interz
 中国語	Chineză
 簡体中国語	Chineză simplificată
 繁体中国語	Chineză tradițională
-画像が見つかりません	Imaginea nu a fost găsită.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Deși intensitatea crește pe măsură ce treceți la opțiunile enumerate sub meniul derulant, sarcina pe server este mai mare și cantitatea de HTML transferată poate fi mai mare
-JavaScriptにより遅延読まれますのでSEOに影響があります	Citire întârziată din cauza JavaScript, care afectează SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Ce se descarcă efectiv prin forțarea descărcării imaginii.
-PNG形式で黄色い背景の警告画面	Ecran de avertizare cu fundal galben în format PNG.
-GIF形式で1×1ピクセルの透過画像	1 x 1 pixel imagine transparentă în format GIF.
-意味のないHTMLドキュメント	Documente HTML fără sens
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Ori de câte ori este activat, are loc o redirecționare, care are un impact asupra SEO
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Atunci când datele imaginilor sunt protejate, cache-ul imaginilor nu funcționează, astfel încât site-ul se încarcă mai greu la următoarea vizită, ceea ce afectează SEO
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin cache detectat Acest plugin nu va funcționa corect dacă pluginul cache este activat.
-スクリーンショット	Captură de ecran
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Este posibil ca unele sisteme de operare și browsere să nu fie capabile să intercepteze sau să detecteze
-スクリーンショットの警告メッセージ	Captură de ecran a mesajelor de avertizare.
-ページ保存の警告メッセージ	Mesaj de avertizare privind salvarea paginii.
-スクリーンショットは禁止されています	Capturile de ecran sunt interzise.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Pot să nu fie interceptate sau detectate în funcție de sistemul de operare, browser și metodă
-空欄にすると元のURLにリダイレクトをします	Dacă este lăsat gol, acesta va redirecționa către URL-ul original
-ライセンス	Licență
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in-ul a fost dezvoltat ca sursă deschisă și este licențiat sub GPL 2.0 sau versiuni ulterioare.
-本プラグインには以下のライブラリを同梱しています	Următoarele biblioteci sunt incluse cu acest plug-in
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Alte Raspberry Pi5, ChatGPT și deepl sunt utilizate în dezvoltarea acestui plugin
-imgタグが呼び出されるごとに画像を保護	Protejează imaginea de fiecare dată când este apelată eticheta img.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protejați toate imaginile încărcate în Wordpress în toate rezultatele HTML
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pentru "Protect image every time img tag is called", utilizați add_filter și filtru atunci când publicați etichete img, în funcție de temă acest lucru poate să nu funcționeze corect
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Protect all images uploaded to Wordpress out of all HTML output" va capta aproape toată activitatea Wordpress și va procesa totul despre etichetele img din conținut. Unele teme nu vor funcționa corect
-設定が初期化されました	Setările au fost inițializate.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inițializează pluginul Rețineți că datele cititorului de jurnal IP nu sunt șterse aici.
-リダイレクトなし	Nu există redirecționare
-1秒	1 secundă
-2秒	2 sec.
-3秒	3 sec.
-4秒	4 sec.
-5秒	5 sec.
-6秒	6 sec.
-7秒	7 sec.
-8秒	8 sec.
-9秒	9 sec.
-10秒	10 sec.
-15秒	15 secunde.
-20秒	20 sec.
-25秒	25 sec.
-30秒	30 de secunde.
-35秒	35 de secunde.
-40秒	40 de secunde.
-45秒	45 de secunde.
-50秒	50 sec.
-55秒	55 sec.
-リダイレクトまでの時間	Este timpul să redirecționați.
-対象アクションを起こした時の表示デザイン	Afișează designul atunci când este declanșată acțiunea țintă.
-黄色の背景の黒文字のベーシックデザイン	Design de bază cu litere negre pe fundal galben
-黒色の背景の赤文字のホラー風デザイン	Design în stil horror cu text roșu pe fundal negru.
-対象アクションを起こした時のサウンド	Sună atunci când este efectuată acțiunea țintă.
-サウンドなし	Fără sunet
-戦闘 - 40秒	Luptă - 40 sec.
-おやじ - 3秒	Tată - 3 secunde.
-レトロ風ファンファーレ - 2秒	Fanfară în stil retro - 2 s.
-レトロ風オープン - 48秒	Deschidere în stil retro - 48 sec.
-デザイン・音の設定	Design și setări de sunet
-レトロ風オープン - 42秒	Deschidere în stil retro - 42 sec.
-おやじ ショート- 3秒	Tatăl scurt - 3 sec.
-おやじ ロング - 23秒	Tată, lung - 23 sec.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Studiu Chopin, op.10-5, clape negre, versiune rapidă - 59 sec.
-スクリーンショットを取得しようとした動作を検出しました	Mișcare detectată în încercarea de a face o captură de ecran.
-スクリーンショットの疑い	Capturi de ecran suspecte.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda de detectare pentru elementele de mai sus nu este perfectă, se utilizează detectarea preventivă.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Acest plug-in conține muzică din jocul neautorizat Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Funcționare detectată pe taste care nu sunt utilizate în mod normal în funcționarea site-ului web
-スクリーンショットの疑いの警告メッセージ	Presupusă captură de ecran cu mesaj de avertizare.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolution, versiune rapidă - 1 min 57 sec.
-1分10秒	1 min 10 sec.
-1分20秒	1 min 20 sec.
-1分30秒	1 minut și 30 de secunde.
-1分40秒	1 minut și 40 de secunde.
-1分50秒	1 minut și 50 de secunde.
-黒色の背景の赤文字の光る文字のデザイン	Design de litere roșii strălucitoare pe un fundal negru.
-スクリーンショット、デバッグモード等の起動は禁止されています	Activarea capturilor de ecran, a modului de depanare etc. este interzisă.
-対象アクションを起こした時のBGM	BGM atunci când se întreprinde acțiunea țintă.
-警告表示中のBGMを選択します	Selectați muzica de fundal în timpul afișării avertismentelor.
-対象アクションを起こした時の警告音	Avertizare sonoră atunci când se întreprinde o acțiune țintă.
-有効 音量小さ目	Activat Volum scăzut
-有効 音量大き目	Activat Volumul cel mai ridicat
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bipuri la toate evenimentele tastelor/mousei în timpul afișării avertismentului
-対象アクションを起こした時のマウスカーソルの消去	Ștergerea cursorului mouse-ului atunci când este efectuată acțiunea țintă.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Ștergeți cursorul mouse-ului din zona browserului în timpul afișării avertismentului
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Acest site poate fi vizualizat numai cu cookie-uri și JavaScript activate
-通常とは異なる方法でのアクセスや操作が検出されました	Au fost detectate metode neobișnuite de acces sau funcționare.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Unele funcții sunt restricționate pentru securitate și protecția conținutului.
-コンテンツ保護のため一部の機能を制限しています	Unele funcții sunt restricționate pentru a proteja conținutul.
-あなたが押下したキー	Tasta apăsată.
-戦闘 - 39.8秒	Luptă - 39,8 s.
-おやじ ショート- 3.7秒	Father Short - 3,7 secunde
-おやじ ロング - 22.7秒	Părintele Long - 22.7 sec.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Studiu Chopin, op.10-5, clape negre, versiune rapidă - 57.8 sec.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, versiune rapidă - 1 min 54.9 sec.
-レトロ風ファンファーレ - 2.2秒	Fanfară în stil retro - 2,2 s.
-レトロ風オープン - 41.2秒	Deschidere în stil retro - 41,2 sec.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Acest plug-in include fontul și fișierele de font pentru arta ASCII generată de
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Versiune interpretată - 37.8 sec.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, începutul de la 24 Caprices - Versiune interpretată - 27.4 sec.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Studiu Chopin, op.10-5, clape negre, versiune bătută, versiune rapidă - 57.8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 54.9 sec.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 46.1 sec.
-ファンファーレ - 19.3秒	Fanfară - 19.3 s.
-Firefoxでは音声ブロックされます	Firefox va bloca audio.
-Firefoxにおけるデバッグモード	Modul de depanare în Firefox
-テキスト全選択	Selectarea textului integral
-テキストの選択は禁止されています	Selectarea textului este interzisă.
-テキスト全選択時の警告メッセージ	Mesaj de avertizare atunci când tot textul este selectat.
-スクリーンショットだけではなく、デバッグモード等も検出します	Acesta detectează capturi de ecran, precum și moduri de depanare etc.
-イベントの設定	Configurarea evenimentului.
-メッセージ	Mesaj.
-デザイン・音	Design și sunet
-初期化	Inițializare
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afișează caractere ASCII care indică intenția de a avertiza la afișarea sursei HTML cu view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	Combinat cu protecția HTML, conținutul poate fi protejat
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imaginea va fi încărcată leneș, dar va fi forțată să fie încărcată cu 30 de secunde înainte de ora specificată.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Ori de câte ori este activat, are loc o redirecționare, care afectează semnificativ SEO
-びっくりするような雰囲気を作ります	Creați o atmosferă surprinzătoare
-対象アクションを起こした時のビープ音	Bip sonor atunci când este efectuată acțiunea țintă.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Creați o atmosferă ca și cum dispozitivul a scăpat de sub control în timpul afișării avertismentului
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	În funcție de configurația acestui plug-in, acest eveniment poate fi atins rareori
-JavaScript描画で有効	Valabil pentru redarea JavaScript.
-リダイレクトで有効	Valabil pentru redirecționări.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Dacă selectați Activat pentru redirecționare, se va înregistra, de asemenea, când se realizează comportamentul view-source:.
-リダイレクトで有効はFirefoxに対しては無効です	Activat pe redirecționare nu este valabil pentru Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Activarea randării în JavaScript va încetini semnificativ viteza de afișare a site-ului web
-いずれもSEOに著しく影響があります	Ambele au un impact semnificativ asupra SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookie-urile și JavaScript trebuie să fie activate pentru a putea utiliza acest site.
-AI学習用botをアクセス禁止にする	Interzicerea accesului la roboții de învățare AI.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Evitarea robotului de învățare al AI împotriva HTML previne utilizarea acestuia de către AI, dar nu rezolvă complet problema
-Firefoxに対しては無効です	Nu este valabil pentru Firefox.
-SEOに著しく影響があります	Afectează semnificativ SEO.
-HTMLをJavaScriptで描画	Renderizarea HTML cu JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	Renderizarea HTML cu JavaScript ca măsură Firefox
-PNG形式で1×1ピクセルの透過画像	1 x 1 pixel imagine transparentă în format PNG.
-戦闘＆戦闘勝利 - 1分16.3秒	Lupte și victorii în luptă - 1 min 16.3 sec
-おやじ ショート- 3.8秒	Father Short - 3,8 secunde
-おやじ ロング - 23.5秒	Tată, lung - 23,5 sec.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopin Etude Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 00.0 sec.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 48.0 sec.
-ファンファーレ - 22.3秒	Fanfară - 22.3 s.
-レトロ風オープン - 42.1秒	Deschidere în stil retro - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Studiu Chopin, Op.10-5, clape negre, versiune tipărită, versiune rapidă - 1 min 0.0 sec.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopin Etude Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 57.6 sec.
-ウインドウが背面に移動した時スクリーンショットの疑い	Suspiciune de capturi de ecran atunci când ferestrele sunt mutate în spate.
-2キー押下のスクリーンショットの疑い	Suspiciune de capturi de ecran cu două taste apăsate.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	În plus, reacționează și la alte funcții decât capturile de ecran
-このオプションを有効にするとview-sourceのログが取得できます	Activați această opțiune pentru a înregistra view-source
 不正なリクエストです	Cerere incorectă.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Lupte și victorii de luptă - 1 min 16.3 sec - Licență: CC2.1 sau ulterioară
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3.8 secunde - Licență GPL2.0 sau ulterioară
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23.5 sec - Licență GPL2.0 sau ulterioară
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-5, clape negre, versiune dactilografiată, versiune rapidă - 1 min 0.0 sec - Licence: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 57.6 sec - Licență: domeniul public
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 48.0 sec - Licență: domeniul public
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfară - 22.3 secunde - Licență: domeniu public
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfară în stil retro - 2.2 s - Licență: domeniu public
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Deschidere în stil retro - 42.1 s - Licență: domeniul public
+画像が見つかりません	Imaginea nu a fost găsită.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini, deși acest aspect nu poate fi abordat complet.
+無効なUAをアクセス禁止にする	Dezactivați accesul la UA invalide.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Evitați accesul dacă există un șir de caractere nevalabil în agentul utilizatorului.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Avertisment pentru Internet Explorer și fostul acces Microsoft Edge.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Evitați accesul la Internet Explorer și la fostul Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Acest plug-in conține muzică din jocul neautorizat Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Acest plugin conține muzică utilizând "Keppy s YAMAHA C7" creat de Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, clape negre, versiune dactilografiată, versiune rapidă - 1 min 0.0 sec - Licence: CC BY-ND 4.0 or later
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revoluție, versiune tipărită, versiune rapidă - 1 min 57.6 sec - Licență: CC BY-ND 4.0 sau ulterioară
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo în si bemol minor, Op2, versiune tipărită, versiune prescurtată rapidă - 1 min 48.0 sec - Licență: CC BY-ND 4.0 sau ulterioară
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Browserul pe care îl utilizați în prezent este o versiune mai veche care nu mai este acceptată. Pentru un mediu de navigare mai sigur și mai confortabil, vă rugăm să actualizați la cel mai recent browser.

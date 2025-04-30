@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Podatki o naslovu IP niso na voljo.
 デバッグモード、コンソールの警告メッセージ	Način za odpravljanje napak, konzolna opozorilna sporočila.
 右クリックの警告メッセージ	Opozorilna sporočila z desnim klikom.
 印刷、PDF保存の警告メッセージ	Opozorilna sporočila za tiskanje in shranjevanje datotek PDF.
+スクリーンショットの警告メッセージ	Zaslonska opozorilna sporočila.
+スクリーンショットの疑いの警告メッセージ	Domnevno opozorilno sporočilo posnetka zaslona.
+テキスト全選択時の警告メッセージ	Opozorilno sporočilo, ko je izbrano vse besedilo.
+ページ保存の警告メッセージ	Opozorilno sporočilo o shranjevanju strani.
 コピー・カットした時に表示するメッセージ	Pri kopiranju ali rezanju se prikaže sporočilo.
 HTMLソース表示時に表示するメッセージ	Sporočilo, ki se prikaže pri prikazu vira HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Sporočilo, ki se prikaže na začetku vira, ko je HTML zakrit in zaščiten.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	Obfuskacija HTML
 無効	Neveljavno
 有効	Veljavnost
 一般的なHTML圧縮です、難読化解除のサイトもあります	Splošno stiskanje HTML, nekatera spletna mesta imajo funkcijo de-obfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Omogočite to možnost, če želite beležiti view-source
 HTML保護	Zaščita HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Poleg stiskanja HTML se izpiše le minimalni HTML, vsebina v oznaki BODY pa se sploh ne izpiše.
-view-source:の動作をされた時の記録もします	Prav tako beleži, kdaj je izvedeno dejanje view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ko je aktivirana, se izvede preusmeritev, kar lahko povzroči upad SEO.
-若干デザインが変わる可能性があります	Oblikovanje se lahko nekoliko spremeni.
+Firefoxに対しては無効です	Ne velja za Firefox.
+SEOに著しく影響があります	Bistveno vpliva na SEO.
+HTMLをJavaScriptで描画	Prikazovanje HTML z JavaScriptom
+Firefox対策としてHTMLをJavaScriptで描画をします	Prikazovanje HTML z JavaScriptom kot ukrep Firefoxa
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Omogočanje upodabljanja v javascriptu bo znatno upočasnilo hitrost prikaza spletnega mesta.
 画像の保護	Zaščita slik.
-add_filterを使用して画像を保護	Zaščita slik z uporabo add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Zajem in zaščita slik med wp_head in wp_footer
+imgタグが呼び出されるごとに画像を保護	Zaščita slike ob vsakem klicu oznake img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Zaščitite vse slike, naložene v Wordpress, v vseh izhodih HTML
 画像をダウンロードから保護します	Zaščita slik pred prenosom.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Skoraj v celoti prepreči prenos, če so podatki o sliki zaščiteni, izda celoten enkratni URL, se avtentificira z žetonom, shranjenim v seji, in prikaže sliko iz php, s čimer skoraj v celoti prepreči krajo slike.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Če so slikovni podatki zaščiteni, predpomnilnik slik ne deluje, zato se bo spletno mesto ob naslednjem obisku nalagalo počasneje, zaradi česar se lahko zmanjša SEO.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Če so slikovni podatki zaščiteni, predpomnjenje slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, kar vpliva na SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Obremenitev podatkovne zbirke je lahko večja, če so slikovni podatki zaščiteni.
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoda, ki uporablja add_filter, filtrira oznake img, ko so objavljene, medtem ko metoda, ki uporablja wp_head do wp_footer, obdela vse oznake img v vsebini.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Za "Zaščitite sliko vsakič, ko se pokliče img tag", uporabite add_filter in filter pri objavljanju img tagov, odvisno od teme to morda ne bo delovalo pravilno
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Zaščitite vse slike, naložene v Wordpress, iz vsega izpisa HTML" bo zajel skoraj vse dejavnosti Wordpressa in obdelal vse o oznakah img v vsebini. Nekatere teme ne bodo delovale pravilno
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Upoštevajte, da se slike, določene kot privlačne za oči, širijo kot OGP in jih ni mogoče zaščititi. Če jih morate zaščititi, spremenite izbiro izpisa oznake HEAD pri zaščiti HTML v naprednih nastavitvah.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standardne funkcije posnetka zaslona operacijskega sistema ni mogoče zaščititi
 画像URLの保護	Zaščita slikovnih naslovov URL
-即時読み込みをして有効	Učinkovito s takojšnjim polnjenjem.
-遅延読み込みをして有効	Omogočeno z odloženim nalaganjem.
 画像の保護と組み合わせて使用します、単体では意味がありません	Uporablja se v kombinaciji z zaščito slike, sama po sebi pa ni smiselna.
-JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript ga bere dinamično, kar vpliva na SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Zakasnjeno branje zaradi JavaScripta, ki vpliva na SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML.
 表示なし	Brez navedbe
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikaz umetnosti ASCII, ki označuje namen opozorila, ko je prikazan vir HTML.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Preverite z ogledom vira v neprijavljenem brskalniku
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikaz umetnosti ASCII, ki označuje namero opozorila pri prikazu izvorne kode HTML s funkcijo view-source.
+対象アクションを起こした時の表示デザイン	Prikažite zasnovo, ko se sproži ciljno dejanje.
+黄色の背景の黒文字のベーシックデザイン	Osnovno oblikovanje s črnimi črkami na rumenem ozadju
+黒色の背景の赤文字のホラー風デザイン	Zasnova v slogu grozljivke z rdečim besedilom na črnem ozadju.
+黒色の背景の赤文字の光る文字のデザイン	Oblikovanje svetlečih rdečih črk na črnem ozadju.
+対象アクションを起こした時のBGM	BGM, ko se izvede ciljno dejanje.
+サウンドなし	Brez zvoka
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Boj in zmage v bitkah - 1 min 16,3 s - Licenca: CC2.1 ali novejša
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekunde - Licenca GPL2.0 ali novejša
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Oče Long - 23,5 sekunde - Licenca GPL2.0 ali novejša
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op. 10-5, črne tipke, tipkana različica, hitra različica - 1 min 0,0 s - Licenca: CC BY-ND 4.0 ali novejša
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57,6 s - Licenca: CC BY-ND 4.0 ali novejša
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra skrajšana različica - 1 min 48,0 s - Licenca: CC BY-ND 4.0 ali novejša
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 sekunde - Licenca: javna domena
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfare v retro slogu - 2,2 s - Licenca: javna domena
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licenca: javna lastnina
+警告表示中のBGMを選択します	Izberite glasbo v ozadju med prikazom opozorila.
+びっくりするような雰囲気を作ります	Ustvarite presenetljivo vzdušje
+Firefoxでは音声ブロックされます	Firefox bo blokiral zvok.
+対象アクションを起こした時のビープ音	Piskajoč zvok, ko se izvede ciljno dejanje.
+有効 音量小さ目	Omogočeno Nizka glasnost
+有効 音量大き目	Omogočeno Najglasnejša glasnost
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Med prikazom opozorila piska ob vseh dogodkih s tipko/mišico
+警告表示中に端末が暴走したかのような雰囲気を作ります	Med prikazom opozorila ustvarite vzdušje, kot da je naprava ušla izpod nadzora.
+対象アクションを起こした時のマウスカーソルの消去	Brisanje kazalca miške, ko se izvede ciljno dejanje.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Izbris kazalca miške v območju brskalnika med prikazom opozorila
 デバッグモード	Način odpravljanja napak
 妨害＋記録のみ	Samo motnje + zapis.
 妨害＋記録＋表示＋リダイレクト	Prevzem + snemanje + prikaz + preusmeritev
 メニューからは操作できてしまいます	Z njim lahko upravljate v meniju.
+Firefoxにおけるデバッグモード	Način za odpravljanje napak v brskalniku Firefox
 ブラウザーコンソール	Konzola brskalnika
 事実上デバッグモードから操作できてしまいます	Delujete lahko v načinu za odpravljanje napak.
 HTMLソース表示	Prikaz vira HTML
 view-source:から始まるURLを入力すれば操作できてしまいます	Uporabite ga tako, da vnesete naslov URL, ki se začne z view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	V kombinaciji z zaščito HTML lahko vsebino zaščitite
 印刷	Tiskanje
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokiranje tiskanja, vendar v nekaterih brskalnikih ne deluje dobro
+スクリーンショット	Posnetek zaslona
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Glede na operacijski sistem, brskalnik in metodo morda ne bo prestreženo ali odkrito.
+ウインドウが背面に移動した時スクリーンショットの疑い	Sum na posnetke zaslona, ko so okna pomaknjena nazaj.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Poleg tega se odziva tudi na funkcije, ki niso zaslonske slike
+2キー押下のスクリーンショットの疑い	Sum posnetkov zaslona z dvema pritiskoma na tipko.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda odkrivanja za zgornje elemente ni popolna, zato se uporablja preventivno odkrivanje.
+スクリーンショットだけではなく、デバッグモード等も検出します	Zaznava posnetke zaslona in načine odpravljanja napak itd.
 ページ保存	Shranjevanje strani
 右クリック	Z desnim klikom miške kliknite .
 アドオンがインストールされていると操作できてしまいます	Če so nameščeni dodatki, ga je mogoče upravljati.
 コピー・カット	Kopiranje in rezanje
-あまりこのイベントに遭遇することはありません	S tem dogodkom se ne srečujemo pogosto.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Odvisno od konfiguracije tega vtičnika je ta dogodek lahko redko dosežen.
+テキスト全選択	Izbor celotnega besedila
 テキスト選択	Izbira besedila
 デバッガー妨害	Motnje v delovanju razhroščevalnika
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Zaradi tega je način za odpravljanje napak nekoliko manj prijazen do uporabnika, nekateri brskalniki to vedenje ustavijo.
 リダイレクトするURL	URL za preusmeritev na
 利用規約などのページに転送すると良いでしょう	Morda jih boste želeli preusmeriti na strani, kot so Pogoji uporabe.
+空欄にすると元のURLにリダイレクトをします	Če ostane prazen, bo preusmerjen na prvotni naslov URL.
+リダイレクトまでの時間	Čas za preusmeritev.
+リダイレクトなし	Brez preusmeritve
+1秒	1 sekunda
+2秒	2 sek.
+3秒	3 sekunde.
+4秒	4 sekunde.
+5秒	5 sek.
+6秒	6 sek.
+7秒	7 sek.
+8秒	8 sek.
+9秒	9 sek.
+10秒	10 sek.
+15秒	15 sekund.
+20秒	20 sek.
+25秒	25 sek.
+30秒	30 sekund.
+35秒	35 sekund.
+40秒	40 sekund.
+45秒	45 sekund.
+50秒	50 sek.
+55秒	55 sek.
+1分	Ena minuta
+1分10秒	1 min 10 sek.
+1分20秒	1 min 20 sek.
+1分30秒	1 minuta in 30 sekund.
+1分40秒	1 minuta in 40 sekund.
+1分50秒	1 minuta in 50 sekund.
+2分	2 minuti
 ソース表示を許可する権限	Pooblastilo za odobritev prikaza vira.
 ADMINログイン時のみ通常のソース出力	Običajni izhodni vir samo ob prijavi ADMIN
 USERログインで通常のソース出力	Običajni izhod vira s prijavo USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Izberite, ali je običajni izpis HTML namenjen samo skrbnikom ali tudi prijavi uporabnika.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Kaj se dejansko prenese, če se slika prenese s prisilo.
+GIF形式で1×1ピクセルの透過画像	1 x 1 piksel prozorne slike v formatu GIF.
+PNG形式で1×1ピクセルの透過画像	1 x 1 piksel prozorne slike v formatu PNG.
+PNG形式で黄色い背景の警告画面	Opozorilni zaslon z rumenim ozadjem v formatu PNG.
+意味のないHTMLドキュメント	Nesmiselni dokumenti HTML
 HTML保護時のHEADタグの出力	Izpis oznak HEAD med zaščito HTML
 出力しない	Brez izhoda
 TITLEタグのみ	Samo oznaka TITLE
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Pridobljeno iz oznake HEAD v programu Wordpre
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Slike OGP ne bodo prikazane v delitvah v družabnih omrežjih, razen če so vzete iz oznake Wordpress HEAD.
 画像botをアクセス禁止にする	Prepoved uporabe slikovnega bota.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izogibanje slikovnim robotom v primerjavi s HTML varuje vsebino, ki je ne bi bilo mogoče zaščititi z neposrednimi povezavami iz iskanja slik.
+AI学習用botをアクセス禁止にする	Prepoved dostopa do robotov za učenje z umetno inteligenco.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Izogibanje učnemu botru umetne inteligence proti jeziku HTML preprečuje, da bi ga umetna inteligenca uporabljala, vendar ne odpravlja v celoti
 alertメッセージを表示する言語	Jezik, v katerem je prikazano opozorilno sporočilo.
 Wordpressの言語	Jeziki Wordpressa.
 ブラウザの設定言語	Jezik nastavitve brskalnika
 メッセージをカスタム設定されている場合は言語を変更できません	Če je sporočilo prilagojeno, jezika ni mogoče spremeniti.
 view-sourceメッセージを表示する言語	Jezik, v katerem so prikazana sporočila izvornega pogleda.
 一時使用トークンの有効期限	Datum poteka veljavnosti žetonov za začasno uporabo.
-1分	Ena minuta
-2分	2 minuti
 3分	3 min.
 4分	4 min.
 5分	5 minut.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Jezik, v katerem so prikazana sp
 1時間	1 ura
 画像URL情報の有効期限を設定します	Nastavi datum poteka veljavnosti podatkov URL slike.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Po nalaganju so informacije URL slike in žetoni za začasno uporabo onemogočeni.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Slika se bo nalagala lenobno, vendar se bo prisilno nalagala 30 sekund pred tem določenim časom.
 一時使用トークンのビット数	Število bitov v žetonih za začasno uporabo
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Določa moč žetona za začasno uporabo, ki se uporablja kot geslo za šifriranje podatkov URL slike.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzivnost se povečuje, ko preidete na možnosti, navedene pod spustnim menijem, vendar se poveča obremenitev strežnika.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Čeprav se intenzivnost povečuje, ko preidete na možnosti, navedene pod spustnim menijem, je obremenitev strežnika večja in količina prenesenega HTML je lahko večja.
 ハッシュ化アルゴリズム	Algoritem hashanja
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Začasni žetoni se uporabljajo kot gesla za šifriranje podatkov URL slike, vendar jih je treba hashirati in nastaviti moč hashiranja.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzivnost se povečuje, ko preidete na možnosti, navedene pod spustnim menijem, vendar se poveča obremenitev strežnika.
 基本設定	Osnovna nastavitev
 高度な設定	Napredne nastavitve
 初期設定に戻す	Ponastavitev na privzeto vrednost
+デザイン・音の設定	Oblikovanje in zvočne nastavitve
+イベントの設定	Konfiguracija dogodka.
 メッセージの設定	Nastavitve sporočila
 右クリックやソースコード表示時に転送する URL を設定します	Nastavite URL, ki se posreduje pri desnem kliku ali ogledu izvorne kode.
 警告メッセージにはHTMLは使用できません	HTML ni mogoče uporabiti za opozorilna sporočila
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Jezik, v katerem so prikazana sp
 改行	Nova vrstica
 押下されたキー	Pritisnjena tipka
 Neo HTML Protector 設定	Nastavitve programa Neo HTML Protector
+メッセージ	Sporočilo.
+デザイン・音	Oblikovanje in zvok
+初期化	Inicializacija
 このプラグインについて	O tem vtičniku.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Če želite počistiti vse podatke, odstranite vtičnik in ga znova namestite.
+設定が初期化されました	Nastavitve so bile inicializirane.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializira vtičnik Upoštevajte, da se podatki bralnika dnevnika IP tukaj ne izbrišejo.
 Neo HTML Protectorについて	O programu Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Namen tega vtičnika je zaščititi HTML, slike itd., ki se izpišejo iz Wordpressa, in jih zaščititi pred nepooblaščeno uporabo njihove vsebine.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Vsebine ni mogoče popolnoma zaščititi. Vendar pa bi jih morali na vsak način opozoriti in biti pripravljeni, če se kaj zgodi, in to rešiti na nacionalno predpisan način.
@@ -139,24 +221,44 @@ Miss. 裏まにら氏歌唱	Miss. poje g. Uramanira
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Zahvaljujemo se vam za uporabo programa Neo HTML Protector!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	V razvoj in vzdrževanje tega vtičnika je bilo vloženega veliko časa in modrosti, zato bi bili hvaležni za morebitne donacije, ki bi nam pomagale zbrati sredstva za nadaljnje izboljšave in posodobitve.
 寄付について	O donacijah
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih močeh.
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih najboljših močeh.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donacije lahko prispevate prek spodnje povezave. Če ste iz Japonske, lahko darujete brezplačno, poleg tega pa lahko enostavno darujete z Amazonovimi darilnimi boni.
 寄付先	Donator
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Z vašo podporo se bomo potrudili, da vam bomo v prihodnje prinašali odlične posodobitve!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Zahvaljujemo se vam za podporo in se veselimo sodelovanja z vami v prihodnosti.
+ライセンス	Licenca
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Vtičnik je bil razvit kot odprta koda in je licenciran pod licenco GPL 2.0 ali novejšo različico.
+本プラグインには以下のライブラリを同梱しています	Ta vtičnik vključuje naslednje knjižnice
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ta vtičnik vključuje pisavo in datoteke pisav za umetnost ASCII, ki jih ustvari
+アスキーアート（AA）作成	Ustvarjanje umetnosti ASCII
+ラッコ株式会社 利用承諾取得済	Otters Ltd Pridobljeno soglasje za uporabo.
+巨大文字AAジェネレーター	Generator velikanskih znakov AA
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Pridobljeno soglasje za uporabo
+The Gnome Project 利用承諾取得済	Projekt Gnome Pridobljeno soglasje za uporabo
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Ta vtičnik vsebuje glasbo iz neavtorizirane igre za sistem Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Vir zvoka klavirja 'Keppys YAMAHA C7', ki se uporablja v nekaterih delih, je SoundFont, ki ga je ustvaril KaleidonKep99 in se uporablja v skladu z licenčnimi pogoji.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zaznan vtičnik predpomnilnika Ta vtičnik ne bo deloval pravilno, če je omogočen vtičnik predpomnilnika.
 無効なIPアドレス	Nepravilen naslov IP.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Za uporabo tega spletnega mesta je treba omogočiti piškotke in JavaScript.
+通常とは異なる方法でのアクセスや操作が検出されました	Odkrite so bile nenavadne metode dostopa ali delovanja.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Nekatere funkcije so omejene zaradi varnosti in zaščite vsebine.
 デバッグモード、コンソールの起動は禁止されています	Prepovedan je način za odpravljanje napak in aktiviranje konzole
 以下の情報がサーバーに送信されました	V strežnik so bile poslane naslednje informacije
 あなたのIPアドレス	Vaš naslov IP.
 あなたの端末とブラウザ	Vaša naprava in brskalnik
 あなたの押下したキー	Vaše pritisnjene tipke.
 リダイレクトをします	Preusmeritve.
+コンテンツ保護のため一部の機能を制限しています	Nekatere funkcije so omejene zaradi zaščite vsebine.
 右クリックは禁止されています	Klikanje z desno tipko miške je prepovedano.
+あなたが押下したキー	Tipka, ki ste jo pritisnili.
 印刷、PDFへの保存は禁止されています	Tiskanje in shranjevanje v PDF je prepovedano.
+スクリーンショットは禁止されています	Posnetki zaslona so prepovedani.
+スクリーンショット、デバッグモード等の起動は禁止されています	Aktivacija posnetkov zaslona, načina odpravljanja napak itd. je prepovedana.
 ページの保存は禁止されています	Shranjevanje strani je prepovedano.
 コピー、カットは禁止されています	Kopiranje ali rezanje je prepovedano.
 あなたが起こしたイベント	Dogodki, ki ste jih povzročili.
+テキストの選択は禁止されています	Izbira besedila je prepovedana.
 HTMLソース表示は禁止されています	Prikaz vira HTML je prepovedan.
 不正アクセスは禁止されています	Nepooblaščen dostop je prepovedan.
 アラビア語	Arabščina
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	Prikaz vira HTML je prepovedan.
 中国語	Kitajščina
 簡体中国語	Poenostavljena kitajščina
 繁体中国語	Tradicionalna kitajščina
-画像が見つかりません	Slike ni mogoče najti.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Čeprav se intenzivnost povečuje, ko preidete na možnosti, navedene pod spustnim menijem, je obremenitev strežnika večja in količina prenesenega HTML je lahko večja.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Zakasnjeno branje zaradi JavaScripta, ki vpliva na SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Kaj se dejansko prenese, če se slika prenese s prisilo.
-PNG形式で黄色い背景の警告画面	Opozorilni zaslon z rumenim ozadjem v formatu PNG.
-GIF形式で1×1ピクセルの透過画像	1 x 1 piksel prozorne slike v formatu GIF.
-意味のないHTMLドキュメント	Nesmiselni dokumenti HTML
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Ko je aktivirana, pride do preusmeritve, ki vpliva na SEO.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Če so slikovni podatki zaščiteni, predpomnjenje slik ne deluje, zato se spletno mesto ob naslednjem obisku nalaga počasneje, kar vpliva na SEO.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zaznan vtičnik predpomnilnika Ta vtičnik ne bo deloval pravilno, če je omogočen vtičnik predpomnilnika.
-スクリーンショット	Posnetek zaslona
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Nekateri operacijski sistemi in brskalniki morda ne bodo mogli prestreči ali odkriti
-スクリーンショットの警告メッセージ	Zaslonska opozorilna sporočila.
-ページ保存の警告メッセージ	Opozorilno sporočilo o shranjevanju strani.
-スクリーンショットは禁止されています	Posnetki zaslona so prepovedani.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Glede na operacijski sistem, brskalnik ali metodo morda ne bo prestreženo ali zaznano.
-空欄にすると元のURLにリダイレクトをします	Če ostane prazen, bo preusmerjen na prvotni naslov URL.
-ライセンス	Licenca
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Vtičnik je bil razvit kot odprta koda in je licenciran pod licenco GPL 2.0 ali novejšo različico.
-本プラグインには以下のライブラリを同梱しています	Ta vtičnik vključuje naslednje knjižnice
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Drugi Raspberry Pi5, ChatGPT in deepl se uporabljajo pri razvoju tega vtičnika
-imgタグが呼び出されるごとに画像を保護	Zaščita slike ob vsakem klicu oznake img.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Zaščitite vse slike, naložene v Wordpress, v vseh izhodih HTML
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Za "Zaščitite sliko vsakič, ko se pokliče img tag", uporabite add_filter in filter pri objavljanju img tagov, odvisno od teme to morda ne bo delovalo pravilno
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Zaščitite vse slike, naložene v Wordpress, iz vsega izpisa HTML" bo zajel skoraj vse dejavnosti Wordpressa in obdelal vse o oznakah img v vsebini. Nekatere teme ne bodo delovale pravilno
-設定が初期化されました	Nastavitve so bile inicializirane.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializira vtičnik Upoštevajte, da se podatki bralnika dnevnika IP tukaj ne izbrišejo.
-リダイレクトなし	Brez preusmeritve
-1秒	1 sekunda
-2秒	2 sek.
-3秒	3 sekunde.
-4秒	4 sekunde.
-5秒	5 sek.
-6秒	6 sek.
-7秒	7 sek.
-8秒	8 sek.
-9秒	9 sek.
-10秒	10 sek.
-15秒	15 sekund.
-20秒	20 sek.
-25秒	25 sek.
-30秒	30 sekund.
-35秒	35 sekund.
-40秒	40 sekund.
-45秒	45 sekund.
-50秒	50 sek.
-55秒	55 sek.
-リダイレクトまでの時間	Čas za preusmeritev.
-対象アクションを起こした時の表示デザイン	Prikažite zasnovo, ko se sproži ciljno dejanje.
-黄色の背景の黒文字のベーシックデザイン	Osnovno oblikovanje s črnimi črkami na rumenem ozadju
-黒色の背景の赤文字のホラー風デザイン	Zasnova v slogu grozljivke z rdečim besedilom na črnem ozadju.
-対象アクションを起こした時のサウンド	Zvok, ko se izvede ciljno dejanje.
-サウンドなし	Brez zvoka
-戦闘 - 40秒	Boj - 40 sek.
-おやじ - 3秒	Oče - 3 sekunde.
-レトロ風ファンファーレ - 2秒	Fanfare v retro slogu - 2 s.
-レトロ風オープン - 48秒	Odpiranje v retro slogu - 48 sek.
-デザイン・音の設定	Oblikovanje in zvočne nastavitve
-レトロ風オープン - 42秒	Odpiranje v retro slogu - 42 sek.
-おやじ ショート- 3秒	Oče kratek - 3 sekunde.
-おやじ ロング - 23秒	Oče, dolgo - 23 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopinova etuda, op. 10-5, črne tipke, hitra različica - 59 sek.
-スクリーンショットを取得しようとした動作を検出しました	Pri poskusu slikanja zaslona je bilo zaznano gibanje.
-スクリーンショットの疑い	Domnevni posnetki zaslona.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda odkrivanja za zgornje elemente ni popolna, zato se uporablja preventivno odkrivanje.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ta vtičnik vsebuje glasbo iz neavtorizirane igre Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Zaznano delovanje na tipkah, ki se običajno ne uporabljajo pri delovanju spletnega mesta
-スクリーンショットの疑いの警告メッセージ	Domnevno opozorilno sporočilo posnetka zaslona.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopinova etuda op. 10-12 Revolucija, hitra različica - 1 min 57 sek.
-1分10秒	1 min 10 sek.
-1分20秒	1 min 20 sek.
-1分30秒	1 minuta in 30 sekund.
-1分40秒	1 minuta in 40 sekund.
-1分50秒	1 minuta in 50 sekund.
-黒色の背景の赤文字の光る文字のデザイン	Oblikovanje svetlečih rdečih črk na črnem ozadju.
-スクリーンショット、デバッグモード等の起動は禁止されています	Aktivacija posnetkov zaslona, načina odpravljanja napak itd. je prepovedana.
-対象アクションを起こした時のBGM	BGM, ko se izvede ciljno dejanje.
-警告表示中のBGMを選択します	Izberite glasbo v ozadju med prikazom opozorila.
-対象アクションを起こした時の警告音	Opozorilni zvok, ko se izvede ciljno dejanje.
-有効 音量小さ目	Omogočeno Nizka glasnost
-有効 音量大き目	Omogočeno Najglasnejša glasnost
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Med prikazom opozorila piska ob vseh dogodkih s tipko/mišico
-対象アクションを起こした時のマウスカーソルの消去	Brisanje kazalca miške, ko se izvede ciljno dejanje.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Izbris kazalca miške v območju brskalnika med prikazom opozorila
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	To spletno mesto si lahko ogledate le z omogočenimi piškotki in JavaScriptom
-通常とは異なる方法でのアクセスや操作が検出されました	Odkrite so bile nenavadne metode dostopa ali delovanja.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Nekatere funkcije so omejene zaradi varnosti in zaščite vsebine.
-コンテンツ保護のため一部の機能を制限しています	Nekatere funkcije so omejene zaradi zaščite vsebine.
-あなたが押下したキー	Tipka, ki ste jo pritisnili.
-戦闘 - 39.8秒	Boj - 39,8 s.
-おやじ ショート- 3.7秒	Oče Short - 3,7 sekunde
-おやじ ロング - 22.7秒	Oče Long - 22,7 sekunde.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopinova etuda, op. 10-5, črne tipke, hitra različica - 57,8 sekunde.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopinova etuda op. 10-12 Revolucija, hitra različica - 1 min 54,9 sek.
-レトロ風ファンファーレ - 2.2秒	Fanfare v retro slogu - 2,2 s.
-レトロ風オープン - 41.2秒	Odpiranje v retro slogu - 41,2 sekunde.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ta vtičnik vključuje pisavo in datoteke pisav za umetnost ASCII, ki jih ustvari
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Izvedena različica - 37,8 sek.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, začetek iz 24 Caprices - Izvedena različica - 27.4 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopinova etuda, op. 10-5, črne tipke, udarna različica, hitra različica - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopinova etuda op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 54,9 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra skrajšana različica - 1 min 46,1 sek.
-ファンファーレ - 19.3秒	Fanfare - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox bo blokiral zvok.
-Firefoxにおけるデバッグモード	Način za odpravljanje napak v brskalniku Firefox
-テキスト全選択	Izbor celotnega besedila
-テキストの選択は禁止されています	Izbira besedila je prepovedana.
-テキスト全選択時の警告メッセージ	Opozorilno sporočilo, ko je izbrano vse besedilo.
-スクリーンショットだけではなく、デバッグモード等も検出します	Zaznava posnetke zaslona in načine odpravljanja napak itd.
-イベントの設定	Konfiguracija dogodka.
-メッセージ	Sporočilo.
-デザイン・音	Oblikovanje in zvok
-初期化	Inicializacija
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikaz umetnosti ASCII, ki označuje namero opozorila pri prikazu izvorne kode HTML s funkcijo view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	V kombinaciji z zaščito HTML lahko vsebino zaščitite
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Slika se bo nalagala lenobno, vendar se bo prisilno nalagala 30 sekund pred tem določenim časom.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Ko je aktivirana, pride do preusmeritve, kar pomembno vpliva na SEO.
-びっくりするような雰囲気を作ります	Ustvarite presenetljivo vzdušje
-対象アクションを起こした時のビープ音	Piskajoč zvok, ko se izvede ciljno dejanje.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Med prikazom opozorila ustvarite vzdušje, kot da je naprava ušla izpod nadzora.
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Odvisno od konfiguracije tega vtičnika je ta dogodek lahko redko dosežen.
-JavaScript描画で有効	Velja za upodabljanje v javascriptu.
-リダイレクトで有効	Velja za preusmeritve.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Če izberete možnost Omogočeno za preusmeritev, se bo zabeležilo tudi, kdaj je izvedeno obnašanje view-source:.
-リダイレクトで有効はFirefoxに対しては無効です	Omogočeno pri preusmeritvi ne velja za Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Omogočanje upodabljanja v javascriptu bo znatno upočasnilo hitrost prikaza spletnega mesta.
-いずれもSEOに著しく影響があります	Oba imata pomemben vpliv na SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Za uporabo tega spletnega mesta je treba omogočiti piškotke in JavaScript.
-AI学習用botをアクセス禁止にする	Prepoved dostopa do robotov za učenje z umetno inteligenco.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Izogibanje učnemu botru umetne inteligence proti jeziku HTML preprečuje, da bi ga umetna inteligenca uporabljala, vendar ne odpravlja v celoti
-Firefoxに対しては無効です	Ne velja za Firefox.
-SEOに著しく影響があります	Pomembno vpliva na SEO.
-HTMLをJavaScriptで描画	Prikazovanje HTML z JavaScriptom
-Firefox対策としてHTMLをJavaScriptで描画をします	Prikazovanje HTML z JavaScriptom kot ukrep Firefoxa
-PNG形式で1×1ピクセルの透過画像	1 x 1 piksel prozorne slike v formatu PNG.
-戦闘＆戦闘勝利 - 1分16.3秒	Zmage v bojih in bitkah - 1 min 16,3 s
-おやじ ショート- 3.8秒	Oče Short - 3,8 sekunde
-おやじ ロング - 23.5秒	Oče, dolg - 23,5 sekunde.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopinova etuda op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 00.0 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitro skrajšana različica - 1 min 48,0 sek.
-ファンファーレ - 22.3秒	Fanfare - 22,3 s.
-レトロ風オープン - 42.1秒	Odpiranje v retro slogu - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopinova etuda, op. 10-5, črne tipke, tipkana različica, hitra različica - 1 min 0,0 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopinova etuda op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57,6 sek.
-ウインドウが背面に移動した時スクリーンショットの疑い	Sum na posnetke zaslona, ko so okna pomaknjena nazaj.
-2キー押下のスクリーンショットの疑い	Sum posnetkov zaslona z dvema pritiskoma na tipko.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Poleg tega se odziva tudi na funkcije, ki niso zaslonske slike
-このオプションを有効にするとview-sourceのログが取得できます	Omogočite to možnost, če želite beležiti view-source
 不正なリクエストです	Nepravilna zahteva.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Boj in zmage v bitkah - 1 min 16,3 s - Licenca: CC2.1 ali novejša
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekunde - Licenca GPL2.0 ali novejša
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Oče Long - 23,5 sekunde - Licenca GPL2.0 ali novejša
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopinova etuda, op.10-5, črne tipke, tipkana različica, hitra različica - 1 min 0.0 sek - Licence: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopinova etuda, op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57.6 sek - Licenca: public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra skrajšana različica - 1 min 48.0 s - Licenca: public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 sekunde - Licenca: javna domena
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfare v retro slogu - 2,2 s - Licenca: javna domena
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licenca: javna lastnina
+画像が見つかりません	Slike ni mogoče najti.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Izogibanje slikovnim robotom v primerjavi s HTML varuje vsebino, ki je ne bi bilo mogoče zaščititi z neposrednimi povezavami iz iskanja slik, čeprav tega ni mogoče v celoti odpraviti.
+無効なUAをアクセス禁止にする	Onemogočite dostop do neveljavnih UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Izognite se dostopu, če je v uporabniškem agentu neveljaven niz znakov.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Opozorilo za dostop do brskalnika Internet Explorer in nekdanjega brskalnika Microsoft Edge.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Izogibajte se dostopu do brskalnika Internet Explorer in nekdanjega brskalnika Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ta vtičnik vsebuje glasbo iz neavtorizirane igre Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ta vtičnik vsebuje glasbo z uporabo 'Keppy s YAMAHA C7', ki jo je ustvaril Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op. 10-5, črne tipke, tipkana različica, hitra različica - 1 min 0,0 s - Licenca: CC BY-ND 4.0 ali novejša
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-12 Revolucija, tipkana različica, hitra različica - 1 min 57,6 s - Licenca: CC BY-ND 4.0 ali novejša
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra skrajšana različica - 1 min 48,0 s - Licenca: CC BY-ND 4.0 ali novejša
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Brskalnik, ki ga trenutno uporabljate, je starejša različica, ki ni več podprta. Za varnejše in udobnejše brskanje po spletu posodobite brskalnik na najnovejšo različico.

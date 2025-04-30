@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:52+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:15+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -292,7 +292,7 @@ msgid "スクリーンショット"
 msgstr "截圖"
 
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
-msgstr "視作業系統、瀏覽器或方法而定，可能不會被截取或偵測到"
+msgstr "視作業系統、瀏覽器和方法而定，可能不會被攔截或偵測到"
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "將視窗移到後方時，有截圖的嫌疑。"
@@ -477,14 +477,26 @@ msgstr "除非 OGP 圖片取自 Wordpress HEAD 標籤，否則不會顯示在社
 msgid "画像botをアクセス禁止にする"
 msgstr "禁止圖像機器人。"
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "避免圖片殭屍相對於 HTML，可保護無法透過圖片搜尋的直接連結來保護的內容。"
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "避免圖片殭屍相對於 HTML，可保護無法透過圖片搜尋的直接連結來保護的內容，儘管這個問題並不能完全解決。"
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "禁止存取 AI 學習機器人。"
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "避免人工智慧針對 HTML 的學習機器人，可以防止它被人工智慧使用，但無法完全解決"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "禁止存取無效的 UA。"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "如果使用者代理中存在無效的字串，則避免存取。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "警告 Internet Explorer 和以前的 Microsoft Edge 存取。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "避免存取 Internet Explorer 和之前的 Microsoft Edge。"
 
 msgid "alertメッセージを表示する言語"
 msgstr "顯示警示訊息的語言。"
@@ -899,6 +911,9 @@ msgstr "簡體中文"
 
 msgid "繁体中国語"
 msgstr "繁体中文"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "您目前使用的瀏覽器為舊版本，已不再支援。要獲得更安全、更舒適的瀏覽環境，請更新至最新的瀏覽器。"
 
 msgid "不正なリクエストです"
 msgstr "不正確的請求。"

@@ -1140,7 +1140,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'
@@ -1163,6 +1163,50 @@ class neohp_admin {
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// 無効なUAを避ける
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_injustice_ua', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_injustice_ua',
+				__('無効なUAをアクセス禁止にする', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_injustice_ua', '0'));
+					echo wp_kses( $this->getselect("neohp_injustice_ua", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
+			// IE/旧Edgeを避ける
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_injustice_ie', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_injustice_ie',
+				__('Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_injustice_ie', '0'));
+					echo wp_kses( $this->getselect("neohp_injustice_ie", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('Internet Explorerと旧Microsoft Edgeのアクセスを避けます', 'neo-html-protector') );
 				},
 				'neohp-advanced-settings',
 				'neohp_advanced_section'

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -477,14 +477,26 @@ msgstr "Obrazy OGP nie będą wyświetlane w sieciach społecznościowych, chyba
 msgid "画像botをアクセス禁止にする"
 msgstr "Zbanowanie bota obrazu."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Unikanie botów obrazów w stosunku do HTML chroni treści, które nie mogłyby być chronione przez bezpośrednie linki z wyszukiwania obrazów."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Unikanie botów obrazów w stosunku do HTML chroni treści, które nie mogą być chronione przez bezpośrednie linki z wyszukiwania obrazów, chociaż nie można tego całkowicie rozwiązać."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Zakaz dostępu do botów uczących się sztucznej inteligencji."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Unikanie bota uczącego się AI przeciwko HTML zapobiega jego wykorzystaniu przez AI, ale nie rozwiązuje go całkowicie."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Wyłączenie dostępu do nieprawidłowych UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Unikaj dostępu, jeśli w agencie użytkownika znajduje się nieprawidłowy ciąg znaków."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Ostrzeżenie dla przeglądarki Internet Explorer i byłego Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Unikaj dostępu do przeglądarki Internet Explorer i dawnego Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Język, w którym wyświetlany jest komunikat alarmowy."
@@ -899,6 +911,9 @@ msgstr "Chiński uproszczony"
 
 msgid "繁体中国語"
 msgstr "Tradycyjny chiński"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Obecnie używana przeglądarka jest starszą wersją, która nie jest już obsługiwana. Aby zapewnić bezpieczniejsze i wygodniejsze środowisko przeglądania, zaktualizuj przeglądarkę do najnowszej wersji."
 
 msgid "不正なリクエストです"
 msgstr "Nieprawidłowe żądanie."

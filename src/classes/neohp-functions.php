@@ -266,12 +266,29 @@ class neohp_func {
 
 	function is_image_bot() {
 		$user_agent = mb_strtolower($this->get_user_agent());
-		return !preg_match('/mage/i', $user_agent);
+		return preg_match('/mage/i', $user_agent);
 	}
 
 	function is_ai_bot() {
 		$user_agent = mb_strtolower($this->get_user_agent());
-		return !preg_match('/gptbot|chatgpt-user|google-extended|ccbot|stabilityai/i', $user_agent);
+		return preg_match('/gptbot|chatgpt-user|google-extended|ccbot|stabilityai/i', $user_agent);
+	}
+
+	function is_ie() {	// 旧edgeも対応
+		$user_agent = mb_strtolower($this->get_user_agent());
+		return preg_match('/msie|trident|edge/i', $user_agent);
+	}
+
+	function is_injustice_ua() {
+		$user_agent = mb_strtolower($this->get_user_agent());
+		if ( preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $ua ) ) {
+			return true;
+		}
+
+		if($user_agent === '') {
+			return true;
+		}
+		return false;
 	}
 
 }

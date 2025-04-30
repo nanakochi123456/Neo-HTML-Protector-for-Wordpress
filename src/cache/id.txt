@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Tidak ada data alamat IP yang terse
 デバッグモード、コンソールの警告メッセージ	Mode debug, pesan peringatan konsol.
 右クリックの警告メッセージ	Klik kanan pesan peringatan.
 印刷、PDF保存の警告メッセージ	Pesan peringatan untuk mencetak dan menyimpan PDF.
+スクリーンショットの警告メッセージ	Menangkap layar pesan peringatan.
+スクリーンショットの疑いの警告メッセージ	Dugaan pesan peringatan tangkapan layar.
+テキスト全選択時の警告メッセージ	Pesan peringatan ketika semua teks dipilih.
+ページ保存の警告メッセージ	Pesan peringatan penyimpanan halaman.
 コピー・カットした時に表示するメッセージ	Pesan yang ditampilkan saat menyalin atau memotong.
 HTMLソース表示時に表示するメッセージ	Pesan yang akan ditampilkan saat menampilkan sumber HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Pesan yang akan ditampilkan di awal sumber ketika HTML dikaburkan dan diproteksi.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	Pengaburan HTML
 無効	Tidak valid
 有効	Validitas
 一般的なHTML圧縮です、難読化解除のサイトもあります	Kompresi HTML umum, beberapa situs memiliki de-obfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Aktifkan opsi ini untuk mencatat sumber tampilan
 HTML保護	Perlindungan HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Hanya HTML minimal yang dihasilkan di luar kompresi HTML, dan konten dalam tag BODY tidak dihasilkan sama sekali.
-view-source:の動作をされた時の記録もします	Ini juga mencatat kapan tindakan view-source: diambil.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Setiap kali diaktifkan, ada pengalihan, yang dapat mengakibatkan penurunan SEO
-若干デザインが変わる可能性があります	Desain mungkin sedikit berubah.
+Firefoxに対しては無効です	Tidak berlaku untuk Firefox.
+SEOに著しく影響があります	Secara signifikan mempengaruhi SEO.
+HTMLをJavaScriptで描画	Merender HTML dengan JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Merender HTML dengan JavaScript sebagai ukuran Firefox
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mengaktifkan rendering JavaScript akan secara signifikan memperlambat kecepatan tampilan situs web
 画像の保護	Perlindungan gambar.
-add_filterを使用して画像を保護	Melindungi gambar menggunakan add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Menangkap dan melindungi gambar di antara wp_head dan wp_footer
+imgタグが呼び出されるごとに画像を保護	Lindungi gambar setiap kali tag img dipanggil.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Lindungi semua gambar yang diunggah ke Wordpress di semua keluaran HTML
 画像をダウンロードから保護します	Melindungi gambar agar tidak diunduh.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Hampir sepenuhnya mencegah pengunduhan ketika data gambar diproteksi, mengeluarkan URL satu kali yang lengkap, mengautentikasi dengan token yang tersimpan dalam sesi dan menampilkan gambar dari php, sehingga hampir sepenuhnya mencegah pencurian gambar.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Caching gambar tidak berfungsi ketika data gambar dilindungi, sehingga situs akan dimuat lebih lambat pada kunjungan berikutnya, yang dapat mengakibatkan penurunan SEO
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ketika data gambar diproteksi, cache gambar tidak berfungsi, sehingga situs dimuat lebih lambat pada kunjungan berikutnya, yang memengaruhi SEO
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Beban basis data mungkin lebih tinggi ketika data gambar dilindungi
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode yang menggunakan add_filter menyaring tag img saat dipublikasikan, sedangkan metode yang menggunakan wp_head ke wp_footer memproses semua tag img di dalam konten.
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Untuk 'Lindungi gambar setiap kali tag img dipanggil', gunakan add_filter dan filter saat menerbitkan tag img, tergantung pada temanya, hal ini mungkin tidak berfungsi dengan benar
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Lindungi semua gambar yang diunggah ke Wordpress dari semua keluaran HTML' akan menangkap hampir semua aktivitas Wordpress dan memproses semua hal tentang tag img di dalam konten. Beberapa tema tidak akan bekerja dengan benar
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Perhatikan, bahwa gambar yang ditetapkan sebagai eye-catching akan disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan.
 OS標準搭載のスクリーンショット機能を保護することはできません	Fungsi tangkapan layar OS standar tidak dapat diproteksi
 画像URLの保護	Perlindungan URL gambar
-即時読み込みをして有効	Efektif dengan pemuatan langsung.
-遅延読み込みをして有効	Diaktifkan dengan pemuatan tertunda.
 画像の保護と組み合わせて使用します、単体では意味がありません	Digunakan dalam kombinasi dengan perlindungan gambar, ini tidak berarti jika berdiri sendiri.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Ini dibaca secara dinamis oleh JavaScript, yang mempengaruhi SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Pembacaan yang tertunda karena JavaScript, yang memengaruhi SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Keluaran seni ASCII dalam kode sumber HTML selama pengaburan dan perlindungan HTML.
 表示なし	Tidak ada indikasi
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan ketika sumber HTML ditampilkan.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Periksa dengan melihat sumbernya di peramban yang tidak masuk
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan saat menampilkan sumber HTML dengan sumber tampilan.
+対象アクションを起こした時の表示デザイン	Desain tampilan saat tindakan target dipicu.
+黄色の背景の黒文字のベーシックデザイン	Desain dasar dengan huruf-huruf hitam pada latar belakang kuning
+黒色の背景の赤文字のホラー風デザイン	Desain bergaya horor dengan teks merah pada latar belakang hitam.
+黒色の背景の赤文字の光る文字のデザイン	Desain huruf merah menyala pada latar belakang hitam.
+対象アクションを起こした時のBGM	BGM ketika tindakan target diambil.
+サウンドなし	Tanpa suara
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Kemenangan tempur & pertempuran - 1 menit 16,3 detik - Lisensi: CC2.1 atau yang lebih baru
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 detik - Lisensi GPL2.0 atau yang lebih baru
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23,5 detik - Lisensi GPL2.0 atau yang lebih baru
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, tuts hitam, versi diketik, versi cepat - 1 menit 0,0 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 57,6 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo in B flat minor, Op2, versi yang diketik, versi yang diperpendek dengan cepat - 1 menit 48,0 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Keriuhan - 22,3 detik - Lisensi: domain publik
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Keriuhan bergaya retro - 2,2 detik - Lisensi: domain publik
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Gaya retro terbuka - 42,1 detik - Lisensi: domain publik
+警告表示中のBGMを選択します	Pilih musik latar belakang selama tampilan peringatan.
+びっくりするような雰囲気を作ります	Ciptakan suasana yang mengejutkan
+Firefoxでは音声ブロックされます	Firefox akan memblokir audio.
+対象アクションを起こした時のビープ音	Bunyi bip saat tindakan target dilakukan.
+有効 音量小さ目	Diaktifkan Volume rendah
+有効 音量大き目	Diaktifkan Volume paling keras
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bip pada semua peristiwa tombol/mouse selama tampilan peringatan
+警告表示中に端末が暴走したかのような雰囲気を作ります	Menciptakan suasana seolah-olah perangkat sudah tidak terkendali selama tampilan peringatan
+対象アクションを起こした時のマウスカーソルの消去	Menghapus kursor mouse saat tindakan target dilakukan.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Menghapus kursor mouse di area browser selama tampilan peringatan
 デバッグモード	Mode debug
 妨害＋記録のみ	Gangguan + rekam saja.
 妨害＋記録＋表示＋リダイレクト	Cegat + rekam + tampilkan + alihkan
 メニューからは操作できてしまいます	Ini dapat dioperasikan dari menu.
+Firefoxにおけるデバッグモード	Mode debug di Firefox
 ブラウザーコンソール	Konsol browser
 事実上デバッグモードから操作できてしまいます	Efeknya, Anda dapat mengoperasikan dari mode debug.
 HTMLソース表示	Tampilan sumber HTML
 view-source:から始まるURLを入力すれば操作できてしまいます	Ini dapat dioperasikan dengan memasukkan URL yang dimulai dengan view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	Dikombinasikan dengan proteksi HTML, konten dapat diproteksi
 印刷	Pencetakan
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Pemblokiran cetak tetapi tidak berfungsi dengan baik di beberapa browser
+スクリーンショット	Tangkapan layar
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Mungkin tidak dapat dicegat atau terdeteksi, tergantung pada sistem operasi, browser, dan metode
+ウインドウが背面に移動した時スクリーンショットの疑い	Kecurigaan adanya tangkapan layar ketika jendela dipindahkan ke belakang.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Selain itu, ini juga bereaksi terhadap fungsi selain tangkapan layar
+2キー押下のスクリーンショットの疑い	Kecurigaan terhadap tangkapan layar dengan dua kali penekanan tombol.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metode deteksi untuk item di atas tidak sempurna, digunakan deteksi pencegahan.
+スクリーンショットだけではなく、デバッグモード等も検出します	Aplikasi ini mendeteksi tangkapan layar serta mode debug, dll.
 ページ保存	Simpan halaman
 右クリック	Klik kanan
 アドオンがインストールされていると操作できてしまいます	Ini dapat dioperasikan jika add-on diinstal.
 コピー・カット	Salin-potong
-あまりこのイベントに遭遇することはありません	Kami tidak terlalu sering menjumpai peristiwa ini.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Tergantung pada konfigurasi plug-in ini, acara ini mungkin jarang tercapai
+テキスト全選択	Pilihan teks lengkap
 テキスト選択	Pemilihan teks
 デバッガー妨害	Gangguan debugger
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Membuat mode debug sedikit kurang ramah pengguna, beberapa browser menghentikan perilaku ini
 リダイレクトするURL	URL untuk dialihkan ke
 利用規約などのページに転送すると良いでしょう	Anda mungkin ingin meneruskannya ke halaman seperti Ketentuan Penggunaan.
+空欄にすると元のURLにリダイレクトをします	Jika dibiarkan kosong, maka akan dialihkan ke URL asli
+リダイレクトまでの時間	Saatnya mengalihkan.
+リダイレクトなし	Tidak ada pengalihan
+1秒	1 detik
+2秒	2 detik.
+3秒	3 detik.
+4秒	4 detik.
+5秒	5 detik.
+6秒	6 detik.
+7秒	7 detik.
+8秒	8 detik.
+9秒	9 detik.
+10秒	10 detik.
+15秒	15 detik.
+20秒	20 detik.
+25秒	25 detik.
+30秒	30 detik.
+35秒	35 detik.
+40秒	40 detik.
+45秒	45 detik.
+50秒	50 detik.
+55秒	55 detik.
+1分	Satu menit
+1分10秒	1 menit 10 detik.
+1分20秒	1 menit 20 detik.
+1分30秒	1 menit 30 detik.
+1分40秒	1 menit 40 detik.
+1分50秒	1 menit 50 detik.
+2分	2 menit
 ソース表示を許可する権限	Otoritas untuk mengizinkan tampilan sumber.
 ADMINログイン時のみ通常のソース出力	Keluaran sumber normal hanya saat login ADMIN
 USERログインで通常のソース出力	Output sumber normal dengan login PENGGUNA
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Pilih apakah output HTML normal hanya untuk administrator atau login pengguna
+画像を無理やりダウンロードして実際にダウンロードされるもの	Apa yang sebenarnya diunduh dengan memaksa gambar untuk diunduh.
+GIF形式で1×1ピクセルの透過画像	Gambar transparan 1 x 1 piksel dalam format GIF.
+PNG形式で1×1ピクセルの透過画像	Gambar transparan 1 x 1 piksel dalam format PNG.
+PNG形式で黄色い背景の警告画面	Layar peringatan dengan latar belakang kuning dalam format PNG.
+意味のないHTMLドキュメント	Dokumen HTML yang tidak berarti
 HTML保護時のHEADタグの出力	Output dari tag HEAD selama perlindungan HTML
 出力しない	Tidak ada output
 TITLEタグのみ	Hanya tag JUDUL
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Diambil dari tag HEAD di Wordpress
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali jika diambil dari tag HEAD Wordpress
 画像botをアクセス禁止にする	Melarang bot gambar.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar.
+AI学習用botをアクセス禁止にする	Melarang akses ke bot pembelajaran AI.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Menghindari bot pembelajaran AI terhadap HTML mencegahnya digunakan oleh AI, tetapi tidak sepenuhnya mengatasi
 alertメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan peringatan.
 Wordpressの言語	Bahasa Wordpress.
 ブラウザの設定言語	Bahasa pengaturan browser
 メッセージをカスタム設定されている場合は言語を変更できません	Bahasa tidak dapat diubah jika pesan disesuaikan
 view-sourceメッセージを表示する言語	Bahasa yang digunakan untuk menampilkan pesan sumber tampilan.
 一時使用トークンの有効期限	Tanggal kedaluwarsa token penggunaan sementara.
-1分	Satu menit
-2分	2 menit
 3分	3 menit.
 4分	4 menit.
 5分	5 menit.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Bahasa yang digunakan untuk mena
 1時間	1 jam
 画像URL情報の有効期限を設定します	Menetapkan tanggal kedaluwarsa informasi URL gambar.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Setelah dimuat, informasi URL gambar dan token penggunaan sementara dinonaktifkan
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Gambar akan dimuat dengan lambat, tetapi gambar akan dipaksa dimuat 30 detik sebelum waktu yang ditentukan.
 一時使用トークンのビット数	Jumlah bit dalam token penggunaan sementara
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Menentukan kekuatan token penggunaan sementara yang digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Meskipun intensitasnya meningkat saat Anda membuka opsi yang tercantum di bawah menu drop-down, beban pada server lebih tinggi dan jumlah HTML yang ditransfer mungkin lebih tinggi
 ハッシュ化アルゴリズム	Algoritma hashing
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata sandi untuk mengenkripsi informasi URL gambar, tetapi token tersebut harus di-hash, atur kekuatan hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensitas meningkat saat Anda membuka opsi yang tercantum di bawah menu tarik-turun, tetapi beban pada server meningkat
 基本設定	Pengaturan dasar
 高度な設定	Pengaturan lanjutan
 初期設定に戻す	Mengatur ulang ke default
+デザイン・音の設定	Pengaturan desain dan suara
+イベントの設定	Konfigurasi acara.
 メッセージの設定	Pengaturan pesan
 右クリックやソースコード表示時に転送する URL を設定します	Mengatur URL yang akan diteruskan saat mengklik kanan atau melihat kode sumber.
 警告メッセージにはHTMLは使用できません	HTML tidak dapat digunakan untuk pesan peringatan
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Bahasa yang digunakan untuk mena
 改行	Baris baru
 押下されたキー	Tombol yang ditekan
 Neo HTML Protector 設定	Pengaturan Neo HTML Protector
+メッセージ	Pesan.
+デザイン・音	Desain dan suara
+初期化	Inisialisasi
 このプラグインについて	Tentang plugin ini.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Untuk menghapus semua data, hapus instalan pengaya, lalu instal ulang
+設定が初期化されました	Pengaturan telah diinisialisasi.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisialisasi plugin Perhatikan bahwa data pembaca log IP tidak dihapus di sini.
 Neo HTML Protectorについて	Tentang Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ini bertujuan untuk melindungi HTML, gambar, dll. yang dihasilkan dari Wordpress Anda dan melindunginya dari penggunaan konten yang tidak sah.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Konten tidak dapat dilindungi dengan sempurna. Namun, dengan memperingatkan mereka dengan segala cara yang memungkinkan dan bersiap-siap jika sesuatu terjadi, Anda seharusnya dapat menyelesaikannya dengan cara yang ditentukan secara nasional.
@@ -139,24 +221,44 @@ Miss. 裏まにら氏歌唱	Nona. dinyanyikan oleh Mr Uramanira
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Terima kasih telah menggunakan Neo HTML Protector!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Banyak waktu dan kebijaksanaan telah dicurahkan untuk pengembangan dan pemeliharaan plugin ini, dan kami akan berterima kasih atas donasi, jika ada, untuk membantu kami menggalang dana guna perbaikan dan pembaruan yang berkelanjutan.
 寄付について	Tentang donasi
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa.
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga plugin ini dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon.
 寄付先	Donor
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Dengan dukungan Anda, kami akan melakukan yang terbaik untuk menghadirkan pembaruan yang hebat di masa depan!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami berterima kasih atas dukungan Anda dan berharap dapat bekerja sama dengan Anda di masa mendatang.
+ライセンス	Lisensi
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in ini telah dikembangkan sebagai sumber terbuka dan dilisensikan di bawah GPL 2.0 atau versi yang lebih baru.
+本プラグインには以下のライブラリを同梱しています	Pustaka berikut disertakan dengan plug-in ini
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plug-in ini menyertakan file font dan font untuk seni ASCII yang dihasilkan oleh
+アスキーアート（AA）作成	Penciptaan seni ASCII
+ラッコ株式会社 利用承諾取得済	Otters Ltd Persetujuan untuk penggunaan diperoleh.
+巨大文字AAジェネレーター	Generator AA karakter raksasa
+LAZE SOFTWARE 利用承諾取得済	PERANGKAT LUNAK LAZE Persetujuan penggunaan diperoleh
+The Gnome Project 利用承諾取得済	Persetujuan Penggunaan Proyek Gnome diperoleh
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Plug-in ini berisi musik dari game Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Sumber suara piano 'Keppys YAMAHA C7' yang digunakan di beberapa bagian adalah SoundFont yang dibuat oleh KaleidonKep99 dan digunakan sesuai dengan ketentuan lisensi.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Raspberry Pi5 lainnya, ChatGPT dan deepl digunakan dalam pengembangan plugin ini
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin cache terdeteksi Plugin ini tidak akan berfungsi dengan benar jika plugin cache diaktifkan.
 無効なIPアドレス	Alamat IP tidak valid.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookie dan JavaScript harus diaktifkan untuk menggunakan situs web ini.
+通常とは異なる方法でのアクセスや操作が検出されました	Metode akses atau operasi yang tidak biasa telah terdeteksi.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Beberapa fungsi dibatasi untuk keamanan dan perlindungan konten.
 デバッグモード、コンソールの起動は禁止されています	Mode debug dan aktivasi konsol dilarang
 以下の情報がサーバーに送信されました	Informasi berikut ini telah dikirim ke server
 あなたのIPアドレス	Alamat IP Anda.
 あなたの端末とブラウザ	Perangkat dan browser Anda
 あなたの押下したキー	Tombol yang Anda tekan.
 リダイレクトをします	Pengalihan.
+コンテンツ保護のため一部の機能を制限しています	Beberapa fungsi dibatasi untuk melindungi konten.
 右クリックは禁止されています	Dilarang mengklik kanan.
+あなたが押下したキー	Tombol yang Anda tekan.
 印刷、PDFへの保存は禁止されています	Dilarang mencetak dan menyimpan ke PDF
+スクリーンショットは禁止されています	Dilarang mengambil tangkapan layar.
+スクリーンショット、デバッグモード等の起動は禁止されています	Dilarang mengaktifkan tangkapan layar, mode debug, dll.
 ページの保存は禁止されています	Dilarang menyimpan halaman.
 コピー、カットは禁止されています	Dilarang menyalin atau memotong.
 あなたが起こしたイベント	Peristiwa yang Anda sebabkan.
+テキストの選択は禁止されています	Dilarang memilih teks.
 HTMLソース表示は禁止されています	Dilarang menampilkan sumber HTML.
 不正アクセスは禁止されています	Dilarang mengakses tanpa izin.
 アラビア語	Bahasa Arab
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	Dilarang menampilkan sumber HTML.
 中国語	Bahasa Mandarin
 簡体中国語	Bahasa Mandarin yang disederhanakan
 繁体中国語	Bahasa Tionghoa tradisional
-画像が見つかりません	Gambar tidak ditemukan.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Meskipun intensitasnya meningkat saat Anda membuka opsi yang tercantum di bawah menu drop-down, beban pada server lebih tinggi dan jumlah HTML yang ditransfer mungkin lebih tinggi
-JavaScriptにより遅延読まれますのでSEOに影響があります	Pembacaan yang tertunda karena JavaScript, yang memengaruhi SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Apa yang sebenarnya diunduh dengan memaksa gambar untuk diunduh.
-PNG形式で黄色い背景の警告画面	Layar peringatan dengan latar belakang kuning dalam format PNG.
-GIF形式で1×1ピクセルの透過画像	Gambar transparan 1 x 1 piksel dalam format GIF.
-意味のないHTMLドキュメント	Dokumen HTML yang tidak berarti
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Setiap kali diaktifkan, pengalihan terjadi, yang berdampak pada SEO
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ketika data gambar diproteksi, cache gambar tidak berfungsi, sehingga situs dimuat lebih lambat pada kunjungan berikutnya, yang memengaruhi SEO
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin cache terdeteksi Plugin ini tidak akan berfungsi dengan benar jika plugin cache diaktifkan.
-スクリーンショット	Tangkapan layar
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Beberapa sistem operasi dan browser mungkin tidak dapat mencegat atau mendeteksi
-スクリーンショットの警告メッセージ	Menangkap layar pesan peringatan.
-ページ保存の警告メッセージ	Pesan peringatan penyimpanan halaman.
-スクリーンショットは禁止されています	Dilarang mengambil tangkapan layar.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Mungkin tidak dapat dicegat atau terdeteksi, tergantung pada sistem operasi, browser, dan metode
-空欄にすると元のURLにリダイレクトをします	Jika dibiarkan kosong, maka akan dialihkan ke URL asli
-ライセンス	Lisensi
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in ini telah dikembangkan sebagai sumber terbuka dan dilisensikan di bawah GPL 2.0 atau versi yang lebih baru.
-本プラグインには以下のライブラリを同梱しています	Pustaka berikut disertakan dengan plug-in ini
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Raspberry Pi5 lainnya, ChatGPT dan deepl digunakan dalam pengembangan plugin ini
-imgタグが呼び出されるごとに画像を保護	Lindungi gambar setiap kali tag img dipanggil.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Lindungi semua gambar yang diunggah ke Wordpress di semua keluaran HTML
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Untuk 'Lindungi gambar setiap kali tag img dipanggil', gunakan add_filter dan filter saat menerbitkan tag img, tergantung pada temanya, hal ini mungkin tidak berfungsi dengan benar
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Lindungi semua gambar yang diunggah ke Wordpress dari semua keluaran HTML' akan menangkap hampir semua aktivitas Wordpress dan memproses semua hal tentang tag img di dalam konten. Beberapa tema tidak akan bekerja dengan benar
-設定が初期化されました	Pengaturan telah diinisialisasi.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisialisasi plugin Perhatikan bahwa data pembaca log IP tidak dihapus di sini.
-リダイレクトなし	Tidak ada pengalihan
-1秒	1 detik
-2秒	2 detik.
-3秒	3 detik.
-4秒	4 detik.
-5秒	5 detik.
-6秒	6 detik.
-7秒	7 detik.
-8秒	8 detik.
-9秒	9 detik.
-10秒	10 detik.
-15秒	15 detik.
-20秒	20 detik.
-25秒	25 detik.
-30秒	30 detik.
-35秒	35 detik.
-40秒	40 detik.
-45秒	45 detik.
-50秒	50 detik.
-55秒	55 detik.
-リダイレクトまでの時間	Saatnya mengalihkan.
-対象アクションを起こした時の表示デザイン	Desain tampilan saat tindakan target dipicu.
-黄色の背景の黒文字のベーシックデザイン	Desain dasar dengan huruf-huruf hitam pada latar belakang kuning
-黒色の背景の赤文字のホラー風デザイン	Desain bergaya horor dengan teks merah pada latar belakang hitam.
-対象アクションを起こした時のサウンド	Bunyi ketika tindakan target diambil.
-サウンドなし	Tanpa suara
-戦闘 - 40秒	Tempur - 40 detik.
-おやじ - 3秒	Ayah - 3 detik.
-レトロ風ファンファーレ - 2秒	Keriuhan gaya retro - 2 detik.
-レトロ風オープン - 48秒	Gaya retro terbuka - 48 detik.
-デザイン・音の設定	Pengaturan desain dan suara
-レトロ風オープン - 42秒	Gaya retro terbuka - 42 detik.
-おやじ ショート- 3秒	Ayah Pendek - 3 detik.
-おやじ ロング - 23秒	Ayah, lama - 23 detik.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopin Etude, Op.10-5, tuts hitam, versi cepat - 59 detik.
-スクリーンショットを取得しようとした動作を検出しました	Gerakan terdeteksi saat mencoba mengambil tangkapan layar.
-スクリーンショットの疑い	Tangkapan layar yang dicurigai.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Metode deteksi untuk item di atas tidak sempurna, digunakan deteksi pencegahan.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plug-in ini berisi musik dari game Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Operasi terdeteksi pada tombol yang biasanya tidak digunakan dalam pengoperasian situs web
-スクリーンショットの疑いの警告メッセージ	Dugaan pesan peringatan tangkapan layar.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolusi, versi cepat - 1 menit 57 detik.
-1分10秒	1 menit 10 detik.
-1分20秒	1 menit 20 detik.
-1分30秒	1 menit 30 detik.
-1分40秒	1 menit 40 detik.
-1分50秒	1 menit 50 detik.
-黒色の背景の赤文字の光る文字のデザイン	Desain huruf merah menyala pada latar belakang hitam.
-スクリーンショット、デバッグモード等の起動は禁止されています	Dilarang mengaktifkan tangkapan layar, mode debug, dll.
-警告表示中のBGMを選択します	Pilih musik latar belakang selama tampilan peringatan.
-有効 音量小さ目	Diaktifkan Volume rendah
-有効 音量大き目	Diaktifkan Volume paling keras
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bip pada semua peristiwa tombol/mouse selama tampilan peringatan
-対象アクションを起こした時のBGM	BGM ketika tindakan target diambil.
-対象アクションを起こした時の警告音	Bunyi peringatan saat tindakan target diambil.
-対象アクションを起こした時のマウスカーソルの消去	Menghapus kursor mouse saat tindakan target dilakukan.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Menghapus kursor mouse di area browser selama tampilan peringatan
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Situs web ini hanya dapat dilihat dengan cookie dan JavaScript diaktifkan
-通常とは異なる方法でのアクセスや操作が検出されました	Metode akses atau operasi yang tidak biasa telah terdeteksi.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Beberapa fungsi dibatasi untuk keamanan dan perlindungan konten.
-コンテンツ保護のため一部の機能を制限しています	Beberapa fungsi dibatasi untuk melindungi konten.
-あなたが押下したキー	Tombol yang Anda tekan.
-戦闘 - 39.8秒	Tempur - 39,8 detik.
-おやじ ショート- 3.7秒	Ayah Pendek - 3,7 detik
-おやじ ロング - 22.7秒	Father Long - 22,7 detik.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopin Etude, Op.10-5, tuts hitam, versi cepat - 57,8 detik.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolusi, versi cepat - 1 menit 54,9 detik.
-レトロ風ファンファーレ - 2.2秒	Keriuhan gaya retro - 2,2 detik.
-レトロ風オープン - 41.2秒	Gaya retro terbuka - 41,2 detik.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plug-in ini menyertakan file font dan font untuk seni ASCII yang dihasilkan oleh
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Versi yang dibawakan - 37,8 detik.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, dimulai dari 24 Caprices - Versi yang dilakukan - 27,4 detik.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopin Etude, Op.10-5, tuts hitam, versi petikan, versi cepat - 57,8 detik.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 54,9 detik.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Scherzo in B flat minor, Op2, versi yang diketik, versi yang diperpendek dengan cepat - 1 menit 46,1 detik.
-ファンファーレ - 19.3秒	Keriuhan - 19,3 detik.
-Firefoxでは音声ブロックされます	Firefox akan memblokir audio.
-Firefoxにおけるデバッグモード	Mode debug di Firefox
-テキスト全選択	Pilihan teks lengkap
-テキストの選択は禁止されています	Dilarang memilih teks.
-テキスト全選択時の警告メッセージ	Pesan peringatan ketika semua teks dipilih.
-スクリーンショットだけではなく、デバッグモード等も検出します	Aplikasi ini mendeteksi tangkapan layar serta mode debug, dll.
-イベントの設定	Konfigurasi acara.
-メッセージ	Pesan.
-デザイン・音	Desain dan suara
-初期化	Inisialisasi
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menampilkan seni ASCII yang menunjukkan maksud untuk memperingatkan saat menampilkan sumber HTML dengan sumber tampilan.
-HTML保護と組み合わせることでコンテンツを保護することができます	Dikombinasikan dengan proteksi HTML, konten dapat diproteksi
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Gambar akan dimuat dengan lambat, tetapi gambar akan dipaksa dimuat 30 detik sebelum waktu yang ditentukan.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Setiap kali diaktifkan, pengalihan terjadi, yang secara signifikan memengaruhi SEO
-びっくりするような雰囲気を作ります	Ciptakan suasana yang mengejutkan
-対象アクションを起こした時のビープ音	Bunyi bip saat tindakan target dilakukan.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Menciptakan suasana seolah-olah perangkat sudah tidak terkendali selama tampilan peringatan
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Tergantung pada konfigurasi plug-in ini, acara ini mungkin jarang tercapai
-JavaScript描画で有効	Berlaku untuk rendering JavaScript.
-リダイレクトで有効	Berlaku untuk pengalihan.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Jika Anda memilih Diaktifkan untuk pengalihan, ini juga akan mencatat kapan perilaku view-source: dilakukan.
-リダイレクトで有効はFirefoxに対しては無効です	Diaktifkan pada pengalihan tidak berlaku untuk Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mengaktifkan rendering JavaScript akan secara signifikan memperlambat kecepatan tampilan situs web
-いずれもSEOに著しく影響があります	Keduanya memiliki dampak yang signifikan pada SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Cookie dan JavaScript harus diaktifkan untuk menggunakan situs web ini.
-AI学習用botをアクセス禁止にする	Melarang akses ke bot pembelajaran AI.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Menghindari bot pembelajaran AI terhadap HTML mencegahnya digunakan oleh AI, tetapi tidak sepenuhnya mengatasi
-Firefoxに対しては無効です	Tidak berlaku untuk Firefox.
-SEOに著しく影響があります	Secara signifikan mempengaruhi SEO.
-HTMLをJavaScriptで描画	Merender HTML dengan JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	Merender HTML dengan JavaScript sebagai ukuran Firefox
-PNG形式で1×1ピクセルの透過画像	Gambar transparan 1 x 1 piksel dalam format PNG.
-戦闘＆戦闘勝利 - 1分16.3秒	Kemenangan tempur & pertempuran - 1 menit 16,3 detik
-おやじ ショート- 3.8秒	Ayah Pendek - 3,8 detik
-おやじ ロング - 23.5秒	Ayah, panjang - 23,5 detik.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopin Etude Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 00,0 detik.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Scherzo in B flat minor, Op2, versi yang diketik, versi yang diperpendek dengan cepat - 1 menit 48,0 detik.
-ファンファーレ - 22.3秒	Keriuhan - 22,3 detik.
-レトロ風オープン - 42.1秒	Gaya retro terbuka - 42,1 detik.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopin Etude, Op.10-5, tuts hitam, versi diketik, versi cepat - 1 menit 0,0 detik.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopin Etude Op.10-12 Revolusi, versi diketik, versi cepat - 1 menit 57,6 detik.
-ウインドウが背面に移動した時スクリーンショットの疑い	Kecurigaan adanya tangkapan layar ketika jendela dipindahkan ke belakang.
-2キー押下のスクリーンショットの疑い	Kecurigaan terhadap tangkapan layar dengan dua kali penekanan tombol.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Selain itu, ini juga bereaksi terhadap fungsi selain tangkapan layar
-このオプションを有効にするとview-sourceのログが取得できます	Aktifkan opsi ini untuk mencatat sumber tampilan
 不正なリクエストです	Permintaan yang salah.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Kemenangan tempur & pertempuran - 1 menit 16,3 detik - Lisensi: CC2.1 atau yang lebih baru
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 detik - Lisensi GPL2.0 atau yang lebih baru
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23,5 detik - Lisensi GPL2.0 atau yang lebih baru
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-5, tuts hitam, versi diketik, versi cepat - 1 menit 0,0 detik - Lisensi: domain publik
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 57,6 detik - Lisensi: domain publik
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo in B flat minor, Op2, versi diketik, versi singkat cepat - 1 menit 48,0 detik - Lisensi: domain publik
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Keriuhan - 22,3 detik - Lisensi: domain publik
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Keriuhan bergaya retro - 2,2 detik - Lisensi: domain publik
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Gaya retro terbuka - 42,1 detik - Lisensi: domain publik
+画像が見つかりません	Gambar tidak ditemukan.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar, meskipun hal ini tidak dapat diatasi sepenuhnya.
+無効なUAをアクセス禁止にする	Nonaktifkan akses ke UA yang tidak valid.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Hindari akses jika ada string karakter yang tidak valid di agen pengguna.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Peringatan untuk Internet Explorer dan akses Microsoft Edge sebelumnya.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Hindari akses ke Internet Explorer dan Microsoft Edge sebelumnya.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plug-in ini berisi musik dari game Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin ini berisi musik yang menggunakan 'Keppy s YAMAHA C7' yang dibuat oleh Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, tuts hitam, versi diketik, versi cepat - 1 menit 0,0 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 57,6 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo in B flat minor, Op2, versi yang diketik, versi yang diperpendek dengan cepat - 1 menit 48,0 detik - Lisensi: CC BY-ND 4.0 atau yang lebih baru
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Browser yang Anda gunakan saat ini adalah versi lama yang tidak lagi didukung. Untuk lingkungan penjelajahan yang lebih aman dan nyaman, perbarui ke browser terbaru.

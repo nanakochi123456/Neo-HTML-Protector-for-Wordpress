@@ -12,6 +12,10 @@ IPアドレスのデータはありません	Nejsou k dispozici žádné údaje 
 デバッグモード、コンソールの警告メッセージ	Režim ladění, varovné zprávy v konzole.
 右クリックの警告メッセージ	Výstražné zprávy kliknutím pravým tlačítkem myši.
 印刷、PDF保存の警告メッセージ	Upozornění při tisku a ukládání souborů PDF.
+スクリーンショットの警告メッセージ	Výstražné zprávy na obrazovce.
+スクリーンショットの疑いの警告メッセージ	Údajná varovná zpráva na snímku obrazovky.
+テキスト全選択時の警告メッセージ	Výstražná zpráva při výběru celého textu.
+ページ保存の警告メッセージ	Varovná zpráva o uložení stránky.
 コピー・カットした時に表示するメッセージ	Zpráva zobrazená při kopírování nebo řezání.
 HTMLソース表示時に表示するメッセージ	Zpráva, která se zobrazí při zobrazení zdroje HTML
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Zpráva, která se zobrazí na začátku zdrojového kódu, pokud je kód HTML obfuskován a chráněn.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	Obfuskace HTML
 無効	Neplatné
 有効	Platnost
 一般的なHTML圧縮です、難読化解除のサイトもあります	Obecná komprese HTML, některé weby mají funkci de-obfuskace.
+このオプションを有効にするとview-sourceのログが取得できます	Povolte tuto možnost pro protokolování view-source
 HTML保護	Ochrana HTML
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Nad rámec komprese HTML je vypsáno pouze minimální množství HTML a obsah značky BODY není vypsán vůbec.
-view-source:の動作をされた時の記録もします	Zaznamenává také, kdy byla provedena akce view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Pokaždé, když je aktivována, dojde k přesměrování, což může mít za následek pokles SEO.
-若干デザインが変わる可能性があります	Design se může mírně změnit.
+Firefoxに対しては無効です	Neplatí pro Firefox.
+SEOに著しく影響があります	Významně ovlivňuje SEO.
+HTMLをJavaScriptで描画	Vykreslování HTML pomocí JavaScriptu
+Firefox対策としてHTMLをJavaScriptで描画をします	Vykreslování HTML pomocí JavaScriptu jako opatření Firefoxu
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Povolení vykreslování v JavaScriptu výrazně zpomalí rychlost zobrazování webových stránek.
 画像の保護	Ochrana obrazu.
-add_filterを使用して画像を保護	Ochrana obrázků pomocí add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Zachycení a ochrana obrázků mezi wp_head a wp_footer
+imgタグが呼び出されるごとに画像を保護	Chrání obrázek při každém volání značky img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ochrana všech obrázků nahraných do Wordpressu ve všech výstupech HTML
 画像をダウンロードから保護します	Chrání obrázky před stahováním.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Téměř zcela zabrání stahování, pokud jsou data obrázku chráněna, vydá kompletní jednorázovou adresu URL, ověří se pomocí tokenu uloženého v relaci a zobrazí obrázek z php, čímž téměř zcela zabrání krádeži obrázku.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Ukládání obrázků do mezipaměti nefunguje, pokud jsou data obrázků chráněna, takže se web při další návštěvě načítá pomaleji, což může mít za následek pokles SEO.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Pokud jsou data obrázků chráněna, nefunguje ukládání obrázků do mezipaměti, takže se web při další návštěvě načítá pomaleji, což ovlivňuje SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zatížení databáze může být vyšší, pokud jsou obrazová data chráněna.
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metoda používající add_filter filtruje značky img při jejich publikování, zatímco metoda používající wp_head až wp_footer zpracovává všechny značky img v obsahu.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pro 'Chránit obrázek při každém volání tagu img' použijte add_filter a filtr při publikování tagů img, v závislosti na tématu to nemusí fungovat správně.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Chránit všechny obrázky nahrané do Wordpressu ze všech výstupů HTML' zachytí téměř veškerou činnost Wordpressu a zpracuje vše o značkách img v obsahu. Některá témata nebudou fungovat správně
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Všimněte si, že obrázky zadané jako poutavé se šíří jako OGP a nelze je chránit. Pokud je musíte chránit, změňte prosím výběr výstupu značky HEAD při ochraně HTML v pokročilém nastavení.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standardní funkci snímku obrazovky operačního systému nelze chránit
 画像URLの保護	Ochrana adres URL obrázků
-即時読み込みをして有効	Účinné při okamžitém načtení.
-遅延読み込みをして有効	Povoleno s odloženým načítáním.
 画像の保護と組み合わせて使用します、単体では意味がありません	Používá se v kombinaci s ochranou obrazu, sama o sobě nemá význam.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Je načítán dynamicky pomocí JavaScriptu, což má vliv na SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Zpožděné čtení kvůli JavaScriptu, které ovlivňuje SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Výstup umění ASCII ve zdrojovém kódu HTML při obfuskaci a ochraně HTML.
 表示なし	Žádný údaj
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazení obrázku ASCII označujícího záměr varovat při zobrazení zdroje HTML.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Zkontrolujte zobrazení zdroje v nepřihlášeném prohlížeči.
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazení obrázku ASCII označujícího záměr varovat při zobrazení zdroje HTML pomocí view-source.
+対象アクションを起こした時の表示デザイン	Návrh zobrazení při spuštění cílové akce.
+黄色の背景の黒文字のベーシックデザイン	Základní design s černými písmeny na žlutém pozadí
+黒色の背景の赤文字のホラー風デザイン	Design v hororovém stylu s červeným textem na černém pozadí.
+黒色の背景の赤文字の光る文字のデザイン	Design svítících červených písmen na černém pozadí.
+対象アクションを起こした時のBGM	BGM, když je provedena cílová akce.
+サウンドなし	Bez zvuku
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Bojová a bitevní vítězství - 1 min 16,3 s - Licence: CC2.1 nebo novější
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekundy - Licence GPL2.0 nebo novější
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Otec Long - 23,5 s - Licence GPL2.0 nebo novější
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-5, černé klávesy, strojová verze, rychlá verze - 1 min 0,0 s - Licence: CC BY-ND 4.0 nebo novější
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 57,6 s - Licence: CC BY-ND 4.0 nebo novější
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinovo Scherzo b moll, op. 2, strojopisná verze, zkrácená verze - 1 min 48,0 s - Licence: CC BY-ND 4.0 nebo novější
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfára - 22,3 sekundy - Licence: public domain
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfára v retro stylu - 2,2 s - Licence: public domain
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licence: public domain
+警告表示中のBGMを選択します	Výběr hudby na pozadí během zobrazení výstrahy.
+びっくりするような雰囲気を作ります	Vytvoření překvapivé atmosféry
+Firefoxでは音声ブロックされます	Firefox zablokuje zvuk.
+対象アクションを起こした時のビープ音	Pípnutí při provedení cílové akce.
+有効 音量小さ目	Povoleno Nízká hlasitost
+有効 音量大き目	Povoleno Nejvyšší hlasitost
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Pípnutí při všech událostech kláves/myši během zobrazení varování
+警告表示中に端末が暴走したかのような雰囲気を作ります	Vytvoření atmosféry, jako by se zařízení během zobrazení výstrahy vymklo kontrole.
+対象アクションを起こした時のマウスカーソルの消去	Vymazání kurzoru myši při provedení cílové akce.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Vymazání kurzoru myši v oblasti prohlížeče během zobrazení varování
 デバッグモード	Režim ladění
 妨害＋記録のみ	Pouze rušení + záznam.
 妨害＋記録＋表示＋リダイレクト	Zachycení + záznam + zobrazení + přesměrování
 メニューからは操作できてしまいます	Lze jej ovládat z nabídky.
+Firefoxにおけるデバッグモード	Režim ladění ve Firefoxu
 ブラウザーコンソール	Konzola prohlížeče
 事実上デバッグモードから操作できてしまいます	V podstatě můžete pracovat v režimu ladění.
 HTMLソース表示	Zobrazení zdroje HTML
 view-source:から始まるURLを入力すれば操作できてしまいます	Lze ji ovládat zadáním adresy URL začínající na view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	V kombinaci s ochranou HTML lze chránit obsah.
 印刷	Tisk
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Blokování tisku, ale v některých prohlížečích nefunguje dobře
+スクリーンショット	Snímek obrazovky
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	V závislosti na operačním systému, prohlížeči a metodě nemusí být zachyceny nebo detekovány.
+ウインドウが背面に移動した時スクリーンショットの疑い	Podezření na snímky obrazovky při posunutí oken dozadu.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Kromě toho reaguje i na jiné funkce než snímky obrazovky
+2キー押下のスクリーンショットの疑い	Podezření na snímky obrazovky se dvěma stisky kláves.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda detekce výše uvedených položek není dokonalá, používá se preventivní detekce.
+スクリーンショットだけではなく、デバッグモード等も検出します	Detekuje snímky obrazovky i režimy ladění atd.
 ページ保存	Uložení stránky
 右クリック	Klikněte pravým tlačítkem myši na
 アドオンがインストールされていると操作できてしまいます	Pokud jsou nainstalovány doplňky, lze jej provozovat.
 コピー・カット	Kopírování
-あまりこのイベントに遭遇することはありません	S touto událostí se nesetkáváme příliš často.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	V závislosti na konfiguraci tohoto modulu plug-in může být tato událost dosažena jen zřídka.
+テキスト全選択	Výběr celého textu
 テキスト選択	Výběr textu
 デバッガー妨害	Rušení ladicího programu
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Režim ladění je méně uživatelsky přívětivý, některé prohlížeče toto chování zastavují.
 リダイレクトするURL	URL pro přesměrování na
 利用規約などのページに転送すると良いでしょう	Možná je budete chtít přesměrovat na stránky, jako jsou například Podmínky používání.
+空欄にすると元のURLにリダイレクトをします	Pokud zůstane prázdná, přesměruje na původní adresu URL.
+リダイレクトまでの時間	Čas na přesměrování.
+リダイレクトなし	Žádné přesměrování
+1秒	1 sekunda
+2秒	2 sekundy.
+3秒	3 sekundy.
+4秒	4 sec.
+5秒	5 s.
+6秒	6 s.
+7秒	7 sec.
+8秒	8 sec.
+9秒	9 sec.
+10秒	10 s.
+15秒	15 sekund.
+20秒	20 s.
+25秒	25 s.
+30秒	30 sekund.
+35秒	35 sekund.
+40秒	40 sekund.
+45秒	45 sekund.
+50秒	50 s.
+55秒	55 s.
+1分	Jedna minuta
+1分10秒	1 min 10 s.
+1分20秒	1 min 20 s.
+1分30秒	1 minuta 30 sekund.
+1分40秒	1 minuta 40 sekund.
+1分50秒	1 minuta a 50 sekund.
+2分	2 minuty
 ソース表示を許可する権限	Autorita pro povolení zobrazení zdroje.
 ADMINログイン時のみ通常のソース出力	Normální výstup zdroje pouze při přihlášení ADMIN
 USERログインで通常のソース出力	Normální výstup zdroje s přihlášením USER
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Vyberte, zda je normální výstup HTML určen pouze pro správce nebo pro přihlášení uživatelů.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Co se vlastně stahuje vynucením stažení obrázku.
+GIF形式で1×1ピクセルの透過画像	Průhledný obrázek 1 x 1 pixel ve formátu GIF.
+PNG形式で1×1ピクセルの透過画像	1 x 1 pixel průhledný obrázek ve formátu PNG.
+PNG形式で黄色い背景の警告画面	Výstražná obrazovka se žlutým pozadím ve formátu PNG.
+意味のないHTMLドキュメント	Nesmyslné dokumenty HTML
 HTML保護時のHEADタグの出力	Výstup značek HEAD při ochraně HTML
 出力しない	Žádný výstup
 TITLEタグのみ	Pouze značka TITLE
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Získáno z tagu HEAD v aplikaci Wordpress
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrázky OGP se nebudou zobrazovat ve sdíleních na sociálních sítích, pokud nebudou převzaty z tagu HEAD ve Wordpressu.
 画像botをアクセス禁止にする	Zákaz obrazového bota.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vyhnutí se obrázkovým robotům vůči HTML chrání obsah, který by nemohl být chráněn přímými odkazy z vyhledávání obrázků.
+AI学習用botをアクセス禁止にする	Zákaz přístupu k botům pro učení umělé inteligence.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Vyhnutí se učícímu se botovi umělé inteligence proti jazyku HTML zabraňuje jeho použití umělou inteligencí, ale neřeší zcela.
 alertメッセージを表示する言語	Jazyk, ve kterém se zobrazuje výstražná zpráva.
 Wordpressの言語	Jazyky Wordpressu.
 ブラウザの設定言語	Jazyk nastavení prohlížeče
 メッセージをカスタム設定されている場合は言語を変更できません	Jazyk nelze změnit, pokud je zpráva přizpůsobena.
 view-sourceメッセージを表示する言語	Jazyk, ve kterém se zobrazují zprávy zdroje zobrazení.
 一時使用トークンの有効期限	Datum vypršení platnosti tokenů pro dočasné použití.
-1分	Jedna minuta
-2分	2 minuty
 3分	3 min.
 4分	4 min.
 5分	5 minut.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Jazyk, ve kterém se zobrazují 
 1時間	1 hodina
 画像URL情報の有効期限を設定します	Nastaví datum vypršení platnosti informací o adrese URL obrázku.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Po načtení jsou informace o adrese URL obrázku a tokeny pro dočasné použití zakázány.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Obrázek bude načten líně, ale bude vynuceno jeho načtení 30 sekund před tímto zadaným časem.
 一時使用トークンのビット数	Počet bitů v žetonech pro dočasné použití
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Určuje sílu tokenu dočasného použití, který se používá jako heslo pro šifrování informací o adrese URL obrázku.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita se zvyšuje s přechodem na možnosti uvedené pod rozevírací nabídkou, ale zvyšuje se zatížení serveru.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ačkoli se intenzita zvyšuje s přechodem na možnosti uvedené pod rozevírací nabídkou, zatížení serveru je vyšší a množství přeneseného HTML může být vyšší.
 ハッシュ化アルゴリズム	Algoritmus hashování
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Dočasné tokeny se používají jako hesla k šifrování informací o adrese URL obrázku, ale musí být zaheslovány, nastavte sílu zaheslování.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intenzita se zvyšuje s přechodem na možnosti uvedené pod rozevírací nabídkou, ale zvyšuje se zatížení serveru.
 基本設定	Základní nastavení
 高度な設定	Rozšířená nastavení
 初期設定に戻す	Obnovení výchozího nastavení
+デザイン・音の設定	Design a nastavení zvuku
+イベントの設定	Konfigurace události.
 メッセージの設定	Nastavení zpráv
 右クリックやソースコード表示時に転送する URL を設定します	Nastavení adresy URL, která se má předávat při kliknutí pravým tlačítkem myši nebo při zobrazení zdrojového kódu.
 警告メッセージにはHTMLは使用できません	HTML nelze použít pro varovné zprávy
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Jazyk, ve kterém se zobrazují 
 改行	Nový řádek
 押下されたキー	Stisknutá klávesa
 Neo HTML Protector 設定	Nastavení nástroje Neo HTML Protector
+メッセージ	Zpráva.
+デザイン・音	Design a zvuk
+初期化	Inicializace
 このプラグインについて	O tomto zásuvném modulu.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Chcete-li vymazat všechna data, odinstalujte modul plug-in a znovu jej nainstalujte.
+設定が初期化されました	Nastavení bylo inicializováno.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializuje zásuvný modul Všimněte si, že data čtečky protokolu IP se zde neodstraní.
 Neo HTML Protectorについて	O produktu Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tento zásuvný modul chrání HTML, obrázky atd. vycházející z vašeho Wordpressu a chrání jej před neoprávněným použitím jeho obsahu.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Obsah nelze dokonale chránit. Pokud je však budete všemožně varovat a budete připraveni na to, že se něco stane, měli byste být schopni to vyřešit národně předepsaným způsobem.
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	D
 寄付先	Dárce
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	S vaší podporou se budeme snažit, abychom vám v budoucnu přinášeli skvělé aktualizace!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Děkujeme vám za vaši podporu a těšíme se na další spolupráci.
+ライセンス	Licence
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Zásuvný modul byl vyvinut jako open source a je licencován pod licencí GPL 2.0 nebo novějšími verzemi.
+本プラグインには以下のライブラリを同梱しています	Součástí tohoto modulu plug-in jsou následující knihovny
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Tento zásuvný modul obsahuje písmo a soubory písma pro grafiku ASCII generovanou nástrojem
+アスキーアート（AA）作成	Tvorba umění ASCII
+ラッコ株式会社 利用承諾取得済	Otters Ltd Získán souhlas s použitím.
+巨大文字AAジェネレーター	Obří generátor postav AA
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Získaný souhlas s používáním
+The Gnome Project 利用承諾取得済	Získaný souhlas s používáním projektu Gnome
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Tento zásuvný modul obsahuje hudbu z neautorizované hry pro Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Zdroj zvuku klavíru 'Keppys YAMAHA C7' použitý v některých částech je SoundFont vytvořený KaleidonKep99 a použitý v souladu s licenčními podmínkami.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ostatní Raspberry Pi5, ChatGPT a deepl jsou použity při vývoji tohoto pluginu
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zjištěn zásuvný modul mezipaměti Tento zásuvný modul nebude fungovat správně, pokud je povolen zásuvný modul mezipaměti.
 無効なIPアドレス	Neplatná IP adresa.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Tyto webové stránky lze zobrazit pouze s povolenými soubory cookie a JavaScriptem.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Pro používání těchto webových stránek musí být povoleny soubory cookie a JavaScript.
+通常とは異なる方法でのアクセスや操作が検出されました	Byly zjištěny neobvyklé metody přístupu nebo provozu.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Některé funkce jsou omezeny z důvodu bezpečnosti a ochrany obsahu.
 デバッグモード、コンソールの起動は禁止されています	Režim ladění a aktivace konzoly je zakázána.
 以下の情報がサーバーに送信されました	Na server byly odeslány následující informace
 あなたのIPアドレス	Vaše IP adresa.
 あなたの端末とブラウザ	Vaše zařízení a prohlížeč
 あなたの押下したキー	Vaše stisknuté klávesy.
 リダイレクトをします	Přesměrování.
+コンテンツ保護のため一部の機能を制限しています	Některé funkce jsou z důvodu ochrany obsahu omezeny.
 右クリックは禁止されています	Klikání pravým tlačítkem myši je zakázáno.
+あなたが押下したキー	Stisknutá klávesa.
 印刷、PDFへの保存は禁止されています	Tisk a ukládání do PDF je zakázáno
+スクリーンショットは禁止されています	Snímky obrazovky jsou zakázány.
+スクリーンショット、デバッグモード等の起動は禁止されています	Aktivace snímků obrazovky, režimu ladění atd. je zakázána.
 ページの保存は禁止されています	Ukládání stránek je zakázáno.
 コピー、カットは禁止されています	Kopírování nebo stříhání je zakázáno.
 あなたが起こしたイベント	Události, které jste způsobili.
+テキストの選択は禁止されています	Výběr textu je zakázán.
 HTMLソース表示は禁止されています	Zobrazení zdroje HTML je zakázáno.
 不正アクセスは禁止されています	Neoprávněný přístup je zakázán.
 アラビア語	Arabština
@@ -195,166 +297,13 @@ HTMLソース表示は禁止されています	Zobrazení zdroje HTML je zakáz�
 中国語	Čínština
 簡体中国語	Zjednodušená čínština
 繁体中国語	Tradiční čínština
-画像が見つかりません	Obrázek nebyl nalezen.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ačkoli se intenzita zvyšuje s přechodem na možnosti uvedené pod rozevírací nabídkou, zatížení serveru je vyšší a množství přeneseného HTML může být vyšší.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Zpožděné čtení kvůli JavaScriptu, které ovlivňuje SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Co se vlastně stahuje vynucením stažení obrázku.
-PNG形式で黄色い背景の警告画面	Výstražná obrazovka se žlutým pozadím ve formátu PNG.
-GIF形式で1×1ピクセルの透過画像	Průhledný obrázek 1 x 1 pixel ve formátu GIF.
-意味のないHTMLドキュメント	Nesmyslné dokumenty HTML
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Pokaždé, když je aktivována, dojde k přesměrování, které má vliv na SEO.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Pokud jsou data obrázků chráněna, nefunguje ukládání obrázků do mezipaměti, takže se web při další návštěvě načítá pomaleji, což ovlivňuje SEO.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Zjištěn zásuvný modul mezipaměti Tento zásuvný modul nebude fungovat správně, pokud je povolen zásuvný modul mezipaměti.
-スクリーンショット	Snímek obrazovky
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Některé operační systémy a prohlížeče nemusí být schopny zachytit nebo detekovat
-スクリーンショットの警告メッセージ	Výstražné zprávy na obrazovce.
-ページ保存の警告メッセージ	Varovná zpráva o uložení stránky.
-スクリーンショットは禁止されています	Snímky obrazovky jsou zakázány.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	V závislosti na operačním systému, prohlížeči a metodě nemusí být zachyceny nebo detekovány.
-空欄にすると元のURLにリダイレクトをします	Pokud zůstane prázdná, přesměruje na původní adresu URL.
-ライセンス	Licence
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Zásuvný modul byl vyvinut jako open source a je licencován pod licencí GPL 2.0 nebo novějšími verzemi.
-本プラグインには以下のライブラリを同梱しています	Součástí tohoto modulu plug-in jsou následující knihovny
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ostatní Raspberry Pi5, ChatGPT a deepl jsou použity při vývoji tohoto pluginu
-imgタグが呼び出されるごとに画像を保護	Chrání obrázek při každém volání značky img.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ochrana všech obrázků nahraných do Wordpressu ve všech výstupech HTML
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Pro 'Chránit obrázek při každém volání tagu img' použijte add_filter a filtr při publikování tagů img, v závislosti na tématu to nemusí fungovat správně.
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Chránit všechny obrázky nahrané do Wordpressu ze všech výstupů HTML' zachytí téměř veškerou činnost Wordpressu a zpracuje vše o značkách img v obsahu. Některá témata nebudou fungovat správně
-設定が初期化されました	Nastavení bylo inicializováno.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializuje zásuvný modul Všimněte si, že data čtečky protokolu IP se zde neodstraní.
-リダイレクトなし	Žádné přesměrování
-1秒	1 sekunda
-2秒	2 sekundy.
-3秒	3 sekundy.
-4秒	4 sec.
-5秒	5 s.
-6秒	6 s.
-7秒	7 sec.
-8秒	8 sec.
-9秒	9 sec.
-10秒	10 s.
-15秒	15 sekund.
-20秒	20 s.
-25秒	25 s.
-30秒	30 sekund.
-35秒	35 sekund.
-40秒	40 sekund.
-45秒	45 sekund.
-50秒	50 s.
-55秒	55 s.
-リダイレクトまでの時間	Čas na přesměrování.
-対象アクションを起こした時の表示デザイン	Návrh zobrazení při spuštění cílové akce.
-黄色の背景の黒文字のベーシックデザイン	Základní design s černými písmeny na žlutém pozadí
-黒色の背景の赤文字のホラー風デザイン	Design v hororovém stylu s červeným textem na černém pozadí.
-対象アクションを起こした時のサウンド	Zvuk při provedení cílové akce.
-サウンドなし	Bez zvuku
-戦闘 - 40秒	Boj - 40 sec.
-おやじ - 3秒	Otec - 3 sekundy.
-レトロ風ファンファーレ - 2秒	Fanfáry v retro stylu - 2 s.
-レトロ風オープン - 48秒	Otevřeno v retro stylu - 48 s.
-デザイン・音の設定	Design a nastavení zvuku
-レトロ風オープン - 42秒	Otevření v retro stylu - 42 s.
-おやじ ショート- 3秒	Otec Krátký - 3 sec.
-おやじ ロング - 23秒	Otec, dlouhý - 23 sec.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopinova etuda, op. 10-5, černé klávesy, rychlá verze - 59 sec.
-スクリーンショットを取得しようとした動作を検出しました	Při pokusu o pořízení snímku obrazovky byl zjištěn pohyb.
-スクリーンショットの疑い	Podezřelé snímky obrazovky.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Metoda detekce výše uvedených položek není dokonalá, používá se preventivní detekce.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Tento plug-in obsahuje hudbu z neautorizované hry pro Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Zjištěná operace na klávesách, které se běžně nepoužívají při provozu webových stránek.
-スクリーンショットの疑いの警告メッセージ	Údajná varovná zpráva na snímku obrazovky.
-ショパン エチュード Op.10-12 革命 高速版 - 59秒	Chopinova etuda op.10-12 Revoluce, rychlá verze - 59 sec.
-1分10秒	1 min 10 s.
-1分20秒	1 min 20 s.
-1分30秒	1 minuta 30 sekund.
-1分40秒	1 minuta 40 sekund.
-1分50秒	1 minuta a 50 sekund.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopinova etuda op. 10-12 Revoluce, rychlá verze - 1 min 57 s.
-黒色の背景の赤文字の光る文字のデザイン	Design svítících červených písmen na černém pozadí.
-スクリーンショット、デバッグモード等の起動は禁止されています	Aktivace snímků obrazovky, režimu ladění atd. je zakázána.
-警告表示中のBGMを選択します	Výběr hudby na pozadí během zobrazení výstrahy.
-有効 音量小さ目	Povoleno Nízká hlasitost
-有効 音量大き目	Povoleno Nejvyšší hlasitost
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Pípnutí při všech událostech kláves/myši během zobrazení varování
-対象アクションを起こした時のBGM	BGM, když je provedena cílová akce.
-対象アクションを起こした時の警告音	Výstražný zvuk při cílové akci.
-対象アクションを起こした時のマウスカーソルの消去	Vymazání kurzoru myši při provedení cílové akce.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Vymazání kurzoru myši v oblasti prohlížeče během zobrazení varování
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Tyto webové stránky lze zobrazit pouze s povolenými soubory cookie a JavaScriptem.
-通常とは異なる方法でのアクセスや操作が検出されました	Byly zjištěny neobvyklé metody přístupu nebo provozu.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Některé funkce jsou omezeny z důvodu bezpečnosti a ochrany obsahu.
-コンテンツ保護のため一部の機能を制限しています	Některé funkce jsou z důvodu ochrany obsahu omezeny.
-あなたが押下したキー	Stisknutá klávesa.
-戦闘 - 39.8秒	Boj - 39,8 s.
-おやじ ショート- 3.7秒	Otec Short - 3,7 sekundy
-おやじ ロング - 22.7秒	Otec Long - 22,7 s.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopinova etuda, op. 10-5, černé klávesy, rychlá verze - 57,8 sec.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopinova etuda op.10-12 Revolution, rychlá verze - 1 min 54,9 s.
-レトロ風ファンファーレ - 2.2秒	Fanfára v retro stylu - 2,2 s.
-レトロ風オープン - 41.2秒	Otevření v retro stylu - 41,2 s.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Tento zásuvný modul obsahuje písmo a soubory písma pro grafiku ASCII generovanou nástrojem
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Performed version - 37.8 sec.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, začátek z 24 Caprices - Provedení - 27.4 sec.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopinova etuda, op. 10-5, černé klávesy, úderová verze, rychlá verze - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopinova etuda op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 54,9 s.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Scherzo b moll, op. 2, strojopisná verze, rychlá zkrácená verze - 1 min 46,1 s.
-ファンファーレ - 19.3秒	Fanfáry - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox zablokuje zvuk.
-Firefoxにおけるデバッグモード	Režim ladění ve Firefoxu
-テキスト全選択	Výběr celého textu
-テキストの選択は禁止されています	Výběr textu je zakázán.
-テキスト全選択時の警告メッセージ	Výstražná zpráva při výběru celého textu.
-スクリーンショットだけではなく、デバッグモード等も検出します	Detekuje snímky obrazovky i režimy ladění atd.
-イベントの設定	Konfigurace události.
-メッセージ	Zpráva.
-デザイン・音	Design a zvuk
-初期化	Inicializace
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Zobrazení obrázku ASCII označujícího záměr varovat při zobrazení zdroje HTML pomocí view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	V kombinaci s ochranou HTML lze chránit obsah.
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Obrázek bude načten líně, ale bude vynuceno jeho načtení 30 sekund před tímto zadaným časem.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Kdykoli je aktivována, dojde k přesměrování, které významně ovlivňuje SEO.
-びっくりするような雰囲気を作ります	Vytvoření překvapivé atmosféry
-対象アクションを起こした時のビープ音	Pípnutí při provedení cílové akce.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Vytvoření atmosféry, jako by se zařízení během zobrazení výstrahy vymklo kontrole.
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	V závislosti na konfiguraci tohoto modulu plug-in může být tato událost dosažena jen zřídka.
-JavaScript描画で有効	Platí pro vykreslování v jazyce JavaScript.
-リダイレクトで有効	Platí pro přesměrování.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Pokud vyberete možnost Povoleno pro přesměrování, bude se také zaznamenávat, kdy se chování view-source: provede.
-リダイレクトで有効はFirefoxに対しては無効です	Povoleno při přesměrování neplatí pro Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Povolení vykreslování v JavaScriptu výrazně zpomalí rychlost zobrazování webových stránek.
-いずれもSEOに著しく影響があります	Obojí má významný vliv na SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Pro používání těchto webových stránek musí být povoleny soubory cookie a JavaScript.
-AI学習用botをアクセス禁止にする	Zákaz přístupu k botům pro učení umělé inteligence.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Vyhnutí se učícímu se botovi umělé inteligence proti jazyku HTML zabraňuje jeho použití umělou inteligencí, ale neřeší zcela.
-Firefoxに対しては無効です	Neplatí pro Firefox.
-SEOに著しく影響があります	Významně ovlivňuje SEO.
-HTMLをJavaScriptで描画	Vykreslování HTML pomocí JavaScriptu
-Firefox対策としてHTMLをJavaScriptで描画をします	Vykreslování HTML pomocí JavaScriptu jako opatření Firefoxu
-PNG形式で1×1ピクセルの透過画像	1 x 1 pixel průhledný obrázek ve formátu PNG.
-戦闘＆戦闘勝利 - 1分16.3秒	Bojová a bitevní vítězství - 1 min 16,3 s
-おやじ ショート- 3.8秒	Otec Krátký - 3,8 sekundy
-おやじ ロング - 23.5秒	Otec, dlouhý - 23,5 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopinova etuda op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 00.0 sec.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Scherzo b moll, op. 2, strojopisná verze, rychlá zkrácená verze - 1 min 48,0 s.
-ファンファーレ - 22.3秒	Fanfára - 22,3 s.
-レトロ風オープン - 42.1秒	Retro-style open - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopinova etuda, op. 10-5, černé klávesy, strojová verze, rychlá verze - 1 min 0,0 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopinova etuda op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 57,6 s.
-ウインドウが背面に移動した時スクリーンショットの疑い	Podezření na snímky obrazovky při posunutí oken dozadu.
-2キー押下のスクリーンショットの疑い	Podezření na snímky obrazovky se dvěma stisky kláves.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Kromě toho reaguje i na jiné funkce než snímky obrazovky
-このオプションを有効にするとview-sourceのログが取得できます	Povolte tuto možnost pro protokolování view-source
 不正なリクエストです	Nesprávný požadavek.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Bojová a bitevní vítězství - 1 min 16,3 s - Licence: CC2.1 nebo novější
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3,8 sekundy - Licence GPL2.0 nebo novější
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Otec Long - 23,5 s - Licence GPL2.0 nebo novější
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopinova etuda, op.10-5, černé klávesy, strojová verze, rychlá verze - 1 min 0,0 s - Licence: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopinova etuda, op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 57,6 s - Licence: public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo b moll, op. 2, strojopisná verze, zkrácená verze - 1 min 48,0 s - Licence: public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfára - 22,3 sekundy - Licence: public domain
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfára v retro stylu - 2,2 s - Licence: public domain
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licence: public domain
+画像が見つかりません	Obrázek nebyl nalezen.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Vyhnutí se obrázkovým botům vůči HTML chrání obsah, který by nemohl být chráněn přímými odkazy z vyhledávání obrázků, i když to nelze zcela vyřešit.
+無効なUAをアクセス禁止にする	Zakázat přístup k neplatným UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Zamezení přístupu, pokud je v uživatelském agentu neplatný řetězec znaků.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Upozornění pro přístup k Internet Exploreru a bývalému prohlížeči Microsoft Edge.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Vyhněte se přístupu k Internet Exploreru a bývalému prohlížeči Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Tento plug-in obsahuje hudbu z neautorizované hry pro Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Tento plugin obsahuje hudbu používající 'Keppy s YAMAHA C7' vytvořenou Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-5, černé klávesy, strojová verze, rychlá verze - 1 min 0,0 s - Licence: CC BY-ND 4.0 nebo novější
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopinova etuda, op.10-12 Revoluce, strojová verze, rychlá verze - 1 min 57,6 s - Licence: CC BY-ND 4.0 nebo novější
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopinovo Scherzo b moll, op. 2, strojopisná verze, zkrácená verze - 1 min 48,0 s - Licence: CC BY-ND 4.0 nebo novější
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Prohlížeč, který právě používáte, je starší verze, která již není podporována. Pro bezpečnější a pohodlnější prohlížení stránek aktualizujte prohlížeč na nejnovější verzi.

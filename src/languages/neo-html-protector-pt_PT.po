@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (European)\n"
 "Language: pt_PT\n"
@@ -477,14 +477,26 @@ msgstr "As imagens do OGP não serão exibidas em partilhas nas redes sociais, a
 msgid "画像botをアクセス禁止にする"
 msgstr "Banir o bot de imagens."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitar os bots de imagem em relação ao HTML protege os conteúdos que não poderiam ser protegidos por ligações diretas a partir da pesquisa de imagens."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitar os bots de imagem em relação ao HTML protege os conteúdos que não poderiam ser protegidos por ligações diretas a partir da pesquisa de imagens, embora isto não possa ser completamente resolvido."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Proibição do acesso a bots de aprendizagem de IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitar que o bot de aprendizagem da IA use HTML impede que este seja utilizado pela IA, mas não resolve completamente o problema"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Desativar o acesso a UAs inválidas."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evitar o acesso se existir uma cadeia de caracteres inválida no agente do utilizador."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Aviso para o acesso ao Internet Explorer e ao antigo Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evitar o acesso ao Internet Explorer e ao antigo Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Língua em que a mensagem de alerta é apresentada."
@@ -685,7 +697,7 @@ msgid "寄付について"
 msgstr "Sobre os donativos"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Os donativos são voluntários e não obrigatórios. Está aberto a todos para que o plugin possa ser utilizado gratuitamente. No entanto, o seu apoio é muito apreciado para continuar o desenvolvimento e teremos todo o gosto em ajudar no que pudermos."
+msgstr "Os donativos são voluntários e não obrigatórios. Está aberto a toda a gente para que o plugin possa ser utilizado gratuitamente. No entanto, o seu apoio é muito apreciado para continuar o desenvolvimento e teremos todo o gosto em ajudar no que pudermos."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Os donativos podem ser feitos através da ligação abaixo. Se for do Japão, também pode doar gratuitamente e, além disso, pode facilmente doar utilizando vales de oferta da Amazon."
@@ -899,6 +911,9 @@ msgstr "Chinês simplificado"
 
 msgid "繁体中国語"
 msgstr "Chinês tradicional"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "O browser que está a utilizar atualmente é uma versão mais antiga que já não é suportada. Para um ambiente de navegação mais seguro e confortável, actualize para o browser mais recente."
 
 msgid "不正なリクエストです"
 msgstr "Pedido incorreto."

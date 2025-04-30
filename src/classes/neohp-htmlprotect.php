@@ -27,6 +27,19 @@ class neohp_htmlprotect {
 			}
 		}
 
+		if(get_option('neohp_injustice_ua', '0') === '1') {
+			if($this->neohp_func->is_injustice_ua() ) {
+				$this->neohp_func->err403();
+			}
+		}
+
+		if(get_option('neohp_injustice_ie', '0') === '1') {
+			if($this->neohp_func->is_ie() ) {
+				wp_die(__('現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします', 'neo_html_protector' ) );
+			}
+		}
+
+
 		// 高い優先度でリダイレクト処理を追加（template_redirectフックを使用）
 		if(get_option('neohp_htmlprotect', '0') !== '0') {
 			// 画像がクエリーに入っていたら転送をする（こっちが処理先）

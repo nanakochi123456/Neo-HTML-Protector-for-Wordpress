@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -139,7 +139,7 @@ msgid "画像をダウンロードから保護します"
 msgstr "Beschermt afbeeldingen tegen downloaden."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Voorkomt bijna volledig downloaden als de afbeeldingsgegevens beschermd zijn, geeft een volledige eenmalige URL uit, verifieert met een token dat is opgeslagen in de sessie en geeft de afbeelding weer vanaf php, waardoor diefstal van afbeeldingen bijna volledig wordt voorkomen."
+msgstr "Voorkomt bijna volledig het downloaden als de afbeeldingsgegevens beschermd zijn, geeft een volledige eenmalige URL uit, verifieert met een token dat is opgeslagen in de sessie en geeft de afbeelding van php weer, waardoor diefstal van afbeeldingen bijna volledig wordt voorkomen."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
 msgstr "Wanneer afbeeldingsgegevens zijn afgeschermd, werkt image caching niet, waardoor de site langzamer laadt bij het volgende bezoek, wat invloed heeft op SEO"
@@ -148,7 +148,7 @@ msgid "画像データを保護した時には、データベースの負荷が�
 msgstr "Databasebelasting kan hoger zijn wanneer afbeeldingsgegevens worden beschermd"
 
 msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
-msgstr "Gebruik voor 'Bescherm afbeelding telkens wanneer img-tag wordt aangeroepen' add_filter en filter bij het publiceren van img-tags, afhankelijk van het thema werkt dit mogelijk niet correct"
+msgstr "Voor 'Bescherm afbeelding telkens wanneer img-tag wordt aangeroepen', gebruik add_filter en filter bij het publiceren van img-tags, sommige thema's werken niet correct."
 
 msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
 msgstr "Bescherm alle afbeeldingen die naar Wordpress worden geüpload uit alle HTML-uitvoer' zal bijna alle Wordpress-activiteit vastleggen en alles over de img-tags in de inhoud verwerken. Sommige thema's zullen niet correct werken"
@@ -292,7 +292,7 @@ msgid "スクリーンショット"
 msgstr "Screenshot"
 
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
-msgstr "Wordt mogelijk niet onderschept of gedetecteerd, afhankelijk van het besturingssysteem, de browser en de methode"
+msgstr "Wordt mogelijk niet onderschept of gedetecteerd, afhankelijk van het besturingssysteem, de browser of de methode"
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Verdenking van schermafbeeldingen wanneer de ramen naar achteren worden verplaatst."
@@ -337,7 +337,7 @@ msgid "デバッグモードの使い勝手を少し悪くします、ブラウ�
 msgstr "Maakt de debugmodus iets minder gebruiksvriendelijk, sommige browsers stoppen dit gedrag"
 
 msgid "リダイレクトするURL"
-msgstr "URL om naar door te verwijzen."
+msgstr "URL omleiden naar"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "Je kunt ze doorsturen naar pagina's zoals de Gebruiksvoorwaarden."
@@ -477,14 +477,26 @@ msgstr "Afbeeldingen van OGP worden niet weergegeven op sociale netwerken tenzij
 msgid "画像botをアクセス禁止にする"
 msgstr "De image bot verbieden."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Het vermijden van image bots ten opzichte van HTML beschermt inhoud die niet beschermd zou kunnen worden door directe links vanuit image search."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Het vermijden van image bots ten opzichte van HTML beschermt inhoud die niet beschermd zou kunnen worden door directe links vanuit image search, hoewel dit niet volledig kan worden aangepakt."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Toegang tot AI-leerbotten verbieden."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Het vermijden van de leerbot van de AI tegen HTML voorkomt dat het wordt gebruikt door de AI, maar pakt het niet volledig aan"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Toegang tot ongeldige UA's uitschakelen."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Vermijd toegang als er een ongeldige tekenreeks in de user agent staat."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Waarschuwing voor toegang tot Internet Explorer en voormalig Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Vermijd toegang tot Internet Explorer en het voormalige Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Taal waarin het waarschuwingsbericht wordt weergegeven."
@@ -899,6 +911,9 @@ msgstr "Vereenvoudigd Chinees"
 
 msgid "繁体中国語"
 msgstr "Traditioneel Chinees"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "De browser die je momenteel gebruikt is een oudere versie die niet langer wordt ondersteund. Voor een veiligere en comfortabelere browse-omgeving kunt u het beste updaten naar de nieuwste browser."
 
 msgid "不正なリクエストです"
 msgstr "Onjuist verzoek."

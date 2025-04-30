@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -154,7 +154,7 @@ msgid "「出力される全HTMLのうち、Wordpressにアップロードされ
 msgstr "'Lindungi semua gambar yang diunggah ke Wordpress dari semua keluaran HTML' akan menangkap hampir semua aktivitas Wordpress dan memproses semua hal tentang tag img di dalam konten. Beberapa tema tidak akan bekerja dengan benar"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
-msgstr "Perhatikan, bahwa gambar yang ditetapkan sebagai menarik perhatian, disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan."
+msgstr "Perhatikan, bahwa gambar yang ditetapkan sebagai eye-catching akan disebarkan sebagai OGP dan tidak dapat diproteksi. Jika Anda harus memproteksinya, ubahlah pilihan output dari tag HEAD saat memproteksi HTML di pengaturan lanjutan."
 
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Fungsi tangkapan layar OS standar tidak dapat diproteksi"
@@ -477,14 +477,26 @@ msgstr "Gambar OGP tidak akan ditampilkan dalam berbagi jejaring sosial kecuali 
 msgid "画像botをアクセス禁止にする"
 msgstr "Melarang bot gambar."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Menghindari bot gambar terhadap HTML melindungi konten yang tidak dapat dilindungi oleh tautan langsung dari pencarian gambar, meskipun hal ini tidak dapat diatasi sepenuhnya."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Melarang akses ke bot pembelajaran AI."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Menghindari bot pembelajaran AI terhadap HTML mencegahnya digunakan oleh AI, tetapi tidak sepenuhnya mengatasi"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Nonaktifkan akses ke UA yang tidak valid."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Hindari akses jika ada string karakter yang tidak valid di agen pengguna."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Peringatan untuk Internet Explorer dan akses Microsoft Edge sebelumnya."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Hindari akses ke Internet Explorer dan Microsoft Edge sebelumnya."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Bahasa yang digunakan untuk menampilkan pesan peringatan."
@@ -685,7 +697,7 @@ msgid "寄付について"
 msgstr "Tentang donasi"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa."
+msgstr "Donasi bersifat sukarela dan tidak wajib. Plugin ini terbuka untuk semua orang sehingga plugin ini dapat digunakan secara gratis. Namun, dukungan Anda sangat kami hargai untuk melanjutkan pengembangan dan kami akan dengan senang hati membantu dengan cara apa pun yang kami bisa."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Donasi dapat dilakukan melalui tautan di bawah ini. Jika Anda berasal dari Jepang, Anda juga dapat menyumbang secara gratis, dan lebih jauh lagi, Anda dapat dengan mudah menyumbang menggunakan voucher hadiah Amazon."
@@ -899,6 +911,9 @@ msgstr "Bahasa Mandarin yang disederhanakan"
 
 msgid "繁体中国語"
 msgstr "Bahasa Tionghoa tradisional"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Browser yang Anda gunakan saat ini adalah versi lama yang tidak lagi didukung. Untuk lingkungan penjelajahan yang lebih aman dan nyaman, perbarui ke browser terbaru."
 
 msgid "不正なリクエストです"
 msgstr "Permintaan yang salah."

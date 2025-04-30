@@ -12,6 +12,10 @@ IPアドレスのデータはありません	IP adreso duomenų nėra.
 デバッグモード、コンソールの警告メッセージ	Derinimo režimas, konsolės įspėjamieji pranešimai.
 右クリックの警告メッセージ	Dešiniuoju pelės klavišu spustelėkite įspėjamuosius pranešimus.
 印刷、PDF保存の警告メッセージ	Įspėjamieji pranešimai spausdinant ir išsaugant PDF failus.
+スクリーンショットの警告メッセージ	Ekrano nuotraukos įspėjamieji pranešimai.
+スクリーンショットの疑いの警告メッセージ	Tariamas ekrano nuotraukos įspėjamasis pranešimas.
+テキスト全選択時の警告メッセージ	Įspėjamasis pranešimas, kai pasirenkamas visas tekstas.
+ページ保存の警告メッセージ	Puslapio išsaugojimo įspėjamasis pranešimas.
 コピー・カットした時に表示するメッセージ	Kopijuojant arba pjaustant rodomas pranešimas.
 HTMLソース表示時に表示するメッセージ	Pranešimas, rodomas rodant HTML šaltinį
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Pranešimas, kuris bus rodomas šaltinio pradžioje, kai HTML yra užtušuotas ir apsaugotas.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	HTML užgožimas
 無効	Negalioja
 有効	Galiojimas
 一般的なHTML圧縮です、難読化解除のサイトもあります	Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija.
+このオプションを有効にするとview-sourceのログが取得できます	Įjunkite šią parinktį, kad būtų galima prisijungti prie peržiūros šaltinio
 HTML保護	HTML apsauga
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Už HTML suspaudimo ribų išvedamas tik minimalus HTML tekstas, o žymės BODY turinys iš viso neišvedamas.
-view-source:の動作をされた時の記録もします	Jame taip pat įrašoma, kada atliekamas veiksmas view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Kai jis įjungiamas, vyksta nukreipimas, dėl kurio gali sumažėti SEO
-若干デザインが変わる可能性があります	Dizainas gali šiek tiek pasikeisti.
+Firefoxに対しては無効です	Negalioja "Firefox".
+SEOに著しく影響があります	Ženkliai veikia SEO.
+HTMLをJavaScriptで描画	HTML atvaizdavimas naudojant "JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML atvaizdavimas naudojant "JavaScript" kaip "Firefox" priemonė
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Įjungus "JavaScript" atvaizdavimą, gerokai sulėtės svetainės rodymo greitis.
 画像の保護	Vaizdo apsauga.
-add_filterを使用して画像を保護	Apsaugokite vaizdus naudodami add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Užfiksuokite ir apsaugokite vaizdus tarp wp_head ir wp_footer
+imgタグが呼び出されるごとに画像を保護	Apsaugokite paveikslėlį kiekvieną kartą, kai iškviečiama žyma img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Apsaugokite visus į "Wordpress" įkeltus paveikslėlius visuose HTML išvedimuose
 画像をダウンロードから保護します	Apsaugo vaizdus nuo atsisiuntimo.
-画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkirsdamas kelią paveikslėlio vagystei.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Paveikslėlių spartinančioji atmintinė neveikia, kai paveikslėlių duomenys yra apsaugoti, todėl kito apsilankymo metu svetainė bus įkeliama lėčiau, todėl gali sumažėti SEO optimizavimas.
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkerta kelią paveikslėlio vagystei.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spartinančioji atmintinė, todėl svetainė kito apsilankymo metu įkeliama lėčiau, o tai turi įtakos SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Duomenų bazės apkrova gali būti didesnė, kai saugomi vaizdo duomenys
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Naudojant metodą add_filter filtruojamos img žymės, kai jos paskelbiamos, o naudojant metodą wp_head to wp_footer apdorojamos visos turinyje esančios img žymės.
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite žymės HEAD išvesties pasirinkimą, kai saugote HTML.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Dėl "Apsaugoti vaizdą kiekvieną kartą, kai iškviečiama img žyma", naudokite add_filter ir filtrą skelbdami img žymas, priklausomai nuo temos tai gali neveikti teisingai.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Apsaugoti visus vaizdus, įkeltus į "Wordpress", iš visų HTML išvesties" užfiksuos beveik visą "Wordpress" veiklą ir apdoros viską, kas susiję su turinio img žymėmis. Kai kurios temos neveiks teisingai
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite išvesties žymės HEAD pasirinkimą, kai saugote HTML.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standartinė OS ekrano nuotraukos funkcija negali būti apsaugota
 画像URLの保護	Paveikslėlių URL adresų apsauga
-即時読み込みをして有効	Veiksminga iš karto pakraunant.
-遅延読み込みをして有効	Įjungta su uždelstu įkrovimu.
 画像の保護と組み合わせて使用します、単体では意味がありません	Naudojama kartu su vaizdo apsauga, tačiau pati savaime ji nėra reikšminga.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Jį dinamiškai skaito "JavaScript", o tai turi įtakos SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Vėluojantis skaitymas dėl "JavaScript", kuris turi įtakos SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII meno išvedimas į HTML šaltinio kodą, kai atliekamas HTML užgožimas ir apsauga.
 表示なし	Jokių požymių
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai rodomas HTML šaltinis.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Patikrinkite peržiūrėdami šaltinį neprisijungusioje naršyklėje
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai HTML šaltinis rodomas naudojant view-source.
+対象アクションを起こした時の表示デザイン	Rodyti dizainą, kai suveikia tikslinis veiksmas.
+黄色の背景の黒文字のベーシックデザイン	Pagrindinis dizainas su juodomis raidėmis geltoname fone
+黒色の背景の赤文字のホラー風デザイン	Siaubo stiliaus dizainas su raudonu tekstu juodame fone.
+黒色の背景の赤文字の光る文字のデザイン	Dizainas su šviečiančiomis raudonomis raidėmis juodame fone.
+対象アクションを起こした時のBGM	BGM, kai atliekamas tikslinis veiksmas.
+サウンドなし	Be garso
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Kovos ir mūšio pergalės - 1 min. 16,3 sek. - Licencija: CC2.1 arba vėlesnė
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Tėvas Trumpas - 3,8 sekundės - Licencija GPL2.0 arba vėlesnė
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Tėvas Long - 23.5 sek - Licencija GPL2.0 arba vėlesnė
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno etiudas, op. 10-5, juodi klavišai, spausdinta versija, greita versija - 1 min 0.0 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno etiudas, op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min 57,6 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno Scherzo b-moll, op. 2, spausdinta versija, greitai sutrumpinta versija - 1 min 48,0 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfaros - 22.3 sekundės - Licencija: viešoji nuosavybė
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stiliaus fanfaros - 2,2 s - Licencija: viešoji nuosavybė
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licencija: viešoji nuosavybė
+警告表示中のBGMを選択します	Pasirinkite foninę muziką įspėjimo rodymo metu.
+びっくりするような雰囲気を作ります	Sukurkite netikėtą atmosferą
+Firefoxでは音声ブロックされます	"Firefox" blokuos garsą.
+対象アクションを起こした時のビープ音	Pyptelėjimas, kai atliekamas tikslinis veiksmas.
+有効 音量小さ目	Įjungta Mažas garsumas
+有効 音量大き目	Įjungta Garsiausias garsumas
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Įspėjimo rodymo metu skleidžiami garsiniai signalai, kai rodomi visi klaviatūros klavišų ir pelės paspaudimai
+警告表示中に端末が暴走したかのような雰囲気を作ります	įspėjamojo ekrano rodymo metu sukuriama atmosfera, tarsi prietaisas būtų nekontroliuojamas.
+対象アクションを起こした時のマウスカーソルの消去	Pelės žymeklio ištrynimas, kai atliekamas tikslinis veiksmas.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Išvalyti pelės žymeklį naršyklės srityje, kai rodomas įspėjimas
 デバッグモード	Derinimo režimas
 妨害＋記録のみ	Tik trukdžiai + įrašas.
 妨害＋記録＋表示＋リダイレクト	Perėmimas + įrašymas + rodymas + nukreipimas
 メニューからは操作できてしまいます	Jį galima valdyti iš meniu.
+Firefoxにおけるデバッグモード	"Firefox" derinimo režimas
 ブラウザーコンソール	Naršyklės konsolė
 事実上デバッグモードから操作できてしまいます	Iš tikrųjų galite dirbti derinimo režimu.
 HTMLソース表示	HTML šaltinio rodymas
 view-source:から始まるURLを入力すれば操作できてしまいます	Ją galima naudoti įvedus URL, prasidedantį žodžiais view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	Kartu su HTML apsauga turinį galima apsaugoti
 印刷	Spausdinimas
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Spausdinimo blokavimas, tačiau kai kuriose naršyklėse jis neveikia gerai
+スクリーンショット	Ekrano kopija
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Priklausomai nuo operacinės sistemos, naršyklės ir metodo, gali būti neperimta arba neaptikta.
+ウインドウが背面に移動した時スクリーンショットの疑い	Įtarimas dėl ekrano nuotraukų, kai langai perkeliami į galą.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Be to, ji reaguoja ir į kitas funkcijas, ne tik į ekrano nuotraukas
+2キー押下のスクリーンショットの疑い	Įtarimas dėl ekrano nuotraukų su dviem klavišų paspaudimais.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Minėtų elementų aptikimo metodas nėra tobulas, naudojamas prevencinis aptikimas.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ji aptinka ekrano nuotraukas, taip pat derinimo režimus ir kt.
 ページ保存	Puslapio išsaugojimas
 右クリック	Dešiniuoju pelės klavišu spustelėkite
 アドオンがインストールされていると操作できてしまいます	Jį galima naudoti, jei yra įdiegta priedų.
 コピー・カット	Kopijuoti-išpjauti
-あまりこのイベントに遭遇することはありません	Su tokiu įvykiu susiduriame nedažnai.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Priklausomai nuo šio papildinio konfigūracijos, šis įvykis gali būti pasiekiamas retai
+テキスト全選択	Viso teksto atranka
 テキスト選択	Teksto pasirinkimas
 デバッガー妨害	Derintuvo trukdžiai
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Derinimo režimas tampa šiek tiek mažiau patogus vartotojui, kai kurios naršyklės sustabdo šį elgesį.
 リダイレクトするURL	URL, į kurį reikia nukreipti
-利用規約などのページに転送すると良いでしょう	Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos.
+利用規約などのページに転送すると良いでしょう	Galbūt norėsite nukreipti juos į puslapius, pvz., Naudojimo sąlygos.
+空欄にすると元のURLにリダイレクトをします	Jei paliksite tuščią langą, jis bus nukreipiamas į pradinį URL adresą.
+リダイレクトまでの時間	Laikas persiorientuoti.
+リダイレクトなし	Nėra nukreipimo
+1秒	1 sekundė
+2秒	2 sek.
+3秒	3 sek.
+4秒	4 sek.
+5秒	5 sek.
+6秒	6 sek.
+7秒	7 sek.
+8秒	8 sek.
+9秒	9 sek.
+10秒	10 sek.
+15秒	15 sekundžių.
+20秒	20 sek.
+25秒	25 sek.
+30秒	30 sekundžių.
+35秒	35 sekundės.
+40秒	40 sekundžių.
+45秒	45 sekundės.
+50秒	50 sek.
+55秒	55 sek.
+1分	Viena minutė
+1分10秒	1 min. 10 sek.
+1分20秒	1 min. 20 sek.
+1分30秒	1 minutė 30 sekundžių.
+1分40秒	1 minutė 40 sekundžių.
+1分50秒	1 minutė 50 sekundžių.
+2分	2 minutės
 ソース表示を許可する権限	Įgaliojimas leisti rodyti šaltinį.
 ADMINログイン時のみ通常のソース出力	Įprastas šaltinio išėjimas tik ADMIN prisijungimo metu
 USERログインで通常のソース出力	Įprastas šaltinio išėjimas su vartotojo prisijungimu
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Pasirinkite, ar įprasta HTML išvestis skirta tik administratoriams, ar tik naudotojo prisijungimui
+画像を無理やりダウンロードして実際にダウンロードされるもの	Kas iš tikrųjų atsisiunčiama priverčiant atsisiųsti atvaizdą.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pikselio skaidrus GIF formato vaizdas.
+PNG形式で1×1ピクセルの透過画像	1 x 1 pikselio skaidrus vaizdas PNG formatu.
+PNG形式で黄色い背景の警告画面	Įspėjamasis ekranas geltoname fone PNG formatu.
+意味のないHTMLドキュメント	Bereikšmiai HTML dokumentai
 HTML保護時のHEADタグの出力	Žymos HEAD išvedimas HTML apsaugos metu
 出力しない	Nėra išvesties
 TITLEタグのみ	Tik žyma TITLE
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Gauta iš "Wordpress" žymos HEAD
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paimti iš "Wordpress HEAD" žymos.
 画像botをアクセス禁止にする	Vaizdo boto uždraudimas.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Vengdami vaizdų robotų ir HTML, apsaugote turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos.
+AI学習用botをアクセス禁止にする	Draudimas naudotis dirbtinio intelekto mokymosi robotais.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Jei dirbtinis intelektas vengia mokymosi boto prieš HTML, jis negali juo naudotis, tačiau visiškai nesprendžia
 alertメッセージを表示する言語	Kalba, kuria rodomas įspėjimo pranešimas.
 Wordpressの言語	"Wordpress" kalbos.
 ブラウザの設定言語	Naršyklės nustatymų kalba
 メッセージをカスタム設定されている場合は言語を変更できません	Kalbos negalima keisti, jei pranešimas yra pritaikytas
 view-sourceメッセージを表示する言語	Kalba, kuria rodomi peržiūros šaltinio pranešimai.
 一時使用トークンの有効期限	Laikino naudojimo žetonų galiojimo pabaigos data.
-1分	Viena minutė
-2分	2 minutės
 3分	3 min.
 4分	4 min.
 5分	5 min.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Kalba, kuria rodomi peržiūros 
 1時間	1 val.
 画像URL情報の有効期限を設定します	Nustato vaizdo URL informacijos galiojimo datą.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kai vaizdas įkeliamas, paveikslėlio URL informacija ir laikino naudojimo žetonai išjungiami.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Vaizdas bus įkeliamas tingiai, tačiau vaizdas bus priverstinai įkeltas likus 30 sekundžių iki nurodyto laiko.
 一時使用トークンのビット数	Laikino naudojimo žetonų bitų skaičius
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nurodo laikino naudojimo simbolio, naudojamo kaip slaptažodis vaizdo URL informacijai užšifruoti, stiprumą.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, tačiau didėja serverio apkrova.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Nors intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, serverio apkrova yra didesnė, o perduodamo HTML kiekis gali būti didesnis.
 ハッシュ化アルゴリズム	šifravimo algoritmas
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Laikinieji žetonai naudojami kaip slaptažodžiai vaizdo URL informacijai užšifruoti, tačiau jie turi būti šifruojami, nustatykite šifravimo stiprumą.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, tačiau didėja serverio apkrova.
 基本設定	Pagrindinis nustatymas
 高度な設定	Išplėstiniai nustatymai
 初期設定に戻す	Numatytųjų nustatymų atkūrimas
+デザイン・音の設定	Dizainas ir garso nustatymai
+イベントの設定	Įvykio konfigūracija.
 メッセージの設定	Pranešimų nustatymai
 右クリックやソースコード表示時に転送する URL を設定します	Nustatykite URL adresą, kuris bus persiunčiamas spustelėjus dešinįjį pelės klavišą arba peržiūrint šaltinio kodą.
 警告メッセージにはHTMLは使用できません	HTML negalima naudoti įspėjamiesiems pranešimams
@@ -123,11 +201,15 @@ view-sourceメッセージを表示する言語	Kalba, kuria rodomi peržiūros 
 改行	Nauja eilutė
 押下されたキー	Paspaustas klavišas
 Neo HTML Protector 設定	"Neo HTML Protector" nustatymai
+メッセージ	Pranešimas.
+デザイン・音	Dizainas ir garsas
+初期化	Iniciacija
 このプラグインについて	Apie šį įskiepį.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Norėdami išvalyti visus duomenis, pašalinkite įskiepį ir iš naujo jį įdiekite.
+設定が初期化されました	Nustatymai inicializuoti.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializuoja įskiepį Atkreipkite dėmesį, kad IP žurnalo skaitytuvo duomenys čia nėra ištrinami.
 Neo HTML Protectorについて	Apie "Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šiuo įskiepiu siekiama apsaugoti "Wordpress" išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo.
-コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Turinys negali būti puikiai apsaugotas. Tačiau visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu būdu.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Turinys negali būti puikiai apsaugotas. Vis dėlto, visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu mastu.
 もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą.
 開発者: 夜桜　なの	Kūrėjas: Nano Yozakura
 バージョン	Versija
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	D
 寄付先	Donoras
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Su jūsų palaikymu stengsimės, kad ateityje galėtumėte naudotis puikiais atnaujinimais!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Dėkojame jums už paramą ir tikimės bendradarbiauti ateityje.
+ライセンス	Licencija
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Įskiepis sukurtas kaip atvirojo kodo programa ir licencijuojamas pagal GPL 2.0 arba vėlesnę versiją.
+本プラグインには以下のライブラリを同梱しています	Į šį papildinį įtrauktos šios bibliotekos
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Šis papildinys apima šriftą ir šrifto failus, skirtus ASCII menui, sukurtam
+アスキーアート（AA）作成	ASCII meno
+ラッコ株式会社 利用承諾取得済	Otters Ltd Gautas sutikimas naudoti.
+巨大文字AAジェネレーター	Milžiniškas veikėjų AA generatorius
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Gautas sutikimas dėl naudojimo
+The Gnome Project 利用承諾取得済	Gautas "Gnome" projekto naudojimo sutikimas
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Šiame įskiepyje yra muzikos iš neautorizuoto "Super Nintendo Entertainment System"
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Kai kuriose dalyse naudojamas fortepijono garso šaltinis "Keppys YAMAHA C7" yra KaleidonKep99 sukurtas garso šriftas, naudojamas pagal licencijos sąlygas.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Aptiktas talpyklos įskiepis Šis įskiepis neveiks tinkamai, jei įjungtas talpyklos įskiepis.
 無効なIPアドレス	Netinkamas IP adresas.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šią svetainę galima peržiūrėti tik su įjungtais slapukais ir "JavaScript".
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Norint naudotis šia svetaine, turi būti įjungti slapukai ir "JavaScript".
+通常とは異なる方法でのアクセスや操作が検出されました	Aptikti neįprasti prieigos ar veikimo būdai.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Kai kurios funkcijos yra ribojamos dėl saugumo ir turinio apsaugos.
 デバッグモード、コンソールの起動は禁止されています	Draudžiama įjungti derinimo režimą ir konsolę
 以下の情報がサーバーに送信されました	Į serverį buvo išsiųsta ši informacija
 あなたのIPアドレス	Jūsų IP adresas.
 あなたの端末とブラウザ	Jūsų prietaisas ir naršyklė
 あなたの押下したキー	Jūsų paspausti klavišai.
 リダイレクトをします	Peradresavimai.
+コンテンツ保護のため一部の機能を制限しています	Siekiant apsaugoti turinį, kai kurios funkcijos yra ribojamos.
 右クリックは禁止されています	Draudžiama spausti dešiniuoju pelės klavišu.
+あなたが押下したキー	Paspaustas klavišas.
 印刷、PDFへの保存は禁止されています	Draudžiama spausdinti ir išsaugoti PDF formatu
+スクリーンショットは禁止されています	Ekrano nuotraukos draudžiamos.
+スクリーンショット、デバッグモード等の起動は禁止されています	Draudžiama įjungti ekrano nuotraukas, derinimo režimą ir pan.
 ページの保存は禁止されています	Draudžiama išsaugoti puslapius.
 コピー、カットは禁止されています	Draudžiama kopijuoti ar karpyti.
 あなたが起こしたイベント	Įvykiai, kuriuos sukėlėte.
+テキストの選択は禁止されています	Teksto pasirinkimas draudžiamas.
 HTMLソース表示は禁止されています	HTML šaltinį rodyti draudžiama.
 不正アクセスは禁止されています	Neteisėta prieiga draudžiama.
 アラビア語	Arabų kalba
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	HTML šaltinį rodyti draudžiama
 中国語	Kinų kalba
 簡体中国語	Supaprastinta kinų kalba
 繁体中国語	Tradicinė kinų kalba
-画像が見つかりません	Vaizdas nerastas.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Nors intensyvumas didėja pereinant prie parinkčių, išvardytų po išskleidžiamojo meniu, serverio apkrova yra didesnė, o perduodamo HTML kiekis gali būti didesnis.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Vėluojantis skaitymas dėl "JavaScript", kuris turi įtakos SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Kas iš tikrųjų atsisiunčiama priverčiant atsisiųsti atvaizdą.
-PNG形式で黄色い背景の警告画面	Įspėjamasis ekranas su geltonu fonu PNG formatu.
-GIF形式で1×1ピクセルの透過画像	1 x 1 pikselio skaidrus GIF formato vaizdas.
-意味のないHTMLドキュメント	Bereikšmiai HTML dokumentai
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Kai jis aktyvuojamas, įvyksta nukreipimas, kuris turi įtakos SEO optimizavimui.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spartinančioji atmintinė, todėl svetainė kito apsilankymo metu įkeliama lėčiau, o tai turi įtakos SEO.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Aptiktas talpyklos įskiepis Šis įskiepis neveiks tinkamai, jei įjungtas talpyklos įskiepis.
-スクリーンショット	Ekrano kopija
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Kai kurios operacinės sistemos ir naršyklės gali nesugebėti perimti ar aptikti
-スクリーンショットの警告メッセージ	Ekrano nuotraukos įspėjamieji pranešimai.
-ページ保存の警告メッセージ	Puslapio išsaugojimo įspėjamasis pranešimas.
-スクリーンショットは禁止されています	Ekrano nuotraukos draudžiamos.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Priklausomai nuo operacinės sistemos, naršyklės ir metodo, gali būti neperimta arba neaptikta.
-空欄にすると元のURLにリダイレクトをします	Jei paliksite tuščią langą, jis bus nukreipiamas į pradinį URL adresą.
-ライセンス	Licencija
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Įskiepis sukurtas kaip atvirojo kodo programa ir licencijuojamas pagal GPL 2.0 arba vėlesnę versiją.
-本プラグインには以下のライブラリを同梱しています	Į šį papildinį įtrauktos šios bibliotekos
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kiti Aviečių Pi5, ChatGPT ir deepl naudojami kuriant šį įskiepį
-imgタグが呼び出されるごとに画像を保護	Apsaugokite paveikslėlį kiekvieną kartą, kai iškviečiama žyma img.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Apsaugokite visus į "Wordpress" įkeltus paveikslėlius visuose HTML išvedimuose
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Dėl "Apsaugoti vaizdą kiekvieną kartą, kai iškviečiama img žyma", naudokite add_filter ir filtrą skelbdami img žymas, priklausomai nuo temos tai gali neveikti teisingai.
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Apsaugoti visus vaizdus, įkeltus į "Wordpress", iš visų HTML išvesties" užfiksuos beveik visą "Wordpress" veiklą ir apdoros viską, kas susiję su turinio img žymėmis. Kai kurios temos neveiks teisingai
-設定が初期化されました	Nustatymai inicializuoti.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializuoja įskiepį Atkreipkite dėmesį, kad IP žurnalo skaitytuvo duomenys čia nėra ištrinami.
-リダイレクトなし	Nėra nukreipimo
-1秒	1 sekundė
-2秒	2 sek.
-3秒	3 sek.
-4秒	4 sek.
-5秒	5 sek.
-6秒	6 sek.
-7秒	7 sek.
-8秒	8 sek.
-9秒	9 sek.
-10秒	10 sek.
-15秒	15 sekundžių.
-20秒	20 sek.
-25秒	25 sek.
-30秒	30 sekundžių.
-35秒	35 sekundės.
-40秒	40 sekundžių.
-45秒	45 sekundės.
-50秒	50 sek.
-55秒	55 sek.
-リダイレクトまでの時間	Laikas persiorientuoti.
-対象アクションを起こした時の表示デザイン	Rodyti dizainą, kai suveikia tikslinis veiksmas.
-黄色の背景の黒文字のベーシックデザイン	Pagrindinis dizainas su juodomis raidėmis geltoname fone
-黒色の背景の赤文字のホラー風デザイン	Siaubo stiliaus dizainas su raudonu tekstu juodame fone.
-対象アクションを起こした時のサウンド	Garsas, kai atliekamas tikslinis veiksmas.
-サウンドなし	Be garso
-戦闘 - 40秒	Kova - 40 sek.
-おやじ - 3秒	Tėvas - 3 sekundės.
-レトロ風ファンファーレ - 2秒	Retro stiliaus fanfaros - 2 s.
-レトロ風オープン - 48秒	Retro stiliaus atidarymas - 48 sek.
-デザイン・音の設定	Dizainas ir garso nustatymai
-レトロ風オープン - 42秒	Retro stiliaus atidarymas - 42 sek.
-おやじ ショート- 3秒	Tėvas Trumpas - 3 sek.
-おやじ ロング - 23秒	Tėvas, ilgas - 23 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Šopeno etiudas, op. 10-5, juodieji klavišai, greita versija - 59 sek.
-スクリーンショットを取得しようとした動作を検出しました	Bandant padaryti ekrano nuotrauką aptiktas judėjimas.
-スクリーンショットの疑い	Įtariamos ekrano nuotraukos.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Minėtų elementų aptikimo metodas nėra tobulas, naudojamas prevencinis aptikimas.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Šiame įskiepyje yra neautorizuoto "Super Nintendo Entertainment System"
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Operacija aptikta naudojant klavišus, kurie paprastai nenaudojami svetainės veikimui
-スクリーンショットの疑いの警告メッセージ	Tariamas ekrano nuotraukos įspėjamasis pranešimas.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Šopeno etiudas op.10-12 Revoliucija, greita versija - 1 min. 57 sek.
-1分10秒	1 min. 10 sek.
-1分20秒	1 min. 20 sek.
-1分30秒	1 minutė 30 sekundžių.
-1分40秒	1 minutė 40 sekundžių.
-1分50秒	1 minutė 50 sekundžių.
-黒色の背景の赤文字の光る文字のデザイン	Dizainas su šviečiančiomis raudonomis raidėmis juodame fone.
-スクリーンショット、デバッグモード等の起動は禁止されています	Draudžiama įjungti ekrano nuotraukas, derinimo režimą ir pan.
-警告表示中のBGMを選択します	Pasirinkite foninę muziką įspėjimo rodymo metu.
-有効 音量小さ目	Įjungta Mažas garsumas
-有効 音量大き目	Įjungta Garsiausias garsumas
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Įspėjimo rodymo metu skleidžiami garsiniai signalai, kai rodomi visi klaviatūros klavišų ir pelės paspaudimai
-対象アクションを起こした時のBGM	BGM, kai atliekamas tikslinis veiksmas.
-対象アクションを起こした時の警告音	Įspėjamasis garsas, kai atliekamas tikslinis veiksmas.
-対象アクションを起こした時のマウスカーソルの消去	Pelės žymeklio ištrynimas, kai atliekamas tikslinis veiksmas.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Išvalyti pelės žymeklį naršyklės srityje, kai rodomas įspėjimas
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šią svetainę galima peržiūrėti tik su įjungtais slapukais ir "JavaScript".
-通常とは異なる方法でのアクセスや操作が検出されました	Aptikti neįprasti prieigos ar veikimo būdai.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Kai kurios funkcijos yra ribojamos dėl saugumo ir turinio apsaugos.
-コンテンツ保護のため一部の機能を制限しています	Siekiant apsaugoti turinį, kai kurios funkcijos yra ribojamos.
-あなたが押下したキー	Paspaustas klavišas.
-戦闘 - 39.8秒	Kova - 39,8 s.
-おやじ ショート- 3.7秒	Tėvas Trumpas - 3,7 sekundės
-おやじ ロング - 22.7秒	Tėvas Longas - 22,7 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Šopeno etiudas, op. 10-5, juodieji klavišai, greita versija - 57,8 sek.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Šopeno etiudas op.10-12 Revoliucija, greita versija - 1 min. 54,9 sek.
-レトロ風ファンファーレ - 2.2秒	Retro stiliaus fanfaros - 2,2 sek.
-レトロ風オープン - 41.2秒	"Retro-style open" - 41,2 sek.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Šis papildinys apima šriftą ir šrifto failus, skirtus ASCII menui, sukurtam
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Atlikta versija - 37.8 sek.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, pradžia iš 24 kaprisų - Atliekama versija - 27.4 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Šopeno etiudas, op. 10-5, juodieji klavišai, smūginė versija, greitoji versija - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Šopeno etiudas op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min. 54,9 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Šopeno Scherzo b-moll, op. 2, spausdinta versija, greita sutrumpinta versija - 1 min. 46,1 sek.
-ファンファーレ - 19.3秒	Fanfaros - 19,3 sek.
-Firefoxでは音声ブロックされます	"Firefox" blokuos garsą.
-Firefoxにおけるデバッグモード	"Firefox" derinimo režimas
-テキスト全選択	Viso teksto atranka
-テキストの選択は禁止されています	Teksto pasirinkimas draudžiamas.
-テキスト全選択時の警告メッセージ	Įspėjamasis pranešimas, kai pasirenkamas visas tekstas.
-スクリーンショットだけではなく、デバッグモード等も検出します	Ji aptinka ekrano nuotraukas, taip pat derinimo režimus ir kt.
-イベントの設定	Įvykio konfigūracija.
-メッセージ	Pranešimas.
-デザイン・音	Dizainas ir garsas
-初期化	Iniciacija
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rodyti ASCII meną, nurodantį ketinimą įspėti, kai HTML šaltinis rodomas naudojant view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	Kartu su HTML apsauga turinį galima apsaugoti
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Vaizdas bus įkeliamas tingiai, tačiau vaizdas bus priverstinai įkeltas likus 30 sekundžių iki nurodyto laiko.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Kai jis aktyvuojamas, įvyksta nukreipimas, kuris daro didelę įtaką SEO
-びっくりするような雰囲気を作ります	Sukurkite netikėtą atmosferą
-対象アクションを起こした時のビープ音	Pyptelėjimas, kai atliekamas tikslinis veiksmas.
-警告表示中に端末が暴走したかのような雰囲気を作ります	įspėjamojo ekrano rodymo metu sukuriama atmosfera, tarsi prietaisas būtų nekontroliuojamas.
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Priklausomai nuo šio papildinio konfigūracijos, šis įvykis gali būti pasiekiamas retai
-JavaScript描画で有効	Galioja "JavaScript" atvaizdavimui.
-リダイレクトで有効	Galioja nukreipimams.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Jei pasirinksite Enabled for redirect
-リダイレクトで有効はFirefoxに対しては無効です	Įjungta nukreipti negalioja "Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Įjungus "JavaScript" atvaizdavimą, gerokai sulėtės svetainės rodymo greitis.
-いずれもSEOに著しく影響があります	Abu šie veiksniai daro didelę įtaką SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Norint naudotis šia svetaine, turi būti įjungti slapukai ir "JavaScript".
-AI学習用botをアクセス禁止にする	Draudimas naudotis dirbtinio intelekto mokymosi robotais.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Jei dirbtinis intelektas vengia mokymosi boto prieš HTML, jis negali juo naudotis, tačiau visiškai nesprendžia
-Firefoxに対しては無効です	Negalioja "Firefox".
-SEOに著しく影響があります	Ženkliai veikia SEO.
-HTMLをJavaScriptで描画	HTML atvaizdavimas naudojant "JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	HTML atvaizdavimas naudojant "JavaScript" kaip "Firefox" priemonė
-PNG形式で1×1ピクセルの透過画像	1 x 1 pikselio skaidrus vaizdas PNG formatu.
-戦闘＆戦闘勝利 - 1分16.3秒	Kovos ir mūšio pergalės - 1 min. 16,3 sek.
-おやじ ショート- 3.8秒	Tėvas Trumpas - 3,8 sekundės
-おやじ ロング - 23.5秒	Tėvas, ilgas - 23,5 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Šopeno etiudas op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min. 00.0 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Šopeno Scherzo b-moll, op. 2, spausdinta versija, greita sutrumpinta versija - 1 min. 48,0 sek.
-ファンファーレ - 22.3秒	Fanfaros - 22,3 sek.
-レトロ風オープン - 42.1秒	Retro stiliaus atidarymas - 42,1 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Šopeno etiudas, op. 10-5, juodi klavišai, spausdinta versija, greita versija - 1 min. 0,0 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Šopeno etiudas op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min. 57,6 sek.
-ウインドウが背面に移動した時スクリーンショットの疑い	Įtarimas dėl ekrano nuotraukų, kai langai perkeliami į galą.
-2キー押下のスクリーンショットの疑い	Įtarimas dėl ekrano nuotraukų su dviem klavišų paspaudimais.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Be to, ji reaguoja ir į kitas funkcijas, ne tik į ekrano nuotraukas
-このオプションを有効にするとview-sourceのログが取得できます	Įjunkite šią parinktį, kad būtų galima prisijungti prie peržiūros šaltinio
 不正なリクエストです	Neteisingas prašymas.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Kovos ir mūšio pergalės - 1 min. 16,3 sek. - Licencija: CC2.1 arba vėlesnė
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Tėvas Trumpas - 3,8 sekundės - Licencija GPL2.0 arba vėlesnė
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Tėvas Long - 23.5 sek - Licencija GPL2.0 arba vėlesnė
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Šopeno etiudas, op.10-5, juodi klavišai, spausdinta versija, greita versija - 1 min 0.0 sek - Licencija: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Šopeno etiudas, op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min 57,6 sek - Licencija: public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Šopeno Scherzo b-moll, op. 2, spausdinta versija, greitai sutrumpinta versija - 1 min. 48,0 sek. - Licencija: public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfaros - 22.3 sekundės - Licencija: viešoji nuosavybė
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stiliaus fanfaros - 2,2 s - Licencija: viešoji nuosavybė
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licencija: viešoji nuosavybė
+画像が見つかりません	Vaizdas nerastas.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Vengimas naudoti vaizdų botus, palyginti su HTML, apsaugo turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos, nors to negalima visiškai išspręsti.
+無効なUAをアクセス禁止にする	Išjungti prieigą prie negaliojančių UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Venkite prieigos, jei naudotojo agentas turi negaliojančią simbolių eilutę.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Įspėjimas dėl "Internet Explorer" ir buvusios "Microsoft Edge" prieigos.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Venkite prieigos prie "Internet Explorer" ir buvusio "Microsoft Edge".
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Šiame įskiepyje yra neautorizuoto "Super Nintendo Entertainment System"
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Šiame įskiepyje yra muzikos, kurioje naudojama "Keppy s YAMAHA C7", sukurta Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno etiudas, op. 10-5, juodi klavišai, spausdinta versija, greita versija - 1 min 0.0 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno etiudas, op.10-12 Revoliucija, spausdinta versija, greita versija - 1 min 57,6 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopeno Scherzo b-moll, op. 2, spausdinta versija, greitai sutrumpinta versija - 1 min 48,0 sek - Licencija: CC BY-ND 4.0 arba vėlesnė
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Šiuo metu naudojama naršyklė yra senesnės versijos, kuri nebėra palaikoma. Kad naršymas būtų saugesnis ir patogesnis, atnaujinkite naršyklę į naujausią.

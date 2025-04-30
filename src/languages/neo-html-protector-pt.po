@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -139,7 +139,7 @@ msgid "画像をダウンロードから保護します"
 msgstr "Protege as imagens contra download."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Impede quase completamente o download quando os dados da imagem estão protegidos, emite um URL completo de uso único, autentica-se com um token armazenado na sessão e exibe a imagem do php, impedindo assim quase completamente o roubo de imagens."
+msgstr "Impede quase completamente o download quando os dados da imagem estão protegidos, emite um URL único completo, autentica-se com um token armazenado na sessão e exibe a imagem do php, impedindo assim quase completamente o roubo de imagens."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
 msgstr "Quando os dados da imagem estão protegidos, o cache da imagem não funciona, portanto, o site carrega mais lentamente na próxima visita, o que afeta o SEO"
@@ -477,14 +477,26 @@ msgstr "As imagens do OGP não serão exibidas em compartilhamentos de redes soc
 msgid "画像botをアクセス禁止にする"
 msgstr "Banimento do bot de imagens."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens, embora isso não possa ser completamente resolvido."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Proibição do acesso a bots de aprendizado de IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitar que o bot de aprendizado da IA use HTML impede que ele seja usado pela IA, mas não resolve completamente o problema"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Desativar o acesso a UAs inválidas."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evite o acesso se houver uma cadeia de caracteres inválida no agente do usuário."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Aviso para acesso ao Internet Explorer e ao antigo Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evite acessar o Internet Explorer e o antigo Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Idioma em que a mensagem de alerta é exibida."
@@ -640,7 +652,7 @@ msgid "設定が初期化されました"
 msgstr "As configurações foram inicializadas."
 
 msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
-msgstr "Inicializa o plug-in Observe que os dados do leitor de registro de IP não são excluídos aqui."
+msgstr "Inicializa o plug-in Observe que os dados do leitor de registro IP não são excluídos aqui."
 
 msgid "Neo HTML Protectorについて"
 msgstr "Sobre o Neo HTML Protector"
@@ -899,6 +911,9 @@ msgstr "Chinês simplificado"
 
 msgid "繁体中国語"
 msgstr "Chinês tradicional"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "O navegador que você está usando atualmente é uma versão antiga que não é mais compatível. Para obter um ambiente de navegação mais seguro e confortável, atualize para o navegador mais recente."
 
 msgid "不正なリクエストです"
 msgstr "Solicitação incorreta."

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:55+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -85,7 +85,7 @@ msgid "CookieやJavascriptが有効でない場合に表示するメッセージ
 msgstr "Správa sa zobrazí, ak nie sú povolené súbory cookie a Javascript."
 
 msgid "実際にはJavascriptが無効時のみ表示されます"
-msgstr "V praxi je to viditeľné len vtedy, keď je vypnutý Javascript."
+msgstr "V praxi je to viditeľné len pri vypnutom Javascripte."
 
 msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
 msgstr "Správa zobrazená na obrázku po jeho stiahnutí a obrázok je chránený Len v angličtine"
@@ -477,14 +477,26 @@ msgstr "Obrázky OGP sa nebudú zobrazovať v zdieľaniach na sociálnych sieťa
 msgid "画像botをアクセス禁止にする"
 msgstr "Zákaz obrazového bota."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Vyhýbanie sa obrázkovým robotom vo vzťahu k HTML chráni obsah, ktorý by nemohol byť chránený priamymi odkazmi z vyhľadávania obrázkov, hoci to nemožno úplne vyriešiť."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Zákaz prístupu k botom na učenie umelej inteligencie."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Vyhnutie sa učiacemu sa botovi proti HTML zabraňuje tomu, aby ho používala umelá inteligencia, ale úplne nerieši"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Zakázanie prístupu k neplatným UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Zabráňte prístupu, ak sa v používateľskom agentovi nachádza neplatný reťazec znakov."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Upozornenie pre prístup do prehliadača Internet Explorer a bývalého prehliadača Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Vyhnite sa prístupu do prehliadača Internet Explorer a bývalého prehliadača Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Jazyk, v ktorom sa zobrazuje výstražná správa."
@@ -899,6 +911,9 @@ msgstr "Zjednodušená čínština"
 
 msgid "繁体中国語"
 msgstr "Tradičná čínština"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Prehliadač, ktorý práve používate, je staršia verzia, ktorá už nie je podporovaná. Pre bezpečnejšie a pohodlnejšie prehliadanie si aktualizujte prehliadač na najnovšiu verziu."
 
 msgid "不正なリクエストです"
 msgstr "Nesprávna požiadavka."

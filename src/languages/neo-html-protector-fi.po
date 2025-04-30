@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:53+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:18+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -79,7 +79,7 @@ msgid "HTML難読化・保護時にソースの先頭に表示するメッセー
 msgstr "Viesti, joka näytetään lähdekoodin alussa, kun HTML on peitetty ja suojattu."
 
 msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
-msgstr "Näytettävä viesti, jos kertaluonteinen todennusmerkki on epänormaali HTML-suojauksen aikana."
+msgstr "Näytettävä viesti, jos kertaluonteisen todennuksen tunniste on epänormaali HTML-suojauksen aikana."
 
 msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
 msgstr "Näytetään viesti, jos evästeet ja Javascript eivät ole käytössä."
@@ -109,7 +109,7 @@ msgid "HTML保護"
 msgstr "HTML-suojaus"
 
 msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
-msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen HTML, eikä BODY-tunnisteen sisältöä tulosteta lainkaan."
+msgstr "HTML-pakkauksen jälkeen tulostetaan vain minimaalinen määrä HTML:ää, eikä BODY-tagin sisältöä tulosteta lainkaan."
 
 msgid "Firefoxに対しては無効です"
 msgstr "Ei voimassa Firefoxille."
@@ -259,7 +259,7 @@ msgid "妨害＋記録のみ"
 msgstr "Häiriö + vain tallennus."
 
 msgid "妨害＋記録＋表示＋リダイレクト"
-msgstr "Sieppaus + tallennus + näyttö + uudelleenohjaus"
+msgstr "Kuuntelu + tallennus + näyttö + uudelleenohjaus"
 
 msgid "メニューからは操作できてしまいます"
 msgstr "Sitä voidaan käyttää valikosta."
@@ -477,14 +477,26 @@ msgstr "OGP-kuvia ei näytetä sosiaalisissa verkostoissa, elleivät ne ole per�
 msgid "画像botをアクセス禁止にする"
 msgstr "Kuvabotin kieltäminen."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Kuvabottien välttäminen suhteessa HTML:ään suojaa sisältöä, jota ei voitaisi suojata suorilla kuvahaun linkeillä."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Kuvabottien välttäminen suhteessa HTML:ään suojaa sisältöä, jota ei voitaisi suojata suorilla kuvahaun linkkeillä, vaikkei tätä voida täysin välttää."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Kielletään pääsy tekoälyä oppiviin botteihin."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Tekoälyn oppivan botin välttäminen HTML:ää vastaan estää tekoälyä käyttämästä sitä, mutta se ei kuitenkaan täysin poista"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Poista käytöstä virheellisten UA:iden pääsy."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Vältä käyttöä, jos käyttäjäagentissa on virheellinen merkkijono."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Varoitus Internet Explorerin ja entisen Microsoft Edgen käytöstä."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Vältä Internet Explorerin ja entisen Microsoft Edgen käyttöä."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Kieli, jolla hälytysviesti näytetään."
@@ -899,6 +911,9 @@ msgstr "Yksinkertaistettu kiina"
 
 msgid "繁体中国語"
 msgstr "Perinteinen kiina"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Tällä hetkellä käyttämäsi selain on vanhempi versio, jota ei enää tueta. Jos haluat turvallisemman ja mukavamman selainympäristön, päivitä uusimpaan selaimeen."
 
 msgid "不正なリクエストです"
 msgstr "Virheellinen pyyntö."

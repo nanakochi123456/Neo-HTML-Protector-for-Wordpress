@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -477,14 +477,26 @@ msgstr "Imaginile OGP nu vor fi afișate în share-urile de pe rețelele sociale
 msgid "画像botをアクセス禁止にする"
 msgstr "Interzicerea robotului de imagine."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitarea roboților de imagini față de HTML protejează conținutul care nu ar putea fi protejat prin legături directe din căutarea de imagini, deși acest aspect nu poate fi abordat complet."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Interzicerea accesului la roboții de învățare AI."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitarea robotului de învățare al AI împotriva HTML previne utilizarea acestuia de către AI, dar nu rezolvă complet problema"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Dezactivați accesul la UA invalide."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evitați accesul dacă există un șir de caractere nevalabil în agentul utilizatorului."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Avertisment pentru Internet Explorer și fostul acces Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evitați accesul la Internet Explorer și la fostul Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Limba în care este afișat mesajul de alertă."
@@ -899,6 +911,9 @@ msgstr "Chineză simplificată"
 
 msgid "繁体中国語"
 msgstr "Chineză tradițională"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Browserul pe care îl utilizați în prezent este o versiune mai veche care nu mai este acceptată. Pentru un mediu de navigare mai sigur și mai confortabil, vă rugăm să actualizați la cel mai recent browser."
 
 msgid "不正なリクエストです"
 msgstr "Cerere incorectă."

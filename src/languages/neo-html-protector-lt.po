@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -139,7 +139,7 @@ msgid "画像をダウンロードから保護します"
 msgstr "Apsaugo vaizdus nuo atsisiuntimo."
 
 msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
-msgstr "Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkirsdamas kelią paveikslėlio vagystei."
+msgstr "Beveik visiškai užkerta kelią atsisiuntimui, kai paveikslėlio duomenys yra apsaugoti, išduoda visą vienkartinį URL adresą, autentifikuoja pagal sesijoje saugomą simbolį ir rodo paveikslėlį iš php, taip beveik visiškai užkerta kelią paveikslėlio vagystei."
 
 msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
 msgstr "Kai paveikslėlių duomenys yra apsaugoti, neveikia paveikslėlių spartinančioji atmintinė, todėl svetainė kito apsilankymo metu įkeliama lėčiau, o tai turi įtakos SEO."
@@ -154,7 +154,7 @@ msgid "「出力される全HTMLのうち、Wordpressにアップロードされ
 msgstr "Apsaugoti visus vaizdus, įkeltus į Wordpress, iš visų HTML išvesties užfiksuos beveik visą Wordpress veiklą ir apdoros viską, kas susiję su turinio img žymėmis. Kai kurios temos neveiks teisingai"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
-msgstr "Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite žymės HEAD išvesties pasirinkimą, kai saugote HTML."
+msgstr "Atkreipkite dėmesį, kad vaizdai, nurodyti kaip akį traukiantys, skleidžiami kaip OGP ir jų negalima apsaugoti. Jei turite juos apsaugoti, išplėstiniuose nustatymuose pakeiskite išvesties žymės HEAD pasirinkimą, kai saugote HTML."
 
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Standartinė OS ekrano nuotraukos funkcija negali būti apsaugota"
@@ -340,7 +340,7 @@ msgid "リダイレクトするURL"
 msgstr "URL, į kurį reikia nukreipti"
 
 msgid "利用規約などのページに転送すると良いでしょう"
-msgstr "Galbūt norėsite juos nukreipti į puslapius, pvz., Naudojimo sąlygos."
+msgstr "Galbūt norėsite nukreipti juos į puslapius, pvz., Naudojimo sąlygos."
 
 msgid "空欄にすると元のURLにリダイレクトをします"
 msgstr "Jei paliksite tuščią langą, jis bus nukreipiamas į pradinį URL adresą."
@@ -451,7 +451,7 @@ msgid "PNG形式で1×1ピクセルの透過画像"
 msgstr "1 x 1 pikselio skaidrus vaizdas PNG formatu."
 
 msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Įspėjamasis ekranas su geltonu fonu PNG formatu."
+msgstr "Įspėjamasis ekranas geltoname fone PNG formatu."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Bereikšmiai HTML dokumentai"
@@ -477,14 +477,26 @@ msgstr "OGP vaizdai nebus rodomi socialiniuose tinkluose, nebent jie būtų paim
 msgid "画像botをアクセス禁止にする"
 msgstr "Vaizdo boto uždraudimas."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Vengdami vaizdų robotų ir HTML, apsaugote turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Vengimas naudoti vaizdų botus, palyginti su HTML, apsaugo turinį, kurio nebūtų galima apsaugoti tiesioginėmis nuorodomis iš vaizdų paieškos, nors to negalima visiškai išspręsti."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Draudimas naudotis dirbtinio intelekto mokymosi robotais."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Jei dirbtinis intelektas vengia mokymosi boto prieš HTML, jis negali juo naudotis, tačiau visiškai nesprendžia"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Išjungti prieigą prie negaliojančių UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Venkite prieigos, jei naudotojo agentas turi negaliojančią simbolių eilutę."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Įspėjimas dėl Internet Explorer ir buvusios Microsoft Edge prieigos."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Venkite prieigos prie Internet Explorer ir buvusio Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Kalba, kuria rodomas įspėjimo pranešimas."
@@ -649,7 +661,7 @@ msgid "このプラグインはあなたのWordpressから出力されるHTMLや
 msgstr "Šiuo įskiepiu siekiama apsaugoti Wordpress išvedamą HTML, paveikslėlius ir kt. ir apsaugoti jį nuo neteisėto turinio naudojimo."
 
 msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
-msgstr "Turinys negali būti puikiai apsaugotas. Tačiau visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu būdu."
+msgstr "Turinys negali būti puikiai apsaugotas. Vis dėlto, visais įmanomais būdais įspėję ir pasiruošę, jei kas nors nutiktų, turėtumėte sugebėti išspręsti problemą nacionaliniu mastu."
 
 msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
 msgstr "Žinoma, turėsite patobulinti naudojimo sąlygas ir svetainės politiką. Šis įskiepis nėra naudojimo sąlygų kūrimo programa, tačiau jis gali suteikti jums užuominą."
@@ -899,6 +911,9 @@ msgstr "Supaprastinta kinų kalba"
 
 msgid "繁体中国語"
 msgstr "Tradicinė kinų kalba"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Šiuo metu naudojama naršyklė yra senesnės versijos, kuri nebėra palaikoma. Kad naršymas būtų saugesnis ir patogesnis, atnaujinkite naršyklę į naujausią."
 
 msgid "不正なリクエストです"
 msgstr "Neteisingas prašymas."

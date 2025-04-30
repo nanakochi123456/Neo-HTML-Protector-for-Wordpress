@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:20+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese (Brazilian)\n"
 "Language: pt_BR\n"
@@ -451,7 +451,7 @@ msgid "PNG形式で1×1ピクセルの透過画像"
 msgstr "Imagem transparente de 1 x 1 pixel no formato PNG."
 
 msgid "PNG形式で黄色い背景の警告画面"
-msgstr "Tela de aviso com fundo amarelo no formato PNG."
+msgstr "Tela de aviso com fundo amarelo em formato PNG."
 
 msgid "意味のないHTMLドキュメント"
 msgstr "Documentos HTML sem sentido"
@@ -477,14 +477,26 @@ msgstr "As imagens do OGP não serão exibidas em compartilhamentos de redes soc
 msgid "画像botをアクセス禁止にする"
 msgstr "Banimento do bot de imagens."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitar bots de imagem em relação ao HTML protege o conteúdo que não poderia ser protegido por links diretos da pesquisa de imagens, embora isso não possa ser completamente resolvido."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Proibição do acesso a bots de aprendizado de IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitar que o bot de aprendizado da IA use HTML impede que ele seja usado pela IA, mas não resolve completamente o problema"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Desativar o acesso a UAs inválidas."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evite o acesso se houver uma cadeia de caracteres inválida no agente do usuário."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Aviso para acesso ao Internet Explorer e ao antigo Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evite acessar o Internet Explorer e o antigo Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Idioma em que a mensagem de alerta é exibida."
@@ -607,7 +619,7 @@ msgid "右クリックやソースコード表示時に転送する URL を設�
 msgstr "Defina o URL a ser encaminhado ao clicar com o botão direito do mouse ou visualizar o código-fonte."
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "HTML não pode ser usado para mensagens de aviso"
+msgstr "O HTML não pode ser usado para mensagens de aviso"
 
 msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
 msgstr "Se definido nessa tela, as configurações de idioma na guia de configurações avançadas serão ignoradas"
@@ -640,7 +652,7 @@ msgid "設定が初期化されました"
 msgstr "As configurações foram inicializadas."
 
 msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
-msgstr "Inicializa o plug-in Observe que os dados do leitor de registro de IP não são excluídos aqui."
+msgstr "Inicializa o plug-in Observe que os dados do leitor de registro IP não são excluídos aqui."
 
 msgid "Neo HTML Protectorについて"
 msgstr "Sobre o Neo HTML Protector"
@@ -679,7 +691,7 @@ msgid "Neo HTML Protectorをご利用いただき、ありがとうございま�
 msgstr "Obrigado por usar o Neo HTML Protector!"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção deste plug-in, e ficaríamos gratos por doações, se houver, para nos ajudar a levantar fundos para melhorias e atualizações contínuas."
+msgstr "Dedicamos muito tempo e sabedoria ao desenvolvimento e à manutenção desse plug-in, e ficaremos gratos por qualquer doação que possa nos ajudar a levantar fundos para continuar a aprimorá-lo e atualizá-lo."
 
 msgid "寄付について"
 msgstr "Sobre as doações"
@@ -709,7 +721,7 @@ msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "As seguintes bibliotecas estão incluídas nesse plug-in"
 
 msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
-msgstr "O plug-in inclui a fonte e os arquivos de fonte para a arte ASCII gerada pelo"
+msgstr "Esse plug-in inclui a fonte e os arquivos de fonte para a arte ASCII gerada pelo"
 
 msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
 msgstr "Este plug-in contém músicas do jogo não autorizado do Super Nintendo Entertainment System"
@@ -899,6 +911,9 @@ msgstr "Chinês simplificado"
 
 msgid "繁体中国語"
 msgstr "Chinês tradicional"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "O navegador que você está usando atualmente é uma versão antiga que não é mais compatível. Para obter um ambiente de navegação mais seguro e confortável, atualize para o navegador mais recente."
 
 msgid "不正なリクエストです"
 msgstr "Solicitação incorreta."

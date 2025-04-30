@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:55+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:22+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -477,14 +477,26 @@ msgstr "OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal
 msgid "画像botをアクセス禁止にする"
 msgstr "Görüntü botunun yasaklanması."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur, ancak bu tamamen ele alınamaz."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Yapay zeka öğrenme botlarına erişimin yasaklanması."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "YZ'nin HTML'ye karşı öğrenme botundan kaçınmak, bunun YZ tarafından kullanılmasını önler, ancak tamamen ele almaz"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Geçersiz UA'lara erişimi devre dışı bırakın."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Kullanıcı aracısında geçersiz bir karakter dizisi varsa erişimi önleyin."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Internet Explorer ve eski Microsoft Edge erişimi için uyarı."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Internet Explorer ve eski Microsoft Edge'e erişimden kaçının."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Uyarı mesajının görüntülendiği dil."
@@ -670,7 +682,7 @@ msgid "ISISちゃん"
 msgstr "ISIS chan"
 
 msgid "Miss. 裏まにら氏歌唱"
-msgstr "Bayan. Bay Uramanira Uramanira tarafından seslendirildi"
+msgstr "Bayan. Bay Uramanira tarafından söylendi"
 
 msgid "支援のお願い"
 msgstr "Yardım talebi."
@@ -899,6 +911,9 @@ msgstr "Basitleştirilmiş Çince"
 
 msgid "繁体中国語"
 msgstr "Geleneksel Çince"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Şu anda kullandığınız tarayıcı artık desteklenmeyen eski bir sürümdür. Daha güvenli ve rahat bir tarama ortamı için lütfen en son tarayıcıya güncelleyin."
 
 msgid "不正なリクエストです"
 msgstr "Yanlış istek."

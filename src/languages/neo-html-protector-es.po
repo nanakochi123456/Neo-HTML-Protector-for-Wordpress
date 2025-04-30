@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:53+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:18+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -151,7 +151,7 @@ msgid "「imgタグが呼び出されるごとに画像を保護」の場合は�
 msgstr "Para 'Proteger la imagen cada vez que se llama a la etiqueta img', utilice add_filter y filtre al publicar etiquetas img, dependiendo del tema esto puede no funcionar correctamente"
 
 msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
-msgstr "'Proteger todas las imágenes subidas a Wordpress fuera de toda la salida HTML' capturará casi toda la actividad de Wordpress y procesará todo sobre las etiquetas img en el contenido. Algunos temas no funcionarán correctamente"
+msgstr "'Proteger todas las imágenes subidas a Wordpress fuera de toda salida HTML' capturará casi toda la actividad de Wordpress y procesará todo sobre las etiquetas img en el contenido. Algunos temas no funcionarán correctamente"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
 msgstr "Tenga en cuenta que las imágenes especificadas como llamativas se difunden como OGP y no pueden protegerse. Si debe protegerlas, cambie la selección de la salida de la etiqueta HEAD al proteger HTML en la configuración avanzada."
@@ -477,14 +477,26 @@ msgstr "Las imágenes de OGP no se mostrarán en las redes sociales a menos que 
 msgid "画像botをアクセス禁止にする"
 msgstr "Prohibición del bot de imágenes."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Evitar los robots de imágenes frente al HTML protege contenidos que no podrían protegerse mediante enlaces directos desde la búsqueda de imágenes."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Evitar los robots de imágenes frente al HTML protege los contenidos que no podrían protegerse mediante enlaces directos desde la búsqueda de imágenes, aunque esto no puede abordarse por completo."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Prohibir el acceso a los robots de aprendizaje de IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitar el bot de aprendizaje de la IA contra HTML impide que sea utilizado por la IA, pero no aborda completamente"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Deshabilitar el acceso a UAs no válidas."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evitar el acceso si hay una cadena de caracteres no válida en el agente de usuario."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Advertencia para el acceso a Internet Explorer y el antiguo Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evitar el acceso a Internet Explorer y al antiguo Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Idioma en el que se muestra el mensaje de alerta."
@@ -649,7 +661,7 @@ msgid "このプラグインはあなたのWordpressから出力されるHTMLや
 msgstr "Este plugin tiene como objetivo proteger el HTML, imágenes, etc. de salida de su Wordpress y protegerlo contra el uso no autorizado de su contenido."
 
 msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
-msgstr "Los contenidos no pueden protegerse a la perfección. Sin embargo, advirtiéndoles de todas las formas posibles y estando preparado por si ocurre algo, debería poder resolverlo de una manera prescrita a nivel nacional."
+msgstr "Los contenidos no pueden estar perfectamente protegidos. Sin embargo, advirtiéndoles de todas las formas posibles y estando preparado por si ocurre algo, debería poder resolverlo de una manera prescrita a nivel nacional."
 
 msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
 msgstr "Por supuesto, tendrás que mejorar tus condiciones de uso y las políticas del sitio. Este plugin no es una aplicación de generación de términos de uso, pero puede darte una pista."
@@ -899,6 +911,9 @@ msgstr "Chino simplificado"
 
 msgid "繁体中国語"
 msgstr "Chino tradicional"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "El navegador que utiliza actualmente es una versión antigua que ya no es compatible. Para disfrutar de un entorno de navegación más seguro y cómodo, actualice su navegador a la última versión."
 
 msgid "不正なリクエストです"
 msgstr "Solicitud incorrecta."

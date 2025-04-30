@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:55+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:21+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -115,7 +115,7 @@ msgid "Firefoxに対しては無効です"
 msgstr "Ne velja za Firefox."
 
 msgid "SEOに著しく影響があります"
-msgstr "Pomembno vpliva na SEO."
+msgstr "Bistveno vpliva na SEO."
 
 msgid "HTMLをJavaScriptで描画"
 msgstr "Prikazovanje HTML z JavaScriptom"
@@ -292,7 +292,7 @@ msgid "スクリーンショット"
 msgstr "Posnetek zaslona"
 
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
-msgstr "Glede na operacijski sistem, brskalnik ali metodo morda ne bo prestreženo ali zaznano."
+msgstr "Glede na operacijski sistem, brskalnik in metodo morda ne bo prestreženo ali odkrito."
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Sum na posnetke zaslona, ko so okna pomaknjena nazaj."
@@ -477,14 +477,26 @@ msgstr "Slike OGP ne bodo prikazane v delitvah v družabnih omrežjih, razen če
 msgid "画像botをアクセス禁止にする"
 msgstr "Prepoved uporabe slikovnega bota."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Izogibanje slikovnim robotom v primerjavi s HTML varuje vsebino, ki je ne bi bilo mogoče zaščititi z neposrednimi povezavami iz iskanja slik."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Izogibanje slikovnim robotom v primerjavi s HTML varuje vsebino, ki je ne bi bilo mogoče zaščititi z neposrednimi povezavami iz iskanja slik, čeprav tega ni mogoče v celoti odpraviti."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Prepoved dostopa do robotov za učenje z umetno inteligenco."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Izogibanje učnemu botru umetne inteligence proti jeziku HTML preprečuje, da bi ga umetna inteligenca uporabljala, vendar ne odpravlja v celoti"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Onemogočite dostop do neveljavnih UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Izognite se dostopu, če je v uporabniškem agentu neveljaven niz znakov."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Opozorilo za dostop do brskalnika Internet Explorer in nekdanjega brskalnika Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Izogibajte se dostopu do brskalnika Internet Explorer in nekdanjega brskalnika Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Jezik, v katerem je prikazano opozorilno sporočilo."
@@ -685,7 +697,7 @@ msgid "寄付について"
 msgstr "O donacijah"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih močeh."
+msgstr "Donacije so prostovoljne in niso obvezne. Da bi lahko vtičnik uporabljali brezplačno, je na voljo vsem. Vendar pa je vaša podpora za nadaljnji razvoj zelo dobrodošla in z veseljem vam bomo pomagali po svojih najboljših močeh."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Donacije lahko prispevate prek spodnje povezave. Če ste iz Japonske, lahko darujete brezplačno, poleg tega pa lahko enostavno darujete z Amazonovimi darilnimi boni."
@@ -899,6 +911,9 @@ msgstr "Poenostavljena kitajščina"
 
 msgid "繁体中国語"
 msgstr "Tradicionalna kitajščina"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Brskalnik, ki ga trenutno uporabljate, je starejša različica, ki ni več podprta. Za varnejše in udobnejše brskanje po spletu posodobite brskalnik na najnovejšo različico."
 
 msgid "不正なリクエストです"
 msgstr "Nepravilna zahteva."

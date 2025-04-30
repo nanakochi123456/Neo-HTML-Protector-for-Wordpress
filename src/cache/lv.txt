@@ -12,6 +12,10 @@ IPアドレスのデータはありません	IP adreses dati nav pieejami.
 デバッグモード、コンソールの警告メッセージ	Debug režīms, konsoles brīdinājuma ziņojumi.
 右クリックの警告メッセージ	Ar peles labo pogu noklikšķiniet uz brīdinājuma ziņojumiem.
 印刷、PDF保存の警告メッセージ	Brīdinājuma ziņojumi par PDF dokumentu drukāšanu un saglabāšanu.
+スクリーンショットの警告メッセージ	Ekrānšāviņu brīdinājuma ziņojumi.
+スクリーンショットの疑いの警告メッセージ	Iespējamais ekrānšāviņš brīdinājuma ziņojums.
+テキスト全選択時の警告メッセージ	Brīdinājuma ziņojums, ja ir atlasīts viss teksts.
+ページ保存の警告メッセージ	Lapas saglabāšanas brīdinājuma ziņojums.
 コピー・カットした時に表示するメッセージ	Kopēšanas vai griešanas laikā tiek parādīts ziņojums.
 HTMLソース表示時に表示するメッセージ	Paziņojums, kas tiks parādīts, kad tiks parādīts HTML avots
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Ziņa, kas tiek parādīta avota sākumā, ja HTML ir aizsegts un aizsargāts.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	HTML aizsegšana
 無効	Nederīgs
 有効	Derīguma termiņš
 一般的なHTML圧縮です、難読化解除のサイトもあります	Vispārīga HTML saspiešana, dažās vietnēs ir atdalīta obfuskācija.
+このオプションを有効にするとview-sourceのログが取得できます	Aktivizējiet šo opciju, lai reģistrētu skatījuma avotu
 HTML保護	HTML aizsardzība
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Pēc HTML saspiešanas tiek izvadīts tikai minimālais HTML apjoms, un BODY birkas saturs vispār netiek izvadīts.
-view-source:の動作をされた時の記録もします	Tā arī reģistrē, kad tiek veikta darbība view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas var izraisīt SEO kritumu.
-若干デザインが変わる可能性があります	Dizains var nedaudz mainīties.
+Firefoxに対しては無効です	Nav derīgs pārlūkprogrammai Firefox.
+SEOに著しく影響があります	Ievērojami ietekmē SEO.
+HTMLをJavaScriptで描画	HTML renderēšana ar JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML renderēšana ar JavaScript kā Firefox pasākums
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript atveidošanas ieslēgšana ievērojami palēninās vietnes rādīšanas ātrumu.
 画像の保護	Attēlu aizsardzība.
-add_filterを使用して画像を保護	Attēlu aizsardzība, izmantojot add_filter
-wp_head～wp_footerの間をキャプチャして画像を保護	Attēlu uzņemšana un aizsardzība starp wp_head un wp_footer
+imgタグが呼び出されるごとに画像を保護	Aizsargāt attēlu katru reizi, kad tiek izsaukta img tag.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Aizsargāt visus attēlus, kas augšupielādēti Wordpress visos HTML izvades
 画像をダウンロードから保護します	Aizsargā attēlus no lejupielādes.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Gandrīz pilnībā novērš lejupielādi, ja attēla dati ir aizsargāti, izdod pilnīgu vienreizēju URL, autentificē ar sesijā saglabāto žetonu un parāda attēlu no php, tādējādi gandrīz pilnībā novēršot attēla zādzību.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Attēlu kešēšana nedarbojas, ja attēlu dati ir aizsargāti, tāpēc nākamā apmeklējuma laikā vietne ielādēsies lēnāk, un tas var izraisīt SEO samazināšanos.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ja attēlu dati ir aizsargāti, attēlu kešēšana nedarbojas, tāpēc nākamā apmeklējuma laikā vietne ielādējas lēnāk, kas ietekmē SEO.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Datubāzes slodze var būt lielāka, ja attēla dati ir aizsargāti.
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Metode, kas izmanto add_filter, filtrē img tagus, kad tie tiek publicēti, savukārt metode, kas izmanto wp_head līdz wp_footer, apstrādā visus saturā esošos img tagus.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Par "Aizsargāt attēlu katru reizi, kad tiek izsaukta img tag", izmantot add_filter un filtru, publicējot img tagus, atkarībā no tēmas tas var nedarboties pareizi.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Aizsargāt visus attēlus, kas augšupielādēti uz Wordpress no visiem HTML izvades" būs uztvert gandrīz visu Wordpress darbību un apstrādāt visu par img tagus saturu. Dažas tēmas nedarbosies pareizi
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ņemiet vērā, ka attēli, kas norādīti kā uzkrītoši, tiek izplatīti kā OGP, un tos nevar aizsargāt. Ja jums tie ir jāaizsargā, lūdzu, mainiet HEAD taga izvades izvēli, aizsargājot HTML, paplašinātajos iestatījumos.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS standarta ekrānšāviņu funkciju nevar aizsargāt
 画像URLの保護	Attēlu URL aizsardzība
-即時読み込みをして有効	Efektīva ar tūlītēju iekraušanu.
-遅延読み込みをして有効	Ieslēgts ar aizkavētu ielādi.
 画像の保護と組み合わせて使用します、単体では意味がありません	To izmanto kopā ar attēlu aizsardzību, bet atsevišķi tā nav nozīmīga.
-JavaScriptにより動的に読まれますのでSEOに影響があります	To dinamiski nolasa JavaScript, kas ietekmē SEO.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Kavēta lasīšana JavaScript dēļ, kas ietekmē SEO
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII mākslas izvadīšana HTML avota kodā HTML aizsegšanas un aizsardzības laikā.
 表示なし	Nav norāžu
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Parādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad tiek parādīts HTML avots.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Pārbaudiet, skatot avotu pārlūkā, kurā nav pierakstījies.
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad HTML avots tiek rādīts ar view-source.
+対象アクションを起こした時の表示デザイン	Displeja dizains, kad tiek aktivizēta mērķa darbība.
+黄色の背景の黒文字のベーシックデザイン	Pamata dizains ar melniem burtiem uz dzeltena fona
+黒色の背景の赤文字のホラー風デザイン	Šausmu stila dizains ar sarkanu tekstu uz melna fona.
+黒色の背景の赤文字の光る文字のデザイン	Dizains ar kvēlojošiem sarkaniem burtiem uz melna fona.
+対象アクションを起こした時のBGM	BGM, kad tiek veikta mērķa darbība.
+サウンドなし	Bez skaņas
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Cīņas un kaujas uzvaras - 1 min 16,3 sek - Licence: CC2.1 vai jaunāka versija
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Tēvs Īss - 3,8 sekundes - Licence GPL2.0 vai jaunāka
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Tēvs Long - 23.5 sek - Licence GPL2.0 vai jaunāka
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna etīde, op.10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna etīde, op.10-12 Revolūcija, drukāta versija, ātrā versija - 1 min 57,6 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna Scherzo b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfāra - 22,3 sekundes - Licence: publiskais īpašums
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stila fanfāra - 2,2 s - Licence: publiskais īpašums
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licence: publiskais īpašums
+警告表示中のBGMを選択します	Izvēlieties fona mūziku brīdinājuma rādīšanas laikā.
+びっくりするような雰囲気を作ります	Radīt pārsteidzošu atmosfēru
+Firefoxでは音声ブロックされます	Firefox bloķēs audio.
+対象アクションを起こした時のビープ音	Pīkstiena signāls, kad tiek veikta mērķa darbība.
+有効 音量小さ目	Ieslēgts Zems skaļums
+有効 音量大き目	Ieslēgts Skaļākais skaļums
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Brīdinājuma rādīšanas laikā signalizē par visiem taustiņu/peles notikumiem
+警告表示中に端末が暴走したかのような雰囲気を作ります	Brīdinājuma rādīšanas laikā radiet atmosfēru, it kā ierīce būtu kļuvusi nekontrolējama.
+対象アクションを起こした時のマウスカーソルの消去	Peles kursora izdzēšana, kad tiek veikta mērķa darbība.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Pārlūka kursora dzēšana pārlūkprogrammas apgabalā brīdinājuma rādīšanas laikā
 デバッグモード	Atkļūdošanas režīms
 妨害＋記録のみ	Tikai iejaukšanās + ieraksts.
 妨害＋記録＋表示＋リダイレクト	Pārtveršana + ierakstīšana + rādīšana + novirzīšana
 メニューからは操作できてしまいます	To var darbināt no izvēlnes.
+Firefoxにおけるデバッグモード	Debugēšanas režīms programmā Firefox
 ブラウザーコンソール	Pārlūka konsole
 事実上デバッグモードから操作できてしまいます	Faktiski varat darboties atkļūdošanas režīmā.
 HTMLソース表示	HTML avota rādīšana
 view-source:から始まるURLを入力すれば操作できてしまいます	To var izmantot, ievadot URL, kas sākas ar view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	Apvienojumā ar HTML aizsardzību saturu var aizsargāt.
 印刷	Drukāšana
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Drukas bloķēšana, bet dažās pārlūkprogrammās nedarbojas labi
+スクリーンショット	Ekrānšāviņš
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Atkarībā no operētājsistēmas, pārlūkprogrammas un metodes var netikt pārtverts vai atklāts.
+ウインドウが背面に移動した時スクリーンショットの疑い	Aizdomas par ekrānšāviņiem, kad logi ir pārvietoti uz aizmuguri.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Turklāt tā reaģē arī uz citām funkcijām, kas nav ekrānšāviņi
+2キー押下のスクリーンショットの疑い	Aizdomas par ekrānšāviņiem ar diviem taustiņu nospiedumiem.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Iepriekš minēto elementu noteikšanas metode nav perfekta, tiek izmantota profilaktiska noteikšana.
+スクリーンショットだけではなく、デバッグモード等も検出します	Tā nosaka ekrānšāviņus, kā arī atkļūdošanas režīmus utt.
 ページ保存	Lapas saglabāšana
 右クリック	Ar peles labo pogu noklikšķiniet uz
 アドオンがインストールされていると操作できてしまいます	To var darbināt, ja ir instalēti papildinājumi.
 コピー・カット	Kopēt-izgriezt
-あまりこのイベントに遭遇することはありません	Ar šādu gadījumu mēs nesastopamies bieži.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Atkarībā no šī spraudņa konfigurācijas šis notikums var tikt sasniegts reti.
+テキスト全選択	Pilna teksta atlase
 テキスト選択	Teksta atlase
 デバッガー妨害	Atkļūdošanas traucējumi
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Debug režīms ir mazliet mazāk ērts lietotājam, dažas pārlūkprogrammas aptur šo darbību.
 リダイレクトするURL	URL, uz kuru pāradresēt
 利用規約などのページに転送すると良いでしょう	Iespējams, vēlēsieties pārsūtīt tos uz tādām lapām kā lietošanas noteikumi.
+空欄にすると元のURLにリダイレクトをします	Ja tas tiks atstāts tukšs, tiks novirzīts uz sākotnējo URL.
+リダイレクトまでの時間	Laiks pārorientēties.
+リダイレクトなし	Nav novirzīšanas
+1秒	1 sekunde
+2秒	2 sek.
+3秒	3 sek.
+4秒	4 sek.
+5秒	5 sek.
+6秒	6 sek.
+7秒	7 sek.
+8秒	8 sek.
+9秒	9 sek.
+10秒	10 sek.
+15秒	15 sekundes.
+20秒	20 sek.
+25秒	25 sek.
+30秒	30 sekundes.
+35秒	35 sekundes.
+40秒	40 sekundes.
+45秒	45 sekundes.
+50秒	50 sek.
+55秒	55 sek.
+1分	Viena minūte
+1分10秒	1 min 10 sek.
+1分20秒	1 min 20 sek.
+1分30秒	1 minūte 30 sekundes.
+1分40秒	1 minūte 40 sekundes.
+1分50秒	1 minūte 50 sekundes.
+2分	2 minūtes
 ソース表示を許可する権限	Iestāde, kas atļauj avota rādīšanu.
 ADMINログイン時のみ通常のソース出力	Parastā avota izvade tikai pie ADMIN pieteikšanās
 USERログインで通常のソース出力	Parastā avota izvade ar lietotāja pieteikšanos
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Izvēlieties, vai parastā HTML izvades programma ir paredzēta tikai administratoriem vai arī lietotāja pieteikšanās.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Kas faktiski tiek lejupielādēts, piespiedu kārtā lejupielādējot attēlu.
+GIF形式で1×1ピクセルの透過画像	1 x 1 pikseļa caurspīdīgs attēls GIF formātā.
+PNG形式で1×1ピクセルの透過画像	1 x 1 pikseļa caurspīdīgs attēls PNG formātā.
+PNG形式で黄色い背景の警告画面	Brīdinājuma ekrāns ar dzeltenu fonu PNG formātā.
+意味のないHTMLドキュメント	Bezjēdzīgi HTML dokumenti
 HTML保護時のHEADタグの出力	HEAD tagu izvadīšana HTML aizsardzības laikā
 出力しない	Nav izejas
 TITLEタグのみ	Tikai birka TITLE
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Iegūti no Wordpress taga HEAD
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie nav ņemti no Wordpress HEAD taga.
 画像botをアクセス禁止にする	Attēlu bota aizliegšana.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt, izmantojot tiešās saites no attēlu meklēšanas.
+AI学習用botをアクセス禁止にする	Aizliegt piekļuvi mākslīgā intelekta mācību robotiem.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Izvairīšanās no mākslīgā intelekta mācību bota pret HTML novērš tā izmantošanu, taču pilnībā nerisina šo problēmu.
 alertメッセージを表示する言語	Valoda, kurā tiek parādīts brīdinājuma ziņojums.
 Wordpressの言語	Wordpress valodas.
 ブラウザの設定言語	Pārlūkprogrammas iestatījumu valoda
 メッセージをカスタム設定されている場合は言語を変更できません	Ja ziņojums ir pielāgots, valodu mainīt nevar.
 view-sourceメッセージを表示する言語	Valoda, kurā tiek rādīti skatījuma avota ziņojumi.
 一時使用トークンの有効期限	Pagaidu lietošanas žetonu derīguma termiņš.
-1分	Viena minūte
-2分	2 minūtes
 3分	3 min.
 4分	4 min.
 5分	5 minūtes.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Valoda, kurā tiek rādīti skat
 1時間	1 stunda
 画像URL情報の有効期限を設定します	Iestatīts attēla URL informācijas derīguma termiņš.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Pēc ielādēšanas attēla URL informācija un pagaidu lietošanas žetoni ir atspējoti.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Attēls tiks ielādēts laiski, bet attēls tiks piespiedu kārtā ielādēts 30 sekundes pirms norādītā laika.
 一時使用トークンのビット数	Bitu skaits pagaidu lietošanas žetonos
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Norāda pagaidu lietošanas marķiera stiprumu, ko izmanto kā paroli, lai šifrētu attēla URL informāciju.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Lai gan intensitāte palielinās, pārejot uz opcijām, kas uzskaitītas zem nolaižamās izvēlnes, servera slodze ir lielāka un pārsūtītais HTML apjoms var būt lielāks.
 ハッシュ化アルゴリズム	šifrēšanas algoritms
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Pagaidu žetoni tiek izmantoti kā paroles, lai šifrētu attēla URL informāciju, bet tie ir jāšifrē, iestatot šifrēšanas stiprumu.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensivitāte palielinās, pārejot uz iespējām, kas uzskaitītas zem nolaižamās izvēlnes, bet servera slodze palielinās.
 基本設定	Pamatnosacījumi
 高度な設定	Uzlabotie iestatījumi
 初期設定に戻す	Noklusējuma iestatījumu atiestatīšana
+デザイン・音の設定	Dizains un skaņas iestatījumi
+イベントの設定	Notikumu konfigurācija.
 メッセージの設定	Ziņu iestatījumi
 右クリックやソースコード表示時に転送する URL を設定します	Iestatiet URL, kas tiks pārsūtīts, kad noklikšķinot ar peles labo pogu vai skatot avota kodu.
 警告メッセージにはHTMLは使用できません	HTML nevar izmantot brīdinājuma ziņojumiem
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Valoda, kurā tiek rādīti skat
 改行	Jaunā līnija
 押下されたキー	Nospiests taustiņš
 Neo HTML Protector 設定	Neo HTML aizsarga iestatījumi
+メッセージ	Ziņa.
+デザイン・音	Dizains un skaņa
+初期化	Inicializācija
 このプラグインについて	Par šo spraudni.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Lai notīrītu visus datus, atinstalējiet spraudni un pēc tam instalējiet to no jauna.
+設定が初期化されました	Iestatījumi ir inicializēti.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializē spraudni Ņemiet vērā, ka IP žurnāla lasītāja dati šeit netiek dzēsti.
 Neo HTML Protectorについて	Par programmu Neo HTML Protector
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Šī spraudņa mērķis ir aizsargāt HTML, attēlus utt., kas izvadīti no jūsu Wordpress, un pasargāt to no neatļautas satura izmantošanas.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Saturu nevar pilnībā aizsargāt. Tomēr, visos iespējamos veidos brīdinot un esot gataviem, ja kaut kas notiek, jums vajadzētu spēt to atrisināt valsts noteiktajā veidā.
@@ -139,24 +221,44 @@ Miss. 裏まにら氏歌唱	Miss. dzied Uramanira kungs
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Paldies, ka izmantojat Neo HTML Protector!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Šī spraudņa izstrādē un uzturēšanā ir ieguldīts daudz laika un gudrības, un mēs būsim pateicīgi par ziedojumiem, ja tādi būs, lai palīdzētu mums piesaistīt līdzekļus turpmāku uzlabojumu un atjauninājumu veikšanai.
 寄付について	Par ziedojumiem
-寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ziedojumi ir brīvprātīgi un nav obligāti. Tā ir pieejama ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim.
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ziedojumi ir brīvprātīgi un nav obligāti. Tas ir pieejams ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim.
 ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus.
 寄付先	Donors
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Ar jūsu atbalstu mēs darīsim visu iespējamo, lai nākotnē nodrošinātu jums lieliskus atjauninājumus!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Mēs pateicamies jums par atbalstu un ceram uz turpmāku sadarbību.
+ライセンス	Licence
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Šis spraudnis ir izstrādāts kā atvērtā koda programmatūra, un tā ir licencēta ar GPL 2.0 vai jaunāku versiju.
+本プラグインには以下のライブラリを同梱しています	Šim spraudnim ir pievienotas šādas bibliotēkas.
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Šis spraudnis ietver fontu un fontu failus ASCII mākslai, ko ģenerē
+アスキーアート（AA）作成	ASCII mākslas
+ラッコ株式会社 利用承諾取得済	Otters Ltd Saņemta piekrišana izmantošanai.
+巨大文字AAジェネレーター	Milzu rakstzīmju AA ģenerators
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Iegūta piekrišana lietošanai
+The Gnome Project 利用承諾取得済	Iegūta Gnome projekta lietošanas piekrišana
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Šis spraudnis satur mūziku no neautorizētās Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Dažās daļās izmantotais klavieru skaņas avots "Keppys YAMAHA C7" ir KaleidonKep99 izveidotais SoundFont, kas izmantots saskaņā ar licences nosacījumiem.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Citi Aveņu Pi5, ChatGPT un deepl tiek izmantoti, izstrādājot šo spraudni
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Atklāts kešatmiņas spraudnis Šis spraudnis nedarbosies pareizi, ja ir iespējots kešatmiņas spraudnis.
 無効なIPアドレス	Nederīga IP adrese.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šo tīmekļa vietni var apskatīt tikai ar iespējot sīkfailus un JavaScript.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Lai izmantotu šo vietni, ir jābūt iespējotām sīkdatnēm un JavaScript.
+通常とは異なる方法でのアクセスや操作が検出されました	Ir atklātas neparastas piekļuves vai darbības metodes.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Dažas funkcijas ir ierobežotas drošības un satura aizsardzības nolūkā.
 デバッグモード、コンソールの起動は禁止されています	Debug režīms un konsoles aktivizēšana ir aizliegta
 以下の情報がサーバーに送信されました	Uz serveri ir nosūtīta šāda informācija
 あなたのIPアドレス	Jūsu IP adrese.
 あなたの端末とブラウザ	Jūsu ierīce un pārlūkprogramma
 あなたの押下したキー	Jūsu nospiestie taustiņi.
 リダイレクトをします	Pārvirzījumi.
+コンテンツ保護のため一部の機能を制限しています	Dažas funkcijas ir ierobežotas, lai aizsargātu saturu.
 右クリックは禁止されています	Klikšķināt ar peles labo pogu ir aizliegts.
+あなたが押下したキー	Nospiestais taustiņš.
 印刷、PDFへの保存は禁止されています	Drukāt un saglabāt PDF formātā ir aizliegts
+スクリーンショットは禁止されています	Ekrānšāviņi ir aizliegti.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ekrānšāviņu, atkļūdošanas režīma u. c. aktivizēšana ir aizliegta.
 ページの保存は禁止されています	Lapu saglabāšana ir aizliegta.
 コピー、カットは禁止されています	Kopēt vai griezt ir aizliegts.
 あなたが起こしたイベント	Notikumi, kurus jūs izraisījāt.
+テキストの選択は禁止されています	Teksta atlase ir aizliegta.
 HTMLソース表示は禁止されています	HTML avota rādīšana ir aizliegta.
 不正アクセスは禁止されています	Nesankcionēta piekļuve ir aizliegta.
 アラビア語	Arābu valoda
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	HTML avota rādīšana ir aizlieg
 中国語	Ķīniešu valoda
 簡体中国語	Vienkāršotā ķīniešu valoda
 繁体中国語	Tradicionālā ķīniešu valoda
-画像が見つかりません	Attēls nav atrasts.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Lai gan intensitāte palielinās, pārejot uz opcijām, kas uzskaitītas zem nolaižamās izvēlnes, servera slodze ir lielāka un pārsūtītais HTML apjoms var būt lielāks.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Kavēta lasīšana JavaScript dēļ, kas ietekmē SEO
-画像を無理やりダウンロードして実際にダウンロードされるもの	Kas faktiski tiek lejupielādēts, piespiedu kārtā lejupielādējot attēlu.
-PNG形式で黄色い背景の警告画面	Brīdinājuma ekrāns ar dzeltenu fonu PNG formātā.
-GIF形式で1×1ピクセルの透過画像	1 x 1 pikseļa caurspīdīgs attēls GIF formātā.
-意味のないHTMLドキュメント	Bezjēdzīgi HTML dokumenti
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas ietekmē SEO.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ja attēlu dati ir aizsargāti, attēlu kešēšana nedarbojas, tāpēc nākamā apmeklējuma laikā vietne ielādējas lēnāk, kas ietekmē SEO.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Atklāts kešatmiņas spraudnis Šis spraudnis nedarbosies pareizi, ja ir iespējots kešatmiņas spraudnis.
-スクリーンショット	Ekrānšāviņš
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Dažas operētājsistēmas un pārlūkprogrammas var nespēt pārtvert vai noteikt.
-スクリーンショットの警告メッセージ	Ekrānšāviņu brīdinājuma ziņojumi.
-ページ保存の警告メッセージ	Lapas saglabāšanas brīdinājuma ziņojums.
-スクリーンショットは禁止されています	Ekrānšāviņi ir aizliegti.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Atkarībā no operētājsistēmas, pārlūkprogrammas vai metodes var netikt pārtverts vai atklāts.
-空欄にすると元のURLにリダイレクトをします	Ja tas tiks atstāts tukšs, tiks novirzīts uz sākotnējo URL.
-ライセンス	Licence
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Šis spraudnis ir izstrādāts kā atvērtā koda programmatūra, un tā ir licencēta ar GPL 2.0 vai jaunāku versiju.
-本プラグインには以下のライブラリを同梱しています	Šim spraudnim ir pievienotas šādas bibliotēkas.
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Citi Aveņu Pi5, ChatGPT un deepl tiek izmantoti, izstrādājot šo spraudni
-imgタグが呼び出されるごとに画像を保護	Aizsargāt attēlu katru reizi, kad tiek izsaukta img tag.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Aizsargāt visus attēlus, kas augšupielādēti Wordpress visos HTML izvades
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Par "Aizsargāt attēlu katru reizi, kad tiek izsaukta img tag", izmantot add_filter un filtru, publicējot img tagus, atkarībā no tēmas tas var nedarboties pareizi.
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	"Aizsargāt visus attēlus, kas augšupielādēti uz Wordpress no visiem HTML izvades" būs uztvert gandrīz visu Wordpress darbību un apstrādāt visu par img tagus saturu. Dažas tēmas nedarbosies pareizi
-設定が初期化されました	Iestatījumi ir inicializēti.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializē spraudni Ņemiet vērā, ka IP žurnāla lasītāja dati šeit netiek dzēsti.
-リダイレクトなし	Nav novirzīšanas
-1秒	1 sekunde
-2秒	2 sek.
-3秒	3 sek.
-4秒	4 sek.
-5秒	5 sek.
-6秒	6 sek.
-7秒	7 sek.
-8秒	8 sek.
-9秒	9 sek.
-10秒	10 sek.
-15秒	15 sekundes.
-20秒	20 sek.
-25秒	25 sek.
-30秒	30 sekundes.
-35秒	35 sekundes.
-40秒	40 sekundes.
-45秒	45 sekundes.
-50秒	50 sek.
-55秒	55 sek.
-リダイレクトまでの時間	Laiks pārorientēties.
-対象アクションを起こした時の表示デザイン	Displeja dizains, kad tiek aktivizēta mērķa darbība.
-黄色の背景の黒文字のベーシックデザイン	Pamata dizains ar melniem burtiem uz dzeltena fona
-黒色の背景の赤文字のホラー風デザイン	Šausmu stila dizains ar sarkanu tekstu uz melna fona.
-対象アクションを起こした時のサウンド	Skaņa, kad tiek veikta mērķa darbība.
-サウンドなし	Bez skaņas
-戦闘 - 40秒	Cīņa - 40 sek.
-おやじ - 3秒	Tēvs - 3 sekundes.
-レトロ風ファンファーレ - 2秒	Retro stila fanfāra - 2 s.
-レトロ風オープン - 48秒	Retro stila atvēršana - 48 sek.
-デザイン・音の設定	Dizains un skaņas iestatījumi
-レトロ風オープン - 42秒	Retro stila atvēršana - 42 sek.
-おやじ ショート- 3秒	Tēvs Short - 3 sek.
-おやじ ロング - 23秒	Tēvs, garš - 23 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Šopēna etīde, op. 10-5, melnie taustiņi, ātrā versija - 59 sek.
-スクリーンショットを取得しようとした動作を検出しました	Pārvietošanās konstatēta, mēģinot uzņemt ekrānšāviņu.
-スクリーンショットの疑い	Iespējamie ekrānšāviņi.
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Iepriekš minēto elementu noteikšanas metode nav perfekta, tiek izmantota profilaktiska noteikšana.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Šis spraudnis satur mūziku no neautorizētās Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Tīmekļa vietnes darbībā parasti neizmantoto taustiņu darbības noteikšana
-スクリーンショットの疑いの警告メッセージ	Iespējamais ekrānšāviņš brīdinājuma ziņojums.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Šopēna etīde op.10-12 Revolūcija, ātrā versija - 1 min 57 sek.
-1分10秒	1 min 10 sek.
-1分20秒	1 min 20 sek.
-1分30秒	1 minūte 30 sekundes.
-1分40秒	1 minūte 40 sekundes.
-1分50秒	1 minūte 50 sekundes.
-黒色の背景の赤文字の光る文字のデザイン	Dizains ar kvēlojošiem sarkaniem burtiem uz melna fona.
-スクリーンショット、デバッグモード等の起動は禁止されています	Ekrānšāviņu, atkļūdošanas režīma u. c. aktivizēšana ir aizliegta.
-警告表示中のBGMを選択します	Izvēlieties fona mūziku brīdinājuma rādīšanas laikā.
-有効 音量小さ目	Ieslēgts Zems skaļums
-有効 音量大き目	Ieslēgts Skaļākais skaļums
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Brīdinājuma rādīšanas laikā signalizē par visiem taustiņu/peles notikumiem
-対象アクションを起こした時のBGM	BGM, kad tiek veikta mērķa darbība.
-対象アクションを起こした時の警告音	Brīdinājuma skaņa, kad tiek veikta mērķa darbība.
-対象アクションを起こした時のマウスカーソルの消去	Peles kursora izdzēšana, kad tiek veikta mērķa darbība.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Pārlūka kursora dzēšana pārlūkprogrammas apgabalā brīdinājuma rādīšanas laikā
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Šo tīmekļa vietni var apskatīt tikai ar iespējot sīkfailus un JavaScript.
-通常とは異なる方法でのアクセスや操作が検出されました	Ir atklātas neparastas piekļuves vai darbības metodes.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Dažas funkcijas ir ierobežotas drošības un satura aizsardzības nolūkā.
-コンテンツ保護のため一部の機能を制限しています	Dažas funkcijas ir ierobežotas, lai aizsargātu saturu.
-あなたが押下したキー	Nospiestais taustiņš.
-戦闘 - 39.8秒	Cīņa - 39,8 s.
-おやじ ショート- 3.7秒	Tēvs Short - 3,7 sekundes
-おやじ ロング - 22.7秒	Tēvs Longs - 22,7 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Šopēna etīde, op. 10-5, melnie taustiņi, ātrā versija - 57,8 sek.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Šopēna etīde op.10-12 Revolūcija, ātrā versija - 1 min 54,9 sek.
-レトロ風ファンファーレ - 2.2秒	Retro stila fanfāra - 2,2 s.
-レトロ風オープン - 41.2秒	Retro stila atvēršana - 41,2 sek.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Šis spraudnis ietver fontu un fontu failus ASCII mākslai, ko ģenerē
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Izpildītā versija - 37,8 sek.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganīni, sākot no 24 kaprīzēm - Izpildītā versija - 27.4 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Šopēna etīde, op. 10-5, melnie taustiņi, sitaminstrumentu versija, ātrā versija - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Šopēna etīde op.10-12 Revolūcija, mašīnraksta versija, ātrā versija - 1 min 54,9 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Šopēna Šerco b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 46,1 sek.
-ファンファーレ - 19.3秒	Fanfāra - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox bloķēs audio.
-Firefoxにおけるデバッグモード	Debugēšanas režīms programmā Firefox
-テキスト全選択	Pilna teksta atlase
-テキストの選択は禁止されています	Teksta atlase ir aizliegta.
-テキスト全選択時の警告メッセージ	Brīdinājuma ziņojums, ja ir atlasīts viss teksts.
-スクリーンショットだけではなく、デバッグモード等も検出します	Tā nosaka ekrānšāviņus, kā arī atkļūdošanas režīmus utt.
-イベントの設定	Notikumu konfigurācija.
-メッセージ	Ziņa.
-デザイン・音	Dizains un skaņa
-初期化	Inicializācija
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Rādīt ASCII mākslu, kas norāda uz brīdinājuma nolūku, kad HTML avots tiek rādīts ar view-source.
-HTML保護と組み合わせることでコンテンツを保護することができます	Apvienojumā ar HTML aizsardzību saturu var aizsargāt.
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Attēls tiks ielādēts laiski, bet attēls tiks piespiedu kārtā ielādēts 30 sekundes pirms norādītā laika.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Ikreiz, kad tas tiek aktivizēts, notiek pāradresācija, kas būtiski ietekmē SEO.
-びっくりするような雰囲気を作ります	Radīt pārsteidzošu atmosfēru
-対象アクションを起こした時のビープ音	Pīkstiena signāls, kad tiek veikta mērķa darbība.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Brīdinājuma rādīšanas laikā radiet atmosfēru, it kā ierīce būtu kļuvusi nekontrolējama.
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Atkarībā no šī spraudņa konfigurācijas šis notikums var tikt sasniegts reti.
-JavaScript描画で有効	Derīgs JavaScript renderēšanai.
-リダイレクトで有効	Derīgs novirzēm.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Ja atlasāt Ieslēgts novirzīšanai, tiks reģistrēts arī tas, kad tiks veikta skatīšanas avota: uzvedība.
-リダイレクトで有効はFirefoxに対しては無効です	Pārvirzīšanas ieslēgšana nav derīga pārlūkprogrammā Firefox
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript atveidošanas ieslēgšana ievērojami palēninās vietnes rādīšanas ātrumu.
-いずれもSEOに著しく影響があります	Abiem faktoriem ir būtiska ietekme uz SEO.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Lai izmantotu šo vietni, ir jābūt iespējotām sīkdatnēm un JavaScript.
-AI学習用botをアクセス禁止にする	Aizliegt piekļuvi mākslīgā intelekta mācību robotiem.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Izvairīšanās no mākslīgā intelekta mācību bota pret HTML novērš tā izmantošanu, taču pilnībā nerisina šo problēmu.
-Firefoxに対しては無効です	Nav derīgs pārlūkprogrammai Firefox.
-SEOに著しく影響があります	Ievērojami ietekmē SEO.
-HTMLをJavaScriptで描画	HTML renderēšana ar JavaScript
-Firefox対策としてHTMLをJavaScriptで描画をします	HTML renderēšana ar JavaScript kā Firefox pasākums
-PNG形式で1×1ピクセルの透過画像	1 x 1 pikseļa caurspīdīgs attēls PNG formātā.
-戦闘＆戦闘勝利 - 1分16.3秒	Cīņas un kaujas uzvaras - 1 min 16,3 sek.
-おやじ ショート- 3.8秒	Tēvs Short - 3,8 sekundes
-おやじ ロング - 23.5秒	Tēvs, garš - 23,5 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Šopēna etīde op.10-12 Revolūcija, mašīnraksta versija, ātrā versija - 1 min 00.0 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Šopēna Šerco b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48,0 sek.
-ファンファーレ - 22.3秒	Fanfāra - 22,3 s.
-レトロ風オープン - 42.1秒	Atvērts retro stils - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Šopēna etīde, op. 10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Šopēna etīde op.10-12 Revolūcija, mašīnraksta versija, ātrā versija - 1 min 57,6 sek.
-ウインドウが背面に移動した時スクリーンショットの疑い	Aizdomas par ekrānšāviņiem, kad logi ir pārvietoti uz aizmuguri.
-2キー押下のスクリーンショットの疑い	Aizdomas par ekrānšāviņiem ar diviem taustiņu nospiedumiem.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Turklāt tā reaģē arī uz citām funkcijām, kas nav ekrānšāviņi
-このオプションを有効にするとview-sourceのログが取得できます	Aktivizējiet šo opciju, lai reģistrētu skatījuma avotu
 不正なリクエストです	Nepareizs pieprasījums.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Cīņas un kaujas uzvaras - 1 min 16,3 sek - Licence: CC2.1 vai jaunāka versija
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Tēvs Īss - 3,8 sekundes - Licence GPL2.0 vai jaunāka
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Tēvs Long - 23.5 sek - Licence GPL2.0 vai jaunāka
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Šopēna etīde, op.10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek - Licence: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Šopēna etīde, op.10-12 Revolūcija, drukāta versija, ātrā versija - 1 min 57.6 sek - Licence: public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Šopēna Šerco b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48.0 sek - Licence: public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfāra - 22,3 sekundes - Licence: publiskais īpašums
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stila fanfāra - 2,2 s - Licence: publiskais īpašums
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-style open - 42,1 s - Licence: publiskais īpašums
+画像が見つかりません	Attēls nav atrasts.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt ar tiešajām saitēm no attēlu meklēšanas, lai gan to nevar pilnībā novērst.
+無効なUAをアクセス禁止にする	Aizliegt piekļuvi nederīgiem UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Izvairīties no piekļuves, ja lietotāja aģents satur nederīgu rakstzīmju virkni.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Brīdinājums par piekļuvi Internet Explorer un bijušajam Microsoft Edge.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Izvairieties no piekļuves pārlūkprogrammai Internet Explorer un bijušajai pārlūkprogrammai Microsoft Edge.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Šis spraudnis satur mūziku no neautorizētās Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Šis spraudnis satur mūziku, izmantojot 'Keppy s YAMAHA C7', ko radījis Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna etīde, op.10-5, melnie taustiņi, drukāta versija, ātrā versija - 1 min 0.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna etīde, op.10-12 Revolūcija, drukāta versija, ātrā versija - 1 min 57,6 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Šopēna Scherzo b moll, op. 2, drukātā versija, ātri saīsinātā versija - 1 min 48.0 sek - Licence: CC BY-ND 4.0 vai jaunāka versija
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Pašlaik izmantotā pārlūkprogramma ir vecāka versija, kas vairs netiek atbalstīta. Lai nodrošinātu drošāku un ērtāku pārlūkošanas vidi, lūdzu, atjauniniet to uz jaunāko pārlūkprogrammu.

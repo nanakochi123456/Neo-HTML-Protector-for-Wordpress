@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -477,14 +477,26 @@ msgstr "OGP-bilder vil ikke vises i sosiale nettverk med mindre de er hentet fra
 msgid "画像botをアクセス禁止にする"
 msgstr "Forbud mot bilderoboten."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Ved å unngå bilderoboter i forhold til HTML beskytter man innhold som ikke kan beskyttes av direkte lenker fra bildesøk."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Ved å unngå bilderoboter i forhold til HTML beskytter man innhold som ikke kan beskyttes av direkte lenker fra bildesøk, selv om dette ikke kan løses helt."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Forbud mot tilgang til AI-læringsroboter."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Ved å unngå at AI'ens læringsrobot brukes mot HTML, unngår man at den blir brukt av AI-en, men det løser ikke problemet helt"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Deaktiver tilgang til ugyldige UA-er."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Unngå tilgang hvis det finnes en ugyldig tegnstreng i brukeragenten."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Advarsel for Internet Explorer og tidligere Microsoft Edge-tilgang."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Unngå tilgang til Internet Explorer og det tidligere Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Språk som varselmeldingen vises på."
@@ -607,7 +619,7 @@ msgid "右クリックやソースコード表示時に転送する URL を設�
 msgstr "Angi URL-adressen som skal videresendes når du høyreklikker eller viser kildekode."
 
 msgid "警告メッセージにはHTMLは使用できません"
-msgstr "HTML kan ikke brukes til advarselsmeldinger"
+msgstr "HTML kan ikke brukes for advarselsmeldinger"
 
 msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
 msgstr "Hvis dette skjermbildet er valgt, ignoreres språkinnstillingene i fanen Avanserte innstillinger"
@@ -899,6 +911,9 @@ msgstr "Forenklet kinesisk"
 
 msgid "繁体中国語"
 msgstr "Tradisjonell kinesisk"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Nettleseren du bruker for øyeblikket, er en eldre versjon som ikke lenger støttes. For å få et tryggere og mer komfortabelt surfemiljø bør du oppdatere til den nyeste nettleseren."
 
 msgid "不正なリクエストです"
 msgstr "Feil forespørsel."

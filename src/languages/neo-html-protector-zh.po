@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:52+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:14+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -196,7 +196,7 @@ msgid "サウンドなし"
 msgstr "无声"
 
 msgid "戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later"
-msgstr "战斗和战斗胜利 - 1 分 16.3 秒 - 授权许可：CC2.1 或更高版本"
+msgstr "战斗与战斗胜利 - 1 分 16.3 秒 - 授权许可：CC2.1 或更高版本"
 
 msgid "おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ"
 msgstr "父亲短 - 3.8 秒 - 许可证 GPL2.0 或更高版本"
@@ -337,7 +337,7 @@ msgid "デバッグモードの使い勝手を少し悪くします、ブラウ�
 msgstr "使调试模式对用户不那么友好，有些浏览器会阻止这种行为"
 
 msgid "リダイレクトするURL"
-msgstr "重定向到的 URL。"
+msgstr "要重定向到的 URL"
 
 msgid "利用規約などのページに転送すると良いでしょう"
 msgstr "您可能需要将他们转发到 使用条款 等页面。"
@@ -477,14 +477,26 @@ msgstr "除非 OGP 图像来自 Wordpress HEAD 标签，否则不会显示在社
 msgid "画像botをアクセス禁止にする"
 msgstr "禁止图像机器人。"
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索直接链接保护的内容。"
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "相对于 HTML 而言，避免图像机器人可以保护那些无法通过图像搜索的直接链接得到保护的内容，尽管这一点无法完全解决。"
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "禁止访问人工智能学习机器人。"
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "避免人工智能学习机器人学习 HTML，可以防止人工智能使用 HTML，但不能完全解决以下问题"
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "禁止访问无效 UA。"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "如果用户代理中存在无效字符串，则避免访问。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "对 Internet Explorer 和前 Microsoft Edge 访问的警告。"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "避免访问 Internet Explorer 和以前的 Microsoft Edge。"
 
 msgid "alertメッセージを表示する言語"
 msgstr "显示警报信息的语言。"
@@ -679,7 +691,7 @@ msgid "Neo HTML Protectorをご利用いただき、ありがとうございま�
 msgstr "感谢您使用 Neo HTML Protector！"
 
 msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
-msgstr "我们投入了大量的时间和智慧来开发和维护这个插件，如果您能帮助我们筹集资金来继续改进和更新这个插件，我们将不胜感激。"
+msgstr "本插件的开发和维护耗费了我们大量的时间和智慧，如果有捐赠，我们将不胜感激，以帮助我们筹集资金进行持续改进和更新。"
 
 msgid "寄付について"
 msgstr "关于捐赠"
@@ -899,6 +911,9 @@ msgstr "简体中文"
 
 msgid "繁体中国語"
 msgstr "繁体中文"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "您当前使用的浏览器是旧版本，已不再受支持。为获得更安全、更舒适的浏览环境，请更新至最新浏览器。"
 
 msgid "不正なリクエストです"
 msgstr "请求不正确。"

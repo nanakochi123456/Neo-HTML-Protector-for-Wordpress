@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:53+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:17+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -477,14 +477,26 @@ msgstr "Obrázky OGP se nebudou zobrazovat ve sdíleních na sociálních sítí
 msgid "画像botをアクセス禁止にする"
 msgstr "Zákaz obrazového bota."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Vyhnutí se obrázkovým robotům vůči HTML chrání obsah, který by nemohl být chráněn přímými odkazy z vyhledávání obrázků."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Vyhnutí se obrázkovým botům vůči HTML chrání obsah, který by nemohl být chráněn přímými odkazy z vyhledávání obrázků, i když to nelze zcela vyřešit."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Zákaz přístupu k botům pro učení umělé inteligence."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Vyhnutí se učícímu se botovi umělé inteligence proti jazyku HTML zabraňuje jeho použití umělou inteligencí, ale neřeší zcela."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Zakázat přístup k neplatným UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Zamezení přístupu, pokud je v uživatelském agentu neplatný řetězec znaků."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Upozornění pro přístup k Internet Exploreru a bývalému prohlížeči Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Vyhněte se přístupu k Internet Exploreru a bývalému prohlížeči Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Jazyk, ve kterém se zobrazuje výstražná zpráva."
@@ -899,6 +911,9 @@ msgstr "Zjednodušená čínština"
 
 msgid "繁体中国語"
 msgstr "Tradiční čínština"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Prohlížeč, který právě používáte, je starší verze, která již není podporována. Pro bezpečnější a pohodlnější prohlížení stránek aktualizujte prohlížeč na nejnovější verzi."
 
 msgid "不正なリクエストです"
 msgstr "Nesprávný požadavek."

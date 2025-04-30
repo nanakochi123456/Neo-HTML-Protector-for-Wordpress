@@ -12,6 +12,10 @@ IPアドレスのデータはありません	IP adresi verisi mevcut değil.
 デバッグモード、コンソールの警告メッセージ	Hata ayıklama modu, konsol uyarı mesajları.
 右クリックの警告メッセージ	Uyarı mesajlarına sağ tıklayın.
 印刷、PDF保存の警告メッセージ	PDF'leri yazdırmak ve kaydetmek için uyarı mesajları.
+スクリーンショットの警告メッセージ	Ekran görüntüsü uyarı mesajları.
+スクリーンショットの疑いの警告メッセージ	İddia edilen ekran görüntüsü uyarı mesajı.
+テキスト全選択時の警告メッセージ	Tüm metin seçildiğinde uyarı mesajı.
+ページ保存の警告メッセージ	Sayfa kaydetme uyarı mesajı.
 コピー・カットした時に表示するメッセージ	Kopyalama veya kesme sırasında görüntülenen mesaj.
 HTMLソース表示時に表示するメッセージ	HTML kaynağı görüntülenirken görüntülenecek mesaj
 HTML難読化・保護時にソースの先頭に表示するメッセージ	HTML gizlendiğinde ve korunduğunda kaynağın başında görüntülenecek mesaj.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	HTML gizleme
 無効	Geçersiz
 有効	Geçerlilik
 一般的なHTML圧縮です、難読化解除のサイトもあります	Genel HTML sıkıştırma, bazı sitelerde de-obfuscation vardır.
+このオプションを有効にするとview-sourceのログが取得できます	Görünüm kaynağını günlüğe kaydetmek için bu seçeneği etkinleştirin
 HTML保護	HTML Koruması
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTML sıkıştırmasının ötesinde yalnızca minimum HTML çıktısı verilir ve BODY etiketindeki içerik hiç çıktılanmaz.
-view-source:の動作をされた時の記録もします	Ayrıca view-source: eyleminin ne zaman gerçekleştirildiğini de kaydeder.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Her etkinleştirildiğinde, SEO'da düşüşe neden olabilecek bir yönlendirme olur
-若干デザインが変わる可能性があります	Tasarım biraz değişebilir.
+Firefoxに対しては無効です	Firefox için geçerli değildir.
+SEOに著しく影響があります	SEO'yu önemli ölçüde etkiler.
+HTMLをJavaScriptで描画	JavaScript ile HTML Oluşturma
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox ölçütü olarak JavaScript ile HTML oluşturma
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript oluşturmayı etkinleştirmek web sitesinin görüntülenme hızını önemli ölçüde yavaşlatacaktır
 画像の保護	Görüntü koruması.
-add_filterを使用して画像を保護	Add_filter kullanarak görüntüleri koruma
-wp_head～wp_footerの間をキャプチャして画像を保護	Wp_head ve wp_footer arasındaki görüntüleri yakalayın ve koruyun
+imgタグが呼び出されるごとに画像を保護	Img etiketi her çağrıldığında görüntüyü korur.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Wordpress'e yüklenen tüm görüntüleri tüm HTML çıktılarında koruyun
 画像をダウンロードから保護します	Görüntüleri indirilmeye karşı korur.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Görüntü verileri korunduğunda indirmeyi neredeyse tamamen önler, eksiksiz bir tek seferlik URL yayınlar, oturumda saklanan bir belirteçle kimlik doğrulaması yapar ve görüntüyü php'den görüntüler, böylece görüntü hırsızlığını neredeyse tamamen önler.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Görüntü verileri korunduğunda görüntü önbellekleme çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'da düşüşe neden olabilir
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Görüntü verileri korunduğunda, görüntü önbelleğe alma çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'yu etkiler
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Görüntü verileri korunduğunda veritabanı yükü daha yüksek olabilir
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Add_filter kullanan yöntem img etiketlerini yayınlandıklarında filtrelerken, wp_head to wp_footer kullanan yöntem içerikteki tüm img etiketlerini işler.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'img etiketi her çağrıldığında görüntüyü koru' için, img etiketlerini yayınlarken add_filter ve filtre kullanın, temaya bağlı olarak bu doğru çalışmayabilir
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Wordpress'e yüklenen tüm resimleri tüm HTML çıktılarının dışında koru' neredeyse tüm Wordpress etkinliklerini yakalayacak ve içerikteki img etiketleriyle ilgili her şeyi işleyecektir. Bazı temalar düzgün çalışmayacaktır
 なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Göz alıcı olarak belirtilen görüntülerin OGP olarak yayıldığını ve korunamayacağını unutmayın. Bunları korumanız gerekiyorsa, lütfen gelişmiş ayarlarda HTML'yi korurken HEAD etiketinin çıktısının seçimini değiştirin.
 OS標準搭載のスクリーンショット機能を保護することはできません	Standart işletim sistemi ekran görüntüsü işlevi korunamaz
 画像URLの保護	Görüntü URL'lerinin korunması
-即時読み込みをして有効	Anında yükleme ile etkilidir.
-遅延読み込みをして有効	Gecikmeli yükleme ile etkinleştirildi.
 画像の保護と組み合わせて使用します、単体では意味がありません	Görüntü koruma ile birlikte kullanıldığında tek başına anlamlı değildir.
-JavaScriptにより動的に読まれますのでSEOに影響があります	JavaScript tarafından dinamik olarak okunur ve bu da SEO'yu etkiler.
+JavaScriptにより遅延読まれますのでSEOに影響があります	SEO'yu etkileyen JavaScript nedeniyle gecikmeli okuma
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı.
 表示なし	Belirti yok
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağı görüntülendiğinde uyarma niyetini belirten ASCII resmini görüntüleyin.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Kaynağı oturum açmamış bir tarayıcıda görüntüleyerek kontrol edin
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağını view-source ile görüntülerken uyarma niyetini belirten ASCII resmini görüntüleyin.
+対象アクションを起こした時の表示デザイン	Hedef eylem tetiklendiğinde ekran tasarımı.
+黄色の背景の黒文字のベーシックデザイン	Sarı zemin üzerine siyah harflerle temel tasarım
+黒色の背景の赤文字のホラー風デザイン	Siyah zemin üzerine kırmızı metinli korku tarzı tasarım.
+黒色の背景の赤文字の光る文字のデザイン	Siyah zemin üzerinde parlayan kırmızı harflerden oluşan tasarım.
+対象アクションを起こした時のBGM	Hedef eylem gerçekleştirildiğinde BGM.
+サウンドなし	Sessiz
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Muharebe ve savaş zaferleri - 1 dakika 16,3 saniye - Lisans: CC2.1 veya üstü
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Kısa Baba - 3,8 saniye - Lisans GPL2.0 veya üstü
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Baba Uzun - 23,5 saniye - Lisans GPL2.0 veya üstü
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, siyah tuşlar, daktilo edilmiş versiyon, hızlı versiyon - 1 min 0.0 sec - Lisans: CC BY-ND 4.0 veya üstü
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 57,6 saniye - Lisans: CC BY-ND 4.0 veya üstü
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo Si bemol minör, Op2, daktilo edilmiş versiyon, hızlı kısaltılmış versiyon - 1 dakika 48.0 saniye - Lisans: CC BY-ND 4.0 veya üstü
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22.3 saniye - Lisans: kamu malı
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro tarzı fanfare - 2.2 s - Lisans: kamu malı
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro tarzı açık - 42,1 sn - Lisans: kamu malı
+警告表示中のBGMを選択します	Uyarı ekranı sırasında arka plan müziğini seçin.
+びっくりするような雰囲気を作ります	Şaşırtıcı bir atmosfer yaratın
+Firefoxでは音声ブロックされます	Firefox sesi engelleyecektir.
+対象アクションを起こした時のビープ音	Hedef eylem gerçekleştirildiğinde bip sesi.
+有効 音量小さ目	Etkin Düşük ses seviyesi
+有効 音量大き目	Etkin En yüksek ses seviyesi
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Uyarı ekranı sırasında tüm tuş/fare olaylarında bip sesi çıkarır
+警告表示中に端末が暴走したかのような雰囲気を作ります	Uyarı ekranı sırasında cihaz kontrolden çıkmış gibi bir atmosfer yaratın
+対象アクションを起こした時のマウスカーソルの消去	Hedef eylem gerçekleştirildiğinde fare imlecini silme.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Uyarı ekranı sırasında tarayıcı alanındaki fare imlecini temizleyin
 デバッグモード	Hata ayıklama modu
 妨害＋記録のみ	Sadece müdahale + kayıt.
 妨害＋記録＋表示＋リダイレクト	Yakalama + kayıt + görüntüleme + yönlendirme
 メニューからは操作できてしまいます	Menüden çalıştırılabilir.
+Firefoxにおけるデバッグモード	Firefox'ta hata ayıklama modu
 ブラウザーコンソール	Tarayıcı konsolu
 事実上デバッグモードから操作できてしまいます	Aslında, hata ayıklama modunda çalışabilirsiniz.
 HTMLソース表示	HTML kaynak gösterimi
 view-source:から始まるURLを入力すれば操作できてしまいます	View-source: ile başlayan bir URL girilerek çalıştırılabilir.
+HTML保護と組み合わせることでコンテンツを保護することができます	HTML koruması ile birlikte içerik korunabilir
 印刷	Baskı
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Baskı engelleme ancak bazı tarayıcılarda iyi çalışmıyor
+スクリーンショット	Ekran görüntüsü
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	İşletim sistemine, tarayıcıya ve yönteme bağlı olarak engellenmeyebilir veya tespit edilemeyebilir
+ウインドウが背面に移動した時スクリーンショットの疑い	Pencereler arkaya taşındığında ekran görüntüsü şüphesi.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ayrıca, ekran görüntüleri dışındaki işlevlere de tepki verir
+2キー押下のスクリーンショットの疑い	İki tuşa basarak ekran görüntüsü alma şüphesi.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Yukarıdaki maddeler için tespit yöntemi mükemmel değildir, önleyici tespit kullanılır.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ekran görüntülerinin yanı sıra hata ayıklama modlarını vb. algılar.
 ページ保存	Sayfa kaydet
 右クリック	Sağ tıklayın
 アドオンがインストールされていると操作できてしまいます	Eklentiler yüklüyse çalıştırılabilir.
 コピー・カット	Kopyala-kes
-あまりこのイベントに遭遇することはありません	Bu olayla çok sık karşılaşmıyoruz.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Bu eklentinin yapılandırmasına bağlı olarak, bu olaya nadiren ulaşılabilir
+テキスト全選択	Tam metin seçimi
 テキスト選択	Metin seçimi
 デバッガー妨害	Hata ayıklayıcı müdahalesi
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Hata ayıklama modunu biraz daha az kullanıcı dostu yapar, bazı tarayıcılar bu davranışı durdurur
 リダイレクトするURL	Yönlendirilecek URL
 利用規約などのページに転送すると良いでしょう	Onları Kullanım Koşulları gibi sayfalara yönlendirmek isteyebilirsiniz.
+空欄にすると元のURLにリダイレクトをします	Boş bırakılırsa, orijinal URL'ye yönlendirir
+リダイレクトまでの時間	Yönlendirme zamanı.
+リダイレクトなし	Yönlendirme yok
+1秒	1 saniye
+2秒	2 saniye.
+3秒	3 saniye.
+4秒	4 saniye.
+5秒	5 saniye.
+6秒	6 saniye.
+7秒	7 saniye.
+8秒	8 saniye.
+9秒	9 saniye.
+10秒	10 saniye.
+15秒	15 saniye.
+20秒	20 saniye.
+25秒	25 saniye.
+30秒	30 saniye.
+35秒	35 saniye.
+40秒	40 saniye.
+45秒	45 saniye.
+50秒	50 saniye.
+55秒	55 saniye.
+1分	Bir dakika
+1分10秒	1 dakika 10 saniye.
+1分20秒	1 dakika 20 saniye.
+1分30秒	1 dakika 30 saniye.
+1分40秒	1 dakika 40 saniye.
+1分50秒	1 dakika 50 saniye.
+2分	2 dakika
 ソース表示を許可する権限	Kaynak gösterimine izin verme yetkisi.
 ADMINログイン時のみ通常のソース出力	Yalnızca ADMIN girişinde normal kaynak çıkışı
 USERログインで通常のソース出力	KULLANICI girişi ile normal kaynak çıkışı
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Normal HTML çıktısının yalnızca yöneticiler için mi yoksa kullanıcı girişi için mi olduğunu seçin
+画像を無理やりダウンロードして実際にダウンロードされるもの	Görüntünün indirilmeye zorlanmasıyla aslında indirilen şey.
+GIF形式で1×1ピクセルの透過画像	GIF formatında 1 x 1 piksel şeffaf görüntü.
+PNG形式で1×1ピクセルの透過画像	PNG formatında 1 x 1 piksel şeffaf görüntü.
+PNG形式で黄色い背景の警告画面	PNG formatında sarı arka planlı uyarı ekranı.
+意味のないHTMLドキュメント	Anlamsız HTML belgeleri
 HTML保護時のHEADタグの出力	HTML koruması sırasında HEAD etiketlerinin çıktısı
 出力しない	Çıktı yok
 TITLEタグのみ	Yalnızca TITLE etiketi
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Wordpress'teki HEAD etiketinden alındı
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP görselleri Wordpress HEAD etiketinden alınmadığı sürece sosyal ağ paylaşımlarında gösterilmeyecektir
 画像botをアクセス禁止にする	Görüntü botunun yasaklanması.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur.
+AI学習用botをアクセス禁止にする	Yapay zeka öğrenme botlarına erişimin yasaklanması.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	YZ'nin HTML'ye karşı öğrenme botundan kaçınmak, bunun YZ tarafından kullanılmasını önler, ancak tamamen ele almaz
 alertメッセージを表示する言語	Uyarı mesajının görüntülendiği dil.
 Wordpressの言語	Wordpress dilleri.
 ブラウザの設定言語	Tarayıcı ayar dili
 メッセージをカスタム設定されている場合は言語を変更できません	Mesaj özelleştirilmişse dil değiştirilemez
 view-sourceメッセージを表示する言語	Görünüm kaynağı mesajlarının görüntülendiği dil.
 一時使用トークンの有効期限	Geçici kullanım belirteçlerinin son kullanma tarihi.
-1分	Bir dakika
-2分	2 dakika
 3分	3 dakika.
 4分	4 dakika.
 5分	5 dakika.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Görünüm kaynağı mesajların
 1時間	1 saat
 画像URL情報の有効期限を設定します	Görüntü URL bilgilerinin son kullanma tarihini ayarlar.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Yüklendikten sonra, görüntü URL bilgileri ve geçici kullanım belirteçleri devre dışı bırakılır
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Görüntü tembel olarak yüklenecek, ancak görüntü bu belirtilen süreden 30 saniye önce yüklenmeye zorlanacaktır.
 一時使用トークンのビット数	Geçici kullanım belirteçlerindeki bit sayısı
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Görüntü URL bilgilerini şifrelemek için parola olarak kullanılan geçici kullanım belirtecinin gücünü belirtir
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artsa da, sunucu üzerindeki yük daha yüksektir ve aktarılan HTML miktarı daha yüksek olabilir
 ハッシュ化アルゴリズム	Hashing algoritması
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Geçici belirteçler, görüntü URL bilgilerini şifrelemek için parola olarak kullanılır, ancak bunların karma hale getirilmesi ve karma işleminin gücünün ayarlanması gerekir.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artar, ancak sunucu üzerindeki yük artar
 基本設定	Temel ayar
 高度な設定	Gelişmiş ayarlar
 初期設定に戻す	Varsayılana sıfırlama
+デザイン・音の設定	Tasarım ve ses ayarları
+イベントの設定	Olay yapılandırması.
 メッセージの設定	Mesaj ayarları
 右クリックやソースコード表示時に転送する URL を設定します	Sağ tıklandığında veya kaynak kodu görüntülendiğinde iletilecek URL'yi ayarlayın.
 警告メッセージにはHTMLは使用できません	Uyarı mesajları için HTML kullanılamaz
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Görünüm kaynağı mesajların
 改行	Yeni hat
 押下されたキー	Basılan tuş
 Neo HTML Protector 設定	Neo HTML Koruyucu Ayarları
+メッセージ	Mesaj.
+デザイン・音	Tasarım ve ses
+初期化	Başlatma
 このプラグインについて	Bu eklenti hakkında.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Tüm verileri temizlemek için eklentiyi kaldırın ve ardından yeniden yükleyin
+設定が初期化されました	Ayarlar başlatıldı.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Eklentiyi başlatır IP günlük okuyucu verilerinin burada silinmediğini unutmayın.
 Neo HTML Protectorについて	Neo HTML Protector Hakkında
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Bu eklenti, Wordpress'inizin HTML, resim vb. çıktılarını korumayı ve içeriğinin izinsiz kullanımından korumayı amaçlamaktadır.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	İçerik mükemmel bir şekilde korunamaz. Ancak, onları mümkün olan her şekilde uyararak ve bir şey olursa hazırlıklı olarak, bunu ulusal olarak öngörülen bir şekilde çözebilmelisiniz.
@@ -134,7 +216,7 @@ Neo HTML Protectorについて	Neo HTML Protector Hakkında
 ビルド	Inşa etmek
 サポートページ	Destek sayfası
 ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Bayan. Bay Uramanira Uramanira tarafından seslendirildi
+Miss. 裏まにら氏歌唱	Bayan. Bay Uramanira tarafından söylendi
 支援のお願い	Yardım talebi.
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector kullandığınız için teşekkür ederiz!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Bu eklentinin geliştirilmesi ve bakımı için çok fazla zaman ve bilgelik harcandı ve eğer varsa, sürekli iyileştirmeler ve güncellemeler için fon toplamamıza yardımcı olacak bağışlar için minnettar oluruz.
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	N
 寄付先	Donör
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Desteğinizle, gelecekte size harika güncellemeler sunmak için elimizden geleni yapacağız!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Desteğiniz için teşekkür ediyor ve gelecekte sizinle birlikte çalışmayı dört gözle bekliyoruz.
+ライセンス	Ruhsat
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Eklenti açık kaynak olarak geliştirilmiştir ve GPL 2.0 veya sonraki sürümleri altında lisanslanmıştır.
+本プラグインには以下のライブラリを同梱しています	Aşağıdaki kütüphaneler bu eklentiye dahildir
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Bu eklenti, aşağıdakiler tarafından oluşturulan ASCII resmi için yazı tipi ve yazı tipi dosyalarını içerir
+アスキーアート（AA）作成	ASCII sanatı
+ラッコ株式会社 利用承諾取得済	Otters Ltd Kullanım için izin alınmıştır.
+巨大文字AAジェネレーター	Dev karakter AA üreteci
+LAZE SOFTWARE 利用承諾取得済	LAZE YAZILIMI Kullanım izni alındı
+The Gnome Project 利用承諾取得済	Gnome Projesi Kullanım izni alındı
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Bu eklenti, EJ Ltd. tarafından geliştirilen ve bu eklentinin yaratıcısı tarafından bestelenen izinsiz Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Bazı bölümlerde kullanılan 'Keppys YAMAHA C7' piyano ses kaynağı KaleidonKep99 tarafından oluşturulan SoundFont'tur ve lisans koşullarına uygun olarak kullanılmıştır.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Bu eklentinin geliştirilmesinde diğer Raspberry Pi5, ChatGPT ve deepl kullanılmıştır
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Önbellek eklentisi algılandı Önbellek eklentisi etkinse bu eklenti düzgün çalışmayacaktır.
 無効なIPアドレス	Geçersiz IP adresi.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Bu web sitesi yalnızca çerezler ve JavaScript etkinken görüntülenebilir
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Bu web sitesini kullanabilmek için çerezler ve JavaScript etkinleştirilmelidir.
+通常とは異なる方法でのアクセスや操作が検出されました	Olağandışı erişim veya işletim yöntemleri tespit edilmiştir.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Bazı işlevler güvenlik ve içerik koruması için kısıtlanmıştır.
 デバッグモード、コンソールの起動は禁止されています	Hata ayıklama modu ve konsol aktivasyonu yasaktır
 以下の情報がサーバーに送信されました	Aşağıdaki bilgiler sunucuya gönderilmiştir
 あなたのIPアドレス	IP adresiniz.
 あなたの端末とブラウザ	Cihazınız ve tarayıcınız
 あなたの押下したキー	Basılı tuşlarınız.
 リダイレクトをします	Yönlendirmeler.
+コンテンツ保護のため一部の機能を制限しています	İçeriği korumak için bazı işlevler kısıtlanmıştır.
 右クリックは禁止されています	Sağ tıklamak yasaktır.
+あなたが押下したキー	Bastığınız tuş.
 印刷、PDFへの保存は禁止されています	PDF olarak yazdırmak ve kaydetmek yasaktır
+スクリーンショットは禁止されています	Ekran görüntüleri yasaktır.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ekran görüntülerinin, hata ayıklama modunun vb. etkinleştirilmesi yasaktır.
 ページの保存は禁止されています	Sayfaların kaydedilmesi yasaktır.
 コピー、カットは禁止されています	Kopyalanması veya kesilmesi yasaktır.
 あなたが起こしたイベント	Sebep olduğunuz olaylar.
+テキストの選択は禁止されています	Metin seçimi yasaktır.
 HTMLソース表示は禁止されています	HTML kaynak gösterimi yasaktır.
 不正アクセスは禁止されています	Yetkisiz erişim yasaktır.
 アラビア語	Arapça
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	HTML kaynak gösterimi yasaktır.
 中国語	Çince
 簡体中国語	Basitleştirilmiş Çince
 繁体中国語	Geleneksel Çince
-画像が見つかりません	Resim bulunamadı.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Açılır menünün altında listelenen seçeneklere gittikçe yoğunluk artsa da, sunucu üzerindeki yük daha yüksektir ve aktarılan HTML miktarı daha yüksek olabilir
-JavaScriptにより遅延読まれますのでSEOに影響があります	SEO'yu etkileyen JavaScript nedeniyle gecikmeli okuma
-画像を無理やりダウンロードして実際にダウンロードされるもの	Görüntünün indirilmeye zorlanmasıyla aslında indirilen şey.
-PNG形式で黄色い背景の警告画面	PNG formatında sarı arka planlı uyarı ekranı.
-GIF形式で1×1ピクセルの透過画像	GIF formatında 1 x 1 piksel şeffaf görüntü.
-意味のないHTMLドキュメント	Anlamsız HTML belgeleri
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Her etkinleştirildiğinde, SEO üzerinde etkisi olan bir yönlendirme gerçekleşir
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Görüntü verileri korunduğunda, görüntü önbelleğe alma çalışmaz, bu nedenle site bir sonraki ziyarette daha yavaş yüklenir ve bu da SEO'yu etkiler
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Önbellek eklentisi algılandı Önbellek eklentisi etkinse bu eklenti düzgün çalışmayacaktır.
-スクリーンショット	Ekran görüntüsü
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Bazı işletim sistemleri ve tarayıcılar aşağıdakileri engelleyemeyebilir veya tespit edemeyebilir
-スクリーンショットの警告メッセージ	Ekran görüntüsü uyarı mesajları.
-ページ保存の警告メッセージ	Sayfa kaydetme uyarı mesajı.
-スクリーンショットは禁止されています	Ekran görüntüleri yasaktır.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	İşletim sistemine, tarayıcıya ve yönteme bağlı olarak engellenmeyebilir veya tespit edilemeyebilir
-空欄にすると元のURLにリダイレクトをします	Boş bırakılırsa, orijinal URL'ye yönlendirir
-ライセンス	Ruhsat
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Eklenti açık kaynak olarak geliştirilmiştir ve GPL 2.0 veya sonraki sürümleri altında lisanslanmıştır.
-本プラグインには以下のライブラリを同梱しています	Aşağıdaki kütüphaneler bu eklentiye dahildir
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Bu eklentinin geliştirilmesinde diğer Raspberry Pi5, ChatGPT ve deepl kullanılmıştır
-imgタグが呼び出されるごとに画像を保護	Img etiketi her çağrıldığında görüntüyü korur.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Wordpress'e yüklenen tüm görüntüleri tüm HTML çıktılarında koruyun
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'img etiketi her çağrıldığında görüntüyü koru' için, img etiketlerini yayınlarken add_filter ve filtre kullanın, temaya bağlı olarak bu doğru çalışmayabilir
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Wordpress'e yüklenen tüm resimleri tüm HTML çıktılarının dışında koru' neredeyse tüm Wordpress etkinliklerini yakalayacak ve içerikteki img etiketleriyle ilgili her şeyi işleyecektir. Bazı temalar düzgün çalışmayacaktır
-設定が初期化されました	Ayarlar başlatıldı.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Eklentiyi başlatır IP günlük okuyucu verilerinin burada silinmediğini unutmayın.
-リダイレクトなし	Yönlendirme yok
-1秒	1 saniye
-2秒	2 saniye.
-3秒	3 saniye.
-4秒	4 saniye.
-5秒	5 saniye.
-6秒	6 saniye.
-7秒	7 saniye.
-8秒	8 saniye.
-9秒	9 saniye.
-10秒	10 saniye.
-15秒	15 saniye.
-20秒	20 saniye.
-25秒	25 saniye.
-30秒	30 saniye.
-35秒	35 saniye.
-40秒	40 saniye.
-45秒	45 saniye.
-50秒	50 saniye.
-55秒	55 saniye.
-リダイレクトまでの時間	Yönlendirme zamanı.
-対象アクションを起こした時の表示デザイン	Hedef eylem tetiklendiğinde ekran tasarımı.
-黄色の背景の黒文字のベーシックデザイン	Sarı zemin üzerine siyah harflerle temel tasarım
-黒色の背景の赤文字のホラー風デザイン	Siyah zemin üzerine kırmızı metinli korku tarzı tasarım.
-対象アクションを起こした時のサウンド	Hedef eylem gerçekleştirildiğinde ses çıkar.
-サウンドなし	Sessiz
-戦闘 - 40秒	Savaş - 40 sn.
-おやじ - 3秒	Baba - 3 saniye.
-レトロ風ファンファーレ - 2秒	Retro tarzı fanfare - 2 sn.
-レトロ風オープン - 48秒	Retro tarzı açık - 48 sn.
-デザイン・音の設定	Tasarım ve ses ayarları
-レトロ風オープン - 42秒	Retro tarzı açık - 42 sn.
-おやじ ショート- 3秒	Kısa Baba - 3 sn.
-おやじ ロング - 23秒	Baba, uzun - 23 saniye.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopin Etude, Op.10-5, siyah tuşlar, hızlı versiyon - 59 sn.
-スクリーンショットを取得しようとした動作を検出しました	Ekran görüntüsü alınmaya çalışılırken hareket algılandı.
-スクリーンショットの疑い	Ekran görüntüleri şüphesi
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Yukarıdaki maddeler için tespit yöntemi mükemmel değildir, önleyici tespit kullanılır.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Bu eklenti, EJ Ltd. tarafından geliştirilen ve eklenti yaratıcısı tarafından bestelenen izinsiz Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Normalde web sitesinin çalışmasında kullanılmayan tuşlarda işlem tespit edildi
-スクリーンショットの疑いの警告メッセージ	İddia edilen ekran görüntüsü uyarı mesajı.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopin Etude Op.10-12 Revolution, hızlı versiyon - 1 dakika 57 saniye.
-1分10秒	1 dakika 10 saniye.
-1分20秒	1 dakika 20 saniye.
-1分30秒	1 dakika 30 saniye.
-1分40秒	1 dakika 40 saniye.
-1分50秒	1 dakika 50 saniye.
-黒色の背景の赤文字の光る文字のデザイン	Siyah zemin üzerinde parlayan kırmızı harflerden oluşan tasarım.
-スクリーンショット、デバッグモード等の起動は禁止されています	Ekran görüntülerinin, hata ayıklama modunun vb. etkinleştirilmesi yasaktır.
-対象アクションを起こした時のBGM	Hedef eylem gerçekleştirildiğinde BGM.
-警告表示中のBGMを選択します	Uyarı ekranı sırasında arka plan müziğini seçin.
-対象アクションを起こした時の警告音	Hedef eylem gerçekleştirildiğinde uyarı sesi.
-有効 音量小さ目	Etkin Düşük ses seviyesi
-有効 音量大き目	Etkin En yüksek ses seviyesi
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Uyarı ekranı sırasında tüm tuş/fare olaylarında bip sesi çıkarır
-対象アクションを起こした時のマウスカーソルの消去	Hedef eylem gerçekleştirildiğinde fare imlecini silme.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Uyarı ekranı sırasında tarayıcı alanındaki fare imlecini temizleyin
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Bu web sitesi yalnızca çerezler ve JavaScript etkinken görüntülenebilir
-通常とは異なる方法でのアクセスや操作が検出されました	Olağandışı erişim veya işletim yöntemleri tespit edilmiştir.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Bazı işlevler güvenlik ve içerik koruması için kısıtlanmıştır.
-コンテンツ保護のため一部の機能を制限しています	İçeriği korumak için bazı işlevler kısıtlanmıştır.
-あなたが押下したキー	Bastığınız tuş.
-戦闘 - 39.8秒	Savaş - 39.8 sn.
-おやじ ショート- 3.7秒	Kısa Baba - 3.7 saniye
-おやじ ロング - 22.7秒	Peder Long - 22.7 saniye.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopin Etude, Op.10-5, siyah tuşlar, hızlı versiyon - 57.8 sn.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, hızlı versiyon - 1 dakika 54,9 saniye.
-レトロ風ファンファーレ - 2.2秒	Retro tarzı fanfare - 2,2 sn.
-レトロ風オープン - 41.2秒	Retro tarzı açık - 41,2 sn.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Bu eklenti, aşağıdakiler tarafından oluşturulan ASCII resmi için yazı tipi ve yazı tipi dosyalarını içerir
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Performed version - 37.8 sn.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, 24 Kapris'ten başlangıç - Seslendirilmiş versiyon - 27.4 sn.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopin Etüt, Op.10-5, siyah tuşlar, vurmalı versiyon, hızlı versiyon - 57.8 sn.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopin Etude Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 54,9 saniye.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopin Si bemol minör Scherzo, Op2, daktilo edilmiş versiyon, hızlı kısaltılmış versiyon - 1 dakika 46,1 saniye.
-ファンファーレ - 19.3秒	Fanfare - 19.3 sn.
-Firefoxでは音声ブロックされます	Firefox sesi engelleyecektir.
-Firefoxにおけるデバッグモード	Firefox'ta hata ayıklama modu
-テキスト全選択	Tam metin seçimi
-テキストの選択は禁止されています	Metin seçimi yasaktır.
-テキスト全選択時の警告メッセージ	Tüm metin seçildiğinde uyarı mesajı.
-スクリーンショットだけではなく、デバッグモード等も検出します	Ekran görüntülerinin yanı sıra hata ayıklama modlarını vb. algılar.
-イベントの設定	Olay yapılandırması.
-メッセージ	Mesaj.
-デザイン・音	Tasarım ve ses
-初期化	Başlatma
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	HTML kaynağını view-source ile görüntülerken uyarma niyetini belirten ASCII resmini görüntüleyin.
-HTML保護と組み合わせることでコンテンツを保護することができます	HTML koruması ile birlikte içerik korunabilir
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Görüntü tembel olarak yüklenecek, ancak görüntü bu belirtilen süreden 30 saniye önce yüklenmeye zorlanacaktır.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Her etkinleştirildiğinde, SEO'yu önemli ölçüde etkileyen bir yönlendirme gerçekleşir
-びっくりするような雰囲気を作ります	Şaşırtıcı bir atmosfer yaratın
-対象アクションを起こした時のビープ音	Hedef eylem gerçekleştirildiğinde bip sesi.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Uyarı ekranı sırasında cihaz kontrolden çıkmış gibi bir atmosfer yaratın
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Bu eklentinin yapılandırmasına bağlı olarak, bu olaya nadiren ulaşılabilir
-JavaScript描画で有効	JavaScript oluşturma için geçerlidir.
-リダイレクトで有効	Yönlendirmeler için geçerlidir.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Yönlendirme için Etkin'i seçerseniz, view-source: davranışı tamamlandığında da kaydedecektir.
-リダイレクトで有効はFirefoxに対しては無効です	Yönlendirmede etkin Firefox için geçerli değil
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript oluşturmayı etkinleştirmek web sitesinin görüntülenme hızını önemli ölçüde yavaşlatacaktır
-いずれもSEOに著しく影響があります	Her ikisinin de SEO üzerinde önemli bir etkisi vardır.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Bu web sitesini kullanabilmek için çerezler ve JavaScript etkinleştirilmelidir.
-AI学習用botをアクセス禁止にする	Yapay zeka öğrenme botlarına erişimin yasaklanması.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	YZ'nin HTML'ye karşı öğrenme botundan kaçınmak, bunun YZ tarafından kullanılmasını önler, ancak tamamen ele almaz
-Firefoxに対しては無効です	Firefox için geçerli değildir.
-SEOに著しく影響があります	SEO'yu önemli ölçüde etkiler.
-HTMLをJavaScriptで描画	JavaScript ile HTML Oluşturma
-Firefox対策としてHTMLをJavaScriptで描画をします	Firefox ölçütü olarak JavaScript ile HTML oluşturma
-PNG形式で1×1ピクセルの透過画像	PNG formatında 1 x 1 piksel şeffaf görüntü.
-戦闘＆戦闘勝利 - 1分16.3秒	Muharebe ve savaş zaferleri - 1 dakika 16,3 saniye
-おやじ ショート- 3.8秒	Kısa Baba - 3,8 saniye
-おやじ ロング - 23.5秒	Baba, uzun - 23,5 sn.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopin Etude Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dk 00.0 sn.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopin Si bemol minör Scherzo, Op2, daktilo edilmiş versiyon, hızlı kısaltılmış versiyon - 1 dakika 48.0 saniye.
-ファンファーレ - 22.3秒	Fanfare - 22.3 sn.
-レトロ風オープン - 42.1秒	Retro tarzı açık - 42,1 sn.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopin Etude, Op.10-5, siyah tuşlar, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 0.0 saniye.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopin Etude Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 57,6 saniye.
-ウインドウが背面に移動した時スクリーンショットの疑い	Pencereler arkaya taşındığında ekran görüntüsü şüphesi.
-2キー押下のスクリーンショットの疑い	İki tuşa basarak ekran görüntüsü alma şüphesi.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ayrıca, ekran görüntüleri dışındaki işlevlere de tepki verir
-このオプションを有効にするとview-sourceのログが取得できます	Görünüm kaynağını günlüğe kaydetmek için bu seçeneği etkinleştirin
 不正なリクエストです	Yanlış istek.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Muharebe ve savaş zaferleri - 1 dakika 16,3 saniye - Lisans: CC2.1 veya üstü
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Kısa Baba - 3,8 saniye - Lisans GPL2.0 veya üstü
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Baba Uzun - 23,5 saniye - Lisans GPL2.0 veya üstü
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-5, siyah tuşlar, daktilo edilmiş versiyon, hızlı versiyon - 1 min 0.0 sec - Lisans: kamu malı
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopin Etude, Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 57,6 saniye - Lisans: kamu malı
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopin Scherzo Si bemol minör, Op2, daktilo edilmiş versiyon, hızlı kısaltılmış versiyon - 1 dk 48.0 sn - Lisans: kamu malı
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22.3 saniye - Lisans: kamu malı
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro tarzı fanfare - 2.2 s - Lisans: kamu malı
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro tarzı açık - 42,1 sn - Lisans: kamu malı
+画像が見つかりません	Resim bulunamadı.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	HTML karşısında görüntü botlarından kaçınmak, görüntü aramadan doğrudan bağlantılarla korunamayan içeriği korur, ancak bu tamamen ele alınamaz.
+無効なUAをアクセス禁止にする	Geçersiz UA'lara erişimi devre dışı bırakın.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Kullanıcı aracısında geçersiz bir karakter dizisi varsa erişimi önleyin.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Internet Explorer ve eski Microsoft Edge erişimi için uyarı.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorer ve eski Microsoft Edge'e erişimden kaçının.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Bu eklenti, EJ Ltd. tarafından geliştirilen ve eklenti yaratıcısı tarafından bestelenen izinsiz Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Bu eklenti, Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, siyah tuşlar, daktilo edilmiş versiyon, hızlı versiyon - 1 min 0.0 sec - Lisans: CC BY-ND 4.0 veya üstü
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-12 Revolution, daktilo edilmiş versiyon, hızlı versiyon - 1 dakika 57,6 saniye - Lisans: CC BY-ND 4.0 veya üstü
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo Si bemol minör, Op2, daktilo edilmiş versiyon, hızlı kısaltılmış versiyon - 1 dakika 48.0 saniye - Lisans: CC BY-ND 4.0 veya üstü
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Şu anda kullandığınız tarayıcı artık desteklenmeyen eski bir sürümdür. Daha güvenli ve rahat bir tarama ortamı için lütfen en son tarayıcıya güncelleyin.

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.17\n"
+"Project-Id-Version: Neo HTML Protector 0.2.19\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-04-26 15:51+0900\n"
-"PO-Revision-Date: 2025-04-26 15:54+0900\n"
+"POT-Creation-Date: 2025-04-30 13:14+0900\n"
+"PO-Revision-Date: 2025-04-30 13:19+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -292,7 +292,7 @@ msgid "スクリーンショット"
 msgstr "Ekrānšāviņš"
 
 msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
-msgstr "Atkarībā no operētājsistēmas, pārlūkprogrammas vai metodes var netikt pārtverts vai atklāts."
+msgstr "Atkarībā no operētājsistēmas, pārlūkprogrammas un metodes var netikt pārtverts vai atklāts."
 
 msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
 msgstr "Aizdomas par ekrānšāviņiem, kad logi ir pārvietoti uz aizmuguri."
@@ -477,14 +477,26 @@ msgstr "OGP attēli netiks rādīti sociālo tīklu koplietojumos, ja vien tie n
 msgid "画像botをアクセス禁止にする"
 msgstr "Attēlu bota aizliegšana."
 
-msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます"
-msgstr "Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt, izmantojot tiešās saites no attēlu meklēšanas."
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Izvairīšanās no attēlu botu izmantošanas attiecībā pret HTML aizsargā saturu, ko nevarētu aizsargāt ar tiešajām saitēm no attēlu meklēšanas, lai gan to nevar pilnībā novērst."
 
 msgid "AI学習用botをアクセス禁止にする"
 msgstr "Aizliegt piekļuvi mākslīgā intelekta mācību robotiem."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Izvairīšanās no mākslīgā intelekta mācību bota pret HTML novērš tā izmantošanu, taču pilnībā nerisina šo problēmu."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Aizliegt piekļuvi nederīgiem UA."
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Izvairīties no piekļuves, ja lietotāja aģents satur nederīgu rakstzīmju virkni."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
+msgstr "Brīdinājums par piekļuvi Internet Explorer un bijušajam Microsoft Edge."
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Izvairieties no piekļuves pārlūkprogrammai Internet Explorer un bijušajai pārlūkprogrammai Microsoft Edge."
 
 msgid "alertメッセージを表示する言語"
 msgstr "Valoda, kurā tiek parādīts brīdinājuma ziņojums."
@@ -685,7 +697,7 @@ msgid "寄付について"
 msgstr "Par ziedojumiem"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Ziedojumi ir brīvprātīgi un nav obligāti. Tā ir pieejama ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim."
+msgstr "Ziedojumi ir brīvprātīgi un nav obligāti. Tas ir pieejams ikvienam, lai spraudni varētu izmantot bez maksas. Tomēr jūsu atbalsts ir ļoti vēlams, lai turpinātu izstrādi, un mēs labprāt palīdzēsim, kā vien spēsim."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Ziedojumus var veikt, izmantojot tālāk norādīto saiti. Ja esat no Japānas, varat ziedot arī bez maksas, turklāt ziedojumus var veikt, izmantojot Amazon dāvanu kuponus."
@@ -899,6 +911,9 @@ msgstr "Vienkāršotā ķīniešu valoda"
 
 msgid "繁体中国語"
 msgstr "Tradicionālā ķīniešu valoda"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Pašlaik izmantotā pārlūkprogramma ir vecāka versija, kas vairs netiek atbalstīta. Lai nodrošinātu drošāku un ērtāku pārlūkošanas vidi, lūdzu, atjauniniet to uz jaunāko pārlūkprogrammu."
 
 msgid "不正なリクエストです"
 msgstr "Nepareizs pieprasījums."

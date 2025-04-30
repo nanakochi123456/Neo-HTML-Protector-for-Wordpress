@@ -12,6 +12,10 @@ IPアドレスのデータはありません	IP-aadressi andmed puuduvad.
 デバッグモード、コンソールの警告メッセージ	Debugirežiim, konsooli hoiatusteated.
 右クリックの警告メッセージ	Parema hiireklõpsuga hoiatussõnumid.
 印刷、PDF保存の警告メッセージ	Hoiatusteated PDF-failide printimisel ja salvestamisel.
+スクリーンショットの警告メッセージ	Ekraanipiltide hoiatussõnumid.
+スクリーンショットの疑いの警告メッセージ	Väidetav ekraanipildi hoiatussõnum.
+テキスト全選択時の警告メッセージ	Hoiatussõnum, kui kogu tekst on valitud.
+ページ保存の警告メッセージ	Lehekülje salvestamise hoiatusteade.
 コピー・カットした時に表示するメッセージ	Kopeerimise või lõikamise ajal kuvatav teade.
 HTMLソース表示時に表示するメッセージ	HTML-allika kuvamisel kuvatav sõnum
 HTML難読化・保護時にソースの先頭に表示するメッセージ	Sõnum, mis kuvatakse lähtekoodi alguses, kui HTML on varjatud ja kaitstud.
@@ -23,54 +27,124 @@ HTML難読化 (圧縮)	HTML-i hägustamine
 無効	Kehtetu
 有効	Kehtivus
 一般的なHTML圧縮です、難読化解除のサイトもあります	Üldine HTML-kompressioon, mõnedel saitidel on de-obfuscation.
+このオプションを有効にするとview-sourceのログが取得できます	Lülita see valik sisse, et logida view-source
 HTML保護	HTML kaitse
 HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Väljastatakse ainult minimaalne HTML, mis ületab HTML-kompressiooni, ja BODY-tähe sisu ei väljastata üldse.
-view-source:の動作をされた時の記録もします	Samuti registreerib see, millal toimub tegevus view-source:.
-有効化した時は必ずリダイレクトが発生するため、SEOが落ちるかもしれません	Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mille tulemuseks võib olla SEO langus.
-若干デザインが変わる可能性があります	Disain võib veidi muutuda.
+Firefoxに対しては無効です	Ei kehti Firefoxi puhul.
+SEOに著しく影響があります	Mõjutab oluliselt SEO-d.
+HTMLをJavaScriptで描画	HTML-i renderdamine JavaScriptiga
+Firefox対策としてHTMLをJavaScriptで描画をします	HTML-i renderdamine JavaScriptiga Firefoxi meetmena
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScripti renderdamise lubamine aeglustab oluliselt veebilehe kuvamiskiirust.
 画像の保護	Pildi kaitse.
-add_filterを使用して画像を保護	Piltide kaitsmine add_filter abil
-wp_head～wp_footerの間をキャプチャして画像を保護	Piltide jäädvustamine ja kaitsmine wp_head ja wp_footer vahel
+imgタグが呼び出されるごとに画像を保護	Kaitseb pilti iga kord, kui img tagi kutsutakse.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Kaitse kõik Wordpressi üleslaetud pildid kõigis HTML-väljundites
 画像をダウンロードから保護します	Kaitseb pilte allalaadimise eest.
 画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Peaaegu täielikult takistab allalaadimist, kui pildiandmed on kaitstud, väljastab täieliku ühekordse URL-i, autentib seansis salvestatud sümboliga ja kuvab pildi php-st, seega takistab peaaegu täielikult pildivargust.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOが落ちるかもしれません	Pildi vahemälu ei tööta, kui pildiandmed on kaitstud, seega laadib sait järgmisel külastusel aeglasemalt, mis võib põhjustada SEO langust.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kui pildiandmed on kaitstud, ei tööta pildi vahemälu, mistõttu veebileht laadib järgmisel külastusel aeglasemalt, mis mõjutab SEO-d.
 画像データを保護した時には、データベースの負荷が高くなる可能性があります	Andmebaasi koormus võib olla suurem, kui pildiandmed on kaitstud
-add_filterを使用した方式はimgタグの発行時にフィルタリングを行い、wp_head～wp_footerを使用した方式はコンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Meetod, mis kasutab add_filter'i, filtreerib img-tähed nende avaldamisel, samas kui meetod, mis kasutab wp_head to wp_footer, töötleb kõiki img-tähed sisu sees.
-なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Pange tähele, et pilte, mis on määratud silmatorkavaks, levitatakse OGP-na ja neid ei saa kaitsta. Kui peate neid kaitsma, siis muutke HEAD-tähe väljundi valikut HTML-i kaitsmisel täiustatud seadetes.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'Kaitske pilti iga kord, kui img sildi kutsutakse', kasutage add_filter ja filtrit, kui avaldate img sildid, sõltuvalt teemast ei pruugi see õigesti toimida.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Kaitske kõik Wordpressi üleslaetud pildid kõigist HTML-väljunditest' hõivab peaaegu kogu Wordpressi tegevuse ja töötleb kõik img-tähed sisu kohta. Mõned teemad ei tööta õigesti
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Pange tähele, et pilte, mis on määratud silmatorkavaks, levitatakse OGP-na ja neid ei saa kaitsta. Kui peate neid kaitsma, muutke HEAD-tähe väljundi valikut HTML-i kaitsmisel täiustatud seadetes.
 OS標準搭載のスクリーンショット機能を保護することはできません	OS-i standardset ekraanipildi funktsiooni ei saa kaitsta
 画像URLの保護	Pildi URL-ide kaitse
-即時読み込みをして有効	Toimib kohese laadimisega.
-遅延読み込みをして有効	Lubatud hilinenud laadimisega.
 画像の保護と組み合わせて使用します、単体では意味がありません	Kasutatakse koos kujutise kaitsega, kuid see ei ole üksi mõttekas.
-JavaScriptにより動的に読まれますのでSEOに影響があります	Seda loeb dünaamiliselt JavaScript, mis mõjutab SEO-d.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Viivitatud lugemine JavaScript'i tõttu, mis mõjutab SEO-d.
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII kunsti väljastamine HTML lähtekoodis HTML varjutamise ja kaitse ajal.
 表示なし	Märgistus puudub
-HTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatuse esitamise kavatsust, kui kuvatakse HTML-allika.
-ログインしていないブラウザーでソース表示を行って確認して下さい	Kontrollige, vaadates allikat mitte sisselogitud brauseris.
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatuse esitamise kavatsust HTML-allika kuvamisel koos view-source'iga.
+対象アクションを起こした時の表示デザイン	Näita kujundust, kui sihtmõju käivitub.
+黄色の背景の黒文字のベーシックデザイン	Põhiline mustade tähtedega disain kollasel taustal
+黒色の背景の赤文字のホラー風デザイン	Horror-stiilis kujundus punase tekstiga mustal taustal.
+黒色の背景の赤文字の光る文字のデザイン	Kujundus hõõguvatest punastest tähtedest mustal taustal.
+対象アクションを起こした時のBGM	BGM, kui sihttegevus on tehtud.
+サウンドなし	Soundless
+戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Võitlus ja lahinguvõidud - 1 min 16.3 sek - Litsents: CC2.1 või uuemal litsentsil
+おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Isa Short - 3.8 sekundit - Litsents GPL2.0 või uuem
+おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Isa Long - 23.5 sek - Litsents GPL2.0 või uuem
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0.0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopini etüüd, op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
+ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 sekundit - Licence: public domain
+レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stiilis fanfaar - 2.2 s - Licence: public domain
+レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-stiilis avatud - 42.1 s - Litsents: üldkasutatav
+警告表示中のBGMを選択します	Valige taustamuusika hoiatusekraani ajal.
+びっくりするような雰囲気を作ります	Luua üllatav atmosfäär
+Firefoxでは音声ブロックされます	Firefox blokeerib heli.
+対象アクションを起こした時のビープ音	Helisignaal, kui sihttegevus on tehtud.
+有効 音量小さ目	Lubatud Madal helitugevus
+有効 音量大き目	Lubatud Suurim helitugevus
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Helisignaalid kõikide klahvi/hiire sündmuste korral hoiatuste kuvamise ajal
+警告表示中に端末が暴走したかのような雰囲気を作ります	Looge õhkkonda, nagu oleks seade hoiatusnäidiku ajal kontrolli alt väljunud
+対象アクションを起こした時のマウスカーソルの消去	Hiirekursori kustutamine, kui sihttoiming on sooritatud.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Hiirekursori kustutamine brauseri piirkonnas hoiatuse kuvamise ajal
 デバッグモード	Silitusrežiim
 妨害＋記録のみ	Ainult sekkumine + salvestamine.
 妨害＋記録＋表示＋リダイレクト	Kinnipidamine + salvestamine + kuvamine + ümbersuunamine
 メニューからは操作できてしまいます	Seda saab kasutada menüüst.
+Firefoxにおけるデバッグモード	Firefoxi tõrjerežiim
 ブラウザーコンソール	Brauseri konsool
 事実上デバッグモードから操作できてしまいます	Tegelikult saate tegutseda veaotsingurežiimil.
 HTMLソース表示	HTML-allika kuvamine
 view-source:から始まるURLを入力すれば操作できてしまいます	Seda saab kasutada, sisestades URL-i, mis algab sõnaga view-source:.
+HTML保護と組み合わせることでコンテンツを保護することができます	Kombineerituna HTML-kaitsega saab sisu kaitsta
 印刷	Trükkimine
 印刷阻止をするもものの、ブラウザによってはうまく動作しません	Prindi blokeerimine, kuid ei tööta hästi mõnes brauseris
+スクリーンショット	Ekraanipilt
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ei pruugi sõltuvalt operatsioonisüsteemist, veebilehitsejast ja meetodist olla pealtkuulatud või tuvastatud.
+ウインドウが背面に移動した時スクリーンショットの疑い	Kahtlus, et ekraanipilte saab teha, kui aknad on viidud tahapoole.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Lisaks sellele reageerib see ka muudele funktsioonidele kui ekraanipiltidele
+2キー押下のスクリーンショットの疑い	Kahtlus, et ekraanipilte tehakse kahe klahvivajutusega.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Eespool nimetatud elementide tuvastamise meetod ei ole täiuslik, kasutatakse ennetavat tuvastamist.
+スクリーンショットだけではなく、デバッグモード等も検出します	See tuvastab nii ekraanipilte kui ka silumisrežiime jne.
 ページ保存	Lehekülje salvestamine
 右クリック	Paremklikk
 アドオンがインストールされていると操作できてしまいます	Seda saab kasutada, kui on paigaldatud lisaseadmed.
 コピー・カット	Copy-cut
-あまりこのイベントに遭遇することはありません	Me ei kohta seda sündmust väga tihti.
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Sõltuvalt selle pistikprogrammi konfiguratsioonist võib see sündmus harva toimuda
+テキスト全選択	Täisteksti valik
 テキスト選択	Tekstivalik
 デバッガー妨害	Tõrje häireid
 デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Muudab veaotsingurežiimi veidi vähem kasutajasõbralikuks, mõned brauserid lõpetavad selle käitumise
 リダイレクトするURL	URL, millele suunata ümber
 利用規約などのページに転送すると良いでしょう	Sa võid neid edastada sellistele lehekülgedele nagu kasutustingimused.
+空欄にすると元のURLにリダイレクトをします	Kui see jäetakse tühjaks, suunatakse see ümber algsele URL-ile.
+リダイレクトまでの時間	Aeg ümber suunata.
+リダイレクトなし	Ümbersuunamist ei toimu
+1秒	1 sekund
+2秒	2 sek.
+3秒	3 sek.
+4秒	4 sek.
+5秒	5 sek.
+6秒	6 sek.
+7秒	7 sek.
+8秒	8 sek.
+9秒	9 sek.
+10秒	10 sek.
+15秒	15 sekundit.
+20秒	20 sek.
+25秒	25 sek.
+30秒	30 sekundit.
+35秒	35 sekundit.
+40秒	40 sekundit.
+45秒	45 sekundit.
+50秒	50 sek.
+55秒	55 sek.
+1分	üks minut
+1分10秒	1 min 10 sek.
+1分20秒	1 min 20 sek.
+1分30秒	1 minut 30 sekundit.
+1分40秒	1 minut 40 sekundit.
+1分50秒	1 minut 50 sekundit.
+2分	2 minutit
 ソース表示を許可する権限	Allikate kuvamist lubav asutus.
 ADMINログイン時のみ通常のソース出力	Tavaline allikas väljund ainult ADMIN sisselogimisel
 USERログインで通常のソース出力	Tavaline allikas väljund koos USER sisselogimisega
 通常のHTML出力を管理者のみかユーザーログインかを選択します	Valige, kas tavaline HTML-väljund on mõeldud ainult administraatoritele või ka kasutajale sisselogimiseks.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Mida tegelikult alla laetakse, sundides pilti alla laadima.
+GIF形式で1×1ピクセルの透過画像	1 x 1 piksline läbipaistev pilt GIF-formaadis.
+PNG形式で1×1ピクセルの透過画像	1 x 1 piksli suurune läbipaistev pilt PNG-vormingus.
+PNG形式で黄色い背景の警告画面	Kollase taustaga hoiatusekraan PNG-formaadis.
+意味のないHTMLドキュメント	Tähenduseta HTML-dokumendid
 HTML保護時のHEADタグの出力	HEAD-siltide väljastamine HTML-kaitsmise ajal
 出力しない	Väljund puudub
 TITLEタグのみ	Ainult TITLE silt
@@ -79,14 +153,14 @@ WordpressのHEADタグより取得	Wordpressi HEAD tagist välja otsitud
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	OGP pilte ei kuvata sotsiaalvõrgustikes, välja arvatud juhul, kui need on võetud Wordpressi HEAD-tagist.
 画像botをアクセス禁止にする	Pildiboti keelustamine.
 画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Pildibootide vältimine HTML-i suhtes kaitseb sisu, mida ei saaks kaitsta otselinkide abil pildiotsingust.
+AI学習用botをアクセス禁止にする	Tehisintellekti õppivate robotite juurdepääsu keelamine.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Tehisintellekti õpiboti HTML-i vastu vältimine takistab selle kasutamist tehisintellekti poolt, kuid ei lahenda täielikult
 alertメッセージを表示する言語	Keel, milles hoiatusteade kuvatakse.
 Wordpressの言語	Wordpressi keeled.
 ブラウザの設定言語	Brauseri seadistuse keel
 メッセージをカスタム設定されている場合は言語を変更できません	Keelt ei saa muuta, kui sõnum on kohandatud.
 view-sourceメッセージを表示する言語	Keel, milles kuvatakse vaateallika sõnumeid.
 一時使用トークンの有効期限	Ajutise kasutamise märgiste kehtivusaeg.
-1分	üks minut
-2分	2 minutit
 3分	3 min.
 4分	4 min.
 5分	5 minutit.
@@ -107,14 +181,18 @@ view-sourceメッセージを表示する言語	Keel, milles kuvatakse vaatealli
 1時間	1 tund
 画像URL情報の有効期限を設定します	Määrab pildi URL-i teabe aegumiskuupäeva.
 一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Pärast laadimist on pildi URL-teave ja ajutise kasutamise märgised keelatud.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Pilt laaditakse laisalt, kuid pilt on sunnitud laadima 30 sekundit enne seda määratud aega.
 一時使用トークンのビット数	Bittide arv ajutiselt kasutatavates märkides
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Määrab ajutise kasutustunnuse tugevuse, mida kasutatakse paroolina pildi URL-teabe krüpteerimiseks.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiivsus suureneb, kui minna rippmenüüst allpool loetletud valikute juurde, kuid koormus serverile suureneb
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Kuigi intensiivsus suureneb, kui minna rippmenüüst allpool loetletud valikute juurde, on serveri koormus suurem ja ülekantava HTML-i kogus võib olla suurem.
 ハッシュ化アルゴリズム	Hashing algoritm
 画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ajutisi märgiseid kasutatakse paroolidena pildi URL-teabe krüpteerimiseks, kuid neid tuleb hashteldada, määrata hashteldamise tugevus.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Intensiivsus suureneb, kui minna rippmenüüst allpool loetletud valikute juurde, kuid koormus serverile suureneb
 基本設定	Põhiülesanne
 高度な設定	Täiustatud seaded
 初期設定に戻す	Lähtestamine vaikimisi
+デザイン・音の設定	Disain ja heliseadistused
+イベントの設定	Sündmuse konfiguratsioon.
 メッセージの設定	Sõnumite seaded
 右クリックやソースコード表示時に転送する URL を設定します	Määrake URL, mida edastatakse parempoolse hiireklõpsu või lähtekoodi vaatamise korral.
 警告メッセージにはHTMLは使用できません	HTML-i ei saa kasutada hoiatusteadete jaoks
@@ -123,8 +201,12 @@ view-sourceメッセージを表示する言語	Keel, milles kuvatakse vaatealli
 改行	Uus rida
 押下されたキー	Vajutatud klahv
 Neo HTML Protector 設定	Neo HTML Protector seaded
+メッセージ	Sõnum.
+デザイン・音	Disain ja heli
+初期化	Initsialiseerimine
 このプラグインについて	Sellest pluginast.
-データをすべてクリアするには、プラグインをアンインストールしてから、インストールしなおして下さい	Kõikide andmete kustutamiseks eemaldage pistikprogramm ja seejärel installige see uuesti.
+設定が初期化されました	Seaded on initsialiseeritud.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Plugina initsialiseerimine Pange tähele, et IP-logi lugeja andmeid siin ei kustutata.
 Neo HTML Protectorについて	Neo HTML Protectori kohta
 このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Selle plugina eesmärk on kaitsta teie Wordpressi HTML-i, pilte jms väljundit ja kaitsta seda selle sisu loata kasutamise eest.
 コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Sisu ei saa olla täiuslikult kaitstud. Kuid hoiatades neid igal võimalikul viisil ja olles valmis, kui midagi juhtub, peaksite olema võimeline seda lahendama riiklikult ettenähtud viisil.
@@ -144,19 +226,39 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	T
 寄付先	Doonor
 皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Teie toetusega anname endast parima, et tuua teile tulevikus suurepäraseid uuendusi!
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Täname teid toetuse eest ja ootame teiega koostööd ka tulevikus.
+ライセンス	Litsents
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in on välja töötatud avatud lähtekoodiga ja on litsentsitud GPL 2.0 või hilisemate versioonide alusel.
+本プラグインには以下のライブラリを同梱しています	Selle pistikprogrammiga on kaasas järgmised raamatukogud
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	See pistikprogramm sisaldab kirjastiili ja kirjastiili faile ASCII kunsti jaoks, mis on genereeritud programmi
+アスキーアート（AA）作成	ASCII kunsti
+ラッコ株式会社 利用承諾取得済	Otters Ltd Kasutusloa saamine.
+巨大文字AAジェネレーター	Hiiglaslik iseloomu AA generaator
+LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE saadud kasutusluba
+The Gnome Project 利用承諾取得済	Gnome Project saadud kasutusluba
+このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	See pistikprogramm sisaldab muusikat Super Nintendo Entertainment System
+一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Mõnedes osades kasutatud klaveriheli "Keppys YAMAHA C7" on KaleidonKep99 loodud SoundFont ja seda kasutatakse vastavalt litsentsitingimustele.
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Muud Raspberry Pi5, ChatGPT ja deepl kasutatakse selle plugina arendamisel
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin tuvastatud See plugin ei tööta õigesti, kui cache plugin on lubatud.
 無効なIPアドレス	Vale IP-aadress.
-このWebサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Seda veebisaiti saab vaadata ainult küpsiste ja JavaScriptiga, mis on lubatud.
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Selle veebisaidi kasutamiseks peavad küpsised ja JavaScript olema lubatud.
+通常とは異なる方法でのアクセスや操作が検出されました	On tuvastatud ebatavalised juurdepääsu- või toimimisviisid.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Mõned funktsioonid on turvalisuse ja sisukaitse eesmärgil piiratud.
 デバッグモード、コンソールの起動は禁止されています	Debugimisrežiim ja konsooli aktiveerimine on keelatud.
 以下の情報がサーバーに送信されました	Serverile on saadetud järgmine teave
 あなたのIPアドレス	Teie IP-aadress.
 あなたの端末とブラウザ	Teie seade ja brauser
 あなたの押下したキー	Teie vajutatud klahvid.
 リダイレクトをします	Ümbersuunamised.
+コンテンツ保護のため一部の機能を制限しています	Mõned funktsioonid on sisu kaitsmiseks piiratud.
 右クリックは禁止されています	Parempoolne klõpsamine on keelatud.
+あなたが押下したキー	Klahv, mida vajutasite.
 印刷、PDFへの保存は禁止されています	Printimine ja PDF-formaadis salvestamine on keelatud
+スクリーンショットは禁止されています	Ekraanipildid on keelatud.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ekraanipiltide, silumisrežiimi jms aktiveerimine on keelatud.
 ページの保存は禁止されています	Lehekülgede salvestamine on keelatud.
 コピー、カットは禁止されています	Kopeerimine või lõikamine on keelatud.
 あなたが起こしたイベント	Teie põhjustatud sündmused.
+テキストの選択は禁止されています	Teksti valimine on keelatud.
 HTMLソース表示は禁止されています	HTML-allika kuvamine on keelatud.
 不正アクセスは禁止されています	Loata juurdepääs on keelatud.
 アラビア語	Araabia keel
@@ -195,165 +297,13 @@ HTMLソース表示は禁止されています	HTML-allika kuvamine on keelatud.
 中国語	Hiina
 簡体中国語	Lihtsustatud hiina keel
 繁体中国語	Traditsiooniline hiina keel
-画像が見つかりません	Pilti ei leitud.
-ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Kuigi intensiivsus suureneb, kui minna rippmenüüst allpool loetletud valikute juurde, on serveri koormus suurem ja ülekantava HTML-i kogus võib olla suurem.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Viivitatud lugemine JavaScript'i tõttu, mis mõjutab SEO-d.
-画像を無理やりダウンロードして実際にダウンロードされるもの	Mida tegelikult alla laetakse, sundides pilti alla laadima.
-PNG形式で黄色い背景の警告画面	Kollase taustaga hoiatusekraan PNG-formaadis.
-GIF形式で1×1ピクセルの透過画像	1 x 1 piksline läbipaistev pilt GIF-formaadis.
-意味のないHTMLドキュメント	Tähenduseta HTML-dokumendid
-有効化した時は必ずリダイレクトが発生するため、SEOに影響があります	Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab SEO-d.
-画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kui pildiandmed on kaitstud, ei tööta pildi vahemälu, mistõttu veebileht laadib järgmisel külastusel aeglasemalt, mis mõjutab SEO-d.
-キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cache plugin tuvastatud See plugin ei tööta õigesti, kui cache plugin on lubatud.
-スクリーンショット	Ekraanipilt
-OSやブラウザによっては妨害できず、もしくは検出しないことがあります	Mõned operatsioonisüsteemid ja veebilehitsejad ei pruugi olla võimelised kinni pidama või tuvastama
-スクリーンショットの警告メッセージ	Ekraanipiltide hoiatussõnumid.
-ページ保存の警告メッセージ	Lehekülje salvestamise hoiatusteade.
-スクリーンショットは禁止されています	Ekraanipildid on keelatud.
-OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ei pruugi sõltuvalt operatsioonisüsteemist, brauserist või meetodist olla kinni peetud või tuvastatud.
-空欄にすると元のURLにリダイレクトをします	Kui see jäetakse tühjaks, suunatakse see ümber algsele URL-ile.
-ライセンス	Litsents
-本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plug-in on välja töötatud avatud lähtekoodiga ja on litsentsitud GPL 2.0 või hilisemate versioonide alusel.
-本プラグインには以下のライブラリを同梱しています	Selle pistikprogrammiga on kaasas järgmised raamatukogud
-その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Muud Raspberry Pi5, ChatGPT ja deepl kasutatakse selle plugina arendamisel
-imgタグが呼び出されるごとに画像を保護	Kaitseb pilti iga kord, kui img tagi kutsutakse.
-出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Kaitse kõik Wordpressi üleslaetud pildid kõigis HTML-väljundites
-「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'Kaitske pilti iga kord, kui img sildi kutsutakse', kasutage add_filter ja filtrit, kui avaldate img sildid, sõltuvalt teemast ei pruugi see õigesti toimida.
-「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'Kaitske kõik Wordpressi üleslaetud pildid kõigist HTML-väljunditest' hõivab peaaegu kogu Wordpressi tegevuse ja töötleb kõik img-tähed sisu kohta. Mõned teemad ei tööta õigesti
-設定が初期化されました	Seaded on initsialiseeritud.
-プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Plugina initsialiseerimine Pange tähele, et IP-logi lugeja andmeid siin ei kustutata.
-リダイレクトなし	Ümbersuunamist ei toimu
-1秒	1 sekund
-2秒	2 sek.
-3秒	3 sek.
-4秒	4 sek.
-5秒	5 sek.
-6秒	6 sek.
-7秒	7 sek.
-8秒	8 sek.
-9秒	9 sek.
-10秒	10 sek.
-15秒	15 sekundit.
-20秒	20 sek.
-25秒	25 sek.
-30秒	30 sekundit.
-35秒	35 sekundit.
-40秒	40 sekundit.
-45秒	45 sekundit.
-50秒	50 sek.
-55秒	55 sek.
-リダイレクトまでの時間	Aeg ümber suunata.
-対象アクションを起こした時の表示デザイン	Näita kujundust, kui sihtmõju käivitub.
-黄色の背景の黒文字のベーシックデザイン	Põhiline mustade tähtedega disain kollasel taustal
-黒色の背景の赤文字のホラー風デザイン	Horror-stiilis kujundus punase tekstiga mustal taustal.
-対象アクションを起こした時のサウンド	Helisignaal, kui sihttegevus on tehtud.
-サウンドなし	Soundless
-戦闘 - 40秒	Võitlus - 40 sek.
-おやじ - 3秒	Isa - 3 sekundit.
-レトロ風ファンファーレ - 2秒	Retro stiilis fanfaar - 2 s.
-レトロ風オープン - 48秒	Retro-stiilis avatud - 48 sek.
-デザイン・音の設定	Disain ja heliseadistused
-レトロ風オープン - 42秒	Retro-stiilis avamine - 42 sek.
-おやじ ショート- 3秒	Isa Short - 3 sek.
-おやじ ロング - 23秒	Isa, pikk - 23 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 59秒	Chopini etüüd, op.10-5, mustad klahvid, kiire versioon - 59 sek.
-スクリーンショットを取得しようとした動作を検出しました	Avastatud liikumine, kui üritatakse teha ekraanipilti.
-スクリーンショットの疑い	Kahtlus ekraanipiltide kohta
-上の項目の検出方法は完全ではありません、予防的に検出を行います	Eespool nimetatud elementide tuvastamise meetod ei ole täiuslik, kasutatakse ennetavat tuvastamist.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	See pistikprogramm sisaldab muusikat Super Nintendo Entertainment System
-ウェブサイトの操作において通常使用しないキーでの操作を検出しました	Avastatud operatsioon klahvidel, mida tavaliselt ei kasutata veebisaidi toimimiseks.
-スクリーンショットの疑いの警告メッセージ	Väidetav ekraanipildi hoiatussõnum.
-ショパン エチュード Op.10-12 革命 高速版 - 1分57秒	Chopini etüüd Op.10-12 Revolutsioon, kiire versioon - 1 min 57 sek.
-1分10秒	1 min 10 sek.
-1分20秒	1 min 20 sek.
-1分30秒	1 minut 30 sekundit.
-1分40秒	1 minut 40 sekundit.
-1分50秒	1 minut 50 sekundit.
-黒色の背景の赤文字の光る文字のデザイン	Kujundus hõõguvatest punastest tähtedest mustal taustal.
-スクリーンショット、デバッグモード等の起動は禁止されています	Ekraanipiltide, silumisrežiimi jms aktiveerimine on keelatud.
-警告表示中のBGMを選択します	Valige taustamuusika hoiatusekraani ajal.
-有効 音量小さ目	Lubatud Madal helitugevus
-有効 音量大き目	Lubatud Suurim helitugevus
-警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Helisignaalid kõikide klahvi/hiire sündmuste korral hoiatuste kuvamise ajal
-対象アクションを起こした時のBGM	BGM, kui sihttegevus on tehtud.
-対象アクションを起こした時の警告音	Hoiatussignaal, kui sihtmärgiks on võetud tegevus.
-対象アクションを起こした時のマウスカーソルの消去	Hiirekursori kustutamine, kui sihttoiming on sooritatud.
-警告表示中にブラウザのエリアのマウスカーソルを消去します	Hiirekursori kustutamine brauseri piirkonnas hoiatuse kuvamise ajal
-このウェブサイトはCookieとJavaScriptが有効でないと閲覧することはできません	Seda veebisaiti saab vaadata ainult küpsiste ja JavaScriptiga, mis on lubatud.
-通常とは異なる方法でのアクセスや操作が検出されました	On tuvastatud ebatavalised juurdepääsu- või toimimisviisid.
-セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Mõned funktsioonid on turvalisuse ja sisukaitse eesmärgil piiratud.
-コンテンツ保護のため一部の機能を制限しています	Mõned funktsioonid on sisu kaitsmiseks piiratud.
-あなたが押下したキー	Klahv, mida vajutasite.
-戦闘 - 39.8秒	Võitlus - 39,8 s.
-おやじ ショート- 3.7秒	Isa Short - 3,7 sekundit
-おやじ ロング - 22.7秒	Isa Long - 22,7 sek.
-ショパン エチュード Op.10-5 黒鍵 高速版 - 57.8秒	Chopini etüüd, op.10-5, mustad klahvid, kiire versioon - 57,8 sek.
-ショパン エチュード Op.10-12 革命 高速版 - 1分54.9秒	Chopini etüüd Op.10-12 Revolutsioon, kiire versioon - 1 min 54,9 sek.
-レトロ風ファンファーレ - 2.2秒	Retro stiilis fanfaar - 2,2 s.
-レトロ風オープン - 41.2秒	Retro-stiilis avatud - 41,2 sek.
-本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	See pistikprogramm sisaldab kirjastiili ja kirjastiili faile ASCII kunsti jaoks, mis on genereeritud programmi
-マリンバの乱打 - 演奏版 - 37.8秒	Marimba Rampant - Esitatud versioon - 37,8 sek.
-パガニーニ 24の奇想曲より冒頭 - 演奏版 - 27.4秒	Paganini, alates 24 Caprices - Esitatud versioon - 27,4 sek.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 57.8秒	Chopini etüüd, op.10-5, mustad klahvid, löödud versioon, kiire versioon - 57,8 s.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分54.9秒	Chopini etüüd Op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 54,9 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分46.1秒	Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 46,1 sek.
-ファンファーレ - 19.3秒	Fanfaar - 19,3 s.
-Firefoxでは音声ブロックされます	Firefox blokeerib heli.
-Firefoxにおけるデバッグモード	Firefoxi tõrjerežiim
-テキスト全選択	Täisteksti valik
-テキストの選択は禁止されています	Teksti valimine on keelatud.
-テキスト全選択時の警告メッセージ	Hoiatussõnum, kui kogu tekst on valitud.
-スクリーンショットだけではなく、デバッグモード等も検出します	See tuvastab nii ekraanipilte kui ka silumisrežiime jne.
-イベントの設定	Sündmuse konfiguratsioon.
-メッセージ	Sõnum.
-デザイン・音	Disain ja heli
-初期化	Initsialiseerimine
-view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Kuvada ASCII-art, mis näitab hoiatamise kavatsust HTML-allika kuvamisel view-source'iga.
-HTML保護と組み合わせることでコンテンツを保護することができます	Kombineerituna HTML-kaitsega saab sisu kaitsta
-画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Pilt laaditakse laisalt, kuid pilt on sunnitud laadima 30 sekundit enne seda määratud aega.
-有効化した時は必ずリダイレクトが発生するため、著しくSEOに影響があります	Iga kord, kui see on aktiveeritud, toimub ümbersuunamine, mis mõjutab oluliselt SEO-d.
-びっくりするような雰囲気を作ります	Luua üllatav atmosfäär
-対象アクションを起こした時のビープ音	Helisignaal, kui sihttegevus on tehtud.
-警告表示中に端末が暴走したかのような雰囲気を作ります	Looge õhkkonda, nagu oleks seade hoiatusnäidiku ajal kontrolli alt väljunud
-本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Sõltuvalt selle pistikprogrammi konfiguratsioonist võib see sündmus harva toimuda
-JavaScript描画で有効	Kehtib JavaScripti renderdamiseks.
-リダイレクトで有効	Kehtib ümbersuunamiste puhul.
-リダイレクトで有効を選択した場合、view-source:の動作をされた時の記録もします	Kui te valite Ümbersuunamise jaoks käsu Lubatud, salvestab see ka selle, millal view-source: käitumine on tehtud.
-リダイレクトで有効はFirefoxに対しては無効です	Enabled on redirect ei kehti Firefoxi puhul
-JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScripti renderdamise lubamine aeglustab oluliselt veebilehe kuvamiskiirust.
-いずれもSEOに著しく影響があります	Mõlemal on märkimisväärne mõju SEO-le.
-このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Selle veebisaidi kasutamiseks peavad küpsised ja JavaScript olema lubatud.
-AI学習用botをアクセス禁止にする	Tehisintellekti õppivate robotite juurdepääsu keelamine.
-AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Tehisintellekti õpiboti HTML-i vastu vältimine takistab selle kasutamist tehisintellekti poolt, kuid ei lahenda täielikult
-Firefoxに対しては無効です	Ei kehti Firefoxi puhul.
-SEOに著しく影響があります	Mõjutab oluliselt SEO-d.
-HTMLをJavaScriptで描画	HTML-i renderdamine JavaScriptiga
-Firefox対策としてHTMLをJavaScriptで描画をします	HTML-i renderdamine JavaScriptiga Firefoxi meetmena
-PNG形式で1×1ピクセルの透過画像	1 x 1 piksli suurune läbipaistev pilt PNG-vormingus.
-戦闘＆戦闘勝利 - 1分16.3秒	Võidud võitluses ja lahingus - 1 min 16,3 sek.
-おやじ ショート- 3.8秒	Isa Short - 3,8 sekundit
-おやじ ロング - 23.5秒	Isa, pikk - 23,5 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分00.0秒	Chopini etüüd Op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 00,0 sek.
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒	Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek.
-ファンファーレ - 22.3秒	Fanfaar - 22,3 s.
-レトロ風オープン - 42.1秒	Retrostiilis avatud - 42,1 s.
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒	Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0,0 sek.
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒	Chopini etüüd Op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek.
-ウインドウが背面に移動した時スクリーンショットの疑い	Kahtlus, et ekraanipilte saab teha, kui aknad on viidud tahapoole.
-2キー押下のスクリーンショットの疑い	Kahtlus, et ekraanipilte tehakse kahe klahvivajutusega.
-あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Lisaks sellele reageerib see ka muudele funktsioonidele kui ekraanipiltidele
-このオプションを有効にするとview-sourceのログが取得できます	Lülita see valik sisse, et logida view-source
 不正なリクエストです	Ebaõige taotlus.
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Võitlus ja lahinguvõidud - 1 min 16.3 sek - Litsents: CC2.1 või uuemal litsentsil
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Isa Short - 3.8 sekundit - Litsents GPL2.0 või uuem
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Isa Long - 23.5 sek - Litsents GPL2.0 või uuem
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：パブリックドメイン	Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0.0 sec - Licence: public domain
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：パブリックドメイン	Chopini etüüd, op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek - Licence: public domain
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：パブリックドメイン	Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek - Licence: public domain
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfare - 22,3 sekundit - Licence: public domain
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Retro stiilis fanfaar - 2.2 s - Licence: public domain
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Retro-stiilis avatud - 42.1 s - Litsents: üldkasutatav
+画像が見つかりません	Pilti ei leitud.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Pildibootide vältimine HTML-i suhtes kaitseb sisu, mida ei saa kaitsta otselinkide abil pildiotsingust, kuigi seda ei saa täielikult lahendada.
+無効なUAをアクセス禁止にする	Keelake juurdepääs kehtetutele UA-dele.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Vältige juurdepääsu, kui kasutajaagent on kehtetu tähemärkide jada.
+Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Hoiatus Internet Exploreri ja endise Microsoft Edge'i juurdepääsu kohta.
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Vältige juurdepääsu Internet Explorerile ja endisele Microsoft Edge'ile.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	See pistikprogramm sisaldab muusikat Super Nintendo Entertainment System
 このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	See plugin sisaldab muusikat kasutades 'Keppy s YAMAHA C7' loodud Keppy
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopini etüüd, op.10-5, mustad klahvid, trükitud versioon, kiire versioon - 1 min 0.0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopini etüüd, op.10-12 Revolutsioon, trükitud versioon, kiire versioon - 1 min 57,6 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopini šerzo h-moll, op2, trükitud versioon, kiire lühendatud versioon - 1 min 48,0 sek - Litsents: CC BY-ND 4.0 või uuemal kujul
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Praegu kasutatav brauser on vanem versioon, mida enam ei toetata. Turvalisemaks ja mugavamaks sirvimiskeskkonnaks uuendage palun uusima brauseri versioonile.
