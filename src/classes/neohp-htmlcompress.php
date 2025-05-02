@@ -54,11 +54,11 @@ class neohp_htmlcompress {
 			// view-source検知のため、bodyの先頭にimgタグを生成
 			if(get_option('neohp_htmlprotect', '0') === '0') {
 				add_action('wp_body_open', function() {
-//					$home = home_url(); // これを入れると勝手にbase64に展開される
+//					$home = home_url(); // これを入れると勝手にbase64に展開される	
 					$home = '';
 					$home .= '?neohp=compress&amp;nonce=' . $this->neohp_func->create_short_nonce('compress');
 
-					echo '<img src="' . esc_url($home) . '" width="1" height="1" alt="" loading="eager" decoding="async">';
+					echo '<img src="' . esc_url($home) . '" alt="" loading="eager" decoding="async" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); border: 0; padding: 0; margin: 0;">';
 
 					// そしてview-source DBにinsert
 					if($this->neohp_func->is_not_bot()) {
@@ -83,6 +83,12 @@ class neohp_htmlcompress {
 
 					if (isset($_GET['neohp']) && $_GET['neohp'] === 'compress') {
 						if($this->neohp_func->verify_short_nonce($_GET['nonce'], 'compress') ) {
+							$user_ip = $this->neohp_func->get_user_ip();
+							// 一時的なデータベースも削除
+							$this->neohp_database->delete_view_source(
+								array( 'ip' => $user_ip)
+							);
+
 							$this->neohp_func->cachezero();
 							header('Content-Type: image/gif');
 							$mingif_array=explode(',', $this->mingif);
