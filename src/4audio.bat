@@ -19,6 +19,8 @@ wsl ffmpeg -y -i audiosrc/chatgpt2.wav -c:a aac -b:a 256k -ar 48000 -ac 1 audio/
 
 wsl ffmpeg -y -i audiosrc/chatgpt3.wav -c:a aac -b:a 256k -ar 48000 -ac 1 audio/chatgpt3.m4a
 
+wsl ffmpeg -y -i audiosrc/chatgpt4.wav -c:a aac -b:a 320k -ar 48000 -ac 2 audio/chatgpt4.m4a
+
 : other songs 64kbps 44100hz
 wsl ffmpeg -y -i audiosrc/sentou.wav -c:a aac -b:a 64k -ar 44100 audio/sentou.m4a
 
