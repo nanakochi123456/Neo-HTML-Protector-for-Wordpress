@@ -15,6 +15,10 @@ wsl ffmpeg -y -i audiosrc/msx_open.wav -c:a aac -b:a 32k -ar 44100 -ac 1 audio/m
 : chatgpt made 256kbps 48000hz mono
 wsl ffmpeg -y -i audiosrc/chatgpt.wav -c:a aac -b:a 256k -ar 48000 -ac 1 audio/chatgpt.m4a
 
+wsl ffmpeg -y -i audiosrc/chatgpt2.wav -c:a aac -b:a 256k -ar 48000 -ac 1 audio/chatgpt2.m4a
+
+wsl ffmpeg -y -i audiosrc/chatgpt3.wav -c:a aac -b:a 256k -ar 48000 -ac 1 audio/chatgpt3.m4a
+
 : other songs 64kbps 44100hz
 wsl ffmpeg -y -i audiosrc/sentou.wav -c:a aac -b:a 64k -ar 44100 audio/sentou.m4a
 

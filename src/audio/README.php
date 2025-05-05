@@ -39,6 +39,11 @@ https://sakuramml.com/mmlbbs6/post.php?mml_id=2791
 Composer ChatGPT GPT4-turbo
 License Public Domain
 
+chatgpt2.m4a, chatgpt3.m4a
+https://sakuramml.com/mmlbbs6/post.php?mml_id=2792
+Composer ChatGPT GPT4-turbo
+License Public Domain
+
 Other *.m4a - Composer & Copyright nano
 License Public Domain
 
