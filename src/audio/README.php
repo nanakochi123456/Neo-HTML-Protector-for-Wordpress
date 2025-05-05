@@ -34,6 +34,11 @@ https://sakuramml.com/mmlbbs6/post.php?mml_id=1520
 SM Trainer Hitomi3 Openning Composer nano, Licenced (L)EJ
 License GPL 2.0 or later
 
+chatgpt.m4a
+https://sakuramml.com/mmlbbs6/post.php?mml_id=2791
+Composer ChatGPT GPT4-turbo
+License Public Domain
+
 Other *.m4a - Composer & Copyright nano
 License Public Domain
 

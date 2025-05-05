@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.23\n"
+"Project-Id-Version: Neo HTML Protector 0.2.24\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-04 21:43+0900\n"
-"PO-Revision-Date: 2025-05-04 21:43+0900\n"
+"POT-Creation-Date: 2025-05-05 22:42+0900\n"
+"PO-Revision-Date: 2025-05-05 22:43+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -221,6 +221,9 @@ msgstr "Retro stílusú fanfár - 2,2 másodperc - 10,536 byte - 32 kbps - Licen
 
 msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
 msgstr "Retro-style open - 42,1 másodperc - 179,138 byte - 32 kbps - Licence: public domain"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Riasztás: ChatGPT - 3.8 másodperc - 109,700bytes - 256kbps - Licence: public domain"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Válassza ki a háttérzenét a figyelmeztető kijelzés alatt."
@@ -492,8 +495,8 @@ msgstr "Az érvénytelen UA-k elérésének letiltása."
 msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
 msgstr "Kerülje a hozzáférést, ha a felhasználói ügynökben érvénytelen karaktersorozat van."
 
-msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
-msgstr "Figyelmeztetés az Internet Explorer és a korábbi Microsoft Edge hozzáféréshez."
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Figyelmeztetés az Internet Explorer és a korábbi Microsoft Edge"
 
 msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
 msgstr "Kerülje az Internet Explorer és a korábbi Microsoft Edge elérését."

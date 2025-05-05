@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.23\n"
+"Project-Id-Version: Neo HTML Protector 0.2.24\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-04 21:43+0900\n"
-"PO-Revision-Date: 2025-05-04 21:43+0900\n"
+"POT-Creation-Date: 2025-05-05 22:42+0900\n"
+"PO-Revision-Date: 2025-05-05 22:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -221,6 +221,9 @@ msgstr "Keriuhan bergaya retro - 2,2 detik - 10.536 byte - 32 kbps - Lisensi: do
 
 msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
 msgstr "Terbuka bergaya retro - 42,1 detik - 179,138 byte - 32 kbps - Lisensi: domain publik"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Peringatan oleh ChatGPT - 3,8 detik - 109.700 byte - 256kbps - Lisensi: domain publik"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Pilih musik latar belakang selama tampilan peringatan."
@@ -492,8 +495,8 @@ msgstr "Nonaktifkan akses ke UA yang tidak valid."
 msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
 msgstr "Hindari akses jika ada string karakter yang tidak valid di agen pengguna."
 
-msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
-msgstr "Peringatan untuk Internet Explorer dan akses Microsoft Edge sebelumnya."
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Peringatan untuk Internet Explorer dan akses Microsoft Edge"
 
 msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
 msgstr "Hindari akses ke Internet Explorer dan Microsoft Edge sebelumnya."

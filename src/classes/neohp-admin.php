@@ -529,6 +529,7 @@ class neohp_admin {
 						, 'w-fanfa=' . __('ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
+						, 'chatgpt=' . __('警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . '<audio id="testaudio" controls></audio>';
 					?>
@@ -1199,7 +1200,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_injustice_ie',
-				__('Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する', 'neo-html-protector'),
+				__('Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('neohp_injustice_ie', '0'));
 					echo wp_kses( $this->getselect("neohp_injustice_ie", $value

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.23\n"
+"Project-Id-Version: Neo HTML Protector 0.2.24\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-04 21:43+0900\n"
-"PO-Revision-Date: 2025-05-04 21:43+0900\n"
+"POT-Creation-Date: 2025-05-05 22:42+0900\n"
+"PO-Revision-Date: 2025-05-05 22:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -221,6 +221,9 @@ msgstr "Retro tarzı fanfare - 2,2 saniye - 10.536 bayt - 32 kbps - Lisans: kamu
 
 msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
 msgstr "Retro tarzı açık - 42,1 saniye - 179.138 bayt - 32 kbps - Lisans: kamu malı"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "ChatGPT tarafından uyarı - 3.8 saniye - 109,700byte - 256kbps - Lisans: kamu malı"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Uyarı ekranı sırasında arka plan müziğini seçin."
@@ -492,8 +495,8 @@ msgstr "Geçersiz UA'lara erişimi devre dışı bırakın."
 msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
 msgstr "Kullanıcı aracısında geçersiz bir karakter dizisi varsa erişimi önleyin."
 
-msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
-msgstr "Internet Explorer ve eski Microsoft Edge erişimi için uyarı."
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Internet Explorer ve eski Microsoft Edge"
 
 msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
 msgstr "Internet Explorer ve eski Microsoft Edge'e erişimden kaçının."

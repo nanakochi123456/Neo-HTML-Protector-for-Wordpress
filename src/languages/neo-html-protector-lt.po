@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.23\n"
+"Project-Id-Version: Neo HTML Protector 0.2.24\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-04 21:43+0900\n"
-"PO-Revision-Date: 2025-05-04 21:43+0900\n"
+"POT-Creation-Date: 2025-05-05 22:42+0900\n"
+"PO-Revision-Date: 2025-05-05 22:44+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -221,6 +221,9 @@ msgstr "Retro stiliaus fanfaros - 2,2 sekundės - 10 536 baitai - 32 kbps - Lice
 
 msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
 msgstr "Retro-style open - 42,1 sekundės - 179 138 baitai - 32 kbps - Licencija: public domain"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Perspėjimas pagal ChatGPT - 3.8 sekundės - 109,700bytes - 256kbps - Licencija: viešoji nuosavybė"
 
 msgid "警告表示中のBGMを選択します"
 msgstr "Pasirinkite foninę muziką įspėjimo rodymo metu."
@@ -492,8 +495,8 @@ msgstr "Išjungti prieigą prie negaliojančių UA."
 msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
 msgstr "Venkite prieigos, jei naudotojo agentas turi negaliojančią simbolių eilutę."
 
-msgid "Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する"
-msgstr "Įspėjimas dėl Internet Explorer ir buvusios Microsoft Edge prieigos."
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Įspėjimas dėl Internet Explorer ir buvusios Microsoft Edge"
 
 msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
 msgstr "Venkite prieigos prie Internet Explorer ir buvusio Microsoft Edge."
