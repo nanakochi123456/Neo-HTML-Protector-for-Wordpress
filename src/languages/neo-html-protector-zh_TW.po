@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.25\n"
+"Project-Id-Version: Neo HTML Protector 0.3.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-06 02:30+0900\n"
-"PO-Revision-Date: 2025-05-06 02:30+0900\n"
+"POT-Creation-Date: 2025-05-07 06:35+0900\n"
+"PO-Revision-Date: 2025-05-07 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -755,6 +755,24 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "必須啟用 Cookie 和 JavaScript 才能使用本網站。"
+
+msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
+msgstr "本網站可能會在 cookies 和資料庫中儲存 IP 位址、瀏覽歷史和操作記錄，以防止未經授權的存取和偵測違反使用條款的行為。這些資訊除了用於網站運作和法律通信之外，不會用於任何其他目的，也不會轉交給第三方。"
+
+msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "要使用服務，您必須同意處理這些資料。如果您不同意，您的服務使用將受到限制。同意後，您可以檢視隱私權政策。"
+
+msgid "同意する"
+msgstr "同意。"
+
+msgid "同意しない"
+msgstr "不同意。"
+
+msgid "確認"
+msgstr "確認"
+
+msgid "プライバシーポリシー"
+msgstr "隱私權政策。"
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "偵測到不尋常的存取或操作方法。"

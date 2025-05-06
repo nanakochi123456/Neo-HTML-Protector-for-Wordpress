@@ -714,7 +714,7 @@
 	// デバッガ妨害
 	if(FlagSmall.includes('d')) {
 		// 1個目 コンソールクリア＆debuggerコマンド実行
-		setInterval(function() {
+		setInterval(() => {
 			console.clear();
 			debugger;
 		}, 100);
@@ -735,7 +735,7 @@
 		// だめなのでコメントアウト
 /*
 		var isDebuggerActive = false;
-		setInterval(function() {
+		setInterval(() => {
 			if (new Date() - performance.timing.navigationStart < 500) {
 				alert("debugger open");
 			}
@@ -746,7 +746,7 @@
 		// だめなのでコメントアウト
 /*
 		var lastTime = 0;
-		setInterval(function() {
+		setInterval(() => {
 			var now = new Date();
 			if (now - lastTime > 5000) {
 				lastTime = now;
@@ -774,7 +774,7 @@
 		// だめなのでコメントアウト
 /*
 		var lastTime = new Date();
-		setInterval(function() {
+		setInterval(() => {
 			if (new Date() - lastTime > 1000) {
 				lastTime = new Date();
 			} else {
@@ -922,7 +922,7 @@
 							width: vw85,
 						});
 
-					var newDiv3 = $('<div>')
+					var newDiv3 = $(div)
 						.html(text)
 						.css({
 							position: fixed,
@@ -1053,5 +1053,133 @@
 			.replace(/"/g, '&quot;')            // " をエスケープ
 			.replace(/'/g, '&#039;')            // ' をエスケープ
 			.replace(/__BR__/g, '<br>');		// <br> を元に戻す
+	}
+
+	/////////////////////////////////////////////////
+	// notice
+
+	if(! Cookies.get("neoagree") ) {
+		// HTMLを動的に構築
+		let overlay = $(div, { id: 'neoPopupOverlay' }).hide();
+		let popup = $(div, { id: 'neoPopup' }).hide();
+
+		let closeBtn = $('<button>', { id: 'closePopupBtn', text: '✕' });
+		let content = $(div)
+			.append($('<p>').text(NeoHPCook1))
+			.append($('<p>').text(NeoHPCook2));
+
+		let agreeBtn = $('<button>', { id: 'agreeBtn', text: NeoHPAgree });
+		let disagreeBtn = $('<button>', { id: 'disagreeBtn', text: NeoHPNoAgree });
+
+		let buttonContainer = $(div).css({
+			marginTop: '20px',
+			textAlign: 'center'
+		}).append(agreeBtn, disagreeBtn);
+
+		popup.append(closeBtn, content, buttonContainer);
+		$('body').append(overlay, popup); 
+
+		// スタイル設定
+		overlay.css({
+			position: 'fixed',
+			bottom: 0,
+			left: 0,
+			width: '100%',
+			height: '100%',
+			padding: '40px',
+			background: 'rgba(0, 0, 0, 0.1)',
+			zIndex: 999,
+			opacity: 0
+		});
+
+		popup.css({
+			position: 'fixed',
+			bottom: '-100%',
+			left: 0,
+			width: '100%',
+			background: '#fff',
+			padding: '40px',
+			zIndex: 1000,
+			boxShadow: '0 -2px 10px rgba(0,0,0,0.3)',
+			textAlign: 'center'
+		});
+
+		content.css({
+			width: '90%',
+			padding: '10px 70px 10px 0px'
+		});
+
+		closeBtn.css({
+			position: 'absolute',
+			top: '10px',
+			right: '15px',
+			fontSize: '20px',
+			background: 'transparent',
+			border: 'none',
+			cursor: 'pointer'
+		});
+
+		agreeBtn.css({
+			backgroundColor: '#e53935', // 赤系
+			color: '#fff',
+			border: 'none',
+			padding: '10px 20px',
+			margin: '10px',
+			cursor: 'pointer',
+			fontSize: '16px',
+			borderRadius: '5px'
+		});
+
+		disagreeBtn.css({
+			backgroundColor: '#1e88e5', // 青系
+			color: '#fff',
+			border: 'none',
+			padding: '10px 20px',
+			margin: '10px',
+			cursor: 'pointer',
+			fontSize: '16px',
+			borderRadius: '5px'
+		});
+
+		// 表示
+		setTimeout(() => {
+			overlay.show().fadeIn(300).css('opacity', 2);
+			popup.show().animate({ bottom: 0 }, 300);
+		}, 500);
+
+		// 閉じる共通処理
+		function closePopup() {
+			popup.animate({ bottom: '-100%' }, 300, function() {
+				popup.hide();
+			});
+			overlay.fadeOut(300);
+		}
+
+		// 閉じるボタン／オーバーレイ
+		closeBtn.on('click', closePopup);
+		overlay.on('click', closePopup);
+
+		// キーボードのEnterキーでも同意扱いにする
+		$(document).on('keydown', function(e) {
+			if (e.keyCode === 13) {
+				agreeBtn.click();
+			}
+		});
+
+		// 同意・不同意ボタンの処理
+		agreeBtn.on('click', function() {
+			Cookies.set(
+				"neoagree", "1",
+				{ expires: 366, path: "/", sameSite: "lax"}
+			);
+			closePopup();
+		});
+
+		disagreeBtn.on('click', function() {
+			closePopup();
+			setTimeout(() => {
+				Window.location.href = NeoHPSearch;
+			}, 300);
+		});
 	}
 })(jQuery);

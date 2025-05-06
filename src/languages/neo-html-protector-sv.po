@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.25\n"
+"Project-Id-Version: Neo HTML Protector 0.3.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-06 02:30+0900\n"
-"PO-Revision-Date: 2025-05-06 02:32+0900\n"
+"POT-Creation-Date: 2025-05-07 06:35+0900\n"
+"PO-Revision-Date: 2025-05-07 06:36+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -755,6 +755,24 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Cookies och JavaScript måste vara aktiverade för att du ska kunna använda den här webbplatsen."
+
+msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
+msgstr "Denna webbplats kan lagra IP-adresser, webbhistorik och driftsloggar i cookies och databaser i syfte att förhindra obehörig åtkomst och upptäcka överträdelser av användarvillkoren. Denna information kommer inte att användas för något annat ändamål än webbplatsens drift och juridisk korrespondens och kommer inte att vidarebefordras till tredje part."
+
+msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "För att använda tjänsterna måste du samtycka till behandlingen av dessa uppgifter. Om du inte ger ditt samtycke kommer din användning av tjänsterna att begränsas. Genom att samtycka kan du ta del av integritetspolicyn."
+
+msgid "同意する"
+msgstr "Håller med."
+
+msgid "同意しない"
+msgstr "Jag håller inte med."
+
+msgid "確認"
+msgstr "Bekräftelse"
+
+msgid "プライバシーポリシー"
+msgstr "Integritetspolicy."
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "Ovanliga metoder för åtkomst eller drift har upptäckts."

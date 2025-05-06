@@ -3,7 +3,7 @@
  * Plugin Name:	Neo HTML Protector
  * Plugin URI:	https://github.com/nanakochi123456/Neo-Webp-AVIF-Converter-for-Wordpress	
  * Description:	Very strong HTML/Image and Copyright protection
- * Version:	0.2.25
+ * Version:	0.3.0
  * Requires at least: 6.0
  * Requires PHP: 8.1
  * Author: Nano Yozakura
@@ -15,9 +15,9 @@
 
 defined('ABSPATH') or die('Oh! No!');
 
-define( 'NEOHP_VERSION', '0.2.25' );
+define( 'NEOHP_VERSION', '0.3.0' );
 define( 'NEOHP_REQUIRED_WP_VERSION', '6.0' );
-define( 'NEOHP_BUILD', '20250506002440+0900' );
+define( 'NEOHP_BUILD', '20250507063442+0900' );
 define( 'NEOHP_PLUGIN', __FILE__ );
 define( 'NEOHP_PLUGIN_DIR', untrailingslashit( dirname( NEOHP_PLUGIN ) ) );
 define( 'NEOHP_LANG_DIR', NEOHP_PLUGIN_DIR . '/languages/' );
@@ -61,3 +61,4 @@ require_once NEOHP_PLUGIN_DIR . '/classes/neohp-admin.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-admin-iplogreader.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-jskeyredirect.php';
 require_once NEOHP_PLUGIN_DIR . '/classes/neohp-jskeyajax.php';
+require_once NEOHP_PLUGIN_DIR . '/classes/neohp-notice.php';

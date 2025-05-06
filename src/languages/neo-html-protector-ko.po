@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.25\n"
+"Project-Id-Version: Neo HTML Protector 0.3.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-06 02:30+0900\n"
-"PO-Revision-Date: 2025-05-06 02:30+0900\n"
+"POT-Creation-Date: 2025-05-07 06:35+0900\n"
+"PO-Revision-Date: 2025-05-07 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -755,6 +755,24 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "이 웹사이트를 이용하려면 쿠키와 자바스크립트를 활성화해야 합니다."
+
+msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
+msgstr "본 웹사이트는 부정 접속을 방지하고 이용 약관 위반을 감지하기 위해 IP 주소, 검색 기록, 조작 로그를 쿠키 및 데이터베이스에 저장할 수 있습니다. 이러한 정보는 사이트 운영 및 법적 대응 이외에는 사용하지 않으며, 제3자에게 제공하지 않습니다."
+
+msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "서비스 이용을 위해서는 이러한 데이터 처리에 동의해야 합니다. 동의하지 않을 경우 서비스 이용이 제한됩니다. 동의를 통해 개인정보처리방침을 확인할 수 있습니다."
+
+msgid "同意する"
+msgstr "동의합니다"
+
+msgid "同意しない"
+msgstr "동의하지 않음"
+
+msgid "確認"
+msgstr "확인"
+
+msgid "プライバシーポリシー"
+msgstr "개인 정보 보호 정책"
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "비정상적인 접근 및 조작이 감지되었습니다."

@@ -7,8 +7,21 @@ defined('ABSPATH') or die('Oh! No!');
 
 $neohp_redirect_default = __('https://google.co.jp', 'neo-html-protector');
 
+$neohp_google_default = __('https://google.co.jp', 'neo-html-protector');
+
 $neohp_nocookienojs_default =
 	__('このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります', 'neo-html-protector');
+
+$neohp_cookie1_default =
+	__('このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。', 'neo-html-protector');
+
+$neohp_cookie2_default =
+	__('サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。', 'neo-html-protector');
+
+$neohp_cookie_agree_default = __('同意する', 'neo-html-protector');
+$neohp_cookie_noagree_default = __('同意しない', 'neo-html-protector');
+$neohp_comfirm_default = __('確認', 'neo-html-protector');
+$neohp_p3p_default = __('プライバシーポリシー', 'neo-html-protector');
 
 $neohp_imagedownload_default =
 	sprintf("%s\\n\\n%s\\n\\n%s\\n\\n%s\\n%s\\n%s\\n"

@@ -96,6 +96,32 @@ class neohp_javascript {
 		// 一時使用トークンの有効期限
 		$nonce_expire = get_option('neohp_nonce_expire', '20');
 
+		// プライバシーポリシーのページ
+		$privacy_page_id = get_option( 'wp_page_for_privacy_policy' );
+		$privacy_page_url = get_permalink( $privacy_page_id );
+
+		// 言語を強制する
+		if(get_option('neohp_alert_message_lang', '0') !== '0') {
+			if(get_option('neohp_alert_message_lang', '0') === '1') {
+				$lang = $this->neohp_func->getlang();
+			} else {
+				$lang = get_option('neohp_alert_message_lang', '0');
+			}
+			$lang = str_replace('-', '_', $lang);
+			switch_to_locale( $lang );
+			unload_textdomain('neo-html-protector');
+			load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
+		}
+		require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+
+		$searchengine=get_option('neohp_searchengine', $neohp_google_default);
+		$cookie1=get_option('neohp_cookie1', $neohp_cookie1_default);
+		$cookie2=get_option('neohp_cookie1', $neohp_cookie2_default);
+		$agree=get_option('neohp_agree', $neohp_cookie_agree_default);
+		$noagree=get_option('neohp_noagree', $neohp_cookie_noagree_default);
+		$confirm=get_option('neohp_confirm', $neohp_comfirm_default);
+		$p3p=get_option('neohp_p3p', $neohp_p3p_default);
+
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',";
 		if($plugin !== '') {
@@ -108,9 +134,23 @@ class neohp_javascript {
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPTime="   . esc_js($time) . ",
-			NeoHPnonce='" . esc_js($nonce) . "';
+			NeoHPnonce='" . esc_js($nonce) . "',
+			NeoHPpp='"	  . esc_js($privacy_page_url) . "',
+			NeoHPppstr='" . esc_js($p3p) . "',
+			NeoHPSearch='". esc_js($searchengine) . "',
+			NeoHPCook1='" . esc_js($cookie1) . "',
+			NeoHPCook2='" . esc_js($cookie2) . "',
+			NeoHPAgree='" . esc_js($agree) . "',
+			NeoHPNoAgree='".esc_js($noagree) . "';
+
+
 		";
 		$script = preg_replace('/[\r\n\t]+/', '', $script);
+
+		// 言語を戻す
+		$lang = $this->neohp_func->getlang();
+		unload_textdomain('neo-html-protector');
+		load_textdomain( 'neo-html-protector', NEOHP_LANG_DIR . 'neo-html-protector-' . $lang . '.mo' );
 
 		global $neohp_javascriptexec;
 		if ($neohp_javascriptexec == 0) {

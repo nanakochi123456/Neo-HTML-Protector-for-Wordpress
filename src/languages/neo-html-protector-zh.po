@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.2.25\n"
+"Project-Id-Version: Neo HTML Protector 0.3.0\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-06 02:30+0900\n"
-"PO-Revision-Date: 2025-05-06 02:30+0900\n"
+"POT-Creation-Date: 2025-05-07 06:35+0900\n"
+"PO-Revision-Date: 2025-05-07 06:35+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -755,6 +755,24 @@ msgstr "https://www.baidu.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "使用本网站必须启用 Cookie 和 JavaScript。"
+
+msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
+msgstr "本网站可能会将 IP 地址、浏览历史和操作日志保存在 Cookie 和数据库中，以防止未经授权的访问并检测违反使用条款的行为。除网站运营和法律通信外，这些信息不会用于任何其他目的，也不会转交给第三方。"
+
+msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "要使用服务，您必须同意处理这些数据。如果您不同意，您的服务使用将受到限制。同意后，您可以查看隐私政策。"
+
+msgid "同意する"
+msgstr "同意。"
+
+msgid "同意しない"
+msgstr "不同意。"
+
+msgid "確認"
+msgstr "证实"
+
+msgid "プライバシーポリシー"
+msgstr "隐私政策。"
 
 msgid "通常とは異なる方法でのアクセスや操作が検出されました"
 msgstr "检测到不寻常的访问或操作方法。"

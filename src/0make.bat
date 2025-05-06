@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.2.26
+set VERSION=0.3.0
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -13,7 +13,7 @@ rem WHITESPACE_ONLY
 rem SIMPLE_OPTIMIZATIONS
 
 @echo on
-%CLOSURE% --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
+%CLOSURE% --js=js/js.cookie.js --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
 %CLOSURE% --js=js/html-protect.js --js_output_file=js/html-protect.min.js  --externs js/externs.js
 
 :wsl rm js/neo-html-protect.min.js.br
@@ -23,7 +23,7 @@ rem SIMPLE_OPTIMIZATIONS
 wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
 
 :wsl curl -o js/crypto-js.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.js
-
+:wsl curl -o js/js.cookie.js https://cdn.jsdelivr.net/npm/js-cookie@3/dist/js.cookie.js
 :wsl sleep 1
 
 :wsl curl -o js/crypto-js.min.js https://cdnjs.cloudflare.com/ajax/libs/crypto-js/%CRYPTOJS%/crypto-js.min.js

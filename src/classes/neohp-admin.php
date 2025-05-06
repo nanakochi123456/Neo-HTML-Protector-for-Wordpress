@@ -1630,6 +1630,7 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <p><?php echo esc_html( __('本プラグインには以下のライブラリを同梱しています', 'neo-html-protector') ) ?></p>
 <ol>
 <li><?php echo '<a target="_blank" href="https://github.com/brix/crypto-js/">crypto-js</a> - The MIT License' ?></li>
+<li><?php echo '<a target="_blank" href="https://github.com/js-cookie/js-cookie">js-cookie</a> - The MIT License' ?></li>
 </ol>
 <p><?php echo esc_html( __('本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています', 'neo-html-protector') ) ?></p>
 <ol>

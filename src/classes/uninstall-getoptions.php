@@ -5,6 +5,7 @@
 defined('ABSPATH') || defined('WP_UNINSTALL_PLUGIN') || die('Oh! No!');
 
 function neohp_delete_options() {
+	delete_option('neohp_agree');
 	delete_option('neohp_alert_a');
 	delete_option('neohp_alert_beep');
 	delete_option('neohp_alert_blur');
@@ -26,6 +27,8 @@ function neohp_delete_options() {
 	delete_option('neohp_alert_sound');
 	delete_option('neohp_alert_t');
 	delete_option('neohp_alert_u');
+	delete_option('neohp_confirm');
+	delete_option('neohp_cookie1');
 	delete_option('neohp_copycut_message');
 	delete_option('neohp_ctrlshift_message');
 	delete_option('neohp_debugmode_message');
@@ -46,17 +49,21 @@ function neohp_delete_options() {
 	delete_option('neohp_injustice_ie');
 	delete_option('neohp_injustice_ua');
 	delete_option('neohp_islogin');
+	delete_option('neohp_noagree');
 	delete_option('neohp_nocookienojs_message');
 	delete_option('neohp_nonce_bits');
 	delete_option('neohp_nonce_expire');
 	delete_option('neohp_nonceerror_message');
+	delete_option('neohp_p3p');
 	delete_option('neohp_printout_message');
 	delete_option('neohp_printscreen_message');
 	delete_option('neohp_redirect_times');
 	delete_option('neohp_redirect_url');
 	delete_option('neohp_rightclick_message');
 	delete_option('neohp_save_message');
+	delete_option('neohp_searchengine');
 	delete_option('neohp_textselect_message');
 	delete_option('neohp_view-source_message_lang');
 	delete_option('neohp_view_source_alert_asciiart');
+	delete_option('wp_page_for_privacy_policy');
 }
