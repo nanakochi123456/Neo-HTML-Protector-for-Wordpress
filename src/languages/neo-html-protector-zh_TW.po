@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -47,6 +47,60 @@ msgstr "活動"
 
 msgid "IPアドレスのデータはありません"
 msgstr "沒有可用的 IP 位址資料。"
+
+msgid "EU GDPR対応"
+msgstr "符合歐盟 GDPR 規範"
+
+msgid "無効"
+msgstr "無效"
+
+msgid "有効"
+msgstr "有效性"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "必須啟用才能在歐盟地區使用 Wordpress"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "確認按鈕變成「同意」或「不同意」按鈕。"
+
+msgid "お知らせの1行目"
+msgstr "通知的第 1 行。"
+
+msgid "お知らせの2行目"
+msgstr "通知的第 2 行。"
+
+msgid "非EU向け確認の文字列"
+msgstr "非歐盟的確認字串"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "歐盟 GDPR 的同意書串列"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "歐盟 GDPR 的一連串分歧"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "隱私權政策字串"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "請在此設定您的隱私權政策 URL"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "請在隱私權政策中加入以下內容"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "為了偵測未經授權的操作，Cookies 和 IP 位址等識別碼都會儲存在資料庫中。儲存的資料可由管理員隨時刪除。"
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "只有啟用影像保護時，IP 位址和影像檔案名稱的雜湊資料才會儲存在資料庫中，最長 60 分鐘，以便成功傳送影像。"
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "如果您設定了使用條款，請務必在隱私權政策中放置使用條款的連結"
+
+msgid "検索エンジン等のURL"
+msgstr "搜尋引擎的 URL 等。"
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "設定搜尋引擎和其他搜尋引擎的 URL，當使用者不同意時，畫面會轉換到這些 URL。"
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "除錯模式，控制台警告訊息。"
@@ -92,12 +146,6 @@ msgstr "下載影像且影像受保護時，影像上顯示的訊息 僅限英�
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML 混淆（壓縮）"
-
-msgid "無効"
-msgstr "無效"
-
-msgid "有効"
-msgstr "有效性"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "一般 HTML 壓縮，某些網站有去混淆功能。"
@@ -624,6 +672,9 @@ msgstr "設計與音效設定"
 msgid "イベントの設定"
 msgstr "事件配置。"
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "設定第一次造訪的通知。"
+
 msgid "メッセージの設定"
 msgstr "訊息設定"
 
@@ -647,6 +698,9 @@ msgstr "按鍵"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector 設定"
+
+msgid "お知らせ"
+msgstr "通知。"
 
 msgid "メッセージ"
 msgstr "訊息。"

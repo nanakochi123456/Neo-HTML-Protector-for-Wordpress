@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Ta strona internetowa może przechowywać adresy IP, historię przeglądania i dzienniki operacji w plikach cookie i bazach danych w celu zapobiegania nieautoryzowanemu dostępowi i wykrywania naruszeń Warunków użytkowania. Informacje te nie będą wykorzystywane do celów innych niż obsługa witryny i korespondencja prawna i nie będą przekazywane stronom trzecim.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Aby korzystać z usług, użytkownik musi wyrazić zgodę na przetwarzanie tych danych. Jeśli użytkownik nie wyrazi zgody, korzystanie z usługi będzie ograniczone. Wyrażając zgodę, użytkownik może zapoznać się z polityką prywatności.
 プライバシーポリシー	Polityka prywatności.
+EU GDPR対応	Zgodność z RODO UE
+EU圏内でWordpressを使用するには必ず有効にしてください	Musi być włączona możliwość korzystania z Wordpress w UE
+確認のボタンが同意する、同意しないのボタンになります	Przycisk potwierdzenia staje się przyciskiem Zgadzam się lub Nie zgadzam się.
+お知らせの1行目	Wiersz 1 zawiadomienia.
+お知らせの2行目	Wiersz 2 zawiadomienia.
+非EU向け確認の文字列	Ciąg potwierdzający dla osób spoza UE
+EU GDPR向け同意するの文字列	Ciąg zgody dla RODO UE
+EU GDPR向け同意しないの文字列	Ciąg nieporozumień w sprawie unijnego RODO
+プライバシーポリシーの文字列	Ciąg polityki prywatności
+プライバシーポリシーのURLはこちらから設定して下さい	Tutaj należy ustawić adres URL polityki prywatności
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jeśli skonfigurujesz Warunki użytkowania, pamiętaj o umieszczeniu linku do Warunków użytkowania w Polityce prywatności
+検索エンジン等のURL	Adresy URL wyszukiwarek itp.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ustawienie adresów URL wyszukiwarek i innych wyszukiwarek, do których ekran przechodzi, gdy użytkownik nie wyrazi zgody.
+初回訪問時のお知らせの設定	Konfigurowanie powiadomień dla pierwszej wizyty.
+お知らせ	Uwaga.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Dodanie do polityki prywatności informacji, że pliki cookie i bazy danych są przechowywane w celu wykrywania nieautoryzowanych operacji.
+プライバシーポリシーには以下の内容を追加して下さい	Prosimy o dodanie następujących informacji do polityki prywatności
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	W celu wykrywania nieautoryzowanych operacji w bazie danych przechowywane są pliki cookie i identyfikatory, takie jak adresy IP. Przechowywane dane są usuwane w dowolnym momencie przez administratora.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tylko gdy ochrona obrazu jest włączona, skrót adresu IP i nazwy pliku obrazu jest przechowywany w bazie danych przez maksymalnie 60 minut w celu pomyślnego zapisania obrazu.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tylko gdy ochrona obrazu jest włączona, zaszyfrowane dane adresu IP i nazwy pliku obrazu są przechowywane w bazie danych przez maksymalnie 60 minut w celu pomyślnego dostarczenia obrazu.

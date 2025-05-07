@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:36+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -47,6 +47,60 @@ msgstr "Etkinlik"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP adresi verisi mevcut değil."
+
+msgid "EU GDPR対応"
+msgstr "AB GDPR uyumluluğu"
+
+msgid "無効"
+msgstr "Geçersiz"
+
+msgid "有効"
+msgstr "Geçerlilik"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "AB'de Wordpress kullanmak için etkinleştirilmelidir"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Onay düğmesi, Kabul Ediyorum veya Etmiyorum düğmesine dönüşür."
+
+msgid "お知らせの1行目"
+msgstr "Bildirimin 1. satırı."
+
+msgid "お知らせの2行目"
+msgstr "Bildirimin 2. satırı."
+
+msgid "非EU向け確認の文字列"
+msgstr "AB üyesi olmayanlar için onay dizesi"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "AB GDPR için onay dizisi"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "AB GDPR için anlaşmazlık dizisi"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Gizlilik politikası dizesi"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Lütfen gizlilik politikası URL'nizi buradan ayarlayın"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Lütfen gizlilik politikanıza aşağıdakileri ekleyin"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Yetkisiz işlemlerin tespiti için, çerezler ve IP adresleri gibi tanımlayıcılar veritabanında saklanır. Saklanan veriler yönetici tarafından istenildiği zaman silinir."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Yalnızca görüntü koruması etkinleştirildiğinde, görüntüyü başarıyla teslim etmek için IP adresi ve görüntü dosyası adının karma verileri 60 dakikaya kadar veritabanında saklanır."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Bir Kullanım Koşulları oluşturduysanız, Gizlilik Politikasına Kullanım Koşullarına bir bağlantı yerleştirdiğinizden emin olun"
+
+msgid "検索エンジン等のURL"
+msgstr "Arama motorlarının URL'leri vb."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Kullanıcı kabul etmediğinde ekranın geçtiği arama motorlarının ve diğer arama motorlarının URL'lerini ayarlayın."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Hata ayıklama modu, konsol uyarı mesajları."
@@ -92,12 +146,6 @@ msgstr "Görüntü indirildiğinde ve görüntü korumalı olduğunda görüntü
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML gizleme"
-
-msgid "無効"
-msgstr "Geçersiz"
-
-msgid "有効"
-msgstr "Geçerlilik"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Genel HTML sıkıştırma, bazı sitelerde de-obfuscation vardır."
@@ -624,6 +672,9 @@ msgstr "Tasarım ve ses ayarları"
 msgid "イベントの設定"
 msgstr "Olay yapılandırması."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "İlk ziyaret için bildirimlerin ayarlanması."
+
 msgid "メッセージの設定"
 msgstr "Mesaj ayarları"
 
@@ -647,6 +698,9 @@ msgstr "Basılan tuş"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Koruyucu Ayarları"
+
+msgid "お知らせ"
+msgstr "Dikkat edin."
 
 msgid "メッセージ"
 msgstr "Mesaj."

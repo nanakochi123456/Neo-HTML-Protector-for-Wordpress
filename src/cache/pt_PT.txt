@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Este sítio Web pode armazenar endereços IP, histórico de navegação e registos de operações em cookies e bases de dados com o objetivo de impedir o acesso não autorizado e detetar violações das condições de utilização. Estas informações não serão utilizadas para outros fins que não o funcionamento do sítio e a correspondência legal e não serão transmitidas a terceiros.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Para utilizar os serviços, o utilizador deve consentir o tratamento destes dados. Se não der o seu consentimento, a sua utilização do serviço será limitada. Ao dar o seu consentimento, o utilizador pode rever a política de privacidade.
 プライバシーポリシー	Política de privacidade.
+EU GDPR対応	Conformidade com o RGPD da UE
+EU圏内でWordpressを使用するには必ず有効にしてください	Deve estar habilitado a utilizar o Wordpress na UE
+確認のボタンが同意する、同意しないのボタンになります	O botão de confirmação passa a ser o botão Concordar ou Discordar.
+お知らせの1行目	Linha 1 do anúncio.
+お知らせの2行目	Linha 2 do anúncio.
+非EU向け確認の文字列	Cadeia de confirmação para não pertencentes à UE
+EU GDPR向け同意するの文字列	Cadeia de consentimento para o RGPD da UE
+EU GDPR向け同意しないの文字列	Uma série de divergências sobre o RGPD da UE
+プライバシーポリシーの文字列	Cadeia da política de privacidade
+プライバシーポリシーのURLはこちらから設定して下さい	Defina aqui o URL da sua política de privacidade
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Se definir Termos de Utilização, certifique-se de que coloca uma hiperligação para os Termos de Utilização na Política de Privacidade
+検索エンジン等のURL	URLs de motores de busca, etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Definir os URLs dos motores de busca e outros motores de busca para os quais o ecrã transita quando o utilizador não concorda.
+初回訪問時のお知らせの設定	Configurar as notificações para a primeira visita.
+お知らせ	Aviso.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Acrescentar à política de privacidade que os cookies e as bases de dados são armazenados para detetar operações não autorizadas
+プライバシーポリシーには以下の内容を追加して下さい	Acrescente o seguinte à sua política de privacidade
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Para a deteção de operações não autorizadas, são armazenados na base de dados cookies e identificadores, tais como endereços IP. Os dados armazenados podem ser apagados em qualquer altura pelo administrador.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Apenas quando a proteção de imagem está activada, é armazenado na base de dados um hash do endereço IP e do nome do ficheiro de imagem durante um máximo de 60 minutos, para que a imagem seja armazenada com êxito.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Apenas quando a proteção de imagem está activada, os dados com hash do endereço IP e do nome do ficheiro de imagem são armazenados na base de dados durante um máximo de 60 minutos, para que a imagem seja entregue com êxito.

@@ -29,11 +29,13 @@ function neohp_delete_options() {
 	delete_option('neohp_alert_u');
 	delete_option('neohp_confirm');
 	delete_option('neohp_cookie1');
+	delete_option('neohp_cookie2');
 	delete_option('neohp_copycut_message');
 	delete_option('neohp_ctrlshift_message');
 	delete_option('neohp_debugmode_message');
 	delete_option('neohp_deny_aibot');
 	delete_option('neohp_deny_imagebot');
+	delete_option('neohp_gdpr');
 	delete_option('neohp_hash_bits');
 	delete_option('neohp_hashjs_bits');
 	delete_option('neohp_html_protect_head');

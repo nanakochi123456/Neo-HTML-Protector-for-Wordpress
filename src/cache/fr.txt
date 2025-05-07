@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Ce site web peut stocker les adresses IP, l'historique de navigation et les journaux d'exploitation dans des cookies et des bases de données afin d'empêcher tout accès non autorisé et de détecter les violations des conditions d'utilisation. Ces informations ne seront pas utilisées à d'autres fins que le fonctionnement du site et la correspondance juridique et ne seront pas transmises à des tiers.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Pour utiliser les services, vous devez consentir au traitement de ces données. Si vous ne donnez pas votre consentement, votre utilisation du service sera restreinte. En donnant votre accord, vous pouvez consulter la politique de confidentialité.
 プライバシーポリシー	Politique de confidentialité.
+EU GDPR対応	Conformité au GDPR de l'UE
+EU圏内でWordpressを使用するには必ず有効にしてください	Doit être autorisé à utiliser Wordpress dans l'UE
+確認のボタンが同意する、同意しないのボタンになります	Le bouton de confirmation devient le bouton d'accord ou de désaccord.
+お知らせの1行目	Ligne 1 de l'avis.
+お知らせの2行目	Ligne 2 de l'avis.
+非EU向け確認の文字列	Chaîne de confirmation pour les pays non membres de l'UE
+EU GDPR向け同意するの文字列	Chaîne de consentement pour le GDPR de l'UE
+EU GDPR向け同意しないの文字列	Désaccord sur le GDPR de l'UE
+プライバシーポリシーの文字列	Politique de confidentialité
+プライバシーポリシーのURLはこちらから設定して下さい	Veuillez indiquer ici l'URL de votre politique de confidentialité
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Si vous établissez des conditions d'utilisation, veillez à placer un lien vers les conditions d'utilisation dans la politique de confidentialité.
+検索エンジン等のURL	URL des moteurs de recherche, etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Définir les URL des moteurs de recherche et autres moteurs de recherche vers lesquels l'écran bascule lorsque l'utilisateur n'est pas d'accord.
+初回訪問時のお知らせの設定	Mise en place de notifications pour la première visite.
+お知らせ	Avis.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Ajouter à la politique de confidentialité que les cookies et les bases de données sont stockés pour détecter les opérations non autorisées.
+プライバシーポリシーには以下の内容を追加して下さい	Veuillez ajouter ce qui suit à votre politique de confidentialité
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Pour détecter les opérations non autorisées, des cookies et des identifiants tels que les adresses IP sont stockés dans la base de données. Les données stockées peuvent être supprimées à tout moment par l'administrateur.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Uniquement lorsque la protection des images est activée, un hachage de l'adresse IP et du nom du fichier image est stocké dans la base de données pendant 60 minutes au maximum afin d'enregistrer l'image avec succès.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Uniquement lorsque la protection des images est activée, les données hachées de l'adresse IP et du nom du fichier image sont stockées dans la base de données pendant 60 minutes afin que l'image puisse être délivrée correctement.

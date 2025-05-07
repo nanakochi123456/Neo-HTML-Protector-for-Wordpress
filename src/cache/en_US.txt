@@ -330,3 +330,25 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	This website may store IP addresses, browsing history, and operation logs in cookies and databases for the purpose of preventing unauthorized access and detecting violations of the Terms of Use. This information will not be used for any purpose other than site operation and legal correspondence, and will not be provided to any third party.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	In order to use the service, you must consent to the processing of these data. If you do not consent, your use of the service will be restricted. By consenting, you can review the Privacy Policy.
 プライバシーポリシー	Privacy Policy
+EU GDPR対応	EU GDPR Compliance
+EU圏内でWordpressを使用するには必ず有効にしてください	Must be enabled to use Wordpress in the EU
+確認のボタンが同意する、同意しないのボタンになります	The confirmation button will be the Agree or Disagree button.
+お知らせの1行目	First line of the notice
+お知らせの2行目	Second line of the notice
+非EU向け確認の文字列	Confirmation string for non-EU
+EU GDPR向け同意するの文字列	Agree string for EU GDPR
+EU GDPR向け同意しないの文字列	String of Disagree for EU GDPR
+プライバシーポリシーの文字列	Privacy Policy String
+プライバシーポリシーのURLはこちらから設定して下さい	Please set your privacy policy URL here
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	If you set up a Terms of Use, please be sure to place a link to the Terms of Use in your Privacy Policy.
+検索エンジン等のURL	URL of search engine etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Set the URL of the search engine, etc. to which the screen will be redirected when the user does not agree.
+初回訪問時のお知らせの設定	Setting up notifications for initial visits
+お知らせ	Notice
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Please add in your privacy policy that cookies and stored in database to detect unauthorized operations
+プライバシーポリシーには以下の内容を追加して下さい	Please add the following to your privacy policy
+・不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	For tamper detection, cookies and identifiers such as IP addresses are stored in the database. The stored data shall be deleted at any time at the discretion of the administrator.
+・画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Only when image protection is enabled, data hashed from the IP address and image file name is stored in the database for up to 60 minutes in order to successfully save the image.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	For unauthorized operation detection, cookies and identifiers such as IP addresses are stored in the database. The stored data is deleted at any time at the discretion of the administrator.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Only when image protection is enabled, hashed data of the IP address and image file name is stored in the database for up to 60 minutes in order to successfully store the image.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Only when image protection is enabled, hashed data of IP addresses and image file names are stored in the database for up to 60 minutes in order to deliver images successfully.

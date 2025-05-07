@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -47,6 +47,60 @@ msgstr "Veranstaltung"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Keine IP-Adressdaten verfügbar."
+
+msgid "EU GDPR対応"
+msgstr "Einhaltung der EU-GDPR"
+
+msgid "無効"
+msgstr "Ungültig"
+
+msgid "有効"
+msgstr "Gültigkeit"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Muss für die Nutzung von Wordpress in der EU freigeschaltet sein"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Die Bestätigungsschaltfläche wird zur Schaltfläche Zustimmen oder Ablehnen."
+
+msgid "お知らせの1行目"
+msgstr "Zeile 1 der Bekanntmachung."
+
+msgid "お知らせの2行目"
+msgstr "Zeile 2 der Bekanntmachung."
+
+msgid "非EU向け確認の文字列"
+msgstr "Bestätigungszeichenfolge für Nicht-EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "String der Zustimmung für EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Uneinigkeit über die EU-DSGVO"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "String der Datenschutzpolitik"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Bitte geben Sie hier die URL Ihrer Datenschutzrichtlinie ein"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Bitte fügen Sie Ihrer Datenschutzrichtlinie Folgendes hinzu"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Zur Erkennung unbefugter Zugriffe werden Cookies und Kennungen wie IP-Adressen in der Datenbank gespeichert. Die gespeicherten Daten werden jederzeit vom Administrator gelöscht."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Nur wenn der Bildschutz aktiviert ist, werden die gehashten Daten der IP-Adresse und des Bilddateinamens für bis zu 60 Minuten in der Datenbank gespeichert, um das Bild erfolgreich zuzustellen."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Wenn Sie Nutzungsbedingungen einrichten, sollten Sie einen Link zu den Nutzungsbedingungen in die Datenschutzrichtlinie aufnehmen."
+
+msgid "検索エンジン等のURL"
+msgstr "URLs von Suchmaschinen usw."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Legen Sie die URLs von Suchmaschinen und anderen Suchmaschinen fest, zu denen der Bildschirm übergeht, wenn der Benutzer nicht zustimmt."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debug-Modus, Warnmeldungen auf der Konsole."
@@ -92,12 +146,6 @@ msgstr "Meldung, die auf dem Bild angezeigt wird, wenn das Bild heruntergeladen 
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML-Verschleierung"
-
-msgid "無効"
-msgstr "Ungültig"
-
-msgid "有効"
-msgstr "Gültigkeit"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Allgemeine HTML-Komprimierung, einige Websites verfügen über eine Entschleierungsfunktion."
@@ -624,6 +672,9 @@ msgstr "Design und Klangeinstellungen"
 msgid "イベントの設定"
 msgstr "Konfiguration des Ereignisses."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Einrichten von Benachrichtigungen für den ersten Besuch."
+
 msgid "メッセージの設定"
 msgstr "Einstellungen für Nachrichten"
 
@@ -647,6 +698,9 @@ msgstr "Gedrückte Taste"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector Einstellungen"
+
+msgid "お知らせ"
+msgstr "Hinweis."
 
 msgid "メッセージ"
 msgstr "Nachricht."

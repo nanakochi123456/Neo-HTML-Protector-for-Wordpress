@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Dette nettstedet kan lagre IP-adresser, nettleserhistorikk og driftslogger i informasjonskapsler og databaser med det formål å forhindre uautorisert tilgang og oppdage brudd på bruksvilkårene. Denne informasjonen vil ikke bli brukt til andre formål enn drift av nettstedet og juridisk korrespondanse, og vil ikke bli gitt videre til tredjeparter.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	For å kunne bruke tjenestene må du samtykke til behandlingen av disse opplysningene. Hvis du ikke samtykker, vil din bruk av tjenesten være begrenset. Ved å samtykke kan du lese personvernerklæringen.
 プライバシーポリシー	Retningslinjer for personvern.
+EU GDPR対応	Overholdelse av EUs personvernforordning
+EU圏内でWordpressを使用するには必ず有効にしてください	Må være aktivert for å bruke Wordpress i EU
+確認のボタンが同意する、同意しないのボタンになります	Bekreftelsesknappen blir til Enig eller Uenig-knappen.
+お知らせの1行目	Linje 1 i kunngjøringen.
+お知らせの2行目	Linje 2 i kunngjøringen.
+非EU向け確認の文字列	Bekreftelsesstreng for ikke-EU
+EU GDPR向け同意するの文字列	Streng av samtykke for EU GDPR
+EU GDPR向け同意しないの文字列	Uenighet om EUs personvernforordning
+プライバシーポリシーの文字列	Retningslinjer for personvern
+プライバシーポリシーのURLはこちらから設定して下さい	Vennligst angi nettadressen til personvernerklæringen din her
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Hvis du setter opp brukervilkår, må du sørge for å plassere en lenke til brukervilkårene i personvernerklæringen
+検索エンジン等のURL	Nettadresser til søkemotorer osv.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Angi URL-adressene til søkemotorer og andre søkemotorer som skjermen går over til når brukeren ikke samtykker.
+初回訪問時のお知らせの設定	Sette opp varsler for det første besøket.
+お知らせ	Varsel.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Legg til i personvernerklæringen at informasjonskapsler og databaser lagres for å oppdage uautoriserte operasjoner
+プライバシーポリシーには以下の内容を追加して下さい	Vennligst legg til følgende i personvernerklæringen din
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	For å oppdage uautoriserte operasjoner lagres informasjonskapsler og identifikatorer som IP-adresser i databasen. De lagrede dataene slettes når som helst av administratoren.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Bare når bildebeskyttelse er aktivert, lagres en hash av IP-adressen og bildefilnavnet i databasen i opptil 60 minutter for å kunne lagre bildet.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Bare når bildebeskyttelse er aktivert, lagres de hashede dataene for IP-adressen og bildefilnavnet i databasen i opptil 60 minutter for å kunne levere bildet.

@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Situs web ini dapat menyimpan alamat IP, riwayat penelusuran, dan catatan operasi dalam cookie dan basis data dengan tujuan untuk mencegah akses yang tidak sah dan mendeteksi pelanggaran Ketentuan Penggunaan. Informasi ini tidak akan digunakan untuk tujuan apa pun selain pengoperasian situs dan korespondensi hukum dan tidak akan diteruskan kepada pihak ketiga.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Untuk menggunakan layanan ini, Anda harus menyetujui pemrosesan data ini. Jika Anda tidak menyetujui, penggunaan layanan akan dibatasi. Dengan menyetujui, Anda dapat meninjau kebijakan privasi.
 プライバシーポリシー	Kebijakan Privasi.
+EU GDPR対応	Kepatuhan terhadap GDPR Uni Eropa
+EU圏内でWordpressを使用するには必ず有効にしてください	Harus diaktifkan untuk menggunakan Wordpress di Uni Eropa
+確認のボタンが同意する、同意しないのボタンになります	Tombol konfirmasi menjadi tombol Setuju atau Tidak Setuju.
+お知らせの1行目	Baris 1 dari pemberitahuan.
+お知らせの2行目	Baris 2 dari pemberitahuan.
+非EU向け確認の文字列	String konfirmasi untuk non-UE
+EU GDPR向け同意するの文字列	Rangkaian persetujuan untuk GDPR UE
+EU GDPR向け同意しないの文字列	Serangkaian ketidaksepakatan untuk GDPR UE
+プライバシーポリシーの文字列	String kebijakan privasi
+プライバシーポリシーのURLはこちらから設定して下さい	Silakan atur URL kebijakan privasi Anda di sini
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jika Anda membuat Ketentuan Penggunaan, pastikan untuk menempatkan tautan ke Ketentuan Penggunaan dalam Kebijakan Privasi
+検索エンジン等のURL	URL mesin pencari, dll.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Mengatur URL mesin pencari dan mesin pencari lain yang akan dialihkan ke layar ketika pengguna tidak setuju.
+初回訪問時のお知らせの設定	Menyiapkan pemberitahuan untuk kunjungan pertama.
+お知らせ	Perhatikan.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Tambahkan pada kebijakan privasi bahwa cookie dan basis data disimpan untuk mendeteksi operasi yang tidak sah
+プライバシーポリシーには以下の内容を追加して下さい	Harap tambahkan yang berikut ini ke kebijakan privasi Anda
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Untuk mendeteksi operasi yang tidak sah, cookie dan pengidentifikasi seperti alamat IP disimpan dalam database. Data yang tersimpan dapat dihapus kapan saja oleh administrator.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Hanya apabila proteksi gambar diaktifkan, hash alamat IP dan nama file gambar disimpan dalam database hingga 60 menit agar berhasil menyimpan gambar.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Hanya apabila proteksi gambar diaktifkan, data hash dari alamat IP dan nama file gambar disimpan dalam database hingga 60 menit agar dapat mengirimkan gambar dengan sukses.

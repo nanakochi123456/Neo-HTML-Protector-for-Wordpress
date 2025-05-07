@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -47,6 +47,60 @@ msgstr "Pasākums"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP adreses dati nav pieejami."
+
+msgid "EU GDPR対応"
+msgstr "ES GDPR atbilstība"
+
+msgid "無効"
+msgstr "Nederīgs"
+
+msgid "有効"
+msgstr "Derīguma termiņš"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Jābūt iespējotai Wordpress lietošanai ES"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Apstiprinājuma poga kļūst par piekrišanas vai nepiekrišanas pogu."
+
+msgid "お知らせの1行目"
+msgstr "Paziņojuma 1. rinda."
+
+msgid "お知らせの2行目"
+msgstr "Paziņojuma 2. rinda."
+
+msgid "非EU向け確認の文字列"
+msgstr "Apstiprinājuma virkne ārpus ES"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Piekrišanas virkne ES GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Virkne domstarpību par ES VDAR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Konfidencialitātes politikas virkne"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Lūdzu, iestatiet savu konfidencialitātes politikas URL šeit"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Lūdzu, papildiniet savu konfidencialitātes politiku ar šādu informāciju"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Lai atklātu neatļautas darbības, datubāzē tiek saglabātas sīkdatnes un identifikatori, piemēram, IP adreses. Saglabātos datus administrators jebkurā laikā var dzēst."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Tikai tad, ja ir iespējota attēla aizsardzība, IP adreses un attēla faila nosaukuma šifrētie dati tiek saglabāti datu bāzē līdz 60 minūtēm, lai veiksmīgi piegādātu attēlu."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ja izveidojat lietošanas noteikumus, pārliecinieties, ka saite uz lietošanas noteikumiem ir iekļauta konfidencialitātes politikā."
+
+msgid "検索エンジン等のURL"
+msgstr "Meklētājprogrammu URL u.c."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Iestatiet meklētājprogrammu un citu meklētājprogrammu URL, uz kuriem ekrāns pāriet, ja lietotājs nepiekrīt."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debug režīms, konsoles brīdinājuma ziņojumi."
@@ -92,12 +146,6 @@ msgstr "Ziņa, kas parādās uz attēla, kad attēls ir lejupielādēts un attē
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML aizsegšana"
-
-msgid "無効"
-msgstr "Nederīgs"
-
-msgid "有効"
-msgstr "Derīguma termiņš"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Vispārīga HTML saspiešana, dažās vietnēs ir atdalīta obfuskācija."
@@ -624,6 +672,9 @@ msgstr "Dizains un skaņas iestatījumi"
 msgid "イベントの設定"
 msgstr "Notikumu konfigurācija."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Paziņojumu iestatīšana pirmajam apmeklējumam."
+
 msgid "メッセージの設定"
 msgstr "Ziņu iestatījumi"
 
@@ -647,6 +698,9 @@ msgstr "Nospiests taustiņš"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML aizsarga iestatījumi"
+
+msgid "お知らせ"
+msgstr "Paziņojums."
 
 msgid "メッセージ"
 msgstr "Ziņa."

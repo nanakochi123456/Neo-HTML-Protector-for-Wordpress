@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Bu web sitesi, yetkisiz erişimi önlemek ve Kullanım Koşulları ihlallerini tespit etmek amacıyla IP adreslerini, tarama geçmişini ve işlem günlüklerini çerezlerde ve veritabanlarında saklayabilir. Bu bilgiler site işleyişi ve yasal yazışmalar dışında herhangi bir amaçla kullanılmayacak ve üçüncü şahıslara aktarılmayacaktır.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Hizmetleri kullanmak için bu verilerin işlenmesine izin vermeniz gerekir. Onay vermezseniz, hizmet kullanımınız kısıtlanacaktır. Onay vererek gizlilik politikasını inceleyebilirsiniz.
 プライバシーポリシー	Gizlilik Politikası.
+EU GDPR対応	AB GDPR uyumluluğu
+EU圏内でWordpressを使用するには必ず有効にしてください	AB'de Wordpress kullanmak için etkinleştirilmelidir
+確認のボタンが同意する、同意しないのボタンになります	Onay düğmesi, Kabul Ediyorum veya Etmiyorum düğmesine dönüşür.
+お知らせの1行目	Bildirimin 1. satırı.
+お知らせの2行目	Bildirimin 2. satırı.
+非EU向け確認の文字列	AB üyesi olmayanlar için onay dizesi
+EU GDPR向け同意するの文字列	AB GDPR için onay dizisi
+EU GDPR向け同意しないの文字列	AB GDPR için anlaşmazlık dizisi
+プライバシーポリシーの文字列	Gizlilik politikası dizesi
+プライバシーポリシーのURLはこちらから設定して下さい	Lütfen gizlilik politikası URL'nizi buradan ayarlayın
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Bir Kullanım Koşulları oluşturduysanız, Gizlilik Politikasına Kullanım Koşullarına bir bağlantı yerleştirdiğinizden emin olun
+検索エンジン等のURL	Arama motorlarının URL'leri vb.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Kullanıcı kabul etmediğinde ekranın geçtiği arama motorlarının ve diğer arama motorlarının URL'lerini ayarlayın.
+初回訪問時のお知らせの設定	İlk ziyaret için bildirimlerin ayarlanması.
+お知らせ	Dikkat edin.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	İzinsiz işlemleri tespit etmek için çerezlerin ve veri tabanlarının saklandığını gizlilik politikasına ekleyin
+プライバシーポリシーには以下の内容を追加して下さい	Lütfen gizlilik politikanıza aşağıdakileri ekleyin
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Yetkisiz işlemlerin tespiti için, çerezler ve IP adresleri gibi tanımlayıcılar veritabanında saklanır. Saklanan veriler yönetici tarafından istenildiği zaman silinir.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Yalnızca görüntü koruması etkinleştirildiğinde, görüntüyü başarılı bir şekilde saklamak için IP adresi ve görüntü dosyası adının bir karması 60 dakikaya kadar veritabanında saklanır.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Yalnızca görüntü koruması etkinleştirildiğinde, görüntüyü başarıyla teslim etmek için IP adresi ve görüntü dosyası adının karma verileri 60 dakikaya kadar veritabanında saklanır.

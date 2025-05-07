@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Táto webová lokalita môže ukladať IP adresy, históriu prehliadania a protokoly o prevádzke do súborov cookie a databáz na účely predchádzania neoprávnenému prístupu a zisťovania porušenia podmienok používania. Tieto informácie sa nepoužívajú na iné účely ako na prevádzku stránky a právnu korešpondenciu a neposkytujú sa tretím stranám.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Ak chcete využívať služby, musíte so spracovaním týchto údajov súhlasiť. Ak s tým nesúhlasíte, vaše používanie služieb bude obmedzené. Súhlasom si môžete prečítať zásady ochrany osobných údajov.
 プライバシーポリシー	Zásady ochrany osobných údajov.
+EU GDPR対応	Súlad s nariadením EÚ GDPR
+EU圏内でWordpressを使用するには必ず有効にしてください	Musí byť povolené používanie aplikácie Wordpress v EÚ
+確認のボタンが同意する、同意しないのボタンになります	Potvrdzovacie tlačidlo sa zmení na tlačidlo Súhlasím alebo Nesúhlasím.
+お知らせの1行目	Riadok 1 oznámenia.
+お知らせの2行目	Riadok 2 oznámenia.
+非EU向け確認の文字列	Potvrdzovací reťazec pre krajiny mimo EÚ
+EU GDPR向け同意するの文字列	Reťazec súhlasov pre GDPR EÚ
+EU GDPR向け同意しないの文字列	Reťaz nesúhlasných stanovísk pre GDPR EÚ
+プライバシーポリシーの文字列	Reťazec zásad ochrany osobných údajov
+プライバシーポリシーのURLはこちらから設定して下さい	Tu nastavte svoju adresu URL zásad ochrany osobných údajov
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ak nastavíte podmienky používania, nezabudnite umiestniť odkaz na podmienky používania do zásad ochrany osobných údajov.
+検索エンジン等のURL	Adresy URL vyhľadávačov atď.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Nastavenie adries URL vyhľadávačov a iných vyhľadávačov, na ktoré sa obrazovka prepne, keď používateľ nesúhlasí.
+初回訪問時のお知らせの設定	Nastavenie oznámení pre prvú návštevu.
+お知らせ	Upozornenie.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Doplniť do zásad ochrany osobných údajov, že súbory cookie a databázy sa ukladajú s cieľom odhaliť neoprávnené operácie.
+プライバシーポリシーには以下の内容を追加して下さい	Do svojich zásad ochrany osobných údajov pridajte tieto informácie
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Na odhalenie neoprávnených operácií sa do databázy ukladajú súbory cookie a identifikátory, ako sú IP adresy. Uložené údaje môže správca kedykoľvek vymazať.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Len keď je zapnutá ochrana obrazu, hash adresy IP a názvu súboru obrazu sa uloží do databázy až na 60 minút, aby sa obraz úspešne uložil.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Len keď je zapnutá ochrana obrazu, hashované údaje adresy IP a názvu súboru obrazu sa ukladajú do databázy až na 60 minút, aby bolo možné úspešne doručiť obraz.

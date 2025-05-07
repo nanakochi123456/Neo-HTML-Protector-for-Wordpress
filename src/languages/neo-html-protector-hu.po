@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -47,6 +47,60 @@ msgstr "Esemény"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Nem állnak rendelkezésre IP-címadatok."
+
+msgid "EU GDPR対応"
+msgstr "EU GDPR megfelelés"
+
+msgid "無効"
+msgstr "érvénytelen"
+
+msgid "有効"
+msgstr "érvényesség"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Engedélyezni kell a Wordpress használatát az EU-ban"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "A megerősítő gomb az Egyetértek vagy Nem értek gomb lesz."
+
+msgid "お知らせの1行目"
+msgstr "A közlemény 1. sora."
+
+msgid "お知らせの2行目"
+msgstr "A közlemény 2. sora."
+
+msgid "非EU向け確認の文字列"
+msgstr "Megerősítő karakterlánc nem EU-tagállamok esetében"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Hozzájárulás az EU GDPR-hez"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Véleménykülönbségek sora az EU GDPR-rel kapcsolatban"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Adatvédelmi szabályzat string"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Kérjük, állítsa be az adatvédelmi irányelvek URL-címét itt"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Kérjük, egészítse ki adatvédelmi szabályzatát a következőkkel"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "A jogosulatlan műveletek észlelése érdekében az adatbázisban cookie-k és azonosítók, például IP-címek tárolódnak. A tárolt adatokat a rendszergazda bármikor törölheti."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Csak akkor, ha a képvédelem engedélyezve van, az IP-cím és a képfájlnév hashelt adatai legfeljebb 60 percig tárolódnak az adatbázisban a kép sikeres kézbesítése érdekében."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ha használati feltételeket állít be, mindenképpen helyezzen el egy linket a használati feltételekre az adatvédelmi szabályzatban."
+
+msgid "検索エンジン等のURL"
+msgstr "Keresőmotorok URL címei stb."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Állítsa be a keresőmotorok és egyéb keresőmotorok URL-címeit, amelyekre a képernyő átvált, ha a felhasználó nem ért egyet."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Hibakeresési mód, konzol figyelmeztető üzenetek."
@@ -92,12 +146,6 @@ msgstr "A képen megjelenő üzenet a kép letöltésekor és a kép védett Csa
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML homályosítás"
-
-msgid "無効"
-msgstr "érvénytelen"
-
-msgid "有効"
-msgstr "érvényesség"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Általános HTML tömörítés, néhány webhelyen van de-obfuszkálás."
@@ -624,6 +672,9 @@ msgstr "Tervezés és hangbeállítások"
 msgid "イベントの設定"
 msgstr "Eseménykonfiguráció."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Értesítések beállítása az első látogatáshoz."
+
 msgid "メッセージの設定"
 msgstr "Üzenet beállítások"
 
@@ -647,6 +698,9 @@ msgstr "Megnyomott gomb"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector beállítások"
+
+msgid "お知らせ"
+msgstr "Értesítés."
 
 msgid "メッセージ"
 msgstr "Üzenet."

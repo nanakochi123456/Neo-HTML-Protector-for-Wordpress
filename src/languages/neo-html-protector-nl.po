@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -47,6 +47,60 @@ msgstr "Evenement"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Geen IP-adresgegevens beschikbaar."
+
+msgid "EU GDPR対応"
+msgstr "EU GDPR-compliance"
+
+msgid "無効"
+msgstr "Ongeldig"
+
+msgid "有効"
+msgstr "Geldigheid"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Wordpress moet ingeschakeld zijn om te gebruiken in de EU"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "De bevestigingsknop wordt de knop 'Akkoord' of 'Oneens'."
+
+msgid "お知らせの1行目"
+msgstr "Regel 1 van de aankondiging."
+
+msgid "お知らせの2行目"
+msgstr "Regel 2 van de aankondiging."
+
+msgid "非EU向け確認の文字列"
+msgstr "Bevestigingsstring voor niet-EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Toestemmingsreeks voor EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Strenge meningsverschillen voor EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Privacybeleid"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Stel hier uw URL voor het privacybeleid in"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Voeg het volgende toe aan uw privacybeleid"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Om ongeoorloofde handelingen te detecteren, worden cookies en identificatiegegevens zoals IP-adressen opgeslagen in de database. De opgeslagen gegevens kunnen op elk moment door de beheerder worden verwijderd."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Alleen wanneer beeldbeveiliging is ingeschakeld, worden de gehashte gegevens van het IP-adres en de bestandsnaam van de afbeelding maximaal 60 minuten in de database opgeslagen om de afbeelding met succes te kunnen leveren."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Als je een Gebruiksvoorwaarden instelt, zorg er dan voor dat je een link naar de Gebruiksvoorwaarden plaatst in het Privacybeleid."
+
+msgid "検索エンジン等のURL"
+msgstr "URL's van zoekmachines enz."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Stel de URL's van zoekmachines en andere zoekmachines in waarnaar het scherm overgaat als de gebruiker niet akkoord gaat."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debugmodus, waarschuwingsberichten op de console."
@@ -92,12 +146,6 @@ msgstr "Bericht dat op de afbeelding wordt weergegeven wanneer de afbeelding wor
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML-verduistering"
-
-msgid "無効"
-msgstr "Ongeldig"
-
-msgid "有効"
-msgstr "Geldigheid"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Algemene HTML-compressie, sommige sites hebben de-obfuscatie."
@@ -624,6 +672,9 @@ msgstr "Ontwerp en geluidsinstellingen"
 msgid "イベントの設定"
 msgstr "Gebeurtenisconfiguratie."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Meldingen instellen voor het eerste bezoek."
+
 msgid "メッセージの設定"
 msgstr "Berichtinstellingen"
 
@@ -647,6 +698,9 @@ msgstr "Ingedrukte toets"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML beschermer instellingen"
+
+msgid "お知らせ"
+msgstr "Opmerking."
 
 msgid "メッセージ"
 msgstr "Bericht."

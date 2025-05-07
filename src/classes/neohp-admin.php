@@ -55,6 +55,171 @@ class neohp_admin {
 
 
 		add_action('admin_init', function() {
+			// GDPR
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_gdpr', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_gdpr',
+				__('EU GDPR対応', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_gdpr', '0'));
+					echo wp_kses( $this->getselect("neohp_gdpr", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('EU圏内でWordpressを使用するには必ず有効にしてください', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('確認のボタンが同意する、同意しないのボタンになります', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// noticeお知らせ1行目
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_cookie1', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_cookie1',
+				__('お知らせの1行目', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_cookie1', $neohp_cookie1_default);
+					echo '<input type="text" name="neohp_cookie1" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// noticeお知らせ2行目
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_cookie2', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_cookie2',
+				__('お知らせの2行目', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_cookie2', $neohp_cookie2_default);
+					echo '<input type="text" name="neohp_cookie2" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 確認の文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_confirm', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_confirm',
+				__('非EU向け確認の文字列', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_confirm', $neohp_confirm_default);
+					echo '<input type="text" name="neohp_confirm" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 同意するの文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_agree', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_agree',
+				__('EU GDPR向け同意するの文字列', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_agree', $neohp_cookie_agree_default);
+					echo '<input type="text" name="neohp_agree" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 同意しないの文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_noagree', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_noagree',
+				__('EU GDPR向け同意しないの文字列', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_noagree', $neohp_cookie_noagree_default);
+					echo '<input type="text" name="neohp_noagree" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// プライバシーポリシーの文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_p3p', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_p3p',
+				__('プライバシーポリシーの文字列', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_p3p', $neohp_p3p_default);
+					echo '<input type="text" name="neohp_p3p" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' . esc_html( __('プライバシーポリシーのURLはこちらから設定して下さい', 'neo-html-protector') );
+					echo '<br>' . '<a href="/wp-admin/options-privacy.php">/wp-admin/options-privacy.php</a>';
+					echo '<br>' . esc_html( __('プライバシーポリシーには以下の内容を追加して下さい', 'neo-html-protector') );
+					echo '<ul><li>' . esc_html( __('不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。', 'neo-html-protector') );
+					echo '</li><li>' . esc_html( __('画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。', 'neo-html-protector') );
+					echo '</li></ul><br>' . esc_html( __('利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 検索エンジンなどの文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_searchengine', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_searchengine',
+				__('検索エンジン等のURL', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_searchengine', $neohp_google_default);
+					echo '<input type="text" name="neohp_searchengine" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' .esc_html( __('同意しなかった時に画面遷移する検索エンジンなどのURLを設定します', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+
+
 			// デバッグモードのAlert メッセージ
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_message_group', 'neohp_debugmode_message', array(
@@ -1419,6 +1584,14 @@ class neohp_admin {
 				'neohp-event-settings'
 			);
 
+			add_settings_section(
+				'neohp_notice_section',
+				__('初回訪問時のお知らせの設定', 'neo-html-protector'),
+				function() {
+				},
+				'neohp-notice-settings'
+			);
+
 			// セクションの追加
 			add_settings_section(
 				'neohp_message_section',
@@ -1452,6 +1625,7 @@ class neohp_admin {
 			<h2 class="nav-tab-wrapper">
 				<a href="?page=neohp-settings&tab=general" class="nav-tab <?php echo $active_tab === 'general' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('基本設定', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=event" class="nav-tab <?php echo $active_tab === 'event' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('イベント', 'neo-html-protector') ) ?></a>
+				<a href="?page=neohp-settings&tab=notice" class="nav-tab <?php echo $active_tab === 'notice' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('お知らせ', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=message" class="nav-tab <?php echo $active_tab === 'message' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('メッセージ', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=design" class="nav-tab <?php echo $active_tab === 'design' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('デザイン・音', 'neo-html-protector') ) ?></a>
 				<a href="?page=neohp-settings&tab=advanced" class="nav-tab <?php echo $active_tab === 'advanced' ? 'nav-tab-active' : ''; ?>"><?php echo esc_html( __('高度な設定', 'neo-html-protector') ) ?></a>
@@ -1467,6 +1641,8 @@ class neohp_admin {
 				$this->advanced_settings();
 			} elseif ($active_tab === 'design') {
 				$this->design_settings();
+			} elseif ($active_tab === 'notice') {
+				$this->notice_settings();
 			} elseif ($active_tab === 'event') {
 				$this->event_settings();
 			} elseif ($active_tab === 'clear') {
@@ -1502,6 +1678,21 @@ class neohp_admin {
 				$this->cache_alert();
 				settings_fields('neohp_design_group');
 				do_settings_sections('neohp-design-settings');
+				submit_button();
+				?>
+			</form>
+		</div>
+		<?php
+	}
+
+	function notice_settings() {
+		?>
+		<div class="wrap">
+			<form method="post" action="options.php">
+				<?php
+				$this->cache_alert();
+				settings_fields('neohp_notice_group');
+				do_settings_sections('neohp-notice-settings');
 				submit_button();
 				?>
 			</form>
@@ -1554,25 +1745,25 @@ class neohp_admin {
 		<?php
 	}
 
-function neohp_clear_settings_handler() {
-    if (!isset($_POST['neohp_clear_settings_nonce']) || !wp_verify_nonce($_POST['neohp_clear_settings_nonce'], 'neohp_clear_settings_action')) {
-        wp_die('Nonce verification failed');
-    }
+	function neohp_clear_settings_handler() {
+		if (!isset($_POST['neohp_clear_settings_nonce']) || !wp_verify_nonce($_POST['neohp_clear_settings_nonce'], 'neohp_clear_settings_action')) {
+			wp_die('Nonce verification failed');
+		}
 
-    if (!current_user_can('manage_options')) {
-        wp_die('You do not have sufficient permissions');
-    }
-// die('Form submitted correctly! Processing now...');
-    // 設定クリアの処理
-//    delete_option('neohp_some_setting');
+		if (!current_user_can('manage_options')) {
+			wp_die('You do not have sufficient permissions');
+		}
+	// die('Form submitted correctly! Processing now...');
+		// 設定クリアの処理
+	//	  delete_option('neohp_some_setting');
 
-	require plugin_dir_path(__FILE__) . "uninstall-getoptions.php";
-	neohp_delete_options();
+		require plugin_dir_path(__FILE__) . "uninstall-getoptions.php";
+		neohp_delete_options();
 
-    // 設定画面にリダイレクト
-    wp_safe_redirect(admin_url('options-general.php?page=neohp-settings&tab=clear&message=success'));
-    exit;
-}
+		// 設定画面にリダイレクト
+		wp_safe_redirect(admin_url('options-general.php?page=neohp-settings&tab=clear&message=success'));
+		exit;
+	}
 
 	function all_clear() {
 		if(isset($_GET['message']) && $_GET['message'] === 'success') {

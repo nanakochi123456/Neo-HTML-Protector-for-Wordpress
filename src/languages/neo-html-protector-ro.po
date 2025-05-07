@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:36+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -47,6 +47,60 @@ msgstr "Eveniment"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Nu sunt disponibile date privind adresa IP."
+
+msgid "EU GDPR対応"
+msgstr "Conformitatea GDPR UE"
+
+msgid "無効"
+msgstr "Invalid"
+
+msgid "有効"
+msgstr "Valabilitate"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Trebuie să fiți autorizat să utilizați Wordpress în UE"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Butonul de confirmare devine butonul de acord sau dezacord."
+
+msgid "お知らせの1行目"
+msgstr "Linia 1 din anunț."
+
+msgid "お知らせの2行目"
+msgstr "Linia 2 din anunț."
+
+msgid "非EU向け確認の文字列"
+msgstr "Șir de confirmare pentru țările din afara UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Șir de consimțăminte pentru GDPR UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "O serie de dezacorduri cu privire la GDPR UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Politica de confidențialitate"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Vă rugăm să stabiliți URL-ul politicii de confidențialitate aici"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Vă rugăm să adăugați următoarele la politica dumneavoastră de confidențialitate"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Pentru detectarea operațiunilor neautorizate, în baza de date sunt stocate module cookie și identificatori precum adresele IP. Datele stocate sunt șterse în orice moment de către administrator."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Numai atunci când protecția imaginii este activată, datele hașurate ale adresei IP și ale numelui fișierului de imagine sunt stocate în baza de date timp de până la 60 de minute pentru a livra imaginea cu succes."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Dacă creați o clauză privind condițiile de utilizare, asigurați-vă că plasați un link către condițiile de utilizare în politica de confidențialitate"
+
+msgid "検索エンジン等のURL"
+msgstr "URL-uri ale motoarelor de căutare etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Setați adresele URL ale motoarelor de căutare și ale altor motoare de căutare la care trece ecranul atunci când utilizatorul nu este de acord."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Modul de depanare, mesaje de avertizare în consolă."
@@ -92,12 +146,6 @@ msgstr "Mesajul afișat pe imagine atunci când imaginea este descărcată și i
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Ofuscare HTML"
-
-msgid "無効"
-msgstr "Invalid"
-
-msgid "有効"
-msgstr "Valabilitate"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Compresie HTML generală, unele site-uri au de-obfuscation."
@@ -624,6 +672,9 @@ msgstr "Design și setări de sunet"
 msgid "イベントの設定"
 msgstr "Configurarea evenimentului."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Configurarea notificărilor pentru prima vizită."
+
 msgid "メッセージの設定"
 msgstr "Setări de mesaje"
 
@@ -647,6 +698,9 @@ msgstr "Tastă apăsată"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Setări Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Aviz."
 
 msgid "メッセージ"
 msgstr "Mesaj."

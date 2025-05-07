@@ -20,7 +20,7 @@ $neohp_cookie2_default =
 
 $neohp_cookie_agree_default = __('同意する', 'neo-html-protector');
 $neohp_cookie_noagree_default = __('同意しない', 'neo-html-protector');
-$neohp_comfirm_default = __('確認', 'neo-html-protector');
+$neohp_confirm_default = __('確認', 'neo-html-protector');
 $neohp_p3p_default = __('プライバシーポリシー', 'neo-html-protector');
 
 $neohp_imagedownload_default =

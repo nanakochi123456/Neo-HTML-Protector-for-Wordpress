@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Ez a weboldal az IP-címeket, a böngészési előzményeket és a működési naplókat sütikben és adatbázisokban tárolhatja a jogosulatlan hozzáférés megakadályozása és a Felhasználási feltételek megsértésének felderítése céljából. Ezeket az információkat a weboldal üzemeltetésén és a jogi levelezésen kívül semmilyen más célra nem használjuk fel, és nem adjuk át harmadik félnek.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	A szolgáltatások igénybevételéhez bele kell egyeznie ezen adatok feldolgozásába. Ha nem járul hozzá, a szolgáltatás használata korlátozott lesz. Hozzájárulásával megtekintheti az adatvédelmi szabályzatot.
 プライバシーポリシー	Adatvédelmi irányelvek.
+EU GDPR対応	EU GDPR megfelelés
+EU圏内でWordpressを使用するには必ず有効にしてください	Engedélyezni kell a Wordpress használatát az EU-ban
+確認のボタンが同意する、同意しないのボタンになります	A megerősítő gomb az Egyetértek vagy Nem értek gomb lesz.
+お知らせの1行目	A közlemény 1. sora.
+お知らせの2行目	A közlemény 2. sora.
+非EU向け確認の文字列	Megerősítő karakterlánc nem EU-tagállamok esetében
+EU GDPR向け同意するの文字列	Hozzájárulás az EU GDPR-hez
+EU GDPR向け同意しないの文字列	Véleménykülönbségek sora az EU GDPR-rel kapcsolatban
+プライバシーポリシーの文字列	Adatvédelmi szabályzat string
+プライバシーポリシーのURLはこちらから設定して下さい	Kérjük, állítsa be az adatvédelmi irányelvek URL-címét itt
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ha használati feltételeket állít be, mindenképpen helyezzen el egy linket a használati feltételekre az adatvédelmi szabályzatban.
+検索エンジン等のURL	Keresőmotorok URL címei stb.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Állítsa be a keresőmotorok és egyéb keresőmotorok URL-címeit, amelyekre a képernyő átvált, ha a felhasználó nem ért egyet.
+初回訪問時のお知らせの設定	Értesítések beállítása az első látogatáshoz.
+お知らせ	Értesítés.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Az adatvédelmi irányelvek kiegészítése azzal, hogy a cookie-kat és az adatbázisokat a jogosulatlan műveletek felderítése érdekében tárolják.
+プライバシーポリシーには以下の内容を追加して下さい	Kérjük, egészítse ki adatvédelmi szabályzatát a következőkkel
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	A jogosulatlan műveletek észlelése érdekében az adatbázisban cookie-k és azonosítók, például IP-címek tárolódnak. A tárolt adatokat a rendszergazda bármikor törölheti.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Csak akkor, ha a képvédelem engedélyezve van, az IP-cím és a képfájlnév hashelt adatai legfeljebb 60 percig tárolódnak az adatbázisban a kép sikeres tárolása érdekében.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Csak akkor, ha a képvédelem engedélyezve van, az IP-cím és a képfájlnév hashelt adatai legfeljebb 60 percig tárolódnak az adatbázisban a kép sikeres kézbesítése érdekében.

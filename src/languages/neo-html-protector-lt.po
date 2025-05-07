@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Lithuanian\n"
 "Language: lt\n"
@@ -47,6 +47,60 @@ msgstr "Renginys"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP adreso duomenų nėra."
+
+msgid "EU GDPR対応"
+msgstr "ES BDAR atitiktis"
+
+msgid "無効"
+msgstr "Negalioja"
+
+msgid "有効"
+msgstr "Galiojimas"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Turi būti leidžiama naudoti Wordpress ES"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Patvirtinimo mygtukas tampa sutikimo arba nesutikimo mygtuku."
+
+msgid "お知らせの1行目"
+msgstr "Pranešimo 1 eilutė."
+
+msgid "お知らせの2行目"
+msgstr "Pranešimo 2 eilutė."
+
+msgid "非EU向け確認の文字列"
+msgstr "Patvirtinimo eilutė ne ES šalims"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Sutikimo eilutė pagal ES BDAR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Daugybė nesutarimų dėl ES BDAR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Privatumo politikos eilutė"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Čia nustatykite savo privatumo politikos URL adresą"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Prašome į privatumo politiką įtraukti šią informaciją"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Kad būtų galima aptikti neteisėtas operacijas, duomenų bazėje saugomi slapukai ir identifikatoriai, pavyzdžiui, IP adresai. Saugomus duomenis administratorius gali bet kada ištrinti."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Tik įjungus vaizdo apsaugą, IP adreso ir vaizdo failo pavadinimo duomenys saugomi duomenų bazėje iki 60 minučių, kad vaizdas būtų sėkmingai pristatytas."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Jei nustatote naudojimo sąlygas, privatumo politikoje būtinai pateikite nuorodą į naudojimo sąlygas."
+
+msgid "検索エンジン等のURL"
+msgstr "Paieškos sistemų URL adresai ir kt."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Nustatykite paieškos ir kitų paieškos sistemų URL adresus, į kuriuos pereinama ekrane, kai naudotojas nesutinka."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Derinimo režimas, konsolės įspėjamieji pranešimai."
@@ -92,12 +146,6 @@ msgstr "Pranešimas, rodomas ant atvaizdo, kai atvaizdas atsisiunčiamas ir atva
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML užgožimas"
-
-msgid "無効"
-msgstr "Negalioja"
-
-msgid "有効"
-msgstr "Galiojimas"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Bendrasis HTML suspaudimas, kai kuriose svetainėse pašalinta obfuskacija."
@@ -624,6 +672,9 @@ msgstr "Dizainas ir garso nustatymai"
 msgid "イベントの設定"
 msgstr "Įvykio konfigūracija."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Pirmojo apsilankymo pranešimų nustatymas."
+
 msgid "メッセージの設定"
 msgstr "Pranešimų nustatymai"
 
@@ -647,6 +698,9 @@ msgstr "Paspaustas klavišas"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector nustatymai"
+
+msgid "お知らせ"
+msgstr "Pranešimas."
 
 msgid "メッセージ"
 msgstr "Pranešimas."

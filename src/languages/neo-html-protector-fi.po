@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -47,6 +47,60 @@ msgstr "Tapahtuma"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP-osoitetietoja ei ole saatavilla."
+
+msgid "EU GDPR対応"
+msgstr "EU:n yleisen tietosuoja-asetuksen noudattaminen"
+
+msgid "無効"
+msgstr "Virheellinen"
+
+msgid "有効"
+msgstr "Voimassaolo"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Wordpressin käyttö EU:ssa on sallittava."
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Vahvistuspainikkeesta tulee Hyväksyn tai En hyväksy -painike."
+
+msgid "お知らせの1行目"
+msgstr "Ilmoituksen rivi 1."
+
+msgid "お知らせの2行目"
+msgstr "Ilmoituksen rivi 2."
+
+msgid "非EU向け確認の文字列"
+msgstr "Vahvistusmerkkijono muille kuin EU:n jäsenvaltioille"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Suostumuksen merkkijono EU:n GDPR:ää varten"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "EU:n yleistä tietosuoja-asetusta koskevat erimielisyydet"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Tietosuojakäytäntöjen merkkijono"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Aseta tietosuojakäytäntösi URL-osoite tähän"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Lisää tietosuojaselosteeseesi seuraavat tiedot"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Tietokantaan tallennetaan evästeitä ja tunnisteita, kuten IP-osoitteita, luvattomien toimintojen havaitsemiseksi. Ylläpitäjä voi poistaa tallennetut tiedot milloin tahansa."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ainoastaan silloin, kun kuvien suojaus on käytössä, IP-osoitteen ja kuvatiedoston nimen hashed-tiedot tallennetaan tietokantaan enintään 60 minuutiksi, jotta kuvan toimittaminen onnistuu."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Jos asetat käyttöehdot, muista sijoittaa linkki käyttöehtoihin tietosuojakäytäntöön."
+
+msgid "検索エンジン等のURL"
+msgstr "Hakukoneiden URL-osoitteet jne."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Määritä hakukoneiden ja muiden hakukoneiden URL-osoitteet, joihin näyttö siirtyy, kun käyttäjä ei hyväksy sitä."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debug-tila, konsolin varoitusviestit."
@@ -92,12 +146,6 @@ msgstr "Kuvassa näkyvä viesti, kun kuva ladataan ja kuva on suojattu Vain engl
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML:n peittäminen"
-
-msgid "無効"
-msgstr "Virheellinen"
-
-msgid "有効"
-msgstr "Voimassaolo"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Yleinen HTML-pakkaus, joillakin sivustoilla on salauksen poisto."
@@ -624,6 +672,9 @@ msgstr "Suunnittelu ja ääniasetukset"
 msgid "イベントの設定"
 msgstr "Tapahtuman konfigurointi."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ilmoitusten määrittäminen ensimmäistä käyntiä varten."
+
 msgid "メッセージの設定"
 msgstr "Viestiasetukset"
 
@@ -647,6 +698,9 @@ msgstr "Painettu näppäin"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector -asetukset"
+
+msgid "お知らせ"
+msgstr "Ilmoitus."
 
 msgid "メッセージ"
 msgstr "Viesti."

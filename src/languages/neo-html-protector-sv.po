@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:36+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -47,6 +47,60 @@ msgstr "Händelse"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Inga IP-adressuppgifter tillgängliga."
+
+msgid "EU GDPR対応"
+msgstr "Efterlevnad av EU:s dataskyddsförordning"
+
+msgid "無効"
+msgstr "Ogiltig"
+
+msgid "有効"
+msgstr "Giltighet"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Måste vara aktiverat för att använda Wordpress i EU"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Bekräftelseknappen blir Agree- eller Disagree-knappen."
+
+msgid "お知らせの1行目"
+msgstr "Rad 1 i meddelandet."
+
+msgid "お知らせの2行目"
+msgstr "Rad 2 i meddelandet."
+
+msgid "非EU向け確認の文字列"
+msgstr "Bekräftelsesträng för icke-EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Samtyckessträng för EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "En rad oenigheter om EU:s dataskyddsförordning"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Integritetspolicy"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Ange din URL för integritetspolicy här"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Lägg till följande i din integritetspolicy"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "För att upptäcka obehörig användning lagras cookies och identifierare som IP-adresser i databasen. De lagrade uppgifterna kan när som helst raderas av administratören."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Endast när bildskyddet är aktiverat lagras de hashade uppgifterna om IP-adressen och bildfilens namn i databasen i upp till 60 minuter för att bilden ska kunna levereras på ett framgångsrikt sätt."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Om du anger användarvillkor ska du se till att placera en länk till användarvillkoren i sekretesspolicyn."
+
+msgid "検索エンジン等のURL"
+msgstr "URL:er till sökmotorer etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Ange URL:erna för sökmotorer och andra sökmotorer som skärmen växlar till när användaren inte samtycker."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Felsökningsläge, varningsmeddelanden i konsolen."
@@ -92,12 +146,6 @@ msgstr "Meddelande som visas på bilden när bilden laddas ner och bilden är sk
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Fördunkling av HTML"
-
-msgid "無効"
-msgstr "Ogiltig"
-
-msgid "有効"
-msgstr "Giltighet"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Allmän HTML-komprimering, vissa webbplatser har de-obfuscation."
@@ -624,6 +672,9 @@ msgstr "Design och ljudinställningar"
 msgid "イベントの設定"
 msgstr "Händelsekonfiguration."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ställ in aviseringar för det första besöket."
+
 msgid "メッセージの設定"
 msgstr "Inställningar för meddelanden"
 
@@ -647,6 +698,9 @@ msgstr "Tryck på tangenten"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Inställningar för Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Meddelande."
 
 msgid "メッセージ"
 msgstr "Meddelande."

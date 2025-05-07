@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -47,6 +47,60 @@ msgstr "Sündmus"
 
 msgid "IPアドレスのデータはありません"
 msgstr "IP-aadressi andmed puuduvad."
+
+msgid "EU GDPR対応"
+msgstr "ELi GDPRi järgimine"
+
+msgid "無効"
+msgstr "Kehtetu"
+
+msgid "有効"
+msgstr "Kehtivus"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Peab olema lubatud Wordpressi kasutamine ELis"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Kinnitusnupust saab nupp Nõustun või ei nõustu."
+
+msgid "お知らせの1行目"
+msgstr "Teatise rida 1."
+
+msgid "お知らせの2行目"
+msgstr "Teatise 2. rida."
+
+msgid "非EU向け確認の文字列"
+msgstr "Kinnitusstring ELi-väliste riikide puhul"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "ELi GDPRi nõusolekute jada"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "ELi GDPRi jaoks eriarvamuste jada"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Privaatsuspoliitika string."
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Palun määrake oma privaatsuspoliitika URL siin"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Palun lisage oma privaatsuspoliitikasse järgmine teave"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Lubamatute toimingute tuvastamiseks salvestatakse andmebaasi küpsised ja tunnused, näiteks IP-aadressid. Administraator kustutab salvestatud andmed igal ajal."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ainult siis, kui pildi kaitse on lubatud, salvestatakse IP-aadressi ja pildifaili nime räsitud andmed andmebaasis kuni 60 minutiks, et pilt edukalt edastada."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Kui te kehtestate kasutustingimused, lisage kindlasti link kasutustingimustele privaatsuspoliitikasse."
+
+msgid "検索エンジン等のURL"
+msgstr "Otsingumootorite URL-d jne."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Määrake otsingumootorite ja muude otsingumootorite URL-d, millele ekraan läheb üle, kui kasutaja ei nõustu."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debugirežiim, konsooli hoiatusteated."
@@ -92,12 +146,6 @@ msgstr "Pildi allalaadimisel kuvatav teade ja pilt on kaitstud ainult inglise ke
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML-i hägustamine"
-
-msgid "無効"
-msgstr "Kehtetu"
-
-msgid "有効"
-msgstr "Kehtivus"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Üldine HTML-kompressioon, mõnedel saitidel on de-obfuscation."
@@ -624,6 +672,9 @@ msgstr "Disain ja heliseadistused"
 msgid "イベントの設定"
 msgstr "Sündmuse konfiguratsioon."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Teavituste seadistamine esimese külastuse jaoks."
+
 msgid "メッセージの設定"
 msgstr "Sõnumite seaded"
 
@@ -647,6 +698,9 @@ msgstr "Vajutatud klahv"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector seaded"
+
+msgid "お知らせ"
+msgstr "Teatis."
 
 msgid "メッセージ"
 msgstr "Sõnum."

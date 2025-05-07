@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -47,6 +47,60 @@ msgstr "Událost"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Nejsou k dispozici žádné údaje o IP adrese."
+
+msgid "EU GDPR対応"
+msgstr "Soulad s nařízením EU GDPR"
+
+msgid "無効"
+msgstr "Neplatné"
+
+msgid "有効"
+msgstr "Platnost"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Musí být povoleno používat Wordpress v EU"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Z potvrzovacího tlačítka se stane tlačítko Souhlasím nebo Nesouhlasím."
+
+msgid "お知らせの1行目"
+msgstr "Řádek 1 oznámení."
+
+msgid "お知らせの2行目"
+msgstr "Řádek 2 oznámení."
+
+msgid "非EU向け確認の文字列"
+msgstr "Potvrzovací řetězec pro země mimo EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Řetězec souhlasů pro GDPR EU"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Řetězec neshod pro GDPR EU"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Zásady ochrany osobních údajů"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Zde prosím nastavte adresu URL zásad ochrany osobních údajů"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Doplňte prosím do svých zásad ochrany osobních údajů následující informace"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Pro odhalení neoprávněných operací se do databáze ukládají soubory cookie a identifikátory, jako jsou IP adresy. Uložené údaje může správce kdykoli vymazat."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Pouze pokud je povolena ochrana obrazu, jsou hashovaná data IP adresy a názvu souboru obrazu uložena v databázi až na 60 minut, aby bylo možné obraz úspěšně doručit."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Pokud nastavíte podmínky používání, nezapomeňte umístit odkaz na podmínky používání do zásad ochrany osobních údajů."
+
+msgid "検索エンジン等のURL"
+msgstr "Adresy URL vyhledávačů atd."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Nastavení adres URL vyhledávačů a dalších vyhledávačů, na které se obrazovka přepne, když uživatel nesouhlasí."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Režim ladění, varovné zprávy v konzole."
@@ -92,12 +146,6 @@ msgstr "Zpráva zobrazená na obrázku při stahování obrázku, který je chr�
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Obfuskace HTML"
-
-msgid "無効"
-msgstr "Neplatné"
-
-msgid "有効"
-msgstr "Platnost"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Obecná komprese HTML, některé weby mají funkci de-obfuskace."
@@ -624,6 +672,9 @@ msgstr "Design a nastavení zvuku"
 msgid "イベントの設定"
 msgstr "Konfigurace události."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Nastavení oznámení pro první návštěvu."
+
 msgid "メッセージの設定"
 msgstr "Nastavení zpráv"
 
@@ -647,6 +698,9 @@ msgstr "Stisknutá klávesa"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Nastavení nástroje Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Upozornění."
 
 msgid "メッセージ"
 msgstr "Zpráva."

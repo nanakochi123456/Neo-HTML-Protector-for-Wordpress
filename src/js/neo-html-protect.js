@@ -1059,33 +1059,52 @@
 	// notice
 
 	if(! Cookies.get("neoagree") ) {
+		let	CookieName = "neoagree"	+ nullstr;
+		let	click = "click"			+ nullstr;
+		let	px16 = "16px"			+ nullstr;
+		let	pointer = "pointer"		+ nullstr;
+		let	per100 = '100%'			+ nullstr;
+		let	mper100 = '-100%'		+ nullstr;
+		let	p = '<p>'				+ nullstr;
+		let button = '<button>'		+ nullstr;
+		let	white = '#fff'			+ nullstr;
+
 		// HTMLを動的に構築
 		let overlay = $(div, { id: 'neoPopupOverlay' }).hide();
 		let popup = $(div, { id: 'neoPopup' }).hide();
 
-		let closeBtn = $('<button>', { id: 'closePopupBtn', text: '✕' });
+		let closeBtn = $(button, { id: 'closePopupBtn', text: '✕' });
 		let content = $(div)
-			.append($('<p>').text(NeoHPCook1))
-			.append($('<p>').text(NeoHPCook2));
+			.append($(p).text(NeoHPCook1))
+			.append($(p).text(NeoHPCook2))
+			.append($(p).html('【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】'));
+		let agreeBtn = $(button, { id: 'agreeBtn', text: NeoHPAgree });
+		let disagreeBtn = $(button, { id: 'disagreeBtn', text: NeoHPNoAgree });
+		let	confirmBtn = $(button, { id: 'confirmBtn', text: NeoHPConfirm });
 
-		let agreeBtn = $('<button>', { id: 'agreeBtn', text: NeoHPAgree });
-		let disagreeBtn = $('<button>', { id: 'disagreeBtn', text: NeoHPNoAgree });
-
-		let buttonContainer = $(div).css({
-			marginTop: '20px',
-			textAlign: 'center'
-		}).append(agreeBtn, disagreeBtn);
+		let buttonContainer;
+		if(NeoHPGDPR) {
+			buttonContainer = $(div).css({
+				marginTop: '20px',
+				textAlign: 'center'
+			}).append(agreeBtn, disagreeBtn);
+		} else {
+			buttonContainer = $(div).css({
+				marginTop: '20px',
+				textAlign: 'center'
+			}).append(confirmBtn);
+		}
 
 		popup.append(closeBtn, content, buttonContainer);
-		$('body').append(overlay, popup); 
+		$(body).append(overlay, popup); 
 
 		// スタイル設定
 		overlay.css({
 			position: 'fixed',
 			bottom: 0,
 			left: 0,
-			width: '100%',
-			height: '100%',
+			width: per100,
+			height: per100,
 			padding: '40px',
 			background: 'rgba(0, 0, 0, 0.1)',
 			zIndex: 999,
@@ -1094,18 +1113,19 @@
 
 		popup.css({
 			position: 'fixed',
-			bottom: '-100%',
+			bottom: mper100,
 			left: 0,
-			width: '100%',
-			background: '#fff',
+			width: per100,
+			background: white,
 			padding: '40px',
 			zIndex: 1000,
-			boxShadow: '0 -2px 10px rgba(0,0,0,0.3)',
-			textAlign: 'center'
+			boxShadow: '0 -2px 10px rgba(0,0,0,0.3)'
+//			textAlign: 'center'
 		});
 
 		content.css({
-			width: '90%',
+			fontSize: px16,
+			width: '94%',
 			padding: '10px 70px 10px 0px'
 		});
 
@@ -1121,23 +1141,34 @@
 
 		agreeBtn.css({
 			backgroundColor: '#e53935', // 赤系
-			color: '#fff',
-			border: 'none',
+			color: white,
+			border: none,
 			padding: '10px 20px',
 			margin: '10px',
-			cursor: 'pointer',
-			fontSize: '16px',
+			cursor: pointer,
+			fontSize: px16,
 			borderRadius: '5px'
 		});
 
 		disagreeBtn.css({
 			backgroundColor: '#1e88e5', // 青系
-			color: '#fff',
-			border: 'none',
+			color: white,
+			border: none,
+			padding: '10px 20px',
+			margin: px16,
+			cursor: pointer,
+			fontSize: px16,
+			borderRadius: '5px'
+		});
+
+		confirmBtn.css({
+			backgroundColor: '#e53935', // 赤系
+			color: white,
+			border: none,
 			padding: '10px 20px',
 			margin: '10px',
-			cursor: 'pointer',
-			fontSize: '16px',
+			cursor: pointer,
+			fontSize: px16,
 			borderRadius: '5px'
 		});
 
@@ -1149,33 +1180,51 @@
 
 		// 閉じる共通処理
 		function closePopup() {
-			popup.animate({ bottom: '-100%' }, 300, function() {
+			popup.animate({ bottom: mper100 }, 300, function() {
 				popup.hide();
 			});
 			overlay.fadeOut(300);
 		}
 
-		// 閉じるボタン／オーバーレイ
-		closeBtn.on('click', closePopup);
-		overlay.on('click', closePopup);
+		// 閉じるボタン／オーバーレイ GDPR有効時は動かさない
+		if(! NeoHPGDPR) {
+			closeBtn.on(click, () => {
+				confirmBtn.click();
+			});
+			overlay.on(click, () => {
+				confirmBtn.click();
+			});
+		}
 
 		// キーボードのEnterキーでも同意扱いにする
 		$(document).on('keydown', function(e) {
 			if (e.keyCode === 13) {
-				agreeBtn.click();
+				if(NeoHPGDPR) {
+					agreeBtn.click();
+				} else {
+					confirmBtn.click();
+				}
 			}
 		});
 
 		// 同意・不同意ボタンの処理
-		agreeBtn.on('click', function() {
+		agreeBtn.on(click, function() {
 			Cookies.set(
-				"neoagree", "1",
+				CookieName, "1",
 				{ expires: 366, path: "/", sameSite: "lax"}
 			);
 			closePopup();
 		});
 
-		disagreeBtn.on('click', function() {
+		confirmBtn.on(click, function() {
+			Cookies.set(
+				CookieName, "1",
+				{ expires: 366, path: "/", sameSite: "lax"}
+			);
+			closePopup();
+		});
+
+		disagreeBtn.on(click, function() {
 			closePopup();
 			setTimeout(() => {
 				Window.location.href = NeoHPSearch;

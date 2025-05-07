@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(USA)\n"
 "Language: en_US\n"
@@ -47,6 +47,60 @@ msgstr "Events"
 
 msgid "IPアドレスのデータはありません"
 msgstr "No IP address data available"
+
+msgid "EU GDPR対応"
+msgstr "EU GDPR Compliance"
+
+msgid "無効"
+msgstr "Invalid"
+
+msgid "有効"
+msgstr "Validity"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Must be enabled to use Wordpress in the EU"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "The confirmation button will be the Agree or Disagree button."
+
+msgid "お知らせの1行目"
+msgstr "First line of the notice"
+
+msgid "お知らせの2行目"
+msgstr "Second line of the notice"
+
+msgid "非EU向け確認の文字列"
+msgstr "Confirmation string for non-EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Agree string for EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "String of Disagree for EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Privacy Policy String"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Please set your privacy policy URL here"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Please add the following to your privacy policy"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "For unauthorized operation detection, cookies and identifiers such as IP addresses are stored in the database. The stored data is deleted at any time at the discretion of the administrator."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Only when image protection is enabled, hashed data of IP addresses and image file names are stored in the database for up to 60 minutes in order to deliver images successfully."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "If you set up a Terms of Use, please be sure to place a link to the Terms of Use in your Privacy Policy."
+
+msgid "検索エンジン等のURL"
+msgstr "URL of search engine etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Set the URL of the search engine, etc. to which the screen will be redirected when the user does not agree."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Debug mode, console warning messages"
@@ -92,12 +146,6 @@ msgstr "Message displayed on the image when the image is downloaded and the imag
 
 msgid "HTML難読化 (圧縮)"
 msgstr "HTML obfuscation"
-
-msgid "無効"
-msgstr "Invalid"
-
-msgid "有効"
-msgstr "Validity"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "General HTML compression, some sites offer de-obfuscation"
@@ -624,6 +672,9 @@ msgstr "Design and sound settings"
 msgid "イベントの設定"
 msgstr "Event Setup"
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Setting up notifications for initial visits"
+
 msgid "メッセージの設定"
 msgstr "Message Settings"
 
@@ -647,6 +698,9 @@ msgstr "Pressed key"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Neo HTML Protector Settings"
+
+msgid "お知らせ"
+msgstr "Notice"
 
 msgid "メッセージ"
 msgstr "Message"

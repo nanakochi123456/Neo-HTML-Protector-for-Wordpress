@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Dette websted kan gemme IP-adresser, browserhistorik og driftslogs i cookies og databaser med det formål at forhindre uautoriseret adgang og opdage overtrædelser af brugsbetingelserne. Disse oplysninger vil ikke blive brugt til andre formål end drift af webstedet og juridisk korrespondance og vil ikke blive videregivet til tredjeparter.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	For at bruge tjenesterne skal du give dit samtykke til behandlingen af disse data. Hvis du ikke giver dit samtykke, vil din brug af tjenesten blive begrænset. Når du giver dit samtykke, kan du læse privatlivspolitikken.
 プライバシーポリシー	Politik for beskyttelse af personlige oplysninger.
+EU GDPR対応	Overholdelse af EU's GDPR
+EU圏内でWordpressを使用するには必ず有効にしてください	Det skal være muligt at bruge Wordpress i EU
+確認のボタンが同意する、同意しないのボタンになります	Bekræftelsesknappen bliver til knappen Enig eller Uenig.
+お知らせの1行目	Linje 1 i meddelelsen.
+お知らせの2行目	Linje 2 i meddelelsen.
+非EU向け確認の文字列	Bekræftelsesstreng for ikke-EU
+EU GDPR向け同意するの文字列	Streng af samtykke til EU GDPR
+EU GDPR向け同意しないの文字列	Stribevis af uenigheder om EU's GDPR
+プライバシーポリシーの文字列	Fortrolighedspolitik
+プライバシーポリシーのURLはこちらから設定して下さい	Angiv venligst din URL til privatlivspolitik her
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Hvis du opretter en brugsanvisning, skal du sørge for at placere et link til brugsanvisningen i privatlivspolitikken.
+検索エンジン等のURL	URL'er til søgemaskiner osv.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Indstil URL'er til søgemaskiner og andre søgemaskiner, som skærmen skifter til, når brugeren ikke accepterer.
+初回訪問時のお知らせの設定	Opsætning af notifikationer til det første besøg.
+お知らせ	Bemærk.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Tilføj til privatlivspolitikken, at cookies og databaser gemmes for at opdage uautoriserede handlinger
+プライバシーポリシーには以下の内容を追加して下さい	Tilføj venligst følgende til din privatlivspolitik
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	For at opdage uautoriserede handlinger gemmes cookies og identifikatorer såsom IP-adresser i databasen. De lagrede data kan til enhver tid slettes af administratoren.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Kun når billedbeskyttelse er aktiveret, gemmes en hash af IP-adressen og billedfilnavnet i databasen i op til 60 minutter for at kunne gemme billedet.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Kun når billedbeskyttelse er aktiveret, gemmes de hashede data for IP-adressen og billedfilnavnet i databasen i op til 60 minutter for at kunne levere billedet med succes.

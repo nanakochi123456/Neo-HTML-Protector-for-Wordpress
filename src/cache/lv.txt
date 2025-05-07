@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Šī vietne var saglabāt IP adreses, pārlūkošanas vēsturi un darbības žurnālus sīkfailos un datubāzēs, lai novērstu neatļautu piekļuvi un atklātu lietošanas noteikumu pārkāpumus. Šī informācija netiks izmantota citiem mērķiem, izņemot vietnes darbību un juridisko saraksti, un netiks nodota trešām personām.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Lai izmantotu pakalpojumus, jums ir jāpiekrīt šo datu apstrādei. Ja nepiekrītat, pakalpojumu izmantošana tiks ierobežota. Piekrītot, varat iepazīties ar konfidencialitātes politiku.
 プライバシーポリシー	Konfidencialitātes politika.
+EU GDPR対応	ES GDPR atbilstība
+EU圏内でWordpressを使用するには必ず有効にしてください	Jābūt iespējotai Wordpress lietošanai ES
+確認のボタンが同意する、同意しないのボタンになります	Apstiprinājuma poga kļūst par piekrišanas vai nepiekrišanas pogu.
+お知らせの1行目	Paziņojuma 1. rinda.
+お知らせの2行目	Paziņojuma 2. rinda.
+非EU向け確認の文字列	Apstiprinājuma virkne ārpus ES
+EU GDPR向け同意するの文字列	Piekrišanas virkne ES GDPR
+EU GDPR向け同意しないの文字列	Virkne domstarpību par ES VDAR
+プライバシーポリシーの文字列	Konfidencialitātes politikas virkne
+プライバシーポリシーのURLはこちらから設定して下さい	Lūdzu, iestatiet savu konfidencialitātes politikas URL šeit
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ja izveidojat lietošanas noteikumus, pārliecinieties, ka saite uz lietošanas noteikumiem ir iekļauta konfidencialitātes politikā.
+検索エンジン等のURL	Meklētājprogrammu URL u.c.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Iestatiet meklētājprogrammu un citu meklētājprogrammu URL, uz kuriem ekrāns pāriet, ja lietotājs nepiekrīt.
+初回訪問時のお知らせの設定	Paziņojumu iestatīšana pirmajam apmeklējumam.
+お知らせ	Paziņojums.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Privātuma politikā pievienot informāciju, ka sīkfaili un datubāzes tiek glabātas, lai atklātu neatļautas darbības.
+プライバシーポリシーには以下の内容を追加して下さい	Lūdzu, papildiniet savu konfidencialitātes politiku ar šādu informāciju
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Lai atklātu neatļautas darbības, datubāzē tiek saglabātas sīkdatnes un identifikatori, piemēram, IP adreses. Saglabātos datus administrators jebkurā laikā var dzēst.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tikai tad, ja ir iespējota attēla aizsardzība, IP adreses un attēla faila nosaukuma hešs tiek saglabāts datu bāzē līdz 60 minūtēm, lai veiksmīgi saglabātu attēlu.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tikai tad, ja ir iespējota attēla aizsardzība, IP adreses un attēla faila nosaukuma šifrētie dati tiek saglabāti datu bāzē līdz 60 minūtēm, lai veiksmīgi piegādātu attēlu.

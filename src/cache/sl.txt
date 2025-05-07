@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	To spletno mesto lahko shranjuje naslove IP, zgodovino brskanja in dnevnike delovanja v piškotke in podatkovne zbirke za preprečevanje nepooblaščenega dostopa in odkrivanje kršitev pogojev uporabe. Ti podatki se ne bodo uporabljali za druge namene kot za delovanje spletnega mesta in pravno korespondenco ter se ne bodo posredovali tretjim osebam.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Če želite uporabljati storitve, se morate strinjati z obdelavo teh podatkov. Če se ne strinjate, bo vaša uporaba storitev omejena. S soglasjem lahko pregledate pravilnik o zasebnosti.
 プライバシーポリシー	Pravilnik o zasebnosti.
+EU GDPR対応	Skladnost z uredbo EU GDPR
+EU圏内でWordpressを使用するには必ず有効にしてください	V EU mora biti omogočena uporaba Wordpressa
+確認のボタンが同意する、同意しないのボタンになります	Gumb za potrditev postane gumb za strinjanje ali nestrinjanje.
+お知らせの1行目	Vrstica 1 obvestila.
+お知らせの2行目	Vrstica 2 obvestila.
+非EU向け確認の文字列	Potrditveni niz za države zunaj EU
+EU GDPR向け同意するの文字列	Niz privolitev za EU GDPR
+EU GDPR向け同意しないの文字列	Niz nesoglasij za GDPR v EU
+プライバシーポリシーの文字列	Niz pravilnika o zasebnosti
+プライバシーポリシーのURLはこちらから設定して下さい	Tukaj nastavite URL svojega pravilnika o zasebnosti
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Če določite pogoje uporabe, v pravilnik o zasebnosti obvezno vstavite povezavo do pogojev uporabe.
+検索エンジン等のURL	URL-ji iskalnikov itd.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Nastavite naslove URL iskalnikov in drugih iskalnikov, na katere preide zaslon, ko se uporabnik ne strinja.
+初回訪問時のお知らせの設定	Nastavitev obvestil za prvi obisk.
+お知らせ	Obvestilo.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	V pravilnik o zasebnosti dodajte, da se piškotki in podatkovne zbirke shranjujejo za odkrivanje nepooblaščenih operacij.
+プライバシーポリシーには以下の内容を追加して下さい	V svoj pravilnik o zasebnosti dodajte naslednje
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Za odkrivanje nepooblaščenih operacij se v podatkovni zbirki shranjujejo piškotki in identifikatorji, kot so naslovi IP. Administrator lahko shranjene podatke kadar koli izbriše.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Samo če je omogočena zaščita slike, se za uspešno shranjevanje slike v podatkovni zbirki do 60 minut shrani hash naslova IP in imena datoteke s s sliko.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Samo če je omogočena zaščita slike, se v podatkovni zbirki do 60 minut shranijo šifrirani podatki o naslovu IP in imenu datoteke s sliko, da se slika uspešno dostavi.

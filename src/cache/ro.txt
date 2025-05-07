@@ -330,3 +330,23 @@ MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライ�
 このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Acest site web poate stoca adresele IP, istoricul de navigare și jurnalele de funcționare în cookie-uri și baze de date în scopul prevenirii accesului neautorizat și al detectării încălcărilor condițiilor de utilizare. Aceste informații nu vor fi utilizate în alte scopuri decât funcționarea site-ului și corespondența legală și nu vor fi transmise unor terțe părți.
 サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Pentru a utiliza serviciile, trebuie să fiți de acord cu prelucrarea acestor date. Dacă nu vă dați consimțământul, utilizarea serviciului va fi restricționată. Prin consimțământ, puteți consulta politica de confidențialitate.
 プライバシーポリシー	Politica de confidențialitate.
+EU GDPR対応	Conformitatea GDPR UE
+EU圏内でWordpressを使用するには必ず有効にしてください	Trebuie să fiți autorizat să utilizați Wordpress în UE
+確認のボタンが同意する、同意しないのボタンになります	Butonul de confirmare devine butonul de acord sau dezacord.
+お知らせの1行目	Linia 1 din anunț.
+お知らせの2行目	Linia 2 din anunț.
+非EU向け確認の文字列	Șir de confirmare pentru țările din afara UE
+EU GDPR向け同意するの文字列	Șir de consimțăminte pentru GDPR UE
+EU GDPR向け同意しないの文字列	O serie de dezacorduri cu privire la GDPR UE
+プライバシーポリシーの文字列	Politica de confidențialitate
+プライバシーポリシーのURLはこちらから設定して下さい	Vă rugăm să stabiliți URL-ul politicii de confidențialitate aici
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Dacă creați o clauză privind condițiile de utilizare, asigurați-vă că plasați un link către condițiile de utilizare în politica de confidențialitate
+検索エンジン等のURL	URL-uri ale motoarelor de căutare etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Setați adresele URL ale motoarelor de căutare și ale altor motoare de căutare la care trece ecranul atunci când utilizatorul nu este de acord.
+初回訪問時のお知らせの設定	Configurarea notificărilor pentru prima vizită.
+お知らせ	Aviz.
+プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Adăugați la politica de confidențialitate că cookie-urile și bazele de date sunt stocate pentru a detecta operațiunile neautorizate
+プライバシーポリシーには以下の内容を追加して下さい	Vă rugăm să adăugați următoarele la politica dumneavoastră de confidențialitate
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Pentru detectarea operațiunilor neautorizate, în baza de date sunt stocate module cookie și identificatori precum adresele IP. Datele stocate sunt șterse în orice moment de către administrator.
+画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Numai atunci când protecția imaginii este activată, un hash al adresei IP și al numelui fișierului de imagine este stocat în baza de date timp de până la 60 de minute pentru a putea stoca cu succes imaginea.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Numai atunci când protecția imaginii este activată, datele hașurate ale adresei IP și ale numelui fișierului de imagine sunt stocate în baza de date timp de până la 60 de minute pentru a livra imaginea cu succes.

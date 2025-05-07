@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.0\n"
+"Project-Id-Version: Neo HTML Protector 0.3.1\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 06:35+0900\n"
-"PO-Revision-Date: 2025-05-07 06:35+0900\n"
+"POT-Creation-Date: 2025-05-07 08:58+0900\n"
+"PO-Revision-Date: 2025-05-07 08:58+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -47,6 +47,60 @@ msgstr "Acara"
 
 msgid "IPアドレスのデータはありません"
 msgstr "Tidak ada data alamat IP yang tersedia."
+
+msgid "EU GDPR対応"
+msgstr "Kepatuhan terhadap GDPR Uni Eropa"
+
+msgid "無効"
+msgstr "Tidak valid"
+
+msgid "有効"
+msgstr "Validitas"
+
+msgid "EU圏内でWordpressを使用するには必ず有効にしてください"
+msgstr "Harus diaktifkan untuk menggunakan Wordpress di Uni Eropa"
+
+msgid "確認のボタンが同意する、同意しないのボタンになります"
+msgstr "Tombol konfirmasi menjadi tombol Setuju atau Tidak Setuju."
+
+msgid "お知らせの1行目"
+msgstr "Baris 1 dari pemberitahuan."
+
+msgid "お知らせの2行目"
+msgstr "Baris 2 dari pemberitahuan."
+
+msgid "非EU向け確認の文字列"
+msgstr "String konfirmasi untuk non-UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Rangkaian persetujuan untuk GDPR UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Serangkaian ketidaksepakatan untuk GDPR UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "String kebijakan privasi"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Silakan atur URL kebijakan privasi Anda di sini"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Harap tambahkan yang berikut ini ke kebijakan privasi Anda"
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Untuk mendeteksi operasi yang tidak sah, cookie dan pengidentifikasi seperti alamat IP disimpan dalam database. Data yang tersimpan dapat dihapus kapan saja oleh administrator."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Hanya apabila proteksi gambar diaktifkan, data hash dari alamat IP dan nama file gambar disimpan dalam database hingga 60 menit agar dapat mengirimkan gambar dengan sukses."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Jika Anda membuat Ketentuan Penggunaan, pastikan untuk menempatkan tautan ke Ketentuan Penggunaan dalam Kebijakan Privasi"
+
+msgid "検索エンジン等のURL"
+msgstr "URL mesin pencari, dll."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Mengatur URL mesin pencari dan mesin pencari lain yang akan dialihkan ke layar ketika pengguna tidak setuju."
 
 msgid "デバッグモード、コンソールの警告メッセージ"
 msgstr "Mode debug, pesan peringatan konsol."
@@ -92,12 +146,6 @@ msgstr "Pesan yang ditampilkan pada gambar ketika gambar diunduh dan gambar dili
 
 msgid "HTML難読化 (圧縮)"
 msgstr "Pengaburan HTML"
-
-msgid "無効"
-msgstr "Tidak valid"
-
-msgid "有効"
-msgstr "Validitas"
 
 msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
 msgstr "Kompresi HTML umum, beberapa situs memiliki de-obfuscation."
@@ -624,6 +672,9 @@ msgstr "Pengaturan desain dan suara"
 msgid "イベントの設定"
 msgstr "Konfigurasi acara."
 
+msgid "初回訪問時のお知らせの設定"
+msgstr "Menyiapkan pemberitahuan untuk kunjungan pertama."
+
 msgid "メッセージの設定"
 msgstr "Pengaturan pesan"
 
@@ -647,6 +698,9 @@ msgstr "Tombol yang ditekan"
 
 msgid "Neo HTML Protector 設定"
 msgstr "Pengaturan Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Perhatikan."
 
 msgid "メッセージ"
 msgstr "Pesan."
