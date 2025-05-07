@@ -33,7 +33,9 @@
 	let		macOS = 'macOS'		+ nullstr;
 	let		ChromeOS = 'Chrome OS'	+ nullstr;
 	let		Android = 'Android'	+ nullstr;
+	let		AndroidTab = Android + 'Tab'+ nullstr;
 	let		iOS = 'iOS'			+ nullstr;
+	let		ipadOS = 'iPadOS'	+ nullstr;
 	let		Chrome='Chrome'		+ nullstr;
 	let		Safari='Safari'		+ nullstr;
 	let		Firefox='Firefox'	+ nullstr;
@@ -148,9 +150,31 @@
 			else if (ua.includes(PlayStation)) os = PlayStation;
 			else if (ua.includes(Xbox)) os=Xbox;
 			else if (ua.includes(Windows + ' NT')) os = Windows;
-			else if (/iPhone|iPad|iPod/.test(ua)) os = iOS;
+			else if (/iPhone|iPod/.test(ua)) os = iOS;
+			/*
+			function isIpad() {
+				return navigator.userAgent.includes('iPad') || (
+					navigator.userAgent.includes('Macintosh') &&
+					'ontouchend' in document
+				);
+			}
+			*/
+			else if (/Macintosh|iPad/.test(ua) && 'ontouchend' in document) os = ipadOS;
 			else if (/Mac OS X/.test(ua)) os = macOS;
 			else if (/CrOS/.test(ua)) os = ChromeOS;
+			/*
+			function isAndroidTabletStrict() {
+				const ua = navigator.userAgent.toLowerCase();
+				const isAndroid = ua.includes("android");
+				const isMobile = ua.includes("mobile");
+
+				// 画面の物理サイズがスマホ以上（例: 600px以上）
+				const isLargeScreen = Math.min(screen.width, screen.height) >= 600;
+
+				return isAndroid && (!isMobile || isLargeScreen);
+			}
+			*/
+			else if (ua.includes(Android) && (! ua.includes("obile") || Math.min(screen.width, screen.height) > 599)) os = AndroidTab;
 			else if (ua.includes(Android)) os = Android;
 			else if (ua.includes(Linux)) os = Linux;
 		}
@@ -1232,29 +1256,3 @@
 	}
 
 })(jQuery);
-/*
-(($) => {
-	window.onload = function () {
-		const overlay = $('<div>', {
-			id: 'test-overlay',
-			text: '動いてます',
-			css: {
-				position: 'fixed',
-				top: 0,
-				left: 0,
-				width: '100%',
-				height: '100%',
-				backgroundColor: 'rgba(0,0,0,0.5)',
-				color: 'white',
-				fontSize: '32px',
-				zIndex: 9999,
-				display: 'flex',
-				alignItems: 'center',
-				justifyContent: 'center'
-			}
-		});
-		$('body').append(overlay);
-		console.log('Overlay appended');
-	};
-})(jQuery);
-*/
