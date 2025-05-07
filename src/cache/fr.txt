@@ -356,3 +356,17 @@ EU GDPR向け同意しないの文字列	Désaccord sur le GDPR de l'UE
 サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。	Le consentement au traitement de ces données est nécessaire pour utiliser le service. En cas de non-consentement, le service ne peut pas être utilisé.
 初回表示で必ず表示されるメッセージです	Ce message est toujours affiché sur le premier écran.
 EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ce message s'affiche toujours sur le premier écran, uniquement lorsque l'option EU GDPR est activée.
+お知らせの3行目	Ligne 3 de l'avis.
+プライバシーポリシーのリンクの右側に表示されます	Il apparaît à droite du lien vers la politique de confidentialité.
+ご同意いただくことで、プライバシーポリシーを確認できます。	En acceptant, vous pouvez consulter la politique de confidentialité.
+同意画面の色	Couleur de l'écran de consentement.
+自動	Automatique
+ライトモード	Mode lumineux
+ダークモード	Mode sombre
+同意画面表示中の配色を設定します	Définir la palette de couleurs lors de l'affichage de l'écran de consentement.
+同意画面中のコンテンツのぼかし	Le flou du contenu pendant les écrans de consentement.
+なし	Sans
+同意画面表示中のコンテンツのぼかし具合を設定します	Définit le niveau de flou du contenu pendant l'affichage de l'écran de consentement.
+同意画面の透過	Transparence de l'écran de consentement.
+透過なし	Sans transparence
+同意画面の透過具合を設定します	Définir la transparence de l'écran de consentement.

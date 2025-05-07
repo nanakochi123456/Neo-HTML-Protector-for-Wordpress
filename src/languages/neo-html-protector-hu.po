@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -63,6 +63,39 @@ msgstr "Engedélyezni kell a Wordpress használatát az EU-ban"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "A megerősítő gomb az Egyetértek vagy Nem értek gomb lesz."
 
+msgid "同意画面の色"
+msgstr "A hozzájárulás képernyőjének színe."
+
+msgid "自動"
+msgstr "Automatikus"
+
+msgid "ライトモード"
+msgstr "Fény mód"
+
+msgid "ダークモード"
+msgstr "Sötét üzemmód"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Állítsa be a színsémát, miközben a beleegyezési képernyő megjelenik."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "A tartalom elmosódása a beleegyezési képernyők alatt."
+
+msgid "なし"
+msgstr "Nélkül"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Beállítja a tartalom elmosódási szintjét a beleegyezés képernyő megjelenítésénél."
+
+msgid "同意画面の透過"
+msgstr "A beleegyezési képernyő átláthatósága."
+
+msgid "透過なし"
+msgstr "átláthatóság nélkül"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "A beleegyezési képernyő átláthatóságának beállítása."
+
 msgid "お知らせの1行目"
 msgstr "A közlemény 1. sora."
 
@@ -74,6 +107,12 @@ msgstr "A közlemény 2. sora."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Ez az üzenet csak akkor jelenik meg mindig az első kijelzőn, ha az EU GDPR engedélyezve van."
+
+msgid "お知らせの3行目"
+msgstr "A közlemény 3. sora."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Az adatvédelmi irányelvek link jobb oldalán jelenik meg."
 
 msgid "非EU向け確認の文字列"
 msgstr "Megerősítő karakterlánc nem EU-tagállamok esetében"
@@ -821,6 +860,9 @@ msgstr "Ez a weboldal a jogosulatlan használat megelőzése és a feltételek b
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "A szolgáltatás igénybevételéhez az adatok feldolgozásához hozzájárulás szükséges. Hozzájárulás hiányában a szolgáltatás nem vehető igénybe."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "A beleegyezéssel megtekintheti az adatvédelmi szabályzatot."
 
 msgid "同意する"
 msgstr "Egyetértek."

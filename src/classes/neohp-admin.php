@@ -78,6 +78,96 @@ class neohp_admin {
 				'neohp_notice_section'
 			);
 
+			// ダークモード
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_dark', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_dark',
+				__('同意画面の色', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_dark', '5'));
+					echo wp_kses( $this->getselect("neohp_dark", $value
+						, '0=' . __('自動', 'neo-html-protector')
+						, '1=' . __('ライトモード', 'neo-html-protector')
+						, '2=' . __('ダークモード', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('同意画面表示中の配色を設定します', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// ぼかし
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_blur', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_blur',
+				__('同意画面中のコンテンツのぼかし', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_blur', '5'));
+					echo wp_kses( $this->getselect("neohp_blur", $value
+						, '0=' . __('なし', 'neo-html-protector')
+						, '1=' . '1px'
+						, '2=' . '2px'
+						, '3=' . '3px'
+						, '4=' . '4px'
+						, '5=' . '5px'
+						, '6=' . '6px'
+						, '7=' . '7px'
+						, '8=' . '8px'
+						, '9=' . '9px'
+						, '10=' . '10px'
+						, '11=' . '11px'
+						, '12=' . '12px'
+						, '13=' . '13px'
+						, '14=' . '14px'
+						, '15=' . '15px'
+						, '16=' . '16px'
+						, '17=' . '17px'
+						, '18=' . '18px'
+						, '19=' . '19px'
+						, '20=' . '20px'
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('同意画面表示中のコンテンツのぼかし具合を設定します', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 透過
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_transmission', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_transmission',
+				__('同意画面の透過', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_transmission', '0.9'));
+					echo wp_kses( $this->getselect("neohp_transmission", $value
+						, '0.5=' . '0.5'
+						, '0.6=' . '0.6'
+						, '0.7=' . '0.7'
+						, '0.8=' . '0.8'
+						, '0.9=' . '0.9'
+						, '1=' . __('透過なし', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('同意画面の透過具合を設定します', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
 			// noticeお知らせ1行目
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_notice_group', 'neohp_cookie1', array(
@@ -113,6 +203,26 @@ class neohp_admin {
 					$value = get_option('neohp_cookie2', $neohp_cookie2_default);
 					echo '<input type="text" name="neohp_cookie2" value="' . esc_html( $value ) . '" class="regular-text">';
 					echo '<br>' . esc_html( __('EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです', 'neo-html-protector') );
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// noticeお知らせ3行目
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_cookie3', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_cookie3',
+				__('お知らせの3行目', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_cookie3', $neohp_cookie3_default);
+					echo '<input type="text" name="neohp_cookie3" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' . esc_html( __('プライバシーポリシーのリンクの右側に表示されます', 'neo-html-protector') );
 				},
 				'neohp-notice-settings',
 				'neohp_notice_section'

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:08+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -63,6 +63,39 @@ msgstr "AB'de Wordpress kullanmak için etkinleştirilmelidir"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Onay düğmesi, Kabul Ediyorum veya Etmiyorum düğmesine dönüşür."
 
+msgid "同意画面の色"
+msgstr "Onay ekranının rengi."
+
+msgid "自動"
+msgstr "Otomatik"
+
+msgid "ライトモード"
+msgstr "ışık modu"
+
+msgid "ダークモード"
+msgstr "Karanlık mod"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Onay ekranı görüntülenirken renk düzenini ayarlayın."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Onay ekranları sırasında içeriğin bulanıklaşması."
+
+msgid "なし"
+msgstr "Olmadan"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Onay ekranı görüntüsü sırasında içeriğin bulanıklaştırma seviyesini ayarlar."
+
+msgid "同意画面の透過"
+msgstr "Onay ekranının şeffaflığı."
+
+msgid "透過なし"
+msgstr "şeffaflık olmadan"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Onay ekranının şeffaflığını ayarlayın."
+
 msgid "お知らせの1行目"
 msgstr "Bildirimin 1. satırı."
 
@@ -74,6 +107,12 @@ msgstr "Bildirimin 2. satırı."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Bu mesaj yalnızca EU GDPR etkinleştirildiğinde her zaman ilk ekranda görüntülenir."
+
+msgid "お知らせの3行目"
+msgstr "Bildirimin 3. satırı."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Gizlilik politikası bağlantısının sağ tarafında görünür"
 
 msgid "非EU向け確認の文字列"
 msgstr "AB üyesi olmayanlar için onay dizesi"
@@ -821,6 +860,9 @@ msgstr "Bu web sitesi, yetkisiz kullanımı önlemek ve hüküm ve koşullara uy
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Hizmeti kullanmak için bu verilerin işlenmesine rıza gösterilmesi gerekmektedir. Onay verilmemesi durumunda hizmet kullanılamaz."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Kabul ederek gizlilik politikasını inceleyebilirsiniz."
 
 msgid "同意する"
 msgstr "Anlaştık."

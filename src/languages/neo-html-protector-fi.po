@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -63,6 +63,39 @@ msgstr "Wordpressin käyttö EU:ssa on sallittava."
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Vahvistuspainikkeesta tulee Hyväksyn tai En hyväksy -painike."
 
+msgid "同意画面の色"
+msgstr "Suostumusnäytön väri."
+
+msgid "自動"
+msgstr "Automaattinen"
+
+msgid "ライトモード"
+msgstr "Valotila"
+
+msgid "ダークモード"
+msgstr "Pimeä tila"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Aseta värimaailma, kun suostumusnäyttö on näkyvissä."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Sisällön hämärtyminen suostumusnäytön aikana."
+
+msgid "なし"
+msgstr "Ilman"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Asettaa sisällön epätarkkuuden tason suostumusnäytön aikana."
+
+msgid "同意画面の透過"
+msgstr "Suostumusnäytön avoimuus."
+
+msgid "透過なし"
+msgstr "Ilman avoimuutta"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Aseta suostumusnäytön läpinäkyvyys."
+
 msgid "お知らせの1行目"
 msgstr "Ilmoituksen rivi 1."
 
@@ -74,6 +107,12 @@ msgstr "Ilmoituksen rivi 2."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Tämä viesti näytetään aina ensimmäisellä näytöllä vain silloin, kun EU GDPR on käytössä."
+
+msgid "お知らせの3行目"
+msgstr "Ilmoituksen rivi 3."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Se näkyy tietosuojakäytäntöjen linkin oikealla puolella."
 
 msgid "非EU向け確認の文字列"
 msgstr "Vahvistusmerkkijono muille kuin EU:n jäsenvaltioille"
@@ -821,6 +860,9 @@ msgstr "Tämä verkkosivusto voi tallentaa tietoja, kuten IP-osoitteita, selaush
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Palvelun käyttäminen edellyttää suostumusta näiden tietojen käsittelyyn. Jos suostumusta ei anneta, palvelua ei voi käyttää."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Hyväksymällä voit tarkastella tietosuojakäytäntöä."
 
 msgid "同意する"
 msgstr "Olen samaa mieltä."

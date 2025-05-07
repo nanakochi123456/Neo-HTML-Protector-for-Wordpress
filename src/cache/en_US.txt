@@ -358,3 +358,17 @@ EU GDPR向け同意しないの文字列	String of Disagree for EU GDPR
 サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。	Consent to the processing of these data is required to use the service. If you do not consent, you will not be able to use the service.
 初回表示で必ず表示されるメッセージです	This message is always displayed on the first display
 EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	This message is always displayed on the first display only when EU GDPR is enabled.
+お知らせの3行目	Third line of the notice
+プライバシーポリシーのリンクの右側に表示されます	It will appear on the right side of the Privacy Policy link
+ご同意いただくことで、プライバシーポリシーを確認できます。	By agreeing, you can review our Privacy Policy.
+同意画面の色	Color of consent screen
+自動	Automatic
+ライトモード	Light mode
+ダークモード	Dark mode
+同意画面表示中の配色を設定します	Sets the color scheme while the consent screen is displayed.
+同意画面中のコンテンツのぼかし	Blurring of content during consent screen
+なし	Nashi
+同意画面表示中のコンテンツのぼかし具合を設定します	Sets the degree of content blurring while the consent screen is displayed.
+同意画面の透過	Transparency of consent screen
+透過なし	Without transmission
+同意画面の透過具合を設定します	Sets the transparency of the consent screen.

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -63,6 +63,39 @@ msgstr "V EU mora biti omogočena uporaba Wordpressa"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Gumb za potrditev postane gumb za strinjanje ali nestrinjanje."
 
+msgid "同意画面の色"
+msgstr "Barva zaslona za soglasje."
+
+msgid "自動"
+msgstr "Samodejni"
+
+msgid "ライトモード"
+msgstr "Način osvetlitve"
+
+msgid "ダークモード"
+msgstr "Temni način"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Nastavite barvno shemo, ko je prikazan zaslon za soglasje."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Zameglitev vsebine med zasloni za soglasje."
+
+msgid "なし"
+msgstr "Brez"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Nastavi stopnjo zameglitve vsebine med prikazom zaslona soglasja."
+
+msgid "同意画面の透過"
+msgstr "Preglednost zaslona za soglasje."
+
+msgid "透過なし"
+msgstr "Brez preglednosti"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Nastavite prosojnost zaslona za soglasje."
+
 msgid "お知らせの1行目"
 msgstr "Vrstica 1 obvestila."
 
@@ -74,6 +107,12 @@ msgstr "Vrstica 2 obvestila."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "To sporočilo se vedno prikaže na prvem zaslonu le, če je omogočena uredba EU GDPR."
+
+msgid "お知らせの3行目"
+msgstr "Vrstica 3 obvestila."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Pojavi se na desni strani povezave do pravilnika o zasebnosti."
 
 msgid "非EU向け確認の文字列"
 msgstr "Potrditveni niz za države zunaj EU"
@@ -821,6 +860,9 @@ msgstr "To spletno mesto lahko shranjuje informacije, kot so naslovi IP, zgodovi
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Za uporabo storitve je potrebno soglasje za obdelavo teh podatkov. Če soglasja ni, storitve ni mogoče uporabljati."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "S strinjanjem lahko pregledate pravilnik o zasebnosti."
 
 msgid "同意する"
 msgstr "Strinjam se."

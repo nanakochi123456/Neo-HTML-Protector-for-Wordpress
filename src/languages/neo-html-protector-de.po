@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:02+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -63,6 +63,39 @@ msgstr "Muss für die Nutzung von Wordpress in der EU freigeschaltet sein"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Die Bestätigungsschaltfläche wird zur Schaltfläche Zustimmen oder Ablehnen."
 
+msgid "同意画面の色"
+msgstr "Farbe des Zustimmungsbildschirms."
+
+msgid "自動"
+msgstr "Automatisch"
+
+msgid "ライトモード"
+msgstr "Lichtmodus"
+
+msgid "ダークモード"
+msgstr "Dunkelmodus"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Stellen Sie das Farbschema ein, während der Zustimmungsbildschirm angezeigt wird."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Unschärfe des Inhalts während der Zustimmungsbildschirme."
+
+msgid "なし"
+msgstr "Ohne"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Legt den Grad der Unschärfe des Inhalts während der Anzeige des Zustimmungsbildschirms fest."
+
+msgid "同意画面の透過"
+msgstr "Transparenz des Zustimmungsbildschirms."
+
+msgid "透過なし"
+msgstr "Ohne Transparenz"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Stellen Sie die Transparenz des Zustimmungsbildschirms ein."
+
 msgid "お知らせの1行目"
 msgstr "Zeile 1 der Bekanntmachung."
 
@@ -74,6 +107,12 @@ msgstr "Zeile 2 der Bekanntmachung."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Diese Meldung wird nur dann auf dem ersten Bildschirm angezeigt, wenn die EU-DSGVO aktiviert ist."
+
+msgid "お知らせの3行目"
+msgstr "Zeile 3 der Bekanntmachung."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Sie erscheint auf der rechten Seite des Links zur Datenschutzrichtlinie"
 
 msgid "非EU向け確認の文字列"
 msgstr "Bestätigungszeichenfolge für Nicht-EU"
@@ -821,6 +860,9 @@ msgstr "Diese Website kann Informationen wie IP-Adressen, Browserverlauf und Bet
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Für die Nutzung des Dienstes ist die Zustimmung zur Verarbeitung dieser Daten erforderlich. Im Falle der Nicht-Einwilligung kann der Dienst nicht genutzt werden."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Wenn Sie zustimmen, können Sie die Datenschutzbestimmungen einsehen."
 
 msgid "同意する"
 msgstr "Einverstanden."

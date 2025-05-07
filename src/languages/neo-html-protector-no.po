@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -63,6 +63,39 @@ msgstr "Må være aktivert for å bruke Wordpress i EU"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Bekreftelsesknappen blir til Enig eller Uenig-knappen."
 
+msgid "同意画面の色"
+msgstr "Farge på samtykkeskjermen."
+
+msgid "自動"
+msgstr "Automatisk"
+
+msgid "ライトモード"
+msgstr "Lysmodus"
+
+msgid "ダークモード"
+msgstr "Mørk modus"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Still inn fargeskjemaet mens samtykkeskjermen vises."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Uskarphet i innholdet under samtykke-skjermbilder."
+
+msgid "なし"
+msgstr "Uten"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Angir uskarphetsnivået for innholdet under visning av samtykkeskjermen."
+
+msgid "同意画面の透過"
+msgstr "Gjennomsiktighet i samtykkeskjermen."
+
+msgid "透過なし"
+msgstr "Uten åpenhet"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Still inn gjennomsiktigheten på samtykkeskjermen."
+
 msgid "お知らせの1行目"
 msgstr "Linje 1 i kunngjøringen."
 
@@ -74,6 +107,12 @@ msgstr "Linje 2 i kunngjøringen."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Denne meldingen vises alltid på den første skjermen, men bare når EU GDPR er aktivert."
+
+msgid "お知らせの3行目"
+msgstr "Linje 3 i kunngjøringen."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Den vises på høyre side av lenken til personvernerklæringen"
 
 msgid "非EU向け確認の文字列"
 msgstr "Bekreftelsesstreng for ikke-EU"
@@ -821,6 +860,9 @@ msgstr "Dette nettstedet kan lagre informasjon som IP-adresser, nettleserhistori
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Samtykke til behandling av disse opplysningene er nødvendig for å kunne bruke tjenesten. Hvis du ikke samtykker, kan tjenesten ikke brukes."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Ved å samtykke kan du lese personvernerklæringen."
 
 msgid "同意する"
 msgstr "Enig."

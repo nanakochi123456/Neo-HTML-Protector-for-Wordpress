@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:05+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -63,6 +63,39 @@ msgstr "Wordpress moet ingeschakeld zijn om te gebruiken in de EU"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "De bevestigingsknop wordt de knop 'Akkoord' of 'Oneens'."
 
+msgid "同意画面の色"
+msgstr "Kleur van toestemmingsscherm."
+
+msgid "自動"
+msgstr "Automatisch"
+
+msgid "ライトモード"
+msgstr "Lichtmodus"
+
+msgid "ダークモード"
+msgstr "Donkere modus"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Stel het kleurenschema in terwijl het toestemmingsscherm wordt weergegeven."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Vervaging van inhoud tijdens toestemmingsschermen."
+
+msgid "なし"
+msgstr "Zonder"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Stelt het vervagingsniveau van de inhoud in tijdens de weergave van het toestemmingsscherm."
+
+msgid "同意画面の透過"
+msgstr "Transparantie van toestemmingsscherm."
+
+msgid "透過なし"
+msgstr "Zonder transparantie"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Stel de transparantie van het toestemmingsscherm in."
+
 msgid "お知らせの1行目"
 msgstr "Regel 1 van de aankondiging."
 
@@ -74,6 +107,12 @@ msgstr "Regel 2 van de aankondiging."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Dit bericht wordt altijd weergegeven op het eerste scherm, alleen wanneer EU GDPR is ingeschakeld."
+
+msgid "お知らせの3行目"
+msgstr "Regel 3 van de aankondiging."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Het verschijnt aan de rechterkant van de link naar het privacybeleid"
 
 msgid "非EU向け確認の文字列"
 msgstr "Bevestigingsstring voor niet-EU"
@@ -821,6 +860,9 @@ msgstr "Deze website kan informatie zoals IP-adressen, browsergeschiedenis en lo
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Toestemming voor de verwerking van deze gegevens is vereist om de service te kunnen gebruiken. Als u geen toestemming geeft, kan de service niet worden gebruikt."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Als u hiermee akkoord gaat, kunt u het privacybeleid bekijken."
 
 msgid "同意する"
 msgstr "Mee eens."

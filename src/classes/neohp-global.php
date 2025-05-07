@@ -20,6 +20,9 @@ $neohp_cookie2_default =
 	// サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。
 	__('サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。', 'neo-html-protector');
 
+$neohp_cookie3_default =
+	__('ご同意いただくことで、プライバシーポリシーを確認できます。', 'neo-html-protector');
+
 $neohp_cookie_agree_default = __('同意する', 'neo-html-protector');
 $neohp_cookie_noagree_default = __('同意しない', 'neo-html-protector');
 $neohp_confirm_default = __('確認', 'neo-html-protector');

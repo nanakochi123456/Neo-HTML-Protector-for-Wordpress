@@ -27,11 +27,14 @@ function neohp_delete_options() {
 	delete_option('neohp_alert_sound');
 	delete_option('neohp_alert_t');
 	delete_option('neohp_alert_u');
+	delete_option('neohp_blur');
 	delete_option('neohp_confirm');
 	delete_option('neohp_cookie1');
 	delete_option('neohp_cookie2');
+	delete_option('neohp_cookie3');
 	delete_option('neohp_copycut_message');
 	delete_option('neohp_ctrlshift_message');
+	delete_option('neohp_dark');
 	delete_option('neohp_debugmode_message');
 	delete_option('neohp_deny_aibot');
 	delete_option('neohp_deny_imagebot');
@@ -65,6 +68,7 @@ function neohp_delete_options() {
 	delete_option('neohp_save_message');
 	delete_option('neohp_searchengine');
 	delete_option('neohp_textselect_message');
+	delete_option('neohp_transmission');
 	delete_option('neohp_view-source_message_lang');
 	delete_option('neohp_view_source_alert_asciiart');
 	delete_option('wp_page_for_privacy_policy');

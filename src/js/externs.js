@@ -38,6 +38,15 @@ var NeoHPSearch;
 /** @type {integer} */
 var NeoHPGDPR;
 
+/** @type {integer} */
+var NeoHPDARK;
+
+/** @type {string} */
+var NeoHPTRAN;
+
+/** @type {integer} */
+var NeoHPBLUR;
+
 /** @const */
 var jQuery;
 

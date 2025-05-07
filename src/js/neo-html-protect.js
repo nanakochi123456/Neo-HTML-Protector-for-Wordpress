@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.3.5 */
+/*! Neo HTML Protector 0.3.6 */
 
 /** @suppress {undefinedVars} */
 
@@ -232,7 +232,10 @@
 			let	gdpr = NeoHPGDPR;
 
 			// OSがダークモードか？
-			let isDarkMode = Window.matchMedia('(prefers-color-scheme: dark)').matches;
+			let isDarkMode = (NeoHPDARK === 1) ? false :
+							 (NeoHPDARK === 2) ? true :
+							 window.matchMedia('(prefers-color-scheme: dark)').matches;
+
 			// HTMLを動的に構築
 //alert("b");
 			let overlay = $(div, { id: 'neoPopupOverlay' }).hide();
@@ -245,7 +248,8 @@
 			let	confirmBtn = $(button, { id: 'confirmBtn', text: NeoHPConfirm });
 
 			let buttonContainer;
-			let p3phtml='【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】';
+			let p3phtml='【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
+			let blur = 'blur(' + NeoHPBLUR + 'px)';
 
 			if(gdpr) {
 				content = $(div)
@@ -297,8 +301,8 @@
 			}
 
 			overlay.css({
-				'backdrop-filter': 'blur(5px)',
-				'-webkit-backdrop-filter': 'blur(5px)',
+				'backdrop-filter': blur,
+				'-webkit-backdrop-filter': blur,
 				'border-radius': '16px',
 //  'padding': '20px',
 //  'color': 'white',
@@ -331,9 +335,15 @@
 
 			// 取得値が rgb() 形式の場合だけ処理
 			if (bg.startsWith('rgb')) {
+				const rgba = bg.replace('rgb', 'rgba').replace(')', `, ${NeoHPTRAN})`);
+				popup.css('background-color', rgba);
+			}
+
+/*			if (bg.startsWith('rgb')) {
 				const rgba = bg.replace('rgb', 'rgba').replace(')', ', 0.9)');
 				popup.css('background-color', rgba); // 透過0.6に変更（好みで変えてOK）
 			}
+*/
 
 			content.css({
 				boxSizing: 'border-box',

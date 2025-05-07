@@ -117,11 +117,15 @@ class neohp_javascript {
 		$searchengine=get_option('neohp_searchengine', $neohp_google_default);
 		$cookie1=get_option('neohp_cookie1', $neohp_cookie1_default);
 		$cookie2=get_option('neohp_cookie2', $neohp_cookie2_default);
+		$cookie3=get_option('neohp_cookie3', $neohp_cookie3_default);
 		$agree=get_option('neohp_agree', $neohp_cookie_agree_default);
 		$noagree=get_option('neohp_noagree', $neohp_cookie_noagree_default);
 		$confirm=get_option('neohp_confirm', $neohp_confirm_default);
 		$p3p=get_option('neohp_p3p', $neohp_p3p_default);
 		$gdpr=get_option('neohp_gdpr', "0");
+		$blur=get_option('neohp_blur', "5");
+		$dark=get_option('neohp_dark', "0");
+		$transmission=get_option('neohp_transmission', '0.9');
 
 		$script = "const 
 			NeoHPHome='"  . esc_js($home) . "',";
@@ -141,10 +145,14 @@ class neohp_javascript {
 			NeoHPSearch='". esc_js($searchengine) . "',
 			NeoHPCook1='" . esc_js($cookie1) . "',
 			NeoHPCook2='" . esc_js($cookie2) . "',
+			NeoHPCook3='" . esc_js($cookie3) . "',
 			NeoHPAgree='" . esc_js($agree) . "',
 			NeoHPNoAgree='".esc_js($noagree) . "',
 			NeoHPConfirm='".esc_js($confirm) . "',
-			NeoHPGDPR="	  . esc_js($gdpr) . ";
+			NeoHPGDPR="	  . esc_js($gdpr) . ",
+			NeoHPDARK="	  . esc_js($dark) . ",
+			NeoHPTRAN="	  . esc_js($transmission) . ",
+			NeoHPBLUR="	  . esc_js($blur) . ";
 
 
 		";

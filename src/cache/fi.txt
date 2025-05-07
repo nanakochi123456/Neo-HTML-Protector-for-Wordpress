@@ -356,3 +356,17 @@ EU GDPR向け同意しないの文字列	EU:n yleistä tietosuoja-asetusta koske
 サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。	Palvelun käyttäminen edellyttää suostumusta näiden tietojen käsittelyyn. Jos suostumusta ei anneta, palvelua ei voi käyttää.
 初回表示で必ず表示されるメッセージです	Tämä viesti näkyy aina ensimmäisessä näytössä.
 EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Tämä viesti näytetään aina ensimmäisellä näytöllä vain silloin, kun EU GDPR on käytössä.
+お知らせの3行目	Ilmoituksen rivi 3.
+プライバシーポリシーのリンクの右側に表示されます	Se näkyy tietosuojakäytäntöjen linkin oikealla puolella.
+ご同意いただくことで、プライバシーポリシーを確認できます。	Hyväksymällä voit tarkastella tietosuojakäytäntöä.
+同意画面の色	Suostumusnäytön väri.
+自動	Automaattinen
+ライトモード	Valotila
+ダークモード	Pimeä tila
+同意画面表示中の配色を設定します	Aseta värimaailma, kun suostumusnäyttö on näkyvissä.
+同意画面中のコンテンツのぼかし	Sisällön hämärtyminen suostumusnäytön aikana.
+なし	Ilman
+同意画面表示中のコンテンツのぼかし具合を設定します	Asettaa sisällön epätarkkuuden tason suostumusnäytön aikana.
+同意画面の透過	Suostumusnäytön avoimuus.
+透過なし	Ilman avoimuutta
+同意画面の透過具合を設定します	Aseta suostumusnäytön läpinäkyvyys.

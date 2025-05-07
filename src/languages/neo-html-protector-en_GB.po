@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:33+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 07:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(UK)\n"
 "Language: en_GB\n"
@@ -63,6 +63,39 @@ msgstr "Must be enabled to use Wordpress in the EU"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "The confirmation button becomes the Agree or Disagree button."
 
+msgid "同意画面の色"
+msgstr "Colour of consent screen."
+
+msgid "自動"
+msgstr "Automatic"
+
+msgid "ライトモード"
+msgstr "Light mode"
+
+msgid "ダークモード"
+msgstr "Dark mode"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Set the colour scheme while the consent screen is displayed."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Blurring of content during consent screens."
+
+msgid "なし"
+msgstr "Without"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Sets the blurring level of the content during the consent screen display."
+
+msgid "同意画面の透過"
+msgstr "Transparency of consent screen."
+
+msgid "透過なし"
+msgstr "Without transparency"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Set the transparency of the consent screen."
+
 msgid "お知らせの1行目"
 msgstr "Line 1 of the notice."
 
@@ -74,6 +107,12 @@ msgstr "Line 2 of the notice."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "This message is always displayed on the first display only when EU GDPR is enabled."
+
+msgid "お知らせの3行目"
+msgstr "Line 3 of the notice."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "It appears on the right-hand side of the privacy policy link"
 
 msgid "非EU向け確認の文字列"
 msgstr "Confirmation string for non-EU"
@@ -821,6 +860,9 @@ msgstr "This website may store information such as IP addresses, browsing histor
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Consent to the processing of these data is required to use the service. In case of non-consent, the service cannot be used."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "By agreeing, you can review the privacy policy."
 
 msgid "同意する"
 msgstr "Agree."

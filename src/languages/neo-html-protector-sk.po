@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:07+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovak\n"
 "Language: sk\n"
@@ -63,6 +63,39 @@ msgstr "Musí byť povolené používanie aplikácie Wordpress v EÚ"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Potvrdzovacie tlačidlo sa zmení na tlačidlo Súhlasím alebo Nesúhlasím."
 
+msgid "同意画面の色"
+msgstr "Farba obrazovky súhlasu."
+
+msgid "自動"
+msgstr "Automatický"
+
+msgid "ライトモード"
+msgstr "Režim svetla"
+
+msgid "ダークモード"
+msgstr "Tmavý režim"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Nastavenie farebnej schémy počas zobrazenia obrazovky súhlasu."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Rozmazanie obsahu počas obrazoviek súhlasu."
+
+msgid "なし"
+msgstr "Žiadne."
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Nastavuje úroveň rozmazania obsahu počas zobrazenia obrazovky súhlasu."
+
+msgid "同意画面の透過"
+msgstr "Transparentnosť obrazovky súhlasu."
+
+msgid "透過なし"
+msgstr "Bez transparentnosti"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Nastavenie priehľadnosti obrazovky súhlasu."
+
 msgid "お知らせの1行目"
 msgstr "Riadok 1 oznámenia."
 
@@ -74,6 +107,12 @@ msgstr "Riadok 2 oznámenia."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Toto hlásenie sa zobrazí vždy na prvom displeji len vtedy, keď je zapnuté GDPR EÚ."
+
+msgid "お知らせの3行目"
+msgstr "Riadok 3 oznámenia."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Zobrazuje sa na pravej strane odkazu na zásady ochrany osobných údajov"
 
 msgid "非EU向け確認の文字列"
 msgstr "Potvrdzovací reťazec pre krajiny mimo EÚ"
@@ -821,6 +860,9 @@ msgstr "Táto webová stránka môže ukladať informácie, ako sú IP adresy, h
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Na používanie služby je potrebný súhlas so spracovaním týchto údajov. V prípade nesúhlasu nie je možné službu používať."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Odsúhlasením si môžete prečítať zásady ochrany osobných údajov."
 
 msgid "同意する"
 msgstr "Súhlasím."

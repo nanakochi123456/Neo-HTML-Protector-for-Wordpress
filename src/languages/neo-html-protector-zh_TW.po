@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:33+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:00+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -63,6 +63,39 @@ msgstr "必須啟用才能在歐盟地區使用 Wordpress"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "確認按鈕變成「同意」或「不同意」按鈕。"
 
+msgid "同意画面の色"
+msgstr "同意螢幕的顏色。"
+
+msgid "自動"
+msgstr "自動"
+
+msgid "ライトモード"
+msgstr "光模式"
+
+msgid "ダークモード"
+msgstr "暗模式"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "在顯示同意書畫面時設定顏色方案。"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "同意畫面中的內容模糊不清。"
+
+msgid "なし"
+msgstr "橆"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "設定同意畫面顯示時內容的模糊等級。"
+
+msgid "同意画面の透過"
+msgstr "同意畫面的透明度。"
+
+msgid "透過なし"
+msgstr "不透明"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "設定同意畫面的透明度。"
+
 msgid "お知らせの1行目"
 msgstr "通知的第 1 行。"
 
@@ -74,6 +107,12 @@ msgstr "通知的第 2 行。"
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "只有在啟用 EU GDPR 時，此訊息才會始終顯示在第一次顯示器上。"
+
+msgid "お知らせの3行目"
+msgstr "通知的第 3 行。"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "它出現在隱私權政策連結的右側"
 
 msgid "非EU向け確認の文字列"
 msgstr "非歐盟的確認字串"
@@ -821,6 +860,9 @@ msgstr "本網站可能會在 cookies 和資料庫中儲存 IP 位址、瀏覽�
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "使用本服務必須同意處理這些資料。如果未經同意，則無法使用本服務。"
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "同意後，您可以檢視隱私權政策。"
 
 msgid "同意する"
 msgstr "同意。"

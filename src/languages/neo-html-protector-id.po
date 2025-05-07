@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-08 04:33+0900\n"
-"PO-Revision-Date: 2025-05-08 04:34+0900\n"
+"POT-Creation-Date: 2025-05-08 07:58+0900\n"
+"PO-Revision-Date: 2025-05-08 08:04+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -63,6 +63,39 @@ msgstr "Harus diaktifkan untuk menggunakan Wordpress di Uni Eropa"
 msgid "確認のボタンが同意する、同意しないのボタンになります"
 msgstr "Tombol konfirmasi menjadi tombol Setuju atau Tidak Setuju."
 
+msgid "同意画面の色"
+msgstr "Warna layar persetujuan."
+
+msgid "自動"
+msgstr "Otomatis"
+
+msgid "ライトモード"
+msgstr "Mode cahaya"
+
+msgid "ダークモード"
+msgstr "Mode gelap"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Mengatur skema warna selama tampilan layar persetujuan."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Pengaburan konten selama layar persetujuan."
+
+msgid "なし"
+msgstr "Tanpa"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Mengatur tingkat keburaman konten selama tampilan layar persetujuan."
+
+msgid "同意画面の透過"
+msgstr "Transparansi layar persetujuan."
+
+msgid "透過なし"
+msgstr "Tanpa transparansi"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Mengatur transparansi layar persetujuan."
+
 msgid "お知らせの1行目"
 msgstr "Baris 1 dari pemberitahuan."
 
@@ -74,6 +107,12 @@ msgstr "Baris 2 dari pemberitahuan."
 
 msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
 msgstr "Pesan ini selalu ditampilkan pada tampilan pertama hanya jika EU GDPR diaktifkan."
+
+msgid "お知らせの3行目"
+msgstr "Baris 3 dari pemberitahuan."
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ini muncul di sisi kanan tautan kebijakan privasi"
 
 msgid "非EU向け確認の文字列"
 msgstr "String konfirmasi untuk non-UE"
@@ -821,6 +860,9 @@ msgstr "Situs web ini dapat menyimpan informasi seperti alamat IP, riwayat penel
 
 msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
 msgstr "Persetujuan atas pemrosesan data ini diperlukan untuk menggunakan layanan ini. Jika tidak ada persetujuan, layanan tidak dapat digunakan."
+
+msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgstr "Dengan menyetujui, Anda dapat meninjau kebijakan privasi."
 
 msgid "同意する"
 msgstr "Setuju."
