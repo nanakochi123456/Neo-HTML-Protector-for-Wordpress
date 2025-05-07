@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.1\n"
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 08:58+0900\n"
-"PO-Revision-Date: 2025-05-07 08:58+0900\n"
+"POT-Creation-Date: 2025-05-08 04:33+0900\n"
+"PO-Revision-Date: 2025-05-08 04:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -66,8 +66,14 @@ msgstr "Bekräftelseknappen blir Agree- eller Disagree-knappen."
 msgid "お知らせの1行目"
 msgstr "Rad 1 i meddelandet."
 
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Detta meddelande visas alltid på den första displayen."
+
 msgid "お知らせの2行目"
 msgstr "Rad 2 i meddelandet."
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Detta meddelande visas alltid på den första skärmen, men endast när EU GDPR är aktiverat."
 
 msgid "非EU向け確認の文字列"
 msgstr "Bekräftelsesträng för icke-EU"
@@ -810,11 +816,11 @@ msgstr "https://google.com"
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Cookies och JavaScript måste vara aktiverade för att du ska kunna använda den här webbplatsen."
 
-msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
-msgstr "Denna webbplats kan lagra IP-adresser, webbhistorik och driftsloggar i cookies och databaser i syfte att förhindra obehörig åtkomst och upptäcka överträdelser av användarvillkoren. Denna information kommer inte att användas för något annat ändamål än webbplatsens drift och juridisk korrespondens och kommer inte att vidarebefordras till tredje part."
+msgid "このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Denna webbplats kan lagra information såsom IP-adresser, webbhistorik och driftsloggar i cookies och databaser för att förhindra obehörig användning och för att följa villkoren. Denna information används endast för driften av webbplatsen och för juridisk korrespondens och kommer inte att vidarebefordras till tredje part."
 
-msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
-msgstr "För att använda tjänsterna måste du samtycka till behandlingen av dessa uppgifter. Om du inte ger ditt samtycke kommer din användning av tjänsterna att begränsas. Genom att samtycka kan du ta del av integritetspolicyn."
+msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
+msgstr "Samtycke till behandling av dessa uppgifter krävs för att använda tjänsten. Om samtycke inte lämnas kan tjänsten inte användas."
 
 msgid "同意する"
 msgstr "Håller med."

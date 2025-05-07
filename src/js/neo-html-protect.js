@@ -72,6 +72,7 @@
 
 	async function detectBrowserAndOS() {
 		let ua = Navigator.userAgent;
+		let	ualower=lower(ua);
 		let browser = nullstr;
 		let os = nullstr;
 
@@ -95,6 +96,7 @@
 		let		Nintendo = 'Nintendo'	+ nullstr;
 		let		PlayStation = 'PlayStation'	+ nullstr;
 		let		Xbox = 'Xbox'		+ nullstr;
+		let		FireTab = 'FireTab'	+ nullstr;
 		let		Linux = 'Linux'		+ nullstr;
 
 		// Braveなら別の取得方式
@@ -163,6 +165,14 @@
 			else if (/Mac OS X/.test(ua)) os = macOS;
 			else if (/CrOS/.test(ua)) os = ChromeOS;
 			/*
+			function isAmazonFire() {
+				const ua = navigator.userAgent.toLowerCase();
+				return ua.includes('fire') && ua.includes('tablet');
+			}
+			*/
+			else if (ualower.includes('fire') && ualower.includes('tablet')) os = FireTab;
+
+			/*
 			function isAndroidTabletStrict() {
 				const ua = navigator.userAgent.toLowerCase();
 				const isAndroid = ua.includes("android");
@@ -174,7 +184,7 @@
 				return isAndroid && (!isMobile || isLargeScreen);
 			}
 			*/
-			else if (ua.includes(Android) && (! ua.includes("obile") || Math.min(screen.width, screen.height) > 599)) os = AndroidTab;
+			else if (ua.includes(Android) && (! ualower.includes("mobile") || Math.min(screen.width, screen.height) > 599)) os = AndroidTab;
 			else if (ua.includes(Android)) os = Android;
 			else if (ua.includes(Linux)) os = Linux;
 		}
@@ -220,35 +230,45 @@
 			let button = '<button>'		+ nullstr;
 			let	white = '#fff'			+ nullstr;
 
+			let	gdpr = NeoHPGDPR;
+
 			// HTMLを動的に構築
 //alert("b");
 			let overlay = $(div, { id: 'neoPopupOverlay' }).hide();
 			let popup = $(div, { id: 'neoPopup' }).hide();
 
 			let closeBtn = $(button, { id: 'closePopupBtn', text: '✕' });
-			let content = $(div)
-				.append($(p).text(NeoHPCook1))
-				.append($(p).text(NeoHPCook2))
-				.append($(p).html('【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】'));
+			let content;
 			let agreeBtn = $(button, { id: 'agreeBtn', text: NeoHPAgree });
 			let disagreeBtn = $(button, { id: 'disagreeBtn', text: NeoHPNoAgree });
 			let	confirmBtn = $(button, { id: 'confirmBtn', text: NeoHPConfirm });
 
 			let buttonContainer;
+			let p3phtml='【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】';
 
-			if(NeoHPGDPR) {
+			if(gdpr) {
+				content = $(div)
+					.append($(p).text(NeoHPCook1))
+					.append($(p).text(NeoHPCook2))
+					.append($(p).html(p3phtml));
+
 				buttonContainer = $(div).css({
 					marginTop: '20px',
 					textAlign: 'center'
 				}).append(agreeBtn, disagreeBtn);
+				popup.append(content, buttonContainer);
 			} else {
+				content = $(div)
+					.append($(p).text(NeoHPCook1))
+					.append($(p).html(p3phtml));
+
 				buttonContainer = $(div).css({
 					marginTop: '20px',
 					textAlign: 'center'
 				}).append(confirmBtn);
+				popup.append(closeBtn, content, buttonContainer);
 			}
 
-			popup.append(closeBtn, content, buttonContainer);
 //			$('#NeoHPFooter').append(overlay, popup); 
 
 			// スタイル設定
@@ -258,7 +278,7 @@
 				left: 0,
 				width: per100,
 				height: per100,
-				padding: '20px',
+				padding: '10px',
 				background: 'rgba(0, 0, 0, 0.1)',
 				zIndex: 999,
 				opacity: 0
@@ -271,7 +291,7 @@
 				left: 0,
 				width: per100,
 				background: white,
-				padding: '20px',
+				padding: '10px',
 				zIndex: 1000,
 				boxShadow: '0 -2px 10px rgba(0,0,0,0.3)'
 	//			textAlign: 'center'
@@ -279,9 +299,13 @@
 
 			content.css({
 				boxSizing: 'border-box',
+				wordBreak: 'break-word',
+				whiteSpace: 'normal',
 				fontSize: px16,
 				width: per100,
-				padding: '10px 10px 10px 0px'
+				padding: '10px 10px 0px 0px',
+				maxHeight: '60vh',
+				overflowY: 'auto'
 			});
 
 			closeBtn.css({
@@ -301,7 +325,7 @@
 					padding: '10px 20px',
 					fontSize: px16,
 					color: white,
-					border: 'none',
+					border: none,
 					borderRadius: '5px',
 					cursor: 'pointer'
 				});
@@ -327,7 +351,7 @@
 			}
 
 			// 閉じるボタン／オーバーレイ GDPR有効時は動かさない
-			if(! NeoHPGDPR) {
+			if(! gdpr) {
 				closeBtn.on(click, () => {
 					confirmBtn.click();
 				});
@@ -339,7 +363,7 @@
 			// キーボードのEnterキーでも同意扱いにする
 			$(Document).on('keydown', function(e) {
 				if (e.keyCode === 13) {
-					if(NeoHPGDPR) {
+					if(gdpr) {
 						agreeBtn.click();
 					} else {
 						confirmBtn.click();

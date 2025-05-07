@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.1\n"
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 08:58+0900\n"
-"PO-Revision-Date: 2025-05-07 08:58+0900\n"
+"POT-Creation-Date: 2025-05-08 04:33+0900\n"
+"PO-Revision-Date: 2025-05-08 04:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -66,8 +66,14 @@ msgstr "El botón de confirmación se convierte en el botón de Aceptar o Rechaz
 msgid "お知らせの1行目"
 msgstr "Línea 1 del anuncio."
 
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Este mensaje aparece siempre en la primera pantalla."
+
 msgid "お知らせの2行目"
 msgstr "Línea 2 del anuncio."
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Este mensaje aparece siempre en la primera pantalla sólo cuando está activado EU GDPR."
 
 msgid "非EU向け確認の文字列"
 msgstr "Cadena de confirmación para no comunitarios"
@@ -810,11 +816,11 @@ msgstr "https://google.com"
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Las cookies y JavaScript deben estar activados para poder utilizar este sitio web."
 
-msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
-msgstr "Este sitio web puede almacenar direcciones IP, historial de navegación y registros de operaciones en cookies y bases de datos con el fin de evitar accesos no autorizados y detectar infracciones de las Condiciones de uso. Esta información no se utilizará para ningún otro fin que no sea el funcionamiento del sitio y la correspondencia legal, y no se transmitirá a terceros."
+msgid "このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Este sitio web puede almacenar información como direcciones IP, historial de navegación y registros de operaciones en cookies y bases de datos con el fin de evitar usos no autorizados y cumplir los términos y condiciones. Esta información solo se utiliza para el funcionamiento del sitio y para la correspondencia legal y no se transmitirá a terceros."
 
-msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
-msgstr "Para utilizar los servicios, debe dar su consentimiento al tratamiento de estos datos. Si no da su consentimiento, se restringirá su uso del servicio. Al dar su consentimiento, puede consultar la política de privacidad."
+msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
+msgstr "El consentimiento para el tratamiento de estos datos es necesario para utilizar el servicio. Si no se da el consentimiento, no se podrá utilizar el servicio."
 
 msgid "同意する"
 msgstr "De acuerdo."

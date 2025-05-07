@@ -1,7 +1,7 @@
 @echo off
 :deepl (by dptran) auto transrate
 
-set VERSION=0.3.3
+set VERSION=0.3.4
 set PACKAGE=Neo HTML Protector
 set EMAIL=plugin@773.moe
 

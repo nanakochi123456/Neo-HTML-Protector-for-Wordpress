@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.1\n"
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 08:58+0900\n"
-"PO-Revision-Date: 2025-05-07 08:58+0900\n"
+"POT-Creation-Date: 2025-05-08 04:33+0900\n"
+"PO-Revision-Date: 2025-05-08 04:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -66,8 +66,14 @@ msgstr "Vahvistuspainikkeesta tulee Hyväksyn tai En hyväksy -painike."
 msgid "お知らせの1行目"
 msgstr "Ilmoituksen rivi 1."
 
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Tämä viesti näkyy aina ensimmäisessä näytössä."
+
 msgid "お知らせの2行目"
 msgstr "Ilmoituksen rivi 2."
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Tämä viesti näytetään aina ensimmäisellä näytöllä vain silloin, kun EU GDPR on käytössä."
 
 msgid "非EU向け確認の文字列"
 msgstr "Vahvistusmerkkijono muille kuin EU:n jäsenvaltioille"
@@ -810,11 +816,11 @@ msgstr "https://google.com"
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Evästeiden ja JavaScriptin on oltava käytössä, jotta voit käyttää tätä verkkosivustoa."
 
-msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
-msgstr "Tämä verkkosivusto voi tallentaa IP-osoitteita, selaushistoriaa ja toimintalokeja evästeisiin ja tietokantoihin luvattoman käytön estämiseksi ja käyttöehtojen rikkomisen havaitsemiseksi. Näitä tietoja ei käytetä muihin tarkoituksiin kuin sivuston toimintaan ja oikeudelliseen kirjeenvaihtoon, eikä niitä luovuteta kolmansille osapuolille."
+msgid "このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Tämä verkkosivusto voi tallentaa tietoja, kuten IP-osoitteita, selaushistoriaa ja toimintalokeja, evästeisiin ja tietokantoihin luvattoman käytön estämiseksi ja ehtojen noudattamiseksi. Näitä tietoja käytetään ainoastaan sivuston toimintaan ja oikeudelliseen kirjeenvaihtoon, eikä niitä luovuteta kolmansille osapuolille."
 
-msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
-msgstr "Jotta voit käyttää palveluita, sinun on annettava suostumuksesi näiden tietojen käsittelyyn. Jos et anna suostumusta, palvelun käyttöä rajoitetaan. Suostumuksella voit tutustua tietosuojakäytäntöön."
+msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
+msgstr "Palvelun käyttäminen edellyttää suostumusta näiden tietojen käsittelyyn. Jos suostumusta ei anneta, palvelua ei voi käyttää."
 
 msgid "同意する"
 msgstr "Olen samaa mieltä."

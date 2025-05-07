@@ -92,6 +92,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_cookie1', $neohp_cookie1_default);
 					echo '<input type="text" name="neohp_cookie1" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' . esc_html( __('初回表示で必ず表示されるメッセージです', 'neo-html-protector') );
 				},
 				'neohp-notice-settings',
 				'neohp_notice_section'
@@ -111,6 +112,7 @@ class neohp_admin {
 					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
 					$value = get_option('neohp_cookie2', $neohp_cookie2_default);
 					echo '<input type="text" name="neohp_cookie2" value="' . esc_html( $value ) . '" class="regular-text">';
+					echo '<br>' . esc_html( __('EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです', 'neo-html-protector') );
 				},
 				'neohp-notice-settings',
 				'neohp_notice_section'

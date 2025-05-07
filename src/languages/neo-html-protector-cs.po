@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Neo HTML Protector 0.3.1\n"
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-07 08:58+0900\n"
-"PO-Revision-Date: 2025-05-07 08:58+0900\n"
+"POT-Creation-Date: 2025-05-08 04:33+0900\n"
+"PO-Revision-Date: 2025-05-08 04:34+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
@@ -66,8 +66,14 @@ msgstr "Z potvrzovacího tlačítka se stane tlačítko Souhlasím nebo Nesouhla
 msgid "お知らせの1行目"
 msgstr "Řádek 1 oznámení."
 
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Tato zpráva se vždy zobrazí na prvním displeji."
+
 msgid "お知らせの2行目"
 msgstr "Řádek 2 oznámení."
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Toto hlášení se zobrazí vždy na prvním displeji, pouze pokud je povoleno GDPR EU."
 
 msgid "非EU向け確認の文字列"
 msgstr "Potvrzovací řetězec pro země mimo EU"
@@ -810,11 +816,11 @@ msgstr "https://google.com"
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Pro používání těchto webových stránek musí být povoleny soubory cookie a JavaScript."
 
-msgid "このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。"
-msgstr "Tyto webové stránky mohou ukládat IP adresy, historii prohlížení a provozní protokoly do souborů cookie a databází za účelem zabránění neoprávněnému přístupu a odhalení porušení podmínek používání. Tyto informace nebudou použity k jiným účelům než k provozu stránek a právní korespondenci a nebudou předány třetím stranám."
+msgid "このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Tyto webové stránky mohou ukládat informace, jako jsou IP adresy, historie prohlížení a záznamy o provozu, do souborů cookie a databází, aby se zabránilo neoprávněnému používání a aby se dodržovaly podmínky. Tyto informace se používají pouze pro provoz stránek a pro právní korespondenci a nebudou předávány třetím stranám."
 
-msgid "サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。"
-msgstr "Chcete-li využívat služby, musíte se zpracováním těchto údajů souhlasit. Pokud souhlas neudělíte, bude vaše používání služeb omezeno. Souhlasem si můžete prohlédnout zásady ochrany osobních údajů."
+msgid "サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。"
+msgstr "K používání služby je nutný souhlas se zpracováním těchto údajů. V případě nesouhlasu nelze službu používat."
 
 msgid "同意する"
 msgstr "Souhlasím."

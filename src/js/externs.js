@@ -11,6 +11,33 @@ var NeoHPHome;
 /** @type {string} */
 var NeoHPnonce;
 
+/** @type {string} */
+var NeoHPCook1;
+
+/** @type {string} */
+var NeoHPCook2;
+
+/** @type {string} */
+var NeoHPpp;
+
+/** @type {string} */
+var NeoHPppstr;
+
+/** @type {string} */
+var NeoHPAgree;
+
+/** @type {string} */
+var NeoHPNoAgree;
+
+/** @type {string} */
+var NeoHPConfirm;
+
+/** @type {string} */
+var NeoHPSearch;
+
+/** @type {integer} */
+var NeoHPGDPR;
+
 /** @const */
 var jQuery;
 
