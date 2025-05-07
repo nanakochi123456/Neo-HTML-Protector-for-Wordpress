@@ -1,6 +1,4 @@
-/**
- * Neo HTML Protector
- */
+/*! Neo HTML Protector 0.3.5 */
 
 /** @suppress {undefinedVars} */
 
@@ -229,9 +227,12 @@
 			let	p = '<p>'				+ nullstr;
 			let button = '<button>'		+ nullstr;
 			let	white = '#fff'			+ nullstr;
+			let	black = '#222'			+ nullstr;
 
 			let	gdpr = NeoHPGDPR;
 
+			// OSがダークモードか？
+			let isDarkMode = Window.matchMedia('(prefers-color-scheme: dark)').matches;
 			// HTMLを動的に構築
 //alert("b");
 			let overlay = $(div, { id: 'neoPopupOverlay' }).hide();
@@ -272,7 +273,35 @@
 //			$('#NeoHPFooter').append(overlay, popup); 
 
 			// スタイル設定
+			// ここのwhiteはダークモードでもそのまま使う
+			[agreeBtn, disagreeBtn, confirmBtn].forEach(btn => {
+				btn.css({
+					display: 'inline-block',
+					margin: '10px',
+					padding: '10px 20px',
+					fontSize: px16,
+					color: white,
+					border: none,
+					borderRadius: '5px',
+					cursor: 'pointer'
+				});
+			});
+			agreeBtn.css('backgroundColor', '#e53935');
+			disagreeBtn.css('backgroundColor', '#1e88e5');
+			confirmBtn.css('backgroundColor', '#e53935');
+			//popup.css('textAlign', 'center');
+
+			// ダークモードの場合の処理
+			if (isDarkMode) {
+				[white, black] = [black, white];
+			}
+
 			overlay.css({
+				'backdrop-filter': 'blur(5px)',
+				'-webkit-backdrop-filter': 'blur(5px)',
+				'border-radius': '16px',
+//  'padding': '20px',
+//  'color': 'white',
 				position: fixed,
 				bottom: 0,
 				left: 0,
@@ -297,16 +326,29 @@
 	//			textAlign: 'center'
 			});
 
+			// バックグラウンドを透過にする
+			let bg = popup.css('background-color');
+
+			// 取得値が rgb() 形式の場合だけ処理
+			if (bg.startsWith('rgb')) {
+				const rgba = bg.replace('rgb', 'rgba').replace(')', ', 0.9)');
+				popup.css('background-color', rgba); // 透過0.6に変更（好みで変えてOK）
+			}
+
 			content.css({
 				boxSizing: 'border-box',
 				wordBreak: 'break-word',
 				whiteSpace: 'normal',
 				fontSize: px16,
+				color: black,
 				width: per100,
 				padding: '10px 10px 0px 0px',
 				maxHeight: '60vh',
 				overflowY: 'auto'
 			});
+
+			// aタグを処理
+			content.find('a').css('color', black);
 
 			closeBtn.css({
 				position: 'absolute',
@@ -317,23 +359,6 @@
 				border: 'none',
 				cursor: 'pointer'
 			});
-
-			[agreeBtn, disagreeBtn, confirmBtn].forEach(btn => {
-				btn.css({
-					display: 'inline-block',
-					margin: '10px',
-					padding: '10px 20px',
-					fontSize: px16,
-					color: white,
-					border: none,
-					borderRadius: '5px',
-					cursor: 'pointer'
-				});
-			});
-			agreeBtn.css('backgroundColor', '#e53935');
-			disagreeBtn.css('backgroundColor', '#1e88e5');
-			confirmBtn.css('backgroundColor', '#e53935');
-			//popup.css('textAlign', 'center');
 
 			// 表示
 			setTimeout(() => {

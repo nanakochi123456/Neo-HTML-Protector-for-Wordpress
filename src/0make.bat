@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.3.4
+set VERSION=0.3.5
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -11,6 +11,14 @@ rem --assume_function_wrapper
 rem ADVANCED_OPTIMIZATIONS
 rem WHITESPACE_ONLY
 rem SIMPLE_OPTIMIZATIONS
+
+@echo off
+: 日付
+for /f "tokens=2 delims==" %%I in ('"wmic os get localdatetime /value"') do set datetime=%%I
+:DT=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%
+copy ..\*.md .
+echo Snapshot %datetime:~0,14%
+call 2version.bat %VERSION% %datetime:~0,14%
 
 @echo on
 %CLOSURE% --js=js/js.cookie.js --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
@@ -37,13 +45,6 @@ wsl perl build/makeuninstaller.pl > classes/uninstall-getoptions.php
 :pause
 
 :pause
-@echo off
-: 日付
-for /f "tokens=2 delims==" %%I in ('"wmic os get localdatetime /value"') do set datetime=%%I
-:DT=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%
-copy ..\*.md .
-echo Snapshot %datetime:~0,14%
-call 2version.bat %VERSION% %datetime:~0,14%
 
 @echo on
 wsl 7z a -t7z -mx9 %NAME%-%datetime:~0,14%.7z *.bat *.sh *.php *.md *.txt cache/*.txt build/* audio/* audiosrc/* classes/* js/* languages/*
