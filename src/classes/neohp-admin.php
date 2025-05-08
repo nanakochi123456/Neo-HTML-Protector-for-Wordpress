@@ -1522,6 +1522,35 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
+			// 同意画面の言語
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_agree_message_lang', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'agree_message_lang',
+				__('同意画面の言語', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_agree_message_lang', '0'));
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$lang_array=[];
+					foreach ($neohp_lang as $k => $v) {
+						array_push($lang_array, "$k=$k=$v");
+					}
+
+					echo wp_kses( $this->getselect("neohp_agree_message_lang", $value
+						, '0=' . __('Wordpressの言語', 'neo-html-protector')
+						, '1=' . __('ブラウザの設定言語', 'neo-html-protector')
+						, $lang_array
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('メッセージをカスタム設定されている場合は言語を変更できません', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
 			// view-sourceメッセージの言語
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_advanced_group', 'neohp_view-source_message_lang', array(

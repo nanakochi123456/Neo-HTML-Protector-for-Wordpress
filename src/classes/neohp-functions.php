@@ -269,9 +269,10 @@ class neohp_func {
 		return preg_match('/mage/i', $user_agent);
 	}
 
+	// https://qiita.com/nanakochi123456/items/229ecadb47f2af7dd47d
 	function is_ai_bot() {
 		$user_agent = mb_strtolower($this->get_user_agent());
-		return preg_match('/gptbot|chatgpt-user|google-extended|ccbot|stabilityai/i', $user_agent);
+		return preg_match('/gptbot|chatgpt-user|copilotbot|copilot-user|google-extended|ccbot|stabilityai|amazonbot|anthropic-ai/i', $user_agent);
 	}
 
 	function is_ie() {	// 旧edgeも対応

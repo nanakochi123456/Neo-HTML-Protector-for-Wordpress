@@ -101,11 +101,11 @@ class neohp_javascript {
 		$privacy_page_url = get_permalink( $privacy_page_id );
 
 		// 言語を強制する
-		if(get_option('neohp_alert_message_lang', '0') !== '0') {
-			if(get_option('neohp_alert_message_lang', '0') === '1') {
+		if(get_option('neohp_agree_message_lang', '0') !== '0') {
+			if(get_option('neohp_agree_message_lang', '0') === '1') {
 				$lang = $this->neohp_func->getlang();
 			} else {
-				$lang = get_option('neohp_alert_message_lang', '0');
+				$lang = get_option('neohp_agree_message_lang', '0');
 			}
 			$lang = str_replace('-', '_', $lang);
 			switch_to_locale( $lang );
