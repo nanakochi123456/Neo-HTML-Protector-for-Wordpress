@@ -71,5 +71,4 @@ function neohp_delete_options() {
 	delete_option('neohp_transmission');
 	delete_option('neohp_view-source_message_lang');
 	delete_option('neohp_view_source_alert_asciiart');
-	delete_option('wp_page_for_privacy_policy');
 }

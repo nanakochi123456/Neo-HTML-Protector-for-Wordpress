@@ -71,7 +71,7 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('EU圏内でWordpressを使用するには必ず有効にしてください', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('確認のボタンが同意する、同意しないのボタンになります', 'neo-html-protector') );
 				},
 				'neohp-notice-settings',
@@ -160,7 +160,7 @@ class neohp_admin {
 						, '0.7=' . '0.7'
 						, '0.8=' . '0.8'
 						, '0.9=' . '0.9'
-						, '1=' . __('透過なし', 'neo-html-protector')
+						, '1.0=' . __('透過なし', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('同意画面の透過具合を設定します', 'neo-html-protector') );
 				},

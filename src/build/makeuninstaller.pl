@@ -31,6 +31,8 @@ print "\n";
 
 print "function neohp_delete_options() {\n";
 foreach my $key (sort keys %opt) {
-    print "	delete_option('$key');\n";
+    if($key=~/^neohp/) {
+        print "	delete_option('$key');\n";
+	}
 }
 print "}\n";
