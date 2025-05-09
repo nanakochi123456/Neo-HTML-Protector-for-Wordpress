@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.3.8 */
+/*! Neo HTML Protector 0.3.9 */
 
 /** @suppress {undefinedVars} */
 
@@ -249,7 +249,12 @@
 
 			let buttonContainer;
 			let p3phtml='【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
-			let blur = 'blur(' + NeoHPBLUR + 'px)';
+			let blur;
+			if(location.href !== NeoHPpp) {
+				blur = 'blur(' + NeoHPBLUR + 'px)';
+			} else {
+				blur = 'blur(0px)';
+			}
 
 			if(gdpr) {
 				content = $(div)
