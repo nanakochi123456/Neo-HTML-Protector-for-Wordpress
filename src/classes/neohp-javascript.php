@@ -153,8 +153,6 @@ class neohp_javascript {
 			NeoHPDARK="	  . esc_js($dark) . ",
 			NeoHPTRAN="	  . esc_js($transmission) . ",
 			NeoHPBLUR="	  . esc_js($blur) . ";
-
-
 		";
 		$script = preg_replace('/[\r\n\t]+/', '', $script);
 

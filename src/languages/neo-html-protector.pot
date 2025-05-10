@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-08 19:33+0900\n"
+"POT-Creation-Date: 2025-05-09 19:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1290,19 +1290,19 @@ msgstr ""
 
 #: classes/neohp-global.php:17
 msgid ""
-"このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操"
-"作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報"
-"は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+"このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレ"
+"ス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがありま"
+"す。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供するこ"
+"とはありません。"
 msgstr ""
 
 #: classes/neohp-global.php:21
 msgid ""
-"サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サー"
-"ビスのご利用ができません。"
+"サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
 msgstr ""
 
 #: classes/neohp-global.php:24
-msgid "ご同意いただくことで、プライバシーポリシーを確認できます。"
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
 msgstr ""
 
 #: classes/neohp-global.php:26

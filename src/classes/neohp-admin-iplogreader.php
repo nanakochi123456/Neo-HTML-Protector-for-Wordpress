@@ -5,9 +5,9 @@
 
 defined('ABSPATH') or die('Oh! No!');
 
-if (is_admin()) {
+//if (is_admin()) {
 	$neohp_iplogreader = new neohp_iplogreader();
-}
+//}
 
 class neohp_iplogreader {
 	protected $neohp_database;
@@ -24,6 +24,10 @@ class neohp_iplogreader {
 		// IPアドレスを保存するテーブルがなければ作成
 
 		$wpdb=$this->neohp_database->create_user_ip();
+
+		// ショートコードから呼び出す
+		add_shortcode('neohp_iplog_reader', array($this, 'ip_log_reader_page') );
+
 	}
 
 	// IPログリーダーの設置
@@ -37,7 +41,9 @@ class neohp_iplogreader {
 			'dashicons-networking',	// アイコン
 			30						// メニューの位置
 		);
+
 	}
+
 
 	// IPアドレスを表示するページ内容
 	function ip_log_reader_page() {
@@ -107,10 +113,14 @@ class neohp_iplogreader {
 		?>
 		<div class="wrap">
 		<h2><?php echo esc_html( __('IPアドレスログ', 'neo-html-protector') ) ?></h2>
-		<form method="post">
-		<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo esc_html( __('全クリア', 'neo-html-protector') ) ?>" />
-		</form>
 		<?php
+		if( is_admin() ) {
+			?>
+			<form method="post">
+			<input type="submit" name="clear_logs" class="button button-primary" value="<?php echo esc_html( __('全クリア', 'neo-html-protector') ) ?>" />
+			</form>
+		<?php
+		}
 
 		// 「全クリア」ボタンが押された場合にログを削除
 		if ( isset($_POST['clear_logs']) ) {
@@ -147,25 +157,27 @@ class neohp_iplogreader {
 			echo '</table>';
 
 			// ページングリンクの生成
-			$nonce = wp_create_nonce('neohp');
-			$total_pages = ceil($total_items / $per_page);
-			$base_url = admin_url('admin.php?page=ip-log-reader');
+			if( is_admin() ) {
+				$nonce = wp_create_nonce('neohp');
+				$total_pages = ceil($total_items / $per_page);
+				$base_url = admin_url('admin.php?page=ip-log-reader');
 
-			if ($total_pages > 1) {
-				echo '<div class="tablenav">';
-				echo '<div class="tablenav-pages">';
-				if ($paged > 1) {
-					echo '<a class="prev-page button" href="' . esc_url(add_query_arg(array('paged'=>$paged - 1, 'nonce'=>$nonce), $base_url)) . '">«</a>';
+				if ($total_pages > 1) {
+					echo '<div class="tablenav">';
+					echo '<div class="tablenav-pages">';
+					if ($paged > 1) {
+						echo '<a class="prev-page button" href="' . esc_url(add_query_arg(array('paged'=>$paged - 1, 'nonce'=>$nonce), $base_url)) . '">«</a>';
+					}
+					for ($i = 1; $i <= $total_pages; $i++) {
+						$active = ($i == $paged) ? ' current-page' : '';
+						echo '<a class="page-number' . esc_html($active) . '" href="' . esc_html(add_query_arg(array('paged'=>$i, 'nonce'=>$nonce), $base_url)) . '">' . esc_html($i) . '</a> ';
+					}
+					if ($paged < $total_pages) {
+						echo '<a class="next-page button" href="' . esc_html(add_query_arg(array('paged'=>$paged + 1, 'nonce'=>$nonce), $base_url)) . '">»</a>';
+					}
+					echo '</div>';
+					echo '</div>';
 				}
-				for ($i = 1; $i <= $total_pages; $i++) {
-					$active = ($i == $paged) ? ' current-page' : '';
-					echo '<a class="page-number' . esc_html($active) . '" href="' . esc_html(add_query_arg(array('paged'=>$i, 'nonce'=>$nonce), $base_url)) . '">' . esc_html($i) . '</a> ';
-				}
-				if ($paged < $total_pages) {
-					echo '<a class="next-page button" href="' . esc_html(add_query_arg(array('paged'=>$paged + 1, 'nonce'=>$nonce), $base_url)) . '">»</a>';
-				}
-				echo '</div>';
-				echo '</div>';
 			}
 			echo '</div>';
 		} else {

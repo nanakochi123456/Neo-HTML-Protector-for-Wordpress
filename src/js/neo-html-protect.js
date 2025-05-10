@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.3.9 */
+/*! Neo HTML Protector 0.3.11 */
 
 /** @suppress {undefinedVars} */
 
@@ -230,6 +230,7 @@
 			let	black = '#222'			+ nullstr;
 
 			let	gdpr = NeoHPGDPR;
+			let	pp = NeoHPpp;
 
 			// OSがダークモードか？
 			let isDarkMode = (NeoHPDARK === 1) ? false :
@@ -248,9 +249,9 @@
 			let	confirmBtn = $(button, { id: 'confirmBtn', text: NeoHPConfirm });
 
 			let buttonContainer;
-			let p3phtml='【<a target="_blank" href="' + NeoHPpp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
+			let p3phtml='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
 			let blur;
-			if(location.href !== NeoHPpp) {
+			if(location.href !== pp) {
 				blur = 'blur(' + NeoHPBLUR + 'px)';
 			} else {
 				blur = 'blur(0px)';
