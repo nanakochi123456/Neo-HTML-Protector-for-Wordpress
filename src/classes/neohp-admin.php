@@ -1959,6 +1959,9 @@ echo '<p><script type="text/javascript" src="https://embed.nicovideo.jp/watch/sm
 <p><?php echo esc_html( __('皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('ご支援いただけることに感謝し、今後ともよろしくお願いいたします。', 'neo-html-protector') ) ?></p>
 <h3><?php echo esc_html( __('ライセンス', 'neo-html-protector') ) ?></h3><p><?php echo esc_html( __('本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。', 'neo-html-protector') ) ?></p>
+<p><?php echo esc_html( __('このプラグインに含まれるいくつかの技術は特許保護の対象です。', 'neo-html-protector') ) ?></p>
+<p><?php echo esc_html( __('特許技術の使用は、このプラグイン内での使用に限って認められます。', 'neo-html-protector') ) ?></p>
+<p><?php echo esc_html( __('その他の使用については、作者に連絡して商用ライセンスを取得してください。', 'neo-html-protector') ) ?></p>
 <p><?php echo esc_html( __('本プラグインには以下のライブラリを同梱しています', 'neo-html-protector') ) ?></p>
 <ol>
 <li><?php echo '<a target="_blank" href="https://github.com/brix/crypto-js/">crypto-js</a> - The MIT License' ?></li>

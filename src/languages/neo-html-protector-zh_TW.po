@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-09 19:23+0900\n"
-"PO-Revision-Date: 2025-05-09 19:23+0900\n"
+"POT-Creation-Date: 2025-05-10 13:23+0900\n"
+"PO-Revision-Date: 2025-05-10 13:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -830,6 +830,15 @@ msgstr "牌照"
 
 msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
 msgstr "該外掛程式是以開放原始碼的方式開發，並已取得 GPL 2.0 或更新版本的授權。"
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "本外掛程式所包含的某些技術受到專利保護。"
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "僅允許在此外掛程式中使用專利技術。"
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "如需其他用途，請聯絡作者以取得商業授權。"
 
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr "本外掛程式包含下列函式庫"

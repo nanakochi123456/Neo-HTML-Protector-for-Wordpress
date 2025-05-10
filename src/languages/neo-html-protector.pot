@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 19:23+0900\n"
+"POT-Creation-Date: 2025-05-10 13:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,44 +21,44 @@ msgstr ""
 msgid "設定"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:32
-#: classes/neohp-admin-iplogreader.php:33
+#: classes/neohp-admin-iplogreader.php:36
+#: classes/neohp-admin-iplogreader.php:37
 msgid "IPログリーダー"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:109
+#: classes/neohp-admin-iplogreader.php:115
 msgid "IPアドレスログ"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:111
+#: classes/neohp-admin-iplogreader.php:120
 msgid "全クリア"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:118
+#: classes/neohp-admin-iplogreader.php:128
 msgid "IPログが全て削除されました"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:124
+#: classes/neohp-admin-iplogreader.php:134
 msgid "ID"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:125
+#: classes/neohp-admin-iplogreader.php:135
 msgid "タイムスタンプ"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:126 classes/neohp-admin.php:1747
+#: classes/neohp-admin-iplogreader.php:136 classes/neohp-admin.php:1747
 msgid "IPアドレス"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:127 classes/neohp-admin.php:1748
+#: classes/neohp-admin-iplogreader.php:137 classes/neohp-admin.php:1748
 msgid "ユーザーエージェント"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:128 classes/neohp-admin.php:1768
+#: classes/neohp-admin-iplogreader.php:138 classes/neohp-admin.php:1768
 msgid "イベント"
 msgstr ""
 
-#: classes/neohp-admin-iplogreader.php:172
+#: classes/neohp-admin-iplogreader.php:184
 msgid "IPアドレスのデータはありません"
 msgstr ""
 
@@ -1242,33 +1242,46 @@ msgid ""
 msgstr ""
 
 #: classes/neohp-admin.php:1962
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr ""
+
+#: classes/neohp-admin.php:1963
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr ""
+
+#: classes/neohp-admin.php:1964
+msgid ""
+"その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr ""
+
+#: classes/neohp-admin.php:1965
 msgid "本プラグインには以下のライブラリを同梱しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1967
+#: classes/neohp-admin.php:1970
 msgid ""
 "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイ"
 "ルを同梱しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1973
+#: classes/neohp-admin.php:1976
 msgid ""
 "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲し"
 "た、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にラ"
 "イセンスされています"
 msgstr ""
 
-#: classes/neohp-admin.php:1974
+#: classes/neohp-admin.php:1977
 msgid ""
 "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s "
 "YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
 msgstr ""
 
-#: classes/neohp-admin.php:1975
+#: classes/neohp-admin.php:1978
 msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
 msgstr ""
 
-#: classes/neohp-admin.php:1983
+#: classes/neohp-admin.php:1986
 msgid ""
 "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本"
 "プラグインは正しく動作しません"
