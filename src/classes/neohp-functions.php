@@ -275,9 +275,9 @@ class neohp_func {
 		return preg_match('/gptbot|chatgpt-user|copilotbot|copilot-user|google-extended|ccbot|stabilityai|amazonbot|anthropic-ai/i', $user_agent);
 	}
 
-	function is_ie() {	// 旧edgeも対応
+	function is_gyotaku() {
 		$user_agent = mb_strtolower($this->get_user_agent());
-		return preg_match('/msie|trident|edge/i', $user_agent);
+		return preg_match('/ia_archiver|archive\.org_bot|special_archiver|ia_archiver-web\.archive\.org|megalodon/i', $user_agent);
 	}
 
 	function is_injustice_ua() {

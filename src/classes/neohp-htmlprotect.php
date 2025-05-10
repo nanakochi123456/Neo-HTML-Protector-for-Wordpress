@@ -27,6 +27,12 @@ class neohp_htmlprotect {
 			}
 		}
 
+		if(get_option('neohp_deny_gyotaku', '0') === '1') {
+			if($this->neohp_func->is_gyotaku() ) {
+				$this->neohp_func->err403();
+			}
+		}
+
 		if(get_option('neohp_injustice_ua', '0') === '1') {
 			if($this->neohp_func->is_injustice_ua() ) {
 				$this->neohp_func->err403();

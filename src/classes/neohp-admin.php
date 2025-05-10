@@ -1449,6 +1449,28 @@ class neohp_admin {
 				'neohp_advanced_section'
 			);
 
+			// 魚拓・ウェブアーカイブを避ける
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_advanced_group', 'neohp_deny_gyotaku', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_deny_gyotaku',
+				__('ウェブアーカイブ、魚拓をアクセス禁止にする', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_deny_gyotaku', '0'));
+					echo wp_kses( $this->getselect("neohp_deny_gyotaku", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('有効', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+					echo '<br>' . esc_html( __('自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません', 'neo-html-protector') );
+				},
+				'neohp-advanced-settings',
+				'neohp_advanced_section'
+			);
+
 			// 無効なUAを避ける
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_advanced_group', 'neohp_injustice_ua', array(

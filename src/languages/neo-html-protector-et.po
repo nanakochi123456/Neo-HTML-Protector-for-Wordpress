@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 13:23+0900\n"
-"PO-Revision-Date: 2025-05-10 13:25+0900\n"
+"POT-Creation-Date: 2025-05-10 15:35+0900\n"
+"PO-Revision-Date: 2025-05-10 15:36+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -590,6 +590,12 @@ msgstr "Tehisintellekti õppivate robotite juurdepääsu keelamine."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Tehisintellekti õpiboti HTML-i vastu vältimine takistab selle kasutamist tehisintellekti poolt, kuid ei lahenda täielikult"
+
+msgid "ウェブアーカイブ、魚拓をアクセス禁止にする"
+msgstr "Veebiarhiivid, mis keelavad juurdepääsu kalapüügiruumidele."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Keelab juurdepääsu automaatselt kogutud veebiarhiividele ning kasutaja äranägemisel saadud fishtrapsidele, kuid ei käsitle täielikult"
 
 msgid "無効なUAをアクセス禁止にする"
 msgstr "Keelake juurdepääs kehtetutele UA-dele."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 13:23+0900\n"
-"PO-Revision-Date: 2025-05-10 13:25+0900\n"
+"POT-Creation-Date: 2025-05-10 15:35+0900\n"
+"PO-Revision-Date: 2025-05-10 15:36+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Portuguese\n"
 "Language: pt\n"
@@ -590,6 +590,12 @@ msgstr "Proibição do acesso a bots de aprendizado de IA."
 
 msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
 msgstr "Evitar que o bot de aprendizado da IA use HTML impede que ele seja usado pela IA, mas não resolve completamente o problema"
+
+msgid "ウェブアーカイブ、魚拓をアクセス禁止にする"
+msgstr "Arquivos da Web, proibindo o acesso a tanques de peixes."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Proíbe o acesso a arquivos da Web coletados automaticamente, bem como a fishtraps obtidos a critério do usuário, mas não aborda totalmente"
 
 msgid "無効なUAをアクセス禁止にする"
 msgstr "Desativar o acesso a UAs inválidas."

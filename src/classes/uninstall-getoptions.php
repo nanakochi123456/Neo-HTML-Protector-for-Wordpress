@@ -38,6 +38,7 @@ function neohp_delete_options() {
 	delete_option('neohp_dark');
 	delete_option('neohp_debugmode_message');
 	delete_option('neohp_deny_aibot');
+	delete_option('neohp_deny_gyotaku');
 	delete_option('neohp_deny_imagebot');
 	delete_option('neohp_gdpr');
 	delete_option('neohp_hash_bits');
