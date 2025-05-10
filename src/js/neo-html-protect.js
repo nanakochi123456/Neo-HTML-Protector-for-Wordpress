@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.3.13 */
+/*! Neo HTML Protector 0.3.15 */
 
 /** @suppress {undefinedVars} */
 
@@ -979,11 +979,32 @@
 
 	// デバッガ妨害
 	if(FlagSmall.includes('d')) {
+		let detected = false;
+
+		// 0個目 デバッグモードらしきものを開いたときログに残す
+		const checkDevTools = () => {
+			const threshold = 160;
+			if (
+				Window.outerWidth - Window.innerWidth > threshold ||
+				Window.outerHeight - Window.innerHeight > threshold
+			) {
+				if (!detected) {
+					detected = true;
+					sendIpToServer('devtools', 'd');
+				}
+			} else {
+				detected = false;
+			}
+		};
+
+		setInterval(checkDevTools, 500);
+
+
 		// 1個目 コンソールクリア＆debuggerコマンド実行
 		setInterval(() => {
 			console.clear();
 			debugger;
-		}, 100);
+		}, 99);
 
 		// 2個目 debuggerコマンドを無効化する
 
@@ -1061,6 +1082,7 @@
 			get: function() {}
 		});
 */
+
 	}
 
 	// BEEPを鳴らす

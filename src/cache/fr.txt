@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Archives web, interdiction d'accès aux viviers.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Interdit l'accès aux archives web collectées automatiquement ainsi qu'aux trames de poisson obtenues à la discrétion de l'utilisateur, mais n'aborde pas complètement la question de l'accès aux archives web.
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Interdire l'accès aux archives et aux réservoirs de poissons du web.
+デバッガー起動ログ、デバッガー妨害	Journal de démarrage du débogueur, perturbations du débogueur
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Rend le mode débogage un peu moins convivial, signale que le débogueur a été lancé, certains navigateurs empêchent ce comportement.

@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Arquivos da Web, proibindo o acesso a tanques de peixes.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Proíbe o acesso a arquivos da Web coletados automaticamente, bem como a fishtraps obtidos a critério do usuário, mas não aborda totalmente
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Proibição de acesso a arquivos da Web e tanques de peixes da Web.
+デバッガー起動ログ、デバッガー妨害	Registro de inicialização do depurador, perturbação do depurador
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Torna o modo de depuração um pouco menos amigável para o usuário, registra que o depurador foi iniciado; alguns navegadores interrompem esse comportamento

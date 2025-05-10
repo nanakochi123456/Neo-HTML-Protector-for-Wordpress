@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Webové archívy, zákaz prístupu do rybích nádrží.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Zakazuje prístup k automaticky zhromažďovaným webovým archívom, ako aj k fishtrapom získaným podľa uváženia používateľa, ale plne nerieši
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Zákaz prístupu do webových archívov a webových nádrží.
+デバッガー起動ログ、デバッガー妨害	Protokol o spustení ladiaceho programu, poruchy ladiaceho programu
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Robí režim ladenia trochu menej užívateľsky prívetivý, zaznamenáva, že bol spustený debugger, niektoré prehliadače toto správanie zastavujú

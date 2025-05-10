@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Arhive web, interzicerea accesului la acvariu.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Interzice accesul la arhivele web colectate în mod automat, precum și la capturile de pește obținute la discreția utilizatorului, dar nu abordează pe deplin
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Interzicerea accesului la arhivele web și la bazinele de pește web.
+デバッガー起動ログ、デバッガー妨害	Jurnal de pornire a depanatorului, perturbare a depanatorului
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Face modul de depanare puțin mai puțin ușor de utilizat, înregistrează faptul că depanatorul a fost pornit, unele browsere opresc acest comportament

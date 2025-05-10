@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Webarkiver, der forbyder adgang til akvarier.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Forbyder adgang til automatisk indsamlede webarkiver samt fishtraps, der er indhentet efter brugerens eget skøn, men adresserer ikke fuldt ud
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Forbud mod adgang til web-arkiver og web-fishtanks.
+デバッガー起動ログ、デバッガー妨害	Debugger-opstartslog, debugger-forstyrrelse
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Gør debug-tilstand lidt mindre brugervenlig, logger, at debuggeren er startet, nogle browsere stopper denne adfærd

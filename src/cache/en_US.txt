@@ -383,3 +383,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Web archives, fishhooks to be disabled.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Prohibits access to automatically collected web archives and user-generated fishtraps, but does not completely address
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Web archives and web fishtanks are prohibited from being accessed.
+デバッガー起動ログ、デバッガー妨害	Debugger startup log, debugger disturbance
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Make debug mode a little less user friendly and log that the debugger has been started, some browsers will stop this behavior.

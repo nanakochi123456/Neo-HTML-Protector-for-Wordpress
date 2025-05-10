@@ -1234,14 +1234,14 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_alert_d',
-				__('デバッガー妨害', 'neo-html-protector'),
+				__('デバッガー起動ログ、デバッガー妨害', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('neohp_alert_d', '1'));
 					echo wp_kses( $this->getselect("neohp_alert_d", $value
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

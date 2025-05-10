@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Archiwa internetowe, zakaz dostępu do zbiorników rybnych.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Zakazuje dostępu do automatycznie gromadzonych archiwów internetowych, a także podsłuchów uzyskanych według uznania użytkownika, ale nie rozwiązuje w pełni następujących kwestii
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Zakaz dostępu do archiwów internetowych i internetowych zbiorników rybnych.
+デバッガー起動ログ、デバッガー妨害	Dziennik uruchamiania debuggera, zakłócenie debuggera
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, rejestruje, że debugger został uruchomiony, niektóre przeglądarki zatrzymują to zachowanie.

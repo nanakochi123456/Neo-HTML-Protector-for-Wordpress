@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-10 15:39+0900\n"
+"POT-Creation-Date: 2025-05-10 22:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -671,14 +671,14 @@ msgstr ""
 msgid "テキスト選択"
 msgstr ""
 
-#: classes/neohp-admin.php:1237 classes/neohp-admin.php:1326
-msgid "デバッガー妨害"
+#: classes/neohp-admin.php:1237
+msgid "デバッガー起動ログ、デバッガー妨害"
 msgstr ""
 
-#: classes/neohp-admin.php:1244 classes/neohp-admin.php:1333
+#: classes/neohp-admin.php:1244
 msgid ""
-"デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止めら"
-"れてしまいます"
+"デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残しま"
+"す、ブラウザによってはこの挙動が止められてしまいます"
 msgstr ""
 
 #: classes/neohp-admin.php:1259
@@ -803,6 +803,16 @@ msgstr ""
 
 #: classes/neohp-admin.php:1310 classes/neohp-admin.php:1619
 msgid "2分"
+msgstr ""
+
+#: classes/neohp-admin.php:1326
+msgid "デバッガー妨害"
+msgstr ""
+
+#: classes/neohp-admin.php:1333
+msgid ""
+"デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止めら"
+"れてしまいます"
 msgstr ""
 
 #: classes/neohp-admin.php:1348

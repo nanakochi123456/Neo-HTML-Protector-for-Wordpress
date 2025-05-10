@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Web-Archive, Verbot des Zugangs zu Fischtanks.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Verbietet den Zugang zu automatisch gesammelten Webarchiven sowie zu Fischfallen, die nach dem Ermessen des Nutzers beschafft werden, geht aber nicht vollständig darauf ein
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Verbot des Zugangs zu Web-Archiven und Web-Fishtanks.
+デバッガー起動ログ、デバッガー妨害	Debugger-Startprotokoll, Debugger-Störungen
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Macht den Debug-Modus etwas weniger benutzerfreundlich, protokolliert, dass der Debugger gestartet wurde, einige Browser unterbinden dieses Verhalten

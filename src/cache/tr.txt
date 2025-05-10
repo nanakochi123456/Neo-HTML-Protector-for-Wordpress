@@ -381,3 +381,5 @@ EU圏内でWordpressを使用する場合、並びにEU圏内を対象とする�
 ウェブアーカイブ、魚拓をアクセス禁止にする	Web arşivleri, balık tanklarına erişimin yasaklanması.
 自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Otomatik olarak toplanan web arşivlerinin yanı sıra kullanıcının takdirine bağlı olarak elde edilen fishtrap'lere erişimi yasaklar, ancak tam olarak ele almaz
 ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Web arşivlerine ve web balık tanklarına erişimin yasaklanması.
+デバッガー起動ログ、デバッガー妨害	Hata ayıklayıcı başlatma günlüğü, hata ayıklayıcı bozukluğu
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Hata ayıklama modunu biraz daha az kullanıcı dostu hale getirir, hata ayıklayıcının başlatıldığını günlüğe kaydeder, bazı tarayıcılar bu davranışı durdurur
