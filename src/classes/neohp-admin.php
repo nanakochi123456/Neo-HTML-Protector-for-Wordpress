@@ -1458,7 +1458,7 @@ class neohp_admin {
 
 			add_settings_field(
 				'neohp_deny_gyotaku',
-				__('ウェブアーカイブ、魚拓をアクセス禁止にする', 'neo-html-protector'),
+				__('ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする', 'neo-html-protector'),
 				function() {
 					$value = esc_html(get_option('neohp_deny_gyotaku', '0'));
 					echo wp_kses( $this->getselect("neohp_deny_gyotaku", $value

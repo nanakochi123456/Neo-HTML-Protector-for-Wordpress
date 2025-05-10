@@ -282,7 +282,7 @@ class neohp_func {
 
 	function is_injustice_ua() {
 		$user_agent = mb_strtolower($this->get_user_agent());
-		if ( preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $ua ) ) {
+		if ( ! preg_match( '/^[a-zA-Z0-9;()&=,.\/\s-]+$/', $user_agent ) ) {
 			return true;
 		}
 
@@ -290,6 +290,11 @@ class neohp_func {
 			return true;
 		}
 		return false;
+	}
+
+	function is_ie() {	// 旧edgeも対応
+		$user_agent = mb_strtolower($this->get_user_agent());
+		return preg_match('/msie|trident|edge/i', $user_agent);
 	}
 
 }
