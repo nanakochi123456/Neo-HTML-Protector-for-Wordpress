@@ -59,7 +59,8 @@ class neohp_javascript {
 		if(get_option('neohp_alert_copycut', '2') === '1')   { $html.="y";}
 		if(get_option('neohp_alert_copycut', '2') === '2')   { $html.="Y";}
 
-		if(get_option('neohp_alert_d', '0') === '1')   { $html.="d";}
+		if(get_option('neohp_alert_d', '2') === '1')   { $html.="d";}
+		if(get_option('neohp_alert_d', '2') === '2')   { $html.="D";}
 
 		if(get_option('neohp_imageprotectjs', '0') === '1') { $html.="z";}
 		if(get_option('neohp_imageprotectjs', '0') === '2') { $html.="Z";}

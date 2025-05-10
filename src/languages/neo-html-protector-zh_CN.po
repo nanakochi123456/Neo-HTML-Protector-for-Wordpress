@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:14+0900\n"
-"PO-Revision-Date: 2025-05-10 22:14+0900\n"
+"POT-Creation-Date: 2025-05-10 22:38+0900\n"
+"PO-Revision-Date: 2025-05-10 22:38+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -533,12 +533,6 @@ msgstr "1 分 50 秒"
 
 msgid "2分"
 msgstr "2 分钟"
-
-msgid "デバッガー妨害"
-msgstr "调试器干扰"
-
-msgid "デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます"
-msgstr "使调试模式对用户不那么友好，有些浏览器会阻止这种行为"
 
 msgid "ソース表示を許可する権限"
 msgstr "允许源显示的权限。"

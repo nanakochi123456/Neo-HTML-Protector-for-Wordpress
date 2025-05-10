@@ -1236,16 +1236,18 @@ class neohp_admin {
 				'neohp_alert_d',
 				__('デバッガー起動ログ、デバッガー妨害', 'neo-html-protector'),
 				function() {
-					$value = esc_html(get_option('neohp_alert_d', '1'));
+					$value = esc_html(get_option('neohp_alert_d', '2'));
 					echo wp_kses( $this->getselect("neohp_alert_d", $value
 						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('有効', 'neo-html-protector')
+						, '1=' . __('妨害＋記録のみ', 'neo-html-protector')
+						, '2=' . __('妨害＋記録＋表示＋リダイレクト', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'
 			);
+
 
 			// 転送先URL
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
@@ -1309,28 +1311,6 @@ class neohp_admin {
 						, '110='  . __('1分50秒', 'neo-html-protector')
 						, '120='  . __('2分', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-				},
-				'neohp-settings',
-				'neohp_basic_section'
-			);
-
-			// debugger
-			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
-			register_setting('neohp_basic_group', 'neohp_alert_d', array(
-				'sanitize_callback' => 'sanitize_text_field',
-			));
-			// phpcs:enable
-
-			add_settings_field(
-				'neohp_alert_d',
-				__('デバッガー妨害', 'neo-html-protector'),
-				function() {
-					$value = esc_html(get_option('neohp_alert_d', '1'));
-					echo wp_kses( $this->getselect("neohp_alert_d", $value
-						, '0=' . __('無効', 'neo-html-protector')
-						, '1=' . __('有効', 'neo-html-protector')
-					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

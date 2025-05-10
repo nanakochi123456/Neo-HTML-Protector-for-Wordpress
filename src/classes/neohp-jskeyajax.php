@@ -81,6 +81,7 @@ class neohp_jskeyajax {
 		 || strpos($key, 'J') !== false
 		 || strpos($key, 'K') !== false
 		 || strpos($key, 'C') !== false
+		 || strpos($key, 'devtools') !== false
 		) {
 			$value = get_option('neohp_debugmode_message', $neohp_debugmode_default);
 		}
