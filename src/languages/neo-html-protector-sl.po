@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:38+0900\n"
-"PO-Revision-Date: 2025-05-10 22:39+0900\n"
+"POT-Creation-Date: 2025-05-19 01:23+0900\n"
+"PO-Revision-Date: 2025-05-19 01:25+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -57,11 +57,11 @@ msgstr "Neveljavno"
 msgid "有効"
 msgstr "Veljavnost"
 
-msgid "EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください"
-msgstr "Omogočena mora biti uporaba Wordpressa v EU in ciljanje na države EU."
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Če želite Wordpress uporabljati v EU in tudi v EU, ga morate omogočiti."
 
-msgid "確認のボタンが同意する、同意しないのボタンになります"
-msgstr "Gumb za potrditev postane gumb za strinjanje ali nestrinjanje."
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Gumb za potrditev postane gumb za strinjanje ali nestrinjanje, kar nekoliko spremeni obnašanje."
 
 msgid "同意画面の色"
 msgstr "Barva zaslona za soglasje."
@@ -305,6 +305,9 @@ msgstr "Chopinova etuda, op.10-12 Revolucija, tipkana različica, hitra različi
 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
 msgstr "Chopinov Scherzo v b-molu, op. 2, tipkana različica, hitra kratka različica - 1 min 48,0 s - 665,369 bajtov - 48 kbps - licenca: CC BY-ND 4.0 ali novejša"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Liszt Super vaja št. 4, Mazeppa, tipkana različica, hitra kratka različica - 1 min 51,6 s - 687.586 bajtov - 48 kbps - Licenca: CC BY-ND 4.0 ali novejša"
 
 msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
 msgstr "Fanfare - 22,3 sekunde - 183.926 bajtov - 64 kb/s - Licenca: javna domena"

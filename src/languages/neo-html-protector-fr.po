@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:38+0900\n"
-"PO-Revision-Date: 2025-05-10 22:38+0900\n"
+"POT-Creation-Date: 2025-05-19 01:23+0900\n"
+"PO-Revision-Date: 2025-05-19 01:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -57,11 +57,11 @@ msgstr "Invalide"
 msgid "有効"
 msgstr "Validité"
 
-msgid "EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください"
-msgstr "Doit être autorisé à utiliser Wordpress dans l'UE et à cibler les pays de l'UE."
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Si vous souhaitez utiliser Wordpress dans l'UE et dans l'Union européenne, vous devez l'activer."
 
-msgid "確認のボタンが同意する、同意しないのボタンになります"
-msgstr "Le bouton de confirmation devient le bouton d'accord ou de désaccord."
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Le bouton de confirmation devient un bouton d'accord ou de désaccord, ce qui modifie légèrement le comportement."
 
 msgid "同意画面の色"
 msgstr "Couleur de l'écran de consentement."
@@ -305,6 +305,9 @@ msgstr "Chopin Etude, Op.10-12 Révolution, version dactylographiée, version ra
 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
 msgstr "Chopin Scherzo en si bémol mineur, Op2, version dactylographiée, version courte rapide - 1 min 48.0 sec - 665 369 bytes - 48 kbps - licence : CC BY-ND 4.0 ou ultérieure"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Liszt Super exercice n°4, Mazeppa, version dactylographiée, version courte rapide - 1 min 51.6 sec - 687 586 bytes - 48 kbps - Licence : CC BY-ND 4.0 ou supérieure"
 
 msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
 msgstr "Fanfare - 22,3 secondes - 183 926 octets - 64 kbps - Licence : domaine public"

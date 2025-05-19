@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:38+0900\n"
-"PO-Revision-Date: 2025-05-10 22:38+0900\n"
+"POT-Creation-Date: 2025-05-19 01:23+0900\n"
+"PO-Revision-Date: 2025-05-19 01:23+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh\n"
@@ -57,11 +57,11 @@ msgstr "无效"
 msgid "有効"
 msgstr "有效性"
 
-msgid "EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください"
-msgstr "必须能够在欧盟使用 Wordpress，并以欧盟国家为目标市场。"
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "如果您想在欧盟境内使用 Wordpress，就必须启用它。"
 
-msgid "確認のボタンが同意する、同意しないのボタンになります"
-msgstr "确认按钮变为 同意 或 不同意 按钮。"
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "确认按钮变成了 同意 或 不同意 按钮，行为略有改变。"
 
 msgid "同意画面の色"
 msgstr "同意屏幕的颜色。"
@@ -305,6 +305,9 @@ msgstr "肖邦练习曲，作品 10-12 革命，打字版本，快速版本 - 1 
 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
 msgstr "肖邦降 B 小调回旋曲，作品 2，打字版本，快速简版 - 1 分 48.0 秒 - 665,369 字节 - 48 kbps - 许可协议：CC BY-ND 4.0 或更高版本"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "李斯特超级练习曲第 4 号，Mazeppa，打字版本，快速简版 - 1 分 51.6 秒 - 687,586 字节 - 48 kbps - 授权许可：CC BY-ND 4.0 或更高版本"
 
 msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
 msgstr "Fanfare - 22.3 秒 - 183,926 字节 - 64 kbps - 许可证：公有领域"

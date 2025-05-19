@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:38+0900\n"
-"PO-Revision-Date: 2025-05-10 22:39+0900\n"
+"POT-Creation-Date: 2025-05-19 01:23+0900\n"
+"PO-Revision-Date: 2025-05-19 01:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -57,11 +57,11 @@ msgstr "Tidak valid"
 msgid "有効"
 msgstr "Validitas"
 
-msgid "EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください"
-msgstr "Harus diaktifkan untuk menggunakan Wordpress di Uni Eropa dan menargetkan negara-negara Uni Eropa."
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Jika Anda ingin menggunakan Wordpress di Uni Eropa dan juga di UE, Anda harus mengaktifkannya."
 
-msgid "確認のボタンが同意する、同意しないのボタンになります"
-msgstr "Tombol konfirmasi menjadi tombol Setuju atau Tidak Setuju."
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Tombol konfirmasi menjadi tombol Setuju atau Tidak Setuju, yang sedikit mengubah perilakunya."
 
 msgid "同意画面の色"
 msgstr "Warna layar persetujuan."
@@ -305,6 +305,9 @@ msgstr "Chopin Etude, Op.10-12 Revolution, versi diketik, versi cepat - 1 menit 
 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
 msgstr "Chopin Scherzo in B flat minor, Op2, versi diketik, versi pendek cepat - 1 menit 48,0 detik - 665,369 byte - 48 kbps - lisensi: CC BY-ND 4.0 atau yang lebih baru"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Liszt Super Exercise No. 4, Mazeppa, versi diketik, versi pendek cepat - 1 menit 51,6 detik - 687.586 byte - 48 kbps - Lisensi: CC BY-ND 4.0 atau yang lebih baru"
 
 msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
 msgstr "Gegap gempita - 22,3 detik - 183.926 byte - 64 kbps - Lisensi: domain publik"

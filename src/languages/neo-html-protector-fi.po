@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-10 22:38+0900\n"
-"PO-Revision-Date: 2025-05-10 22:39+0900\n"
+"POT-Creation-Date: 2025-05-19 01:23+0900\n"
+"PO-Revision-Date: 2025-05-19 01:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -57,11 +57,11 @@ msgstr "Virheellinen"
 msgid "有効"
 msgstr "Voimassaolo"
 
-msgid "EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください"
-msgstr "Wordpressin käyttö EU:ssa ja kohdentaminen EU-maihin on sallittava."
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Jos haluat käyttää Wordpressiä EU:ssa ja myös EU:ssa, sinun on otettava se käyttöön."
 
-msgid "確認のボタンが同意する、同意しないのボタンになります"
-msgstr "Vahvistuspainikkeesta tulee Hyväksyn tai En hyväksy -painike."
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Vahvistuspainikkeesta tulee Hyväksyn tai En hyväksy -painike, mikä muuttaa käyttäytymistä hieman."
 
 msgid "同意画面の色"
 msgstr "Suostumusnäytön väri."
@@ -305,6 +305,9 @@ msgstr "Chopinin etydi, op.10-12 Revolution, koneella kirjoitettu versio, nopea 
 
 msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
 msgstr "Chopin Scherzo h-molli, Op2, kirjoitettu versio, nopea lyhyt versio - 1 min 48.0 sekuntia - 665,369 tavua - 48 kbps - lisenssi: CC BY-ND 4.0 tai uudempi"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lisztin superharjoitus nro 4, Mazeppa, kirjoitettu versio, nopea lyhyt versio - 1 min 51,6 sekuntia - 687 586 tavua - 48 kbps - Lisenssi: CC BY-ND 4.0 tai uudempi."
 
 msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
 msgstr "Fanfare - 22,3 sekuntia - 183,926 tavua - 64 kbps - Lisenssi: public domain"

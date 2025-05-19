@@ -71,8 +71,8 @@ class neohp_admin {
 						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . __('有効', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
-					echo '<br>' . esc_html( __('EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください', 'neo-html-protector') );
-					echo '<br>' .esc_html( __('確認のボタンが同意する、同意しないのボタンになります', 'neo-html-protector') );
+					echo '<br>' . esc_html( __('EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります', 'neo-html-protector') );
 				},
 				'neohp-notice-settings',
 				'neohp_notice_section'
@@ -803,6 +803,7 @@ class neohp_admin {
 						, 'fastkokken=' . __('ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
 						, 'fastkakumei=' . __('ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
 						, 'fasttokoroten=' . __('ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
+						, 'fastmazeppa=' . __('リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later', 'neo-html-protector')
 						, 'w-fanfa=' . __('ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
 						, 'msx_fanfa=' . __('レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン', 'neo-html-protector')
 						, 'msx_open=' . __('レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン', 'neo-html-protector')

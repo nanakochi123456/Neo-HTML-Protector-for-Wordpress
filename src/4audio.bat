@@ -7,6 +7,8 @@ wsl ffmpeg -y -i audiosrc/fastkokken.wav -c:a aac -b:a 48k -ar 32000 audio/fastk
 
 wsl ffmpeg -y -i audiosrc/fasttokoroten.wav -c:a aac -b:a 48k -ar 32000 audio/fasttokoroten.m4a
 
+wsl ffmpeg -y -i audiosrc/fastmazeppa.wav -c:a aac -b:a 48k -ar 32000 audio/fastmazeppa.m4a
+
 : msx songs 32kbps 44100hz mono
 wsl ffmpeg -y -i audiosrc/msx_fanfa.wav -c:a aac -b:a 32k -ar 44100 -ac 1 audio/msx_fanfa.m4a
 
