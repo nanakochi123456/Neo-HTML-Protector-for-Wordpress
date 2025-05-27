@@ -52,6 +52,8 @@
 	let		srcsetstr = srcstr + 'set';
 	let		noncestr = 'nonce' + nullstr;
 
+	let	CookieName = "neoagree"	+ nullstr;
+
 	let		eventflag = 0;
 	let		Cryptojs;
 	let		lastBlur = 0;
@@ -217,8 +219,7 @@
 //alert(Cookies.get("neoagree"));
 //	window.onload = function() {
 //alert("a");
-		if(! Cookies.get("neoagree") ) {
-			let	CookieName = "neoagree"	+ nullstr;
+		if(! Cookies.get(CookieName) ) {
 			let	click = "click"			+ nullstr;
 			let	px16 = "16px"			+ nullstr;
 			let	pointer = "pointer"		+ nullstr;

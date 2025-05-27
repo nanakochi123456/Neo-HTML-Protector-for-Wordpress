@@ -19,6 +19,12 @@ Input by nano (nanakochi)
 License CC BY-ND 4.0 or later
 Using Keppy's YAMAHA C7
 
+fastmazeppa.m4a (Cutted)
+https://sakuramml.com/mmlbbs6/post.php?mml_id=2813
+Input by nano (nanakochi)
+License CC BY-ND 4.0 or later
+Using Keppy's YAMAHA C7
+
 w-fanfa.m4a
 https://sakuramml.com/mmlbbs6/post.php?mml_id=1398
 Composer nano
