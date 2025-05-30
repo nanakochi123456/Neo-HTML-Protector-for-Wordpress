@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:12+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -141,6 +141,15 @@ msgstr "Alleen wanneer beeldbeveiliging is ingeschakeld, worden de gehashte gege
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Als je een Gebruiksvoorwaarden instelt, zorg er dan voor dat je een link naar de Gebruiksvoorwaarden plaatst in het Privacybeleid."
 
+msgid "利用規約の文字列"
+msgstr "Streng van gebruiksvoorwaarden"
+
+msgid "利用規約のページ"
+msgstr "Gebruiksvoorwaarden pagina"
+
+msgid "ページ選択なし"
+msgstr "Geen paginakeuze"
+
 msgid "検索エンジン等のURL"
 msgstr "URL's van zoekmachines enz."
 
@@ -270,11 +279,14 @@ msgstr "Rechtsonder"
 msgid "ランダム位置"
 msgstr "Willekeurige positie"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "Dynamisch watermerken maakt auteursrecht expliciet en geeft de kijker de indruk dat het wordt gecontroleerd en verhoogt het afschrikkingsvermogen"
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "In combinatie met beeldbescherming maakt het dynamische watermerk het auteursrecht expliciet, terwijl het de kijker de indruk geeft dat hij wordt gecontroleerd, wat het afschrikkingseffect vergroot."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Alleen JPG-, PNG- en WebP-indelingen worden ondersteund."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Inschakelen zal de serverbelasting verhogen."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Uitvoer van ASCII-kunst in HTML-broncode tijdens HTML-verduistering en -beveiliging."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Cookies en JavaScript moeten ingeschakeld zijn om deze website te kunnen gebruiken."
+
+msgid "利用規約"
+msgstr "Algemene voorwaarden"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "Deze website kan informatie zoals IP-adressen, browsergeschiedenis en logbestanden opslaan in cookies en databases om ongeoorloofd gebruik te voorkomen en een veilige werking van de service te garanderen. Deze informatie wordt alleen gebruikt voor de werking van de site en voor juridische correspondentie en wordt niet aan derden verstrekt."

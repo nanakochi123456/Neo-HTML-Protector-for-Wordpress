@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:14+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:41+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -141,6 +141,15 @@ msgstr "Yalnızca görüntü koruması etkinleştirildiğinde, görüntüyü ba�
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Bir Kullanım Koşulları oluşturduysanız, Gizlilik Politikasına Kullanım Koşullarına bir bağlantı yerleştirdiğinizden emin olun"
 
+msgid "利用規約の文字列"
+msgstr "Kullanım şartları ve koşulları dizisi"
+
+msgid "利用規約のページ"
+msgstr "Kullanım şartları sayfası"
+
+msgid "ページ選択なし"
+msgstr "Sayfa seçimi yok"
+
 msgid "検索エンジン等のURL"
 msgstr "Arama motorlarının URL'leri vb."
 
@@ -270,11 +279,14 @@ msgstr "Sağ-alt"
 msgid "ランダム位置"
 msgstr "Rastgele konum"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "Dinamik filigran, telif hakkını açık hale getirirken izleyiciye izlendiği izlenimini verir ve caydırıcılığı artırır"
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Görüntü koruması ile birlikte kullanıldığında, dinamik filigran telif hakkını açık hale getirirken, izleyiciye izlendikleri izlenimini vererek caydırıcılığı artırır."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Yalnızca JPG, PNG ve WebP formatları desteklenir."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Etkinleştirmek sunucu yükünü artıracaktır."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "HTML gizleme ve koruma sırasında HTML kaynak kodundaki ASCII sanatının çıktısı."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Bu web sitesini kullanabilmek için çerezler ve JavaScript etkinleştirilmelidir."
+
+msgid "利用規約"
+msgstr "şartlar ve koşullar"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "Bu web sitesi, izinsiz kullanımı önlemek ve hizmetin güvenli bir şekilde çalışmasını sağlamak için IP adresleri, tarama geçmişi ve işlem günlükleri gibi bilgileri çerezlerde ve veritabanlarında saklayabilir. Bu bilgiler sadece sitenin işleyişi ve yasal yazışmalar için kullanılır ve üçüncü şahıslara verilmez."

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:12+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
@@ -141,6 +141,15 @@ msgstr "Bare når bildebeskyttelse er aktivert, lagres de hashede dataene for IP
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Hvis du setter opp brukervilkår, må du sørge for å plassere en lenke til brukervilkårene i personvernerklæringen"
 
+msgid "利用規約の文字列"
+msgstr "Rekke av vilkår og betingelser for bruk"
+
+msgid "利用規約のページ"
+msgstr "Vilkår for bruk"
+
+msgid "ページ選択なし"
+msgstr "Ingen sidevalg"
+
 msgid "検索エンジン等のURL"
 msgstr "Nettadresser til søkemotorer osv."
 
@@ -270,11 +279,14 @@ msgstr "Høyre-nedre"
 msgid "ランダム位置"
 msgstr "Tilfeldig posisjon"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "Dynamisk vannmerking gjør opphavsretten eksplisitt, samtidig som det gir seeren inntrykk av å bli overvåket og øker avskrekkingen"
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "I kombinasjon med bildebeskyttelse gjør den dynamiske vannmerkingen opphavsretten eksplisitt, samtidig som den gir betrakteren inntrykk av at de blir overvåket, noe som øker den avskrekkende effekten."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Bare JPG-, PNG- og WebP-formater støttes."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Aktivering vil øke serverbelastningen."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Utskrift av ASCII-kunst i HTML-kildekoden under HTML-tilsløring og -beskyttelse."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Informasjonskapsler og JavaScript må være aktivert for å kunne bruke dette nettstedet."
+
+msgid "利用規約"
+msgstr "Vilkår og betingelser"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "Dette nettstedet kan lagre informasjon som IP-adresser, nettleserhistorikk og driftslogger i informasjonskapsler og databaser for å forhindre uautorisert bruk og for å sikre sikker drift av tjenesten. Denne informasjonen brukes kun til drift av nettstedet og til juridisk korrespondanse, og vil ikke bli gitt videre til tredjeparter."

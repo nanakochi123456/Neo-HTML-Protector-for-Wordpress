@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:11+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:39+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Hungarian\n"
 "Language: hu\n"
@@ -141,6 +141,15 @@ msgstr "Csak akkor, ha a képvédelem engedélyezve van, az IP-cím és a képf�
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Ha használati feltételeket állít be, mindenképpen helyezzen el egy linket a használati feltételekre az adatvédelmi szabályzatban."
 
+msgid "利用規約の文字列"
+msgstr "A felhasználási feltételek és kikötések sorozata"
+
+msgid "利用規約のページ"
+msgstr "Felhasználási feltételek oldal"
+
+msgid "ページ選択なし"
+msgstr "Nincs oldalválasztás"
+
 msgid "検索エンジン等のURL"
 msgstr "Keresőmotorok URL címei stb."
 
@@ -270,11 +279,14 @@ msgstr "Jobb alsó"
 msgid "ランダム位置"
 msgstr "Véletlenszerű pozíció"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "A dinamikus vízjelek egyértelművé teszik a szerzői jogokat, miközben a nézőben a megfigyelés benyomását keltik, és növelik az elrettentő hatást."
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "A képvédelemmel együtt alkalmazva a dinamikus vízjelek egyértelművé teszik a szerzői jogokat, miközben a nézőben azt a benyomást keltik, hogy megfigyelés alatt állnak, ami növeli az elrettentő hatást."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Csak a JPG, PNG és WebP formátumokat támogatja."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Az engedélyezés növeli a kiszolgáló terhelését."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Az ASCII-művészet kimenete a HTML-forráskódban a HTML elfedése és védelme során."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "A weboldal használatához engedélyezni kell a sütiket és a JavaScriptet."
+
+msgid "利用規約"
+msgstr "Feltételek"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "Ez a weboldal olyan információkat tárolhat sütikben és adatbázisokban, mint az IP-címek, a böngészési előzmények és a működési naplók, hogy megakadályozza a jogosulatlan használatot és biztosítsa a szolgáltatás biztonságos működését. Ezeket az információkat kizárólag a weboldal működéséhez és a jogi levelezéshez használjuk fel, és nem adjuk át harmadik félnek."

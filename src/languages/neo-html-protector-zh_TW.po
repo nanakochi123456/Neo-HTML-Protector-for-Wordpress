@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:10+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:37+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -141,6 +141,15 @@ msgstr "只有啟用影像保護時，IP 位址和影像檔案名稱的雜湊資
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "如果您設定了使用條款，請務必在隱私權政策中放置使用條款的連結"
 
+msgid "利用規約の文字列"
+msgstr "使用條款與條件的字串"
+
+msgid "利用規約のページ"
+msgstr "使用條款頁面"
+
+msgid "ページ選択なし"
+msgstr "無頁面選擇"
+
 msgid "検索エンジン等のURL"
 msgstr "搜尋引擎的 URL 等。"
 
@@ -270,11 +279,14 @@ msgstr "右下"
 msgid "ランダム位置"
 msgstr "隨機位置"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "動態水印讓版權明確，同時讓觀賞者覺得受到監控，增加阻嚇力"
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "結合影像保護使用，動態水印讓版權明確，同時讓觀賞者覺得他們受到監控，增加阻嚇力。"
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "僅支援 JPG、PNG 和 WebP 格式。"
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "啟用會增加伺服器負載。"
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "在 HTML 混淆和保護過程中，輸出 HTML 原始碼中的 ASCII 藝術。"
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "必須啟用 Cookie 和 JavaScript 才能使用本網站。"
+
+msgid "利用規約"
+msgstr "條款與條件"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "本網站可能會在 Cookie 和資料庫中儲存 IP 位址、瀏覽歷史和操作記錄等資訊，以防止未經授權的使用，並確保服務的安全運作。這些資訊僅用於網站運作和法律通信，不會提供給第三方。"

@@ -310,6 +310,54 @@ class neohp_admin {
 				'neohp_notice_section'
 			);
 
+			// 利用規約の文字列
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_teams', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_teams',
+				__('利用規約の文字列', 'neo-html-protector'),
+				function() {
+					require NEOHP_PLUGIN_DIR . '/classes/neohp-global.php';
+					$value = get_option('neohp_teams', $neohp_teams_default);
+					echo '<input type="text" name="neohp_teams" value="' . esc_html( $value ) . '" class="regular-text">';
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+			// 利用規約のページ
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_notice_group', 'neohp_teams_page', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+
+			add_settings_field(
+				'neohp_teams_page',
+				__('利用規約のページ', 'neo-html-protector'),
+				function() {
+					$selected = get_option('neohp_teams_page');
+					$pages = get_pages();
+					?>
+					<select name="neohp_teams_page">
+						<option value="">&lt;&lt;<?php echo __('ページ選択なし', 'neo-html-protector'); ?>&gt;&gt;</option>
+						<?php foreach ($pages as $page): ?>
+							<option value="<?php echo esc_attr($page->ID); ?>" <?php selected($selected, $page->ID); ?>>
+								<?php echo esc_html($page->post_title); ?>
+							</option>
+						<?php endforeach; ?>
+					</select>
+					<?php
+				},
+				'neohp-notice-settings',
+				'neohp_notice_section'
+			);
+
+
 			// 検索エンジンなどの文字列
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_notice_group', 'neohp_searchengine', array(
@@ -726,8 +774,9 @@ class neohp_admin {
 						, '2=' . __('ランダム位置', 'neo-html-protector')
 					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
 
-					echo '<br>' .esc_html( __('動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます', 'neo-html-protector') );
 					echo '<br>' .esc_html( __('JPG形式、PNG形式、WebP形式のみ対応します', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('有効にするとサーバーの負荷が高くなります', 'neo-html-protector') );
 				},
 				'neohp-settings',
 				'neohp_basic_section'

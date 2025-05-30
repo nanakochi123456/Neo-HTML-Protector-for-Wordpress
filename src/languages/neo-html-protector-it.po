@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:10+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:37+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -141,6 +141,15 @@ msgstr "Solo quando la protezione delle immagini è abilitata, i dati hash dell'
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Se si imposta un Regolamento d'uso, assicurarsi di inserire un link al Regolamento d'uso nell'Informativa sulla privacy."
 
+msgid "利用規約の文字列"
+msgstr "Stringa di termini e condizioni d'uso"
+
+msgid "利用規約のページ"
+msgstr "Pagina delle condizioni d'uso"
+
+msgid "ページ選択なし"
+msgstr "Nessuna selezione della pagina"
+
 msgid "検索エンジン等のURL"
 msgstr "URL dei motori di ricerca, ecc."
 
@@ -270,11 +279,14 @@ msgstr "Destra-inferiore"
 msgid "ランダム位置"
 msgstr "Posizione casuale"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "Il watermarking dinamico rende esplicito il diritto d'autore, dando allo stesso tempo l'impressione di essere monitorato e aumentando la deterrenza."
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Utilizzato in combinazione con la protezione delle immagini, il watermarking dinamico rende esplicito il diritto d'autore, dando allo stesso tempo l'impressione di essere monitorato, aumentando così la deterrenza."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Sono supportati solo i formati JPG, PNG e WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "L'attivazione aumenterà il carico del server."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output di arte ASCII nel codice sorgente HTML durante l'offuscamento e la protezione dell'HTML."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Per utilizzare questo sito web è necessario abilitare i cookie e JavaScript."
+
+msgid "利用規約"
+msgstr "Termini e condizioni"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "Questo sito web può memorizzare informazioni come gli indirizzi IP, la cronologia di navigazione e i log delle operazioni nei cookie e nei database per prevenire l'uso non autorizzato e per garantire il funzionamento sicuro del servizio. Queste informazioni vengono utilizzate solo per il funzionamento del sito e per la corrispondenza legale e non vengono fornite a terzi."

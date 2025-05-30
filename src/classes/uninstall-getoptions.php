@@ -69,6 +69,8 @@ function neohp_delete_options() {
 	delete_option('neohp_rightclick_message');
 	delete_option('neohp_save_message');
 	delete_option('neohp_searchengine');
+	delete_option('neohp_teams');
+	delete_option('neohp_teams_page');
 	delete_option('neohp_textselect_message');
 	delete_option('neohp_transmission');
 	delete_option('neohp_view-source_message_lang');

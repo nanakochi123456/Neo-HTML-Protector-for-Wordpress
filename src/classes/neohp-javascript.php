@@ -101,6 +101,13 @@ class neohp_javascript {
 		$privacy_page_id = get_option( 'wp_page_for_privacy_policy' );
 		$privacy_page_url = get_permalink( $privacy_page_id );
 
+		// 利用規約のページ
+		$teams_page_id = get_option('neohp_teams_page');
+		$teams_page_url = '';
+		if($teams_page_id) {
+			$teams_page_url = get_permalink( $teams_page_id );
+		}
+
 		// 言語を強制する
 		if(get_option('neohp_agree_message_lang', '0') !== '0') {
 			if(get_option('neohp_agree_message_lang', '0') === '1') {
@@ -123,6 +130,7 @@ class neohp_javascript {
 		$noagree=get_option('neohp_noagree', $neohp_cookie_noagree_default);
 		$confirm=get_option('neohp_confirm', $neohp_confirm_default);
 		$p3p=get_option('neohp_p3p', $neohp_p3p_default);
+		$teams=get_option('neohp_teams', $neohp_teams_default);
 		$gdpr=get_option('neohp_gdpr', "0");
 		$blur=get_option('neohp_blur', "5");
 		$dark=get_option('neohp_dark', "0");
@@ -142,7 +150,9 @@ class neohp_javascript {
 			NeoHPTime="   . esc_js($time) . ",
 			NeoHPnonce='" . esc_js($nonce) . "',
 			NeoHPpp='"	  . esc_js($privacy_page_url) . "',
+			NeoHPtt='"	  . esc_js($teams_page_url) . "',
 			NeoHPppstr='" . esc_js($p3p) . "',
+			NeoHPttstr='" . esc_js($teams) . "',
 			NeoHPSearch='". esc_js($searchengine) . "',
 			NeoHPCook1='" . esc_js($cookie1) . "',
 			NeoHPCook2='" . esc_js($cookie2) . "',

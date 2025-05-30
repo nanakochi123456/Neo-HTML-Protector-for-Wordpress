@@ -232,6 +232,7 @@
 
 			let	gdpr = NeoHPGDPR;
 			let	pp = NeoHPpp;
+			let	tt = NeoHPtt;
 
 			// OSがダークモードか？
 			let isDarkMode = (NeoHPDARK === 1) ? false :
@@ -250,9 +251,17 @@
 			let	confirmBtn = $(button, { id: 'confirmBtn', text: NeoHPConfirm });
 
 			let buttonContainer;
-			let p3phtml='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
 			let blur;
-			if(location.href !== pp) {
+			let p3ptemp='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】'
+			let teamstemp=' 【<a target="_blank" href="' + tt + '">' + NeoHPttstr + '</a>】'
+			let p3phtml='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
+
+			if(tt === '') {
+				p3phtml = p3ptemp + NeoHPCook3;
+			} else {
+				p3phtml = p3ptemp + teamstemp + NeoHPCook3;
+			}
+			if(location.href !== pp || location.href !== tt) {
 				blur = 'blur(' + NeoHPBLUR + 'px)';
 			} else {
 				blur = 'blur(0px)';

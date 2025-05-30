@@ -12,6 +12,8 @@ $neohp_google_default = __('https://google.co.jp', 'neo-html-protector');
 $neohp_nocookienojs_default =
 	__('このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります', 'neo-html-protector');
 
+$neohp_teams_default = __('利用規約', 'neo-html-protector');
+
 $neohp_cookie1_default =
 	// このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。
 	__('このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。', 'neo-html-protector');

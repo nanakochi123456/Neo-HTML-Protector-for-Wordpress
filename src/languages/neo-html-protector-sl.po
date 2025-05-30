@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-30 21:09+0900\n"
-"PO-Revision-Date: 2025-05-30 21:13+0900\n"
+"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"PO-Revision-Date: 2025-05-30 23:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Slovenian\n"
 "Language: sl\n"
@@ -141,6 +141,15 @@ msgstr "Samo če je omogočena zaščita slike, se v podatkovni zbirki do 60 min
 msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
 msgstr "Če določite pogoje uporabe, v pravilnik o zasebnosti obvezno vstavite povezavo do pogojev uporabe."
 
+msgid "利用規約の文字列"
+msgstr "Niz določil in pogojev uporabe"
+
+msgid "利用規約のページ"
+msgstr "Stran s pogoji uporabe"
+
+msgid "ページ選択なし"
+msgstr "Ni izbire strani"
+
 msgid "検索エンジン等のURL"
 msgstr "URL-ji iskalnikov itd."
 
@@ -270,11 +279,14 @@ msgstr "Desni spodnji del"
 msgid "ランダム位置"
 msgstr "Naključni položaj"
 
-msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
-msgstr "Dinamični vodni žig izrecno izraža avtorske pravice, hkrati pa gledalcu daje vtis, da je nadzorovan, in povečuje odvračilni učinek."
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "V kombinaciji z zaščito slike dinamični vodni žig izrecno izraža avtorske pravice, hkrati pa gledalcu daje vtis, da je nadzorovan, kar poveča odvračanje."
 
 msgid "JPG形式、PNG形式、WebP形式のみ対応します"
 msgstr "Podprti so samo formati JPG, PNG in WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Če to omogočite, se bo povečala obremenitev strežnika."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Izpis umetnosti ASCII v izvorni kodi HTML med zakrivanjem in zaščito HTML."
@@ -890,6 +902,9 @@ msgstr "https://google.com"
 
 msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
 msgstr "Za uporabo tega spletnega mesta je treba omogočiti piškotke in JavaScript."
+
+msgid "利用規約"
+msgstr "Pogoji"
 
 msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
 msgstr "To spletno mesto lahko shranjuje informacije, kot so naslovi IP, zgodovina brskanja in dnevniki delovanja, v piškotke in zbirke podatkov, da bi preprečilo nepooblaščeno uporabo in zagotovilo varno delovanje storitve. Ti podatki se uporabljajo samo za delovanje spletnega mesta in pravno korespondenco ter se ne posredujejo tretjim osebam."
