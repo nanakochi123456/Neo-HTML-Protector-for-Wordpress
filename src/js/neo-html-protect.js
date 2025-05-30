@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.4.0 */
+/*! Neo HTML Protector 0.4.2 */
 
 /** @suppress {undefinedVars} */
 
@@ -252,19 +252,18 @@
 
 			let buttonContainer;
 			let blur;
-			let p3ptemp='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】'
-			let teamstemp=' 【<a target="_blank" href="' + tt + '">' + NeoHPttstr + '</a>】'
-			let p3phtml='【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】' + NeoHPCook3;
+			let p3phtml = '【<a target="_blank" href="' + pp + '">' + NeoHPppstr + '</a>】'
+			let teamstemp = '【<a target="_blank" href="' + tt + '">' + NeoHPttstr + '</a>】'
 
-			if(tt === '') {
-				p3phtml = p3ptemp + NeoHPCook3;
-			} else {
-				p3phtml = p3ptemp + teamstemp + NeoHPCook3;
+			if(tt !== nullstr) {
+				p3phtml = p3phtml + teamstemp;
 			}
-			if(location.href !== pp || location.href !== tt) {
-				blur = 'blur(' + NeoHPBLUR + 'px)';
-			} else {
+			p3phtml = p3phtml + NeoHPCook3;
+
+			if(location.href === pp || location.href === tt) {
 				blur = 'blur(0px)';
+			} else {
+				blur = 'blur(' + NeoHPBLUR + 'px)';
 			}
 
 			if(gdpr) {
