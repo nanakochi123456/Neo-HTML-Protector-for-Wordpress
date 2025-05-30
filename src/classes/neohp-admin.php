@@ -709,6 +709,30 @@ class neohp_admin {
 				'neohp_basic_section'
 			);
 
+			// ウォーターマーク
+			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
+			register_setting('neohp_basic_group', 'neohp_watermark', array(
+				'sanitize_callback' => 'sanitize_text_field',
+			));
+			// phpcs:enable
+			add_settings_field(
+				'neohp_watermark',
+				__('画像のウォーターマーク', 'neo-html-protector'),
+				function() {
+					$value = esc_html(get_option('neohp_watermark', '0'));
+					echo wp_kses( $this->getselect("neohp_watermark", $value
+						, '0=' . __('無効', 'neo-html-protector')
+						, '1=' . __('右下', 'neo-html-protector')
+						, '2=' . __('ランダム位置', 'neo-html-protector')
+					), [ 'select'=>['name'=>true, 'id'=>true, 'onchange'=>true], 'option'=>['value'=>true, 'selected'=>true], 'input'=>['type'=>true, 'id'=>true, 'value'=>true ] ] );
+
+					echo '<br>' .esc_html( __('動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます', 'neo-html-protector') );
+					echo '<br>' .esc_html( __('JPG形式、PNG形式、WebP形式のみ対応します', 'neo-html-protector') );
+				},
+				'neohp-settings',
+				'neohp_basic_section'
+			);
+
 			// HTMLソース表示時の警告の方法
 			// phpcs:disable PluginCheck.CodeAnalysis.SettingSanitization.register_settingDynamic
 			register_setting('neohp_design_group', 'neohp_view_source_alert_asciiart', array(

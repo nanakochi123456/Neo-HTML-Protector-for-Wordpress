@@ -243,6 +243,70 @@ class neohp_imageprotect {
 		exit;
 	}
 
+	// ただ画像を出力する
+	function defaultimage($wp_filesystem, $mime_type, $image_path) {
+		header( 'Content-Type: ' . $mime_type );
+		header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
+		$this->neohp_func->cachezero();
+		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
+		// This is image file (binary)
+		echo $wp_filesystem->get_contents( $image_path );
+		// phpcs:enable
+		exit;
+	}
+
+	// watermark付
+	function waterimage($wp_filesystem, $mime_type, $image_path) {
+		// 元画像をGDで読み込み
+		$img_data = $wp_filesystem->get_contents( $image_path );
+		$image = imagecreatefromstring( $img_data );
+
+		if ( $image !== false ) {
+			// フォントファイルのパス（.ttf）を用意（WordPress内に同梱 or パス指定）
+			//$font_path = __DIR__ . '/font.ttf'; // 適宜変更
+			$font_path = __DIR__ . '/VeraSe.ttf';
+			// 透かしテキスト（例：ユーザーIP＋日時）
+			$ip = $this->neohp_func->get_user_ip();
+			$time = current_time( 'Y-m-d H:i:s' );
+			$server = $this->neohp_func->get_current_host();
+			$text = "© $server $ip $time";
+
+			// テキスト色とサイズなど
+			$font_size = 10;
+			$color = imagecolorallocatealpha( $image, 255, 255, 255, 60 ); // 白・半透明
+
+			if(get_option("neohp_watermark", '0') === '1') {
+				$angle = 0;
+				$bbox = imagettfbbox( $font_size, $angle, $font_path, $text );
+				$x = imagesx( $image ) - $bbox[2] - 10;
+				$y = imagesy( $image ) - 10;
+			} else if(get_option("neohp_watermark", '0') === '2') {
+				$x = rand( (int)round(imagesx($image) * 0.3), (int)round(imagesx($image) * 0.7) );
+				$y = rand( (int)round(imagesy($image) * 0.3), (int)round(imagesy($image) * 0.7) );
+				$angle = rand(-20, 20);
+				$bbox = imagettfbbox( $font_size, $angle, $font_path, $text );
+			}
+			// テキストを画像に描画
+			imagettftext( $image, $font_size, $angle, $x, $y, $color, $font_path, $text );
+
+			// ヘッダーを送信
+			header( 'Content-Type: ' . $mime_type );
+			$this->neohp_func->cachezero();
+
+			// 画像を出力
+			if ( $mime_type === 'image/png' ) {
+				imagepng( $image );
+			} elseif ( $mime_type === 'image/jpeg' ) {
+				imagejpeg( $image, null, 90 );
+			} elseif ( $mime_type === 'image/webp' ) {
+				imagewebp( $image, null, 90 );
+			}
+
+			imagedestroy( $image );
+			exit;
+		}
+	}
+
 	// Mode1で画像を表示する
 	function protectimage() {
 		// phpcs:disable WordPress.Security.NonceVerification.Recommended
@@ -313,8 +377,7 @@ class neohp_imageprotect {
 					, $encoded_image_url
 				);
 */
-					if (!in_array($mime, $allowed_types)) {
-					} else {
+					if (in_array($mime, $allowed_types)) {
 						// 画像を出力して転送
 						global $wp_filesystem;
 
@@ -326,16 +389,14 @@ class neohp_imageprotect {
 
 						if ( $wp_filesystem->exists( $image_path ) ) {
 							$mime_type = wp_check_filetype( $image_path )['type'];
-							if ( $mime_type ) {
-								header( 'Content-Type: ' . $mime_type );
-								header( 'Content-Length: ' . $wp_filesystem->size( $image_path ) );
-								$this->neohp_func->cachezero();
-								// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-								// This is image file (binary)
+							$supported_mime_types = [ 'image/jpeg', 'image/png', 'image/webp' ];
 
-								echo $wp_filesystem->get_contents( $image_path );
-								// phpcs:enable
-								exit;
+							if ( $mime_type ) {
+								if (get_option("neohp_watermark", '0') !== '0' && in_array( $mime_type, $supported_mime_types, true )) {
+									$this->waterimage( $wp_filesystem, $mime_type, $image_path );
+								} else {
+									$this->defaultimage( $wp_filesystem, $mime_type, $image_path );
+								}
 							}
 						}
 					}

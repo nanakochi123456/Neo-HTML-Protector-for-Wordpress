@@ -42,6 +42,11 @@ class neohp_func {
 		return esc_html($ua);
 	}
 
+	public function get_current_host() {
+		$host = (isset($_SERVER['HTTP_HOST']) ? sanitize_text_field(wp_unslash($_SERVER['HTTP_HOST'])) : 'Ignore Hostname');
+		return $host;
+	}
+
 	public function get_current_url() {
 		// URLを取得
 		$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';

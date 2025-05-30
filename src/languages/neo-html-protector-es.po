@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-19 01:23+0900\n"
-"PO-Revision-Date: 2025-05-19 01:24+0900\n"
+"POT-Creation-Date: 2025-05-30 21:09+0900\n"
+"PO-Revision-Date: 2025-05-30 21:11+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -260,6 +260,21 @@ msgstr "Utilizado en combinación con la protección de imágenes, no tiene sent
 
 msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
 msgstr "Retraso en la lectura debido a JavaScript, que afecta al SEO"
+
+msgid "画像のウォーターマーク"
+msgstr "Marca de agua de imágenes"
+
+msgid "右下"
+msgstr "Derecha-abajo"
+
+msgid "ランダム位置"
+msgstr "Posición aleatoria"
+
+msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "La marca de agua dinámica hace explícitos los derechos de autor al tiempo que da al espectador la impresión de estar siendo vigilado y aumenta la disuasión"
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Sólo se admiten los formatos JPG, PNG y WebP."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Salida de arte ASCII en código fuente HTML durante la ofuscación y protección de HTML."

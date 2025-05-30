@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-19 01:23+0900\n"
-"PO-Revision-Date: 2025-05-19 01:23+0900\n"
+"POT-Creation-Date: 2025-05-30 21:09+0900\n"
+"PO-Revision-Date: 2025-05-30 21:09+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(UK)\n"
 "Language: en_GB\n"
@@ -260,6 +260,21 @@ msgstr "Used in combination with image protection, it is not meaningful on its o
 
 msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
 msgstr "Delayed reading due to JavaScript, which affects SEO"
+
+msgid "画像のウォーターマーク"
+msgstr "Watermarking of images"
+
+msgid "右下"
+msgstr "Right-lower"
+
+msgid "ランダム位置"
+msgstr "Random position"
+
+msgid "動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Dynamic watermarking makes copyright explicit while giving the viewer the impression of being monitored and increasing deterrence"
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Only JPG, PNG and WebP formats are supported."
 
 msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
 msgstr "Output of ASCII art in HTML source code during HTML obfuscation and protection."
