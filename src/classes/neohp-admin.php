@@ -114,7 +114,7 @@ class neohp_admin {
 				function() {
 					$value = esc_html(get_option('neohp_blur', '5'));
 					echo wp_kses( $this->getselect("neohp_blur", $value
-						, '0=' . __('なし', 'neo-html-protector')
+						, '0=' . __('無効', 'neo-html-protector')
 						, '1=' . '1px'
 						, '2=' . '2px'
 						, '3=' . '3px'

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 23:36+0900\n"
+"POT-Creation-Date: 2025-05-31 21:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,21 +66,21 @@ msgstr ""
 msgid "EU GDPR対応"
 msgstr ""
 
-#: classes/neohp-admin.php:71 classes/neohp-admin.php:640
-#: classes/neohp-admin.php:663 classes/neohp-admin.php:690
-#: classes/neohp-admin.php:717 classes/neohp-admin.php:749
-#: classes/neohp-admin.php:772 classes/neohp-admin.php:931
-#: classes/neohp-admin.php:957 classes/neohp-admin.php:981
-#: classes/neohp-admin.php:1004 classes/neohp-admin.php:1027
-#: classes/neohp-admin.php:1050 classes/neohp-admin.php:1073
-#: classes/neohp-admin.php:1097 classes/neohp-admin.php:1121
-#: classes/neohp-admin.php:1148 classes/neohp-admin.php:1172
-#: classes/neohp-admin.php:1199 classes/neohp-admin.php:1222
-#: classes/neohp-admin.php:1245 classes/neohp-admin.php:1269
-#: classes/neohp-admin.php:1293 classes/neohp-admin.php:1315
-#: classes/neohp-admin.php:1475 classes/neohp-admin.php:1497
-#: classes/neohp-admin.php:1519 classes/neohp-admin.php:1541
-#: classes/neohp-admin.php:1563
+#: classes/neohp-admin.php:71 classes/neohp-admin.php:117
+#: classes/neohp-admin.php:640 classes/neohp-admin.php:663
+#: classes/neohp-admin.php:690 classes/neohp-admin.php:717
+#: classes/neohp-admin.php:749 classes/neohp-admin.php:772
+#: classes/neohp-admin.php:931 classes/neohp-admin.php:957
+#: classes/neohp-admin.php:981 classes/neohp-admin.php:1004
+#: classes/neohp-admin.php:1027 classes/neohp-admin.php:1050
+#: classes/neohp-admin.php:1073 classes/neohp-admin.php:1097
+#: classes/neohp-admin.php:1121 classes/neohp-admin.php:1148
+#: classes/neohp-admin.php:1172 classes/neohp-admin.php:1199
+#: classes/neohp-admin.php:1222 classes/neohp-admin.php:1245
+#: classes/neohp-admin.php:1269 classes/neohp-admin.php:1293
+#: classes/neohp-admin.php:1315 classes/neohp-admin.php:1475
+#: classes/neohp-admin.php:1497 classes/neohp-admin.php:1519
+#: classes/neohp-admin.php:1541 classes/neohp-admin.php:1563
 msgid "無効"
 msgstr ""
 
@@ -125,10 +125,6 @@ msgstr ""
 
 #: classes/neohp-admin.php:113
 msgid "同意画面中のコンテンツのぼかし"
-msgstr ""
-
-#: classes/neohp-admin.php:117
-msgid "なし"
 msgstr ""
 
 #: classes/neohp-admin.php:139

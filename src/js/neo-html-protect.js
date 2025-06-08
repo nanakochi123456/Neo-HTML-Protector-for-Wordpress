@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.4.2 */
+/*! Neo HTML Protector 0.4.4 */
 
 /** @suppress {undefinedVars} */
 
@@ -99,8 +99,12 @@
 		let		FireTab = 'FireTab'	+ nullstr;
 		let		Linux = 'Linux'		+ nullstr;
 
+		let		uaVersion = nullstr;
+		let		uaData;
+
 		// Braveなら別の取得方式
 		let	isBrave = Navigator.brave && await Navigator.brave.isBrave();
+
 		// ブラウザ名の判定（userAgentData対応時）
 		if (Navigator.userAgentData) {
 			const brands = Navigator.userAgentData.brands || [];
@@ -110,16 +114,24 @@
 				else if (brand.brand.includes(Edge)) browser = Edge;
 				else if (brand.brand.includes(Firefox)) browser = Firefox;
 				else if (brand.brand.includes(Safari) && browser === nullstr) browser = Safari;
+
+				uaData = await navigator.userAgentData.getHighEntropyValues(["uaFullVersion"]);
+				uaVersion = uaData.uaFullVersion;
 			}
 
 			// OS の高精度取得
-			let uaData = await Navigator.userAgentData.getHighEntropyValues(["platform"]);
-			// Windows, macOS, Chrome OS, Linux, FreeBSD
+			uaData = await Navigator.userAgentData.getHighEntropyValues(["platform"]);
+			// Windows, macOS, Chrome OS, Linux
 			os = uaData.platform;
 		}
 
 		if(isBrave) {
 			browser='Brave';
+
+			let match = ua.match(/Chrome\/([\d.]+)/);
+			if (match) {
+				uaVersion = match[1];
+			}
 		}
 
 		// フォールバック処理（userAgent）
@@ -145,6 +157,13 @@
 			else if (ua.includes(Chrome) && !ua.includes(EDG) && !ua.includes(OPR)) browser = Chrome;
 			else if (ua.includes(Firefox)) browser = Firefox;
 			else if (ua.includes(Safari) && !ua.includes(Chrome)) browser = Safari;
+
+			let keyword = browser;
+			if (keyword === "Yandex" + B) keyword = "Ya" + B;
+			let pattern = new RegExp(`${keyword}[\\/ ]([\\d.]+)`, 'i');
+			let match = ua.match(pattern);
+
+			uaVersion = match ? match[1] : null;
 		}
 
 		if (os === nullstr) {
@@ -189,7 +208,7 @@
 			else if (ua.includes(Linux)) os = Linux;
 		}
 //		return `${os}/${browser}`;
-		return os + slash + browser;
+		return os + slash + browser + slash + uaVersion;
 	}
 
 	detectBrowserAndOS().then(result => {
@@ -425,7 +444,7 @@
 			agreeBtn.on(click, function() {
 				Cookies.set(
 					CookieName, "1",
-					{ expires: 366, path: "/", sameSite: "lax", secure: true }
+					{ expires: 366, path: "/", sameSite: "lax", secure: false }
 				);
 				closePopup();
 			});
@@ -433,7 +452,7 @@
 			confirmBtn.on(click, function() {
 				Cookies.set(
 					CookieName, "1",
-					{ expires: 366, path: "/", sameSite: "lax"}
+					{ expires: 366, path: "/", sameSite: "lax", secure: false }
 				);
 				closePopup();
 			});
@@ -991,8 +1010,9 @@
 		let detected = false;
 
 		// 0個目 デバッグモードらしきものを開いたときログに残す
-		const checkDevTools = () => {
-			const threshold = 160;
+//		const checkDevTools = () => {
+		setInterval(() => {
+			let threshold = 160;
 			if (
 				Window.outerWidth - Window.innerWidth > threshold ||
 				Window.outerHeight - Window.innerHeight > threshold
@@ -1004,9 +1024,9 @@
 			} else {
 				detected = false;
 			}
-		};
+		}, 99);
 
-		setInterval(checkDevTools, 500);
+//		setInterval(checkDevTools, 500);
 
 
 		// 1個目 コンソールクリア＆debuggerコマンド実行
