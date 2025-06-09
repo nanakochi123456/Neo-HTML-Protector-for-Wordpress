@@ -39,3 +39,10 @@ xcopy /y img\*.* s:\www\demo3.773.moe\htdocs\wp-content\plugins\neo-html-protect
 xcopy /y js\*.* s:\www\demo3.773.moe\htdocs\wp-content\plugins\neo-html-protector\js
 xcopy /y languages\*.* s:\www\demo3.773.moe\htdocs\wp-content\plugins\neo-html-protector\languages
 xcopy /y *.php s:\www\demo3.773.moe\htdocs\wp-content\plugins\neo-html-protector
+
+xcopy /y audio\*.* c:\0site\neo-html-protector\plugin\neo-html-protector\audio
+xcopy /y classes\*.* c:\0site\neo-html-protector\plugin\neo-html-protector\classes
+xcopy /y img\*.* c:\0site\neo-html-protector\plugin\neo-html-protector\img
+xcopy /y js\*.* c:\0site\neo-html-protector\plugin\neo-html-protector\js
+xcopy /y languages\*.* c:\0site\neo-html-protector\plugin\neo-html-protector\languages
+xcopy /y *.php c:\0site\neo-html-protector\plugin\neo-html-protector

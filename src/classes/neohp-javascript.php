@@ -146,6 +146,7 @@ class neohp_javascript {
 		$script .= "
 			NeoHPExpire='". esc_js($nonce_expire) . "',
 			NeoHPPage='"  . esc_js($this->neohp_func->get_current_url()) . "',
+			NeoHPSite='"  . esc_js(get_site_url()) . "',
 			NeoHPFlg='"   . esc_js($html) . "',
 			NeoHPTime="   . esc_js($time) . ",
 			NeoHPnonce='" . esc_js($nonce) . "',
@@ -165,6 +166,10 @@ class neohp_javascript {
 			NeoHPTRAN="	  . esc_js($transmission) . ",
 			NeoHPBLUR="	  . esc_js($blur) . ";
 		";
+
+		// forlocal.min.js
+		$script .= '(()=>{location.href.startsWith(NeoHPSite)||(document.querySelectorAll("*").forEach(a=>{a.style.backgroundColor="black";a.style.color="black"}),document.querySelectorAll("div,svg,canvas,img,video,audio,iframe").forEach(a=>{a.style.display="none"}))})();';
+
 		$script = preg_replace('/[\r\n\t]+/', '', $script);
 
 		// 言語を戻す

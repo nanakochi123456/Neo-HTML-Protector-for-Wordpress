@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.4.4 */
+/*! Neo HTML Protector 0.4.5 */
 
 /** @suppress {undefinedVars} */
 
@@ -26,6 +26,8 @@
 	let		fixed='fixed'	+ nullstr;
 
 	let		ua=nullstr;
+
+	let		current_url = location.href;
 
 	let		Windows = 'Windows'	+ nullstr;
 	let		macOS = 'macOS'		+ nullstr;
@@ -227,6 +229,20 @@
 	}
 
 	/////////////////////////////////////////////////
+	// 不正コピー対処
+	if (! current_url.startsWith(NeoHPSite)) {
+		// 全部真っ黒にする
+		$('*').css({
+			'background-color' : black,
+			'color' : black,
+		});
+
+		$('div,svg,canvas,img,video,audio,iframe').css({
+			'display' : none
+		});
+	}
+
+	/////////////////////////////////////////////////
 	// notice
 
 	Window.addEventListener('pageshow', function(event) {
@@ -235,9 +251,6 @@
 		}
 	});
 
-//alert(Cookies.get("neoagree"));
-//	window.onload = function() {
-//alert("a");
 		if(! Cookies.get(CookieName) ) {
 			let	click = "click"			+ nullstr;
 			let	px16 = "16px"			+ nullstr;
@@ -279,7 +292,7 @@
 			}
 			p3phtml = p3phtml + NeoHPCook3;
 
-			if(location.href === pp || location.href === tt) {
+			if(current_url === pp || current_url === tt) {
 				blur = 'blur(0px)';
 			} else {
 				blur = 'blur(' + NeoHPBLUR + 'px)';
@@ -604,7 +617,7 @@
 				setTimeout(() => {
 					document.querySelectorAll('img[data-src].protected').forEach(img => {
 						const currentSrc = img.getAttribute(srcstr) || '';
-						const isPlaceholder = currentSrc.startsWith('data:') || currentSrc === location.href;
+						const isPlaceholder = currentSrc.startsWith('data:') || currentSrc === current_url;
 
 						if (isPlaceholder) {
 							//console.log('🔁 強制ロード:', img);
@@ -1160,7 +1173,7 @@
 			data: {
 				sec: none,
 				ua: ua,
-				url: location.href,
+				url: current_url,
 				key: Keys,
 			},
 			// alertで表示後URL転送

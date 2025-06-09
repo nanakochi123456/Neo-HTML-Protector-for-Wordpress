@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.4.4
+set VERSION=0.4.5
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -23,6 +23,7 @@ call 2version.bat %VERSION% %datetime:~0,14%
 @echo on
 %CLOSURE% --js=js/js.cookie.js  --js=js/neo-html-protect.js --js_output_file=js/neo-html-protect.min.js  --externs js/externs.js
 %CLOSURE% --js=js/html-protect.js --js_output_file=js/html-protect.min.js  --externs js/externs.js
+%CLOSURE% --js=js/forlocal.js --js_output_file=js/forlocal.min.js  --externs js/externs.js
 
 :wsl rm js/neo-html-protect.min.js.br
 :wsl rm js/neo-html-protect.min.js.gz
