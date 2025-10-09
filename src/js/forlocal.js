@@ -2,8 +2,8 @@
 	if (!location.href.startsWith(NeoHPSite)) {
 		// 全要素に対して背景と文字を黒に
 		document.querySelectorAll('*').forEach(el => {
-			el.style.backgroundColor = 'black';
-			el.style.color = 'black';
+			el.style.backgroundColor = 'red';
+			el.style.color = 'red';
 		});
 
 		// 指定されたタグを非表示に

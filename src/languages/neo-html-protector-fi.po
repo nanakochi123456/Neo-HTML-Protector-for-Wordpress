@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-05-31 21:30+0900\n"
-"PO-Revision-Date: 2025-05-31 21:31+0900\n"
+"POT-Creation-Date: 2025-06-09 16:59+0900\n"
+"PO-Revision-Date: 2025-06-09 16:59+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -253,7 +253,7 @@ msgid "「出力される全HTMLのうち、Wordpressにアップロードされ
 msgstr "'Suojaa kaikki Wordpressiin ladatut kuvat kaikista HTML-tulosteista' kaappaa lähes kaiken Wordpressin toiminnan ja käsittelee kaiken sisällön img-tunnisteista. Jotkin teemat eivät toimi oikein"
 
 msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
-msgstr "Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen tulostuksen valintaa, kun suojaat HTML:ää lisäasetuksissa."
+msgstr "Huomaa, että silmäänpistäväksi määritetyt kuvat leviävät OGP:nä, eikä niitä voi suojata. Jos sinun on suojattava ne, muuta HEAD-tunnisteen ulostulon valintaa, kun suojaat HTML:ää lisäasetuksissa."
 
 msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
 msgstr "Käyttöjärjestelmän tavallista kuvakaappaustoimintoa ei voi suojata"
@@ -391,7 +391,7 @@ msgid "妨害＋記録のみ"
 msgstr "Häiriö + vain tallennus."
 
 msgid "妨害＋記録＋表示＋リダイレクト"
-msgstr "Kuuntelu + tallennus + näyttö + uudelleenohjaus"
+msgstr "Sieppaus + tallennus + näyttö + uudelleenohjaus"
 
 msgid "メニューからは操作できてしまいます"
 msgstr "Sitä voidaan käyttää valikosta."
@@ -844,7 +844,7 @@ msgid "寄付について"
 msgstr "Tietoa lahjoituksista"
 
 msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
-msgstr "Lahjoitukset ovat vapaaehtoisia eivätkä pakollisia. Se on avoin kaikille, jotta laajennusta voidaan käyttää ilmaiseksi. Tukeasi kuitenkin arvostetaan kovasti kehityksen jatkamiseksi, ja autamme mielellämme kaikin tavoin."
+msgstr "Lahjoitukset ovat vapaaehtoisia eivätkä pakollisia. Se on avoin kaikille, jotta laajennusta voidaan käyttää ilmaiseksi. Olisimme kuitenkin hyvin kiitollisia tuestasi kehityksen jatkamiseksi ja autamme mielellämme kaikin mahdollisin tavoin."
 
 msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
 msgstr "Lahjoituksia voi tehdä alla olevan linkin kautta. Jos olet Japanista, voit myös lahjoittaa ilmaiseksi, ja lisäksi voit lahjoittaa helposti Amazonin lahjakortilla."

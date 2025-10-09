@@ -263,7 +263,6 @@ class neohp_imageprotect {
 
 		if ( $image !== false ) {
 			// フォントファイルのパス（.ttf）を用意（WordPress内に同梱 or パス指定）
-			//$font_path = __DIR__ . '/font.ttf'; // 適宜変更
 			$font_path = __DIR__ . '/VeraSe.ttf';
 			// 透かしテキスト（例：ユーザーIP＋日時）
 			$ip = $this->neohp_func->get_user_ip();

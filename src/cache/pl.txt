@@ -9,6 +9,41 @@ IPアドレス	Adres IP
 ユーザーエージェント	Agent użytkownika
 イベント	Wydarzenie
 IPアドレスのデータはありません	Brak dostępnych danych adresu IP.
+EU GDPR対応	Zgodność z RODO UE
+無効	Nieważny
+有効	Ważność
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Jeśli chcesz używać Wordpressa w UE, a także w UE, musisz go włączyć.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Przycisk potwierdzenia staje się przyciskiem Zgadzam się lub Nie zgadzam się, co nieznacznie zmienia zachowanie.
+同意画面の色	Kolor ekranu zgody.
+自動	Automatyczny
+ライトモード	Tryb oświetlenia
+ダークモード	Tryb ciemny
+同意画面表示中の配色を設定します	Ustawienie schematu kolorów podczas wyświetlania ekranu zgody.
+同意画面中のコンテンツのぼかし	Rozmycie treści podczas ekranów zgody.
+同意画面表示中のコンテンツのぼかし具合を設定します	Ustawia poziom rozmycia zawartości podczas wyświetlania ekranu zgody.
+同意画面の透過	Przejrzystość ekranu zgody.
+透過なし	Bez przejrzystości
+同意画面の透過具合を設定します	Ustawienie przezroczystości ekranu zgody.
+お知らせの1行目	Wiersz 1 zawiadomienia.
+初回表示で必ず表示されるメッセージです	Ten komunikat jest zawsze wyświetlany na pierwszym ekranie.
+お知らせの2行目	Wiersz 2 zawiadomienia.
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ten komunikat jest zawsze wyświetlany na pierwszym ekranie tylko wtedy, gdy włączone jest RODO UE.
+お知らせの3行目	Wiersz 3 zawiadomienia.
+プライバシーポリシーのリンクの右側に表示されます	Pojawia się po prawej stronie linku do polityki prywatności
+非EU向け確認の文字列	Ciąg potwierdzający dla osób spoza UE
+EU GDPR向け同意するの文字列	Ciąg zgody dla RODO UE
+EU GDPR向け同意しないの文字列	Ciąg nieporozumień w sprawie unijnego RODO
+プライバシーポリシーの文字列	Ciąg polityki prywatności.
+プライバシーポリシーのURLはこちらから設定して下さい	Tutaj należy ustawić adres URL polityki prywatności
+プライバシーポリシーには以下の内容を追加して下さい	Prosimy o dodanie następujących informacji do polityki prywatności
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	W celu wykrywania nieautoryzowanych operacji w bazie danych przechowywane są pliki cookie i identyfikatory, takie jak adresy IP. Przechowywane dane są usuwane w dowolnym momencie przez administratora.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tylko gdy ochrona obrazu jest włączona, zaszyfrowane dane adresu IP i nazwy pliku obrazu są przechowywane w bazie danych przez maksymalnie 60 minut w celu pomyślnego dostarczenia obrazu.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jeśli skonfigurujesz Warunki użytkowania, pamiętaj o umieszczeniu linku do Warunków użytkowania w Polityce prywatności
+利用規約の文字列	Ciąg warunków użytkowania
+利用規約のページ	Strona warunków użytkowania
+ページ選択なし	Brak wyboru strony
+検索エンジン等のURL	Adresy URL wyszukiwarek itp.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ustawienie adresów URL wyszukiwarek i innych wyszukiwarek, do których ekran przechodzi, gdy użytkownik nie wyrazi zgody.
 デバッグモード、コンソールの警告メッセージ	Tryb debugowania, komunikaty ostrzegawcze konsoli.
 右クリックの警告メッセージ	Komunikaty ostrzegawcze klikane prawym przyciskiem myszy.
 印刷、PDF保存の警告メッセージ	Komunikaty ostrzegawcze dotyczące drukowania i zapisywania plików PDF.
@@ -24,12 +59,10 @@ CookieやJavascriptが有効でない場合に表示するメッセージ	Komuni
 実際にはJavascriptが無効時のみ表示されます	W praktyce jest to widoczne tylko wtedy, gdy Javascript jest wyłączony.
 画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Komunikat wyświetlany na obrazie, gdy obraz jest pobierany, a obraz jest chroniony Tylko w języku angielskim
 HTML難読化 (圧縮)	Zaciemnianie HTML
-無効	Nieważny
-有効	Ważność
 一般的なHTML圧縮です、難読化解除のサイトもあります	Ogólna kompresja HTML, niektóre strony mają de-obfuscation.
 このオプションを有効にするとview-sourceのログが取得できます	Włącz tę opcję, aby rejestrować źródło widoku
 HTML保護	Ochrona HTML
-HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawartość w znaczniku BODY nie jest w ogóle wyprowadzana.
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Poza kompresją HTML wyprowadzany jest tylko minimalny kod HTML, a zawartość znacznika BODY nie jest w ogóle wyprowadzana.
 Firefoxに対しては無効です	Nie dotyczy przeglądarki Firefox.
 SEOに著しく影響があります	Znacząco wpływa na SEO.
 HTMLをJavaScriptで描画	Renderowanie HTML za pomocą JavaScript
@@ -48,25 +81,36 @@ imgタグが呼び出されるごとに画像を保護	Chroni obraz za każdym r
 OS標準搭載のスクリーンショット機能を保護することはできません	Standardowa funkcja zrzutu ekranu systemu operacyjnego nie może być chroniona
 画像URLの保護	Ochrona adresów URL obrazów
 画像の保護と組み合わせて使用します、単体では意味がありません	Używany w połączeniu z ochroną wizerunku, sam w sobie nie ma znaczenia.
-JavaScriptにより遅延読まれますのでSEOに影響があります	Opóźniony odczyt z powodu JavaScript, który wpływa na SEO
+JavaScriptにより遅延読まれますのでSEOに影響があります	Opóźnione czytanie z powodu JavaScript, co wpływa na SEO.
+画像のウォーターマーク	Znak wodny obrazów
+右下	Prawy-dolny
+ランダム位置	Losowa pozycja
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Stosowany w połączeniu z ochroną obrazu, dynamiczny znak wodny sprawia, że prawa autorskie są wyraźne, jednocześnie dając widzowi wrażenie, że jest monitorowany, co zwiększa odstraszanie.
+JPG形式、PNG形式、WebP形式のみ対応します	Obsługiwane są tylko formaty JPG, PNG i WebP.
+有効にするとサーバーの負荷が高くなります	Włączenie tej opcji zwiększy obciążenie serwera.
 HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Wyświetlanie grafiki ASCII w kodzie źródłowym HTML podczas zaciemniania i ochrony HTML.
 表示なし	Brak wskazań
 view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Wyświetla grafikę ASCII wskazującą zamiar ostrzeżenia podczas wyświetlania źródła HTML z view-source.
-対象アクションを起こした時の表示デザイン	Wyświetlanie projektu po uruchomieniu akcji docelowej.
+対象アクションを起こした時の表示デザイン	Projekt wyświetlacza po uruchomieniu akcji docelowej.
 黄色の背景の黒文字のベーシックデザイン	Podstawowy wzór z czarnymi literami na żółtym tle
 黒色の背景の赤文字のホラー風デザイン	Projekt w stylu horroru z czerwonym tekstem na czarnym tle.
 黒色の背景の赤文字の光る文字のデザイン	Projekt świecących czerwonych liter na czarnym tle.
-対象アクションを起こした時のBGM	BGM, gdy podjęta zostanie docelowa akcja.
+対象アクションを起こした時のBGM	BGM, gdy podjęta zostanie akcja docelowa.
 サウンドなし	Bezdźwięczny
-戦闘＆戦闘勝利 - 1分16.3秒 - ライセンス：CC2.1 or later	Walka i zwycięstwa w bitwach - 1 min 16,3 s - Licencja: CC2.1 lub nowsza
-おやじ ショート - 3.8秒 - ライセンス GPL2.0 or later (C)EJ	Father Short - 3.8 sekundy - Licencja GPL2.0 lub nowsza
-おやじ ロング - 23.5秒 - ライセンス GPL2.0 or later (C)EJ	Father Long - 23.5 sec - Licencja GPL2.0 lub nowsza
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, czarne klawisze, wersja maszynowa, wersja szybka - 1 min 0.0 sec - Licence: CC BY-ND 4.0 or later
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Etiuda op.10-12 Rewolucja, wersja maszynopisowa, wersja szybka - 1 min 57,6 s - Licencja: CC BY-ND 4.0 lub nowsza
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo b-moll, Op2, wersja maszynopisowa, wersja szybko skrócona - 1 min 48,0 s - Licencja: CC BY-ND 4.0 lub nowsza
-ファンファーレ - 22.3秒 - ライセンス：パブリックドメイン	Fanfara - 22,3 sekundy - Licencja: domena publiczna
-レトロ風ファンファーレ - 2.2秒 - ライセンス：パブリックドメイン	Fanfara w stylu retro - 2,2 s - Licencja: domena publiczna
-レトロ風オープン - 42.1秒 - ライセンス：パブリックドメイン	Otwarcie w stylu retro - 42,1 s - Licencja: domena publiczna
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Combat & Battle Victory - 1 min 16,3 s - 630 056 bajtów - 64 kb/s - Licencja: CC2.1 lub nowsza
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Father Short - 3.8 sekundy - 32,364 bajtów - 64kbps - licencja GPL2.0 lub nowsza
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Father Long - 23.5 sekundy - 195,578bajtów - 64kbps - licencja GPL2.0 lub nowsza
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, czarne klawisze, wersja maszynowa, wersja szybka - 1 min 0.0 s - 369,778 bajtów - 48 kbps - Licencja: CC BY-ND 4.0 lub nowsza
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Etiuda op.10-12 Rewolucja, wersja maszynopisowa, wersja szybka - 1 min 57,6 s - 724 457 bajtów - 48 kbps - Licencja: CC BY-ND 4.0 lub nowsza
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo b-moll, Op2, wersja maszynopisowa, szybka wersja skrócona - 1 min 48,0 s - 665 369 bajtów - 48 kbps - licencja: CC BY-ND 4.0 lub nowsza
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Liszt Super Exercise No 4, Mazeppa, typed version, fast short version - 1 min 51.6 sec - 687,586 bytes - 48 kbps - Licence: CC BY-ND 4.0 or later
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfara - 22,3 sekundy - 183 926 bajtów - 64 kbps - Licencja: domena publiczna
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfara w stylu retro - 2,2 sekundy - 10 536 bajtów - 32 kbps - Licencja: domena publiczna
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Otwarte w stylu retro - 42,1 sekundy - 179 138 bajtów - 32 kbps - Licencja: domena publiczna
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Alert by ChatGPT - 3,8 sekundy - 109 700 bajtów - 256 kb/s - Licencja: domena publiczna
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Brzmi pilnie jak wykrywanie złośliwego oprogramowania Część 1 przez ChatGPT - 3,3 sekundy - 102 850 bajtów - 256 kb/s - Licencja: domena publiczna
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Brzmi pilnie jak wykrywanie złośliwego oprogramowania Część 2 przez ChatGPT - 3,3 sekundy - 103,122 bajtów - 256kbps - Licencja: domena publiczna
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Dźwięk w stylu MRI autorstwa ChatGPT - 1 min 14,9 s - 3 340 392 bajty - 320 kb/s - Licencja: domena publiczna
 警告表示中のBGMを選択します	Wybór muzyki w tle podczas wyświetlania ostrzeżenia.
 びっくりするような雰囲気を作ります	Stwórz zaskakującą atmosferę
 Firefoxでは音声ブロックされます	Firefox zablokuje dźwięk.
@@ -103,8 +147,8 @@ OSやブラウザ、方法によっては妨害できず、もしくは検出し
 本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	W zależności od konfiguracji tej wtyczki, zdarzenie to może być rzadko osiągane
 テキスト全選択	Wybór pełnego tekstu
 テキスト選択	Wybór tekstu
-デバッガー妨害	Zakłócenia debuggera
-デバッグモードの使い勝手を少し悪くします、ブラウザによってはこの挙動が止められてしまいます	Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, niektóre przeglądarki zatrzymują to zachowanie.
+デバッガー起動ログ、デバッガー妨害	Dziennik uruchamiania debuggera, zakłócenie debuggera
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, rejestruje, że debugger został uruchomiony, niektóre przeglądarki zatrzymują to zachowanie.
 リダイレクトするURL	Adres URL do przekierowania
 利用規約などのページに転送すると良いでしょう	Możesz przekierować ich na strony takie jak Warunki użytkowania.
 空欄にすると元のURLにリダイレクトをします	Jeśli pozostanie puste, przekieruje do oryginalnego adresu URL
@@ -152,13 +196,20 @@ WordpressのHEADタグより取得	Pobrane z tagu HEAD w systemie Wordpress
 企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	W przypadku użytku korporacyjnego, takiego jak strony tylko dla członków lub strony wewnętrzne, "brak wyjścia" lub "tylko znacznik TITLE" jest w porządku.
 WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Obrazy OGP nie będą wyświetlane w sieciach społecznościowych, chyba że zostaną pobrane z tagu HEAD Wordpress.
 画像botをアクセス禁止にする	Zbanowanie bota obrazu.
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます	Unikanie botów obrazów w stosunku do HTML chroni treści, które nie mogłyby być chronione przez bezpośrednie linki z wyszukiwania obrazów.
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Unikanie botów obrazów w stosunku do HTML chroni treści, które nie mogą być chronione przez bezpośrednie linki z wyszukiwania obrazów, chociaż nie można tego całkowicie rozwiązać.
 AI学習用botをアクセス禁止にする	Zakaz dostępu do botów uczących się sztucznej inteligencji.
 AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Unikanie bota uczącego się AI przeciwko HTML zapobiega jego wykorzystaniu przez AI, ale nie rozwiązuje go całkowicie.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Zakaz dostępu do archiwów internetowych i internetowych zbiorników rybnych.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Zakazuje dostępu do automatycznie gromadzonych archiwów internetowych, a także podsłuchów uzyskanych według uznania użytkownika, ale nie rozwiązuje w pełni następujących kwestii
+無効なUAをアクセス禁止にする	Wyłączenie dostępu do nieprawidłowych UA.
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Unikaj dostępu, jeśli w agencie użytkownika znajduje się nieprawidłowy ciąg znaków.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Ostrzeżenie dotyczące dostępu do przeglądarki Internet Explorer i dawnej przeglądarki Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Unikaj dostępu do przeglądarki Internet Explorer i dawnego Microsoft Edge.
 alertメッセージを表示する言語	Język, w którym wyświetlany jest komunikat alarmowy.
 Wordpressの言語	Języki Wordpress.
 ブラウザの設定言語	Język ustawień przeglądarki
 メッセージをカスタム設定されている場合は言語を変更できません	Języka nie można zmienić, jeśli wiadomość jest spersonalizowana
+同意画面の言語	Język ekranu zgody.
 view-sourceメッセージを表示する言語	Język, w którym wyświetlane są komunikaty źródła widoku.
 一時使用トークンの有効期限	Data wygaśnięcia tokenów do użytku tymczasowego.
 3分	3 min.
@@ -193,14 +244,16 @@ view-sourceメッセージを表示する言語	Język, w którym wyświetlane s
 初期設定に戻す	Przywracanie ustawień domyślnych
 デザイン・音の設定	Wygląd i ustawienia dźwięku
 イベントの設定	Konfiguracja zdarzenia.
+初回訪問時のお知らせの設定	Konfigurowanie powiadomień dla pierwszej wizyty.
 メッセージの設定	Ustawienia wiadomości
 右クリックやソースコード表示時に転送する URL を設定します	Ustawienie adresu URL, który ma być przekazywany po kliknięciu prawym przyciskiem myszy lub wyświetleniu kodu źródłowego.
 警告メッセージにはHTMLは使用できません	HTML nie może być używany w komunikatach ostrzegawczych
-この画面で設定すると、高度な設定タブにある言語設定が無視されます	W przypadku ustawienia na tym ekranie, ustawienia języka w zakładce ustawień zaawansowanych są ignorowane
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	W przypadku ustawienia na tym ekranie ustawienia języka w zakładce ustawień zaawansowanych są ignorowane
 以下の文字列が使用できます	Można użyć następujących ciągów znaków
 改行	Nowa linia
 押下されたキー	Naciśnięty przycisk
 Neo HTML Protector 設定	Ustawienia Neo HTML Protector
+お知らせ	Uwaga.
 メッセージ	Wiadomość.
 デザイン・音	Projekt i dźwięk
 初期化	Inicjalizacja
@@ -216,7 +269,7 @@ Neo HTML Protectorについて	Informacje o Neo HTML Protector
 ビルド	Budować
 サポートページ	Strona wsparcia
 ISISちゃん	ISIS chan
-Miss. 裏まにら氏歌唱	Miss. śpiewana przez pana Uramanirę
+Miss. 裏まにら氏歌唱	Miss. śpiewana przez Mr. Uramanira
 支援のお願い	Prośba o pomoc.
 Neo HTML Protectorをご利用いただき、ありがとうございます！	Dziękujemy za korzystanie z Neo HTML Protector!
 本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	W rozwój i utrzymanie tej wtyczki włożono wiele czasu i mądrości, dlatego będziemy wdzięczni za ewentualne darowizny, które pomogą nam zebrać fundusze na dalsze ulepszenia i aktualizacje.
@@ -228,19 +281,25 @@ Neo HTML Protectorをご利用いただき、ありがとうございます！	D
 ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Dziękujemy za wsparcie i cieszymy się na współpracę w przyszłości.
 ライセンス	Licencja
 本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Wtyczka została opracowana jako open source i jest licencjonowana na licencji GPL 2.0 lub nowszej.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Niektóre technologie zawarte w tej wtyczce podlegają ochronie patentowej.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Korzystanie z opatentowanej technologii jest dozwolone wyłącznie w ramach tej wtyczki.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	W przypadku innych zastosowań należy skontaktować się z autorem w celu uzyskania licencji komercyjnej.
 本プラグインには以下のライブラリを同梱しています	Następujące biblioteki są dołączone do tej wtyczki
 本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ta wtyczka zawiera czcionkę i pliki czcionek dla grafiki ASCII generowanej przez
-アスキーアート（AA）作成	Tworzenie grafiki ASCII
-ラッコ株式会社 利用承諾取得済	Otters Ltd Uzyskano zgodę na wykorzystanie.
-巨大文字AAジェネレーター	Gigantyczny generator postaci AA
-LAZE SOFTWARE 利用承諾取得済	LAZE SOFTWARE Uzyskano zgodę na użytkowanie
-The Gnome Project 利用承諾取得済	Uzyskano zgodę na użytkowanie w ramach projektu Gnome
-このプラグインには、有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲が含まれており、正式にライセンスされています。当該楽曲の使用は、有限会社イージェーよりGPL2.0ライセンスの下で正式に許可を得ています	Ta wtyczka zawiera muzykę z nieautoryzowanej gry Super Nintendo Entertainment System
-一部で使用しているピアノ音源「Keppys YAMAHA C7」は、KaleidonKep99氏が制作したSoundFontであり、ライセンス条件に従って使用しています	Źródło dźwięku fortepianu "Keppys YAMAHA C7" użyte w niektórych fragmentach to SoundFont stworzony przez KaleidonKep99 i używany zgodnie z warunkami licencji.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ta wtyczka zawiera muzykę z nieautoryzowanej gry Super Nintendo Entertainment System
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ta wtyczka zawiera muzykę wykorzystującą "Keppy s YAMAHA C7" stworzoną przez Keppy
 その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Inne Raspberry Pi5, ChatGPT i deepl są używane w rozwoju tej wtyczki
 キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Wykryto wtyczkę pamięci podręcznej Ta wtyczka nie będzie działać poprawnie, jeśli wtyczka pamięci podręcznej jest włączona.
 無効なIPアドレス	Nieprawidłowy adres IP.
 このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Aby korzystać z tej witryny, należy włączyć obsługę plików cookie i JavaScript.
+利用規約	Zasady i warunki
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ta strona internetowa może przechowywać informacje, takie jak adresy IP, historia przeglądania i dzienniki operacji w plikach cookie i bazach danych, aby zapobiec nieautoryzowanemu użyciu i zapewnić bezpieczne działanie usługi. Informacje te są wykorzystywane wyłącznie do obsługi witryny oraz korespondencji prawnej i nie będą przekazywane stronom trzecim.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Aby korzystać z usługi, użytkownik musi wyrazić zgodę na te procesy.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Treść polityki prywatności można przeglądać za zgodą lub bez niej.
+同意する	Zgadzam się.
+同意しない	Nie zgadzam się.
+確認	Potwierdzenie
+プライバシーポリシー	Polityka prywatności.
 通常とは異なる方法でのアクセスや操作が検出されました	Wykryto nietypowe metody dostępu lub działania.
 セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Niektóre funkcje są ograniczone ze względów bezpieczeństwa i ochrony zawartości.
 デバッグモード、コンソールの起動は禁止されています	Tryb debugowania i aktywacja konsoli są zabronione
@@ -297,103 +356,6 @@ HTMLソース表示は禁止されています	Wyświetlanie źródła HTML jest
 中国語	Chiński
 簡体中国語	Chiński uproszczony
 繁体中国語	Tradycyjny chiński
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Obecnie używana przeglądarka jest starszą wersją, która nie jest już obsługiwana. Aby zapewnić bezpieczniejsze i wygodniejsze środowisko przeglądania, zaktualizuj przeglądarkę do najnowszej wersji.
 不正なリクエストです	Nieprawidłowe żądanie.
 画像が見つかりません	Nie znaleziono obrazu.
-画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Unikanie botów obrazów w stosunku do HTML chroni treści, które nie mogą być chronione przez bezpośrednie linki z wyszukiwania obrazów, chociaż nie można tego całkowicie rozwiązać.
-無効なUAをアクセス禁止にする	Wyłączenie dostępu do nieprawidłowych UA.
-ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Unikaj dostępu, jeśli w agencie użytkownika znajduje się nieprawidłowy ciąg znaków.
-Internet Explorerと旧Microsoft Edgeのアクセスに警告を表示する	Ostrzeżenie dla przeglądarki Internet Explorer i byłego Microsoft Edge.
-Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Unikaj dostępu do przeglądarki Internet Explorer i dawnego Microsoft Edge.
-このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ta wtyczka zawiera muzykę z nieautoryzowanej gry Super Nintendo Entertainment System
-このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ta wtyczka zawiera muzykę wykorzystującą "Keppy s YAMAHA C7" stworzoną przez Keppy
-現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Obecnie używana przeglądarka jest starszą wersją, która nie jest już obsługiwana. Aby zapewnić bezpieczniejsze i wygodniejsze środowisko przeglądania, zaktualizuj przeglądarkę do najnowszej wersji.
-戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Combat & Battle Victory - 1 min 16,3 s - 630 056 bajtów - 64 kb/s - Licencja: CC2.1 lub nowsza
-おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Father Short - 3.8 sekundy - 32,364 bajtów - 64kbps - licencja GPL2.0 lub nowsza
-おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Father Long - 23.5 sekundy - 195,578bajtów - 64kbps - licencja GPL2.0 lub nowsza
-ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Etude, Op.10-5, czarne klawisze, wersja maszynowa, wersja szybka - 1 min 0.0 s - 369,778 bajtów - 48 kbps - Licencja: CC BY-ND 4.0 lub nowsza
-ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Etiuda op.10-12 Rewolucja, wersja maszynopisowa, wersja szybka - 1 min 57,6 s - 724 457 bajtów - 48 kbps - Licencja: CC BY-ND 4.0 lub nowsza
-ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Scherzo b-moll, Op2, wersja maszynopisowa, szybka wersja skrócona - 1 min 48,0 s - 665 369 bajtów - 48 kbps - licencja: CC BY-ND 4.0 lub nowsza
-ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfara - 22,3 sekundy - 183 926 bajtów - 64 kbps - Licencja: domena publiczna
-レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfara w stylu retro - 2,2 sekundy - 10 536 bajtów - 32 kbps - Licencja: domena publiczna
-レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Otwarte w stylu retro - 42,1 sekundy - 179 138 bajtów - 32 kbps - Licencja: domena publiczna
-Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Ostrzeżenie dotyczące dostępu do przeglądarki Internet Explorer i dawnej przeglądarki Microsoft Edge
-警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Alert by ChatGPT - 3,8 sekundy - 109 700 bajtów - 256 kb/s - Licencja: domena publiczna
-マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Brzmi pilnie jak wykrywanie złośliwego oprogramowania Część 1 przez ChatGPT - 3,3 sekundy - 102 850 bajtów - 256 kb/s - Licencja: domena publiczna
-マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Brzmi pilnie jak wykrywanie złośliwego oprogramowania Część 2 przez ChatGPT - 3,3 sekundy - 103,122 bajtów - 256kbps - Licencja: domena publiczna
-MRI風サウンド by ChatGPT - 1分14.9秒 - 2,157,371bytes - 256kbps - ライセンス：パブリックドメイン	Dźwięk w stylu MRI autorstwa ChatGPT - 1 min 14,9 s - 2 157 371 bajtów - 256 kb/s - Licencja: domena publiczna
-MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Dźwięk w stylu MRI autorstwa ChatGPT - 1 min 14,9 s - 3 340 392 bajty - 320 kb/s - Licencja: domena publiczna
-このウェブサイトでは、利用規約違反や不正アクセスの検知・防止を目的として、ユーザーのIPアドレス、閲覧履歴、一部操作ログをCookieおよびデータベースに保存し、必要に応じて警告を行う場合があります。これらの情報は、サイトの健全な運営および法的トラブル対策以外には一切使用いたしません。\n同意されない場合は、これらの目的を達成するためにサービスの提供が困難となるため、閲覧をご遠慮いただく場合があります。	Ta strona internetowa może przechowywać adres IP użytkownika, historię przeglądania i niektóre dzienniki operacji w plikach cookie i bazach danych w celu wykrywania i zapobiegania naruszeniom warunków użytkowania i nieautoryzowanego dostępu, a w razie potrzeby może wydawać ostrzeżenia. Informacje te nie będą wykorzystywane w żadnym innym celu niż prawidłowe działanie witryny i zapobieganie problemom prawnym. \Jeśli użytkownik nie wyrazi na to zgody, możemy poprosić go o powstrzymanie się od przeglądania witryny, ponieważ utrudni nam to świadczenie usług w celu osiągnięcia tych celów.
-同意する	Zgadzam się.
-同意しない	Nie zgadzam się.
-確認	Potwierdzenie
-このウェブサイトでは、利用規約違反や不正アクセスの検知・防止を目的として、ユーザーのIPアドレス、閲覧履歴、一部操作ログをCookieおよびデータベースに保存し、必要に応じて警告を行う場合があります。これらの情報は、サイトの健全な運営および法的トラブル対策以外には一切使用いたしません。同意されない場合は、これらの目的を達成するためにサービスの提供が困難となるため、閲覧をご遠慮いただく場合があります。	Ta strona internetowa może przechowywać adres IP użytkownika, historię przeglądania i niektóre dzienniki operacji w plikach cookie i bazach danych w celu wykrywania i zapobiegania naruszeniom warunków użytkowania i nieautoryzowanego dostępu, a w razie potrzeby może wydawać ostrzeżenia. Informacje te nie będą wykorzystywane w żadnym innym celu niż prawidłowe działanie strony internetowej i zapobieganie problemom prawnym. Jeśli użytkownik nie wyraża na to zgody, możemy poprosić go o powstrzymanie się od przeglądania witryny, ponieważ utrudni nam to świadczenie usług w celu osiągnięcia tych celów.
-このウェブサイトでは、不正アクセスの防止や利用規約違反の検知を目的に、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらの情報は、サイト運営および法的対応以外では使用せず、第三者には提供しません。	Ta strona internetowa może przechowywać adresy IP, historię przeglądania i dzienniki operacji w plikach cookie i bazach danych w celu zapobiegania nieautoryzowanemu dostępowi i wykrywania naruszeń Warunków użytkowania. Informacje te nie będą wykorzystywane do celów innych niż obsługa witryny i korespondencja prawna i nie będą przekazywane stronom trzecim.
-サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。ご同意いただくことで、プライバシーポリシーを確認できます。	Aby korzystać z usług, użytkownik musi wyrazić zgodę na przetwarzanie tych danych. Jeśli użytkownik nie wyrazi zgody, korzystanie z usługi będzie ograniczone. Wyrażając zgodę, użytkownik może zapoznać się z polityką prywatności.
-プライバシーポリシー	Polityka prywatności.
-EU GDPR対応	Zgodność z RODO UE
-EU圏内でWordpressを使用するには必ず有効にしてください	Musi być włączona możliwość korzystania z Wordpress w UE
-確認のボタンが同意する、同意しないのボタンになります	Przycisk potwierdzenia staje się przyciskiem Zgadzam się lub Nie zgadzam się.
-お知らせの1行目	Wiersz 1 zawiadomienia.
-お知らせの2行目	Wiersz 2 zawiadomienia.
-非EU向け確認の文字列	Ciąg potwierdzający dla osób spoza UE
-EU GDPR向け同意するの文字列	Ciąg zgody dla RODO UE
-EU GDPR向け同意しないの文字列	Ciąg nieporozumień w sprawie unijnego RODO
-プライバシーポリシーの文字列	Ciąg polityki prywatności
-プライバシーポリシーのURLはこちらから設定して下さい	Tutaj należy ustawić adres URL polityki prywatności
-利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jeśli skonfigurujesz Warunki użytkowania, pamiętaj o umieszczeniu linku do Warunków użytkowania w Polityce prywatności
-検索エンジン等のURL	Adresy URL wyszukiwarek itp.
-同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ustawienie adresów URL wyszukiwarek i innych wyszukiwarek, do których ekran przechodzi, gdy użytkownik nie wyrazi zgody.
-初回訪問時のお知らせの設定	Konfigurowanie powiadomień dla pierwszej wizyty.
-お知らせ	Uwaga.
-プライバシーポリシーには不正操作を検知するためにCookieとデータベースに保存されることを追加して下さい	Dodanie do polityki prywatności informacji, że pliki cookie i bazy danych są przechowywane w celu wykrywania nieautoryzowanych operacji.
-プライバシーポリシーには以下の内容を追加して下さい	Prosimy o dodanie następujących informacji do polityki prywatności
-不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	W celu wykrywania nieautoryzowanych operacji w bazie danych przechowywane są pliki cookie i identyfikatory, takie jak adresy IP. Przechowywane dane są usuwane w dowolnym momencie przez administratora.
-画像保護が有効な場合のみ、画像を正常に保存するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tylko gdy ochrona obrazu jest włączona, skrót adresu IP i nazwy pliku obrazu jest przechowywany w bazie danych przez maksymalnie 60 minut w celu pomyślnego zapisania obrazu.
-画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Tylko gdy ochrona obrazu jest włączona, zaszyfrowane dane adresu IP i nazwy pliku obrazu są przechowywane w bazie danych przez maksymalnie 60 minut w celu pomyślnego dostarczenia obrazu.
-このサイトでは、不正防止や規約順守のため、IPアドレス、閲覧履歴、操作ログをCookieおよびデータベースに保存することがあります。これらはサイト運営および法的対応以外では使用せず、第三者には提供しません。	Ta strona internetowa może przechowywać adresy IP, historię przeglądania i dzienniki operacji w plikach cookie i bazach danych w celu zapobiegania oszustwom i przestrzegania warunków. Będą one wykorzystywane wyłącznie do obsługi witryny i korespondencji prawnej i nie będą przekazywane stronom trzecim.
-サービスの利用には、これらのデータ処理に同意する必要があります。不同意の場合、サービスの利用が制限されます。	Aby korzystać z usług, użytkownik musi wyrazić zgodę na przetwarzanie tych danych. W przypadku braku zgody korzystanie z usługi jest ograniczone.
-このサイトでは、不正利用の防止や規約の順守を目的に、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ta strona internetowa może przechowywać informacje, takie jak adresy IP, historia przeglądania i dzienniki operacji w plikach cookie i bazach danych w celu zapobiegania nieautoryzowanemu użyciu i przestrzegania warunków. Informacje te są wykorzystywane wyłącznie do obsługi witryny oraz korespondencji prawnej i nie będą przekazywane stronom trzecim.
-サービスの利用には、これらのデータ処理への同意が必要です。不同意の場合、サービスのご利用ができません。	Zgoda na przetwarzanie tych danych jest wymagana do korzystania z usługi. W przypadku braku zgody nie można korzystać z usługi.
-初回表示で必ず表示されるメッセージです	Ten komunikat jest zawsze wyświetlany na pierwszym ekranie.
-EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ten komunikat jest zawsze wyświetlany na pierwszym ekranie tylko wtedy, gdy włączone jest RODO UE.
-お知らせの3行目	Wiersz 3 zawiadomienia.
-プライバシーポリシーのリンクの右側に表示されます	Pojawia się po prawej stronie linku do polityki prywatności
-ご同意いただくことで、プライバシーポリシーを確認できます。	Wyrażając zgodę, możesz zapoznać się z polityką prywatności.
-同意画面の色	Kolor ekranu zgody.
-自動	Automatyczny
-ライトモード	Tryb oświetlenia
-ダークモード	Tryb ciemny
-同意画面表示中の配色を設定します	Ustawienie schematu kolorów podczas wyświetlania ekranu zgody.
-同意画面中のコンテンツのぼかし	Rozmycie treści podczas ekranów zgody.
-なし	Bez
-同意画面表示中のコンテンツのぼかし具合を設定します	Ustawia poziom rozmycia zawartości podczas wyświetlania ekranu zgody.
-同意画面の透過	Przejrzystość ekranu zgody.
-透過なし	Bez przejrzystości
-同意画面の透過具合を設定します	Ustawienie przezroczystości ekranu zgody.
-EU圏内でWordpressを使用する場合、並びにEU圏内を対象とするには必ず有効にしてください	Musi być włączona możliwość korzystania z Wordpress w UE i kierowania reklam do krajów UE.
-同意画面の言語	Język ekranu zgody.
-このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ta strona internetowa może przechowywać informacje, takie jak adresy IP, historia przeglądania i dzienniki operacji w plikach cookie i bazach danych, aby zapobiec nieautoryzowanemu użyciu i zapewnić bezpieczne działanie usługi. Informacje te są wykorzystywane wyłącznie do obsługi witryny oraz korespondencji prawnej i nie będą przekazywane stronom trzecim.
-サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Aby korzystać z usługi, użytkownik musi wyrazić zgodę na te procesy.
-プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Treść polityki prywatności można przeglądać za zgodą lub bez niej.
-このプラグインに含まれるいくつかの技術は特許保護の対象です。	Niektóre technologie zawarte w tej wtyczce podlegają ochronie patentowej.
-特許技術の使用は、このプラグイン内での使用に限って認められます。	Korzystanie z opatentowanej technologii jest dozwolone wyłącznie w ramach tej wtyczki.
-その他の使用については、作者に連絡して商用ライセンスを取得してください。	W przypadku innych zastosowań należy skontaktować się z autorem w celu uzyskania licencji komercyjnej.
-ウェブアーカイブ、魚拓をアクセス禁止にする	Archiwa internetowe, zakaz dostępu do zbiorników rybnych.
-自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Zakazuje dostępu do automatycznie gromadzonych archiwów internetowych, a także podsłuchów uzyskanych według uznania użytkownika, ale nie rozwiązuje w pełni następujących kwestii
-ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Zakaz dostępu do archiwów internetowych i internetowych zbiorników rybnych.
-デバッガー起動ログ、デバッガー妨害	Dziennik uruchamiania debuggera, zakłócenie debuggera
-デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Sprawia, że tryb debugowania jest nieco mniej przyjazny dla użytkownika, rejestruje, że debugger został uruchomiony, niektóre przeglądarki zatrzymują to zachowanie.
-EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Jeśli chcesz używać Wordpressa w UE, a także w UE, musisz go włączyć.
-確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Przycisk potwierdzenia staje się przyciskiem Zgadzam się lub Nie zgadzam się, co nieznacznie zmienia zachowanie.
-リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Liszt Super Exercise No 4, Mazeppa, typed version, fast short version - 1 min 51.6 sec - 687,586 bytes - 48 kbps - Licence: CC BY-ND 4.0 or later
-画像のウォーターマーク	Znak wodny obrazów
-右下	Prawy-dolny
-ランダム位置	Losowa pozycja
-動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Dynamiczny znak wodny sprawia, że prawa autorskie są wyraźne, jednocześnie dając widzowi wrażenie bycia monitorowanym i zwiększając odstraszanie.
-JPG形式、PNG形式、WebP形式のみ対応します	Obsługiwane są tylko formaty JPG, PNG i WebP.
-画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Stosowany w połączeniu z ochroną obrazu, dynamiczny znak wodny sprawia, że prawa autorskie są wyraźne, jednocześnie dając widzowi wrażenie, że jest monitorowany, co zwiększa odstraszanie.
-有効にするとサーバーの負荷が高くなります	Włączenie tej opcji zwiększy obciążenie serwera.
-利用規約の文字列	Ciąg warunków użytkowania
-利用規約のページ	Strona warunków użytkowania
-ページ選択なし	Brak wyboru strony
-利用規約	Zasady i warunki

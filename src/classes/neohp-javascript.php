@@ -168,7 +168,7 @@ class neohp_javascript {
 		";
 
 		// forlocal.min.js
-		$script .= '(()=>{location.href.startsWith(NeoHPSite)||(document.querySelectorAll("*").forEach(a=>{a.style.backgroundColor="black";a.style.color="black"}),document.querySelectorAll("div,svg,canvas,img,video,audio,iframe").forEach(a=>{a.style.display="none"}))})();';
+		$script .= '(()=>{location.href.startsWith(NeoHPSite)||(document.querySelectorAll("*").forEach(a=>{a.style.backgroundColor="red";a.style.color="red"}),document.querySelectorAll("div,svg,canvas,img,video,audio,iframe").forEach(a=>{a.style.display="none"}))})();';
 
 		$script = preg_replace('/[\r\n\t]+/', '', $script);
 
