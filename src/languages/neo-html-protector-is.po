@@ -1,0 +1,1292 @@
+# Icelandic translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 04:17+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Stillingar"
+
+msgid "IPログリーダー"
+msgstr "IP-skráningarlestari"
+
+msgid "IPアドレスログ"
+msgstr "Skrá yfir IP-tölur"
+
+msgid "全クリア"
+msgstr "Ljúktu öllum stigum"
+
+msgid "IPログが全て削除されました"
+msgstr "Allir IP-dagbókarfærslur hafa verið eytt"
+
+msgid "ID"
+msgstr "Auðkenni"
+
+msgid "タイムスタンプ"
+msgstr "Tímastimpill"
+
+msgid "IPアドレス"
+msgstr "IP-tala"
+
+msgid "ユーザーエージェント"
+msgstr "Notendaboði"
+
+msgid "イベント"
+msgstr "Viðburður"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Engin gögn eru til fyrir þessa IP-tölu."
+
+msgid "EU GDPR対応"
+msgstr "Samræmi við GDPR ESB"
+
+msgid "無効"
+msgstr "Ógilt"
+
+msgid "有効"
+msgstr "Gildur"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Ef þú notar WordPress innan ESB, eða ef vefsíðan þín beinist að notendum innan ESB, vinsamlegast vertu viss um að þetta sé virkjað."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Hnappurinn Staðfesta mun breytast í Samþykkja eða Synja, og hegðunin mun breytast örlítið."
+
+msgid "同意画面の色"
+msgstr "Litur samþykkisskjásins"
+
+msgid "自動"
+msgstr "Sjálfvirkur"
+
+msgid "ライトモード"
+msgstr "Léttur hamur"
+
+msgid "ダークモード"
+msgstr "Dimmur hamur"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Settu litaskemað fyrir samþykkisskjalið"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Óskýrleiki efnis á samþykkisskjánum"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Stilla óskýrleika stigs fyrir efni sem birtist á samþykkisskjánum"
+
+msgid "同意画面の透過"
+msgstr "Gagnsæi samþykkisskjásins"
+
+msgid "透過なし"
+msgstr "Engin gagnsæi"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Stilla gagnsæi samþykkisskjárins"
+
+msgid "お知らせの1行目"
+msgstr "Fyrsta lína tilkynningarinnar"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Þessi skilaboð birtast alltaf í fyrsta sinn sem síðunni er hlaðið."
+
+msgid "お知らせの2行目"
+msgstr "Önnur línan í tilkynningunni"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Þessi skilaboð munu alltaf birtast á fyrstu skjánum aðeins þegar GDPR ESB er í gildi."
+
+msgid "お知らせの3行目"
+msgstr "Þriðja línan í tilkynningunni"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Það mun birtast til hægri við hlekkinn á persónuverndarstefnuna."
+
+msgid "非EU向け確認の文字列"
+msgstr "Staðfestingartexti fyrir lönd utan ESB"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Samþykkistexti fyrir ESB persónuverndarreglugerðina"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Texti fyrir Ekki veita samþykki samkvæmt GDPR ESB"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Texti persónuverndarstefnu"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Settu hér vefslóð persónuverndarstefnunnar."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Vinsamlegast bætið eftirfarandi við persónuverndarstefnuna."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Til að greina sviksamlega starfsemi eru auðkenni, svo sem IP-tölur, vistuð í smákökum og gagnagrunnum. Geymd gögn eru eytt eftir hentisemi stjórnanda."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Til að tryggja að myndir séu afhentar rétt aðeins þegar myndavörn er virk, geymum við hashuð gögn sem innihalda IP-tölu og myndaskránaverknafn í gagnagrunninum í allt að 60 mínútur."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ef þú ert að setja upp notkunarskilmála, vinsamlegast tryggðu að þú bætir við hlekk á þá í persónuverndarstefnu þinni."
+
+msgid "利用規約の文字列"
+msgstr "Texti notkunarskilmála"
+
+msgid "利用規約のページ"
+msgstr "Skilmálar og skilyrði síða"
+
+msgid "ページ選択なし"
+msgstr "Engin síða valin"
+
+msgid "検索エンジン等のURL"
+msgstr "URL-slóðir fyrir leitarvélar o.s.frv."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Settu slóðina fyrir leitarvélar og svipuð vefsvæði sem vísa notendum áfram þegar samþykki er ekki veitt."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "V villuleitarhamur, viðvörunarboð á konsólunni"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Hægri-smelltu viðvörunarboðskap"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Viðvörunarboð um prentun og vistun sem PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Viðvörunarboðskapur í skjámyndinni"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Viðvörunarboð um grunsamleg skjámyndir"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Viðvörunarboðskapur þegar allt textinn er valið"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Viðvörunarboð um síðusparnað"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Skilaboð sem birtast þegar afritað er eða skorið"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Skilaboð sem birtast þegar skoðað er HTML-uppspretta"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Skilaboð sem birtast efst í upphafskóðanum þegar HTML er þokað eða verndað"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Skilaboð sem birtast ef einnota auðkennislykillinn er ógildur við HTML-vernd"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Skilaboð sem birtast ef vafrakökur eða JavaScript eru óvirk"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Reyndar er þetta aðeins sýnt þegar JavaScript er óvirkjað."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Þegar mynd er vernduð er hún sótt og skilaboð birt á myndinni"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML-óskýrleiki"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Þetta er staðlað HTML-þjöppun; það eru líka vefsíður sem geta afkóðað hana."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Með því að virkja þessa valkost leyfirðu þér að sækja view-source-skráningar."
+
+msgid "HTML保護"
+msgstr "HTML-vernd"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Það framleiðir aðeins hið allra nauðsynlegasta af HTML—jafnvel minna en þegar HTML-þjöppun er notuð—og efnið innan BODY-merkisins verður alls ekki birt."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Þetta á ekki við um Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Þetta hefur veruleg áhrif á SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Sýna HTML með JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Til að komast hjá Firefox rennum við HTML-ið með JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Að virkja JavaScript-sýningu mun verulega hægja á hleðsluhraða vefsíðunnar."
+
+msgid "画像の保護"
+msgstr "Myndavernd"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Verndaðu myndina í hvert sinn sem img-merkið er kallað."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Verndaðu allar myndir sem hlaðnar eru upp í WordPress innan alls HTML-útputsins."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Verndar myndir gegn niðurhali"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Þegar myndagögn eru vernduð hindrum við nánast allar niðurhal, útveguðum einstakar einnota vefslóðir, auðkennum með tokenum sem eru geymd í lotunni og birtum myndirnar í gegnum PHP; þetta kemur í raun í veg fyrir nánast alla myndastuld."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Þegar myndagögn eru vernduð virkar skyndiminni ekki, sem þýðir að vefsvæðið hleðst hægar við endurkomur og hefur þar með áhrif á SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Verndun myndagagna getur aukið álagið á gagnagrunninn."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Ef þú velur 'Verndar myndir hvenær sem img-merki er kallað', notar kerfið add_filter til að beita síun þegar img-merki er búið til; þó gæti þetta ekki virkað rétt með sumum þemum."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Ef þú velur 'Verndar allar myndir sem hlaðnar eru inn í WordPress í allri HTML-útgáfu', mun viðbótin fanga nánast allar WordPress-aðgerðir og vinna úr hverri img-tagg innan efnisins. Vinsamlegast athugið að þetta gæti ekki virkað rétt með sumum þemum."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Vinsamlegast athugið að myndir sem merktar eru sem aðalmyndir verða deilt sem OGP-gögn og er ekki hægt að vernda þær. Ef þið verðið endilega að vernda þær, breyttu stillingunni fyrir HEAD-merki í háþróuðum stillingum þegar HTML-vernd er virkjuð."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Skjámyndatökuaðgerðin sem er innifalin sem staðalbúnaður í stýrikerfinu er ekki hægt að vernda."
+
+msgid "画像URLの保護"
+msgstr "Verndun mynda-URL-slóða"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Þetta skal nota í samspili við myndavörn; eitt og sér hefur það engan tilgang."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Þar sem það er hlaðið letilega í gegnum JavaScript, hefur þetta áhrif á SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Myndvatnsmerki"
+
+msgid "右下"
+msgstr "Neðst til hægri"
+
+msgid "ランダム位置"
+msgstr "Handahófskennd staða"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Þegar notaðar eru í tengslum við myndavörn sýna hreyfanleg vatnsmerki skýrt hver hefur höfundarréttinn og gefa áhorfendum til kynna að verið sé að fylgjast með þeim, sem hefur fælingarhrif."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Aðeins JPG-, PNG- og WebP-snið eru studd."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Að virkja þetta mun auka álagið á netþjóninum."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Úttak ASCII-listar úr HTML-upphafskóða við HTML-óskýringu og verndun"
+
+msgid "表示なし"
+msgstr "Engin skjástilling"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Sýnir ASCII-list sem gefur til kynna viðvörun þegar skoðað er HTML-uppspretta með 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Sýna hönnun þegar markaðar aðgerðar er framkvæmt"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Grunnleg hönnun með svörtum texta á gulum bakgrunni"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Hrollvekjandi hönnun með rauðum stöfum á svörtum bakgrunni"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Hönnun með glóandi rauðum texta á svörtum bakgrunni"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Bakgrunnstónlist sem spilar þegar markaða aðgerðin er framkvæmd"
+
+msgid "サウンドなし"
+msgstr "Enginn hljómur"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Orrustan og sigurinn - 1 mínúta 16,3 sekúndur - 630.056 bæti - 64 kbps - Leyfi: CC 2.1 eða nýrra"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Pabbi stuttur - 3,8 sekúndur - 32.364 bæti - 64 kbps - Leyfi: GPL 2.0 eða nýrra"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 sekúndur - 195.578 bæti - 64 kbps - Leyfi: GPL 2.0 eða nýrra"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nr. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nr. 12 Bylting – tölvugerð útgáfa, hraðútgáfa – 1 mínúta 57,6 sekúndur – 724.457 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo í B-dúr minór, Op. 2 – tölvugerð útgáfa, hraðskorin útgáfa – 1 mínúta 48,0 sekúndur – 665.369 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Listi: Étude d'Exécution Transcendante nr. 4, Mazeppa – tölvugerð útgáfa, hraðskorin útgáfa – 1 mínúta 51,6 sekúndur – 687.586 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 sekúndur – 183.926 bæti – 64 kbps – Leyfi: Almannaréttur"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stíl hátíðarsveifla – 2,2 sekúndur – 10.536 bæti – 32 kbps – Leyfi: Almannaréttur"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stíls inngangur – 42,1 sekúndur – 179.138 bæti – 32 kbps – Leyfi: Almannasafn"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Viðvörun frá ChatGPT - 3,8 sekúndur - 109.700 bæti - 256 kbps - Leyfi: Almenningseign"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Hljóð af mikilli forgangi sem hljómar eins og viðvörun um spilliforrit – 1. hluti eftir ChatGPT – 3,3 sekúndur – 102.850 bætir – 256 kbps – Leyfi: Almannasafn"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Háttskyndur hljómur sem hljómar eins og viðvörun um spilliforrit, 2. hluti eftir ChatGPT - 3,3 sekúndur - 103.122 bæti - 256 kbps - Leyfi: Almenningseign"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "MRI-stíll hljóð eftir ChatGPT – 1 mínúta 14,9 sekúndur – 3.340.392 bæti – 320 kbps – Leyfi: Almenningseign"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Veldu bakgrunnstónlist sem á að spila á meðan varaun er í gangi."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Það skapar óvænt andrúmsloft"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Hljóð er lokað í Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Píp þegar tilgreind aðgerð er framkvæmd"
+
+msgid "有効 音量小さ目"
+msgstr "Á, hljóðstyrkur lágur"
+
+msgid "有効 音量大き目"
+msgstr "Í gangi, hljóðstyrkur stilltur á hátt"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Píp hljómar fyrir öll lyklaborðs- og músaratburði á meðan viðvörun er sýnd."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Það gefur til kynna að tækið hafi farið úr böndunum á meðan viðvörunin er sýnd."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Fela músbendilinn þegar tilteknum aðgerð er framkvæmd"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Fylkir músvísarann í vafrasvæðinu á meðan viðvörun er sýnd"
+
+msgid "デバッグモード"
+msgstr "V villuleitarhamur"
+
+msgid "妨害＋記録のみ"
+msgstr "Truflun + Plötur einungis"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Truflun + Skráning + Skjá birting + Endurbeining"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Þú getur enn fengið aðgang að því í valmyndinni."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "V villuleitarhamur í Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Vafraferill"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Í raun geturðu keyrt það í villuleitarham."
+
+msgid "HTMLソース表示"
+msgstr "Skoða HTML-uppsprettukóðann"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Þú getur framkvæmt aðgerðina einfaldlega með því að slá inn vefslóð sem byrjar á 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Þú getur verndað efnið þitt með því að sameina þetta við HTML-vernd."
+
+msgid "印刷"
+msgstr "Prenta"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Þó að það hindri prentun gæti það ekki virkað rétt í sumum vöfrum."
+
+msgid "スクリーンショット"
+msgstr "Skjámynd"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Fer eftir stýrikerfi, vafraviðmóti eða aðferð sem notuð er, gæti ekki verið hægt að hindra þetta eða það gæti ekki verið greint."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Grunað skjámynd þegar glugginn fer í bakgrunn"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Það bregst einnig við öðrum aðgerðum en skjámyndatöku"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Grunað skjámynd tekin með því að ýta á tvær takkar"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Greiningaraðferðirnar fyrir ofangreind atriði eru ekki fullkomlega áreiðanlegar; greining er framkvæmd sem varúðarráðstöfun."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Það greinir ekki aðeins skjámyndir heldur einnig villuleitarmöguleika og þess háttar."
+
+msgid "ページ保存"
+msgstr "Vista síðu"
+
+msgid "右クリック"
+msgstr "Hægri-smelltu"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ef viðbótin er uppsett, munt þú geta notað hana."
+
+msgid "コピー・カット"
+msgstr "Afrita og klippa"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Fer eftir stillingum þessa viðbótar gætir þú sjaldan rekist á þennan atburð."
+
+msgid "テキスト全選択"
+msgstr "Veldu allt textann"
+
+msgid "テキスト選択"
+msgstr "Velja texta"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Skráning við ræsingu villuleitartóls, truflun villuleitartóls"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Þetta gerir villuleitarmöguleikann aðeins óvinalegri og skráir að villuleitarforritið hafi verið ræst; sumir vafra geta þó hindrað þessa hegðun."
+
+msgid "リダイレクトするURL"
+msgstr "Endur bein slóð"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Það væri góð hugmynd að beina notendum á síður eins og notkunarskilmála."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Ef það er látið autt mun það beina á upprunalega vefslóðina."
+
+msgid "リダイレクトまでの時間"
+msgstr "Tími þar til endurleiðsla"
+
+msgid "リダイレクトなし"
+msgstr "Engin endurbeining"
+
+msgid "1秒"
+msgstr "1 sekúnda"
+
+msgid "2秒"
+msgstr "2 sekúndur"
+
+msgid "3秒"
+msgstr "3 sekúndur"
+
+msgid "4秒"
+msgstr "4 sekúndur"
+
+msgid "5秒"
+msgstr "5 sekúndur"
+
+msgid "6秒"
+msgstr "6 sekúndur"
+
+msgid "7秒"
+msgstr "7 sekúndur"
+
+msgid "8秒"
+msgstr "8 sekúndur"
+
+msgid "9秒"
+msgstr "9 sekúndur"
+
+msgid "10秒"
+msgstr "10 sekúndur"
+
+msgid "15秒"
+msgstr "15 sekúndur"
+
+msgid "20秒"
+msgstr "20 sekúndur"
+
+msgid "25秒"
+msgstr "25 sekúndur"
+
+msgid "30秒"
+msgstr "30 sekúndur"
+
+msgid "35秒"
+msgstr "35 sekúndur"
+
+msgid "40秒"
+msgstr "40 sekúndur"
+
+msgid "45秒"
+msgstr "45 sekúndur"
+
+msgid "50秒"
+msgstr "50 sekúndur"
+
+msgid "55秒"
+msgstr "55 sekúndur"
+
+msgid "1分"
+msgstr "1 mínúta"
+
+msgid "1分10秒"
+msgstr "1 mínúta og 10 sekúndur"
+
+msgid "1分20秒"
+msgstr "1 mínúta 20 sekúndur"
+
+msgid "1分30秒"
+msgstr "1 mínúta og 30 sekúndur"
+
+msgid "1分40秒"
+msgstr "1 mínúta og 40 sekúndur"
+
+msgid "1分50秒"
+msgstr "1 mínúta og 50 sekúndur"
+
+msgid "2分"
+msgstr "2 mínútur"
+
+msgid "ソース表示を許可する権限"
+msgstr "Leyfi til að skoða uppsprettukóðann"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Venjulegt úttak frá uppsprettu eingöngu þegar innskráð er sem ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Venjulegt úttak frá uppsprettu þegar skráð er inn sem NOTANDI"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Veldu hvort venjulegt HTML-útgana sé eingöngu ætluð stjórnendum eða krefjist innskráningar notanda."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Að neyða mynd til niðurhals og hvað er í raun hlaðið niður"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "1×1 pixla gegnsætt mynd í GIF-sniði"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "1×1 pixla gagnsætt mynd í PNG-sniði"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Varnaðar-skjáborð með gulum bakgrunni í PNG-sniði"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Merkingarlaust HTML-skjal"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Úttak HEAD-merkisins þegar HTML er verndað"
+
+msgid "出力しない"
+msgstr "Ekki prenta"
+
+msgid "TITLEタグのみ"
+msgstr "Bara TITLE-merkið"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Sótt úr HEAD-merki WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Fyrir fyrirtækjanotkun, eingöngu meðlimasíður og innri síður, ætti að duga að velja Ekki birta eða Aðeins TITLE-merki."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Nema þú sækir upplýsingarnar úr HEAD-merki WordPress, mun OGP-myndin ekki birtast þegar deilt er á samfélagsmiðlum."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Bannar myndabotinn"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Með því að koma í veg fyrir að myndabotar nái aðgengi að HTML geturðu verndað efni sem ekki var hægt að vernda gegn beinum tenglum í gegnum myndaleit; þó veitir þetta ekki fullkomna lausn."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Bannar aðgang að AI-þjálfunarbotinum"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Með því að forðast notkun vélmenna sem eru hönnuð til gervigreindarþjálfunar á HTML tryggjum við að efnið sé ekki nýtt af gervigreind; þó er ekki hægt að koma í algjörlega í veg fyrir það."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Bannar aðgang að vefgeymslum og vefmyndum"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Við bönum aðgang að sjálfvirkt söfnuðum vefgeymslum og skjámyndum sem notandinn tekur eftir eigin geðþótti; við getum þó ekki komið í veg fyrir þetta að fullu."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Banna ógilda notendaboða"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Veitir ekki aðgang ef notendagenta-strengurinn inniheldur ógilda stafi"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Sýna viðvörun þegar opnað er Internet Explorer og gamla Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Varnar aðgang að Internet Explorer og gamla Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Mál sem viðvörunarboð eru birt á"
+
+msgid "Wordpressの言語"
+msgstr "WordPress tungumál"
+
+msgid "ブラウザの設定言語"
+msgstr "Vefskoðarastillingar tungumáls"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Þú getur ekki breytt tungumálinu ef skilaboðin hafa verið sérsniðin."
+
+msgid "同意画面の言語"
+msgstr "Mál á samþykkisskjánum"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Mál til að birta 'view-source' skilaboðin"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Gildistími tímabundinna auðkennismerkja"
+
+msgid "3分"
+msgstr "3 mínútur"
+
+msgid "4分"
+msgstr "4 mínútur"
+
+msgid "5分"
+msgstr "5 mínútur"
+
+msgid "6分"
+msgstr "6 mínútur"
+
+msgid "7分"
+msgstr "Sjö mínútur"
+
+msgid "8分"
+msgstr "8 mínútur"
+
+msgid "9分"
+msgstr "9 mínútur"
+
+msgid "10分"
+msgstr "10 mínútur"
+
+msgid "15分"
+msgstr "15 mínútur"
+
+msgid "20分"
+msgstr "Tuttugu mínútur"
+
+msgid "25分"
+msgstr "25 mínútur"
+
+msgid "30分"
+msgstr "30 mínútur"
+
+msgid "35分"
+msgstr "35 mínútur"
+
+msgid "40分"
+msgstr "40 mínútur"
+
+msgid "45分"
+msgstr "45 mínútur"
+
+msgid "50分"
+msgstr "Fimmtíu mínútur"
+
+msgid "55分"
+msgstr "Fimmtíu og fimm mínútur"
+
+msgid "1時間"
+msgstr "1 klukkustund"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Settu gildistíma upplýsinga um myndavefslóð."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Þegar hlaðið er, verða myndaslóðin og tímabundna tokenið ógild."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Myndir eru hlaðnar eftir þörfum, en þær verða sjálfkrafa hlaðnar 30 sekúndum fyrir tilgreindan tíma."
+
+msgid "一時使用トークンのビット数"
+msgstr "Fjöldi bita í tímabundnu tokeni"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Bráðabirgðatákn er notað sem lykilorð til að dulkóða upplýsingar um myndslóð; þessi stilling tilgreinir styrk þess."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Þó að valkostirnir sem birtast undir fellivalmyndinni verði sífellt ítarlegri, getur þetta sett mikla álagið á netþjóninn og leitt til mikils magns af HTML-gögnum í flutningi."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Mynsturkóðunaralgorítmur"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Bráðabirgðatákn er notað sem lykilorð til að dulkóða upplýsingar um myndaslóðir; þetta krefst haskunar og þessi stilling ákvarðar styrk þeirrar haskunar."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Þó að styrkurinn aukist þegar þú færð þig niður listann yfir valkosti sem birtast í fellivalmyndinni, setur þetta meiri álag á netþjóninn."
+
+msgid "基本設定"
+msgstr "Grunnstillingar"
+
+msgid "高度な設定"
+msgstr "Framúrskarandi stillingar"
+
+msgid "初期設定に戻す"
+msgstr "Endurheimta sjálfgefnar stillingar"
+
+msgid "デザイン・音の設定"
+msgstr "Hönnun og hljóðstillingar"
+
+msgid "イベントの設定"
+msgstr "Viðburðastillingar"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Að setja upp tilkynningar fyrir fyrstu heimsóknir"
+
+msgid "メッセージの設定"
+msgstr "Skilaboðastillingar"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Settu slóðina sem á að opna þegar hægri-smellt er eða þegar kóðagrunnurinn er skoðaður."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Ekki er hægt að nota HTML í viðvörunarboðum."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Ef þú stillir þetta á þessum skjá verða tungumálastillingarnar í háþróuðu flipanum hunsaðar."
+
+msgid "以下の文字列が使用できます"
+msgstr "Eftirfarandi strengir má nota"
+
+msgid "改行"
+msgstr "Línubrot"
+
+msgid "押下されたキー"
+msgstr "Lykill ýttur"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML Protector stillingar"
+
+msgid "お知らせ"
+msgstr "Tilkynning"
+
+msgid "メッセージ"
+msgstr "Skilaboð"
+
+msgid "デザイン・音"
+msgstr "Hönnun og hljóð"
+
+msgid "初期化"
+msgstr "Upphafsvæðing"
+
+msgid "このプラグインについて"
+msgstr "Um þennan viðbót"
+
+msgid "設定が初期化されました"
+msgstr "Stillingarnar hafa verið endurstilltar"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Frumstilla viðbótina. Vinsamlegast athugið að gögn IP Log Reader verða ekki eytt á þessu stigi."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Um Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Þetta viðbót er hönnuð til að vernda HTML, myndir og annað efni sem WordPress-síðan þín býr til og vernda það gegn óheimilri notkun."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Það er ómögulegt að vernda efni að fullu. Hins vegar, með því að senda út viðvaranir hvar sem mögulegt er og gera undirbúning ef eitthvað kemur upp á, ættum við að geta leyst málið í samræmi við þær verklagsreglur sem ríkisstjórnin hefur sett."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Auðvitað þarftu að tryggja að skilmálar þínir og notendastefna vefsíðunnar séu yfirgripsmiklir. Þó að þetta viðbót sé ekki tæki til að búa til skilmála og notendastefnu getur hún veitt nokkra leiðsögn."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Forritari: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Útgáfa"
+
+msgid "ビルド"
+msgstr "Byggja"
+
+msgid "サポートページ"
+msgstr "Stuðningssíða"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Flutt af fröken Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Beiðni um stuðning"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Þakka þér fyrir að nota Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Þróun og viðhald þessa viðbótar hefur krafist mikils tíma og fyrirhafnar, og til að afla fjár til að halda áfram að bæta og uppfæra hana værum við þakklát ef einhver sem getur stutt okkur myndi íhuga að gefa framlag."
+
+msgid "寄付について"
+msgstr "Um framlög"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Gjafir eru alfarið sjálfviljugar og ekki skyldubundnar. Viðbótin er öllum aðgengileg án endurgjalds. Stuðningur þinn er þó mjög vel þeginn til að hjálpa okkur að halda áfram þróun, og við værum ánægð ef þú gætir lagt jafnvel litla fjárhæð til."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Þú getur lagt fram framlag með tenglinum hér að neðan. Ef þú ert búsettur í Japan getur þú lagt fram framlag án endurgjalds og getur einnig auðveldlega gefið með Amazon-gjafabréfum."
+
+msgid "寄付先"
+msgstr "Góðgerðarsamtök"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Með þínum stuðningi munum við gera okkar besta til að halda áfram að koma til þín frábærum uppfærslum!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Við erum þakklát fyrir stuðninginn þinn og hlökkum til að fá áframhaldandi stuðning þinn í framtíðinni."
+
+msgid "ライセンス"
+msgstr "Leyfi"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Þessi viðbót er þróuð sem opinn hugbúnaður og er leyfð samkvæmt GPLv2.0 eða nýrri."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Sumar af tæknunum sem eru innifaldar í þessu viðbót eru verndaðar með einkaleyfum."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Notkun einkaleyfisverndaðrar tækni er einungis leyfð innan þessa viðbótar."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Fyrir aðra notkun, vinsamlegast hafðu samband við höfund til að fá viðskiptaleyfi."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Þessi viðbót inniheldur eftirfarandi bókasöfn"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Þessi viðbót inniheldur ASCII-listletur sem búin eru til hér að neðan, ásamt leturskránum."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Þessi viðbót inniheldur tónlist úr óopinberu Super Famicom-leiknum 'SM Trainer Hitomi 3', þróuðum af EJ Co., Ltd. og saminn af höfundi þessarar viðbótar, og er með opinbera leyfi."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Þessi viðbót inniheldur lög sem búin eru til með 'Keppy's YAMAHA C7', þróuð af Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Ég hef einnig notað Raspberry Pi 5, ChatGPT og DeepL við þróun þessa viðbótar."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Könnun hefur greint skyndiminni-viðbót. Þessi viðbót mun ekki virka rétt ef skyndiminni-viðbót er virkjuð."
+
+msgid "無効なIPアドレス"
+msgstr "Ógild IP-tala"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Til að nota þessa vefsíðu verður þú að virkja smákökur og JavaScript."
+
+msgid "利用規約"
+msgstr "Notkunarskilmálar"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Til að koma í veg fyrir óheimila notkun og tryggja öruggan rekstur þjónustu okkar getur þessi vefsíða vistað upplýsingar eins og IP-tölur, vafrasögu og virkni- og atburðaskrár í kökum og gagnagrunnum. Þessar upplýsingar eru eingöngu notaðar til reksturs vefsíðunnar og í lögmætum tilgangi og verða ekki afhentar þriðja aðila."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Til að nota þessa þjónustu verður þú að samþykkja þessa vinnsluaðgerðir."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Þú getur skoðað efni persónuverndarstefnu okkar óháð því hvort þú hafir veitt samþykki þitt."
+
+msgid "同意する"
+msgstr "Ég er sammála"
+
+msgid "同意しない"
+msgstr "Ég er ósammála"
+
+msgid "確認"
+msgstr "Staðfesting"
+
+msgid "プライバシーポリシー"
+msgstr "Persónuverndarstefna"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Óvenjulegur aðgangur eða virkni hefur verið greind"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Ákveðnar aðgerðir hafa verið takmarkaðar til öryggis- og efnisverndarsjónarmiða."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "V villuleitarhamur og aðgangur að ferilskjá eru óvirkir."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Eftirfarandi upplýsingar hafa verið sendar á netþjóninn"
+
+msgid "あなたのIPアドレス"
+msgstr "IP-tala þín"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Tækið þitt og vafrinn þinn"
+
+msgid "あなたの押下したキー"
+msgstr "Lykillinn sem þú ýtti á"
+
+msgid "リダイレクトをします"
+msgstr "Þú verður beint áfram"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Ákveðnar aðgerðir hafa verið takmarkaðar til að vernda efnið"
+
+msgid "右クリックは禁止されています"
+msgstr "Hægri-smellur er ekki leyfður"
+
+msgid "あなたが押下したキー"
+msgstr "Lykillinn sem þú ýtti á"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Prentun og vistun sem PDF er bönnuð."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Myndir af skjánum eru bannaðar."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Það er bannað að taka skjámyndir og virkja villuleitarham."
+
+msgid "ページの保存は禁止されています"
+msgstr "Bannað er að vista þessa síðu"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Afritun og klipping eru bönnuð."
+
+msgid "あなたが起こしたイベント"
+msgstr "Viðburðir sem þú hefur skipulagt"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ekki er heimilt að velja texta"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Það er bannað að birta HTML-uppsprettukóða."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Óheimil aðgangur er bannaður"
+
+msgid "アフリカーンス語"
+msgstr "Afríkans"
+
+msgid "アラゴン語"
+msgstr "Aragonska"
+
+msgid "アラビア語"
+msgstr "Arabíska"
+
+msgid "アッサム語"
+msgstr "Assamíska"
+
+msgid "アゼルバイジャン語"
+msgstr "Aserbaídskan"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Hvítrússneskur"
+
+msgid "ベンガル語"
+msgstr "Bengalska"
+
+msgid "ブルガリア語"
+msgstr "Búlgörskur"
+
+msgid "ボスニア語"
+msgstr "Bosnískur"
+
+msgid "カタロニア語"
+msgstr "Katalónskur"
+
+msgid "チェコ語"
+msgstr "Tékkneskur"
+
+msgid "ウェールズ語"
+msgstr "Welskur"
+
+msgid "デンマーク語"
+msgstr "Danskur"
+
+msgid "ドイツ語"
+msgstr "Þýskur"
+
+msgid "現代ギリシア語"
+msgstr "Nútíma gríska"
+
+msgid "英語"
+msgstr "Enska"
+
+msgid "イギリス英語"
+msgstr "Ensk"
+
+msgid "アメリカ英語"
+msgstr "Bandarísk enska"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Spænska"
+
+msgid "エストニア語"
+msgstr "Eistneskur"
+
+msgid "バスク語"
+msgstr "Baski"
+
+msgid "ペルシャ語"
+msgstr "Persneska"
+
+msgid "フィンランド語"
+msgstr "Finnska"
+
+msgid "フランス語"
+msgstr "Franskur"
+
+msgid "アイルランド語"
+msgstr "Írskur"
+
+msgid "ガリシア語"
+msgstr "Galískur"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gújarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebreska"
+
+msgid "ヒンディ語"
+msgstr "Hindí"
+
+msgid "クロアチア語"
+msgstr "Króatneskur"
+
+msgid "ハイチ・クレオール語"
+msgstr "Haitísk kreól"
+
+msgid "ハンガリー語"
+msgstr "Ungverskur"
+
+msgid "インドネシア語"
+msgstr "Indónesískur"
+
+msgid "イボ語"
+msgstr "Ibo-mál"
+
+msgid "アイスランド語"
+msgstr "íslenska"
+
+msgid "イタリア語"
+msgstr "Ítalskur"
+
+msgid "日本語"
+msgstr "Japanskt"
+
+msgid "ジャワ語"
+msgstr "Javanska"
+
+msgid "カザフ語"
+msgstr "Kasakíska"
+
+msgid "朝鮮語"
+msgstr "Kóreskur"
+
+msgid "クルド語"
+msgstr "Kúrdískt"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Lúxembúrgska"
+
+msgid "リンガラ語"
+msgstr "Mánta"
+
+msgid "リトアニア語"
+msgstr "Líftvísneskur"
+
+msgid "ラトビア語"
+msgstr "Lettneskur"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maórí"
+
+msgid "マケドニア語"
+msgstr "Makedóneska"
+
+msgid "マラヤーラム語"
+msgstr "Malajalam"
+
+msgid "モンゴル語"
+msgstr "Mongólskur"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malajískur"
+
+msgid "マルタ語"
+msgstr "Maltneskur"
+
+msgid "ビルマ語"
+msgstr "Búrmaíska"
+
+msgid "ネパール語"
+msgstr "Nepalskur"
+
+msgid "ノルウェー語"
+msgstr "Norskur"
+
+msgid "オランダ語"
+msgstr "Hollenskur"
+
+msgid "オック語"
+msgstr "Oktsítanska"
+
+msgid "オロモ語"
+msgstr "Eða"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Pólska"
+
+msgid "パシュトー語"
+msgstr "پشتو"
+
+msgid "ポルトガリア語"
+msgstr "Portúgölsk"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brasilísk portúgölska"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Evrópskur portúgölsk"
+
+msgid "ケチュア語"
+msgstr "Inka"
+
+msgid "ルーマニア語"
+msgstr "Rúmenskur"
+
+msgid "ロシア語"
+msgstr "Rússneskur"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slóvakíska"
+
+msgid "スロベニア語"
+msgstr "Slóvenska"
+
+msgid "セルビア語"
+msgstr "Serbneskur"
+
+msgid "南セソト語"
+msgstr "Suður-Sesotho"
+
+msgid "スンダ語"
+msgstr "Súndaneska"
+
+msgid "スウェーデン語"
+msgstr "Sænskur"
+
+msgid "スワヒリ語"
+msgstr "Svasíli"
+
+msgid "タミル語"
+msgstr "Tamilmaður"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajík"
+
+msgid "タイ語"
+msgstr "Taílenskur"
+
+msgid "トルクメン語"
+msgstr "Tyrkneskur"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Tyrkneskur"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Úkraínumaður"
+
+msgid "ウルドゥー語"
+msgstr "Úrdú"
+
+msgid "ウズベク語"
+msgstr "Úsbek"
+
+msgid "ベトナム語"
+msgstr "Víetnamskir"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jiddisch"
+
+msgid "簡体中国語"
+msgstr "Forsimplað kínverska"
+
+msgid "繁体中国語"
+msgstr "Hefðbundið kínverska"
+
+msgid "ズールー語"
+msgstr "Zúlú"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Vafrinn sem þú ert að nota núna er eldri útgáfa sem ekki er lengur studd. Til að tryggja öruggari og þægilegri vafraupplifun, vinsamlegast uppfærðu vafrann þinn í nýjustu útgáfu."
+
+msgid "不正なリクエストです"
+msgstr "Ógild beiðni"
+
+msgid "画像が見つかりません"
+msgstr "Myndin fundin ekki"
+

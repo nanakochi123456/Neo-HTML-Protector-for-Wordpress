@@ -1,0 +1,1292 @@
+# Malay translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 06:30+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Malay\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Tetapan"
+
+msgid "IPログリーダー"
+msgstr "Pembaca Log IP"
+
+msgid "IPアドレスログ"
+msgstr "Log alamat IP"
+
+msgid "全クリア"
+msgstr "Lengkapkan semua peringkat"
+
+msgid "IPログが全て削除されました"
+msgstr "Semua log IP telah dipadamkan."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Cap masa"
+
+msgid "IPアドレス"
+msgstr "Alamat IP"
+
+msgid "ユーザーエージェント"
+msgstr "Agens Pengguna"
+
+msgid "イベント"
+msgstr "Acara"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Tiada data untuk alamat IP ini"
+
+msgid "EU GDPR対応"
+msgstr "Pematuhan kepada GDPR EU"
+
+msgid "無効"
+msgstr "Tidak sah"
+
+msgid "有効"
+msgstr "Sah"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Jika anda menggunakan WordPress di dalam EU, atau jika laman web anda menyasarkan pengguna di dalam EU, sila pastikan ini diaktifkan."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Butang 'Konfirmasi' akan berubah menjadi 'Setuju' atau 'Tidak Setuju', dan kelakuannya akan berubah sedikit."
+
+msgid "同意画面の色"
+msgstr "Warna skrin persetujuan"
+
+msgid "自動"
+msgstr "Otomatik"
+
+msgid "ライトモード"
+msgstr "Mod ringan"
+
+msgid "ダークモード"
+msgstr "Mod Gelap"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Tetapkan skema warna untuk skrin persetujuan"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Penyamaran kandungan pada skrin persetujuan"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Tetapkan tahap pengaburan untuk kandungan yang dipaparkan pada skrin persetujuan"
+
+msgid "同意画面の透過"
+msgstr "Keterbukaan skrin persetujuan"
+
+msgid "透過なし"
+msgstr "Tiada ketelusan"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Tetapkan ketelusan skrin persetujuan"
+
+msgid "お知らせの1行目"
+msgstr "Baris pertama pengumuman"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Mesej ini sentiasa dipaparkan pada kali pertama halaman dimuatkan."
+
+msgid "お知らせの2行目"
+msgstr "Baris kedua notis itu"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Mesej ini akan sentiasa muncul pada paparan pertama hanya apabila EU GDPR berkuat kuasa."
+
+msgid "お知らせの3行目"
+msgstr "Baris ketiga pemberitahuan itu"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ia akan muncul di sebelah kanan pautan kepada Dasar Privasi."
+
+msgid "非EU向け確認の文字列"
+msgstr "Teks pengesahan untuk negara bukan EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Teks persetujuan untuk EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Teks untuk 'Jangan bersetuju' di bawah EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Teks dasar privasi"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Sila tetapkan URL untuk dasar privasi di sini."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Sila tambah yang berikut ke dalam Dasar Privasi."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Untuk mengesan aktiviti penipuan, pengecam seperti alamat IP disimpan dalam kuki dan pangkalan data. Data yang disimpan akan dipadam mengikut budi bicara pentadbir."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Untuk memastikan imej dihantar dengan betul hanya apabila perlindungan imej diaktifkan, kami menyimpan data hashed yang merangkumi alamat IP dan nama fail imej dalam pangkalan data selama sehingga 60 minit."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Jika anda menyediakan Terma Penggunaan, sila pastikan anda menyertakan pautan kepadanya dalam Dasar Privasi anda."
+
+msgid "利用規約の文字列"
+msgstr "Teks Terma Penggunaan"
+
+msgid "利用規約のページ"
+msgstr "Halaman Terma dan Syarat"
+
+msgid "ページ選択なし"
+msgstr "Tiada halaman dipilih"
+
+msgid "検索エンジン等のURL"
+msgstr "URL untuk enjin carian, dan sebagainya."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Tetapkan URL untuk enjin carian dan laman serupa yang mengalihkan pengguna apabila kebenaran tidak diberikan"
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mod penyahpepijat, mesej amaran konsol"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Tetingkap amaran klik kanan"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Mesej amaran mengenai mencetak dan menyimpan sebagai PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Mesej amaran dalam tangkapan skrin"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Mesej amaran mengenai tangkapan skrin yang disyaki"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Mesej amaran apabila semua teks dipilih"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Pesan amaran mengenai penyimpanan halaman"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Mesej yang dipaparkan semasa menyalin atau memotong"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Mesej untuk dipaparkan apabila melihat sumber HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Mesej untuk dipaparkan di bahagian atas kod sumber apabila mengaburkan atau melindungi HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Mesej untuk dipaparkan jika token pengesahan sekali guna tidak sah semasa perlindungan HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Mesej untuk dipaparkan jika kuki atau JavaScript dilumpuhkan"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Sebenarnya, ini hanya dipaparkan apabila JavaScript dilumpuhkan."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Apabila imej dilindungi, ia dimuat turun dan mesej akan dipaparkan pada imej tersebut"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Pengaburan HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ini adalah pemampatan HTML standard; terdapat juga laman web yang boleh menyahsandi semula."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Mengaktifkan pilihan ini membolehkan anda mendapatkan log sumber tontonan."
+
+msgid "HTML保護"
+msgstr "Pelindung HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ia menghasilkan HTML yang lebih sedikit daripada tetapan pemampatan HTML, bermakna kandungan dalam tag BODY langsung tidak akan dikeluarkan."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Ini tidak terpakai kepada Firefox"
+
+msgid "SEOに著しく影響があります"
+msgstr "Ini mempunyai kesan yang ketara terhadap SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Menyusun HTML menggunakan JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Untuk mengatasi sekatan Firefox, kami menjana HTML menggunakan JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Mengaktifkan render JavaScript akan memperlahankan dengan ketara kelajuan pemuatan laman web."
+
+msgid "画像の保護"
+msgstr "Pelindung imej"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Lindungi imej setiap kali tag img dipanggil"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Lindungi semua imej yang dimuat naik ke WordPress dalam keseluruhan keluaran HTML."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Melindungi imej daripada dimuat turun"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Apabila data imej dilindungi, kami menghalang hampir semua muat turun, mengeluarkan URL sekali guna yang unik, mengesahkan menggunakan token yang disimpan dalam sesi, dan memaparkan imej melalui PHP; ini secara berkesan menghalang hampir semua kes kecurian imej."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Apabila data imej dilindungi, penimbalan tidak berfungsi, yang bermakna laman web akan memuat lebih perlahan pada lawatan seterusnya, sekali gus menjejaskan SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Melindungi data imej mungkin meningkatkan beban pada pangkalan data."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Jika anda memilih 'Lindungi imej setiap kali tag img dipanggil', sistem akan menggunakan add_filter untuk menerapkan penapisan apabila tag img dijana; bagaimanapun, ini mungkin tidak berfungsi dengan betul pada beberapa tema."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Jika anda memilih 'Lindungi semua imej yang dimuat naik ke WordPress dalam keseluruhan keluaran HTML', pemalam ini akan merakam hampir semua operasi WordPress dan memproses setiap tag img dalam kandungan. Sila ambil perhatian bahawa ini mungkin tidak berfungsi dengan betul pada beberapa tema."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Sila ambil perhatian bahawa imej yang ditetapkan sebagai imej unggulan akan dikongsi sebagai data OGP dan tidak dapat dilindungi. Jika anda benar-benar perlu melindunginya, sila ubah tetapan keluaran tag HEAD dalam tetapan lanjutan apabila mengaktifkan perlindungan HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Fungsi tangkapan skrin yang disertakan sebagai standard dalam sistem pengendalian tidak dapat dilindungi."
+
+msgid "画像URLの保護"
+msgstr "Melindungi URL imej"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Ini harus digunakan bersama pelindung imej; jika digunakan sendiri, ia tidak mempunyai sebarang tujuan."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Oleh kerana ia dimuat secara malas melalui JavaScript, ini menjejaskan SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Air tanda imej"
+
+msgid "右下"
+msgstr "Bawah kanan"
+
+msgid "ランダム位置"
+msgstr "Posisi rawak"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Digunakan bersama perlindungan imej, tanda air dinamik jelas menunjukkan pemilikan hak cipta sambil memberi kesan kepada penonton bahawa mereka dipantau, sekaligus berfungsi sebagai penghalang."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Hanya format JPG, PNG dan WebP disokong."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Mengaktifkan ini akan meningkatkan beban pelayan."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Menghasilkan seni ASCII daripada kod sumber HTML semasa pengaburan dan perlindungan"
+
+msgid "表示なし"
+msgstr "Tiada paparan"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Menunjukkan seni ASCII yang menandakan amaran apabila melihat sumber HTML menggunakan 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Tunjukkan reka bentuk apabila tindakan sasaran dilakukan"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Reka bentuk asas yang menampilkan teks hitam pada latar belakang kuning"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Reka bentuk gaya seram yang menampilkan teks merah pada latar belakang hitam"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Reka bentuk yang menampilkan teks merah menyala pada latar belakang hitam"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Musik latar yang dimainkan apabila tindakan sasaran dilakukan"
+
+msgid "サウンドなし"
+msgstr "Tiada bunyi"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Pertempuran & Kemenangan - 1 minit 16.3 saat - 630,056 bait - 64 kbps - Lesen: CC 2.1 atau lebih baru"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Ayah Pendek - 3.8 saat - 32,364 bait - 64 kbps - Lesen: GPL 2.0 atau kemudian"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 saat - 195,578 bait - 64 kbps - Lesen: GPL 2.0 atau kemudian"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – Versi dijana komputer, versi berkelajuan tinggi – 1 minit 57.6 saat – 724,457 bait – 48 kbps – Lesen: CC BY-ND 4.0 atau kemudian"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo dalam B mol minor, Op. 2 – Versi dijana komputer, versi ringkas berkelajuan tinggi – 1 minit 48.0 saat – 665,369 bait – 48 kbps – Lesen: CC BY-ND 4.0 atau kemudian"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Senarai: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 saat – 183,926 bait – 64 kbps – Lesen: Domain Awam"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare gaya retro – 2.2 saat – 10,536 bait – 32 kbps – Lesen: Domain Awam"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Intro gaya retro – 42.1 saat – 179,138 bait – 32 kbps – Lesen: Domain Awam"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Amaran oleh ChatGPT - 3.8 saat - 109,700 bait - 256 kbps - Lesen: Domain Awam"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Suara kecemasan tinggi seperti amaran pengesanan perisian hasad – Bahagian 1 oleh ChatGPT – 3.3 saat – 102,850 bait – 256 kbps – Lesen: Domain Awam"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Suara kecemasan tinggi seperti amaran pengesanan perisian hasad, Bahagian 2 oleh ChatGPT - 3.3 saat - 103,122 bait - 256 kbps - Lesen: Domain Awam"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Bunyi gaya MRI oleh ChatGPT – 1 minit 14.9 saat – 3,340,392 bait – 320 kbps – Lesen: Domain Awam"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Pilih muzik latar untuk dimainkan semasa amaran."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ia mencipta suasana yang mengejutkan"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Audio disekat dalam Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bunyi bip apabila tindakan yang ditetapkan dilaksanakan"
+
+msgid "有効 音量小さ目"
+msgstr "Dihidupkan, kelantangan rendah"
+
+msgid "有効 音量大き目"
+msgstr "Aktif, kelantangan ditetapkan pada tahap tinggi"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Bunyi bip akan kedengaran untuk semua acara kekunci dan tetikus sementara amaran dipaparkan."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Ia memberi kesan bahawa peranti telah menjadi tidak terkawal semasa amaran dipaparkan."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Menyembunyikan penunjuk tetikus apabila tindakan tertentu dilakukan"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Menyembunyikan penunjuk tetikus di kawasan pelayar semasa amaran dipaparkan."
+
+msgid "デバッグモード"
+msgstr "Mod periksa ralat"
+
+msgid "妨害＋記録のみ"
+msgstr "Gangguan + Rekod sahaja"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Gangguan + Logging + Paparan + Pengalihan"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Anda masih boleh mengaksesnya melalui menu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mod debug dalam Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsol pelayar"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Sebenarnya, anda boleh mengoperasikannya dalam mod nyahpepijat."
+
+msgid "HTMLソース表示"
+msgstr "Lihat sumber HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Anda boleh melaksanakan operasi itu dengan hanya memasukkan URL yang bermula dengan 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Anda boleh melindungi kandungan anda dengan menggabungkan ini dengan perlindungan HTML."
+
+msgid "印刷"
+msgstr "Cetak"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Walaupun ia menghalang pencetakan, ia mungkin tidak berfungsi dengan betul dalam beberapa pelayar."
+
+msgid "スクリーンショット"
+msgstr "Tangkapan skrin"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Bergantung pada sistem operasi, pelayar atau kaedah yang digunakan, mungkin tidak dapat menyekat ini, atau mungkin tidak dikesan."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Skrinshot yang disyaki apabila tetingkap bergerak ke latar belakang"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Ia juga bertindak balas terhadap fungsi selain tangkapan skrin"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Skrin tangkapan yang disyaki diambil dengan menekan dua kekunci"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Kaedah pengesanan bagi item-item di atas tidak sepenuhnya kebal; pengesanan dijalankan sebagai langkah berjaga-jaga."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ia mengesan bukan sahaja tangkapan skrin tetapi juga mod penyahpepijat dan seumpamanya."
+
+msgid "ページ保存"
+msgstr "Simpan halaman"
+
+msgid "右クリック"
+msgstr "Klik kanan"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Jika add-on telah dipasang, anda akan dapat menggunakannya."
+
+msgid "コピー・カット"
+msgstr "Salin dan potong"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Bergantung pada tetapan pemalam ini, anda mungkin jarang menemui peristiwa ini."
+
+msgid "テキスト全選択"
+msgstr "Pilih semua teks"
+
+msgid "テキスト選択"
+msgstr "Pilih teks"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Log permulaan penyahpepijat, gangguan penyahpepijat"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Ini menjadikan mod debug sedikit kurang mesra pengguna dan merekodkan bahawa penyahpepijat telah dilancarkan; bagaimanapun, sesetengah pelayar mungkin menyekat tingkah laku ini."
+
+msgid "リダイレクトするURL"
+msgstr "Alihkan URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Adalah idea yang baik untuk mengalihkan pengguna ke halaman seperti Terma Penggunaan."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Jika dibiarkan kosong, ia akan mengalihkan ke URL asal."
+
+msgid "リダイレクトまでの時間"
+msgstr "Masa sehingga penyaluran semula"
+
+msgid "リダイレクトなし"
+msgstr "Tiada penalaahan"
+
+msgid "1秒"
+msgstr "1 saat"
+
+msgid "2秒"
+msgstr "2 saat"
+
+msgid "3秒"
+msgstr "3 saat"
+
+msgid "4秒"
+msgstr "4 saat"
+
+msgid "5秒"
+msgstr "5 saat"
+
+msgid "6秒"
+msgstr "6 saat"
+
+msgid "7秒"
+msgstr "7 saat"
+
+msgid "8秒"
+msgstr "8 saat"
+
+msgid "9秒"
+msgstr "9 saat"
+
+msgid "10秒"
+msgstr "10 saat"
+
+msgid "15秒"
+msgstr "15 saat"
+
+msgid "20秒"
+msgstr "20 saat"
+
+msgid "25秒"
+msgstr "25 saat"
+
+msgid "30秒"
+msgstr "30 saat"
+
+msgid "35秒"
+msgstr "35 saat"
+
+msgid "40秒"
+msgstr "40 saat"
+
+msgid "45秒"
+msgstr "45 saat"
+
+msgid "50秒"
+msgstr "50 saat"
+
+msgid "55秒"
+msgstr "55 saat"
+
+msgid "1分"
+msgstr "1 minit"
+
+msgid "1分10秒"
+msgstr "1 minit 10 saat"
+
+msgid "1分20秒"
+msgstr "1 minit 20 saat"
+
+msgid "1分30秒"
+msgstr "1 minit 30 saat"
+
+msgid "1分40秒"
+msgstr "1 minit 40 saat"
+
+msgid "1分50秒"
+msgstr "1 minit 50 saat"
+
+msgid "2分"
+msgstr "2 minit"
+
+msgid "ソース表示を許可する権限"
+msgstr "Kebenaran untuk melihat kod sumber"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Keluaran sumber biasa hanya apabila log masuk sebagai ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Keluaran sumber biasa apabila log masuk sebagai USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Pilih sama ada output HTML standard dihadkan kepada pentadbir sahaja atau memerlukan log masuk pengguna."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Memaksa imej dimuat turun dan apa yang sebenarnya dimuat turun"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Imej telus 1×1 piksel dalam format GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Imej telus 1×1 piksel dalam format PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Skrin amaran dengan latar belakang kuning dalam format PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Dokumen HTML yang tidak bermakna"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Keluaran tag HEAD apabila HTML dilindungi"
+
+msgid "出力しない"
+msgstr "Jangan cetak"
+
+msgid "TITLEタグのみ"
+msgstr "Tag TITLE sahaja"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Diperoleh daripada tag HEAD WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Untuk halaman ahli guna korporat dan halaman dalaman, memilih 'Jangan keluarkan' atau 'Hanya tag TITLE' sudah memadai."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Kecuali anda mengambil maklumat daripada tag HEAD WordPress, imej OGP tidak akan muncul apabila dikongsi di media sosial."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Blokkan bot imej"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Dengan menghalang bot imej daripada mengakses HTML, anda boleh melindungi kandungan yang tidak dapat dilindungi daripada pautan terus melalui carian imej; bagaimanapun, ini tidak memberikan penyelesaian yang lengkap."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Blok akses ke bot latihan AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Dengan mengelakkan penggunaan bot yang direka untuk latihan AI pada HTML, kami memastikan kandungan tidak digunakan oleh AI; bagaimanapun, ini tidak dapat dielakkan sepenuhnya."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Blok akses ke arkib web dan tangkapan skrin web"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Kami melarang akses kepada arkib web yang dikumpul secara automatik dan tangkapan skrin yang diambil mengikut budi bicara pengguna; bagaimanapun, kami tidak dapat menghalangnya sepenuhnya."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Blok ejen pengguna yang tidak sah"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Menghalang akses jika rentetan ejen pengguna mengandungi aksara yang tidak sah"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Tunjukkan amaran apabila mengakses Internet Explorer dan Microsoft Edge lama"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Menghalang akses melalui Internet Explorer dan Microsoft Edge lama"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Bahasa di mana mesej amaran dipaparkan"
+
+msgid "Wordpressの言語"
+msgstr "Bahasa WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Tetapan bahasa pelayar"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Anda tidak boleh menukar bahasa jika mesej telah disesuaikan."
+
+msgid "同意画面の言語"
+msgstr "Bahasa skrin kebenaran"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Bahasa untuk memaparkan mesej 'view-source'."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Tarikh luput token sementara"
+
+msgid "3分"
+msgstr "3 minit"
+
+msgid "4分"
+msgstr "4 minit"
+
+msgid "5分"
+msgstr "5 minit"
+
+msgid "6分"
+msgstr "6 minit"
+
+msgid "7分"
+msgstr "7 minit"
+
+msgid "8分"
+msgstr "8 minit"
+
+msgid "9分"
+msgstr "9 minit"
+
+msgid "10分"
+msgstr "10 minit"
+
+msgid "15分"
+msgstr "15 minit"
+
+msgid "20分"
+msgstr "20 minit"
+
+msgid "25分"
+msgstr "25 minit"
+
+msgid "30分"
+msgstr "30 minit"
+
+msgid "35分"
+msgstr "35 minit"
+
+msgid "40分"
+msgstr "40 minit"
+
+msgid "45分"
+msgstr "45 minit"
+
+msgid "50分"
+msgstr "50 minit"
+
+msgid "55分"
+msgstr "55 minit"
+
+msgid "1時間"
+msgstr "1 jam"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Tetapkan tarikh luput untuk maklumat URL imej"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Setelah dimuat, URL imej dan token sementara akan dinyahaktifkan."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Imej dimuat mengikut permintaan, tetapi ia akan dimuat secara automatik 30 saat sebelum masa yang ditetapkan."
+
+msgid "一時使用トークンのビット数"
+msgstr "Bilangan bit dalam token sementara"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Token sementara digunakan sebagai kata laluan untuk menyulitkan maklumat URL imej; tetapan ini menentukan kekuatannya."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Walaupun pilihan yang dipaparkan di bawah menu lungsur menjadi lebih terperinci apabila anda menatal ke bawah, ini boleh meningkatkan beban pada pelayan dan mengakibatkan pemindahan jumlah data HTML yang lebih banyak."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritma hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token sementara digunakan sebagai kata laluan untuk menyulitkan maklumat URL imej; ini memerlukan penghashingan, dan tetapan ini menentukan kekuatan penghashingan tersebut."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Walaupun intensitinya meningkat apabila anda menatal ke bawah melalui pilihan yang dipaparkan dalam menu lungsur, ini membebankan pelayan dengan lebih besar."
+
+msgid "基本設定"
+msgstr "Tetapan asas"
+
+msgid "高度な設定"
+msgstr "Tetapan lanjutan"
+
+msgid "初期設定に戻す"
+msgstr "Pulihkan tetapan lalai"
+
+msgid "デザイン・音の設定"
+msgstr "Reka bentuk dan tetapan bunyi"
+
+msgid "イベントの設定"
+msgstr "Tetapan acara"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Menyiapkan pemberitahuan untuk lawatan pertama kali"
+
+msgid "メッセージの設定"
+msgstr "Tetapan mesej"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Tetapkan URL yang akan dibuka apabila klik kanan atau melihat kod sumber"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML tidak boleh digunakan dalam mesej amaran."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Jika anda mengkonfigurasikan ini pada skrin ini, tetapan bahasa dalam tab Lanjutan akan diabaikan."
+
+msgid "以下の文字列が使用できます"
+msgstr "Rangkaian berikut boleh digunakan"
+
+msgid "改行"
+msgstr "Pecah baris"
+
+msgid "押下されたキー"
+msgstr "Butang ditekan"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Tetapan Pelindung HTML Neo"
+
+msgid "お知らせ"
+msgstr "Notis"
+
+msgid "メッセージ"
+msgstr "Mesej"
+
+msgid "デザイン・音"
+msgstr "Reka Bentuk dan Bunyi"
+
+msgid "初期化"
+msgstr "Pengawalan awal"
+
+msgid "このプラグインについて"
+msgstr "Mengenai pemalam ini"
+
+msgid "設定が初期化されました"
+msgstr "Tetapan telah diset semula"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inisialisasi pemalam. Sila ambil perhatian bahawa data IP Log Reader tidak akan dipadam pada peringkat ini."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Tentang Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Plugin ini direka untuk melindungi HTML, imej dan kandungan lain yang dijana oleh laman WordPress anda, menjaganya daripada penggunaan tanpa kebenaran."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Mustahil untuk melindungi kandungan sepenuhnya. Walau bagaimanapun, dengan mengeluarkan amaran di mana boleh dan membuat persiapan sekiranya apa-apa berlaku, kita seharusnya dapat menyelesaikan perkara itu mengikut prosedur yang ditetapkan oleh kerajaan."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Sudah tentu, anda perlu memastikan terma perkhidmatan dan dasar laman anda menyeluruh. Walaupun pemalam ini bukan alat untuk menjana terma perkhidmatan, ia boleh memberikan beberapa panduan."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Pembangun: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versi"
+
+msgid "ビルド"
+msgstr "Membina"
+
+msgid "サポートページ"
+msgstr "Halaman sokongan"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Dilakonkan oleh Cik Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Permintaan sokongan"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Terima kasih kerana menggunakan Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Pembangunan dan penyelenggaraan plugin ini memerlukan banyak masa dan usaha, dan bagi mengumpul dana untuk terus memperbaiki serta mengemas kini, kami amat berterima kasih sekiranya sesiapa yang mampu menyokong kami mempertimbangkan untuk membuat sumbangan."
+
+msgid "寄付について"
+msgstr "Mengenai Derma"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Sumbangan adalah sepenuhnya sukarela dan tidak diwajibkan. Pemalam ini disediakan secara percuma untuk semua orang. Walau bagaimanapun, sokongan anda amat dihargai untuk membantu kami meneruskan pembangunan, dan kami akan berbesar hati jika anda dapat menyumbang walaupun sedikit."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Anda boleh membuat sumbangan melalui pautan di bawah. Jika anda berada di Jepun, anda boleh menyumbang secara percuma, dan anda juga boleh menyumbang dengan mudah menggunakan baucar hadiah Amazon."
+
+msgid "寄付先"
+msgstr "Pertubuhan kebajikan"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Dengan sokongan anda, kami akan berusaha sedaya upaya untuk terus membawa anda kemas kini yang hebat!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Kami berterima kasih atas sokongan anda dan menantikan sokongan berterusan anda pada masa hadapan."
+
+msgid "ライセンス"
+msgstr "Lesen"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Plugin ini dibangunkan sebagai perisian sumber terbuka dan dilesenkan di bawah GPLv2.0 atau versi kemudian."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Sesetengah teknologi yang disertakan dalam pemalam ini dilindungi oleh paten."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Penggunaan teknologi berpatent ini dibenarkan hanya dalam pemalam ini."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Untuk sebarang penggunaan lain, sila hubungi penulis untuk mendapatkan lesen komersial."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Plugin ini merangkumi pustaka-pustaka berikut"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Plugin ini merangkumi fon seni ASCII yang dijana di bawah, serta fail fon."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugin ini merangkumi muzik daripada permainan Super Famicom tidak rasmi 'SM Trainer Hitomi 3', dibangunkan oleh EJ Co., Ltd. dan digubah oleh pencipta plugin ini, serta dilisensikan secara rasmi."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugin ini merangkumi trek yang dihasilkan menggunakan 'Keppy's YAMAHA C7', dibangunkan oleh Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Saya juga telah menggunakan Raspberry Pi 5, ChatGPT dan DeepL dalam pembangunan pemalam ini."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugin penimbalan telah dikesan. Plugin ini tidak akan berfungsi dengan betul jika plugin penimbalan diaktifkan."
+
+msgid "無効なIPアドレス"
+msgstr "Alamat IP tidak sah"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Untuk menggunakan laman web ini, anda mesti mengaktifkan kuki dan JavaScript."
+
+msgid "利用規約"
+msgstr "Syarat Penggunaan"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Untuk mengelakkan penggunaan tanpa kebenaran dan memastikan operasi perkhidmatan kami selamat, laman web ini mungkin menyimpan maklumat seperti alamat IP, sejarah pelayaran dan log aktiviti dalam kuki dan pangkalan data. Maklumat ini digunakan semata-mata untuk operasi laman web dan untuk tujuan undang-undang, dan tidak akan didedahkan kepada pihak ketiga."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Untuk menggunakan perkhidmatan ini, anda mesti memberi persetujuan terhadap aktiviti pemprosesan ini."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Anda boleh melihat kandungan Polisi Privasi tanpa mengira sama ada anda telah memberikan persetujuan anda."
+
+msgid "同意する"
+msgstr "Saya bersetuju"
+
+msgid "同意しない"
+msgstr "Saya tidak bersetuju"
+
+msgid "確認"
+msgstr "Pengesahan"
+
+msgid "プライバシーポリシー"
+msgstr "Dasar Privasi"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Akses atau aktiviti luar biasa telah dikesan"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Sesetengah ciri telah dihadkan untuk tujuan keselamatan dan perlindungan kandungan."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mod penyahpepijat dan akses konsol telah dilumpuhkan."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Maklumat berikut telah dihantar ke pelayan"
+
+msgid "あなたのIPアドレス"
+msgstr "Alamat IP anda"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Peranti dan pelayar anda"
+
+msgid "あなたの押下したキー"
+msgstr "Kunci yang anda tekan"
+
+msgid "リダイレクトをします"
+msgstr "Anda akan dialihkan"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Sesetengah ciri telah dihadkan untuk melindungi kandungan."
+
+msgid "右クリックは禁止されています"
+msgstr "Klik kanan tidak dibenarkan"
+
+msgid "あなたが押下したキー"
+msgstr "Kunci yang anda tekan"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Mencetak dan menyimpan sebagai PDF adalah dilarang."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Skrinshot dilarang."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Mengambil tangkapan skrin dan mengaktifkan mod debug adalah dilarang."
+
+msgid "ページの保存は禁止されています"
+msgstr "Menyimpan halaman ini dilarang"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Menyalin dan memotong adalah dilarang."
+
+msgid "あなたが起こしたイベント"
+msgstr "Acara yang telah anda atur"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Memilih teks tidak dibenarkan"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Menampilkan kod sumber HTML adalah dilarang."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Akses tanpa kebenaran adalah dilarang."
+
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aranés"
+
+msgid "アラビア語"
+msgstr "Arab"
+
+msgid "アッサム語"
+msgstr "Assamী"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belarusia"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgaria"
+
+msgid "ボスニア語"
+msgstr "Bosnia"
+
+msgid "カタロニア語"
+msgstr "Katalon"
+
+msgid "チェコ語"
+msgstr "Ceko"
+
+msgid "ウェールズ語"
+msgstr "Wales"
+
+msgid "デンマーク語"
+msgstr "Denmark"
+
+msgid "ドイツ語"
+msgstr "Jerman"
+
+msgid "現代ギリシア語"
+msgstr "Bahasa Yunani moden"
+
+msgid "英語"
+msgstr "Inggeris"
+
+msgid "イギリス英語"
+msgstr "British English"
+
+msgid "アメリカ英語"
+msgstr "Bahasa Inggeris Amerika"
+
+msgid "エスペラント語"
+msgstr "Bahasa Esperanto"
+
+msgid "スペイン語"
+msgstr "Sepanyol"
+
+msgid "エストニア語"
+msgstr "Estonia"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Parsi"
+
+msgid "フィンランド語"
+msgstr "Finnis"
+
+msgid "フランス語"
+msgstr "Perancis"
+
+msgid "アイルランド語"
+msgstr "Irlandis"
+
+msgid "ガリシア語"
+msgstr "Galicia"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Ibrani"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroasia"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyòl Haiti"
+
+msgid "ハンガリー語"
+msgstr "Hungaria"
+
+msgid "インドネシア語"
+msgstr "Indonesia"
+
+msgid "イボ語"
+msgstr "Bahasa Ibo"
+
+msgid "アイスランド語"
+msgstr "Islandic"
+
+msgid "イタリア語"
+msgstr "Itali"
+
+msgid "日本語"
+msgstr "Jepun"
+
+msgid "ジャワ語"
+msgstr "Jawa"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Korea"
+
+msgid "クルド語"
+msgstr "Kurdish"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgis"
+
+msgid "リンガラ語"
+msgstr "Molimo"
+
+msgid "リトアニア語"
+msgstr "Lithuania"
+
+msgid "ラトビア語"
+msgstr "Latvia"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Macedonia"
+
+msgid "マラヤーラム語"
+msgstr "Bahasa Malayalam"
+
+msgid "モンゴル語"
+msgstr "Bahasa Mongolia"
+
+msgid "マラーティー語"
+msgstr "Bahasa Marathi"
+
+msgid "マレー語"
+msgstr "Melayu"
+
+msgid "マルタ語"
+msgstr "Maltese"
+
+msgid "ビルマ語"
+msgstr "Burmese"
+
+msgid "ネパール語"
+msgstr "Nepali"
+
+msgid "ノルウェー語"
+msgstr "Norwegia"
+
+msgid "オランダ語"
+msgstr "Belanda"
+
+msgid "オック語"
+msgstr "Okitan"
+
+msgid "オロモ語"
+msgstr "Atau"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Mengilat"
+
+msgid "パシュトー語"
+msgstr "پشتو"
+
+msgid "ポルトガリア語"
+msgstr "Portugis"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugis Brazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugis Eropah"
+
+msgid "ケチュア語"
+msgstr "Tukang"
+
+msgid "ルーマニア語"
+msgstr "Rumania"
+
+msgid "ロシア語"
+msgstr "Rusia"
+
+msgid "サンスクリット語"
+msgstr "Bahasa Sansekerta"
+
+msgid "スロバキア語"
+msgstr "Slovak"
+
+msgid "スロベニア語"
+msgstr "Slovenia"
+
+msgid "セルビア語"
+msgstr "Serbia"
+
+msgid "南セソト語"
+msgstr "Selesea ea Sehlohlolo"
+
+msgid "スンダ語"
+msgstr "Sunda"
+
+msgid "スウェーデン語"
+msgstr "Swedia"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Thai"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Bahasa Tagalog"
+
+msgid "トルコ語"
+msgstr "Turki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukraine"
+
+msgid "ウルドゥー語"
+msgstr "Bahasa Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbek"
+
+msgid "ベトナム語"
+msgstr "Vietnamese"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Yiddish"
+
+msgid "簡体中国語"
+msgstr "Bahasa Cina Ringkas"
+
+msgid "繁体中国語"
+msgstr "Bahasa Cina tradisional"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Pelayar yang anda gunakan kini adalah versi lama yang tidak lagi disokong. Untuk memastikan pengalaman melayari yang lebih selamat dan selesa, sila kemas kini pelayar anda ke versi terkini."
+
+msgid "不正なリクエストです"
+msgstr "Permintaan tidak sah"
+
+msgid "画像が見つかりません"
+msgstr "Imej tidak ditemui"
+

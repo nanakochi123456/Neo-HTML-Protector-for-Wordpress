@@ -1,0 +1,1292 @@
+# Haitian Creole translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 03:33+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Haitian Creole\n"
+"Language: ht\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Aranjman"
+
+msgid "IPログリーダー"
+msgstr "Lektè Jounal IP"
+
+msgid "IPアドレスログ"
+msgstr "Jounal adrès IP"
+
+msgid "全クリア"
+msgstr "Konplete tout nivo yo"
+
+msgid "IPログが全て削除されました"
+msgstr "Tout jounal IP yo efase."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Mak tan"
+
+msgid "IPアドレス"
+msgstr "Adrès IP"
+
+msgid "ユーザーエージェント"
+msgstr "Ajan itilizatè"
+
+msgid "イベント"
+msgstr "Evènman"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Pa gen done pou adrès IP a."
+
+msgid "EU GDPR対応"
+msgstr "Konfòmite ak GDPR Inyon Ewopeyèn nan"
+
+msgid "無効"
+msgstr "Envayid"
+
+msgid "有効"
+msgstr "Valab"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Si w ap itilize WordPress nan Inyon Ewopeyen an, oswa si sitwèb ou vize itilizatè nan Inyon Ewopeyen an, tanpri asire w ke sa a aktive."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bouton 'Konfime' a ap chanje pou 'Akò' oswa 'Pa dakò', epi konpòtman an ap chanje yon ti kras."
+
+msgid "同意画面の色"
+msgstr "Koulè ekran konsantman an"
+
+msgid "自動"
+msgstr "Otomatik"
+
+msgid "ライトモード"
+msgstr "Mòd klè"
+
+msgid "ダークモード"
+msgstr "Mòd Fènwa"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Mete konbinezon koulè pou ekran konsantman an"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Flou kontni sou ekran konsantman an"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Ajiste nivo flou pou kontni ki parèt sou ekran konsantman an"
+
+msgid "同意画面の透過"
+msgstr "Transparans ekran konsantman an"
+
+msgid "透過なし"
+msgstr "Pa gen transparans"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Mete opasite ekran konsantman an"
+
+msgid "お知らせの1行目"
+msgstr "Premye liy anons la"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Mesaj sa a toujou parèt premye fwa paj la chaje."
+
+msgid "お知らせの2行目"
+msgstr "Dezyèm liy avi a"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Mesaj sa a ap toujou parèt sou premye afichaj la sèlman lè GDPR Inyon Ewopeyen an an vigè."
+
+msgid "お知らせの3行目"
+msgstr "Twazyèm liy avi a"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Li pral parèt sou bò dwat lyen Règleman sou Konfidansyalite a."
+
+msgid "非EU向け確認の文字列"
+msgstr "Tèks konfimasyon pou peyi ki pa nan Inyon Ewopeyen an"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Tèks konsantman pou GDPR Inyon Ewopeyen an"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Tèks pou 'Pa bay konsantman' anba GDPR Inyon Ewopeyen an"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Tèks politik konfidansyalite"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Tanpri mete URL pou politik konfidansyalite a isit la."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Tanpri ajoute sa ki annapre nan Règleman sou Konfidansyalite a."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Pou detekte aktivite fwod, idantifyan tankou adrès IP yo estoke nan cookies ak baz done. Done ki estoke yo efase selon diskresyon administratè a."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Pou asire imaj yo delivre kòrèkteman sèlman lè pwoteksyon imaj la aktive, nou estoke done haché ki gen adrès IP a ak non fichye imaj la nan baz done a pou jiska 60 minit."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Si w ap mete sou pye Kondisyon Itilizasyon, tanpri asire w ou mete yon lyen ki mennen nan yo nan Règleman sou Konfidansyalite w la."
+
+msgid "利用規約の文字列"
+msgstr "Tèks Kondisyon Itilizasyon yo"
+
+msgid "利用規約のページ"
+msgstr "Paj Tèm ak Kondisyon"
+
+msgid "ページ選択なし"
+msgstr "Pa gen paj ki chwazi"
+
+msgid "検索エンジン等のURL"
+msgstr "URL pou motè rechèch, elatriye."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Etabli URL pou motè rechèch ak sit ki sanble ki redirije itilizatè yo lè yo pa bay konsantman."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mòd debogaj, mesaj avètisman sou konsòl la"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Mesaj avètisman klike dwat"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Mesaj avètisman konsènan enprime ak anrejistre kòm PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Mesaj avètisman nan kapti ekran an"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Mesaj avètisman konsènan foto ekran sispèk"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Mesaj avètisman lè tout tèks la seleksyone"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Mesaj avètisman konsènan anrejistreman paj la"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Mesaj ki parèt lè w ap kopye oswa koupe"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Mesaj pou afiche lè w ap gade kòd sous HTML la."
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Mesaj pou afiche anlè kòd sous la lè w ap obfuskate oswa pwoteje HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Mesaj pou afiche si jeton otantifikasyon yon sèl fwa a pa valab pandan pwoteksyon HTML la."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Mesaj pou afiche si cookie oswa JavaScript dezaktive"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "An reyalite, sa a sèlman parèt lè JavaScript dezaktive."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Lè yon imaj pwoteje, li telechaje epi yon mesaj parèt sou imaj la"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Obfwasyon HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Sa a se konpresyon HTML estanda; genyen tou sit entènèt ki ka dechifre li."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Lè w aktive opsyon sa a, sa pèmèt ou rekipere jounal sous vizyalizasyon an."
+
+msgid "HTML保護"
+msgstr "Pwoteksyon HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Li pwodui sèlman HTML ki pi minimòm lan—menm mwens pase lè w ap itilize konpresyon HTML—epi kontni ki nan etikèt BODY a pap parèt ditou."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Sa a pa aplike pou Firefox"
+
+msgid "SEOに著しく影響があります"
+msgstr "Sa gen yon enpak siyifikatif sou SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Rendè HTML ak JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Pou kontoune Firefox, nou rande HTML la ak JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Pèmèt JavaScript rande ap ralanti anpil vitès chajman sit wèb la."
+
+msgid "画像の保護"
+msgstr "Pwoteksyon imaj"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Pwoteje imaj la chak fwa yo rele etikèt img la."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Pwoteje tout imaj telechaje sou WordPress nan tout pwodiksyon HTML la."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Pwoteje imaj pou yo pa telechaje yo"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Lè done imaj yo pwoteje, nou prèske konplètman anpeche telechajman, nou bay URL inik pou yon sèl fwa, nou otantifye ak jeton ki estoke nan sesyon an, epi nou afiche imaj yo atravè PHP; sa a efektivman anpeche vòl imaj."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Lè done imaj yo pwoteje, kachaj pa mache, sa vle di sit la ap chaje pi dousman nan vizit ki vin apre yo, konsa li afekte SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Pwoteje done imaj yo ka ogmante chaj sou baz done a."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Si ou chwazi 'Pwoteje imaj chak fwa yo rele yon etikèt img', sistèm nan itilize add_filter pou aplike filtraj lè etikèt img la jenere; sepandan, sa ka pa mache kòrèkteman ak kèk tèm."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Si ou chwazi 'Pwoteje tout imaj telechaje sou WordPress nan tout pwodiksyon HTML la', plugin nan ap kaptire prèske tout operasyon WordPress epi trete chak etikèt img nan kontni an. Tanpri sonje ke sa ka pa fonksyone kòrèkteman ak kèk tèm."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Tanpri note ke imaj ki deziyen kòm imaj vedèt yo pral pataje kòm done OGP e yo pa ka pwoteje. Si ou absoliman bezwen pwoteje yo, tanpri chanje paramèt pou pwodiksyon etikèt HEAD nan paramèt avanse lè w ap aktive pwoteksyon HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Fonksyon kaptire ekran ki enkli kòm estanda nan sistèm operasyon an pa ka pwoteje"
+
+msgid "画像URLの保護"
+msgstr "Pwoteje URL imaj yo"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Sa a dwe itilize ansanm ak pwoteksyon imaj; poukont li, li pa gen okenn itilite."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Kòm li chaje parese atravè JavaScript, sa afekte SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Filigran imaj"
+
+msgid "右下"
+msgstr "Anba adwat"
+
+msgid "ランダム位置"
+msgstr "Pozisyon o aza"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Lè yo itilize ansanm ak pwoteksyon imaj, filigran dinamik yo endike klèman pwopriyetè dwa otè a pandan y ap bay moun k ap gade yo enpresyon ke y ap siveye, konsa yo sèvi kòm yon faktè dekourajan."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Se sèlman fòma JPG, PNG ak WebP ki sipòte."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Lè w aktive sa a, sa ap ogmante chaj sou sèvè a."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Pwodui atizay ASCII apati kòd sous HTML pandan obfuskasyon ak pwoteksyon HTML"
+
+msgid "表示なし"
+msgstr "Pa gen afichaj"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Afiche atizay ASCII ki endike yon avètisman lè w ap gade kòd sous HTML la ak 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Afiche konsepsyon an lè aksyon sib la fèt."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Yon konsepsyon debaz ki gen tèks nwa sou yon fon jòn."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Yon konsepsyon stil laterè ki gen tèks wouj sou yon fon nwa."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Yon konsepsyon ki gen tèks wouj ki klere sou yon fon nwa"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Mizik an fon ki jwe lè aksyon sib la fèt"
+
+msgid "サウンドなし"
+msgstr "Pa gen son"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Batay & Viktwa - 1 minit 16.3 segonn - 630,056 bytes - 64 kbps - Lisans: CC 2.1 oswa pita"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Papa Kout - 3.8 segonn - 32,364 bytes - 64 kbps - Lisans: GPL 2.0 oswa pita"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 segonn - 195,578 bytes - 64 kbps - Lisans: GPL 2.0 oswa pita"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – Vèsyon òdinatè, vèsyon gwo vitès – 1 minit 57.6 segonn – 724,457 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo an Si bèmòl mine, Op. 2 – Vèsyon jenere pa òdinatè, vèsyon rezime a gwo vitès – 1 minit 48.0 segonn – 665,369 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lis: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – vèsyon òdinatè, vèsyon kout a gwo vitès – 1 minit 51.6 segonn – 687,586 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 segonn – 183,926 bytes – 64 kbps – Lisans: Domèn piblik"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfè stil retro – 2.2 segonn – 10,536 bytes – 32 kbps – Lisans: Domèn piblik"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Entwodiksyon stil retro – 42.1 segonn – 179,138 bytes – 32 kbps – Lisans: Domèn piblik"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Avètisman pa ChatGPT - 3.8 segonn - 109,700 bytes - 256 kbps - Lisans: Domèn piblik"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Yon son ijans wo tankou yon alèt deteksyon malveyan – Pati 1 pa ChatGPT – 3.3 segonn – 102,850 bytes – 256 kbps – Lisans: Domèn piblik"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Yon son ijans wo tankou yon alèt deteksyon malveyan, Pati 2 pa ChatGPT - 3.3 segonn - 103,122 bytes - 256 kbps - Lisans: Domèn Piblik"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Son stil MRI pa ChatGPT – 1 minit 14.9 segonn – 3,340,392 bytes – 320 kbps – Lisans: Domèn Piblik"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Chwazi mizik fon an pou jwe pandan yon avètisman."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Li kreye yon atmosfè siprizan."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Odyo bloke nan Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Yon bip lè aksyon espesifye a fèt"
+
+msgid "有効 音量小さ目"
+msgstr "Mete l, volim ba"
+
+msgid "有効 音量大き目"
+msgstr "Aktif, volim la wo"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Yon bip ap sonnen pou reponn tout evènman kle ak sourit pandan y ap afiche yon avètisman."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Sa kreye enpresyon ke aparèy la ap fonksyone san kontwòl pandan avètisman an ap parèt."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Kache kousè sourit la lè yon aksyon espesifik fèt"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Kache koursè sourit la nan zòn navigatè a pandan y ap afiche yon avètisman."
+
+msgid "デバッグモード"
+msgstr "Mòd debogaj"
+
+msgid "妨害＋記録のみ"
+msgstr "Entèferans + Rekò sèlman"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Entèferans + Anrejistreman + Afichaj + Redireksyon"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ou ka toujou jwenn aksè a li atravè meni an."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mòd debogaj nan Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsole navigatè"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "An reyalite, ou ka opere li nan mòd debogaj."
+
+msgid "HTMLソース表示"
+msgstr "Gade sous HTML la"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ou ka fè operasyon an tou senpleman lè w antre yon URL ki kòmanse ak 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Ou ka pwoteje kontni ou lè w konbine sa a ak pwoteksyon HTML."
+
+msgid "印刷"
+msgstr "Enprime"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Malgre li anpeche enprime, li ka pa fonksyone kòrèkteman nan kèk navigatè."
+
+msgid "スクリーンショット"
+msgstr "Kaptire ekran"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Dapre sistèm operasyon an, navigatè a oswa metòd ki itilize a, li ka pa posib pou bloke sa a, oswa li ka pa detekte."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Sispèk kapti ekran lè fenèt la deplase nan background la"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Li reponn tou a fonksyon ki pa fè ekran"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Sispèk kapti ekran ki pran lè w peze de kle"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Metòd deteksyon pou atik ki mansyone pi wo a pa konplètman fyab; deteksyon an fèt kòm yon mezi prekosyon."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Li detekte pa sèlman kapti ekran, men tou mòd debogaj ak bagay konsa."
+
+msgid "ページ保存"
+msgstr "Sove paj la"
+
+msgid "右クリック"
+msgstr "Klike dwat"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Si ekstansyon an enstale, w ap kapab itilize li."
+
+msgid "コピー・カット"
+msgstr "Kopi epi koupe"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Dapre paramèt plugin sa a, ou ka raman rankontre evènman sa a."
+
+msgid "テキスト全選択"
+msgstr "Chwazi tout tèks la"
+
+msgid "テキスト選択"
+msgstr "Chwazi tèks"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Jounal demaraj debogè, entèferans debogè"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Sa fè mòd debogaj la yon ti kras mwens fasil pou itilizatè a epi li anrejistre lefèt ke debogè a te lanse; sepandan, kèk navigatè ka bloke konpòtman sa a."
+
+msgid "リダイレクトするURL"
+msgstr "Redireksyone URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Li ta yon bon lide pou redirije itilizatè yo sou paj tankou Kondisyon Itilizasyon yo."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Si li rete vid, li pral redirije sou URL orijinal la."
+
+msgid "リダイレクトまでの時間"
+msgstr "Tan pou redireksyon"
+
+msgid "リダイレクトなし"
+msgstr "Pa gen redireksyon"
+
+msgid "1秒"
+msgstr "1 segonn"
+
+msgid "2秒"
+msgstr "2 segonn"
+
+msgid "3秒"
+msgstr "3 segonn"
+
+msgid "4秒"
+msgstr "4 segonn"
+
+msgid "5秒"
+msgstr "5 segonn"
+
+msgid "6秒"
+msgstr "6 segonn"
+
+msgid "7秒"
+msgstr "Sèt segonn"
+
+msgid "8秒"
+msgstr "8 segonn"
+
+msgid "9秒"
+msgstr "9 segonn"
+
+msgid "10秒"
+msgstr "10 segonn"
+
+msgid "15秒"
+msgstr "15 segonn"
+
+msgid "20秒"
+msgstr "20 segonn"
+
+msgid "25秒"
+msgstr "25 segonn"
+
+msgid "30秒"
+msgstr "30 segonn"
+
+msgid "35秒"
+msgstr "35 segonn"
+
+msgid "40秒"
+msgstr "40 segonn"
+
+msgid "45秒"
+msgstr "45 segonn"
+
+msgid "50秒"
+msgstr "50 segonn"
+
+msgid "55秒"
+msgstr "Senkant-senk segonn"
+
+msgid "1分"
+msgstr "1 minit"
+
+msgid "1分10秒"
+msgstr "1 minit 10 segonn"
+
+msgid "1分20秒"
+msgstr "1 minit 20 segonn"
+
+msgid "1分30秒"
+msgstr "1 minit 30 segonn"
+
+msgid "1分40秒"
+msgstr "1 minit 40 segonn"
+
+msgid "1分50秒"
+msgstr "1 minit 50 segonn"
+
+msgid "2分"
+msgstr "2 minit"
+
+msgid "ソース表示を許可する権限"
+msgstr "Pèmisyon pou wè kòd sous la"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Sòti nòmal la sèlman lè w konekte kòm ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Sòti nòmal sòs la lè w konekte kòm USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Chwazi si sòti HTML estanda a limite pou administratè sèlman oswa si li mande itilizatè a konekte."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Fòse telechajman yon imaj ak sa ki aktyèlman telechaje"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Yon imaj transparan 1×1 piksèl nan fòma GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Yon imaj transparan 1×1 piksèl nan fòma PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Yon ekran avètisman ak yon fon jòn nan fòma PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Yon dokiman HTML san sans"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Sòti etikèt HEAD la lè HTML pwoteje"
+
+msgid "出力しない"
+msgstr "Pa enprime"
+
+msgid "TITLEタグのみ"
+msgstr "Etikèt TIT sèlman"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Rekipere nan etikèt HEAD WordPress la"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pou paj pou itilizasyon korporativ ki rezève pou manm sèlman ak paj entèn yo, chwazi 'Pa afiche' oswa 'Etikèt TITLE sèlman' ta dwe sifi."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Sòf si ou rekipere enfòmasyon an nan baliz HEAD WordPress la, imaj OGP la pap parèt lè w pataje sou rezo sosyal yo."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Bloke bot imaj la"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Lè w anpeche bot imaj jwenn aksè ak HTML, ou ka pwoteje kontni ki pa t ka pwoteje kont lyen dirèk atravè rechèch imaj; sepandan, sa pa bay yon solisyon konplè."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Bloke aksè a bòt fòmasyon AI a"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Lè nou evite itilize bot ki fèt pou fòmasyon AI sou HTML, nou asire ke AI pa itilize kontni an; sepandan, sa pa ka anpeche nèt."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Bloke aksè a achiv entènèt ak kaptire entènèt."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Nou entèdi aksè a achiv entènèt ki ranmase otomatikman ak kapti ekran itilizatè a pran selon diskresyon li; sepandan, nou pa ka anpeche sa nèt."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Bloke ajan itilizatè ki pa valab"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Anpeche aksè si chèn ajan itilizatè a gen karaktè ki pa valab."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Afiche yon avètisman lè w ap aksede Internet Explorer ak ansyen Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Anpeche aksè atravè Internet Explorer ak ansyen Microsoft Edge la."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lang kote mesaj alèt yo parèt"
+
+msgid "Wordpressの言語"
+msgstr "Lang WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Aranjman lang navigatè a"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ou pa ka chanje lang lan si mesaj yo te pèsonalize."
+
+msgid "同意画面の言語"
+msgstr "Lang ekran konsantman an"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lang pou afiche mesaj 'view-source' la"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Dat ekspirasyon jeton tanporè yo"
+
+msgid "3分"
+msgstr "3 minit"
+
+msgid "4分"
+msgstr "4 minit"
+
+msgid "5分"
+msgstr "5 minit"
+
+msgid "6分"
+msgstr "6 minit"
+
+msgid "7分"
+msgstr "Sèt minit"
+
+msgid "8分"
+msgstr "8 minit"
+
+msgid "9分"
+msgstr "9 minit"
+
+msgid "10分"
+msgstr "10 minit"
+
+msgid "15分"
+msgstr "15 minit"
+
+msgid "20分"
+msgstr "20 minit"
+
+msgid "25分"
+msgstr "25 minit"
+
+msgid "30分"
+msgstr "30 minit"
+
+msgid "35分"
+msgstr "35 minit"
+
+msgid "40分"
+msgstr "Katrevent minit"
+
+msgid "45分"
+msgstr "Karanndis minit"
+
+msgid "50分"
+msgstr "Senkant minit"
+
+msgid "55分"
+msgstr "Senkant-senk minit"
+
+msgid "1時間"
+msgstr "1 èdtan"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Mete dat ekspirasyon pou enfòmasyon URL imaj la."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Yon fwa chaje, URL imaj la ak jeton tanporè a ap vin envalid."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Imaj yo chaje sou demann, men y ap chaje otomatikman 30 segonn anvan lè ki espesifye a."
+
+msgid "一時使用トークンのビット数"
+msgstr "Kantite bit nan yon jeton tanporè"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Yon jeton tanporè itilize kòm modpas pou kripte enfòmasyon URL imaj la; paramèt sa a presize fòs li."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Malgre opsyon ki parèt anba meni dewoulan an vin pi detaye, sa ka mete yon gwo chay sou sèvè a epi lakòz yon gwo volim done HTML transfere."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritm hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Yon jeton tanporè itilize kòm modpas pou kripte enfòmasyon sou URL imaj la; sa mande pou fè hash, epi paramèt sa a detèmine fòs hash sa a."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Malgre entansite a ogmante pandan w ap desann nan opsyon ki parèt nan meni dewoulan an, sa mete yon pi gwo chaj sou sèvè a."
+
+msgid "基本設定"
+msgstr "Ajustman debaz"
+
+msgid "高度な設定"
+msgstr "Ajusteman avanse"
+
+msgid "初期設定に戻す"
+msgstr "Ranvèse chanjman yo"
+
+msgid "デザイン・音の設定"
+msgstr "Aranjman ak paramèt son"
+
+msgid "イベントの設定"
+msgstr "Aranjman evènman"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Konfigire notifikasyon pou premye vizit yo"
+
+msgid "メッセージの設定"
+msgstr "Aranjman mesaj"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Mete URL pou louvri lè w klike adwat oswa lè w ap gade kòd sous la."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML pa ka itilize nan mesaj avètisman."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Si ou konfigire sa sou ekran sa a, paramèt lang yo nan onglet Avanse a ap inyore."
+
+msgid "以下の文字列が使用できます"
+msgstr "Swiv kòd sa yo ka itilize"
+
+msgid "改行"
+msgstr "Liy kase"
+
+msgid "押下されたキー"
+msgstr "Kle peze"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Aranjman Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Nòt"
+
+msgid "メッセージ"
+msgstr "Mesaj"
+
+msgid "デザイン・音"
+msgstr "Konsepsyon ak Son"
+
+msgid "初期化"
+msgstr "Inisyalizasyon"
+
+msgid "このプラグインについて"
+msgstr "Konsènan plugin sa a"
+
+msgid "設定が初期化されました"
+msgstr "Anviwònman yo retabli."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inisyalize plugin nan. Tanpri note ke done IP Log Reader yo pap efase nan etap sa a."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Apwopo Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Plugin sa a fèt pou pwoteje HTML, imaj ak lòt kontni sit WordPress ou a jenere, epi pwoteje li kont itilizasyon san otorizasyon."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Li enposib pou pwoteje kontni an nèt. Sepandan, lè nou bay avètisman kèlkeswa kote sa posib epi fè preparasyon si nenpòt bagay ta rive, nou ta dwe kapab rezoud pwoblèm nan dapre pwosedi gouvènman an tabli."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Natirèlman, ou bezwen asire ke tèm itilizasyon ou ak politik sit ou yo konplè. Malgre plugin sa a pa yon zouti pou jenere tèm itilizasyon, li ka bay kèk konsèy."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Devlopè: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Vèsyon"
+
+msgid "ビルド"
+msgstr "Bati"
+
+msgid "サポートページ"
+msgstr "Paj sipò"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Pèfòme pa Madmwazèl Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Yon demann pou sipò"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Mèsi paske w ap itilize Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Devlopman ak antretyen plugin sa a te mande anpil tan ak efò, e pou nou ka ranmase lajan pou kontinye amelyore ak mete l ajou, nou ta rekonesan si nenpòt moun ki kapab sipòte nou ta konsidere fè yon don."
+
+msgid "寄付について"
+msgstr "Konsènan Don yo"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Don yo totalman volontè e yo pa obligatwa. Plugin nan disponib pou tout moun gratis. Sepandan, nou vrèman apresye sipò ou pou ede nou kontinye devlopman, e nou ta kontan anpil si ou ta kontribye kèlkeswa sa ou kapab."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Ou ka fè yon don atravè lyen ki anba a. Si w baze nan Japon, ou ka fè yon don san okenn frè, epi ou ka tou fasilman fè yon don ak kat kado Amazon."
+
+msgid "寄付先"
+msgstr "Òganizasyon charitab"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Avèk sipò ou, n ap fè tout sa n kapab pou n kontinye pote w bèl mizajou!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Nou rekonesan pou sipò ou e nou swete w kontinye sipòte nou nan lavni."
+
+msgid "ライセンス"
+msgstr "Lisans"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Plugin sa a devlope kòm yon lojisyèl sous louvri epi li gen lisans GPLv2.0 oswa yon vèsyon ki pi resan."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Kèk nan teknoloji ki enkli nan plugin sa a pwoteje pa patant."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Itilizasyon teknoloji patante a pèmèt sèlman andedan plugin sa a."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Pou nenpòt lòt itilizasyon, tanpri kontakte otè a pou jwenn yon lisans komèsyal."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Plugin sa a gen ladan l bibliyotèk sa yo"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Plugin sa a gen ladan l polis atizay ASCII yo ki te jenere anba a, ansanm ak fichye polis yo."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugin sa a gen ladan mizik ki soti nan jwèt Super Famicom ki pa ofisyèl 'SM Trainer Hitomi 3', devlope pa EJ Co., Ltd. epi konpoze pa kreyatè plugin sa a, e li gen yon lisans ofisyèl."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugin sa a gen ladan tras ki kreye ak 'Keppy's YAMAHA C7', devlope pa Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Mwen te itilize tou yon Raspberry Pi 5, ChatGPT ak DeepL nan devlopman plugin sa a."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Yo detekte yon plugin kach. Plugin sa a p ap fonksyone kòrèkteman si yon plugin kach aktive."
+
+msgid "無効なIPアドレス"
+msgstr "Adrès IP pa valab"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Pou w itilize sitwèb sa a, ou dwe aktive cookies ak JavaScript."
+
+msgid "利用規約"
+msgstr "Kondisyon Itilizasyon"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Pou anpeche itilizasyon san otorizasyon epi asire operasyon sekirize sèvis nou yo, sit entènèt sa a ka estoke enfòmasyon tankou adrès IP, istwa navigasyon ak jounal aktivite nan cookies ak baz done. Enfòmasyon sa yo itilize sèlman pou fonksyònman sit entènèt la ak pou rezon legal, epi yo pap divilge bay twazyèm pati."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Pou itilize sèvis sa a, ou dwe bay konsantman pou aktivite tretman sa yo."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Ou ka wè kontni Règleman sou Konfidansyalite a kèlkeswa si ou te bay konsantman ou oswa ou pa."
+
+msgid "同意する"
+msgstr "Mwen dakò"
+
+msgid "同意しない"
+msgstr "Mwen pa dakò"
+
+msgid "確認"
+msgstr "Konfimasyon"
+
+msgid "プライバシーポリシー"
+msgstr "Règleman sou Konfidansyalite"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Yo detekte yon aksè oswa yon aktivite ki pa nòmal."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Gen sèten karakteristik ki limite pou rezon sekirite ak pwoteksyon kontni."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mòd debogaj ak aksè nan konsòl la dezaktive"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Enfòmasyon sa a te voye bay sèvè a."
+
+msgid "あなたのIPアドレス"
+msgstr "Adrès IP ou"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Aparèy ou ak navigatè w"
+
+msgid "あなたの押下したキー"
+msgstr "Kle ou te peze a"
+
+msgid "リダイレクトをします"
+msgstr "W ap redirije"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Sèten karakteristik yo te limite pou pwoteje kontni an."
+
+msgid "右クリックは禁止されています"
+msgstr "Klike dwat pa pèmèt"
+
+msgid "あなたが押下したキー"
+msgstr "Kle ou te peze a"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Enprime ak anrejistre kòm PDF entèdi."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Fè foto ekran entèdi."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Fè kapti ekran ak aktive mòd debogaj entèdi."
+
+msgid "ページの保存は禁止されています"
+msgstr "Sove paj sa a entèdi"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopi ak koupe entèdi."
+
+msgid "あなたが起こしたイベント"
+msgstr "Evènman ou te òganize"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ou pa gen dwa seleksyone tèks la."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Li entèdi pou montre kòd sous HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Aksè san otorizasyon entèdi"
+
+msgid "アフリカーンス語"
+msgstr "Afrikanse"
+
+msgid "アラゴン語"
+msgstr "Aranway"
+
+msgid "アラビア語"
+msgstr "Arawb"
+
+msgid "アッサム語"
+msgstr "Asamè"
+
+msgid "アゼルバイジャン語"
+msgstr "Azèbayidjan"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belarisi"
+
+msgid "ベンガル語"
+msgstr "Benгал"
+
+msgid "ブルガリア語"
+msgstr "Bulgaryen"
+
+msgid "ボスニア語"
+msgstr "Bòsnyen"
+
+msgid "カタロニア語"
+msgstr "Katalan"
+
+msgid "チェコ語"
+msgstr "Tchèk"
+
+msgid "ウェールズ語"
+msgstr "Wèlzè"
+
+msgid "デンマーク語"
+msgstr "Danwa"
+
+msgid "ドイツ語"
+msgstr "Alman"
+
+msgid "現代ギリシア語"
+msgstr "Gwèk modèn"
+
+msgid "英語"
+msgstr "Anglè"
+
+msgid "イギリス英語"
+msgstr "Britanik"
+
+msgid "アメリカ英語"
+msgstr "Anglè Ameriken"
+
+msgid "エスペラント語"
+msgstr "Espèrant"
+
+msgid "スペイン語"
+msgstr "Espanyòl"
+
+msgid "エストニア語"
+msgstr "Estonyen"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Pès"
+
+msgid "フィンランド語"
+msgstr "Fenlandè"
+
+msgid "フランス語"
+msgstr "Fransè"
+
+msgid "アイルランド語"
+msgstr "Ilandè"
+
+msgid "ガリシア語"
+msgstr "Galisyèn"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Ebre"
+
+msgid "ヒンディ語"
+msgstr "Endou"
+
+msgid "クロアチア語"
+msgstr "Kwoat"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyòl Ayisyen"
+
+msgid "ハンガリー語"
+msgstr "Ongwa"
+
+msgid "インドネシア語"
+msgstr "Endonezyen"
+
+msgid "イボ語"
+msgstr "Lang Ibo"
+
+msgid "アイスランド語"
+msgstr "Islandè"
+
+msgid "イタリア語"
+msgstr "Italyen"
+
+msgid "日本語"
+msgstr "Japonè"
+
+msgid "ジャワ語"
+msgstr "Javanèz"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Korèyen"
+
+msgid "クルド語"
+msgstr "Kouèd"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Laten"
+
+msgid "ルクセンブルク語"
+msgstr "Liksembourgè"
+
+msgid "リンガラ語"
+msgstr "Lang"
+
+msgid "リトアニア語"
+msgstr "Litwanyen"
+
+msgid "ラトビア語"
+msgstr "Latvyen"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Mawori"
+
+msgid "マケドニア語"
+msgstr "Masedwan"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongolyen"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Malte"
+
+msgid "ビルマ語"
+msgstr "Birmàn"
+
+msgid "ネパール語"
+msgstr "Nepalè"
+
+msgid "ノルウェー語"
+msgstr "Nòvejyen"
+
+msgid "オランダ語"
+msgstr "Olandè"
+
+msgid "オック語"
+msgstr "Oksitan"
+
+msgid "オロモ語"
+msgstr "Oswaa"
+
+msgid "パンジャーブ語"
+msgstr "Panjabi"
+
+msgid "ポーランド語"
+msgstr "Polisaj"
+
+msgid "パシュトー語"
+msgstr "Pasyan"
+
+msgid "ポルトガリア語"
+msgstr "Pòtigè"
+
+msgid "ブラジルポルトガル語"
+msgstr "Pòtigè Brezilyen"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Pòtigè Ewopeyen"
+
+msgid "ケチュア語"
+msgstr "Kechwa"
+
+msgid "ルーマニア語"
+msgstr "Romen"
+
+msgid "ロシア語"
+msgstr "Ris"
+
+msgid "サンスクリット語"
+msgstr "Lang Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovak"
+
+msgid "スロベニア語"
+msgstr "Slovenyen"
+
+msgid "セルビア語"
+msgstr "Sèb"
+
+msgid "南セソト語"
+msgstr "Sesho Sid"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
+msgid "スウェーデン語"
+msgstr "Syedwa"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamoul"
+
+msgid "テルグ語"
+msgstr "Telougou"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Tay"
+
+msgid "トルクメン語"
+msgstr "Tirkmen"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Tiki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ikrèn"
+
+msgid "ウルドゥー語"
+msgstr "Oudou"
+
+msgid "ウズベク語"
+msgstr "Ouzbek"
+
+msgid "ベトナム語"
+msgstr "Vyetnamyen"
+
+msgid "コサ語"
+msgstr "Kòs"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Chinwa senplifye"
+
+msgid "繁体中国語"
+msgstr "Tradisyonèl Chinwa"
+
+msgid "ズールー語"
+msgstr "Zoulou"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Navigatè w ap itilize kounye a se yon vèsyon ki pi ansyen e ki pa sipòte ankò. Pou asire yon eksperyans navigasyon ki pi an sekirite ak pi konfòtab, tanpri mete ajou navigatè w la nan dènye vèsyon li."
+
+msgid "不正なリクエストです"
+msgstr "Demann pa valab"
+
+msgid "画像が見つかりません"
+msgstr "Imaj pa jwenn"
+

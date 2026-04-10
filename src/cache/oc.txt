@@ -1,0 +1,424 @@
+設定	Paramètres
+IPログリーダー	Lector de registres IP
+IPアドレスログ	Jornal de las adreças IP
+全クリア	Completar totes los nivèls
+IPログが全て削除されました	Totes los registres IP an estat suprimits.
+ID	Identificant
+タイムスタンプ	Marca de temps
+IPアドレス	Adreça IP
+ユーザーエージェント	Agent d'utilizaire
+イベント	Eveniment
+IPアドレスのデータはありません	I a pas de donadas per aquesta adreça IP.
+EU GDPR対応	Conformitat amb lo RGPD de l'UE
+無効	Invalid
+有効	Valid
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Se utilizatz WordPress dins l'UE, o se vòstre sit web es destinat a d'utilizaires dins l'UE, asseguratz-vos que siá activat.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Lo boton «Confirmar» se transformarà en «Acordar» o «Discordar», e lo comportament cambiarà un pauc.
+同意画面の色	Color de l'ecran de consentiment
+自動	Automatic
+ライトモード	Mòde clar
+ダークモード	Mòde escur
+同意画面表示中の配色を設定します	Establir l'esquema de colors per l'ecran de consentiment.
+同意画面中のコンテンツのぼかし	Floutatge del contengut sus l'ecran de consentiment
+同意画面表示中のコンテンツのぼかし具合を設定します	Reglar lo nivèl de flou pel contengut afichat sus l'ecran de consentiment
+同意画面の透過	Transparéncia de l'ecran de consentiment
+透過なし	Pas de transparéncia
+同意画面の透過具合を設定します	Establir la transparéncia de l'ecran de consentiment
+お知らせの1行目	Primièra linha de l'anóncia
+初回表示で必ず表示されるメッセージです	Aqueste messatge s'aficha totjorn la primièra vegada que la pagina se carga.
+お知らせの2行目	La segonda linha de l'avís
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Aqueste messatge apareisserà totjorn sul primièr afichatge solament quand lo RGPD de l'UE serà en vigor.
+お知らせの3行目	La tresena linha de l'avís
+プライバシーポリシーのリンクの右側に表示されます	Aparirà a la drecha del ligam cap a la politica de privacitat.
+非EU向け確認の文字列	Tèxte de confirmacion per los païses non-UE
+EU GDPR向け同意するの文字列	Tèxte de consentiment per lo RGPD de l'UE
+EU GDPR向け同意しないの文字列	Tèxte per «Non consentir» jos lo RGPD de l'UE
+プライバシーポリシーの文字列	Tèxte de la politica de confidencialitat
+プライバシーポリシーのURLはこちらから設定して下さい	Mercés de metre l'URL de la politica de confidencialitat aicí.
+プライバシーポリシーには以下の内容を追加して下さい	Mercés d'apondre çò que seguís a la Politica de Confidencialitat.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Per detectar d'activitats fraudolentas, d'identificadors coma las adreças IP son emmagazinats dins de cookies e dins la basa de donadas. Las donadas emmagazinadas son suprimidas a la discrecion de l'administrator.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Per assegurar que las imatges sián liuradas corrèctament solament quand la proteccion de las imatges es activada, emmagazinam dins la basa de donadas, pendent fins a 60 minutas, de donadas hashadas que comprenon l'adreça IP e lo nom de fichièr de l'imatge.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Se establissètz de Condicions d'Utilizacion, asseguratz-vos d'inclure un ligam cap a elas dins vòstra Politica de Confidencialitat.
+利用規約の文字列	Tèxte de las Condicions d'Utilizacion
+利用規約のページ	Pagina dels tèrmes e condicions
+ページ選択なし	Cap de pagina seleccionada
+検索エンジン等のURL	URLs pels motors de recèrca, etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Establir l'URL pels motors de recèrca e los sites similars que redirigisson los utilizaires quand lo consentiment es pas donat.
+デバッグモード、コンソールの警告メッセージ	Mòde de depuracion, messatges d'avertiment de la consola
+右クリックの警告メッセージ	Messatge d'avertiment amb clic drech
+印刷、PDF保存の警告メッセージ	Messatge d'avertiment concernent l'impression e l'enregistrament en PDF
+スクリーンショットの警告メッセージ	Messatge d'avertiment dins la captura d'ecran
+スクリーンショットの疑いの警告メッセージ	Messatge d'avertiment concernent de capturas d'ecran presumidas
+テキスト全選択時の警告メッセージ	Messatge d'avertiment quand tot lo tèxte es seleccionat
+ページ保存の警告メッセージ	Messatge d'avertiment concernent l'enregistrament de la pagina
+コピー・カットした時に表示するメッセージ	Messatge afichat quand se copia o se talha
+HTMLソース表示時に表示するメッセージ	Messatge d'afichar quand se consulta lo còdi font HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Messatge d'afichar en naut del còdi font quand s'obfusca o se protegís l'HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Messatge d'afichar se lo jeton d'autentificacion d'un sol usatge es invàlid pendent la proteccion HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Messatge d'afichar se los cookies o lo JavaScript son desactivats
+実際にはJavascriptが無効時のみ表示されます	De fach, aquò s'aficha solament quand JavaScript es desactivat.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Quand una imatge es protegida, se telecarga e un messatge s'aficha sus aquela imatge
+HTML難読化 (圧縮)	Oblicacion
+一般的なHTML圧縮です、難読化解除のサイトもあります	Aquò es una compressió estandard d'HTML; i a tanben de sites web que la pòdon decodar.
+このオプションを有効にするとview-sourceのログが取得できます	Activant aquesta opcion, podètz recuperar lo jornal de la vista de la font.
+HTML保護	Proteccion HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Genera encara mens d'HTML que l'ajustament de compressió HTML, çò que vòl dire que lo contengut dins l'etiqueta BODY serà pas generat del tot.
+Firefoxに対しては無効です	Aquò s'aplica pas a Firefox.
+SEOに著しく影響があります	Aquò a un impacte significatiu sus lo SEO.
+HTMLをJavaScriptで描画	Generacion d'HTML amb JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Per contornar Firefox, rendèm l'HTML amb JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Activar lo rendut JavaScript ralentirà significativament la velocitat de cargament del sit web.
+画像の保護	Proteccion de l'imatge
+imgタグが呼び出されるごとに画像を保護	Protegi l'imatge cada còp que l'etiqueta img es apelada.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protegir totas las imatges telecargadas sus WordPress dins tot lo contengut HTML generat.
+画像をダウンロードから保護します	Proteja las imatges contra lo telecargament
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Quand las donadas d'imatge son protegidas, empacham gaireben totas las telecargas, generam d'URLs unicas d'un sol usatge, nos autenticam amb de tokens emmagazinats dins la session e aficham las imatges via PHP ; aquò empacha eficaçament gaireben tot lo robament d'imatge.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Quand las donadas d'imatge son protegidas, lo cache fonciona pas, çò que vòl dire que lo site se cargarà mai lentament a las visitas seguentas, afectant aital lo SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Protegir las donadas d'imatge pòt aumentar la carga sus la basa de donadas.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Se seleccionatz «Protegi las imatges cada còp qu'un etiqueta img es apelada», lo sistèma utiliza add_filter per aplicar lo filtratge quand l'etiqueta img es generada ; çaquelà, aquò pòt pas foncionar corrèctament amb qualques tèmas.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Se seleccionatz «Protegi totas las imatges telecargadas sus WordPress dins tot lo contengut HTML», lo plugin captarà gaireben totas las operacions de WordPress e tractarà cada etiqueta img dins lo contengut. Notatz que aquò pòt pas foncionar corrèctament amb qualques tèmas.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Mercés de notar que las imatges designadas coma imatges destacadas seràn partejadas coma donadas OGP e non se pòdon protegir. Se cal absolutament las protegir, mercés de cambiar l'ajustament de la sortida de l'etiqueta HEAD dins los paramètres avançats quand activatz la proteccion HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	La foncion de captura d'imatge inclusa coma estandard dins lo sistèma operatiu pòt pas èsser protegida.
+画像URLの保護	Protegir los URL d'imatge
+画像の保護と組み合わせて使用します、単体では意味がありません	Cal utilizar aquò en conjoncion amb la proteccion de las imatges ; per se sol, servís a pas res.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Coma es cargat via JavaScript, aquò afècta lo SEO.
+画像のウォーターマーク	Filigrana d'imatge
+右下	En bas a drecha
+ランダム位置	Posicion aleatòria
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Utilizadas en conjoncion amb la proteccion d'imatges, las filigranas dinamicas indican clarament la proprietat dels dreches d'autor e donan als espectators l'impression d'èsser susvelhats, agissent atal coma un dissuasiu.
+JPG形式、PNG形式、WebP形式のみ対応します	Solament los formats JPG, PNG e WebP son suportats.
+有効にするとサーバーの負荷が高くなります	Activar aquò aumentarà la carga del servidor.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Generar d'art ASCII a partir del còdi font HTML pendent l'obfusquacion e la proteccion
+表示なし	Cap d'afichatge
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Aficha d'art ASCII qu'indica un avertiment quand se consulta lo còdi font de l'HTML amb 'view-source'.
+対象アクションを起こした時の表示デザイン	Afichar lo dessenh quand l'accion visada es realizada.
+黄色の背景の黒文字のベーシックデザイン	Un dessenh de basa amb tèxte negre sus un fons jauna.
+黒色の背景の赤文字のホラー風デザイン	Un dessenh d'estil d'orror amb de tèxt roge sus un fons negre.
+黒色の背景の赤文字の光る文字のデザイン	Un dessenh amb un tèxte roge luminescent sus un fons negre
+対象アクションを起こした時のBGM	Musica de fons que sona quand l'accion ciblada es realizada
+サウンドなし	Cap de son
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Batèsta e Victòria - 1 minuta 16,3 segondas - 630 056 octets - 64 kbps - Licéncia: CC 2.1 o mai recenta
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Paire Short - 3,8 segondas - 32 364 octets - 64 kbps - Licéncia: GPL 2.0 o mai novèla
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 segondas - 195 578 octets - 64 kbps - Licéncia: GPL 2.0 o mai recenta
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 n° 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Estúdio Op. 10 n° 12 «Revolucion» – Version generada per ordinador, a granda velocitat – 1 minuta 57,6 segondas – 724 457 octets – 48 kbps – Licéncia: CC BY-ND 4.0 o mai novèla
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo en si bemòl menor, Op. 2 – Version generada per ordinator, version abreujada a granda velocitat – 1 minuta 48,0 segondas – 665 369 octets – 48 kbps – Licéncia: CC BY-ND 4.0 o mai novèla
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lista: Estúd d'Execucion Transcendent N° 4, «Mazeppa» – version generada per ordinador, version abreujada a granda velocitat – 1 minuta 51,6 segondas – 687 586 octets – 48 kbps – Licéncia: CC BY-ND 4.0 o mai novèla
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfara – 22,3 segondas – 183 926 octets – 64 kbps – Licéncia: Domeni public
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfara d'estil retro – 2,2 segondas – 10 536 octets – 32 kbps – Licéncia: Domeni public
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Introduccion d'estil retro – 42,1 segondas – 179 138 octets – 32 kbps – Licéncia: Domeni public
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Avertiment per ChatGPT - 3,8 segondas - 109 700 octets - 256 kbps - Licéncia: Domeni public
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Un son d'urgéncia nauta que sembla una alèrta de deteccion de maliciel – Partida 1 per ChatGPT – 3,3 segondas – 102 850 octets – 256 kbps – Licéncia: Domeni public
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Un son d'urgéncia nauta coma una alèrta de deteccion de maliciel, Partida 2 per ChatGPT - 3,3 segondas - 103 122 octets - 256 kbps - Licéncia: Domeni public
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Son d'estil IRM per ChatGPT – 1 minuta 14,9 segondas – 3 340 392 octets – 320 kbps – Licéncia: Domeni public
+警告表示中のBGMを選択します	Seleccionatz la musica de fons que se sonarà pendent un avertiment.
+びっくりするような雰囲気を作ります	Crea una atmosfera susprenenta
+Firefoxでは音声ブロックされます	L'àudio es blocat dins Firefox.
+対象アクションを起こした時のビープ音	Un bip quand l'accion especificada es realizada
+有効 音量小さ目	Encès, volum bas
+有効 音量大き目	Actiu, lo volum es a fòrt
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Un bip sonarà per totes los eveniments del clavièr e de la mirga mentre qu'un avís es afichat.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Crea l'impression que l'aparelh s'es embalat mentre que l'avís es afichat.
+対象アクションを起こした時のマウスカーソルの消去	Amagar lo cursor del ratolín quand una accion especifica es realizada
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Amaga lo cursor de la ratèla dins la zòna del navegador mentre qu'un avís es afichat.
+デバッグモード	Mòde de depanatge
+妨害＋記録のみ	Interferéncia + Discografias solament
+妨害＋記録＋表示＋リダイレクト	Interferéncia + Enregistrament + Afichatge + Redireccion
+メニューからは操作できてしまいます	Podètz encara i accedir a travèrs del menú.
+Firefoxにおけるデバッグモード	Mòde de depuracion dins Firefox
+ブラウザーコンソール	Console del navegador
+事実上デバッグモードから操作できてしまいます	En efècte, podètz l'operar en mòde de depanatge.
+HTMLソース表示	Veire lo còdi font HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Podètz efectuar l'operacion simplament en picant una adreça URL que comença per 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Podètz protegir vòstre contengut en combinant aquò amb la proteccion HTML.
+印刷	Imprimir
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Malgrat qu'empacha l'impression, pòt foncionar malament dins cèrts navigadors.
+スクリーンショット	Captura d'ecran
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Segon lo sistèma d'explotacion, lo navegador o lo metòde utilizat, pòt èsser que siá pas possible de blocar aquò, o que siá pas detectat.
+ウインドウが背面に移動した時スクリーンショットの疑い	Captura d'ecran presumida quand la fenèstra passa en segon plan
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Respon tanben a d'autras foncions que pas solament las capturas d'ecran
+2キー押下のスクリーンショットの疑い	Captura d'ecran presumida presa en pressionant doas teclas
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Los metòdes de deteccion dels elements susmencionats son pas infalhibles; la deteccion se fa coma mesura de precaucion.
+スクリーンショットだけではなく、デバッグモード等も検出します	Detecta pas solament las capturas d'ecran, mas tanben los mòdes de depanatge e causas similaras.
+ページ保存	Enregistrar la pagina
+右クリック	Clic drech
+アドオンがインストールされていると操作できてしまいます	Se l'extension es installada, la poiretz utilizar.
+コピー・カット	Copiar e talhar
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Segon los reglatges d'aqueste plugin, poiretz rarament encontrar aqueste eveniment.
+テキスト全選択	Seleccionar tot lo tèxte
+テキスト選択	Seleccionar lo tèxte
+デバッガー起動ログ、デバッガー妨害	Jornal de demarratge del depurador, interferéncia del depurador
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Aquò fa que lo mòde de depuracion siá un pauc mens convivial e registra lo fach que lo depurador a estat lançat ; çaquelà, qualques navegadors pòdon blocar aqueste comportament.
+リダイレクトするURL	URL de redireccion
+利用規約などのページに転送すると良いでしょう	Seriá una bona idèa de redirigir los utilizaires cap a de paginas coma las Condicions d'Utilizacion.
+空欄にすると元のURLにリダイレクトをします	Se demòra en blanc, redirigirà cap a l'URL originala.
+リダイレクトまでの時間	Temps fins a la redireccion
+リダイレクトなし	Cap de redireccion
+1秒	Una segonda
+2秒	2 segondas
+3秒	3 segondas
+4秒	4 segondas
+5秒	5 segondas
+6秒	6 segondas
+7秒	Sèt segondas
+8秒	Uèch segondas
+9秒	9 segondas
+10秒	10 segondas
+15秒	15 segondas
+20秒	20 segondas
+25秒	25 segondas
+30秒	Trenta segondas
+35秒	35 segondas
+40秒	40 segondas
+45秒	45 segondas
+50秒	50 segondas
+55秒	55 segondas
+1分	1 minuta
+1分10秒	Una minuta e dètz segondas
+1分20秒	1 minuta 20 segondas
+1分30秒	1 minuta 30 segondas
+1分40秒	1 minuta 40 segondas
+1分50秒	1 minuta 50 segondas
+2分	2 minutas
+ソース表示を許可する権限	Permission de veire lo còdi font
+ADMINログイン時のみ通常のソース出力	Sortida normala de la font solament quand sètz connectat coma ADMIN
+USERログインで通常のソース出力	Sortida normala de la font quand s'es connectat coma USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Seleccionatz se la sortida HTML estandard es restrencha als administrators solament o se necessita una autentificacion d'utilizaire.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Forçar lo telecargament d'una imatge e çò que se telecarga realament
+GIF形式で1×1ピクセルの透過画像	Una imatge transparenta d'1 pixel per 1 pixel en format GIF
+PNG形式で1×1ピクセルの透過画像	Una imatge transparenta d'1 pixel per 1 pixel en format PNG
+PNG形式で黄色い背景の警告画面	Una pantalla d'avís amb un fons jauna en format PNG
+意味のないHTMLドキュメント	Un document HTML sens significat
+HTML保護時のHEADタグの出力	Sortida de l'etiqueta HEAD quand l'HTML es protegit
+出力しない	Non imprimir
+TITLEタグのみ	Etiqueta TITLE solament
+WordpressのHEADタグより取得	Recuperat de l'etiqueta HEAD de WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Per las paginas reservadas als membres per l'usatge corporatiu e las paginas internas, seleccionar «Non afichar» o «Solament l'etiqueta TITLE» deu èsser sufisent.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	A mens que recuperetz l'informacion de l'etiqueta HEAD de WordPress, l'imatge OGP apareisserà pas quand se parteja sus las rets socialas.
+画像botをアクセス禁止にする	Bloquejar lo bot d'imatge
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	En empachant los bots d'imatges d'accedir a l'HTML, podètz protegir de contengut que podiá pas èsser salvagardat contra los ligams dirèctes per la recèrca d'imatges ; çaquelà, aquò es pas una solucion infalhibla.
+AI学習用botをアクセス禁止にする	Bloquejar l'accès al bot d'entraïnament d'IA
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	En evitant l'utilizacion de bots concebuts per l'entraïnament de l'IA sus l'HTML, nos asseguram que lo contengut siá pas utilizat per l'IA ; pasmens, aquò se pòt pas empachar completament.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Bloquejar l'accès als archius web e a las capturas de web
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Proibissèm l'accès als archius web recampats automaticament e als capturas d'ecran presas a la discrecion de l'utilizaire; totun, podèm pas empachar aquò completament.
+無効なUAをアクセス禁止にする	Bloquejar los agents d'utilizaire invalids
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Impedís l'accès se la cadena de l'agent d'utilizaire conten de caractèrs invalids
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Afichar un avertiment quand s'accedís a Internet Explorer e a l'ancian Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Impedís l'accès via Internet Explorer e lo vièlh Microsoft Edge
+alertメッセージを表示する言語	Lenga dins la quala los messatges d'alèrta son afichats
+Wordpressの言語	Lengas de WordPress
+ブラウザの設定言語	Paramètres de lenga del navegador
+メッセージをカスタム設定されている場合は言語を変更できません	Podètz pas cambiar la lenga se los messatges an estat personalizats.
+同意画面の言語	Lenga de l'ecran de consentiment
+view-sourceメッセージを表示する言語	Lenga per afichar lo messatge 'view-source'
+一時使用トークンの有効期限	Data d'expiracion dels jetons temporaris
+3分	3 minutas
+4分	4 minutas
+5分	5 minutas
+6分	6 minutas
+7分	Sèt minutas
+8分	Uèch minutas
+9分	9 minutas
+10分	10 minutas
+15分	15 minutas
+20分	Vint minutas
+25分	25 minutas
+30分	Trenta minutas
+35分	35 minutas
+40分	Quaranta minutas
+45分	Quaranta-cinc minutas
+50分	Cincanta minutas
+55分	Cincanta-cinc minutas
+1時間	Una ora
+画像URL情報の有効期限を設定します	Establir la data d'expiracion de l'informacion de l'URL de l'imatge.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Un còp cargada, l'URL de l'imatge e lo jeton temporari seràn invalidats.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Las imatges se cargan a la demanda, mas se cargaràn automaticament 30 segondas abans de l'ora especificada.
+一時使用トークンのビット数	Nombre de bits dins un jeton temporari
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Un jeton temporari es utilizat coma senhal per chifrar las informacions de l'URL de l'imatge ; aqueste paramètre especifica sa fòrça.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Malgrat que las opcions afichadas jos lo menú desplegable venguen cada còp mai detalhadas, aquò pòt metre una carga pesuga sus lo servidor e resultar en un grand volum de donadas HTML transferidas.
+ハッシュ化アルゴリズム	Algoritme de hachatge
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Un jeton temporari es utilizat coma senhal per cifrar las informacions de l'URL de l'imatge ; aquò necessita un hachatge, e aqueste paramètre determina la fòrça d'aquel hachatge.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Malgrat que l'intensitat aumenta quand desplaçatz lo curseur cap avall dins las opcions afichadas dins lo menú desplegable, aquò plaça una carga mai granda sus lo servidor.
+基本設定	Configuracions de basa
+高度な設定	Paramètres avançats
+初期設定に戻す	Restaurar los paramètres per defaut
+デザイン・音の設定	Concepcion e reglatges sonòres
+イベントの設定	Configuracion de l'eveniment
+初回訪問時のお知らせの設定	Configurar las notificacions per las primièras visitas
+メッセージの設定	Paramètres del messatge
+右クリックやソースコード表示時に転送する URL を設定します	Definissètz l'URL que se dobrirà quand clicatz amb lo boton drech o quand consultatz lo còdi font.
+警告メッセージにはHTMLは使用できません	L'HTML pòt pas èsser utilizat dins los messatges d'avertiment.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Se configuratz aquò sus aquesta pantalla, los paramètres de lenga dins l'onglet Avançat seràn ignorats.
+以下の文字列が使用できます	Las seguentas cadenas pòdon èsser utilizadas
+改行	Cambi de linha
+押下されたキー	Tasta apichada
+Neo HTML Protector 設定	Neo HTML Protector Configuracions
+お知らせ	Avís
+メッセージ	Messatge
+デザイン・音	Concepcion e Son
+初期化	Inicializacion
+このプラグインについて	A prepaus d'aqueste plugin
+設定が初期化されました	Los paramètres an estat reïnicializats.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializatz lo plugin. Mercés de notar que las donadas de l'IP Log Reader seràn pas suprimidas a aquesta etapa.
+Neo HTML Protectorについて	A prepaus de Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Aqueste plugin es concebut per protegir l'HTML, las imatges e d'autres contenguts generats per vòstre sit WordPress, en los guardant contra l'usatge non autorizat.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Es impossible de protegir completament lo contengut. Ça que la, en emetent d'avertiments ont que siá possible e en prenent de preparatius en cas que quicòm arribe, devriam èsser capables de resòlver la question segon las proceduras establidas pel govèrn.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Naturalament, caldrà que vos asseguratz que vòstras condicions de servici e las politicas del sit web sián complètas. Ben que aqueste plugin siá pas un instrument per generar de condicions de servici, pòt ofrir qualques orientacions.
+開発者: 夜桜　なの	Desvolopaire: Nano Yozakura
+バージョン	Version
+ビルド	Construir
+サポートページ	Pagina de supòrt
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Interpretat per Dòna Ura Manira
+支援のお願い	Una demanda de sosten
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Mercés d'utilizar Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Lo desvolopament e la mantenença d'aqueste plugin an demandat fòrça temps e esfòrç, e per tal de reculhir de fons per contunhar de lo melhorar e de l'actualizar, vos seriám reconeissents se qualqu'un que siá capable de nos sosténer considerèsse de far un don.
+寄付について	A prepaus dels dons
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Las donacions son totalament volontàrias e pas obligatòrias. Lo plugin es disponible per totes sens cap de còst. Ça que la, vòstre sosten es fòrça apreciat per nos ajudar a contunhar lo desvolopament, e seriá un plaser se poguèssetz contribuir quitament amb una pichona soma.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Podètz far una donacion a travèrs del ligam çai jos. Se sètz basat al Japó, podètz donar sens cap de còst, e podètz tanben donar aisidament amb de bons-regal Amazon.
+寄付先	Òbras de caritat
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Amb vòstre sosten, farem tot çò possible per contunhar de vos portar de mesas a jorn fantasticas!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Vos siam reconeissent per vòstre sosten e esperam amb impaciéncia que contunharetz de nos sosténer dins l'avenidor.
+ライセンス	Licéncia
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Aqueste plugin es desvolopat coma un logicial de còdi dobèrt e es licenciat jos la GPLv2.0 o una version ulteriora.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Qualques tecnologias inclusas dins aqueste plugin son protegidas per de brevets.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	L'utilizacion de la tecnologia brevetada es permesa unicament dins aqueste plug-in.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Per tot autre usatge, mercé de contactar l'autor per obténer una licéncia comerciala.
+本プラグインには以下のライブラリを同梱しています	Aqueste plugin inclutz las bibliotècas seguentas
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Aqueste plugin inclutz las fonts d'art ASCII generadas çai jos, amb los fichièrs de las fonts.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Aqueste plugin inclutz de musica del jòc Super Famicom non oficial «SM Trainer Hitomi 3», desvolopat per EJ Co., Ltd. e compausada pel creator d'aqueste plugin, e es oficialament licenciat.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Aqueste plugin inclutz de pistas creadas amb «Keppy's YAMAHA C7», desvolopadas per Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ai tanben utilizat un Raspberry Pi 5, ChatGPT e DeepL dins lo desvolopament d'aqueste plugin.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Un plugin de cache a estat detectat. Aqueste plugin foncionarà pas corrèctament se un plugin de cache es activat.
+無効なIPアドレス	Adreça IP invalida
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Per utilizar aqueste sit web, cal activar los cookies e JavaScript.
+利用規約	Condicions d'utilizacion
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Per evitar l'usatge non autorizat e assegurar lo foncionament segur de nòstres servicis, aqueste sit web pòt emmagatzemar d'informacions coma las adreças IP, l'istòria de navigacion e los registres d'activitat dins de cookies e de basas de donadas. Aquestas informacions son utilizadas unicament pel foncionament del sit web e per de fins legals, e seràn pas divulgadas a de tèrces.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Per utilizar aqueste servici, devètz consentir a aquelas activitats de tractament.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Podètz consultar lo contengut de la Politica de Confidencialitat, que siatz o non consentit.
+同意する	Soi d'acòrdi
+同意しない	Soi pas d'acòrdi
+確認	Confirmacion
+プライバシーポリシー	Politica de confidencialitat
+通常とは異なる方法でのアクセスや操作が検出されました	Un accès o una activitat inabituala a estat detectada.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Cèrtas foncionalitats son estadas restrenchas per de rasons de seguretat e de proteccion del contengut.
+デバッグモード、コンソールの起動は禁止されています	Lo mòde de depanatge e l'accès a la consola son desactivats.
+以下の情報がサーバーに送信されました	Las informacions seguentas an estat mandadas al servidor.
+あなたのIPアドレス	Vòstra adreça IP
+あなたの端末とブラウザ	Vòstre aparelh e vòstre navegador
+あなたの押下したキー	La clau que as premuda
+リダイレクトをします	Seràs redirigit
+コンテンツ保護のため一部の機能を制限しています	Cèrtas foncionalitats son estadas restrenchas per protegir lo contengut.
+右クリックは禁止されています	Lo clic drech es pas permés
+あなたが押下したキー	La clau que as premuda
+印刷、PDFへの保存は禁止されています	L'impression e l'enregistrament en PDF son enebits.
+スクリーンショットは禁止されています	Las capturas d'ecran son enebidas.
+スクリーンショット、デバッグモード等の起動は禁止されています	Prene de capturas d'ecran e activar lo mòde de depanatge son interdichs.
+ページの保存は禁止されています	Es prohibit d'enregistrar aquesta pagina.
+コピー、カットは禁止されています	La còpia e lo talh son interdits.
+あなたが起こしたイベント	Los eveniments que avètz organizats
+テキストの選択は禁止されています	La seleccion de tèxt es pas permesa.
+HTMLソース表示は禁止されています	Afichar lo còdi font d'HTML es enebit.
+不正アクセスは禁止されています	L'accès non autorizat es prohibit
+アフリカーンス語	Africà
+アラゴン語	Aragonés
+アラビア語	Arabi
+アッサム語	Assamés
+アゼルバイジャン語	Azerbaitjanés
+バシュキール語	Bashkir
+ベラルーシ語	Belarús
+ベンガル語	Bengalés
+ブルガリア語	Bulgari
+ボスニア語	Bosniac
+カタロニア語	Català
+チェコ語	Tchec
+ウェールズ語	Galés
+デンマーク語	Danés
+ドイツ語	Alemand
+現代ギリシア語	Grèc modèrne
+英語	Anglés
+イギリス英語	Anglés britanic
+アメリカ英語	Anglés american
+エスペラント語	Espèrança
+スペイン語	Espanhòl
+エストニア語	Estonian
+バスク語	Basco
+ペルシャ語	Persan
+フィンランド語	Finés
+フランス語	Francés
+アイルランド語	Irlandés
+ガリシア語	Galician
+グァラニ語	Guaraní
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Ebreu
+ヒンディ語	Hindi
+クロアチア語	Croat
+ハイチ・クレオール語	Kreyòl ayisyen
+ハンガリー語	Hongrès
+インドネシア語	Indonesian
+イボ語	Lenga ibo
+アイスランド語	Islandés
+イタリア語	Italià
+日本語	Japonés
+ジャワ語	Javanés
+カザフ語	Cazaqu
+朝鮮語	Corean
+クルド語	Curd
+キルギス語	Kirguís
+ラテン語	Latin
+ルクセンブルク語	Luxemburgués
+リンガラ語	Língua
+リトアニア語	Lituà
+ラトビア語	Leton
+マダガスカル語	Malagasià
+マオリ語	Maori
+マケドニア語	Macedonian
+マラヤーラム語	Malaià
+モンゴル語	Mongòl
+マラーティー語	Maratès
+マレー語	Malai
+マルタ語	Malti
+ビルマ語	Birman
+ネパール語	Nepalés
+ノルウェー語	Norvegian
+オランダ語	Olandés
+オック語	Occitan
+オロモ語	Òm
+パンジャーブ語	Panjabi
+ポーランド語	Polonés
+パシュトー語	Pashto
+ポルトガリア語	Portugues
+ブラジルポルトガル語	Portugués brasilièr
+ヨーロピアンポルトガル語	Portugués europèu
+ケチュア語	Quechua
+ルーマニア語	Romanés
+ロシア語	Rus
+サンスクリット語	Sanskrit
+スロバキア語	Eslovac
+スロベニア語	Eslovèn
+セルビア語	Sèrbe
+南セソト語	Sesotho del Sud
+スンダ語	Sundanés
+スウェーデン語	Suec
+スワヒリ語	Suaheli
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Tailandés
+トルクメン語	Turc
+タガログ語	Tagalog
+トルコ語	Turc
+タタール語	Tatar
+ウクライナ語	Ucraïnenc
+ウルドゥー語	Urdu
+ウズベク語	Ozbèc
+ベトナム語	Vietnamian
+コサ語	Pèls
+イディッシュ語	Iídish
+簡体中国語	Chinés simplificat
+繁体中国語	Chinés tradicional
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Lo navegador que utilizatz actualament es una version mai anciana que ja es pas mai suportada. Per una experiéncia de navigacion mai segura e mai confortabla, mercé d'actualizar vòstre navegador a la darrièra version.
+不正なリクエストです	Demanda invalida
+画像が見つかりません	Imatge pas trobada

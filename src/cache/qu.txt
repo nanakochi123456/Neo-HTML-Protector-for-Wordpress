@@ -1,0 +1,424 @@
+設定	Allichaykuna
+IPログリーダー	IP Qillqa Ñawiriq
+IPアドレスログ	IP tiyay qillqasqa
+全クリア	Tukuy patakunata tukuy
+IPログが全て削除されました	Llapan IP qillqasqakuna pichasqañam kanku.
+ID	Pichqa yupay
+タイムスタンプ	Pacha qillqa
+IPアドレス	Llika tiyanap tupuynin
+ユーザーエージェント	Ruraq apachikuq
+イベント	Ruway
+IPアドレスのデータはありません	Kay IP direccionpaqqa manam willakuy kanchu.
+EU GDPR対応	UE GDPR nisqaman hunt'ay
+無効	Mana chanin
+有効	Chanin
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	WordPress nisqata UE ukhupi llamk'achichkanki chayqa, utaq web p'anqayki UE ukhupi kaqkunapaq kachkan chayqa, ama hina kaspa, kayta churay.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	'Confirm' ñit'inaqa 'Arí' utaq 'Manan' nisqamanmi t'ikrakunqa, hinaspataq ruwayninpas pisillata t'ikrakunqa.
+同意画面の色	Arí ninapaq qhawanap llimp'in
+自動	Kikinmanta
+ライトモード	Hap'iqlla ñan
+ダークモード	Yana Rikch'ay
+同意画面表示中の配色を設定します	Arí ninapaq qhawanapaq llimp'ikunata churay
+同意画面中のコンテンツのぼかし	Munasqayki qhawanapi imaymanakuna laqhayay
+同意画面表示中のコンテンツのぼかし具合を設定します	Munasqayki qhawana p'anqapi rikuchisqa kaqkunapaq laqhayachiy sayayninta churay.
+同意画面の透過	Arí ninapaq qhawanap ch'uyayaynin
+透過なし	Mana ch'uyanchay
+同意画面の透過具合を設定します	Aranway qhawanap ch'uyaynin churanakuy
+お知らせの1行目	Willakuypa ñawpaq siq'in
+初回表示で必ず表示されるメッセージです	Kay willakuyqa sapa kutin rikuchikun p'anqa ñawpaq kutita kargakusqanpi.
+お知らせの2行目	Willakuypa iskay ñiqin siq'in
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Kay willakuyqa ñawpaq qhawanapim wiñaypaq rikurinqa, EU GDPR kamachikuy kallpachasqa kachkaptinlla.
+お知らせの3行目	Willakuypa kinsa ñiqin siq'in
+プライバシーポリシーのリンクの右側に表示されます	Sapanchasqa Willaykunamanta Kamachikuypa t'inkininpa paña larunpi rikhurinqa.
+非EU向け確認の文字列	Mana UE suyukunapaq takyachina qillqa
+EU GDPR向け同意するの文字列	UE GDPR nisqapaq ari ninapaq qillqa
+EU GDPR向け同意しないの文字列	Ama ari ninachu, UE GDPR kamachikuypaq qillqa
+プライバシーポリシーの文字列	Sapanchasqa willakuykunamanta kamachikuy qillqa
+プライバシーポリシーのURLはこちらから設定して下さい	Ama hina kaspa, kaypi churaq chaski kamachikuypa URL nisqanta.
+プライバシーポリシーには以下の内容を追加して下さい	Ama hina kaspa, kay qatiqta Sapanchasqa Willakuykunamanta Kamachikuyman yapay.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Llulla ruwaykunata taripanapaq, IP direccionkuna hina riqsichinakunaqa cookies nisqapi hinallataq willay taqipi waqaychasqa kanku. Waqaychasqa willaykunaqa kamachiqpa munasqanman hina pichasqa kanku.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Rikch'a amachay llamk'achkasqan pachapi rikch'akuna allinta chaskisqa kanankuta qhawanapaq, IP tiyaywan rikch'a sutintawan hap'iq hashaqchasqa willakuykunata willay taqiykupi suqta chunka minutukama waqaychayku.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Sichus Llamk'achina Kamachikuykunata churashanki, ama qunqaychu Sapanchasqa Willaykunamanta Kamachikuyniykipi chayman t'inkita churanaykita.
+利用規約の文字列	Llamk'achina Kamachikuykunaq Qillqan
+利用規約のページ	Kamachikuykuna hinaspa Rurana Kamachikuykuna p'anqa
+ページ選択なし	Mana p'anqa akllasqachu
+検索エンジン等のURL	Mask'ana makinakunapaq URLkuna, hukkunapas.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Mask'ana makinakunapaq URL nisqata churay, chaykunataq mana munaspa puriqkunata hukman kachan.
+デバッグモード、コンソールの警告メッセージ	Pantay allichana, consola willaykuna
+右クリックの警告メッセージ	Paña ñit'iywan willakuy
+印刷、PDF保存の警告メッセージ	PDFpi ch'ipachinamanta waqaychanamantawan yuyaychay willakuy
+スクリーンショットの警告メッセージ	Rikch'a hap'isqapi willay
+スクリーンショットの疑いの警告メッセージ	Rikch'asqa pantallakunamanta willay
+テキスト全選択時の警告メッセージ	Llapan qillqasqa akllasqa kachkaptin willay
+ページ保存の警告メッセージ	P'anqata waqaychaymanta willakuy
+コピー・カットした時に表示するメッセージ	Kutichichkaspa utaq kuchuchkaspa rikuchisqa willakuy
+HTMLソース表示時に表示するメッセージ	HTML pukyu qhawaspa rikuchinapaq willakuy
+HTML難読化・保護時にソースの先頭に表示するメッセージ	HTML pukllayachispa utaq amachaspa, pukllayachina qillqaq qallariyninpa hawanpi rikuchinapaq willakuy
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	HTML amachay pachapi huk kuti llamk'aq chiqaqchana mana chanin kaptin rikuchinapaq willakuy
+CookieやJavascriptが有効でない場合に表示するメッセージ	Cookiekunapas JavaScriptpas mana llamk'achisqa kaptin rikuchinapaq willakuy
+実際にはJavascriptが無効時のみ表示されます	Chiqaqpuniqa, kayqa JavaScript wich'usqa kachkaptinlla rikuchikun.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Huk rikch'a hark'asqa kaptinqa, uraykachisqam, chay rikch'apitaq huk willakuy rikurin
+HTML難読化 (圧縮)	HTML laqhayachiy
+一般的なHTML圧縮です、難読化解除のサイトもあります	Kayqa sapsi HTML ñit'iyninmi; kantaqmi web p'anqakunapas chayta kutichinapaq.
+このオプションを有効にするとview-sourceのログが取得できます	Kay akllanata atichispaqa, qhawana pukyu qillqakamaykunata hurquyta atinki.
+HTML保護	HTML amachay
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Aslla HTML nisqallatam lluqsichin—HTML ñit'iywan llamk'asqamantapas aswan pisi—chaymantapas BODY unanchap ukhunpi kaqqa manam imaynallapas lluqsimunqachu.
+Firefoxに対しては無効です	Kayqa manam Firefoxpaqchu.
+SEOに著しく影響があります	Kayqa SEO nisqapi ancha hatun kallpayuqmi.
+HTMLをJavaScriptで描画	JavaScriptwan HTML ruway
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox-ta muyunapaq, HTML nisqata JavaScript nisqawan rikuchiyku.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript rikuchiyta saqiyqa web p'anqap kargakuy usqhayninta anchatapuni allillamanta kachinqa.
+画像の保護	Rikch'ay amachay
+imgタグが呼び出されるごとに画像を保護	Sapa kuti img unancha waqyasqa kaqtin, rikch'ata amachay.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	WordPressman wichachisqa llapan rikch'akunata llapan HTML lluqsimuynin ukhupi amachay.
+画像をダウンロードから保護します	Rikch'akunata uraykachinamanta hark'an
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Rikch'a willaykuna amachasqa kaptinqa, yaqa llapan uraykachiykunata hark'ayku, sapan kuti llamk'aq URL nisqakunata qoyku, sesión nisqapi waqaychasqa tokenkunawan chiqanchayku, hinaspa rikch'akunata PHP nisqawan rikuchiyku; kayqa allintam yaqa llapan rikch'a suwakuyta hark'an.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Rikch'a willaykuna hark'asqa kaptinqa, cache nisqa mana llamk'anchu, chayrayku web p'anqa qhipa kutikunapi aswan allillamanta kargakunqa, chaywantaq SEO nisqatapas llakichinqa.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Rikch'a willaykunata amachayqa willaykuna taqipa llasayninta yapaykunman.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'Rikch'akunata amachay sapa kuti img unancha waqyasqa kaptin' nisqata akllanki chayqa, llikachaqa add_filter nisqawanmi suysuyta churaykun img unancha paqarichisqa kaptin; ichaqa, kayqa wakin rikch'aykunawanqa manachá allintachu llamk'anman.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'WordPressman churasqa llapan rikch'akunata llapan HTML lluqsimuyninpi amachay' nisqata akllaptiykiqa, kay pluginqa yaqa llapan WordPress ruraykunata hap'inqa, hinaspataq qillqasqapi sapa img unanchata ruranqa. Yuyariy, kayqa wakin rikch'aykunawan mana allintachu llamk'anman.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Yuyariy, akllasqa rikch'akunaqa OGP willay hina rak'isqa kanqa, manataqmi amachay atinachu. Sichus chiqamanta amachanayki kaptinqa, HTML amachayta kichaspa, ñawpaqman risqa kamachiykunapi HEAD unanchap lluqsinanpaq kamachiyta t'ikray.
+OS標準搭載のスクリーンショット機能を保護することはできません	Llamk'achina llikap kikinmanta churasqa pantallamanta siq'i hap'ina ruwayninqa mana amachay atinachu.
+画像URLの保護	Rikch'a t'inkikunata amachay
+画像の保護と組み合わせて使用します、単体では意味がありません	Kayqa rikch'a amachaywan kuska llamk'achisqa kanan; sapallanqa, mana imapaqpas valenchu.
+JavaScriptにより遅延読まれますのでSEOに影響があります	JavaScriptwan churakusqanrayku, kayqa SEO nisqata hukmanyachin.
+画像のウォーターマーク	Rikch'ap unanchan
+右下	Paña urapi
+ランダム位置	Mayqin sayaypas
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Rikch'a amachaywan kuska llamk'achisqa, kuyuriq unancha qillqakunaqa sut'ita rikuchinku kamachiqpa hayñin kapuqninta, chayllapitaq qhawaqkunaman qhawasqa kasqankuta yuyachispa, chaynapitaq hark'anapaq hina llamk'anku.
+JPG形式、PNG形式、WebP形式のみ対応します	JPG, PNG, WebP rikch'a rikch'aykunallam chaskisqa kanku.
+有効にするとサーバーの負荷が高くなります	Kayta saqiyqa sirwiqpa llamk'ayninta yapaykunqa.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML pukyu qillqamanta ASCII kapchiyta lluqsichiy, pakaqchaypi hinallataq amachaypi.
+表示なし	Mana rikuchinachu
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	'view-source' nisqawan HTML qallariy qillqata qhawaspa, huk willayta rikuchiq ASCII siq'ikunata rikuchin.
+対象アクションを起こした時の表示デザイン	Munasqa ruway hunt'akuptin rikuchiyta rikuchiy
+黄色の背景の黒文字のベーシックデザイン	Q'illu qhipapi yana qillqayuq sapsi siq'i.
+黒色の背景の赤文字のホラー風デザイン	Manchay rikch'aq ruway, yana qhipapi puka qillqayuq.
+黒色の背景の赤文字の光る文字のデザイン	Yana qhipapi k'anchaq puka qillqayuq siq'i
+対象アクションを起こした時のBGM	Rurana hunt'akuptin waqariq qhipa takiy
+サウンドなし	Mana uyarikunchu
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Maqanakuy & Atipay - 1 minuto 16.3 segundo - 630,056 byte - 64 kbps - Saqillay: CC 2.1 utaq qhipanmanta
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Tayta Short - 3.8 sigundukuna - 32,364 bytekuna - 64 kbps - Lisinsya: GPL 2.0 utaq qhipan
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 sigundukuna - 195,578 bytekuna - 64 kbps - Lisinsya: GPL 2.0 utaq qhipan
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Antañiqiqpa rurasqan, utqaylla kaq – 1 minuto 57.6 segundo – 724,457 byte – 48 kbps – Saqillay: CC BY-ND 4.0 utaq qhipanmanta
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo B bemol menorpi, Op. 2 – Antañiqiqpa rurasqan, utqhaylla pisiyachisqa – 1 minuto 48.0 segundo – 665,369 byte – 48 kbps – Lisinsya: CC BY-ND 4.0 utaq qhipanmanta
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Sutina: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 sigundukuna – 183,926 bytekuna – 64 kbps – Lisinsya: Lliwpaq kaq
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Ñawpaq pachamanta hina phukuy – 2.2 sigundukuna – 10,536 bytekuna – 32 kbps – Saqillay: Lliwpaq kaq
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Ñawpaq rikch'ay qallariy – 42.1 sigundukuna – 179,138 baytukuna – 32 kbps – Saqillay: Lliwpaq
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	ChatGPT-pa willaynin - 3.8 sigundukuna - 109,700 bytekuna - 256 kbps - Lisinsya: Lliwpaq kaq
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Hatun usqhaylla, malware tarisqa willakuy hina – Huk ñiqin raki, ChatGPT-pa ruwasqan – 3.3 sigundukuna – 102,850 bytekuna – 256 kbps – Saqillay: Lliwpaq kachkan
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Hatun usqhaylla, malware tarisqa willakuy hina uyarikun, Iskay ñiqin raki, ChatGPT-pa ruwasqan - 3.3 sigundukuna - 103,122 byte - 256 kbps - Lisinsya: Lliwpaq kachkan
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI hina kunkata ChatGPT-pa rurasqan – 1 minuto 14.9 sigundu – 3,340,392 byte – 320 kbps – Saqillay: Lliwpaq kachkan
+警告表示中のBGMを選択します	Willay pachapi waqachinapaq qhipa takita akllay.
+びっくりするような雰囲気を作ります	Musphachikuq pachata paqarichin
+Firefoxでは音声ブロックされます	Firefox nisqapi uyarina hark'asqa kachkan.
+対象アクションを起こした時のビープ音	Akllasqa ruway hunt'akuptin huk bip
+有効 音量小さ目	Pukllasqa, k'allaylla
+有効 音量大き目	K'uchisqa, kallpan hatunpi churasqa
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Llapan tekladomanta ukuchamantawan ruwaykunapaq huk bip uyarikunqa, huk willariy rikuchikuchkaptin.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Willay rikuchikuchkaptin, aparikunaqa mana kamachiy atina hina rikch'akun.
+対象アクションを起こした時のマウスカーソルの消去	Huk sapaq ruway hunt'akuptin ukucha t'upsinata pakay
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Llika wamp'uqpa p'anqanpi ukhu-ukhu t'upsita pakay, huk willakuy rikuchikuchkaptin.
+デバッグモード	Pantay allichana ñan
+妨害＋記録のみ	Ch'aqway + Qillqasqakuna
+妨害＋記録＋表示＋リダイレクト	Hark'ay + Qillqay + Rikuchiy + Hukman pusay
+メニューからは操作できてしまいます	Menú nisqanpiqa chayman yaykuyta atillankipuni.
+Firefoxにおけるデバッグモード	Firefoxpi pantay allichana
+ブラウザーコンソール	Llika mask'aqpa willaynin
+事実上デバッグモードから操作できてしまいます	Chiqapuniqa, pantay allichana ñanmanta llamk'achiyta atinki.
+HTMLソース表示	HTML pukyu qillqata qhaway
+view-source:から始まるURLを入力すれば操作できてしまいます	Huk URL nisqata qillqaspa, 'view-source:' nisqawan qallariqllata, chay ruwaytaqa atinkimanmi.
+HTML保護と組み合わせることでコンテンツを保護することができます	Kayta HTML amachaywan huñuspa, qillqasqaykita amachawaqmi.
+印刷	Ch'ipachiy
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ch'ipachiyta hark'aptinpas, wakin llik'a mask'aqkunapiqa ichapas mana allintachu llamk'anman.
+スクリーンショット	Rikuchina hap'iy
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Sistema operativo, navegador utaq llamk'achisqa ñanman hinaqa, ichapas mana hark'ayta atikunchu kayta, utaq mana taripasqa kanman.
+ウインドウが背面に移動した時スクリーンショットの疑い	Waqaychasqa rikch'a, wintana qhipaman risqanpi.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Hinallataq pantallamanta siq'ikunamanta hawa huk ruwaykunamanpas kutichin
+2キー押下のスクリーンショットの疑い	Iskay ñit'inata ñit'ispa hap'isqa rikch'a, iskayrayasqa
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Hawa kaqkunata taripanapaq ñankunaqa manan llapan kutichu allin takyasqa kanku; taripayqa huk amachakuy ruray hinan ruwakun.
+スクリーンショットだけではなく、デバッグモード等も検出します	Manam pantallamanta siq'ikunallatachu taripan, aswanpas pantay allichana ñankunata chayman rikch'akuqkunatapas.
+ページ保存	P'anqata waqaychay
+右クリック	Paña ñit'iy
+アドオンがインストールされていると操作できてしまいます	Yapasqa churaykusqa kaptinqa, atinkim chaywan llamk'ayta.
+コピー・カット	Kutichiy hinaspa kuchuy
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Kay pluginpa kamachiyninkunaman hinaqa, ichapas kay sucesoqa mana ancha kutichu qampaq rikhurinqa.
+テキスト全選択	Tukuy qillqata akllay
+テキスト選択	Qillqata akllay
+デバッガー起動ログ、デバッガー妨害	Pantay allichaq qallariy qillqa, pantay allichaq hark'ay
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Kayqa pantay allichana ñanpa llamk'achinapaq kayninta pisillata sasachan, hinaspataq qillqan pantay allichaq qallarichisqa kasqanta; ichaqa, wakin llik'a mask'aqkunaqa kay ruwayta hark'ayta atinkuman.
+リダイレクトするURL	URL-ta wakman pusay
+利用規約などのページに転送すると良いでしょう	Allin yuyaymi kanman llamk'achiqkunata "Llamk'achina Kamachikuykuna" hina p'anqakunaman pusay.
+空欄にすると元のURLにリダイレクトをします	Ch'usaqpi saqisqaqa, qallariq URL nisqamanmi apanqa.
+リダイレクトまでの時間	Musuq ñanman pusaykama pacha
+リダイレクトなし	Manan wakman pusanqachu
+1秒	Huk segundo
+2秒	Iskay segundo
+3秒	Kimsa segundo
+4秒	Tawa segundo
+5秒	Pichqa segundo
+6秒	Suqta sigundu
+7秒	Qanchis sigundukuna
+8秒	Pusaq sigundukuna
+9秒	Isqun sigundu
+10秒	Chunka segundo
+15秒	Chunka pichqayuq sigundu
+20秒	Iskay chunka segundo
+25秒	Iskay chunka pichqayuq sigundu
+30秒	Kimsa chunka segundo
+35秒	Kimsa chunka pichqayuq segundo
+40秒	Tawa chunka segundo
+45秒	Tawa chunka pichqayuq segundo
+50秒	Pichqa chunka segundo
+55秒	Pichqa chunka pichqayuq sigundu
+1分	Huk k'iti
+1分10秒	Huk minuto chunka segundo
+1分20秒	Huk minuto iskay chunka segundo
+1分30秒	Huk minuto kimsa chunka segundo
+1分40秒	Huk minuto tawa chunka segundo
+1分50秒	Huk minuto pichqa chunka segundo
+2分	Iskay k'iti
+ソース表示を許可する権限	Pukyukuna qillqata qhawanapaq saqillay
+ADMINログイン時のみ通常のソース出力	Kamachiq hina yaykusqalla kachkaptinqa, sapsi paqarinanlla.
+USERログインで通常のソース出力	Sapa kuti lluqsimuy, USER hina yaykusqa kachkaspa
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Akllay, sapsi HTML lluqsimuynin kamachiqkunallapaq kananta icha llamk'achiq yaykuyta mañakunanta.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Huk rikch'ata kallpawan uraykachiy, chaymanta imachus chiqapuni uraykachisqa
+GIF形式で1×1ピクセルの透過画像	Huk 1x1 pixel lloq'lla rikcha GIF rikch'ayninpi
+PNG形式で1×1ピクセルの透過画像	Huk 1x1 pixel lloqlla rikcha, PNG rikch'ayninpi
+PNG形式で黄色い背景の警告画面	Q'illu qhipanwan willakuq qhawanapampa, PNG rikch'ayninpi
+意味のないHTMLドキュメント	Mana imapaqpas valeq HTML qillqa
+HTML保護時のHEADタグの出力	HTML hark'asqa kachkaptin HEAD unanchap lluqsimuynin
+出力しない	Ama llimp'iychu
+TITLEタグのみ	Umancha qillqallan
+WordpressのHEADタグより取得	WordPress HEAD unanchanmanta hurqusqa
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Empresa llamk'anapaq, miembronkunallapaq p'anqakunapi chaymanta ukhu p'anqakunapiqa, 'Ama lluqsichiychu' utaq 'TITLE unanchallan' nisqata akllayqa allin kanqa.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	WordPress HEAD etiquetamanta willakuyta mana hurquspaykiqa, OGP rikch'aqa manam rikhurinqachu llika tinkuna wasikunapi rakinakuspa.
+画像botをアクセス禁止にする	Rikch'a botta hark'ay
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Rikch'a botkunata HTMLman yaykunankuta hark'aspaqa, rikch'a mask'aywan chiqan t'inkiywan mana amachay atina kaq willakuyta amachawaqmi; ichaqa, kayqa manam tukuy imapaq allin allin allichaychu.
+AI学習用botをアクセス禁止にする	Yachayniyuq makina yachachina botman yaykuyta hark'ay
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	HTML nisqapi AI yachachinapaq ruwasqa botskunata mana llamk'achispaqa, qhawarinchikmi chay willakuyta AI mana llamk'achinanpaq; ichaqa, kaytaqa manam tukuytachu hark'ayta atikunman.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Llikapi waqaychasqa willakunaman chaymanta llikamanta usqhaylla hap'isqakunaman yaykuyta hark'ay
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Mana saqinchikchu kikinmanta huñusqa llikapi waqaychasqa willakunaman, hinallataq runap munayninman hina hurqusqa lliq'a siq'ikunamanpas yaykuyta; ichaqa, manan chayta tukuytachu hark'ayta atiyku.
+無効なUAをアクセス禁止にする	Mana chanin apaykachaqkunata hark'ay
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Mana yaykuyta saqin, sichus user agent qillqa mana chanin sanampakunayuq kaptin.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Internet Explorermanpas mawk'a Microsoft Edgemanpas
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorerwan, mawk'a Microsoft Edgewan ima yaykuyta hark'an.
+alertメッセージを表示する言語	Willaykuna rikuchisqa kaq simi
+Wordpressの言語	WordPresspa siminkuna
+ブラウザの設定言語	Llika mask'aqpa simi kamachiyninkuna
+メッセージをカスタム設定されている場合は言語を変更できません	Willakuykuna sapaqchasqa kaptinqa, manam simita t'ikrayta atinkichu.
+同意画面の言語	Arí ninapaq qhawanap simin
+view-sourceメッセージを表示する言語	'view-source' willakuyta rikuchinapaq simi
+一時使用トークンの有効期限	Pachallanpaq sananchakunap tukukuy p'unchawnin
+3分	Kimsa k'iti
+4分	Tawa k'iti
+5分	Pichqa k'iti
+6分	Suqta minutu
+7分	Qanchis minutu
+8分	Pusaq minutu
+9分	Isqun k'iti
+10分	Chunka k'iti
+15分	Chunka pichqayuq minutu
+20分	Iskay chunka minutu
+25分	Iskay chunka pichqayuq minutu
+30分	Kimsa chunka minuto
+35分	Kimsa chunka pichqayuq minutu
+40分	Tawa chunka minuto
+45分	Tawa chunka pichqayuq kuskacha
+50分	Pichqa chunka minuto
+55分	Pichqa chunka pichqayuq minutu
+1時間	Huk ura
+画像URL情報の有効期限を設定します	Rikch'a URL willakuypa tukukuy p'unchawninta churay
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Huk kuti q'ipichasqa kaptinqa, rikch'ap URL nisqanpas pisi pachapaq token nisqanpas mana llamk'anqañam.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Rikch'akunaqa mañakusqallanman hina q'ipichakun, ichaqa kikinmanta q'ipichakunqa chay nisqa pacha manaraq chayamuchkaptin kimsa chunka segundo ñawpaqta.
+一時使用トークンのビット数	Pacha-pukllaypaq unanchapi bitkunaq yupaynin
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Huk pacha tokenmi pakasqa simi hina llank'achikun rikch'a URL willakuyta pakaypaq; kay kamachiyqa kallpanta sut'inchan.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Urayman kichakuq akllanapi rikuchisqa akllanakuna aswan t'aqwirisqa kaptinpas, kayqa sirwidurman aswan hatun llank'ayta churayta atin, chaymantataq aswan achkha HTML willakuy apachikunanpaq tukunman.
+ハッシュ化アルゴリズム	Chaqrusqa yupay ñan
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Huk pisi pachapaq unanchaqa pakasqa simi hina llamk'achikun rikch'ap URL willayninta pakaypaq; kaypaqqa hashing nisqa munakun, kay churanataqmi chay hashingpa kallpanta kamachin.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Urayk'uypaq menupi rikuchisqa akllanakunata urayman suchurichkaspa kallpan yapakusqanpas, kayqa sirwidurman aswan hatun llank'ayta churaykun.
+基本設定	Qallariy allichaykuna
+高度な設定	Ñawpaqman risqa kamachiykuna
+初期設定に戻す	Qallariy kamachiykunata kutichiy
+デザイン・音の設定	Rikch'ayninwan uyarinapaq allichaykuna
+イベントの設定	Huñunakuypa kamachiyninkuna
+初回訪問時のお知らせの設定	Ñawpaq kutita watukuqkunapaq willaykunata churay
+メッセージの設定	Willakuypa kamachiyninkuna
+右クリックやソースコード表示時に転送する URL を設定します	Paña ñit'iywan kichanapaq utaq pukyu qillqata qhawanapaq URL churanakuy.
+警告メッセージにはHTMLは使用できません	HTML manam willaykunapiqa llamk'achiy atikunchu.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Kay qhawanapi kayta wakichiptiykiqa, Ñawpaqman Rurasqa t'aqapi simi wakichiykunaqa mana kasusqachu kanqa.
+以下の文字列が使用できます	Kay qatiq qillqa siq'ikunaqa llamk'achikunmanmi.
+改行	Sira p'aki
+押下されたキー	Llavi ñit'isqa
+Neo HTML Protector 設定	Musuq HTML Amachaq Allichayninkuna
+お知らせ	Willakuy
+メッセージ	Willakuy
+デザイン・音	Rikch'aywan Uyarina
+初期化	Qallariy
+このプラグインについて	Kay pluginmanta
+設定が初期化されました	T'ikraykunaqa musuqmanta churasqañam kachkan.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Yanapata qallarichiy. Yuyariy, IP Log Reader willakuykunaqa manaraqmi kay pachapi pichasqachu kanqa.
+Neo HTML Protectorについて	Neo HTML Amachaqmanta
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Kay pluginqa ruwasqa kachkan WordPress web p'anqaykiq paqarichisqan HTML nisqata, rikch'akunata, huk kaqkunatapas amachananpaq, mana saqillasqa apaykachaymanta hark'aspa.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Imaymana kaqkunata hunt'asqata amachayqa mana atinachu. Ichaqa, atikusqanman hina willakuykunata quspa, imapas kaptinpaq wakichikuspa ima, kamachikuqpa kamachisqanman hina kay sasachakuyta allichayta atisunman.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Chiqapmi, qhawarinayki tiyan servisiyupa kamachikuyninkuna chaymanta web p'anqapa kamachikuyninkuna hunt'asqa kanankupaq. Kay plugin mana servisiyupa kamachikuyninkunata paqarichinapaq llamk'anachu kaptinpas, huk pusayta qusunkimanmi.
+開発者: 夜桜　なの	Ruraq: Nano Yozakura
+バージョン	Lluqsimuynin
+ビルド	Wasichay
+サポートページ	Yanapay p'anqa
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Ura Manira sipaspa ruwasqan
+支援のお願い	Yanapay mañakuy
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Añay Neo HTML Protector nisqata llamk'achisqaykimanta!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Kay pluginpa wiñachiyninpas allinlla kananpaq qhawariyninpas ancha achka pachatam, kallpatam mañakun. Chayrayku, aswan allinyachinapaq musuqyachinapaqpas qullqita huñunapaq, pipas yanapayta atiq yanapawaqninchikman qullqi qunaykita yuyaykunman chayqa, anchatam agradecekusunman.
+寄付について	Quykuykunamanta
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Quykuykunaqa munayllamantam, manam kamachisqachu. Kay pluginqa llapa runapaqmi mana qullqiyuq. Ichaqa, yanapayniykichikta anchatam chaninchaniku kayta wiñachinallaykupaq, hinaspapas ancha kusisqam kanayku sichus pisi qullqillatapas quwaqchik.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Kay urapi kaq t'inkita ñit'ispa qullqi qunayki atinki. Japón suyupi tiyaq kaspaykiqa, mana qullqiyuqta qunayki atinki, hinallataq Amazonpa qoykuy valenkunawanpas hawalla qunayki atinki.
+寄付先	Khuyapayay wasikuna
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Qamkunap yanapayniykichikwanqa, tukuy atisqaykuta ruwasun allin musuq willakuykunata qamkunaman apamushallanaykupaq.
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Yanapawasqaykichikmanta anchatam agradecekuyku, hamuq pachapipas yanapawanaykichiktataq suyakuyku.
+ライセンス	Saqillay
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Kay pluginqa kichasqa pukyu software hina ruwasqa kachkan, hinaspataq GPLv2.0 utaq qhipa kaq kamachiywan lisinsiyachisqa kachkan.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Kay pluginpi churasqa wakin tecnologíakunaqa patentekunawan amachasqam kanku.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Kay patenteyuq tecnología nisqaqa kay plug-in ukhullapim llamk'achiy atikun.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Huk imapaqpas llamk'achinapaqqa, qillqaqwan rimanakuy qhatunapaq saqillayta chaskinaykipaq.
+本プラグインには以下のライブラリを同梱しています	Kay pluginqa kay qatiq libreríaskunatam hap'in.
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Kay pluginqa urapi ruwasqa ASCII arte sanampakunata, sanampa willañiqikunawan kuskata hap'in.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Kay pluginqa EJ Co., Ltd. nisqap rurasqan mana oficial 'SM Trainer Hitomi 3' Super Famicom pukllaymanta takikunayuqmi, chay takikunataq kay pluginpa ruraqninpa qillqasqanmi, hinaspapas kamachisqa licenciayuqmi.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Kay pluginqa Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kay pluginta wiñachinaypaqqa, Raspberry Pi 5, ChatGPT, DeepL nisqakunatapas llamk'achirqanim.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Huk cache-paq plugin tarisqa kachkan. Kay pluginqa manam allintachu llamk'anqa sichus huk cache-paq plugin llamk'achisqa kachkan chayqa.
+無効なIPアドレス	Mana chanin IP tiyay
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Kay web p'anqata llamk'achinaykipaqqa, cookies nisqakunata JavaScript nisqatapas atichinaykim tiyan.
+利用規約	Imayna apaykachana kamachikuykuna
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Mana saqillasqa llamk'achiyta hark'anapaq, hinallataq qarananchiskuna allin takyasqa puririnanpaq, kay web p'anqaqa willakuykunata waqaychayta atinman, kaykunata hina: IP tiyaykunata, llikapi purisqaykipa willayninta, ruwasqaykikunamanta qillqasqakunatapas, cookies nisqakunapi chaymanta willay taqikunapi. Kay willakuykunaqa web p'anqap puririyninpaq hinallataq kamachiypaqkunallam llamk'achikun, manataqmi huk runakunamanpas willasqachu kanqa.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Kay qaranata llamk'achinaykipaqqa, kay ruwaykunaman ari ninaykim tiyan.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Sapanchay Kamachikuypa ukhunpi kaqkunataqa qhawayta atinki, ari nisqaykiña kachun manaña kachunpas.
+同意する	Arí nini
+同意しない	Manan chaynallachu yuyani
+確認	Kallpanchay
+プライバシーポリシー	Sapanchasqa Willakuymanta Kamachikuy
+通常とは異なる方法でのアクセスや操作が検出されました	Mana yachasqa yaykuy utaq ruray tarisqa kachkan.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Wakin imaymanakunaqa hark'asqa kachkan waqaychasqa kanapaq chaymanta imaymanakuna amachanapaq.
+デバッグモード、コンソールの起動は禁止されています	Pantay allichana ñanpas consola yaykunapas wichq'asqam kachkan.
+以下の情報がサーバーに送信されました	Kay qatiq willakuyqa sirwidurmanmi apachisqa.
+あなたのIPアドレス	Qampa IP tiyayniyki
+あなたの端末とブラウザ	Llamk'anaykiwan llik'a mask'aqniykiwan
+あなたの押下したキー	Ñit'isqayki kichana
+リダイレクトをします	Wakman apasqa kanki
+コンテンツ保護のため一部の機能を制限しています	Wakin imaymanakunaqa hark'asqa kachkan ukhunpi kaqta amachanapaq.
+右クリックは禁止されています	Paña ñit'iyqa manam saqillasqachu
+あなたが押下したキー	Ñit'isqayki kichana
+印刷、PDFへの保存は禁止されています	PDFpi ch'ipachiywan waqaychaypas hark'asqam kachkan.
+スクリーンショットは禁止されています	Rikch'a hap'iykunaqa hark'asqam.
+スクリーンショット、デバッグモード等の起動は禁止されています	Rikch'a hap'iykuna ruwaypas pantay rikuchina ñanta kichariypas hark'asqam kanku.
+ページの保存は禁止されています	Kay p'anqata waqaychayqa hark'asqam.
+コピー、カットは禁止されています	Kopiyaypas kuchuypas hark'asqam.
+あなたが起こしたイベント	Qampa wakichisqayki ruwaykuna
+テキストの選択は禁止されています	Qillqata akllayqa manam saqillasqachu.
+HTMLソース表示は禁止されています	HTML pukyu qillqata rikuchiyqa hark'asqam.
+不正アクセスは禁止されています	Mana saqillasqa yaykuyqa hark'asqam.
+アフリカーンス語	Afrikans
+アラゴン語	Aragonés
+アラビア語	Arabe simi
+アッサム語	Asamés simi
+アゼルバイジャン語	Azerbaijan simi
+バシュキール語	K'amiy
+ベラルーシ語	Belaruso simi
+ベンガル語	Bengali simi
+ブルガリア語	Búlgaro simi
+ボスニア語	Bosniya simi
+カタロニア語	Katalán simi
+チェコ語	Checo
+ウェールズ語	Gales simi
+デンマーク語	Danés simi
+ドイツ語	Alemán
+現代ギリシア語	Kunan pacha Griego simi
+英語	Ingles simi
+イギリス英語	Britain's
+アメリカ英語	Americano Ingles
+エスペラント語	Suyasqa simi
+スペイン語	Ispañul simi
+エストニア語	Estonio
+バスク語	Vasco
+ペルシャ語	Parsiyamanta
+フィンランド語	Tukunanpaq
+フランス語	Franses simi
+アイルランド語	Irlandés
+ガリシア語	Galiicia simi
+グァラニ語	Ñuñu
+グジャラート語	Gujarati simiqa huk Indiamanta simim, Indiamanta runakunap rimaynin.
+ハウサ語	Allin
+ヘブライ語	Hebreo simi
+ヒンディ語	Mancha simi
+クロアチア語	Croacia simi
+ハイチ・クレオール語	Aytiyankumanta Kreyol simi
+ハンガリー語	Ungur simi
+インドネシア語	Indonesiamanta
+イボ語	Ibo simi
+アイスランド語	Chiri Rumi
+イタリア語	Italiano
+日本語	Nihun simi
+ジャワ語	Javayuq
+カザフ語	Kazakh simi
+朝鮮語	Koreamanta simi
+クルド語	Kurdiyamanta
+キルギス語	Kirgista
+ラテン語	Latín simi
+ルクセンブルク語	Luxemburgués
+リンガラ語	Kawsaq simi
+リトアニア語	Lituania simi
+ラトビア語	Latviyamanta
+マダガスカル語	Malagasy
+マオリ語	Māori runakuna
+マケドニア語	Macedonio
+マラヤーラム語	Malayalam simi
+モンゴル語	Mongolian simi
+マラーティー語	Marañi simi
+マレー語	Malayo simi
+マルタ語	Malta simi
+ビルマ語	Birman
+ネパール語	Nepal simi
+ノルウェー語	Noruegamanta
+オランダ語	Hulandés simi
+オック語	Ocitan
+オロモ語	Uywa
+パンジャーブ語	Punjabi simi
+ポーランド語	Llusk'achay
+パシュトー語	Ch'ulla simi
+ポルトガリア語	Purtuquy simi
+ブラジルポルトガル語	Brasil simi
+ヨーロピアンポルトガル語	Iwrupap purtuqes simin
+ケチュア語	Karu simi
+ルーマニア語	Rumán simi
+ロシア語	Rusiya simi
+サンスクリット語	Sanskrit
+スロバキア語	Eslovaquio
+スロベニア語	Islovenia simi
+セルビア語	Sirbiyamanta
+南セソト語	Urin Suesu
+スンダ語	Sunda simi
+スウェーデン語	Suecia simi
+スワヒリ語	Suwahili simi
+タミル語	Tamil simi
+テルグ語	Teligu simi
+タジク語	Sumaq
+タイ語	Tailandés
+トルクメン語	Turkmen
+タガログ語	Taga-Tagalog
+トルコ語	Turco simi
+タタール語	Tata simi
+ウクライナ語	Ucraniano
+ウルドゥー語	Urdumanta
+ウズベク語	Uzbeko
+ベトナム語	Vietnamita
+コサ語	Chaki
+イディッシュ語	Yidi simi
+簡体中国語	Ch'ullanchasqa Simi Chinu
+繁体中国語	Ñawpaq China simi
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Kunan llamk'achisqayki llik'a mask'aqqa ñawpaq kaqmi, manañam yanapasqachu. Aswan allin waqaychasqa hinaspa hawkalla llik'api purinaykipaq, ama hina kaspa, llik'a mask'aqniykita qhipa kaqman musuqyachiy.
+不正なリクエストです	Mana chanin mañakuy
+画像が見つかりません	Rikch'a mana tarisqachu

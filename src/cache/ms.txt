@@ -1,0 +1,424 @@
+設定	Tetapan
+IPログリーダー	Pembaca Log IP
+IPアドレスログ	Log alamat IP
+全クリア	Lengkapkan semua peringkat
+IPログが全て削除されました	Semua log IP telah dipadamkan.
+ID	ID
+タイムスタンプ	Cap masa
+IPアドレス	Alamat IP
+ユーザーエージェント	Agens Pengguna
+イベント	Acara
+IPアドレスのデータはありません	Tiada data untuk alamat IP ini
+EU GDPR対応	Pematuhan kepada GDPR EU
+無効	Tidak sah
+有効	Sah
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Jika anda menggunakan WordPress di dalam EU, atau jika laman web anda menyasarkan pengguna di dalam EU, sila pastikan ini diaktifkan.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Butang 'Konfirmasi' akan berubah menjadi 'Setuju' atau 'Tidak Setuju', dan kelakuannya akan berubah sedikit.
+同意画面の色	Warna skrin persetujuan
+自動	Otomatik
+ライトモード	Mod ringan
+ダークモード	Mod Gelap
+同意画面表示中の配色を設定します	Tetapkan skema warna untuk skrin persetujuan
+同意画面中のコンテンツのぼかし	Penyamaran kandungan pada skrin persetujuan
+同意画面表示中のコンテンツのぼかし具合を設定します	Tetapkan tahap pengaburan untuk kandungan yang dipaparkan pada skrin persetujuan
+同意画面の透過	Keterbukaan skrin persetujuan
+透過なし	Tiada ketelusan
+同意画面の透過具合を設定します	Tetapkan ketelusan skrin persetujuan
+お知らせの1行目	Baris pertama pengumuman
+初回表示で必ず表示されるメッセージです	Mesej ini sentiasa dipaparkan pada kali pertama halaman dimuatkan.
+お知らせの2行目	Baris kedua notis itu
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Mesej ini akan sentiasa muncul pada paparan pertama hanya apabila EU GDPR berkuat kuasa.
+お知らせの3行目	Baris ketiga pemberitahuan itu
+プライバシーポリシーのリンクの右側に表示されます	Ia akan muncul di sebelah kanan pautan kepada Dasar Privasi.
+非EU向け確認の文字列	Teks pengesahan untuk negara bukan EU
+EU GDPR向け同意するの文字列	Teks persetujuan untuk EU GDPR
+EU GDPR向け同意しないの文字列	Teks untuk 'Jangan bersetuju' di bawah EU GDPR
+プライバシーポリシーの文字列	Teks dasar privasi
+プライバシーポリシーのURLはこちらから設定して下さい	Sila tetapkan URL untuk dasar privasi di sini.
+プライバシーポリシーには以下の内容を追加して下さい	Sila tambah yang berikut ke dalam Dasar Privasi.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Untuk mengesan aktiviti penipuan, pengecam seperti alamat IP disimpan dalam kuki dan pangkalan data. Data yang disimpan akan dipadam mengikut budi bicara pentadbir.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Untuk memastikan imej dihantar dengan betul hanya apabila perlindungan imej diaktifkan, kami menyimpan data hashed yang merangkumi alamat IP dan nama fail imej dalam pangkalan data selama sehingga 60 minit.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jika anda menyediakan Terma Penggunaan, sila pastikan anda menyertakan pautan kepadanya dalam Dasar Privasi anda.
+利用規約の文字列	Teks Terma Penggunaan
+利用規約のページ	Halaman Terma dan Syarat
+ページ選択なし	Tiada halaman dipilih
+検索エンジン等のURL	URL untuk enjin carian, dan sebagainya.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Tetapkan URL untuk enjin carian dan laman serupa yang mengalihkan pengguna apabila kebenaran tidak diberikan
+デバッグモード、コンソールの警告メッセージ	Mod penyahpepijat, mesej amaran konsol
+右クリックの警告メッセージ	Tetingkap amaran klik kanan
+印刷、PDF保存の警告メッセージ	Mesej amaran mengenai mencetak dan menyimpan sebagai PDF
+スクリーンショットの警告メッセージ	Mesej amaran dalam tangkapan skrin
+スクリーンショットの疑いの警告メッセージ	Mesej amaran mengenai tangkapan skrin yang disyaki
+テキスト全選択時の警告メッセージ	Mesej amaran apabila semua teks dipilih
+ページ保存の警告メッセージ	Pesan amaran mengenai penyimpanan halaman
+コピー・カットした時に表示するメッセージ	Mesej yang dipaparkan semasa menyalin atau memotong
+HTMLソース表示時に表示するメッセージ	Mesej untuk dipaparkan apabila melihat sumber HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesej untuk dipaparkan di bahagian atas kod sumber apabila mengaburkan atau melindungi HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mesej untuk dipaparkan jika token pengesahan sekali guna tidak sah semasa perlindungan HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mesej untuk dipaparkan jika kuki atau JavaScript dilumpuhkan
+実際にはJavascriptが無効時のみ表示されます	Sebenarnya, ini hanya dipaparkan apabila JavaScript dilumpuhkan.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Apabila imej dilindungi, ia dimuat turun dan mesej akan dipaparkan pada imej tersebut
+HTML難読化 (圧縮)	Pengaburan HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ini adalah pemampatan HTML standard; terdapat juga laman web yang boleh menyahsandi semula.
+このオプションを有効にするとview-sourceのログが取得できます	Mengaktifkan pilihan ini membolehkan anda mendapatkan log sumber tontonan.
+HTML保護	Pelindung HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ia menghasilkan HTML yang lebih sedikit daripada tetapan pemampatan HTML, bermakna kandungan dalam tag BODY langsung tidak akan dikeluarkan.
+Firefoxに対しては無効です	Ini tidak terpakai kepada Firefox
+SEOに著しく影響があります	Ini mempunyai kesan yang ketara terhadap SEO.
+HTMLをJavaScriptで描画	Menyusun HTML menggunakan JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Untuk mengatasi sekatan Firefox, kami menjana HTML menggunakan JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mengaktifkan render JavaScript akan memperlahankan dengan ketara kelajuan pemuatan laman web.
+画像の保護	Pelindung imej
+imgタグが呼び出されるごとに画像を保護	Lindungi imej setiap kali tag img dipanggil
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Lindungi semua imej yang dimuat naik ke WordPress dalam keseluruhan keluaran HTML.
+画像をダウンロードから保護します	Melindungi imej daripada dimuat turun
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Apabila data imej dilindungi, kami menghalang hampir semua muat turun, mengeluarkan URL sekali guna yang unik, mengesahkan menggunakan token yang disimpan dalam sesi, dan memaparkan imej melalui PHP; ini secara berkesan menghalang hampir semua kes kecurian imej.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Apabila data imej dilindungi, penimbalan tidak berfungsi, yang bermakna laman web akan memuat lebih perlahan pada lawatan seterusnya, sekali gus menjejaskan SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Melindungi data imej mungkin meningkatkan beban pada pangkalan data.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Jika anda memilih 'Lindungi imej setiap kali tag img dipanggil', sistem akan menggunakan add_filter untuk menerapkan penapisan apabila tag img dijana; bagaimanapun, ini mungkin tidak berfungsi dengan betul pada beberapa tema.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Jika anda memilih 'Lindungi semua imej yang dimuat naik ke WordPress dalam keseluruhan keluaran HTML', pemalam ini akan merakam hampir semua operasi WordPress dan memproses setiap tag img dalam kandungan. Sila ambil perhatian bahawa ini mungkin tidak berfungsi dengan betul pada beberapa tema.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Sila ambil perhatian bahawa imej yang ditetapkan sebagai imej unggulan akan dikongsi sebagai data OGP dan tidak dapat dilindungi. Jika anda benar-benar perlu melindunginya, sila ubah tetapan keluaran tag HEAD dalam tetapan lanjutan apabila mengaktifkan perlindungan HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Fungsi tangkapan skrin yang disertakan sebagai standard dalam sistem pengendalian tidak dapat dilindungi.
+画像URLの保護	Melindungi URL imej
+画像の保護と組み合わせて使用します、単体では意味がありません	Ini harus digunakan bersama pelindung imej; jika digunakan sendiri, ia tidak mempunyai sebarang tujuan.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Oleh kerana ia dimuat secara malas melalui JavaScript, ini menjejaskan SEO.
+画像のウォーターマーク	Air tanda imej
+右下	Bawah kanan
+ランダム位置	Posisi rawak
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Digunakan bersama perlindungan imej, tanda air dinamik jelas menunjukkan pemilikan hak cipta sambil memberi kesan kepada penonton bahawa mereka dipantau, sekaligus berfungsi sebagai penghalang.
+JPG形式、PNG形式、WebP形式のみ対応します	Hanya format JPG, PNG dan WebP disokong.
+有効にするとサーバーの負荷が高くなります	Mengaktifkan ini akan meningkatkan beban pelayan.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Menghasilkan seni ASCII daripada kod sumber HTML semasa pengaburan dan perlindungan
+表示なし	Tiada paparan
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Menunjukkan seni ASCII yang menandakan amaran apabila melihat sumber HTML menggunakan 'view-source'
+対象アクションを起こした時の表示デザイン	Tunjukkan reka bentuk apabila tindakan sasaran dilakukan
+黄色の背景の黒文字のベーシックデザイン	Reka bentuk asas yang menampilkan teks hitam pada latar belakang kuning
+黒色の背景の赤文字のホラー風デザイン	Reka bentuk gaya seram yang menampilkan teks merah pada latar belakang hitam
+黒色の背景の赤文字の光る文字のデザイン	Reka bentuk yang menampilkan teks merah menyala pada latar belakang hitam
+対象アクションを起こした時のBGM	Musik latar yang dimainkan apabila tindakan sasaran dilakukan
+サウンドなし	Tiada bunyi
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Pertempuran & Kemenangan - 1 minit 16.3 saat - 630,056 bait - 64 kbps - Lesen: CC 2.1 atau lebih baru
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Ayah Pendek - 3.8 saat - 32,364 bait - 64 kbps - Lesen: GPL 2.0 atau kemudian
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 saat - 195,578 bait - 64 kbps - Lesen: GPL 2.0 atau kemudian
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Versi dijana komputer, versi berkelajuan tinggi – 1 minit 57.6 saat – 724,457 bait – 48 kbps – Lesen: CC BY-ND 4.0 atau kemudian
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo dalam B mol minor, Op. 2 – Versi dijana komputer, versi ringkas berkelajuan tinggi – 1 minit 48.0 saat – 665,369 bait – 48 kbps – Lesen: CC BY-ND 4.0 atau kemudian
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Senarai: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 saat – 183,926 bait – 64 kbps – Lesen: Domain Awam
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfare gaya retro – 2.2 saat – 10,536 bait – 32 kbps – Lesen: Domain Awam
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Intro gaya retro – 42.1 saat – 179,138 bait – 32 kbps – Lesen: Domain Awam
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Amaran oleh ChatGPT - 3.8 saat - 109,700 bait - 256 kbps - Lesen: Domain Awam
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Suara kecemasan tinggi seperti amaran pengesanan perisian hasad – Bahagian 1 oleh ChatGPT – 3.3 saat – 102,850 bait – 256 kbps – Lesen: Domain Awam
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Suara kecemasan tinggi seperti amaran pengesanan perisian hasad, Bahagian 2 oleh ChatGPT - 3.3 saat - 103,122 bait - 256 kbps - Lesen: Domain Awam
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Bunyi gaya MRI oleh ChatGPT – 1 minit 14.9 saat – 3,340,392 bait – 320 kbps – Lesen: Domain Awam
+警告表示中のBGMを選択します	Pilih muzik latar untuk dimainkan semasa amaran.
+びっくりするような雰囲気を作ります	Ia mencipta suasana yang mengejutkan
+Firefoxでは音声ブロックされます	Audio disekat dalam Firefox
+対象アクションを起こした時のビープ音	Bunyi bip apabila tindakan yang ditetapkan dilaksanakan
+有効 音量小さ目	Dihidupkan, kelantangan rendah
+有効 音量大き目	Aktif, kelantangan ditetapkan pada tahap tinggi
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bunyi bip akan kedengaran untuk semua acara kekunci dan tetikus sementara amaran dipaparkan.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Ia memberi kesan bahawa peranti telah menjadi tidak terkawal semasa amaran dipaparkan.
+対象アクションを起こした時のマウスカーソルの消去	Menyembunyikan penunjuk tetikus apabila tindakan tertentu dilakukan
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Menyembunyikan penunjuk tetikus di kawasan pelayar semasa amaran dipaparkan.
+デバッグモード	Mod periksa ralat
+妨害＋記録のみ	Gangguan + Rekod sahaja
+妨害＋記録＋表示＋リダイレクト	Gangguan + Logging + Paparan + Pengalihan
+メニューからは操作できてしまいます	Anda masih boleh mengaksesnya melalui menu.
+Firefoxにおけるデバッグモード	Mod debug dalam Firefox
+ブラウザーコンソール	Konsol pelayar
+事実上デバッグモードから操作できてしまいます	Sebenarnya, anda boleh mengoperasikannya dalam mod nyahpepijat.
+HTMLソース表示	Lihat sumber HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Anda boleh melaksanakan operasi itu dengan hanya memasukkan URL yang bermula dengan 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Anda boleh melindungi kandungan anda dengan menggabungkan ini dengan perlindungan HTML.
+印刷	Cetak
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Walaupun ia menghalang pencetakan, ia mungkin tidak berfungsi dengan betul dalam beberapa pelayar.
+スクリーンショット	Tangkapan skrin
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Bergantung pada sistem operasi, pelayar atau kaedah yang digunakan, mungkin tidak dapat menyekat ini, atau mungkin tidak dikesan.
+ウインドウが背面に移動した時スクリーンショットの疑い	Skrinshot yang disyaki apabila tetingkap bergerak ke latar belakang
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ia juga bertindak balas terhadap fungsi selain tangkapan skrin
+2キー押下のスクリーンショットの疑い	Skrin tangkapan yang disyaki diambil dengan menekan dua kekunci
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Kaedah pengesanan bagi item-item di atas tidak sepenuhnya kebal; pengesanan dijalankan sebagai langkah berjaga-jaga.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ia mengesan bukan sahaja tangkapan skrin tetapi juga mod penyahpepijat dan seumpamanya.
+ページ保存	Simpan halaman
+右クリック	Klik kanan
+アドオンがインストールされていると操作できてしまいます	Jika add-on telah dipasang, anda akan dapat menggunakannya.
+コピー・カット	Salin dan potong
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Bergantung pada tetapan pemalam ini, anda mungkin jarang menemui peristiwa ini.
+テキスト全選択	Pilih semua teks
+テキスト選択	Pilih teks
+デバッガー起動ログ、デバッガー妨害	Log permulaan penyahpepijat, gangguan penyahpepijat
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Ini menjadikan mod debug sedikit kurang mesra pengguna dan merekodkan bahawa penyahpepijat telah dilancarkan; bagaimanapun, sesetengah pelayar mungkin menyekat tingkah laku ini.
+リダイレクトするURL	Alihkan URL
+利用規約などのページに転送すると良いでしょう	Adalah idea yang baik untuk mengalihkan pengguna ke halaman seperti Terma Penggunaan.
+空欄にすると元のURLにリダイレクトをします	Jika dibiarkan kosong, ia akan mengalihkan ke URL asal.
+リダイレクトまでの時間	Masa sehingga penyaluran semula
+リダイレクトなし	Tiada penalaahan
+1秒	1 saat
+2秒	2 saat
+3秒	3 saat
+4秒	4 saat
+5秒	5 saat
+6秒	6 saat
+7秒	7 saat
+8秒	8 saat
+9秒	9 saat
+10秒	10 saat
+15秒	15 saat
+20秒	20 saat
+25秒	25 saat
+30秒	30 saat
+35秒	35 saat
+40秒	40 saat
+45秒	45 saat
+50秒	50 saat
+55秒	55 saat
+1分	1 minit
+1分10秒	1 minit 10 saat
+1分20秒	1 minit 20 saat
+1分30秒	1 minit 30 saat
+1分40秒	1 minit 40 saat
+1分50秒	1 minit 50 saat
+2分	2 minit
+ソース表示を許可する権限	Kebenaran untuk melihat kod sumber
+ADMINログイン時のみ通常のソース出力	Keluaran sumber biasa hanya apabila log masuk sebagai ADMIN
+USERログインで通常のソース出力	Keluaran sumber biasa apabila log masuk sebagai USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pilih sama ada output HTML standard dihadkan kepada pentadbir sahaja atau memerlukan log masuk pengguna.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Memaksa imej dimuat turun dan apa yang sebenarnya dimuat turun
+GIF形式で1×1ピクセルの透過画像	Imej telus 1×1 piksel dalam format GIF
+PNG形式で1×1ピクセルの透過画像	Imej telus 1×1 piksel dalam format PNG
+PNG形式で黄色い背景の警告画面	Skrin amaran dengan latar belakang kuning dalam format PNG
+意味のないHTMLドキュメント	Dokumen HTML yang tidak bermakna
+HTML保護時のHEADタグの出力	Keluaran tag HEAD apabila HTML dilindungi
+出力しない	Jangan cetak
+TITLEタグのみ	Tag TITLE sahaja
+WordpressのHEADタグより取得	Diperoleh daripada tag HEAD WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Untuk halaman ahli guna korporat dan halaman dalaman, memilih 'Jangan keluarkan' atau 'Hanya tag TITLE' sudah memadai.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Kecuali anda mengambil maklumat daripada tag HEAD WordPress, imej OGP tidak akan muncul apabila dikongsi di media sosial.
+画像botをアクセス禁止にする	Blokkan bot imej
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Dengan menghalang bot imej daripada mengakses HTML, anda boleh melindungi kandungan yang tidak dapat dilindungi daripada pautan terus melalui carian imej; bagaimanapun, ini tidak memberikan penyelesaian yang lengkap.
+AI学習用botをアクセス禁止にする	Blok akses ke bot latihan AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Dengan mengelakkan penggunaan bot yang direka untuk latihan AI pada HTML, kami memastikan kandungan tidak digunakan oleh AI; bagaimanapun, ini tidak dapat dielakkan sepenuhnya.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Blok akses ke arkib web dan tangkapan skrin web
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Kami melarang akses kepada arkib web yang dikumpul secara automatik dan tangkapan skrin yang diambil mengikut budi bicara pengguna; bagaimanapun, kami tidak dapat menghalangnya sepenuhnya.
+無効なUAをアクセス禁止にする	Blok ejen pengguna yang tidak sah
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Menghalang akses jika rentetan ejen pengguna mengandungi aksara yang tidak sah
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Tunjukkan amaran apabila mengakses Internet Explorer dan Microsoft Edge lama
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Menghalang akses melalui Internet Explorer dan Microsoft Edge lama
+alertメッセージを表示する言語	Bahasa di mana mesej amaran dipaparkan
+Wordpressの言語	Bahasa WordPress
+ブラウザの設定言語	Tetapan bahasa pelayar
+メッセージをカスタム設定されている場合は言語を変更できません	Anda tidak boleh menukar bahasa jika mesej telah disesuaikan.
+同意画面の言語	Bahasa skrin kebenaran
+view-sourceメッセージを表示する言語	Bahasa untuk memaparkan mesej 'view-source'.
+一時使用トークンの有効期限	Tarikh luput token sementara
+3分	3 minit
+4分	4 minit
+5分	5 minit
+6分	6 minit
+7分	7 minit
+8分	8 minit
+9分	9 minit
+10分	10 minit
+15分	15 minit
+20分	20 minit
+25分	25 minit
+30分	30 minit
+35分	35 minit
+40分	40 minit
+45分	45 minit
+50分	50 minit
+55分	55 minit
+1時間	1 jam
+画像URL情報の有効期限を設定します	Tetapkan tarikh luput untuk maklumat URL imej
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Setelah dimuat, URL imej dan token sementara akan dinyahaktifkan.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imej dimuat mengikut permintaan, tetapi ia akan dimuat secara automatik 30 saat sebelum masa yang ditetapkan.
+一時使用トークンのビット数	Bilangan bit dalam token sementara
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token sementara digunakan sebagai kata laluan untuk menyulitkan maklumat URL imej; tetapan ini menentukan kekuatannya.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Walaupun pilihan yang dipaparkan di bawah menu lungsur menjadi lebih terperinci apabila anda menatal ke bawah, ini boleh meningkatkan beban pada pelayan dan mengakibatkan pemindahan jumlah data HTML yang lebih banyak.
+ハッシュ化アルゴリズム	Algoritma hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token sementara digunakan sebagai kata laluan untuk menyulitkan maklumat URL imej; ini memerlukan penghashingan, dan tetapan ini menentukan kekuatan penghashingan tersebut.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Walaupun intensitinya meningkat apabila anda menatal ke bawah melalui pilihan yang dipaparkan dalam menu lungsur, ini membebankan pelayan dengan lebih besar.
+基本設定	Tetapan asas
+高度な設定	Tetapan lanjutan
+初期設定に戻す	Pulihkan tetapan lalai
+デザイン・音の設定	Reka bentuk dan tetapan bunyi
+イベントの設定	Tetapan acara
+初回訪問時のお知らせの設定	Menyiapkan pemberitahuan untuk lawatan pertama kali
+メッセージの設定	Tetapan mesej
+右クリックやソースコード表示時に転送する URL を設定します	Tetapkan URL yang akan dibuka apabila klik kanan atau melihat kod sumber
+警告メッセージにはHTMLは使用できません	HTML tidak boleh digunakan dalam mesej amaran.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jika anda mengkonfigurasikan ini pada skrin ini, tetapan bahasa dalam tab Lanjutan akan diabaikan.
+以下の文字列が使用できます	Rangkaian berikut boleh digunakan
+改行	Pecah baris
+押下されたキー	Butang ditekan
+Neo HTML Protector 設定	Tetapan Pelindung HTML Neo
+お知らせ	Notis
+メッセージ	Mesej
+デザイン・音	Reka Bentuk dan Bunyi
+初期化	Pengawalan awal
+このプラグインについて	Mengenai pemalam ini
+設定が初期化されました	Tetapan telah diset semula
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisialisasi pemalam. Sila ambil perhatian bahawa data IP Log Reader tidak akan dipadam pada peringkat ini.
+Neo HTML Protectorについて	Tentang Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ini direka untuk melindungi HTML, imej dan kandungan lain yang dijana oleh laman WordPress anda, menjaganya daripada penggunaan tanpa kebenaran.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Mustahil untuk melindungi kandungan sepenuhnya. Walau bagaimanapun, dengan mengeluarkan amaran di mana boleh dan membuat persiapan sekiranya apa-apa berlaku, kita seharusnya dapat menyelesaikan perkara itu mengikut prosedur yang ditetapkan oleh kerajaan.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Sudah tentu, anda perlu memastikan terma perkhidmatan dan dasar laman anda menyeluruh. Walaupun pemalam ini bukan alat untuk menjana terma perkhidmatan, ia boleh memberikan beberapa panduan.
+開発者: 夜桜　なの	Pembangun: Nano Yozakura
+バージョン	Versi
+ビルド	Membina
+サポートページ	Halaman sokongan
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Dilakonkan oleh Cik Ura Manira
+支援のお願い	Permintaan sokongan
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Terima kasih kerana menggunakan Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Pembangunan dan penyelenggaraan plugin ini memerlukan banyak masa dan usaha, dan bagi mengumpul dana untuk terus memperbaiki serta mengemas kini, kami amat berterima kasih sekiranya sesiapa yang mampu menyokong kami mempertimbangkan untuk membuat sumbangan.
+寄付について	Mengenai Derma
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Sumbangan adalah sepenuhnya sukarela dan tidak diwajibkan. Pemalam ini disediakan secara percuma untuk semua orang. Walau bagaimanapun, sokongan anda amat dihargai untuk membantu kami meneruskan pembangunan, dan kami akan berbesar hati jika anda dapat menyumbang walaupun sedikit.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Anda boleh membuat sumbangan melalui pautan di bawah. Jika anda berada di Jepun, anda boleh menyumbang secara percuma, dan anda juga boleh menyumbang dengan mudah menggunakan baucar hadiah Amazon.
+寄付先	Pertubuhan kebajikan
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Dengan sokongan anda, kami akan berusaha sedaya upaya untuk terus membawa anda kemas kini yang hebat!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami berterima kasih atas sokongan anda dan menantikan sokongan berterusan anda pada masa hadapan.
+ライセンス	Lesen
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin ini dibangunkan sebagai perisian sumber terbuka dan dilesenkan di bawah GPLv2.0 atau versi kemudian.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Sesetengah teknologi yang disertakan dalam pemalam ini dilindungi oleh paten.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Penggunaan teknologi berpatent ini dibenarkan hanya dalam pemalam ini.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Untuk sebarang penggunaan lain, sila hubungi penulis untuk mendapatkan lesen komersial.
+本プラグインには以下のライブラリを同梱しています	Plugin ini merangkumi pustaka-pustaka berikut
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin ini merangkumi fon seni ASCII yang dijana di bawah, serta fail fon.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin ini merangkumi muzik daripada permainan Super Famicom tidak rasmi 'SM Trainer Hitomi 3', dibangunkan oleh EJ Co., Ltd. dan digubah oleh pencipta plugin ini, serta dilisensikan secara rasmi.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin ini merangkumi trek yang dihasilkan menggunakan 'Keppy's YAMAHA C7', dibangunkan oleh Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Saya juga telah menggunakan Raspberry Pi 5, ChatGPT dan DeepL dalam pembangunan pemalam ini.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin penimbalan telah dikesan. Plugin ini tidak akan berfungsi dengan betul jika plugin penimbalan diaktifkan.
+無効なIPアドレス	Alamat IP tidak sah
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Untuk menggunakan laman web ini, anda mesti mengaktifkan kuki dan JavaScript.
+利用規約	Syarat Penggunaan
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Untuk mengelakkan penggunaan tanpa kebenaran dan memastikan operasi perkhidmatan kami selamat, laman web ini mungkin menyimpan maklumat seperti alamat IP, sejarah pelayaran dan log aktiviti dalam kuki dan pangkalan data. Maklumat ini digunakan semata-mata untuk operasi laman web dan untuk tujuan undang-undang, dan tidak akan didedahkan kepada pihak ketiga.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Untuk menggunakan perkhidmatan ini, anda mesti memberi persetujuan terhadap aktiviti pemprosesan ini.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Anda boleh melihat kandungan Polisi Privasi tanpa mengira sama ada anda telah memberikan persetujuan anda.
+同意する	Saya bersetuju
+同意しない	Saya tidak bersetuju
+確認	Pengesahan
+プライバシーポリシー	Dasar Privasi
+通常とは異なる方法でのアクセスや操作が検出されました	Akses atau aktiviti luar biasa telah dikesan
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Sesetengah ciri telah dihadkan untuk tujuan keselamatan dan perlindungan kandungan.
+デバッグモード、コンソールの起動は禁止されています	Mod penyahpepijat dan akses konsol telah dilumpuhkan.
+以下の情報がサーバーに送信されました	Maklumat berikut telah dihantar ke pelayan
+あなたのIPアドレス	Alamat IP anda
+あなたの端末とブラウザ	Peranti dan pelayar anda
+あなたの押下したキー	Kunci yang anda tekan
+リダイレクトをします	Anda akan dialihkan
+コンテンツ保護のため一部の機能を制限しています	Sesetengah ciri telah dihadkan untuk melindungi kandungan.
+右クリックは禁止されています	Klik kanan tidak dibenarkan
+あなたが押下したキー	Kunci yang anda tekan
+印刷、PDFへの保存は禁止されています	Mencetak dan menyimpan sebagai PDF adalah dilarang.
+スクリーンショットは禁止されています	Skrinshot dilarang.
+スクリーンショット、デバッグモード等の起動は禁止されています	Mengambil tangkapan skrin dan mengaktifkan mod debug adalah dilarang.
+ページの保存は禁止されています	Menyimpan halaman ini dilarang
+コピー、カットは禁止されています	Menyalin dan memotong adalah dilarang.
+あなたが起こしたイベント	Acara yang telah anda atur
+テキストの選択は禁止されています	Memilih teks tidak dibenarkan
+HTMLソース表示は禁止されています	Menampilkan kod sumber HTML adalah dilarang.
+不正アクセスは禁止されています	Akses tanpa kebenaran adalah dilarang.
+アフリカーンス語	Afrikaans
+アラゴン語	Aranés
+アラビア語	Arab
+アッサム語	Assamী
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Bashkir
+ベラルーシ語	Belarusia
+ベンガル語	Bengali
+ブルガリア語	Bulgaria
+ボスニア語	Bosnia
+カタロニア語	Katalon
+チェコ語	Ceko
+ウェールズ語	Wales
+デンマーク語	Denmark
+ドイツ語	Jerman
+現代ギリシア語	Bahasa Yunani moden
+英語	Inggeris
+イギリス英語	British English
+アメリカ英語	Bahasa Inggeris Amerika
+エスペラント語	Bahasa Esperanto
+スペイン語	Sepanyol
+エストニア語	Estonia
+バスク語	Basque
+ペルシャ語	Parsi
+フィンランド語	Finnis
+フランス語	Perancis
+アイルランド語	Irlandis
+ガリシア語	Galicia
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Ibrani
+ヒンディ語	Hindi
+クロアチア語	Kroasia
+ハイチ・クレオール語	Kreyòl Haiti
+ハンガリー語	Hungaria
+インドネシア語	Indonesia
+イボ語	Bahasa Ibo
+アイスランド語	Islandic
+イタリア語	Itali
+日本語	Jepun
+ジャワ語	Jawa
+カザフ語	Kazakh
+朝鮮語	Korea
+クルド語	Kurdish
+キルギス語	Kyrgyz
+ラテン語	Latin
+ルクセンブルク語	Luxemburgis
+リンガラ語	Molimo
+リトアニア語	Lithuania
+ラトビア語	Latvia
+マダガスカル語	Malagasy
+マオリ語	Maori
+マケドニア語	Macedonia
+マラヤーラム語	Bahasa Malayalam
+モンゴル語	Bahasa Mongolia
+マラーティー語	Bahasa Marathi
+マレー語	Melayu
+マルタ語	Maltese
+ビルマ語	Burmese
+ネパール語	Nepali
+ノルウェー語	Norwegia
+オランダ語	Belanda
+オック語	Okitan
+オロモ語	Atau
+パンジャーブ語	Punjabi
+ポーランド語	Mengilat
+パシュトー語	پشتو
+ポルトガリア語	Portugis
+ブラジルポルトガル語	Portugis Brazil
+ヨーロピアンポルトガル語	Portugis Eropah
+ケチュア語	Tukang
+ルーマニア語	Rumania
+ロシア語	Rusia
+サンスクリット語	Bahasa Sansekerta
+スロバキア語	Slovak
+スロベニア語	Slovenia
+セルビア語	Serbia
+南セソト語	Selesea ea Sehlohlolo
+スンダ語	Sunda
+スウェーデン語	Swedia
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Thai
+トルクメン語	Turkmen
+タガログ語	Bahasa Tagalog
+トルコ語	Turki
+タタール語	Tatar
+ウクライナ語	Ukraine
+ウルドゥー語	Bahasa Urdu
+ウズベク語	Uzbek
+ベトナム語	Vietnamese
+コサ語	Kosa
+イディッシュ語	Yiddish
+簡体中国語	Bahasa Cina Ringkas
+繁体中国語	Bahasa Cina tradisional
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Pelayar yang anda gunakan kini adalah versi lama yang tidak lagi disokong. Untuk memastikan pengalaman melayari yang lebih selamat dan selesa, sila kemas kini pelayar anda ke versi terkini.
+不正なリクエストです	Permintaan tidak sah
+画像が見つかりません	Imej tidak ditemui

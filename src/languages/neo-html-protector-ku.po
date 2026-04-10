@@ -1,0 +1,1292 @@
+# Kurdish translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 05:12+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Kurdish\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Mîheng"
+
+msgid "IPログリーダー"
+msgstr "Xwendevanê Logên IP'yê"
+
+msgid "IPアドレスログ"
+msgstr "Tomara navnîşana IP'yê"
+
+msgid "全クリア"
+msgstr "Hemû astan temam bike"
+
+msgid "IPログが全て削除されました"
+msgstr "Hemû tomarên IP'yê hatin jêbirin."
+
+msgid "ID"
+msgstr "Nasname"
+
+msgid "タイムスタンプ"
+msgstr "Mora demê"
+
+msgid "IPアドレス"
+msgstr "Navnîşana IPyê"
+
+msgid "ユーザーエージェント"
+msgstr "Nûnerê Bikarhêner"
+
+msgid "イベント"
+msgstr "Bûyer"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ji bo vê navnîşana IP'yê ti daneyek tune."
+
+msgid "EU GDPR対応"
+msgstr "Lihevhatina bi GDPR a YE re"
+
+msgid "無効"
+msgstr "Ne derbasdar"
+
+msgid "有効"
+msgstr "Derbasdar"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Heke hûn WordPressê di nav Yekîtiya Ewropayê de bi kar tînin, an jî heke malpera we ji bo bikarhênerên di nav Yekîtiya Ewropayê de ye, ji kerema xwe piştrast bikin ku ev çalak e."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bişkoka 'Piştrast bike' dê bibe 'Li hev bike' an 'Li hev neke', û tevger dê hinekî biguhere."
+
+msgid "同意画面の色"
+msgstr "Rengê ekrana razîbûnê"
+
+msgid "自動"
+msgstr "Otomatîk"
+
+msgid "ライトモード"
+msgstr "Modê sivik"
+
+msgid "ダークモード"
+msgstr "Modê Tarî"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Şemaya rengê ji bo ekrana razîbûnê saz bike."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Tevlihevkirina naverokê li ser ekrana razîbûnê"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Asta matkirinê ji bo naveroka ku li ser ekrana razîbûnê tê nîşandan eyar bike."
+
+msgid "同意画面の透過"
+msgstr "Şefafiya ekrana razîbûnê"
+
+msgid "透過なし"
+msgstr "Bê şefafî"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Şefafiya ekrana razîbûnê saz bike"
+
+msgid "お知らせの1行目"
+msgstr "Rêza yekem a ragihandinê"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ev peyam her tim tê nîşandan gava ku rûpel cara yekem tê barkirin."
+
+msgid "お知らせの2行目"
+msgstr "Rêza duyemîn a agahdariyê"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ev peyam dê her tim tenê li ser dîmendera yekem xuya bibe dema ku GDPR ya YE di meriyetê de be."
+
+msgid "お知らせの3行目"
+msgstr "Xeta sêyem a agahdariyê"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ew ê li rastê ya lînka Polîtîkaya Nepenîtiyê xuya bibe."
+
+msgid "非EU向け確認の文字列"
+msgstr "Nivîsa piştrastkirinê ji bo welatên ne-YE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Teksta razîbûnê ji bo GDPR ya YE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Nivîsa ji bo 'Riza nede' di bin GDPR ya YE de"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Nivîsa polîtîkaya nepenîtiyê"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Ji kerema xwe URL-a polîtîkaya nepenîtiyê li vir saz bikin."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Ji kerema xwe van tiştan li Polîtîkaya Nepenîtiyê zêde bikin."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ji bo tespîtkirina çalakiyên sextekarî, nasnameyên wekî navnîşanên IP'yê di cookieyan û databasê de tên tomarkirin. Daneyên tomarkirî li gorî biryara rêveber tên jêbirin."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ji bo ku em piştrast bikin ku wêne rast tên radestkirin dema ku parastina wêneyan çalak be, em daneyên heşkirî yên ku navnîşana IPyê û navê pelê wêneyê di nav xwe de dihewînin, heta 60 deqeyan di databasa xwe de tomar dikin."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Heke hûn Mercên Bikaranînê saz dikin, ji kerema xwe piştrast bibin ku hûn di Polîtîkaya xwe ya Nepenîtiyê de lînkeke ber bi wan ve bi cih dikin."
+
+msgid "利用規約の文字列"
+msgstr "Nivîsa Mercên Bikaranînê"
+
+msgid "利用規約のページ"
+msgstr "Rûpela Şert û Mercan"
+
+msgid "ページ選択なし"
+msgstr "Rûpel nehatiye hilbijartin"
+
+msgid "検索エンジン等のURL"
+msgstr "URL ji bo motorên lêgerînê, hwd."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "URL'ê ji bo motorên lêgerînê û malperên wekhev ên ku dema destûr neyê dayîn bikarhêneran vedigerînin, saz bike."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modêya debugê, peyamên hişyariyê yên konsolê"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Peymana klîka-rastê ya peyama hişyariyê"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Peyama hişyariyê derbarê çapkirin û tomarkirina wekî PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Peyama hişyariyê di dîmenê de"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Peyama hişyariyê ya derbarê dîmenên ekranê yên gumanbar"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Peyama hişyariyê dema ku hemû nivîs hatiye hilbijartin"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Peyama hişyariyê derbarê tomarkirina rûpelê"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Peyama ku dema kopîkirin an jêbirinê tê nîşandan"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Peyama ku dema temaşekirina çavkaniya HTMLê were nîşandan"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Peyama ku li serê koda çavkaniyê were nîşandan dema ku HTML tê tevlihevkirin an parastin"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Peyama ku were nîşandan heke tokana rastkirina yekcarî di dema parastina HTMLê de ne derbasdar be"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Peyama ji bo nîşandanê heke cookies an JavaScript hatibin neçalakirin"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Bi rastî, ev tenê dema ku JavaScript neçalak be tê nîşandan."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Dema ku wêneyek tê parastin, ew tê daxistin û peyamek li ser wê wêneyê tê nîşandan"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Tevlihevkirina HTMLê"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ev kompresyona standard a HTMLê ye; her wiha malperên ku dikarin wê deşîfre bikin jî hene."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Aktîvkirina vê vebijarkê rê dide we ku hûn qeydên çavkaniya-dîtinê bistînin."
+
+msgid "HTML保護"
+msgstr "Parastina HTMLê"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ew ji mîhenga pêlêkirina HTMLê jî kêmtir HTMLê derdixe, ev tê wê wateyê ku naveroka di nav etîketa BODY de dê qet neyê nîşandan."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Ev ji bo Firefoxê derbas nabe."
+
+msgid "SEOに著しく影響があります"
+msgstr "Ev bandoreke girîng li ser SEOyê dike."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Renderkirina HTMLê bi JavaScriptê"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Ji bo ku li dora Firefoxê bixebitin, em HTMLê bi rêya JavaScriptê render dikin."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Çalakkirina rindreya JavaScriptê dê leza barkirina malperê bi awayekî berbiçav hêdî bike."
+
+msgid "画像の保護"
+msgstr "Parastina wêneyan"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Her carê ku etîketa img tê gazîkirin, wêneyê biparêze."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Hemû wêneyên ku li WordPressê hatine barkirin di nav tevahiya derketina HTMLê de biparêze."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Wêneyan ji daxistinê diparêze"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Dema ku daneyên wêneyan tên parastin, em hema hema bi temamî pêşî li daxistinan digirin, URLên yekcarî û yekta çêdikin, bi bikaranîna tokenên di danişînê"
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Dema ku daneyên wêneyan tên parastin, keşkirin naxebite, ku ev tê wê wateyê ku malper di serdanên paşîn de dê hêdîtir vebe, û bi vî awayî bandorê li SEOyê dike."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Parastina daneyên wêneyê dibe ku barê li ser databasê zêde bike."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Heke hûn 'Wêneyan biparêze her gava ku etîketa img tê gazîkirin' hilbijêrin, sîstem add_filter bi kar tîne da ku dema etîketa img tê çêkirin parzûnkirinê pêk bîne; lêbelê, dibe ku ev bi hin temayan re rast nexebite."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Heke hûn 'Hemû wêneyên ku di nav tevahiya derketina HTMLê de li WordPressê hatine barkirin biparêze' hilbijêrin, pêvek dê hema hema hemû operasyonên WordPressê bigire û her etîketa img a di nav naverokê de bişixulîne. Ji kerema xwe bala xwe bidinê ku dibe ev bi hin temayan re rast nexebite."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Ji kerema xwe bala xwe bidinê ku wêneyên wekî wêneyên taybet hatine destnîşankirin, dê wekî daneyên OGP werin parvekirin û nikarin werin parastin. Heke hûn bi teqezî dixwazin wan biparêzin, dema ku hûn parastina HTML'ê çalak dikin, ji kerema xwe di mîhengên pêşketî de mîhenga derketina etîketa HEAD biguherînin."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Fonksiyona girtina dîmenê ya ku wekî standard di pergala xebitandinê de heye, nayê parastin."
+
+msgid "画像URLの保護"
+msgstr "Parastina URLyên wêneyan"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Divê ev bi parastina wêneyan re were bikaranîn; bi serê xwe, tu armancek wê nîne."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Ji ber ku ew bi awayekî tembelane bi rêya JavaScript tê barkirin, ev yek bandorê li SEOyê dike."
+
+msgid "画像のウォーターマーク"
+msgstr "Nîşana avê ya wêneyê"
+
+msgid "右下"
+msgstr "Rastê jêrîn"
+
+msgid "ランダム位置"
+msgstr "Pozîsyona tesadufî"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Di heman demê de bi parastina wêneyan re tên bikaranîn, nîşanên avê yên dînamîk bi awayekî zelal xwedîtiya mafê telîfê nîşan didin û di heman demê de hesta şopandinê didin temaşevanan, û bi vî awayî wekî handerekê kar dikin."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Tenê formatên JPG, PNG û WebP tên piştgirîkirin."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Vekirina vê dê barê ser serverê zêde bike."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Derxistina hunera ASCII ji koda çavkaniyê ya HTMLê di dema tevlihevkirin û parastinê de"
+
+msgid "表示なし"
+msgstr "Tiştek nayê nîşandan"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Dema ku çavkaniya HTMLê bi rêya 'view-source' tê dîtin, hunera ASCII ya ku hişyariyekê nîşan dide."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Dîzayna pêşandanê dema ku çalakiya armanc pêk tê"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Sêwiraneke bingehîn ku nivîsa reş li ser paşxaneyeke zer e."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Sêwiraneke bi şêwazê tirsê ku nivîsa sor li ser paşxaneyeke reş e."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Sêwiranek bi nivîsa sor a geş li ser paşxaneyeke reş."
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Muzîka paşxanê ya ku dema çalakiya armanc pêk tê lê dide"
+
+msgid "サウンドなし"
+msgstr "Deng tune"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Şer & Serkeftin - 1 deqe 16.3 saniye - 630,056 bayt - 64 kbps - Lîsans: CC 2.1 an jê nûjentir"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3.8 saniye - 32,364 bayt - 64 kbps - Lîsans: GPL 2.0 an paşê"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 saniye - 195,578 bayt - 64 kbps - Lîsans: GPL 2.0 an paşê"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Hejmar 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Hejmar 12 'Şoreş' – Versiyona bi komputerê hatî çêkirin, versiyona bilez – 1 deqe 57.6 saniye – 724,457 bayt – 48 kbps – Lîsans: CC BY-ND 4.0 an jê nûjentir"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Şerzo di B-mol minur de, Op. 2 – Guhertoya ji aliyê komputerê ve hatiye çêkirin, guhertoya kurtkirî ya bilez – 1 deqe 48.0 saniye – 665,369 bayt – 48 kbps – Lîsans: CC BY-ND 4.0 an jê nûjentir"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lîste: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 saniye – 183,926 bayt – 64 kbps – Lîsans: Qada Giştî"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfareya bi şêwaza retro – 2.2 saniye – 10,536 bayt – 32 kbps – Lîsans: Qada Giştî"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Pêşgotina bi şêwaza retro – 42.1 saniye – 179,138 bayt – 32 kbps – Lîsans: Qada Giştî"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Hişyarî ji aliyê ChatGPT - 3.8 saniye - 109,700 bayt - 256 kbps - Lîsans: Qada Giştî"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Dengê lezgîn ê bilind wekî hişyariyek tespîtkirina malwareyê – Beş 1 ji aliyê ChatGPT – 3.3 saniye – 102,850 bayt – 256 kbps – Lîsans: Qada Giştî"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Dengê lezgîn ê bilind wekî hişyariyek tespîtkirina malwareyê, Beş 2 ji aliyê ChatGPT - 3.3 saniye - 103,122 bayt - 256 kbps - Lîsans: Qada Giştî"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Dengê bi şêwazê MRI ji aliyê ChatGPT ve – 1 deqe 14.9 saniye – 3,340,392 bayt – 320 kbps – Lîsans: Qada Giştî"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Muzîka paşxanê ya ji bo dema hişyariyê hilbijêre."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ew atmosfereke sosret diafirîne."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Deng di Firefoxê de hatiye astengkirin."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Dengê bipêkê dema ku çalakiya diyarkirî tê kirin"
+
+msgid "有効 音量小さ目"
+msgstr "Vekirî, deng nizm"
+
+msgid "有効 音量大き目"
+msgstr "Çalak, deng bilind e"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Dengê bîpê dê ji bo hemû çalakiyên klavye û mişkê lê bide, dema ku hişyariyek tê nîşandan."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Wisa xuya dike ku amûr ji kontrolê derketiye dema ku hişyarî tê nîşandan."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Veşartina kursora mişkê dema ku kiryareke taybet tê kirin"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Dema ku hişyariyek tê nîşandan, kursora mişkê di qada gerokê de vedişêre."
+
+msgid "デバッグモード"
+msgstr "Modêya xeletiyan"
+
+msgid "妨害＋記録のみ"
+msgstr "Tenê Destwerdan + Tomar"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Mudaxele + Tomarkirin + Nîşandan + Veguherandin"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Hûn hîn jî dikarin bi rêya menuyê xwe bigihîninê."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modêya debugê di Firefoxê de"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsola gerokê"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Di pratîkê de, hûn dikarin wê ji moda debugê bixebitînin."
+
+msgid "HTMLソース表示"
+msgstr "Çavkaniya HTMLê bibîne"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Hûn dikarin operasyonê bi hêsanî bi nivîsandina URL'ek ku bi 'view-source:' dest pê dike, pêk bînin."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Hûn dikarin naveroka xwe bi hevgirtina vê bi parastina HTMLê re biparêzin."
+
+msgid "印刷"
+msgstr "Çap bike"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Her çend ew çapkirinê asteng dike jî, dibe ku di hin gerokan de bi awayekî rast nexebite."
+
+msgid "スクリーンショット"
+msgstr "Wêneyê ekranê"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Li gorî pergala xebitandinê, gerok an rêbaza ku tê bikaranîn, dibe ku ne mimkun be ku ev were astengkirin, an jî dibe ku neyê tespîtkirin."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Girtina dîmenê ya gumanbar dema ku pencere derbasî paşxanê dibe"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Ew herwiha bersivê dide fonksiyonên din ji bilî wênekirina ekranê"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Wêneyê ekranê yê gumanbar ku bi pêlkirina du bişkokan hatiye kişandin"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Rêbazên tespîtkirinê yên ji bo xalên jorîn ne bêxeletî ne; tespîtkirin wek tedbîreke pêşîlêgir tê kirin."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ew ne tenê dîmenên ekranê, lê herwiha modên debugê û tiştên wekî wan jî tespît dike."
+
+msgid "ページ保存"
+msgstr "Rûpelê tomar bike"
+
+msgid "右クリック"
+msgstr "Klîka rastê"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Heke pêveka hatibe sazkirin, hûn ê karibin wê bi kar bînin."
+
+msgid "コピー・カット"
+msgstr "Kopî bike û jê bike"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Li gorî mîhengên vê pêvekê, dibe ku hûn kêm caran rastî vê bûyerê werin."
+
+msgid "テキスト全選択"
+msgstr "Hemû nivîsê hilbijêre"
+
+msgid "テキスト選択"
+msgstr "Nivîsê hilbijêre"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Têketina destpêkirina debugger, destwerdana debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Ev yek moda debugê hinekî kêmtir bikarhêner-heval dike û tomar dike ku debugger hatiye destpêkirin; lêbelê, dibe ku hin gerok vê tevgerê asteng bikin."
+
+msgid "リダイレクトするURL"
+msgstr "URL'ê beralî bike"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Wê ramaneke baş be ku bikarhêner ber bi rûpelên wekî Mercên Bikaranînê ve bên beralîkirin."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Heke vala bê hiştin, ew ê ber bi URL'a resen ve were beralîkirin."
+
+msgid "リダイレクトまでの時間"
+msgstr "Dema heta beralîkirinê"
+
+msgid "リダイレクトなし"
+msgstr "Ne vegerandin"
+
+msgid "1秒"
+msgstr "1 saniye"
+
+msgid "2秒"
+msgstr "2 saniye"
+
+msgid "3秒"
+msgstr "3 saniye"
+
+msgid "4秒"
+msgstr "4 saniye"
+
+msgid "5秒"
+msgstr "5 saniye"
+
+msgid "6秒"
+msgstr "6 saniye"
+
+msgid "7秒"
+msgstr "7 saniye"
+
+msgid "8秒"
+msgstr "8 saniye"
+
+msgid "9秒"
+msgstr "9 saniye"
+
+msgid "10秒"
+msgstr "10 saniye"
+
+msgid "15秒"
+msgstr "15 saniye"
+
+msgid "20秒"
+msgstr "Bîst saniye"
+
+msgid "25秒"
+msgstr "25 saniye"
+
+msgid "30秒"
+msgstr "30 saniye"
+
+msgid "35秒"
+msgstr "35 saniye"
+
+msgid "40秒"
+msgstr "40 saniye"
+
+msgid "45秒"
+msgstr "45 saniye"
+
+msgid "50秒"
+msgstr "50 saniye"
+
+msgid "55秒"
+msgstr "55 saniye"
+
+msgid "1分"
+msgstr "1 deqe"
+
+msgid "1分10秒"
+msgstr "1 deqe 10 saniye"
+
+msgid "1分20秒"
+msgstr "1 deqe û 20 saniye"
+
+msgid "1分30秒"
+msgstr "1 deqe û 30 saniye"
+
+msgid "1分40秒"
+msgstr "1 deqe û 40 saniye"
+
+msgid "1分50秒"
+msgstr "1 deqe û 50 saniye"
+
+msgid "2分"
+msgstr "2 deqe"
+
+msgid "ソース表示を許可する権限"
+msgstr "Destûr ji bo dîtina koda çavkaniyê"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Derketina çavkaniyê ya normal tenê dema ku wekî ADMIN têketî ye."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Derketina normal a çavkaniyê dema ku wek USER têketî ye"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Hilbijêre ka gelo derketina HTML a standard tenê ji bo rêveberan sînordar be an jî pêdivî bi têketina bikarhêner hebe."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Zorandana daxistina wêneyekî û tiştê ku bi rastî tê daxistin"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Wêneyek şefaf a 1x1-pîkselî di formata GIF de"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Wêneyek şefaf a 1x1-pîkselî di formata PNG de"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ekrana hişyariyê ya bi paşxaneya zer di formata PNG de"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Belgeyeke HTMLê ya bêwate"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Derketina etîketa HEAD dema ku HTML parastî be"
+
+msgid "出力しない"
+msgstr "Nenivîsîne"
+
+msgid "TITLEタグのみ"
+msgstr "Tenê etîketa TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Ji etîketa HEAD a WordPressê hatiye wergirtin"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Ji bo rûpelên tenê-ji-bo-endam ên ji bo bikaranîna şîrketî û rûpelên navxweyî, hilbijartina 'Do not output' an jî 'TITLE tag only' bes e."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Heta ku hûn agahiyan ji etîketa HEAD a WordPressê wernegirin, wêneya OGPê dema parvekirina li ser medyaya civakî nayê nîşandan."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Botanê wêneyan asteng bike"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Bi rêgirtina li botên wêneyan ji gihîştina HTMLê, hûn dikarin naveroka ku bi rêya lêgerîna wêneyan li hember girêdana rasterast diparêzin; lêbelê, ev ne çareseriyeke temam e."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Gihîştina botê perwerdehiya AIyê asteng bike"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Bi dûrketina ji bikaranîna botên ku ji bo perwerdehiya AIyê li ser HTMLê hatine sêwirandin, em misoger dikin ku naverok ji aliyê AIyê ve neyê bikaranîn; lêbelê, ev yek bi temamî nayê pêşîlêgirtin."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Gihîştina arşîvên malperan û wêneyên malperan asteng bike"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Em rê li ber gihîştina arşîvên malperê yên ku bixweber tên berhevkirin û dîmenên ekranê yên ku li gorî daxwaza bikarhêner hatine kişandin digirin; lêbelê, em nikarin bi temamî pêşî li vê yekê bigirin."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Ajansên bikarhêner ên ne derbasdar asteng bike"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Heke rêza user agent tîpên ne derbasdar dihewîne, gihîştinê asteng dike."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Dema ku hûn xwe digihînin Internet Explorer û Microsoft Edge ya kevn"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Gihîştinê bi rêya Internet Explorer û Microsoft Edge ya kevn asteng dike."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Zimanê ku peyamên hişyariyê pê têne nîşandan"
+
+msgid "Wordpressの言語"
+msgstr "Zimanên WordPressê"
+
+msgid "ブラウザの設定言語"
+msgstr "Mîhengên zimanê gerokê"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Heke peyam hatibin xwerûkirin, hûn nikarin zimanê biguherînin."
+
+msgid "同意画面の言語"
+msgstr "Zimanê ekrana razîbûnê"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Zimanê ku peyama 'view-source' pê were nîşandan"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Dîroka qedandinê ya tokenên demkî"
+
+msgid "3分"
+msgstr "3 deqe"
+
+msgid "4分"
+msgstr "çar deqe"
+
+msgid "5分"
+msgstr "Pênc deqe"
+
+msgid "6分"
+msgstr "6 deqe"
+
+msgid "7分"
+msgstr "Heft deqe"
+
+msgid "8分"
+msgstr "Heşt deqe"
+
+msgid "9分"
+msgstr "Noh deqe"
+
+msgid "10分"
+msgstr "Deh deqe"
+
+msgid "15分"
+msgstr "15 deqe"
+
+msgid "20分"
+msgstr "Bîst deqe"
+
+msgid "25分"
+msgstr "Bîst û pênc deqe"
+
+msgid "30分"
+msgstr "Sî deqe"
+
+msgid "35分"
+msgstr "Sî û pênc deqe"
+
+msgid "40分"
+msgstr "çilî deqe"
+
+msgid "45分"
+msgstr "Çil û pênc deqe"
+
+msgid "50分"
+msgstr "Pêncî deqe"
+
+msgid "55分"
+msgstr "Pêncî û pênc deqe"
+
+msgid "1時間"
+msgstr "Saetek"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Dîroka qedandinê ji bo agahiyên URL-a wêneyê diyar bike."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Piştî barkirinê, URL-a wêneyê û tokenê demkî dê betal bibin."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Wêne li gorî daxwazê tên barkirin, lê ew ê 30 saniye berî dema diyarkirî bixweber bên barkirin."
+
+msgid "一時使用トークンのビット数"
+msgstr "Hejmara bîtan di tokenek demkî de"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Nîşaneke demkî wekî şîfreyê ji bo şîfrekirina agahiyên URL-ya wêneyî tê bikaranîn; ev eyar hêza wê diyar dike."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Her çend vebijarkên ku li binê menuya dakêşbar tên nîşandan her ku diçe hûrgiltir dibin jî, ev yek dikare barekî giran bixe ser serverê û bibe sedema veguhestina hejmareke mezin a daneyên HTMLê."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algorîtmaya Hashê"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Nîşaneke demkî wekî şîfreyê ji bo şîfrekirina agahiyên URL-ya wêneyî tê bikaranîn; ev yek hejmarkirinê"
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Her çiqas gava ku hûn di lîsteya vebijarkên di menuya dakêş de berjêr dibin, tundî zêde dibe jî, ev yek barekî girantir datîne ser serverê."
+
+msgid "基本設定"
+msgstr "Mîhengên bingehîn"
+
+msgid "高度な設定"
+msgstr "Mîhengên pêşketî"
+
+msgid "初期設定に戻す"
+msgstr "Vegerandina mîhengên xwerû"
+
+msgid "デザイン・音の設定"
+msgstr "Sazkirinên dîzayn û dengî"
+
+msgid "イベントの設定"
+msgstr "Mîhengên çalakiyê"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Sazkirina agahdariyan ji bo serdanên yekem"
+
+msgid "メッセージの設定"
+msgstr "Mîhengên peyamê"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "URL'a ku dema rast-klîk tê kirin an jî koda çavkaniyê tê dîtin were vekirin, diyar bike."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML di peyamên hişyariyê de nayê bikaranîn."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Heke hûn vê li ser vê ekranê eyar bikin, mîhengên ziman ên di tabloya Pêşketî de dê bên paşguhkirin."
+
+msgid "以下の文字列が使用できます"
+msgstr "Ev rêzikên jêrîn dikarin bên bikaranîn."
+
+msgid "改行"
+msgstr "Birekî rêzê"
+
+msgid "押下されたキー"
+msgstr "Mifte hat pêçandin"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Mîhengên Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Agahdarî"
+
+msgid "メッセージ"
+msgstr "Peyam"
+
+msgid "デザイン・音"
+msgstr "Sêwiran û Deng"
+
+msgid "初期化"
+msgstr "Destpêkirin"
+
+msgid "このプラグインについて"
+msgstr "Derbarê vê pêvekê"
+
+msgid "設定が初期化されました"
+msgstr "Mîheng hatin sifirkirin."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Pêvokê destpê bikin. Ji kerema xwe bala xwe bidinê ku daneyên IP Log Reader di vê qonaxê de nayên jêbirin."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Derbarê Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Ev pêvek hatiye sêwirandin da ku HTML, wêne û naverokên din ên ku ji hêla malpera we ya WordPressê ve têne çêkirin biparêze, û wê li hember bikaranîna bêdestûr biparêze."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Parastina naverokê bi temamî ne mimkun e. Lêbelê, bi dayîna hişyariyan li her dera ku mimkun be û bi amadekariyên ji bo her rewşekê, divê em karibin meseleyê li gorî prosedurên ku ji aliyê hikûmetê ve hatine danîn çareser bikin."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Helbet, divê hûn piştrast bikin ku şert û mercên we û polîtîkaya malperê berfireh in. Her çend ev pêvek ne amûrek ji bo çêkirina şert û mercan e, ew dikare hin rêberiyê peyda bike."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Pêşvebir: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Guherto"
+
+msgid "ビルド"
+msgstr "Avakirin"
+
+msgid "サポートページ"
+msgstr "Rûpela piştgiriyê"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Ji aliyê Xanim Ura Manira ve hatiye pêşkêşkirin"
+
+msgid "支援のお願い"
+msgstr "Daxwazeke piştgiriyê"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Spas ji bo bikaranîna Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Pêşxistin û parastina vê pêvekê gelek dem û hewldan jê re pêwîst bûye, û ji bo komkirina fonan da ku em berdewam bikin li ser başkirin û nûjenkirina wê, em ê spasdar bin heke kesên ku dikarin piştgiriya me bikin, li ser dayîna bexşekê bifikirin."
+
+msgid "寄付について"
+msgstr "Derbarê Bexşan"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Beşxîn bi tevahî dilxwazî ye û ne mecbûrî ye. Pêveka ji bo her kesî belaş e. Lêbelê, em ji bo piştgiriya we gelek spasdar in da ku alîkariya me bikin ku em pêşveçûnê bidomînin, û em ê pir kêfxweş bibin heke hûn bikaribin her çend bi mîqdarek piçûk jî beşdar bibin."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Hûn dikarin bi rêya lînka jêrîn bexşekê bikin. Heke hûn li Japonyayê ne, hûn dikarin bêpere bexş bikin, û herwiha hûn dikarin bi hêsanî bi bikaranîna vawçerên diyariyê yên Amazonê bexş bikin."
+
+msgid "寄付先"
+msgstr "Xêrxwazî"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Bi piştgiriya we, em ê çi ji destê me tê bikin da ku nûvekirinên fantastîk ji we re bînin!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Em ji bo piştgiriya we spasdar in û di pêşerojê de li hêviya berdewamiya piştgiriya we ne."
+
+msgid "ライセンス"
+msgstr "Lîsans"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Ev pêvek wekî nermalaveke çavkanî-vekirî hatiye pêşxistin û di bin lîsansa GPLv2.0 an jî ya paşê de ye."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Hin teknolojiyên di vê pêvekê de cih digirin, bi patentan parastî ne."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Bikaranîna teknolojiya patentkirî tenê di nav vê pêveka de destûrdayî ye."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Ji bo her bikaranîneke din, ji kerema xwe bi nivîskar re têkilî daynin da ku lîsanseke bazirganî werbigirin."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ev pêvek pirtûkxaneyên jêrîn dihewîne."
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ev pêvek, fontên hunera ASCII yên ku li jêr hatine çêkirin, ligel pelên fontan dihewîne."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ev pêvek muzîka lîstika nefermî ya Super Famicomê 'SM Trainer Hitomi 3', ku ji aliyê EJ Co., Ltd. ve hatiye pêşxistin û ji aliyê afirînerê vê pêvekê ve hatiye bestekirin, dihewîne, û bi awayekî fermî lîsansdar e."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ev pêvek rêzikên ku bi 'Keppy's YAMAHA C7', ya ku ji aliyê Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Min her wiha Raspberry Pi 5, ChatGPT û DeepL di pêşxistina vê pêvekê de bi kar aniye."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugîneke keşê hatiye tespîtkirin. Heke plugîneke keşê çalak be, ev plugin dê rast nexebite."
+
+msgid "無効なIPアドレス"
+msgstr "Navnîşana IP'yê ne derbasdar e"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ji bo bikaranîna vê malperê, divê hûn cookies û JavaScriptê çalak bikin."
+
+msgid "利用規約"
+msgstr "Mercên Bikaranînê"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ji bo pêşîlêgirtina bikaranîna bêdestûr û misogerkirina xebata ewle ya xizmetên me, ev malper dibe ku agahiyên wekî navnîşanên IP'yê, dîroka gerandinê û tomarên çalakiyê di çerezan"
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ji bo bikaranîna vê xizmetê, divê hûn destûrê bidin van çalakiyên pêvajoyê."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Hûn dikarin naveroka Polîtîkaya Nepenîtiyê bibînin, çi hûn razî bûbin çi nebûbin."
+
+msgid "同意する"
+msgstr "Ez razî me"
+
+msgid "同意しない"
+msgstr "Ez ne razî me"
+
+msgid "確認"
+msgstr "Pejirandin"
+
+msgid "プライバシーポリシー"
+msgstr "Polîtîkaya Nepenîtiyê"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Gihîştin an çalakiyeke neasayî hatiye tespîtkirin."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Hin taybetmendî ji bo armancên ewlehî û parastina naverokê hatine sînordarkirin."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Modêya debugê û gihîştina konsolê hatine neçalakirin."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Agahiyên jêrîn ji serverê re hatin şandin."
+
+msgid "あなたのIPアドレス"
+msgstr "Navnîşana te ya IP'yê"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Amûr û geroka we"
+
+msgid "あなたの押下したキー"
+msgstr "Mifteya ku te pêl lê kir"
+
+msgid "リダイレクトをします"
+msgstr "Hûn ê bên beralîkirin"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Hin taybetmendî ji bo parastina naverokê hatine sînordarkirin."
+
+msgid "右クリックは禁止されています"
+msgstr "Tikandina rastê nayê destûrdan."
+
+msgid "あなたが押下したキー"
+msgstr "Mifteya ku te pêl lê kir"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Çapkirin û tomarkirina wekî PDF qedexe ye."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Girtina wêneyan qedexe ye."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Girtina dîmenan û çalakkirina moda debugê qedexe ne."
+
+msgid "ページの保存は禁止されています"
+msgstr "Tomarkirina vê rûpelê qedexe ye"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopîkirin û jêbirin qedexe ne."
+
+msgid "あなたが起こしたイベント"
+msgstr "Bûyerên ku we organîze kirine"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Hilbijartina nivîsê destûr nayê dayîn."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Nîşandana koda çavkaniyê ya HTMLê qedexe ye."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Gihîştina bêdestûr qedexe ye."
+
+msgid "アフリカーンス語"
+msgstr "Afrîkansî"
+
+msgid "アラゴン語"
+msgstr "Aragonî"
+
+msgid "アラビア語"
+msgstr "Erebî"
+
+msgid "アッサム語"
+msgstr "Asamî"
+
+msgid "アゼルバイジャン語"
+msgstr "Azərbaycanî"
+
+msgid "バシュキール語"
+msgstr "Serok"
+
+msgid "ベラルーシ語"
+msgstr "Belarûsî"
+
+msgid "ベンガル語"
+msgstr "Bengalî"
+
+msgid "ブルガリア語"
+msgstr "Bulgari"
+
+msgid "ボスニア語"
+msgstr "Bosnî"
+
+msgid "カタロニア語"
+msgstr "Katalanî"
+
+msgid "チェコ語"
+msgstr "Çekî"
+
+msgid "ウェールズ語"
+msgstr "Welsî"
+
+msgid "デンマーク語"
+msgstr "Danîmarkî"
+
+msgid "ドイツ語"
+msgstr "Almanî"
+
+msgid "現代ギリシア語"
+msgstr "Yewnanî ya nûjen"
+
+msgid "英語"
+msgstr "Îngilîzî"
+
+msgid "イギリス英語"
+msgstr "Îngilîzî"
+
+msgid "アメリカ英語"
+msgstr "Îngilîzî ya Amerîkî"
+
+msgid "エスペラント語"
+msgstr "Hêvîdar"
+
+msgid "スペイン語"
+msgstr "Spanyolî"
+
+msgid "エストニア語"
+msgstr "Estonî"
+
+msgid "バスク語"
+msgstr "Baskî"
+
+msgid "ペルシャ語"
+msgstr "Farisî"
+
+msgid "フィンランド語"
+msgstr "Fînlandî"
+
+msgid "フランス語"
+msgstr "Fransî"
+
+msgid "アイルランド語"
+msgstr "Îrlandî"
+
+msgid "ガリシア語"
+msgstr "Galiyî"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujaratî"
+
+msgid "ハウサ語"
+msgstr "Soranî"
+
+msgid "ヘブライ語"
+msgstr "Îbranî"
+
+msgid "ヒンディ語"
+msgstr "Hindî"
+
+msgid "クロアチア語"
+msgstr "Xirvatî"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyola Haîtî"
+
+msgid "ハンガリー語"
+msgstr "Macarî"
+
+msgid "インドネシア語"
+msgstr "Endonezyayî"
+
+msgid "イボ語"
+msgstr "Zimanê Îbo"
+
+msgid "アイスランド語"
+msgstr "Îzlandî"
+
+msgid "イタリア語"
+msgstr "Îtalî"
+
+msgid "日本語"
+msgstr "Yaponî"
+
+msgid "ジャワ語"
+msgstr "Civakî"
+
+msgid "カザフ語"
+msgstr "Kazaxî"
+
+msgid "朝鮮語"
+msgstr "Koreyî"
+
+msgid "クルド語"
+msgstr "Kurdî"
+
+msgid "キルギス語"
+msgstr "Kîrgîzî"
+
+msgid "ラテン語"
+msgstr "Latînî"
+
+msgid "ルクセンブルク語"
+msgstr "Luksembûrgî"
+
+msgid "リンガラ語"
+msgstr "Zimanê Lingala"
+
+msgid "リトアニア語"
+msgstr "Lîtvanyî"
+
+msgid "ラトビア語"
+msgstr "Latvî"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maorî"
+
+msgid "マケドニア語"
+msgstr "Makedonî"
+
+msgid "マラヤーラム語"
+msgstr "Zimanê Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongolî"
+
+msgid "マラーティー語"
+msgstr "Zimanê Maratî"
+
+msgid "マレー語"
+msgstr "Zimanê Malayî"
+
+msgid "マルタ語"
+msgstr "Maltî"
+
+msgid "ビルマ語"
+msgstr "Birmanyî"
+
+msgid "ネパール語"
+msgstr "Nepalî"
+
+msgid "ノルウェー語"
+msgstr "Norwêcî"
+
+msgid "オランダ語"
+msgstr "Hollendî"
+
+msgid "オック語"
+msgstr "Oksîtanî"
+
+msgid "オロモ語"
+msgstr "An jî"
+
+msgid "パンジャーブ語"
+msgstr "Pencabî"
+
+msgid "ポーランド語"
+msgstr "Polonî"
+
+msgid "パシュトー語"
+msgstr "Piştî"
+
+msgid "ポルトガリア語"
+msgstr "Portugalî"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portekîzî ya Brezîlyayî"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugalîya Ewropî"
+
+msgid "ケチュア語"
+msgstr "Qehweya"
+
+msgid "ルーマニア語"
+msgstr "Romanî"
+
+msgid "ロシア語"
+msgstr "Rûsî"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovakî"
+
+msgid "スロベニア語"
+msgstr "Slovenî"
+
+msgid "セルビア語"
+msgstr "Serbî"
+
+msgid "南セソト語"
+msgstr "Bakarê Başûr"
+
+msgid "スンダ語"
+msgstr "Sûndanî"
+
+msgid "スウェーデン語"
+msgstr "Swêdî"
+
+msgid "スワヒリ語"
+msgstr "Swahîlî"
+
+msgid "タミル語"
+msgstr "Tamîlî"
+
+msgid "テルグ語"
+msgstr "Telûgû"
+
+msgid "タジク語"
+msgstr "Tacîk"
+
+msgid "タイ語"
+msgstr "Taylandî"
+
+msgid "トルクメン語"
+msgstr "Tirkmenî"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Tirkî"
+
+msgid "タタール語"
+msgstr "Tat"
+
+msgid "ウクライナ語"
+msgstr "Ukraynî"
+
+msgid "ウルドゥー語"
+msgstr "Zimanê Urdûyî"
+
+msgid "ウズベク語"
+msgstr "Ûzbek"
+
+msgid "ベトナム語"
+msgstr "Viyetnamî"
+
+msgid "コサ語"
+msgstr "Tişta ku ji bîr dibe"
+
+msgid "イディッシュ語"
+msgstr "Yîdîş"
+
+msgid "簡体中国語"
+msgstr "Çînîya hêsankirî"
+
+msgid "繁体中国語"
+msgstr "Çînîya kevneşopî"
+
+msgid "ズールー語"
+msgstr "Zimanê Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Geroka ku hûn niha bi kar tînin versiyoneke kevnar e ku êdî nayê piştgirîkirin. Ji bo ku hûn serpêhatiyeke gerandinê ya ewletir û rehtir bijîn, ji kerema xwe geroka xwe nûve bikin bo versiyona herî dawî."
+
+msgid "不正なリクエストです"
+msgstr "Daxwaza ne derbasdar"
+
+msgid "画像が見つかりません"
+msgstr "Wêne nehat dîtin"
+

@@ -1,0 +1,1292 @@
+# Aragonese translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:46+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Aragonese\n"
+"Language: an\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Aconfiguracions"
+
+msgid "IPログリーダー"
+msgstr "Lector de rechistros IP"
+
+msgid "IPアドレスログ"
+msgstr "Rechistro d'adrezas IP"
+
+msgid "全クリア"
+msgstr "Completar toz os nivels"
+
+msgid "IPログが全て削除されました"
+msgstr "Toz os rechistros d'IP s'han eliminau."
+
+msgid "ID"
+msgstr "Identificador"
+
+msgid "タイムスタンプ"
+msgstr "Sello de tiempo"
+
+msgid "IPアドレス"
+msgstr "Adreza IP"
+
+msgid "ユーザーエージェント"
+msgstr "Achent d'usuario"
+
+msgid "イベント"
+msgstr "Acte"
+
+msgid "IPアドレスのデータはありません"
+msgstr "No i hai datos pa ista adreza IP."
+
+msgid "EU GDPR対応"
+msgstr "Cumplimiento d'o RGPD d'a UE"
+
+msgid "無効"
+msgstr "Invalid"
+
+msgid "有効"
+msgstr "Válido"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Si ye fendo servir WordPress en a UE, u si o suyo puesto web s'adreza a usuarios en a UE, por favor, asegure-se de que isto ye activau."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "O botón 'Confirmar' cambiará a 'D'alcuerdo' u 'En desacuerdo', y o comportamiento cambiará un poquet."
+
+msgid "同意画面の色"
+msgstr "Color d'a pantalla de consentimiento"
+
+msgid "自動"
+msgstr "Automático"
+
+msgid "ライトモード"
+msgstr "Modo claro"
+
+msgid "ダークモード"
+msgstr "Modo fosco"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Establir l'esquema de colors pa la pantalla de consentimiento"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Emborrimiento d'o conteniu en a pantalla de consentimiento"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Achustar o livel de difuminau t'o conteniu amostrau en a pantalla de consentimiento"
+
+msgid "同意画面の透過"
+msgstr "Transparencia d'a pantalla de consentimiento"
+
+msgid "透過なし"
+msgstr "Garra transparencia"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Establir a transparencia d'a pantalla de consentimiento"
+
+msgid "お知らせの1行目"
+msgstr "Primera linia de l'anuncio"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Iste mensache s'amuestra siempre a primera vegada que se carga a pachina."
+
+msgid "お知らせの2行目"
+msgstr "A segunda linia d'o aviso"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Iste mensache amaneixerá siempre en a primera pantalla nomás quan o RGPD d'a UE siga en vigor."
+
+msgid "お知らせの3行目"
+msgstr "A tercera linia de l'aviso"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Aparixerá a la dreita de l'enlace a la Politica de privacidat."
+
+msgid "非EU向け確認の文字列"
+msgstr "Texto de confirmación pa países no perteneixients a la UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Texto de consentimiento pa o RGPD d'a UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Texto pa 'No consentir' baixo o RGPD d'a UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Texto d'a politica de privacidat"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Per favor, estableixca aquí a URL d'a politica de privacidat."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Per favor, adhiba o siguient a la Politica de Privacidat."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Pa detectar actividat fraudulenta, s'almagazenan identificadors como as adrezas IP en as cookies y en a base de datos. Os datos almagazenaus s'eliminan a criterio de l'administrador."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Pa asegurar que as imáchens se entreguen correctament nomás quan a protección d'imáchens ye activada, almagazenamos en a base de datos os datos hashizaus que incluyen l'adreza IP y o nombre de l'archiu d'a imachen durant un maximo de 60 minutos."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Si ye configurando os Termins d'Uso, por favor, asegure-se d'incluyir-ie un vinclo en a suya Politica de Privacidat."
+
+msgid "利用規約の文字列"
+msgstr "Texto d'as Condicions d'Uso"
+
+msgid "利用規約のページ"
+msgstr "Pachina de Termins y Condicions"
+
+msgid "ページ選択なし"
+msgstr "Garra pachina trigada"
+
+msgid "検索エンジン等のURL"
+msgstr "URLs pa motors de busca, etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Establir a URL pa motors de busca y puestos semellants que redirichan a os usuarios quan no se da o consentimiento."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modo de depuración, mensaches d'alvertencia d'a consola"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Mensache d'alvertencia con botón dreito"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Mensache d'alvertencia sobre l'impresión y l'almagazenache como PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Mensache d'alvertencia en a captura de pantalla"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Mensache d'alvertencia sobre capturas de pantalla sospeitosas"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Mensache d'alvertencia quan tot o texto ye seleccionau"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Mensache d'alvertencia sobre l'almagazenache d'a pachina"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Mensache que s'amuestra en copiar u retallar"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Mensache pa amostrar en veyer o codigo fuent d'HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Mensache que s'amuestra en a parte superior d'o codigo fuent cuan s'obscureix u se proteche l'HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Mensache que s'amostrará si o token d'autenticación d'un solo uso ye inválido durant a protección HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Mensache ta amostrar si as cookies u o JavaScript son desactivaus"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "De feito, isto nomás s'amuestra quan JavaScript ye desactivau."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Cuan una imachen ye protechida, se descarga y s'amuestra un mensache sobre ixa imachen"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Oficación"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ista ye a compresión estandar d'HTML; tamién bi ha pachinas web que la pueden descodificar."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Activando ista opción se puede recuperar o rechistro d'a visualización d'o codigo fuent."
+
+msgid "HTML保護"
+msgstr "Protección d'HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Sólament chenera o minimo imprescindible d'HTML —mesiau encara que fendo servir a compresión d'HTML— y o conteniu adintro d'a etiqueta BODY no se chenera de garra traza."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Isto no s'aplica a Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Isto tiene un impauto significativo en o SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Rendindo HTML con JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Pa fer o treballo arredol de Firefox, renderizamos l'HTML fendo servir JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Activando o renderizau de JavaScript se ralentizará significativament a velocidat de carga d'o puesto web."
+
+msgid "画像の保護"
+msgstr "Protección d'imachen"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Protecher a imachen cada vegada que se clama a etiqueta img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Protecher todas as imáchens puyadas a WordPress adintro de tot o codigo HTML chenerau."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Proteche as imáchens pa que no se descarguen"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Cuan os datos d'as imáchens son protechius, privamos cuasi todas as descargas, emitimos URLs unicas d'un solo uso, autenticamos fendo servir tokens almagazenaus en a sesión y amostramos as imáchens a traviés de PHP; isto priva efectivament cuasi toz os casos de furto d'imáchens."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Cuan os datos d'as imáchens son protechius, o caché no funciona, o que significa que o puesto se cargará más lentament en as vesitas posteriors, afectando asinas a o SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Protecher os datos d'as imáchens puede augmentar a carga en a base de datos."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Si seleccionas 'Protecher imáchens cada vegada que se clama una etiqueta img', o sistema fa servir add_filter pa aplicar o filtrau cuan se chenera a etiqueta img; manimenos, puede que isto no funcione correctament con bels temas."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Si trías 'Protecher todas as imáchens puyadas a WordPress adintro de tot o resultau HTML', o complemento capturará cuasi todas as operacions de WordPress y procesará cada etiqueta img adintro d'o conteniu. Ten en cuenta que isto puede no funcionar correctament con bels temas."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Tenga en cuenta que as imáchens designadas como imáchens destacadas se compartirán como datos OGP y no se pueden protecher. Si de veras las ha de protecher, por favor, cambee a configuración d'a salida d'a etiqueta HEAD en a configuración abanzada en activar a protección HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "A función de captura de pantalla integrada en o sistema operativo no se puede protecher."
+
+msgid "画像URLの保護"
+msgstr "Protegindo as URLs d'as imáchens"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Isto s'ha de fer servir en conchunto con a protección d'imachens; por sí solo, no sirve de cosa."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Como se carga perezosament a traviés de JavaScript, isto afecta a o SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Filigrana d'imachen"
+
+msgid "右下"
+msgstr "Abaixo a la dreita"
+
+msgid "ランダム位置"
+msgstr "Posición aleatoria"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Usadas en conchunto con a protección d'imachen, as filigranas dinamicas indican clarament a propiedat d'o dreito d'autor, a o mesmo tiempo que dan a os espectadors a impresión de que son estando vichilaus, actuando asinas como un disuasivo."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Nomás se refirman os formatos JPG, PNG y WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Activar isto augmentará a carga d'o servidor."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Chenerar arte ASCII dende o codigo fuent HTML durant l'ofuscación y protección d'HTML"
+
+msgid "表示なし"
+msgstr "Garra visualización"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Muestra arte ASCII que indica un aviso en veyer o codigo fuent d'HTML fendo servir 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Amostrar o disenyo cuan se fa l'acción obchectivo."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Un disenyo basico con texto negro sobre un fundo amariello."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Un disenyo d'estilo terrorifico con texto royo sobre un fundo negro."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Un disenyo con texto royo brillant sobre un fundo negro"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Musica de fundo que sona quan se fa l'acción obchectivo."
+
+msgid "サウンドなし"
+msgstr "Garra son"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Batalla y Victoria - 1 minuto 16,3 segundos - 630.056 bytes - 64 kbps - Licencia: CC 2.1 u posterior"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Pai Corto - 3,8 segundos - 32.364 bytes - 64 kbps - Licencia: GPL 2.0 u posterior"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 segundos - 195.578 bytes - 64 kbps - Licencia: GPL 2.0 u posterior"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Estudio Op. 10 N.º 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Estudio Op. 10 N.º 12 'Revolución' – Versión chenerada por ordinador, a gran velocidat – 1 minuto 57,6 segundos – 724.457 bytes – 48 kbps – Licencia: CC BY-ND 4.0 u posterior"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo en si bemol menor, Op. 2 – Versión chenerada por ordinador, versión abreviada d'alta velocidat – 1 minuto 48,0 segundos – 665.369 bytes – 48 kbps – Licencia: CC BY-ND 4.0 u posterior"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lista: Estudio d'Execución Trascendental No. 4, 'Mazeppa' – versión chenerada por ordinador, versión abreviada d'alta velocidat – 1 minuto 51,6 segundos – 687.586 bytes – 48 kbps – Licencia: CC BY-ND 4.0 u posterior"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfarria – 22,3 segundos – 183.926 bytes – 64 kbps – Licencia: Dominio publico"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfarria d'estilo retro – 2,2 segundos – 10.536 bytes – 32 kbps – Licencia: Dominio publico"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Intro d'estilo retro – 42,1 segundos – 179.138 bytes – 32 kbps – Licencia: Dominio publico"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Alerta de ChatGPT - 3,8 segundos - 109.700 bytes - 256 kbps - Licencia: Dominio publico"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Un soniu d'alta urchencia como una alerta de detección de malware – Parte 1 por ChatGPT – 3,3 segundos – 102.850 bytes – 256 kbps – Licencia: Dominio publico"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Un soniu d'alta urchencia como una alerta de detección de malware, Parte 2 por ChatGPT - 3,3 segundos - 103.122 bytes - 256 kbps - Licencia: Dominio publico"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sonido d'estilo MRI por ChatGPT – 1 minuto 14,9 segundos – 3.340.392 bytes – 320 kbps – Licencia: Dominio publico"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Tría la musica de fundo pa reproducir durant un aviso."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Crea una atmosfera sorprendent"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "L'audio ye bloquiato en Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Un pitido quan se fa l'acción especificada"
+
+msgid "有効 音量小さ目"
+msgstr "Puesto, volumen baixo"
+
+msgid "有効 音量大き目"
+msgstr "Activo, volumen a lo maximo"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Sonará un pitido en respuesta a toz os eventos de teclau y ratet mientres se muestra un aviso."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Da la impresión de que l'aparato s'ha tornau barrenau mientres s'amuestra l'alvertencia."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Amagar o cursor d'o ratet cuan se fa una acción especifica"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Amaga o cursor d'o ratet en l'aria d'o navegador mientres s'amuestra un aviso."
+
+msgid "デバッグモード"
+msgstr "Modo de depuración"
+
+msgid "妨害＋記録のみ"
+msgstr "Interferencia + Discos nomás"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Interferencia + Registro + Pantalla + Redirección"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Encara se i puede acceder a traviés d'o menú."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modo de depuración en Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Consola d'o navegador"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "De feito, se puede fer-lo funcionar dende o modo de depuración."
+
+msgid "HTMLソース表示"
+msgstr "Veyer o codigo fuent d'HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Se puede fer l'operación simplament metendo una URL que prencipie con 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Puetz protecher o tuyo conteniu combinando isto con a protección HTML."
+
+msgid "印刷"
+msgstr "Imprimir"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Anque evita l'impresión, puede que no funcione correctament en bels navegadors."
+
+msgid "スクリーンショット"
+msgstr "Captura de pantalla"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Seguntes o sistema operativo, o navegador u o metodo emplegau, puede que no siga posible bloqueyar isto, u puede que no se detecte."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Captura de pantalla sospeitosa quan a finestra se mueve a o fundo."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Tamién responde a funcions distintas d'as capturas de pantalla"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Captura de pantalla presuntament feita pretando dos teclas"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Os metodos de detección d'os elementos anteriors no son infalibles; a detección se fa como una mida de precaución."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Detecta no nomás capturas de pantalla, sino tamién modos de depuración y cosas pareixidas."
+
+msgid "ページ保存"
+msgstr "Alzar pachina"
+
+msgid "右クリック"
+msgstr "Clic dreito"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Si l'adicional ye instalau, podrás fer-lo servir."
+
+msgid "コピー・カット"
+msgstr "Copia y retalla"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Seguntes a configuración d'iste complemento, ye posible que trobetz iste evento pocas vegadas."
+
+msgid "テキスト全選択"
+msgstr "Seleccionar tot o texto"
+
+msgid "テキスト選択"
+msgstr "Trigar texto"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Rechistro d'inicio d'o depurador, interferencia d'o depurador"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Isto fa que o modo de depuración sía un poquet menos amigable pa l'usuario y rechistra o feito de que s'ha lanzau o depurador; manimenos, bels navegadors pueden blocar iste comportamiento."
+
+msgid "リダイレクトするURL"
+msgstr "URL de redirección"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Seria una buena ideya redirichir os usuarios enta pachinas como os Termins d'Uso."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Si se deixa en blanco, redirichirá a l'URL orichinal."
+
+msgid "リダイレクトまでの時間"
+msgstr "Tiempo dica la redirección"
+
+msgid "リダイレクトなし"
+msgstr "Garra redirección"
+
+msgid "1秒"
+msgstr "Un segundo"
+
+msgid "2秒"
+msgstr "Dos segundos"
+
+msgid "3秒"
+msgstr "Tres segundos"
+
+msgid "4秒"
+msgstr "Cuatre segundos"
+
+msgid "5秒"
+msgstr "5 segundos"
+
+msgid "6秒"
+msgstr "Seis segundos"
+
+msgid "7秒"
+msgstr "Siet segundos"
+
+msgid "8秒"
+msgstr "Ueito segundos"
+
+msgid "9秒"
+msgstr "Nueve segundos"
+
+msgid "10秒"
+msgstr "Diez segundos"
+
+msgid "15秒"
+msgstr "15 segundos"
+
+msgid "20秒"
+msgstr "Vinti segundos"
+
+msgid "25秒"
+msgstr "25 segundos"
+
+msgid "30秒"
+msgstr "Trenta segundos"
+
+msgid "35秒"
+msgstr "Treinta y cinco segundos"
+
+msgid "40秒"
+msgstr "Cuaranta segundos"
+
+msgid "45秒"
+msgstr "Cuaranta y cinco segundos"
+
+msgid "50秒"
+msgstr "Cincuanta segundos"
+
+msgid "55秒"
+msgstr "Cincuanta y cinco segundos"
+
+msgid "1分"
+msgstr "Un minuto"
+
+msgid "1分10秒"
+msgstr "Un minuto y diez segundos"
+
+msgid "1分20秒"
+msgstr "Un minuto y vinte segundos"
+
+msgid "1分30秒"
+msgstr "Un minuto y trenta segundos"
+
+msgid "1分40秒"
+msgstr "Un minuto y cuaranta segundos"
+
+msgid "1分50秒"
+msgstr "Un minuto y cincuanta segundos"
+
+msgid "2分"
+msgstr "Dos minutos"
+
+msgid "ソース表示を許可する権限"
+msgstr "Permiso pa veyer o codigo fuent"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Salida normal d'a fuent nomás quan s'ha encetau sesión como ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Salida normal d'a fuent quan s'ha encetau sesión como USUARIO"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Triga si a salida HTML estandar ye restrinchida nomás que a os administradors u si requiere l'inicio de sesión de l'usuario."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Forzar a descarga d'una imachen y o que se descarga en realidat"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Una imachen transparent d'1×1 píxel en formato GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Una imachen transparent d'1×1 píxel en formato PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Una pantalla d'advertencia con un fundo amariello en formato PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Un documento HTML sin sentiu"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Salida d'a etiqueta HEAD quan l'HTML ye protechiu"
+
+msgid "出力しない"
+msgstr "No imprentar"
+
+msgid "TITLEタグのみ"
+msgstr "Etiqueta TITLE nomás"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Obteniu d'a etiqueta HEAD de WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pa as pachinas corporativas d'uso interno y exclusivas pa miembros, bastará con trigar 'No amostrar' u 'Nomás etiqueta de TÍTULO'."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Si no recuperas a información d'a etiqueta HEAD de WordPress, a imachen OGP no s'amostrará en compartir en as rez socials."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Bloqueya o bot d'imachens"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "En privar a os bots d'imachens d'acceder a l'HTML, se puede protecher o conteniu que no se podeba salvaguardar contra o enlazau directo a traviés d'a busca d'imachens; manimenos, isto no ofreix una solución completa."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Bloqueyar l'acceso a o bot d'entrenamiento d'IA"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "En privar l'uso de bots disenyaus pa l'entrenamiento d'IA en HTML, aseguramos que o conteniu no sía emplegau por l'IA; manimenos, isto no se puede privar de tot."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Bloqueyar l'acceso a os archivos web y a os capturas web"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Prohibimos l'acceso a os archivos web replegaus automaticament y a as capturas de pantalla feitas a discreción de l'usuario; manimenos, no podemos privar-lo de tot."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Bloqueyar achents d'usuario invalidos"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Evita l'acceso si a cadena de l'achent d'usuario contiene caracters invalidos."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Amostrar un aviso en acceder a Internet Explorer y a l'antigo Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Evita l'acceso a traviés de Internet Explorer y o viello Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lengua en a que s'amuestran os mensaches d'alerta"
+
+msgid "Wordpressの言語"
+msgstr "Idiomas de WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Aconfiguración d'idioma d'o navegador"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "No se puede cambiar o idioma si os mensaches s'han personalizau."
+
+msgid "同意画面の言語"
+msgstr "Luenga d'a pantalla de consentimiento"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Luenga en a que amostrar o mensache 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Data de caducidat d'os tokens temporals"
+
+msgid "3分"
+msgstr "Tres minutos"
+
+msgid "4分"
+msgstr "Cuatro minutos"
+
+msgid "5分"
+msgstr "Cinco minutos"
+
+msgid "6分"
+msgstr "Seis minutos"
+
+msgid "7分"
+msgstr "Siet minutos"
+
+msgid "8分"
+msgstr "Ueito minutos"
+
+msgid "9分"
+msgstr "Nueu minutos"
+
+msgid "10分"
+msgstr "Diez minutos"
+
+msgid "15分"
+msgstr "Quince minutos"
+
+msgid "20分"
+msgstr "Vinti minutos"
+
+msgid "25分"
+msgstr "Vinti-cinco minutos"
+
+msgid "30分"
+msgstr "Treinta minutos"
+
+msgid "35分"
+msgstr "Treinta y cinco minutos"
+
+msgid "40分"
+msgstr "Cuaranta minutos"
+
+msgid "45分"
+msgstr "Cuaranta y cinco minutos"
+
+msgid "50分"
+msgstr "Cincuanta minutos"
+
+msgid "55分"
+msgstr "Cincuanta y cinco minutos"
+
+msgid "1時間"
+msgstr "Una hora"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Establir a calendata de caducidat d'a información d'a URL d'a imachen."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Una vegada carriada, a URL d'a imachen y o token temporal s'invalidarán."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "As imáchens se cargan baixo demanda, pero se cargarán automaticament 30 segundos antis d'a hora especificada."
+
+msgid "一時使用トークンのビット数"
+msgstr "Numero de bits en un token temporal"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Se fa servir un token temporal como contrasenya pa cifrar a información d'a URL d'a imachen; iste achuste especifica a suya fortaleza."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Anque as opcions que s'amuestran debaixo d'o menú desplegable se tornan cada vegada más detalladas, isto puede suposar una carga pesada pa o servidor y resultar en un gran volumen de datos HTML transferius."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritmo de hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Se fa servir un token temporal como contrasenyau pa cifrar a información d'a URL d'a imachen; isto requiere fer un hash, y iste achuste determina a fortaleza d'ixe hash."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Anque a intensidat aumenta a mida que se baixa por a lista d'opcions amostradas en o menú desplegable, isto mete una carga mayor en o servidor."
+
+msgid "基本設定"
+msgstr "Configuración basica"
+
+msgid "高度な設定"
+msgstr "Configuración abanzada"
+
+msgid "初期設定に戻す"
+msgstr "Restablir a configuración por defecto"
+
+msgid "デザイン・音の設定"
+msgstr "Disenyo y achustes de soniu"
+
+msgid "イベントの設定"
+msgstr "Configuración de l'evento"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Configurar as notificacions pa as primeras vesitas"
+
+msgid "メッセージの設定"
+msgstr "Aconfiguración d'o mensache"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Estableixer a URL que s'ubrirá en fer clic dreito u en veyer o codigo fuent."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "L'HTML no se puede fer servir en os mensaches d'alvertencia."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Si lo configura en ista pantalla, os achustes de luenga en a pestanya Avanzada s'inorarán."
+
+msgid "以下の文字列が使用できます"
+msgstr "As siguients cadenas se pueden fer servir"
+
+msgid "改行"
+msgstr "Cambio de linia"
+
+msgid "押下されたキー"
+msgstr "Tecla preta"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Configuración d'o Protector Neo HTML"
+
+msgid "お知らせ"
+msgstr "Aviso"
+
+msgid "メッセージ"
+msgstr "Mensache"
+
+msgid "デザイン・音"
+msgstr "Disenyo y Sonido"
+
+msgid "初期化"
+msgstr "Inicialización"
+
+msgid "このプラグインについて"
+msgstr "Sobre iste complemento"
+
+msgid "設定が初期化されました"
+msgstr "Os achustes s'han restablito."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inicializar o plugin. Pare cuenta que os datos de l'IP Log Reader no s'eliminarán en ista etapa."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Sobre Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Iste complemento ye disenyau pa protecher o HTML, as imáchens y atro conteniu chenerau por o tuyo puesto de WordPress, salvaguardando-lo contra l'uso no autorizau."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Ye imposible de protecher o conteniu de tot. Manimenos, emitindo alvertencias siempre que siga posible y preparando-se por si pasa bella cosa, deberinos poder resolver l'afer d'alcuerdo con os procedimientos establius por o gubierno."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Clar, caldrà que t'asegures de que os tuyos termins y condicions y a politica d'o puesto sían completos. Anque iste complemento no ye una ferramienta pa chenerar termins y condicions, puede dar bella orientación."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Desenvolicaire: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versión"
+
+msgid "ビルド"
+msgstr "Construyir"
+
+msgid "サポートページ"
+msgstr "Pachina de refirme"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Interpretada por Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Una petición de refirme"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Gracias por fer servir Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "O desembolique y mantenimiento d'este complemento ha requerito muito tiempo y esfuerzo, y pa replegar fondos pa continar amillorando-lo y actualizando-lo, nos faría goyo que qualsequier persona que pueda refirmar-nos considerase fer una donación."
+
+msgid "寄付について"
+msgstr "Sobre as donacions"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "As donacions son de raso voluntarias y no obligatorias. O plugin ye disponible pa toz de baldes. Manimenos, s'agradeixe muito o vuestro refirme pa aduyar-nos a continar con o desembolique, y nos prestaría muito si podesez aportar o que podaz."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Puetz fer una donación a traviés d'o vinclo de debaixo. Si resides en Chapón, puetz donar de gratis, y tamién puetz donar facilment fendo servir vals de regalo d'Amazon."
+
+msgid "寄付先"
+msgstr "Organizacions beneficas"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Con o vuestro refirme, faremos tot o posible pa seguir trayendo-tos actualizacions fantasticas!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Somos agradeixius por o suyo refirme y esperamos contar con o suyo refirme contino en o futuro."
+
+msgid "ライセンス"
+msgstr "Licencia"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Iste complemento s'ha desembolicau como software de codigo ubierto y ye licenciau baixo a GPLv2.0 u una posterior."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Belunas d'as tecnolochías incluyidas en iste complemento son protechidas por patents."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "L'uso d'a tecnolochía patentada ye permitiu nomás que dentro d'iste complemento."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Pa qualsequier atro uso, por favor, contacte con l'autor pa obtener una licencia comercial."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Iste complemento incluye as siguients bibliotecas"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Iste complemento incluye as fuents d'arte ASCII cheneradas debaixo, de conchunta con os fichers de fuent."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Iste complemento incluye musica d'o chuego no oficial ta Super Famicom 'SM Trainer Hitomi 3', desembolicau por EJ Co., Ltd. y composada por o creyador d'iste complemento, y ye con licencia oficial."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Iste complemento incluye pistas creyadas fendo servir 'Keppy's YAMAHA C7', desembolicato por Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Tamién he feito servir una Raspberry Pi 5, ChatGPT y DeepL en o desembolique d'este complemento."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "S'ha detectau un plugin de caché. Iste plugin no funcionará correctament si un plugin de caché ye activau."
+
+msgid "無効なIPアドレス"
+msgstr "Adreza IP invalida"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Pa fer servir iste sitio web, ha d'activar as cookies y o JavaScript."
+
+msgid "利用規約"
+msgstr "Condicions d'uso"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Pa privar l'uso no autorizau y asegurar o funcionamiento seguro d'os nuestros servicios, iste sitio web puede almagazenar información como adrezas IP, historial de navegación y rechistros d'actividat en cookies y bases de datos. Ista información s'usa exclusivament pa o funcionamiento d'o sitio web y pa fins legals, y no se revelará a tercers."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Pa fer servir iste servicio, ha de consentir istas actividaz de tractamiento."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Puede veyer o conteniu d'a Politica de privacidat independientment de si ha dau o suyo consentimiento."
+
+msgid "同意する"
+msgstr "Soi d'alcuerdo"
+
+msgid "同意しない"
+msgstr "No soi d'alcuerdo"
+
+msgid "確認"
+msgstr "Confirmación"
+
+msgid "プライバシーポリシー"
+msgstr "Politica de privacidat"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "S'ha detectau un acceso u actividat inusual."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Ciertas caracteristicas s'han restrinchiu por razons de seguridat y protección d'o conteniu."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "O modo de depuración y l'acceso a la consola son desactivaus."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "A siguient información s'ha ninviau a o servidor."
+
+msgid "あなたのIPアドレス"
+msgstr "A tuya adreza IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "O tuyo dispositivo y navegador"
+
+msgid "あなたの押下したキー"
+msgstr "A tecla que pretés"
+
+msgid "リダイレクトをします"
+msgstr "Se le redirichirá"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Ciertas caracteristicas s'han restrinchiu pa protecher o conteniu."
+
+msgid "右クリックは禁止されています"
+msgstr "No se permite fer clic dreito."
+
+msgid "あなたが押下したキー"
+msgstr "A tecla que pretés"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "A impresión y l'almagazenache como PDF son viedaus."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "As capturas de pantalla son viedadas."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Prener capturas de pantalla y activar o modo de depuración ye viedau."
+
+msgid "ページの保存は禁止されています"
+msgstr "Alzar ista pachina ye viedau"
+
+msgid "コピー、カットは禁止されています"
+msgstr "A copia y o retalle son viedaus."
+
+msgid "あなたが起こしたイベント"
+msgstr "Eventos que has organizau"
+
+msgid "テキストの選択は禁止されています"
+msgstr "No se permite seleccionar texto."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Ye viedau amostrar o codigo fuent d'HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "L'acceso no autorizau ye viedau"
+
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Arabe"
+
+msgid "アッサム語"
+msgstr "Asamés"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaiyan"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belarruso"
+
+msgid "ベンガル語"
+msgstr "Bengalí"
+
+msgid "ブルガリア語"
+msgstr "Búlgaro"
+
+msgid "ボスニア語"
+msgstr "Bosnio"
+
+msgid "カタロニア語"
+msgstr "Catalán"
+
+msgid "チェコ語"
+msgstr "Tcheco"
+
+msgid "ウェールズ語"
+msgstr "Gales"
+
+msgid "デンマーク語"
+msgstr "Danés"
+
+msgid "ドイツ語"
+msgstr "Alemán"
+
+msgid "現代ギリシア語"
+msgstr "Griego moderno"
+
+msgid "英語"
+msgstr "Anglés"
+
+msgid "イギリス英語"
+msgstr "Britanico"
+
+msgid "アメリカ英語"
+msgstr "Anglés americano"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Espanyol"
+
+msgid "エストニア語"
+msgstr "Estonio"
+
+msgid "バスク語"
+msgstr "Vasco"
+
+msgid "ペルシャ語"
+msgstr "Persa"
+
+msgid "フィンランド語"
+msgstr "Finés"
+
+msgid "フランス語"
+msgstr "Francés"
+
+msgid "アイルランド語"
+msgstr "Irlandés"
+
+msgid "ガリシア語"
+msgstr "Gallego"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebreu"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Croata"
+
+msgid "ハイチ・クレオール語"
+msgstr "Creole Haitiano"
+
+msgid "ハンガリー語"
+msgstr "Húngaro"
+
+msgid "インドネシア語"
+msgstr "Indonesio"
+
+msgid "イボ語"
+msgstr "Lengua ibo"
+
+msgid "アイスランド語"
+msgstr "Islandés"
+
+msgid "イタリア語"
+msgstr "Italiano"
+
+msgid "日本語"
+msgstr "Chaponés"
+
+msgid "ジャワ語"
+msgstr "Chavanés"
+
+msgid "カザフ語"
+msgstr "Kazajo"
+
+msgid "朝鮮語"
+msgstr "Coren"
+
+msgid "クルド語"
+msgstr "Curdí"
+
+msgid "キルギス語"
+msgstr "Qirguís"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgués"
+
+msgid "リンガラ語"
+msgstr "Lengua"
+
+msgid "リトアニア語"
+msgstr "Lituano"
+
+msgid "ラトビア語"
+msgstr "Letón"
+
+msgid "マダガスカル語"
+msgstr "Malagui"
+
+msgid "マオリ語"
+msgstr "Maorí"
+
+msgid "マケドニア語"
+msgstr "Macedonio"
+
+msgid "マラヤーラム語"
+msgstr "Malaialam"
+
+msgid "モンゴル語"
+msgstr "Mongol"
+
+msgid "マラーティー語"
+msgstr "Maratí"
+
+msgid "マレー語"
+msgstr "Malayo"
+
+msgid "マルタ語"
+msgstr "Maltés"
+
+msgid "ビルマ語"
+msgstr "Birmano"
+
+msgid "ネパール語"
+msgstr "Nepalés"
+
+msgid "ノルウェー語"
+msgstr "Noruego"
+
+msgid "オランダ語"
+msgstr "Holandés"
+
+msgid "オック語"
+msgstr "Ocitan"
+
+msgid "オロモ語"
+msgstr "Uruu"
+
+msgid "パンジャーブ語"
+msgstr "Punxabi"
+
+msgid "ポーランド語"
+msgstr "Polsaco"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugués"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugués brasilero"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugués europeu"
+
+msgid "ケチュア語"
+msgstr "Quechua"
+
+msgid "ルーマニア語"
+msgstr "Romanés"
+
+msgid "ロシア語"
+msgstr "Ruso"
+
+msgid "サンスクリット語"
+msgstr "Sánscrito"
+
+msgid "スロバキア語"
+msgstr "Eslovaco"
+
+msgid "スロベニア語"
+msgstr "Esloveno"
+
+msgid "セルビア語"
+msgstr "Serbio"
+
+msgid "南セソト語"
+msgstr "Sesotho d'o Sud"
+
+msgid "スンダ語"
+msgstr "Sundaes"
+
+msgid "スウェーデン語"
+msgstr "Sueco"
+
+msgid "スワヒリ語"
+msgstr "Suaheli"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telecinco"
+
+msgid "タジク語"
+msgstr "Tachico"
+
+msgid "タイ語"
+msgstr "Tailandés"
+
+msgid "トルクメン語"
+msgstr "Turco"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Turco"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ucraínico"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbeco"
+
+msgid "ベトナム語"
+msgstr "Vietnamita"
+
+msgid "コサ語"
+msgstr "Pelo"
+
+msgid "イディッシュ語"
+msgstr "Yidish"
+
+msgid "簡体中国語"
+msgstr "Chinés simplificau"
+
+msgid "繁体中国語"
+msgstr "Chinés tradicional"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "O navegador que ye fendo servir actualment ye una versión antiga que ya no ye compatible. Pa asegurar una experiencia de navegación más segura y comoda, por favor, actualice a la zaguera versión d'o suyo navegador."
+
+msgid "不正なリクエストです"
+msgstr "Solicitut invalida"
+
+msgid "画像が見つかりません"
+msgstr "Imachen no trobada"
+

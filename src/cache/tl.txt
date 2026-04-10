@@ -1,0 +1,424 @@
+設定	Mga setting
+IPログリーダー	Mambabasa ng Log ng IP
+IPアドレスログ	Talaan ng IP address
+全クリア	Kumpletohin ang lahat ng antas
+IPログが全て削除されました	Na-delete na ang lahat ng IP logs.
+ID	Pagkakakilanlan
+タイムスタンプ	Selyo ng oras
+IPアドレス	IP address
+ユーザーエージェント	Ahente ng gumagamit
+イベント	Kaganapan
+IPアドレスのデータはありません	Walang datos para sa IP address na ito.
+EU GDPR対応	Pagtupad sa EU GDPR
+無効	Hindi wasto
+有効	Wasto
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Kung ginagamit mo ang WordPress sa loob ng EU, o kung tinutukoy ng iyong website ang mga gumagamit sa loob ng EU, mangyaring tiyaking naka-enable ito.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Ang pindutang 'Kumpirmahin' ay magiging 'Sang-ayon' o 'Hindi Sang-ayon', at bahagyang magbabago ang kilos.
+同意画面の色	Kulay ng screen ng pahintulot
+自動	Awtomatiko
+ライトモード	Magaan na mode
+ダークモード	Madilim na Mode
+同意画面表示中の配色を設定します	Itakda ang iskema ng kulay para sa screen ng pahintulot.
+同意画面中のコンテンツのぼかし	Pagpapalabo ng nilalaman sa screen ng pahintulot
+同意画面表示中のコンテンツのぼかし具合を設定します	Itakda ang antas ng pagkalabo para sa nilalaman na ipinapakita sa screen ng pahintulot.
+同意画面の透過	Pagiging transparent ng screen ng pahintulot
+透過なし	Walang transparency
+同意画面の透過具合を設定します	Itakda ang opacity ng screen ng pahintulot
+お知らせの1行目	Unang linya ng anunsyo
+初回表示で必ず表示されるメッセージです	Ang mensaheng ito ay palaging ipinapakita sa unang pagkakataon na na-load ang pahina.
+お知らせの2行目	Ang ikalawang linya ng paunawa
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ang mensaheng ito ay palaging lilitaw sa unang display kapag epektibo na ang EU GDPR.
+お知らせの3行目	Ang ikatlong linya ng paunawa
+プライバシーポリシーのリンクの右側に表示されます	Lalabas ito sa kanan ng link patungo sa Patakaran sa Privacy.
+非EU向け確認の文字列	Teksto ng kumpirmasyon para sa mga bansang hindi kasapi ng EU
+EU GDPR向け同意するの文字列	Teksto ng pahintulot para sa EU GDPR
+EU GDPR向け同意しないの文字列	Teksto para sa 'Huwag pumayag' sa ilalim ng EU GDPR
+プライバシーポリシーの文字列	Teksto ng patakaran sa privacy
+プライバシーポリシーのURLはこちらから設定して下さい	Mangyaring itakda ang URL para sa patakaran sa privacy dito.
+プライバシーポリシーには以下の内容を追加して下さい	Mangyaring idagdag ang mga sumusunod sa Patakaran sa Privacy.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Upang matukoy ang mapanlinlang na aktibidad, ang mga tagapagpabatid gaya ng mga IP address ay iniimbak sa cookies at sa database. Ang iniimbak na datos ay binubura ayon sa pagpapasya ng administrador.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Upang matiyak na ang mga imahe ay naihatid nang tama lamang kapag naka-enable ang proteksyon ng imahe, iniimbak namin sa database ang hashed na datos na binubuo ng IP address at pangalan ng file ng imahe sa loob ng hanggang 60 minuto.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Kung nagse-set up ka ng Mga Tuntunin sa Paggamit, tiyaking isama ang link nito sa iyong Patakaran sa Privacy.
+利用規約の文字列	Teksto ng Mga Tuntunin sa Paggamit
+利用規約のページ	Pahina ng Mga Tuntunin at Kundisyon
+ページ選択なし	Walang pahina ang napili
+検索エンジン等のURL	Mga URL para sa mga search engine, atbp.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Itakda ang URL para sa mga search engine at katulad na mga site na nagre-redirect ng mga gumagamit kapag hindi sila pumayag.
+デバッグモード、コンソールの警告メッセージ	Modo ng pag-debug, mga babala sa console
+右クリックの警告メッセージ	Mag-right-click sa mensahe ng babala
+印刷、PDF保存の警告メッセージ	Babala tungkol sa pagpi-print at pag-save bilang PDF
+スクリーンショットの警告メッセージ	Babala sa screenshot
+スクリーンショットの疑いの警告メッセージ	Babala tungkol sa pinaghihinalaang mga screenshot
+テキスト全選択時の警告メッセージ	Babala na mensahe kapag napili ang lahat ng teksto
+ページ保存の警告メッセージ	Babala tungkol sa pag-save ng pahina
+コピー・カットした時に表示するメッセージ	Mensahe na ipinapakita kapag nagko-copy o nag-cut
+HTMLソース表示時に表示するメッセージ	Mensahe na ipapakita kapag tinitingnan ang pinagmulang HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Mensahe na ipapakita sa tuktok ng source code kapag nag-o-obfuscate o nagpoprotekta ng HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mensahe na ipapakita kung hindi balido ang one-time authentication token habang protektado ang HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mensahe na ipapakita kung naka-disable ang cookies o JavaScript
+実際にはJavascriptが無効時のみ表示されます	Sa katunayan, ipinapakita lamang ito kapag naka-disable ang JavaScript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Kapag protektado ang isang imahe, na-download ito at may ipinapakitang mensahe sa imahe
+HTML難読化 (圧縮)	Pagkalabo ng HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ito ay karaniwang pag-compress ng HTML; may mga website din na maaaring mag-decode nito.
+このオプションを有効にするとview-sourceのログが取得できます	Kapag pinagana mo ang opsyon na ito, maaari mong makuha ang log ng view-source.
+HTML保護	Proteksyon ng HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Nagbubunga lamang ito ng pinakasimpleng HTML—mas kakaunti pa kaysa sa paggamit ng HTML compression—at ang nilalaman sa loob ng tag na BODY ay hindi ipinapakita.
+Firefoxに対しては無効です	Hindi ito nalalapat sa Firefox.
+SEOに著しく影響があります	May malaking epekto ito sa SEO.
+HTMLをJavaScriptで描画	Pag-render ng HTML gamit ang JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Upang makalibot sa Firefox, nirere-render namin ang HTML gamit ang JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Ang pagpapagana ng JavaScript rendering ay makapagpapabagal nang malaki sa bilis ng pag-load ng website.
+画像の保護	Proteksyon ng imahe
+imgタグが呼び出されるごとに画像を保護	Protektahan ang imahe sa tuwing tinatawag ang img tag.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Protektahan ang lahat ng mga larawang ini-upload sa WordPress sa buong HTML na output.
+画像をダウンロードから保護します	Pinoprotektahan ang mga larawan laban sa pagda-download
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Kapag protektado ang datos ng imahe, pinipigilan namin halos lahat ng pag-download, nag-iisyu ng natatanging one-time na URL, nagpapatunay gamit ang mga token na nakaimbak sa session, at ipinapakita ang mga imahe sa pamamagitan ng PHP; epektibong pinipigilan nito halos lahat ng pagnanakaw ng imahe.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kapag protektado ang datos ng imahe, hindi gumagana ang caching, na nangangahulugang mas mabagal mag-load ang site sa mga susunod na pagbisita, kaya naaapektuhan ang SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ang pagprotekta sa datos ng imahe ay maaaring magpataas ng pasanin sa database.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Kung pipiliin mo ang 'Protektahan ang mga imahe tuwing tinatawag ang img tag', gagamitin ng sistema ang add_filter upang mag-apply ng pag-filter kapag nabuo ang img tag; gayunpaman, maaaring hindi ito gumana nang maayos sa ilang tema.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Kung pipiliin mo ang 'Protektahan ang lahat ng mga larawang na-upload sa WordPress sa buong HTML output', kukunin ng plugin ang halos lahat ng aktibidad ng WordPress at ipoproseso ang bawat img tag sa nilalaman. Mangyaring tandaan na maaaring hindi ito gumana nang maayos sa ilang tema.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Pakitandaan na ang mga imaheng itinuturing na featured images ay ibabahagi bilang OGP data at hindi maaaring protektahan. Kung talagang kailangan mong protektahan ang mga ito, pakibago ang setting para sa output ng HEAD tag sa advanced settings kapag pinagana ang HTML protection.
+OS標準搭載のスクリーンショット機能を保護することはできません	Hindi maprotektahan ang built-in na function ng pagkuha ng screenshot sa operating system.
+画像URLの保護	Pagprotekta sa mga URL ng larawan
+画像の保護と組み合わせて使用します、単体では意味がありません	Dapat itong gamitin kasabay ng proteksyon ng imahe; kung mag-isa, wala itong silbi.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Dahil ito ay tinatamad na ina-load gamit ang JavaScript, naaapektuhan nito ang SEO.
+画像のウォーターマーク	Watermark ng imahe
+右下	Ibaba sa kanan
+ランダム位置	Puwesto nang random
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Kapag ginamit kasabay ng proteksyon ng imahe, malinaw na ipinapakita ng mga dinamikong watermark ang pagmamay-ari ng karapatang-ari habang binibigyan ang mga manonood ng impresyon na sila ay binabantayan, kaya't nagsisilbing panghadlang ito.
+JPG形式、PNG形式、WebP形式のみ対応します	Sinusuportahan lamang ang mga format na JPG, PNG, at WebP.
+有効にするとサーバーの負荷が高くなります	Kapag pinagana ito, tataas ang pasanin sa server.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Paglikha ng ASCII art mula sa HTML source code sa panahon ng pag-obfuskasyon at proteksyon
+表示なし	Walang display
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Ipinapakita ang ASCII art na nagpapahiwatig ng babala kapag tinitingnan ang HTML source gamit ang 'view-source'
+対象アクションを起こした時の表示デザイン	Ipakita ang disenyo kapag naisagawa ang target na aksyon.
+黄色の背景の黒文字のベーシックデザイン	Isang simpleng disenyo na may itim na teksto sa dilaw na background.
+黒色の背景の赤文字のホラー風デザイン	Isang disenyo na may istilong nakakatakot na may pulang teksto sa itim na background.
+黒色の背景の赤文字の光る文字のデザイン	Isang disenyo na may nagliliwanag na pulang teksto sa itim na background
+対象アクションを起こした時のBGM	Musika sa likuran na tumutugtog kapag naisagawa ang target na aksyon
+サウンドなし	Walang tunog
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Laban at Tagumpay - 1 minuto 16.3 segundo - 630,056 baites - 64 kbps - Lisensya: CC 2.1 o mas bago
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Maikling Tatay - 3.8 segundo - 32,364 baites - 64 kbps - Lisensya: GPL 2.0 o mas bago
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 segundo - 195,578 baites - 64 kbps - Lisensya: GPL 2.0 o mas bago
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Blg. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Blg. 12 'Revolution' – bersyong gawa ng kompyuter, bersyong mabilis – 1 minuto 57.6 segundo – 724,457 baites – 48 kbps – Lisensya: CC BY-ND 4.0 o mas bago
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo sa B mol na menor, Op. 2 – Bersyong gawa ng kompyuter, pinaikling bersyong mataas na bilis – 1 minuto 48.0 segundo – 665,369 bait – 48 kbps – Lisensya: CC BY-ND 4.0 o mas bago
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Talaan: Étude d'Exécution Transcendante Blg. 4, 'Mazeppa' – bersyong gawa ng kompyuter, pinaikling bersyong mataas ang bilis – 1 minuto 51.6 segundo – 687,586 baites – 48 kbps – Lisensya: CC BY-ND 4.0 o mas bago
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 segundo – 183,926 baites – 64 kbps – Lisensya: Pampublikong Dominyo
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Palakpak na istilong retro – 2.2 segundo – 10,536 baites – 32 kbps – Lisensya: Pampublikong domain
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Intro na may retro na istilo – 42.1 segundo – 179,138 baites – 32 kbps – Lisensya: Pampublikong domain
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Babala mula sa ChatGPT - 3.8 segundo - 109,700 baites - 256 kbps - Lisensya: Pampublikong Dominyo
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Isang tunog na may mataas na pagka-apurado na parang alerto ng pagtuklas ng malware – Bahagi 1 ni ChatGPT – 3.3 segundo – 102,850 baites – 256 kbps – Lisensya: Pampublikong Ari-arian
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Isang tunog na may mataas na pagmamadali na parang alerto ng pagtuklas ng malware, Bahagi 2 ni ChatGPT - 3.3 segundo - 103,122 bait - 256 kbps - Lisensya: Pampublikong Ari-arian
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Tunog na istilong MRI ni ChatGPT – 1 minuto 14.9 segundo – 3,340,392 bait – 320 kbps – Lisensya: Pampublikong Dominyo
+警告表示中のBGMを選択します	Piliin ang musika sa background na ipapatugtog habang may babala.
+びっくりするような雰囲気を作ります	Naglilikha ito ng nakakagulat na atmospera.
+Firefoxでは音声ブロックされます	Nabara ang audio sa Firefox.
+対象アクションを起こした時のビープ音	Isang bip kapag naisagawa ang tinukoy na aksyon
+有効 音量小さ目	Naka-on, mababa ang lakas ng tunog
+有効 音量大き目	Aktibo, naka-set sa mataas ang bolyum
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Tutunog ang isang beep bilang tugon sa lahat ng kaganapan ng susi at mouse habang ipinapakita ang babala.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Nagbibigay ito ng impresyon na nagkaroon ng aberya ang aparato habang ipinapakita ang babala.
+対象アクションを起こした時のマウスカーソルの消去	Pagtatago ng cursor ng mouse kapag isinagawa ang isang tiyak na aksyon
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Itinatago ang cursor ng mouse sa lugar ng browser habang ipinapakita ang babala.
+デバッグモード	Modo ng pag-debug
+妨害＋記録のみ	Interference + Records lamang
+妨害＋記録＋表示＋リダイレクト	Pagsagabal + Pag-log + Pagpapakita + Pag-redirect
+メニューからは操作できてしまいます	Maaari mo pa ring ma-access ito sa pamamagitan ng menu.
+Firefoxにおけるデバッグモード	Debug mode sa Firefox
+ブラウザーコンソール	Konsol ng browser
+事実上デバッグモードから操作できてしまいます	Sa katunayan, maaari mo itong patakbuhin mula sa debug mode.
+HTMLソース表示	Tingnan ang pinagmulang HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Maaari mong isagawa ang operasyon nang simple sa pamamagitan ng pagpasok ng URL na nagsisimula sa 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Maaari mong protektahan ang iyong nilalaman sa pamamagitan ng pagsasama nito sa proteksyon ng HTML.
+印刷	I-print
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Bagaman pinipigilan nito ang pagpi-print, maaaring hindi ito gumana nang maayos sa ilang mga browser.
+スクリーンショット	Skrinshot
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Depende sa operating system, browser, o pamamaraang ginamit, maaaring hindi ito ma-block, o maaaring hindi ito matukoy.
+ウインドウが背面に移動した時スクリーンショットの疑い	Pinaghihinalang screenshot kapag lumipat sa background ang bintana
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Tumutugon din ito sa iba pang mga gawain bukod sa pagkuha ng screenshot
+2キー押下のスクリーンショットの疑い	Pinaghihinalang screenshot na kinuha sa pamamagitan ng pagpindot ng dalawang susi
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Ang mga pamamaraan ng pagtuklas para sa mga nabanggit na bagay ay hindi ganap na maaasahan; isinasagawa ang pagtuklas bilang isang hakbang pang-iingat.
+スクリーンショットだけではなく、デバッグモード等も検出します	Nakakadetect hindi lamang ng mga screenshot kundi pati na rin ng mga debug mode at iba pa.
+ページ保存	I-save ang pahina
+右クリック	I-right-click
+アドオンがインストールされていると操作できてしまいます	Kung naka-install ang add-on, magagamit mo ito.
+コピー・カット	Kopya at gupitin
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Depende sa mga setting ng plugin na ito, maaaring bihira mong maranasan ang pangyayaring ito.
+テキスト全選択	Piliin ang lahat ng teksto
+テキスト選択	Piliin ang teksto
+デバッガー起動ログ、デバッガー妨害	Log ng pagsisimula ng debugger, panghihimasok ng debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Dahil dito, nagiging hindi gaanong magiliw sa gumagamit ang debug mode at naitatala na inilunsad ang debugger; gayunpaman, maaaring harangan ng ilang browser ang pag-uugaling ito.
+リダイレクトするURL	I-redirect ang URL
+利用規約などのページに転送すると良いでしょう	Magiging magandang ideya na i-redirect ang mga gumagamit sa mga pahina tulad ng Mga Tuntunin ng Paggamit.
+空欄にすると元のURLにリダイレクトをします	Kung iiwanang blangko, ito ay magre-redirect sa orihinal na URL.
+リダイレクトまでの時間	Oras hanggang muling pagtuturo
+リダイレクトなし	Walang muling pagtuturo
+1秒	1 segundo
+2秒	Dalawang segundo
+3秒	Tatlong segundo
+4秒	Apat na segundo
+5秒	5 segundo
+6秒	Anim na segundo
+7秒	Pito segundo
+8秒	Walong segundo
+9秒	Siyam na segundo
+10秒	10 segundo
+15秒	15 segundo
+20秒	Dalawampung segundo
+25秒	Dalawampu't limang segundo
+30秒	Tatlumpung segundo
+35秒	35 segundo
+40秒	40 segundo
+45秒	45 segundo
+50秒	50 segundo
+55秒	Limampu't limang segundo
+1分	Isang minuto
+1分10秒	Isang minuto at sampung segundo
+1分20秒	Isang minuto dalawampung segundo
+1分30秒	Isang minuto at tatlumpung segundo
+1分40秒	Isang minuto at apatnapung segundo
+1分50秒	Isang minuto limampung segundo
+2分	Dalawang minuto
+ソース表示を許可する権限	Pahintulot na tingnan ang source code
+ADMINログイン時のみ通常のソース出力	Normal na output ng pinagmulan lamang kapag naka-log in bilang ADMIN
+USERログインで通常のソース出力	Karaniwang output ng pinagmulan kapag naka-log in bilang USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Piliin kung ang karaniwang output ng HTML ay para lamang sa mga administrador o kung kailangan ng pag-login ng gumagamit.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Pinipilit ang pag-download ng isang imahe at kung ano talaga ang na-download
+GIF形式で1×1ピクセルの透過画像	Isang 1×1-pixel na transparent na imahe sa format na GIF
+PNG形式で1×1ピクセルの透過画像	Isang 1×1-pixel na transparent na imahe sa format na PNG
+PNG形式で黄色い背景の警告画面	Isang babala na screen na may dilaw na background sa format na PNG
+意味のないHTMLドキュメント	Isang walang kahulugang dokumento ng HTML
+HTML保護時のHEADタグの出力	Lalabas na nilalaman ng HEAD tag kapag protektado ang HTML
+出力しない	Huwag mag-print
+TITLEタグのみ	Tag ng pamagat lamang
+WordpressのHEADタグより取得	Kinuha mula sa HEAD tag ng WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Para sa mga pahina na para lamang sa mga miyembro at panloob na pahina na ginagamit ng korporasyon, sapat na ang pagpili ng 'Do not output' o 'TITLE tag only'.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Maliban kung kukunin mo ang impormasyon mula sa WordPress HEAD tag, hindi lalabas ang OGP na imahe kapag ibinahagi sa social media.
+画像botをアクセス禁止にする	Harangan ang image bot
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Sa pamamagitan ng pagbabawal sa mga image bot na ma-access ang HTML, mapoprotektahan mo ang nilalaman na hindi mapoprotektahan laban sa direktang pag-link sa pamamagitan ng paghahanap ng larawan; gayunpaman, hindi ito isang ganap na maaasahang solusyon.
+AI学習用botをアクセス禁止にする	Harangan ang pag-access sa AI training bot.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Sa pag-iwas sa paggamit ng mga bot na idinisenyo para sa pagsasanay ng AI sa HTML, tinitiyak namin na hindi magagamit ng AI ang nilalaman; gayunpaman, hindi ito ganap na mapipigilan.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Harangan ang pag-access sa mga web archive at web snapshot.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Ipinagbabawal namin ang pag-access sa mga awtomatikong nakalap na web archive at mga screenshot na kinuha ayon sa pagpapasya ng gumagamit; gayunpaman, hindi namin ito ganap na mapipigilan.
+無効なUAをアクセス禁止にする	Harangan ang mga hindi wastong user agent
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Ipinagbabawal ang pag-access kung ang user agent string ay naglalaman ng hindi wastong mga karakter.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Magpakita ng babala kapag ina-access ang Internet Explorer at ang lumang Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Pinipigilan ang pag-access sa pamamagitan ng Internet Explorer at ang lumang Microsoft Edge.
+alertメッセージを表示する言語	Wika kung saan ipinapakita ang mga mensahe ng babala
+Wordpressの言語	Mga wika ng WordPress
+ブラウザの設定言語	Mga setting ng wika ng browser
+メッセージをカスタム設定されている場合は言語を変更できません	Hindi mo mababago ang wika kung na-customize na ang mga mensahe.
+同意画面の言語	Wika ng screen ng pahintulot
+view-sourceメッセージを表示する言語	Wika para ipakita ang mensaheng 'view-source'
+一時使用トークンの有効期限	Petsa ng pag-expire ng pansamantalang token
+3分	Tatlong minuto
+4分	Apat na minuto
+5分	Limang minuto
+6分	Anim na minuto
+7分	Pitong minuto
+8分	Walong minuto
+9分	Siyam na minuto
+10分	Sampung minuto
+15分	Labing limang minuto
+20分	Dalawampung minuto
+25分	Dalawampu't limang minuto
+30分	Tatlumpung minuto
+35分	35 minuto
+40分	Apatnapung minuto
+45分	Apatnapung limang minuto
+50分	Limampung minuto
+55分	Limampu't limang minuto
+1時間	Isang oras
+画像URL情報の有効期限を設定します	Itakda ang petsa ng pag-expire para sa impormasyon ng URL ng larawan.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kapag na-load na, mawawalan ng bisa ang URL ng larawan at pansamantalang token.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Ang mga imahe ay ina-load kapag hiniling, ngunit awtomatiko silang mai-load 30 segundo bago ang itinakdang oras.
+一時使用トークンのビット数	Bilang ng mga bit sa isang pansamantalang token
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Ang pansamantalang token ay ginagamit bilang password upang i-encrypt ang impormasyon ng URL ng larawan; tinutukoy ng setting na ito ang lakas nito.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Bagaman ang mga pagpipilian na ipinapakita sa ilalim ng drop-down menu ay nagiging mas detalyado, maaari nitong magdulot ng mas mabigat na pasanin sa server at magresulta sa mas mataas na dami ng naipapadalang HTML data.
+ハッシュ化アルゴリズム	Algoritmong Hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Isang pansamantalang token ang ginagamit bilang password upang i-encrypt ang impormasyon ng URL ng larawan; nangangailangan ito ng hashing, at tinutukoy ng setting na ito ang lakas ng hashing na iyon.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Bagaman tumataas ang intensity habang nag-i-scroll ka pababa sa mga pagpipilian sa drop-down menu, nagdudulot ito ng mas mabigat na pasanin sa server.
+基本設定	Pangunahing mga setting
+高度な設定	Mga advanced na setting
+初期設定に戻す	Ibalik ang mga default na setting
+デザイン・音の設定	Disenyo at mga setting ng tunog
+イベントの設定	Mga setting ng kaganapan
+初回訪問時のお知らせの設定	Pag-set up ng mga abiso para sa unang pagbisita
+メッセージの設定	Mga setting ng mensahe
+右クリックやソースコード表示時に転送する URL を設定します	Itakda ang URL na bubuksan kapag nag-right-click o nagpapakita ng source code.
+警告メッセージにはHTMLは使用できません	Hindi maaaring gamitin ang HTML sa mga mensahe ng babala.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Kung i-configure mo ito sa screen na ito, hindi papansinin ang mga setting ng wika sa tab na Advanced.
+以下の文字列が使用できます	Maaaring gamitin ang mga sumusunod na string.
+改行	Pagputol ng linya
+押下されたキー	Ipinindot ang susi
+Neo HTML Protector 設定	Mga Setting ng Neo HTML Protector
+お知らせ	Paalala
+メッセージ	Mensahe
+デザイン・音	Disenyo at Tinig
+初期化	Pagsisimula
+このプラグインについて	Tungkol sa plugin na ito
+設定が初期化されました	Na-reset na ang mga setting.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	I-initialise ang plugin. Paki-tandaan na hindi pa mabubura ang datos ng IP Log Reader sa yugtong ito.
+Neo HTML Protectorについて	Tungkol sa Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ang plugin na ito ay idinisenyo upang protektahan ang HTML, mga larawan, at iba pang nilalaman na nilikha ng iyong WordPress site, at pangalagaan ito laban sa hindi awtorisadong paggamit.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Hindi ganap na maprotektahan ang nilalaman. Gayunpaman, sa pamamagitan ng pagbibigay ng babala sa tuwing maaari at paghahanda sakaling may mangyari, dapat nating maresolba ang usapin alinsunod sa mga pamamaraang itinakda ng pamahalaan.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Siyempre, kailangan mong tiyakin na komprehensibo ang iyong mga tuntunin sa serbisyo at mga patakaran ng site. Bagaman hindi ito plugin para sa pagbuo ng mga tuntunin sa serbisyo, maaari itong magbigay ng ilang gabay.
+開発者: 夜桜　なの	Tagabuo: Nano Yozakura
+バージョン	Bersyon
+ビルド	Itayo
+サポートページ	Pahina ng suporta
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Ipinakita ni Miss Ura Manira
+支援のお願い	Isang kahilingan para sa suporta
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Salamat sa paggamit ng Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ang pagbuo at pagpapanatili ng plugin na ito ay nangangailangan ng malaking oras at pagsisikap, at upang makalikom ng pondo para ipagpatuloy ang pagpapabuti at pag-update nito, lubos kaming magpapasalamat kung ang sinumang makakasuporta ay magpapasya na magbigay ng donasyon.
+寄付について	Tungkol sa mga Donasyon
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ang mga donasyon ay ganap na boluntaryo at hindi sapilitan. Libre ang plugin para sa lahat. Gayunpaman, lubos naming pinahahalagahan ang iyong suporta upang makatulong sa amin na magpatuloy sa pag-unlad, at ikalulugod namin kung makakapag-ambag ka ng kahit ano ang kaya mo.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Maaari kang mag-donasyon sa pamamagitan ng link sa ibaba. Kung ikaw ay nasa Japan, maaari kang mag-donasyon nang walang bayad, at maaari ka ring mag-donasyon nang madali gamit ang mga Amazon gift voucher.
+寄付先	Mga kawanggawa
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Sa iyong suporta, gagawin namin ang aming makakaya upang patuloy na maghatid sa iyo ng mga kamangha-manghang update!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Nagpapasalamat kami sa inyong suporta at inaasahan namin ang inyong patuloy na suporta sa hinaharap.
+ライセンス	Lisensya
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ang plugin na ito ay binuo bilang open source na software at lisensiyado sa ilalim ng GPLv2.0 o mas bago.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ang ilan sa mga teknolohiyang kasama sa plugin na ito ay protektado ng mga patente.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ang paggamit ng nakapatenang teknolohiya ay pinapayagan lamang sa loob ng plug-in na ito.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Para sa anumang ibang paggamit, mangyaring makipag-ugnayan sa may-akda upang makakuha ng lisensyang pangkomersyal.
+本プラグインには以下のライブラリを同梱しています	Kasama sa plugin na ito ang mga sumusunod na aklatan
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Kasama sa plugin na ito ang mga ASCII art font na nabuo sa ibaba, pati na rin ang mga font file.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Kasama sa plugin na ito ang musika mula sa hindi opisyal na larong Super Famicom na 'SM Trainer Hitomi 3', na dinebelop ng EJ Co., Ltd. at kinomposo ng lumikha ng plugin na ito, at opisyal itong lisensyado.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Kasama sa plugin na ito ang mga track na nilikha gamit ang 'Keppy's YAMAHA C7', na binuo ni Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ginamit ko rin ang Raspberry Pi 5, ChatGPT, at DeepL sa pagbuo ng plugin na ito.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Natukoy na may naka-install na caching plugin. Hindi gagana nang tama ang plugin na ito kung naka-enable ang caching plugin.
+無効なIPアドレス	Hindi wastong IP address
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Upang magamit ang website na ito, kailangan mong paganahin ang cookies at JavaScript.
+利用規約	Mga Tuntunin ng Paggamit
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Upang maiwasan ang hindi awtorisadong paggamit at matiyak ang ligtas na operasyon ng aming mga serbisyo, maaaring mag-imbak ang website na ito ng impormasyon tulad ng mga IP address, kasaysayan ng pagba-browse, at mga tala ng aktibidad sa mga cookie at database. Ang impormasyong ito ay ginagamit lamang para sa pagpapatakbo ng website at para sa mga legal na layunin, at hindi ito ibubunyag sa mga ikatlong partido.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Upang magamit ang serbisyong ito, kailangan mong sumang-ayon sa mga aktibidad ng pagproseso na ito.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Maaari mong tingnan ang nilalaman ng Patakaran sa Privacy kahit hindi ka pa nagbigay ng iyong pahintulot.
+同意する	Sang-ayon ako
+同意しない	Hindi ako sumasang-ayon.
+確認	Kumpirmasyon
+プライバシーポリシー	Patakaran sa Pagkapribado
+通常とは異なる方法でのアクセスや操作が検出されました	Natukoy ang hindi pangkaraniwang pag-access o aktibidad.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Ang ilang mga tampok ay nilimitahan para sa mga layunin ng seguridad at proteksyon ng nilalaman.
+デバッグモード、コンソールの起動は禁止されています	Ang debug mode at ang pag-access sa console ay naka-disable.
+以下の情報がサーバーに送信されました	Ang sumusunod na impormasyon ay naipadala na sa server.
+あなたのIPアドレス	Ang iyong IP address
+あなたの端末とブラウザ	Ang iyong aparato at browser
+あなたの押下したキー	Ang susi na pinindot mo
+リダイレクトをします	Ire-redirect ka
+コンテンツ保護のため一部の機能を制限しています	Ang ilang tampok ay pinigilan upang protektahan ang nilalaman.
+右クリックは禁止されています	Hindi pinapayagan ang pag-right-click.
+あなたが押下したキー	Ang susi na pinindot mo
+印刷、PDFへの保存は禁止されています	Ipinagbabawal ang pagpi-print at pag-save bilang PDF.
+スクリーンショットは禁止されています	Ipinagbabawal ang mga screenshot.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ipinagbabawal ang pagkuha ng mga screenshot at ang pagpapagana ng debug mode.
+ページの保存は禁止されています	Ipinagbabawal ang pag-iimbak ng pahinang ito.
+コピー、カットは禁止されています	Ipinagbabawal ang pagkopya at pagputol.
+あなたが起こしたイベント	Mga kaganapang inorganisa mo
+テキストの選択は禁止されています	Hindi pinapayagan ang pagpili ng teksto.
+HTMLソース表示は禁止されています	Ipinagbabawal ang pagpapakita ng HTML source code.
+不正アクセスは禁止されています	Ipinagbabawal ang hindi awtorisadong pag-access.
+アフリカーンス語	Aprikans
+アラゴン語	Aralons
+アラビア語	Arabiko
+アッサム語	Asamese
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Bashkir
+ベラルーシ語	Belarusian
+ベンガル語	Bengali
+ブルガリア語	Bulgariano
+ボスニア語	Bosyano
+カタロニア語	Katalunya
+チェコ語	Tseko
+ウェールズ語	Welsh
+デンマーク語	Dane
+ドイツ語	Aleman
+現代ギリシア語	Makabagong Griyego
+英語	Ingles
+イギリス英語	Britanya Ingles
+アメリカ英語	Amerikanong Ingles
+エスペラント語	Esperanto
+スペイン語	Espanyol
+エストニア語	Estonyano
+バスク語	Basque
+ペルシャ語	Persyano
+フィンランド語	Pang-Finnish
+フランス語	Pranses
+アイルランド語	Irlandes
+ガリシア語	Galician
+グァラニ語	Tobong
+グジャラート語	Gujarati
+ハウサ語	Bahay
+ヘブライ語	Hebreo
+ヒンディ語	Hindi
+クロアチア語	Kroato
+ハイチ・クレオール語	Kreyòl Ayisyen
+ハンガリー語	Hunggaro
+インドネシア語	Indonesiyano
+イボ語	Wika ng Ibo
+アイスランド語	Islandese
+イタリア語	Italian
+日本語	Hapones
+ジャワ語	Javanese
+カザフ語	Kazakh
+朝鮮語	Koreano
+クルド語	Kurdish
+キルギス語	Kyrgyz
+ラテン語	Latin
+ルクセンブルク語	Luxemburges
+リンガラ語	Dila
+リトアニア語	Lithuano
+ラトビア語	Latbiyano
+マダガスカル語	Malagasy
+マオリ語	Māori
+マケドニア語	Makasiklab
+マラヤーラム語	Malayalam
+モンゴル語	Mongoliano
+マラーティー語	Marathi
+マレー語	Malayo
+マルタ語	Maltes
+ビルマ語	Burmes
+ネパール語	Nepali
+ノルウェー語	Norwegyanong
+オランダ語	Olandes
+オック語	Oksitan
+オロモ語	Oriyoo
+パンジャーブ語	Punjabi
+ポーランド語	Pakinis
+パシュトー語	Pashto
+ポルトガリア語	Portuges
+ブラジルポルトガル語	Portuges na Brasiliano
+ヨーロピアンポルトガル語	Portuges na Europeo
+ケチュア語	Kutsa
+ルーマニア語	Romaniano
+ロシア語	Ruso
+サンスクリット語	Sanskrit
+スロバキア語	Eslobako
+スロベニア語	Sloveno
+セルビア語	Serbiyano
+南セソト語	Katimugang Sesotho
+スンダ語	Sundanese
+スウェーデン語	Suweko
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Tsinoy
+トルクメン語	Turko
+タガログ語	Pilipino
+トルコ語	Turko
+タタール語	Tatar
+ウクライナ語	Ukranyano
+ウルドゥー語	Urdú
+ウズベク語	Uzbeko
+ベトナム語	Biyetnamita
+コサ語	Kosa
+イディッシュ語	Yiddish
+簡体中国語	Pinadaliang Tsino
+繁体中国語	Tradisyonal na Tsino
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Ang browser na kasalukuyan mong ginagamit ay isang mas lumang bersyon na hindi na sinusuportahan. Upang matiyak ang mas ligtas at mas komportableng karanasan sa pagba-browse, mangyaring i-update ang iyong browser sa pinakabagong bersyon.
+不正なリクエストです	Hindi wastong kahilingan
+画像が見つかりません	Hindi nahanap ang imahe

@@ -1,12 +1,13 @@
 <?php
 /*
 
-言語ファイルはdeeplのdptranで自動翻訳されています
+言語ファイルはdeeplで自動翻訳されています
 いじる場合には cache/*.txtを操作してからpoファイルを作成してください
 
-https://github.com/yotiosoft/dptran/
+cache/*.txt は tsvで書かれています
 
-The language files are automatically translated by dptran in deepl
-If you want to modify them, please manipulate cache/*.txt and then output the po file.
+The language files have been automatically translated using Deepl.
+If you need to make changes, please edit the cache/*.txt files first, then create the PO files.
 
+The cache/*.txt files are written in TSV format.
 */

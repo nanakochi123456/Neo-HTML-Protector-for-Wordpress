@@ -1,0 +1,1292 @@
+# Hausa translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 03:44+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Hausa\n"
+"Language: ha\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Saituna"
+
+msgid "IPログリーダー"
+msgstr "Mai karanta log na IP"
+
+msgid "IPアドレスログ"
+msgstr "Rajistar adireshin IP"
+
+msgid "全クリア"
+msgstr "Kammala duk matakan"
+
+msgid "IPログが全て削除されました"
+msgstr "An goge duk bayanan rajistar IP."
+
+msgid "ID"
+msgstr "Shaida"
+
+msgid "タイムスタンプ"
+msgstr "Alamar lokaci"
+
+msgid "IPアドレス"
+msgstr "Adireshin IP"
+
+msgid "ユーザーエージェント"
+msgstr "Mai aikin mai amfani"
+
+msgid "イベント"
+msgstr "Taro"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Babu bayanai don wannan adireshin IP."
+
+msgid "EU GDPR対応"
+msgstr "Bin ƙa'idar GDPR ta EU"
+
+msgid "無効"
+msgstr "Ba ingantacce ba"
+
+msgid "有効"
+msgstr "Ingantacce"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Idan kuna amfani da WordPress a cikin Tarayyar Turai, ko idan gidan yanar gizonku yana nufin masu amfani a cikin Tarayyar Turai, da fatan za ku tabbatar an kunna wannan."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Maɓallin 'Tabbatar' zai canza zuwa 'Yarda' ko 'Karyata', kuma halayya za ta canza kaɗan."
+
+msgid "同意画面の色"
+msgstr "Launin allon amincewa"
+
+msgid "自動"
+msgstr "Ta atomatik"
+
+msgid "ライトモード"
+msgstr "Halin haske"
+
+msgid "ダークモード"
+msgstr "Halin Duhu"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Saita tsarin launuka na allon amincewa"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Ruɗe abun ciki a allon amincewa"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Saita matakin ruɗe-gani ga abun da ake nunawa a allon amincewa"
+
+msgid "同意画面の透過"
+msgstr "Bayyanar allon amincewa"
+
+msgid "透過なし"
+msgstr "Babu gaskiya"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Saita bayyanar allon amincewa"
+
+msgid "お知らせの1行目"
+msgstr "Layin farko na sanarwar"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ana nuna wannan saƙon koyaushe a karo na farko da aka loda shafin."
+
+msgid "お知らせの2行目"
+msgstr "Layin na biyu na sanarwar"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Wannan saƙon zai bayyana koyaushe a nuni na farko kawai idan EU GDPR ta fara aiki."
+
+msgid "お知らせの3行目"
+msgstr "Layin na uku na sanarwar"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Zai bayyana a dama na mahaɗin zuwa Manufofin Sirri."
+
+msgid "非EU向け確認の文字列"
+msgstr "Rubutun tabbatarwa don ƙasashen da ba na EU ba"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Rubutaccen izini don EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Rubutu don 'Kada a yarda' a ƙarƙashin EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Rubutun manufofin sirri"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Don Allah sa adireshin URL na manufofin sirri a nan."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Don Allah a ƙara waɗannan abubuwan zuwa ga Dokar Sirri."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Don gano ayyukan zamba, ana adana alamomi kamar adireshin IP a cikin kukis da ma'ajiyar bayanai. Ana goge bayanan da aka adana bisa ga hukuncin mai gudanarwa."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Don tabbatar da cewa an isar da hotuna yadda ya kamata ne kawai idan an kunna kariyar hotuna, muna adana bayanai da aka yi musu hash, waɗanda suka ƙunshi adireshin IP da sunan fayil ɗin hoto, a cikin ma'ajiyar bayanai na tsawon mintuna 60."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Idan kuna kafa Sharuɗɗan Amfani, don Allah ku tabbatar kun haɗa mahaɗin su a cikin Manufofin Sirri."
+
+msgid "利用規約の文字列"
+msgstr "Rubutun Sharuɗɗan Amfani"
+
+msgid "利用規約のページ"
+msgstr "Shafin Sharuɗɗa da Ka'idoji"
+
+msgid "ページ選択なし"
+msgstr "Ba a zaɓi shafi ba"
+
+msgid "検索エンジン等のURL"
+msgstr "URLs don injunan bincike, da sauransu."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Saita URL ɗin injunan bincike da shafuka makamancin haka waɗanda ke tura masu amfani zuwa wani wuri idan ba su yarda ba."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modi na gyaran kuskure, saƙonnin gargaɗi na console"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Danna dama a kan saƙon gargaɗi"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Sako na gargaɗi game da buga da ajiye a matsayin PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Sakon gargaɗi a cikin hoton allo"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Sakon gargaɗi game da hotunan allo da ake zargin an ɗauka"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Sakon gargaɗi lokacin da aka zaɓi duk rubutun"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Sakon gargaɗi game da adana shafi"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Sako da ake nuna lokacin kwafi ko yankan"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Sako da za a nuna lokacin duba tushen HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Sako da za a nuna a saman lambar tushe lokacin da ake ruɗarwa ko kare HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Sako da za a nuna idan token ɗin tabbatarwa na sau ɗaya bai yi aiki ba yayin kariyar HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Sako da za a nuna idan an kashe kukis ko JavaScript"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "A gaskiya, ana nuna wannan ne kawai idan an kashe JavaScript."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Idan an kare hoto, ana sauke shi, sannan a nuna saƙo a kan hoton"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ruɗa HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Wannan matsewar HTML ce ta al'ada; akwai kuma shafukan yanar gizo da za su iya fassara shi."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ta kunna wannan zaɓi, za ku iya dawo da rajistar duba tushe."
+
+msgid "HTML保護"
+msgstr "Karewar HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Yana fitar da HTML kaɗan ma fiye da saitin matse HTML, ma'ana ba za a fitar da abun cikin tag ɗin BODY ba kwata-kwata."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Wannan ba ya shafa Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Wannan yana da tasiri mai muhimmanci ga SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Gina HTML ta amfani da JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Don magance matsalar Firefox, muna nuna HTML ɗin ta amfani da JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Bada damar aiwatar da JavaScript zai jinkirta saurin ɗorawa na gidan yanar gizo sosai."
+
+msgid "画像の保護"
+msgstr "Kare hoto"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Kare hoton duk lokacin da aka kira tag ɗin img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Kare duk hotunan da aka loda a WordPress a cikin dukkan fitarwar HTML"
+
+msgid "画像をダウンロードから保護します"
+msgstr "Yana kare hotuna daga saukarwa"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Idan an kare bayanan hotuna, muna hana kusan duk saukarwa, muna samar da URLs na lokaci guda na musamman, muna tabbatar da sahihanci ta amfani da alamomin tsaro da aka ajiye a zaman, sannan muna nuna hotunan ta PHP; wannan yana hana kusan duk sata hotuna."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Idan an kare bayanan hoto, ajiyar wucin gadi ba ta aiki, wanda ke nufin shafin zai loda a hankali a ziyarce-ziyarce na gaba, ta haka yana shafar SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Kare bayanan hoto na iya ƙara nauyi a kan ma'ajiyar bayanai."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Idan ka zaɓi 'Kare hotuna duk lokacin da aka kira tag ɗin img', tsarin zai yi amfani da add_filter don aiwatar da tacewa lokacin da ake ƙirƙirar tag ɗin img; duk da haka, wannan na iya kasa aiki yadda ya kamata tare da wasu jigogi."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Idan ka zaɓi 'Kare duk hotunan da aka loda zuwa WordPress a cikin duk fitarwar HTML', ƙarin zai kama kusan duk ayyukan WordPress kuma ya sarrafa kowanne tag ɗin img a cikin abun ciki. Don Allah a lura cewa wannan na iya kasa aiki yadda ya kamata tare da wasu jigogi."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Da fatan a lura cewa hotunan da aka zaɓa a matsayin hotunan da aka fi so za a raba su a matsayin bayanan OGP kuma ba za a iya kare su ba. Idan lallai ne ku kare su, da fatan za ku canza saitin fitarwar alamomin HEAD a cikin saitunan ci gaba lokacin kunna kariyar HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Ba za a iya kare aikin ɗaukar hoton allo da ke cikin tsarin aiki a matsayin ma'auni ba."
+
+msgid "画像URLの保護"
+msgstr "Kare URLs na hotuna"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Ya kamata a yi amfani da wannan tare da kariyar hoto; shi kaɗai, ba shi da wata amfani."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Yayin da ake loda shi cikin kasala ta JavaScript, wannan yana shafar SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Alamar ruwa ta hoto"
+
+msgid "右下"
+msgstr "ƙasa a dama"
+
+msgid "ランダム位置"
+msgstr "Matsayi na bazuwa"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Ana amfani da su tare da kariyar hoto, alamomin ruwa masu motsi suna nuna a fili mallakar haƙƙin mallaka yayin da suke ba masu kallo ra'ayin ana sa ido a kansu, ta haka suna zama abin hana su aikata laifi."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ana tallafawa tsarin JPG, PNG da WebP kawai."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kunna wannan zai ƙara nauyin sabar."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Fitar da fasahar ASCII daga lambar tushe ta HTML yayin ruɗani da kariya"
+
+msgid "表示なし"
+msgstr "Babu nuni"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Yana nuna fasahar ASCII da ke nuna gargaɗi lokacin kallon tushen HTML ta amfani da 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Nuna ƙira lokacin da aka aiwatar da aikin da ake nufi"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Ƙirar asali da ke ɗauke da rubutu baki a kan bango rawaya"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Ƙirar salon ban tsoro da ke ɗauke da rubutu ja a kan baya baki"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Ƙira mai ɗauke da rubutu ja mai haske a kan baya baki"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Kiɗan bango da ke kunnawa lokacin da aka aiwatar da aikin da ake nufi"
+
+msgid "サウンドなし"
+msgstr "Babu sauti"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Yaki da Nasara - minti 1 da daƙiƙa 16.3 - baitoci 630,056 - 64 kbps - Lasisi: CC 2.1 ko daga baya"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3.8 daƙiƙoƙi - 32,364 baitoci - 64 kbps - Lasisi: GPL 2.0 ko daga baya"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 sakan - 195,578 baitoci - 64 kbps - Lasisi: GPL 2.0 ko daga baya"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – sigar da kwamfuta ta samar, sigar sauri – minti 1 da daƙiƙa 57.6 – baiti 724,457 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo a B-flat minor, Op. 2 – sigar da kwamfuta ta samar, ta gajarta mai sauri – minti 1 da daƙiƙa 48.0 – baiti 665,369 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Jerin: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – sigar da kwamfuta ta samar, gajeriyar sigar da aka hanzarta – minti 1 da daƙiƙa 51.6 – baitoci 687,586 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Biki – daƙiƙa 22.3 – baitoci 183,926 – 64 kbps – Lasisi: Dukiya ta Jama'a"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Biki na salo na baya – 2.2 daƙiƙa – 10,536 baitoci – 32 kbps – Lasisi: Yankin jama'a"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Gabatarwa mai salo na baya – 42.1 sakan – 179,138 baitoci – 32 kbps – Lasisi: Dukiya ta jama'a"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Gargaɗi daga ChatGPT - 3.8 sakan - 109,700 baitoci - 256 kbps - Lasisi: Yankin jama'a"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sauti mai gaggawa sosai kamar faɗakarwar gano malware – Sashe na 1 ta ChatGPT – 3.3 sakan – 102,850 baitoci – 256 kbps – Lasisi: Yanki na Jama'a"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sauti mai gaggawa sosai kamar faɗakarwar gano malware, Sashe na 2 ta ChatGPT - 3.3 daƙiƙa - 103,122 baitoci - 256 kbps - Lasisi: Yankin jama'a"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sautin salon MRI ta ChatGPT – minti 1 da daƙiƙa 14.9 – baitoci 3,340,392 – 320 kbps – Lasisi: Yankin jama'a"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Zaɓi kiɗan bango da za a kunna yayin gargaɗi."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Yana ƙirƙirar yanayi mai ban mamaki"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "An toshe sauti a Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Beep lokacin da aka aiwatar da aikin da aka kayyade"
+
+msgid "有効 音量小さ目"
+msgstr "A kunne, ƙarar sauti ƙasa"
+
+msgid "有効 音量大き目"
+msgstr "Ana aiki, an saita ƙarar sauti zuwa mafi girma"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Za a ji karar bip ga duk abubuwan maɓalli da na linzami yayin da ake nuna gargaɗi."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Yana ba da tunanin cewa na'urar ta yi hauka yayin da ake nuna gargaɗin."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Boye ƙursor na linzami lokacin da aka yi wani takamaiman aiki"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Yana ɓoye ƙursor na linzami a yankin burauza yayin da ake nuna gargaɗi."
+
+msgid "デバッグモード"
+msgstr "Modi na gyaran kuskure"
+
+msgid "妨害＋記録のみ"
+msgstr "Cikas + Rekodi kawai"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Cikas + Rubuce-rubuce + Nuna + Juya"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Har yanzu za ka iya samun sa ta menu ɗin."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modi na gyara kuskure a Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsol na burauza"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "A zahiri, za ka iya sarrafa shi daga yanayin gyaran kuskure."
+
+msgid "HTMLソース表示"
+msgstr "Dubi tushen HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Za ka iya aiwatar da aikin kawai ta shigar da URL da ke farawa da 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Za ka iya kare abun cikin ka ta hanyar haɗa wannan da kariyar HTML."
+
+msgid "印刷"
+msgstr "Buga"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ko da yake yana hana buga, watakila ba zai yi aiki yadda ya kamata a wasu masu binciken yanar gizo ba."
+
+msgid "スクリーンショット"
+msgstr "Hoton allo"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Dangane da tsarin aiki, burauza ko hanyar da aka yi amfani da ita, watakila ba za a iya toshe wannan ba, ko kuma ba za a gano shi ba."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "An zaci hoton allo ne lokacin da taga ta koma bango na baya"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Hakanan yana amsawa ga ayyuka daban-daban ba na ɗaukar hoton allo kawai ba"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "An zaci an ɗauki hoton allo ne ta danna maɓalli biyu."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Hanyoyin gano abubuwan da aka ambata a sama ba su da cikakken tabbaci; ana gudanar da binciken ne a matsayin mataki na kariya."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Yana gano ba kawai hotunan allo ba, har ma da yanayin gyara kuskure da makamantansu."
+
+msgid "ページ保存"
+msgstr "Ajiye shafi"
+
+msgid "右クリック"
+msgstr "Danna maɓallin dama na linzami"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Idan an girka ƙarin, za ku iya amfani da shi."
+
+msgid "コピー・カット"
+msgstr "Kwafi da yanke"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Dangane da saitunan wannan plugin, kuna iya samun wannan lamari kaɗan."
+
+msgid "テキスト全選択"
+msgstr "Zaɓi duk rubutun"
+
+msgid "テキスト選択"
+msgstr "Zaɓi rubutu"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Ragamar farawa na mai cire kuskure, tsangwama na mai cire kuskure"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Wannan yana sanya yanayin debug ya zama ba shi da sauƙin amfani sosai kuma yana rubuta cewa an kaddamar da mai gyara kuskure; duk da haka, wasu masu binciken yanar gizo na iya toshe wannan hali."
+
+msgid "リダイレクトするURL"
+msgstr "Juya URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Zai zama ra'ayi mai kyau a tura masu amfani zuwa shafuka kamar Sharuɗɗan Amfani."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Idan aka bar shi babu komai, zai mayar da kai ga asalin URL."
+
+msgid "リダイレクトまでの時間"
+msgstr "Lokacin da ya rage kafin sake nuna hanya"
+
+msgid "リダイレクトなし"
+msgstr "Babu juyawa"
+
+msgid "1秒"
+msgstr "1 daƙiƙa"
+
+msgid "2秒"
+msgstr "Sekondi biyu"
+
+msgid "3秒"
+msgstr "Sekondi uku"
+
+msgid "4秒"
+msgstr "Sekondi huɗu"
+
+msgid "5秒"
+msgstr "Sekondi biyar"
+
+msgid "6秒"
+msgstr "Sekondi shida"
+
+msgid "7秒"
+msgstr "Sekondi bakwai"
+
+msgid "8秒"
+msgstr "Sekondi takwas"
+
+msgid "9秒"
+msgstr "Sakanni tara"
+
+msgid "10秒"
+msgstr "Daƙiƙa goma"
+
+msgid "15秒"
+msgstr "Daƙiƙa goma sha biyar"
+
+msgid "20秒"
+msgstr "Sekondi ashirin"
+
+msgid "25秒"
+msgstr "Sekondi ashirin da biyar"
+
+msgid "30秒"
+msgstr "Sakan talatin"
+
+msgid "35秒"
+msgstr "Sakan talatin da biyar"
+
+msgid "40秒"
+msgstr "Daƙiƙa arba'in"
+
+msgid "45秒"
+msgstr "Daƙiƙa arba'in da biyar"
+
+msgid "50秒"
+msgstr "Dakiku 50"
+
+msgid "55秒"
+msgstr "Daƙiƙa hamsin da biyar"
+
+msgid "1分"
+msgstr "Minti ɗaya"
+
+msgid "1分10秒"
+msgstr "Minti ɗaya da daƙiƙa goma"
+
+msgid "1分20秒"
+msgstr "Minti ɗaya da daƙiƙa ashirin"
+
+msgid "1分30秒"
+msgstr "Minti ɗaya da daƙiƙa talatin"
+
+msgid "1分40秒"
+msgstr "Minti ɗaya da daƙiƙa arba'in"
+
+msgid "1分50秒"
+msgstr "Minti ɗaya da daƙiƙa hamsin"
+
+msgid "2分"
+msgstr "Mintuna biyu"
+
+msgid "ソース表示を許可する権限"
+msgstr "Izinin duba lambar tushe"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Fitarwar tushe ta al'ada sai an shiga a matsayin ADMIN kawai"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Fitarwar tushe ta al'ada lokacin da aka shiga a matsayin USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Zaɓi ko fitarwar HTML ta al'ada za a iyakance ta ga masu gudanarwa kaɗai ko kuma tana buƙatar shiga na mai amfani."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Tilasta saukar da hoto da abin da aka saukar a zahiri"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Hoto mai pixel ɗaya da ɗaya mai bayyane a cikin tsarin GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Hoto mai pixel 1×1 mai bayyane a cikin tsarin PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Allon gargaɗi mai bango mai launin rawaya a cikin tsarin PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Takardar HTML marar ma'ana"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Fitarwar tag ɗin HEAD lokacin da HTML ke kariya"
+
+msgid "出力しない"
+msgstr "Kada a buga"
+
+msgid "TITLEタグのみ"
+msgstr "Taga TITLE kawai"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "An samo daga tag ɗin HEAD na WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Don shafukan mambobi na musamman don amfanin kamfani da shafukan ciki, zaɓin 'Do not output' ko 'TITLE tag only' ya isa."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Sai dai idan ka samo bayanan daga tag ɗin HEAD na WordPress, hoton OGP ba zai bayyana ba lokacin da aka raba shi a kafafen sada zumunta."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Hana bot ɗin hoto"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Ta hanyar hana bots na hotuna samun HTML, za ka iya kare abun ciki da ba za a iya kare shi daga haɗin kai tsaye ta binciken hotuna ba; duk da haka, wannan ba mafita ce mai cikakken tabbaci ba."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Hana samun damar bot ɗin horo na AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Ta hanyar kauce wa amfani da bots da aka ƙera don horar da AI a kan HTML, muna tabbatar da cewa AI ba za ta iya amfani da shi ba; duk da haka, ba za a iya hana hakan gaba ɗaya ba."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Hana samun damar ajiyayyun yanar gizo da hotunan yanar gizo na ɗan lokaci"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Muna hana samun damar ajiyar yanar gizo da aka tattara ta atomatik da hotunan allo da mai amfani ya ɗauka a yadda ya ga dama; duk da haka, ba za mu iya hana hakan gaba ɗaya ba."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Hana wakilan mai amfani marasa inganci"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Yana hana samun dama idan igiyar wakilin mai amfani tana ɗauke da haruffa marasa inganci."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Nuna gargaɗi lokacin da ake buɗe Internet Explorer da tsohon Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Yana hana samun dama ta Internet Explorer da tsohon Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Harshen da ake nuna saƙonnin faɗakarwa"
+
+msgid "Wordpressの言語"
+msgstr "Harsunan WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Saitunan harshe na burauza"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ba za ka iya canza harshe ba idan an keɓance saƙonnin."
+
+msgid "同意画面の言語"
+msgstr "Harshen allon amincewa"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Harshen da za a nuna saƙon 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Ranar ƙarewar lokacin alamomin wucin gadi"
+
+msgid "3分"
+msgstr "Mintuna uku"
+
+msgid "4分"
+msgstr "Mintuna huɗu"
+
+msgid "5分"
+msgstr "Mintuna biyar"
+
+msgid "6分"
+msgstr "Mintuna shida"
+
+msgid "7分"
+msgstr "Mintuna bakwai"
+
+msgid "8分"
+msgstr "Minti takwas"
+
+msgid "9分"
+msgstr "Minti tara"
+
+msgid "10分"
+msgstr "Minti goma"
+
+msgid "15分"
+msgstr "Minti goma sha biyar"
+
+msgid "20分"
+msgstr "Minti ashirin"
+
+msgid "25分"
+msgstr "Mintuna ashirin da biyar"
+
+msgid "30分"
+msgstr "Minti talatin"
+
+msgid "35分"
+msgstr "Minti talatin da biyar"
+
+msgid "40分"
+msgstr "Mintuna arba'in"
+
+msgid "45分"
+msgstr "Mintuna arba'in da biyar"
+
+msgid "50分"
+msgstr "Mintuna hamsin"
+
+msgid "55分"
+msgstr "Mintuna hamsin da biyar"
+
+msgid "1時間"
+msgstr "A awa ɗaya"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Saita ranar ƙarewa ga bayanan URL na hoto"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Da zarar an loda, za a soke URL na hoto da token na wucin gadi."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Ana loda hotuna ne a buƙata, amma za a loda su ta atomatik da dakika 30 kafin lokacin da aka kayyade."
+
+msgid "一時使用トークンのビット数"
+msgstr "Adadin bits a cikin token na wucin gadi"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Ana amfani da token na ɗan lokaci a matsayin kalmar sirri don ɓoye bayanan URL na hoto; wannan saitin yana ƙayyade ƙarfinsa."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Ko da yake zaɓuɓɓukan da ake nuna a ƙasa da menu mai faɗuwa suna ƙara cikakken bayani, hakan na iya sanya nauyi mai yawa a kan sabar kuma ya haifar da canja wurin babban adadin bayanan HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritman Hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Ana amfani da token na ɗan lokaci a matsayin kalmar sirri don ɓoye bayanan URL na hoto; wannan yana buƙatar yin hashing, kuma wannan saitin yana ƙayyade ƙarfin wannan hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Ko da yake ƙarfin yana ƙaruwa yayin da kake gungura ƙasa cikin zaɓuɓɓukan da aka nuna a cikin menu mai faɗaɗa, wannan yana sanya nauyi mafi girma a kan sabar."
+
+msgid "基本設定"
+msgstr "Saituna na asali"
+
+msgid "高度な設定"
+msgstr "Zaɓuɓɓukan ci gaba"
+
+msgid "初期設定に戻す"
+msgstr "Dawo da saitunan tsoho"
+
+msgid "デザイン・音の設定"
+msgstr "Zane da saitunan sauti"
+
+msgid "イベントの設定"
+msgstr "Saitunan taro"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Saitin sanarwa don ziyarar farko"
+
+msgid "メッセージの設定"
+msgstr "Saitunan saƙo"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Saita URL da za a buɗe lokacin danna dama ko duba lambar tushe"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Ba za a iya amfani da HTML a cikin saƙonnin gargaɗi ba."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Idan ka saita wannan a wannan allo, za a yi watsi da saitunan harshe a shafin Ci Gaba."
+
+msgid "以下の文字列が使用できます"
+msgstr "Za a iya amfani da waɗannan jerin"
+
+msgid "改行"
+msgstr "Tsagin layi"
+
+msgid "押下されたキー"
+msgstr "An danna maɓalli"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Saitunan Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Lura"
+
+msgid "メッセージ"
+msgstr "Sako"
+
+msgid "デザイン・音"
+msgstr "Zane da Sauti"
+
+msgid "初期化"
+msgstr "Farawa"
+
+msgid "このプラグインについて"
+msgstr "Game da wannan plugin ɗin"
+
+msgid "設定が初期化されました"
+msgstr "An sake saita saitunan."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Fara plugin ɗin. Da fatan a lura cewa ba za a goge bayanan IP Log Reader a wannan mataki ba."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Game da Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "An ƙirƙira wannan plugin ne don kare HTML, hotuna da sauran abun ciki da shafin WordPress ɗinku ke samarwa, ta hanyar hana amfani da su ba tare da izini ba."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Ba zai yiwu a kare abun ciki gaba ɗaya ba. Duk da haka, ta hanyar bayar da gargaɗi duk inda zai yiwu da yin shiri idan wani abu ya faru, za mu iya warware lamarin bisa ga tsare-tsaren da gwamnati ta shimfiɗa."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Tabbas, za ku buƙaci tabbatar da cewa sharuɗɗan sabis ɗinku da manufofin shafin ku sun kasance cikakke. Ko da yake wannan ƙarin ba kayan aikin ƙirƙirar sharuɗɗan sabis ba ne, zai iya ba da wasu jagorori."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Mai haɓaka: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Sigar"
+
+msgid "ビルド"
+msgstr "Gina"
+
+msgid "サポートページ"
+msgstr "Shafin tallafi"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "An yi shi ne ta Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Bukatun tallafi"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Na gode da amfani da Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ci gaba da kula da wannan plugin ɗin ya ɗauki lokaci mai yawa da ƙoƙari, kuma domin tara kuɗi don ci gaba da inganta shi da sabunta shi, za mu yi godiya idan duk wanda zai iya tallafa mana zai yi la'akari da bayar da gudummawa."
+
+msgid "寄付について"
+msgstr "Game da gudummawa"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Gudummawa gaba ɗaya suna da son rai kuma ba dole ba ne. Ana samun wannan plugin ga kowa kyauta. Duk da haka, muna matuƙar godiya da goyon bayanku don taimaka mana ci gaba da haɓakawa, kuma za mu yi farin ciki idan za ku iya bayar da ƙaramin gudummawa."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Za ku iya bayar da gudummawa ta hanyar mahaɗin da ke ƙasa. Idan kuna zaune a Japan, za ku iya bayar da gudummawa kyauta, kuma za ku iya yin hakan cikin sauƙi ta amfani da katunan kyautar Amazon."
+
+msgid "寄付先"
+msgstr "Kungiyoyin agaji"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Da goyon bayanku, za mu yi iyakar ƙoƙarinmu don ci gaba da kawo muku sabbin bayanai masu ban mamaki!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Muna godiya da goyon bayanku kuma muna fatan za ku ci gaba da goyon baya a nan gaba."
+
+msgid "ライセンス"
+msgstr "Lasisi"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "An haɓaka wannan plugin a matsayin software mai buɗe tushe kuma an ba shi lasisi ƙarƙashin GPLv2.0 ko daga baya."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Wasu daga cikin fasahohin da ke cikin wannan plugin an kare su da haƙƙin mallaka."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "An ba da izinin amfani da fasahar da aka ba haƙƙin mallaka ne kawai a cikin wannan ƙarin shigarwa."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Don kowace irin amfani daban, da fatan za a tuntuɓi marubucin don samun lasisin kasuwanci."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Wannan plugin ɗin ya ƙunshi waɗannan ɗakunan karatu"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Wannan plugin ɗin ya haɗa da font ɗin zane-zanen ASCII da aka ƙirƙira a ƙasa, tare da fayilolin font."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Wannan plugin ɗin ya ƙunshi kiɗa daga wasan Super Famicom marar hukuma mai suna 'SM Trainer Hitomi 3', wanda EJ Co., Ltd. ta haɓaka kuma wanda mahaliccin wannan plugin ɗin ya tsara, kuma an ba shi lasisi na hukuma."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Wannan plugin ɗin ya ƙunshi waƙoƙin da aka ƙirƙira ta amfani da 'Keppy's YAMAHA C7', wanda Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Na kuma yi amfani da Raspberry Pi 5, ChatGPT da DeepL wajen haɓaka wannan plugin."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "An gano plugin ɗin ajiyar bayanai. Wannan plugin ba zai yi aiki yadda ya kamata ba idan an kunna plugin ɗin ajiyar bayanai."
+
+msgid "無効なIPアドレス"
+msgstr "Adireshin IP ba daidai ba"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Don amfani da wannan gidan yanar gizo, dole ne ku kunna kukis da JavaScript."
+
+msgid "利用規約"
+msgstr "Sharuɗɗan Amfani"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Don hana amfani ba tare da izini ba da tabbatar da amintaccen gudanarwar ayyukanmu, wannan gidan yanar gizo na iya adana bayanai kamar adireshin IP, tarihin lilo da rajistar ayyuka a cikin kukis da ma'ajiyar bayanai. Ana amfani da waɗannan bayanan ne kawai don gudanar da gidan yanar gizon da don dalilai na doka, kuma ba za a bayyana su ga wasu ba."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Don amfani da wannan sabis, dole ne ku yarda da waɗannan ayyukan sarrafawa."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Kuna iya duba abubuwan da ke cikin Manufofin Sirri ko da ba ku ba da amincewarku ba."
+
+msgid "同意する"
+msgstr "Na yarda"
+
+msgid "同意しない"
+msgstr "Ban yarda ba"
+
+msgid "確認"
+msgstr "Tabbaci"
+
+msgid "プライバシーポリシー"
+msgstr "Manufofin Sirri"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "An gano wani ba daidai ba na samun dama ko aiki"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "An takaita wasu fasaloli don dalilan tsaro da kariyar abun ciki."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "An kashe yanayin gyaran kuskure da damar shiga konsol"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "An tura bayanan da ke ƙasa zuwa sabar."
+
+msgid "あなたのIPアドレス"
+msgstr "Adireshin IP ɗinka"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Na'urarka da burauzarka"
+
+msgid "あなたの押下したキー"
+msgstr "Maballin da ka danna"
+
+msgid "リダイレクトをします"
+msgstr "Za a tura ku zuwa wani wuri"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "An takaita wasu fasaloli don kare abun ciki"
+
+msgid "右クリックは禁止されています"
+msgstr "Ba a yarda a danna maɓallin dama ba"
+
+msgid "あなたが押下したキー"
+msgstr "Maballin da ka danna"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "An hana buga da ajiye a matsayin PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "An hana ɗaukar hoton allo."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "An hana ɗaukar hotunan allo da kuma kunna yanayin gyara kuskure."
+
+msgid "ページの保存は禁止されています"
+msgstr "An hana ajiye wannan shafin"
+
+msgid "コピー、カットは禁止されています"
+msgstr "An hana kwafi da yanke."
+
+msgid "あなたが起こしたイベント"
+msgstr "Abubuwan da ka shirya"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ba a yarda a zaɓi rubutu ba."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "An hana nuna lambar tushe ta HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ba a yarda da samun shiga ba"
+
+msgid "アフリカーンス語"
+msgstr "Afikaans"
+
+msgid "アラゴン語"
+msgstr "Na Aragon"
+
+msgid "アラビア語"
+msgstr "Larabci"
+
+msgid "アッサム語"
+msgstr "Asamawa"
+
+msgid "アゼルバイジャン語"
+msgstr "Azarbayjananci"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Faranshiyawa"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgariya"
+
+msgid "ボスニア語"
+msgstr "Bosniya"
+
+msgid "カタロニア語"
+msgstr "Katalananci"
+
+msgid "チェコ語"
+msgstr "Czech"
+
+msgid "ウェールズ語"
+msgstr "Welsh"
+
+msgid "デンマーク語"
+msgstr "Danmaka"
+
+msgid "ドイツ語"
+msgstr "Jamusanci"
+
+msgid "現代ギリシア語"
+msgstr "Girkanci na zamani"
+
+msgid "英語"
+msgstr "Turanci"
+
+msgid "イギリス英語"
+msgstr "Birtaniya"
+
+msgid "アメリカ英語"
+msgstr "Turanci na Amurka"
+
+msgid "エスペラント語"
+msgstr "Harshen da ake sa ran zai kasance"
+
+msgid "スペイン語"
+msgstr "Sifaniyanci"
+
+msgid "エストニア語"
+msgstr "Na Estonia"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Farisanci"
+
+msgid "フィンランド語"
+msgstr "Fininci"
+
+msgid "フランス語"
+msgstr "Faransanci"
+
+msgid "アイルランド語"
+msgstr "Na'Iri"
+
+msgid "ガリシア語"
+msgstr "Galician"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Ibrananci"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroatiya"
+
+msgid "ハイチ・クレオール語"
+msgstr "Krik-karan Haiti"
+
+msgid "ハンガリー語"
+msgstr "Na Habasha"
+
+msgid "インドネシア語"
+msgstr "Indonesiyawa"
+
+msgid "イボ語"
+msgstr "Harshen Ibo"
+
+msgid "アイスランド語"
+msgstr "Ƙasar kankara"
+
+msgid "イタリア語"
+msgstr "Italiyanci"
+
+msgid "日本語"
+msgstr "Jafananci"
+
+msgid "ジャワ語"
+msgstr "Jawur"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Koreya"
+
+msgid "クルド語"
+msgstr "Kurdanci"
+
+msgid "キルギス語"
+msgstr "Kirgizi"
+
+msgid "ラテン語"
+msgstr "Latinanci"
+
+msgid "ルクセンブルク語"
+msgstr "Faransancin Luxembourg"
+
+msgid "リンガラ語"
+msgstr "Yare"
+
+msgid "リトアニア語"
+msgstr "Lithuania"
+
+msgid "ラトビア語"
+msgstr "Latviyanci"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Na Māori"
+
+msgid "マケドニア語"
+msgstr "Masedoniyanci"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongoliyanci"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Mutanen Malay"
+
+msgid "マルタ語"
+msgstr "Na Malta"
+
+msgid "ビルマ語"
+msgstr "Burma"
+
+msgid "ネパール語"
+msgstr "Nepali"
+
+msgid "ノルウェー語"
+msgstr "Na Norway"
+
+msgid "オランダ語"
+msgstr "Hollandiyanci"
+
+msgid "オック語"
+msgstr "Okcitani"
+
+msgid "オロモ語"
+msgstr "Ko da yake"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Mai sheƙawa"
+
+msgid "パシュトー語"
+msgstr "Fitarwa"
+
+msgid "ポルトガリア語"
+msgstr "Turanci"
+
+msgid "ブラジルポルトガル語"
+msgstr "Turancin Brazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Turancin Portugal na Turai"
+
+msgid "ケチュア語"
+msgstr "Sakamako"
+
+msgid "ルーマニア語"
+msgstr "Rumani"
+
+msgid "ロシア語"
+msgstr "Rashanci"
+
+msgid "サンスクリット語"
+msgstr "Latinanci"
+
+msgid "スロバキア語"
+msgstr "Silikaf"
+
+msgid "スロベニア語"
+msgstr "Sifeniya"
+
+msgid "セルビア語"
+msgstr "Serbiyawa"
+
+msgid "南セソト語"
+msgstr "Kudu na Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
+msgid "スウェーデン語"
+msgstr "Sifaniyanci"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Taamilanci"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Taɪ"
+
+msgid "トルクメン語"
+msgstr "Turkiyawa"
+
+msgid "タガログ語"
+msgstr "Harshen Tagalog"
+
+msgid "トルコ語"
+msgstr "Turki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukrainiya"
+
+msgid "ウルドゥー語"
+msgstr "Turanci"
+
+msgid "ウズベク語"
+msgstr "Uzbeƙi"
+
+msgid "ベトナム語"
+msgstr "Vietnamawa"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Yiddish"
+
+msgid "簡体中国語"
+msgstr "Sinanci mai sauƙi"
+
+msgid "繁体中国語"
+msgstr "Sinanci na gargajiya"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Wannan burauza da kake amfani da ita a halin yanzu tsohuwar sigar ce wadda ba a tallafawa. Don tabbatar da kwarewar lilo mai aminci da jin daɗi, don Allah ka sabunta burauzarka zuwa sabuwar sigar."
+
+msgid "不正なリクエストです"
+msgstr "Bukatun ba daidai ba"
+
+msgid "画像が見つかりません"
+msgstr "Ba a sami hoto ba"
+

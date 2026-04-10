@@ -1,0 +1,1292 @@
+# Sesotho translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 09:15+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Sesotho\n"
+"Language: st\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Litlhophiso"
+
+msgid "IPログリーダー"
+msgstr "Mmadi wa Lirekoto tsa IP"
+
+msgid "IPアドレスログ"
+msgstr "Lengolo la liaterese tsa IP"
+
+msgid "全クリア"
+msgstr "Phethela maemo ohle"
+
+msgid "IPログが全て削除されました"
+msgstr "Liloko tsohle tsa IP li hlakotsoe."
+
+msgid "ID"
+msgstr "Boitsebiso ba motho"
+
+msgid "タイムスタンプ"
+msgstr "Nako ea ketsahalo"
+
+msgid "IPアドレス"
+msgstr "Aterese ea IP"
+
+msgid "ユーザーエージェント"
+msgstr "Moemeli oa mosebelisi"
+
+msgid "イベント"
+msgstr "Ketsahalo"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ha ho na datha bakeng sa aterese ena ea IP."
+
+msgid "EU GDPR対応"
+msgstr "Ho latela GDPR ea EU"
+
+msgid "無効"
+msgstr "Ha e sebetse"
+
+msgid "有効"
+msgstr "E nepahetse"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Haeba o sebedisa WordPress ka hara EU, kapa haeba websaete ya hao e lebisitswe ho basebedisi ba ka hara EU, ka kopo etsa bonnete ba hore sena se kenyeleditswe."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Konopo ea 'Netefatsa' e tla fetoha ho ba 'Tumellana' kapa 'Hana', 'me tsela eo e sebetsang ka eona e tla fetoha hanyenyane."
+
+msgid "同意画面の色"
+msgstr "Mmala oa skrine sa tumello"
+
+msgid "自動"
+msgstr "Ka boiketsetso"
+
+msgid "ライトモード"
+msgstr "Mokgwa o bobebe"
+
+msgid "ダークモード"
+msgstr "Mokgwa o Lefifi"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Beha moralo oa mebala bakeng sa skrine sa tumello."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Ho fifatsa dikahare skrineng sa tumello"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Beha boemo ba ho fifatsa bakeng sa litaba tse hlahang skrineng sa tumello."
+
+msgid "同意画面の透過"
+msgstr "Pepesa ea skrine sa tumello"
+
+msgid "透過なし"
+msgstr "Ha ho ponaletso"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Beha ponaletso ea skrine sa tumello"
+
+msgid "お知らせの1行目"
+msgstr "Mola oa pele oa phatlalatso"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Molaetsa ona o lula o bontšoa lekhetlo la pele leqephe le laeloa."
+
+msgid "お知らせの2行目"
+msgstr "Mola oa bobeli oa tsebiso"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Molaetsa ona o tla hlaha kamehla pontshong ya pele feela ha EU GDPR e sebetsa."
+
+msgid "お知らせの3行目"
+msgstr "Mola oa boraro oa tsebiso"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "E tla hlaha ka ho le letona ha sehokelo sa Leano la Lekunutu."
+
+msgid "非EU向け確認の文字列"
+msgstr "Molaetsa oa netefatso bakeng sa linaha tse seng tsa EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Molaetsa oa tumello bakeng sa EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Molaetsa oa 'Se lumellane' tlas'a EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Molaoana oa lekunutu"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Ka kopo, kenya URL ea leano la lekunutu mona."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Ka kopo, eketsa tse latelang ho Leano la Lekunutu."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ho lemoha liketso tsa bomenemene, lintlha tse khethollang tse kang liaterese tsa IP li bolokoa li-cookie le polokelong ea lintlha. Lintlha tse bolokiloeng li hlakoloa ho ea ka kahlolo ea motsamaisi."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ho netefatsa hore litšoantšo li fanoa ka nepo ha tšireletso ea litšoantšo e kenyelelitsoe, re boloka data e fetotsoeng ka khoutu e kenyeletsang aterese ea IP le lebitso la faele ea setšoantšo polokelong ea rona ea data ka nako e ka fihlang metsotso e 60."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Haeba o hlophisa Melao ya Tshebediso, ka kopo etsa bonnete ba hore o kenyeletsa sehokelo sa yona ho Leano la hao la Lekunutu."
+
+msgid "利用規約の文字列"
+msgstr "Mongolo oa Lipehelo tsa Tšebeliso"
+
+msgid "利用規約のページ"
+msgstr "Leqephe la Melao le Lipehelo"
+
+msgid "ページ選択なし"
+msgstr "Ha ho leqephe le kgethilweng"
+
+msgid "検索エンジン等のURL"
+msgstr "Li-URL bakeng sa lienjine tsa ho batla, jj."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Beha URL bakeng sa lienjine tsa patlo le liwebsaete tse tšoanang tse fetisetsang basebelisi ha ba sa lumellane."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mokgwa wa ho lokisa diphoso, melaetsa ya tlhokomediso ya khonsolo"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Tlhokomediso ea ho tobetsa ka ho le letona"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Molaetsa oa temoso mabapi le ho hatisa le ho boloka e le PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Molaetsa oa temoso setšoantšong sa skrine"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Molaetsa oa temoso mabapi le litšoantšo tsa skrine tse belaelloang"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Molaetsa oa temoso ha mongolo oohle o khethiloe"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Molaetsa oa temoso mabapi le poloko ea leqephe"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Molaetsa o hlahang ha o kopitsa kapa o seha"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Molaetsa o bontshwang ha ho shebile mohlodi wa HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Molaetsa o bontshwang hodima khoutu ya mohlodi ha ho ntse ho sireletswa kapa ho fifatswa HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Molaetsa o tla hlahisoa haeba tokena ea netefatso ea hang e sa sebetse nakong ea tšireletso ea HTML."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Molaetsa o tla bontšoa haeba li-cookie kapa JavaScript li koetsoe."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Ha e le hantle, sena se bonahala feela ha JavaScript e koetsoe."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Ha setshwantsho se sireleditswe, se a jarollwa, mme molaetsa o a hlahiswa hodima sona"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ho fifatsa HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Hona ke khatello e tloaelehileng ea HTML; hape ho na le liwebsaete tse ka e fetolelang."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ho nolofatsa kgetho ena ho o dumella ho fumana direkoto tsa mohlodi wa ponahatso."
+
+msgid "HTML保護"
+msgstr "Tšireletso ea HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "E hlahisa HTML e fokolang le ho feta ho feta tokisetso ea ho hatella HTML, ho bolelang hore litaba tse ka hare ho tag ea BODY ha li na ho hlahisoa ho hang."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Sena ha se sebetse ho Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Sena se na le tšusumetso e kholo ho SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Ho hlahisa HTML ka JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Ho sebetsana le Firefox, re hlahisa HTML ka JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Ho nolofatsa ts'ebetso ea JavaScript ho tla fokotsa haholo lebelo leo sebaka sa marang-rang se bula ka lona."
+
+msgid "画像の保護"
+msgstr "Tšireletso ea setšoantšo"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Sireletsa setšoantšo nako le nako ha letšoao la img le bitsoa."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Sireletsa ditshwantsho tsohle tse kenngwang ho WordPress ka hara HTML yohle e hlahiswang."
+
+msgid "画像をダウンロードから保護します"
+msgstr "E sireletsa litšoantšo hore li se ke tsa khoasolloa"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Ha data ea litšoantšo e sirelelitsoe, re thibela hoo e ka bang li-download kaofela, re fana ka li-URL tse ikhethang tsa hang feela, re netefatsa bonnete ba basebelisi ka li-token tse bolokiloeng nakong ea phihlello, 'me re bontša litšoantšo ka PHP; sena se thibela ka katleho hoo e ka bang maemo kaofela a bosholu ba litšoantšo."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Ha data ea litšoantšo e sirelelitsoe, caching ha e sebetse, e leng se bolelang hore sebaka sa marang-rang se tla bula butle maetong a latelang, 'me sena se ama SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ho sireletsa datha ya ditshwantsho ho ka eketsa morwalo hodima polokelo ya datha."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Ha o kgetha 'Sireletsa ditshwantsho nako le nako ha letshwao la img le bitswa', tsamaiso e sebedisa add_filter ho kenya tshebetsong tlhotlho ya ditshwantsho ha letshwao la img le etswa; leha ho le jwalo, sena se ka nna sa se sebetse hantle ka di-theme tse ding."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Ha o kgetha 'Sireletsa ditshwantsho tsohle tse kenngwang ho WordPress ka hara HTML yohle e hlahiswang', plugin e tla hapa hoo e ka bang mesebetsi yohle ya WordPress mme e sebetse tag e nngwe le e nngwe ya img ka hara dikahare. Ka kopo hlokomela hore sena se kanna sa se sebetse hantle le di-theme tse ding."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Ka kopo hlokomela hore litšoantšo tse khethiloeng e le litšoantšo tse hlahelletseng li tla arolelanoa e le data ea OGP 'me ha li khone ho sireletsoa. Haeba o tlameha ho li sireletsa, ka kopo fetola tlhophiso ea tlhahiso ea HEAD tag litlhophisong tse tsoetseng pele ha o kenya tšebetsong tšireletso ea HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Tshebetso ya ho nka setshwantsho sa skrine e kenyelleditsweng ka mokgwa o tlwaelehileng tsamaisong ya tshebetso e ke ke ya sireletswa."
+
+msgid "画像URLの保護"
+msgstr "Ho sireletsa li-URL tsa litšoantšo"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Sena se lokela ho sebediswa hammoho le tshireletso ya setshwantsho; ha se sebediswa feela, ha se na thuso."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Kaha e laelletsoa ka ho lieha ka JavaScript, sena se ama SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Letšoao la setšoantšo"
+
+msgid "右下"
+msgstr "Tlase ka ho le letona"
+
+msgid "ランダム位置"
+msgstr "Boemo bo iketsahalletseng"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Ha li sebediswa mmoho le tshireletso ya ditshwantsho, li-watermark tse fetohang li bontsha ka ho hlaka bo-nngwe ba tokelo ya bongodi, ha ka nako e tshwanang li fa bashebelli maikutlo a hore ba a shebilwa, mme ka hona li sebetsa e le se thibelang."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ho tšehetsoa feela lifomate tsa JPG, PNG le WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Ho nolofatsa sena ho tla eketsa moroalo ho seva."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ho hlahisa bonono ba ASCII ho tsoa khoutung ea mohloli ea HTML nakong ea ho fifatsa le ho sireletsa"
+
+msgid "表示なし"
+msgstr "Ha ho pontšo"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "E bontša bonono ba ASCII bo bontšang tlhokomeliso ha ho shebisoa mohloli oa HTML ka ho sebelisa 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Bontsha moralo ha ketso e lebelletsweng e phethilwe"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Moralo o motheo o nang le mongolo o motsho hodima bokamorao bo boseroledi."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Moralo oa mofuta oa tšabo o nang le mongolo o mofubelu holim'a bokamorao bo botšo."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Moralo o nang le mongolo o mofubedu o khanyang holim'a bokamorao bo botšo"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Mmino o bapalang ha ketso e rerilweng e etswa."
+
+msgid "サウンドなし"
+msgstr "Ha ho molumo"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Ntoa le Tlhōlo - motsotso o le 1 metsotsoana e 16.3 - libaete tse 630,056 - 64 kbps - Laesense: CC 2.1 kapa e ncha"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Ntate Short - metsotsoana e 3.8 - li-byte tse 32,364 - 64 kbps - Laesense: GPL 2.0 kapa e ncha"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - metsotswana e 23.5 - libaete tse 195,578 - 64 kbps - Laesense: GPL 2.0 kapa e ncha"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – Mofuta o hlahisitsweng ke khomphutha, mofuta wa lebelo le phahameng – motsotso o le 1 le metsotswana e 57.6 – di-byte tse 724,457 – 48 kbps – Laesense: CC BY-ND 4.0 kapa e morao ho feta"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo ka B flat minor, Op. 2 – Mofuta o hlahisitsweng ke khomphutha, mofuta o kgutsufaditsweng wa lebelo le phahameng – motsotso o le 1 le metsotswana e 48.0 – 665,369 bytes – 48 kbps – Laesense: CC BY-ND 4.0 kapa e ncha ho feta moo"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lethathamo: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Modumo wa mokete – metsotswana e 22.3 – dibaete tse 183,926 – 64 kbps – Laesense: Setsoalle sa setjhaba"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Mokete oa setaele sa khale – metsotsoana e 2.2 – li-byte tse 10,536 – 32 kbps – Laesense: Setsoalle sa sechaba"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Selelekela sa setaele sa khale – metsotsoana e 42.1 – libaete tse 179,138 – 32 kbps – Laesense: Setsoalle sa sechaba"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Temoso ka ChatGPT - metsotswana e 3.8 - li-byte tse 109,700 - 256 kbps - Laesense: Setša sa sechaba"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Modumo o potlakileng haholo o kang tlhokomediso ya ho fumana malware – Karolo ya 1 ka ChatGPT – metsotswana e 3.3 – di-byte tse 102,850 – 256 kbps – Laesense: Setsoalle sa Setjhaba"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Modumo o potlakileng haholo o kang tlhokomediso ya ho fumana malware, Karolo ya 2 ka ChatGPT - metsotswana e 3.3 - dibaete tse 103,122 - 256 kbps - Laesense: Setsoalle sa Setjhaba"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Modumo wa mofuta wa MRI ka ChatGPT – motsotso o le 1 le metsotswana e 14.9 – di-byte tse 3,340,392 – 320 kbps – Laesense: Setsoalle sa Setjhaba"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Kgetha mmino wa ka morao o tla bapala nakong ya temoso."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr ""
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Molumo o thibetsoe ho Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Ho lla ha ketso e boletsweng e phethilwe"
+
+msgid "有効 音量小さ目"
+msgstr "Ho, molumo o tlase"
+
+msgid "有効 音量大き目"
+msgstr "E sebetsa, molumo o phahamisitsoe haholo"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Ho tla utlwahala modumo bakeng sa diketsahalo tsohle tsa konopo le mouse ha temoso e ntse e bontshwa."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "E fana ka maikutlo a hore sesebediswa se sa sebetse hantle ha temoso e ntse e bontshwa."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Ho pata sesupa-mouse ha ketso e itseng e etsoa"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "E pata sesupa-mouse sebakeng sa sebatli ha temoso e ntse e bontšoa."
+
+msgid "デバッグモード"
+msgstr "Mokgwa wa ho lokisa diphoso"
+
+msgid "妨害＋記録のみ"
+msgstr "Tšitiso + Direkoto feela"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Tšitiso + Ho ngolisa + Pontšo + Phetisetso"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "O ntse o ka fihlella ho sona ka lenane."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mokgwa wa ho lokisa diphoso ho Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "K'honsolo ea sebatli"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Ha e le hantle, o ka e sebetsa o le mokgweng wa ho lokisa diphoso."
+
+msgid "HTMLソース表示"
+msgstr "Sheba mohloli oa HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "U ka etsa ts'ebetso ena ka ho kenya feela URL e qalang ka 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "U ka sireletsa dikahare tsa hao ka ho kopanya sena le tshireletso ya HTML."
+
+msgid "印刷"
+msgstr "Hatisa"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Leha e thibela ho hatisa, e kanna ya se sebetse hantle dibatling tse ding."
+
+msgid "スクリーンショット"
+msgstr "Senepe sa skrine"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Ho itshetlehile ka sistimi e sebetsang, sebatli kapa mokgwa o sebedisitsweng, ho ka nna ha se ke ha kgoneha ho thibela sena, kapa ho ka nna ha se ke ha lemohuwa."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Khaola-tshwantsho e belaellwang ha fensetere e ya morao"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "E boetse e arabela mesebetsing e meng ntle le ho nka ditshwantsho tsa skrine"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Khaola-tshwantsho e belaellwang e nkilweng ka ho tobetsa dikonopo tse pedi"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Mekhoa ea ho lemoha lintho tse boletsoeng ka holimo ha e na bonnete bo feletseng; ho lemoha ho etsoa e le mohato oa ho itšireletsa."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "E lemoha eseng feela ditshwantsho tsa skrine, empa hape le mekgwa ya ho lokisa diphoso le tse tshwanang le tsona."
+
+msgid "ページ保存"
+msgstr "Boloka leqephe"
+
+msgid "右クリック"
+msgstr "Tobetsa ka ho le letona"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Haeba tlatsetso e kentiloe, o tla khona ho e sebelisa."
+
+msgid "コピー・カット"
+msgstr "Kopitsa le ho seha"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Ho itshetlehile ka ditlhophiso tsa plugin ena, o ka nna wa kopana le ketsahalo ena ka sewelo."
+
+msgid "テキスト全選択"
+msgstr "Kgetha mongolo wohle"
+
+msgid "テキスト選択"
+msgstr "Kgetha mongolo"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Lengolo la qaleho la sebatli-phoso, tšitiso ea sebatli-phoso"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Sena se etsa hore mokgwa wa ho lokisa diphoso o se be bonolo ho o sebedisa, mme se tlaleha hore sebadisadiphoso se qalilwe; leha ho le jwalo, dibatli tse ding di ka thibela tshebetso ena."
+
+msgid "リダイレクトするURL"
+msgstr "Fetisetsa URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "E ka ba mohopolo o motle ho lebisa basebelisi maqepheng a kang Melao ea Tšebeliso."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Haeba e siiloe e se na letho, e tla fetisetsa ho URL ea pele."
+
+msgid "リダイレクトまでの時間"
+msgstr "Nako e setseng pele ho fetisetsoa"
+
+msgid "リダイレクトなし"
+msgstr "Ha ho fetisetsoe"
+
+msgid "1秒"
+msgstr "Motsotswana o le mong"
+
+msgid "2秒"
+msgstr "Metsotswana e 2"
+
+msgid "3秒"
+msgstr "Metsotswana e meraro"
+
+msgid "4秒"
+msgstr "Metsotswana e 4"
+
+msgid "5秒"
+msgstr "Metsotswana e 5"
+
+msgid "6秒"
+msgstr "Metsotswana e 6"
+
+msgid "7秒"
+msgstr "Metsotswana e supileng"
+
+msgid "8秒"
+msgstr "Metsotswana e 8"
+
+msgid "9秒"
+msgstr "Lisekonte tse robong"
+
+msgid "10秒"
+msgstr "Metsotswana tse 10"
+
+msgid "15秒"
+msgstr "Metsotswana e 15"
+
+msgid "20秒"
+msgstr "Metsotswana e mashome a mabedi"
+
+msgid "25秒"
+msgstr "Metsotswana tse 25"
+
+msgid "30秒"
+msgstr "Metsotswana e mashome a mararo"
+
+msgid "35秒"
+msgstr "Metsotswana e mashome a mararo a metso e mehlano"
+
+msgid "40秒"
+msgstr "Metsotswana tse mashome a mane"
+
+msgid "45秒"
+msgstr "Metsotswana e mashome a mane a metso e mehlano"
+
+msgid "50秒"
+msgstr "Metsotswana e mashome a mahlano"
+
+msgid "55秒"
+msgstr "Metsotswana e mashome a mahlano a metso e mehlano"
+
+msgid "1分"
+msgstr "Motsotso o le mong"
+
+msgid "1分10秒"
+msgstr "Motsotso o le mong metsotsoana e 10"
+
+msgid "1分20秒"
+msgstr "Motsotso o le mong le metsotsoana e mashome a mabeli"
+
+msgid "1分30秒"
+msgstr "Motsotso o le mong le metsotsoana e mashome a mararo"
+
+msgid "1分40秒"
+msgstr "Motsotso o le mong le metsotsoana e mashome a mane"
+
+msgid "1分50秒"
+msgstr "Motsotso o le mong le metsotsoana e mashome a mahlano"
+
+msgid "2分"
+msgstr "Metsotso e 2"
+
+msgid "ソース表示を許可する権限"
+msgstr "Tumello ea ho sheba khoutu ea mohloli"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Phepelo e tloaelehileng e sebetsa feela ha u kene e le ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Sephetho se tloaelehileng sa mohloli ha u kene e le MOSEBELISI"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Kgetha hore na tlhahiso e tlwaelehileng ya HTML e be bakeng sa batsamaisi feela kapa e hloka hore mosebedisi a kene."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Ho qobella setšoantšo hore se khoasolloe le seo ha e le hantle se khoasolloang"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Setšoantšo se bonaletsang sa 1×1-pixel ka sebopeho sa GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Setshwantsho se bonaletsang sa 1×1-pixel ka sebopeho sa PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Skrine sa temoso se nang le bokamorao ba 'mala o mosehla ka sebopeho sa PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Tokomane ea HTML e se nang moelelo"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Sephetho sa tag ea HEAD ha HTML e sirelelitsoe"
+
+msgid "出力しない"
+msgstr "Se hatise"
+
+msgid "TITLEタグのみ"
+msgstr "Letšoao la sehlooho feela"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "E nkiloeng ho tsoa ho lebitso la sehlooho la WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Bakeng sa maqephe a basebetsi a k'hamphani a sebelisoang ke litho feela le maqephe a kahare, ho khetha 'Do not output' kapa 'TITLE tag only' ho lokela ho lekana."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Ntle le haeba o nka tlhahisoleseding ho tsoa ho WordPress HEAD tag, setšoantšo sa OGP se ke ke sa hlahisoa ha ho arolelanoa mecheng ea litaba tsa sechaba."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Thibela bot ea setšoantšo"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Ka ho thibela li-bot tsa litšoantšo ho fihlella HTML, o ka sireletsa litaba tse neng li sa sireletsoa khahlanong le ho hokahanya ka kotloloho ka patlo ea litšoantšo; leha ho le joalo, sena ha se tharollo e tiileng ka ho feletseng."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Thibela phihlello ea bot ea koetliso ea AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Ka ho qoba tšebeliso ea li-bot tse etselitsoeng koetliso ea AI ho HTML, re etsa bonnete ba hore litaba ha li sebelisoe ke AI; leha ho le joalo, sena se ke ke sa thibeloa ka ho feletseng."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Thibela phihlello ea polokelong ea marang-rang le litšoantšong tsa marang-rang"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Re thibela phihlello ea polokelo ea marang-rang e bokeletsoeng ka bo eona le litšoantšo tsa skrine tse nketsoeng ka boikhethelo ba mosebelisi; leha ho le joalo, re ke ke ra thibela sena ka ho feletseng."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Thibela baemeli ba basebelisi ba seng molaong"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "E thibela phihlello haeba mohala oa mosebelisi o na le litlhaku tse fosahetseng."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Bontša temoso ha ho fihleloa Internet Explorer le Microsoft Edge ea khale"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "E thibela phihlello ka Internet Explorer le Microsoft Edge ea khale."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Puo eo melaetsa ea temoso e bontšoa ka eona"
+
+msgid "Wordpressの言語"
+msgstr "Lipuo tsa WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Litlhophiso tsa puo tsa sebatli"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ha o ka ke wa fetola puo haeba melaetsa e fetotswe ho ya ka ditlhoko tsa hao."
+
+msgid "同意画面の言語"
+msgstr "Puo ea skrine sa tumello"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Puo eo molaetsa oa 'view-source' o bontšuoang ka eona"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Letsatsi la ho felloa ke nako la li-token tsa nakoana"
+
+msgid "3分"
+msgstr "Metsotso e meraro"
+
+msgid "4分"
+msgstr "Metsotso e 4"
+
+msgid "5分"
+msgstr "Metsotso e 5"
+
+msgid "6分"
+msgstr "Metsotso e 6"
+
+msgid "7分"
+msgstr "Metsotso e supileng"
+
+msgid "8分"
+msgstr "Metsotso e 8"
+
+msgid "9分"
+msgstr "Metsotso e 9"
+
+msgid "10分"
+msgstr "Metsotso e 10"
+
+msgid "15分"
+msgstr "Metsotso e 15"
+
+msgid "20分"
+msgstr "Metsotso e mashome a mabedi"
+
+msgid "25分"
+msgstr "Metsotso e mashome a mabedi le metso e mehlano"
+
+msgid "30分"
+msgstr "Metsotso e 30"
+
+msgid "35分"
+msgstr "Metsotso e mashome a mararo le metso e mehlano"
+
+msgid "40分"
+msgstr "Metsotso e mashome a mane"
+
+msgid "45分"
+msgstr "Metsotso e mashome a mane le metso e mehlano"
+
+msgid "50分"
+msgstr "Metsotso e mashome a mahlano"
+
+msgid "55分"
+msgstr "Metsotso e 55"
+
+msgid "1時間"
+msgstr "Hora e le 'ngoe"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Beha letsatsi la ho felloa ke nako bakeng sa tlhahisoleseding ea URL ea setšoantšo."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Hang ha ho se ho laetsoe, URL ea setšoantšo le letšoao la nakoana li tla felloa ke mosebetsi."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Litšoantšo li laeloa ha li batloa, empa li tla laeloa ka bo tsona metsotsoana e 30 pele ho nako e boletsoeng."
+
+msgid "一時使用トークンのビット数"
+msgstr "Palo ea li-bit ka har'a letšoao la nakoana"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Token ea nakoana e sebelisoa e le phasewete ho patala tlhahisoleseding ea URL ea setšoantšo; tokisetso ena e hlalosa matla a eona."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Leha dikgetho tse bontshitsweng ka tlase ho lenane le theohelang di ntse di eketseha ka dintlha, sena se ka imetsa seva haholo mme sa fella ka phetiso ya data e ngata haholo ya HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritimi ea hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token ea nakoana e sebelisoa joalo ka phasewete ho patala tlhahisoleseding ea URL ea setšoantšo; sena se hloka ho etsa hashing, 'me tokisetso ena e laola matla a hashing eo."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Leha matla a eketseha ha o ntse o theosa ka hara dikgetho tse bontshitsweng lenaneng le theohelang, sena se beha moroalo o moholo ho seva."
+
+msgid "基本設定"
+msgstr "Litlhophiso tsa motheo"
+
+msgid "高度な設定"
+msgstr "Litlhophiso tse tsoetseng pele"
+
+msgid "初期設定に戻す"
+msgstr "Kgutlisetsa ditlhophiso tsa kamehla"
+
+msgid "デザイン・音の設定"
+msgstr "Litlhophiso tsa moralo le molumo"
+
+msgid "イベントの設定"
+msgstr "Litlhophiso tsa ketsahalo"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ho hlophisa litemoso bakeng sa maeto a pele"
+
+msgid "メッセージの設定"
+msgstr "Lipehelo tsa melaetsa"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Beha URL e tla buloa ha ho tobisoa ka ho le letona kapa ha ho shebisoa khoutu ea mohloli."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML e ke ke ya sebediswa melaetseng ya ditemoso."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Ha o hlophisa sena skrineng sena, litlhophiso tsa puo tse ho tab ea Advanced li tla hlokomolohuoa."
+
+msgid "以下の文字列が使用できます"
+msgstr "Mela e latelang e ka sebediswa"
+
+msgid "改行"
+msgstr "Phetoho ea mola"
+
+msgid "押下されたキー"
+msgstr "Konopo e hatiloe"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Litlhophiso tsa Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Tsebiso"
+
+msgid "メッセージ"
+msgstr "Molaetsa"
+
+msgid "デザイン・音"
+msgstr "Moralo le Molumo"
+
+msgid "初期化"
+msgstr "Qalo"
+
+msgid "このプラグインについて"
+msgstr "Mabapi le plugin ena"
+
+msgid "設定が初期化されました"
+msgstr "Litlhophiso li tsosolositsoe."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Qala plugin. Ka kopo hlokomela hore data ea IP Log Reader e ke ke ea hlakoloa mohatong ona."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Mabapi le Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Plugin ena e etseditswe ho sireletsa HTML, ditshwantsho le dikahare tse ding tse hlahiswang ke sebaka sa hao sa WordPress, e e sireletsa kgahlanong le tshebediso e sa dumellwang."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Ho ke ke ha khoneha ho sireletsa dikahare ka botlalo. Leha ho le jwalo, ka ho fana ka ditemoso hohle moo ho kgonehang le ho etsa ditokisetso haeba ho ka etsahala letho, re lokela ho kgona ho rarolla taba ena ho ya ka mekgwa e behilweng ke mmuso."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Ehlile, o tla hloka ho netefatsa hore lipehelo tsa hau tsa tšebeletso le maano a sebaka sa marang-rang li akaretsa tsohle. Leha plugin ena e se sesebelisoa sa ho hlahisa lipehelo tsa tšebeletso, e ka fana ka tataiso e itseng."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Mohlahisi: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Mofuta"
+
+msgid "ビルド"
+msgstr "Aha"
+
+msgid "サポートページ"
+msgstr "Leqephe la tšehetso"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "E bapaliloe ke Mofumahatsana Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Kopo ea tšehetso"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Re a leboha ka ho sebedisa Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ntshetsopele le tlhokomelo ya plugin ena e hloka nako le matsapa a mangata, mme e le hore re fumane tjhelete ya ho tswela pele ho e ntlafatsa le ho e ntjhafatsa, re ka thabela ha mang kapa mang ya ka kgonang ho re tshehetsa a ka nahanela ho fana ka monehelo."
+
+msgid "寄付について"
+msgstr "Mabapi le menehelo"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Menehelo ke ya boithaopo feela, ha e qobellehe. Plugin ena e fumaneha ho bohle mahala. Leha ho le jwalo, re ananela tshehetso ya lona haholo ho re thusa ho tswela pele ka ntshetsopele, mme re ka thaba haholo ha o ka fana ka monehelo, leha o le monnyane."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "U ka etsa monehelo ka sehokelo se ka tlase. Haeba u le Japane, u ka fana ka monehelo ntle le tefo, hape u ka fana habonolo ka li-voucher tsa limpho tsa Amazon."
+
+msgid "寄付先"
+msgstr "Mekhatlo ea liphallelo"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Ka tšehetso ea lona, re tla etsa sohle se matleng a rona ho tsoela pele ho le tlisetsa lintlafatso tse babatsehang!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Re leboha tšehetso ea lona 'me re lebeletse ho tsoela pele ho tšehetsoa ke lona nakong e tlang."
+
+msgid "ライセンス"
+msgstr "Laesense"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Plugin ena e entsoe e le software e pheluoeng ka bolokolohi, 'me e na le laesense tlas'a GPL v2.0 kapa e ncha ho feta moo."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Theknoloji tse ling tse kenyellelitsoeng ho plugin ena li sirelelitsoe ke li-patent."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Tšebeliso ea theknoloji e nang le laesense e lumelletsoe feela ka har'a plug-in ena."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Bakeng sa tšebeliso efe kapa efe e 'ngoe, ka kopo ikopanye le mongoli ho fumana laesense ea khoebo."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Plugin ena e kenyeletsa lilaebrari tse latelang"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Plugin ena e kenyeletsa lifonto tsa bonono ba ASCII tse hlahisitsoeng ka tlase, hammoho le lifaele tsa lifonto."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugin ena e kenyeletsa 'mino o tsoang papaling e seng ea semmuso ea Super Famicom 'SM Trainer Hitomi 3', e entsoeng ke EJ Co., Ltd. le ho qapeloa ke moqapi oa plugin ena, 'me e na le laesense ea semmuso."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugin ena e kenyeletsa melodi e entsweng ka 'Keppy's YAMAHA C7', e ntshitsweng ke Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Ke boetse ke sebelisitse Raspberry Pi 5, ChatGPT le DeepL nts'etsopele ea plugin ena."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Ho fumanoe plugin ea caching. Plugin ena e ke ke ea sebetsa hantle haeba plugin ea caching e kentsoe tšebetsong."
+
+msgid "無効なIPアドレス"
+msgstr "Aterese ea IP e fosahetseng"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ho sebedisa websaete ena, o tlameha ho nolofatsa di-cookie le JavaScript."
+
+msgid "利用規約"
+msgstr "Melao ea Tšebeliso"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ho thibela tšebeliso e sa lumelloang le ho netefatsa ts'ebetso e sireletsehileng ea litšebeletso tsa rona, sebaka sena sa marang-rang se ka boloka tlhahisoleseling e kang liaterese tsa IP, nalane ea ho sheba le lirekoto tsa mesebetsi ho li-cookie le li-database. Tlhahisoleseling ena e sebelisoa feela bakeng sa ts'ebetso ea sebaka sa marang-rang le merero e molaong, 'me e ke ke ea senoloa ho batho ba boraro."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ho sebelisa tshebeletso ena, o tlameha ho dumela mesebetsing ena ya tshebetso."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "U ka sheba diteng tsa Leano la Lekunutu ho sa natswe hore na o fane ka tumello ya hao kapa tjhe."
+
+msgid "同意する"
+msgstr "Ke a dumela"
+
+msgid "同意しない"
+msgstr "Ha ke dumellane"
+
+msgid "確認"
+msgstr "Tiisetso"
+
+msgid "プライバシーポリシー"
+msgstr "Leano la Lekunutu"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Ho lemohilwe phihlello kapa ketso e sa tlwaelehang."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Dikarolo tse itseng di thibetswe ka sepheo sa tshireletso le tshireletso ya dikahare."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mokgwa wa ho lokisa diphoso le phihlello ya khonsolo di thibetswe"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Tlhahisoleseding e latelang e rometswe ho seva."
+
+msgid "あなたのIPアドレス"
+msgstr "Aterese ea hau ea IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Sesebediswa sa hao le sebatli sa hao"
+
+msgid "あなたの押下したキー"
+msgstr "Senotlolo seo u se tobetseng"
+
+msgid "リダイレクトをします"
+msgstr "U tla fetisetsoa"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Likarolo tse itseng li thibetsoe ho sireletsa litaba."
+
+msgid "右クリックは禁止されています"
+msgstr "Ho tobetsa ka ho le letona ha ho dumellwe"
+
+msgid "あなたが押下したキー"
+msgstr "Senotlolo seo u se tobetseng"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Ho hatisa le ho boloka e le PDF ho thibetsoe."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Ho nka ditshwantsho tsa skrine ho thibetsoe."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ho nka ditshwantsho tsa skrine le ho kenya tshebetsong mokgwa wa debug ho thibetsoe."
+
+msgid "ページの保存は禁止されています"
+msgstr "Ho boloka leqephe lena ho thibetsoe."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Ho kopitsa le ho seha ho thibetsoe."
+
+msgid "あなたが起こしたイベント"
+msgstr "Liketsahalo tseo u li hlophisitseng"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ha ho dumellwe ho kgetha mongolo."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Ho thibetsoe ho bonts'a khoutu ea mohloli ea HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ho kena ntle le tumello hoa thibeloa."
+
+msgid "アフリカーンス語"
+msgstr "Seaforikana"
+
+msgid "アラゴン語"
+msgstr "Aragonese"
+
+msgid "アラビア語"
+msgstr "Searabia"
+
+msgid "アッサム語"
+msgstr "Aseamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Ho nyatsa"
+
+msgid "ベラルーシ語"
+msgstr "Belaorusiana"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgaria"
+
+msgid "ボスニア語"
+msgstr "Bo-Bosnia"
+
+msgid "カタロニア語"
+msgstr "Katalana"
+
+msgid "チェコ語"
+msgstr "Se-Czech"
+
+msgid "ウェールズ語"
+msgstr "Se-Welsh"
+
+msgid "デンマーク語"
+msgstr "Sadanish"
+
+msgid "ドイツ語"
+msgstr "Sejeremane"
+
+msgid "現代ギリシア語"
+msgstr "Seerika sa sejwalejwale"
+
+msgid "英語"
+msgstr "Senyesemane"
+
+msgid "イギリス英語"
+msgstr "Bofeshemane"
+
+msgid "アメリカ英語"
+msgstr "Senyesemane sa Amerika"
+
+msgid "エスペラント語"
+msgstr "Sefika"
+
+msgid "スペイン語"
+msgstr "Sepanishe"
+
+msgid "エストニア語"
+msgstr "Moestonia"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Perse"
+
+msgid "フィンランド語"
+msgstr "Finnishe"
+
+msgid "フランス語"
+msgstr "Sefora"
+
+msgid "アイルランド語"
+msgstr "Mo-Irelande"
+
+msgid "ガリシア語"
+msgstr "Gaeliki"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Guajirathi"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Seheberu"
+
+msgid "ヒンディ語"
+msgstr "Se-Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroate"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kereole ya Haiti"
+
+msgid "ハンガリー語"
+msgstr "Se-Hungary"
+
+msgid "インドネシア語"
+msgstr "Indoneshua"
+
+msgid "イボ語"
+msgstr "Puo ea Ibo"
+
+msgid "アイスランド語"
+msgstr "Aislande"
+
+msgid "イタリア語"
+msgstr "Setaliana"
+
+msgid "日本語"
+msgstr "Sejapane"
+
+msgid "ジャワ語"
+msgstr "Sajawane"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Korea"
+
+msgid "クルド語"
+msgstr "Kurdish"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Leleme la Selatine"
+
+msgid "ルクセンブルク語"
+msgstr "Luxembourga"
+
+msgid "リンガラ語"
+msgstr "Lingi"
+
+msgid "リトアニア語"
+msgstr "Lithuania"
+
+msgid "ラトビア語"
+msgstr "Laetvia"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Masedonea"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongoloa"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Malta"
+
+msgid "ビルマ語"
+msgstr "Burmese"
+
+msgid "ネパール語"
+msgstr "Se-Nepali"
+
+msgid "ノルウェー語"
+msgstr "Se-Norway"
+
+msgid "オランダ語"
+msgstr "Se-Dutch"
+
+msgid "オック語"
+msgstr "Occitan"
+
+msgid "オロモ語"
+msgstr "Kamoo"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Ho benya"
+
+msgid "パシュトー語"
+msgstr "Pase"
+
+msgid "ポルトガリア語"
+msgstr "Putukezi"
+
+msgid "ブラジルポルトガル語"
+msgstr "Sepotokisi sa Brazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Sepotokisi sa Europe"
+
+msgid "ケチュア語"
+msgstr "Puo ea Quechua"
+
+msgid "ルーマニア語"
+msgstr "Seromania"
+
+msgid "ロシア語"
+msgstr "Serussia"
+
+msgid "サンスクリット語"
+msgstr "Senyesemane sa khale"
+
+msgid "スロバキア語"
+msgstr "Slovaiki"
+
+msgid "スロベニア語"
+msgstr "Slovenia"
+
+msgid "セルビア語"
+msgstr "Serbe"
+
+msgid "南セソト語"
+msgstr "Boroa ba Sesotho"
+
+msgid "スンダ語"
+msgstr "Setšehunji"
+
+msgid "スウェーデン語"
+msgstr "Se-Sweden"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Setelugu"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Thai"
+
+msgid "トルクメン語"
+msgstr "Moturkey"
+
+msgid "タガログ語"
+msgstr "Se-Tagalog"
+
+msgid "トルコ語"
+msgstr "Terekhe"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Seukraine"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbeiki"
+
+msgid "ベトナム語"
+msgstr "Mavietiname"
+
+msgid "コサ語"
+msgstr "Phoso"
+
+msgid "イディッシュ語"
+msgstr "Se-Yiddish"
+
+msgid "簡体中国語"
+msgstr "Sets'e-China se nolofalitsoeng"
+
+msgid "繁体中国語"
+msgstr "Sets'oants'o sa Tšaina sa setso"
+
+msgid "ズールー語"
+msgstr "Setulusi"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Sebatli seo u se sebelisang hona joale ke mofuta oa khale o seng o sa tšehetsoe. Ho netefatsa boiphihlelo ba ho batla bo bolokehileng le bo phutholohileng haholoanyane, ka kopo ntlafatsa ho mofuta oa morao-rao oa sebatli sa hau."
+
+msgid "不正なリクエストです"
+msgstr "Kopo e fosahetseng"
+
+msgid "画像が見つかりません"
+msgstr "Setshwantsho ha se a fumanwa"
+

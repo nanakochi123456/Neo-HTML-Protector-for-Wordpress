@@ -1,0 +1,1292 @@
+# Igbo translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 04:28+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Igbo\n"
+"Language: ig\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Ntọala"
+
+msgid "IPログリーダー"
+msgstr "Onye na-agụ ndekọ IP"
+
+msgid "IPアドレスログ"
+msgstr "Ndekọ adreesị IP"
+
+msgid "全クリア"
+msgstr "Meechaa ọkwa niile"
+
+msgid "IPログが全て削除されました"
+msgstr "E hichapụla ndekọ IP niile."
+
+msgid "ID"
+msgstr "Nọmba njirimara"
+
+msgid "タイムスタンプ"
+msgstr "Akara oge"
+
+msgid "IPアドレス"
+msgstr "Adreesị IP"
+
+msgid "ユーザーエージェント"
+msgstr "Onye nnọchi anya onye ọrụ"
+
+msgid "イベント"
+msgstr "Ihe omume"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Enweghị data maka adreesị IP a."
+
+msgid "EU GDPR対応"
+msgstr "Ịgbaso EU GDPR"
+
+msgid "無効"
+msgstr "Ezighi ezi"
+
+msgid "有効"
+msgstr "Ziri ezi"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Ọ bụrụ na ị na-eji WordPress n'ime EU, ma ọ bụ ma weebụsaịtị gị na-elekwasị anya na ndị ọrụ n'ime EU, biko hụ na a kwadoro nke a."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bọtịnụ 'Nkwenye' ga-agbanwe bụrụ 'Nkwenye' ma ọ bụ 'Mgbagha', na omume ga-agbanwe ntakịrị."
+
+msgid "同意画面の色"
+msgstr "Agba nke ihuenyo nkwenye"
+
+msgid "自動"
+msgstr "Na-akpaghị aka"
+
+msgid "ライトモード"
+msgstr "Ụdị ìhè"
+
+msgid "ダークモード"
+msgstr "Ụdị Ọchịchịrị"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Tọọ usoro agba maka ihuenyo nkwenye"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Ịkụda ọdịnaya na ihuenyo nkwenye"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Tọọ ọkwa igbu anya maka ọdịnaya e gosipụtara na ihuenyo nkwenye"
+
+msgid "同意画面の透過"
+msgstr "Ihe doro anya nke ihuenyo nkwenye"
+
+msgid "透過なし"
+msgstr "Enweghị ìhè doro anya"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Tọọ ịdị doro anya nke ihuenyo nkwenye"
+
+msgid "お知らせの1行目"
+msgstr "Ahịrị mbụ nke nkwupụta"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "A na-egosi ozi a mgbe niile n'oge mbụ e bulitere ibe ahụ."
+
+msgid "お知らせの2行目"
+msgstr "Ahịrị nke abụọ nke ọkwa ahụ"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ozi a ga-apụta mgbe niile na ngosipụta mbụ naanị mgbe EU GDPR dị n'ọrụ."
+
+msgid "お知らせの3行目"
+msgstr "Ahịrị nke atọ nke ọkwa ahụ"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ọ ga-apụta n'aka nri nke njikọ na Usoro Nzuzo."
+
+msgid "非EU向け確認の文字列"
+msgstr "Ozi nkwenye maka mba ndị na-abụghị EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Ozi ederede nkwenye maka EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Ozi maka 'Ekwela ikwe' n'okpuru EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Nkwupụta nzuzo"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Biko tọọ URL maka iwu nzuzo ebe a."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Biko tinye ihe ndị a na Atụmatụ Nzuzo."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Iji chọpụta omume aghụghọ, a na-echekwa njirimara dịka adreesị IP na kuki na nchekwa data. A na-ehichapụ data echekwara ahụ dịka onye nchịkwa si kpebie."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Iji hụ na a na-ebuga onyonyo n'ụzọ ziri ezi naanị mgbe nchebe onyonyo kwụrụ, anyị na-echekwa data e kpara hash nke gụnyere adreesị IP na aha faịlụ onyonyo na nchekwa data ruo nkeji iri isii."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ọ bụrụ na ị na-etolite Ụkpụrụ Ojiji, biko jide n'aka na ị tinye njikọ na ha na Atụmatụ Nzuzo gị."
+
+msgid "利用規約の文字列"
+msgstr "Ozi gbasara Ụkpụrụ Ojiji"
+
+msgid "利用規約のページ"
+msgstr "Peji nke Okwu na Ọnọdụ"
+
+msgid "ページ選択なし"
+msgstr "Enweghị ibe ahọpụtara"
+
+msgid "検索エンジン等のURL"
+msgstr "URLs maka igwe nchọta, wdg."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Tọọ URL maka igwe nchọta na saịtị yiri ya nke na-eziga ndị ọrụ n'ebe ọzọ mgbe a naghị enye nkwenye"
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Ụdị ndozi njehie, ozi ịdọ aka ná ntị na kọnsọl"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Mesaa ozi ịdọ aka ná ntị site na ịpị aka nri"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Ozi ịdọ aka ná ntị gbasara ibipụta na ịchekwa dị ka PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Ozi ịdọ aka ná ntị dị na onyonyo ihuenyo"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Ozi ịdọ aka ná ntị gbasara ihe onyonyo ihuenyo a na-enyo enyo"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Ozi ịdọ aka ná ntị mgbe ahọpụtara ederede niile"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Ozi ịdọ aka ná ntị gbasara ịchekwa ibe"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Ozi a na-egosi mgbe ị na-detuo ma ọ bụ ị na-ehichapụ"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Ozi ga-egosi mgbe a na-ele isi mmalite HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Ozi ga-egosi n'elu koodu isi mgbe a na-eme ka HTML sie ike ma ọ bụ na-echebe ya"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Ozi ga-egosi ma ọ bụrụ na token nnwale otu ugboro adịghị irè n'oge nchebe HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Ozi ga-egosi ma ọ bụrụ na a gbanyụrụ kuki ma ọ bụ JavaScript"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "N'eziokwu, a na-egosipụta nke a naanị mgbe e gbanyụrụ JavaScript."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Mgbe echekwara onyonyo, a na-ebudata ya ma egosipụta ozi n'elu ya"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ịkpụchi koodu HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Nke a bụ nkwụnye nrụgharị HTML ọkọlọtọ; e nwekwara weebụsaịtị ndị nwere ike ịtụgharị ya."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ịgbatị nhọrọ a na-enye gị ohere iweta ndekọ view-source."
+
+msgid "HTML保護"
+msgstr "Nchebe HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ọ na-emepụta naanị HTML kacha nta—ọbụna obere karịa mgbe eji nkwụnye HTML—ma ọ naghị ebipụta ọdịnaya dị n'ime tag BODY n'ụzọ ọ bụla."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Nke a adịghị metụta Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Nke a nwere mmetụta dị ukwuu na SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Ịmepụta HTML site na JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Iji gbanwee ụzọ ọrụ Firefox, anyị na-emepụta HTML site na JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Ịkwado igosipụta JavaScript ga-eme ka ọsọ ibu weebụsaịtị belata nke ukwuu."
+
+msgid "画像の保護"
+msgstr "Nchebe onyonyo"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Chebe onyonyo oge niile a na-akpọ tag img."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Chebe ihe onyonyo niile e bulitere na WordPress n'ime mmepụta HTML niile."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Na-echebe onyonyo ka a ghara ibudata ha"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Mgbe a na-echekwa data onyonyo, anyị na-egbochi ihe fọrọ nke nta ka ọ bụrụ nbudata niile, na-enye URLs pụrụ iche maka otu oge, na-eme nnwale njirimara site na tokens echekwara na session, ma na-egosipụta onyonyo site na PHP; nke a na-egbochi ihe fọrọ nke nta ka ọ bụrụ izu ohi onyonyo niile."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Mgbe echekwara data onyonyo, nchekwa cache anaghị arụ ọrụ, nke pụtara na saịtị ahụ ga-ebudata nwayọ nwayọ mgbe a laghachiri ya ọzọ, si otú a na-emetụta SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ịchekwa data onyonyo nwere ike ime ka ibu ọrụ na nchekwa data bawanye."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Ọ bụrụ na ị họrọ 'Chebe onyonyo mgbe niile mgbe a na-akpọ tag img', sistemụ ahụ na-eji add_filter mee nzacha mgbe a na-emepụta tag img; otú ọ dị, nke a nwere ike ọ gaghị arụ ọrụ nke ọma na ụfọdụ isiokwu."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Ọ bụrụ na ị họrọ 'Chebe onyonyo niile e bulitere na WordPress n'ime mmepụta HTML niile', mgbakwunye ahụ ga-ejide ihe fọrọ nke nta ka ọ bụrụ ọrụ niile nke WordPress ma rụọ ọrụ na tag img ọ bụla dị n'ime ọdịnaya. Biko mara na nke a nwere ike ọ gaghị arụ ọrụ nke ọma na ụfọdụ isiokwu."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Biko mara na onyonyo ndị a họpụtara dị ka onyonyo pụrụ iche ga-ekerịta dị ka data OGP ma enweghị ike ichebe ha. Ọ bụrụ na ị ga-echebe ha n'ezie, biko gbanwee ntọala maka mmepụta tag HEAD na ntọala ndị ọkachamara mgbe ị na-enye nchebe HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "A pụghị ichebe ọrụ ịse ihe ngosi ihuenyo etinyere na sistemụ arụmọrụ."
+
+msgid "画像URLの保護"
+msgstr "Ịchebe URLs onyonyo"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "A ga-eji nke a na nchebe onyonyo; n'onwe ya, ọ n'enweghị uru ọ bụla."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "N'ihi na e buru ya site na JavaScript, nke a na-emetụta SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Akara mmiri onyonyo"
+
+msgid "右下"
+msgstr "N'okpuru aka nri"
+
+msgid "ランダム位置"
+msgstr "Ọnọdụ ọ bụla"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "A na-eji ya na nchebe onyonyo; akara mmiri na-agbanwe agbanwe na-egosi n'ụzọ doro anya onye nwe ikike edemede, ma na-enye ndị na-ekiri mmetụta na a na-enyocha ha, si otú a na-arụ ọrụ dị ka ihe na-egbochi mmebi."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "A na-akwado naanị usoro JPG, PNG na WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Ịgbatị nke a ga-abawanye ibu ọrụ na sava."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ịmepụta nka ASCII site na koodu isi HTML n'oge mgbagwoju anya na nchebe"
+
+msgid "表示なし"
+msgstr "Enweghị ngosipụta"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Na-egosi nka ASCII nke na-egosi ịdọ aka ná ntị mgbe ị na-ele isi mmalite HTML site na iji 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Gosi imewe mgbe e mere omume a na-atụ anya"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Nhazi dị mfe nke na-egosipụta ederede ojii n'azụ odo"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Imewe ụdị egwu nke na-egosipụta ederede uhie n'azụ ojii"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Nhazi nke na-egosipụta ederede uhie na-enwu na ndabere ojii"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Egwu ndabere na-egwu mgbe e mere omume a na-achọ"
+
+msgid "サウンドなし"
+msgstr "Enweghị ụda"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Agha na Mmeri - nkeji 1 na sekọnd 16.3 - 630,056 baiti - 64 kbps - Ikike: CC 2.1 ma ọ bụ nke ka ọhụrụ"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - sekọnd 3.8 - 32,364 baiti - 64 kbps - Ikike: GPL 2.0 ma ọ bụ mgbe e mesịrị"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - sekọnd 23.5 - 195,578 baiti - 64 kbps - Ikike: GPL 2.0 ma ọ bụ mgbe e mesịrị"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – nsụgharị e kere site na kọmputa, ọsọ dị elu – nkeji 1, sekọnd 57.6 – 724,457 baitị – 48 kbps – Ikike: CC BY-ND 4.0 ma ọ bụ nke ka ọhụrụ"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo na B flat minor, Op. 2 – nsụgharị e kere site na kọmputa, nsụgharị mkpụmkpụ ọsọ ọsọ – nkeji 1, sekọnd 48.0 – 665,369 baitị – 48 kbps – Ikike: CC BY-ND 4.0 ma ọ bụ mgbe e mesịrị"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Ndepụta: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – sekọnd 22.3 – bait 183,926 – 64 kbps – Ikike: N'ọha"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Mmemme ụdị ochie – sekọnd 2.2 – bayt 10,536 – 32 kbps – Ikikere: N'ọha mmadụ"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Mmalite n'ụdị retro – sekọnd 42.1 – bait 179,138 – 32 kbps – Ikike: Public Domain"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Nkwupụta ịdọ aka ná ntị site na ChatGPT - sekọnd 3.8 - bait 109,700 - 256 kbps - Ikikere: N'ọha"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ụda dị oke mkpa dị ka ịdọ aka ná ntị maka nchọpụta malware – Akụkụ 1 site na ChatGPT – sekọnd 3.3 – bait 102,850 – 256 kbps – Ikikere: N'ọha"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ụda dị oke mkpa dị ka ịdọ aka ná ntị maka nchọpụta malware, Akụkụ nke 2 site na ChatGPT - sekọnd 3.3 - bait 103,122 - 256 kbps - Ikike: N'ọha mmadụ"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Ụda ụdị MRI site na ChatGPT – nkeji 1, sekọnd 14.9 – 3,340,392 baitị – 320 kbps – Ikike: N'ọha"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Họrọ egwu ndabere ga-egwu n'oge ịdọ aka ná ntị."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ọ na-emepụta ikuku ijuanya."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "E gbochiri ụda na Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Ịkwa ụda mgbe emechara ihe a kpọrọ"
+
+msgid "有効 音量小さ目"
+msgstr "Mee ya, olu dị ala"
+
+msgid "有効 音量大き目"
+msgstr "Na-arụ ọrụ, olu tọrọ na elu"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "A ga-anụ ụda beep maka mmegharị niile nke igodo na òké, mgbe a na-egosi ịdọ aka ná ntị."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Ọ na-emepụta mmetụta na ngwaọrụ ahụ agbajiri agbaji mgbe a na-egosi ịdọ aka ná ntị."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Ịzoro akara òké mgbe e mere omume pụrụ iche"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Zoro akara ngosi òké na mpaghara nchọgharị mgbe a na-egosi ịdọ aka ná ntị"
+
+msgid "デバッグモード"
+msgstr "Ụdị ndozi njehie"
+
+msgid "妨害＋記録のみ"
+msgstr "Mmegbu + ndekọ naanị"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Mmegbu + Idekọ + Ngosipụta + Iduzi ọzọ"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ị ka nwere ike ịnweta ya site na menu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Ụdị nchọpụta njehie na Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Kọsọl nchọgharị"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "N'eziokwu, ị nwere ike iji ya site na ọnọdụ nchọpụta njehie."
+
+msgid "HTMLソース表示"
+msgstr "Lee isi mmalite HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ị nwere ike ime ọrụ ahụ n'ụzọ dị mfe site n'itinye URL nke na-amalite na 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Ị nwere ike ichebe ọdịnaya gị site n'ịjikọta nke a na nchebe HTML."
+
+msgid "印刷"
+msgstr "Bipụta"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ọ bụ ezie na ọ na-egbochi mbipụta, o nwere ike ọ gaghị arụ ọrụ nke ọma na ụfọdụ nchọgharị."
+
+msgid "スクリーンショット"
+msgstr "Foto ihuenyo"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Dabere na sistemụ arụmọrụ, ihe nchọgharị ma ọ bụ usoro eji, o nwere ike ọ gaghị ekwe omume igbochi nke a, ma ọ bụ a pụghị ịchọpụta ya."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Echere na nke a bụ onyonyo ihuenyo mgbe windo ahụ kwagara n'azụ"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Ọ na-aza kwa ọrụ ndị ọzọ karịa ịse foto ihuenyo"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Echere na e were foto ihuenyo site n'ịpị bọtịnụ abụọ."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Ụzọ nchọpụta ihe ndị a kwuru n'elu adịghị ezigbo ntụkwasị obi; a na-eme nchọpụta dịka usoro nchedo."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ọ na-achọpụta ọ bụghị naanị ihe onyonyo ihuenyo kamakwa ụdị debug na ihe ndị yiri ya."
+
+msgid "ページ保存"
+msgstr "Chekwaa ibe"
+
+msgid "右クリック"
+msgstr "Pịa aka nri"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ọ bụrụ na etinyere mgbakwunye ahụ, ị ga-enwe ike iji ya."
+
+msgid "コピー・カット"
+msgstr "Detuo ma bee"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Dabere na ntọala nke mgbakwunye a, ị nwere ike na-ahụ ihe a naanị mgbe ụfọdụ."
+
+msgid "テキスト全選択"
+msgstr "Họrọ ederede niile"
+
+msgid "テキスト選択"
+msgstr "Họrọ ederede"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Ndekọ mmalite debugger, ntinye aka debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Nke a na-eme ka ọnọdụ nchọpụta njehie ghara ịdị mfe iji ma na-edekọ na e malitere debugger; otú ọ dị, ụfọdụ nchọgharị weebụ nwere ike igbochi omume a."
+
+msgid "リダイレクトするURL"
+msgstr "Tụgharịa URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Ọ ga-adị mma ịtụgharị ndị ọrụ gaa na ibe dịka Nkọwa Ọrụ."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Ọ bụrụ na e hapụ ya efu, ọ ga-ebugharị na URL mbụ."
+
+msgid "リダイレクトまでの時間"
+msgstr "Oge ruo ntụgharị"
+
+msgid "リダイレクトなし"
+msgstr "Enweghị ntụgharị"
+
+msgid "1秒"
+msgstr "Otu sekọnd"
+
+msgid "2秒"
+msgstr "Sekọnd abụọ"
+
+msgid "3秒"
+msgstr "Sekọnd atọ"
+
+msgid "4秒"
+msgstr "Sekọnd anọ"
+
+msgid "5秒"
+msgstr "Sekọnd ise"
+
+msgid "6秒"
+msgstr "Isekọnd isii"
+
+msgid "7秒"
+msgstr "Sekọnd asaa"
+
+msgid "8秒"
+msgstr "Sekọnd asatọ"
+
+msgid "9秒"
+msgstr "Sekọnd itoolu"
+
+msgid "10秒"
+msgstr "Sekọnd iri"
+
+msgid "15秒"
+msgstr "Sekọnd iri na ise"
+
+msgid "20秒"
+msgstr "Sekọnd iri abụọ"
+
+msgid "25秒"
+msgstr "Sekọnd iri abụọ na ise"
+
+msgid "30秒"
+msgstr "Sekọnd iri atọ"
+
+msgid "35秒"
+msgstr "Sekọnd iri atọ na ise"
+
+msgid "40秒"
+msgstr "Isekọnd iri anọ"
+
+msgid "45秒"
+msgstr "Sekọnd iri anọ na ise"
+
+msgid "50秒"
+msgstr "Sekọnd iri ise"
+
+msgid "55秒"
+msgstr "Sekọnd iri ise na ise"
+
+msgid "1分"
+msgstr "Otu nkeji"
+
+msgid "1分10秒"
+msgstr "Otu nkeji na sekọnd iri"
+
+msgid "1分20秒"
+msgstr "Otu nkeji na sekọnd iri abụọ"
+
+msgid "1分30秒"
+msgstr "Otu nkeji na sekọnd iri atọ"
+
+msgid "1分40秒"
+msgstr "Otu nkeji na sekọnd iri anọ"
+
+msgid "1分50秒"
+msgstr "Otu nkeji na sekọnd iri ise"
+
+msgid "2分"
+msgstr "Mịnịsị abụọ"
+
+msgid "ソース表示を許可する権限"
+msgstr "Ikike ile koodu isi"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Mmepụta nkịtị ga-apụta naanị mgbe ị banye dị ka ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Mmepụta nkịtị site na isi iyi mgbe ị banye dị ka USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Họrọ ma a ga-eme ka mmepụta HTML ọkọlọtọ bụrụ naanị maka ndị nchịkwa ma ọ bụ na ọ ga-achọ ka onye ọrụ banye."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Ịkpọrọ onyonyo ka ọ budata na ihe e budatara n'eziokwu"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Onyonyo doro anya nke 1×1 piksel n'ụdị GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Onyonyo doro anya nke nwere otu piksel na otu piksel n'ụdị PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ihu ngosi ịdọ aka ná ntị nwere ndabere odo n'ụdị PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Akwụkwọ HTML na-enweghị isi"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Mmepụta nke tag HEAD mgbe HTML dị nchebe"
+
+msgid "出力しない"
+msgstr "Ekwela bipụta"
+
+msgid "TITLEタグのみ"
+msgstr "Naanị tag aha"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "E wepụtara ya na tag HEAD nke WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Maka ibe ndị òtù naanị eji maka azụmahịa na ibe ime ụlọ, ịhọrọ 'Egbula mmepụta' ma ọ bụ 'Naanị tag aha' ga-ezuru."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Ma ọ bụrụ na ị naghị ewepụta ozi ahụ site na tag HEAD nke WordPress, onyonyo OGP agaghị apụta mgbe ị na-ekekọrịta ya na mgbasa ozi mmekọrịta."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Gbochie bot onyonyo"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Site n'ịkwụsị ka bots onyonyo nweta HTML, ị nwere ike ichebe ọdịnaya nke enweghị ike ichebe megide njikọ ozugbo site na ọchụchọ onyonyo; otú ọ dị, nke a abụghị ngwọta zuru oke."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Gbochie nnweta bot ọzụzụ AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Site n'izere iji bots e mepụtara maka ọzụzụ AI na HTML, anyị na-eme ka ọdịnaya ghara ịbụ nke AI jiri; otú ọ dị, a pụghị igbochi nke a kpamkpam."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Gbochie nnweta nchekwa weebụ na foto weebụ"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Anyị machibidoro ịnweta nchekwa weebụ a na-anakọta akpaghị aka na ihe onyonyo ihuenyo onye ọrụ kpebiri ịwere; otú ọ dị, anyị enweghị ike igbochi nke a kpamkpam."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Gbochie ndị nnọchiteanya onye ọrụ na-ezighi ezi"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Na-egbochi nnweta ma ọ bụrụ na eriri aha onye nnọchite anya onye ọrụ nwere mkpụrụedemede na-ezighi ezi"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Gosi oku-aja mgbe ị na-abanye na Internet Explorer na Microsoft Edge ochie"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Na-egbochi nnweta site na Internet Explorer na Microsoft Edge ochie"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Asụsụ eji egosipụta ozi ịdọ aka ná ntị"
+
+msgid "Wordpressの言語"
+msgstr "Asụsụ WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Ntọala asụsụ nchọgharị"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ị gaghị enwe ike ịgbanwe asụsụ ma ọ bụrụ na e haziri ozi ndị ahụ."
+
+msgid "同意画面の言語"
+msgstr "Asụsụ nke ihuenyo nkwenye"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Asụsụ eji igosi ozi 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Ụbọchị ngwụcha nke mkpụrụokwu oge"
+
+msgid "3分"
+msgstr "Minit atọ"
+
+msgid "4分"
+msgstr "Minu anọ"
+
+msgid "5分"
+msgstr "Minu ise"
+
+msgid "6分"
+msgstr "Minu isii"
+
+msgid "7分"
+msgstr "Nje asaa"
+
+msgid "8分"
+msgstr "Asatọ nkeji"
+
+msgid "9分"
+msgstr "Minu itoolu"
+
+msgid "10分"
+msgstr "Iri nkeji"
+
+msgid "15分"
+msgstr "Nkeji iri na ise"
+
+msgid "20分"
+msgstr "Mịnị iri abụọ"
+
+msgid "25分"
+msgstr "Mịnị iri abụọ na ise"
+
+msgid "30分"
+msgstr "Minu iri atọ"
+
+msgid "35分"
+msgstr "Nkeji iri atọ na ise"
+
+msgid "40分"
+msgstr "Mịnịt iri anọ"
+
+msgid "45分"
+msgstr "Minu iri anọ na ise"
+
+msgid "50分"
+msgstr "Mịnịsị iri ise"
+
+msgid "55分"
+msgstr "Nkeji iri ise na ise"
+
+msgid "1時間"
+msgstr "Otu awa"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Tọọ ụbọchị njedebe maka ozi URL onyonyo"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Ozugbo e buru ibu, URL onyonyo na token oge obere ga-akwụsị ịdị irè."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "A na-ebunye onyonyo mgbe achọrọ, ma a ga-ebunye ha akpaghị aka sekọnd iri atọ tupu oge akọwapụtara."
+
+msgid "一時使用トークンのビット数"
+msgstr "Ọnụọgụ bits dị na token nwa oge"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "A na-eji token nwa oge dị ka okwuntughe iji kpuchie ozi URL onyonyo; ntọala a na-akọwa ike ya."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Ọ bụ ezie na nhọrọ ndị e gosiri n'okpuru menu mgbada na-aghọwanye nkọwa zuru ezu, nke a nwere ike ibute ibu dị arọ na sava ma mee ka nnukwu oke data HTML na-ebufe."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Usoro algọridim hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "A na-eji token nwa oge dị ka okwuntughe iji kpuchie ozi URL onyonyo; nke a chọrọ hashing, ma ntọala a na-ekpebi ike hashing ahụ."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Ọ bụ ezie na ike na-arịwanye elu ka ị na-aga n'okpuru n'ime ndepụta nhọrọ e gosiri na menu dara ala, nke a na-etinye ibu buru ibu na sava."
+
+msgid "基本設定"
+msgstr "Ntọala ndị bụ isi"
+
+msgid "高度な設定"
+msgstr "Ntọala ndị gbara n'ihu"
+
+msgid "初期設定に戻す"
+msgstr "Weghachite ntọala ndabara"
+
+msgid "デザイン・音の設定"
+msgstr "Nhazi na ntọala ụda"
+
+msgid "イベントの設定"
+msgstr "Ntọala mmemme"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ịtọ ọkwa maka nleta mbụ"
+
+msgid "メッセージの設定"
+msgstr "Ntọala ozi"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Tọọ URL a ga-ebugharịrị na ya mgbe a pịrị aka nri ma ọ bụ mgbe a na-ele koodu isi"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Enweghị ike iji HTML na ozi ịdọ aka ná ntị."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Ọ bụrụ na ị hazie nke a na ihuenyo a, a gaghị ewere ntọala asụsụ dị na taabụ Advanced."
+
+msgid "以下の文字列が使用できます"
+msgstr "Enwere ike iji eriri ndị a"
+
+msgid "改行"
+msgstr "Mkpụchi ahịrị"
+
+msgid "押下されたキー"
+msgstr "Igodo pịrị"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Ntọala Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Cheta"
+
+msgid "メッセージ"
+msgstr "Ozi"
+
+msgid "デザイン・音"
+msgstr "Imewe na ụda"
+
+msgid "初期化"
+msgstr "Mmalite"
+
+msgid "このプラグインについて"
+msgstr "Banyere mgbakwunye a"
+
+msgid "設定が初期化されました"
+msgstr "A tọgharịrị ntọala"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Malite plugin ahụ. Biko mara na a gaghị ehichapụ data IP Log Reader n'oge a."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Banyere Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "A haziri mgbakwunye a iji chebe HTML, onyonyo na ọdịnaya ndị ọzọ e mepụtara na saịtị WordPress gị, na-echebe ya pụọ na ojiji na-enweghị ikike."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Ọ gaghị ekwe omume ichebe ọdịnaya kpamkpam. Otú ọ dị, site n'ịkụziri ịdọ aka ná ntị ebe niile o kwere mee na ime atụmatụ maka ma ọ bụrụ na ihe ọ bụla emee, anyị ga-enwe ike idozi nsogbu ahụ dịka usoro gọọmenti si tụọ."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "N'ezie, ị ga-eme ka okwu gị gbasara ọrụ na ụkpụrụ saịtị gị zuru ezu. Ọ bụ ezie na mgbakwunye a abụghị ngwá ọrụ maka ịmepụta okwu gbasara ọrụ, ọ nwere ike inye nduzi ụfọdụ."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Onye mmepe: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Ụdị"
+
+msgid "ビルド"
+msgstr "Wulite"
+
+msgid "サポートページ"
+msgstr "Nkwado ibe"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Rụrụ site n'aka Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Arịrịọ maka nkwado"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Daalụ maka iji Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Mmepe na nlekọta nke mgbakwunye a achọrọ ọtụtụ oge na mgbalị, ma iji nweta ego maka imeziwanye na imelite ya, anyị ga-enwe ekele ma ọ bụrụ na onye ọ bụla nwere ike ịkwado anyị tụlee inye onyinye."
+
+msgid "寄付について"
+msgstr "Banyere onyinye"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Inye onyinye bụ nke onwe onye kpebiri, ọ bụghị ihe a na-eme n'ike. Ngwa mgbakwunye a dị onye ọ bụla n'efu. Otú ọ dị, a na-enwe nnukwu ekele maka nkwado gị iji nyere anyị aka ịga n'ihu na mmepe, ma anyị ga-enwe obi ụtọ ma ọ bụrụ na ị nwere ike inye ọbụna obere ego."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Ị nwere ike ime onyinye site na njikọ dị n'okpuru. Ọ bụrụ na ị nọ na Japan, ị nwere ike inye onyinye n'efu, ị nwekwara ike inye onyinye n'ụzọ dị mfe site na iji tiketi onyinye Amazon."
+
+msgid "寄付先"
+msgstr "Ụlọ ọrụ ebere"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Site na nkwado gị, anyị ga-agba mbọ kacha ike iji gaa n'ihu na-ewetara gị mmelite magburu onwe ha!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Anyị na-ekele gị maka nkwado gị ma na-atụ anya na ị ga-aga n'ihu na-akwado anyị n'ọdịnihu."
+
+msgid "ライセンス"
+msgstr "Ikike"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "A mepụtara mgbakwunye a dị ka sọftụwia mepere emepe ma e nyere ya ikike n'okpuru GPL v2.0 ma ọ bụ nsụgharị ka e mesịrị."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ụfọdụ n'ime teknụzụ ndị dị na mgbakwunye a echekwara site na patent."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "A na-enye ikike iji teknụzụ e debanyere patent naanị n'ime mgbakwunye a."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Maka ojiji ọ bụla ọzọ, biko kpọtụrụ onye edemede ka ị nweta ikike azụmahịa."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ngwa mgbakwunye a gụnyere ụlọ ọrụ ndị a"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ntinye mgbakwunye a gụnyere ụdị mkpụrụedemede nka ASCII e mepụtara n'okpuru, tinyere faịlụ mkpụrụedemede."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugin a gụnyere egwu sitere na egwuregwu Super Famicom na-abụghị nke gọọmentị kwadoro, 'SM Trainer Hitomi 3', nke EJ Co., Ltd. mepụtara ma onye kere plugin a kpara, ma enwetala ikike gọọmentị."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugin a gụnyere ụda egwu e kere site na 'Keppy's YAMAHA C7', nke Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "E jiri m Raspberry Pi 5, ChatGPT na DeepL mee mmepe mgbakwunye a."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "A chọpụtara mgbakwunye nchekwa. Mgbakwunye a agaghị arụ ọrụ nke ọma ma ọ bụrụ na a kwadoro mgbakwunye nchekwa."
+
+msgid "無効なIPアドレス"
+msgstr "Adreesị IP ezighi ezi"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Iji weebụsaịtị a, ị ga-eme ka kuki na JavaScript rụọ ọrụ."
+
+msgid "利用規約"
+msgstr "Okwu Ojiji"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Iji gbochie ojiji na-enweghị ikike ma hụ na ọrụ anyị na-aga nke ọma n'enweghị nsogbu, weebụsaịtị a nwere ike ịchekwa ozi dịka adreesị IP, akụkọ ihe gụrụ na ndekọ ihe omume na kuki na nchekwa data. A na-eji ozi a naanị maka ọrụ weebụsaịtị na ebumnuche iwu, a gaghịkwa ekekọrịta ya na ndị nke atọ."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Iji ọrụ a, ị ga-enye nkwenye maka ọrụ nhazi ndị a."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Ị nwere ike ile ọdịnaya nke Atụmatụ Nzuzo n'agbanyeghị ma ị nyere nkwenye gị."
+
+msgid "同意する"
+msgstr "Ekwenyere m"
+
+msgid "同意しない"
+msgstr "Anaghị m ekwenye"
+
+msgid "確認"
+msgstr "Nkwenye"
+
+msgid "プライバシーポリシー"
+msgstr "Usoro Nzuzo"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "A chọpụtara nnweta ma ọ bụ ọrụ na-adịghị ahụkebe."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "E gbochiela ụfọdụ atụmatụ maka ebumnuche nchekwa na nchebe ọdịnaya."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "E mechiri ụdị ndozi njehie na nnweta console"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "A zigara ozi ndị a na sava."
+
+msgid "あなたのIPアドレス"
+msgstr "Adreesị IP gị"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Ngwaọrụ gị na ihe nchọgharị gị"
+
+msgid "あなたの押下したキー"
+msgstr "Igodo ị pịrị"
+
+msgid "リダイレクトをします"
+msgstr "A ga-ebugharị gị"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "E mechiri ụfọdụ atụmatụ iji chebe ọdịnaya"
+
+msgid "右クリックは禁止されています"
+msgstr "A naghị ekwe ka e pịa bọtịnụ aka nri."
+
+msgid "あなたが押下したキー"
+msgstr "Igodo ị pịrị"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "A machibidoro ibipụta na ịchekwa dị ka PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "A machibidoro ịse foto ihuenyo."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ị were foto ihuenyo na ịgbanye ọnọdụ nchọpụta njehie machibidoro."
+
+msgid "ページの保存は禁止されています"
+msgstr "A machibidoro ịchekwa peeji a."
+
+msgid "コピー、カットは禁止されています"
+msgstr "A machibidoro ịdetuo na ịkpụ."
+
+msgid "あなたが起こしたイベント"
+msgstr "Ihe omume ị haziri"
+
+msgid "テキストの選択は禁止されています"
+msgstr "A naghị ekwe ka ịhọrọ ederede."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "A machibidoro igosipụta koodu isi HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "A machibidoro nnweta na-enweghị ikike."
+
+msgid "アフリカーンス語"
+msgstr "Afọkansta"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Arabi"
+
+msgid "アッサム語"
+msgstr "Asamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijan"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Onye Belarus"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bụlgaria"
+
+msgid "ボスニア語"
+msgstr "Onye Bosnia"
+
+msgid "カタロニア語"
+msgstr "Katalan"
+
+msgid "チェコ語"
+msgstr "Czech"
+
+msgid "ウェールズ語"
+msgstr "Welsh"
+
+msgid "デンマーク語"
+msgstr "Daniịs"
+
+msgid "ドイツ語"
+msgstr "Jamanị"
+
+msgid "現代ギリシア語"
+msgstr "Grisịk nke oge a"
+
+msgid "英語"
+msgstr "Bekee"
+
+msgid "イギリス英語"
+msgstr "Bekọndịtụ"
+
+msgid "アメリカ英語"
+msgstr "Bekee"
+
+msgid "エスペラント語"
+msgstr "Asụsụ olileanya"
+
+msgid "スペイン語"
+msgstr "Spainịsh"
+
+msgid "エストニア語"
+msgstr "Onye Estonia"
+
+msgid "バスク語"
+msgstr "Bask"
+
+msgid "ペルシャ語"
+msgstr "Persi"
+
+msgid "フィンランド語"
+msgstr "Mgwụcha"
+
+msgid "フランス語"
+msgstr "French"
+
+msgid "アイルランド語"
+msgstr "Onye Ireland"
+
+msgid "ガリシア語"
+msgstr "Galician"
+
+msgid "グァラニ語"
+msgstr "Onye na-echebe"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Ụlọ"
+
+msgid "ヘブライ語"
+msgstr "Hibru"
+
+msgid "ヒンディ語"
+msgstr "Na-ede Hindi"
+
+msgid "クロアチア語"
+msgstr "Krahin"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyòl Ayisyen"
+
+msgid "ハンガリー語"
+msgstr "Onye Hungaria"
+
+msgid "インドネシア語"
+msgstr "Onye Indonesia"
+
+msgid "イボ語"
+msgstr "Asụsụ Ibo"
+
+msgid "アイスランド語"
+msgstr "Icelandic"
+
+msgid "イタリア語"
+msgstr "Onye Itali"
+
+msgid "日本語"
+msgstr "Japani"
+
+msgid "ジャワ語"
+msgstr "Javanese"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Kọrịa"
+
+msgid "クルド語"
+msgstr "Kọdish"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Lọksembọgịsh"
+
+msgid "リンガラ語"
+msgstr "Asụsụ"
+
+msgid "リトアニア語"
+msgstr "Lithuania"
+
+msgid "ラトビア語"
+msgstr "Latvia"
+
+msgid "マダガスカル語"
+msgstr "Onye si Madagascar"
+
+msgid "マオリ語"
+msgstr "Ndị Māori"
+
+msgid "マケドニア語"
+msgstr "Maasedonia"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mọngọlịan"
+
+msgid "マラーティー語"
+msgstr "Maraṭhī"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Onye Malta"
+
+msgid "ビルマ語"
+msgstr "Burmese"
+
+msgid "ネパール語"
+msgstr "Onye Nepal"
+
+msgid "ノルウェー語"
+msgstr "Onye Norweji"
+
+msgid "オランダ語"
+msgstr "Dọchị"
+
+msgid "オック語"
+msgstr "Okitan"
+
+msgid "オロモ語"
+msgstr "Ma ọ bụ"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Mee ka ọ dị ọcha"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugizi"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugalị Brazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugalị Europe"
+
+msgid "ケチュア語"
+msgstr "Kichwa"
+
+msgid "ルーマニア語"
+msgstr "Román"
+
+msgid "ロシア語"
+msgstr "Rọshịa"
+
+msgid "サンスクリット語"
+msgstr "Asụsụ Latin"
+
+msgid "スロバキア語"
+msgstr "Slovakị"
+
+msgid "スロベニア語"
+msgstr "Slovenia"
+
+msgid "セルビア語"
+msgstr "Serbia"
+
+msgid "南セソト語"
+msgstr "Sesotho nke ndịda"
+
+msgid "スンダ語"
+msgstr "Sunda"
+
+msgid "スウェーデン語"
+msgstr "Swidi"
+
+msgid "スワヒリ語"
+msgstr "Swaahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Tịlụgụ"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Tịị"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Asụsụ Tagalog"
+
+msgid "トルコ語"
+msgstr "Turki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Onye Ukraine"
+
+msgid "ウルドゥー語"
+msgstr "Na-asụ Urdu"
+
+msgid "ウズベク語"
+msgstr "Onye Uzbek"
+
+msgid "ベトナム語"
+msgstr "Onye Vietnam"
+
+msgid "コサ語"
+msgstr "Mmejọ"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Chinese dị mfe"
+
+msgid "繁体中国語"
+msgstr "Asụsụ ọdịnala ndị China"
+
+msgid "ズールー語"
+msgstr "Nke a bụ"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Nchọgharị ị na-eji ugbu a bụ mbipute ochie nke a naghịzi akwado. Iji hụ na ị nwere ahụmịhe nchọgharị dị nchebe ma dịkwa mma, biko melite ya ruo mbipute kacha ọhụrụ."
+
+msgid "不正なリクエストです"
+msgstr "Arịrịọ ezighi ezi"
+
+msgid "画像が見つかりません"
+msgstr "E nweghị onyonyo ahụ"
+

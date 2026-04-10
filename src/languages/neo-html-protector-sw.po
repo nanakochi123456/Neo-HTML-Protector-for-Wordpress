@@ -1,0 +1,1292 @@
+# Swahili translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 09:37+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Swahili\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Mipangilio"
+
+msgid "IPログリーダー"
+msgstr "Soma Kumbukumbu za IP"
+
+msgid "IPアドレスログ"
+msgstr "Kumbukumbu ya anwani za IP"
+
+msgid "全クリア"
+msgstr "Kamilisha ngazi zote"
+
+msgid "IPログが全て削除されました"
+msgstr "Kumbukumbu zote za IP zimefutwa"
+
+msgid "ID"
+msgstr "Kitambulisho"
+
+msgid "タイムスタンプ"
+msgstr "Alama ya muda"
+
+msgid "IPアドレス"
+msgstr "Anwani ya IP"
+
+msgid "ユーザーエージェント"
+msgstr "Wakala wa mtumiaji"
+
+msgid "イベント"
+msgstr "Tukio"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Hakuna data kwa anwani hii ya IP."
+
+msgid "EU GDPR対応"
+msgstr "Uzingatiaji wa GDPR ya EU"
+
+msgid "無効"
+msgstr "Si halali"
+
+msgid "有効"
+msgstr "Halali"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Ikiwa unatumia WordPress ndani ya Umoja wa Ulaya, au ikiwa tovuti yako inalenga watumiaji ndani ya Umoja wa Ulaya, tafadhali hakikisha hii imewezeshwa."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Kitufe cha 'Thibitisha' kitabadilika kuwa 'Kubaliana' au 'Kutokubaliana', na tabia yake itabadilika kidogo."
+
+msgid "同意画面の色"
+msgstr "Rangi ya skrini ya idhini"
+
+msgid "自動"
+msgstr "Kiotomatiki"
+
+msgid "ライトモード"
+msgstr "Hali nyepesi"
+
+msgid "ダークモード"
+msgstr "Hali ya Giza"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Weka mpangilio wa rangi kwa skrini ya idhini"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Kufifisha maudhui kwenye skrini ya idhini"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Weka kiwango cha kufifisha maudhui yanayoonekana kwenye skrini ya idhini"
+
+msgid "同意画面の透過"
+msgstr "Uwazi wa skrini ya idhini"
+
+msgid "透過なし"
+msgstr "Hakuna uwazi"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Weka uwazi wa skrini ya idhini"
+
+msgid "お知らせの1行目"
+msgstr "Mstari wa kwanza wa tangazo"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ujumbe huu huonyeshwa kila mara mara ya kwanza ukurasa unapopakiwa."
+
+msgid "お知らせの2行目"
+msgstr "Mstari wa pili wa taarifa"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ujumbe huu utaonekana kila mara kwenye onyesho la kwanza tu wakati GDPR ya EU iko katika nguvu."
+
+msgid "お知らせの3行目"
+msgstr "Mstari wa tatu wa taarifa"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Itatokea upande wa kulia wa kiungo cha Sera ya Faragha."
+
+msgid "非EU向け確認の文字列"
+msgstr "Uthibitisho wa maandishi kwa nchi zisizo za Umoja wa Ulaya"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Maelezo ya idhini kwa GDPR ya EU"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Maandishi ya 'Usiruhusu' chini ya GDPR ya Umoja wa Ulaya"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Maandishi ya sera ya faragha"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Tafadhali weka URL ya sera ya faragha hapa"
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Tafadhali ongeza yafuatayo kwenye sera ya faragha."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ili kugundua shughuli za udanganyifu, vitambulisho kama anwani za IP huhifadhiwa kwenye vidakuzi na hifadhidata. Data iliyohifadhiwa hufutwa kwa hiari ya msimamizi."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ili kuhakikisha picha zinafikishwa kwa usahihi tu wakati ulinzi wa picha umewezeshwa, tunahifadhi data zilizohashwa zinazojumuisha anwani ya IP na jina la faili la picha kwenye hifadhidata kwa hadi dakika 60."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ikiwa unaandaa Masharti ya Matumizi, tafadhali hakikisha unajumuisha kiungo chao katika Sera yako ya Faragha."
+
+msgid "利用規約の文字列"
+msgstr "Nakala ya Masharti ya Matumizi"
+
+msgid "利用規約のページ"
+msgstr "Ukurasa wa Masharti na Vigezo"
+
+msgid "ページ選択なし"
+msgstr "Hakuna ukurasa uliochaguliwa"
+
+msgid "検索エンジン等のURL"
+msgstr "URL za injini za utafutaji, n.k."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Weka URL kwa injini za utafutaji na tovuti zinazofanana zinazowaelekeza watumiaji wanapokosa ridhaa."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Hali ya kurekebisha hitilafu, ujumbe wa onyo kwenye konsole"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Bofya kulia ujumbe wa onyo"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Ujumbe wa tahadhari kuhusu kuchapisha na kuhifadhi kama PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Ujumbe wa onyo kwenye picha ya skrini"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Ujumbe wa onyo kuhusu picha za skrini zinazoshukiwa"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Ujumbe wa onyo wakati maandishi yote yamechaguliwa"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Ujumbe wa onyo kuhusu uhifadhi wa ukurasa"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Ujumbe unaoonyeshwa wakati wa kunakili au kukata"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Ujumbe wa kuonyesha unapotazama chanzo cha HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Ujumbe wa kuonyeshwa juu ya msimbo chanzo unapoficha au kulinda HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Ujumbe wa kuonyesha ikiwa tokeni ya uthibitisho ya mara moja haiko halali wakati wa ulinzi wa HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Ujumbe wa kuonyesha ikiwa vidakuzi au JavaScript zimezimwa"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Kwa kweli, hii huonyeshwa tu wakati JavaScript imezimwa."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Picha inapokuwa imelindwa, hupakuliwa, na ujumbe huonyeshwa juu yake"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ufichuzi wa HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Hii ni ukandamizaji wa kawaida wa HTML; pia kuna tovuti zinazoweza kuifumbua."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Kuwasha chaguo hili kunakuwezesha kupata kumbukumbu ya chanzo cha mtazamo."
+
+msgid "HTML保護"
+msgstr "Ulinzi wa HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Inatoa HTML kidogo zaidi kuliko mpangilio wa kubana HTML, ikimaanisha kuwa yaliyomo ndani ya lebo ya BODY hayatatolewa kabisa."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Hii haitumiki kwa Firefox"
+
+msgid "SEOに著しく影響があります"
+msgstr "Hii ina athari kubwa kwa SEO"
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Kutengeneza HTML kwa kutumia JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Ili kukabiliana na Firefox, tunatengeneza muonekano wa HTML kwa kutumia JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Kuwasha uwasilishaji wa JavaScript kutasababisha kupungua kwa kasi ya upakiaji wa tovuti."
+
+msgid "画像の保護"
+msgstr "Ulinzi wa picha"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Linda picha kila wakati lebo ya img inapotajwa"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Linda picha zote zilizopakiwa kwenye WordPress ndani ya pato lote la HTML"
+
+msgid "画像をダウンロードから保護します"
+msgstr "Hulinda picha zisishushwe"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Wakati data za picha zinapohifadhiwa, tunazuia karibu upakuaji wote, tunatoa URL za kipekee za mara moja, tunathibitisha utambulisho kwa kutumia tokeni zilizohifadhiwa katika kipindi cha kikao, na tunaonyesha picha kupitia PHP; hii kwa ufanisi inazuia karibu wizi wote wa picha."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Wakati data ya picha inalindwa, kuhifadhi kwa muda mfupi hakifanyi kazi, jambo linalomaanisha kuwa tovuti itapakia polepole zaidi katika ziara zinazofuata, na hivyo kuathiri SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Kulinda data ya picha kunaweza kuongeza mzigo kwenye hifadhidata."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Ukichagua 'Linda picha kila wakati lebo ya img inapotajwa', mfumo utatumia add_filter kutekeleza uchujaji wakati lebo ya img inapotengenezwa; hata hivyo, hii inaweza kutofanya kazi ipasavyo na baadhi ya mandhari."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Ukichagua 'Linda picha zote zilizopakiwa kwenye WordPress ndani ya pato lote la HTML', programu-jalizi itarekodi karibu shughuli zote za WordPress na kuchakata kila lebo ya img katika maudhui. Tafadhali kumbuka kuwa hii inaweza isifanye kazi ipasavyo na baadhi ya mandhari."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Tafadhali kumbuka kuwa picha zinazotajwa kama picha kuu zitashirikiwa kama data ya OGP na haziwezi kulindwa. Ikiwa ni lazima kabisa kuzilinda, tafadhali badilisha mipangilio ya kutolewa kwa lebo ya HEAD katika mipangilio ya hali ya juu unapowezesha ulinzi wa HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Kazi ya kuchukua picha ya skrini iliyojumuishwa kama kipengele cha kawaida katika mfumo wa uendeshaji haiwezi kulindwa."
+
+msgid "画像URLの保護"
+msgstr "Kulinda URL za picha"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Hii inapaswa kutumika pamoja na ulinzi wa picha; yenyewe haifai kwa chochote."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Kwa kuwa inapakia kupitia JavaScript, hii inaathiri SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Alama ya maji ya picha"
+
+msgid "右下"
+msgstr "Chini kulia"
+
+msgid "ランダム位置"
+msgstr "Nafasi ya nasibu"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Zikitumika pamoja na ulinzi wa picha, alama za maji zinazobadilika zinaonyesha wazi umiliki wa hakimiliki huku zikitoa hisia kwa watazamaji kwamba wanachunguzwa, hivyo zikichukua jukumu la kuzuia ukiukaji."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ni miundo ya JPG, PNG na WebP pekee inayotumika."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kuwasha hii kutongeza mzigo kwenye seva."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Kutoa sanaa ya ASCII kutoka kwa msimbo chanzo wa HTML wakati wa kuficha na kulinda"
+
+msgid "表示なし"
+msgstr "Hakuna onyesho"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Huonyesha sanaa ya ASCII inayoonyesha onyo unapotazama chanzo cha HTML kwa kutumia 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Onyesha muundo wakati kitendo lengwa kinapotekelezwa"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Muundo wa msingi unaoonyesha maandishi meusi kwenye mandhari ya manjano"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Muundo wa mtindo wa kutisha wenye maandishi mekundu kwenye mandhari nyeusi"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Muundo unaoonyesha maandishi mekundu yanayong'aa kwenye mandhari nyeusi"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Muziki wa mandhari unaopigwa wakati kitendo lengwa kinapotendeka"
+
+msgid "サウンドなし"
+msgstr "Hakuna sauti"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Mapigano na Ushindi - dakika 1 sekunde 16.3 - baiti 630,056 - 64 kbps - Leseni: CC 2.1 au baadaye"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Fupi - sekunde 3.8 - baiti 32,364 - 64 kbps - Leseni: GPL 2.0 au baadaye"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Mrefu - sekunde 23.5 - baiti 195,578 - 64 kbps - Leseni: GPL 2.0 au baadaye"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Na. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Na. 12 'Mapinduzi' – Toleo lililotengenezwa na kompyuta, kasi ya juu – dakika 1, sekunde 57.6 – baiti 724,457 – 48 kbps – Leseni: CC BY-ND 4.0 au baadaye"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo katika B-flat minor, Op. 2 – Toleo lililotengenezwa na kompyuta, toleo fupi la kasi ya juu – dakika 1, sekunde 48.0 – baiti 665,369 – 48 kbps – Leseni: CC BY-ND 4.0 au toleo jipya zaidi"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Orodha: Étude d'Exécution Na. 4 'Mazeppa' – toleo lililotengenezwa na kompyuta, toleo fupi lenye kasi kubwa – dakika 1 na sekunde 51.6 – baiti 687,586 – 48 kbps – Leseni: CC BY-ND 4.0 au toleo jipya zaidi"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Shangwe – sekunde 22.3 – baiti 183,926 – 64 kbps – Leseni: Mali ya umma"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Shangwe za mtindo wa retro – sekunde 2.2 – baiti 10,536 – 32 kbps – Leseni: Umma"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Utangulizi wa mtindo wa retro – sekunde 42.1 – baiti 179,138 – 32 kbps – Leseni: Mali ya umma"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Onyo kutoka kwa ChatGPT - sekunde 3.8 - baiti 109,700 - 256 kbps - Leseni: Mali ya umma"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sauti ya dharura ya juu inayofanana na tahadhari ya ugunduzi wa programu hasidi – Sehemu ya 1 na ChatGPT – sekunde 3.3 – baiti 102,850 – 256 kbps – Leseni: Mali ya umma"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sauti ya dharura ya juu inayofanana na tahadhari ya ugunduzi wa programu hasidi, Sehemu ya 2 na ChatGPT - sekunde 3.3 - baiti 103,122 - 256 kbps - Leseni: Mali ya Umma"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sauti ya mtindo wa MRI na ChatGPT – dakika 1 sekunde 14.9 – baiti 3,340,392 – 320 kbps – Leseni: Mali ya umma"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Chagua muziki wa mandharinyuma utakao cheza wakati wa onyo."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Huitengeneza hali ya kushangaza"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Sauti imezuiwa katika Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bip inapofanywa kitendo kilichobainishwa"
+
+msgid "有効 音量小さ目"
+msgstr "Imewashwa, sauti chini"
+
+msgid "有効 音量大き目"
+msgstr "Inaendelea, sauti imewekwa juu"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Sauti ya bip itasikika kwa matukio yote ya kitufe na kipanya wakati onyo linaonyeshwa."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Hii inaacha hisia kwamba kifaa kimepoteza udhibiti wakati onyo linaonyeshwa."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Kuficha kiashiria cha panya wakati kitendo maalum kinapotendeka"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Huficha kiashiria cha panya katika eneo la kivinjari wakati onyo linaonyeshwa"
+
+msgid "デバッグモード"
+msgstr "Hali ya kurekebisha hitilafu"
+
+msgid "妨害＋記録のみ"
+msgstr "Uingiliaji + Rekodi tu"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Uingiliaji + Urekodi + Onyesho + Uelekezaji upya"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Bado unaweza kuifikia kupitia menyu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Hali ya kurekebisha hitilafu katika Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsoli ya kivinjari"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Kwa hakika, unaweza kuiendesha kutoka kwenye hali ya kurekebisha hitilafu."
+
+msgid "HTMLソース表示"
+msgstr "Tazama chanzo cha HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Unaweza kufanya operesheni hiyo kwa urahisi tu kwa kuingiza URL inayotangulia na 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Unaweza kulinda maudhui yako kwa kuchanganya hii na ulinzi wa HTML."
+
+msgid "印刷"
+msgstr "Chapisha"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ingawa inazuia uchapishaji, huenda isifanye kazi ipasavyo katika vivinjari fulani."
+
+msgid "スクリーンショット"
+msgstr "Picha ya skrini"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Kutegemea mfumo endeshi, kivinjari au mbinu inayotumika, huenda isiwezekane kuzizuia hizi, au huenda zisitambuliwe."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Picha ya skrini inayoshukiwa inapohamishwa dirisha hadi nyuma"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Pia hujibu kazi nyingine mbali na picha za skrini"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Picha ya skrini inayoshukiwa kuchukuliwa kwa kubonyeza vitufe viwili"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Njia za ugunduzi za vitu vilivyotajwa hapo juu si za uhakika kabisa; ugunduzi hufanywa kama hatua ya tahadhari."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Inagundua si tu picha za skrini bali pia modi za utatuzi wa hitilafu na mambo kama hayo."
+
+msgid "ページ保存"
+msgstr "Hifadhi ukurasa"
+
+msgid "右クリック"
+msgstr "Bofya kulia"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ikiwa nyongeza imewekwa, utaweza kuitumia."
+
+msgid "コピー・カット"
+msgstr "Nakili na kata"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Kulingana na mipangilio ya programu-jalizi hii, huenda ukakutana na tukio hili mara chache."
+
+msgid "テキスト全選択"
+msgstr "Chagua maandishi yote"
+
+msgid "テキスト選択"
+msgstr "Chagua maandishi"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Kumbukumbu ya kuanzisha debugger, uingiliaji wa debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Hii inafanya hali ya debug kuwa kidogo si rahisi kutumia na inaandika kwamba debugger imezinduliwa; hata hivyo, vivinjari fulani vinaweza kuzuia tabia hii."
+
+msgid "リダイレクトするURL"
+msgstr "Elekeza URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Itakuwa wazo zuri kuwaelekeza watumiaji kwenye kurasa kama vile Masharti ya Matumizi."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Ikiwa itaachwa wazi, itageuza upya kwenye URL ya awali."
+
+msgid "リダイレクトまでの時間"
+msgstr "Muda hadi kuelekezwa upya"
+
+msgid "リダイレクトなし"
+msgstr "Hakuna kuelekeza upya"
+
+msgid "1秒"
+msgstr "Sekunde 1"
+
+msgid "2秒"
+msgstr "Sekunde 2"
+
+msgid "3秒"
+msgstr "Sekunde 3"
+
+msgid "4秒"
+msgstr "Sekunde 4"
+
+msgid "5秒"
+msgstr "Sekunde 5"
+
+msgid "6秒"
+msgstr "Sekunde 6"
+
+msgid "7秒"
+msgstr "Sekunde saba"
+
+msgid "8秒"
+msgstr "Sekunde nane"
+
+msgid "9秒"
+msgstr "Sekunde tisa"
+
+msgid "10秒"
+msgstr "Sekunde kumi"
+
+msgid "15秒"
+msgstr "Sekunde kumi na tano"
+
+msgid "20秒"
+msgstr "Sekunde ishirini"
+
+msgid "25秒"
+msgstr "Sekunde 25"
+
+msgid "30秒"
+msgstr "Sekunde 30"
+
+msgid "35秒"
+msgstr "Sekunde thelathini na tano"
+
+msgid "40秒"
+msgstr "Sekunde arobaini"
+
+msgid "45秒"
+msgstr "Sekunde arobaini na tano"
+
+msgid "50秒"
+msgstr "Sekunde hamsini"
+
+msgid "55秒"
+msgstr "Sekunde 55"
+
+msgid "1分"
+msgstr "Dakika 1"
+
+msgid "1分10秒"
+msgstr "Dakika 1 sekunde 10"
+
+msgid "1分20秒"
+msgstr "Dakika 1 sekunde 20"
+
+msgid "1分30秒"
+msgstr "Dakika moja sekunde thelathini"
+
+msgid "1分40秒"
+msgstr "Dakika 1 na sekunde 40"
+
+msgid "1分50秒"
+msgstr "Dakika 1 sekunde 50"
+
+msgid "2分"
+msgstr "Dakika 2"
+
+msgid "ソース表示を許可する権限"
+msgstr "Ruhusa ya kuona msimbo chanzo"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Matokeo ya kawaida kutoka kwa chanzo yanaonekana tu unapokuwa umeingia kama ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Matokeo ya kawaida kutoka kwa chanzo unapokuwa umeingia kama MTUMIAJI"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Chagua kama pato la kawaida la HTML lipunguzwe kwa wasimamizi pekee au linahitaji kuingia kwa mtumiaji."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Kulazimisha picha kupakuliwa na kile kinachopakuliwa kweli"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Picha ya pixel 1×1 yenye uwazi katika muundo wa GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Picha ya pikseli 1×1 yenye uwazi katika muundo wa PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Kichupo cha onyo chenye mandharinyuma ya manjano katika umbizo la PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Hati ya HTML isiyo na maana"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Matokeo ya lebo ya HEAD wakati HTML inalindwa"
+
+msgid "出力しない"
+msgstr "Usichapishe"
+
+msgid "TITLEタグのみ"
+msgstr "Lebo ya kichwa pekee"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Imetolewa kutoka kwa lebo ya HEAD ya WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Kwa kurasa za wanachama pekee kwa matumizi ya kampuni na kurasa za ndani, kuchagua 'Haitolewi' au 'Lebo ya KICHWA tu' kunatosha."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Isipokuwa ukipata taarifa kutoka kwenye lebo ya HEAD ya WordPress, picha ya OGP haitaonekana unaposhiriki kwenye mitandao ya kijamii."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Ziba roboti ya picha"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Kwa kuzuia bot za picha kupata HTML, unaweza kulinda maudhui ambayo hayakuweza kulindwa dhidi ya viungo vya moja kwa moja kupitia utafutaji wa picha; hata hivyo, hii haitoi suluhisho kamili."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Ziba ufikiaji wa roboti ya mafunzo ya AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Kwa kuepuka matumizi ya bot zilizoundwa kwa ajili ya mafunzo ya AI kwenye HTML, tunahakikisha kuwa maudhui hayatumiki na AI; hata hivyo, hii haiwezi kuzuilika kabisa."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Ziba upatikanaji wa hifadhi za wavuti na picha za wavuti"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Tunakataza upatikanaji wa kumbukumbu za wavuti zinazokusanywa kiotomatiki na picha za skrini zinazochukuliwa kwa hiari ya mtumiaji; hata hivyo, hatuwezi kuzuia hili kabisa."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Zuie wakala wa watumiaji batili"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Inazuia upatikanaji ikiwa mstari wa wakala wa mtumiaji una herufi zisizofaa"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Onyesha onyo unapofikia Internet Explorer na Microsoft Edge ya zamani"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Inazuia upatikanaji kupitia Internet Explorer na Microsoft Edge ya zamani"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lugha ambayo ujumbe wa tahadhari unaonyeshwa"
+
+msgid "Wordpressの言語"
+msgstr "Lugha za WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Mipangilio ya lugha ya kivinjari"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Huwezi kubadilisha lugha ikiwa ujumbe umebinafsishwa."
+
+msgid "同意画面の言語"
+msgstr "Lugha ya skrini ya idhini"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lugha ya kuonyesha ujumbe wa 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Tarehe ya kuisha ya tokeni za muda"
+
+msgid "3分"
+msgstr "Dakika 3"
+
+msgid "4分"
+msgstr "Dakika 4"
+
+msgid "5分"
+msgstr "Dakika 5"
+
+msgid "6分"
+msgstr "Dakika 6"
+
+msgid "7分"
+msgstr "Dakika saba"
+
+msgid "8分"
+msgstr "Dakika 8"
+
+msgid "9分"
+msgstr "Dakika tisa"
+
+msgid "10分"
+msgstr "Dakika kumi"
+
+msgid "15分"
+msgstr "Dakika kumi na tano"
+
+msgid "20分"
+msgstr "Dakika ishirini"
+
+msgid "25分"
+msgstr "Dakika 25"
+
+msgid "30分"
+msgstr "Dakika 30"
+
+msgid "35分"
+msgstr "Dakika thelathini na tano"
+
+msgid "40分"
+msgstr "Dakika arobaini"
+
+msgid "45分"
+msgstr "Dakika arobaini na tano"
+
+msgid "50分"
+msgstr "Dakika hamsini"
+
+msgid "55分"
+msgstr "Dakika hamsini na tano"
+
+msgid "1時間"
+msgstr "Saa moja"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Weka tarehe ya kuisha kwa taarifa za URL ya picha"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Mara tu itakapopakiwa, URL ya picha na tokeni ya muda mfupi zitabatilishwa."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Picha zinapakuliwa inapohitajika, lakini zitapakuliwa kiotomatiki sekunde 30 kabla ya muda uliotajwa."
+
+msgid "一時使用トークンのビット数"
+msgstr "Idadi ya biti katika tokeni ya muda mfupi"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Token ya muda mfupi inatumika kama nenosiri kusimba taarifa za URL ya picha; hii inaeleza nguvu yake"
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Ingawa chaguzi zinazoonyeshwa chini ya menyu kunjuzi zinazidi kuwa na maelezo ya kina, hii inaweza kuweka mzigo mzito kwenye seva na kusababisha uhamishaji wa kiasi kikubwa cha data ya HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoriti ya hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token ya muda mfupi inatumika kama nenosiri kusimba taarifa za URL ya picha; hii inahitaji hashing, na mpangilio huu huamua nguvu ya hashing hiyo."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Ingawa ukali huongezeka unaposonga chini kupitia chaguzi zilizoorodheshwa kwenye menyu kunjuzi, hii inaweka mzigo mkubwa zaidi kwenye seva."
+
+msgid "基本設定"
+msgstr "Mipangilio ya msingi"
+
+msgid "高度な設定"
+msgstr "Mipangilio ya juu"
+
+msgid "初期設定に戻す"
+msgstr "Rejesha mipangilio ya chaguo-msingi"
+
+msgid "デザイン・音の設定"
+msgstr "Mipangilio ya muundo na sauti"
+
+msgid "イベントの設定"
+msgstr "Mipangilio ya tukio"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Kusanidi arifa kwa ziara za mara ya kwanza"
+
+msgid "メッセージの設定"
+msgstr "Mipangilio ya ujumbe"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Weka URL itakayofunguliwa unapobofya kulia au unapotazama msimbo chanzo"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML haiwezi kutumika katika ujumbe wa onyo"
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Ukipanga hii kwenye skrini hii, mipangilio ya lugha katika kichupo cha Advanced itapuuzwa."
+
+msgid "以下の文字列が使用できます"
+msgstr "Mistari ifuatayo inaweza kutumika"
+
+msgid "改行"
+msgstr "Mwisho wa mstari"
+
+msgid "押下されたキー"
+msgstr "Kitufe kimebonyezwa"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Mipangilio ya Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Tangazo"
+
+msgid "メッセージ"
+msgstr "Ujumbe"
+
+msgid "デザイン・音"
+msgstr "Ubunifu na Sauti"
+
+msgid "初期化"
+msgstr "Uanzishaji"
+
+msgid "このプラグインについて"
+msgstr "Kuhusu programu-jalizi hii"
+
+msgid "設定が初期化されました"
+msgstr "Mipangilio imewekwa upya"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Anzisha programu-jalizi. Tafadhali kumbuka kuwa data ya IP Log Reader haitafutwa katika hatua hii."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Kuhusu Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Plugini hii imeundwa kulinda HTML, picha na maudhui mengine yanayotengenezwa na tovuti yako ya WordPress, ikiyakinga dhidi ya matumizi yasiyoidhinishwa."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Haiwezekani kulinda maudhui kikamilifu. Hata hivyo, kwa kutoa maonyo kila inapowezekana na kufanya maandalizi endapo chochote kitatokea, tunapaswa kuweza kutatua suala hilo kulingana na taratibu zilizowekwa na serikali."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Bila shaka, utahitaji kuhakikisha masharti yako ya huduma na sera za tovuti ni kamili. Ingawa programu-jalizi hii si chombo cha kutengeneza masharti ya huduma, inaweza kutoa mwongozo fulani."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Msanidi: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Toleo"
+
+msgid "ビルド"
+msgstr "Jenga"
+
+msgid "サポートページ"
+msgstr "Ukurasa wa msaada"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Imetendwa na Bibi Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Ombi la msaada"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Asante kwa kutumia Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Uendelezaji na matengenezo ya programu-jalizi hii yamehitaji muda na juhudi nyingi, na ili kukusanya fedha za kuendelea kuiboresha na kuisasisha, tungefurahi ikiwa yeyote anayeweza kutusaidia atafikiria kutoa mchango."
+
+msgid "寄付について"
+msgstr "Kuhusu Michango"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Michango ni hiari kabisa na si lazima. Programu-jalizi hii inapatikana kwa kila mtu bila malipo. Hata hivyo, tunathamini sana msaada wako kutusaidia kuendelea na maendeleo, na tutafurahi ikiwa utaweza kuchangia chochote unachoweza."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Unaweza kutoa mchango kupitia kiungo kilicho hapa chini. Ikiwa uko Japani, unaweza kutoa mchango bila malipo, na pia unaweza kutoa mchango kwa urahisi kwa kutumia vocha za zawadi za Amazon."
+
+msgid "寄付先"
+msgstr "Misaada"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Kwa msaada wako, tutafanya kila tuwezalo kuendelea kukuletea masasisho ya ajabu!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Tunashukuru kwa msaada wenu na tunatarajia kuendelea kupata msaada wenu katika siku zijazo."
+
+msgid "ライセンス"
+msgstr "Leseni"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Plugini hii imeundwa kama programu chanzo huria na ina leseni chini ya GPLv2.0 au toleo jipya zaidi."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Baadhi ya teknolojia zilizojumuishwa katika programu-jalizi hii zinalindwa na hati miliki."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Matumizi ya teknolojia iliyopewa hati miliki yanaruhusiwa tu ndani ya programu-jalizi hii."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Kwa matumizi mengine yoyote, tafadhali wasiliana na mwandishi ili kupata leseni ya kibiashara."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Plugini hii inajumuisha maktaba zifuatazo"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Plugini hii inajumuisha fonti za sanaa za ASCII zilizotengenezwa hapa chini, pamoja na faili za fonti."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugini hii inajumuisha muziki kutoka kwenye mchezo usio rasmi wa Super Famicom 'SM Trainer Hitomi 3', uliotengenezwa na EJ Co., Ltd. na uliotungwa na muumba wa plugini hii, na una leseni rasmi."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugini hii inajumuisha nyimbo zilizotengenezwa kwa kutumia 'Keppy's YAMAHA C7', iliyotengenezwa na Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Pia nimetumia Raspberry Pi 5, ChatGPT na DeepL katika uundaji wa programu-jalizi hii."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugini ya kuhifadhi kache imegunduliwa. Plugini hii haitafanya kazi ipasavyo ikiwa plugini ya kuhifadhi kache imewezeshwa."
+
+msgid "無効なIPアドレス"
+msgstr "Anwani ya IP si halali"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ili kutumia tovuti hii, lazima uwezeshe vidakuzi na JavaScript."
+
+msgid "利用規約"
+msgstr "Masharti ya Matumizi"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ili kuzuia matumizi yasiyoidhinishwa na kuhakikisha uendeshaji salama wa huduma zetu, tovuti hii inaweza kuhifadhi taarifa kama anwani za IP, historia ya kuvinjari na kumbukumbu za shughuli katika vidakuzi na hifadhidata. Taarifa hizi zinatumika tu kwa uendeshaji wa tovuti na kwa madhumuni ya kisheria, na hazitatolewa kwa wahusika wengine."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ili kutumia huduma hii, lazima ukubali shughuli hizi za uchakataji."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Unaweza kuona yaliyomo katika Sera ya Faragha bila kujali kama umetoa idhini yako."
+
+msgid "同意する"
+msgstr "Nakubaliana"
+
+msgid "同意しない"
+msgstr "Sikubaliani"
+
+msgid "確認"
+msgstr "Uthibitisho"
+
+msgid "プライバシーポリシー"
+msgstr "Sera ya Faragha"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Upatikanaji usio wa kawaida au shughuli imegunduliwa"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Baadhi ya vipengele vimezuiliwa kwa madhumuni ya usalama na ulinzi wa maudhui."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Hali ya kusahihisha hitilafu na ufikiaji wa konsole vimezimwa"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Taarifa zifuatazo zimetumwa kwa seva"
+
+msgid "あなたのIPアドレス"
+msgstr "Anwani yako ya IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Kifaa chako na kivinjari chako"
+
+msgid "あなたの押下したキー"
+msgstr "Ufunguo ulioubonyeza"
+
+msgid "リダイレクトをします"
+msgstr "Utarudishwa"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Baadhi ya vipengele vimezuiliwa ili kulinda yaliyomo."
+
+msgid "右クリックは禁止されています"
+msgstr "Kubofya kulia hakuruhusiwi"
+
+msgid "あなたが押下したキー"
+msgstr "Ufunguo ulioubonyeza"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Kuchapisha na kuhifadhi kama PDF imepigwa marufuku."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Kupiga picha za skrini kumezuiwa."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Kupiga picha za skrini na kuwasha hali ya uchunguzi wa makosa vimezuiwa."
+
+msgid "ページの保存は禁止されています"
+msgstr "Kuhifadhi ukurasa huu kumezuiliwa"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kunakili na kukata vimepigwa marufuku."
+
+msgid "あなたが起こしたイベント"
+msgstr "Matukio uliyoyapanga"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Kuchagua maandishi hakuruhusiwi"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Kuonyesha msimbo chanzo wa HTML kumezuiwa."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Upatikanaji usioidhinishwa umepigwa marufuku"
+
+msgid "アフリカーンス語"
+msgstr "Kiafrikaans"
+
+msgid "アラゴン語"
+msgstr "Kiaragoni"
+
+msgid "アラビア語"
+msgstr "Kiarabu"
+
+msgid "アッサム語"
+msgstr "Kiasamani"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Kibashkir"
+
+msgid "ベラルーシ語"
+msgstr "Mbelarusi"
+
+msgid "ベンガル語"
+msgstr "KiBengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgaria"
+
+msgid "ボスニア語"
+msgstr "Mbosnia"
+
+msgid "カタロニア語"
+msgstr "Kikatalaani"
+
+msgid "チェコ語"
+msgstr "Kicheki"
+
+msgid "ウェールズ語"
+msgstr "WaUelisi"
+
+msgid "デンマーク語"
+msgstr "Kidanish"
+
+msgid "ドイツ語"
+msgstr "Kijerumani"
+
+msgid "現代ギリシア語"
+msgstr "Kigiriki cha kisasa"
+
+msgid "英語"
+msgstr "Kiingereza"
+
+msgid "イギリス英語"
+msgstr "Kiingereza cha Uingereza"
+
+msgid "アメリカ英語"
+msgstr "Kiingereza cha Marekani"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Kihispania"
+
+msgid "エストニア語"
+msgstr "Mwestaoni"
+
+msgid "バスク語"
+msgstr "Baskia"
+
+msgid "ペルシャ語"
+msgstr "Kifarisi"
+
+msgid "フィンランド語"
+msgstr "Fini"
+
+msgid "フランス語"
+msgstr "Kifaransa"
+
+msgid "アイルランド語"
+msgstr "Waailandi"
+
+msgid "ガリシア語"
+msgstr "Mgalicia"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Kihausa"
+
+msgid "ヘブライ語"
+msgstr "Kiebrania"
+
+msgid "ヒンディ語"
+msgstr "Kihindi"
+
+msgid "クロアチア語"
+msgstr "Kihispania"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kifaransa cha Haiti"
+
+msgid "ハンガリー語"
+msgstr "Kihungaria"
+
+msgid "インドネシア語"
+msgstr "Mw-Indonesia"
+
+msgid "イボ語"
+msgstr "Lugha ya Ibo"
+
+msgid "アイスランド語"
+msgstr "Kiaislandi"
+
+msgid "イタリア語"
+msgstr "Mwitaliano"
+
+msgid "日本語"
+msgstr "Kijapani"
+
+msgid "ジャワ語"
+msgstr "Kijavani"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Kikorea"
+
+msgid "クルド語"
+msgstr "Kurdish"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latini"
+
+msgid "ルクセンブルク語"
+msgstr "Kiluksemburgi"
+
+msgid "リンガラ語"
+msgstr "Kiswahili"
+
+msgid "リトアニア語"
+msgstr "Kilithuania"
+
+msgid "ラトビア語"
+msgstr "Laatvia"
+
+msgid "マダガスカル語"
+msgstr "Malgasi"
+
+msgid "マオリ語"
+msgstr "Wa-Māori"
+
+msgid "マケドニア語"
+msgstr "Kimasikoni"
+
+msgid "マラヤーラム語"
+msgstr "Kimalayalam"
+
+msgid "モンゴル語"
+msgstr "Mongolia"
+
+msgid "マラーティー語"
+msgstr "Kiarabu"
+
+msgid "マレー語"
+msgstr "Mwalaya"
+
+msgid "マルタ語"
+msgstr "Kimalti"
+
+msgid "ビルマ語"
+msgstr "Burmesi"
+
+msgid "ネパール語"
+msgstr "Kinepali"
+
+msgid "ノルウェー語"
+msgstr "Wa-Norweiji"
+
+msgid "オランダ語"
+msgstr "Uholanzi"
+
+msgid "オック語"
+msgstr "Okisitan"
+
+msgid "オロモ語"
+msgstr "Au"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Kupolisha"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Kireno"
+
+msgid "ブラジルポルトガル語"
+msgstr "Kireno cha Kibrazili"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Kireno cha Ulaya"
+
+msgid "ケチュア語"
+msgstr "Kichu"
+
+msgid "ルーマニア語"
+msgstr "Mwaromani"
+
+msgid "ロシア語"
+msgstr "Kirusi"
+
+msgid "サンスクリット語"
+msgstr "Kisanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovaki"
+
+msgid "スロベニア語"
+msgstr "Kislofeni"
+
+msgid "セルビア語"
+msgstr "Serbia"
+
+msgid "南セソト語"
+msgstr "Kusini mwa Sesotho"
+
+msgid "スンダ語"
+msgstr "Kisundanese"
+
+msgid "スウェーデン語"
+msgstr "Suwidi"
+
+msgid "スワヒリ語"
+msgstr "Kiswahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Taji"
+
+msgid "タイ語"
+msgstr "Thai"
+
+msgid "トルクメン語"
+msgstr "Mturuki"
+
+msgid "タガログ語"
+msgstr "Kifaransa"
+
+msgid "トルコ語"
+msgstr "Kituruki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Mukraini"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Muzib"
+
+msgid "ベトナム語"
+msgstr "Kivietinamu"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Kichina kilichorahisishwa"
+
+msgid "繁体中国語"
+msgstr "Kichina cha jadi"
+
+msgid "ズールー語"
+msgstr "Kiswahili"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Kivinjari unachotumia sasa ni toleo la zamani ambalo haliaungwi mkono tena. Ili kuhakikisha uzoefu salama na wa starehe zaidi wa kuvinjari, tafadhali sasisha kivinjari chako hadi toleo jipya kabisa."
+
+msgid "不正なリクエストです"
+msgstr "Ombi batili"
+
+msgid "画像が見つかりません"
+msgstr "Picha haijapatikana"
+

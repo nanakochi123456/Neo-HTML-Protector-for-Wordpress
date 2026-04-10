@@ -1,0 +1,424 @@
+設定	Fikirana
+IPログリーダー	Mpamaky ny log IP
+IPアドレスログ	Lisitry ny adiresy IP
+全クリア	Vitao ny ambaratonga rehetra
+IPログが全て削除されました	Voafafa daholo ny rakitra IP rehetra.
+ID	Famaritana mampiavaka
+タイムスタンプ	Marika fotoana
+IPアドレス	Adiresy IP
+ユーザーエージェント	Solontenan'ny mpampiasa
+イベント	Hetsika
+IPアドレスのデータはありません	Tsy misy angon-drakitra ho an'ity adiresy IP ity.
+EU GDPR対応	Fanarahana ny GDPR an'ny Vondrona Eoropeanina
+無効	Tsy manan-kery
+有効	Manan-kery
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Raha mampiasa WordPress ao anatin'ny Vondrona Eoropeanina ianao, na raha mikendry mpampiasa ao anatin'ny Vondrona Eoropeanina ny tranokalanao, dia azafady mba ataovy azo antoka fa mandeha izy ity.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Ny bokotra 'Hamarino' dia hiova ho 'Manaiky' na 'Tsy manaiky', ary hiova kely ny fitondran-tena.
+同意画面の色	Loko amin'ny efijery fanekena
+自動	Mandeha ho azy
+ライトモード	Fomba maivana
+ダークモード	Fomba Maizina
+同意画面表示中の配色を設定します	Farito ny fandaharana loko ho an'ny efijery fanekena
+同意画面中のコンテンツのぼかし	Fanaovana manjavozavo ny votoaty eo amin'ny efijery fanekena
+同意画面表示中のコンテンツのぼかし具合を設定します	Farito ny haavon'ny fanamaizana ny votoaty aseho eo amin'ny efijery fanekena.
+同意画面の透過	Fahazavan'ny efijery fanekena
+透過なし	Tsy mangarahara
+同意画面の透過具合を設定します	Farito ny mangaraharan'ny efijery fanekena
+お知らせの1行目	Andalana voalohany amin'ny fanambarana
+初回表示で必ず表示されるメッセージです	Ity hafatra ity dia aseho foana amin'ny voalohany ampidirana ny pejy.
+お知らせの2行目	Ny andalana faharoa amin'ny fampandrenesana
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Hiseho hatrany amin'ny fampisehoana voalohany ity hafatra ity rehefa manan-kery ny EU GDPR.
+お知らせの3行目	Ny andalana fahatelo amin'ny fampandrenesana
+プライバシーポリシーのリンクの右側に表示されます	Hiseho eo ankavananan'ny rohy mankany amin'ny Politikan'ny Tsiambaratelo.
+非EU向け確認の文字列	Teny fanamafisana ho an'ny firenena tsy ao anatin'ny Vondrona Eoropeanina
+EU GDPR向け同意するの文字列	Teny fanekena ho an'ny GDPR an'ny Vondrona Eoropeana
+EU GDPR向け同意しないの文字列	Teny ho an'ny 'Aza manaiky' eo ambanin'ny GDPR an'ny Vondrona Eoropeana
+プライバシーポリシーの文字列	Teny momba ny politika fiarovana ny tsiambaratelo
+プライバシーポリシーのURLはこちらから設定して下さい	Azafady, apetraho eto ny URL ho an'ny politika momba ny tsiambaratelo.
+プライバシーポリシーには以下の内容を追加して下さい	Azafady ampio ireto manaraka ireto ao amin'ny Politikan'ny Tsiambaratelo.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Mba hahitana hetsika hosoka, dia tehirizina ao anaty cookies sy tahiry angona ny mombamomba toy ny adiresy IP. Fafana araka ny sitrapon'ny mpitantana ny angona voatahiry.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Mba hahazoana antoka fa alefa araka ny tokony ho izy ny sary rehefa mandeha ny fiarovana sary, dia mitahiry angon-drakitra voahash izay ahitana ny adiresy IP sy ny anaran'ny rakitra sary ao amin'ny tahiry izahay mandritra ny 60 minitra.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Raha mametraka Fepetra fampiasana ianao, azafady mba ataovy azo antoka fa mampiditra rohy mankany amin'izy ireo ao amin'ny Politikan'ny tsiambaratelo anao.
+利用規約の文字列	Lahatsoratr'ireo Fepetran'ny Fampiasana
+利用規約のページ	Pejin'ny Fepetra sy Fitsipika
+ページ選択なし	Tsy misy pejy voafidy
+検索エンジン等のURL	URL ho an'ny milina fikarohana, sns.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Farito ny URL ho an'ny milina fikarohana sy ireo tranonkala mitovy izay mandefa mpampiasa any amin'ny toerana hafa rehefa tsy omena fankatoavana.
+デバッグモード、コンソールの警告メッセージ	Maody famahana hadisoana, hafatra fampitandremana amin'ny console
+右クリックの警告メッセージ	Tsindrio-ankavanana ny hafatra fampitandremana
+印刷、PDF保存の警告メッセージ	Fampitandremana momba ny fanontana sy ny fitahirizana ho PDF
+スクリーンショットの警告メッセージ	Hafatra fampitandremana ao amin'ny pikantsary
+スクリーンショットの疑いの警告メッセージ	Fampitandremana momba ny sary efijery ahiana
+テキスト全選択時の警告メッセージ	Hafatra fampitandremana rehefa voafidy ny lahatsoratra rehetra
+ページ保存の警告メッセージ	Fampitandremana momba ny fitahirizana pejy
+コピー・カットした時に表示するメッセージ	Haseho ity hafatra ity rehefa maka na manapaka.
+HTMLソース表示時に表示するメッセージ	Hafatra haseho rehefa mijery ny loharanon'ny HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Hafatra haseho eo an-tampon'ny kaody loharano rehefa manafina na miaro HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Haseho ny hafatra raha tsy manankery ny token fanamarinana indray mandeha mandritra ny fiarovana HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Hafatra haseho raha toa ka voasakana ny cookies na ny JavaScript
+実際にはJavascriptが無効時のみ表示されます	Raha ny marina, tsy miseho ity afa-tsy rehefa voasakana ny JavaScript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Rehefa arovana ny sary iray, dia alaina izy, ary miseho eo amboniny ny hafatra
+HTML難読化 (圧縮)	Fanafenana ny kaody HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ity no fanerena HTML mahazatra; misy koa tranonkala afaka mandika azy.
+このオプションを有効にするとview-sourceのログが取得できます	Ny fampandehanana ity safidy ity dia ahafahanao maka ny rakitra log-n'ny fijerena ny loharano.
+HTML保護	Fiarovana HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Mamoaka HTML fototra indrindra fotsiny izy—na dia kely kokoa aza noho ny fampiasana fanerena HTML—ary tsy mamoaka mihitsy ny votoaty ao anatin'ny tag BODY.
+Firefoxに対しては無効です	Tsy mihatra amin'ny Firefox ity.
+SEOに著しく影響があります	Manana fiantraikany lehibe amin'ny SEO izany.
+HTMLをJavaScriptで描画	Fanaovana sary an-tsary HTML amin'ny alalan'ny JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Mba hiasa manodidina ny Firefox, dia asehontsika amin'ny alalan'ny JavaScript ny HTML.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Ny fampandehanana ny fanehoana JavaScript dia hampiadana be ny hafainganam-pandehan'ny fampidinana ny tranonkala.
+画像の保護	Fiarovana ny sary
+imgタグが呼び出されるごとに画像を保護	Arovy ny sary isaky ny antsoina ny tag img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Arovy ny sary rehetra ampidirina ao amin'ny WordPress ao anatin'ny vokatra HTML manontolo.
+画像をダウンロードから保護します	Miaro ny sary tsy ho alaina
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Rehefa arovana ny angon-tsary dia misakana saika ny fisintomana rehetra izahay, mamoaka URL tokana ampiasaina indray mandeha, manamarina ny mombamomba amin'ny alalan'ny token voatahiry ao anatin'ny session, ary mampiseho ny sary amin'ny alalan'ny PHP; izany dia misakana am-pahombiazana saika ny tranga rehetra amin'ny halatra sary.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Rehefa arovana ny angon-tsary, tsy miasa ny fitahirizana vonjimaika, izay midika fa haharitra ela kokoa ny fampidinana ny tranonkala amin'ny fitsidihana manaraka, ka misy fiantraikany amin'ny SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ny fiarovana ny angon-tsary dia mety hampitombo ny enta-mavesatra amin'ny tahiry angona.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Raha misafidy ny 'Miaro ny sary isaky ny antsoina ny tag img' ianao, dia mampiasa add_filter ny rafitra mba hanasivanana rehefa foronina ny tag img; na izany aza, mety tsy hiasa tsara amin'ny lohahevitra sasany izany.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Raha misafidy ny 'Miaro ny sary rehetra ampidirina ao amin'ny WordPress ao anatin'ny vokatra HTML manontolo' ianao, dia handrakitra saika ny asa rehetra ataon'ny WordPress ny plugin ary handinika ny tag img tsirairay ao anatin'ny votoaty. Mariho fa mety tsy hiasa tsara amin'ny lohahevitra sasany izany.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Mariho fa ny sary voatendry ho sary misongadina dia hozaraina ho toy ny angon-drakitra OGP ary tsy azo arovana. Raha tena ilainao arovana izy ireo dia ovay ny fikirana momba ny famoahana ny marika HEAD ao amin'ny fikirakirana mandroso rehefa mampavitrika ny fiarovana HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Tsy azo arovana ny fiasa fakana sary efijery tafiditra ho fenitra ao amin'ny rafitra fandidiana.
+画像URLの保護	Fiarovana ny URL-n'ny sary
+画像の保護と組み合わせて使用します、単体では意味がありません	Tokony ampiasaina miaraka amin'ny fiarovana sary izy ity; raha irery izy dia tsy misy ilana azy.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Satria ampidirina miadana amin'ny alalan'ny JavaScript izy, dia misy fiantraikany amin'ny SEO izany.
+画像のウォーターマーク	Marika rano amin'ny sary
+右下	Ambany ankavanana
+ランダム位置	Toerana kisendrasendra
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Ampiasaina miaraka amin'ny fiarovana ny sary, ny marika an-drano mihetsika dia mampiseho mazava tsara ny maha-tompon'ny zon'ny mpamorona sady manome fahatsapana ho an'ny mpijery fa arahi-maso izy ireo, ka manakana azy ireo tsy hanao ratsy.
+JPG形式、PNG形式、WebP形式のみ対応します	Ny endrika JPG, PNG ary WebP ihany no tohanana.
+有効にするとサーバーの負荷が高くなります	Ny fampandehanana izany dia hampitombo ny enta-mavesatra amin'ny mpizara.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Mamoaka zavakanto ASCII avy amin'ny kaody loharano HTML mandritra ny fanalana mazava sy ny fiarovana
+表示なし	Tsy misy fampisehoana
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Mampiseho sary ASCII mampitandrina rehefa mijery ny loharano HTML amin'ny alalan'ny 'view-source'
+対象アクションを起こした時の表示デザイン	Asehoy ny famolavolana rehefa tanterahina ny hetsika kendrena.
+黄色の背景の黒文字のベーシックデザイン	Endrika fototra misy soratra mainty eo ambonin'ny lamina mavo.
+黒色の背景の赤文字のホラー風デザイン	Endrika mampihoron-koditra misy soratra mena eo ambonin'ny lafika mainty.
+黒色の背景の赤文字の光る文字のデザイン	Endrika iray misy soratra mena mamirapiratra eo ambonin'ny lamba mainty.
+対象アクションを起こした時のBGM	Mozika ambadika mandeha rehefa tanterahina ny hetsika kendrena
+サウンドなし	Tsy misy feo
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Ady sy Fandresena - 1 minitra 16,3 segondra - 630 056 baites - 64 kbps - Fahazoan-dàlana: CC 2.1 na mihoatra
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3.8 segondra - 32,364 baites - 64 kbps - Fahazoan-dàlana: GPL 2.0 na aoriana
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 segondra - 195,578 baites - 64 kbps - Fahazoan-dàlana: GPL 2.0 na vao haingana kokoa
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – kinova voarafitra, kinova haingam-pandeha – 1 minitra 57,6 segondra – 724 457 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo amin'ny Si bemol kely, Op. 2 – Dika novokarin'ny solosaina, dika fohy haingam-pandeha – 1 minitra 48,0 segondra – 665,369 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lisitra: Étude d'Exécution No. 4 'Mazeppa' – kinova novokarin'ny solosaina, kinova fohy haingam-pandeha – 1 minitra 51,6 segondra – 687 586 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 segondra – 183 926 bait – 64 kbps – Fahazoan-dàlana: An'ny daholobe
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Faneva fomba retro – 2,2 segondra – 10 536 bait – 32 kbps – Fahazoan-dàlana: An'ny daholobe
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Fampidirana amin'ny fomba retro – 42,1 segondra – 179 138 baites – 32 kbps – Fahazoan-dàlana: An'ny daholobe
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Fampitandremana avy amin'ny ChatGPT - 3.8 segondra - 109,700 bytes - 256 kbps - Fahazoan-dàlana: An'ny daholobe
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Feo maika tokoa toy ny fampitandremana fitiliana malware – Ampahany 1 avy amin'i ChatGPT – 3,3 segondra – 102.850 bytes – 256 kbps – Fahazoan-dàlana: An'ny daholobe
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Feo maika tokoa toy ny fampitandremana fitiliana malware, Fizarana 2 nataon'i ChatGPT - 3,3 segondra - 103.122 bytes - 256 kbps - Fahazoan-dàlana: An'ny daholobe
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Feo karazana MRI avy amin'ny ChatGPT – 1 minitra 14,9 segondra – 3 340 392 octets – 320 kbps – Fahazoan-dàlana: An'ny daholobe
+警告表示中のBGMを選択します	Safidio ny mozika ambadika hihira mandritra ny fampitandremana.
+びっくりするような雰囲気を作ります	Mamorona atmosfera mahagaga.
+Firefoxでは音声ブロックされます	Voasakana ny feo ao amin'ny Firefox.
+対象アクションを起こした時のビープ音	Feo bip rehefa tanterahina ny hetsika voatondro
+有効 音量小さ目	Mandeha, feo ambany
+有効 音量大き目	Miasa, ny feo napetraka amin'ny avo
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Heno ny feon'ny bip ho an'ny hetsika rehetra amin'ny fanalahidy sy ny totozy, raha aseho fampitandremana.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Miteraka fahatsapana fa lasa tsy voafehy ny fitaovana raha mbola aseho ny fampitandremana.
+対象アクションを起こした時のマウスカーソルの消去	Manafina ny kisary totozy rehefa tanterahina ny hetsika iray manokana
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Manafina ny kisary totozy eo amin'ny faritra fitetezana raha misy fampitandremana aseho.
+デバッグモード	Maody famahana lesoka
+妨害＋記録のみ	Fifangaroana + Rakikira ihany
+妨害＋記録＋表示＋リダイレクト	Fanelingelenana + Fandraketana + Fampisehoana + Fanodinkodinana
+メニューからは操作できてしまいます	Afaka miditra amin'izany ianao amin'ny alalan'ny menio.
+Firefoxにおけるデバッグモード	Maody famahana lesoka ao amin'ny Firefox
+ブラウザーコンソール	Konsolin'ny mpitety tranonkala
+事実上デバッグモードから操作できてしまいます	Raha ny tena izy, azonao ampiasaina avy amin'ny maody debug izy.
+HTMLソース表示	Jereo ny loharanon'ny HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Azonao atao ny manatanteraka ilay asa fotsiny amin'ny alalan'ny fampidirana URL manomboka amin'ny 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Azonao arovana ny votoatinao amin'ny fampifangaroana izany amin'ny fiarovana HTML.
+印刷	Atontosa pirinty
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Na dia misakana ny fanontana aza izy, mety tsy hiasa tsara amin'ny mpitety tranonkala sasany.
+スクリーンショット	Sary an-tsary
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Miankina amin'ny rafitra fandidiana, ny mpitety tranonkala na ny fomba ampiasaina, dia mety tsy ho azo atao ny manakana izany, na mety tsy ho voamarika.
+ウインドウが背面に移動した時スクリーンショットの疑い	Sary an-tsaina heverina ho nalaina rehefa mifindra any aoriana ny varavarankely
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Mamaly ihany koa izy amin'ny asa hafa ankoatra ny fakana sary efijery
+2キー押下のスクリーンショットの疑い	Sary efijery ahiana nalaina tamin'ny fanindriana bokotra roa
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Tsy azo antoka tanteraka ny fomba fitiliana ireo zavatra voalaza etsy ambony; atao ho fepetra fisorohana ny fitiliana.
+スクリーンショットだけではなく、デバッグモード等も検出します	Tsy ny pikantsary ihany no fantany fa ny maody debug sy ny toy izany koa.
+ページ保存	Tehirizo ny pejy
+右クリック	Tsindrio havanana
+アドオンがインストールされていると操作できてしまいます	Raha efa napetraka ny fanitarana, dia ho afaka hampiasa azy ianao.
+コピー・カット	Adikao ary tapaho
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Miankina amin'ny fandrindrana ity plugin ity, dia mety tsy hitranga matetika ity tranga ity.
+テキスト全選択	Safidio ny lahatsoratra rehetra
+テキスト選択	Safidio ny lahatsoratra
+デバッガー起動ログ、デバッガー妨害	Taratasy firaketana fanombohan'ny mpanitsy, fanelingelenan'ny mpanitsy
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Izany dia mahatonga ny maody debug ho somary tsy mora ampiasaina ary mandrakitra fa efa natomboka ny debugger; na izany aza, mety hanakana ity fitondran-tena ity ny mpitety tranonkala sasany.
+リダイレクトするURL	Manodina ny URL
+利用規約などのページに転送すると良いでしょう	Tsara ny mandefa indray ny mpampiasa any amin'ny pejy toy ny Fepetran'ny Fampiasana.
+空欄にすると元のURLにリダイレクトをします	Raha avela banga, dia hampivadika mankany amin'ny URL tany am-boalohany izy.
+リダイレクトまでの時間	Fotoana hahatongavana amin'ny fanodina
+リダイレクトなし	Tsy misy fampivadiana
+1秒	Iray segondra
+2秒	Segondra roa
+3秒	3 segondra
+4秒	4 segondra
+5秒	Segondra 5
+6秒	Enina segondra
+7秒	7 segondra
+8秒	8 segondra
+9秒	Sivy segondra
+10秒	10 segondra
+15秒	15 segondra
+20秒	20 segondra
+25秒	25 segondra
+30秒	30 segondra
+35秒	35 segondra
+40秒	40 segondra
+45秒	45 segondra
+50秒	50 segondra
+55秒	Segondra 55
+1分	Minitra iray
+1分10秒	1 minitra sy 10 segondra
+1分20秒	1 minitra sy 20 segondra
+1分30秒	1 minitra sy 30 segondra
+1分40秒	1 minitra sy 40 segondra
+1分50秒	1 minitra sy 50 segondra
+2分	2 minitra
+ソース表示を許可する権限	Alalana hijery ny kaody loharano
+ADMINログイン時のみ通常のソース出力	Ny famoahana avy amin'ny loharano mahazatra dia miseho rehefa tafiditra amin'ny maha-ADMIN.
+USERログインで通常のソース出力	Vokatra mahazatra avy amin'ny loharano rehefa tafiditra amin'ny maha-MPAMPIASA
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Safidio na voafetra ho an'ny mpitantana ihany ny fivoahan'ny HTML mahazatra, na mitaky fidirana amin'ny kaonty.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Manery sary iray hisintona ary izay tena sintonina
+GIF形式で1×1ピクセルの透過画像	Sary mangarahara 1×1-piksely amin'ny endrika GIF
+PNG形式で1×1ピクセルの透過画像	Sary mangarahara 1×1-piksely amin'ny endrika PNG
+PNG形式で黄色い背景の警告画面	Ecran fampitandremana misy ambadika mavo amin'ny endrika PNG
+意味のないHTMLドキュメント	Antontan-taratasy HTML tsy misy dikany
+HTML保護時のHEADタグの出力	Vokatra amin'ny tag HEAD rehefa voaaro ny HTML
+出力しない	Aza atao pirinty
+TITLEタグのみ	Tetikasa: Fampidirana lahatsoratra amin'ny alalan'ny bokotra.
+WordpressのHEADタグより取得	Nalaina avy amin'ny tag HEAD an'ny WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Ho an'ny pejy natokana ho an'ny mpikambana ampiasain'ny orinasa sy ny pejy anatiny, ampy ny misafidy ny 'Tsy mamoaka' na ny 'Taggam-lohateny ihany'.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Raha tsy maka ny fampahalalana avy amin'ny tag HEAD an'ny WordPress ianao, dia tsy hiseho ny sary OGP rehefa mizara amin'ny media sosialy.
+画像botをアクセス禁止にする	Sakana ny bot sary
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Amin'ny fisakanana ireo bot-n'ny sary tsy hahazo miditra amin'ny HTML, dia afaka miaro ireo votoaty izay tsy azo arovana amin'ny alalan'ny rohy mivantana avy amin'ny fikarohana sary ianao; na izany aza, tsy vahaolana azo antoka tanteraka izany.
+AI学習用botをアクセス禁止にする	Sakana ny fidirana amin'ilay bot fampiofanana AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Amin'ny fialana amin'ny fampiasana ireo bots natao hanofanana ny AI amin'ny HTML, dia miantoka izahay fa tsy ampiasain'ny AI ny votoaty; na izany aza, tsy azo sorohina tanteraka izany.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Sakana ny fidirana amin'ny tahirin-kevitra an-tranonkala sy ny sary an-tranonkala.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Mandràra ny fidirana amin'ireo tahirin-tranonkala voaangona ho azy sy ireo pikantsary nalain'ny mpampiasa araka ny sitrapony izahay; na izany aza, tsy afaka misakana tanteraka izany izahay.
+無効なUAをアクセス禁止にする	Sakana ireo mpampiasa tsy manan-kery
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Misakana ny fidirana raha misy tarehintsoratra tsy manankery ao amin'ny kofehy mpanome tolotra mpampiasa.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Mampiseho fampitandremana rehefa miditra amin'ny Internet Explorer sy ny Microsoft Edge taloha
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Misakana ny fidirana amin'ny alalan'ny Internet Explorer sy ny Microsoft Edge taloha.
+alertメッセージを表示する言語	Fiteny ampiasaina hanehoana ny hafatra fampitandremana
+Wordpressの言語	Fitenin'ny WordPress
+ブラウザの設定言語	Fikirana momba ny fitenin'ny navigateur
+メッセージをカスタム設定されている場合は言語を変更できません	Tsy afaka manova ny fiteny ianao raha efa namboarina ny hafatra.
+同意画面の言語	Fitenin'ny efijery fanekena
+view-sourceメッセージを表示する言語	Fiteny hanehoana ny hafatra 'view-source'
+一時使用トークンの有効期限	Daty lany datin'ny token vonjimaika
+3分	3 minitra
+4分	Minitra 4
+5分	Dimy minitra
+6分	Enina minitra
+7分	Minitra fito
+8分	Valon'minitra
+9分	Sivy minitra
+10分	Folo minitra
+15分	15 minitra
+20分	20 minitra
+25分	Minitra 25
+30分	30 minitra
+35分	35 minitra
+40分	Minitra 40
+45分	45 minitra
+50分	Dimy-polo minitra
+55分	Dimy amby dimampolo minitra
+1時間	Adiny iray
+画像URL情報の有効期限を設定します	Farito ny daty lany ho an'ny fampahalalana momba ny URL-n'ny sary
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Rehefa tafapetraka, dia hofoanana ny URL-n'ny sary sy ny token vonjimaika.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Ampidirina araka ny fangatahana ny sary, saingy ampidirina ho azy 30 segondra mialoha ny fotoana voatondro.
+一時使用トークンのビット数	Isan'ny bits ao anaty token vonjimaika
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token vonjimaika no ampiasaina ho tenimiafina hanakonana ny fampahalalana momba ny URL-n'ny sary; ity fikirakirana ity dia mamaritra ny heriny.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Na dia mihamivoatra sy mihamifantoka aza ny safidy aseho eo ambanin'ny menio midina, dia mety hampitombo be ny enta-mavesatra amin'ny mpizara izany ary hiteraka famindrana angon-drakitra HTML betsaka.
+ハッシュ化アルゴリズム	Algoritman'ny hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token vonjimaika no ampiasaina ho tenimiafina hanakonana ny fampahalalana momba ny URL-n'ny sary; mitaky fanaovana hash izany, ary ity fikirakirana ity no mamaritra ny tanjaky ny hash.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Na dia miakatra aza ny hamafin'ny rehefa mitsoraka midina ianao amin'ireo safidy aseho ao amin'ny menio midina, dia mampitombo enta-mavesatra kokoa amin'ny mpizara izany.
+基本設定	Fikirana fototra
+高度な設定	Fikirana mandroso
+初期設定に戻す	Avereno ny fikirakirana voalohany
+デザイン・音の設定	Famolavolana sy fikirakirana ny feo
+イベントの設定	Fikirana ny hetsika
+初回訪問時のお知らせの設定	Fametrahana fampandrenesana ho an'ny fitsidihana voalohany
+メッセージの設定	Fikirana hafatra
+右クリックやソースコード表示時に転送する URL を設定します	Farito ny URL hosokafana rehefa manindry-ankavanana na mijery ny kaody loharano
+警告メッセージにはHTMLは使用できません	Tsy azo ampiasaina ao anatin'ny hafatra fampitandremana ny HTML.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Raha manamboatra izany ianao amin'ity efijery ity, dia tsy ho raisina an-tanisaina ny fikirakirana ny fiteny ao amin'ny takelaka Advanced.
+以下の文字列が使用できます	Azo ampiasaina ireto andalana manaraka ireto
+改行	Fizaran-tsoratra
+押下されたキー	Voatsindry ny lakile
+Neo HTML Protector 設定	Fikirana Neo HTML Protector
+お知らせ	Fampandrenesana
+メッセージ	Hafatra
+デザイン・音	Endrika sy Feo
+初期化	Fanombohana
+このプラグインについて	Momba ity plugin ity
+設定が初期化されました	Naverina tamin'ny laoniny ny fikirakirana.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Ampandehano ny plugin. Mariho fa tsy hofafana amin'ity dingana ity ny angon-drakitra IP Log Reader.
+Neo HTML Protectorについて	Momba ny Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ity plugin ity dia natao hiarovana ny HTML, ny sary ary ny votoaty hafa vokarin'ny tranokalanao WordPress, mba hisorohana ny fampiasana tsy nahazoana alalana.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Tsy azo atao ny miaro tanteraka ny votoaty. Na izany aza, amin'ny fampitandremana isaky ny azo atao sy ny fanomanana raha misy zavatra mitranga, dia tokony ho afaka hamaha ny olana araka ny fomba fanao napetraky ny governemanta isika.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Mazava ho azy fa mila miantoka ianao fa feno sy feno tanteraka ny fepetra fampiasana sy ny politika ao amin'ny tranonkalanao. Na dia tsy fitaovana hamoronana fepetra fampiasana aza ity plugin ity, dia afaka manome torohevitra izy.
+開発者: 夜桜　なの	Mpamorona: Nano Yozakura
+バージョン	Dikan-teny
+ビルド	Manangana
+サポートページ	Pejy fanohanana
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Notanterahin'i Ramatoa Ura Manira
+支援のお願い	Fangatahana fanohanana
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Misaotra anao nampiasa ny Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ny fampandrosoana sy ny fikojakojana ity plugin ity dia nitaky fotoana sy ezaka be, ary mba hanangonam-bola hanohizana ny fanatsarana sy ny fanavaozana azy dia ho feno fankasitrahana izahay raha misy afaka manohana anay ka handinika ny hanome fanomezana.
+寄付について	Momba ny fanomezana
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ny fanomezana dia tanteraka an-tsitrapo ary tsy voatery. Azo ampiasaina maimaim-poana ho an'ny rehetra ity plugin ity. Na izany aza, tena ankasitrahana ny fanohananao mba hahafahanay manohy ny fampandrosoana, ary ho faly izahay raha afaka manome izay azonao atao.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Afaka manao fanomezana ianao amin'ny alalan'ny rohy etsy ambany. Raha monina any Japana ianao dia afaka manome maimaim-poana, ary afaka manome mora foana koa ianao amin'ny fampiasana tapakila fanomezana Amazon.
+寄付先	Fikambanana mpanao asa soa
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Miaraka amin'ny fanohananareo, hanao izay tsara indrindra vitanay izahay mba hanohizana mitondra vaovao mahafinaritra ho anareo!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Misaotra anao amin'ny fanohananao izahay ary manantena ny fanohananao mitohy amin'ny ho avy.
+ライセンス	Fahazoan-dàlana
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ity plugin ity dia novolavolaina ho rindrambaiko loharano misokatra ary nahazo fahazoan-dàlana GPLv2.0 na vao haingana kokoa.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ny sasany amin'ireo teknolojia ao anatin'ity plugin ity dia arovan'ny patanty.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ny fampiasana ny teknolojia patanty dia azo atao ao anatin'ity plug-in ity ihany.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Ho an'ny fampiasana hafa rehetra, miangavy anao hifandray amin'ny mpanoratra mba hahazoana fahazoan-dàlana ara-barotra.
+本プラグインには以下のライブラリを同梱しています	Ity plugin ity dia ahitana ireto tranomboky manaraka ireto
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ity plugin ity dia ahitana ireo endritsoratra ASCII art novokarina etsy ambany, miaraka amin'ireo rakitra endritsoratra.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ity plugin ity dia ahitana mozika avy amin'ny lalao Super Famicom tsy ofisialy 'SM Trainer Hitomi 3', novolavolain'ny EJ Co., Ltd. ary noforonin'ny mpamorona ity plugin ity, ary nahazo fahazoan-dàlana ofisialy.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ity plugin ity dia ahitana hira noforonina tamin'ny fampiasana 'Keppy's YAMAHA C7', novolavolain'i Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Nampiasa Raspberry Pi 5, ChatGPT ary DeepL ihany koa aho tamin'ny famolavolana ity plugin ity.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Hita fa misy plugin fitahirizana vonjimaika. Tsy hiasa araka ny tokony ho izy ity plugin ity raha toa ka mavitrika ny plugin fitahirizana vonjimaika.
+無効なIPアドレス	Adiresy IP tsy manankery
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Mba hampiasana ity tranonkala ity dia tsy maintsy alefanao ny cookies sy ny JavaScript.
+利用規約	Fepetran'ny fampiasana
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Mba hisorohana ny fampiasana tsy nahazoana alalana sy hiantohana ny fampandehanana azo antoka ny tolotra omenay, dia mety hitahiry fampahalalana toy ny adiresy IP, ny tantaran'ny fitetezana ary ny rakitra momba ny hetsika ao anaty cookies sy tahiry angona ity tranonkala ity. Ireo fampahalalana ireo dia ampiasaina fotsiny amin'ny fampandehanana ny tranonkala sy amin'ny tanjona ara-dalàna, ary tsy havoaka amin'ny antoko fahatelo.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Mba hampiasana ity tolotra ity, dia tsy maintsy manaiky ireto asa fanodinana ireto ianao.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Azonao jerena ny votoatin'ny Politikan'ny Tsiambaratelo na efa nanome ny fanekenao ianao na tsia.
+同意する	Manaiky aho
+同意しない	Tsy manaiky aho
+確認	Fanamafisana
+プライバシーポリシー	Politikan'ny Tsiambaratelo
+通常とは異なる方法でのアクセスや操作が検出されました	Nisy fidirana na hetsika tsy mahazatra hita
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Nisy endri-javatra sasany noferana noho ny antony fiarovana sy fiarovana ny votoaty.
+デバッグモード、コンソールの起動は禁止されています	Voasakana ny maody debug sy ny fidirana amin'ny console
+以下の情報がサーバーに送信されました	Nalefa tany amin'ny mpizara ny fampahalalana manaraka ireto
+あなたのIPアドレス	Ny adiresy IP-nao
+あなたの端末とブラウザ	Ny fitaovanao sy ny mpitety tranonkala
+あなたの押下したキー	Ny fanalahidy nosindrinao
+リダイレクトをします	Halefa any amin'ny toerana hafa ianao
+コンテンツ保護のため一部の機能を制限しています	Nisy endri-javatra sasany voafetra mba hiarovana ny votoaty.
+右クリックは禁止されています	Tsy azo atao ny manindry-kavanana.
+あなたが押下したキー	Ny fanalahidy nosindrinao
+印刷、PDFへの保存は禁止されています	Voarara ny mampitonta sy mitahiry ho PDF.
+スクリーンショットは禁止されています	Voarara ny fakana sary efijery.
+スクリーンショット、デバッグモード等の起動は禁止されています	Voarara ny maka pikantsary sy mampavitrika ny maody debug.
+ページの保存は禁止されています	Voarara ny mitahiry ity pejy ity
+コピー、カットは禁止されています	Voarara ny maka tahaka sy ny manapaka.
+あなたが起こしたイベント	Hetsika efa nokarakarao
+テキストの選択は禁止されています	Tsy azo atao ny misafidy lahatsoratra.
+HTMLソース表示は禁止されています	Voarara ny mampiseho ny kaody loharano HTML.
+不正アクセスは禁止されています	Voarara ny fidirana tsy nahazoana alalana.
+アフリカーンス語	Afrikanis
+アラゴン語	Aragonés
+アラビア語	Arabo
+アッサム語	Asamiana
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Mpikatroka
+ベラルーシ語	Belarosiana
+ベンガル語	Bengaly
+ブルガリア語	Bolgara
+ボスニア語	Bosniaka
+カタロニア語	Katalana
+チェコ語	Tseky
+ウェールズ語	Kymraeg
+デンマーク語	Danemarka
+ドイツ語	Alemàna
+現代ギリシア語	Grika maoderina
+英語	Anglisy
+イギリス英語	Anglisy
+アメリカ英語	Anglisy Amerikana
+エスペラント語	Esperanto
+スペイン語	Espaniola
+エストニア語	Estoniana
+バスク語	Basque
+ペルシャ語	Persiana
+フィンランド語	Finoa
+フランス語	Frantsay
+アイルランド語	Irisy
+ガリシア語	Galicianina
+グァラニ語	Guarani
+グジャラート語	Gujaraty
+ハウサ語	Fonjo
+ヘブライ語	Hebreo
+ヒンディ語	Sanskrit
+クロアチア語	Kroaty
+ハイチ・クレオール語	Kreyôla Haïtiana
+ハンガリー語	Hongroà
+インドネシア語	Indoneziana
+イボ語	Fiteny Ibo
+アイスランド語	Islandey
+イタリア語	 Italiana
+日本語	Japoney
+ジャワ語	Javaney
+カザフ語	Kazakh
+朝鮮語	Koreana
+クルド語	Kôrdô
+キルギス語	Kyrgyz
+ラテン語	Latina
+ルクセンブルク語	Loksemborgiana
+リンガラ語	Mpanao
+リトアニア語	Litoanianina
+ラトビア語	Latvia
+マダガスカル語	Malagasy
+マオリ語	Māori
+マケドニア語	Masedônianina
+マラヤーラム語	Malayalam
+モンゴル語	Mongôlia
+マラーティー語	Marathi
+マレー語	Malay
+マルタ語	Malteàna
+ビルマ語	Birmania
+ネパール語	Nepaliana
+ノルウェー語	Norveziana
+オランダ語	Holandey
+オック語	Okisitan
+オロモ語	Naorôma
+パンジャーブ語	Panjabi
+ポーランド語	Fandravana
+パシュトー語	Pashto
+ポルトガリア語	Portiogey
+ブラジルポルトガル語	Portiogey Breziliana
+ヨーロピアンポルトガル語	Portiogey Eoropeana
+ケチュア語	Kechua
+ルーマニア語	Romaniana
+ロシア語	Rosiana
+サンスクリット語	Sanskrit
+スロバキア語	Slôvaka
+スロベニア語	Sloveniana
+セルビア語	Serba
+南セソト語	Atsimon'i Sesotho
+スンダ語	Sunda
+スウェーデン語	Soedoà
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Telôgô
+タジク語	Tajika
+タイ語	Tailandey
+トルクメン語	Tiorka
+タガログ語	Tagalog
+トルコ語	Tiorka
+タタール語	Tatàra
+ウクライナ語	Okrainiana
+ウルドゥー語	Urdu
+ウズベク語	Ozbeky
+ベトナム語	Vietnamiana
+コサ語	Kosa
+イディッシュ語	Yiddish
+簡体中国語	Sinoa tsotra
+繁体中国語	Sinoa nentim-paharazana
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Ny mpitety tranonkala ampiasainao amin'izao fotoana izao dia kinova taloha izay tsy tohanana intsony. Mba hahazoana traikefa fitetezana tranonkala azo antoka kokoa sy mahazo aina kokoa, azafady havaozy ho amin'ny kinova farany ny mpitety tranonkalanao.
+不正なリクエストです	Fangatahana tsy manankery
+画像が見つかりません	Tsy hita ny sary

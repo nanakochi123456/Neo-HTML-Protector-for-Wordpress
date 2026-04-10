@@ -1,0 +1,1292 @@
+# Turkmen translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 10:53+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Täze sazlamalar"
+
+msgid "IPログリーダー"
+msgstr "IP Girişlerini Okýan"
+
+msgid "IPアドレスログ"
+msgstr "IP salgylarynyň ýazgysy"
+
+msgid "全クリア"
+msgstr "Ähli basgançaklary tamamla"
+
+msgid "IPログが全て削除されました"
+msgstr "Ähli IP ýazgylary öçürildi."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Wagt möhüri"
+
+msgid "IPアドレス"
+msgstr "IP salgysy"
+
+msgid "ユーザーエージェント"
+msgstr "Ulanyjy agenti"
+
+msgid "イベント"
+msgstr "Waka"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Bu IP salgysy üçin maglumat ýok."
+
+msgid "EU GDPR対応"
+msgstr "ÝB GDPR-e laýyklyk"
+
+msgid "無効"
+msgstr "Nädogry"
+
+msgid "有効"
+msgstr "Dogry"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Eger-de siz ÝB-de WordPress ulanýan bolsaňyz ýa-da web sahypaňyz ÝB-de ulanyjylara gönükdirilen bolsa, munuň ýerine ýetirilendigine göz ýetiriň."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "'Tassyklamak' düwmesi 'Razymyn' ýa-da 'Razym däl' diýip üýtgär, we hereket biraz üýtgär."
+
+msgid "同意画面の色"
+msgstr "Riza beriş ekranynyň reňki"
+
+msgid "自動"
+msgstr "Awtomatik"
+
+msgid "ライトモード"
+msgstr "Ýeňil režim"
+
+msgid "ダークモード"
+msgstr "Gara režiim"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Razylyk ekrany üçin reňk sxemasyny kesgitläň"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Razylyk ekranyndaky mazmunyň bulanmagy"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Raza ekranynda görkezilýän mazmunyň bulanma derejesini kesgitläň"
+
+msgid "同意画面の透過"
+msgstr "Razylyk ekranynyň aç-açanlygy"
+
+msgid "透過なし"
+msgstr "Açyklyk ýok"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Razylyk ekranynyň opaklygyny sazlaň"
+
+msgid "お知らせの1行目"
+msgstr "Jikme-jiklikleriň ilkinji setiri"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Bu habar sahypa ilkinji gezek ýüklenende hemişe görkezilýär."
+
+msgid "お知らせの2行目"
+msgstr "Bildirişiň ikinji setiri"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Bu habar diňe EU GDPR güýje gireninde ilkinji ekranda hemişe görünjekdir."
+
+msgid "お知らせの3行目"
+msgstr "Bildirişiň üçünji setiri"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ol Gizlinlik syýasatyna baglanyşygyň sag tarapynda görünjek."
+
+msgid "非EU向け確認の文字列"
+msgstr "ÝB agza däl ýurtlar üçin tassyklama teksti"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "ÝB GDPR üçin razylyk teksti"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "ÝB GDPR-iň ' razylyk bermäň' bölümi üçin tekst"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Gizlinlik syýasatynyň teksti"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Şahsyýet goragy syýasatynyň URL salgysyny şu ýere goýuň."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Şahsy maglumatlar syýasatyna aşakdakylary goşuň."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Aldawçy hereketleri anyklamak üçin IP salgylary ýaly identifikatorlar kukilerde we maglumatlar bazasynda saklanýar. Saklanan maglumatlar administratoryň islegine görä pozulýar."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Surat goragy işjeňleşdirilen wagty suratlaryň dogry ýerine ýetirilmegini üpjün etmek üçin biz IP salgysy we surat faýlynyň ady bar bolan haşlanan maglumatlary maglumatlar bazamyzda 60 minutlap saklaýarys."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Eger ulanyş şertlerini düzüp goýýan bolsaňyz, olaryň baglanyşygyny gizlinlik syýasatyňyza goşandygyňyza göz ýetiriň."
+
+msgid "利用規約の文字列"
+msgstr "Ulanyş şertleriniň teksti"
+
+msgid "利用規約のページ"
+msgstr "Şertler we düzgünler sahypasy"
+
+msgid "ページ選択なし"
+msgstr "Sahypa saýlanmady"
+
+msgid "検索エンジン等のURL"
+msgstr "Gözleg motorlary we ş.m. üçin URL-lar"
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Ulanyjylar razy bolmadyk halatynda olary başga sahypalara ugradýan gözleg motorlary we şonça meňzeş saýtlaryň URL-ini kesgitläň."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Sylag režimi, konsolda duýduryş habarlary"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Sag düwme bilen duýduryş habary"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "PDF görnüşinde çap etmek we saklamak barada duýduryş habary"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Ekran suratyndaky duýduryş habary"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Şübheli ekran suratlary barada duýduryş habary"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Ähli tekst saýlanan wagty duýduryş habary"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Sahypany ýatda saklamak barada duýduryş habary"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Köpeltmek ýa-da kesmek wagtynda görkezilýän habar"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "HTML çeşmesini görýän wagty görkeziljek habar"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "HTML-i obfuskirläp ýa-da goranyňda çeşme kodunyň iň ýokarsynda görkeziljek habar"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "HTML goragy wagty bir gezeklik autentifikasiýa tokeni ýatrylsa görkeziljek habar"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Eger kukiler ýa-da JavaScript öçürilen bolsa, görkeziljek habar"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Aslynda, bu diňe JavaScript öçürilen wagty görkezilýär."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Surat gorag astyna alynanda, ol ýüklener we şol suratda"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML koduny bulantmak"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Bu standart HTML siňdirmesi; ony dekodirläp bilýän web sahypalary hem bar."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Bu opsiýany işjeňleşdirmek size view-source žurnalyny almaga mümkinçilik berýär."
+
+msgid "HTML保護"
+msgstr "HTML goragy"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ol diňe iň az zerur HTML-i çykarýar—hatda HTML siňdirilmegini ulananyňdakyndan hem az—we BODY teginiň içindäki mazmun düýbünden çykarylmaýar."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Bu Firefox-a degişli däl."
+
+msgid "SEOに著しく影響があります"
+msgstr "Bu SEO-a uly täsir edýär."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "JavaScript ulanyp HTML döretmek"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox-dan gaçmak üçin HTML-i JavaScript arkaly görkezýäris."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScript görkezilmegini işjeňleşdirmek web sahypasynyň ýüklenme tizligini ep-esli peseldýär."
+
+msgid "画像の保護"
+msgstr "Suraty goramak"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Img teg her çagyrylanda suraty goramaly"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "WordPress-e ýüklenen ähli suratlary tutuş HTML çykyşynda goramaly."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Suratlaryň ýüklänilmeginiň öňüni alýar"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Surat maglumatlary goralan wagty, biz takmynan ähli ýüklämeleri gadagan edýäris, ýeke-täk bir gezek ulanylýan URL-ler berýäris, sessiýada saklanan tokenler arkaly awtentifikasiýa edýäris we suratlary PHP arkaly görkezýäris; bu bolsa surat ogurçylygynyň takmynan ähli ýagdaýlarynyň öňüni netijeli alýar."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Surat maglumatlary goraglandyrylanda keshleme işlemez, bu bolsa saýtyň geljekki ziyaratlarda haýal ýüklenmegine we netijede SEO-na täsir etmegine getirýär."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Surat maglumatlaryny goramak maglumatlar bazasynyň ýüküni artdyryp biler."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Eger 'img teg çagyrylanda suratlary goramak' opsiýasyny saýlasaňyz, ulgam img teg döredilende add_filter-i ulanyp süzgüni ornaşdyrýar; ýöne käbir temalar bilen bu dogry işlemegi mümkin däl."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Eger 'Bütin HTML çykyşynda WordPress-e ýüklenen ähli suratlary goramak' opsiýasyny saýlasaňyz, plugin WordPress-iň takmynan ähli amallaryny öz içine alar we mazmundaky her img tegini işläp biler. Käbir temalar bilen bu dogry işlemegi mümkin däl."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Üns beriň: aýratyn suratlar hökmünde bellän suratlar OGP maglumatlary hökmünde paýlaşylar we goralmaz. Eger olary hökmän goramak isleseňiz, HTML goragyny işjeňleşdireniňizde ösen sazlamalarda HEAD teginiň çykyşynyň sazlamasyny üýtgetmeli."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Operasion ulgamyň standart funksiýasy hökmünde girizilen ekran suraty funksiýasyny gorap bolmaýar."
+
+msgid "画像URLの保護"
+msgstr "Surat URL-laryny goramak"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Bu surat goragy bilen bilelikde ulanylmalydyr; ýeke ulanylanda hiç hili maksada hyzmat etmeýär."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Ol JavaScript arkaly ýüklenýändigi üçin bu SEO-a täsir edýär."
+
+msgid "画像のウォーターマーク"
+msgstr "Surata suw damgasy"
+
+msgid "右下"
+msgstr "Aşak sag"
+
+msgid "ランダム位置"
+msgstr "Täsadüfi ýagdaý"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Surata goragy bilen bilelikde ulanylanda, dinamik suw belgileri awtorlyk hukugynyň eýeçiligini anyk görkezýär we tomaşaçylara gözegçilik edilýändigi baradaky duýgy döredýär, şonuň bilen olary gadagan ediji roluny oýnaýar."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Diňe JPG, PNG we WebP formatlary goldanylýar."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Muny işjeňleşdirmek serweriň ýüküni artdyrar."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Garaňkylandyrmak we goramak wagtynda HTML çeşme kodundan ASCII-sungaty çykarmak"
+
+msgid "表示なし"
+msgstr "Ekran ýok"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "'view-source' ulanyp HTML çeşmesini synlanda duýduryş berýän ASCII-sungaty görkezýär."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Nishana alnan hereket ýerine ýetirilende görkezmäni dizaýn etmek"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Sary fon üstünde gara tekstden ybarat esasy dizaýn"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Gara fon üstünde gyzyl teksti bolan gorku usulyndaky dizaýn"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Gara fon üstünde gyzyl şöhle saçýan teksti öz içine alýan dizaýn"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Nishan hereketi ýerine ýetirilende çalynýan fon saz"
+
+msgid "サウンドなし"
+msgstr "Ses ýok"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Söweş we Ýeňiş - 1 minut 16,3 sekunt - 630 056 bait - 64 kbps - Litsenziýa: CC 2.1 ýa-da soňrak"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3,8 sekunt - 32 364 bait - 64 kbps - Litsenziýa: GPL 2.0 ýa-da soňrak"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 sekunt - 195,578 bait - 64 kbps - Litsenziýa: GPL 2.0 ýa-da soňrak"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – kompýuterde döredilen wersiýa, ýokary tizlikli wersiýa – 1 minut 57,6 sekunt – 724,457 bait – 48 kbps – Litsenziýa: CC BY-ND 4.0 ýa-da soňrak"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Si bemol minorindaky Scherzo, Op. 2 – kompýuter tarapyndan döredilen wersiýa, ýokary tizlikli gysgaldylan wersiýa – 1 minut 48,0 sekunt – 665,369 bait – 48 kbps – Litsenziýa: CC BY-ND 4.0 ýa-da soňrak"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Sanaw: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 sekunt – 183 926 bait – 64 kbps – Litsenziýa: Jemagat mülkiýeti"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stil fanfara – 2,2 sekunt – 10 536 bait – 32 kbps – Litsenziýa: Açyk domen"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stil intro – 42,1 sekunt – 179 138 bait – 32 kbps – Litsenziýa: Açyk domen"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "ChatGPT tarapyndan duýduryş - 3,8 sekunt - 109 700 bait - 256 kbps - Litsenziýa: Açyk domen"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ýokary tizligi bolan, zyýanly programma üpjünçiligini anyklamak duýduryşyna meňzeş ses – 1-nji bölüm, ChatGPT tarapyndan – 3,3 sekunt – 102 850 bait – 256 kbps – Litsenziýa: Açyk domen"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ýokary çaltlykly, zyýanly programma anyklama duýduryşyna meňzeş ses, 2-nji bölüm, ChatGPT tarapyndan - 3,3 sekunt - 103 122 bait - 256 kbps - Litsenziýa: Açyk domen"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "MRI usulyndaky ses ChatGPT tarapyndan – 1 minut 14,9 sekunt – 3 340 392 bait – 320 kbps – Litsenziýa: Açyk domen"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Duýduryş wagtynda çalynjak fon sazyny saýlaň."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ol geň galdyryjy atmosfera döredýär."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Firefox-da ses böwetlenýär"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Belgilenen hereket ýerine ýetirilende bip sesi çykýar."
+
+msgid "有効 音量小さ目"
+msgstr "Ýan, ses pes"
+
+msgid "有効 音量大き目"
+msgstr "Işjeň, ses ýokary derejesine goýuldy"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Duýduryş görkezilýän mahaly ähli klawiatura we siçan wakalaryna jogap hökmünde bip sesi eşidiler."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Duýduryş görkezilýän mahaly enjamyň dolanyp bolmajak derejede işläp başlandygyny duýdurýar."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Belgili bir hereket ýerine ýetirilende syçan kursoruny gizlemek"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Duýduryş görkezilýän mahaly brauzer sebitinde syçan kursoruny gizleýär."
+
+msgid "デバッグモード"
+msgstr "Sylag režimi"
+
+msgid "妨害＋記録のみ"
+msgstr "Diňe päsgelçilik + ýazgylar"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Gurçylyk + Ýazgy + Görkezme + Ugrukdyrma"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Menýu arkaly henizem oňa girip bilersiňiz."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Firefox-da ýalňyşlyklary düzetmek režimi"
+
+msgid "ブラウザーコンソール"
+msgstr "Brauzer konsoly"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Aslynda, ony debug režiminden işledip bilersiňiz."
+
+msgid "HTMLソース表示"
+msgstr "HTML çeşmesini gör"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Siz operasiýany 'view-source:' bilen başlaýan URL-i girizmek arkaly aňsatlyk bilen ýerine ýetirip bilersiňiz."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Siz bu usuly HTML goragy bilen birleşdirip mazmunyňyzy gorap bilersiňiz."
+
+msgid "印刷"
+msgstr "Basyň"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Çap etmegi gadagan etse-de, käbir brauzerlerde dogry işlemegi mümkin däl."
+
+msgid "スクリーンショット"
+msgstr "Ekran suraty"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Ulanylýan operasiýa ulgamyna, brauzere ýa-da usula baglylykda, muny gadagan etmek mümkin bolmaz ýa-da anyklanmaz."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Penjire fon arkasyna geçende güman edilýän ekran suraty"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Ol skrinşotlardan başga-da funksiýalara"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Iki düwmä basyp alnan şübheli ekran suraty"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Ýokardaky maddalaryň anyklama usullary doly kepillikli däl; anyklama çäreleri öňüni alyş çäresi hökmünde geçirilýär."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ol diňe skrinşotlary däl, eýsem debug modlaryny we ş.m. hem anyklap bilýär."
+
+msgid "ページ保存"
+msgstr "Sahypany sakla"
+
+msgid "右クリック"
+msgstr "Oň düwme basyň"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Eger goşmaça gurnalan bolsa, ony ulanyp bilersiňiz."
+
+msgid "コピー・カット"
+msgstr "Köpeltmek we kesmek"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Bu goşundynyň sazlamalaryna baglylykda, bu wakany seýrek duşup bilersiňiz."
+
+msgid "テキスト全選択"
+msgstr "Ähli teksti saýlaň"
+
+msgid "テキスト選択"
+msgstr "Teksti saýlaň"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Debuggeriň başlangyç ýazgysy, debuggeriň päsgelçiligi"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Bu debug režimini biraz ulanyja amatly däl edýär we debuggeriň işledilendigini ýazga alýar; emma käbir brauzerler bu hereketi gadagan edip biler."
+
+msgid "リダイレクトするURL"
+msgstr "URL-i ugrukdyrmak"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Ulanyjylary Ulanyş şertleri ýaly sahypalara ugratmak gowy pikir bolar."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Eger boş goýulsa, ol asyl URL-e ugrukdyrylýar."
+
+msgid "リダイレクトまでの時間"
+msgstr "Ýola ugradyş wagtyna çenli"
+
+msgid "リダイレクトなし"
+msgstr "Ugrukdyrma ýok"
+
+msgid "1秒"
+msgstr "1 sekunt"
+
+msgid "2秒"
+msgstr "2 sekunt"
+
+msgid "3秒"
+msgstr "3 sekunt"
+
+msgid "4秒"
+msgstr "4 sekunt"
+
+msgid "5秒"
+msgstr "5 sekunt"
+
+msgid "6秒"
+msgstr "6 sekunt"
+
+msgid "7秒"
+msgstr "7 sekunt"
+
+msgid "8秒"
+msgstr "8 sekunt"
+
+msgid "9秒"
+msgstr "9 sekunt"
+
+msgid "10秒"
+msgstr "10 sekunt"
+
+msgid "15秒"
+msgstr "15 sekunt"
+
+msgid "20秒"
+msgstr "Ýigrimi sekunt"
+
+msgid "25秒"
+msgstr "25 sekunt"
+
+msgid "30秒"
+msgstr "30 sekunt"
+
+msgid "35秒"
+msgstr "35 sekunt"
+
+msgid "40秒"
+msgstr "40 sekunt"
+
+msgid "45秒"
+msgstr "45 sekunt"
+
+msgid "50秒"
+msgstr "50 sekunt"
+
+msgid "55秒"
+msgstr "55 sekunt"
+
+msgid "1分"
+msgstr "1 minut"
+
+msgid "1分10秒"
+msgstr "1 minut 10 sekunt"
+
+msgid "1分20秒"
+msgstr "1 minut 20 sekunt"
+
+msgid "1分30秒"
+msgstr "1 minut 30 sekunt"
+
+msgid "1分40秒"
+msgstr "1 minut 40 sekunt"
+
+msgid "1分50秒"
+msgstr "1 minut 50 sekunt"
+
+msgid "2分"
+msgstr "2 minut"
+
+msgid "ソース表示を許可する権限"
+msgstr "Menzil kodyny görmek üçin rugsat"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normal çeşme çykyşy diňe ADMIN hökmünde girilen wagty işleýär."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Ulanyjy hökmünde gireniňizde adaty çeşme çykyşy"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Standart HTML çykyşynyň diňe administratiwçilere çäklendiriljekdigini ýa-da ulanyjynyň girizilmegini talap etjekdigini saýlaň."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Suraty göçürmäge mejbur etmek we hakykatda nämeleriň göçürilýändigi"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "GIF formatyndaky 1×1 piksel ölçegli şeffaf surat"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "PNG formatyndaky 1×1 pikselden ybarat şeffaf surat"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "PNG formatyndaky sary fonly duýduryş ekrany"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Mäni ýok HTML dokumenti"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HTML goralan wagty HEAD teginiň çykyşy"
+
+msgid "出力しない"
+msgstr "Basyp çykarma"
+
+msgid "TITLEタグのみ"
+msgstr "Diňe TITLE tegini"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "WordPress HEAD teginden alyndy"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Korporatiw ulanyş üçin diňe agzalar üçin niýetlenen sahypalar we içerki sahypalar üçin 'Çykarma' ýa-da 'Diňe TITLE tegini' saýlamak ýeterlik bolar."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "WordPress HEAD teginden maglumatlary almasaňyz, sosial mediada paýlaşanyňyzda OGP suraty görkezilmez."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Surat botyny blokla"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Surat botlarynyň HTML-e girmeginiň öňüni alyp, surat gözlegi arkaly göni baglanyşyk goýmakdan gorap bilmeýän mazmuny gorap bilersiňiz; ýöne bu doly ygtybarly çözgüt däl."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "AI tälim botyna girilişi gadagan ediň"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "HTML-de sun'iy aň öwredişi üçin niýetlenen botlaryň ulanylmagyny öňüni almak arkaly mazmunyň sun'iy aň tarapyndan ulanylmazlygyny üpjün edýäris; ýöne muny doly öňüni alyp bolmaýar."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Web arhiwlerine we web snapshotlaryna girilmegini gadagan etmek"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Biz awtomatiki ýygnalan web arhivlerine we ulanyjynyň islegine görä alnan ekran suratlaryna girilmegi gadagan edýäris; emma munuň doly öňüni alyp bilmeris."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Bölüniň nädogry ulanyjy agentlerini blokla"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Eger ulanyjy agentiniň setirinde nädogry nyşanlar bar bolsa, elýeterçiligi gadagan edýär."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Internet Explorer we köne Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Internet Explorer we köne Microsoft Edge arkaly girilmegiň öňüni alýar"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Duýduryş habarlarynyň görkezilýän dili"
+
+msgid "Wordpressの言語"
+msgstr "WordPress dilleri"
+
+msgid "ブラウザの設定言語"
+msgstr "Brauzeriň dil sazlamalary"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Habarlary ýöriteleşdirilen bolsa, dili üýtgedip bilmeýärsiňiz."
+
+msgid "同意画面の言語"
+msgstr "Razylyk ekranynyň dili"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "'view-source' habaryny görkezjek dil"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Wagtlaýyn tokenleriň möhleti"
+
+msgid "3分"
+msgstr "3 minut"
+
+msgid "4分"
+msgstr "4 minut"
+
+msgid "5分"
+msgstr "Bäş minut"
+
+msgid "6分"
+msgstr "6 minut"
+
+msgid "7分"
+msgstr "7 minut"
+
+msgid "8分"
+msgstr "Sekiz minut"
+
+msgid "9分"
+msgstr "Dokuz minut"
+
+msgid "10分"
+msgstr "On minut"
+
+msgid "15分"
+msgstr "15 minut"
+
+msgid "20分"
+msgstr "Ýigrimi minut"
+
+msgid "25分"
+msgstr "25 minut"
+
+msgid "30分"
+msgstr "30 minut"
+
+msgid "35分"
+msgstr "Otuz bäş minut"
+
+msgid "40分"
+msgstr "40 minut"
+
+msgid "45分"
+msgstr "45 minut"
+
+msgid "50分"
+msgstr "50 minut"
+
+msgid "55分"
+msgstr "55 minut"
+
+msgid "1時間"
+msgstr "Bir sagat"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Surat URL maglumatlarynyň möhleti gutarýan senesini kesgitläň"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Ýükleneninden soň, surat URL-i we wagtlaýyn token geçersiz bolar."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Suratlar islege görä ýüklener, ýöne olar bellenen wagtyň 30 sekunt öňünden awtomatik ýüklener."
+
+msgid "一時使用トークンのビット数"
+msgstr "Wagtlaýyn tokeniň bit sany"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Wagtlaýyn token surat URL maglumatlaryny şifrlemek üçin parol hökmünde ulanylýar; bu sazlama onuň güýjüni kesgitleýär."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Açylan menýuň aşagynda görkezilen opsiýalar has-da jikme-jikleşdirilse-de, bu serweriň üstüne agyr ýük salyp, uly möçberde HTML maglumatlarynyň geçirilmegine getirip biler."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Hash algoritmi"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Surat URL maglumatlaryny şifrlemek üçin wagtlaýyn token parol hökmünde ulanylýar; munuň üçin haşlama gerek bolýar we bu sazlama şol haşlamanyň güýjüni kesgitleýär."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Açylan menýudaky opsiýalary aşak skroll edeniňizde intensivlik artýar, emma bu serweriň üstüne has uly ýük salýar."
+
+msgid "基本設定"
+msgstr "Esasy sazlamalar"
+
+msgid "高度な設定"
+msgstr "Ösen sazlamalar"
+
+msgid "初期設定に戻す"
+msgstr "Öňki sazlamalary dikelt"
+
+msgid "デザイン・音の設定"
+msgstr "Dizaýn we ses sazlamalary"
+
+msgid "イベントの設定"
+msgstr "Çäräniň sazlamalary"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ilkinji gezek girilýän sahypalar üçin bildirişleri sazlamak"
+
+msgid "メッセージの設定"
+msgstr "Habar sazlamalary"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Sag düwme basylanda ýa-da çeşme koduny görende açyljak URL-i belläň"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML duýduryş habarlarynda ulanylmaz."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Eger bu ekranda muny sazlasaňyz, Ösen goşundydaky dil sazlamalary nazara alynmaz."
+
+msgid "以下の文字列が使用できます"
+msgstr "Aşakdaky setirler ulanylyp bilner"
+
+msgid "改行"
+msgstr "Setir bozulmasy"
+
+msgid "押下されたキー"
+msgstr "Açar basyldy"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML goragçysynyň sazlamalary"
+
+msgid "お知らせ"
+msgstr "Duýduryş"
+
+msgid "メッセージ"
+msgstr "Habar"
+
+msgid "デザイン・音"
+msgstr "Dizaýn we Ses"
+
+msgid "初期化"
+msgstr "Başlandyryş"
+
+msgid "このプラグインについて"
+msgstr "Bu goşundy barada"
+
+msgid "設定が初期化されました"
+msgstr "Täzeden sazlandy"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Plugini başlangyçlaň. IP Log Reader maglumatlarynyň şu tapgyrda pozulmajakdygyny bellemeli."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Neo HTML Goranýjy barada"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Bu plugin siziň WordPress saýtyňyz tarapyndan döredilen HTML-i, suratlary we beýleki mazmuny rugsatsyz ulanylmakdan goramak üçin niýetlenendir."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Mazmuny doly goramak mümkin däl. Emma mümkin boldugyça duýduryş berip we haýsydyr bir hadysa ýüze çyksa diýip taýýarlyk görsek, meseläni hökümet tarapyndan kesgitlenen tertiplere laýyklykda çözüp bileris."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Elbetde, hyzmat şertleriňiziň we saýt syýasatlaryňyzyň doly we giňişleýin bolmagyny üpjün etmeli. Bu goşundysy hyzmat şertlerini döretmek üçin gural bolmasa-da, käbir maslahat berip biler."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Ösüşçi: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Wersiýa"
+
+msgid "ビルド"
+msgstr "Gurmalaň"
+
+msgid "サポートページ"
+msgstr "Goldaw sahypasy"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Miss Ura Manira tarapyndan ýerine ýetirildi"
+
+msgid "支援のお願い"
+msgstr "Goldaw üçin haýyş"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Neo HTML Protector-i ulananyňyz üçin sag boluň!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Bu plaginini işläp düzmek we saklamak köp wagt we tagalla talap etdi, we ony kämilleşdirmek we täzeläp durmak üçin serişdeleri toplamak maksady bilen bize goldaw berip biljek islendik adamyň sadaka bermegini hoşallyk bilen kabul ederis."
+
+msgid "寄付について"
+msgstr "Sadaka barada"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Sadakalar doly erkin we hökmany däl. Bu goşundyny hemmeler mugt ulanyp biler. Emma ösüşi dowam etdirmegimize goldawyňyz üçin uly minnetdarlyk bildirýäris we mümkinçiligiňizçe goşant goşsaňyz begenýäris."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Aşakdaky baglanyşyk arkaly sadaka berip bilersiňiz. Eger Ýaponiýada ýaşaýan bolsaňyz, mugt sadaka berip bilersiňiz we Amazon sowgat kuponlaryny ulanyp aňsatlyk bilen hem sadaka berip bilersiňiz."
+
+msgid "寄付先"
+msgstr "Hayyr-sahawat guramalary"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Siziň goldawyňyz bilen size ajaýyp täzelikleri getirmäge elimizden gelenini ederis!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Biz goldawyňyz üçin minnetdar we geljekde hem goldawyňyza garaşýarys."
+
+msgid "ライセンス"
+msgstr "Litsenziýa"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Bu goşundy açyk çeşme programma üpjünçiligi hökmünde işlenip düzüldi we GPLv2.0 ýa-da soňrak wersiýa esasynda lisenziýalaşdyryldy."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Bu plagin içine girizilen käbir tehnologiýalar patentler bilen goralan."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Patentlenen tehnologiýanyň ulanylmagy diňe şu goşundada rugsat berilýär."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Başga islendik ulanyş üçin, söwda lisenziýasyny almak üçin awtor bilen habarlaşyň."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Bu plagin aşakdaky kitaphanalary öz içine alýar"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Bu goşundada aşakda döredilen ASCII surat şriftleri we şrift faýllary bar."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Bu goşundada EJ Co., Ltd. tarapyndan işlenip düzülen we bu goşundanyň döredijisi tarapyndan kompozisiýa edilen resmi däl Super Famicom oýny 'SM Trainer Hitomi 3'-den alnan sazlar bar we ol resmi taýdan ygtyýarlandyrylan."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Bu plagin Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Men bu goşundyny işläp düzmekde Raspberry Pi 5-i, ChatGPT-i we DeepL-i hem ulandym."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Käşleme plaginini anyklandy. Eger käşleme plaginini işjeňleşdirilse, bu plagin dogry işlemez."
+
+msgid "無効なIPアドレス"
+msgstr "Nädogry IP salgysy"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Bu web sahypasyny ulanmak üçin kukileri we JavaScript-i işjeňleşdirmeli."
+
+msgid "利用規約"
+msgstr "Ulanyş şertleri"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ruhsatsyz ulanylyşyň öňüni almak we hyzmatlarymyzyň howpsuz işlemegini üpjün etmek üçin, bu web sahypasy IP salgylary, gözleg taryhy we işjeňlik ýazgylary ýaly maglumatlary kukilerde we maglumatlar bazalarynda saklap biler. Bu maglumatlar diňe web sahypasynyň işlemegi we kanuny maksatlar üçin ulanylýar we üçünji taraplara berilmez."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Bu hyzmaty ulanmak üçin, bu işleme işjeňliklerine razy bolmaly."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Siz razylyk berendigiňizden ýa-da bermänligiňizden garaşsyz, Gizlinlik syýasatynyň mazmunyny görüp bilersiňiz."
+
+msgid "同意する"
+msgstr "Men razy"
+
+msgid "同意しない"
+msgstr "Men razy däl."
+
+msgid "確認"
+msgstr "Tassyklama"
+
+msgid "プライバシーポリシー"
+msgstr "Gizlinlik syýasaty"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Adaty däl giriş ýa-da işjeňlik anyklandy"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Käbir aýratynlyklar howpsuzlyk we mazmuny goramak maksady bilen çäklendirildi."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Debug režimi we konsol girmegi öçürilipdir."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Aşakdaky maglumatlar serweriňize iberildi."
+
+msgid "あなたのIPアドレス"
+msgstr "Siziň IP salgysyňyz"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Enjamingiz we brauzeriňiz"
+
+msgid "あなたの押下したキー"
+msgstr "Siz basýan açar"
+
+msgid "リダイレクトをします"
+msgstr "Siz başga sahypaya ugrukdyrylarsynyz"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Mazmuny goramak üçin käbir aýratynlyklar çäklendirildi."
+
+msgid "右クリックは禁止されています"
+msgstr "Ong düwmä basmak rugsat berilmeýär"
+
+msgid "あなたが押下したキー"
+msgstr "Siz basýan açar"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Basyş we PDF görnüşinde ýazga saklamak gadagan."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Ekran suratlary gadagan."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ekran suratlaryny almak we debug režimini ýakmak gadagan."
+
+msgid "ページの保存は禁止されています"
+msgstr "Bu sahypany ýatda saklamak gadagan."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Köpeltmek we kesip almak gadagan."
+
+msgid "あなたが起こしたイベント"
+msgstr "Siz guramaçylyk eden wakalar"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Teksti saýlamak rugsat berilmeýär"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML çeşme koduny görkezmek gadagan."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Rugsatsyz girmäge gadagan"
+
+msgid "アフリカーンス語"
+msgstr "Afrikanca"
+
+msgid "アラゴン語"
+msgstr "Aralygy"
+
+msgid "アラビア語"
+msgstr "Arapça"
+
+msgid "アッサム語"
+msgstr "Assamça"
+
+msgid "アゼルバイジャン語"
+msgstr "Azərbaycanca"
+
+msgid "バシュキール語"
+msgstr "Başky"
+
+msgid "ベラルーシ語"
+msgstr "Belarusça"
+
+msgid "ベンガル語"
+msgstr "Bengal dili"
+
+msgid "ブルガリア語"
+msgstr "Bulgar"
+
+msgid "ボスニア語"
+msgstr "Bosniýa"
+
+msgid "カタロニア語"
+msgstr "Katalon"
+
+msgid "チェコ語"
+msgstr "Çeh"
+
+msgid "ウェールズ語"
+msgstr "Uelsli"
+
+msgid "デンマーク語"
+msgstr "Daniýaça"
+
+msgid "ドイツ語"
+msgstr "Alman"
+
+msgid "現代ギリシア語"
+msgstr "Häzirki zaman grek"
+
+msgid "英語"
+msgstr "Iňlisçe"
+
+msgid "イギリス英語"
+msgstr "Britaniyaly iňlis"
+
+msgid "アメリカ英語"
+msgstr "Amerikan iňlis dili"
+
+msgid "エスペラント語"
+msgstr "Umidlenen dil"
+
+msgid "スペイン語"
+msgstr "Ispanca"
+
+msgid "エストニア語"
+msgstr "Estoniýaly"
+
+msgid "バスク語"
+msgstr "Basklý"
+
+msgid "ペルシャ語"
+msgstr "Farsça"
+
+msgid "フィンランド語"
+msgstr "Finlandiyaly"
+
+msgid "フランス語"
+msgstr "Fransuz"
+
+msgid "アイルランド語"
+msgstr "Irland"
+
+msgid "ガリシア語"
+msgstr "Galişiyaly"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Ibraniý"
+
+msgid "ヒンディ語"
+msgstr "Hindçe"
+
+msgid "クロアチア語"
+msgstr "Horwaty"
+
+msgid "ハイチ・クレオール語"
+msgstr "Gaiti kreol"
+
+msgid "ハンガリー語"
+msgstr "Wengerçe"
+
+msgid "インドネシア語"
+msgstr "Indoneziýaly"
+
+msgid "イボ語"
+msgstr "Ibo dili"
+
+msgid "アイスランド語"
+msgstr "Islandça"
+
+msgid "イタリア語"
+msgstr "Italiýaly"
+
+msgid "日本語"
+msgstr "Ýaponça"
+
+msgid "ジャワ語"
+msgstr "Jawalı"
+
+msgid "カザフ語"
+msgstr "Gazak"
+
+msgid "朝鮮語"
+msgstr "Koreýaly"
+
+msgid "クルド語"
+msgstr "Kürdçe"
+
+msgid "キルギス語"
+msgstr "Kirgiz"
+
+msgid "ラテン語"
+msgstr "Latyn"
+
+msgid "ルクセンブルク語"
+msgstr "Lüksemburgça"
+
+msgid "リンガラ語"
+msgstr "Dil"
+
+msgid "リトアニア語"
+msgstr "Litwaly"
+
+msgid "ラトビア語"
+msgstr "Latwiýaça"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Makedonça"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Moğolça"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Malta dili"
+
+msgid "ビルマ語"
+msgstr "Birmanci"
+
+msgid "ネパール語"
+msgstr "Nepal dili"
+
+msgid "ノルウェー語"
+msgstr "Norwejiýaly"
+
+msgid "オランダ語"
+msgstr "Gollandiýa"
+
+msgid "オック語"
+msgstr "Oksitan"
+
+msgid "オロモ語"
+msgstr "Ýeri"
+
+msgid "パンジャーブ語"
+msgstr "Pendjapça"
+
+msgid "ポーランド語"
+msgstr "Polşa dili"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugaliýa dilinde"
+
+msgid "ブラジルポルトガル語"
+msgstr "Braziliýa portugaly"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Ýewropa portugaly"
+
+msgid "ケチュア語"
+msgstr "Iňlisçe"
+
+msgid "ルーマニア語"
+msgstr "Rumyn dilinde"
+
+msgid "ロシア語"
+msgstr "Rusça"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovak"
+
+msgid "スロベニア語"
+msgstr "Sloveniýa dilinde"
+
+msgid "セルビア語"
+msgstr "Serbçe"
+
+msgid "南セソト語"
+msgstr "Günorta Sesuto"
+
+msgid "スンダ語"
+msgstr "Sunda dili"
+
+msgid "スウェーデン語"
+msgstr "Şwedçe"
+
+msgid "スワヒリ語"
+msgstr "Suwahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Tajik"
+
+msgid "トルクメン語"
+msgstr "Türkiýe"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Türkiýe"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukrainça"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Özbek"
+
+msgid "ベトナム語"
+msgstr "Wýetnamly"
+
+msgid "コサ語"
+msgstr "Saç"
+
+msgid "イディッシュ語"
+msgstr "Ýidiş"
+
+msgid "簡体中国語"
+msgstr "Gysgaldylan hytaý dili"
+
+msgid "繁体中国語"
+msgstr "Däp bolan hytaý dili"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Häzir ulanýan brauzeriňiz köne wersiýa bolup, goldaw berilmeýär. Has howpsuz we amatly brauzing tejribesini üpjün etmek üçin brauzeriňizi iň soňky wersiýasyna täzeläň."
+
+msgid "不正なリクエストです"
+msgstr "Nädogry haýyş"
+
+msgid "画像が見つかりません"
+msgstr "Surat tapylmady"
+

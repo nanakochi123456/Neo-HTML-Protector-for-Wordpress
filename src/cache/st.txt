@@ -1,0 +1,423 @@
+設定	Litlhophiso
+IPログリーダー	Mmadi wa Lirekoto tsa IP
+IPアドレスログ	Lengolo la liaterese tsa IP
+全クリア	Phethela maemo ohle
+IPログが全て削除されました	Liloko tsohle tsa IP li hlakotsoe.
+ID	Boitsebiso ba motho
+タイムスタンプ	Nako ea ketsahalo
+IPアドレス	Aterese ea IP
+ユーザーエージェント	Moemeli oa mosebelisi
+イベント	Ketsahalo
+IPアドレスのデータはありません	Ha ho na datha bakeng sa aterese ena ea IP.
+EU GDPR対応	Ho latela GDPR ea EU
+無効	Ha e sebetse
+有効	E nepahetse
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Haeba o sebedisa WordPress ka hara EU, kapa haeba websaete ya hao e lebisitswe ho basebedisi ba ka hara EU, ka kopo etsa bonnete ba hore sena se kenyeleditswe.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Konopo ea 'Netefatsa' e tla fetoha ho ba 'Tumellana' kapa 'Hana', 'me tsela eo e sebetsang ka eona e tla fetoha hanyenyane.
+同意画面の色	Mmala oa skrine sa tumello
+自動	Ka boiketsetso
+ライトモード	Mokgwa o bobebe
+ダークモード	Mokgwa o Lefifi
+同意画面表示中の配色を設定します	Beha moralo oa mebala bakeng sa skrine sa tumello.
+同意画面中のコンテンツのぼかし	Ho fifatsa dikahare skrineng sa tumello
+同意画面表示中のコンテンツのぼかし具合を設定します	Beha boemo ba ho fifatsa bakeng sa litaba tse hlahang skrineng sa tumello.
+同意画面の透過	Pepesa ea skrine sa tumello
+透過なし	Ha ho ponaletso
+同意画面の透過具合を設定します	Beha ponaletso ea skrine sa tumello
+お知らせの1行目	Mola oa pele oa phatlalatso
+初回表示で必ず表示されるメッセージです	Molaetsa ona o lula o bontšoa lekhetlo la pele leqephe le laeloa.
+お知らせの2行目	Mola oa bobeli oa tsebiso
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Molaetsa ona o tla hlaha kamehla pontshong ya pele feela ha EU GDPR e sebetsa.
+お知らせの3行目	Mola oa boraro oa tsebiso
+プライバシーポリシーのリンクの右側に表示されます	E tla hlaha ka ho le letona ha sehokelo sa Leano la Lekunutu.
+非EU向け確認の文字列	Molaetsa oa netefatso bakeng sa linaha tse seng tsa EU
+EU GDPR向け同意するの文字列	Molaetsa oa tumello bakeng sa EU GDPR
+EU GDPR向け同意しないの文字列	Molaetsa oa 'Se lumellane' tlas'a EU GDPR
+プライバシーポリシーの文字列	Molaoana oa lekunutu
+プライバシーポリシーのURLはこちらから設定して下さい	Ka kopo, kenya URL ea leano la lekunutu mona.
+プライバシーポリシーには以下の内容を追加して下さい	Ka kopo, eketsa tse latelang ho Leano la Lekunutu.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ho lemoha liketso tsa bomenemene, lintlha tse khethollang tse kang liaterese tsa IP li bolokoa li-cookie le polokelong ea lintlha. Lintlha tse bolokiloeng li hlakoloa ho ea ka kahlolo ea motsamaisi.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Ho netefatsa hore litšoantšo li fanoa ka nepo ha tšireletso ea litšoantšo e kenyelelitsoe, re boloka data e fetotsoeng ka khoutu e kenyeletsang aterese ea IP le lebitso la faele ea setšoantšo polokelong ea rona ea data ka nako e ka fihlang metsotso e 60.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Haeba o hlophisa Melao ya Tshebediso, ka kopo etsa bonnete ba hore o kenyeletsa sehokelo sa yona ho Leano la hao la Lekunutu.
+利用規約の文字列	Mongolo oa Lipehelo tsa Tšebeliso
+利用規約のページ	Leqephe la Melao le Lipehelo
+ページ選択なし	Ha ho leqephe le kgethilweng
+検索エンジン等のURL	Li-URL bakeng sa lienjine tsa ho batla, jj.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Beha URL bakeng sa lienjine tsa patlo le liwebsaete tse tšoanang tse fetisetsang basebelisi ha ba sa lumellane.
+デバッグモード、コンソールの警告メッセージ	Mokgwa wa ho lokisa diphoso, melaetsa ya tlhokomediso ya khonsolo
+右クリックの警告メッセージ	Tlhokomediso ea ho tobetsa ka ho le letona
+印刷、PDF保存の警告メッセージ	Molaetsa oa temoso mabapi le ho hatisa le ho boloka e le PDF
+スクリーンショットの警告メッセージ	Molaetsa oa temoso setšoantšong sa skrine
+スクリーンショットの疑いの警告メッセージ	Molaetsa oa temoso mabapi le litšoantšo tsa skrine tse belaelloang
+テキスト全選択時の警告メッセージ	Molaetsa oa temoso ha mongolo oohle o khethiloe
+ページ保存の警告メッセージ	Molaetsa oa temoso mabapi le poloko ea leqephe
+コピー・カットした時に表示するメッセージ	Molaetsa o hlahang ha o kopitsa kapa o seha
+HTMLソース表示時に表示するメッセージ	Molaetsa o bontshwang ha ho shebile mohlodi wa HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Molaetsa o bontshwang hodima khoutu ya mohlodi ha ho ntse ho sireletswa kapa ho fifatswa HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Molaetsa o tla hlahisoa haeba tokena ea netefatso ea hang e sa sebetse nakong ea tšireletso ea HTML.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Molaetsa o tla bontšoa haeba li-cookie kapa JavaScript li koetsoe.
+実際にはJavascriptが無効時のみ表示されます	Ha e le hantle, sena se bonahala feela ha JavaScript e koetsoe.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Ha setshwantsho se sireleditswe, se a jarollwa, mme molaetsa o a hlahiswa hodima sona
+HTML難読化 (圧縮)	Ho fifatsa HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Hona ke khatello e tloaelehileng ea HTML; hape ho na le liwebsaete tse ka e fetolelang.
+このオプションを有効にするとview-sourceのログが取得できます	Ho nolofatsa kgetho ena ho o dumella ho fumana direkoto tsa mohlodi wa ponahatso.
+HTML保護	Tšireletso ea HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	E hlahisa HTML e fokolang le ho feta ho feta tokisetso ea ho hatella HTML, ho bolelang hore litaba tse ka hare ho tag ea BODY ha li na ho hlahisoa ho hang.
+Firefoxに対しては無効です	Sena ha se sebetse ho Firefox.
+SEOに著しく影響があります	Sena se na le tšusumetso e kholo ho SEO.
+HTMLをJavaScriptで描画	Ho hlahisa HTML ka JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Ho sebetsana le Firefox, re hlahisa HTML ka JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Ho nolofatsa ts'ebetso ea JavaScript ho tla fokotsa haholo lebelo leo sebaka sa marang-rang se bula ka lona.
+画像の保護	Tšireletso ea setšoantšo
+imgタグが呼び出されるごとに画像を保護	Sireletsa setšoantšo nako le nako ha letšoao la img le bitsoa.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Sireletsa ditshwantsho tsohle tse kenngwang ho WordPress ka hara HTML yohle e hlahiswang.
+画像をダウンロードから保護します	E sireletsa litšoantšo hore li se ke tsa khoasolloa
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Ha data ea litšoantšo e sirelelitsoe, re thibela hoo e ka bang li-download kaofela, re fana ka li-URL tse ikhethang tsa hang feela, re netefatsa bonnete ba basebelisi ka li-token tse bolokiloeng nakong ea phihlello, 'me re bontša litšoantšo ka PHP; sena se thibela ka katleho hoo e ka bang maemo kaofela a bosholu ba litšoantšo.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ha data ea litšoantšo e sirelelitsoe, caching ha e sebetse, e leng se bolelang hore sebaka sa marang-rang se tla bula butle maetong a latelang, 'me sena se ama SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ho sireletsa datha ya ditshwantsho ho ka eketsa morwalo hodima polokelo ya datha.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Ha o kgetha 'Sireletsa ditshwantsho nako le nako ha letshwao la img le bitswa', tsamaiso e sebedisa add_filter ho kenya tshebetsong tlhotlho ya ditshwantsho ha letshwao la img le etswa; leha ho le jwalo, sena se ka nna sa se sebetse hantle ka di-theme tse ding.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Ha o kgetha 'Sireletsa ditshwantsho tsohle tse kenngwang ho WordPress ka hara HTML yohle e hlahiswang', plugin e tla hapa hoo e ka bang mesebetsi yohle ya WordPress mme e sebetse tag e nngwe le e nngwe ya img ka hara dikahare. Ka kopo hlokomela hore sena se kanna sa se sebetse hantle le di-theme tse ding.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ka kopo hlokomela hore litšoantšo tse khethiloeng e le litšoantšo tse hlahelletseng li tla arolelanoa e le data ea OGP 'me ha li khone ho sireletsoa. Haeba o tlameha ho li sireletsa, ka kopo fetola tlhophiso ea tlhahiso ea HEAD tag litlhophisong tse tsoetseng pele ha o kenya tšebetsong tšireletso ea HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Tshebetso ya ho nka setshwantsho sa skrine e kenyelleditsweng ka mokgwa o tlwaelehileng tsamaisong ya tshebetso e ke ke ya sireletswa.
+画像URLの保護	Ho sireletsa li-URL tsa litšoantšo
+画像の保護と組み合わせて使用します、単体では意味がありません	Sena se lokela ho sebediswa hammoho le tshireletso ya setshwantsho; ha se sebediswa feela, ha se na thuso.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Kaha e laelletsoa ka ho lieha ka JavaScript, sena se ama SEO.
+画像のウォーターマーク	Letšoao la setšoantšo
+右下	Tlase ka ho le letona
+ランダム位置	Boemo bo iketsahalletseng
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Ha li sebediswa mmoho le tshireletso ya ditshwantsho, li-watermark tse fetohang li bontsha ka ho hlaka bo-nngwe ba tokelo ya bongodi, ha ka nako e tshwanang li fa bashebelli maikutlo a hore ba a shebilwa, mme ka hona li sebetsa e le se thibelang.
+JPG形式、PNG形式、WebP形式のみ対応します	Ho tšehetsoa feela lifomate tsa JPG, PNG le WebP.
+有効にするとサーバーの負荷が高くなります	Ho nolofatsa sena ho tla eketsa moroalo ho seva.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ho hlahisa bonono ba ASCII ho tsoa khoutung ea mohloli ea HTML nakong ea ho fifatsa le ho sireletsa
+表示なし	Ha ho pontšo
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	E bontša bonono ba ASCII bo bontšang tlhokomeliso ha ho shebisoa mohloli oa HTML ka ho sebelisa 'view-source'
+対象アクションを起こした時の表示デザイン	Bontsha moralo ha ketso e lebelletsweng e phethilwe
+黄色の背景の黒文字のベーシックデザイン	Moralo o motheo o nang le mongolo o motsho hodima bokamorao bo boseroledi.
+黒色の背景の赤文字のホラー風デザイン	Moralo oa mofuta oa tšabo o nang le mongolo o mofubelu holim'a bokamorao bo botšo.
+黒色の背景の赤文字の光る文字のデザイン	Moralo o nang le mongolo o mofubedu o khanyang holim'a bokamorao bo botšo
+対象アクションを起こした時のBGM	Mmino o bapalang ha ketso e rerilweng e etswa.
+サウンドなし	Ha ho molumo
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Ntoa le Tlhōlo - motsotso o le 1 metsotsoana e 16.3 - libaete tse 630,056 - 64 kbps - Laesense: CC 2.1 kapa e ncha
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Ntate Short - metsotsoana e 3.8 - li-byte tse 32,364 - 64 kbps - Laesense: GPL 2.0 kapa e ncha
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - metsotswana e 23.5 - libaete tse 195,578 - 64 kbps - Laesense: GPL 2.0 kapa e ncha
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Mofuta o hlahisitsweng ke khomphutha, mofuta wa lebelo le phahameng – motsotso o le 1 le metsotswana e 57.6 – di-byte tse 724,457 – 48 kbps – Laesense: CC BY-ND 4.0 kapa e morao ho feta
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo ka B flat minor, Op. 2 – Mofuta o hlahisitsweng ke khomphutha, mofuta o kgutsufaditsweng wa lebelo le phahameng – motsotso o le 1 le metsotswana e 48.0 – 665,369 bytes – 48 kbps – Laesense: CC BY-ND 4.0 kapa e ncha ho feta moo
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lethathamo: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Modumo wa mokete – metsotswana e 22.3 – dibaete tse 183,926 – 64 kbps – Laesense: Setsoalle sa setjhaba
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Mokete oa setaele sa khale – metsotsoana e 2.2 – li-byte tse 10,536 – 32 kbps – Laesense: Setsoalle sa sechaba
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Selelekela sa setaele sa khale – metsotsoana e 42.1 – libaete tse 179,138 – 32 kbps – Laesense: Setsoalle sa sechaba
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Temoso ka ChatGPT - metsotswana e 3.8 - li-byte tse 109,700 - 256 kbps - Laesense: Setša sa sechaba
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Modumo o potlakileng haholo o kang tlhokomediso ya ho fumana malware – Karolo ya 1 ka ChatGPT – metsotswana e 3.3 – di-byte tse 102,850 – 256 kbps – Laesense: Setsoalle sa Setjhaba
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Modumo o potlakileng haholo o kang tlhokomediso ya ho fumana malware, Karolo ya 2 ka ChatGPT - metsotswana e 3.3 - dibaete tse 103,122 - 256 kbps - Laesense: Setsoalle sa Setjhaba
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Modumo wa mofuta wa MRI ka ChatGPT – motsotso o le 1 le metsotswana e 14.9 – di-byte tse 3,340,392 – 320 kbps – Laesense: Setsoalle sa Setjhaba
+警告表示中のBGMを選択します	Kgetha mmino wa ka morao o tla bapala nakong ya temoso.
+Firefoxでは音声ブロックされます	Molumo o thibetsoe ho Firefox.
+対象アクションを起こした時のビープ音	Ho lla ha ketso e boletsweng e phethilwe
+有効 音量小さ目	Ho, molumo o tlase
+有効 音量大き目	E sebetsa, molumo o phahamisitsoe haholo
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Ho tla utlwahala modumo bakeng sa diketsahalo tsohle tsa konopo le mouse ha temoso e ntse e bontshwa.
+警告表示中に端末が暴走したかのような雰囲気を作ります	E fana ka maikutlo a hore sesebediswa se sa sebetse hantle ha temoso e ntse e bontshwa.
+対象アクションを起こした時のマウスカーソルの消去	Ho pata sesupa-mouse ha ketso e itseng e etsoa
+警告表示中にブラウザのエリアのマウスカーソルを消去します	E pata sesupa-mouse sebakeng sa sebatli ha temoso e ntse e bontšoa.
+デバッグモード	Mokgwa wa ho lokisa diphoso
+妨害＋記録のみ	Tšitiso + Direkoto feela
+妨害＋記録＋表示＋リダイレクト	Tšitiso + Ho ngolisa + Pontšo + Phetisetso
+メニューからは操作できてしまいます	O ntse o ka fihlella ho sona ka lenane.
+Firefoxにおけるデバッグモード	Mokgwa wa ho lokisa diphoso ho Firefox
+ブラウザーコンソール	K'honsolo ea sebatli
+事実上デバッグモードから操作できてしまいます	Ha e le hantle, o ka e sebetsa o le mokgweng wa ho lokisa diphoso.
+HTMLソース表示	Sheba mohloli oa HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	U ka etsa ts'ebetso ena ka ho kenya feela URL e qalang ka 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	U ka sireletsa dikahare tsa hao ka ho kopanya sena le tshireletso ya HTML.
+印刷	Hatisa
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Leha e thibela ho hatisa, e kanna ya se sebetse hantle dibatling tse ding.
+スクリーンショット	Senepe sa skrine
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ho itshetlehile ka sistimi e sebetsang, sebatli kapa mokgwa o sebedisitsweng, ho ka nna ha se ke ha kgoneha ho thibela sena, kapa ho ka nna ha se ke ha lemohuwa.
+ウインドウが背面に移動した時スクリーンショットの疑い	Khaola-tshwantsho e belaellwang ha fensetere e ya morao
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	E boetse e arabela mesebetsing e meng ntle le ho nka ditshwantsho tsa skrine
+2キー押下のスクリーンショットの疑い	Khaola-tshwantsho e belaellwang e nkilweng ka ho tobetsa dikonopo tse pedi
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Mekhoa ea ho lemoha lintho tse boletsoeng ka holimo ha e na bonnete bo feletseng; ho lemoha ho etsoa e le mohato oa ho itšireletsa.
+スクリーンショットだけではなく、デバッグモード等も検出します	E lemoha eseng feela ditshwantsho tsa skrine, empa hape le mekgwa ya ho lokisa diphoso le tse tshwanang le tsona.
+ページ保存	Boloka leqephe
+右クリック	Tobetsa ka ho le letona
+アドオンがインストールされていると操作できてしまいます	Haeba tlatsetso e kentiloe, o tla khona ho e sebelisa.
+コピー・カット	Kopitsa le ho seha
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Ho itshetlehile ka ditlhophiso tsa plugin ena, o ka nna wa kopana le ketsahalo ena ka sewelo.
+テキスト全選択	Kgetha mongolo wohle
+テキスト選択	Kgetha mongolo
+デバッガー起動ログ、デバッガー妨害	Lengolo la qaleho la sebatli-phoso, tšitiso ea sebatli-phoso
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Sena se etsa hore mokgwa wa ho lokisa diphoso o se be bonolo ho o sebedisa, mme se tlaleha hore sebadisadiphoso se qalilwe; leha ho le jwalo, dibatli tse ding di ka thibela tshebetso ena.
+リダイレクトするURL	Fetisetsa URL
+利用規約などのページに転送すると良いでしょう	E ka ba mohopolo o motle ho lebisa basebelisi maqepheng a kang Melao ea Tšebeliso.
+空欄にすると元のURLにリダイレクトをします	Haeba e siiloe e se na letho, e tla fetisetsa ho URL ea pele.
+リダイレクトまでの時間	Nako e setseng pele ho fetisetsoa
+リダイレクトなし	Ha ho fetisetsoe
+1秒	Motsotswana o le mong
+2秒	Metsotswana e 2
+3秒	Metsotswana e meraro
+4秒	Metsotswana e 4
+5秒	Metsotswana e 5
+6秒	Metsotswana e 6
+7秒	Metsotswana e supileng
+8秒	Metsotswana e 8
+9秒	Lisekonte tse robong
+10秒	Metsotswana tse 10
+15秒	Metsotswana e 15
+20秒	Metsotswana e mashome a mabedi
+25秒	Metsotswana tse 25
+30秒	Metsotswana e mashome a mararo
+35秒	Metsotswana e mashome a mararo a metso e mehlano
+40秒	Metsotswana tse mashome a mane
+45秒	Metsotswana e mashome a mane a metso e mehlano
+50秒	Metsotswana e mashome a mahlano
+55秒	Metsotswana e mashome a mahlano a metso e mehlano
+1分	Motsotso o le mong
+1分10秒	Motsotso o le mong metsotsoana e 10
+1分20秒	Motsotso o le mong le metsotsoana e mashome a mabeli
+1分30秒	Motsotso o le mong le metsotsoana e mashome a mararo
+1分40秒	Motsotso o le mong le metsotsoana e mashome a mane
+1分50秒	Motsotso o le mong le metsotsoana e mashome a mahlano
+2分	Metsotso e 2
+ソース表示を許可する権限	Tumello ea ho sheba khoutu ea mohloli
+ADMINログイン時のみ通常のソース出力	Phepelo e tloaelehileng e sebetsa feela ha u kene e le ADMIN.
+USERログインで通常のソース出力	Sephetho se tloaelehileng sa mohloli ha u kene e le MOSEBELISI
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Kgetha hore na tlhahiso e tlwaelehileng ya HTML e be bakeng sa batsamaisi feela kapa e hloka hore mosebedisi a kene.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ho qobella setšoantšo hore se khoasolloe le seo ha e le hantle se khoasolloang
+GIF形式で1×1ピクセルの透過画像	Setšoantšo se bonaletsang sa 1×1-pixel ka sebopeho sa GIF
+PNG形式で1×1ピクセルの透過画像	Setshwantsho se bonaletsang sa 1×1-pixel ka sebopeho sa PNG
+PNG形式で黄色い背景の警告画面	Skrine sa temoso se nang le bokamorao ba 'mala o mosehla ka sebopeho sa PNG
+意味のないHTMLドキュメント	Tokomane ea HTML e se nang moelelo
+HTML保護時のHEADタグの出力	Sephetho sa tag ea HEAD ha HTML e sirelelitsoe
+出力しない	Se hatise
+TITLEタグのみ	Letšoao la sehlooho feela
+WordpressのHEADタグより取得	E nkiloeng ho tsoa ho lebitso la sehlooho la WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Bakeng sa maqephe a basebetsi a k'hamphani a sebelisoang ke litho feela le maqephe a kahare, ho khetha 'Do not output' kapa 'TITLE tag only' ho lokela ho lekana.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Ntle le haeba o nka tlhahisoleseding ho tsoa ho WordPress HEAD tag, setšoantšo sa OGP se ke ke sa hlahisoa ha ho arolelanoa mecheng ea litaba tsa sechaba.
+画像botをアクセス禁止にする	Thibela bot ea setšoantšo
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Ka ho thibela li-bot tsa litšoantšo ho fihlella HTML, o ka sireletsa litaba tse neng li sa sireletsoa khahlanong le ho hokahanya ka kotloloho ka patlo ea litšoantšo; leha ho le joalo, sena ha se tharollo e tiileng ka ho feletseng.
+AI学習用botをアクセス禁止にする	Thibela phihlello ea bot ea koetliso ea AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Ka ho qoba tšebeliso ea li-bot tse etselitsoeng koetliso ea AI ho HTML, re etsa bonnete ba hore litaba ha li sebelisoe ke AI; leha ho le joalo, sena se ke ke sa thibeloa ka ho feletseng.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Thibela phihlello ea polokelong ea marang-rang le litšoantšong tsa marang-rang
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Re thibela phihlello ea polokelo ea marang-rang e bokeletsoeng ka bo eona le litšoantšo tsa skrine tse nketsoeng ka boikhethelo ba mosebelisi; leha ho le joalo, re ke ke ra thibela sena ka ho feletseng.
+無効なUAをアクセス禁止にする	Thibela baemeli ba basebelisi ba seng molaong
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	E thibela phihlello haeba mohala oa mosebelisi o na le litlhaku tse fosahetseng.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Bontša temoso ha ho fihleloa Internet Explorer le Microsoft Edge ea khale
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	E thibela phihlello ka Internet Explorer le Microsoft Edge ea khale.
+alertメッセージを表示する言語	Puo eo melaetsa ea temoso e bontšoa ka eona
+Wordpressの言語	Lipuo tsa WordPress
+ブラウザの設定言語	Litlhophiso tsa puo tsa sebatli
+メッセージをカスタム設定されている場合は言語を変更できません	Ha o ka ke wa fetola puo haeba melaetsa e fetotswe ho ya ka ditlhoko tsa hao.
+同意画面の言語	Puo ea skrine sa tumello
+view-sourceメッセージを表示する言語	Puo eo molaetsa oa 'view-source' o bontšuoang ka eona
+一時使用トークンの有効期限	Letsatsi la ho felloa ke nako la li-token tsa nakoana
+3分	Metsotso e meraro
+4分	Metsotso e 4
+5分	Metsotso e 5
+6分	Metsotso e 6
+7分	Metsotso e supileng
+8分	Metsotso e 8
+9分	Metsotso e 9
+10分	Metsotso e 10
+15分	Metsotso e 15
+20分	Metsotso e mashome a mabedi
+25分	Metsotso e mashome a mabedi le metso e mehlano
+30分	Metsotso e 30
+35分	Metsotso e mashome a mararo le metso e mehlano
+40分	Metsotso e mashome a mane
+45分	Metsotso e mashome a mane le metso e mehlano
+50分	Metsotso e mashome a mahlano
+55分	Metsotso e 55
+1時間	Hora e le 'ngoe
+画像URL情報の有効期限を設定します	Beha letsatsi la ho felloa ke nako bakeng sa tlhahisoleseding ea URL ea setšoantšo.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Hang ha ho se ho laetsoe, URL ea setšoantšo le letšoao la nakoana li tla felloa ke mosebetsi.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Litšoantšo li laeloa ha li batloa, empa li tla laeloa ka bo tsona metsotsoana e 30 pele ho nako e boletsoeng.
+一時使用トークンのビット数	Palo ea li-bit ka har'a letšoao la nakoana
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token ea nakoana e sebelisoa e le phasewete ho patala tlhahisoleseding ea URL ea setšoantšo; tokisetso ena e hlalosa matla a eona.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Leha dikgetho tse bontshitsweng ka tlase ho lenane le theohelang di ntse di eketseha ka dintlha, sena se ka imetsa seva haholo mme sa fella ka phetiso ya data e ngata haholo ya HTML.
+ハッシュ化アルゴリズム	Algoritimi ea hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token ea nakoana e sebelisoa joalo ka phasewete ho patala tlhahisoleseding ea URL ea setšoantšo; sena se hloka ho etsa hashing, 'me tokisetso ena e laola matla a hashing eo.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Leha matla a eketseha ha o ntse o theosa ka hara dikgetho tse bontshitsweng lenaneng le theohelang, sena se beha moroalo o moholo ho seva.
+基本設定	Litlhophiso tsa motheo
+高度な設定	Litlhophiso tse tsoetseng pele
+初期設定に戻す	Kgutlisetsa ditlhophiso tsa kamehla
+デザイン・音の設定	Litlhophiso tsa moralo le molumo
+イベントの設定	Litlhophiso tsa ketsahalo
+初回訪問時のお知らせの設定	Ho hlophisa litemoso bakeng sa maeto a pele
+メッセージの設定	Lipehelo tsa melaetsa
+右クリックやソースコード表示時に転送する URL を設定します	Beha URL e tla buloa ha ho tobisoa ka ho le letona kapa ha ho shebisoa khoutu ea mohloli.
+警告メッセージにはHTMLは使用できません	HTML e ke ke ya sebediswa melaetseng ya ditemoso.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ha o hlophisa sena skrineng sena, litlhophiso tsa puo tse ho tab ea Advanced li tla hlokomolohuoa.
+以下の文字列が使用できます	Mela e latelang e ka sebediswa
+改行	Phetoho ea mola
+押下されたキー	Konopo e hatiloe
+Neo HTML Protector 設定	Litlhophiso tsa Neo HTML Protector
+お知らせ	Tsebiso
+メッセージ	Molaetsa
+デザイン・音	Moralo le Molumo
+初期化	Qalo
+このプラグインについて	Mabapi le plugin ena
+設定が初期化されました	Litlhophiso li tsosolositsoe.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Qala plugin. Ka kopo hlokomela hore data ea IP Log Reader e ke ke ea hlakoloa mohatong ona.
+Neo HTML Protectorについて	Mabapi le Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ena e etseditswe ho sireletsa HTML, ditshwantsho le dikahare tse ding tse hlahiswang ke sebaka sa hao sa WordPress, e e sireletsa kgahlanong le tshebediso e sa dumellwang.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Ho ke ke ha khoneha ho sireletsa dikahare ka botlalo. Leha ho le jwalo, ka ho fana ka ditemoso hohle moo ho kgonehang le ho etsa ditokisetso haeba ho ka etsahala letho, re lokela ho kgona ho rarolla taba ena ho ya ka mekgwa e behilweng ke mmuso.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Ehlile, o tla hloka ho netefatsa hore lipehelo tsa hau tsa tšebeletso le maano a sebaka sa marang-rang li akaretsa tsohle. Leha plugin ena e se sesebelisoa sa ho hlahisa lipehelo tsa tšebeletso, e ka fana ka tataiso e itseng.
+開発者: 夜桜　なの	Mohlahisi: Nano Yozakura
+バージョン	Mofuta
+ビルド	Aha
+サポートページ	Leqephe la tšehetso
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	E bapaliloe ke Mofumahatsana Ura Manira
+支援のお願い	Kopo ea tšehetso
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Re a leboha ka ho sebedisa Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ntshetsopele le tlhokomelo ya plugin ena e hloka nako le matsapa a mangata, mme e le hore re fumane tjhelete ya ho tswela pele ho e ntlafatsa le ho e ntjhafatsa, re ka thabela ha mang kapa mang ya ka kgonang ho re tshehetsa a ka nahanela ho fana ka monehelo.
+寄付について	Mabapi le menehelo
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Menehelo ke ya boithaopo feela, ha e qobellehe. Plugin ena e fumaneha ho bohle mahala. Leha ho le jwalo, re ananela tshehetso ya lona haholo ho re thusa ho tswela pele ka ntshetsopele, mme re ka thaba haholo ha o ka fana ka monehelo, leha o le monnyane.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	U ka etsa monehelo ka sehokelo se ka tlase. Haeba u le Japane, u ka fana ka monehelo ntle le tefo, hape u ka fana habonolo ka li-voucher tsa limpho tsa Amazon.
+寄付先	Mekhatlo ea liphallelo
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Ka tšehetso ea lona, re tla etsa sohle se matleng a rona ho tsoela pele ho le tlisetsa lintlafatso tse babatsehang!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Re leboha tšehetso ea lona 'me re lebeletse ho tsoela pele ho tšehetsoa ke lona nakong e tlang.
+ライセンス	Laesense
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin ena e entsoe e le software e pheluoeng ka bolokolohi, 'me e na le laesense tlas'a GPL v2.0 kapa e ncha ho feta moo.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Theknoloji tse ling tse kenyellelitsoeng ho plugin ena li sirelelitsoe ke li-patent.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Tšebeliso ea theknoloji e nang le laesense e lumelletsoe feela ka har'a plug-in ena.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Bakeng sa tšebeliso efe kapa efe e 'ngoe, ka kopo ikopanye le mongoli ho fumana laesense ea khoebo.
+本プラグインには以下のライブラリを同梱しています	Plugin ena e kenyeletsa lilaebrari tse latelang
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin ena e kenyeletsa lifonto tsa bonono ba ASCII tse hlahisitsoeng ka tlase, hammoho le lifaele tsa lifonto.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin ena e kenyeletsa 'mino o tsoang papaling e seng ea semmuso ea Super Famicom 'SM Trainer Hitomi 3', e entsoeng ke EJ Co., Ltd. le ho qapeloa ke moqapi oa plugin ena, 'me e na le laesense ea semmuso.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin ena e kenyeletsa melodi e entsweng ka 'Keppy's YAMAHA C7', e ntshitsweng ke Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ke boetse ke sebelisitse Raspberry Pi 5, ChatGPT le DeepL nts'etsopele ea plugin ena.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Ho fumanoe plugin ea caching. Plugin ena e ke ke ea sebetsa hantle haeba plugin ea caching e kentsoe tšebetsong.
+無効なIPアドレス	Aterese ea IP e fosahetseng
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ho sebedisa websaete ena, o tlameha ho nolofatsa di-cookie le JavaScript.
+利用規約	Melao ea Tšebeliso
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ho thibela tšebeliso e sa lumelloang le ho netefatsa ts'ebetso e sireletsehileng ea litšebeletso tsa rona, sebaka sena sa marang-rang se ka boloka tlhahisoleseling e kang liaterese tsa IP, nalane ea ho sheba le lirekoto tsa mesebetsi ho li-cookie le li-database. Tlhahisoleseling ena e sebelisoa feela bakeng sa ts'ebetso ea sebaka sa marang-rang le merero e molaong, 'me e ke ke ea senoloa ho batho ba boraro.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ho sebelisa tshebeletso ena, o tlameha ho dumela mesebetsing ena ya tshebetso.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	U ka sheba diteng tsa Leano la Lekunutu ho sa natswe hore na o fane ka tumello ya hao kapa tjhe.
+同意する	Ke a dumela
+同意しない	Ha ke dumellane
+確認	Tiisetso
+プライバシーポリシー	Leano la Lekunutu
+通常とは異なる方法でのアクセスや操作が検出されました	Ho lemohilwe phihlello kapa ketso e sa tlwaelehang.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Dikarolo tse itseng di thibetswe ka sepheo sa tshireletso le tshireletso ya dikahare.
+デバッグモード、コンソールの起動は禁止されています	Mokgwa wa ho lokisa diphoso le phihlello ya khonsolo di thibetswe
+以下の情報がサーバーに送信されました	Tlhahisoleseding e latelang e rometswe ho seva.
+あなたのIPアドレス	Aterese ea hau ea IP
+あなたの端末とブラウザ	Sesebediswa sa hao le sebatli sa hao
+あなたの押下したキー	Senotlolo seo u se tobetseng
+リダイレクトをします	U tla fetisetsoa
+コンテンツ保護のため一部の機能を制限しています	Likarolo tse itseng li thibetsoe ho sireletsa litaba.
+右クリックは禁止されています	Ho tobetsa ka ho le letona ha ho dumellwe
+あなたが押下したキー	Senotlolo seo u se tobetseng
+印刷、PDFへの保存は禁止されています	Ho hatisa le ho boloka e le PDF ho thibetsoe.
+スクリーンショットは禁止されています	Ho nka ditshwantsho tsa skrine ho thibetsoe.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ho nka ditshwantsho tsa skrine le ho kenya tshebetsong mokgwa wa debug ho thibetsoe.
+ページの保存は禁止されています	Ho boloka leqephe lena ho thibetsoe.
+コピー、カットは禁止されています	Ho kopitsa le ho seha ho thibetsoe.
+あなたが起こしたイベント	Liketsahalo tseo u li hlophisitseng
+テキストの選択は禁止されています	Ha ho dumellwe ho kgetha mongolo.
+HTMLソース表示は禁止されています	Ho thibetsoe ho bonts'a khoutu ea mohloli ea HTML.
+不正アクセスは禁止されています	Ho kena ntle le tumello hoa thibeloa.
+アフリカーンス語	Seaforikana
+アラゴン語	Aragonese
+アラビア語	Searabia
+アッサム語	Aseamese
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Ho nyatsa
+ベラルーシ語	Belaorusiana
+ベンガル語	Bengali
+ブルガリア語	Bulgaria
+ボスニア語	Bo-Bosnia
+カタロニア語	Katalana
+チェコ語	Se-Czech
+ウェールズ語	Se-Welsh
+デンマーク語	Sadanish
+ドイツ語	Sejeremane
+現代ギリシア語	Seerika sa sejwalejwale
+英語	Senyesemane
+イギリス英語	Bofeshemane
+アメリカ英語	Senyesemane sa Amerika
+エスペラント語	Sefika
+スペイン語	Sepanishe
+エストニア語	Moestonia
+バスク語	Basque
+ペルシャ語	Perse
+フィンランド語	Finnishe
+フランス語	Sefora
+アイルランド語	Mo-Irelande
+ガリシア語	Gaeliki
+グァラニ語	Guaraní
+グジャラート語	Guajirathi
+ハウサ語	Hausa
+ヘブライ語	Seheberu
+ヒンディ語	Se-Hindi
+クロアチア語	Kroate
+ハイチ・クレオール語	Kereole ya Haiti
+ハンガリー語	Se-Hungary
+インドネシア語	Indoneshua
+イボ語	Puo ea Ibo
+アイスランド語	Aislande
+イタリア語	Setaliana
+日本語	Sejapane
+ジャワ語	Sajawane
+カザフ語	Kazakh
+朝鮮語	Korea
+クルド語	Kurdish
+キルギス語	Kyrgyz
+ラテン語	Leleme la Selatine
+ルクセンブルク語	Luxembourga
+リンガラ語	Lingi
+リトアニア語	Lithuania
+ラトビア語	Laetvia
+マダガスカル語	Malagasy
+マオリ語	Maori
+マケドニア語	Masedonea
+マラヤーラム語	Malayalam
+モンゴル語	Mongoloa
+マラーティー語	Marathi
+マレー語	Malay
+マルタ語	Malta
+ビルマ語	Burmese
+ネパール語	Se-Nepali
+ノルウェー語	Se-Norway
+オランダ語	Se-Dutch
+オック語	Occitan
+オロモ語	Kamoo
+パンジャーブ語	Punjabi
+ポーランド語	Ho benya
+パシュトー語	Pase
+ポルトガリア語	Putukezi
+ブラジルポルトガル語	Sepotokisi sa Brazil
+ヨーロピアンポルトガル語	Sepotokisi sa Europe
+ケチュア語	Puo ea Quechua
+ルーマニア語	Seromania
+ロシア語	Serussia
+サンスクリット語	Senyesemane sa khale
+スロバキア語	Slovaiki
+スロベニア語	Slovenia
+セルビア語	Serbe
+南セソト語	Boroa ba Sesotho
+スンダ語	Setšehunji
+スウェーデン語	Se-Sweden
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Setelugu
+タジク語	Tajiki
+タイ語	Thai
+トルクメン語	Moturkey
+タガログ語	Se-Tagalog
+トルコ語	Terekhe
+タタール語	Tatar
+ウクライナ語	Seukraine
+ウルドゥー語	Urdu
+ウズベク語	Uzbeiki
+ベトナム語	Mavietiname
+コサ語	Phoso
+イディッシュ語	Se-Yiddish
+簡体中国語	Sets'e-China se nolofalitsoeng
+繁体中国語	Sets'oants'o sa Tšaina sa setso
+ズールー語	Setulusi
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Sebatli seo u se sebelisang hona joale ke mofuta oa khale o seng o sa tšehetsoe. Ho netefatsa boiphihlelo ba ho batla bo bolokehileng le bo phutholohileng haholoanyane, ka kopo ntlafatsa ho mofuta oa morao-rao oa sebatli sa hau.
+不正なリクエストです	Kopo e fosahetseng
+画像が見つかりません	Setshwantsho ha se a fumanwa

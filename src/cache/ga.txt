@@ -1,0 +1,424 @@
+設定	Socruithe
+IPログリーダー	Léitheoir Loga IP
+IPアドレスログ	Lógh IP
+全クリア	Críochnaigh na leibhéil go léir
+IPログが全て削除されました	Tá na logaí IP go léir scriosta.
+ID	Aitheantas
+タイムスタンプ	Cloigcheann
+IPアドレス	Seoladh IP
+ユーザーエージェント	Gníomhaire úsáideora
+イベント	Imeacht
+IPアドレスのデータはありません	Níl aon sonraí ann don seoladh IP seo.
+EU GDPR対応	Comhlíonadh RGCS an AE
+無効	Míbhailí
+有効	Bailí
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Má tá tú ag úsáid WordPress laistigh den AE, nó má tá do shuíomh gréasáin dírithe ar úsáideoirí laistigh den AE, cinntigh le do thoil go bhfuil sé seo cumasaithe.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Athróidh an cnaipe 'Dearbhaigh' go 'Aontaím' nó 'Ní Aontaím', agus athróidh an iompar beagáinín.
+同意画面の色	Dath an scáileáin toiliú
+自動	Uathoibríoch
+ライトモード	Mód éadrom
+ダークモード	Mód Dorcha
+同意画面表示中の配色を設定します	Socraigh scéim dathanna an scáileáin toiliúcháin.
+同意画面中のコンテンツのぼかし	Doiléiriú an ábhair ar an scáileán toiliúcháin
+同意画面表示中のコンテンツのぼかし具合を設定します	Socraigh an leibhéal doiléirthe don ábhar a thaispeántar ar an scáileán toiliú.
+同意画面の透過	Trédhearcacht an scáileáin toiliúcháin
+透過なし	Gan trédhearcacht
+同意画面の透過具合を設定します	Socraigh trédhearcacht an scáileáin toiliú
+お知らせの1行目	An chéad líne den fhógra
+初回表示で必ず表示されるメッセージです	Taispeántar an teachtaireacht seo i gcónaí an chéad uair a lódáiltear an leathanach.
+お知らせの2行目	An dara líne den fhógra
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ní thaispeánfar an teachtaireacht seo ach ar an gcéad taispeáint, agus an GDPR de chuid an AE i bhfeidhm.
+お知らせの3行目	An tríú líne den fhógra
+プライバシーポリシーのリンクの右側に表示されます	Beidh sé le feiceáil ar dheis na naíonnaisc chuig an bPolasaí Príobháideachais.
+非EU向け確認の文字列	Téacs deimhnithe do thíortha nach bhfuil san AE
+EU GDPR向け同意するの文字列	Téacs toiliú do Rialachán Ginearálta an AE maidir le Cosaint Sonraí
+EU GDPR向け同意しないの文字列	Téacs do 'Ná toirimheas' faoin RGCS de chuid an AE
+プライバシーポリシーの文字列	Téacs an bheartais phríobháideachais
+プライバシーポリシーのURLはこちらから設定して下さい	Le do thoil, socraigh an URL don pholasaí príobháideachais anseo.
+プライバシーポリシーには以下の内容を追加して下さい	Cuir an méid seo a leanas leis an bPolasaí Príobháideachais, le do thoil.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Chun gníomhaíocht chalaoiseach a bhrath, stóráiltear sainaithnéithe ar nós seoltaí IP i bhfianáin agus sa bhunachar sonraí. Scriostar na sonraí stóráilte de réir rogha an riarthóra.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Chun a chinntiú go seachadtar íomhánna i gceart ach amháin nuair a bhíonn cosaint íomhá cumasaithe, stórálaimid sonraí haischithe ina bhfuil an seoladh IP agus ainm comhaid na híomhá sa bhunachar sonraí ar feadh suas le 60 nóiméad.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Má tá Téarmaí Úsáide á socrú agat, cinntigh le do thoil go gcuireann tú nasc chucu san áireamh i do Pholasaí Príobháideachais.
+利用規約の文字列	Téacs na dTéarmaí Úsáide
+利用規約のページ	Téarmaí agus Coinníollacha
+ページ選択なし	Níl leathanach ar bith roghnaithe
+検索エンジン等のURL	URLanna do chuardaitheoirí gréasáin, srl.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Socraigh an URL do innill chuardaigh agus suíomhanna comhchosúla a atreoraíonn úsáideoirí nuair nach dtugtar toiliú.
+デバッグモード、コンソールの警告メッセージ	Mód dífhabhtaithe, teachtaireachtaí rabhaidh consóil
+右クリックの警告メッセージ	Cliceáil deas ar an teachtaireacht rabhaidh
+印刷、PDF保存の警告メッセージ	Fógra rabhaidh maidir le priontáil agus sábháil mar PDF
+スクリーンショットの警告メッセージ	Teachtaireacht rabhaidh sa phictiúr scáileáin
+スクリーンショットの疑いの警告メッセージ	Fógra rabhaidh maidir le seatanna scáileáin amhrasta
+テキスト全選択時の警告メッセージ	Teachtaireacht rabhaidh nuair a bhíonn an téacs ar fad roghnaithe
+ページ保存の警告メッセージ	Fógra rabhaidh maidir le leathanach a shábháil
+コピー・カットした時に表示するメッセージ	Teachtaireacht a thaispeántar agus cóipeáil nó gearradh á ndéanamh
+HTMLソース表示時に表示するメッセージ	Teachtaireacht le taispeáint agus an fhoinse HTML á breathnú
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Teachtaireacht le taispeáint ag barr an chóid foinseach agus HTML á doiléiriú nó á chosaint
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Teachtaireacht le taispeáint má bhíonn an t-eochairchomhartha fíordheimhnithe aonuaire neamhbhailí le linn cosanta HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Teachtaireacht le taispeáint má tá fianáin nó JavaScript díchumasaithe
+実際にはJavascriptが無効時のみ表示されます	Go deimhin, ní thaispeántar é seo ach amháin nuair a bhíonn JavaScript díchumasaithe.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Nuair a chosnaítear íomhá, íoslódáiltear í, agus taispeántar teachtaireacht ar an íomhá sin
+HTML難読化 (圧縮)	Doiléiriú
+一般的なHTML圧縮です、難読化解除のサイトもあります	Is comhbhrú caighdeánach HTML é seo; tá suíomhanna gréasáin ann freisin a fhéadann é a dhíchódú.
+このオプションを有効にするとview-sourceのログが取得できます	Ligeann cumasú an rogha seo duit an loga foinse-amhairc a aisghabháil.
+HTML保護	Cosaint HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ní thugann sé amach ach an t-íosmhéid lom de HTML—níos lú fós ná nuair a úsáidtear comhbhrú HTML—agus ní thugtar an t-ábhar laistigh den chlibe BODY amach ar chor ar bith.
+Firefoxに対しては無効です	Ní bhaineann sé seo le Firefox.
+SEOに著しく影響があります	Tá tionchar suntasach aige seo ar SEO.
+HTMLをJavaScriptで描画	Rindreáil HTML le JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Chun an fhadhb le Firefox a shárú, déanaimid an HTML a rindreáil le JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Má chumasaítear rindreáil JavaScript, maolófar go mór ar luas lódála an tsuímh ghréasáin.
+画像の保護	Cosaint íomhá
+imgタグが呼び出されるごとに画像を保護	Cosain an íomhá gach uair a thugtar gairm don chlibe img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Cosain gach íomhá a uaslódáiltear chuig WordPress laistigh den toraidh HTML iomlán.
+画像をダウンロードから保護します	Cosnaíonn sé íomhánna ó íoslódáil
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Nuair a chosnaítear sonraí íomhá, cuirimid cosc ar bheagnach gach íoslódáil, eisímid URLanna uathúla aonuaire, déanaimid fíordheimhniú ag úsáid comharthaí a stóráiltear sa seisiún, agus taispeánaimid na híomhánna trí PHP; cuireann sé seo cosc éifeachtach ar bheagnach gach cás de ghoid íomhánna.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Nuair a chosnaítear sonraí íomhá, ní oibríonn an taisceadh, rud a chiallaíonn go lódálfaidh an suíomh níos moille ar chuairteanna ina dhiaidh sin, agus mar sin go mbíonn tionchar aige ar SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	D'fhéadfadh cosaint sonraí íomhá an t-ualach ar an mbunachar sonraí a mhéadú.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Má roghnaíonn tú 'Íomhánna a chosaint aon uair a ghlaoitear ar chlibe img', úsáideann an córas add_filter chun scagadh a chur i bhfeidhm nuair a ghintear an chlibe img; áfach, d'fhéadfadh sé nach n-oibreoidh sé seo i gceart le roinnt téamaí.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Má roghnaíonn tú 'Cosain gach íomhá a uaslódáiltear ar WordPress laistigh den aschur HTML iomlán', gabhfaidh an breiseán beagnach gach oibríocht de chuid WordPress agus próiseálfaidh sé gach clib img laistigh den ábhar. Tabhair faoi deara, le do thoil, go bhféadfadh sé nach n-oibreoidh sé seo i gceart le roinnt téamaí.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Tabhair faoi deara, le do thoil, go roinnfear íomhánna a ainmnítear mar íomhánna réadmhaoin mar shonraí OGP agus nach féidir iad a chosaint. Más gá duit iad a chosaint ar gach costas, athraigh an socrú d'aschur an chlib HEAD sna socruithe ardleibhéil nuair a chumasaíonn tú cosaint HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Ní féidir an fheidhm seat scáileáin atá ionsuite sa chóras oibriúcháin a chosaint.
+画像URLの保護	URLanna íomhá a chosaint
+画像の保護と組み合わせて使用します、単体では意味がありません	Ba cheart é seo a úsáid i gcomhar le cosaint íomhá; ina aonar, níl aon chuspóir leis.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Toisc go lódáiltear é go leisciúil trí JavaScript, cuireann sé seo isteach ar SEO.
+画像のウォーターマーク	Uisce-mharc an íomhá
+右下	íos-deas
+ランダム位置	Suíomh randamach
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Nuair a úsáidtear iad i gcomhar le cosaint íomhá, léiríonn uisceadáin dhinimiciúla úinéireacht chóipchirt go soiléir agus ag an am céanna tugann siad an tuiscint do lucht féachana go bhfuiltear á monatóireacht, agus dá bhrí sin feidhmíonn siad mar dhíspreagadh.
+JPG形式、PNG形式、WebP形式のみ対応します	Ní thacaítear ach le formáidí JPG, PNG agus WebP.
+有効にするとサーバーの負荷が高くなります	Má chuirtear seo i ngníomh, méadófar an t-ualach ar an bhfreastalaí.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	ASCII-ealaín a aschur ó chód foinseach HTML le linn doiléiriú agus cosaint HTML
+表示なし	Gan taispeáint
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Taispeánann ealaín ASCII a léiríonn rabhadh agus an fhoinse HTML á breathnú trí 'view-source'.
+対象アクションを起こした時の表示デザイン	Taispeáin an dearadh nuair a dhéantar an gníomh spriocdhírithe.
+黄色の背景の黒文字のベーシックデザイン	Dearadh bunúsach le téacs dubh ar chúlra buí.
+黒色の背景の赤文字のホラー風デザイン	Dearadh de chineál uafáis le téacs dearg ar chúlra dubh.
+黒色の背景の赤文字の光る文字のデザイン	Dearadh ina bhfuil téacs dearg lonrach ar chúlra dubh
+対象アクションを起こした時のBGM	Ceol cúlra a sheinntear nuair a dhéantar an gníomh sprioc.
+サウンドなし	Gan fuaim
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Cath & Bua - 1 nóiméad 16.3 soicind - 630,056 bait - 64 kbps - Ceadúnas: CC 2.1 nó níos déanaí
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Gearr - 3.8 soicind - 32,364 bait - 64 kbps - Ceadúnas: GPL 2.0 nó níos déanaí
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Fada - 23.5 soicind - 195,578 bait - 64 kbps - Ceadúnas: GPL 2.0 nó níos déanaí
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Uimh. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Uimh. 12 'Réabhlóid' – leagan MIDI, ardluas – 1 nóiméad 57.6 soicind – 724,457 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scéirseó in B moll beag, Op. 2 – Leagan ríomhinnealtóirithe, leagan giorraithe ardluais – 1 nóiméad 48.0 soicind – 665,369 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Liosta: Étude d'Exécution Transcendante Uimh. 4, 'Mazeppa' – leagan ríomhinnealtóirithe, leagan giorraithe ardluais – 1 nóiméad 51.6 soicind – 687,586 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fonn-cheol – 22.3 soicind – 183,926 bait – 64 kbps – Ceadúnas: An Fearann Poiblí
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fonncheol stíl retro – 2.2 soicind – 10,536 bait – 32 kbps – Ceadúnas: An Fearann Poiblí
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Réamhrá i stíl retro – 42.1 soicind – 179,138 bait – 32 kbps – Ceadúnas: An Fearann Poiblí
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Rabhadh ó ChatGPT - 3.8 soicind - 109,700 bait - 256 kbps - Ceadúnas: An Fearann Poiblí
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Fuaim phráinneach ard cosúil le foláireamh braite malbhreogáin – Cuid 1 le ChatGPT – 3.3 soicind – 102,850 bait – 256 kbps – Ceadúnas: An Fearann Poiblí
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Fuaim phráinne arda cosúil le foláireamh braite malbhogtha, Cuid 2 le ChatGPT - 3.3 soicind - 103,122 bait - 256 kbps - Ceadúnas: An Fearann Poiblí
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Fuaim i stíl MRI le ChatGPT – 1 nóiméad 14.9 soicind – 3,340,392 bait – 320 kbps – Ceadúnas: An Fearann Poiblí
+警告表示中のBGMを選択します	Roghnaigh an ceol cúlra le seinm le linn foláirimh.
+びっくりするような雰囲気を作ります	Cruthaíonn sé atmaisféar iontasach.
+Firefoxでは音声ブロックされます	Tá fuaim bactha in Firefox.
+対象アクションを起こした時のビープ音	Bíp nuair a dhéantar an gníomh sonraithe
+有効 音量小さ目	Ar siúl, fuaim íseal
+有効 音量大き目	Gníomhach, an toirt ar ard
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Seinnfidh bíop do gach teagmhas méarchláir agus luchair fad is a bheidh rabhadh ar taispeáint.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Cruthaítear an tuiscint go bhfuil an gléas imithe ó smacht agus an rabhadh á thaispeáint.
+対象アクションを起こした時のマウスカーソルの消去	An t-inneall cuardaigh a cheilt nuair a dhéantar gníomh ar leith
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Folaíonn sé an t-inneall cúrsóra luch sa limistéar brabhsála fad is a thaispeántar foláireamh.
+デバッグモード	Mód dífhabhtaithe
+妨害＋記録のみ	Cur isteach + Taifid amháin
+妨害＋記録＋表示＋リダイレクト	Cur isteach + Logaíocht + Taispeáint + Athsheoladh
+メニューからは操作できてしまいます	Is féidir leat teacht air fós tríd an roghchlár.
+Firefoxにおけるデバッグモード	Mód dífhabhtaithe in Firefox
+ブラウザーコンソール	Consól an bhrabhsálaí
+事実上デバッグモードから操作できてしまいます	Go deimhin, is féidir leat é a oibriú ón mód díbhugtha.
+HTMLソース表示	Féach ar fhoinse HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Is féidir leat an oibríocht a chur i gcrích go simplí ach URL a iontráil a thosaíonn le 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Is féidir leat do chuid ábhair a chosaint trí seo a chomhcheangal le cosaint HTML.
+印刷	Priontáil
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Cé go gcuireann sé cosc ar phriontáil, d'fhéadfadh sé nach n-oibreoidh sé i gceart i mbrabhsálaithe áirithe.
+スクリーンショット	Gabháil scáileáin
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ag brath ar an gcóras oibriúcháin, an brabhsálaí nó an modh a úsáidtear, d'fhéadfadh sé nach mbeadh sé indéanta é seo a bhlocáil, nó d'fhéadfadh sé nach mbrathfaí é.
+ウインドウが背面に移動した時スクリーンショットの疑い	Gabháil scáileáin amhrasta nuair a aistrítear an fhuinneog go dtí an cúlra
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Freagraíonn sé freisin d'fheidhmeanna eile seachas seatanna scáileáin
+2キー押下のスクリーンショットの疑い	Gabháil scáileáin amhrasta a tógadh trí dhá eochair a bhrú
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Níl na modhanna braite do na hítimí thuas-luaite dochloíte; déantar an braiteadh mar bheart réamhchúraim.
+スクリーンショットだけではなく、デバッグモード等も検出します	Braitheann sé ní hamháin seatanna scáileáin ach freisin modhanna dífhabhtaithe agus a leithéidí.
+ページ保存	Sábháil an leathanach
+右クリック	Cliceáil deas
+アドオンがインストールされていると操作できてしまいます	Má tá an breiseán suiteáilte, beidh tú in ann é a úsáid.
+コピー・カット	Cóipeáil agus gearr
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Ag brath ar shocruithe an bhreiseáin seo, d'fhéadfá teacht ar an imeacht seo go hannamh.
+テキスト全選択	Roghnaigh an téacs go léir
+テキスト選択	Téacs a roghnú
+デバッガー起動ログ、デバッガー妨害	Lógáire tosaithe an fhuascailteora, cur isteach an fhuascailteora
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Fágann sé seo go bhfuil an mód díbhugtha beagán níos lú so-úsáidte agus logálann sé gur seoladh an díbhugóir; áfach, d'fhéadfadh roinnt brabhsálaithe an iompar seo a bhlocáil.
+リダイレクトするURL	Athraontaigh URL
+利用規約などのページに転送すると良いでしょう	Ba smaoineamh maith é úsáideoirí a atreorú chuig leathanaigh ar nós na dTéarmaí Úsáide.
+空欄にすると元のURLにリダイレクトをします	Má fhágtar bán é, déanfaidh sé atreorú chuig an URL bunaidh.
+リダイレクトまでの時間	Am go dtí an atreorú
+リダイレクトなし	Gan atreorú
+1秒	1 soicind
+2秒	2 shoicind
+3秒	Trí soicind
+4秒	Ceithre soicind
+5秒	5 soicind
+6秒	Sé soicind
+7秒	Seacht soicind
+8秒	Ocht soicind
+9秒	Naoi soicind
+10秒	10 soicind
+15秒	15 soicind
+20秒	20 soicind
+25秒	25 soicind
+30秒	Tríocha soicind
+35秒	35 soicind
+40秒	40 soicind
+45秒	45 soicind
+50秒	Caoga soicind
+55秒	Caoga a cúig soicind
+1分	1 nóiméad
+1分10秒	1 nóiméad 10 soicind
+1分20秒	1 nóiméad 20 soicind
+1分30秒	1 nóiméad 30 soicind
+1分40秒	1 nóiméad 40 soicind
+1分50秒	1 nóiméad 50 soicind
+2分	2 nóiméad
+ソース表示を許可する権限	Cead an cód foinse a fheiceáil
+ADMINログイン時のみ通常のソース出力	Aschur gnáthfhoinse ach amháin nuair atá logáilte isteach mar RÍOMHAIRE
+USERログインで通常のソース出力	Gnáth-aschur foinsí agus logáilte isteach mar ÚSÁIDEOIR
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Roghnaigh an bhfuil aschur caighdeánach HTML teoranta do riarthóirí amháin nó an dteastaíonn logáil isteach úsáideora.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Íomhá a iallach a chur a íoslódáil agus an méid a íoslódáiltear i ndáiríre
+GIF形式で1×1ピクセルの透過画像	Íomhá thrédhearcach 1×1 picteilín i bhformáid GIF
+PNG形式で1×1ピクセルの透過画像	Íomhá thrédhearcach 1×1 picteilín i bhformáid PNG
+PNG形式で黄色い背景の警告画面	Scáileán rabhaidh le cúlra buí i bhformáid PNG
+意味のないHTMLドキュメント	Doiciméad HTML gan chiall
+HTML保護時のHEADタグの出力	Aschur an chlib HEAD nuair a bhíonn HTML cosanta
+出力しない	Ná priontáil
+TITLEタグのみ	Clib teidil amháin
+WordpressのHEADタグより取得	Aisghafa ón gclib HEAD de WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	I gcás leathanach do bhaill amháin agus leathanach inmheánach le haghaidh úsáide corparáidí, ba cheart go mbeadh sé leor 'Ná h-aschuir' nó 'Clib TITLE amháin' a roghnú.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Mura bhfaigheann tú an t-eolas ó chlibe HEAD WordPress, ní thaispeánfar íomhá OGP agus an t-ábhar á roinnt ar na meáin shóisialta.
+画像botをアクセス禁止にする	Cuir bac ar an mbot íomhá
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Trí bhac a chur ar bhotanna íomhá rochtain a fháil ar HTML, is féidir leat ábhar a chosaint nach bhféadfaí a chosaint ar nascú díreach trí chuardach íomhánna; áfach, ní réiteach dochloíte é seo.
+AI学習用botをアクセス禁止にする	Cuir bac ar rochtain ar an mbot oiliúna IS
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Trí úsáid a bhaint as róbait atá deartha le haghaidh oiliúint IS ar HTML a sheachaint, cinntímid nach n-úsáidtear an t-ábhar ag IS; áfach, ní féidir é seo a chosc go hiomlán.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Cuir bac ar rochtain ar chartlanna gréasáin agus ar phreabfhothaí gréasáin
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Cuirimid cosc ar rochtain ar chartlanna gréasáin a bhailítear go huathoibríoch agus ar phictiúir scáileáin a thógtar de réir rogha an úsáideora; áfach, ní féidir linn é seo a chosc go hiomlán.
+無効なUAをアクセス禁止にする	Cuir bac ar ghníomhairí úsáideora neamhbhailí
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Cosc ar rochtain má tá carachtair neamhbhailí sa tsreang gníomhaire úsáideora.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Taispeáin foláireamh agus rochtain á fáil ar Internet Explorer agus ar an sean-Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Coscann sé rochtain trí Internet Explorer agus an sean-Microsoft Edge
+alertメッセージを表示する言語	Teanga ina dtaispeántar teachtaireachtaí foláirimh
+Wordpressの言語	Teangacha WordPress
+ブラウザの設定言語	Socruithe teanga an bhrabhsálaí
+メッセージをカスタム設定されている場合は言語を変更できません	Ní féidir leat an teanga a athrú má tá na teachtaireachtaí saincheaptha.
+同意画面の言語	Teanga an scáileáin toiliú
+view-sourceメッセージを表示する言語	Teanga chun an teachtaireacht 'view-source' a thaispeáint
+一時使用トークンの有効期限	Dáta éaga na dticéad sealadach
+3分	Trí nóiméad
+4分	Ceithre nóiméad
+5分	Cúig nóiméad
+6分	6 nóiméad
+7分	Seacht nóiméad
+8分	Ocht nóiméad
+9分	Naoi nóiméad
+10分	10 nóiméad
+15分	15 nóiméad
+20分	Fiche nóiméad
+25分	25 nóiméad
+30分	Tríocha nóiméad
+35分	Tríocha a cúig nóiméad
+40分	40 nóiméad
+45分	45 nóiméad
+50分	Caoga nóiméad
+55分	Caoga a cúig nóiméad
+1時間	Uair an chloig
+画像URL情報の有効期限を設定します	Socraigh an dáta éaga d'fhaisnéis URL íomhá
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Nuair a bheidh sé lódáilte, cuirfear an URL íomhá agus an tsiombail shealadach ar neamhní.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Lódáiltear íomhánna de réir mar a theastaíonn, ach lódálfar go huathoibríoch iad 30 soicind roimh an am sonraithe.
+一時使用トークンのビット数	Líon na ngiotán i dtoitéan sealadach
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Úsáidtear comhartha sealadach mar phasfhocal chun faisnéis URL íomhá a chriptiú; sonraíonn an socrú seo a neart
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Cé go n-éiríonn na roghanna a thaispeántar faoin roghchlár anuas níos mionsonraithe de réir a chéile, is féidir leis seo ualach trom a chur ar an bhfreastalaí agus d'fhéadfadh sé go n-aistreofaí méid mór sonraí HTML dá bharr.
+ハッシュ化アルゴリズム	Halgartam hais
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Úsáidtear comhartha sealadach mar phasfhocal chun faisnéis URL íomhá a chriptiú; teastaíonn haiseáil chuige seo, agus is í an socrú seo a chinneann neart na haiseála sin.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Cé go méadaíonn an déine de réir mar a théann tú síos an liosta roghanna sa roghchlár anuas, cuireann sé seo ualach níos mó ar an bhfreastalaí.
+基本設定	Bunsocruithe
+高度な設定	Ard-socruithe
+初期設定に戻す	Athchuir socruithe réamhshocraithe
+デザイン・音の設定	Dearadh agus socruithe fuaime
+イベントの設定	Socruithe imeachta
+初回訪問時のお知らせの設定	Socrú fógraí do chéad chuairteanna
+メッセージの設定	Socruithe teachtaireachta
+右クリックやソースコード表示時に転送する URL を設定します	Socraigh an URL atá le hoscailt agus an cliceáil dheas á déanamh nó an cód foinseach á fheiceáil.
+警告メッセージにはHTMLは使用できません	Ní féidir HTML a úsáid i dteachtaireachtaí rabhaidh.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Má chumraíonn tú seo ar an scáileán seo, déanfar neamhaird de na socruithe teanga sa táb Ardleibhéil.
+以下の文字列が使用できます	Is féidir na téada seo a leanas a úsáid
+改行	Briseadh líne
+押下されたキー	Eochair brúite
+Neo HTML Protector 設定	Socruithe Cosantóra Neo HTML
+お知らせ	Fógra
+メッセージ	Teachtaireacht
+デザイン・音	Dearadh agus Fuaim
+初期化	Túsú
+このプラグインについて	Maidir leis an bhforlíonadh seo
+設定が初期化されました	Tá na socruithe athshocraithe.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Tosaigh an breiseán. Tabhair faoi deara, le do thoil, nach scriosfar sonraí an Léitheora Logaí IP ag an bpointe seo.
+Neo HTML Protectorについて	Maidir le Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Tá an breiseán seo deartha chun an HTML, na híomhánna agus ábhar eile a ghineann do shuíomh WordPress a chosaint, agus é a choinneáil slán in aghaidh úsáid neamhúdaraithe.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Tá sé dodhéanta ábhar a chosaint go hiomlán. Mar sin féin, trí rabhaidh a eisiúint i ngach cás is féidir agus ullmhúcháin a dhéanamh i gcás go dtarlódh aon rud, ba cheart go mbeimis in ann an scéal a réiteach i gcomhréir leis na nósanna imeachta atá leagtha síos ag an rialtas.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Ar ndóigh, beidh ort a chinntiú go bhfuil do théarmaí agus coinníollacha agus polasaithe an tsuímh chuimsitheach. Cé nach uirlis é an breiseán seo chun téarmaí agus coinníollacha a ghiniúint, is féidir leis roinnt treorach a sholáthar.
+開発者: 夜桜　なの	Forbróir: Nano Yozakura
+バージョン	Leagan
+ビルド	Tóg
+サポートページ	Leathanach tacaíochta
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Léirithe ag Iníon Ura Manira
+支援のお願い	Iarratas ar thacaíocht
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Go raibh maith agat as Neo HTML Protector a úsáid!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	D'éiligh forbairt agus cothabháil an bhreiseáin seo an-chuid ama agus iarrachta, agus chun cistí a bhailiú chun leanúint ar aghaidh lena fheabhsú agus lena nuashonrú, bheimis buíoch dá ndéanfadh aon duine atá in ann tacú linn machnamh ar dheontas a thabhairt.
+寄付について	Maidir le hEiríonna
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Is deonach go hiomlán iad na síntiúis agus níl siad éigeantach. Tá an breiseán ar fáil do chách saor in aisce. Mar sin féin, táimid fíorbhuíoch as do thacaíocht chun cabhrú linn leanúint leis an bhforbairt, agus bheadh an-áthas orainn dá bhféadfá méid beag fiú a chur ar fáil.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Is féidir leat síntiús a thabhairt tríd an nasc thíos. Má tá tú lonnaithe sa tSeapáin, is féidir leat síntiús a thabhairt saor in aisce, agus is féidir leat síntiús a thabhairt go héasca freisin le vótéir bronntanais Amazon.
+寄付先	Carthanachtaí
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Le bhur dtacaíocht, déanfaimid ár ndícheall leanúint orainn ag tabhairt nuashonruithe den scoth daoibh!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Táimid buíoch as do thacaíocht agus táimid ag tnúth le do thacaíocht leanúnach amach anseo.
+ライセンス	Ceadúnas
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Forbraítear an breiseán seo mar bhogearra foinse oscailte agus tá sé ceadúnaithe faoin GPLv2.0 nó níos déanaí.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Tá roinnt de na teicneolaíochtaí atá san áireamh sa bhforlíonadh seo cosanta ag paitinní.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ní cheadaítear úsáid na teicneolaíochta paitinnithe ach amháin laistigh den bhreiseán seo.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Le haghaidh aon úsáid eile, déan teagmháil leis an údar, le do thoil, chun ceadúnas tráchtála a fháil.
+本プラグインには以下のライブラリを同梱しています	Cuimsíonn an breiseán seo na leabharlanna seo a leanas
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Cuimsíonn an breiseán seo na clónna ealaíne ASCII a ghintear thíos, mar aon leis na comhaid cló.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Cuimsíonn an breiseán seo ceol ón gcluiche neamhoifigiúil Super Famicom 'SM Trainer Hitomi 3', a d'fhorbair EJ Co., Ltd. agus a chum cruthaitheoir an bhreiseáin seo, agus tá sé ceadúnaithe go hoifigiúil.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Cuimsíonn an breiseán seo rianta a cruthaíodh le 'Keppy's YAMAHA C7', a d'fhorbair Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	D'úsáid mé freisin Raspberry Pi 5, ChatGPT agus DeepL i bhforbairt an bhreiseáin seo.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Brathadh breiseán taisce. Ní oibreoidh an breiseán seo i gceart má tá breiseán taisce cumasaithe.
+無効なIPアドレス	Seoladh IP neamhbhailí
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Chun an suíomh gréasáin seo a úsáid, ní mór duit fianáin agus JavaScript a chumasú.
+利用規約	Téarmaí Úsáide
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Chun úsáid neamhúdaraithe a chosc agus chun oibriú slán ár seirbhísí a chinntiú, féadfaidh an suíomh gréasáin seo faisnéis a stóráil i bhfianáin agus i mbunachair shonraí, amhail seoltaí IP, stair brabhsála agus logaí gníomhaíochta. Ní úsáidtear an fhaisnéis seo ach amháin d'oibriú an tsuímh ghréasáin agus chun críocha dlíthiúla, agus ní nochtfar do thríú páirtithe í.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Chun an tseirbhís seo a úsáid, ní mór duit toiliú a thabhairt do na gníomhaíochtaí próiseála seo.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Is féidir leat breathnú ar ábhar ár bPolasaí Príobháideachta, is cuma cé acu ar thug tú do thoiliú nó nár thug.
+同意する	Aontaím
+同意しない	Ní aontaím
+確認	Dearbhú
+プライバシーポリシー	Polasaí Príobháideachais
+通常とは異なる方法でのアクセスや操作が検出されました	Brathadh rochtain nó gníomhaíocht neamhghnách.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Tá srianta curtha ar ghnéithe áirithe ar mhaithe le slándáil agus le cosaint ábhair.
+デバッグモード、コンソールの起動は禁止されています	Mód dífhabhtaithe agus rochtain ar an gconsól díchumasaithe
+以下の情報がサーバーに送信されました	Tá an fhaisnéis seo a leanas seolta chuig an bhfreastalaí
+あなたのIPアドレス	Do sheoladh IP
+あなたの端末とブラウザ	Do ghléas agus do bhrabhsálaí
+あなたの押下したキー	An eochair a bhrúigh tú
+リダイレクトをします	Déanfar tú a atreorú
+コンテンツ保護のため一部の機能を制限しています	Tá srianta curtha ar ghnéithe áirithe chun an t-ábhar a chosaint.
+右クリックは禁止されています	Ní cheadaítear deaschliceáil.
+あなたが押下したキー	An eochair a bhrúigh tú
+印刷、PDFへの保存は禁止されています	Tá cosc ar phriontáil agus ar shábháil mar PDF.
+スクリーンショットは禁止されています	Tá cosc ar ghabhálacha scáileáin.
+スクリーンショット、デバッグモード等の起動は禁止されています	Tá sé toirmiscthe scáileáin scáthlámh a ghlacadh agus mód díbhugtha a chumasú.
+ページの保存は禁止されています	Tá cosc ar an leathanach seo a shábháil
+コピー、カットは禁止されています	Tá cosc ar chóipeáil agus ar ghearradh.
+あなたが起こしたイベント	Imeachtaí atá eagraithe agat
+テキストの選択は禁止されています	Ní cheadaítear téacs a roghnú.
+HTMLソース表示は禁止されています	Tá sé toirmiscthe cód foinseach HTML a thaispeáint.
+不正アクセスは禁止されています	Tá rochtain neamhúdaraithe coiscthe.
+アフリカーンス語	Afraicáinis
+アラゴン語	Aragóineis
+アラビア語	Arabais
+アッサム語	Asamais
+アゼルバイジャン語	Asarbaiseánach
+バシュキール語	Bashkir
+ベラルーシ語	Béarlais
+ベンガル語	Beangáilis
+ブルガリア語	Bulgáiris
+ボスニア語	Bóisnéiseach
+カタロニア語	Catalóinise
+チェコ語	Seiceach
+ウェールズ語	Breatnach
+デンマーク語	Danmhairgis
+ドイツ語	Gearmánach
+現代ギリシア語	Nua-Ghréigis
+英語	Béarla
+イギリス英語	Breataineach
+アメリカ英語	Béarla Mheiriceánach
+エスペラント語	Esperanto
+スペイン語	Spáinnis
+エストニア語	Eastónach
+バスク語	Bascais
+ペルシャ語	Peirsea
+フィンランド語	Fionlannach
+フランス語	Fraincis
+アイルランド語	Éireannach
+ガリシア語	Gailíseach
+グァラニ語	Guaraní
+グジャラート語	Gúisearáitis
+ハウサ語	Ahausa
+ヘブライ語	Eabhraise
+ヒンディ語	Hiondúis
+クロアチア語	Cróitis
+ハイチ・クレオール語	Créole Háítíoch
+ハンガリー語	Ungárach
+インドネシア語	Indinéiseach
+イボ語	Teanga Ibo
+アイスランド語	Íslandais
+イタリア語	Iodálach
+日本語	Seapáinis
+ジャワ語	Javaisis
+カザフ語	Caiséach
+朝鮮語	Cóiréise
+クルド語	Cúrdach
+キルギス語	Ciorgaise
+ラテン語	Laitinis
+ルクセンブルク語	Liobáinis
+リンガラ語	Mongolach
+リトアニア語	Lituáinis
+ラトビア語	Laitvis
+マダガスカル語	Malagáise
+マオリ語	Maori
+マケドニア語	Miseach
+マラヤーラム語	Maláileannais
+モンゴル語	Miongóilise
+マラーティー語	Máráiti
+マレー語	Málaigh
+マルタ語	Maltach
+ビルマ語	Birmiseach
+ネパール語	Neipealais
+ノルウェー語	Ioruach
+オランダ語	Ollannach
+オック語	Ocaitneach
+オロモ語	Nóiméad
+パンジャーブ語	Piondábais
+ポーランド語	Polaínís
+パシュトー語	Pashto
+ポルトガリア語	Portaingéilis
+ブラジルポルトガル語	Portaingéilis Bhrasaíleach
+ヨーロピアンポルトガル語	Portaingéilis Eorpach
+ケチュア語	An tQuechua
+ルーマニア語	Rómáinise
+ロシア語	Rúiseach
+サンスクリット語	Laitinis
+スロバキア語	Slóvaicis
+スロベニア語	Slóivéinis
+セルビア語	Seirbeach
+南セソト語	Sesotho Theas
+スンダ語	Sundaise
+スウェーデン語	Sualannais
+スワヒリ語	Suaheilís
+タミル語	Taimiléise
+テルグ語	Tailgeach
+タジク語	Tajice
+タイ語	Téalannach
+トルクメン語	Tuirceach
+タガログ語	Tagálaigis
+トルコ語	Tuirceach
+タタール語	Tatair
+ウクライナ語	Úcráineach
+ウルドゥー語	Úrdu
+ウズベク語	Úisbéiceach
+ベトナム語	Vítneamach
+コサ語	Cois
+イディッシュ語	Gearmáinis Iúdach
+簡体中国語	Sínis shimplithe
+繁体中国語	Sínis thraidisiúnta
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Is leagan níos sine é an brabhsálaí atá á úsáid agat faoi láthair nach dtacaítear leis a thuilleadh. Chun eispéireas brabhsála níos sábháilte agus níos compordaí a chinntiú, déan an leagan is déanaí de do bhrabhsálaí a nuashonrú, le do thoil.
+不正なリクエストです	Iarratas neamhbhailí
+画像が見つかりません	Níor aimsíodh an íomhá

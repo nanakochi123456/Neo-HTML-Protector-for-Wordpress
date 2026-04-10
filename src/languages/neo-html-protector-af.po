@@ -1,0 +1,1292 @@
+# Afrikaans translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:43+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Afrikaans\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Instellings"
+
+msgid "IPログリーダー"
+msgstr "IP-logleser"
+
+msgid "IPアドレスログ"
+msgstr "IP-adreslog"
+
+msgid "全クリア"
+msgstr "Voltooi alle vlakke"
+
+msgid "IPログが全て削除されました"
+msgstr "Alle IP-loglêers is verwyder."
+
+msgid "ID"
+msgstr "Identiteit"
+
+msgid "タイムスタンプ"
+msgstr "Tydstempel"
+
+msgid "IPアドレス"
+msgstr "IP-adres"
+
+msgid "ユーザーエージェント"
+msgstr "Gebruikeragent"
+
+msgid "イベント"
+msgstr "Geleentheid"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Daar is geen data vir hierdie IP-adres nie."
+
+msgid "EU GDPR対応"
+msgstr "Nakoming van die EU GDPR"
+
+msgid "無効"
+msgstr "Ongeldig"
+
+msgid "有効"
+msgstr "Geldig"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "As u WordPress binne die EU gebruik, of as u webwerf gebruikers binne die EU teiken, maak asseblief seker dat dit geaktiveer is."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Die 'Bevestig'-knoppie sal verander na 'Stem saam' of 'Stem nie saam nie', en die gedrag sal effens verander."
+
+msgid "同意画面の色"
+msgstr "Kleur van die toestemmingskerm"
+
+msgid "自動"
+msgstr "Outomaties"
+
+msgid "ライトモード"
+msgstr "Ligmodus"
+
+msgid "ダークモード"
+msgstr "Donker modus"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Stel die kleurskema vir die toestemmingsskerm in."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Verwarring van inhoud op die toestemmingsskerm"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Stel die onscherpte-vlak in vir die inhoud wat op die toestemmingskerm vertoon word."
+
+msgid "同意画面の透過"
+msgstr "Deursigtigheid van die toestemmingskerm"
+
+msgid "透過なし"
+msgstr "Geen deursigtigheid"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Stel die deursigtigheid van die toestemmingsskerm in"
+
+msgid "お知らせの1行目"
+msgstr "Eerste reël van die aankondiging"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Hierdie boodskap word altyd vertoon die eerste keer dat die bladsy gelaai word."
+
+msgid "お知らせの2行目"
+msgstr "Die tweede reël van die kennisgewing"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Hierdie boodskap sal altyd slegs op die eerste vertoning verskyn wanneer die EU GDPR in werking is."
+
+msgid "お知らせの3行目"
+msgstr "Die derde reël van die kennisgewing"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Dit sal regs van die skakel na die privaatheidsbeleid verskyn."
+
+msgid "非EU向け確認の文字列"
+msgstr "Bevestigingsteks vir nie-EU-lande"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Tekst vir toestemming vir die EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Teks vir 'Moenie toestemming gee nie' kragtens die EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Privaatheidsbeleidsteks"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Stel asseblief die URL vir die privaatheidsbeleid hier in."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Voeg asseblief die volgende by die Privaatheidsbeleid."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Om bedrieglike aktiwiteit op te spoor, word identifikators soos IP-adresse in koekies en die databasis gestoor. Die gestoorde data word na goeddunke van die administrateur verwyder."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Om te verseker dat beelde korrek gelewer word slegs wanneer beeldbeskerming geaktiveer is, stoor ons gehasheerde data wat die IP-adres en die beeldlêernaam bevat in die databasis vir tot 60 minute."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "As u Gebruiksvoorwaardes opstel, verseker asseblief dat u 'n skakel na hulle in u Privaatheidsbeleid insluit."
+
+msgid "利用規約の文字列"
+msgstr "Teks van die Gebruiksvoorwaardes"
+
+msgid "利用規約のページ"
+msgstr "Bepalings en Voorwaardes-bladsy"
+
+msgid "ページ選択なし"
+msgstr "Geen bladsy gekies nie"
+
+msgid "検索エンジン等のURL"
+msgstr "URL's vir soekenjins, ens."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Stel die URL in vir soekenjins en soortgelyke webwerwe wat gebruikers omlei wanneer toestemming nie gegee word nie."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Foutopsporingsmodus, konsole-waarskuwingsboodskappe"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Regskliek waarskuwingsboodskap"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Waarskuwingsboodskap rakende drukwerk en stoor as PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Waarskuwingsboodskap in die skermkiekie"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Waarskuwingsboodskap rakende vermoedelike skermskote"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Waarskuwingsboodskap wanneer alle teks geselekteer is"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Waarskuwingsboodskap rakende bladsy-opbewaring"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Boodskap wat vertoon word wanneer gekopieer of gesny word"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Boodskap om te vertoon wanneer HTML-bron besigtig word"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Boodskap om bo-aan die bronkode te vertoon wanneer HTML vervaag of beskerm word"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Boodskap om te vertoon as die eenmalige verifikasietoken ongeldig is tydens HTML-beskerming"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Boodskap om te vertoon as koekies of JavaScript gedeaktiveer is"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "In werklikheid word dit slegs vertoon wanneer JavaScript gedeaktiveer is."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Wanneer 'n beeld beskerm is, word dit afgelaai en word 'n boodskap op daardie beeld vertoon"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML-verduistering"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Dit is standaard HTML-kompressie; daar is ook webwerwe wat dit kan dekodeer."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Deur hierdie opsie te aktiveer, kan jy die view-source-log ophaal."
+
+msgid "HTML保護"
+msgstr "HTML-beskerming"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Dit lewer slegs die blote minimum aan HTML uit—selfs minder as wanneer HTML-kompressie gebruik word—en die inhoud binne die BODY-tag word glad nie uitgelewer nie."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Dit geld nie vir Firefox nie."
+
+msgid "SEOに著しく影響があります"
+msgstr "Dit het 'n beduidende impak op SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Rendering van HTML met JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Om Firefox te omseil, render ons die HTML met JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Die inskakeling van JavaScript-rendering sal die webwerf se laaispoed aansienlik vertraag."
+
+msgid "画像の保護"
+msgstr "Beeldbeskerming"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Beskerm die beeld elke keer as die img-tag aangeroep word."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Beskerm alle beelde wat in WordPress opgelaai is binne die hele HTML-uitset."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Beskerm beelde teen aflaai"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Wanneer beelddata beskerm word, verhoed ons byna alle aflaaie, verstrek ons unieke eenmalige URL's, verifieer ons met tokens wat in die sessie gestoor is, en vertoon ons die beelde via PHP; dit verhoed effektief byna alle gevalle van beelddiefstal."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Wanneer beelddata beskerm word, werk kasgeheue nie, wat beteken dat die webwerf by daaropvolgende besoeke stadiger sal laai en sodoende SEO beïnvloed."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Die beskerming van beelddata kan die las op die databasis verhoog."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "As jy 'Beskerm beelde elke keer wanneer 'n img-tag aangeroep word' kies, gebruik die stelsel add_filter om filtering toe te pas wanneer die img-tag gegenereer word; dit mag egter nie korrek werk met sommige temas nie."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "As jy 'Beskerm alle beelde wat in WordPress opgelaai is binne die hele HTML-uitset' kies, sal die inprop byna alle WordPress-operasies vasvang en elke img-tag in die inhoud verwerk. Neem asseblief kennis dat dit dalk nie korrek met sommige temas sal werk nie."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Neem asseblief kennis dat beelde wat as uitgeligte beelde aangewys is, as OGP-data gedeel sal word en nie beskerm kan word nie. As jy dit absoluut moet beskerm, verander asseblief die instelling vir HEAD-tag-uitset in die gevorderde instellings wanneer jy HTML-beskerming aktiveer."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Die skermkiekie-funksie wat in die bedryfstelsel ingebou is, kan nie beskerm word nie."
+
+msgid "画像URLの保護"
+msgstr "Die beskerming van beeld-URL's"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Dit moet in samewerking met beeldbeskerming gebruik word; op sigself dien dit geen doel nie."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Aangesien dit luiweg via JavaScript gelaai word, beïnvloed dit SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Beeldwatermerk"
+
+msgid "右下"
+msgstr "Onder regs"
+
+msgid "ランダム位置"
+msgstr "Willekeurige posisie"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Gebruik in samewerking met beeldbeskerming dui dinamiese watermerke duidelik die kopiereg-eienaarskap aan en gee kykers die indruk dat hulle gemonitor word, wat sodoende as 'n afskrikmiddel dien."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Slegs JPG-, PNG- en WebP-formate word ondersteun."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Deur dit moontlik te maak, sal die las op die bediener toeneem."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Uitvoer van ASCII-kuns uit HTML-bron kode tydens HTML-verduistering en beskerming"
+
+msgid "表示なし"
+msgstr "Geen vertoning"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Vertoon ASCII-kuns wat 'n waarskuwing aandui wanneer die HTML-bron met 'view-source' besigtig word."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Vertoon die ontwerp wanneer die teikenaksie uitgevoer word."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "'n basiese ontwerp met swart teks op 'n geel agtergrond"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "'n gruwelstyl-ontwerp met rooi teks op 'n swart agtergrond"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "'n ontwerp met gloedrooi teks op 'n swart agtergrond"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Agtergrondmusiek wat gespeel word wanneer die teikenaksie uitgevoer word"
+
+msgid "サウンドなし"
+msgstr "Geen klank"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Slag en oorwinning - 1 minuut 16,3 sekondes - 630 056 baitjies - 64 kbps - Lisensie: CC 2.1 of later"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Paadjie Kort - 3,8 sekondes - 32 364 baitjies - 64 kbps - Lisensie: GPL 2.0 of later"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 sekondes - 195 578 baitjies - 64 kbps - Lisensie: GPL 2.0 of later"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nr. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nr. 12 'Revolusie' – rekenaargegenereerde weergawe, hoëspoed – 1 minuut 57,6 sekondes – 724 457 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo in B-mol klein, Op. 2 – rekenaargegenereerde weergawe, hoëspoed-verkorte weergawe – 1 minuut 48,0 sekondes – 665 369 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lys: Étude d'Exécution Transcendante Nr. 4, 'Mazeppa' – rekenaargegenereerde weergawe, hoëspoed-verkorte weergawe – 1 minuut 51,6 sekondes – 687 586 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 sekondes – 183 926 baitjies – 64 kbps – Lisensie: Publieke domein"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-styl fanfare – 2,2 sekondes – 10 536 baitjies – 32 kbps – Lisensie: Publieke domein"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-styl intro – 42,1 sekondes – 179 138 baitjies – 32 kbps – Lisensie: Publieke domein"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Waarskuwing deur ChatGPT - 3,8 sekondes - 109 700 bytes - 256 kbps - Lisensie: Publieke domein"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "'n klank met hoë dringendheid wat soos 'n malware-deteksiewaarskuwing klink – Deel 1 deur ChatGPT – 3,3 sekondes – 102 850 bytes – 256 kbps – Lisensie: Publieke domein"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "'n Hoogdringende klank soos 'n malware-opsporingswaarskuwing, Deel 2 deur ChatGPT - 3,3 sekondes - 103 122 baitjies - 256 kbps - Lisensie: Publieke domein"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "MRI-styl klank deur ChatGPT – 1 minuut 14,9 sekondes – 3 340 392 baitjies – 320 kbps – Lisensie: Publieke domein"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Kies die agtergrondmusiek om tydens 'n waarskuwing te speel."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Dit skep 'n verrassende atmosfeer."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Klank is in Firefox geblokkeer."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "'n piep wanneer die gespesifiseerde aksie uitgevoer word"
+
+msgid "有効 音量小さ目"
+msgstr "Aan, klank laag"
+
+msgid "有効 音量大き目"
+msgstr "Aktief, volume op hoog"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "'n piep sal klink in reaksie op alle sleutelbord- en muisgebeurtenisse terwyl 'n waarskuwing vertoon word."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Dit skep die indruk dat die toestel dol geword het terwyl die waarskuwing vertoon word."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Verberg die muisaanwyser wanneer 'n spesifieke aksie uitgevoer word"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Verberg die muisaanwyser in die blaaierarea terwyl 'n waarskuwing vertoon word."
+
+msgid "デバッグモード"
+msgstr "Foutopsporingsmodus"
+
+msgid "妨害＋記録のみ"
+msgstr "Stooring + Rekords slegs"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Versteuring + Aantekeninghou + Vertoon + Herlei"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Jy kan dit steeds via die menu bereik."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Foutopsporingsmodus in Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Blaaierkonsole"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "In werklikheid kan jy dit in foutopsporingsmodus laat werk."
+
+msgid "HTMLソース表示"
+msgstr "Beskou HTML-bron"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Jy kan die operasie eenvoudig uitvoer deur 'n URL in te voer wat met 'view-source:' begin."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Jy kan jou inhoud beskerm deur dit met HTML-beskerming te kombineer."
+
+msgid "印刷"
+msgstr "Druk"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Alhoewel dit druk voorkom, werk dit dalk nie behoorlik in sommige blaaiers nie."
+
+msgid "スクリーンショット"
+msgstr "Skermkiekie"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Afhangende van die bedryfstelsel, blaaier of gebruikte metode, mag dit nie moontlik wees om dit te blokkeer nie, of mag dit nie opgespoor word nie."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Vermoedelike skermkiekie wanneer die venster na die agtergrond beweeg"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Dit reageer ook op funksies anders as skermkiekies"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Vermoedelike skermkiekie geneem deur twee sleutels gelyktydig te druk"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Die opsporingsmetodes vir bogenoemde items is nie feilloos nie; opsporing word as 'n voorsorgmaatreël uitgevoer."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Dit bespeur nie net skermkiekies nie, maar ook foutopsporingsmodusse en dergelikes."
+
+msgid "ページ保存"
+msgstr "Bêre bladsy"
+
+msgid "右クリック"
+msgstr "Regskliek"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "As die byvoeging geïnstalleer is, sal jy dit kan gebruik."
+
+msgid "コピー・カット"
+msgstr "Kopieer en sny"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Afhangende van die instellings van hierdie inprop, mag jy selde hierdie gebeurtenis teëkom."
+
+msgid "テキスト全選択"
+msgstr "Kies alle teks"
+
+msgid "テキスト選択"
+msgstr "Kies teks"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Debugger-opstartlog, debugger-inmenging"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Dit maak die foutopsporingsmodus effens minder gebruikersvriendelik en log die feit dat die foutopsporer geloods is; sommige blaaiers kan egter hierdie gedrag blokkeer."
+
+msgid "リダイレクトするURL"
+msgstr "Herbestemmings-URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Dit sou 'n goeie idee wees om gebruikers na bladsye soos die Gebruiksvoorwaardes te herlei."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "As dit leeg gelaat word, sal dit na die oorspronklike URL herlei."
+
+msgid "リダイレクトまでの時間"
+msgstr "Tyd tot herrigting"
+
+msgid "リダイレクトなし"
+msgstr "Geen omleiding nie"
+
+msgid "1秒"
+msgstr "1 sekonde"
+
+msgid "2秒"
+msgstr "2 sekondes"
+
+msgid "3秒"
+msgstr "3 sekondes"
+
+msgid "4秒"
+msgstr "4 sekondes"
+
+msgid "5秒"
+msgstr "5 sekondes"
+
+msgid "6秒"
+msgstr "6 sekondes"
+
+msgid "7秒"
+msgstr "7 sekondes"
+
+msgid "8秒"
+msgstr "8 sekondes"
+
+msgid "9秒"
+msgstr "9 sekondes"
+
+msgid "10秒"
+msgstr "10 sekondes"
+
+msgid "15秒"
+msgstr "15 sekondes"
+
+msgid "20秒"
+msgstr "20 sekondes"
+
+msgid "25秒"
+msgstr "25 sekondes"
+
+msgid "30秒"
+msgstr "30 sekondes"
+
+msgid "35秒"
+msgstr "35 sekondes"
+
+msgid "40秒"
+msgstr "40 sekondes"
+
+msgid "45秒"
+msgstr "45 sekondes"
+
+msgid "50秒"
+msgstr "50 sekondes"
+
+msgid "55秒"
+msgstr "55 sekondes"
+
+msgid "1分"
+msgstr "1 minuut"
+
+msgid "1分10秒"
+msgstr "1 minuut 10 sekondes"
+
+msgid "1分20秒"
+msgstr "1 minuut 20 sekondes"
+
+msgid "1分30秒"
+msgstr "1 minuut 30 sekondes"
+
+msgid "1分40秒"
+msgstr "1 minuut 40 sekondes"
+
+msgid "1分50秒"
+msgstr "1 minuut 50 sekondes"
+
+msgid "2分"
+msgstr "2 minute"
+
+msgid "ソース表示を許可する権限"
+msgstr "Toestemming om bronkode te besigtig"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normale bronuitset slegs wanneer aangemeld as ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normale bronuitset wanneer aangemeld as USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Kies of standaard HTML-uitset slegs vir administrateurs beperk is of 'n gebruikersaanmelding vereis."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Om 'n beeld af te dwing om af te laai en wat eintlik afgelaai word"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "'n 1×1-piksel deursigtige beeld in GIF-formaat"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "'n 1×1-piksel deursigtige beeld in PNG-formaat"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "'n Waarskuwingskerm met 'n geel agtergrond in PNG-formaat"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "'n betekenislose HTML-dokument"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Uitset van die HEAD-tag wanneer HTML beskerm is"
+
+msgid "出力しない"
+msgstr "Moenie druk nie"
+
+msgid "TITLEタグのみ"
+msgstr "Slegs TITEL-tag"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Ongehal uit die WordPress HEAD-tag"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Vir korporatiewe lede-slegs-bladsye en interne bladsye behoort die keuse van 'Moenie uitvoer nie' of 'Slegs TITLE-tag' voldoende te wees."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Tensy jy die inligting uit die WordPress HEAD-tag haal, sal die OGP-prent nie vertoon word wanneer dit op sosiale media gedeel word nie."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Blokkeer die beeldbot"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Deur te verhoed dat beeldbotte toegang tot HTML kry, kan jy inhoud beskerm wat nie teen direkte skakeling via beeldsoektog beveilig kon word nie; dit bied egter nie 'n volledige oplossing nie."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Blokkeer toegang tot die KI-opleidingsbot"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Deur die gebruik van botte wat ontwerp is vir KI-opleiding op HTML te vermy, verseker ons dat die inhoud nie deur KI benut word nie; dit kan egter nie heeltemal verhoed word nie."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Blokkeer toegang tot webargiewe en webkiekies"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Ons verbied toegang tot outomaties versamelde webargiewe en skermskote wat na goeddunke van die gebruiker geneem is; ons kan dit egter nie heeltemal verhoed nie."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Blokkeer ongeldige gebruikersagente"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Voorkom toegang as die user agent-reeks ongeldige karakters bevat"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Vertoon 'n waarskuwing wanneer toegang tot Internet Explorer en die ou Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Voorkom toegang via Internet Explorer en die ou Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Taal waarin waarskuwingsboodskappe vertoon word"
+
+msgid "Wordpressの言語"
+msgstr "WordPress-tale"
+
+msgid "ブラウザの設定言語"
+msgstr "Blaaiertaalinstellings"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Jy kan nie die taal verander as die boodskappe aangepas is nie."
+
+msgid "同意画面の言語"
+msgstr "Taal van die toestemmingsskerm"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Taal waarin die 'view-source'-boodskap vertoon moet word"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Verloopdatum van tydelike tokens"
+
+msgid "3分"
+msgstr "3 minute"
+
+msgid "4分"
+msgstr "4 minute"
+
+msgid "5分"
+msgstr "5 minute"
+
+msgid "6分"
+msgstr "6 minute"
+
+msgid "7分"
+msgstr "7 minute"
+
+msgid "8分"
+msgstr "8 minute"
+
+msgid "9分"
+msgstr "9 minute"
+
+msgid "10分"
+msgstr "10 minute"
+
+msgid "15分"
+msgstr "15 minute"
+
+msgid "20分"
+msgstr "20 minute"
+
+msgid "25分"
+msgstr "25 minute"
+
+msgid "30分"
+msgstr "30 minute"
+
+msgid "35分"
+msgstr "35 minute"
+
+msgid "40分"
+msgstr "40 minute"
+
+msgid "45分"
+msgstr "45 minute"
+
+msgid "50分"
+msgstr "50 minute"
+
+msgid "55分"
+msgstr "Vyf-en-vyftig minute"
+
+msgid "1時間"
+msgstr "1 uur"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Stel die vervaldatum vir beeld-URL-inligting in"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Sodra dit gelaai is, sal die beeld-URL en die tydelike token ongeldig gemaak word."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Beelde word op aanvraag gelaai, maar hulle sal outomaties 30 sekondes voor die gespesifiseerde tyd gelaai word."
+
+msgid "一時使用トークンのビット数"
+msgstr "Aantal bite in 'n tydelike token"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "'n Tydelike token word as 'n wagwoord gebruik om beeld-URL-inligting te enkripteer; hierdie instelling spesifiseer die sterkte daarvan."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Alhoewel die opsies wat onder die uitklapmenu vertoon word, al hoe meer gedetailleerd raak, kan dit 'n swaar las op die bediener plaas en lei tot 'n groot hoeveelheid HTML-data wat oorgedra word."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Hash-algoritme"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "'n Tydelike token word as 'n wagwoord gebruik om beeld-URL-inligting te enkripteer; dit vereis hashing, en hierdie instelling bepaal die sterkte van daardie hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Alhoewel die intensiteit toeneem namate jy deur die lys opsies in die uitklaplys beweeg, plaas dit 'n groter las op die bediener."
+
+msgid "基本設定"
+msgstr "Basiese instellings"
+
+msgid "高度な設定"
+msgstr "Gevorderde instellings"
+
+msgid "初期設定に戻す"
+msgstr "Stel standaardinstellings terug"
+
+msgid "デザイン・音の設定"
+msgstr "Ontwerp en klankinstellings"
+
+msgid "イベントの設定"
+msgstr "Geleentheidsinstellings"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Instelling van kennisgewings vir eerste besoeke"
+
+msgid "メッセージの設定"
+msgstr "Boodskapinstellings"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Stel die URL in wat oopgemaak moet word wanneer met die regter-muisknop geklik word of wanneer die broncode besigtig word."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML kan nie in waarskuwingsboodskappe gebruik word nie."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "As jy dit op hierdie skerm konfigureer, sal die taalinstellings in die Gevorderde-oortjie geïgnoreer word."
+
+msgid "以下の文字列が使用できます"
+msgstr "Die volgende snare kan gebruik word"
+
+msgid "改行"
+msgstr "Reëlbreek"
+
+msgid "押下されたキー"
+msgstr "Sleutel gedruk"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML-beskermerinstellings"
+
+msgid "お知らせ"
+msgstr "Kennisgewing"
+
+msgid "メッセージ"
+msgstr "Boodskap"
+
+msgid "デザイン・音"
+msgstr "Ontwerp en klank"
+
+msgid "初期化"
+msgstr "Initialisering"
+
+msgid "このプラグインについて"
+msgstr "Oor hierdie inprop"
+
+msgid "設定が初期化されました"
+msgstr "Die instellings is teruggesit."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inisialiseer die inprop. Neem asseblief kennis dat die IP Log Reader-data op hierdie stadium nie verwyder sal word nie."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Oor Neo HTML Beskermer"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Hierdie inprop is ontwerp om die HTML, beelde en ander inhoud wat deur jou WordPress-webwerf gegenereer word, te beskerm teen ongemagtigde gebruik."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Dit is onmoontlik om inhoud heeltemal te beskerm. Deur egter waar moontlik waarskuwings uit te reik en voorbereidings te tref ingeval iets wel gebeur, behoort ons die saak in ooreenstemming met die prosedures wat deur die regering neergelê is, te kan oplos."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Natuurlik moet jy verseker dat jou bepalings en voorwaardes en webwerfbeleid omvattend is. Alhoewel hierdie inprop nie 'n hulpmiddel is om bepalings en voorwaardes te genereer nie, kan dit wel 'n mate van leiding bied."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Ontwikkelaar: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Weergawe"
+
+msgid "ビルド"
+msgstr "Bou"
+
+msgid "サポートページ"
+msgstr "Ondersteuningsbladsy"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Uitgevoer deur Mej. Ura Manira"
+
+msgid "支援のお願い"
+msgstr "'n versoek om ondersteuning"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Dankie dat u Neo HTML Protector gebruik!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Die ontwikkeling en instandhouding van hierdie inprop het baie tyd en moeite verg, en om fondse in te samel om dit voort te gaan verbeter en op te dateer, sal ons dit waardeer as enigiemand wat ons kan ondersteun, 'n donasie oorweeg."
+
+msgid "寄付について"
+msgstr "Oor skenkings"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Bydraes is heeltemal vrywillig en nie verpligtend nie. Die inprop is vir almal gratis beskikbaar. Ons waardeer u ondersteuning egter baie om ons te help om met die ontwikkeling voort te gaan, en ons sal baie bly wees as u kan bydra wat u ook al kan."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Jy kan 'n donasie maak via die skakel hieronder. As jy in Japan gebaseer is, kan jy gratis skenk, en jy kan ook maklik skenk met Amazon-geskenkbewyse."
+
+msgid "寄付先"
+msgstr "Welsynorganisasies"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Met jou ondersteuning sal ons ons bes doen om aanhou fantastiese opdaterings vir jou te bring!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Ons is dankbaar vir u ondersteuning en sien uit na u voortgesette ondersteuning in die toekoms."
+
+msgid "ライセンス"
+msgstr "Lisensie"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Hierdie inprop is as open source-sagteware ontwikkel en is gelisensieer onder die GPLv2.0 of later."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Sommige van die tegnologieë wat in hierdie inprop ingesluit is, word deur patente beskerm."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Die gebruik van die gepatenteerde tegnologie is slegs binne hierdie inprop toegelaat."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Vir enige ander gebruik, kontak asseblief die outeur om 'n kommersiële lisensie te bekom."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Hierdie inprop sluit die volgende biblioteke in"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Hierdie inprop sluit die ASCII-kuns-lettertipes in wat hieronder gegenereer is, tesame met die lettertipe-lêers."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Hierdie inprop sluit musiek in van die onoffisiële Super Famicom-speletjie 'SM Trainer Hitomi 3', ontwikkel deur EJ Co., Ltd. en gekomponeer deur die skepper van hierdie inprop, en is amptelik gelisensieer."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Hierdie inprop sluit snitte in wat geskep is met 'Keppy's YAMAHA C7', ontwikkel deur Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Ek het ook 'n Raspberry Pi 5, ChatGPT en DeepL gebruik in die ontwikkeling van hierdie inprop."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "'n kas-inprop is opgespoor. Hierdie inprop sal nie korrek funksioneer as 'n kas-inprop geaktiveer is nie."
+
+msgid "無効なIPアドレス"
+msgstr "Ongeldige IP-adres"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Om hierdie webwerf te gebruik, moet jy koekies en JavaScript inskakel."
+
+msgid "利用規約"
+msgstr "Gebruiksvoorwaardes"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Om ongemagtigde gebruik te voorkom en die veilige werking van ons dienste te verseker, mag hierdie webwerf inligting soos IP-adresse, blaai­geskiedenis en aktiwiteitslogboeke in koekies en databasisse stoor. Hierdie inligting word slegs vir die werking van die webwerf en vir wettige doeleindes gebruik, en sal nie aan derde partye bekendgemaak word nie."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Om hierdie diens te gebruik, moet u toestemming gee vir hierdie verwerkingsaktiwiteite."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "U kan die inhoud van die Privaatheidsbeleid besigtig, ongeag of u u toestemming gegee het."
+
+msgid "同意する"
+msgstr "Ek stem saam"
+
+msgid "同意しない"
+msgstr "Ek stem nie saam nie"
+
+msgid "確認"
+msgstr "Bevestiging"
+
+msgid "プライバシーポリシー"
+msgstr "Privaatheidsbeleid"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Ongewone toegang of aktiwiteit is opgespoor."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Sekere funksies is vir sekuriteits- en inhoudbeskermingsdoeleindes beperk."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Foutopsporingsmodus en konsoletoegang is gedeaktiveer"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Die volgende inligting is na die bediener gestuur."
+
+msgid "あなたのIPアドレス"
+msgstr "Jou IP-adres"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Jou toestel en blaaier"
+
+msgid "あなたの押下したキー"
+msgstr "Die sleutel wat jy gedruk het"
+
+msgid "リダイレクトをします"
+msgstr "Jy sal herlei word"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Sekere funksies is beperk om die inhoud te beskerm."
+
+msgid "右クリックは禁止されています"
+msgstr "Regskliek word nie toegelaat nie"
+
+msgid "あなたが押下したキー"
+msgstr "Die sleutel wat jy gedruk het"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Drukwerk en stoor as PDF is verbode."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Skermkiekies is verbode"
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Dit is verbode om skermkiekies te neem en die foutopsporingsmodus in te skakel."
+
+msgid "ページの保存は禁止されています"
+msgstr "Dit is verbode om hierdie bladsy te stoor."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopieer en knip is verbode."
+
+msgid "あなたが起こしたイベント"
+msgstr "Geleenthede wat jy gereël het"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Dit is nie toegelaat om teks te selekteer nie."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Dit is verbode om HTML-bron kode te vertoon."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ongemagtigde toegang is verbode"
+
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragonees"
+
+msgid "アラビア語"
+msgstr "Arabies"
+
+msgid "アッサム語"
+msgstr "Assamees"
+
+msgid "アゼルバイジャン語"
+msgstr "Aserbeidjaans"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Wit-Rusies"
+
+msgid "ベンガル語"
+msgstr "Bengaalse"
+
+msgid "ブルガリア語"
+msgstr "Bulgaars"
+
+msgid "ボスニア語"
+msgstr "Bosnies"
+
+msgid "カタロニア語"
+msgstr "Katalaans"
+
+msgid "チェコ語"
+msgstr "Tsjeggies"
+
+msgid "ウェールズ語"
+msgstr "Wels"
+
+msgid "デンマーク語"
+msgstr "Deens"
+
+msgid "ドイツ語"
+msgstr "Duits"
+
+msgid "現代ギリシア語"
+msgstr "Moderne Grieks"
+
+msgid "英語"
+msgstr "Engels"
+
+msgid "イギリス英語"
+msgstr "Britsies"
+
+msgid "アメリカ英語"
+msgstr "Amerikaanse Engels"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Spaans"
+
+msgid "エストニア語"
+msgstr "Estnies"
+
+msgid "バスク語"
+msgstr "Baskies"
+
+msgid "ペルシャ語"
+msgstr "Persies"
+
+msgid "フィンランド語"
+msgstr "Fyns"
+
+msgid "フランス語"
+msgstr "Frans"
+
+msgid "アイルランド語"
+msgstr "Iers"
+
+msgid "ガリシア語"
+msgstr "Galisies"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebreeus"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroaties"
+
+msgid "ハイチ・クレオール語"
+msgstr "Haïtiaanse Kreool"
+
+msgid "ハンガリー語"
+msgstr "Hongarys"
+
+msgid "インドネシア語"
+msgstr "Indonesies"
+
+msgid "イボ語"
+msgstr "Ibo-taal"
+
+msgid "アイスランド語"
+msgstr "Yslandsees"
+
+msgid "イタリア語"
+msgstr "Italiaans"
+
+msgid "日本語"
+msgstr "Japans"
+
+msgid "ジャワ語"
+msgstr "Jawaans"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Koreaans"
+
+msgid "クルド語"
+msgstr "Koerdies"
+
+msgid "キルギス語"
+msgstr "Kirgiz"
+
+msgid "ラテン語"
+msgstr "Latyn"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgs"
+
+msgid "リンガラ語"
+msgstr "Taal"
+
+msgid "リトアニア語"
+msgstr "Litouws"
+
+msgid "ラトビア語"
+msgstr "Latviaans"
+
+msgid "マダガスカル語"
+msgstr "Madagasikara"
+
+msgid "マオリ語"
+msgstr "Māori"
+
+msgid "マケドニア語"
+msgstr "Masedonies"
+
+msgid "マラヤーラム語"
+msgstr "Malaajlam"
+
+msgid "モンゴル語"
+msgstr "Mongools"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malaysies"
+
+msgid "マルタ語"
+msgstr "Maltese"
+
+msgid "ビルマ語"
+msgstr "Birmees"
+
+msgid "ネパール語"
+msgstr "Nepalees"
+
+msgid "ノルウェー語"
+msgstr "Noors"
+
+msgid "オランダ語"
+msgstr "Nederlands"
+
+msgid "オック語"
+msgstr "Oksitaans"
+
+msgid "オロモ語"
+msgstr "Of-een"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Poolse"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugees"
+
+msgid "ブラジルポルトガル語"
+msgstr "Braziliaanse Portugees"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Europese Portugees"
+
+msgid "ケチュア語"
+msgstr "Quechua"
+
+msgid "ルーマニア語"
+msgstr "Roemeens"
+
+msgid "ロシア語"
+msgstr "Russies"
+
+msgid "サンスクリット語"
+msgstr "Sanskriet"
+
+msgid "スロバキア語"
+msgstr "Slowaaks"
+
+msgid "スロベニア語"
+msgstr "Sloweens"
+
+msgid "セルビア語"
+msgstr "Serbies"
+
+msgid "南セソト語"
+msgstr "Suidelike Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundaans"
+
+msgid "スウェーデン語"
+msgstr "Sweedse"
+
+msgid "スワヒリ語"
+msgstr "Swaheli"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Thai"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Turks"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Oekraïens"
+
+msgid "ウルドゥー語"
+msgstr "Oerdoo"
+
+msgid "ウズベク語"
+msgstr "Oezbeek"
+
+msgid "ベトナム語"
+msgstr "Viëtnamese"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jiddisj"
+
+msgid "簡体中国語"
+msgstr "Vereenvoudigde Chinees"
+
+msgid "繁体中国語"
+msgstr "Tradisionele Chinees"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Die blaaier wat jy tans gebruik, is 'n ouer weergawe wat nie meer ondersteun word nie. Om 'n veiliger en meer gemaklike blaaiervaring te verseker, stel asseblief jou blaaier op die nuutste weergawe by."
+
+msgid "不正なリクエストです"
+msgstr "Ongeldige versoek"
+
+msgid "画像が見つかりません"
+msgstr "Beeld nie gevind nie"
+

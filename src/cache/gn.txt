@@ -1,0 +1,424 @@
+設定	Mbohekorã
+IPログリーダー	Moñe'ẽha IP Kuatiañe'ẽ
+IPアドレスログ	IP moñe'ẽrenda
+全クリア	Emohu'ã opaite nivelkuéra
+IPログが全て削除されました	Opaite IP kuatiakuéra oñemboguepáma.
+ID	Téra tee
+タイムスタンプ	Ára ha aravo ra'anga
+IPアドレス	Moñe'ẽrã apyte
+ユーザーエージェント	Puruhára Rembiguái
+イベント	Tembiapo
+IPアドレスのデータはありません	Ndaipóri dato ko dirección IP-pe guarã.
+EU GDPR対応	Oñemoañete GDPR UE pegua
+無効	Ndaiporãi
+有効	Iporã
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Reipurúrõ WordPress Unión Europea-pe, térã ne ñanduti renda ohekáva puruhárakuéra Unión Europea-pegua, emomba'e porãke oñemyendýpa kóva.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Pe votõ 'Moañete' oñemoambuéne 'Aime' térã 'Ndaiime'-pe, ha pe oikóva iñambue michĩta.
+同意画面の色	Jeheja ojehecháva sa'y
+自動	Ijeheguiete
+ライトモード	Modo ivevúi
+ダークモード	Tymba'y Sysýi
+同意画面表示中の配色を設定します	Emohenda sa'y ñemohenda pe tembiporu jeheja hag̃ua.
+同意画面中のコンテンツのぼかし	Mba'e ojehecháva ñembohypy'a pe tenda oñemoĩháme jeheja
+同意画面表示中のコンテンツのぼかし具合を設定します	Emohenda mboýpa oñembohasáta umi mba'e ojehechaukáva ta'anga ñemoneĩrãme.
+同意画面の透過	Jehecha porã pe tembiporurã jehejaha
+透過なし	Ndaipóri hesakãva
+同意画面の透過具合を設定します	Emohenda pe ta'anga jehecha pe tembiporavo ñemoneĩrãme
+お知らせの1行目	Marandu ñepyrũha
+初回表示で必ず表示されるメッセージです	Ko marandu ojehechauka tapiaite pe kuatiarogue ojepe'a ypy vove.
+お知らせの2行目	Marandu tysýi mokõiha
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ko marandu ojehechaukáta tapiaite pe jehechauka peteĩháme añoite, pe EU GDPR oñepyrũ vove oñemba'apo.
+お知らせの3行目	Marandu mbohapyha tysýi
+プライバシーポリシーのリンクの右側に表示されます	Ojehecháta pe joajuha Tekorã Ñemiguáva rehegua akatúape.
+非EU向け確認の文字列	Jehaipyre ñemboaje hag̃ua tetãnguéra ndaha'éiva UE-pegua
+EU GDPR向け同意するの文字列	Jeheja jehaipyre UE GDPR-pe guarã
+EU GDPR向け同意しないの文字列	Jehaipyre 'Ani eipota' g̃uarã UE GDPR guýpe
+プライバシーポリシーの文字列	Ñemiguáva ñe'ẽme'ẽ
+プライバシーポリシーのURLはこちらから設定して下さい	Emoĩ ko'ápe pe URL política de privacidad-pe guarã.
+プライバシーポリシーには以下の内容を追加して下さい	Emoĩke ko oúva Tekopy Ñeñangarekorãme.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ojejuhu hag̃ua tembiapo japu, oñeñongatu cookies ha marandu ñongatuhápe techaukaha ha'eháicha dirección IP. Umi marandu oñeñongatúva oñembogue pe sãmbyhyhára oipotaháicha.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Oñembohape porã hag̃ua ta'angakuéra ñemondo oñemoĩ vove ta'anga ñeñangareko, roñongatu marandu oñembohasapyre, oikéva pype IP moñe'ẽha ha ta'anga réra, ore marandu ñongatuhápe 60 aravo peve.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Rembosako'íramo Purukatu Rekorã, emañamína emoĩha peteĩ joajuha hendápekuéra ne Ñemiguáva Ñangareko Apoukapýpe.
+利用規約の文字列	Jepuru Rekorã Kuatiañe'ẽ
+利用規約のページ	Ñe'ẽme'ẽ ha Tekorã Kuatiarogue
+ページ選択なし	Ndaipóri kuatiarogue oñeporavóva
+検索エンジン等のURL	URL-kuéra ohekáva vore, ha ambueve.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Emoĩ URL umi hekahavusu ha tenda ojoguávape g̃uarã ombohasáva puruhárape ha'ekuéra ndoipotáiramo.
+デバッグモード、コンソールの警告メッセージ	Mba'evai jeheka, marandu ñemomarandurã
+右クリックの警告メッセージ	Marandu ñemomarandurã akatúa-pe
+印刷、PDF保存の警告メッセージ	Marandu ñemomarandurã oñembokuatia ha oñeñongatu hag̃ua PDF-pe
+スクリーンショットの警告メッセージ	Marandu ñemomarandurã ta'anga oñenohẽva'ekuépe
+スクリーンショットの疑いの警告メッセージ	Marandu ñemomarandurã ta'anga oñeimo'ãva rehegua
+テキスト全選択時の警告メッセージ	Marandu ñemomarandurã oñembohasapa vove opaite jehaipyre
+ページ保存の警告メッセージ	Marandu ñemomarandurã kuatiarogue ñongatu rehegua
+コピー・カットした時に表示するメッセージ	Marandu ojehechaukáva oñembohasa térã oñeikytĩ jave
+HTMLソース表示時に表示するメッセージ	Marandu ojehechaukátava ojehechávo HTML moñepyrũha
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Marandu ojehechaukáva yvate gotyo código fuente-pe oñembohasávo térã oñeñangarekóvo HTML-re
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Marandu ojehechaukátava pe token jehechakuaarã peteĩ jeyguáva ndoikóiramo ñeñangareko HTML aja
+CookieやJavascriptが有効でない場合に表示するメッセージ	Marandu ojehechaukátava oñemboguejy ramo cookies térã JavaScript
+実際にはJavascriptが無効時のみ表示されます	Añetehápe, kóva ojehechauka JavaScript oñemboguejy ramo añoite.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Peteĩ ta'anga oñeñangarekóvo, oñemboguejy ha ojehechauka peteĩ marandu hese
+HTML難読化 (圧縮)	HTML ñemokañy
+一般的なHTML圧縮です、難読化解除のサイトもあります	Kóva ha'e HTML ñemboguejy jepigua; oĩ avei ñanduti renda ikatuva ombojevy jey.
+このオプションを有効にするとview-sourceのログが取得できます	Emoñepyrũvo ko jeporavorã ikatu rehupyty pe marandu jehechauka apytegua.
+HTML保護	HTML ñeñangareko
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Omoherakuã sa'ive voi HTML pe HTML ñembomichĩha oiporavóvagui, he'iséva pe oĩva pe etikéta BODY ryepýpe ndojehechaukáiha mba'evéichavérõ.
+Firefoxに対しては無効です	Kóva ndaha'éi Firefox-pe g̃uarã.
+SEOに著しく影響があります	Kóva oguereko pokatu tuicháva SEO-pe.
+HTMLをJavaScriptで描画	HTML apo JavaScript rupive
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox-pe ñamboguata hag̃ua, ñamohechauka pe HTML JavaScript rupive.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript ñembohasa ñemoneĩ omboguejy vaietereíta ñanduti renda ñembopu.
+画像の保護	Ta'anga ñeñangareko
+imgタグが呼び出されるごとに画像を保護	Eñangareko ta'angáre oñehenói jave pe etikéta img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Eñangareko opaite ta'anga ojehupi va'ekue WordPress-pe rehe, pe HTML osẽva kompletoitépe.
+画像をダウンロードから保護します	Oñangareko ta'angakuérare ani hag̃ua oñemboguejy
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Ta'anga marandu oñeñangarekóvo, rojoko haimete opaite ñemboguejy, rome'ẽ URL ijojaha'ỹva peteĩ jevy guarã, rohechakuaa mávapa pe oipurúva oipurúvo token oñeñongatúva sesión-pe, ha rohechauka ta'angakuéra PHP rupive; kóva añetehápe ojoko haimete opaite ta'anga ñemonda.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ta'anga marandu oñeñangarekóvo, pe ñongatumi'i ndoikói, upéva he'ise pe tenda oñemoingevetaha mbegueve jevy jevy ojeikévo, ha péicha omyangekói SEO-pe.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ta'anga marandu ñeñangareko ikatu ombohetave tembiapo marandu ñongatuhápe.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Reiporavóramo 'Eñangareko ta'angakuérare ojeipuru jave pe etikéta img', pe sistema oipuru add_filter ombohasávo pe etikéta img ojejapo jave; upeicharõ jepe, kóva ikatu ndoikói porã oimeraẽva téma ndive.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Reiporavóramo 'Eñangareko opaite ta'anga ojehupíva WordPress-pe oĩva pe HTML osẽva ryepýpe', pe plugin oipyhýta haimete opaite WordPress rembiapo ha omba'apóta opaite 'img tag' oĩva pe tembipuru ryepýpe. Tereikuaa kóva ikatu ndoikoporãi oĩramo umi 'theme' ndive.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ejesarekomína umi ta'anga oñembohérava ta'anga tenondegua oñembohasataha OGP marandúicha ha ndaikatuiha oñeñangareko. Reñangarekosetereírõ hesekuéra, embohekopyahu pe ñemboheko HEAD etiqueta osẽva g̃uarã umi ñemboheko pypukuvépe, remoñepyrũvo pe ñeñangareko HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Ndikatúi oñeñangareko pe tembiporu oñenohẽ hag̃ua ta'anga oĩva sistema operativo ryepýpe.
+画像URLの保護	Oñeñangareko ta'anga URL-kuérare
+画像の保護と組み合わせて使用します、単体では意味がありません	Kóva ojepuruva'erã ta'anga ñeñangareko ndive; ha'eño, ndojapói mba'eve.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Oñemoinge mbegueterei rupi JavaScript rupive, kóva ombyai SEO.
+画像のウォーターマーク	Ta'anga jehaipyre'i
+右下	Upe akatúa guýpe
+ランダム位置	Tenda oimeraẽva
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Ojeipurúvo ta'anga ñeñangareko ndive, umi marca dinámica ohechauka porã mávapa ijára, ha upéicha avei omoñeñandu umi ohechávape oñemaña heseha, ha péicha omomombyry chupekuéra.
+JPG形式、PNG形式、WebP形式のみ対応します	Oñemboaje JPG, PNG ha WebP formáto añoite.
+有効にするとサーバーの負荷が高くなります	Kóva oñemoĩramo ombohetavéta mba'e ojejapova'erã servidór-pe.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Oñeguenohẽvo ta'anga ASCII código fuente HTML-gui oñembo'a ha oñeñangareko aja HTML-re.
+表示なし	Ndaipóri jehechauka
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Ohechauka ta'anga ASCII ohechaukáva peteĩ ñe'ẽmondo ojehechávo HTML kuatiarogue oipurúvo 'view-source'.
+対象アクションを起こした時の表示デザイン	Ohechauka diseño ojejapóvo pe tembiapo ojeipotáva.
+黄色の背景の黒文字のベーシックデザイン	Peteĩ ta'anga ypy ojehechaukáva tai hũva peteĩ ao sa'yju ári.
+黒色の背景の赤文字のホラー風デザイン	Peteĩ ta'anga kyhyje rehegua, orekóva jehai pytã peteĩ tesape hũ ári.
+黒色の背景の赤文字の光る文字のデザイン	Peteĩ ta'anga oguerekóva jehai pytã rendy peteĩ tesape hũ ári.
+対象アクションを起こした時のBGM	Purahei oñembopúva ojejapo vove pe tembiapo ojeipotáva.
+サウンドなし	Ndaipóri tyapu
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Ñorairõ ha Pu'aka - 1 aravo'i 16,3 aravo'imi - 630.056 byte - 64 kbps - Lisénsia: CC 2.1 térã upe rire
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Túva Mbyky - 3,8 segundo - 32.364 byte - 64 kbps - Lisénsia: GPL 2.0 térã upe rire
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Puku - 23.5 aravo'i - 195.578 byte - 64 kbps - Lisénsia: GPL 2.0 térã upe rire
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolución' – Versión kombutadóra ojapopyréva, pya'e – 1 aravo'i 57,6 aravo'imi – 724.457 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe riregua
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo Si bemol menor-pe, Op. 2 – Versión kombutadóra ojapóva, versión mbykypyre pya'e – 1 aravo'i 48,0 segundo – 665.369 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe rire
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Tysýi: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – Versión kombutadóra ojapopyréva, versión mbykypyre pya'e – 1 aravo'i 51,6 aravo'i'i – 687.586 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe riregua
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Mbopu guasu – 22,3 aravo'i – 183.926 byte – 64 kbps – Lisénsia: Oparupigua mba'e
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Purahéi guasu yma guaréicha – 2,2 segundo – 10.536 byte – 32 kbps – Lisénsia: Oparupigua mba'e
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Moñepyrũha yma guareicha – 42,1 segundo – 179.138 byte – 32 kbps – Lisénsia: Opaite mba'e opavavépe g̃uarã
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Marandu ChatGPT-gui - 3.8 segundo - 109.700 byte - 256 kbps - Lisénsia: Oparupigua mba'e
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Peteĩ pu pya'e oikotevẽva oñehendu pya'e, ha'ete peteĩ ñemomarandu ojejuhuhague mba'evai – Vore 1, ChatGPT ojapóva – 3,3 segundo – 102.850 byte – 256 kbps – Lisénsia: Opaite ikatu oipuru.
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Peteĩ pu pya'e oñeikotevẽva, oñehendúva peteĩ ñe'ẽmondoicha ojejuhuhague mba'evai, Mokõiha Vore, ChatGPT ojapóva - 3,3 segundo - 103.122 byte - 256 kbps - Lisénsia: Opaite yvypóra mba'e
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Pu MRI-ichagua ChatGPT ojapóva – 1 aravo'i 14,9 aravo'i'i – 3.340.392 byte – 320 kbps – Lisénsia: Oparavéva mba'e
+警告表示中のBGMを選択します	Eiporavo purahéi oñembopúva oñemoñe'ẽ aja.
+びっくりするような雰囲気を作ります	Omoheñói peteĩ tekoha ñanemondýiva.
+Firefoxでは音声ブロックされます	Pu oñemboty Firefox-pe.
+対象アクションを起こした時のビープ音	Peteĩ tyapu ojejapóvo pe tembiapo oje'éva.
+有効 音量小さ目	Oñemyendy, pu mbovy
+有効 音量大き目	Omba'apo, ipu hatã
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Peteĩ tyapu oñehendúta oñembohovái hag̃ua opaite tekládo ha mbarakaja rembiapo, ojehechaukávo peteĩ ñemomarandu.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Ohechauka pe tembiporu oñembotavyreívaicha ojehechaukávo pe ñemomarandu.
+対象アクションを起こした時のマウスカーソルの消去	Ñomiñomi mbotyha techaukaha ojejapóvo peteĩ tembiapo tee.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Oñomi mouse cursor pe navegador rendápe ojehechauka aja peteĩ ñemomarandu.
+デバッグモード	Mba'evai jeheka rape
+妨害＋記録のみ	Ñembosarái + Purahéi Kuatiakuéra añoite
+妨害＋記録＋表示＋リダイレクト	Jejokoha + Jehaipyre ñembyaty + Jehechauka + Ñembohape
+メニューからは操作できてしまいます	Ikatu gueteri reike hese pe menú rupive.
+Firefoxにおけるデバッグモード	Mba'evai jeheka Firefox-pe
+ブラウザーコンソール	Konsóla ohechaukáva
+事実上デバッグモードから操作できてしまいます	Añetehápe, ikatu remomba'apo chupe modo de depuración-gui.
+HTMLソース表示	Ehecha HTML moñepyrũha
+view-source:から始まるURLを入力すれば操作できてしまいます	Ikatu ejapo upe tembiapo remoingévo peteĩ URL oñepyrũva 'view-source:' reheve.
+HTML保護と組み合わせることでコンテンツを保護することができます	Ikatu eñangareko ne mba'ekuérare emoĩvo oñondive kóva pe ñangareko HTML ndive.
+印刷	Emyanyhẽ
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ndaikatúiramo jepe oñembokuatia, ikatu ndoikoporãi umi navegador-pe.
+スクリーンショット	Ta'anga oñenohẽva
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Mba'e sistema operativo, navegador térã tape ojeipurúvare, ikatu ndaikatúi ojejoko kóva, térã ikatu noñandúi.
+ウインドウが背面に移動した時スクリーンショットの疑い	Oje'éva ha'eha ta'anga ojejapóva pe ovetã oho vove tapykue gotyo.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Oñembohovái avei ambue tembiaporãme ndaha'éiramo ta'anga oñenohẽva
+2キー押下のスクリーンショットの疑い	Oje'éva ta'anga oñenohẽhague oñembopévo mokõi teklá.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Umi mba'e yvategua jehechakuaa rape ndaha'éi ojeroviahaite hag̃ua; ojejapo pe jehechakuaa ñeñangarekorãnte.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ohechakuaa ndaha'éi ta'anga oñenohẽva añónte, ha katu avei umi ñemyatyrõ rape ha umi mba'e ojoguáva.
+ページ保存	Eñongatu kuatiarogue
+右クリック	Eikutu akatúa
+アドオンがインストールされていると操作できてしまいます	Pe ñembojoapy oñemoĩramo, ikatúta reipuru.
+コピー・カット	Ekopia ha eikytĩ
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Ko plugin ñembohekoitépe oñemopyendávo, ikatu sa'i jey rejuhu ko mba'e ojehúva.
+テキスト全選択	Eiporavo opa jehaipyre
+テキスト選択	Eiporavo jehaipyre
+デバッガー起動ログ、デバッガー妨害	Debugger ñepyrũha marandu, debugger ñembotapykue
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Kóva ojapo pe modo de depuración hasy'ive michĩmi ojepuru hag̃ua ha omoĩ peteĩ marandu he'íva oñemboguapyhague pe depurador; upeicharõ jepe, oĩ umi navegador ikatuva'erã ojoko ko mba'e.
+リダイレクトするURL	URL ambue gotyo
+利用規約などのページに転送すると良いでしょう	Iporãta ñambohasa umi oipurúvape ambue kuatiápe, Tembipuru Rekorãicha.
+空欄にすると元のURLにリダイレクトをします	Oñemoĩ'ỹrõ mba'eve, ombohasáta pe URL ypykuépe.
+リダイレクトまでの時間	Ára oñembohasávo
+リダイレクトなし	Ndaipóri ñembohape
+1秒	Peteĩ segundo
+2秒	Mokõi segundo
+3秒	Mbohapy aravo'i
+4秒	Irundy segundo
+5秒	Po aravo'i
+6秒	Poteĩ aravo'i
+7秒	Pokõi aravo'i
+8秒	Poapy aravo'i
+9秒	Porundy aravo'i
+10秒	Pa aravo'i
+15秒	Poteĩ aravo'i
+20秒	Mokõipa aravo'i
+25秒	Mokõipa po aravo'i
+30秒	Mbohapypa aravo'i
+35秒	Mbohapypa aravo'i
+40秒	Irundypa aravo'i
+45秒	45 aravo'i
+50秒	Pohaapy aravo'i
+55秒	Poha aravo'i
+1分	Peteĩ aravo'i
+1分10秒	Peteĩ aravo'i ha pa aravo'i
+1分20秒	Peteĩ aravo'i mokõipa
+1分30秒	Peteĩ aravo'i mbohapypa aravo'i
+1分40秒	Peteĩ aravo'i irundypa aravo'i
+1分50秒	Peteĩ aravo'i ha poapy segúndo
+2分	Mokõi aravo'i
+ソース表示を許可する権限	Jeheja ojehecha hag̃ua código fuente
+ADMINログイン時のみ通常のソース出力	Jehechauka jepivegua ojehecháta ADMIN-ramo añoite.
+USERログインで通常のソース出力	Moñe'ẽha osẽva hekópe ojeikévo USER ramo.
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Eiporavo oñembotapykuepa pe HTML osẽva umi moakãharakuérape g̃uarãnte térãpa oikotevẽ oikévo puruhára.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Oñembojopy peteĩ ta'anga oguejy hag̃ua ha mba'épa añetehápe oguejy
+GIF形式で1×1ピクセルの透過画像	Peteĩ ta'anga hesakãva peteĩ por pixel-pegua, formato GIF-pe.
+PNG形式で1×1ピクセルの透過画像	Peteĩ ta'anga hesakãva peteĩ por pixel-pegua, formato PNG-pe.
+PNG形式で黄色い背景の警告画面	Peteĩ ta'anga ñemomarandurã hovyũ ijapytepekuéva, formato PNG-pe.
+意味のないHTMLドキュメント	Peteĩ kuatiañe'ẽ HTML he'ise'ỹva
+HTML保護時のHEADタグの出力	HEAD etikéta osẽva oñeñangarekórõ HTML
+出力しない	Ani oñembokuatia
+TITLEタグのみ	Moñe'ẽrã téra añónte
+WordpressのHEADタグより取得	Oñenohẽ WordPress HEAD etiketágui
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Umi kuatiarogue oipurúva empresa-nte ha kuatiarogue pypegua-pe g̃uarã, oñembohekóramo 'Ani ojehechauka' térã 'Etikéta TITLE-nte', upéva oĩmbáma.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Nde reipe'áirõ marandu pe WordPress HEAD etiqueta-gui, pe OGP ta'anga ndojehechaukamo'ãi oñembohasávo redes sociales-pe.
+画像botをアクセス禁止にする	Emboty pe ta'anga'i bot
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Nembotývo umi bot ta'angaguáva oike hag̃ua HTML-pe, ikatu reñangareko umi mba'e oĩvare ndaikatúiva oñeñangareko oñembojoaju hekopete'ỹre ta'anga jeheka rupive; upeicharõ jepe, kóva ndaha'éi peteĩ ñemyatyrõ ipaháva.
+AI学習用botをアクセス禁止にする	Emboty pe jeike pe bot oñembokatupyrývape AI-pe g̃uarã.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Ndojepurúigui umi bot ojejapóva AI ñembokatupyrýrã HTML-pe, roñangareko pe tembiapo'aty ani hag̃ua ojeipuru AI-pe; upeicharõ jepe, kóva ndaikatúi ojejokoite.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Emboty ñeike umi ñanduti ñongatupyrépe ha ñanduti ra'angápe
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Ro'e'ẽngu'i ojeike hag̃ua umi ñanduti vore ñongatupyre oñembyaty ijeheguietévape ha umi ta'anga oñenohẽva puruhára rembipotápe; upeicharõ jepe, ndaikatúi rojokoite ko mba'e.
+無効なUAをアクセス禁止にする	Emboty umi user agent ndoikóiva
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Ndohejái oike oĩramo taikuéra ndoikóiva pe puruhára rérape.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Ohechauka peteĩ ñemomarandu ojeike jave Internet Explorer ha pe Microsoft Edge tuja
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Ojoko oike hag̃ua Internet Explorer ha Microsoft Edge tuja rupive.
+alertメッセージを表示する言語	Ñe'ẽ ojehechaukahápe marandu ñemomarandurã
+Wordpressの言語	WordPress ñe'ẽnguéra
+ブラウザの設定言語	Navegador ñe'ẽ ñemboheko
+メッセージをカスタム設定されている場合は言語を変更できません	Ndaikatúi remoambue ñe'ẽnguéra umi marandu oñemboheko ramo.
+同意画面の言語	Ñe'ẽ jeheja ñemohendarã
+view-sourceメッセージを表示する言語	Ñe'ẽ ojehechaukahápe marandu 'view-source'.
+一時使用トークンの有効期限	Tokuéra sapy'arãgua ára opa hag̃ua
+3分	Mbohapy aravo'i
+4分	Irundy aravo'i
+5分	Po aravo'i
+6分	Poteĩ aravo'i
+7分	Pokõi aravo'i
+8分	Poapy aravo'i
+9分	Porundy aravo'i
+10分	Pa aravo'i
+15分	Pópa aravo'i
+20分	Mokõipa aravo'i
+25分	Mokõipa po aravo'i
+30分	Mbohapypa aravo'i
+35分	Mbohapypa aravo'i
+40分	Irundypa aravo'i
+45分	Mboarapy aravo'i
+50分	Poha pa aravo'i
+55分	Poha aravo'i
+1時間	Peteĩ aravo
+画像URL情報の有効期限を設定します	Emohenda ta'anga URL marandu opa ára.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Oñemoinge rire, ta'anga URL ha token sapy'arãgua ndoikovéima.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Ta'angakuéra oñemoinge ojejerurérõguare, hákatu oñemoingéta ijeheguiete 30 aravo'i pe ára oje'eva'ekue mboyve.
+一時使用トークンのビット数	Mboýpa bits oĩ peteĩ token sapy'arãme
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Ojeipuru peteĩ token sapy'arãgua ñe'ẽñemi ramo oñemboñemi hag̃ua ta'anga URL marandu; ko ñemohenda ohechauka imbareteha.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Jepe umi jeiporavorã ojehechaukáva pe menú ojepe'áva guýpe ipypukuvévo ohóvo, kóva ikatu ombohasyeterei pe servidor-pe ha upéicha rupi oñembohasáta hetaiterei dato HTML.
+ハッシュ化アルゴリズム	Algoritmo hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ojeipuru peteĩ token sapy'arãgua ñe'ẽñemi ramo oñemboñemi hag̃ua ta'anga URL marandu; kóva oikotevẽ hashing, ha ko ñemohenda ohechauka imbareteha pe hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Jepémo pe mbarete okakuaa remboguejývo umi jeiporavorã ojehechaukáva pe menú oguejývape, kóva omoĩve pohýi pe servidór-re.
+基本設定	Ñemohenda ypykuéra
+高度な設定	Mboheko pypukuvéva
+初期設定に戻す	Moĩ jey umi ñemboheko ypykue
+デザイン・音の設定	Diseño ha ñe'ẽ myatyrõnguéra
+イベントの設定	Tembiapo ñemohenda
+初回訪問時のお知らせの設定	Ñemohenda marandurã jeike peteĩha ára guarã
+メッセージの設定	Marandu ñemboheko
+右クリックやソースコード表示時に転送する URL を設定します	Emohenda pe URL ojepe'átava ejopývo akatúa gotyo térã rehechávo ikódigo fuente.
+警告メッセージにはHTMLは使用できません	HTML ndaikatúi ojeporu marandu ñemomarandurãme.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Rehekombo'éramo kóva ko tendápe, umi ñe'ẽ ñemohenda oĩva vore 'Avanzado'-pe noñemoañetemo'ãi.
+以下の文字列が使用できます	Ikatu ojeporu ko'ã ñe'ẽnguéra oúva
+改行	Ñe'ẽ jehaipyre ñemboja'o
+押下されたキー	Oñembopyrũ pe lláve
+Neo HTML Protector 設定	Neo HTML Mo'ãha Mbohekorã
+お知らせ	Jesarekorã
+メッセージ	Marandu
+デザイン・音	Ta'anga ha Pu
+初期化	Ñepyrũmby
+このプラグインについて	Ko plugin rehegua
+設定が初期化されました	Umi ñemboheko oñemoñepyrũjeyma.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Emoñepyrũ pe plugin. Tereikuaa porã umi dato IP Log Reader pegua ndojepe'amo'ãiha ko'ápe.
+Neo HTML Protectorについて	Neo HTML Protector rehegua
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ko plugin ojejapo oñangareko hag̃ua pe HTML, ta'anga ha ambue mba'e ne sitio WordPress-pegua ojapóvare, oñangarekóvo hese ani hag̃ua ojeporu nderehegui.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Ndaikatúi oñeñangareko porãite umi mba'e oĩvare. Upéicharõ jepe, oñemoñe'ẽvo ikatuhápe ha oñembosako'ívo oiméramo g̃uarã oiko mba'eve, ikatúta ñamyatyrõ ko mba'e umi tekorã tetã sãmbyhyha omoĩva'ekue he'iháicha.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Katuete, tekotevẽta rejesareko ne ñe'ẽme'ẽ ha tekorãnguéra ha avei ne ñanduti renda rembiapoukapy ipype oĩmbapaite haguã opa mba'e. Jepémo ko plugin ndaha'éi peteĩ tembiporu omoheñóiva ñe'ẽme'ẽ ha tekorãnguéra, ikatu katu ome'ẽ ndéve sãmbyhyrã.
+開発者: 夜桜　なの	Apohára: Nano Yozakura
+バージョン	Mbohasapy
+ビルド	Mopu'ã
+サポートページ	Pytyvõrã kuatiarogue
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Omba'apóva Kuñakarai Ura Manira
+支援のお願い	Peteĩ jerure pytyvõrã
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Aguyje reipuruhaguére Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ko plugin ñemoheñói ha ñeñangareko ojerure heta ára ha mbarete, ha ikatu hag̃uáicha roñembyaty viru romoporãve ha rombohekopyahu meme hag̃ua, roaguyjevéta oimeraẽ ikatúva orepytyvõ ohecháramo ome'ẽ viru'imi.
+寄付について	Jopói rehegua
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Pytyvõrã ñeme'ẽ ningo ojeipotárõguánte, ndaha'éi tekovo. Ko plugin ningo opavavépe g̃uarã ndojehepyme'ẽi. Upéicharõ jepe, roagradesetereíta ne pytyvõre orepytyvõ hag̃ua roñemotenonde hag̃ua, ha rovy'aitereíta ikatúramo reme'ẽ mba'e ikatúva.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ikatu reme'ẽ ne pytyvõ pe joajuha oĩva iguýpe rupi. Reikóramo Japón-pe, ikatu reme'ẽ mba'eve'ỹre, ha avei ikatu reme'ẽ ndahasýi'ỹre reipurúvo Amazon jopói vávla.
+寄付先	Pytyvõrã aty
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Pende pytyvõ rupive, rojapóta ikatúva guive roguenohẽ meme hag̃ua peẽme marandu pyahu iporãitereíva!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Roaguyjevete ndéve ne pytyvõre ha roha'arõ ne pytyvõ meme tenonderã.
+ライセンス	Permiso
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ko plugin ojejapo software código abierto-ramo ha oguereko lisénsia GPL v2.0 térã ipyahuvéva guýpe.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ko plugin-pe oĩva aporeko pyahu apytégui oĩ oñeñangarekóva patente rupive.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ko tecnología patentada jeporu oñepermite ko plug-in ryepýpente.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Oimeraẽ ambue jeporurã, eñe'ẽ pe apoháre rehupyty hag̃ua peteĩ kuatia'atã ñemuha.
+本プラグインには以下のライブラリを同梱しています	Ko plugin oguereko ko'ã librería
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ko plugin ogueru umi tai ta'anga ASCII ojejapóva iguýpe, umi tai vore'a kuatiándi.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ko plugin oguereko purahéi pe ñembosarái Super Famicom ndaha'éiva ofisiál 'SM Trainer Hitomi 3'-gui, ojapova'ekue EJ Co., Ltd. ha omopu'ãva'ekue ko plugin apohare, ha oguereko lisénsia ofisiál.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ko plugin oguereko purahéi ojejapóva 'Keppy's YAMAHA C7' rupive, Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Aipuru avei peteĩ Raspberry Pi 5, ChatGPT ha DeepL ko plugin apópe.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Ojejuhu peteĩ plugin ñongatuharã. Ko plugin ndoikomo'ãi porã oñemoĩramo ambue plugin ñongatuharã.
+無効なIPアドレス	IP moñe'ẽha ndoikóiva
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Reipuru hag̃ua ko ñanduti renda, remoĩ porã va'erã cookies ha JavaScript.
+利用規約	Jepuru Rekorã
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ojejoko hag̃ua jeporu ndojeheja'ỹiva ha oñemboaje hag̃ua ore rembiapokuéra ñemba'apo porã, ko ñanduti renda ikatu oñongatu marandu cookies ha marandu ñongatuhápe, techapyrãrõ IP moñe'ẽha, ñanduti jeguata rembiasakue ha tembiapo kuatiakuéra. Ko marandu ojeporu pe ñanduti renda ñemba'aporãnte ha tembiaporã tekojojápe g̃uarã, ha ndojekuaaukamo'ãi avave ambuépe.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Reipuru hag̃ua ko tembiporu, reme'ẽva'erã ne ñe'ẽ ko'ã tembiapo ñembosako'ípe.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Ikatu rehecha Mbojerovia Ñeñangarekorã rembiapokue, remoneĩ térã remoneĩ'ỹ ramo jepe.
+同意する	Aime porã
+同意しない	Nda'éi
+確認	Moañete
+プライバシーポリシー	Ñemiguáva Ñangarekorã
+通常とは異なる方法でのアクセスや操作が検出されました	Ojejuhu jeike térã tembiapo ndahepyiguáva.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Oĩ mba'e ojejokóva oñeñangareko hag̃ua ha ani hag̃ua oñembyai imba'ekuaa.
+デバッグモード、コンソールの起動は禁止されています	Mba'evai jeheka ha konsóla jeike oñembogue.
+以下の情報がサーバーに送信されました	Marandu oúva oñemondo'éma servidórpe.
+あなたのIPアドレス	Ne dirección IP
+あなたの端末とブラウザ	Ne tembiporu ha ne kundahára
+あなたの押下したキー	Pe lláve rembopyréva
+リダイレクトをします	Nde reraha jeýta
+コンテンツ保護のため一部の機能を制限しています	Oñembotove oĩ mba'e oñeñangareko hag̃ua imba'e rehe.
+右クリックは禁止されています	Ndojehejái ojejopy akatúa gotyo.
+あなたが押下したキー	Pe lláve rembopyréva
+印刷、PDFへの保存は禁止されています	Ndaikatúi oñembokuatia térã oñeñongatu PDF-pe.
+スクリーンショットは禁止されています	Ndaikatúi oñenohẽ ta'anga pantalla-gui.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ndojehejái oñenohẽ ta'anga pantalla-gui ha oñemoñepyrũ modo de depuración.
+ページの保存は禁止されています	Ndaikatúi oñeñongatu ko kuatiarogue.
+コピー、カットは禁止されています	Ndaikatúi oñembohasa térã oñeikytĩ.
+あなたが起こしたイベント	Umi tembiapo nde remohendava'ekue
+テキストの選択は禁止されています	Ndaikatúi oñeporavo jehaipyre.
+HTMLソース表示は禁止されています	Ojejoko ojehechauka hag̃ua HTML código fuente.
+不正アクセスは禁止されています	Ojejoko oike hag̃ua permiso'ỹre.
+アフリカーンス語	Afrikáans
+アラゴン語	Aragonés
+アラビア語	Sári
+アッサム語	Asamésa
+アゼルバイジャン語	Azerbaijaniñe'ẽ
+バシュキール語	Ñembosarái
+ベラルーシ語	Belarusoñe'ẽ
+ベンガル語	Bengalí
+ブルガリア語	Búlgaro
+ボスニア語	Bosníako
+カタロニア語	Katálan
+チェコ語	Chekio
+ウェールズ語	Gales-gua
+デンマーク語	Danés
+ドイツ語	Alemáña-gua
+現代ギリシア語	Griégo ko'ág̃agua
+英語	Inglés
+イギリス英語	Británico
+アメリカ英語	Inglés Americano
+エスペラント語	Ñe'ẽ oñeha'arõva
+スペイン語	Pahagueñe'ẽ
+エストニア語	Estonio
+バスク語	Vasco
+ペルシャ語	Pérsape
+フィンランド語	Fínlandigua
+フランス語	Haitĩñe'ẽ
+アイルランド語	Irlándagua
+ガリシア語	Galés
+グァラニ語	Ñe'ẽ
+グジャラート語	Gujaratiñe'ẽ
+ハウサ語	Óga guasu
+ヘブライ語	Hebreoñe'ẽ
+ヒンディ語	Iñindícha
+クロアチア語	Króatañe'ẽ
+ハイチ・クレオール語	Kreyol Ayisiana
+ハンガリー語	Húngaro
+インドネシア語	Indonesio-gua
+イボ語	Ibo ñe'ẽ
+アイスランド語	Islandés
+イタリア語	Italiano
+日本語	Hapõñe'ẽ
+ジャワ語	Yvapyguáicha
+カザフ語	Kazajo
+朝鮮語	Koreagua
+クルド語	Kurdía-gua
+キルギス語	Kirgistán-gua
+ラテン語	Látino
+ルクセンブルク語	Luxemburgués
+リンガラ語	Kóla
+リトアニア語	Lituáno
+ラトビア語	Letón
+マダガスカル語	Malagasy
+マオリ語	Maorí
+マケドニア語	Masedonio
+マラヤーラム語	Malayo
+モンゴル語	Mongolía-gua
+マラーティー語	Maratíñe'ẽ
+マレー語	Malayo
+マルタ語	Malta-gua
+ビルマ語	Birmania-gua
+ネパール語	Nepalés
+ノルウェー語	Noruegués
+オランダ語	Hollandés
+オック語	Oksitan
+オロモ語	Tetã
+パンジャーブ語	Punjabiñe'ẽ
+ポーランド語	Ñemopotĩ
+パシュトー語	Pahstó
+ポルトガリア語	Purtugués
+ブラジルポルトガル語	Purtugues Brasil-pegua
+ヨーロピアンポルトガル語	Portugués Europeo
+ケチュア語	Kuarahyresẽ
+ルーマニア語	Rumán-gua
+ロシア語	Rrúsia-gua
+サンスクリット語	Sánscrito
+スロバキア語	Eslovaquiañe'ẽ
+スロベニア語	Eslovenio-gua
+セルビア語	Sirviaguigua
+南セソト語	Sesotho Ñembyegua
+スンダ語	Sunda-gua
+スウェーデン語	Sueco
+スワヒリ語	Suaíli
+タミル語	Támil ñe'ẽ
+テルグ語	Téligu
+タジク語	Pukúva
+タイ語	Tailandés
+トルクメン語	Turco
+タガログ語	Taguápe
+トルコ語	Túرکo
+タタール語	Tatápe
+ウクライナ語	Ucraniano
+ウルドゥー語	Hendýi
+ウズベク語	Uzbeko
+ベトナム語	Vietnamita
+コサ語	Hesarái
+イディッシュ語	Yidiñe'ẽ
+簡体中国語	Chino oñemombykyva
+繁体中国語	Chinagua yma guare
+ズールー語	Pytagua
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Pe ñanduti jehekahára reiporúva ko'ág̃a ha'e peteĩ versión tuja ndojejokovéimava. Reiporu hag̃ua py'aguapyve ha ndahasýi hag̃ua, emyanyhẽmína nde ñanduti jehekahára versión pyahuvépe.
+不正なリクエストです	Jerure ndoikóiva
+画像が見つかりません	Ta'anga ndojuhúi

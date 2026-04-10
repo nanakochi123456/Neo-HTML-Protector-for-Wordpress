@@ -1,0 +1,1292 @@
+# Guarani translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 03:10+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Guarani\n"
+"Language: gn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Mbohekorã"
+
+msgid "IPログリーダー"
+msgstr "Moñe'ẽha IP Kuatiañe'ẽ"
+
+msgid "IPアドレスログ"
+msgstr "IP moñe'ẽrenda"
+
+msgid "全クリア"
+msgstr "Emohu'ã opaite nivelkuéra"
+
+msgid "IPログが全て削除されました"
+msgstr "Opaite IP kuatiakuéra oñemboguepáma."
+
+msgid "ID"
+msgstr "Téra tee"
+
+msgid "タイムスタンプ"
+msgstr "Ára ha aravo ra'anga"
+
+msgid "IPアドレス"
+msgstr "Moñe'ẽrã apyte"
+
+msgid "ユーザーエージェント"
+msgstr "Puruhára Rembiguái"
+
+msgid "イベント"
+msgstr "Tembiapo"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ndaipóri dato ko dirección IP-pe guarã."
+
+msgid "EU GDPR対応"
+msgstr "Oñemoañete GDPR UE pegua"
+
+msgid "無効"
+msgstr "Ndaiporãi"
+
+msgid "有効"
+msgstr "Iporã"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Reipurúrõ WordPress Unión Europea-pe, térã ne ñanduti renda ohekáva puruhárakuéra Unión Europea-pegua, emomba'e porãke oñemyendýpa kóva."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Pe votõ 'Moañete' oñemoambuéne 'Aime' térã 'Ndaiime'-pe, ha pe oikóva iñambue michĩta."
+
+msgid "同意画面の色"
+msgstr "Jeheja ojehecháva sa'y"
+
+msgid "自動"
+msgstr "Ijeheguiete"
+
+msgid "ライトモード"
+msgstr "Modo ivevúi"
+
+msgid "ダークモード"
+msgstr "Tymba'y Sysýi"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Emohenda sa'y ñemohenda pe tembiporu jeheja hag̃ua."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Mba'e ojehecháva ñembohypy'a pe tenda oñemoĩháme jeheja"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Emohenda mboýpa oñembohasáta umi mba'e ojehechaukáva ta'anga ñemoneĩrãme."
+
+msgid "同意画面の透過"
+msgstr "Jehecha porã pe tembiporurã jehejaha"
+
+msgid "透過なし"
+msgstr "Ndaipóri hesakãva"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Emohenda pe ta'anga jehecha pe tembiporavo ñemoneĩrãme"
+
+msgid "お知らせの1行目"
+msgstr "Marandu ñepyrũha"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ko marandu ojehechauka tapiaite pe kuatiarogue ojepe'a ypy vove."
+
+msgid "お知らせの2行目"
+msgstr "Marandu tysýi mokõiha"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ko marandu ojehechaukáta tapiaite pe jehechauka peteĩháme añoite, pe EU GDPR oñepyrũ vove oñemba'apo."
+
+msgid "お知らせの3行目"
+msgstr "Marandu mbohapyha tysýi"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ojehecháta pe joajuha Tekorã Ñemiguáva rehegua akatúape."
+
+msgid "非EU向け確認の文字列"
+msgstr "Jehaipyre ñemboaje hag̃ua tetãnguéra ndaha'éiva UE-pegua"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Jeheja jehaipyre UE GDPR-pe guarã"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Jehaipyre 'Ani eipota' g̃uarã UE GDPR guýpe"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Ñemiguáva ñe'ẽme'ẽ"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Emoĩ ko'ápe pe URL política de privacidad-pe guarã."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Emoĩke ko oúva Tekopy Ñeñangarekorãme."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ojejuhu hag̃ua tembiapo japu, oñeñongatu cookies ha marandu ñongatuhápe techaukaha ha'eháicha dirección IP. Umi marandu oñeñongatúva oñembogue pe sãmbyhyhára oipotaháicha."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Oñembohape porã hag̃ua ta'angakuéra ñemondo oñemoĩ vove ta'anga ñeñangareko, roñongatu marandu oñembohasapyre, oikéva pype IP moñe'ẽha ha ta'anga réra, ore marandu ñongatuhápe 60 aravo peve."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Rembosako'íramo Purukatu Rekorã, emañamína emoĩha peteĩ joajuha hendápekuéra ne Ñemiguáva Ñangareko Apoukapýpe."
+
+msgid "利用規約の文字列"
+msgstr "Jepuru Rekorã Kuatiañe'ẽ"
+
+msgid "利用規約のページ"
+msgstr "Ñe'ẽme'ẽ ha Tekorã Kuatiarogue"
+
+msgid "ページ選択なし"
+msgstr "Ndaipóri kuatiarogue oñeporavóva"
+
+msgid "検索エンジン等のURL"
+msgstr "URL-kuéra ohekáva vore, ha ambueve."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Emoĩ URL umi hekahavusu ha tenda ojoguávape g̃uarã ombohasáva puruhárape ha'ekuéra ndoipotáiramo."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mba'evai jeheka, marandu ñemomarandurã"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Marandu ñemomarandurã akatúa-pe"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Marandu ñemomarandurã oñembokuatia ha oñeñongatu hag̃ua PDF-pe"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Marandu ñemomarandurã ta'anga oñenohẽva'ekuépe"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Marandu ñemomarandurã ta'anga oñeimo'ãva rehegua"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Marandu ñemomarandurã oñembohasapa vove opaite jehaipyre"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Marandu ñemomarandurã kuatiarogue ñongatu rehegua"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Marandu ojehechaukáva oñembohasa térã oñeikytĩ jave"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Marandu ojehechaukátava ojehechávo HTML moñepyrũha"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Marandu ojehechaukáva yvate gotyo código fuente-pe oñembohasávo térã oñeñangarekóvo HTML-re"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Marandu ojehechaukátava pe token jehechakuaarã peteĩ jeyguáva ndoikóiramo ñeñangareko HTML aja"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Marandu ojehechaukátava oñemboguejy ramo cookies térã JavaScript"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Añetehápe, kóva ojehechauka JavaScript oñemboguejy ramo añoite."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Peteĩ ta'anga oñeñangarekóvo, oñemboguejy ha ojehechauka peteĩ marandu hese"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML ñemokañy"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Kóva ha'e HTML ñemboguejy jepigua; oĩ avei ñanduti renda ikatuva ombojevy jey."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Emoñepyrũvo ko jeporavorã ikatu rehupyty pe marandu jehechauka apytegua."
+
+msgid "HTML保護"
+msgstr "HTML ñeñangareko"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Omoherakuã sa'ive voi HTML pe HTML ñembomichĩha oiporavóvagui, he'iséva pe oĩva pe etikéta BODY ryepýpe ndojehechaukáiha mba'evéichavérõ."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Kóva ndaha'éi Firefox-pe g̃uarã."
+
+msgid "SEOに著しく影響があります"
+msgstr "Kóva oguereko pokatu tuicháva SEO-pe."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "HTML apo JavaScript rupive"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox-pe ñamboguata hag̃ua, ñamohechauka pe HTML JavaScript rupive."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScript ñembohasa ñemoneĩ omboguejy vaietereíta ñanduti renda ñembopu."
+
+msgid "画像の保護"
+msgstr "Ta'anga ñeñangareko"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Eñangareko ta'angáre oñehenói jave pe etikéta img."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Eñangareko opaite ta'anga ojehupi va'ekue WordPress-pe rehe, pe HTML osẽva kompletoitépe."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Oñangareko ta'angakuérare ani hag̃ua oñemboguejy"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Ta'anga marandu oñeñangarekóvo, rojoko haimete opaite ñemboguejy, rome'ẽ URL ijojaha'ỹva peteĩ jevy guarã, rohechakuaa mávapa pe oipurúva oipurúvo token oñeñongatúva sesión-pe, ha rohechauka ta'angakuéra PHP rupive; kóva añetehápe ojoko haimete opaite ta'anga ñemonda."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Ta'anga marandu oñeñangarekóvo, pe ñongatumi'i ndoikói, upéva he'ise pe tenda oñemoingevetaha mbegueve jevy jevy ojeikévo, ha péicha omyangekói SEO-pe."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ta'anga marandu ñeñangareko ikatu ombohetave tembiapo marandu ñongatuhápe."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Reiporavóramo 'Eñangareko ta'angakuérare ojeipuru jave pe etikéta img', pe sistema oipuru add_filter ombohasávo pe etikéta img ojejapo jave; upeicharõ jepe, kóva ikatu ndoikói porã oimeraẽva téma ndive."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Reiporavóramo 'Eñangareko opaite ta'anga ojehupíva WordPress-pe oĩva pe HTML osẽva ryepýpe', pe plugin oipyhýta haimete opaite WordPress rembiapo ha omba'apóta opaite 'img tag' oĩva pe tembipuru ryepýpe. Tereikuaa kóva ikatu ndoikoporãi oĩramo umi 'theme' ndive."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Ejesarekomína umi ta'anga oñembohérava ta'anga tenondegua oñembohasataha OGP marandúicha ha ndaikatuiha oñeñangareko. Reñangarekosetereírõ hesekuéra, embohekopyahu pe ñemboheko HEAD etiqueta osẽva g̃uarã umi ñemboheko pypukuvépe, remoñepyrũvo pe ñeñangareko HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Ndikatúi oñeñangareko pe tembiporu oñenohẽ hag̃ua ta'anga oĩva sistema operativo ryepýpe."
+
+msgid "画像URLの保護"
+msgstr "Oñeñangareko ta'anga URL-kuérare"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Kóva ojepuruva'erã ta'anga ñeñangareko ndive; ha'eño, ndojapói mba'eve."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Oñemoinge mbegueterei rupi JavaScript rupive, kóva ombyai SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Ta'anga jehaipyre'i"
+
+msgid "右下"
+msgstr "Upe akatúa guýpe"
+
+msgid "ランダム位置"
+msgstr "Tenda oimeraẽva"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Ojeipurúvo ta'anga ñeñangareko ndive, umi marca dinámica ohechauka porã mávapa ijára, ha upéicha avei omoñeñandu umi ohechávape oñemaña heseha, ha péicha omomombyry chupekuéra."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Oñemboaje JPG, PNG ha WebP formáto añoite."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kóva oñemoĩramo ombohetavéta mba'e ojejapova'erã servidór-pe."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Oñeguenohẽvo ta'anga ASCII código fuente HTML-gui oñembo'a ha oñeñangareko aja HTML-re."
+
+msgid "表示なし"
+msgstr "Ndaipóri jehechauka"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Ohechauka ta'anga ASCII ohechaukáva peteĩ ñe'ẽmondo ojehechávo HTML kuatiarogue oipurúvo 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Ohechauka diseño ojejapóvo pe tembiapo ojeipotáva."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Peteĩ ta'anga ypy ojehechaukáva tai hũva peteĩ ao sa'yju ári."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Peteĩ ta'anga kyhyje rehegua, orekóva jehai pytã peteĩ tesape hũ ári."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Peteĩ ta'anga oguerekóva jehai pytã rendy peteĩ tesape hũ ári."
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Purahei oñembopúva ojejapo vove pe tembiapo ojeipotáva."
+
+msgid "サウンドなし"
+msgstr "Ndaipóri tyapu"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Ñorairõ ha Pu'aka - 1 aravo'i 16,3 aravo'imi - 630.056 byte - 64 kbps - Lisénsia: CC 2.1 térã upe rire"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Túva Mbyky - 3,8 segundo - 32.364 byte - 64 kbps - Lisénsia: GPL 2.0 térã upe rire"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Puku - 23.5 aravo'i - 195.578 byte - 64 kbps - Lisénsia: GPL 2.0 térã upe rire"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolución' – Versión kombutadóra ojapopyréva, pya'e – 1 aravo'i 57,6 aravo'imi – 724.457 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe riregua"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo Si bemol menor-pe, Op. 2 – Versión kombutadóra ojapóva, versión mbykypyre pya'e – 1 aravo'i 48,0 segundo – 665.369 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe rire"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Tysýi: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – Versión kombutadóra ojapopyréva, versión mbykypyre pya'e – 1 aravo'i 51,6 aravo'i'i – 687.586 byte – 48 kbps – Lisénsia: CC BY-ND 4.0 térã upe riregua"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Mbopu guasu – 22,3 aravo'i – 183.926 byte – 64 kbps – Lisénsia: Oparupigua mba'e"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Purahéi guasu yma guaréicha – 2,2 segundo – 10.536 byte – 32 kbps – Lisénsia: Oparupigua mba'e"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Moñepyrũha yma guareicha – 42,1 segundo – 179.138 byte – 32 kbps – Lisénsia: Opaite mba'e opavavépe g̃uarã"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Marandu ChatGPT-gui - 3.8 segundo - 109.700 byte - 256 kbps - Lisénsia: Oparupigua mba'e"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Peteĩ pu pya'e oikotevẽva oñehendu pya'e, ha'ete peteĩ ñemomarandu ojejuhuhague mba'evai – Vore 1, ChatGPT ojapóva – 3,3 segundo – 102.850 byte – 256 kbps – Lisénsia: Opaite ikatu oipuru."
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Peteĩ pu pya'e oñeikotevẽva, oñehendúva peteĩ ñe'ẽmondoicha ojejuhuhague mba'evai, Mokõiha Vore, ChatGPT ojapóva - 3,3 segundo - 103.122 byte - 256 kbps - Lisénsia: Opaite yvypóra mba'e"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Pu MRI-ichagua ChatGPT ojapóva – 1 aravo'i 14,9 aravo'i'i – 3.340.392 byte – 320 kbps – Lisénsia: Oparavéva mba'e"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Eiporavo purahéi oñembopúva oñemoñe'ẽ aja."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Omoheñói peteĩ tekoha ñanemondýiva."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Pu oñemboty Firefox-pe."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Peteĩ tyapu ojejapóvo pe tembiapo oje'éva."
+
+msgid "有効 音量小さ目"
+msgstr "Oñemyendy, pu mbovy"
+
+msgid "有効 音量大き目"
+msgstr "Omba'apo, ipu hatã"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Peteĩ tyapu oñehendúta oñembohovái hag̃ua opaite tekládo ha mbarakaja rembiapo, ojehechaukávo peteĩ ñemomarandu."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Ohechauka pe tembiporu oñembotavyreívaicha ojehechaukávo pe ñemomarandu."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Ñomiñomi mbotyha techaukaha ojejapóvo peteĩ tembiapo tee."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Oñomi mouse cursor pe navegador rendápe ojehechauka aja peteĩ ñemomarandu."
+
+msgid "デバッグモード"
+msgstr "Mba'evai jeheka rape"
+
+msgid "妨害＋記録のみ"
+msgstr "Ñembosarái + Purahéi Kuatiakuéra añoite"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Jejokoha + Jehaipyre ñembyaty + Jehechauka + Ñembohape"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ikatu gueteri reike hese pe menú rupive."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mba'evai jeheka Firefox-pe"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsóla ohechaukáva"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Añetehápe, ikatu remomba'apo chupe modo de depuración-gui."
+
+msgid "HTMLソース表示"
+msgstr "Ehecha HTML moñepyrũha"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ikatu ejapo upe tembiapo remoingévo peteĩ URL oñepyrũva 'view-source:' reheve."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Ikatu eñangareko ne mba'ekuérare emoĩvo oñondive kóva pe ñangareko HTML ndive."
+
+msgid "印刷"
+msgstr "Emyanyhẽ"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ndaikatúiramo jepe oñembokuatia, ikatu ndoikoporãi umi navegador-pe."
+
+msgid "スクリーンショット"
+msgstr "Ta'anga oñenohẽva"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Mba'e sistema operativo, navegador térã tape ojeipurúvare, ikatu ndaikatúi ojejoko kóva, térã ikatu noñandúi."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Oje'éva ha'eha ta'anga ojejapóva pe ovetã oho vove tapykue gotyo."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Oñembohovái avei ambue tembiaporãme ndaha'éiramo ta'anga oñenohẽva"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Oje'éva ta'anga oñenohẽhague oñembopévo mokõi teklá."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Umi mba'e yvategua jehechakuaa rape ndaha'éi ojeroviahaite hag̃ua; ojejapo pe jehechakuaa ñeñangarekorãnte."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ohechakuaa ndaha'éi ta'anga oñenohẽva añónte, ha katu avei umi ñemyatyrõ rape ha umi mba'e ojoguáva."
+
+msgid "ページ保存"
+msgstr "Eñongatu kuatiarogue"
+
+msgid "右クリック"
+msgstr "Eikutu akatúa"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Pe ñembojoapy oñemoĩramo, ikatúta reipuru."
+
+msgid "コピー・カット"
+msgstr "Ekopia ha eikytĩ"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Ko plugin ñembohekoitépe oñemopyendávo, ikatu sa'i jey rejuhu ko mba'e ojehúva."
+
+msgid "テキスト全選択"
+msgstr "Eiporavo opa jehaipyre"
+
+msgid "テキスト選択"
+msgstr "Eiporavo jehaipyre"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Debugger ñepyrũha marandu, debugger ñembotapykue"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Kóva ojapo pe modo de depuración hasy'ive michĩmi ojepuru hag̃ua ha omoĩ peteĩ marandu he'íva oñemboguapyhague pe depurador; upeicharõ jepe, oĩ umi navegador ikatuva'erã ojoko ko mba'e."
+
+msgid "リダイレクトするURL"
+msgstr "URL ambue gotyo"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Iporãta ñambohasa umi oipurúvape ambue kuatiápe, Tembipuru Rekorãicha."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Oñemoĩ'ỹrõ mba'eve, ombohasáta pe URL ypykuépe."
+
+msgid "リダイレクトまでの時間"
+msgstr "Ára oñembohasávo"
+
+msgid "リダイレクトなし"
+msgstr "Ndaipóri ñembohape"
+
+msgid "1秒"
+msgstr "Peteĩ segundo"
+
+msgid "2秒"
+msgstr "Mokõi segundo"
+
+msgid "3秒"
+msgstr "Mbohapy aravo'i"
+
+msgid "4秒"
+msgstr "Irundy segundo"
+
+msgid "5秒"
+msgstr "Po aravo'i"
+
+msgid "6秒"
+msgstr "Poteĩ aravo'i"
+
+msgid "7秒"
+msgstr "Pokõi aravo'i"
+
+msgid "8秒"
+msgstr "Poapy aravo'i"
+
+msgid "9秒"
+msgstr "Porundy aravo'i"
+
+msgid "10秒"
+msgstr "Pa aravo'i"
+
+msgid "15秒"
+msgstr "Poteĩ aravo'i"
+
+msgid "20秒"
+msgstr "Mokõipa aravo'i"
+
+msgid "25秒"
+msgstr "Mokõipa po aravo'i"
+
+msgid "30秒"
+msgstr "Mbohapypa aravo'i"
+
+msgid "35秒"
+msgstr "Mbohapypa aravo'i"
+
+msgid "40秒"
+msgstr "Irundypa aravo'i"
+
+msgid "45秒"
+msgstr "45 aravo'i"
+
+msgid "50秒"
+msgstr "Pohaapy aravo'i"
+
+msgid "55秒"
+msgstr "Poha aravo'i"
+
+msgid "1分"
+msgstr "Peteĩ aravo'i"
+
+msgid "1分10秒"
+msgstr "Peteĩ aravo'i ha pa aravo'i"
+
+msgid "1分20秒"
+msgstr "Peteĩ aravo'i mokõipa"
+
+msgid "1分30秒"
+msgstr "Peteĩ aravo'i mbohapypa aravo'i"
+
+msgid "1分40秒"
+msgstr "Peteĩ aravo'i irundypa aravo'i"
+
+msgid "1分50秒"
+msgstr "Peteĩ aravo'i ha poapy segúndo"
+
+msgid "2分"
+msgstr "Mokõi aravo'i"
+
+msgid "ソース表示を許可する権限"
+msgstr "Jeheja ojehecha hag̃ua código fuente"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Jehechauka jepivegua ojehecháta ADMIN-ramo añoite."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Moñe'ẽha osẽva hekópe ojeikévo USER ramo."
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Eiporavo oñembotapykuepa pe HTML osẽva umi moakãharakuérape g̃uarãnte térãpa oikotevẽ oikévo puruhára."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Oñembojopy peteĩ ta'anga oguejy hag̃ua ha mba'épa añetehápe oguejy"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Peteĩ ta'anga hesakãva peteĩ por pixel-pegua, formato GIF-pe."
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Peteĩ ta'anga hesakãva peteĩ por pixel-pegua, formato PNG-pe."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Peteĩ ta'anga ñemomarandurã hovyũ ijapytepekuéva, formato PNG-pe."
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Peteĩ kuatiañe'ẽ HTML he'ise'ỹva"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HEAD etikéta osẽva oñeñangarekórõ HTML"
+
+msgid "出力しない"
+msgstr "Ani oñembokuatia"
+
+msgid "TITLEタグのみ"
+msgstr "Moñe'ẽrã téra añónte"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Oñenohẽ WordPress HEAD etiketágui"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Umi kuatiarogue oipurúva empresa-nte ha kuatiarogue pypegua-pe g̃uarã, oñembohekóramo 'Ani ojehechauka' térã 'Etikéta TITLE-nte', upéva oĩmbáma."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Nde reipe'áirõ marandu pe WordPress HEAD etiqueta-gui, pe OGP ta'anga ndojehechaukamo'ãi oñembohasávo redes sociales-pe."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Emboty pe ta'anga'i bot"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Nembotývo umi bot ta'angaguáva oike hag̃ua HTML-pe, ikatu reñangareko umi mba'e oĩvare ndaikatúiva oñeñangareko oñembojoaju hekopete'ỹre ta'anga jeheka rupive; upeicharõ jepe, kóva ndaha'éi peteĩ ñemyatyrõ ipaháva."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Emboty pe jeike pe bot oñembokatupyrývape AI-pe g̃uarã."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Ndojepurúigui umi bot ojejapóva AI ñembokatupyrýrã HTML-pe, roñangareko pe tembiapo'aty ani hag̃ua ojeipuru AI-pe; upeicharõ jepe, kóva ndaikatúi ojejokoite."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Emboty ñeike umi ñanduti ñongatupyrépe ha ñanduti ra'angápe"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Ro'e'ẽngu'i ojeike hag̃ua umi ñanduti vore ñongatupyre oñembyaty ijeheguietévape ha umi ta'anga oñenohẽva puruhára rembipotápe; upeicharõ jepe, ndaikatúi rojokoite ko mba'e."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Emboty umi user agent ndoikóiva"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Ndohejái oike oĩramo taikuéra ndoikóiva pe puruhára rérape."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Ohechauka peteĩ ñemomarandu ojeike jave Internet Explorer ha pe Microsoft Edge tuja"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Ojoko oike hag̃ua Internet Explorer ha Microsoft Edge tuja rupive."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Ñe'ẽ ojehechaukahápe marandu ñemomarandurã"
+
+msgid "Wordpressの言語"
+msgstr "WordPress ñe'ẽnguéra"
+
+msgid "ブラウザの設定言語"
+msgstr "Navegador ñe'ẽ ñemboheko"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ndaikatúi remoambue ñe'ẽnguéra umi marandu oñemboheko ramo."
+
+msgid "同意画面の言語"
+msgstr "Ñe'ẽ jeheja ñemohendarã"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Ñe'ẽ ojehechaukahápe marandu 'view-source'."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Tokuéra sapy'arãgua ára opa hag̃ua"
+
+msgid "3分"
+msgstr "Mbohapy aravo'i"
+
+msgid "4分"
+msgstr "Irundy aravo'i"
+
+msgid "5分"
+msgstr "Po aravo'i"
+
+msgid "6分"
+msgstr "Poteĩ aravo'i"
+
+msgid "7分"
+msgstr "Pokõi aravo'i"
+
+msgid "8分"
+msgstr "Poapy aravo'i"
+
+msgid "9分"
+msgstr "Porundy aravo'i"
+
+msgid "10分"
+msgstr "Pa aravo'i"
+
+msgid "15分"
+msgstr "Pópa aravo'i"
+
+msgid "20分"
+msgstr "Mokõipa aravo'i"
+
+msgid "25分"
+msgstr "Mokõipa po aravo'i"
+
+msgid "30分"
+msgstr "Mbohapypa aravo'i"
+
+msgid "35分"
+msgstr "Mbohapypa aravo'i"
+
+msgid "40分"
+msgstr "Irundypa aravo'i"
+
+msgid "45分"
+msgstr "Mboarapy aravo'i"
+
+msgid "50分"
+msgstr "Poha pa aravo'i"
+
+msgid "55分"
+msgstr "Poha aravo'i"
+
+msgid "1時間"
+msgstr "Peteĩ aravo"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Emohenda ta'anga URL marandu opa ára."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Oñemoinge rire, ta'anga URL ha token sapy'arãgua ndoikovéima."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Ta'angakuéra oñemoinge ojejerurérõguare, hákatu oñemoingéta ijeheguiete 30 aravo'i pe ára oje'eva'ekue mboyve."
+
+msgid "一時使用トークンのビット数"
+msgstr "Mboýpa bits oĩ peteĩ token sapy'arãme"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Ojeipuru peteĩ token sapy'arãgua ñe'ẽñemi ramo oñemboñemi hag̃ua ta'anga URL marandu; ko ñemohenda ohechauka imbareteha."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Jepe umi jeiporavorã ojehechaukáva pe menú ojepe'áva guýpe ipypukuvévo ohóvo, kóva ikatu ombohasyeterei pe servidor-pe ha upéicha rupi oñembohasáta hetaiterei dato HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritmo hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Ojeipuru peteĩ token sapy'arãgua ñe'ẽñemi ramo oñemboñemi hag̃ua ta'anga URL marandu; kóva oikotevẽ hashing, ha ko ñemohenda ohechauka imbareteha pe hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Jepémo pe mbarete okakuaa remboguejývo umi jeiporavorã ojehechaukáva pe menú oguejývape, kóva omoĩve pohýi pe servidór-re."
+
+msgid "基本設定"
+msgstr "Ñemohenda ypykuéra"
+
+msgid "高度な設定"
+msgstr "Mboheko pypukuvéva"
+
+msgid "初期設定に戻す"
+msgstr "Moĩ jey umi ñemboheko ypykue"
+
+msgid "デザイン・音の設定"
+msgstr "Diseño ha ñe'ẽ myatyrõnguéra"
+
+msgid "イベントの設定"
+msgstr "Tembiapo ñemohenda"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ñemohenda marandurã jeike peteĩha ára guarã"
+
+msgid "メッセージの設定"
+msgstr "Marandu ñemboheko"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Emohenda pe URL ojepe'átava ejopývo akatúa gotyo térã rehechávo ikódigo fuente."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML ndaikatúi ojeporu marandu ñemomarandurãme."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Rehekombo'éramo kóva ko tendápe, umi ñe'ẽ ñemohenda oĩva vore 'Avanzado'-pe noñemoañetemo'ãi."
+
+msgid "以下の文字列が使用できます"
+msgstr "Ikatu ojeporu ko'ã ñe'ẽnguéra oúva"
+
+msgid "改行"
+msgstr "Ñe'ẽ jehaipyre ñemboja'o"
+
+msgid "押下されたキー"
+msgstr "Oñembopyrũ pe lláve"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML Mo'ãha Mbohekorã"
+
+msgid "お知らせ"
+msgstr "Jesarekorã"
+
+msgid "メッセージ"
+msgstr "Marandu"
+
+msgid "デザイン・音"
+msgstr "Ta'anga ha Pu"
+
+msgid "初期化"
+msgstr "Ñepyrũmby"
+
+msgid "このプラグインについて"
+msgstr "Ko plugin rehegua"
+
+msgid "設定が初期化されました"
+msgstr "Umi ñemboheko oñemoñepyrũjeyma."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Emoñepyrũ pe plugin. Tereikuaa porã umi dato IP Log Reader pegua ndojepe'amo'ãiha ko'ápe."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Neo HTML Protector rehegua"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Ko plugin ojejapo oñangareko hag̃ua pe HTML, ta'anga ha ambue mba'e ne sitio WordPress-pegua ojapóvare, oñangarekóvo hese ani hag̃ua ojeporu nderehegui."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Ndaikatúi oñeñangareko porãite umi mba'e oĩvare. Upéicharõ jepe, oñemoñe'ẽvo ikatuhápe ha oñembosako'ívo oiméramo g̃uarã oiko mba'eve, ikatúta ñamyatyrõ ko mba'e umi tekorã tetã sãmbyhyha omoĩva'ekue he'iháicha."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Katuete, tekotevẽta rejesareko ne ñe'ẽme'ẽ ha tekorãnguéra ha avei ne ñanduti renda rembiapoukapy ipype oĩmbapaite haguã opa mba'e. Jepémo ko plugin ndaha'éi peteĩ tembiporu omoheñóiva ñe'ẽme'ẽ ha tekorãnguéra, ikatu katu ome'ẽ ndéve sãmbyhyrã."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Apohára: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Mbohasapy"
+
+msgid "ビルド"
+msgstr "Mopu'ã"
+
+msgid "サポートページ"
+msgstr "Pytyvõrã kuatiarogue"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Omba'apóva Kuñakarai Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Peteĩ jerure pytyvõrã"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Aguyje reipuruhaguére Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ko plugin ñemoheñói ha ñeñangareko ojerure heta ára ha mbarete, ha ikatu hag̃uáicha roñembyaty viru romoporãve ha rombohekopyahu meme hag̃ua, roaguyjevéta oimeraẽ ikatúva orepytyvõ ohecháramo ome'ẽ viru'imi."
+
+msgid "寄付について"
+msgstr "Jopói rehegua"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Pytyvõrã ñeme'ẽ ningo ojeipotárõguánte, ndaha'éi tekovo. Ko plugin ningo opavavépe g̃uarã ndojehepyme'ẽi. Upéicharõ jepe, roagradesetereíta ne pytyvõre orepytyvõ hag̃ua roñemotenonde hag̃ua, ha rovy'aitereíta ikatúramo reme'ẽ mba'e ikatúva."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Ikatu reme'ẽ ne pytyvõ pe joajuha oĩva iguýpe rupi. Reikóramo Japón-pe, ikatu reme'ẽ mba'eve'ỹre, ha avei ikatu reme'ẽ ndahasýi'ỹre reipurúvo Amazon jopói vávla."
+
+msgid "寄付先"
+msgstr "Pytyvõrã aty"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Pende pytyvõ rupive, rojapóta ikatúva guive roguenohẽ meme hag̃ua peẽme marandu pyahu iporãitereíva!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Roaguyjevete ndéve ne pytyvõre ha roha'arõ ne pytyvõ meme tenonderã."
+
+msgid "ライセンス"
+msgstr "Permiso"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Ko plugin ojejapo software código abierto-ramo ha oguereko lisénsia GPL v2.0 térã ipyahuvéva guýpe."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ko plugin-pe oĩva aporeko pyahu apytégui oĩ oñeñangarekóva patente rupive."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Ko tecnología patentada jeporu oñepermite ko plug-in ryepýpente."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Oimeraẽ ambue jeporurã, eñe'ẽ pe apoháre rehupyty hag̃ua peteĩ kuatia'atã ñemuha."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ko plugin oguereko ko'ã librería"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ko plugin ogueru umi tai ta'anga ASCII ojejapóva iguýpe, umi tai vore'a kuatiándi."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ko plugin oguereko purahéi pe ñembosarái Super Famicom ndaha'éiva ofisiál 'SM Trainer Hitomi 3'-gui, ojapova'ekue EJ Co., Ltd. ha omopu'ãva'ekue ko plugin apohare, ha oguereko lisénsia ofisiál."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ko plugin oguereko purahéi ojejapóva 'Keppy's YAMAHA C7' rupive, Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Aipuru avei peteĩ Raspberry Pi 5, ChatGPT ha DeepL ko plugin apópe."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Ojejuhu peteĩ plugin ñongatuharã. Ko plugin ndoikomo'ãi porã oñemoĩramo ambue plugin ñongatuharã."
+
+msgid "無効なIPアドレス"
+msgstr "IP moñe'ẽha ndoikóiva"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Reipuru hag̃ua ko ñanduti renda, remoĩ porã va'erã cookies ha JavaScript."
+
+msgid "利用規約"
+msgstr "Jepuru Rekorã"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ojejoko hag̃ua jeporu ndojeheja'ỹiva ha oñemboaje hag̃ua ore rembiapokuéra ñemba'apo porã, ko ñanduti renda ikatu oñongatu marandu cookies ha marandu ñongatuhápe, techapyrãrõ IP moñe'ẽha, ñanduti jeguata rembiasakue ha tembiapo kuatiakuéra. Ko marandu ojeporu pe ñanduti renda ñemba'aporãnte ha tembiaporã tekojojápe g̃uarã, ha ndojekuaaukamo'ãi avave ambuépe."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Reipuru hag̃ua ko tembiporu, reme'ẽva'erã ne ñe'ẽ ko'ã tembiapo ñembosako'ípe."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Ikatu rehecha Mbojerovia Ñeñangarekorã rembiapokue, remoneĩ térã remoneĩ'ỹ ramo jepe."
+
+msgid "同意する"
+msgstr "Aime porã"
+
+msgid "同意しない"
+msgstr "Nda'éi"
+
+msgid "確認"
+msgstr "Moañete"
+
+msgid "プライバシーポリシー"
+msgstr "Ñemiguáva Ñangarekorã"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Ojejuhu jeike térã tembiapo ndahepyiguáva."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Oĩ mba'e ojejokóva oñeñangareko hag̃ua ha ani hag̃ua oñembyai imba'ekuaa."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mba'evai jeheka ha konsóla jeike oñembogue."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Marandu oúva oñemondo'éma servidórpe."
+
+msgid "あなたのIPアドレス"
+msgstr "Ne dirección IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Ne tembiporu ha ne kundahára"
+
+msgid "あなたの押下したキー"
+msgstr "Pe lláve rembopyréva"
+
+msgid "リダイレクトをします"
+msgstr "Nde reraha jeýta"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Oñembotove oĩ mba'e oñeñangareko hag̃ua imba'e rehe."
+
+msgid "右クリックは禁止されています"
+msgstr "Ndojehejái ojejopy akatúa gotyo."
+
+msgid "あなたが押下したキー"
+msgstr "Pe lláve rembopyréva"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Ndaikatúi oñembokuatia térã oñeñongatu PDF-pe."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Ndaikatúi oñenohẽ ta'anga pantalla-gui."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ndojehejái oñenohẽ ta'anga pantalla-gui ha oñemoñepyrũ modo de depuración."
+
+msgid "ページの保存は禁止されています"
+msgstr "Ndaikatúi oñeñongatu ko kuatiarogue."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Ndaikatúi oñembohasa térã oñeikytĩ."
+
+msgid "あなたが起こしたイベント"
+msgstr "Umi tembiapo nde remohendava'ekue"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ndaikatúi oñeporavo jehaipyre."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Ojejoko ojehechauka hag̃ua HTML código fuente."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ojejoko oike hag̃ua permiso'ỹre."
+
+msgid "アフリカーンス語"
+msgstr "Afrikáans"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Sári"
+
+msgid "アッサム語"
+msgstr "Asamésa"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijaniñe'ẽ"
+
+msgid "バシュキール語"
+msgstr "Ñembosarái"
+
+msgid "ベラルーシ語"
+msgstr "Belarusoñe'ẽ"
+
+msgid "ベンガル語"
+msgstr "Bengalí"
+
+msgid "ブルガリア語"
+msgstr "Búlgaro"
+
+msgid "ボスニア語"
+msgstr "Bosníako"
+
+msgid "カタロニア語"
+msgstr "Katálan"
+
+msgid "チェコ語"
+msgstr "Chekio"
+
+msgid "ウェールズ語"
+msgstr "Gales-gua"
+
+msgid "デンマーク語"
+msgstr "Danés"
+
+msgid "ドイツ語"
+msgstr "Alemáña-gua"
+
+msgid "現代ギリシア語"
+msgstr "Griégo ko'ág̃agua"
+
+msgid "英語"
+msgstr "Inglés"
+
+msgid "イギリス英語"
+msgstr "Británico"
+
+msgid "アメリカ英語"
+msgstr "Inglés Americano"
+
+msgid "エスペラント語"
+msgstr "Ñe'ẽ oñeha'arõva"
+
+msgid "スペイン語"
+msgstr "Pahagueñe'ẽ"
+
+msgid "エストニア語"
+msgstr "Estonio"
+
+msgid "バスク語"
+msgstr "Vasco"
+
+msgid "ペルシャ語"
+msgstr "Pérsape"
+
+msgid "フィンランド語"
+msgstr "Fínlandigua"
+
+msgid "フランス語"
+msgstr "Haitĩñe'ẽ"
+
+msgid "アイルランド語"
+msgstr "Irlándagua"
+
+msgid "ガリシア語"
+msgstr "Galés"
+
+msgid "グァラニ語"
+msgstr "Ñe'ẽ"
+
+msgid "グジャラート語"
+msgstr "Gujaratiñe'ẽ"
+
+msgid "ハウサ語"
+msgstr "Óga guasu"
+
+msgid "ヘブライ語"
+msgstr "Hebreoñe'ẽ"
+
+msgid "ヒンディ語"
+msgstr "Iñindícha"
+
+msgid "クロアチア語"
+msgstr "Króatañe'ẽ"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyol Ayisiana"
+
+msgid "ハンガリー語"
+msgstr "Húngaro"
+
+msgid "インドネシア語"
+msgstr "Indonesio-gua"
+
+msgid "イボ語"
+msgstr "Ibo ñe'ẽ"
+
+msgid "アイスランド語"
+msgstr "Islandés"
+
+msgid "イタリア語"
+msgstr "Italiano"
+
+msgid "日本語"
+msgstr "Hapõñe'ẽ"
+
+msgid "ジャワ語"
+msgstr "Yvapyguáicha"
+
+msgid "カザフ語"
+msgstr "Kazajo"
+
+msgid "朝鮮語"
+msgstr "Koreagua"
+
+msgid "クルド語"
+msgstr "Kurdía-gua"
+
+msgid "キルギス語"
+msgstr "Kirgistán-gua"
+
+msgid "ラテン語"
+msgstr "Látino"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgués"
+
+msgid "リンガラ語"
+msgstr "Kóla"
+
+msgid "リトアニア語"
+msgstr "Lituáno"
+
+msgid "ラトビア語"
+msgstr "Letón"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maorí"
+
+msgid "マケドニア語"
+msgstr "Masedonio"
+
+msgid "マラヤーラム語"
+msgstr "Malayo"
+
+msgid "モンゴル語"
+msgstr "Mongolía-gua"
+
+msgid "マラーティー語"
+msgstr "Maratíñe'ẽ"
+
+msgid "マレー語"
+msgstr "Malayo"
+
+msgid "マルタ語"
+msgstr "Malta-gua"
+
+msgid "ビルマ語"
+msgstr "Birmania-gua"
+
+msgid "ネパール語"
+msgstr "Nepalés"
+
+msgid "ノルウェー語"
+msgstr "Noruegués"
+
+msgid "オランダ語"
+msgstr "Hollandés"
+
+msgid "オック語"
+msgstr "Oksitan"
+
+msgid "オロモ語"
+msgstr "Tetã"
+
+msgid "パンジャーブ語"
+msgstr "Punjabiñe'ẽ"
+
+msgid "ポーランド語"
+msgstr "Ñemopotĩ"
+
+msgid "パシュトー語"
+msgstr "Pahstó"
+
+msgid "ポルトガリア語"
+msgstr "Purtugués"
+
+msgid "ブラジルポルトガル語"
+msgstr "Purtugues Brasil-pegua"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugués Europeo"
+
+msgid "ケチュア語"
+msgstr "Kuarahyresẽ"
+
+msgid "ルーマニア語"
+msgstr "Rumán-gua"
+
+msgid "ロシア語"
+msgstr "Rrúsia-gua"
+
+msgid "サンスクリット語"
+msgstr "Sánscrito"
+
+msgid "スロバキア語"
+msgstr "Eslovaquiañe'ẽ"
+
+msgid "スロベニア語"
+msgstr "Eslovenio-gua"
+
+msgid "セルビア語"
+msgstr "Sirviaguigua"
+
+msgid "南セソト語"
+msgstr "Sesotho Ñembyegua"
+
+msgid "スンダ語"
+msgstr "Sunda-gua"
+
+msgid "スウェーデン語"
+msgstr "Sueco"
+
+msgid "スワヒリ語"
+msgstr "Suaíli"
+
+msgid "タミル語"
+msgstr "Támil ñe'ẽ"
+
+msgid "テルグ語"
+msgstr "Téligu"
+
+msgid "タジク語"
+msgstr "Pukúva"
+
+msgid "タイ語"
+msgstr "Tailandés"
+
+msgid "トルクメン語"
+msgstr "Turco"
+
+msgid "タガログ語"
+msgstr "Taguápe"
+
+msgid "トルコ語"
+msgstr "Túرکo"
+
+msgid "タタール語"
+msgstr "Tatápe"
+
+msgid "ウクライナ語"
+msgstr "Ucraniano"
+
+msgid "ウルドゥー語"
+msgstr "Hendýi"
+
+msgid "ウズベク語"
+msgstr "Uzbeko"
+
+msgid "ベトナム語"
+msgstr "Vietnamita"
+
+msgid "コサ語"
+msgstr "Hesarái"
+
+msgid "イディッシュ語"
+msgstr "Yidiñe'ẽ"
+
+msgid "簡体中国語"
+msgstr "Chino oñemombykyva"
+
+msgid "繁体中国語"
+msgstr "Chinagua yma guare"
+
+msgid "ズールー語"
+msgstr "Pytagua"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Pe ñanduti jehekahára reiporúva ko'ág̃a ha'e peteĩ versión tuja ndojejokovéimava. Reiporu hag̃ua py'aguapyve ha ndahasýi hag̃ua, emyanyhẽmína nde ñanduti jehekahára versión pyahuvépe."
+
+msgid "不正なリクエストです"
+msgstr "Jerure ndoikóiva"
+
+msgid "画像が見つかりません"
+msgstr "Ta'anga ndojuhúi"
+

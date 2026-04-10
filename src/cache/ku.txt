@@ -1,0 +1,424 @@
+設定	Mîheng
+IPログリーダー	Xwendevanê Logên IP'yê
+IPアドレスログ	Tomara navnîşana IP'yê
+全クリア	Hemû astan temam bike
+IPログが全て削除されました	Hemû tomarên IP'yê hatin jêbirin.
+ID	Nasname
+タイムスタンプ	Mora demê
+IPアドレス	Navnîşana IPyê
+ユーザーエージェント	Nûnerê Bikarhêner
+イベント	Bûyer
+IPアドレスのデータはありません	Ji bo vê navnîşana IP'yê ti daneyek tune.
+EU GDPR対応	Lihevhatina bi GDPR a YE re
+無効	Ne derbasdar
+有効	Derbasdar
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Heke hûn WordPressê di nav Yekîtiya Ewropayê de bi kar tînin, an jî heke malpera we ji bo bikarhênerên di nav Yekîtiya Ewropayê de ye, ji kerema xwe piştrast bikin ku ev çalak e.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Bişkoka 'Piştrast bike' dê bibe 'Li hev bike' an 'Li hev neke', û tevger dê hinekî biguhere.
+同意画面の色	Rengê ekrana razîbûnê
+自動	Otomatîk
+ライトモード	Modê sivik
+ダークモード	Modê Tarî
+同意画面表示中の配色を設定します	Şemaya rengê ji bo ekrana razîbûnê saz bike.
+同意画面中のコンテンツのぼかし	Tevlihevkirina naverokê li ser ekrana razîbûnê
+同意画面表示中のコンテンツのぼかし具合を設定します	Asta matkirinê ji bo naveroka ku li ser ekrana razîbûnê tê nîşandan eyar bike.
+同意画面の透過	Şefafiya ekrana razîbûnê
+透過なし	Bê şefafî
+同意画面の透過具合を設定します	Şefafiya ekrana razîbûnê saz bike
+お知らせの1行目	Rêza yekem a ragihandinê
+初回表示で必ず表示されるメッセージです	Ev peyam her tim tê nîşandan gava ku rûpel cara yekem tê barkirin.
+お知らせの2行目	Rêza duyemîn a agahdariyê
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ev peyam dê her tim tenê li ser dîmendera yekem xuya bibe dema ku GDPR ya YE di meriyetê de be.
+お知らせの3行目	Xeta sêyem a agahdariyê
+プライバシーポリシーのリンクの右側に表示されます	Ew ê li rastê ya lînka Polîtîkaya Nepenîtiyê xuya bibe.
+非EU向け確認の文字列	Nivîsa piştrastkirinê ji bo welatên ne-YE
+EU GDPR向け同意するの文字列	Teksta razîbûnê ji bo GDPR ya YE
+EU GDPR向け同意しないの文字列	Nivîsa ji bo 'Riza nede' di bin GDPR ya YE de
+プライバシーポリシーの文字列	Nivîsa polîtîkaya nepenîtiyê
+プライバシーポリシーのURLはこちらから設定して下さい	Ji kerema xwe URL-a polîtîkaya nepenîtiyê li vir saz bikin.
+プライバシーポリシーには以下の内容を追加して下さい	Ji kerema xwe van tiştan li Polîtîkaya Nepenîtiyê zêde bikin.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ji bo tespîtkirina çalakiyên sextekarî, nasnameyên wekî navnîşanên IP'yê di cookieyan û databasê de tên tomarkirin. Daneyên tomarkirî li gorî biryara rêveber tên jêbirin.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Ji bo ku em piştrast bikin ku wêne rast tên radestkirin dema ku parastina wêneyan çalak be, em daneyên heşkirî yên ku navnîşana IPyê û navê pelê wêneyê di nav xwe de dihewînin, heta 60 deqeyan di databasa xwe de tomar dikin.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Heke hûn Mercên Bikaranînê saz dikin, ji kerema xwe piştrast bibin ku hûn di Polîtîkaya xwe ya Nepenîtiyê de lînkeke ber bi wan ve bi cih dikin.
+利用規約の文字列	Nivîsa Mercên Bikaranînê
+利用規約のページ	Rûpela Şert û Mercan
+ページ選択なし	Rûpel nehatiye hilbijartin
+検索エンジン等のURL	URL ji bo motorên lêgerînê, hwd.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	URL'ê ji bo motorên lêgerînê û malperên wekhev ên ku dema destûr neyê dayîn bikarhêneran vedigerînin, saz bike.
+デバッグモード、コンソールの警告メッセージ	Modêya debugê, peyamên hişyariyê yên konsolê
+右クリックの警告メッセージ	Peymana klîka-rastê ya peyama hişyariyê
+印刷、PDF保存の警告メッセージ	Peyama hişyariyê derbarê çapkirin û tomarkirina wekî PDF
+スクリーンショットの警告メッセージ	Peyama hişyariyê di dîmenê de
+スクリーンショットの疑いの警告メッセージ	Peyama hişyariyê ya derbarê dîmenên ekranê yên gumanbar
+テキスト全選択時の警告メッセージ	Peyama hişyariyê dema ku hemû nivîs hatiye hilbijartin
+ページ保存の警告メッセージ	Peyama hişyariyê derbarê tomarkirina rûpelê
+コピー・カットした時に表示するメッセージ	Peyama ku dema kopîkirin an jêbirinê tê nîşandan
+HTMLソース表示時に表示するメッセージ	Peyama ku dema temaşekirina çavkaniya HTMLê were nîşandan
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Peyama ku li serê koda çavkaniyê were nîşandan dema ku HTML tê tevlihevkirin an parastin
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Peyama ku were nîşandan heke tokana rastkirina yekcarî di dema parastina HTMLê de ne derbasdar be
+CookieやJavascriptが有効でない場合に表示するメッセージ	Peyama ji bo nîşandanê heke cookies an JavaScript hatibin neçalakirin
+実際にはJavascriptが無効時のみ表示されます	Bi rastî, ev tenê dema ku JavaScript neçalak be tê nîşandan.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Dema ku wêneyek tê parastin, ew tê daxistin û peyamek li ser wê wêneyê tê nîşandan
+HTML難読化 (圧縮)	Tevlihevkirina HTMLê
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ev kompresyona standard a HTMLê ye; her wiha malperên ku dikarin wê deşîfre bikin jî hene.
+このオプションを有効にするとview-sourceのログが取得できます	Aktîvkirina vê vebijarkê rê dide we ku hûn qeydên çavkaniya-dîtinê bistînin.
+HTML保護	Parastina HTMLê
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ew ji mîhenga pêlêkirina HTMLê jî kêmtir HTMLê derdixe, ev tê wê wateyê ku naveroka di nav etîketa BODY de dê qet neyê nîşandan.
+Firefoxに対しては無効です	Ev ji bo Firefoxê derbas nabe.
+SEOに著しく影響があります	Ev bandoreke girîng li ser SEOyê dike.
+HTMLをJavaScriptで描画	Renderkirina HTMLê bi JavaScriptê
+Firefox対策としてHTMLをJavaScriptで描画をします	Ji bo ku li dora Firefoxê bixebitin, em HTMLê bi rêya JavaScriptê render dikin.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Çalakkirina rindreya JavaScriptê dê leza barkirina malperê bi awayekî berbiçav hêdî bike.
+画像の保護	Parastina wêneyan
+imgタグが呼び出されるごとに画像を保護	Her carê ku etîketa img tê gazîkirin, wêneyê biparêze.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Hemû wêneyên ku li WordPressê hatine barkirin di nav tevahiya derketina HTMLê de biparêze.
+画像をダウンロードから保護します	Wêneyan ji daxistinê diparêze
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Dema ku daneyên wêneyan tên parastin, em hema hema bi temamî pêşî li daxistinan digirin, URLên yekcarî û yekta çêdikin, bi bikaranîna tokenên di danişînê
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Dema ku daneyên wêneyan tên parastin, keşkirin naxebite, ku ev tê wê wateyê ku malper di serdanên paşîn de dê hêdîtir vebe, û bi vî awayî bandorê li SEOyê dike.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Parastina daneyên wêneyê dibe ku barê li ser databasê zêde bike.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Heke hûn 'Wêneyan biparêze her gava ku etîketa img tê gazîkirin' hilbijêrin, sîstem add_filter bi kar tîne da ku dema etîketa img tê çêkirin parzûnkirinê pêk bîne; lêbelê, dibe ku ev bi hin temayan re rast nexebite.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Heke hûn 'Hemû wêneyên ku di nav tevahiya derketina HTMLê de li WordPressê hatine barkirin biparêze' hilbijêrin, pêvek dê hema hema hemû operasyonên WordPressê bigire û her etîketa img a di nav naverokê de bişixulîne. Ji kerema xwe bala xwe bidinê ku dibe ev bi hin temayan re rast nexebite.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ji kerema xwe bala xwe bidinê ku wêneyên wekî wêneyên taybet hatine destnîşankirin, dê wekî daneyên OGP werin parvekirin û nikarin werin parastin. Heke hûn bi teqezî dixwazin wan biparêzin, dema ku hûn parastina HTML'ê çalak dikin, ji kerema xwe di mîhengên pêşketî de mîhenga derketina etîketa HEAD biguherînin.
+OS標準搭載のスクリーンショット機能を保護することはできません	Fonksiyona girtina dîmenê ya ku wekî standard di pergala xebitandinê de heye, nayê parastin.
+画像URLの保護	Parastina URLyên wêneyan
+画像の保護と組み合わせて使用します、単体では意味がありません	Divê ev bi parastina wêneyan re were bikaranîn; bi serê xwe, tu armancek wê nîne.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Ji ber ku ew bi awayekî tembelane bi rêya JavaScript tê barkirin, ev yek bandorê li SEOyê dike.
+画像のウォーターマーク	Nîşana avê ya wêneyê
+右下	Rastê jêrîn
+ランダム位置	Pozîsyona tesadufî
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Di heman demê de bi parastina wêneyan re tên bikaranîn, nîşanên avê yên dînamîk bi awayekî zelal xwedîtiya mafê telîfê nîşan didin û di heman demê de hesta şopandinê didin temaşevanan, û bi vî awayî wekî handerekê kar dikin.
+JPG形式、PNG形式、WebP形式のみ対応します	Tenê formatên JPG, PNG û WebP tên piştgirîkirin.
+有効にするとサーバーの負荷が高くなります	Vekirina vê dê barê ser serverê zêde bike.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Derxistina hunera ASCII ji koda çavkaniyê ya HTMLê di dema tevlihevkirin û parastinê de
+表示なし	Tiştek nayê nîşandan
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Dema ku çavkaniya HTMLê bi rêya 'view-source' tê dîtin, hunera ASCII ya ku hişyariyekê nîşan dide.
+対象アクションを起こした時の表示デザイン	Dîzayna pêşandanê dema ku çalakiya armanc pêk tê
+黄色の背景の黒文字のベーシックデザイン	Sêwiraneke bingehîn ku nivîsa reş li ser paşxaneyeke zer e.
+黒色の背景の赤文字のホラー風デザイン	Sêwiraneke bi şêwazê tirsê ku nivîsa sor li ser paşxaneyeke reş e.
+黒色の背景の赤文字の光る文字のデザイン	Sêwiranek bi nivîsa sor a geş li ser paşxaneyeke reş.
+対象アクションを起こした時のBGM	Muzîka paşxanê ya ku dema çalakiya armanc pêk tê lê dide
+サウンドなし	Deng tune
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Şer & Serkeftin - 1 deqe 16.3 saniye - 630,056 bayt - 64 kbps - Lîsans: CC 2.1 an jê nûjentir
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3.8 saniye - 32,364 bayt - 64 kbps - Lîsans: GPL 2.0 an paşê
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 saniye - 195,578 bayt - 64 kbps - Lîsans: GPL 2.0 an paşê
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Hejmar 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Hejmar 12 'Şoreş' – Versiyona bi komputerê hatî çêkirin, versiyona bilez – 1 deqe 57.6 saniye – 724,457 bayt – 48 kbps – Lîsans: CC BY-ND 4.0 an jê nûjentir
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Şerzo di B-mol minur de, Op. 2 – Guhertoya ji aliyê komputerê ve hatiye çêkirin, guhertoya kurtkirî ya bilez – 1 deqe 48.0 saniye – 665,369 bayt – 48 kbps – Lîsans: CC BY-ND 4.0 an jê nûjentir
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lîste: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 saniye – 183,926 bayt – 64 kbps – Lîsans: Qada Giştî
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfareya bi şêwaza retro – 2.2 saniye – 10,536 bayt – 32 kbps – Lîsans: Qada Giştî
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Pêşgotina bi şêwaza retro – 42.1 saniye – 179,138 bayt – 32 kbps – Lîsans: Qada Giştî
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Hişyarî ji aliyê ChatGPT - 3.8 saniye - 109,700 bayt - 256 kbps - Lîsans: Qada Giştî
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Dengê lezgîn ê bilind wekî hişyariyek tespîtkirina malwareyê – Beş 1 ji aliyê ChatGPT – 3.3 saniye – 102,850 bayt – 256 kbps – Lîsans: Qada Giştî
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Dengê lezgîn ê bilind wekî hişyariyek tespîtkirina malwareyê, Beş 2 ji aliyê ChatGPT - 3.3 saniye - 103,122 bayt - 256 kbps - Lîsans: Qada Giştî
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Dengê bi şêwazê MRI ji aliyê ChatGPT ve – 1 deqe 14.9 saniye – 3,340,392 bayt – 320 kbps – Lîsans: Qada Giştî
+警告表示中のBGMを選択します	Muzîka paşxanê ya ji bo dema hişyariyê hilbijêre.
+びっくりするような雰囲気を作ります	Ew atmosfereke sosret diafirîne.
+Firefoxでは音声ブロックされます	Deng di Firefoxê de hatiye astengkirin.
+対象アクションを起こした時のビープ音	Dengê bipêkê dema ku çalakiya diyarkirî tê kirin
+有効 音量小さ目	Vekirî, deng nizm
+有効 音量大き目	Çalak, deng bilind e
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Dengê bîpê dê ji bo hemû çalakiyên klavye û mişkê lê bide, dema ku hişyariyek tê nîşandan.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Wisa xuya dike ku amûr ji kontrolê derketiye dema ku hişyarî tê nîşandan.
+対象アクションを起こした時のマウスカーソルの消去	Veşartina kursora mişkê dema ku kiryareke taybet tê kirin
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Dema ku hişyariyek tê nîşandan, kursora mişkê di qada gerokê de vedişêre.
+デバッグモード	Modêya xeletiyan
+妨害＋記録のみ	Tenê Destwerdan + Tomar
+妨害＋記録＋表示＋リダイレクト	Mudaxele + Tomarkirin + Nîşandan + Veguherandin
+メニューからは操作できてしまいます	Hûn hîn jî dikarin bi rêya menuyê xwe bigihîninê.
+Firefoxにおけるデバッグモード	Modêya debugê di Firefoxê de
+ブラウザーコンソール	Konsola gerokê
+事実上デバッグモードから操作できてしまいます	Di pratîkê de, hûn dikarin wê ji moda debugê bixebitînin.
+HTMLソース表示	Çavkaniya HTMLê bibîne
+view-source:から始まるURLを入力すれば操作できてしまいます	Hûn dikarin operasyonê bi hêsanî bi nivîsandina URL'ek ku bi 'view-source:' dest pê dike, pêk bînin.
+HTML保護と組み合わせることでコンテンツを保護することができます	Hûn dikarin naveroka xwe bi hevgirtina vê bi parastina HTMLê re biparêzin.
+印刷	Çap bike
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Her çend ew çapkirinê asteng dike jî, dibe ku di hin gerokan de bi awayekî rast nexebite.
+スクリーンショット	Wêneyê ekranê
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Li gorî pergala xebitandinê, gerok an rêbaza ku tê bikaranîn, dibe ku ne mimkun be ku ev were astengkirin, an jî dibe ku neyê tespîtkirin.
+ウインドウが背面に移動した時スクリーンショットの疑い	Girtina dîmenê ya gumanbar dema ku pencere derbasî paşxanê dibe
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ew herwiha bersivê dide fonksiyonên din ji bilî wênekirina ekranê
+2キー押下のスクリーンショットの疑い	Wêneyê ekranê yê gumanbar ku bi pêlkirina du bişkokan hatiye kişandin
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Rêbazên tespîtkirinê yên ji bo xalên jorîn ne bêxeletî ne; tespîtkirin wek tedbîreke pêşîlêgir tê kirin.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ew ne tenê dîmenên ekranê, lê herwiha modên debugê û tiştên wekî wan jî tespît dike.
+ページ保存	Rûpelê tomar bike
+右クリック	Klîka rastê
+アドオンがインストールされていると操作できてしまいます	Heke pêveka hatibe sazkirin, hûn ê karibin wê bi kar bînin.
+コピー・カット	Kopî bike û jê bike
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Li gorî mîhengên vê pêvekê, dibe ku hûn kêm caran rastî vê bûyerê werin.
+テキスト全選択	Hemû nivîsê hilbijêre
+テキスト選択	Nivîsê hilbijêre
+デバッガー起動ログ、デバッガー妨害	Têketina destpêkirina debugger, destwerdana debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Ev yek moda debugê hinekî kêmtir bikarhêner-heval dike û tomar dike ku debugger hatiye destpêkirin; lêbelê, dibe ku hin gerok vê tevgerê asteng bikin.
+リダイレクトするURL	URL'ê beralî bike
+利用規約などのページに転送すると良いでしょう	Wê ramaneke baş be ku bikarhêner ber bi rûpelên wekî Mercên Bikaranînê ve bên beralîkirin.
+空欄にすると元のURLにリダイレクトをします	Heke vala bê hiştin, ew ê ber bi URL'a resen ve were beralîkirin.
+リダイレクトまでの時間	Dema heta beralîkirinê
+リダイレクトなし	Ne vegerandin
+1秒	1 saniye
+2秒	2 saniye
+3秒	3 saniye
+4秒	4 saniye
+5秒	5 saniye
+6秒	6 saniye
+7秒	7 saniye
+8秒	8 saniye
+9秒	9 saniye
+10秒	10 saniye
+15秒	15 saniye
+20秒	Bîst saniye
+25秒	25 saniye
+30秒	30 saniye
+35秒	35 saniye
+40秒	40 saniye
+45秒	45 saniye
+50秒	50 saniye
+55秒	55 saniye
+1分	1 deqe
+1分10秒	1 deqe 10 saniye
+1分20秒	1 deqe û 20 saniye
+1分30秒	1 deqe û 30 saniye
+1分40秒	1 deqe û 40 saniye
+1分50秒	1 deqe û 50 saniye
+2分	2 deqe
+ソース表示を許可する権限	Destûr ji bo dîtina koda çavkaniyê
+ADMINログイン時のみ通常のソース出力	Derketina çavkaniyê ya normal tenê dema ku wekî ADMIN têketî ye.
+USERログインで通常のソース出力	Derketina normal a çavkaniyê dema ku wek USER têketî ye
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Hilbijêre ka gelo derketina HTML a standard tenê ji bo rêveberan sînordar be an jî pêdivî bi têketina bikarhêner hebe.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Zorandana daxistina wêneyekî û tiştê ku bi rastî tê daxistin
+GIF形式で1×1ピクセルの透過画像	Wêneyek şefaf a 1x1-pîkselî di formata GIF de
+PNG形式で1×1ピクセルの透過画像	Wêneyek şefaf a 1x1-pîkselî di formata PNG de
+PNG形式で黄色い背景の警告画面	Ekrana hişyariyê ya bi paşxaneya zer di formata PNG de
+意味のないHTMLドキュメント	Belgeyeke HTMLê ya bêwate
+HTML保護時のHEADタグの出力	Derketina etîketa HEAD dema ku HTML parastî be
+出力しない	Nenivîsîne
+TITLEタグのみ	Tenê etîketa TITLE
+WordpressのHEADタグより取得	Ji etîketa HEAD a WordPressê hatiye wergirtin
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Ji bo rûpelên tenê-ji-bo-endam ên ji bo bikaranîna şîrketî û rûpelên navxweyî, hilbijartina 'Do not output' an jî 'TITLE tag only' bes e.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Heta ku hûn agahiyan ji etîketa HEAD a WordPressê wernegirin, wêneya OGPê dema parvekirina li ser medyaya civakî nayê nîşandan.
+画像botをアクセス禁止にする	Botanê wêneyan asteng bike
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Bi rêgirtina li botên wêneyan ji gihîştina HTMLê, hûn dikarin naveroka ku bi rêya lêgerîna wêneyan li hember girêdana rasterast diparêzin; lêbelê, ev ne çareseriyeke temam e.
+AI学習用botをアクセス禁止にする	Gihîştina botê perwerdehiya AIyê asteng bike
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Bi dûrketina ji bikaranîna botên ku ji bo perwerdehiya AIyê li ser HTMLê hatine sêwirandin, em misoger dikin ku naverok ji aliyê AIyê ve neyê bikaranîn; lêbelê, ev yek bi temamî nayê pêşîlêgirtin.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Gihîştina arşîvên malperan û wêneyên malperan asteng bike
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Em rê li ber gihîştina arşîvên malperê yên ku bixweber tên berhevkirin û dîmenên ekranê yên ku li gorî daxwaza bikarhêner hatine kişandin digirin; lêbelê, em nikarin bi temamî pêşî li vê yekê bigirin.
+無効なUAをアクセス禁止にする	Ajansên bikarhêner ên ne derbasdar asteng bike
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Heke rêza user agent tîpên ne derbasdar dihewîne, gihîştinê asteng dike.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Dema ku hûn xwe digihînin Internet Explorer û Microsoft Edge ya kevn
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Gihîştinê bi rêya Internet Explorer û Microsoft Edge ya kevn asteng dike.
+alertメッセージを表示する言語	Zimanê ku peyamên hişyariyê pê têne nîşandan
+Wordpressの言語	Zimanên WordPressê
+ブラウザの設定言語	Mîhengên zimanê gerokê
+メッセージをカスタム設定されている場合は言語を変更できません	Heke peyam hatibin xwerûkirin, hûn nikarin zimanê biguherînin.
+同意画面の言語	Zimanê ekrana razîbûnê
+view-sourceメッセージを表示する言語	Zimanê ku peyama 'view-source' pê were nîşandan
+一時使用トークンの有効期限	Dîroka qedandinê ya tokenên demkî
+3分	3 deqe
+4分	çar deqe
+5分	Pênc deqe
+6分	6 deqe
+7分	Heft deqe
+8分	Heşt deqe
+9分	Noh deqe
+10分	Deh deqe
+15分	15 deqe
+20分	Bîst deqe
+25分	Bîst û pênc deqe
+30分	Sî deqe
+35分	Sî û pênc deqe
+40分	çilî deqe
+45分	Çil û pênc deqe
+50分	Pêncî deqe
+55分	Pêncî û pênc deqe
+1時間	Saetek
+画像URL情報の有効期限を設定します	Dîroka qedandinê ji bo agahiyên URL-a wêneyê diyar bike.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Piştî barkirinê, URL-a wêneyê û tokenê demkî dê betal bibin.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Wêne li gorî daxwazê tên barkirin, lê ew ê 30 saniye berî dema diyarkirî bixweber bên barkirin.
+一時使用トークンのビット数	Hejmara bîtan di tokenek demkî de
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Nîşaneke demkî wekî şîfreyê ji bo şîfrekirina agahiyên URL-ya wêneyî tê bikaranîn; ev eyar hêza wê diyar dike.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Her çend vebijarkên ku li binê menuya dakêşbar tên nîşandan her ku diçe hûrgiltir dibin jî, ev yek dikare barekî giran bixe ser serverê û bibe sedema veguhestina hejmareke mezin a daneyên HTMLê.
+ハッシュ化アルゴリズム	Algorîtmaya Hashê
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Nîşaneke demkî wekî şîfreyê ji bo şîfrekirina agahiyên URL-ya wêneyî tê bikaranîn; ev yek hejmarkirinê
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Her çiqas gava ku hûn di lîsteya vebijarkên di menuya dakêş de berjêr dibin, tundî zêde dibe jî, ev yek barekî girantir datîne ser serverê.
+基本設定	Mîhengên bingehîn
+高度な設定	Mîhengên pêşketî
+初期設定に戻す	Vegerandina mîhengên xwerû
+デザイン・音の設定	Sazkirinên dîzayn û dengî
+イベントの設定	Mîhengên çalakiyê
+初回訪問時のお知らせの設定	Sazkirina agahdariyan ji bo serdanên yekem
+メッセージの設定	Mîhengên peyamê
+右クリックやソースコード表示時に転送する URL を設定します	URL'a ku dema rast-klîk tê kirin an jî koda çavkaniyê tê dîtin were vekirin, diyar bike.
+警告メッセージにはHTMLは使用できません	HTML di peyamên hişyariyê de nayê bikaranîn.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Heke hûn vê li ser vê ekranê eyar bikin, mîhengên ziman ên di tabloya Pêşketî de dê bên paşguhkirin.
+以下の文字列が使用できます	Ev rêzikên jêrîn dikarin bên bikaranîn.
+改行	Birekî rêzê
+押下されたキー	Mifte hat pêçandin
+Neo HTML Protector 設定	Mîhengên Neo HTML Protector
+お知らせ	Agahdarî
+メッセージ	Peyam
+デザイン・音	Sêwiran û Deng
+初期化	Destpêkirin
+このプラグインについて	Derbarê vê pêvekê
+設定が初期化されました	Mîheng hatin sifirkirin.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Pêvokê destpê bikin. Ji kerema xwe bala xwe bidinê ku daneyên IP Log Reader di vê qonaxê de nayên jêbirin.
+Neo HTML Protectorについて	Derbarê Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ev pêvek hatiye sêwirandin da ku HTML, wêne û naverokên din ên ku ji hêla malpera we ya WordPressê ve têne çêkirin biparêze, û wê li hember bikaranîna bêdestûr biparêze.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Parastina naverokê bi temamî ne mimkun e. Lêbelê, bi dayîna hişyariyan li her dera ku mimkun be û bi amadekariyên ji bo her rewşekê, divê em karibin meseleyê li gorî prosedurên ku ji aliyê hikûmetê ve hatine danîn çareser bikin.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Helbet, divê hûn piştrast bikin ku şert û mercên we û polîtîkaya malperê berfireh in. Her çend ev pêvek ne amûrek ji bo çêkirina şert û mercan e, ew dikare hin rêberiyê peyda bike.
+開発者: 夜桜　なの	Pêşvebir: Nano Yozakura
+バージョン	Guherto
+ビルド	Avakirin
+サポートページ	Rûpela piştgiriyê
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Ji aliyê Xanim Ura Manira ve hatiye pêşkêşkirin
+支援のお願い	Daxwazeke piştgiriyê
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Spas ji bo bikaranîna Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Pêşxistin û parastina vê pêvekê gelek dem û hewldan jê re pêwîst bûye, û ji bo komkirina fonan da ku em berdewam bikin li ser başkirin û nûjenkirina wê, em ê spasdar bin heke kesên ku dikarin piştgiriya me bikin, li ser dayîna bexşekê bifikirin.
+寄付について	Derbarê Bexşan
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Beşxîn bi tevahî dilxwazî ye û ne mecbûrî ye. Pêveka ji bo her kesî belaş e. Lêbelê, em ji bo piştgiriya we gelek spasdar in da ku alîkariya me bikin ku em pêşveçûnê bidomînin, û em ê pir kêfxweş bibin heke hûn bikaribin her çend bi mîqdarek piçûk jî beşdar bibin.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Hûn dikarin bi rêya lînka jêrîn bexşekê bikin. Heke hûn li Japonyayê ne, hûn dikarin bêpere bexş bikin, û herwiha hûn dikarin bi hêsanî bi bikaranîna vawçerên diyariyê yên Amazonê bexş bikin.
+寄付先	Xêrxwazî
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Bi piştgiriya we, em ê çi ji destê me tê bikin da ku nûvekirinên fantastîk ji we re bînin!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Em ji bo piştgiriya we spasdar in û di pêşerojê de li hêviya berdewamiya piştgiriya we ne.
+ライセンス	Lîsans
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ev pêvek wekî nermalaveke çavkanî-vekirî hatiye pêşxistin û di bin lîsansa GPLv2.0 an jî ya paşê de ye.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Hin teknolojiyên di vê pêvekê de cih digirin, bi patentan parastî ne.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Bikaranîna teknolojiya patentkirî tenê di nav vê pêveka de destûrdayî ye.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Ji bo her bikaranîneke din, ji kerema xwe bi nivîskar re têkilî daynin da ku lîsanseke bazirganî werbigirin.
+本プラグインには以下のライブラリを同梱しています	Ev pêvek pirtûkxaneyên jêrîn dihewîne.
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ev pêvek, fontên hunera ASCII yên ku li jêr hatine çêkirin, ligel pelên fontan dihewîne.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ev pêvek muzîka lîstika nefermî ya Super Famicomê 'SM Trainer Hitomi 3', ku ji aliyê EJ Co., Ltd. ve hatiye pêşxistin û ji aliyê afirînerê vê pêvekê ve hatiye bestekirin, dihewîne, û bi awayekî fermî lîsansdar e.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ev pêvek rêzikên ku bi 'Keppy's YAMAHA C7', ya ku ji aliyê Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Min her wiha Raspberry Pi 5, ChatGPT û DeepL di pêşxistina vê pêvekê de bi kar aniye.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugîneke keşê hatiye tespîtkirin. Heke plugîneke keşê çalak be, ev plugin dê rast nexebite.
+無効なIPアドレス	Navnîşana IP'yê ne derbasdar e
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ji bo bikaranîna vê malperê, divê hûn cookies û JavaScriptê çalak bikin.
+利用規約	Mercên Bikaranînê
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ji bo pêşîlêgirtina bikaranîna bêdestûr û misogerkirina xebata ewle ya xizmetên me, ev malper dibe ku agahiyên wekî navnîşanên IP'yê, dîroka gerandinê û tomarên çalakiyê di çerezan
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ji bo bikaranîna vê xizmetê, divê hûn destûrê bidin van çalakiyên pêvajoyê.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Hûn dikarin naveroka Polîtîkaya Nepenîtiyê bibînin, çi hûn razî bûbin çi nebûbin.
+同意する	Ez razî me
+同意しない	Ez ne razî me
+確認	Pejirandin
+プライバシーポリシー	Polîtîkaya Nepenîtiyê
+通常とは異なる方法でのアクセスや操作が検出されました	Gihîştin an çalakiyeke neasayî hatiye tespîtkirin.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Hin taybetmendî ji bo armancên ewlehî û parastina naverokê hatine sînordarkirin.
+デバッグモード、コンソールの起動は禁止されています	Modêya debugê û gihîştina konsolê hatine neçalakirin.
+以下の情報がサーバーに送信されました	Agahiyên jêrîn ji serverê re hatin şandin.
+あなたのIPアドレス	Navnîşana te ya IP'yê
+あなたの端末とブラウザ	Amûr û geroka we
+あなたの押下したキー	Mifteya ku te pêl lê kir
+リダイレクトをします	Hûn ê bên beralîkirin
+コンテンツ保護のため一部の機能を制限しています	Hin taybetmendî ji bo parastina naverokê hatine sînordarkirin.
+右クリックは禁止されています	Tikandina rastê nayê destûrdan.
+あなたが押下したキー	Mifteya ku te pêl lê kir
+印刷、PDFへの保存は禁止されています	Çapkirin û tomarkirina wekî PDF qedexe ye.
+スクリーンショットは禁止されています	Girtina wêneyan qedexe ye.
+スクリーンショット、デバッグモード等の起動は禁止されています	Girtina dîmenan û çalakkirina moda debugê qedexe ne.
+ページの保存は禁止されています	Tomarkirina vê rûpelê qedexe ye
+コピー、カットは禁止されています	Kopîkirin û jêbirin qedexe ne.
+あなたが起こしたイベント	Bûyerên ku we organîze kirine
+テキストの選択は禁止されています	Hilbijartina nivîsê destûr nayê dayîn.
+HTMLソース表示は禁止されています	Nîşandana koda çavkaniyê ya HTMLê qedexe ye.
+不正アクセスは禁止されています	Gihîştina bêdestûr qedexe ye.
+アフリカーンス語	Afrîkansî
+アラゴン語	Aragonî
+アラビア語	Erebî
+アッサム語	Asamî
+アゼルバイジャン語	Azərbaycanî
+バシュキール語	Serok
+ベラルーシ語	Belarûsî
+ベンガル語	Bengalî
+ブルガリア語	Bulgari
+ボスニア語	Bosnî
+カタロニア語	Katalanî
+チェコ語	Çekî
+ウェールズ語	Welsî
+デンマーク語	Danîmarkî
+ドイツ語	Almanî
+現代ギリシア語	Yewnanî ya nûjen
+英語	Îngilîzî
+イギリス英語	Îngilîzî
+アメリカ英語	Îngilîzî ya Amerîkî
+エスペラント語	Hêvîdar
+スペイン語	Spanyolî
+エストニア語	Estonî
+バスク語	Baskî
+ペルシャ語	Farisî
+フィンランド語	Fînlandî
+フランス語	Fransî
+アイルランド語	Îrlandî
+ガリシア語	Galiyî
+グァラニ語	Guarani
+グジャラート語	Gujaratî
+ハウサ語	Soranî
+ヘブライ語	Îbranî
+ヒンディ語	Hindî
+クロアチア語	Xirvatî
+ハイチ・クレオール語	Kreyola Haîtî
+ハンガリー語	Macarî
+インドネシア語	Endonezyayî
+イボ語	Zimanê Îbo
+アイスランド語	Îzlandî
+イタリア語	Îtalî
+日本語	Yaponî
+ジャワ語	Civakî
+カザフ語	Kazaxî
+朝鮮語	Koreyî
+クルド語	Kurdî
+キルギス語	Kîrgîzî
+ラテン語	Latînî
+ルクセンブルク語	Luksembûrgî
+リンガラ語	Zimanê Lingala
+リトアニア語	Lîtvanyî
+ラトビア語	Latvî
+マダガスカル語	Malagasy
+マオリ語	Maorî
+マケドニア語	Makedonî
+マラヤーラム語	Zimanê Malayalam
+モンゴル語	Mongolî
+マラーティー語	Zimanê Maratî
+マレー語	Zimanê Malayî
+マルタ語	Maltî
+ビルマ語	Birmanyî
+ネパール語	Nepalî
+ノルウェー語	Norwêcî
+オランダ語	Hollendî
+オック語	Oksîtanî
+オロモ語	An jî
+パンジャーブ語	Pencabî
+ポーランド語	Polonî
+パシュトー語	Piştî
+ポルトガリア語	Portugalî
+ブラジルポルトガル語	Portekîzî ya Brezîlyayî
+ヨーロピアンポルトガル語	Portugalîya Ewropî
+ケチュア語	Qehweya
+ルーマニア語	Romanî
+ロシア語	Rûsî
+サンスクリット語	Sanskrit
+スロバキア語	Slovakî
+スロベニア語	Slovenî
+セルビア語	Serbî
+南セソト語	Bakarê Başûr
+スンダ語	Sûndanî
+スウェーデン語	Swêdî
+スワヒリ語	Swahîlî
+タミル語	Tamîlî
+テルグ語	Telûgû
+タジク語	Tacîk
+タイ語	Taylandî
+トルクメン語	Tirkmenî
+タガログ語	Tagalog
+トルコ語	Tirkî
+タタール語	Tat
+ウクライナ語	Ukraynî
+ウルドゥー語	Zimanê Urdûyî
+ウズベク語	Ûzbek
+ベトナム語	Viyetnamî
+コサ語	Tişta ku ji bîr dibe
+イディッシュ語	Yîdîş
+簡体中国語	Çînîya hêsankirî
+繁体中国語	Çînîya kevneşopî
+ズールー語	Zimanê Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Geroka ku hûn niha bi kar tînin versiyoneke kevnar e ku êdî nayê piştgirîkirin. Ji bo ku hûn serpêhatiyeke gerandinê ya ewletir û rehtir bijîn, ji kerema xwe geroka xwe nûve bikin bo versiyona herî dawî.
+不正なリクエストです	Daxwaza ne derbasdar
+画像が見つかりません	Wêne nehat dîtin

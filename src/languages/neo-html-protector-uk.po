@@ -1,14 +1,14 @@
 # Ukrainian translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:03+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -984,14 +984,44 @@ msgstr "Відображення HTML-джерел заборонено."
 msgid "不正アクセスは禁止されています"
 msgstr "Несанкціонований доступ заборонений."
 
+msgid "アフリカーンス語"
+msgstr "Африкаанс"
+
+msgid "アラゴン語"
+msgstr "Арагонська"
+
 msgid "アラビア語"
 msgstr "Арабська"
+
+msgid "アッサム語"
+msgstr "Ассамська"
+
+msgid "アゼルバイジャン語"
+msgstr "Азербайджанська"
+
+msgid "バシュキール語"
+msgstr "Башкирська"
+
+msgid "ベラルーシ語"
+msgstr "Білоруська"
+
+msgid "ベンガル語"
+msgstr "Бенгальська"
 
 msgid "ブルガリア語"
 msgstr "Болгарська"
 
+msgid "ボスニア語"
+msgstr "Боснійська"
+
+msgid "カタロニア語"
+msgstr "Каталонська"
+
 msgid "チェコ語"
 msgstr "Чеська"
+
+msgid "ウェールズ語"
+msgstr "Валлійська"
 
 msgid "デンマーク語"
 msgstr "Данська"
@@ -1011,11 +1041,20 @@ msgstr "Британська англійська"
 msgid "アメリカ英語"
 msgstr "Американська англійська"
 
+msgid "エスペラント語"
+msgstr "Есперанто"
+
 msgid "スペイン語"
 msgstr "Іспанська"
 
 msgid "エストニア語"
 msgstr "Естонська"
+
+msgid "バスク語"
+msgstr "Баскська"
+
+msgid "ペルシャ語"
+msgstr "Фарсі."
 
 msgid "フィンランド語"
 msgstr "Фінська"
@@ -1023,11 +1062,44 @@ msgstr "Фінська"
 msgid "フランス語"
 msgstr "Французька"
 
+msgid "アイルランド語"
+msgstr "Ірландська"
+
+msgid "ガリシア語"
+msgstr "Галицька"
+
+msgid "グァラニ語"
+msgstr "Гуарані"
+
+msgid "グジャラート語"
+msgstr "Гуджараті"
+
+msgid "ハウサ語"
+msgstr "Хауса"
+
+msgid "ヘブライ語"
+msgstr "Іврит"
+
+msgid "ヒンディ語"
+msgstr "Хінді"
+
+msgid "クロアチア語"
+msgstr "Хорватська."
+
+msgid "ハイチ・クレオール語"
+msgstr "Гаїтянська креольська"
+
 msgid "ハンガリー語"
 msgstr "угорська"
 
 msgid "インドネシア語"
 msgstr "Індонезійська"
+
+msgid "イボ語"
+msgstr "Вартбурзька мова"
+
+msgid "アイスランド語"
+msgstr "Ісландська"
 
 msgid "イタリア語"
 msgstr "Італійська"
@@ -1035,8 +1107,29 @@ msgstr "Італійська"
 msgid "日本語"
 msgstr "Японська"
 
+msgid "ジャワ語"
+msgstr "Яванська"
+
+msgid "カザフ語"
+msgstr "Казахська"
+
 msgid "朝鮮語"
 msgstr "Корейська"
+
+msgid "クルド語"
+msgstr "Курдська"
+
+msgid "キルギス語"
+msgstr "Киргизька"
+
+msgid "ラテン語"
+msgstr "Латинська мова"
+
+msgid "ルクセンブルク語"
+msgstr "Люксембурзька"
+
+msgid "リンガラ語"
+msgstr "Лінгала"
 
 msgid "リトアニア語"
 msgstr "Литовська"
@@ -1044,14 +1137,56 @@ msgstr "Литовська"
 msgid "ラトビア語"
 msgstr "Латиська"
 
+msgid "マダガスカル語"
+msgstr "Малагасійська"
+
+msgid "マオリ語"
+msgstr "Маорі"
+
+msgid "マケドニア語"
+msgstr "Македонська"
+
+msgid "マラヤーラム語"
+msgstr "Мова малаялам"
+
+msgid "モンゴル語"
+msgstr "Монгольська"
+
+msgid "マラーティー語"
+msgstr "Маратхі"
+
+msgid "マレー語"
+msgstr "Малайська"
+
+msgid "マルタ語"
+msgstr "Мальтійська"
+
+msgid "ビルマ語"
+msgstr "Бірманська"
+
+msgid "ネパール語"
+msgstr "Непальська"
+
 msgid "ノルウェー語"
 msgstr "Норвезька"
 
 msgid "オランダ語"
 msgstr "Голландська"
 
+msgid "オック語"
+msgstr "Окситанська"
+
+msgid "オロモ語"
+msgstr "Оромо"
+
+msgid "パンジャーブ語"
+msgstr "Пенджабі"
+
 msgid "ポーランド語"
 msgstr "Польська"
+
+msgid "パシュトー語"
+msgstr "Пушту"
 
 msgid "ポルトガリア語"
 msgstr "Португальська"
@@ -1062,11 +1197,17 @@ msgstr "Бразильська португальська"
 msgid "ヨーロピアンポルトガル語"
 msgstr "Європейська португальська"
 
+msgid "ケチュア語"
+msgstr "Кечуа"
+
 msgid "ルーマニア語"
 msgstr "Румунська"
 
 msgid "ロシア語"
 msgstr "Російська"
+
+msgid "サンスクリット語"
+msgstr "Санскрит"
 
 msgid "スロバキア語"
 msgstr "Словацька"
@@ -1074,23 +1215,71 @@ msgstr "Словацька"
 msgid "スロベニア語"
 msgstr "Словенська"
 
+msgid "セルビア語"
+msgstr "Сербська"
+
+msgid "南セソト語"
+msgstr "Південне сесото"
+
+msgid "スンダ語"
+msgstr "Сунданська"
+
 msgid "スウェーデン語"
 msgstr "Шведська"
+
+msgid "スワヒリ語"
+msgstr "Суахілі"
+
+msgid "タミル語"
+msgstr "Тамільська"
+
+msgid "テルグ語"
+msgstr "Телугу"
+
+msgid "タジク語"
+msgstr "Таджицька"
+
+msgid "タイ語"
+msgstr "Тайська"
+
+msgid "トルクメン語"
+msgstr "Туркменська"
+
+msgid "タガログ語"
+msgstr "Тагальська"
 
 msgid "トルコ語"
 msgstr "Турецька"
 
+msgid "タタール語"
+msgstr "Татарська"
+
 msgid "ウクライナ語"
 msgstr "Українська"
 
-msgid "中国語"
-msgstr "Китайська"
+msgid "ウルドゥー語"
+msgstr "Урду"
+
+msgid "ウズベク語"
+msgstr "Узбецька"
+
+msgid "ベトナム語"
+msgstr "В'єтнамська"
+
+msgid "コサ語"
+msgstr "Коса"
+
+msgid "イディッシュ語"
+msgstr "Їдиш."
 
 msgid "簡体中国語"
 msgstr "Спрощена китайська мова"
 
 msgid "繁体中国語"
 msgstr "традиційна китайська мова"
+
+msgid "ズールー語"
+msgstr "Зулу"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "Браузер, який ви зараз використовуєте, є старою версією, яка більше не підтримується. Для безпечнішого та комфортнішого перегляду, будь ласка, оновіть браузер до найновішої версії."

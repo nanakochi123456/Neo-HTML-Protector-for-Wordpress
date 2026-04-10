@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.4.5
+set VERSION=0.4.6
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector

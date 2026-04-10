@@ -1,0 +1,424 @@
+設定	Bongiseli
+IPログリーダー	Motangi ya ba log ya IP
+IPアドレスログ	Lisolo ya ba adresi IP
+全クリア	Sukisa ba nivo nyonso
+IPログが全て削除されました	Balog ya IP nyonso elongolami.
+ID	Elembo ya koyeba moto
+タイムスタンプ	Ekomami na ngonga
+IPアドレス	Adresi IP
+ユーザーエージェント	Agent ya mosaleli
+イベント	Likambo
+IPアドレスのデータはありません	Ba données ezali te mpo na adresi IP oyo.
+EU GDPR対応	Botosi na GDPR ya Lisanga ya Mpoto
+無効	Ezali te
+有効	Endimami
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Soki ozali kosalela WordPress na kati ya Union Européenne, to soki site na yo ezali mpo na bato ya kati ya Union Européenne, soki te, yebisa ete likambo oyo efungwami.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Bouton 'Confirmer' ekobongwana na 'Okondima' to 'Okondima te', mpe lolenge ya mosala ekobongwana moke.
+同意画面の色	Langi ya écran ya ndingisa
+自動	Yemɔkɔ
+ライトモード	Lolenge ya pɛpɛlɛ
+ダークモード	Lolenge ya moindo
+同意画面表示中の配色を設定します	Bongisa lolenge ya balangi ya écran ya ndingisa.
+同意画面中のコンテンツのぼかし	Kopola emonaneli ya makambo na écran ya ndingisa
+同意画面表示中のコンテンツのぼかし具合を設定します	Bongisa niveau ya kobebisa bilili mpo na makambo oyo emonanaka na écran ya ndingisa.
+同意画面の透過	Polele ya écran ya ndingisa
+透過なし	Emonani polele te
+同意画面の透過具合を設定します	Bongisa opacité ya écran ya ndingisa
+お知らせの1行目	Ligne ya liboso ya liyebisi
+初回表示で必ず表示されるメッセージです	Message oyo emonanaka ntango nyonso mbala ya liboso lokasa efungwami.
+お知らせの2行目	Líne ya mibale ya liyébisi
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Message oyo ekomonanaka kaka na écran ya liboso ntango mobeko EU GDPR ekozala na nguvu.
+お知らせの3行目	Ligne ya misato ya liyebisi
+プライバシーポリシーのリンクの右側に表示されます	Ekomonana na loboko ya mobali ya lien ya Politiki ya Confidentialité.
+非EU向け確認の文字列	Tɛ́kɛ́stɛ ya kondimisa mpo na bikólo oyo ezali na kati ya Lisanga ya Mpótó tɛ́
+EU GDPR向け同意するの文字列	Lisanga ya makomi mpo na GDPR ya Lisanga ya Mpoto
+EU GDPR向け同意しないの文字列	Makomi mpo na 'Kondima te' na nse ya GDPR ya Lisanga ya Mpoto
+プライバシーポリシーの文字列	Mibeko ya kobatela makambo ya moto ye moko
+プライバシーポリシーのURLはこちらから設定して下さい	Tika URL ya politiki ya kobatela makambo ya moto ye moko awa.
+プライバシーポリシーには以下の内容を追加して下さい	Bokisa makambo oyo elandi na Politiki ya Confidentialité.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Mpo na koyeba misala ya bokosi, bilembo lokola ba adresi IP ebombamaka na ba cookies mpe na base de données. Ba données oyo ebombami elongolamaka kolanda ndenge administratere amoni malamu.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Mpo na kondimisa ete bilili etindami malamu tango bobateli na yango efungwami, tobombaka na base de données na biso ba données oyo esalemi hash, oyo ezali na adresi IP mpe nkombo ya fisyé ya elili, kino miniti 60.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Soki ozali kobongisa Mibeko ya bosaleli, tosengi yo otia lien na yango na kati ya Politiki na yo ya kobatela makambo ya moto ye moko.
+利用規約の文字列	Makomi ya Mibeko ya kosalela
+利用規約のページ	Lokasa ya Mibeko mpe Mibombano
+ページ選択なし	Lokasa moko te eponami
+検索エンジン等のURL	Ba-URL mpo na ba-moteur de recherche, etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Tya URL mpo na ba moteurs de recherche mpe ba sites ya ndenge wana oyo etindaka basali na esika mosusu soki ndingisa epesami te.
+デバッグモード、コンソールの警告メッセージ	Mode ya kobongisa mabunga, bamessage ya likebisi na console
+右クリックの警告メッセージ	Kofina na butɔ ya mobali mpo na message ya likebisi
+印刷、PDF保存の警告メッセージ	Liyebisi mpo na konyata mpe kobomba lokola PDF
+スクリーンショットの警告メッセージ	Message ya likebisi na elilingi
+スクリーンショットの疑いの警告メッセージ	Likebisi mpo na ba captures d'écran oyo bakanisi ezali ya mabe.
+テキスト全選択時の警告メッセージ	Myeso ya likebisi ntango makomi nyonso eponami
+ページ保存の警告メッセージ	Likebisi mpo na kobomba lokasa
+コピー・カットした時に表示するメッセージ	Message oyo emonanaka ntango ozali kokopola to kokata
+HTMLソース表示時に表示するメッセージ	Message ya komonisa ntango ozali kotala source ya HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Message ya komonisa na likoló ya code source ntango ozali kobombana to kobatela HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Message ya komonisa soki token ya authentification ya mbala moko ezali invalide na tango ya protection ya HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Message ya komonisa soki ba cookies to JavaScript bakangami.
+実際にはJavascriptが無効時のみ表示されます	Ya solo, oyo emonanaka kaka soki JavaScript ekangami.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Soki elilingi ebatelami, ekitaka, mpe sango emonanaka likolo na yango
+HTML難読化 (圧縮)	Kobombisa
+一般的なHTML圧縮です、難読化解除のサイトもあります	Oyo ezali compression ya HTML ya ordinaire; ezali mpe na ba sites internet oyo ekoki ko décoder yango.
+このオプションを有効にするとview-sourceのログが取得できます	Soki ofungoli option oyo, ekopesa yo nzela ya kozwa log ya view-source.
+HTML保護	Bobateli ya HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ebimisaka kaka HTML ya moboko mpenza—ata moke koleka ndenge esalemaka na compression ya HTML—mpe makambo oyo ezali na kati ya balise BODY ekobima ata moke te.
+Firefoxに対しては無効です	Oyo etali Firefox te.
+SEOに著しく影響があります	Oyo ezali na bopusi monene na SEO.
+HTMLをJavaScriptで描画	Kobimisa HTML na nzela ya JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Mpo na kosala na Firefox, to-rendre HTML na nzela ya JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Kopesa nzela na JavaScript ete esala ekokitisa makasi lombangu ya kofungwama ya site internet.
+画像の保護	Bobateli ya elilingi
+imgタグが呼び出されるごとに画像を保護	Bátela elilingi mbala nyonso oyo tag ya img ebengami.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Bátela bilili nyonso oyo etíami na WordPress na kati ya HTML mobimba oyo ebimi.
+画像をダウンロードから保護します	Ebatelaka bilili ete bakita yango te
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Tango ba données ya bilili ebatelami, topekisaka pene na ba téléchargements nyonso, topesaka ba URLs ya mbala moko mpe ya moto moko, tondimisaka bosolo ya moto na nzela ya ba tokens oyo ebombami na session, mpe tolakisaka bilili na nzela ya PHP; yango epekisaka mpenza pene na makambo nyonso ya moyibi ya bilili.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Soki ba données ya bilili ebatelami, caching esalaka te, yango elingi koloba ete site ekofungwama malembe na mbala oyo ekoya, mpe yango ezali na bopusi mabe na SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Kobatela ba données ya elilingi ekoki kobakisa mokumba na base de données.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Soki oponi 'Kobatela bilili ntango nyonso tag ya img ebengami', système esalelaka add_filter mpo na kotia filtre ntango tag ya img esalemaka; kasi, yango ekoki kosala malamu te na ba thèmes mosusu.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Soki oponi 'Kobatela bilili nyonso oyo etiyami na WordPress na kati ya HTML mobimba', plugin ekokanga pene na misala nyonso ya WordPress mpe ekosalela tag img mokomoko na kati ya contenu. Yeba ete yango ekoki kosala malamu te na ba thèmes mosusu.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Bóyeba ete bililingi oyo eponami lokola bililingi ya liboso ekokabolama lokola ba données OGP mpe ekoki kobatelama te. Soki esengeli mpenza bóbátela yango, bóbongola réglage ya kobima ya étiquette HEAD na ba paramètres avancés ntango bozali kopesa nzela na bobateli ya HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Mosala ya kokanga elilingi ya écran oyo ezali na kati ya système d'exploitation ekoki kobatelama te.
+画像URLの保護	Kobatela ba URLs ya bilili
+画像の保護と組み合わせて使用します、単体では意味がありません	Esengeli kosalela yango elongo na libateli ya bilili; soki ezali yango moko, ezali na ntina te.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Lokola etiyami na nzela ya JavaScript, yango ezalaka na bopusi na SEO.
+画像のウォーターマーク	Elembo ya elilingi
+右下	Na nse na loboko ya mobali
+ランダム位置	Esika oyo eponami na zɛro
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Soki esalelami elongo na lolenge ya kobatela bilili, ba filigranes dynamiques emonisaka polele nani azali nkolo ya lotomo, mpe na ngambo mosusu epesaka bato oyo bazali kotala likanisi ete bazali kokengelama, mpe na ndenge wana epekisaka bango bábebisa yango.
+JPG形式、PNG形式、WebP形式のみ対応します	Kaka ba formats JPG, PNG mpe WebP nde esimbami.
+有効にするとサーバーの負荷が高くなります	Kofungola yango ekobakisa mokumba na serveur.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Kobimisa bililingi ya ASCII longwa na code source ya HTML na ntango ya kobulunganisa mpe kobatela.
+表示なし	Ekomonisi eloko te
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Emonisaka bililingi ya ASCII oyo emonisaka likebisi ntango ozali kotala source ya HTML na nzela ya 'view-source'.
+対象アクションを起こした時の表示デザイン	Lakisá lolenge tango likambo elukami esalemi.
+黄色の背景の黒文字のベーシックデザイン	Conception ya moboko na makomi ya moindo likolo ya fond ya langi ya mosaka.
+黒色の背景の赤文字のホラー風デザイン	Conception ya lolenge ya nsɔmɔ na makomi ya motane likolo ya fond ya moindo.
+黒色の背景の赤文字の光る文字のデザイン	Elilingi oyo ezali na makomi ya motane oyo engɛngaka likolo ya esika ya moindo.
+対象アクションを起こした時のBGM	Miziki ya nsima oyo ebetaka ntango likambo oyo elukami esalemi.
+サウンドなし	Mongongo ezali te
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Etumba & Elonga - Miniti 1 na segɔnde 16,3 - Bɔyte 630 056 - 64 kbps - Lisansi: CC 2.1 to oyo eleki
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Papa Mokuse - Basegɔnde 3.8 - Ba octets 32,364 - 64 kbps - Lisansi: GPL 2.0 to oyo elandi
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Molai - basegɔnde 23.5 - ba octets 195,578 - 64 kbps - Lisansi: GPL 2.0 to oyo elandi
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Version programɛ́, version ya mbangu makasi – Miniti 1 na segɔnde 57,6 – Bɔ́yte 724 457 – 48 kbps – Lisansi: CC BY-ND 4.0 to oyo elandi
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo na B-molongo ya moke, Op. 2 – Version esalemi na ordinatere, version mokuse ya mbangu makasi – Miniti 1 na segonde 48,0 – Bytes 665,369 – 48 kbps – Lisansi: CC BY-ND 4.0 to oyo elandi
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Liste: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 segɔnde – 183,926 bɔyte – 64 kbps – Lisansi: Domaine public
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfare ya lolenge ya kala – 2.2 segɔnde – 10,536 baitɛ – 32 kbps – Lisansi: Domaine public
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Ebandeli ya lolenge ya kala – 42.1 segɔnde – 179,138 baitɛ – 32 kbps – Lisansi: Domaine public
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Likebisi na ChatGPT - 3.8 segɔnde - 109,700 ba octets - 256 kbps - Lisansi: Domaine public
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Lokito ya likambo ya mbangu makasi lokola alerte ya malware – Eteni ya 1 na ChatGPT – 3.3 segɔnde – 102,850 bytes – 256 kbps – Lisansi: Domaine public
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Lokito ya likambo ya mbangu makasi lokola alerte ya détection ya malware, Eteni ya 2 na ChatGPT - 3.3 secondes - 103,122 bytes - 256 kbps - Lisansi: Domaine public
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Mongongo ya lolenge ya MRI na ChatGPT – miniti 1 na segɔnde 14,9 – 3 340 392 bytes – 320 kbps – Lisansi: Domaine public
+警告表示中のBGMを選択します	Pona miziki ya nsima oyo ekobeta na tango ya likebisi.
+びっくりするような雰囲気を作ります	Ezalisi ambiance ya kokamwa.
+Firefoxでは音声ブロックされます	Audio ekangami na Firefox.
+対象アクションを起こした時のビープ音	Benga moke tango likambo oyo elakisami esalami
+有効 音量小さ目	Fungola, mongongo moke
+有効 音量大き目	Ezali kosala, volume etombwami likolo
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Mongongo ya beep ekobeta mpo na makambo nyonso ya fungola mpe ya souris, ntango likebisi ezali komonana.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Emonanaka lokola aparɛyi ebebi ntango likebisi ezali komonana.
+対象アクションを起こした時のマウスカーソルの消去	Kobomba curseur ya souris tango likambo moko boye esalami
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Ebombaka curseur ya souris na eteni ya navigateur ntango likebisi ezali komonana.
+デバッグモード	Mode ya kobongisa mabunga
+妨害＋記録のみ	Kopekisa + Ba disques kaka
+妨害＋記録＋表示＋リダイレクト	Kopekisa + Bokomisi + Komonisa + Bokembisi
+メニューからは操作できてしまいます	Okoki kaka kokoma na yango na nzela ya menu.
+Firefoxにおけるデバッグモード	Mode ya débugage na Firefox
+ブラウザーコンソール	Esika ya botalisi ya navigateur
+事実上デバッグモードから操作できてしまいます	Na bosolo, okoki kosalela yango uta na mode ya debug.
+HTMLソース表示	Tala source ya HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Okoki kosala opération yango na ndenge ya pete kaka na kokotisa URL oyo ebandi na 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Okoki kobatela contenu na yo na kosangisa yango na bobateli ya HTML.
+印刷	Kobimisa na papie
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ata epekisaka ko-imprimé, ekoki kosala malamu te na ba navigateurs mosusu.
+スクリーンショット	Elilingi ya écran
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Kolanda système d'exploitation, navigateur to lolenge oyo esalelami, ekoki kozala ete okoka kopekisa yango te, to mpe ete emonana te.
+ウインドウが背面に移動した時スクリーンショットの疑い	Emonani lokola screenshot ntango fenetre ekendi na sima.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Esalaka mpe misala misusu longola kaka kokanga bilili ya écran
+2キー押下のスクリーンショットの疑い	Elilingi ya écran oyo bakanisi ete ezuamaki na kofinaka ba touches mibale.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Banzela ya koyeba biloko oyo etangami likolo ezali ya solo mpenza te; koyeba yango esalemaka kaka lokola likambo ya kokeba.
+スクリーンショットだけではなく、デバッグモード等も検出します	Emonaka kaka te ba captures d'écran, kasi mpe ba modes ya debug mpe biloko ya ndenge wana.
+ページ保存	Bomba lokasa
+右クリック	Finá na butɔ ya mobali
+アドオンがインストールされていると操作できてしまいます	Soki add-on etiyami, okokoka kosalela yango.
+コピー・カット	Kopola mpe kokata
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Kolanda ndenge plugin oyo ebongisami, mbala mosusu okokutana na likambo oyo.
+テキスト全選択	Pona makomi nyonso
+テキスト選択	Pona makomi
+デバッガー起動ログ、デバッガー妨害	Buku ya ebandeli ya debugger, bokangami ya debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Yango ekomisi mode ya debug mwa mpasi moke mpo na kosalela mpe ekomisi likambo ete debugger efungwami; kasi, ba navigateurs mosusu bakoki kopekisa lolenge oyo ya kosala.
+リダイレクトするURL	Bongola URL
+利用規約などのページに転送すると良いでしょう	Ekozala likanisi ya malamu kotinda basali na nkasa lokola Mibeko ya bosaleli.
+空欄にすると元のURLにリダイレクトをします	Soki etikali mpamba, ekotinda yo na URL ya ebandeli.
+リダイレクトまでの時間	Ntango kino na redirection
+リダイレクトなし	Kozongisa te
+1秒	Sekonde moko
+2秒	Basegɔnde mibale
+3秒	Sekonde misato
+4秒	Sekonde minei
+5秒	Sekonde mitano
+6秒	Sekonde motoba
+7秒	Sɛkɔnde nsambo
+8秒	Ba segɔnde mwambe
+9秒	Sekonde libwa
+10秒	Segɔnde zomi
+15秒	Segɔnde zomi na mitano
+20秒	Sekonde ntuku mibale
+25秒	Sekonde ntuku mibale na mitano
+30秒	Sekonde ntuku misato
+35秒	Sekonde ntuku misato na mitano
+40秒	Sekonde ntuku minei
+45秒	Segɔnde ntuku minei na mitano
+50秒	Segɔnde ntuku mitano
+55秒	Segɔnde ntuku mitano na mitano
+1分	Minuiti moko
+1分10秒	Mokolo moko na basegɔnde zomi
+1分20秒	Minuiti moko na basegɔnde ntuku mibale
+1分30秒	Minuiti moko na basekondi ntuku misato
+1分40秒	Mokolo moko na basegɔnde ntuku minei
+1分50秒	Mokolo moko na basegɔnde ntuku mitano
+2分	Minuti mibale
+ソース表示を許可する権限	Ndanga ya kotala code source
+ADMINログイン時のみ通常のソース出力	Ebima ya normal kaka soki okoti lokola ADMIN.
+USERログインで通常のソース出力	Ebimeli ya normal ya source tango okoti lokola USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pona soki ebimeli ya HTML ya momeseno ezali kaka mpo na ba-administrateurs to esengaka kokota na compte.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Kopusa elilingi ekita mpe oyo ekitaka mpenza
+GIF形式で1×1ピクセルの透過画像	Elilingi ya pixel moko na moko, ya komonana na nsima, na format GIF
+PNG形式で1×1ピクセルの透過画像	Elilingi ya pixel moko na moko, ya komonana na nsima, na format PNG.
+PNG形式で黄色い背景の警告画面	Ekran ya likebisi na fond ya langi ya mosaka na format PNG
+意味のないHTMLドキュメント	Dokima ya HTML oyo ezangi ntina
+HTML保護時のHEADタグの出力	Ebimeli ya tag HEAD tango HTML ebatelami
+出力しない	Kobimisa na papie te
+TITLEタグのみ	Etikɛti ya titre kaka
+WordpressのHEADタグより取得	Ezwami na etikɛ́ta HEAD ya WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Mpo na nkasa ya basangani mpamba mpo na misala ya kompani mpe nkasa ya kati, kopona 'Do not output' to 'TITLE tag only' ekoki.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Soki ozwi te bansango yango na kati ya tag HEAD ya WordPress, elilingi ya OGP ekobima te tango okokabola na ba réseaux sociaux.
+画像botをアクセス禁止にする	Kanga bot ya elilingi
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Na kopekisa ba bots ya bilili bákota na HTML, okoki kobatela biloko oyo ekokaki kobatelama te liboso ya kokangisa yango mbala moko na nzela ya bolukiluki ya bilili; kasi, yango epesi solution ya mobimba te.
+AI学習用botをアクセス禁止にする	Kanga nzela ya kokɔta na bot ya AI ya koyekola
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Na kokima kosalela ba bots oyo esalemi mpo na koyekolisa AI na HTML, tosali ete AI esalela makambo yango te; kasi, yango ekoki kopekisama mobimba te.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Kanga nzela na ba archives ya web mpe ba snapshots ya web.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Topekisi bokoti na ba archives ya web oyo ezwamaka na lolenge ya automatique mpe na ba captures d'écran oyo mosaleli azwi na ndingisa na ye moko; kasi, tokoki kopekisa yango mobimba te.
+無効なUAをアクセス禁止にする	Kanga ba agents ya mosaleli oyo endimami te
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Epekisi bokoti soki molongo ya agent ya mosaleli ezali na bilembo oyo endimami te.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Kolakisa likebisi ntango okofungola Internet Explorer mpe Microsoft Edge ya kala
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Epekisaka bokoti na nzela ya Internet Explorer mpe Microsoft Edge ya kala.
+alertメッセージを表示する言語	Lokota oyo ba messages ya likebisi emonanaka na yango
+Wordpressの言語	Nkota ya WordPress
+ブラウザの設定言語	Réglage ya monoko ya navigateur
+メッセージをカスタム設定されている場合は言語を変更できません	Okoki te kobongola lokota soki bamessage ebongolamaki.
+同意画面の言語	Lokota ya écran ya kondima
+view-sourceメッセージを表示する言語	Lokota ya komonisa sango 'view-source'
+一時使用トークンの有効期限	Mokolo ya suka ya ba jetons ya ntango mokuse
+3分	Miniti misato
+4分	Miniti minei
+5分	Miniti mitano
+6分	Miniti motoba
+7分	Miniti nsambo
+8分	Miniti mwambe
+9分	Miniti libwa
+10分	Miniti zomi
+15分	Miniti zomi na mitano
+20分	Miniti ntuku mibale
+25分	Miniti ntuku mibale na mitano
+30分	Miniti ntuku misato
+35分	Miniti ntuku misato na mitano
+40分	Miniti ntuku minei
+45分	Miniti ntuku minei na mitano
+50分	Miniti ntuku mitano
+55分	Miniti ntuku mitano na mitano
+1時間	Ngonga moko
+画像URL情報の有効期限を設定します	Tya date ya suka mpo na bansango ya URL ya elilingi
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Soki etíami, URL ya elilingi ná token ya ntango mokɛ́ bakozala lisusu ya kosalela te.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Bilili ekotíyama soki moto asɛngi, kasi ekotíyama yango moko na ba segɔnde 30 liboso ya ngonga oyo elobami.
+一時使用トークンのビット数	Motango ya ba bits na kati ya token ya ntango mokuse
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Toke ya ntango mokuse esalelamaka lokola liloba ya sekele mpo na kobomba na sekele bansango ya URL ya elilingi; réglage oyo elakisaka makasi na yango.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ata soki maponi oyo emonisami na nse ya menu déroulant ekomi na ba détails mingi, yango ekoki kotia mokumba monene na serveur mpe kosala ete volume monene ya ba données HTML etindama.
+ハッシュ化アルゴリズム	Algorithme ya hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token ya ntango mokuse esalelamaka lokola mot de passe mpo na kobomba na sekre ba informations ya URL ya elilingi; yango esengaka kosala hashing, mpe réglage oyo nde etalisaka makasi ya hashing wana.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Ata soki makasi ezali komata ntango ozali kokita na nse na kati ya maponi oyo emonanaka na menu oyo ekweyaka, yango etie mokumba monene koleka likolo ya serveur.
+基本設定	Biregladure ya moboko
+高度な設定	Ba paramètres ya avansé
+初期設定に戻す	Zongisa ba paramètres par défaut
+デザイン・音の設定	Conception mpe ba réglages ya mongongo
+イベントの設定	Bopɛngami ya likambo
+初回訪問時のお知らせの設定	Kobongisa mayebisi mpo na mbala ya liboso ya bokoti
+メッセージの設定	Bopɛngami ya sango
+右クリックやソースコード表示時に転送する URL を設定します	Bongisa URL oyo ekotindama soki ofini na butɔ ya mobali to ozali kotala code source.
+警告メッセージにはHTMLは使用できません	HTML ekoki kosalelama te na bamessage ya likebisi.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Soki obongisi yango na écran oyo, ba paramètres ya monɔkɔ na onglet Avancé bakotala yango te.
+以下の文字列が使用できます	Ba chaînes oyo elandi ekoki kosalelama
+改行	Kokatana ya molongo
+押下されたキー	Fungola efinami
+Neo HTML Protector 設定	Bopɛngɔli ya Neo HTML Protector
+お知らせ	Likebisi
+メッセージ	Sango
+デザイン・音	Conception mpe Mongongo
+初期化	Ebandeli
+このプラグインについて	Mpo na plugin oyo
+設定が初期化されました	Ba paramètres ezongisami na ndenge ezalaki.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Banda plugin. Yeba ete ba données ya IP Log Reader ekolongolama te na etape oyo.
+Neo HTML Protectorについて	Mpo na Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin oyo esalemi mpo na kobatela HTML, bililingi mpe biloko mosusu oyo site na yo ya WordPress ebimisaka, mpe kokengela yango mpo bato oyo bazangi ndingisa basalela yango te.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Eza mpasi kobatela makambo nyonso mobimba. Kasi, na kopesaka mayebisi esika nyonso ekoki mpe na komibongisaka soki likambo moko esalami, tokoki kosilisa likambo yango kolanda mibeko oyo guvɛnɛmá etie.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Ya solo, esengeli omindimisa ete mibeko ya bosaleli mpe mibeko ya site na yo ezali ya mobimba. Ata soki plugin oyo ezali esaleli te mpo na kobimisa mibeko ya bosaleli, ekoki kopesa mwa toli.
+開発者: 夜桜　なの	Mosali: Nano Yozakura
+バージョン	Lolenge
+ビルド	Tonga
+サポートページ	Lokasa ya lisungi
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Ebetami na Miss Ura Manira
+支援のお願い	Lisɛngi ya lisungi
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Matondi mpo na kosalela Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Kobongisa mpe kobatela plugin oyo esɛngaki ntango mpe milende mingi, mpe mpo na koluka mbongo ya kokoba kobongisa mpe ko-mis à jour yango, tokosepela mingi soki moto nyonso oyo akoki kosunga akanisi kopesa likabo.
+寄付について	Mpo na makabo
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Makabo ezali ya bolingo mpamba, ezali likambo ya kotosa te. Plugin oyo ezali ofele mpo na moto nyonso. Kasi, lisungi na bino ezali na motuya mingi mpo na kosalisa biso tokoba na bokeli, mpe tokosepela mingi soki bokoki kopesa ata moke.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Okoki kopesa likabo na nzela ya lien oyo ezali na nse. Soki ofandi na Japon, okoki kopesa likabo ofele, mpe lisusu okoki kopesa yango na pɛtɛɛ na kosaleláká ba bons ya likabo ya Amazon.
+寄付先	Misala ya bolamu
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Na lisungi na bino, tokosala nyonso mpo na kokoba kopesa bino basango ya kitoko!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Totondi bino mpo na lisungi na bino mpe tozali kozela ete bokokoba kosunga biso na mikolo mizali koya.
+ライセンス	Lisansi
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin oyo esalemi lokola logiciel open source mpe eza na licence ya GPLv2.0 to oyo ekoya sima.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Bitéknolojí mosusu oyo ezali na kati ya plugin oyo ebatelami na ba brevet.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Bosaleli ya tekiniki oyo ezali na brevet endimami kaka na kati ya plug-in oyo.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Mpo na bosaleli mosusu nyonso, soki okosepela, benga mokomi mpo na kozwa ndingisa ya mombongo.
+本プラグインには以下のライブラリを同梱しています	Plugin oyo ezali na ba bibliothèques oyo elandi
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin oyo ezali na ba polices ya art ASCII oyo esalemi na nse, elongo na ba fichiers na yango.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin oyo ezali na miziki ya lisano ya Super Famicom oyo endimami na ofisiele te, 'SM Trainer Hitomi 3', oyo esalemaki na EJ Co., Ltd. mpe ebongisamaki na mokeli ya plugin oyo, mpe ezali na ndingisa ya ofisiele.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin oyo ezali na ba pistes oyo esalemi na 'Keppy's YAMAHA C7', oyo ebongisami na Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Nasálelaki mpe Raspberry Pi 5, ChatGPT ná DeepL mpo na bokeli ya plugin oyo.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin ya caching emonani. Plugin oyo ekosala malamu te soki plugin ya caching efungwami.
+無効なIPアドレス	Adresi ya IP ebongi te
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Mpo na kosalela site internet oyo, esengeli ofungola ba cookies mpe JavaScript.
+利用規約	Mibeko ya bosaleli
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Mpo na kopekisa bosaleli ya kozanga ndingisa mpe mpo misala na biso etambola na kimya, site internet oyo ekoki kobomba bansango lokola ba adrɛsi IP, lisolo ya botamboli na internet mpe bilembo ya misala na kati ya ba cookies mpe ba bases de données. Bansango oyo esalelamaka kaka mpo na botamboli ya site internet mpe mpo na makambo ya mibeko, mpe ekopesama te na bato to bibongiseli mosusu.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Mpo na kosalela service oyo, esengeli ondima misala oyo ya traitement.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Okoki kotala makambo oyo ezali na kati ya Politiki ya Confidentialité, ata soki ondimaki to te.
+同意する	Nandimi
+同意しない	Nandimi te
+確認	Kondimama
+プライバシーポリシー	Mibeko ya kobatela makambo ya moto ye moko
+通常とは異なる方法でのアクセスや操作が検出されました	Bakutani na bokoti to misala oyo emesana te.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Makambo mosusu bakangi yango mpo na ntina ya bokengi mpe mpo na kobatela makambo oyo ezali na kati.
+デバッグモード、コンソールの起動は禁止されています	Mode ya debug mpe accès na console bakangami.
+以下の情報がサーバーに送信されました	Bansango oyo elandi etindami na serveur.
+あなたのIPアドレス	Adresi na yo ya IP
+あなたの端末とブラウザ	Esaleli na yo mpe navigateur na yo
+あなたの押下したキー	Fungu oyo ofinaki
+リダイレクトをします	Bokozongisama
+コンテンツ保護のため一部の機能を制限しています	Makambo mosusu epekisami mpo na kobatela biloko ya kati.
+右クリックは禁止されています	Kofina na butɔ ya mobali epekisami.
+あなたが押下したキー	Fungu oyo ofinaki
+印刷、PDFへの保存は禁止されています	Kopɛsa na papíɛ́ mpe kobomba lokola PDF epekisami.
+スクリーンショットは禁止されています	Kokanga bilili ya écran epekisami.
+スクリーンショット、デバッグモード等の起動は禁止されています	Kozwa ba captures d'écran mpe kofungola mode ya debug epekisami.
+ページの保存は禁止されています	Kobomba lokasa oyo epekisami
+コピー、カットは禁止されています	Kokopola mpe kokata epekisami.
+あなたが起こしたイベント	Makambo oyo obongisaki
+テキストの選択は禁止されています	Kopona makomi epekisami.
+HTMLソース表示は禁止されています	Kolakisa code source ya HTML epekisami.
+不正アクセスは禁止されています	Kokɔta kozanga ndingisa epekisami.
+アフリカーンス語	Lifalanse
+アラゴン語	Liloba ya Aragon
+アラビア語	Arabe
+アッサム語	Assamese
+アゼルバイジャン語	Azéri
+バシュキール語	Kobɛta
+ベラルーシ語	Moto ya Biélorussie
+ベンガル語	Bengali
+ブルガリア語	Bulgare
+ボスニア語	Moto ya Bosnie
+カタロニア語	Catalan
+チェコ語	Tchéque
+ウェールズ語	Moto ya Pays de Galles
+デンマーク語	Danemarkais
+ドイツ語	Alɛ́mã
+現代ギリシア語	Gɛ́rɛ́kɛ ya mikolo oyo
+英語	Lolenge ya Lingelesi
+イギリス英語	Anglais Britannique
+アメリカ英語	Anglais ya Amerika
+エスペラント語	Lolenge ya elikya
+スペイン語	Espagnol
+エストニア語	Moto ya Estonie
+バスク語	Basque
+ペルシャ語	Perse
+フィンランド語	Finlandɛ́ɛ
+フランス語	Molɔ́kɔ́lɔ́
+アイルランド語	Irlandais
+ガリシア語	Ya Galice
+グァラニ語	Mboka ya Guarani
+グジャラート語	Gujarati
+ハウサ語	Mokili
+ヘブライ語	Ebre
+ヒンディ語	Na monɔkɔ ya Hindi
+クロアチア語	Kroat
+ハイチ・クレオール語	Kreyòl Ayisyen
+ハンガリー語	Moto ya Hongrie
+インドネシア語	Indonésien
+イボ語	Lolobé ya Ibo
+アイスランド語	Mokili ya glace
+イタリア語	Motaliano
+日本語	Ya Japon
+ジャワ語	Ya Java
+カザフ語	Kazakh
+朝鮮語	Koréya
+クルド語	Kurdí
+キルギス語	Kyrgyz
+ラテン語	Latin
+ルクセンブルク語	Lokseburguá
+リンガラ語	Lokola
+リトアニア語	Litoani
+ラトビア語	Leta
+マダガスカル語	Mala-gasy
+マオリ語	Ba-Māori
+マケドニア語	Masedonɛ́
+マラヤーラム語	Malayalam
+モンゴル語	Mongolien
+マラーティー語	Mpɛmbɛ
+マレー語	Molayi
+マルタ語	Malté
+ビルマ語	Birmana
+ネパール語	Népalais
+ノルウェー語	Moto ya Norvège
+オランダ語	Ya Hollande
+オック語	Okitani
+オロモ語	Mpunda
+パンジャーブ語	Panjabi
+ポーランド語	Kopangusa
+パシュトー語	Pɔ́sɔ
+ポルトガリア語	Portugais
+ブラジルポルトガル語	Portugais ya Brésil
+ヨーロピアンポルトガル語	Portugais ya Mpoto
+ケチュア語	Ndenge
+ルーマニア語	Moto ya Roumanie
+ロシア語	Lolenge ya Russe
+サンスクリット語	Liloba ya Latin
+スロバキア語	Slovaiki
+スロベニア語	Slovéne
+セルビア語	Serbe
+南セソト語	Sudi ya Sesotho
+スンダ語	Basanzí ya Sunda
+スウェーデン語	Suédois
+スワヒリ語	Sualia
+タミル語	Tamil
+テルグ語	Télougou
+タジク語	Tajiki
+タイ語	Tɛ́ɛ́lɛ́
+トルクメン語	Turkmen
+タガログ語	Lokota ya Tagalog
+トルコ語	Turc
+タタール語	Mbɛbu
+ウクライナ語	Moto ya Ukraine
+ウルドゥー語	Urdu
+ウズベク語	Ouzbeki
+ベトナム語	Vietnamɛ́
+コサ語	Libunga
+イディッシュ語	Yidi
+簡体中国語	Chinois simplifié
+繁体中国語	Limonɔkɔ ya bonkɔ́kɔ ya Chine
+ズールー語	Mbote
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Navigatɛrɛ oyo ozali kosalela ezali version ya kala oyo lisusu esungami te. Mpo na kozala na expérience ya kotambola na internet ya libateli mpe ya malamu koleka, tosengi yo osala mise à jour ya navigatɛrɛ na yo na version na yango ya sika.
+不正なリクエストです	Esɛngi ya libela te
+画像が見つかりません	Elilingi emonani te

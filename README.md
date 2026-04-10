@@ -7,6 +7,8 @@
 
 何らかの方法で操作出来てしまうが、抑止には良い
 
+Multi Language Support (103 Languages)
+
 ## インストール
 WPROOT/wp-content/plugins/Neo-HTML-Protector ディレクトリを作成し
 その中にsrc配下のファイルをすべて入れて有効化
@@ -46,6 +48,8 @@ https://coconala.com/services/3724976
 - 無効化して削除
 
 ## バージョン履歴
+v0.4.6 - 更に多言語対応
+
 v0.4.5 - 他ドメインへのコピーやローカルへのコピー対処を非表示という形でした
 
 v0.4.4 - 軽易な変更

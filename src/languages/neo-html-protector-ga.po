@@ -1,0 +1,1292 @@
+# Irish translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 04:39+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Socruithe"
+
+msgid "IPログリーダー"
+msgstr "Léitheoir Loga IP"
+
+msgid "IPアドレスログ"
+msgstr "Lógh IP"
+
+msgid "全クリア"
+msgstr "Críochnaigh na leibhéil go léir"
+
+msgid "IPログが全て削除されました"
+msgstr "Tá na logaí IP go léir scriosta."
+
+msgid "ID"
+msgstr "Aitheantas"
+
+msgid "タイムスタンプ"
+msgstr "Cloigcheann"
+
+msgid "IPアドレス"
+msgstr "Seoladh IP"
+
+msgid "ユーザーエージェント"
+msgstr "Gníomhaire úsáideora"
+
+msgid "イベント"
+msgstr "Imeacht"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Níl aon sonraí ann don seoladh IP seo."
+
+msgid "EU GDPR対応"
+msgstr "Comhlíonadh RGCS an AE"
+
+msgid "無効"
+msgstr "Míbhailí"
+
+msgid "有効"
+msgstr "Bailí"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Má tá tú ag úsáid WordPress laistigh den AE, nó má tá do shuíomh gréasáin dírithe ar úsáideoirí laistigh den AE, cinntigh le do thoil go bhfuil sé seo cumasaithe."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Athróidh an cnaipe 'Dearbhaigh' go 'Aontaím' nó 'Ní Aontaím', agus athróidh an iompar beagáinín."
+
+msgid "同意画面の色"
+msgstr "Dath an scáileáin toiliú"
+
+msgid "自動"
+msgstr "Uathoibríoch"
+
+msgid "ライトモード"
+msgstr "Mód éadrom"
+
+msgid "ダークモード"
+msgstr "Mód Dorcha"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Socraigh scéim dathanna an scáileáin toiliúcháin."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Doiléiriú an ábhair ar an scáileán toiliúcháin"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Socraigh an leibhéal doiléirthe don ábhar a thaispeántar ar an scáileán toiliú."
+
+msgid "同意画面の透過"
+msgstr "Trédhearcacht an scáileáin toiliúcháin"
+
+msgid "透過なし"
+msgstr "Gan trédhearcacht"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Socraigh trédhearcacht an scáileáin toiliú"
+
+msgid "お知らせの1行目"
+msgstr "An chéad líne den fhógra"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Taispeántar an teachtaireacht seo i gcónaí an chéad uair a lódáiltear an leathanach."
+
+msgid "お知らせの2行目"
+msgstr "An dara líne den fhógra"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ní thaispeánfar an teachtaireacht seo ach ar an gcéad taispeáint, agus an GDPR de chuid an AE i bhfeidhm."
+
+msgid "お知らせの3行目"
+msgstr "An tríú líne den fhógra"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Beidh sé le feiceáil ar dheis na naíonnaisc chuig an bPolasaí Príobháideachais."
+
+msgid "非EU向け確認の文字列"
+msgstr "Téacs deimhnithe do thíortha nach bhfuil san AE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Téacs toiliú do Rialachán Ginearálta an AE maidir le Cosaint Sonraí"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Téacs do 'Ná toirimheas' faoin RGCS de chuid an AE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Téacs an bheartais phríobháideachais"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Le do thoil, socraigh an URL don pholasaí príobháideachais anseo."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Cuir an méid seo a leanas leis an bPolasaí Príobháideachais, le do thoil."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Chun gníomhaíocht chalaoiseach a bhrath, stóráiltear sainaithnéithe ar nós seoltaí IP i bhfianáin agus sa bhunachar sonraí. Scriostar na sonraí stóráilte de réir rogha an riarthóra."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Chun a chinntiú go seachadtar íomhánna i gceart ach amháin nuair a bhíonn cosaint íomhá cumasaithe, stórálaimid sonraí haischithe ina bhfuil an seoladh IP agus ainm comhaid na híomhá sa bhunachar sonraí ar feadh suas le 60 nóiméad."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Má tá Téarmaí Úsáide á socrú agat, cinntigh le do thoil go gcuireann tú nasc chucu san áireamh i do Pholasaí Príobháideachais."
+
+msgid "利用規約の文字列"
+msgstr "Téacs na dTéarmaí Úsáide"
+
+msgid "利用規約のページ"
+msgstr "Téarmaí agus Coinníollacha"
+
+msgid "ページ選択なし"
+msgstr "Níl leathanach ar bith roghnaithe"
+
+msgid "検索エンジン等のURL"
+msgstr "URLanna do chuardaitheoirí gréasáin, srl."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Socraigh an URL do innill chuardaigh agus suíomhanna comhchosúla a atreoraíonn úsáideoirí nuair nach dtugtar toiliú."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mód dífhabhtaithe, teachtaireachtaí rabhaidh consóil"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Cliceáil deas ar an teachtaireacht rabhaidh"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Fógra rabhaidh maidir le priontáil agus sábháil mar PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Teachtaireacht rabhaidh sa phictiúr scáileáin"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Fógra rabhaidh maidir le seatanna scáileáin amhrasta"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Teachtaireacht rabhaidh nuair a bhíonn an téacs ar fad roghnaithe"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Fógra rabhaidh maidir le leathanach a shábháil"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Teachtaireacht a thaispeántar agus cóipeáil nó gearradh á ndéanamh"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Teachtaireacht le taispeáint agus an fhoinse HTML á breathnú"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Teachtaireacht le taispeáint ag barr an chóid foinseach agus HTML á doiléiriú nó á chosaint"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Teachtaireacht le taispeáint má bhíonn an t-eochairchomhartha fíordheimhnithe aonuaire neamhbhailí le linn cosanta HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Teachtaireacht le taispeáint má tá fianáin nó JavaScript díchumasaithe"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Go deimhin, ní thaispeántar é seo ach amháin nuair a bhíonn JavaScript díchumasaithe."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Nuair a chosnaítear íomhá, íoslódáiltear í, agus taispeántar teachtaireacht ar an íomhá sin"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Doiléiriú"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Is comhbhrú caighdeánach HTML é seo; tá suíomhanna gréasáin ann freisin a fhéadann é a dhíchódú."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ligeann cumasú an rogha seo duit an loga foinse-amhairc a aisghabháil."
+
+msgid "HTML保護"
+msgstr "Cosaint HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ní thugann sé amach ach an t-íosmhéid lom de HTML—níos lú fós ná nuair a úsáidtear comhbhrú HTML—agus ní thugtar an t-ábhar laistigh den chlibe BODY amach ar chor ar bith."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Ní bhaineann sé seo le Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Tá tionchar suntasach aige seo ar SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Rindreáil HTML le JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Chun an fhadhb le Firefox a shárú, déanaimid an HTML a rindreáil le JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Má chumasaítear rindreáil JavaScript, maolófar go mór ar luas lódála an tsuímh ghréasáin."
+
+msgid "画像の保護"
+msgstr "Cosaint íomhá"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Cosain an íomhá gach uair a thugtar gairm don chlibe img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Cosain gach íomhá a uaslódáiltear chuig WordPress laistigh den toraidh HTML iomlán."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Cosnaíonn sé íomhánna ó íoslódáil"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Nuair a chosnaítear sonraí íomhá, cuirimid cosc ar bheagnach gach íoslódáil, eisímid URLanna uathúla aonuaire, déanaimid fíordheimhniú ag úsáid comharthaí a stóráiltear sa seisiún, agus taispeánaimid na híomhánna trí PHP; cuireann sé seo cosc éifeachtach ar bheagnach gach cás de ghoid íomhánna."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Nuair a chosnaítear sonraí íomhá, ní oibríonn an taisceadh, rud a chiallaíonn go lódálfaidh an suíomh níos moille ar chuairteanna ina dhiaidh sin, agus mar sin go mbíonn tionchar aige ar SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "D'fhéadfadh cosaint sonraí íomhá an t-ualach ar an mbunachar sonraí a mhéadú."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Má roghnaíonn tú 'Íomhánna a chosaint aon uair a ghlaoitear ar chlibe img', úsáideann an córas add_filter chun scagadh a chur i bhfeidhm nuair a ghintear an chlibe img; áfach, d'fhéadfadh sé nach n-oibreoidh sé seo i gceart le roinnt téamaí."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Má roghnaíonn tú 'Cosain gach íomhá a uaslódáiltear ar WordPress laistigh den aschur HTML iomlán', gabhfaidh an breiseán beagnach gach oibríocht de chuid WordPress agus próiseálfaidh sé gach clib img laistigh den ábhar. Tabhair faoi deara, le do thoil, go bhféadfadh sé nach n-oibreoidh sé seo i gceart le roinnt téamaí."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Tabhair faoi deara, le do thoil, go roinnfear íomhánna a ainmnítear mar íomhánna réadmhaoin mar shonraí OGP agus nach féidir iad a chosaint. Más gá duit iad a chosaint ar gach costas, athraigh an socrú d'aschur an chlib HEAD sna socruithe ardleibhéil nuair a chumasaíonn tú cosaint HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Ní féidir an fheidhm seat scáileáin atá ionsuite sa chóras oibriúcháin a chosaint."
+
+msgid "画像URLの保護"
+msgstr "URLanna íomhá a chosaint"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Ba cheart é seo a úsáid i gcomhar le cosaint íomhá; ina aonar, níl aon chuspóir leis."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Toisc go lódáiltear é go leisciúil trí JavaScript, cuireann sé seo isteach ar SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Uisce-mharc an íomhá"
+
+msgid "右下"
+msgstr "íos-deas"
+
+msgid "ランダム位置"
+msgstr "Suíomh randamach"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Nuair a úsáidtear iad i gcomhar le cosaint íomhá, léiríonn uisceadáin dhinimiciúla úinéireacht chóipchirt go soiléir agus ag an am céanna tugann siad an tuiscint do lucht féachana go bhfuiltear á monatóireacht, agus dá bhrí sin feidhmíonn siad mar dhíspreagadh."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ní thacaítear ach le formáidí JPG, PNG agus WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Má chuirtear seo i ngníomh, méadófar an t-ualach ar an bhfreastalaí."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "ASCII-ealaín a aschur ó chód foinseach HTML le linn doiléiriú agus cosaint HTML"
+
+msgid "表示なし"
+msgstr "Gan taispeáint"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Taispeánann ealaín ASCII a léiríonn rabhadh agus an fhoinse HTML á breathnú trí 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Taispeáin an dearadh nuair a dhéantar an gníomh spriocdhírithe."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Dearadh bunúsach le téacs dubh ar chúlra buí."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Dearadh de chineál uafáis le téacs dearg ar chúlra dubh."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Dearadh ina bhfuil téacs dearg lonrach ar chúlra dubh"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Ceol cúlra a sheinntear nuair a dhéantar an gníomh sprioc."
+
+msgid "サウンドなし"
+msgstr "Gan fuaim"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Cath & Bua - 1 nóiméad 16.3 soicind - 630,056 bait - 64 kbps - Ceadúnas: CC 2.1 nó níos déanaí"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Gearr - 3.8 soicind - 32,364 bait - 64 kbps - Ceadúnas: GPL 2.0 nó níos déanaí"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Fada - 23.5 soicind - 195,578 bait - 64 kbps - Ceadúnas: GPL 2.0 nó níos déanaí"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Uimh. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Uimh. 12 'Réabhlóid' – leagan MIDI, ardluas – 1 nóiméad 57.6 soicind – 724,457 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scéirseó in B moll beag, Op. 2 – Leagan ríomhinnealtóirithe, leagan giorraithe ardluais – 1 nóiméad 48.0 soicind – 665,369 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Liosta: Étude d'Exécution Transcendante Uimh. 4, 'Mazeppa' – leagan ríomhinnealtóirithe, leagan giorraithe ardluais – 1 nóiméad 51.6 soicind – 687,586 bait – 48 kbps – Ceadúnas: CC BY-ND 4.0 nó níos déanaí"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fonn-cheol – 22.3 soicind – 183,926 bait – 64 kbps – Ceadúnas: An Fearann Poiblí"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fonncheol stíl retro – 2.2 soicind – 10,536 bait – 32 kbps – Ceadúnas: An Fearann Poiblí"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Réamhrá i stíl retro – 42.1 soicind – 179,138 bait – 32 kbps – Ceadúnas: An Fearann Poiblí"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Rabhadh ó ChatGPT - 3.8 soicind - 109,700 bait - 256 kbps - Ceadúnas: An Fearann Poiblí"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Fuaim phráinneach ard cosúil le foláireamh braite malbhreogáin – Cuid 1 le ChatGPT – 3.3 soicind – 102,850 bait – 256 kbps – Ceadúnas: An Fearann Poiblí"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Fuaim phráinne arda cosúil le foláireamh braite malbhogtha, Cuid 2 le ChatGPT - 3.3 soicind - 103,122 bait - 256 kbps - Ceadúnas: An Fearann Poiblí"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Fuaim i stíl MRI le ChatGPT – 1 nóiméad 14.9 soicind – 3,340,392 bait – 320 kbps – Ceadúnas: An Fearann Poiblí"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Roghnaigh an ceol cúlra le seinm le linn foláirimh."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Cruthaíonn sé atmaisféar iontasach."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Tá fuaim bactha in Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bíp nuair a dhéantar an gníomh sonraithe"
+
+msgid "有効 音量小さ目"
+msgstr "Ar siúl, fuaim íseal"
+
+msgid "有効 音量大き目"
+msgstr "Gníomhach, an toirt ar ard"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Seinnfidh bíop do gach teagmhas méarchláir agus luchair fad is a bheidh rabhadh ar taispeáint."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Cruthaítear an tuiscint go bhfuil an gléas imithe ó smacht agus an rabhadh á thaispeáint."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "An t-inneall cuardaigh a cheilt nuair a dhéantar gníomh ar leith"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Folaíonn sé an t-inneall cúrsóra luch sa limistéar brabhsála fad is a thaispeántar foláireamh."
+
+msgid "デバッグモード"
+msgstr "Mód dífhabhtaithe"
+
+msgid "妨害＋記録のみ"
+msgstr "Cur isteach + Taifid amháin"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Cur isteach + Logaíocht + Taispeáint + Athsheoladh"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Is féidir leat teacht air fós tríd an roghchlár."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mód dífhabhtaithe in Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Consól an bhrabhsálaí"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Go deimhin, is féidir leat é a oibriú ón mód díbhugtha."
+
+msgid "HTMLソース表示"
+msgstr "Féach ar fhoinse HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Is féidir leat an oibríocht a chur i gcrích go simplí ach URL a iontráil a thosaíonn le 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Is féidir leat do chuid ábhair a chosaint trí seo a chomhcheangal le cosaint HTML."
+
+msgid "印刷"
+msgstr "Priontáil"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Cé go gcuireann sé cosc ar phriontáil, d'fhéadfadh sé nach n-oibreoidh sé i gceart i mbrabhsálaithe áirithe."
+
+msgid "スクリーンショット"
+msgstr "Gabháil scáileáin"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Ag brath ar an gcóras oibriúcháin, an brabhsálaí nó an modh a úsáidtear, d'fhéadfadh sé nach mbeadh sé indéanta é seo a bhlocáil, nó d'fhéadfadh sé nach mbrathfaí é."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Gabháil scáileáin amhrasta nuair a aistrítear an fhuinneog go dtí an cúlra"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Freagraíonn sé freisin d'fheidhmeanna eile seachas seatanna scáileáin"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Gabháil scáileáin amhrasta a tógadh trí dhá eochair a bhrú"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Níl na modhanna braite do na hítimí thuas-luaite dochloíte; déantar an braiteadh mar bheart réamhchúraim."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Braitheann sé ní hamháin seatanna scáileáin ach freisin modhanna dífhabhtaithe agus a leithéidí."
+
+msgid "ページ保存"
+msgstr "Sábháil an leathanach"
+
+msgid "右クリック"
+msgstr "Cliceáil deas"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Má tá an breiseán suiteáilte, beidh tú in ann é a úsáid."
+
+msgid "コピー・カット"
+msgstr "Cóipeáil agus gearr"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Ag brath ar shocruithe an bhreiseáin seo, d'fhéadfá teacht ar an imeacht seo go hannamh."
+
+msgid "テキスト全選択"
+msgstr "Roghnaigh an téacs go léir"
+
+msgid "テキスト選択"
+msgstr "Téacs a roghnú"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Lógáire tosaithe an fhuascailteora, cur isteach an fhuascailteora"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Fágann sé seo go bhfuil an mód díbhugtha beagán níos lú so-úsáidte agus logálann sé gur seoladh an díbhugóir; áfach, d'fhéadfadh roinnt brabhsálaithe an iompar seo a bhlocáil."
+
+msgid "リダイレクトするURL"
+msgstr "Athraontaigh URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Ba smaoineamh maith é úsáideoirí a atreorú chuig leathanaigh ar nós na dTéarmaí Úsáide."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Má fhágtar bán é, déanfaidh sé atreorú chuig an URL bunaidh."
+
+msgid "リダイレクトまでの時間"
+msgstr "Am go dtí an atreorú"
+
+msgid "リダイレクトなし"
+msgstr "Gan atreorú"
+
+msgid "1秒"
+msgstr "1 soicind"
+
+msgid "2秒"
+msgstr "2 shoicind"
+
+msgid "3秒"
+msgstr "Trí soicind"
+
+msgid "4秒"
+msgstr "Ceithre soicind"
+
+msgid "5秒"
+msgstr "5 soicind"
+
+msgid "6秒"
+msgstr "Sé soicind"
+
+msgid "7秒"
+msgstr "Seacht soicind"
+
+msgid "8秒"
+msgstr "Ocht soicind"
+
+msgid "9秒"
+msgstr "Naoi soicind"
+
+msgid "10秒"
+msgstr "10 soicind"
+
+msgid "15秒"
+msgstr "15 soicind"
+
+msgid "20秒"
+msgstr "20 soicind"
+
+msgid "25秒"
+msgstr "25 soicind"
+
+msgid "30秒"
+msgstr "Tríocha soicind"
+
+msgid "35秒"
+msgstr "35 soicind"
+
+msgid "40秒"
+msgstr "40 soicind"
+
+msgid "45秒"
+msgstr "45 soicind"
+
+msgid "50秒"
+msgstr "Caoga soicind"
+
+msgid "55秒"
+msgstr "Caoga a cúig soicind"
+
+msgid "1分"
+msgstr "1 nóiméad"
+
+msgid "1分10秒"
+msgstr "1 nóiméad 10 soicind"
+
+msgid "1分20秒"
+msgstr "1 nóiméad 20 soicind"
+
+msgid "1分30秒"
+msgstr "1 nóiméad 30 soicind"
+
+msgid "1分40秒"
+msgstr "1 nóiméad 40 soicind"
+
+msgid "1分50秒"
+msgstr "1 nóiméad 50 soicind"
+
+msgid "2分"
+msgstr "2 nóiméad"
+
+msgid "ソース表示を許可する権限"
+msgstr "Cead an cód foinse a fheiceáil"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Aschur gnáthfhoinse ach amháin nuair atá logáilte isteach mar RÍOMHAIRE"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Gnáth-aschur foinsí agus logáilte isteach mar ÚSÁIDEOIR"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Roghnaigh an bhfuil aschur caighdeánach HTML teoranta do riarthóirí amháin nó an dteastaíonn logáil isteach úsáideora."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Íomhá a iallach a chur a íoslódáil agus an méid a íoslódáiltear i ndáiríre"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Íomhá thrédhearcach 1×1 picteilín i bhformáid GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Íomhá thrédhearcach 1×1 picteilín i bhformáid PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Scáileán rabhaidh le cúlra buí i bhformáid PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Doiciméad HTML gan chiall"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Aschur an chlib HEAD nuair a bhíonn HTML cosanta"
+
+msgid "出力しない"
+msgstr "Ná priontáil"
+
+msgid "TITLEタグのみ"
+msgstr "Clib teidil amháin"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Aisghafa ón gclib HEAD de WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "I gcás leathanach do bhaill amháin agus leathanach inmheánach le haghaidh úsáide corparáidí, ba cheart go mbeadh sé leor 'Ná h-aschuir' nó 'Clib TITLE amháin' a roghnú."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Mura bhfaigheann tú an t-eolas ó chlibe HEAD WordPress, ní thaispeánfar íomhá OGP agus an t-ábhar á roinnt ar na meáin shóisialta."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Cuir bac ar an mbot íomhá"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Trí bhac a chur ar bhotanna íomhá rochtain a fháil ar HTML, is féidir leat ábhar a chosaint nach bhféadfaí a chosaint ar nascú díreach trí chuardach íomhánna; áfach, ní réiteach dochloíte é seo."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Cuir bac ar rochtain ar an mbot oiliúna IS"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Trí úsáid a bhaint as róbait atá deartha le haghaidh oiliúint IS ar HTML a sheachaint, cinntímid nach n-úsáidtear an t-ábhar ag IS; áfach, ní féidir é seo a chosc go hiomlán."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Cuir bac ar rochtain ar chartlanna gréasáin agus ar phreabfhothaí gréasáin"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Cuirimid cosc ar rochtain ar chartlanna gréasáin a bhailítear go huathoibríoch agus ar phictiúir scáileáin a thógtar de réir rogha an úsáideora; áfach, ní féidir linn é seo a chosc go hiomlán."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Cuir bac ar ghníomhairí úsáideora neamhbhailí"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Cosc ar rochtain má tá carachtair neamhbhailí sa tsreang gníomhaire úsáideora."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Taispeáin foláireamh agus rochtain á fáil ar Internet Explorer agus ar an sean-Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Coscann sé rochtain trí Internet Explorer agus an sean-Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Teanga ina dtaispeántar teachtaireachtaí foláirimh"
+
+msgid "Wordpressの言語"
+msgstr "Teangacha WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Socruithe teanga an bhrabhsálaí"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ní féidir leat an teanga a athrú má tá na teachtaireachtaí saincheaptha."
+
+msgid "同意画面の言語"
+msgstr "Teanga an scáileáin toiliú"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Teanga chun an teachtaireacht 'view-source' a thaispeáint"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Dáta éaga na dticéad sealadach"
+
+msgid "3分"
+msgstr "Trí nóiméad"
+
+msgid "4分"
+msgstr "Ceithre nóiméad"
+
+msgid "5分"
+msgstr "Cúig nóiméad"
+
+msgid "6分"
+msgstr "6 nóiméad"
+
+msgid "7分"
+msgstr "Seacht nóiméad"
+
+msgid "8分"
+msgstr "Ocht nóiméad"
+
+msgid "9分"
+msgstr "Naoi nóiméad"
+
+msgid "10分"
+msgstr "10 nóiméad"
+
+msgid "15分"
+msgstr "15 nóiméad"
+
+msgid "20分"
+msgstr "Fiche nóiméad"
+
+msgid "25分"
+msgstr "25 nóiméad"
+
+msgid "30分"
+msgstr "Tríocha nóiméad"
+
+msgid "35分"
+msgstr "Tríocha a cúig nóiméad"
+
+msgid "40分"
+msgstr "40 nóiméad"
+
+msgid "45分"
+msgstr "45 nóiméad"
+
+msgid "50分"
+msgstr "Caoga nóiméad"
+
+msgid "55分"
+msgstr "Caoga a cúig nóiméad"
+
+msgid "1時間"
+msgstr "Uair an chloig"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Socraigh an dáta éaga d'fhaisnéis URL íomhá"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Nuair a bheidh sé lódáilte, cuirfear an URL íomhá agus an tsiombail shealadach ar neamhní."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Lódáiltear íomhánna de réir mar a theastaíonn, ach lódálfar go huathoibríoch iad 30 soicind roimh an am sonraithe."
+
+msgid "一時使用トークンのビット数"
+msgstr "Líon na ngiotán i dtoitéan sealadach"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Úsáidtear comhartha sealadach mar phasfhocal chun faisnéis URL íomhá a chriptiú; sonraíonn an socrú seo a neart"
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Cé go n-éiríonn na roghanna a thaispeántar faoin roghchlár anuas níos mionsonraithe de réir a chéile, is féidir leis seo ualach trom a chur ar an bhfreastalaí agus d'fhéadfadh sé go n-aistreofaí méid mór sonraí HTML dá bharr."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Halgartam hais"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Úsáidtear comhartha sealadach mar phasfhocal chun faisnéis URL íomhá a chriptiú; teastaíonn haiseáil chuige seo, agus is í an socrú seo a chinneann neart na haiseála sin."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Cé go méadaíonn an déine de réir mar a théann tú síos an liosta roghanna sa roghchlár anuas, cuireann sé seo ualach níos mó ar an bhfreastalaí."
+
+msgid "基本設定"
+msgstr "Bunsocruithe"
+
+msgid "高度な設定"
+msgstr "Ard-socruithe"
+
+msgid "初期設定に戻す"
+msgstr "Athchuir socruithe réamhshocraithe"
+
+msgid "デザイン・音の設定"
+msgstr "Dearadh agus socruithe fuaime"
+
+msgid "イベントの設定"
+msgstr "Socruithe imeachta"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Socrú fógraí do chéad chuairteanna"
+
+msgid "メッセージの設定"
+msgstr "Socruithe teachtaireachta"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Socraigh an URL atá le hoscailt agus an cliceáil dheas á déanamh nó an cód foinseach á fheiceáil."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Ní féidir HTML a úsáid i dteachtaireachtaí rabhaidh."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Má chumraíonn tú seo ar an scáileán seo, déanfar neamhaird de na socruithe teanga sa táb Ardleibhéil."
+
+msgid "以下の文字列が使用できます"
+msgstr "Is féidir na téada seo a leanas a úsáid"
+
+msgid "改行"
+msgstr "Briseadh líne"
+
+msgid "押下されたキー"
+msgstr "Eochair brúite"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Socruithe Cosantóra Neo HTML"
+
+msgid "お知らせ"
+msgstr "Fógra"
+
+msgid "メッセージ"
+msgstr "Teachtaireacht"
+
+msgid "デザイン・音"
+msgstr "Dearadh agus Fuaim"
+
+msgid "初期化"
+msgstr "Túsú"
+
+msgid "このプラグインについて"
+msgstr "Maidir leis an bhforlíonadh seo"
+
+msgid "設定が初期化されました"
+msgstr "Tá na socruithe athshocraithe."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Tosaigh an breiseán. Tabhair faoi deara, le do thoil, nach scriosfar sonraí an Léitheora Logaí IP ag an bpointe seo."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Maidir le Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Tá an breiseán seo deartha chun an HTML, na híomhánna agus ábhar eile a ghineann do shuíomh WordPress a chosaint, agus é a choinneáil slán in aghaidh úsáid neamhúdaraithe."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Tá sé dodhéanta ábhar a chosaint go hiomlán. Mar sin féin, trí rabhaidh a eisiúint i ngach cás is féidir agus ullmhúcháin a dhéanamh i gcás go dtarlódh aon rud, ba cheart go mbeimis in ann an scéal a réiteach i gcomhréir leis na nósanna imeachta atá leagtha síos ag an rialtas."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Ar ndóigh, beidh ort a chinntiú go bhfuil do théarmaí agus coinníollacha agus polasaithe an tsuímh chuimsitheach. Cé nach uirlis é an breiseán seo chun téarmaí agus coinníollacha a ghiniúint, is féidir leis roinnt treorach a sholáthar."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Forbróir: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Leagan"
+
+msgid "ビルド"
+msgstr "Tóg"
+
+msgid "サポートページ"
+msgstr "Leathanach tacaíochta"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Léirithe ag Iníon Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Iarratas ar thacaíocht"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Go raibh maith agat as Neo HTML Protector a úsáid!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "D'éiligh forbairt agus cothabháil an bhreiseáin seo an-chuid ama agus iarrachta, agus chun cistí a bhailiú chun leanúint ar aghaidh lena fheabhsú agus lena nuashonrú, bheimis buíoch dá ndéanfadh aon duine atá in ann tacú linn machnamh ar dheontas a thabhairt."
+
+msgid "寄付について"
+msgstr "Maidir le hEiríonna"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Is deonach go hiomlán iad na síntiúis agus níl siad éigeantach. Tá an breiseán ar fáil do chách saor in aisce. Mar sin féin, táimid fíorbhuíoch as do thacaíocht chun cabhrú linn leanúint leis an bhforbairt, agus bheadh an-áthas orainn dá bhféadfá méid beag fiú a chur ar fáil."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Is féidir leat síntiús a thabhairt tríd an nasc thíos. Má tá tú lonnaithe sa tSeapáin, is féidir leat síntiús a thabhairt saor in aisce, agus is féidir leat síntiús a thabhairt go héasca freisin le vótéir bronntanais Amazon."
+
+msgid "寄付先"
+msgstr "Carthanachtaí"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Le bhur dtacaíocht, déanfaimid ár ndícheall leanúint orainn ag tabhairt nuashonruithe den scoth daoibh!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Táimid buíoch as do thacaíocht agus táimid ag tnúth le do thacaíocht leanúnach amach anseo."
+
+msgid "ライセンス"
+msgstr "Ceadúnas"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Forbraítear an breiseán seo mar bhogearra foinse oscailte agus tá sé ceadúnaithe faoin GPLv2.0 nó níos déanaí."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Tá roinnt de na teicneolaíochtaí atá san áireamh sa bhforlíonadh seo cosanta ag paitinní."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Ní cheadaítear úsáid na teicneolaíochta paitinnithe ach amháin laistigh den bhreiseán seo."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Le haghaidh aon úsáid eile, déan teagmháil leis an údar, le do thoil, chun ceadúnas tráchtála a fháil."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Cuimsíonn an breiseán seo na leabharlanna seo a leanas"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Cuimsíonn an breiseán seo na clónna ealaíne ASCII a ghintear thíos, mar aon leis na comhaid cló."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Cuimsíonn an breiseán seo ceol ón gcluiche neamhoifigiúil Super Famicom 'SM Trainer Hitomi 3', a d'fhorbair EJ Co., Ltd. agus a chum cruthaitheoir an bhreiseáin seo, agus tá sé ceadúnaithe go hoifigiúil."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Cuimsíonn an breiseán seo rianta a cruthaíodh le 'Keppy's YAMAHA C7', a d'fhorbair Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "D'úsáid mé freisin Raspberry Pi 5, ChatGPT agus DeepL i bhforbairt an bhreiseáin seo."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Brathadh breiseán taisce. Ní oibreoidh an breiseán seo i gceart má tá breiseán taisce cumasaithe."
+
+msgid "無効なIPアドレス"
+msgstr "Seoladh IP neamhbhailí"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Chun an suíomh gréasáin seo a úsáid, ní mór duit fianáin agus JavaScript a chumasú."
+
+msgid "利用規約"
+msgstr "Téarmaí Úsáide"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Chun úsáid neamhúdaraithe a chosc agus chun oibriú slán ár seirbhísí a chinntiú, féadfaidh an suíomh gréasáin seo faisnéis a stóráil i bhfianáin agus i mbunachair shonraí, amhail seoltaí IP, stair brabhsála agus logaí gníomhaíochta. Ní úsáidtear an fhaisnéis seo ach amháin d'oibriú an tsuímh ghréasáin agus chun críocha dlíthiúla, agus ní nochtfar do thríú páirtithe í."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Chun an tseirbhís seo a úsáid, ní mór duit toiliú a thabhairt do na gníomhaíochtaí próiseála seo."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Is féidir leat breathnú ar ábhar ár bPolasaí Príobháideachta, is cuma cé acu ar thug tú do thoiliú nó nár thug."
+
+msgid "同意する"
+msgstr "Aontaím"
+
+msgid "同意しない"
+msgstr "Ní aontaím"
+
+msgid "確認"
+msgstr "Dearbhú"
+
+msgid "プライバシーポリシー"
+msgstr "Polasaí Príobháideachais"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Brathadh rochtain nó gníomhaíocht neamhghnách."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Tá srianta curtha ar ghnéithe áirithe ar mhaithe le slándáil agus le cosaint ábhair."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mód dífhabhtaithe agus rochtain ar an gconsól díchumasaithe"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Tá an fhaisnéis seo a leanas seolta chuig an bhfreastalaí"
+
+msgid "あなたのIPアドレス"
+msgstr "Do sheoladh IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Do ghléas agus do bhrabhsálaí"
+
+msgid "あなたの押下したキー"
+msgstr "An eochair a bhrúigh tú"
+
+msgid "リダイレクトをします"
+msgstr "Déanfar tú a atreorú"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Tá srianta curtha ar ghnéithe áirithe chun an t-ábhar a chosaint."
+
+msgid "右クリックは禁止されています"
+msgstr "Ní cheadaítear deaschliceáil."
+
+msgid "あなたが押下したキー"
+msgstr "An eochair a bhrúigh tú"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Tá cosc ar phriontáil agus ar shábháil mar PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Tá cosc ar ghabhálacha scáileáin."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Tá sé toirmiscthe scáileáin scáthlámh a ghlacadh agus mód díbhugtha a chumasú."
+
+msgid "ページの保存は禁止されています"
+msgstr "Tá cosc ar an leathanach seo a shábháil"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Tá cosc ar chóipeáil agus ar ghearradh."
+
+msgid "あなたが起こしたイベント"
+msgstr "Imeachtaí atá eagraithe agat"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Ní cheadaítear téacs a roghnú."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Tá sé toirmiscthe cód foinseach HTML a thaispeáint."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Tá rochtain neamhúdaraithe coiscthe."
+
+msgid "アフリカーンス語"
+msgstr "Afraicáinis"
+
+msgid "アラゴン語"
+msgstr "Aragóineis"
+
+msgid "アラビア語"
+msgstr "Arabais"
+
+msgid "アッサム語"
+msgstr "Asamais"
+
+msgid "アゼルバイジャン語"
+msgstr "Asarbaiseánach"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Béarlais"
+
+msgid "ベンガル語"
+msgstr "Beangáilis"
+
+msgid "ブルガリア語"
+msgstr "Bulgáiris"
+
+msgid "ボスニア語"
+msgstr "Bóisnéiseach"
+
+msgid "カタロニア語"
+msgstr "Catalóinise"
+
+msgid "チェコ語"
+msgstr "Seiceach"
+
+msgid "ウェールズ語"
+msgstr "Breatnach"
+
+msgid "デンマーク語"
+msgstr "Danmhairgis"
+
+msgid "ドイツ語"
+msgstr "Gearmánach"
+
+msgid "現代ギリシア語"
+msgstr "Nua-Ghréigis"
+
+msgid "英語"
+msgstr "Béarla"
+
+msgid "イギリス英語"
+msgstr "Breataineach"
+
+msgid "アメリカ英語"
+msgstr "Béarla Mheiriceánach"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Spáinnis"
+
+msgid "エストニア語"
+msgstr "Eastónach"
+
+msgid "バスク語"
+msgstr "Bascais"
+
+msgid "ペルシャ語"
+msgstr "Peirsea"
+
+msgid "フィンランド語"
+msgstr "Fionlannach"
+
+msgid "フランス語"
+msgstr "Fraincis"
+
+msgid "アイルランド語"
+msgstr "Éireannach"
+
+msgid "ガリシア語"
+msgstr "Gailíseach"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Gúisearáitis"
+
+msgid "ハウサ語"
+msgstr "Ahausa"
+
+msgid "ヘブライ語"
+msgstr "Eabhraise"
+
+msgid "ヒンディ語"
+msgstr "Hiondúis"
+
+msgid "クロアチア語"
+msgstr "Cróitis"
+
+msgid "ハイチ・クレオール語"
+msgstr "Créole Háítíoch"
+
+msgid "ハンガリー語"
+msgstr "Ungárach"
+
+msgid "インドネシア語"
+msgstr "Indinéiseach"
+
+msgid "イボ語"
+msgstr "Teanga Ibo"
+
+msgid "アイスランド語"
+msgstr "Íslandais"
+
+msgid "イタリア語"
+msgstr "Iodálach"
+
+msgid "日本語"
+msgstr "Seapáinis"
+
+msgid "ジャワ語"
+msgstr "Javaisis"
+
+msgid "カザフ語"
+msgstr "Caiséach"
+
+msgid "朝鮮語"
+msgstr "Cóiréise"
+
+msgid "クルド語"
+msgstr "Cúrdach"
+
+msgid "キルギス語"
+msgstr "Ciorgaise"
+
+msgid "ラテン語"
+msgstr "Laitinis"
+
+msgid "ルクセンブルク語"
+msgstr "Liobáinis"
+
+msgid "リンガラ語"
+msgstr "Mongolach"
+
+msgid "リトアニア語"
+msgstr "Lituáinis"
+
+msgid "ラトビア語"
+msgstr "Laitvis"
+
+msgid "マダガスカル語"
+msgstr "Malagáise"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Miseach"
+
+msgid "マラヤーラム語"
+msgstr "Maláileannais"
+
+msgid "モンゴル語"
+msgstr "Miongóilise"
+
+msgid "マラーティー語"
+msgstr "Máráiti"
+
+msgid "マレー語"
+msgstr "Málaigh"
+
+msgid "マルタ語"
+msgstr "Maltach"
+
+msgid "ビルマ語"
+msgstr "Birmiseach"
+
+msgid "ネパール語"
+msgstr "Neipealais"
+
+msgid "ノルウェー語"
+msgstr "Ioruach"
+
+msgid "オランダ語"
+msgstr "Ollannach"
+
+msgid "オック語"
+msgstr "Ocaitneach"
+
+msgid "オロモ語"
+msgstr "Nóiméad"
+
+msgid "パンジャーブ語"
+msgstr "Piondábais"
+
+msgid "ポーランド語"
+msgstr "Polaínís"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portaingéilis"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portaingéilis Bhrasaíleach"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portaingéilis Eorpach"
+
+msgid "ケチュア語"
+msgstr "An tQuechua"
+
+msgid "ルーマニア語"
+msgstr "Rómáinise"
+
+msgid "ロシア語"
+msgstr "Rúiseach"
+
+msgid "サンスクリット語"
+msgstr "Laitinis"
+
+msgid "スロバキア語"
+msgstr "Slóvaicis"
+
+msgid "スロベニア語"
+msgstr "Slóivéinis"
+
+msgid "セルビア語"
+msgstr "Seirbeach"
+
+msgid "南セソト語"
+msgstr "Sesotho Theas"
+
+msgid "スンダ語"
+msgstr "Sundaise"
+
+msgid "スウェーデン語"
+msgstr "Sualannais"
+
+msgid "スワヒリ語"
+msgstr "Suaheilís"
+
+msgid "タミル語"
+msgstr "Taimiléise"
+
+msgid "テルグ語"
+msgstr "Tailgeach"
+
+msgid "タジク語"
+msgstr "Tajice"
+
+msgid "タイ語"
+msgstr "Téalannach"
+
+msgid "トルクメン語"
+msgstr "Tuirceach"
+
+msgid "タガログ語"
+msgstr "Tagálaigis"
+
+msgid "トルコ語"
+msgstr "Tuirceach"
+
+msgid "タタール語"
+msgstr "Tatair"
+
+msgid "ウクライナ語"
+msgstr "Úcráineach"
+
+msgid "ウルドゥー語"
+msgstr "Úrdu"
+
+msgid "ウズベク語"
+msgstr "Úisbéiceach"
+
+msgid "ベトナム語"
+msgstr "Vítneamach"
+
+msgid "コサ語"
+msgstr "Cois"
+
+msgid "イディッシュ語"
+msgstr "Gearmáinis Iúdach"
+
+msgid "簡体中国語"
+msgstr "Sínis shimplithe"
+
+msgid "繁体中国語"
+msgstr "Sínis thraidisiúnta"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Is leagan níos sine é an brabhsálaí atá á úsáid agat faoi láthair nach dtacaítear leis a thuilleadh. Chun eispéireas brabhsála níos sábháilte agus níos compordaí a chinntiú, déan an leagan is déanaí de do bhrabhsálaí a nuashonrú, le do thoil."
+
+msgid "不正なリクエストです"
+msgstr "Iarratas neamhbhailí"
+
+msgid "画像が見つかりません"
+msgstr "Níor aimsíodh an íomhá"
+

@@ -1,14 +1,14 @@
 # Modem Greek translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:13+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Modem Greek\n"
 "Language: el\n"
@@ -984,14 +984,44 @@ msgstr "Απαγορεύεται η εμφάνιση της πηγής HTML."
 msgid "不正アクセスは禁止されています"
 msgstr "Απαγορεύεται η μη εξουσιοδοτημένη πρόσβαση."
 
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragonese"
+
 msgid "アラビア語"
 msgstr "Αραβικά"
+
+msgid "アッサム語"
+msgstr "Assamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Αζερμπαϊτζάν"
+
+msgid "バシュキール語"
+msgstr "Μπασκίρ"
+
+msgid "ベラルーシ語"
+msgstr "Λευκορωσία"
+
+msgid "ベンガル語"
+msgstr "Μπενγκάλι"
 
 msgid "ブルガリア語"
 msgstr "Βουλγαρικά"
 
+msgid "ボスニア語"
+msgstr "Βοσνιακά"
+
+msgid "カタロニア語"
+msgstr "Καταλανικά"
+
 msgid "チェコ語"
 msgstr "Τσέχικα"
+
+msgid "ウェールズ語"
+msgstr "Ουαλικά"
 
 msgid "デンマーク語"
 msgstr "Δανικά"
@@ -1011,11 +1041,20 @@ msgstr "Βρετανικά Αγγλικά"
 msgid "アメリカ英語"
 msgstr "Αμερικανικά Αγγλικά"
 
+msgid "エスペラント語"
+msgstr "Εσπεράντο"
+
 msgid "スペイン語"
 msgstr "Ισπανικά"
 
 msgid "エストニア語"
 msgstr "Εσθονικά"
+
+msgid "バスク語"
+msgstr "Βάσκικα"
+
+msgid "ペルシャ語"
+msgstr "Φαρσί"
 
 msgid "フィンランド語"
 msgstr "Φινλανδικά"
@@ -1023,11 +1062,44 @@ msgstr "Φινλανδικά"
 msgid "フランス語"
 msgstr "Γαλλικά"
 
+msgid "アイルランド語"
+msgstr "Ιρλανδικά"
+
+msgid "ガリシア語"
+msgstr "Γαλικιακά"
+
+msgid "グァラニ語"
+msgstr "Γκουαρανί"
+
+msgid "グジャラート語"
+msgstr "Γκουτζαράτι"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Εβραϊκά"
+
+msgid "ヒンディ語"
+msgstr "Χίντι"
+
+msgid "クロアチア語"
+msgstr "Κροατικά."
+
+msgid "ハイチ・クレオール語"
+msgstr "Αϊτινή κρεολική"
+
 msgid "ハンガリー語"
 msgstr "Ουγγρικό"
 
 msgid "インドネシア語"
 msgstr "Ινδονησιακά"
+
+msgid "イボ語"
+msgstr "Γλώσσα Wartburg"
+
+msgid "アイスランド語"
+msgstr "Ισλανδικά"
 
 msgid "イタリア語"
 msgstr "Ιταλικά"
@@ -1035,8 +1107,29 @@ msgstr "Ιταλικά"
 msgid "日本語"
 msgstr "Ιαπωνικά"
 
+msgid "ジャワ語"
+msgstr "Τζαβανέζικα"
+
+msgid "カザフ語"
+msgstr "Καζακστάν"
+
 msgid "朝鮮語"
 msgstr "Κορεάτικα"
+
+msgid "クルド語"
+msgstr "Κουρδικό"
+
+msgid "キルギス語"
+msgstr "Κιργιζία"
+
+msgid "ラテン語"
+msgstr "Λατινικά"
+
+msgid "ルクセンブルク語"
+msgstr "Λουξεμβουργιανά"
+
+msgid "リンガラ語"
+msgstr "Lingala"
 
 msgid "リトアニア語"
 msgstr "Λιθουανικά"
@@ -1044,14 +1137,56 @@ msgstr "Λιθουανικά"
 msgid "ラトビア語"
 msgstr "Λετονία"
 
+msgid "マダガスカル語"
+msgstr "Μαδαγασκάσι"
+
+msgid "マオリ語"
+msgstr "Μαορί"
+
+msgid "マケドニア語"
+msgstr "Μακεδονικά"
+
+msgid "マラヤーラム語"
+msgstr "Γλώσσα Malayalam"
+
+msgid "モンゴル語"
+msgstr "Μογγολικά"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Μαλαισιανά"
+
+msgid "マルタ語"
+msgstr "Μαλτέζικα"
+
+msgid "ビルマ語"
+msgstr "Βιρμανικά"
+
+msgid "ネパール語"
+msgstr "Νεπαλί"
+
 msgid "ノルウェー語"
 msgstr "Νορβηγικά"
 
 msgid "オランダ語"
 msgstr "Ολλανδικά"
 
+msgid "オック語"
+msgstr "Οξιτανικά"
+
+msgid "オロモ語"
+msgstr "Ορόμο"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
 msgid "ポーランド語"
 msgstr "Πολωνικά"
+
+msgid "パシュトー語"
+msgstr "Pashto"
 
 msgid "ポルトガリア語"
 msgstr "Πορτογαλικά"
@@ -1062,11 +1197,17 @@ msgstr "Πορτογαλικά Βραζιλίας"
 msgid "ヨーロピアンポルトガル語"
 msgstr "Ευρωπαϊκά πορτογαλικά"
 
+msgid "ケチュア語"
+msgstr "Quechua"
+
 msgid "ルーマニア語"
 msgstr "Ρουμανικά"
 
 msgid "ロシア語"
 msgstr "Ρωσικά"
+
+msgid "サンスクリット語"
+msgstr "Σανσκριτικά"
 
 msgid "スロバキア語"
 msgstr "Σλοβακική"
@@ -1074,23 +1215,71 @@ msgstr "Σλοβακική"
 msgid "スロベニア語"
 msgstr "Σλοβένικα"
 
+msgid "セルビア語"
+msgstr "Σερβικά"
+
+msgid "南セソト語"
+msgstr "Southern Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
 msgid "スウェーデン語"
 msgstr "Σουηδικά"
+
+msgid "スワヒリ語"
+msgstr "Σουαχίλι"
+
+msgid "タミル語"
+msgstr "Ταμίλ"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Τατζίκ"
+
+msgid "タイ語"
+msgstr "Ταϊλάνδης"
+
+msgid "トルクメン語"
+msgstr "Τουρκμενικά"
+
+msgid "タガログ語"
+msgstr "Ταγκαλόγκ"
 
 msgid "トルコ語"
 msgstr "Τουρκικά"
 
+msgid "タタール語"
+msgstr "Τατάρ"
+
 msgid "ウクライナ語"
 msgstr "Ουκρανικά"
 
-msgid "中国語"
-msgstr "Κινέζικα"
+msgid "ウルドゥー語"
+msgstr "Ουρντού"
+
+msgid "ウズベク語"
+msgstr "Ουζμπεκιστάν"
+
+msgid "ベトナム語"
+msgstr "Βιετναμέζικα"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Γίντις"
 
 msgid "簡体中国語"
 msgstr "Απλοποιημένα Κινέζικα"
 
 msgid "繁体中国語"
 msgstr "παραδοσιακά κινέζικα"
+
+msgid "ズールー語"
+msgstr "Ζουλού"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "Το πρόγραμμα περιήγησης που χρησιμοποιείτε σήμερα είναι μια παλαιότερη έκδοση που δεν υποστηρίζεται πλέον. Για ένα ασφαλέστερο και πιο άνετο περιβάλλον περιήγησης, ενημερώστε το πρόγραμμα περιήγησης στην πιο πρόσφατη έκδοση."

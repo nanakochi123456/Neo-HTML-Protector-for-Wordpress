@@ -1,0 +1,1292 @@
+# Maltese translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 06:52+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Maltese\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Issettjarijiet"
+
+msgid "IPログリーダー"
+msgstr "Qarrej tal-Logs tal-IP"
+
+msgid "IPアドレスログ"
+msgstr "Reġistru tal-indirizzi IP"
+
+msgid "全クリア"
+msgstr "Kompleta l-livelli kollha"
+
+msgid "IPログが全て削除されました"
+msgstr "Il-logijiet kollha tal-IP ġew imħassra."
+
+msgid "ID"
+msgstr "Identifikazzjoni"
+
+msgid "タイムスタンプ"
+msgstr "Ħin tal-istampa"
+
+msgid "IPアドレス"
+msgstr "Indirizz IP"
+
+msgid "ユーザーエージェント"
+msgstr "Aġent tal-utent"
+
+msgid "イベント"
+msgstr "Avveniment"
+
+msgid "IPアドレスのデータはありません"
+msgstr "M'hemm l-ebda dejta għal din l-indirizz IP."
+
+msgid "EU GDPR対応"
+msgstr "Konformità mal-GDPR tal-UE"
+
+msgid "無効"
+msgstr "Invalid"
+
+msgid "有効"
+msgstr "Validu"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Jekk qed tuża WordPress fl-Unjoni Ewropea, jew jekk is-sit web tiegħek huwa mmirat lejn utenti fl-Unjoni Ewropea, jekk jogħġbok kun żgur li dan ikun attivat."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Il-buttuna 'Ikkonferma' se tinbidel f' 'Jaqbel' jew 'Ma jaqbilx', u l-imġiba se tinbidel ftit."
+
+msgid "同意画面の色"
+msgstr "Il-kulur tal-iskrin tal-kunsens"
+
+msgid "自動"
+msgstr "Awtomatiku"
+
+msgid "ライトモード"
+msgstr "Modalità ħafifa"
+
+msgid "ダークモード"
+msgstr "Modalità skura"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Issettja l-iskema tal-kuluri għas-skrin tal-kunsens"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Imċajpar tal-kontenut fuq l-iskrin tal-kunsens"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Issettja l-livell ta' offuscament għall-kontenut li jidher fuq l-iskrin tal-kunsens"
+
+msgid "同意画面の透過"
+msgstr "Trasparenza tal-iskrin tal-kunsens"
+
+msgid "透過なし"
+msgstr "L-ebda trasparenza"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Issettja l-opaku tal-iskrin tal-kunsens"
+
+msgid "お知らせの1行目"
+msgstr "L-ewwel linja tal-annunzju"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Dan il-messaġġ jidher dejjem l-ewwel darba li l-paġna titgħabba"
+
+msgid "お知らせの2行目"
+msgstr "It-tieni linja tan-notifika"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Dan il-messaġġ se jidher dejjem fuq l-ewwel wirja biss meta l-GDPR tal-UE ikun fis-seħħ."
+
+msgid "お知らせの3行目"
+msgstr "It-tielet linja tan-notifika"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Se jidher fuq il-lemin tal-link għall-Politika tal-Privatezza."
+
+msgid "非EU向け確認の文字列"
+msgstr "Test ta' konferma għall-pajjiżi mhux tal-UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Test ta' kunsens għall-GDPR tal-UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Test għal 'Ma tagħtix il-kunsens' skont il-GDPR tal-UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Test tal-politika tal-privatezza"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Jekk jogħġbok issettja l-URL tal-politika tal-privatezza hawnhekk."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Jekk jogħġbok żid dan li ġej mal-Politika tal-Privatezza."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Biex jiġu skoperti attivitajiet frodulenti, identifikaturi bħal indirizzi IP jinħażnu fil-cookies u fid-database. Id-dejta maħżuna titħassar skont id-diskrezzjoni tal-amministratur."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Biex niżguraw li l-immaġini jitwasslu b'mod korrett meta l-protezzjoni tal-immaġini tkun attivata, aħna naħżnu fid-database tagħna data imhashjata li tinkludi l-indirizz IP u l-isem tal-fajl tal-immaġni għal sa 60 minuta."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Jekk qed toħloq Termini ta' Użu, jekk jogħġbok kun żgur li tinkludi link għalihom fil-Politika tal-Privatezza tiegħek."
+
+msgid "利用規約の文字列"
+msgstr "Test tat-Termini ta' Użu"
+
+msgid "利用規約のページ"
+msgstr "Paġna tat-Termini u l-Kundizzjonijiet"
+
+msgid "ページ選択なし"
+msgstr "L-ebda paġna ma ġiet magħżula"
+
+msgid "検索エンジン等のURL"
+msgstr "URLs għal magni tat-tiftix, eċċ."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Issettja l-URL għat-magni tat-tiftix u siti simili li jirreindirizzaw l-utenti meta ma jagħtux il-kunsens tagħhom."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modalità ta' debug, messaġġi ta' twissija fil-konsola"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Messaġġ ta' twissija bil-klik tal-lemin"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Messaġġ ta' twissija dwar il-istampar u l-ħażna bħala PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Messaġġ ta' twissija fis-screenshot"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Messaġġ ta' twissija rigward screenshots suspettati"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Messaġġ ta' twissija meta tkun magħżula l-kull test"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Messaġġ ta' twissija dwar l-iffrankar tal-paġna"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Messaġġ li jidher meta tikkopja jew taqta'"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Messaġġ li jidher meta tkun qed tara s-sors tal-HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Messaġġ li jidher fil-quċċata tal-kodiċi sors meta tkun qed tiffoska jew tipproteġi l-HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Messaġġ li jidher jekk it-token ta' awtentikazzjoni ta' darba jkun invalidu waqt il-protezzjoni HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Messaġġ li jidher jekk il-cookies jew il-JavaScript ikunu diżattivati"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Fil-fatt, dan jidher biss meta JavaScript ikun diżattivat."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Meta immaġni tkun protetta, tiġi mniżżla, u jidher messaġġ fuq dik l-immaġni"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Obfuskazzjoni"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Din hija kompressjoni standard ta' HTML; hemm ukoll siti web li jistgħu jiddekodifikawha."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "L-attivazzjoni ta' din l-għażla tippermettilek tirrekupera l-logs tal-view-source."
+
+msgid "HTML保護"
+msgstr "Protezzjoni tal-HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Jipproduċi anqas HTML minn dik tal-issettjar ta' kompressjoni tal-HTML, li jfisser li l-kontenut ġewwa t-tag BODY mhux se jiġi pproduċut xejn."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Dan ma japplikax għal Firefox"
+
+msgid "SEOに著しく影響があります"
+msgstr "Dan għandu impatt sinifikanti fuq l-SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Ġenerazzjoni ta' HTML billi tuża JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Biex naħdmu madwar Firefox, nirendjaw l-HTML billi nużaw JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "L-attivazzjoni tar-rendering ta' JavaScript se tnaqqas b'mod sinifikanti l-veloċità tat-tagħbija tal-websajt."
+
+msgid "画像の保護"
+msgstr "Protezzjoni tal-immaġni"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Ħares l-immaġni kull darba li tiġi msejħa t-tikketta img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Ħares l-immaġini kollha mniżżla fuq WordPress fi ħdan l-output kollu tal-HTML."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Jipproteġi l-immaġini milli jitniżżlu"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Meta d-dejta tal-immaġni tkun protetta, nipprevjenu kważi l-downloads kollha, noħorġu URLs uniċi ta' darba biss, nikkawtentaw billi nużaw tokens maħżuna fis-sessjoni, u nuru l-immaġini permezz ta' PHP; dan jipprevjeni b'mod effettiv kważi l-każijiet kollha ta' serq ta' immaġni."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Meta d-dejta tal-immaġini tkun protetta, il-kaching ma jaħdimx, li jfisser li s-sit se jitgħabba aktar bil-mod f'żjarat sussegwenti, u b'hekk jaffettwa l-SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Il-protezzjoni tad-dejta tal-immaġni tista' żżid il-piż fuq il-bażi tad-dejta."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Jekk tagħżel 'Ipproteġi l-immaġini kull meta jkun sejjaħ tag img', is-sistema tuża add_filter biex tapplika l-filtrazzjoni meta jiġi ġġenerat it-tag img; madankollu, dan jista' ma jaħdimx b'mod korrett ma' ċerti temi."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Jekk tagħżel 'Ipproteġi l-immaġini kollha mniżżla f'WordPress fl-output kollu tal-HTML', il-plugin se jaqbad kważi l-operazzjonijiet kollha ta' WordPress u jipproċessa kull tag img fil-kontenut. Jekk jogħġbok innota li dan jista' ma jaħdimx b'mod korrett ma' xi temi."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Jekk jogħġbok innota li l-immaġini mmarkati bħala featured images se jiġu maqsuma bħala data OGP u ma jistgħux jiġu protetti. Jekk tassew trid tipproteġihom, jekk jogħġbok ibdel l-issettjar għall-output tat-tag HEAD fl-issettjar avvanzat meta tattiva l-protezzjoni HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Il-funzjoni tal-iskrinshot inkluża bħala standard fis-sistema operattiva ma tistax tiġi protetta."
+
+msgid "画像URLの保護"
+msgstr "Il-protezzjoni tal-URLs tal-immaġini"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Dan għandu jintuża flimkien ma' protezzjoni tal-immaġni; waħdu, m'għandu l-ebda skop."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Peress li huwa mgħobbi permezz ta' JavaScript, dan jaffettwa l-SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Ilmaġġ tal-immaġni"
+
+msgid "右下"
+msgstr "Taħt il-lemin"
+
+msgid "ランダム位置"
+msgstr "Pożizzjoni każwali"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Użati flimkien ma' protezzjoni tal-immaġni, il-marki tal-ilma dinamici juru b'mod ċar min hu s-sid tad-drittijiet tal-awtur, filwaqt li jagħtu lill-osservaturi l-impressjoni li qed jiġu mmonitorjati, u b'hekk jaġixxu bħala deterrent."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Hemm appoġġ biss għall-formati JPG, PNG u WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "L-attivazzjoni ta' dan se żżid il-piż fuq is-server."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ġenerazzjoni ta' arti ASCII minn kodiċi sors HTML waqt obfuskazzjoni u protezzjoni"
+
+msgid "表示なし"
+msgstr "L-ebda wirja"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Juri arti ASCII li tindika twissija meta tkun qed tara s-sors tal-HTML billi tuża 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Uri d-disinn meta l-azzjoni fil-mira titwettaq"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Disinn bażiku b'test iswed fuq sfond isfar"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Disinn b'stil ta' orrur b'test aħmar fuq sfond iswed"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Disinn li jinkludi test aħmar jiddi fuq sfond iswed"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Mużika ta' sfond li tinħareġ meta l-azzjoni fil-mira titwettaq"
+
+msgid "サウンドなし"
+msgstr "L-ebda ħoss"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Gwerra u Vittorja - 1 minuta u 16.3 sekondi - 630,056 bajts - 64 kbps - Liċenzja: CC 2.1 jew aktar tard"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3.8 sekondi - 32,364 bajts - 64 kbps - Liċenzja: GPL 2.0 jew aktar tard"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 sekondi - 195,578 bajts - 64 kbps - Liċenzja: GPL 2.0 jew aktar tard"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nru. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Nru. 12 'Revolution' – verżjoni ġġenerata bil-kompjuter, veloċità għolja – 1 minuta 57.6 sekondi – 724,457 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar tard"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo f'Si bemoll minuri, Op. 2 – verżjoni ġġenerata bil-kompjuter, verżjoni mnaqqsa b'veloċità għolja – 1 minuta 48.0 sekondi – 665,369 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar ġdida"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lista: Étude d'Exécution Transcendante Nru. 4, 'Mazeppa' – verżjoni ġġenerata bil-kompjuter, verżjoni mqassra b'veloċità għolja – 1 minuta 51.6 sekondi – 687,586 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar ġdida"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 sekondi – 183,926 bajts – 64 kbps – Liċenzja: Domenju Pubbliku"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfara b'stil retro – 2.2 sekondi – 10,536 bajts – 32 kbps – Liċenzja: Domenju Pubbliku"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Introduzzjoni b'stil retro – 42.1 sekondi – 179,138 bajts – 32 kbps – Liċenzja: Domenju Pubbliku"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Twissija minn ChatGPT - 3.8 sekondi - 109,700 bajts - 256 kbps - Liċenzja: Domenju Pubbliku"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ħoss ta' urġenza għolja bħal allerta ta' skoperta ta' malware – Parti 1 minn ChatGPT – 3.3 sekondi – 102,850 bajts – 256 kbps – Liċenzja: Domenju Pubbliku"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Ħoss ta' urġenza għolja bħal allerta ta' skoperta ta' malware, Parti 2 minn ChatGPT - 3.3 sekondi - 103,122 bajts - 256 kbps - Liċenzja: Domenju Pubbliku"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Ħoss b'stil MRI minn ChatGPT – 1 minuta u 14.9 sekondi – 3,340,392 bajts – 320 kbps – Liċenzja: Domenju Pubbliku"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Agħżel il-mużika ta' sfond biex tintlagħab waqt twissija."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Joħloq atmosfera sorprendenti"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "L-awdjo huwa mblukkat f'Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bip meta l-azzjoni speċifikata titwettaq"
+
+msgid "有効 音量小さ目"
+msgstr "Mixgħul, volum baxx"
+
+msgid "有効 音量大き目"
+msgstr "Attiv, il-volum issettjat fuq għoli"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Se tinħareġ sinjal ta' bip għal kull avveniment tat-tastiera u tal-maws, filwaqt li jintwera twissija."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Joħloq l-impressjoni li l-apparat mar ħażin waqt li t-twissija tkun qed tintwera."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Moħbi tal-kursor tal-maws meta ssir azzjoni speċifika"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Jaħbi l-kursor tal-maws fl-ispazju tal-browser waqt li jintwera twissija."
+
+msgid "デバッグモード"
+msgstr "Modalità ta' debug"
+
+msgid "妨害＋記録のみ"
+msgstr "Interferenza + Rekords biss"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Intermferenza + Reġistrazzjoni + Wiri + Redirezzjoni"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Għad tista' taċċessah permezz tal-menu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modalità ta' debug f'Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsola tal-browser"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Fil-fatt, tista' tużah minn modalità ta' debug."
+
+msgid "HTMLソース表示"
+msgstr "Ara s-sors tal-HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Tista' twettaq l-operazzjoni sempliċement billi ddaħħal URL li jibda b' 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Tista' tipproteġi l-kontenut tiegħek billi tgħaqqad dan mal-protezzjoni tal-HTML."
+
+msgid "印刷"
+msgstr "Ipprintja"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Għalkemm tipprevjeni l-istampar, jista' ma taħdimx kif suppost f'xi browsers."
+
+msgid "スクリーンショット"
+msgstr "Immaġni tal-iskrin"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Skont is-sistema operattiva, il-browser jew il-metodu użat, jista' ma jkunx possibbli li dan jiġi mblukkat, jew jista' ma jiġi skopert."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Skrinshot suspettat meta t-tieqa tmur fil-isfond"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Jirrispondi wkoll għal funzjonijiet oħra minbarra l-iskrinshot"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Skrinshot suspettat meħud billi tagħfas żewġ tasti"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Il-metodi ta' skoperta għall-oġġetti msemmija hawn fuq mhumiex infallibbli; is-skoperta ssir bħala miżura ta' prekawzjoni."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Jiskopri mhux biss screenshots iżda wkoll modi ta' debug u affarijiet simili."
+
+msgid "ページ保存"
+msgstr "Salva l-paġna"
+
+msgid "右クリック"
+msgstr "Ikklikkja bil-lemin"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Jekk l-add-on ikun installat, tkun tista' tużah."
+
+msgid "コピー・カット"
+msgstr "Ikkopja u aqta'"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Skont l-issettjar ta' dan il-plugin, tista' rarament tiltaqa' ma' dan l-avveniment."
+
+msgid "テキスト全選択"
+msgstr "Agħżel it-test kollu"
+
+msgid "テキスト選択"
+msgstr "Agħżel it-test"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Ġurnal tal-bidu tad-debugger, interferenza tad-debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Dan jagħmel il-modalità tad-debugging ftit inqas faċli għall-utent u jirreġistra l-fatt li d-debugger ġie mħaddem; madankollu, xi browsers jistgħu jibblukkaw din l-imġiba."
+
+msgid "リダイレクトするURL"
+msgstr "Irriindirizza l-URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Ikun idea tajba li tirridirezzjona l-utenti lejn paġni bħal il-Kundizzjonijiet ta' Użu."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Jekk tinħalla vojta, se tirridirezzjona għall-URL oriġinali."
+
+msgid "リダイレクトまでの時間"
+msgstr "Ħin sal-irridirezzjoni"
+
+msgid "リダイレクトなし"
+msgstr "L-ebda ridirezzjonar"
+
+msgid "1秒"
+msgstr "Sekonda waħda"
+
+msgid "2秒"
+msgstr "2 sekondi"
+
+msgid "3秒"
+msgstr "3 sekondi"
+
+msgid "4秒"
+msgstr "4 sekondi"
+
+msgid "5秒"
+msgstr "5 sekondi"
+
+msgid "6秒"
+msgstr "6 sekondi"
+
+msgid "7秒"
+msgstr "7 sekondi"
+
+msgid "8秒"
+msgstr "8 sekondi"
+
+msgid "9秒"
+msgstr "9 sekondi"
+
+msgid "10秒"
+msgstr "10 sekondi"
+
+msgid "15秒"
+msgstr "15 sekondi"
+
+msgid "20秒"
+msgstr "20 sekondi"
+
+msgid "25秒"
+msgstr "25 sekondi"
+
+msgid "30秒"
+msgstr "30 sekondi"
+
+msgid "35秒"
+msgstr "35 sekondi"
+
+msgid "40秒"
+msgstr "40 sekondi"
+
+msgid "45秒"
+msgstr "45 sekondi"
+
+msgid "50秒"
+msgstr "50 sekondi"
+
+msgid "55秒"
+msgstr "55 sekondi"
+
+msgid "1分"
+msgstr "1 minuta"
+
+msgid "1分10秒"
+msgstr "1 minuta u 10 sekondi"
+
+msgid "1分20秒"
+msgstr "1 minuta u 20 sekondi"
+
+msgid "1分30秒"
+msgstr "1 minuta u 30 sekonda"
+
+msgid "1分40秒"
+msgstr "1 minuta u 40 sekonda"
+
+msgid "1分50秒"
+msgstr "1 minuta u 50 sekondi"
+
+msgid "2分"
+msgstr "2 minuti"
+
+msgid "ソース表示を許可する権限"
+msgstr "Permess biex tara l-kodiċi sors"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "L-output normali mis-sors jidher biss meta tkun loggat bħala ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Output normali mis-sors meta tkun loggat bħala USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Agħżel jekk il-ħruġ standard tal-HTML ikun ristrett għall-amministraturi biss jew jeħtieġ log-in tal-utent."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Li tforza immaġni biex titniżżel u dak li fil-fatt jitniżżel"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Immaġni trasparenti ta' 1×1-pixel f'format GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Immaġni trasparenti ta' 1×1 pixel f'format PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Skren ta' twissija b'isfond isfar fil-format PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Dokument HTML bla sens"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Reżultat tat-tag HEAD meta l-HTML ikun protett"
+
+msgid "出力しない"
+msgstr "Tistampax"
+
+msgid "TITLEタグのみ"
+msgstr "Biss it-tag tat-titlu"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Meħud mit-tikketta HEAD ta' WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Għal paġni għall-membri biss għall-użu korporattiv u paġni interni, l-għażla ta' 'Do not output' jew 'TITLE tag only' għandha tkun biżżejjed."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Sakemm ma tirrekuperax l-informazzjoni mit-tag HEAD ta' WordPress, l-immaġni OGP ma tidhirx meta taqsam fuq il-midja soċjali."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Iblokka l-bot tal-immaġni"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Billi tipprevjeni lill-bots tal-immaġini milli jaċċessaw l-HTML, tista' tipproteġi kontenut li ma setax jiġi protett kontra rabtiet diretti permezz tat-tfittxija tal-immaġini; madankollu, din mhix soluzzjoni infallibbli."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Imblokka l-aċċess għall-bot tat-taħriġ tal-AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Billi nevitaw l-użu ta' bots iddisinjati għat-taħriġ tal-AI fuq HTML, niżguraw li l-kontenut ma jintużax mill-AI; madankollu, dan ma jistax jiġi evitat kompletament."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Iblokka l-aċċess għall-arkivji tal-web u għall-istampi tal-web"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Nipprojbixxu l-aċċess għal arkivi tal-web miġbura awtomatikament u screenshots meħuda fid-diskrezzjoni tal-utent; madankollu, ma nistgħux nipprevjenu dan kompletament."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Iblokka l-aġenti tal-utent invalidi"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Jipprevjeni l-aċċess jekk is-string tal-user agent ikun fih karattri invalidi"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Uri twissija meta taċċessa Internet Explorer u l-Microsoft Edge qadim"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Jipprevjeni l-aċċess permezz ta' Internet Explorer u l-Microsoft Edge qadim."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lingwa li fiha jiġu murija messaġġi ta' twissija"
+
+msgid "Wordpressの言語"
+msgstr "Lingwi ta' WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Is-settings tal-lingwa tal-browser"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ma tistax tbiddel il-lingwa jekk il-messaġġi ġew personalizzati."
+
+msgid "同意画面の言語"
+msgstr "Lingwa tal-iskrin tal-kunsens"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lingwa li fiha jintwera l-messaġġ 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Data ta' skadenza tat-tokeni temporanji"
+
+msgid "3分"
+msgstr "3 minuti"
+
+msgid "4分"
+msgstr "4 minuti"
+
+msgid "5分"
+msgstr "5 minuti"
+
+msgid "6分"
+msgstr "6 minuti"
+
+msgid "7分"
+msgstr "Seba' minuti"
+
+msgid "8分"
+msgstr "8 minuti"
+
+msgid "9分"
+msgstr "Disa' minuti"
+
+msgid "10分"
+msgstr "10 minuti"
+
+msgid "15分"
+msgstr "15-il minuta"
+
+msgid "20分"
+msgstr "20 minuti"
+
+msgid "25分"
+msgstr "25 minuti"
+
+msgid "30分"
+msgstr "30 minuti"
+
+msgid "35分"
+msgstr "35 minuti"
+
+msgid "40分"
+msgstr "40 minuti"
+
+msgid "45分"
+msgstr "45 minuti"
+
+msgid "50分"
+msgstr "50 minuti"
+
+msgid "55分"
+msgstr "55 minuti"
+
+msgid "1時間"
+msgstr "Siegħa waħda"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Issettja d-data ta' skadenza għall-informazzjoni tal-URL tal-immaġni."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Ladarba jkunu mniżżla, l-URL tal-immaġni u t-token temporanju se jiġu invalidati."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "L-immaġini jitgħabbew fuq talba, iżda se jitgħabbew awtomatikament 30 sekonda qabel il-ħin speċifikat."
+
+msgid "一時使用トークンのビット数"
+msgstr "In-numru ta' bits f'token temporanju"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Token temporanju jintuża bħala password biex jiġi kriptat l-URL tal-immaġni; din l-issettjar tispeċifika l-qawwa tiegħu."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Għalkemm l-għażliet li jidhru taħt il-menu drop-down isiru dejjem aktar dettaljati, dan jista' jpoġġi piż kbir fuq is-server u jwassal għal volum kbir ta' data HTML trasferita."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritmu tal-hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token temporanju jintuża bħala password biex jikkripta l-informazzjoni tal-URL tal-immaġni; dan jeħtieġ hashing, u din l-issettjar tiddetermina s-saħħa ta' dak il-hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Għalkemm l-intensità tiżdied hekk kif tiskrollja 'l isfel permezz tal-għażliet murija fil-menu drop-down, dan jimponi piż akbar fuq is-server."
+
+msgid "基本設定"
+msgstr "Is-settings bażiċi"
+
+msgid "高度な設定"
+msgstr "Issettjar avvanzat"
+
+msgid "初期設定に戻す"
+msgstr "Irrestawra l-issettjar default"
+
+msgid "デザイン・音の設定"
+msgstr "Disinn u issettjar tal-ħoss"
+
+msgid "イベントの設定"
+msgstr "Is-settings tal-avveniment"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "It-twaqqif tan-notifiki għall-ewwel żjarat"
+
+msgid "メッセージの設定"
+msgstr "Is-settings tal-messaġġ"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Issettja l-URL li għandha tiġi miftuħa meta tikklikkja bil-lemin jew meta tkun qed tara l-kodiċi sors."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML ma jistax jintuża f'messaġġi ta' twissija."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Jekk tikkonfigura dan fuq din l-iskrin, l-issettjar tal-lingwa fit-tab Avvanzat se jiġu injorati."
+
+msgid "以下の文字列が使用できます"
+msgstr "Il-kordi li ġejjin jistgħu jintużaw"
+
+msgid "改行"
+msgstr "Ksur tal-linja"
+
+msgid "押下されたキー"
+msgstr "Tast imqabbad"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Issettjar ta' Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Avviż"
+
+msgid "メッセージ"
+msgstr "Messaġġ"
+
+msgid "デザイン・音"
+msgstr "Disinn u Ħoss"
+
+msgid "初期化"
+msgstr "Inizjalizzazzjoni"
+
+msgid "このプラグインについて"
+msgstr "Dwar dan il-plugin"
+
+msgid "設定が初期化されました"
+msgstr "L-issettjarijiet ġew irrisettjati"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inizjalizza l-plugin. Jekk jogħġbok innota li d-dejta tal-IP Log Reader mhux se titħassar f'dan l-istadju."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Dwar Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Dan il-plugin ġie ddisinjat biex jipproteġi l-HTML, l-immaġini u kontenut ieħor ġenerat mis-sit WordPress tiegħek, u biex jipproteġih minn użu mhux awtorizzat."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Huwa impossibbli li tipproteġi l-kontenut kompletament. Madankollu, billi nagħtu twissijiet kull fejn hu possibbli u nagħmlu preparazzjonijiet f'każ li jiġri xi ħaġa, għandna nkunu nistgħu nsolvu l-kwistjoni skont il-proċeduri stabbiliti mill-gvern."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Naturalment, għandek tiżgura li t-termini tas-servizz u l-politiki tas-sit tiegħek huma komprensivi. Filwaqt li dan il-plugin mhux għodda għall-ġenerazzjoni tat-termini tas-servizz, jista' jipprovdi xi gwida."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Żviluppatur: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Verżjoni"
+
+msgid "ビルド"
+msgstr "Ibni"
+
+msgid "サポートページ"
+msgstr "Paġna ta' appoġġ"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Eżegwita minn Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Talba għall-appoġġ"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Grazzi talli qed tuża Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "L-iżvilupp u l-manutenzjoni ta' dan il-plugin ħadu ħafna ħin u sforz, u biex niġbru fondi biex inkomplu ntejbu u naġġornawh, inkunu grati jekk xi ħadd li jista' jappoġġjana jikkunsidra li jagħti donazzjoni."
+
+msgid "寄付について"
+msgstr "Dwar id-donazzjonijiet"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Id-donazzjonijiet huma kompletament volontarji u mhux obbligatorji. Il-plugin huwa disponibbli għal kulħadd b'xejn. Madankollu, l-appoġġ tiegħek huwa ferm apprezzat biex jgħinna nkomplu l-iżvilupp, u nkunu kuntenti ħafna jekk tista' tikkontribwixxi anke ammont żgħir."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Tista' tagħmel donazzjoni permezz tal-link hawn taħt. Jekk tinsab fil-Ġappun, tista' tagħmel donazzjoni mingħajr ħlas, u tista' wkoll tagħmel donazzjoni faċilment billi tuża vawċers ta' rigal ta' Amazon."
+
+msgid "寄付先"
+msgstr "Karitajiet"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Bil-appoġġ tiegħek, nagħmlu l-almu tagħna biex inkomplu nġibulek aġġornamenti fantastici!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Ninsabu grati għall-appoġġ tiegħek u nistennew bil-ħerqa għall-appoġġ kontinwu tiegħek fil-futur."
+
+msgid "ライセンス"
+msgstr "Liċenzja"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Dan il-plugin ġie żviluppat bħala softwer open source u huwa liċenzjat taħt il-GPLv2.0 jew verżjoni aktar ġdida."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Xi wħud mit-teknoloġiji inklużi f'dan il-plugin huma protetti minn patenti."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "L-użu tat-teknoloġija brevettata huwa permess biss f'dan il-plug-in."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Għal kull użu ieħor, jekk jogħġbok ikkuntattja lill-awtur biex tikseb liċenzja kummerċjali."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Dan il-plugin jinkludi l-libreriji li ġejjin"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Dan il-plugin jinkludi l-fonts tal-arti ASCII ġġenerati hawn taħt, flimkien mal-fajls tal-fonts."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Dan il-plugin jinkludi mużika mill-logħba mhux uffiċjali Super Famicom 'SM Trainer Hitomi 3', żviluppata minn EJ Co., Ltd. u komposta mill-kreatur ta' dan il-plugin, u għandha liċenzja uffiċjali."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Dan il-plugin jinkludi trakkijiet maħluqa bl-użu ta' 'Keppy's YAMAHA C7', żviluppat minn Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Użajt ukoll Raspberry Pi 5, ChatGPT u DeepL fl-iżvilupp ta' dan il-plugin."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Instab plugin tal-kaxxa. Dan il-plugin ma jaħdimx b'mod korrett jekk plugin tal-kaxxa jkun attivat."
+
+msgid "無効なIPアドレス"
+msgstr "Indirizz IP invalidu"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Biex tuża dan is-sit web, trid tattiva l-cookies u l-JavaScript."
+
+msgid "利用規約"
+msgstr "Kundizzjonijiet ta' Użu"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Biex tipprevjeni l-użu mhux awtorizzat u tiżgura l-operazzjoni sigura tas-servizzi tagħna, dan is-sit jista' jaħżen informazzjoni bħal indirizzi IP, storja tal-browsing u logijiet tal-attività f'cookies u f'bażijiet ta' data. Din l-informazzjoni tintuża biss għall-operazzjoni tas-sit u għal skopijiet legali, u mhux se tiġi żvelata lil terzi."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Biex tuża dan is-servizz, trid tagħti l-kunsens tiegħek għal dawn l-attivitajiet ta' proċessar."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Tista' tara l-kontenut tal-Politika tal-Privatezza irrispettivament minn jekk tajt il-kunsens tiegħek."
+
+msgid "同意する"
+msgstr "Naqbel"
+
+msgid "同意しない"
+msgstr "Ma naqbilx"
+
+msgid "確認"
+msgstr "Konferma"
+
+msgid "プライバシーポリシー"
+msgstr "Politika tal-privatezza"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Ġie skopert aċċess jew attività mhux tas-soltu."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Ċerti karatteristiċi ġew ristretti għal skopijiet ta' sigurtà u protezzjoni tal-kontenut."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Il-modalità tad-debugging u l-aċċess għall-konsola huma diżattivati."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "L-informazzjoni li ġejja ġiet mibgħuta lis-server"
+
+msgid "あなたのIPアドレス"
+msgstr "L-indirizz IP tiegħek"
+
+msgid "あなたの端末とブラウザ"
+msgstr "It-tagħmir u l-browser tiegħek"
+
+msgid "あなたの押下したキー"
+msgstr "Il-buttuna li għafast"
+
+msgid "リダイレクトをします"
+msgstr "Int se tiġi ridirezzjonat"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Ċerti karatteristiċi ġew ristretti biex jipproteġu l-kontenut"
+
+msgid "右クリックは禁止されています"
+msgstr "Il-klik tal-lemin mhux permess"
+
+msgid "あなたが押下したキー"
+msgstr "Il-buttuna li għafast"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Il-istampar u s-salvjar bħala PDF huma pprojbiti."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Il-captures tal-iskrin huma pprojbiti."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Huwa pprojbit li tieħu screenshots u tixgħel il-modalità tad-debugging."
+
+msgid "ページの保存は禁止されています"
+msgstr "Il-ħażna ta' din il-paġna hija pprojbita."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Il-kopja u l-qtugħ huma pprojbiti."
+
+msgid "あなたが起こしたイベント"
+msgstr "L-avvenimenti li organizzajt"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Il-għażla tat-test mhix permessa"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Il-wiri tal-kodiċi sors tal-HTML huwa pprojbit."
+
+msgid "不正アクセスは禁止されています"
+msgstr "L-aċċess mhux awtorizzat huwa pprojbit"
+
+msgid "アフリカーンス語"
+msgstr "Afrikanis"
+
+msgid "アラゴン語"
+msgstr "Aranġes"
+
+msgid "アラビア語"
+msgstr "Għarbi"
+
+msgid "アッサム語"
+msgstr "Assamiż"
+
+msgid "アゼルバイジャン語"
+msgstr "Ażerbajġani"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belarussjan"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgaru"
+
+msgid "ボスニア語"
+msgstr "Bożnjan"
+
+msgid "カタロニア語"
+msgstr "Katalanu"
+
+msgid "チェコ語"
+msgstr "Ċek"
+
+msgid "ウェールズ語"
+msgstr "Galles"
+
+msgid "デンマーク語"
+msgstr "Daniż"
+
+msgid "ドイツ語"
+msgstr "Ġermaniż"
+
+msgid "現代ギリシア語"
+msgstr "Grieg modern"
+
+msgid "英語"
+msgstr "Ingliż"
+
+msgid "イギリス英語"
+msgstr "Ingliż"
+
+msgid "アメリカ英語"
+msgstr "Ingliż Amerikan"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Spanjol"
+
+msgid "エストニア語"
+msgstr "Estonjan"
+
+msgid "バスク語"
+msgstr "Basku"
+
+msgid "ペルシャ語"
+msgstr "Persjan"
+
+msgid "フィンランド語"
+msgstr "Finlandiż"
+
+msgid "フランス語"
+msgstr "Franċiż"
+
+msgid "アイルランド語"
+msgstr "Irlandiż"
+
+msgid "ガリシア語"
+msgstr "Għallizjan"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Għawsi"
+
+msgid "ヘブライ語"
+msgstr "Ebrajk"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroat"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kriolu Haitjan"
+
+msgid "ハンガリー語"
+msgstr "Ungeriz"
+
+msgid "インドネシア語"
+msgstr "Indoneżjan"
+
+msgid "イボ語"
+msgstr "Lingwa Ibo"
+
+msgid "アイスランド語"
+msgstr "Iżlandiż"
+
+msgid "イタリア語"
+msgstr "Taljan"
+
+msgid "日本語"
+msgstr "Ġappuniż"
+
+msgid "ジャワ語"
+msgstr "Ġavaniż"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Korejan"
+
+msgid "クルド語"
+msgstr "Kurdija"
+
+msgid "キルギス語"
+msgstr "Kirgiż"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Lussemburġiż"
+
+msgid "リンガラ語"
+msgstr "Lingala"
+
+msgid "リトアニア語"
+msgstr "Litwanu"
+
+msgid "ラトビア語"
+msgstr "Latvjan"
+
+msgid "マダガスカル語"
+msgstr "Malagasi"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Maċedonjan"
+
+msgid "マラヤーラム語"
+msgstr "Malajalam"
+
+msgid "モンゴル語"
+msgstr "Mongoljan"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malaj"
+
+msgid "マルタ語"
+msgstr "Malti"
+
+msgid "ビルマ語"
+msgstr "Birmaniż"
+
+msgid "ネパール語"
+msgstr "Nepaliż"
+
+msgid "ノルウェー語"
+msgstr "Norveġiż"
+
+msgid "オランダ語"
+msgstr "Olandiż"
+
+msgid "オック語"
+msgstr "Oċċitan"
+
+msgid "オロモ語"
+msgstr "Jew"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Polakk"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugiż"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugiż Brażiljan"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugiż Ewropew"
+
+msgid "ケチュア語"
+msgstr "Qhichwa"
+
+msgid "ルーマニア語"
+msgstr "Rumen"
+
+msgid "ロシア語"
+msgstr "Russu"
+
+msgid "サンスクリット語"
+msgstr "Ils-ilsien"
+
+msgid "スロバキア語"
+msgstr "Slovakk"
+
+msgid "スロベニア語"
+msgstr "Slovenu"
+
+msgid "セルビア語"
+msgstr "Serbu"
+
+msgid "南セソト語"
+msgstr "Sesotho tanimix"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
+msgid "スウェーデン語"
+msgstr "Żvediż"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Tajlandiż"
+
+msgid "トルクメン語"
+msgstr "Torkmen"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Tork"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukren"
+
+msgid "ウルドゥー語"
+msgstr "Għarbi"
+
+msgid "ウズベク語"
+msgstr "Użbek"
+
+msgid "ベトナム語"
+msgstr "Vjetnamiż"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jiddis"
+
+msgid "簡体中国語"
+msgstr "Ċiniż semplifikat"
+
+msgid "繁体中国語"
+msgstr "Ċiniż tradizzjonali"
+
+msgid "ズールー語"
+msgstr "Żulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Il-browser li qed tuża bħalissa huwa verżjoni antika li m'għadhiex appoġġjata. Biex tiżgura esperjenza ta' navigazzjoni aktar sigura u komda, jekk jogħġbok aġġorna għall-aħħar verżjoni tal-browser tiegħek."
+
+msgid "不正なリクエストです"
+msgstr "Talba mhux valida"
+
+msgid "画像が見つかりません"
+msgstr "L-immaġni ma nstabx"
+

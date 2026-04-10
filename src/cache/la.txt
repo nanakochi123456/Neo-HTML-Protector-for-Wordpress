@@ -1,0 +1,424 @@
+設定	Configurationes
+IPログリーダー	Lector Diariorum IP
+IPアドレスログ	Registrum inscriptionum IP
+全クリア	Perage omnes gradus
+IPログが全て削除されました	Omnes commentarii IP deleti sunt.
+ID	Identificatio
+タイムスタンプ	Tempus notationis
+IPアドレス	Inscriptio Protocollaris
+ユーザーエージェント	Agentis Usoris
+イベント	Eventus
+IPアドレスのデータはありません	Nulla data sunt pro hoc inscriptione IP.
+EU GDPR対応	Conformitas cum GDPR UE
+無効	Invalidus
+有効	Valet
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Si WordPress intra Unionem Europaeam uteris, aut si situs tuus usoribus intra Unionem Europaeam destinatur, quaeso cura ut hoc activetur.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Bullula 'Confirma' in 'Assentior' aut 'Dissentio' mutabitur, et modus agendi leviter mutabitur.
+同意画面の色	Color paginae assensus
+自動	Sponte sua
+ライトモード	Modus levis
+ダークモード	Modus Obscurus
+同意画面表示中の配色を設定します	Constitue ordinem colorum pro pagina consensūs.
+同意画面中のコンテンツのぼかし	Imaginis conturbatio in velo consensūs
+同意画面表示中のコンテンツのぼかし具合を設定します	Constitue gradum obscuritatis pro materia in velo assentimenti exhibita.
+同意画面の透過	Perspicuitas monitorii assensus
+透過なし	Nulla perspicuitas
+同意画面の透過具合を設定します	Transparentiā tabulae assentīmentī statuendā
+お知らせの1行目	Prima linea nuntii
+初回表示で必ず表示されるメッセージです	Hoc nuntius semper ostenditur cum pagina primum oneratur.
+お知らせの2行目	Secunda linea notitiae
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Hoc nuntium semper in primo ostento apparebit, dum GDPR UE valet.
+お知らせの3行目	Tertia linea nuntii
+プライバシーポリシーのリンクの右側に表示されます	Ad dextram nexu ad Praescriptum de Re Privata apparebit.
+非EU向け確認の文字列	Textus confirmationis pro civitatibus non UE
+EU GDPR向け同意するの文字列	Textus assensus pro GDPR UE
+EU GDPR向け同意しないの文字列	Textus pro 'Noli consentire' sub GDPR UE
+プライバシーポリシーの文字列	Textus de secreto servando
+プライバシーポリシーのURLはこちらから設定して下さい	Quaeso, hic URL consilii de secreto constitue.
+プライバシーポリシーには以下の内容を追加して下さい	Quaeso, sequentia ad Praescriptum de Re Privata addite.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ad actiones fraudulentas detegendas, indicia, sicut inscriptiones IP, in crustulis et in repositorio datorum servantur. Data servata ad arbitrium administratoris delentur.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Ut certum sit imagines recte tradi solum cum praesidium imaginum activum est, data cryptographice digesta, quae inscriptionem IP et nomen documenti imaginis continent, in tabulario usque ad sexaginta minuta servamus.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Si Condiciones Usus instituitis, curate ut nexum ad eas in Politica Vestra de Re Privata includatis.
+利用規約の文字列	Textus Conditionum Usus
+利用規約のページ	Conditiones et Pacta
+ページ選択なし	Nulla pagina selecta
+検索エンジン等のURL	Nexus ad machinas quaerendi, etc.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Pone URL pro machinis quaerendi et sitibus similibus qui utentes redirectant cum consensus non datur.
+デバッグモード、コンソールの警告メッセージ	Modus emendationis, monita consolaria
+右クリックの警告メッセージ	Monitum de nuntio dextro
+印刷、PDF保存の警告メッセージ	Monitum de imprimendo et servando ut PDF
+スクリーンショットの警告メッセージ	Nuntius monitus in imagine scrinii
+スクリーンショットの疑いの警告メッセージ	Monitum de imaginibus scrinii suspectis
+テキスト全選択時の警告メッセージ	Monitum cum omnis textus selectus est
+ページ保存の警告メッセージ	Monitum de pagina servanda
+コピー・カットした時に表示するメッセージ	Nuntius qui monstratur cum exscribitur aut resecatur
+HTMLソース表示時に表示するメッセージ	Nuntius qui ostendatur cum fons HTML inspicitur
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Nuntius in summa parte codicis fontis ostendendus, cum HTML obscuratur aut protegitur.
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Nuntius qui ostendatur si tessera authentificationis unius vicis inter tutelam HTML invalida sit.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Nuntius qui ostendatur si crustula aut JavaScript inactivata sunt.
+実際にはJavascriptが無効時のみ表示されます	Re vera, hoc solum monstratur cum JavaScript exstinguitur.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Cum imago protegitur, deponitur et nuntius super ea ostenditur
+HTML難読化 (圧縮)	Obfuscatio
+一般的なHTML圧縮です、難読化解除のサイトもあります	Haec est compressio HTML usitata; sunt etiam situs interretiales qui eam decodificare possunt.
+このオプションを有効にするとview-sourceのログが取得できます	Hac optione activa, potes recuperāre acta fontis visificandi.
+HTML保護	Protectio HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Minimum solum codicis HTML reddit—paucius etiam quam cum compressione HTML adhibita—et materia intra tesseram BODY omnino non redditur.
+Firefoxに対しては無効です	Hoc ad Firefox non pertinet.
+SEOに著しく影響があります	Hoc magnum momentum in SEO habet.
+HTMLをJavaScriptで描画	Renditio HTML per JavaScriptum
+Firefox対策としてHTMLをJavaScriptで描画をします	Ut Firefox circumveniamus, HTML per JavaScript reddimus.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Activatio interpretationis JavaScript graviter tardabit celeritatem onerationis situs interretialis.
+画像の保護	Imaginis praesidium
+imgタグが呼び出されるごとに画像を保護	Imaginem protege quotiescumque titulus img vocatur.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Omnes imagines in WordPress impositas intra totum textum HTML emissum protege.
+画像をダウンロードから保護します	Imagines a depromptione protegit
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Cum data imaginum proteguntur, paene omnes depromptiones prohibemus, nexus singulares semel valentes emittimus, per tesseras in sessione repertas authentificamus, et imagines per PHP ostendimus; hoc reapse paene omnem furtum imaginum prohibet.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Cum data imaginum proteguntur, memoria cache non fungitur, quod efficit ut situs in visitationibus posterioribus tardius oneretur, ita SEO afficiendo.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Data imaginum tuenda onus in repositorio datorum augere potest.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Si optionem 'Imagines protege quotiescumque tegula img vocatur' seligis, systema add_filter adhibet ut filtrationem applicet cum tegula img generatur; tamen, hoc non recte cum quibusdam thematibus operari potest.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Si optionem 'Protege omnes imagines in WordPress impositas intra totum exsitum HTML' seligis, additamentum paene omnes operationes WordPress comprehendet et omnem notam img in contentis tractabit. Nota, quaeso, hoc fortasse non recte cum quibusdam thematis fungetur.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Notandum est imagines, quae imagines praecipuae designantur, ut data OGP communicari et protegi non posse. Si eas omnino protegere necesse est, quaeso, in configurationibus provectis, cum protectionem HTML habilitas, configurationem emissionis notae HEAD muta.
+OS標準搭載のスクリーンショット機能を保護することはできません	Functio imaginum capiendarum, quae ut norma in systemate operandi includitur, protegi non potest.
+画像URLの保護	De URL imaginum tuendis
+画像の保護と組み合わせて使用します、単体では意味がありません	Hoc una cum praesidio imaginum adhibendum est; per se, nihil prodest.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Quoniam per JavaScript oneratur, hoc SEO afficit.
+画像のウォーターマーク	Signum aquatile imaginis
+右下	Infima dextra
+ランダム位置	Positio fortuita
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Una cum tutela imaginum adhibitae, filigranæ dynamicae proprietatem iuris auctoris clare indicant, dum spectatoribus opinionem se observari habere inducunt, ita deterrentes.
+JPG形式、PNG形式、WebP形式のみ対応します	Tantum formae JPG, PNG et WebP sustinentur.
+有効にするとサーバーの負荷が高くなります	Hoc activato, onus servitori augebitur.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ex codice fonte HTML artem ASCII emittere inter obscurationem et tutelam
+表示なし	Nullum ostentum
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Ars ASCII monstrat monitum cum fons HTML per 'view-source' inspicitur.
+対象アクションを起こした時の表示デザイン	Ostende consilium cum actio petita perficitur.
+黄色の背景の黒文字のベーシックデザイン	Forma simplex textu nigro in fundo flavo.
+黒色の背景の赤文字のホラー風デザイン	Forma horrifica cum textu rubro in fundo nigro.
+黒色の背景の赤文字の光る文字のデザイン	Forma textu rubro lucente in fundo nigro
+対象アクションを起こした時のBGM	Musica comitans quae sonat cum actio petita perficitur.
+サウンドなし	Nullus sonus
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Proelium et Victoria - 1 minuta 16.3 secunda - 630,056 bytes - 64 kbps - Licentia: CC 2.1 vel posterior
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Pater Brevis - 3.8 secunda - 32,364 bytes - 64 kbps - Licentia: GPL 2.0 vel posterior
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Longus - 23.5 secunda - 195,578 bytes - 64 kbps - Licentia: GPL 2.0 vel posterior
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Studium Op. 10 N. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Studium Op. 10 N. 12 'Revolutio' – Versio computatro generata, versio magnae celeritatis – 1 minutum 57.6 secundorum – 724,457 octetorum – 48 kbps – Licentia: CC BY-ND 4.0 vel posterior
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo in Si bemolle minore, Op. II – Versio computatro generata, versio contracta magnae celeritatis – 1 minuta 48.0 secunda – 665,369 bytes – 48 kbps – Licentia: CC BY-ND 4.0 vel posterior
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Index: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanum – 22.3 secunda – 183,926 bytes – 64 kbps – Licentia: Dominium Publicum
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfara retro-stili – 2.2 secunda – 10,536 bytes – 32 kbps – Licentia: Dominio Publico
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Introitus modo retro – 42.1 secunda – 179,138 bytes – 32 kbps – Licentia: Dominio Publico
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Monitum a ChatGPT - 3.8 secunda - 109,700 bytes - 256 kbps - Licentia: Dominium Publicum
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sonus maximae necessitatis, monitus de programmate maligno repertō – Pars I a ChatGPT – 3.3 secunda – 102,850 bytes – 256 kbps – Licentia: Dominio Publico
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sonus magnae urgentiæ, monitus de programmate maligno repertō, Pars II a ChatGPT - 3.3 secunda - 103,122 bytes - 256 kbps - Licentia: Dominio Publico
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sonus MRI-similis a ChatGPT – 1 minuta 14.9 secunda – 3,340,392 bytes – 320 kbps – Licentia: Dominio Publico
+警告表示中のBGMを選択します	Elige musicam comitantem quae per monitum sonet.
+びっくりするような雰囲気を作ります	Creat miram atmosphaeram.
+Firefoxでは音声ブロックされます	Sonus in Firefox obstructus est.
+対象アクションを起こした時のビープ音	Sibilus cum actio praescripta perficitur.
+有効 音量小さ目	In, volumen humile
+有効 音量大き目	Activum, volumen ad summum positum
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Sibilus edetur ad omnia eventa clavis et muris, dum monitus ostenditur.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Videtur machinamentum insanire dum monitus ostenditur.
+対象アクションを起こした時のマウスカーソルの消去	Cursorem muris celare cum actio certa perficitur.
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Cursorem muris in area navigatri celat, dum monitus ostenditur.
+デバッグモード	Modus emendationis
+妨害＋記録のみ	Interferentia et Acta Sola
+妨害＋記録＋表示＋リダイレクト	Interferentia + Registratio + Ostensio + Redirectio
+メニューからは操作できてしまいます	Ad eam per indicem adhuc accedere potes.
+Firefoxにおけるデバッグモード	Modus mendorum corrigendorum in Firefox
+ブラウザーコンソール	Consola navigatri
+事実上デバッグモードから操作できてしまいます	Re vera, id ex modo deprehendendi operari potes.
+HTMLソース表示	Fontem HTML vide
+view-source:から始まるURLを入力すれば操作できてしまいます	Operationem simpliciter exsequi potes URL inserendo quod 'view-source:' incipit.
+HTML保護と組み合わせることでコンテンツを保護することができます	Potestis contenta vestra tueri, hoc cum tutela HTML coniungendo.
+印刷	Imprime
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Quamquam impressionem impedit, in quibusdam navigatris fortasse non recte fungitur.
+スクリーンショット	Imago monitorii
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Secundum systema operativum, navigatrum, aut modum adhibitum, hoc aut prohiberi non poterit, aut non detegetur.
+ウインドウが背面に移動した時スクリーンショットの疑い	Imago fenestrae in recessum motae, ut suspicatur.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Respondet etiam functionibus aliis quam imaginum capiendarum
+2キー押下のスクリーンショットの疑い	Imago monitorii suspecta duabus clavibus pressis capta
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Rationes ad supradicta detegenda non sunt omnino certae; detectio ad cautelam peragitur.
+スクリーンショットだけではなく、デバッグモード等も検出します	Non solum imagines scrutiales, sed etiam modos emendatorios et similia detegit.
+ページ保存	Serva paginam
+右クリック	Dextera preme
+アドオンがインストールされていると操作できてしまいます	Si additamentum installatum erit, eo uti poteris.
+コピー・カット	Exscribe et seca
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Secundum configurationes huius additamenti, hoc eventum raro experieris.
+テキスト全選択	Omne textum selige
+テキスト選択	Textum selige
+デバッガー起動ログ、デバッガー妨害	Registrum initiale depuratoris, Interferentia depuratoris
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Hoc modum deprehensorium paulo minus usoribus commodum reddit et notat deprehensorem inceptum esse; tamen, nonnulli navigatores hanc actionem impedire possunt.
+リダイレクトするURL	URL redirectum
+利用規約などのページに転送すると良いでしょう	Consilium bonum esset utentes ad paginas sicut "Conditiones Usus" redirectare.
+空欄にすると元のURLにリダイレクトをします	Si vacuum relinquatur, ad URL primigenium rediriget.
+リダイレクトまでの時間	Tempus usque ad redirectionem
+リダイレクトなし	Nulla redirectio
+1秒	Unus secundus
+2秒	Duae secundae
+3秒	Tres secundae
+4秒	Quattuor secunda
+5秒	Quinque secunda
+6秒	Sex secunda
+7秒	Septem secunda
+8秒	Octo secunda
+9秒	Novem secunda
+10秒	Decem secunda
+15秒	Quindecim secunda
+20秒	Viginti secunda
+25秒	Viginti quinque secunda
+30秒	Triginta secunda
+35秒	Quinquaginta quinque secunda
+40秒	Quadraginta secunda
+45秒	Quadraginta quinque secunda
+50秒	Quinquaginta secunda
+55秒	Quinquaginta quinque secunda
+1分	Unus minutus
+1分10秒	Unum minutum decemque secunda
+1分20秒	Unum minutum et viginti secunda
+1分30秒	Una minuta et triginta secunda
+1分40秒	Una minuta quadraginta secundis
+1分50秒	Unum minutum et quinquaginta secunda
+2分	Duae minuta
+ソース表示を許可する権限	Permissio inspiciendi codicem fontis
+ADMINログイン時のみ通常のソース出力	Exitus normalis ex fonte solum cum ut ADMIN initus es.
+USERログインで通常のソース出力	Exitus normalis ex fonte cum ut USER in systema initus es.
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Elige utrum outputus HTML normalis administratoribus tantum restringatur an accessum utentis requirat.
+画像を無理やりダウンロードして実際にダウンロードされるもの	De imagine coacte demittenda et de re quae re vera demittitur
+GIF形式で1×1ピクセルの透過画像	Imago perspicua unius pixelis quadrati forma GIF.
+PNG形式で1×1ピクセルの透過画像	Imago pellucida unius pixelis quadrati forma PNG.
+PNG形式で黄色い背景の警告画面	Monitorium cum fundo flavo in forma PNG
+意味のないHTMLドキュメント	Documentum HTML vanum
+HTML保護時のHEADタグの出力	Exitus tegiminis HEAD cum HTML protegitur
+出力しない	Noli imprimere
+TITLEタグのみ	Titulus tantum
+WordpressのHEADタグより取得	Ex capitis nota WordPress recuperatum
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pro paginis corporativis sodalibus tantum destinatis et paginis internis, eligere 'Noli reddere' aut 'Tantummodo titulus' sufficere debet.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Nisi notitias ex tegumento HEAD WordPress recuperaveris, imago OGP in mediis socialibus communicatis non apparebit.
+画像botをアクセス禁止にする	Obstrue botum imaginum
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Impediendo ne machinae automatariae imaginum ad HTML accedant, potes materiam tueri quae per nexum directum per quaestionem imaginum servari non poterat; tamen, hoc non praebet solutionem completam.
+AI学習用botをアクセス禁止にする	Aditum ad botum exercitationis IA obstrue.
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Vitando usum botorum ad institutionem Intelligentiae Artificialis in HTML designatorum, efficimus ut materia ab Intelligentia Artificiali non adhibeatur; hoc tamen omnino prohiberi non potest.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Obstrue aditum ad archiva interretialia et imagines momentaneas interretiales.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Aditum ad archiva interretialia automatice collecta et imagines scrinii ad usoris arbitrium captas vetamus; tamen, hoc omnino prohibere non possumus.
+無効なUAをアクセス禁止にする	Prohibe agentes utentes invalidos
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Aditum prohibet si series agentis utentis litteras invalidas continet.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Monitum ostende cum ad Internet Explorer et ad veterem Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Impedit accessum per Internet Explorer et vetus Microsoft Edge.
+alertメッセージを表示する言語	Lingua qua nuntii admonitorii ostenduntur
+Wordpressの言語	Linguae WordPress
+ブラウザの設定言語	Linguae navigatri configurationes
+メッセージをカスタム設定されている場合は言語を変更できません	Lingua mutari non potest si nuntii accommodati sunt.
+同意画面の言語	Lingua paginae consensūs
+view-sourceメッセージを表示する言語	Lingua qua nuntius 'view-source' exhibeatur.
+一時使用トークンの有効期限	Dies exspirationis tesserae temporariae
+3分	Tres minuta
+4分	Quattuor minuta
+5分	Quinque minuta
+6分	Sex minuta
+7分	Septem minuta
+8分	Octo minuta
+9分	Novem minuta
+10分	Decem minuta
+15分	Quindecim minuta
+20分	Viginti minuta
+25分	Viginti quinque minuta
+30分	Triginta minuta
+35分	Quinquaginta quinque minuta
+40分	Quadraginta minuta
+45分	Quadraginta quinque minuta
+50分	Quinquaginta minuta
+55分	Quinquaginta quinque minuta
+1時間	Una hora
+画像URL情報の有効期限を設定します	Pone diem exspirationis informationis de URL imaginis.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Ongesita imagine, URL imaginis et tessera temporaria irritabuntur.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imagines, cum postulantur, onerantur, sed automatice onerabuntur triginta secundis ante tempus designatum.
+一時使用トークンのビット数	Numerus bitorum in tessera temporaria
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Signum temporarium pro tessera adhibetur ad informationem URL imaginis cryptographice obtegendam; haec configuratio eius robur designat.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Quamquam optiones sub menu pensili exhibitae magis magisque singulatae fiunt, hoc maiorem onerem in serviente imponere et efficere potest ut maior quantitas datorum HTML transferatur.
+ハッシュ化アルゴリズム	Algorithmus Hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Signum temporarium pro tessera adhibetur ad informationem URL imaginis cryptographice obtegendam; hoc postulat computationem summarii, et haec configuratio vim illius computationis definit.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Quamquam intensitas augetur dum per optiones in indice pensili percurris, hoc maiorem onerem in servientem imponit.
+基本設定	Configurationes fundamentales
+高度な設定	Configurationes Provectae
+初期設定に戻す	Redintegrare configurationes praedefinitas
+デザイン・音の設定	Consilium et configurationes soni
+イベントの設定	Constitutiones eventus
+初回訪問時のお知らせの設定	De notificationibus primarum visitationum constituendis
+メッセージの設定	Rationes nuntii
+右クリックやソースコード表示時に転送する URL を設定します	Pone URL quod aperiatur cum dextro mure premitur aut codex fontis inspicitur.
+警告メッセージにはHTMLは使用できません	HTML in nuntiis monentibus adhiberi non potest.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Si hoc in hac pagina configuraveris, configurationes linguarum in tabula Provectā neglectae erunt.
+以下の文字列が使用できます	Sequentes fila adhiberi possunt.
+改行	Recta lineae
+押下されたキー	Clavis pressa
+Neo HTML Protector 設定	Neonis HTML Protectoris Configuratio
+お知らせ	Nota
+メッセージ	Nuntius
+デザイン・音	Forma et Sonus
+初期化	Initiatio
+このプラグインについて	De hoc additamento
+設定が初期化されました	Configurationes restitutae sunt.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Pluginum initia. Nota, quaeso, data Lectoris Actorum IP hoc gradu non delebuntur.
+Neo HTML Protectorについて	De Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Hoc additamentum destinatum est ad tuendam codicem HTML, imagines, et alia contenta a situ tuo WordPress generata, ea contra usum non permissum custodiens.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Impossibile est materiam omnino tueri. Tamen, monitionibus ubique ubi fieri potest datis et praeparationibus factis si quid accidat, rem secundum rationes a magistratibus praescriptas solvere poterimus.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Certe, tibi curandum est ut tua condicIONES et praescripta et norma situs comprehensiva sint. Quamquam hoc additamentum non est instrumentum ad condicIONES et praescripta generanda, potest tamen aliquam consilii rationem praebere.
+開発者: 夜桜　なの	Creator: Nano Yozakura
+バージョン	Versio
+ビルド	Aedifica
+サポートページ	Pagina auxilii
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Acta a Domina Ura Manira
+支援のお願い	Petitio auxilii
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Gratias tibi agimus quod Neo HTML Protector utiris!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Huius additamenti evolutio et sustentatio multum temporis et laboris postulaverunt; et ut pecunias colligamus ad id pergendum meliorandumque, grati essemus si quis facultatem habens de donatione facienda cogitaret.
+寄付について	De Donationibus
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donationes omnino voluntariae sunt, non obligatoriae. Additamentum omnibus gratis praesto est. Tamen, auxilium vestrum magnopere aestimamus ut progressionem continuare possimus, et laetissimi essemus si quantum potestis conferre vultis.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Donationem facere potes per nexum infra positum. Si in Iaponia habitas, gratis donare potes, atque etiam facile donare potes utendo tesseris donativis Amazonis.
+寄付先	Opera Benefica
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Auxilio vestro, operam dabimus ut pergere possimus vobis nuntios mirabiles afferre!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Gratias vobis agimus pro auxilio vestro et speramus vos nos in posterum quoque adiuturos esse.
+ライセンス	Licentia
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Hoc programma additamentum ut programmatura fontis aperti evolvitur et sub licentia GPLv2.0 vel recentiore licentiatur.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Quaedam technologiae in hoc additamento contentae diplomatibus praesidiuntur.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Usus technologiae diplomate munitae solum intra hoc additamentum permittitur.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Ad quamlibet aliam usum, auctor consulendus est ut licentia commercialis impetrata sit.
+本プラグインには以下のライブラリを同梱しています	Hoc additamentum sequentes bibliothecas continet.
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Hoc additamentum continet fontes artis ASCII infra generatos, una cum documentis fontium.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Hoc additamentum musicam continet ex ludo Super Famicom non publico, 'SM Trainer Hitomi 3', ab EJ Co., Ltd. elaborato et a creatore huius additamenti compositam, et cum licentia publica utitur.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Hoc additamentum continet cantus musicae, 'Keppy's YAMAHA C7' adhibendo creatos, a Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Etiam Raspberry Pi 5, ChatGPT et DeepL in hoc additamento evolvendo adhibui.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin memoriae cache detectum est. Hoc plugin recte non fungetur si plugin memoriae cache activum est.
+無効なIPアドレス	Inscriptio IP invalida
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ut hoc situ utaris, crustula et JavaScript habilitare debes.
+利用規約	Conditiones Usus
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ad prohibendum usum non permissum et ad curandam securam operationem ministeriorum nostrorum, hic situs interretialis potest informationes, sicut inscriptiones IP, historiam navigationis, et acta actionum, in crustulis et basibus datorum condere. Hae informationes adhibentur solum ad operationem situs interretialis et ad fines legitimos, neque cum tertiis partibus communicabuntur.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ut hoc servitio utaris, his actionibus tractationis assentiri debes.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Contenta Praescripti de Re Privata inspicere potes, sive assensum dederis sive non.
+同意する	Consentio
+同意しない	Non consentio
+確認	Confirmatio
+プライバシーポリシー	Ratio de Re Privata
+通常とは異なる方法でのアクセスや操作が検出されました	Aditus vel actio insolita detecta est.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Quaedam proprietates ad securitatem et tutelam materiarum causa coartatae sunt.
+デバッグモード、コンソールの起動は禁止されています	Modus mendorum emendandorum et aditus ad consolam interdicti sunt.
+以下の情報がサーバーに送信されました	Informatio sequens ad servum missa est.
+あなたのIPアドレス	Inscriptio tua interretialis
+あなたの端末とブラウザ	Instrumentum tuum et navigatrum
+あなたの押下したキー	Clavis quam pressisti
+リダイレクトをします	Redirectus eris
+コンテンツ保護のため一部の機能を制限しています	Quaedam proprietates coartatae sunt ad materiam tuendam.
+右クリックは禁止されています	Dextra premere non licet.
+あなたが押下したキー	Clavis quam pressisti
+印刷、PDFへの保存は禁止されています	Impressio et servatio ut PDF vetantur.
+スクリーンショットは禁止されています	Imagines scrinii vetantur.
+スクリーンショット、デバッグモード等の起動は禁止されています	Imagines scrinii capere et modum deprehendendi activare vetantur.
+ページの保存は禁止されています	Hanc paginam servare vetatur.
+コピー、カットは禁止されています	Exemplar facere et exscindere vetantur.
+あなたが起こしたイベント	Eventus quos ordinavisti
+テキストの選択は禁止されています	Textum seligere non licet.
+HTMLソース表示は禁止されています	Codicis fontis HTML monstratio vetita est.
+不正アクセスは禁止されています	Aditus non permissus vetatur.
+アフリカーンス語	Africana
+アラゴン語	Aragonés
+アラビア語	Arabice
+アッサム語	Assamiensis
+アゼルバイジャン語	Azerbaijanensis
+バシュキール語	Percutere
+ベラルーシ語	Belarusice
+ベンガル語	Bengalensis
+ブルガリア語	Bulgāricus
+ボスニア語	Bosniensis
+カタロニア語	Catalanicus
+チェコ語	Bohemicus
+ウェールズ語	Cambricus
+デンマーク語	Danice
+ドイツ語	Theodiscus
+現代ギリシア語	Graecus hodiernus
+英語	Anglice
+イギリス英語	Britannic
+アメリカ英語	Anglicus Americanus
+エスペラント語	Sperans
+スペイン語	Hispanicus
+エストニア語	Estonicus
+バスク語	Vasconum
+ペルシャ語	Persa
+フィンランド語	Finnicus
+フランス語	Franciscus
+アイルランド語	Hibernicus
+ガリシア語	Gallaecianus
+グァラニ語	Guaraní
+グジャラート語	Gujarati
+ハウサ語	Domus
+ヘブライ語	Hebraice
+ヒンディ語	Sanskrit
+クロアチア語	Croaticus
+ハイチ・クレオール語	Cretensis Haitiana
+ハンガリー語	Hungaricus
+インドネシア語	Indonesius
+イボ語	Lingua Ibo
+アイスランド語	Glaciarium
+イタリア語	Italicus
+日本語	Iaponice
+ジャワ語	Iavanice
+カザフ語	Cazach
+朝鮮語	Coreanus
+クルド語	Curdicum
+キルギス語	Kyrgyz
+ラテン語	Latine
+ルクセンブルク語	Luxemburgesch
+リンガラ語	Lingala
+リトアニア語	Lithuanus
+ラトビア語	Latvianus
+マダガスカル語	Malagasius
+マオリ語	Maori
+マケドニア語	Macedonicus
+マラヤーラム語	Malayalica
+モンゴル語	Mongolicus
+マラーティー語	Marathice
+マレー語	Malayicus
+マルタ語	Maltensis
+ビルマ語	Birmanus
+ネパール語	Nepalensis
+ノルウェー語	Norvegicus
+オランダ語	Batavi
+オック語	Occitan
+オロモ語	Aut
+パンジャーブ語	Punjabice
+ポーランド語	Pols
+パシュトー語	Pascua
+ポルトガリア語	Portuguesia
+ブラジルポルトガル語	Portuguesia Brasiliana
+ヨーロピアンポルトガル語	Portugallica Europaea
+ケチュア語	Inca
+ルーマニア語	Romanice
+ロシア語	Russicus
+サンスクリット語	Lingua Graeca
+スロバキア語	Slovacica
+スロベニア語	Slovensko
+セルビア語	Serbius
+南セソト語	Sesotho Meridionale
+スンダ語	Sundanese
+スウェーデン語	Suecus
+スワヒリ語	Suaheli
+タミル語	Tamulica
+テルグ語	Telugum
+タジク語	Tajikӣ
+タイ語	Thaianus
+トルクメン語	Turcorum
+タガログ語	Linggo
+トルコ語	Turcicus
+タタール語	Tatar
+ウクライナ語	Ukrainicus
+ウルドゥー語	Urdu
+ウズベク語	Usbecus
+ベトナム語	Vietnamiensis
+コサ語	Capillus
+イディッシュ語	Iudaico-Germanice
+簡体中国語	Sinaica Simplificata
+繁体中国語	Sinaica traditionalis
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Navigator quem nunc uteris est versio vetustior quae non iam sustinetur. Ad navigandum tutius et commodius, quaeso, renovā navigatrum tuum ad novissimam versionem.
+不正なリクエストです	Petitio invalida
+画像が見つかりません	Imago non reperta

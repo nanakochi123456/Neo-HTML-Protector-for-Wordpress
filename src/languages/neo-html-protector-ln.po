@@ -1,0 +1,1292 @@
+# Lingala translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 05:45+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Lingala\n"
+"Language: ln\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Bongiseli"
+
+msgid "IPログリーダー"
+msgstr "Motangi ya ba log ya IP"
+
+msgid "IPアドレスログ"
+msgstr "Lisolo ya ba adresi IP"
+
+msgid "全クリア"
+msgstr "Sukisa ba nivo nyonso"
+
+msgid "IPログが全て削除されました"
+msgstr "Balog ya IP nyonso elongolami."
+
+msgid "ID"
+msgstr "Elembo ya koyeba moto"
+
+msgid "タイムスタンプ"
+msgstr "Ekomami na ngonga"
+
+msgid "IPアドレス"
+msgstr "Adresi IP"
+
+msgid "ユーザーエージェント"
+msgstr "Agent ya mosaleli"
+
+msgid "イベント"
+msgstr "Likambo"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ba données ezali te mpo na adresi IP oyo."
+
+msgid "EU GDPR対応"
+msgstr "Botosi na GDPR ya Lisanga ya Mpoto"
+
+msgid "無効"
+msgstr "Ezali te"
+
+msgid "有効"
+msgstr "Endimami"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Soki ozali kosalela WordPress na kati ya Union Européenne, to soki site na yo ezali mpo na bato ya kati ya Union Européenne, soki te, yebisa ete likambo oyo efungwami."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bouton 'Confirmer' ekobongwana na 'Okondima' to 'Okondima te', mpe lolenge ya mosala ekobongwana moke."
+
+msgid "同意画面の色"
+msgstr "Langi ya écran ya ndingisa"
+
+msgid "自動"
+msgstr "Yemɔkɔ"
+
+msgid "ライトモード"
+msgstr "Lolenge ya pɛpɛlɛ"
+
+msgid "ダークモード"
+msgstr "Lolenge ya moindo"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Bongisa lolenge ya balangi ya écran ya ndingisa."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Kopola emonaneli ya makambo na écran ya ndingisa"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Bongisa niveau ya kobebisa bilili mpo na makambo oyo emonanaka na écran ya ndingisa."
+
+msgid "同意画面の透過"
+msgstr "Polele ya écran ya ndingisa"
+
+msgid "透過なし"
+msgstr "Emonani polele te"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Bongisa opacité ya écran ya ndingisa"
+
+msgid "お知らせの1行目"
+msgstr "Ligne ya liboso ya liyebisi"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Message oyo emonanaka ntango nyonso mbala ya liboso lokasa efungwami."
+
+msgid "お知らせの2行目"
+msgstr "Líne ya mibale ya liyébisi"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Message oyo ekomonanaka kaka na écran ya liboso ntango mobeko EU GDPR ekozala na nguvu."
+
+msgid "お知らせの3行目"
+msgstr "Ligne ya misato ya liyebisi"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ekomonana na loboko ya mobali ya lien ya Politiki ya Confidentialité."
+
+msgid "非EU向け確認の文字列"
+msgstr "Tɛ́kɛ́stɛ ya kondimisa mpo na bikólo oyo ezali na kati ya Lisanga ya Mpótó tɛ́"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Lisanga ya makomi mpo na GDPR ya Lisanga ya Mpoto"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Makomi mpo na 'Kondima te' na nse ya GDPR ya Lisanga ya Mpoto"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Mibeko ya kobatela makambo ya moto ye moko"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Tika URL ya politiki ya kobatela makambo ya moto ye moko awa."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Bokisa makambo oyo elandi na Politiki ya Confidentialité."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Mpo na koyeba misala ya bokosi, bilembo lokola ba adresi IP ebombamaka na ba cookies mpe na base de données. Ba données oyo ebombami elongolamaka kolanda ndenge administratere amoni malamu."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Mpo na kondimisa ete bilili etindami malamu tango bobateli na yango efungwami, tobombaka na base de données na biso ba données oyo esalemi hash, oyo ezali na adresi IP mpe nkombo ya fisyé ya elili, kino miniti 60."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Soki ozali kobongisa Mibeko ya bosaleli, tosengi yo otia lien na yango na kati ya Politiki na yo ya kobatela makambo ya moto ye moko."
+
+msgid "利用規約の文字列"
+msgstr "Makomi ya Mibeko ya kosalela"
+
+msgid "利用規約のページ"
+msgstr "Lokasa ya Mibeko mpe Mibombano"
+
+msgid "ページ選択なし"
+msgstr "Lokasa moko te eponami"
+
+msgid "検索エンジン等のURL"
+msgstr "Ba-URL mpo na ba-moteur de recherche, etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Tya URL mpo na ba moteurs de recherche mpe ba sites ya ndenge wana oyo etindaka basali na esika mosusu soki ndingisa epesami te."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Mode ya kobongisa mabunga, bamessage ya likebisi na console"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Kofina na butɔ ya mobali mpo na message ya likebisi"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Liyebisi mpo na konyata mpe kobomba lokola PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Message ya likebisi na elilingi"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Likebisi mpo na ba captures d'écran oyo bakanisi ezali ya mabe."
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Myeso ya likebisi ntango makomi nyonso eponami"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Likebisi mpo na kobomba lokasa"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Message oyo emonanaka ntango ozali kokopola to kokata"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Message ya komonisa ntango ozali kotala source ya HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Message ya komonisa na likoló ya code source ntango ozali kobombana to kobatela HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Message ya komonisa soki token ya authentification ya mbala moko ezali invalide na tango ya protection ya HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Message ya komonisa soki ba cookies to JavaScript bakangami."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Ya solo, oyo emonanaka kaka soki JavaScript ekangami."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Soki elilingi ebatelami, ekitaka, mpe sango emonanaka likolo na yango"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Kobombisa"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Oyo ezali compression ya HTML ya ordinaire; ezali mpe na ba sites internet oyo ekoki ko décoder yango."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Soki ofungoli option oyo, ekopesa yo nzela ya kozwa log ya view-source."
+
+msgid "HTML保護"
+msgstr "Bobateli ya HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ebimisaka kaka HTML ya moboko mpenza—ata moke koleka ndenge esalemaka na compression ya HTML—mpe makambo oyo ezali na kati ya balise BODY ekobima ata moke te."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Oyo etali Firefox te."
+
+msgid "SEOに著しく影響があります"
+msgstr "Oyo ezali na bopusi monene na SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Kobimisa HTML na nzela ya JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Mpo na kosala na Firefox, to-rendre HTML na nzela ya JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Kopesa nzela na JavaScript ete esala ekokitisa makasi lombangu ya kofungwama ya site internet."
+
+msgid "画像の保護"
+msgstr "Bobateli ya elilingi"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Bátela elilingi mbala nyonso oyo tag ya img ebengami."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Bátela bilili nyonso oyo etíami na WordPress na kati ya HTML mobimba oyo ebimi."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Ebatelaka bilili ete bakita yango te"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Tango ba données ya bilili ebatelami, topekisaka pene na ba téléchargements nyonso, topesaka ba URLs ya mbala moko mpe ya moto moko, tondimisaka bosolo ya moto na nzela ya ba tokens oyo ebombami na session, mpe tolakisaka bilili na nzela ya PHP; yango epekisaka mpenza pene na makambo nyonso ya moyibi ya bilili."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Soki ba données ya bilili ebatelami, caching esalaka te, yango elingi koloba ete site ekofungwama malembe na mbala oyo ekoya, mpe yango ezali na bopusi mabe na SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Kobatela ba données ya elilingi ekoki kobakisa mokumba na base de données."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Soki oponi 'Kobatela bilili ntango nyonso tag ya img ebengami', système esalelaka add_filter mpo na kotia filtre ntango tag ya img esalemaka; kasi, yango ekoki kosala malamu te na ba thèmes mosusu."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Soki oponi 'Kobatela bilili nyonso oyo etiyami na WordPress na kati ya HTML mobimba', plugin ekokanga pene na misala nyonso ya WordPress mpe ekosalela tag img mokomoko na kati ya contenu. Yeba ete yango ekoki kosala malamu te na ba thèmes mosusu."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Bóyeba ete bililingi oyo eponami lokola bililingi ya liboso ekokabolama lokola ba données OGP mpe ekoki kobatelama te. Soki esengeli mpenza bóbátela yango, bóbongola réglage ya kobima ya étiquette HEAD na ba paramètres avancés ntango bozali kopesa nzela na bobateli ya HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Mosala ya kokanga elilingi ya écran oyo ezali na kati ya système d'exploitation ekoki kobatelama te."
+
+msgid "画像URLの保護"
+msgstr "Kobatela ba URLs ya bilili"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Esengeli kosalela yango elongo na libateli ya bilili; soki ezali yango moko, ezali na ntina te."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Lokola etiyami na nzela ya JavaScript, yango ezalaka na bopusi na SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Elembo ya elilingi"
+
+msgid "右下"
+msgstr "Na nse na loboko ya mobali"
+
+msgid "ランダム位置"
+msgstr "Esika oyo eponami na zɛro"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Soki esalelami elongo na lolenge ya kobatela bilili, ba filigranes dynamiques emonisaka polele nani azali nkolo ya lotomo, mpe na ngambo mosusu epesaka bato oyo bazali kotala likanisi ete bazali kokengelama, mpe na ndenge wana epekisaka bango bábebisa yango."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Kaka ba formats JPG, PNG mpe WebP nde esimbami."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kofungola yango ekobakisa mokumba na serveur."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Kobimisa bililingi ya ASCII longwa na code source ya HTML na ntango ya kobulunganisa mpe kobatela."
+
+msgid "表示なし"
+msgstr "Ekomonisi eloko te"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Emonisaka bililingi ya ASCII oyo emonisaka likebisi ntango ozali kotala source ya HTML na nzela ya 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Lakisá lolenge tango likambo elukami esalemi."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Conception ya moboko na makomi ya moindo likolo ya fond ya langi ya mosaka."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Conception ya lolenge ya nsɔmɔ na makomi ya motane likolo ya fond ya moindo."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Elilingi oyo ezali na makomi ya motane oyo engɛngaka likolo ya esika ya moindo."
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Miziki ya nsima oyo ebetaka ntango likambo oyo elukami esalemi."
+
+msgid "サウンドなし"
+msgstr "Mongongo ezali te"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Etumba & Elonga - Miniti 1 na segɔnde 16,3 - Bɔyte 630 056 - 64 kbps - Lisansi: CC 2.1 to oyo eleki"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Papa Mokuse - Basegɔnde 3.8 - Ba octets 32,364 - 64 kbps - Lisansi: GPL 2.0 to oyo elandi"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Molai - basegɔnde 23.5 - ba octets 195,578 - 64 kbps - Lisansi: GPL 2.0 to oyo elandi"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – Version programɛ́, version ya mbangu makasi – Miniti 1 na segɔnde 57,6 – Bɔ́yte 724 457 – 48 kbps – Lisansi: CC BY-ND 4.0 to oyo elandi"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo na B-molongo ya moke, Op. 2 – Version esalemi na ordinatere, version mokuse ya mbangu makasi – Miniti 1 na segonde 48,0 – Bytes 665,369 – 48 kbps – Lisansi: CC BY-ND 4.0 to oyo elandi"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Liste: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 segɔnde – 183,926 bɔyte – 64 kbps – Lisansi: Domaine public"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare ya lolenge ya kala – 2.2 segɔnde – 10,536 baitɛ – 32 kbps – Lisansi: Domaine public"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Ebandeli ya lolenge ya kala – 42.1 segɔnde – 179,138 baitɛ – 32 kbps – Lisansi: Domaine public"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Likebisi na ChatGPT - 3.8 segɔnde - 109,700 ba octets - 256 kbps - Lisansi: Domaine public"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Lokito ya likambo ya mbangu makasi lokola alerte ya malware – Eteni ya 1 na ChatGPT – 3.3 segɔnde – 102,850 bytes – 256 kbps – Lisansi: Domaine public"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Lokito ya likambo ya mbangu makasi lokola alerte ya détection ya malware, Eteni ya 2 na ChatGPT - 3.3 secondes - 103,122 bytes - 256 kbps - Lisansi: Domaine public"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Mongongo ya lolenge ya MRI na ChatGPT – miniti 1 na segɔnde 14,9 – 3 340 392 bytes – 320 kbps – Lisansi: Domaine public"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Pona miziki ya nsima oyo ekobeta na tango ya likebisi."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ezalisi ambiance ya kokamwa."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Audio ekangami na Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Benga moke tango likambo oyo elakisami esalami"
+
+msgid "有効 音量小さ目"
+msgstr "Fungola, mongongo moke"
+
+msgid "有効 音量大き目"
+msgstr "Ezali kosala, volume etombwami likolo"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Mongongo ya beep ekobeta mpo na makambo nyonso ya fungola mpe ya souris, ntango likebisi ezali komonana."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Emonanaka lokola aparɛyi ebebi ntango likebisi ezali komonana."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Kobomba curseur ya souris tango likambo moko boye esalami"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Ebombaka curseur ya souris na eteni ya navigateur ntango likebisi ezali komonana."
+
+msgid "デバッグモード"
+msgstr "Mode ya kobongisa mabunga"
+
+msgid "妨害＋記録のみ"
+msgstr "Kopekisa + Ba disques kaka"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Kopekisa + Bokomisi + Komonisa + Bokembisi"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Okoki kaka kokoma na yango na nzela ya menu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Mode ya débugage na Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Esika ya botalisi ya navigateur"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Na bosolo, okoki kosalela yango uta na mode ya debug."
+
+msgid "HTMLソース表示"
+msgstr "Tala source ya HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Okoki kosala opération yango na ndenge ya pete kaka na kokotisa URL oyo ebandi na 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Okoki kobatela contenu na yo na kosangisa yango na bobateli ya HTML."
+
+msgid "印刷"
+msgstr "Kobimisa na papie"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ata epekisaka ko-imprimé, ekoki kosala malamu te na ba navigateurs mosusu."
+
+msgid "スクリーンショット"
+msgstr "Elilingi ya écran"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Kolanda système d'exploitation, navigateur to lolenge oyo esalelami, ekoki kozala ete okoka kopekisa yango te, to mpe ete emonana te."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Emonani lokola screenshot ntango fenetre ekendi na sima."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Esalaka mpe misala misusu longola kaka kokanga bilili ya écran"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Elilingi ya écran oyo bakanisi ete ezuamaki na kofinaka ba touches mibale."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Banzela ya koyeba biloko oyo etangami likolo ezali ya solo mpenza te; koyeba yango esalemaka kaka lokola likambo ya kokeba."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Emonaka kaka te ba captures d'écran, kasi mpe ba modes ya debug mpe biloko ya ndenge wana."
+
+msgid "ページ保存"
+msgstr "Bomba lokasa"
+
+msgid "右クリック"
+msgstr "Finá na butɔ ya mobali"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Soki add-on etiyami, okokoka kosalela yango."
+
+msgid "コピー・カット"
+msgstr "Kopola mpe kokata"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Kolanda ndenge plugin oyo ebongisami, mbala mosusu okokutana na likambo oyo."
+
+msgid "テキスト全選択"
+msgstr "Pona makomi nyonso"
+
+msgid "テキスト選択"
+msgstr "Pona makomi"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Buku ya ebandeli ya debugger, bokangami ya debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Yango ekomisi mode ya debug mwa mpasi moke mpo na kosalela mpe ekomisi likambo ete debugger efungwami; kasi, ba navigateurs mosusu bakoki kopekisa lolenge oyo ya kosala."
+
+msgid "リダイレクトするURL"
+msgstr "Bongola URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Ekozala likanisi ya malamu kotinda basali na nkasa lokola Mibeko ya bosaleli."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Soki etikali mpamba, ekotinda yo na URL ya ebandeli."
+
+msgid "リダイレクトまでの時間"
+msgstr "Ntango kino na redirection"
+
+msgid "リダイレクトなし"
+msgstr "Kozongisa te"
+
+msgid "1秒"
+msgstr "Sekonde moko"
+
+msgid "2秒"
+msgstr "Basegɔnde mibale"
+
+msgid "3秒"
+msgstr "Sekonde misato"
+
+msgid "4秒"
+msgstr "Sekonde minei"
+
+msgid "5秒"
+msgstr "Sekonde mitano"
+
+msgid "6秒"
+msgstr "Sekonde motoba"
+
+msgid "7秒"
+msgstr "Sɛkɔnde nsambo"
+
+msgid "8秒"
+msgstr "Ba segɔnde mwambe"
+
+msgid "9秒"
+msgstr "Sekonde libwa"
+
+msgid "10秒"
+msgstr "Segɔnde zomi"
+
+msgid "15秒"
+msgstr "Segɔnde zomi na mitano"
+
+msgid "20秒"
+msgstr "Sekonde ntuku mibale"
+
+msgid "25秒"
+msgstr "Sekonde ntuku mibale na mitano"
+
+msgid "30秒"
+msgstr "Sekonde ntuku misato"
+
+msgid "35秒"
+msgstr "Sekonde ntuku misato na mitano"
+
+msgid "40秒"
+msgstr "Sekonde ntuku minei"
+
+msgid "45秒"
+msgstr "Segɔnde ntuku minei na mitano"
+
+msgid "50秒"
+msgstr "Segɔnde ntuku mitano"
+
+msgid "55秒"
+msgstr "Segɔnde ntuku mitano na mitano"
+
+msgid "1分"
+msgstr "Minuiti moko"
+
+msgid "1分10秒"
+msgstr "Mokolo moko na basegɔnde zomi"
+
+msgid "1分20秒"
+msgstr "Minuiti moko na basegɔnde ntuku mibale"
+
+msgid "1分30秒"
+msgstr "Minuiti moko na basekondi ntuku misato"
+
+msgid "1分40秒"
+msgstr "Mokolo moko na basegɔnde ntuku minei"
+
+msgid "1分50秒"
+msgstr "Mokolo moko na basegɔnde ntuku mitano"
+
+msgid "2分"
+msgstr "Minuti mibale"
+
+msgid "ソース表示を許可する権限"
+msgstr "Ndanga ya kotala code source"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Ebima ya normal kaka soki okoti lokola ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Ebimeli ya normal ya source tango okoti lokola USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Pona soki ebimeli ya HTML ya momeseno ezali kaka mpo na ba-administrateurs to esengaka kokota na compte."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Kopusa elilingi ekita mpe oyo ekitaka mpenza"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Elilingi ya pixel moko na moko, ya komonana na nsima, na format GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Elilingi ya pixel moko na moko, ya komonana na nsima, na format PNG."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ekran ya likebisi na fond ya langi ya mosaka na format PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Dokima ya HTML oyo ezangi ntina"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Ebimeli ya tag HEAD tango HTML ebatelami"
+
+msgid "出力しない"
+msgstr "Kobimisa na papie te"
+
+msgid "TITLEタグのみ"
+msgstr "Etikɛti ya titre kaka"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Ezwami na etikɛ́ta HEAD ya WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Mpo na nkasa ya basangani mpamba mpo na misala ya kompani mpe nkasa ya kati, kopona 'Do not output' to 'TITLE tag only' ekoki."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Soki ozwi te bansango yango na kati ya tag HEAD ya WordPress, elilingi ya OGP ekobima te tango okokabola na ba réseaux sociaux."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Kanga bot ya elilingi"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Na kopekisa ba bots ya bilili bákota na HTML, okoki kobatela biloko oyo ekokaki kobatelama te liboso ya kokangisa yango mbala moko na nzela ya bolukiluki ya bilili; kasi, yango epesi solution ya mobimba te."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Kanga nzela ya kokɔta na bot ya AI ya koyekola"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Na kokima kosalela ba bots oyo esalemi mpo na koyekolisa AI na HTML, tosali ete AI esalela makambo yango te; kasi, yango ekoki kopekisama mobimba te."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Kanga nzela na ba archives ya web mpe ba snapshots ya web."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Topekisi bokoti na ba archives ya web oyo ezwamaka na lolenge ya automatique mpe na ba captures d'écran oyo mosaleli azwi na ndingisa na ye moko; kasi, tokoki kopekisa yango mobimba te."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Kanga ba agents ya mosaleli oyo endimami te"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Epekisi bokoti soki molongo ya agent ya mosaleli ezali na bilembo oyo endimami te."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Kolakisa likebisi ntango okofungola Internet Explorer mpe Microsoft Edge ya kala"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Epekisaka bokoti na nzela ya Internet Explorer mpe Microsoft Edge ya kala."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lokota oyo ba messages ya likebisi emonanaka na yango"
+
+msgid "Wordpressの言語"
+msgstr "Nkota ya WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Réglage ya monoko ya navigateur"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Okoki te kobongola lokota soki bamessage ebongolamaki."
+
+msgid "同意画面の言語"
+msgstr "Lokota ya écran ya kondima"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lokota ya komonisa sango 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Mokolo ya suka ya ba jetons ya ntango mokuse"
+
+msgid "3分"
+msgstr "Miniti misato"
+
+msgid "4分"
+msgstr "Miniti minei"
+
+msgid "5分"
+msgstr "Miniti mitano"
+
+msgid "6分"
+msgstr "Miniti motoba"
+
+msgid "7分"
+msgstr "Miniti nsambo"
+
+msgid "8分"
+msgstr "Miniti mwambe"
+
+msgid "9分"
+msgstr "Miniti libwa"
+
+msgid "10分"
+msgstr "Miniti zomi"
+
+msgid "15分"
+msgstr "Miniti zomi na mitano"
+
+msgid "20分"
+msgstr "Miniti ntuku mibale"
+
+msgid "25分"
+msgstr "Miniti ntuku mibale na mitano"
+
+msgid "30分"
+msgstr "Miniti ntuku misato"
+
+msgid "35分"
+msgstr "Miniti ntuku misato na mitano"
+
+msgid "40分"
+msgstr "Miniti ntuku minei"
+
+msgid "45分"
+msgstr "Miniti ntuku minei na mitano"
+
+msgid "50分"
+msgstr "Miniti ntuku mitano"
+
+msgid "55分"
+msgstr "Miniti ntuku mitano na mitano"
+
+msgid "1時間"
+msgstr "Ngonga moko"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Tya date ya suka mpo na bansango ya URL ya elilingi"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Soki etíami, URL ya elilingi ná token ya ntango mokɛ́ bakozala lisusu ya kosalela te."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Bilili ekotíyama soki moto asɛngi, kasi ekotíyama yango moko na ba segɔnde 30 liboso ya ngonga oyo elobami."
+
+msgid "一時使用トークンのビット数"
+msgstr "Motango ya ba bits na kati ya token ya ntango mokuse"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Toke ya ntango mokuse esalelamaka lokola liloba ya sekele mpo na kobomba na sekele bansango ya URL ya elilingi; réglage oyo elakisaka makasi na yango."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Ata soki maponi oyo emonisami na nse ya menu déroulant ekomi na ba détails mingi, yango ekoki kotia mokumba monene na serveur mpe kosala ete volume monene ya ba données HTML etindama."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algorithme ya hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token ya ntango mokuse esalelamaka lokola mot de passe mpo na kobomba na sekre ba informations ya URL ya elilingi; yango esengaka kosala hashing, mpe réglage oyo nde etalisaka makasi ya hashing wana."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Ata soki makasi ezali komata ntango ozali kokita na nse na kati ya maponi oyo emonanaka na menu oyo ekweyaka, yango etie mokumba monene koleka likolo ya serveur."
+
+msgid "基本設定"
+msgstr "Biregladure ya moboko"
+
+msgid "高度な設定"
+msgstr "Ba paramètres ya avansé"
+
+msgid "初期設定に戻す"
+msgstr "Zongisa ba paramètres par défaut"
+
+msgid "デザイン・音の設定"
+msgstr "Conception mpe ba réglages ya mongongo"
+
+msgid "イベントの設定"
+msgstr "Bopɛngami ya likambo"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Kobongisa mayebisi mpo na mbala ya liboso ya bokoti"
+
+msgid "メッセージの設定"
+msgstr "Bopɛngami ya sango"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Bongisa URL oyo ekotindama soki ofini na butɔ ya mobali to ozali kotala code source."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML ekoki kosalelama te na bamessage ya likebisi."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Soki obongisi yango na écran oyo, ba paramètres ya monɔkɔ na onglet Avancé bakotala yango te."
+
+msgid "以下の文字列が使用できます"
+msgstr "Ba chaînes oyo elandi ekoki kosalelama"
+
+msgid "改行"
+msgstr "Kokatana ya molongo"
+
+msgid "押下されたキー"
+msgstr "Fungola efinami"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Bopɛngɔli ya Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Likebisi"
+
+msgid "メッセージ"
+msgstr "Sango"
+
+msgid "デザイン・音"
+msgstr "Conception mpe Mongongo"
+
+msgid "初期化"
+msgstr "Ebandeli"
+
+msgid "このプラグインについて"
+msgstr "Mpo na plugin oyo"
+
+msgid "設定が初期化されました"
+msgstr "Ba paramètres ezongisami na ndenge ezalaki."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Banda plugin. Yeba ete ba données ya IP Log Reader ekolongolama te na etape oyo."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Mpo na Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Plugin oyo esalemi mpo na kobatela HTML, bililingi mpe biloko mosusu oyo site na yo ya WordPress ebimisaka, mpe kokengela yango mpo bato oyo bazangi ndingisa basalela yango te."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Eza mpasi kobatela makambo nyonso mobimba. Kasi, na kopesaka mayebisi esika nyonso ekoki mpe na komibongisaka soki likambo moko esalami, tokoki kosilisa likambo yango kolanda mibeko oyo guvɛnɛmá etie."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Ya solo, esengeli omindimisa ete mibeko ya bosaleli mpe mibeko ya site na yo ezali ya mobimba. Ata soki plugin oyo ezali esaleli te mpo na kobimisa mibeko ya bosaleli, ekoki kopesa mwa toli."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Mosali: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Lolenge"
+
+msgid "ビルド"
+msgstr "Tonga"
+
+msgid "サポートページ"
+msgstr "Lokasa ya lisungi"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Ebetami na Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Lisɛngi ya lisungi"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Matondi mpo na kosalela Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Kobongisa mpe kobatela plugin oyo esɛngaki ntango mpe milende mingi, mpe mpo na koluka mbongo ya kokoba kobongisa mpe ko-mis à jour yango, tokosepela mingi soki moto nyonso oyo akoki kosunga akanisi kopesa likabo."
+
+msgid "寄付について"
+msgstr "Mpo na makabo"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Makabo ezali ya bolingo mpamba, ezali likambo ya kotosa te. Plugin oyo ezali ofele mpo na moto nyonso. Kasi, lisungi na bino ezali na motuya mingi mpo na kosalisa biso tokoba na bokeli, mpe tokosepela mingi soki bokoki kopesa ata moke."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Okoki kopesa likabo na nzela ya lien oyo ezali na nse. Soki ofandi na Japon, okoki kopesa likabo ofele, mpe lisusu okoki kopesa yango na pɛtɛɛ na kosaleláká ba bons ya likabo ya Amazon."
+
+msgid "寄付先"
+msgstr "Misala ya bolamu"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Na lisungi na bino, tokosala nyonso mpo na kokoba kopesa bino basango ya kitoko!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Totondi bino mpo na lisungi na bino mpe tozali kozela ete bokokoba kosunga biso na mikolo mizali koya."
+
+msgid "ライセンス"
+msgstr "Lisansi"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Plugin oyo esalemi lokola logiciel open source mpe eza na licence ya GPLv2.0 to oyo ekoya sima."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Bitéknolojí mosusu oyo ezali na kati ya plugin oyo ebatelami na ba brevet."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Bosaleli ya tekiniki oyo ezali na brevet endimami kaka na kati ya plug-in oyo."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Mpo na bosaleli mosusu nyonso, soki okosepela, benga mokomi mpo na kozwa ndingisa ya mombongo."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Plugin oyo ezali na ba bibliothèques oyo elandi"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Plugin oyo ezali na ba polices ya art ASCII oyo esalemi na nse, elongo na ba fichiers na yango."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Plugin oyo ezali na miziki ya lisano ya Super Famicom oyo endimami na ofisiele te, 'SM Trainer Hitomi 3', oyo esalemaki na EJ Co., Ltd. mpe ebongisamaki na mokeli ya plugin oyo, mpe ezali na ndingisa ya ofisiele."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Plugin oyo ezali na ba pistes oyo esalemi na 'Keppy's YAMAHA C7', oyo ebongisami na Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Nasálelaki mpe Raspberry Pi 5, ChatGPT ná DeepL mpo na bokeli ya plugin oyo."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugin ya caching emonani. Plugin oyo ekosala malamu te soki plugin ya caching efungwami."
+
+msgid "無効なIPアドレス"
+msgstr "Adresi ya IP ebongi te"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Mpo na kosalela site internet oyo, esengeli ofungola ba cookies mpe JavaScript."
+
+msgid "利用規約"
+msgstr "Mibeko ya bosaleli"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Mpo na kopekisa bosaleli ya kozanga ndingisa mpe mpo misala na biso etambola na kimya, site internet oyo ekoki kobomba bansango lokola ba adrɛsi IP, lisolo ya botamboli na internet mpe bilembo ya misala na kati ya ba cookies mpe ba bases de données. Bansango oyo esalelamaka kaka mpo na botamboli ya site internet mpe mpo na makambo ya mibeko, mpe ekopesama te na bato to bibongiseli mosusu."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Mpo na kosalela service oyo, esengeli ondima misala oyo ya traitement."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Okoki kotala makambo oyo ezali na kati ya Politiki ya Confidentialité, ata soki ondimaki to te."
+
+msgid "同意する"
+msgstr "Nandimi"
+
+msgid "同意しない"
+msgstr "Nandimi te"
+
+msgid "確認"
+msgstr "Kondimama"
+
+msgid "プライバシーポリシー"
+msgstr "Mibeko ya kobatela makambo ya moto ye moko"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Bakutani na bokoti to misala oyo emesana te."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Makambo mosusu bakangi yango mpo na ntina ya bokengi mpe mpo na kobatela makambo oyo ezali na kati."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mode ya debug mpe accès na console bakangami."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Bansango oyo elandi etindami na serveur."
+
+msgid "あなたのIPアドレス"
+msgstr "Adresi na yo ya IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Esaleli na yo mpe navigateur na yo"
+
+msgid "あなたの押下したキー"
+msgstr "Fungu oyo ofinaki"
+
+msgid "リダイレクトをします"
+msgstr "Bokozongisama"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Makambo mosusu epekisami mpo na kobatela biloko ya kati."
+
+msgid "右クリックは禁止されています"
+msgstr "Kofina na butɔ ya mobali epekisami."
+
+msgid "あなたが押下したキー"
+msgstr "Fungu oyo ofinaki"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Kopɛsa na papíɛ́ mpe kobomba lokola PDF epekisami."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Kokanga bilili ya écran epekisami."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Kozwa ba captures d'écran mpe kofungola mode ya debug epekisami."
+
+msgid "ページの保存は禁止されています"
+msgstr "Kobomba lokasa oyo epekisami"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kokopola mpe kokata epekisami."
+
+msgid "あなたが起こしたイベント"
+msgstr "Makambo oyo obongisaki"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Kopona makomi epekisami."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Kolakisa code source ya HTML epekisami."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Kokɔta kozanga ndingisa epekisami."
+
+msgid "アフリカーンス語"
+msgstr "Lifalanse"
+
+msgid "アラゴン語"
+msgstr "Liloba ya Aragon"
+
+msgid "アラビア語"
+msgstr "Arabe"
+
+msgid "アッサム語"
+msgstr "Assamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Azéri"
+
+msgid "バシュキール語"
+msgstr "Kobɛta"
+
+msgid "ベラルーシ語"
+msgstr "Moto ya Biélorussie"
+
+msgid "ベンガル語"
+msgstr "Bengali"
+
+msgid "ブルガリア語"
+msgstr "Bulgare"
+
+msgid "ボスニア語"
+msgstr "Moto ya Bosnie"
+
+msgid "カタロニア語"
+msgstr "Catalan"
+
+msgid "チェコ語"
+msgstr "Tchéque"
+
+msgid "ウェールズ語"
+msgstr "Moto ya Pays de Galles"
+
+msgid "デンマーク語"
+msgstr "Danemarkais"
+
+msgid "ドイツ語"
+msgstr "Alɛ́mã"
+
+msgid "現代ギリシア語"
+msgstr "Gɛ́rɛ́kɛ ya mikolo oyo"
+
+msgid "英語"
+msgstr "Lolenge ya Lingelesi"
+
+msgid "イギリス英語"
+msgstr "Anglais Britannique"
+
+msgid "アメリカ英語"
+msgstr "Anglais ya Amerika"
+
+msgid "エスペラント語"
+msgstr "Lolenge ya elikya"
+
+msgid "スペイン語"
+msgstr "Espagnol"
+
+msgid "エストニア語"
+msgstr "Moto ya Estonie"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Perse"
+
+msgid "フィンランド語"
+msgstr "Finlandɛ́ɛ"
+
+msgid "フランス語"
+msgstr "Molɔ́kɔ́lɔ́"
+
+msgid "アイルランド語"
+msgstr "Irlandais"
+
+msgid "ガリシア語"
+msgstr "Ya Galice"
+
+msgid "グァラニ語"
+msgstr "Mboka ya Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Mokili"
+
+msgid "ヘブライ語"
+msgstr "Ebre"
+
+msgid "ヒンディ語"
+msgstr "Na monɔkɔ ya Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroat"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyòl Ayisyen"
+
+msgid "ハンガリー語"
+msgstr "Moto ya Hongrie"
+
+msgid "インドネシア語"
+msgstr "Indonésien"
+
+msgid "イボ語"
+msgstr "Lolobé ya Ibo"
+
+msgid "アイスランド語"
+msgstr "Mokili ya glace"
+
+msgid "イタリア語"
+msgstr "Motaliano"
+
+msgid "日本語"
+msgstr "Ya Japon"
+
+msgid "ジャワ語"
+msgstr "Ya Java"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Koréya"
+
+msgid "クルド語"
+msgstr "Kurdí"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Lokseburguá"
+
+msgid "リンガラ語"
+msgstr "Lokola"
+
+msgid "リトアニア語"
+msgstr "Litoani"
+
+msgid "ラトビア語"
+msgstr "Leta"
+
+msgid "マダガスカル語"
+msgstr "Mala-gasy"
+
+msgid "マオリ語"
+msgstr "Ba-Māori"
+
+msgid "マケドニア語"
+msgstr "Masedonɛ́"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongolien"
+
+msgid "マラーティー語"
+msgstr "Mpɛmbɛ"
+
+msgid "マレー語"
+msgstr "Molayi"
+
+msgid "マルタ語"
+msgstr "Malté"
+
+msgid "ビルマ語"
+msgstr "Birmana"
+
+msgid "ネパール語"
+msgstr "Népalais"
+
+msgid "ノルウェー語"
+msgstr "Moto ya Norvège"
+
+msgid "オランダ語"
+msgstr "Ya Hollande"
+
+msgid "オック語"
+msgstr "Okitani"
+
+msgid "オロモ語"
+msgstr "Mpunda"
+
+msgid "パンジャーブ語"
+msgstr "Panjabi"
+
+msgid "ポーランド語"
+msgstr "Kopangusa"
+
+msgid "パシュトー語"
+msgstr "Pɔ́sɔ"
+
+msgid "ポルトガリア語"
+msgstr "Portugais"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portugais ya Brésil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugais ya Mpoto"
+
+msgid "ケチュア語"
+msgstr "Ndenge"
+
+msgid "ルーマニア語"
+msgstr "Moto ya Roumanie"
+
+msgid "ロシア語"
+msgstr "Lolenge ya Russe"
+
+msgid "サンスクリット語"
+msgstr "Liloba ya Latin"
+
+msgid "スロバキア語"
+msgstr "Slovaiki"
+
+msgid "スロベニア語"
+msgstr "Slovéne"
+
+msgid "セルビア語"
+msgstr "Serbe"
+
+msgid "南セソト語"
+msgstr "Sudi ya Sesotho"
+
+msgid "スンダ語"
+msgstr "Basanzí ya Sunda"
+
+msgid "スウェーデン語"
+msgstr "Suédois"
+
+msgid "スワヒリ語"
+msgstr "Sualia"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Télougou"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Tɛ́ɛ́lɛ́"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Lokota ya Tagalog"
+
+msgid "トルコ語"
+msgstr "Turc"
+
+msgid "タタール語"
+msgstr "Mbɛbu"
+
+msgid "ウクライナ語"
+msgstr "Moto ya Ukraine"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Ouzbeki"
+
+msgid "ベトナム語"
+msgstr "Vietnamɛ́"
+
+msgid "コサ語"
+msgstr "Libunga"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Chinois simplifié"
+
+msgid "繁体中国語"
+msgstr "Limonɔkɔ ya bonkɔ́kɔ ya Chine"
+
+msgid "ズールー語"
+msgstr "Mbote"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Navigatɛrɛ oyo ozali kosalela ezali version ya kala oyo lisusu esungami te. Mpo na kozala na expérience ya kotambola na internet ya libateli mpe ya malamu koleka, tosengi yo osala mise à jour ya navigatɛrɛ na yo na version na yango ya sika."
+
+msgid "不正なリクエストです"
+msgstr "Esɛngi ya libela te"
+
+msgid "画像が見つかりません"
+msgstr "Elilingi emonani te"
+

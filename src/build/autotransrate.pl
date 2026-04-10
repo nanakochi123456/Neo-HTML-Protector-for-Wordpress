@@ -1,15 +1,12 @@
 #!/usr/bin/env perl
 # autotransrater
-# https://github.com/yotiosoft/dptran/blob/main/README_JA.md
 
 use strict;
 use warnings;
 use Getopt::Long;
 use POSIX qw(strftime);
 
-#my $DPTRAN='~/.cargo/bin/dptran';
 my $DPTRAN='/usr/bin/php build/deepl.php';
-my $DPTRAN_USAGE=$DPTRAN . ' -u';
 
 my $input_file="";
 my $cache_file="";
@@ -63,7 +60,6 @@ if($from_table->{lang} ne "") {
 
 print STDERR "-----------------------------------------------\n";
 print STDERR "autotranslate $from_lang to $to_lang\n";
-#print STDERR `$DPTRAN_USAGE` . "\n";
 
 &topbanner($from, $to, $input_file, $table_file, $package_name, $email, $version);
 &pottransrate($from, $to, $table_file, $input_file, $cache_file);

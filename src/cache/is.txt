@@ -1,0 +1,424 @@
+設定	Stillingar
+IPログリーダー	IP-skráningarlestari
+IPアドレスログ	Skrá yfir IP-tölur
+全クリア	Ljúktu öllum stigum
+IPログが全て削除されました	Allir IP-dagbókarfærslur hafa verið eytt
+ID	Auðkenni
+タイムスタンプ	Tímastimpill
+IPアドレス	IP-tala
+ユーザーエージェント	Notendaboði
+イベント	Viðburður
+IPアドレスのデータはありません	Engin gögn eru til fyrir þessa IP-tölu.
+EU GDPR対応	Samræmi við GDPR ESB
+無効	Ógilt
+有効	Gildur
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Ef þú notar WordPress innan ESB, eða ef vefsíðan þín beinist að notendum innan ESB, vinsamlegast vertu viss um að þetta sé virkjað.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Hnappurinn "Staðfesta" mun breytast í "Samþykkja" eða "Synja", og hegðunin mun breytast örlítið.
+同意画面の色	Litur samþykkisskjásins
+自動	Sjálfvirkur
+ライトモード	Léttur hamur
+ダークモード	Dimmur hamur
+同意画面表示中の配色を設定します	Settu litaskemað fyrir samþykkisskjalið
+同意画面中のコンテンツのぼかし	Óskýrleiki efnis á samþykkisskjánum
+同意画面表示中のコンテンツのぼかし具合を設定します	Stilla óskýrleika stigs fyrir efni sem birtist á samþykkisskjánum
+同意画面の透過	Gagnsæi samþykkisskjásins
+透過なし	Engin gagnsæi
+同意画面の透過具合を設定します	Stilla gagnsæi samþykkisskjárins
+お知らせの1行目	Fyrsta lína tilkynningarinnar
+初回表示で必ず表示されるメッセージです	Þessi skilaboð birtast alltaf í fyrsta sinn sem síðunni er hlaðið.
+お知らせの2行目	Önnur línan í tilkynningunni
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Þessi skilaboð munu alltaf birtast á fyrstu skjánum aðeins þegar GDPR ESB er í gildi.
+お知らせの3行目	Þriðja línan í tilkynningunni
+プライバシーポリシーのリンクの右側に表示されます	Það mun birtast til hægri við hlekkinn á persónuverndarstefnuna.
+非EU向け確認の文字列	Staðfestingartexti fyrir lönd utan ESB
+EU GDPR向け同意するの文字列	Samþykkistexti fyrir ESB persónuverndarreglugerðina
+EU GDPR向け同意しないの文字列	Texti fyrir "Ekki veita samþykki" samkvæmt GDPR ESB
+プライバシーポリシーの文字列	Texti persónuverndarstefnu
+プライバシーポリシーのURLはこちらから設定して下さい	Settu hér vefslóð persónuverndarstefnunnar.
+プライバシーポリシーには以下の内容を追加して下さい	Vinsamlegast bætið eftirfarandi við persónuverndarstefnuna.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Til að greina sviksamlega starfsemi eru auðkenni, svo sem IP-tölur, vistuð í smákökum og gagnagrunnum. Geymd gögn eru eytt eftir hentisemi stjórnanda.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Til að tryggja að myndir séu afhentar rétt aðeins þegar myndavörn er virk, geymum við hashuð gögn sem innihalda IP-tölu og myndaskránaverknafn í gagnagrunninum í allt að 60 mínútur.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ef þú ert að setja upp notkunarskilmála, vinsamlegast tryggðu að þú bætir við hlekk á þá í persónuverndarstefnu þinni.
+利用規約の文字列	Texti notkunarskilmála
+利用規約のページ	Skilmálar og skilyrði síða
+ページ選択なし	Engin síða valin
+検索エンジン等のURL	URL-slóðir fyrir leitarvélar o.s.frv.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Settu slóðina fyrir leitarvélar og svipuð vefsvæði sem vísa notendum áfram þegar samþykki er ekki veitt.
+デバッグモード、コンソールの警告メッセージ	V villuleitarhamur, viðvörunarboð á konsólunni
+右クリックの警告メッセージ	Hægri-smelltu viðvörunarboðskap
+印刷、PDF保存の警告メッセージ	Viðvörunarboð um prentun og vistun sem PDF
+スクリーンショットの警告メッセージ	Viðvörunarboðskapur í skjámyndinni
+スクリーンショットの疑いの警告メッセージ	Viðvörunarboð um grunsamleg skjámyndir
+テキスト全選択時の警告メッセージ	Viðvörunarboðskapur þegar allt textinn er valið
+ページ保存の警告メッセージ	Viðvörunarboð um síðusparnað
+コピー・カットした時に表示するメッセージ	Skilaboð sem birtast þegar afritað er eða skorið
+HTMLソース表示時に表示するメッセージ	Skilaboð sem birtast þegar skoðað er HTML-uppspretta
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Skilaboð sem birtast efst í upphafskóðanum þegar HTML er þokað eða verndað
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Skilaboð sem birtast ef einnota auðkennislykillinn er ógildur við HTML-vernd
+CookieやJavascriptが有効でない場合に表示するメッセージ	Skilaboð sem birtast ef vafrakökur eða JavaScript eru óvirk
+実際にはJavascriptが無効時のみ表示されます	Reyndar er þetta aðeins sýnt þegar JavaScript er óvirkjað.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Þegar mynd er vernduð er hún sótt og skilaboð birt á myndinni
+HTML難読化 (圧縮)	HTML-óskýrleiki
+一般的なHTML圧縮です、難読化解除のサイトもあります	Þetta er staðlað HTML-þjöppun; það eru líka vefsíður sem geta afkóðað hana.
+このオプションを有効にするとview-sourceのログが取得できます	Með því að virkja þessa valkost leyfirðu þér að sækja view-source-skráningar.
+HTML保護	HTML-vernd
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Það framleiðir aðeins hið allra nauðsynlegasta af HTML—jafnvel minna en þegar HTML-þjöppun er notuð—og efnið innan BODY-merkisins verður alls ekki birt.
+Firefoxに対しては無効です	Þetta á ekki við um Firefox.
+SEOに著しく影響があります	Þetta hefur veruleg áhrif á SEO.
+HTMLをJavaScriptで描画	Sýna HTML með JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Til að komast hjá Firefox rennum við HTML-ið með JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Að virkja JavaScript-sýningu mun verulega hægja á hleðsluhraða vefsíðunnar.
+画像の保護	Myndavernd
+imgタグが呼び出されるごとに画像を保護	Verndaðu myndina í hvert sinn sem img-merkið er kallað.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Verndaðu allar myndir sem hlaðnar eru upp í WordPress innan alls HTML-útputsins.
+画像をダウンロードから保護します	Verndar myndir gegn niðurhali
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Þegar myndagögn eru vernduð hindrum við nánast allar niðurhal, útveguðum einstakar einnota vefslóðir, auðkennum með tokenum sem eru geymd í lotunni og birtum myndirnar í gegnum PHP; þetta kemur í raun í veg fyrir nánast alla myndastuld.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Þegar myndagögn eru vernduð virkar skyndiminni ekki, sem þýðir að vefsvæðið hleðst hægar við endurkomur og hefur þar með áhrif á SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Verndun myndagagna getur aukið álagið á gagnagrunninn.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Ef þú velur 'Verndar myndir hvenær sem img-merki er kallað', notar kerfið add_filter til að beita síun þegar img-merki er búið til; þó gæti þetta ekki virkað rétt með sumum þemum.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Ef þú velur 'Verndar allar myndir sem hlaðnar eru inn í WordPress í allri HTML-útgáfu', mun viðbótin fanga nánast allar WordPress-aðgerðir og vinna úr hverri img-tagg innan efnisins. Vinsamlegast athugið að þetta gæti ekki virkað rétt með sumum þemum.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Vinsamlegast athugið að myndir sem merktar eru sem aðalmyndir verða deilt sem OGP-gögn og er ekki hægt að vernda þær. Ef þið verðið endilega að vernda þær, breyttu stillingunni fyrir HEAD-merki í háþróuðum stillingum þegar HTML-vernd er virkjuð.
+OS標準搭載のスクリーンショット機能を保護することはできません	Skjámyndatökuaðgerðin sem er innifalin sem staðalbúnaður í stýrikerfinu er ekki hægt að vernda.
+画像URLの保護	Verndun mynda-URL-slóða
+画像の保護と組み合わせて使用します、単体では意味がありません	Þetta skal nota í samspili við myndavörn; eitt og sér hefur það engan tilgang.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Þar sem það er hlaðið letilega í gegnum JavaScript, hefur þetta áhrif á SEO.
+画像のウォーターマーク	Myndvatnsmerki
+右下	Neðst til hægri
+ランダム位置	Handahófskennd staða
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Þegar notaðar eru í tengslum við myndavörn sýna hreyfanleg vatnsmerki skýrt hver hefur höfundarréttinn og gefa áhorfendum til kynna að verið sé að fylgjast með þeim, sem hefur fælingarhrif.
+JPG形式、PNG形式、WebP形式のみ対応します	Aðeins JPG-, PNG- og WebP-snið eru studd.
+有効にするとサーバーの負荷が高くなります	Að virkja þetta mun auka álagið á netþjóninum.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Úttak ASCII-listar úr HTML-upphafskóða við HTML-óskýringu og verndun
+表示なし	Engin skjástilling
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Sýnir ASCII-list sem gefur til kynna viðvörun þegar skoðað er HTML-uppspretta með 'view-source'.
+対象アクションを起こした時の表示デザイン	Sýna hönnun þegar markaðar aðgerðar er framkvæmt
+黄色の背景の黒文字のベーシックデザイン	Grunnleg hönnun með svörtum texta á gulum bakgrunni
+黒色の背景の赤文字のホラー風デザイン	Hrollvekjandi hönnun með rauðum stöfum á svörtum bakgrunni
+黒色の背景の赤文字の光る文字のデザイン	Hönnun með glóandi rauðum texta á svörtum bakgrunni
+対象アクションを起こした時のBGM	Bakgrunnstónlist sem spilar þegar markaða aðgerðin er framkvæmd
+サウンドなし	Enginn hljómur
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Orrustan og sigurinn - 1 mínúta 16,3 sekúndur - 630.056 bæti - 64 kbps - Leyfi: CC 2.1 eða nýrra
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Pabbi stuttur - 3,8 sekúndur - 32.364 bæti - 64 kbps - Leyfi: GPL 2.0 eða nýrra
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 sekúndur - 195.578 bæti - 64 kbps - Leyfi: GPL 2.0 eða nýrra
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 12 "Bylting" – tölvugerð útgáfa, hraðútgáfa – 1 mínúta 57,6 sekúndur – 724.457 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo í B-dúr minór, Op. 2 – tölvugerð útgáfa, hraðskorin útgáfa – 1 mínúta 48,0 sekúndur – 665.369 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Listi: Étude d'Exécution Transcendante nr. 4, "Mazeppa" – tölvugerð útgáfa, hraðskorin útgáfa – 1 mínúta 51,6 sekúndur – 687.586 bæti – 48 kbps – Leyfi: CC BY-ND 4.0 eða nýrra
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 sekúndur – 183.926 bæti – 64 kbps – Leyfi: Almannaréttur
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro-stíl hátíðarsveifla – 2,2 sekúndur – 10.536 bæti – 32 kbps – Leyfi: Almannaréttur
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro-stíls inngangur – 42,1 sekúndur – 179.138 bæti – 32 kbps – Leyfi: Almannasafn
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Viðvörun frá ChatGPT - 3,8 sekúndur - 109.700 bæti - 256 kbps - Leyfi: Almenningseign
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Hljóð af mikilli forgangi sem hljómar eins og viðvörun um spilliforrit – 1. hluti eftir ChatGPT – 3,3 sekúndur – 102.850 bætir – 256 kbps – Leyfi: Almannasafn
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Háttskyndur hljómur sem hljómar eins og viðvörun um spilliforrit, 2. hluti eftir ChatGPT - 3,3 sekúndur - 103.122 bæti - 256 kbps - Leyfi: Almenningseign
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI-stíll hljóð eftir ChatGPT – 1 mínúta 14,9 sekúndur – 3.340.392 bæti – 320 kbps – Leyfi: Almenningseign
+警告表示中のBGMを選択します	Veldu bakgrunnstónlist sem á að spila á meðan varaun er í gangi.
+びっくりするような雰囲気を作ります	Það skapar óvænt andrúmsloft
+Firefoxでは音声ブロックされます	Hljóð er lokað í Firefox
+対象アクションを起こした時のビープ音	Píp þegar tilgreind aðgerð er framkvæmd
+有効 音量小さ目	Á, hljóðstyrkur lágur
+有効 音量大き目	Í gangi, hljóðstyrkur stilltur á hátt
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Píp hljómar fyrir öll lyklaborðs- og músaratburði á meðan viðvörun er sýnd.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Það gefur til kynna að tækið hafi farið úr böndunum á meðan viðvörunin er sýnd.
+対象アクションを起こした時のマウスカーソルの消去	Fela músbendilinn þegar tilteknum aðgerð er framkvæmd
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Fylkir músvísarann í vafrasvæðinu á meðan viðvörun er sýnd
+デバッグモード	V villuleitarhamur
+妨害＋記録のみ	Truflun + Plötur einungis
+妨害＋記録＋表示＋リダイレクト	Truflun + Skráning + Skjá birting + Endurbeining
+メニューからは操作できてしまいます	Þú getur enn fengið aðgang að því í valmyndinni.
+Firefoxにおけるデバッグモード	V villuleitarhamur í Firefox
+ブラウザーコンソール	Vafraferill
+事実上デバッグモードから操作できてしまいます	Í raun geturðu keyrt það í villuleitarham.
+HTMLソース表示	Skoða HTML-uppsprettukóðann
+view-source:から始まるURLを入力すれば操作できてしまいます	Þú getur framkvæmt aðgerðina einfaldlega með því að slá inn vefslóð sem byrjar á 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Þú getur verndað efnið þitt með því að sameina þetta við HTML-vernd.
+印刷	Prenta
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Þó að það hindri prentun gæti það ekki virkað rétt í sumum vöfrum.
+スクリーンショット	Skjámynd
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Fer eftir stýrikerfi, vafraviðmóti eða aðferð sem notuð er, gæti ekki verið hægt að hindra þetta eða það gæti ekki verið greint.
+ウインドウが背面に移動した時スクリーンショットの疑い	Grunað skjámynd þegar glugginn fer í bakgrunn
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Það bregst einnig við öðrum aðgerðum en skjámyndatöku
+2キー押下のスクリーンショットの疑い	Grunað skjámynd tekin með því að ýta á tvær takkar
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Greiningaraðferðirnar fyrir ofangreind atriði eru ekki fullkomlega áreiðanlegar; greining er framkvæmd sem varúðarráðstöfun.
+スクリーンショットだけではなく、デバッグモード等も検出します	Það greinir ekki aðeins skjámyndir heldur einnig villuleitarmöguleika og þess háttar.
+ページ保存	Vista síðu
+右クリック	Hægri-smelltu
+アドオンがインストールされていると操作できてしまいます	Ef viðbótin er uppsett, munt þú geta notað hana.
+コピー・カット	Afrita og klippa
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Fer eftir stillingum þessa viðbótar gætir þú sjaldan rekist á þennan atburð.
+テキスト全選択	Veldu allt textann
+テキスト選択	Velja texta
+デバッガー起動ログ、デバッガー妨害	Skráning við ræsingu villuleitartóls, truflun villuleitartóls
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Þetta gerir villuleitarmöguleikann aðeins óvinalegri og skráir að villuleitarforritið hafi verið ræst; sumir vafra geta þó hindrað þessa hegðun.
+リダイレクトするURL	Endur bein slóð
+利用規約などのページに転送すると良いでしょう	Það væri góð hugmynd að beina notendum á síður eins og notkunarskilmála.
+空欄にすると元のURLにリダイレクトをします	Ef það er látið autt mun það beina á upprunalega vefslóðina.
+リダイレクトまでの時間	Tími þar til endurleiðsla
+リダイレクトなし	Engin endurbeining
+1秒	1 sekúnda
+2秒	2 sekúndur
+3秒	3 sekúndur
+4秒	4 sekúndur
+5秒	5 sekúndur
+6秒	6 sekúndur
+7秒	7 sekúndur
+8秒	8 sekúndur
+9秒	9 sekúndur
+10秒	10 sekúndur
+15秒	15 sekúndur
+20秒	20 sekúndur
+25秒	25 sekúndur
+30秒	30 sekúndur
+35秒	35 sekúndur
+40秒	40 sekúndur
+45秒	45 sekúndur
+50秒	50 sekúndur
+55秒	55 sekúndur
+1分	1 mínúta
+1分10秒	1 mínúta og 10 sekúndur
+1分20秒	1 mínúta 20 sekúndur
+1分30秒	1 mínúta og 30 sekúndur
+1分40秒	1 mínúta og 40 sekúndur
+1分50秒	1 mínúta og 50 sekúndur
+2分	2 mínútur
+ソース表示を許可する権限	Leyfi til að skoða uppsprettukóðann
+ADMINログイン時のみ通常のソース出力	Venjulegt úttak frá uppsprettu eingöngu þegar innskráð er sem ADMIN
+USERログインで通常のソース出力	Venjulegt úttak frá uppsprettu þegar skráð er inn sem NOTANDI
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Veldu hvort venjulegt HTML-útgana sé eingöngu ætluð stjórnendum eða krefjist innskráningar notanda.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Að neyða mynd til niðurhals og hvað er í raun hlaðið niður
+GIF形式で1×1ピクセルの透過画像	1×1 pixla gegnsætt mynd í GIF-sniði
+PNG形式で1×1ピクセルの透過画像	1×1 pixla gagnsætt mynd í PNG-sniði
+PNG形式で黄色い背景の警告画面	Varnaðar-skjáborð með gulum bakgrunni í PNG-sniði
+意味のないHTMLドキュメント	Merkingarlaust HTML-skjal
+HTML保護時のHEADタグの出力	Úttak HEAD-merkisins þegar HTML er verndað
+出力しない	Ekki prenta
+TITLEタグのみ	Bara TITLE-merkið
+WordpressのHEADタグより取得	Sótt úr HEAD-merki WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Fyrir fyrirtækjanotkun, eingöngu meðlimasíður og innri síður, ætti að duga að velja "Ekki birta" eða "Aðeins TITLE-merki".
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Nema þú sækir upplýsingarnar úr HEAD-merki WordPress, mun OGP-myndin ekki birtast þegar deilt er á samfélagsmiðlum.
+画像botをアクセス禁止にする	Bannar myndabotinn
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Með því að koma í veg fyrir að myndabotar nái aðgengi að HTML geturðu verndað efni sem ekki var hægt að vernda gegn beinum tenglum í gegnum myndaleit; þó veitir þetta ekki fullkomna lausn.
+AI学習用botをアクセス禁止にする	Bannar aðgang að AI-þjálfunarbotinum
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Með því að forðast notkun vélmenna sem eru hönnuð til gervigreindarþjálfunar á HTML tryggjum við að efnið sé ekki nýtt af gervigreind; þó er ekki hægt að koma í algjörlega í veg fyrir það.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Bannar aðgang að vefgeymslum og vefmyndum
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Við bönum aðgang að sjálfvirkt söfnuðum vefgeymslum og skjámyndum sem notandinn tekur eftir eigin geðþótti; við getum þó ekki komið í veg fyrir þetta að fullu.
+無効なUAをアクセス禁止にする	Banna ógilda notendaboða
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Veitir ekki aðgang ef notendagenta-strengurinn inniheldur ógilda stafi
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Sýna viðvörun þegar opnað er Internet Explorer og gamla Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Varnar aðgang að Internet Explorer og gamla Microsoft Edge
+alertメッセージを表示する言語	Mál sem viðvörunarboð eru birt á
+Wordpressの言語	WordPress tungumál
+ブラウザの設定言語	Vefskoðarastillingar tungumáls
+メッセージをカスタム設定されている場合は言語を変更できません	Þú getur ekki breytt tungumálinu ef skilaboðin hafa verið sérsniðin.
+同意画面の言語	Mál á samþykkisskjánum
+view-sourceメッセージを表示する言語	Mál til að birta 'view-source' skilaboðin
+一時使用トークンの有効期限	Gildistími tímabundinna auðkennismerkja
+3分	3 mínútur
+4分	4 mínútur
+5分	5 mínútur
+6分	6 mínútur
+7分	Sjö mínútur
+8分	8 mínútur
+9分	9 mínútur
+10分	10 mínútur
+15分	15 mínútur
+20分	Tuttugu mínútur
+25分	25 mínútur
+30分	30 mínútur
+35分	35 mínútur
+40分	40 mínútur
+45分	45 mínútur
+50分	Fimmtíu mínútur
+55分	Fimmtíu og fimm mínútur
+1時間	1 klukkustund
+画像URL情報の有効期限を設定します	Settu gildistíma upplýsinga um myndavefslóð.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Þegar hlaðið er, verða myndaslóðin og tímabundna tokenið ógild.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Myndir eru hlaðnar eftir þörfum, en þær verða sjálfkrafa hlaðnar 30 sekúndum fyrir tilgreindan tíma.
+一時使用トークンのビット数	Fjöldi bita í tímabundnu tokeni
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Bráðabirgðatákn er notað sem lykilorð til að dulkóða upplýsingar um myndslóð; þessi stilling tilgreinir styrk þess.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Þó að valkostirnir sem birtast undir fellivalmyndinni verði sífellt ítarlegri, getur þetta sett mikla álagið á netþjóninn og leitt til mikils magns af HTML-gögnum í flutningi.
+ハッシュ化アルゴリズム	Mynsturkóðunaralgorítmur
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Bráðabirgðatákn er notað sem lykilorð til að dulkóða upplýsingar um myndaslóðir; þetta krefst haskunar og þessi stilling ákvarðar styrk þeirrar haskunar.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Þó að styrkurinn aukist þegar þú færð þig niður listann yfir valkosti sem birtast í fellivalmyndinni, setur þetta meiri álag á netþjóninn.
+基本設定	Grunnstillingar
+高度な設定	Framúrskarandi stillingar
+初期設定に戻す	Endurheimta sjálfgefnar stillingar
+デザイン・音の設定	Hönnun og hljóðstillingar
+イベントの設定	Viðburðastillingar
+初回訪問時のお知らせの設定	Að setja upp tilkynningar fyrir fyrstu heimsóknir
+メッセージの設定	Skilaboðastillingar
+右クリックやソースコード表示時に転送する URL を設定します	Settu slóðina sem á að opna þegar hægri-smellt er eða þegar kóðagrunnurinn er skoðaður.
+警告メッセージにはHTMLは使用できません	Ekki er hægt að nota HTML í viðvörunarboðum.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ef þú stillir þetta á þessum skjá verða tungumálastillingarnar í háþróuðu flipanum hunsaðar.
+以下の文字列が使用できます	Eftirfarandi strengir má nota
+改行	Línubrot
+押下されたキー	Lykill ýttur
+Neo HTML Protector 設定	Neo HTML Protector stillingar
+お知らせ	Tilkynning
+メッセージ	Skilaboð
+デザイン・音	Hönnun og hljóð
+初期化	Upphafsvæðing
+このプラグインについて	Um þennan viðbót
+設定が初期化されました	Stillingarnar hafa verið endurstilltar
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Frumstilla viðbótina. Vinsamlegast athugið að gögn IP Log Reader verða ekki eytt á þessu stigi.
+Neo HTML Protectorについて	Um Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Þetta viðbót er hönnuð til að vernda HTML, myndir og annað efni sem WordPress-síðan þín býr til og vernda það gegn óheimilri notkun.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Það er ómögulegt að vernda efni að fullu. Hins vegar, með því að senda út viðvaranir hvar sem mögulegt er og gera undirbúning ef eitthvað kemur upp á, ættum við að geta leyst málið í samræmi við þær verklagsreglur sem ríkisstjórnin hefur sett.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Auðvitað þarftu að tryggja að skilmálar þínir og notendastefna vefsíðunnar séu yfirgripsmiklir. Þó að þetta viðbót sé ekki tæki til að búa til skilmála og notendastefnu getur hún veitt nokkra leiðsögn.
+開発者: 夜桜　なの	Forritari: Nano Yozakura
+バージョン	Útgáfa
+ビルド	Byggja
+サポートページ	Stuðningssíða
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Flutt af fröken Ura Manira
+支援のお願い	Beiðni um stuðning
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Þakka þér fyrir að nota Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Þróun og viðhald þessa viðbótar hefur krafist mikils tíma og fyrirhafnar, og til að afla fjár til að halda áfram að bæta og uppfæra hana værum við þakklát ef einhver sem getur stutt okkur myndi íhuga að gefa framlag.
+寄付について	Um framlög
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Gjafir eru alfarið sjálfviljugar og ekki skyldubundnar. Viðbótin er öllum aðgengileg án endurgjalds. Stuðningur þinn er þó mjög vel þeginn til að hjálpa okkur að halda áfram þróun, og við værum ánægð ef þú gætir lagt jafnvel litla fjárhæð til.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Þú getur lagt fram framlag með tenglinum hér að neðan. Ef þú ert búsettur í Japan getur þú lagt fram framlag án endurgjalds og getur einnig auðveldlega gefið með Amazon-gjafabréfum.
+寄付先	Góðgerðarsamtök
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Með þínum stuðningi munum við gera okkar besta til að halda áfram að koma til þín frábærum uppfærslum!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Við erum þakklát fyrir stuðninginn þinn og hlökkum til að fá áframhaldandi stuðning þinn í framtíðinni.
+ライセンス	Leyfi
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Þessi viðbót er þróuð sem opinn hugbúnaður og er leyfð samkvæmt GPLv2.0 eða nýrri.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Sumar af tæknunum sem eru innifaldar í þessu viðbót eru verndaðar með einkaleyfum.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Notkun einkaleyfisverndaðrar tækni er einungis leyfð innan þessa viðbótar.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Fyrir aðra notkun, vinsamlegast hafðu samband við höfund til að fá viðskiptaleyfi.
+本プラグインには以下のライブラリを同梱しています	Þessi viðbót inniheldur eftirfarandi bókasöfn
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Þessi viðbót inniheldur ASCII-listletur sem búin eru til hér að neðan, ásamt leturskránum.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Þessi viðbót inniheldur tónlist úr óopinberu Super Famicom-leiknum 'SM Trainer Hitomi 3', þróuðum af EJ Co., Ltd. og saminn af höfundi þessarar viðbótar, og er með opinbera leyfi.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Þessi viðbót inniheldur lög sem búin eru til með 'Keppy's YAMAHA C7', þróuð af Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ég hef einnig notað Raspberry Pi 5, ChatGPT og DeepL við þróun þessa viðbótar.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Könnun hefur greint skyndiminni-viðbót. Þessi viðbót mun ekki virka rétt ef skyndiminni-viðbót er virkjuð.
+無効なIPアドレス	Ógild IP-tala
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Til að nota þessa vefsíðu verður þú að virkja smákökur og JavaScript.
+利用規約	Notkunarskilmálar
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Til að koma í veg fyrir óheimila notkun og tryggja öruggan rekstur þjónustu okkar getur þessi vefsíða vistað upplýsingar eins og IP-tölur, vafrasögu og virkni- og atburðaskrár í kökum og gagnagrunnum. Þessar upplýsingar eru eingöngu notaðar til reksturs vefsíðunnar og í lögmætum tilgangi og verða ekki afhentar þriðja aðila.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Til að nota þessa þjónustu verður þú að samþykkja þessa vinnsluaðgerðir.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Þú getur skoðað efni persónuverndarstefnu okkar óháð því hvort þú hafir veitt samþykki þitt.
+同意する	Ég er sammála
+同意しない	Ég er ósammála
+確認	Staðfesting
+プライバシーポリシー	Persónuverndarstefna
+通常とは異なる方法でのアクセスや操作が検出されました	Óvenjulegur aðgangur eða virkni hefur verið greind
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Ákveðnar aðgerðir hafa verið takmarkaðar til öryggis- og efnisverndarsjónarmiða.
+デバッグモード、コンソールの起動は禁止されています	V villuleitarhamur og aðgangur að ferilskjá eru óvirkir.
+以下の情報がサーバーに送信されました	Eftirfarandi upplýsingar hafa verið sendar á netþjóninn
+あなたのIPアドレス	IP-tala þín
+あなたの端末とブラウザ	Tækið þitt og vafrinn þinn
+あなたの押下したキー	Lykillinn sem þú ýtti á
+リダイレクトをします	Þú verður beint áfram
+コンテンツ保護のため一部の機能を制限しています	Ákveðnar aðgerðir hafa verið takmarkaðar til að vernda efnið
+右クリックは禁止されています	Hægri-smellur er ekki leyfður
+あなたが押下したキー	Lykillinn sem þú ýtti á
+印刷、PDFへの保存は禁止されています	Prentun og vistun sem PDF er bönnuð.
+スクリーンショットは禁止されています	Myndir af skjánum eru bannaðar.
+スクリーンショット、デバッグモード等の起動は禁止されています	Það er bannað að taka skjámyndir og virkja villuleitarham.
+ページの保存は禁止されています	Bannað er að vista þessa síðu
+コピー、カットは禁止されています	Afritun og klipping eru bönnuð.
+あなたが起こしたイベント	Viðburðir sem þú hefur skipulagt
+テキストの選択は禁止されています	Ekki er heimilt að velja texta
+HTMLソース表示は禁止されています	Það er bannað að birta HTML-uppsprettukóða.
+不正アクセスは禁止されています	Óheimil aðgangur er bannaður
+アフリカーンス語	Afríkans
+アラゴン語	Aragonska
+アラビア語	Arabíska
+アッサム語	Assamíska
+アゼルバイジャン語	Aserbaídskan
+バシュキール語	Bashkir
+ベラルーシ語	Hvítrússneskur
+ベンガル語	Bengalska
+ブルガリア語	Búlgörskur
+ボスニア語	Bosnískur
+カタロニア語	Katalónskur
+チェコ語	Tékkneskur
+ウェールズ語	Welskur
+デンマーク語	Danskur
+ドイツ語	Þýskur
+現代ギリシア語	Nútíma gríska
+英語	Enska
+イギリス英語	Ensk
+アメリカ英語	Bandarísk enska
+エスペラント語	Esperanto
+スペイン語	Spænska
+エストニア語	Eistneskur
+バスク語	Baski
+ペルシャ語	Persneska
+フィンランド語	Finnska
+フランス語	Franskur
+アイルランド語	Írskur
+ガリシア語	Galískur
+グァラニ語	Guarani
+グジャラート語	Gújarati
+ハウサ語	Hausa
+ヘブライ語	Hebreska
+ヒンディ語	Hindí
+クロアチア語	Króatneskur
+ハイチ・クレオール語	Haitísk kreól
+ハンガリー語	Ungverskur
+インドネシア語	Indónesískur
+イボ語	Ibo-mál
+アイスランド語	íslenska
+イタリア語	Ítalskur
+日本語	Japanskt
+ジャワ語	Javanska
+カザフ語	Kasakíska
+朝鮮語	Kóreskur
+クルド語	Kúrdískt
+キルギス語	Kyrgyz
+ラテン語	Latin
+ルクセンブルク語	Lúxembúrgska
+リンガラ語	Mánta
+リトアニア語	Líftvísneskur
+ラトビア語	Lettneskur
+マダガスカル語	Malagasy
+マオリ語	Maórí
+マケドニア語	Makedóneska
+マラヤーラム語	Malajalam
+モンゴル語	Mongólskur
+マラーティー語	Marathi
+マレー語	Malajískur
+マルタ語	Maltneskur
+ビルマ語	Búrmaíska
+ネパール語	Nepalskur
+ノルウェー語	Norskur
+オランダ語	Hollenskur
+オック語	Oktsítanska
+オロモ語	Eða
+パンジャーブ語	Punjabi
+ポーランド語	Pólska
+パシュトー語	پشتو
+ポルトガリア語	Portúgölsk
+ブラジルポルトガル語	Brasilísk portúgölska
+ヨーロピアンポルトガル語	Evrópskur portúgölsk
+ケチュア語	Inka
+ルーマニア語	Rúmenskur
+ロシア語	Rússneskur
+サンスクリット語	Sanskrit
+スロバキア語	Slóvakíska
+スロベニア語	Slóvenska
+セルビア語	Serbneskur
+南セソト語	Suður-Sesotho
+スンダ語	Súndaneska
+スウェーデン語	Sænskur
+スワヒリ語	Svasíli
+タミル語	Tamilmaður
+テルグ語	Telugu
+タジク語	Tajík
+タイ語	Taílenskur
+トルクメン語	Tyrkneskur
+タガログ語	Tagalog
+トルコ語	Tyrkneskur
+タタール語	Tatar
+ウクライナ語	Úkraínumaður
+ウルドゥー語	Úrdú
+ウズベク語	Úsbek
+ベトナム語	Víetnamskir
+コサ語	Kosa
+イディッシュ語	Jiddisch
+簡体中国語	Forsimplað kínverska
+繁体中国語	Hefðbundið kínverska
+ズールー語	Zúlú
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Vafrinn sem þú ert að nota núna er eldri útgáfa sem ekki er lengur studd. Til að tryggja öruggari og þægilegri vafraupplifun, vinsamlegast uppfærðu vafrann þinn í nýjustu útgáfu.
+不正なリクエストです	Ógild beiðni
+画像が見つかりません	Myndin fundin ekki

@@ -1,0 +1,424 @@
+設定	Qindaa'inoota
+IPログリーダー	Dubbisaa Galmee IP
+IPアドレスログ	Galmee teessoo IP
+全クリア	Sadarkaalee hunda xumuraa
+IPログが全て削除されました	Galmeewwan IP hundi haqamaniiru
+ID	Eenyummaa
+タイムスタンプ	Yeroo galmaa'e
+IPアドレス	Teessoo IP
+ユーザーエージェント	Ejentii Fayyadamaa
+イベント	Sagantaa
+IPアドレスのデータはありません	Teessoo IP kanaaf ragaa hin jiru.
+EU GDPR対応	Gamtoomina GDPR Gamtaa Awurooppaa
+無効	Sirrii miti
+有効	Sirrii
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Yoo WordPress Gamtaa Awurooppaa keessatti fayyadamaa jiraattan, yookaan yoo marsariitiin keessan fayyadamtoota Gamtaa Awurooppaa keessa jiraniif kan qophaa'e ta'e, maaloo kun akka eeyyamame mirkaneeffadhaa.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Qabduun 'Mirkaneessi' gara 'Waliigaluu' yookiin 'Mormuu'tti ni jijjiirama, amalli isaas xiqqoo ni jijjiirama.
+同意画面の色	Halluu iskiriinii hayyamaa
+自動	Ofumaan
+ライトモード	Haala salphaa
+ダークモード	Haala Dukkanaa'aa
+同意画面表示中の配色を設定します	Qindaa'ina halluu fuula hayyamaa murteessi.
+同意画面中のコンテンツのぼかし	Qabiyyee fuula hayyamaa irratti burkutaa'uu
+同意画面表示中のコンテンツのぼかし具合を設定します	Sadarkaa dukkaneessuu qabiyyee iskiriinii hayyamaa irratti mul'atu qindeessi.
+同意画面の透過	Iftoomina iskiriinii hayyamaa
+透過なし	Iftoomina hin qabu
+同意画面の透過具合を設定します	Iftoomina iskiriinii hayyamaa qindeessi
+お知らせの1行目	Sarara jalqabaa beeksisaa
+初回表示で必ず表示されるメッセージです	Ergaan kun yeroo fuulli kun jalqaba fe'amu yeroo hunda ni agarsiifama.
+お知らせの2行目	Sarara lammaffaa beeksisaa
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ergaan kun yeroo hunda agarsiisa isa jalqabaa irratti qofa yeroo EU GDPR hojiirra oolu ni mul'ata.
+お知らせの3行目	Sarara sadaffaa beeksisaa
+プライバシーポリシーのリンクの右側に表示されます	Gara mirga geessituu Imaammata Dhuunfaatti ni mul'ata.
+非EU向け確認の文字列	Barruu mirkaneessaa biyyoota Gamtaa Awurooppaa hin taaneef
+EU GDPR向け同意するの文字列	Barruu waliigaltee GDPR Gamtaa Awurooppaa
+EU GDPR向け同意しないの文字列	Barruu 'Hin Heyyaminiif' kan EU GDPR jalatti
+プライバシーポリシーの文字列	Barruu imaammata iccitii
+プライバシーポリシーのURLはこちらから設定して下さい	Maaloo, URL imaammata iccitii asitti galchi.
+プライバシーポリシーには以下の内容を追加して下さい	Maaloo kan armaan gadii Imaammata Icciitii keessatti dabalaa.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Gocha gowwoomsaa adda baasuuf, eenyummeessitoonni kan akka teessoo IP kuukiiwwanii fi kuusaa ragaa keessatti kuufamu. Ragaan kuufame sun murtoo bulchaatiin ni haqama.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Yeroo eegumsi suuraa eeyyamamu, suuraawwan sirriitti akka geessaman mirkaneessuuf, teessoo IP fi maqaa faayilii suuraa of keessaa qabu daataa haashii ta'e kuusaa odeeffannoo keenya keessatti hanga daqiiqaa 60f ni kuusna.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Yoo Ulaagaalee Fayyadamaa qopheessaa jiraattan, maaloo Imaammata Dhuunfaa keessan keessatti geessituu isaaniif dabaluu keessan mirkaneeffadhaa.
+利用規約の文字列	Barruu Ulaagaalee Fayyadamaa
+利用規約のページ	Fuula Seerotaafi Haalawwanii
+ページ選択なし	Fuulli hin filatamne
+検索エンジン等のURL	URLwwan motoraalee barbaachaa fi kkf.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	URL mootoraalee barbaachaa fi marsariitiiwwan walfakkaatoo kanneen yeroo fayyadamtoonni hayyama hin kennin gara marsariitii biraatti fayyadamtoota dabarsanii erganiif qindeessi.
+デバッグモード、コンソールの警告メッセージ	Haala sirreessaa, ergaawwan akeekkachiisaa konsoolii
+右クリックの警告メッセージ	Ergaa akeekkachiisaa irratti mirgaan cuqaasi
+印刷、PDF保存の警告メッセージ	Ergaa akeekkachiisaa maxxansuu fi akka PDFtti olkaa'uu ilaalchisee
+スクリーンショットの警告メッセージ	Ergaa akeekkachiisaa suuraa iskiriinii keessatti
+スクリーンショットの疑いの警告メッセージ	Ergaa akeekkachiisaa suuraawwan iskiriinii shakkamaniif
+テキスト全選択時の警告メッセージ	Ergaa akeekkachiisaa yeroo barruun hundi filatamu
+ページ保存の警告メッセージ	Ergaa akeekkachiisaa waa'ee kuusaa fuulaa
+コピー・カットした時に表示するメッセージ	Ergaa yeroo waraabuu yookiin kukkutuu mul'atu
+HTMLソース表示時に表示するメッセージ	Ergaa yeroo madda HTML ilaalamu agarsiifamu
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Ergaa koodii maddaa gubbaatti yeroo HTML dhoksuun yookaan eeguun mul'atu
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Ergaa yoo tookiiniin mirkaneessaa yeroo tokkoo yeroo eegumsa HTML keessatti hojii ala ta'e agarsiifamu
+CookieやJavascriptが有効でない場合に表示するメッセージ	Ergaa yoo kuukiiwwaniifi JaavaAskiriiptiin cufaman agarsiifamu
+実際にはJavascriptが無効時のみ表示されます	Dhugumatti, kun kan mul'atu yeroo JaavaAskiriin cufamu qofa.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Yeroo suuraan eegamu, ni buufama, achiis ergaan suuraa sana irratti ni mul'ata
+HTML難読化 (圧縮)	Jallisii HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Kun dhiphina HTML kan idileeti; marsariitiiwwan isa deebisanii hiikuus ni jiru.
+このオプションを有効にするとview-sourceのログが取得できます	Filannoo kana eeyyamsiisuun, galmee madda ilaaluu deebistee argachuu dandeessa.
+HTML保護	Eegumsa HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Kan baasu HTML isa bu'uuraa qofa—dhiibbaa HTML fayyadamuu irra iyyuu gadi—dabalataanis, qabiyyeen taagii BODY keessa jiru gonkumaa hin ba'u.
+Firefoxに対しては無効です	Kun Faayerfooksiif hin hojjetu.
+SEOに著しく影響があります	Kun SEO irratti dhiibbaa guddaa qaba.
+HTMLをJavaScriptで描画	JaavaAskiriitiin HTML Qopheessuu
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox irra darbuuf, HTML'n JaavaAskiriitiin ni agarsiifna.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript akka hojjetu gochuun saffisa marsariitichi ittiin banamu guddaa suuta taasisa.
+画像の保護	Eegumsa suuraa
+imgタグが呼び出されるごとに画像を保護	Yeroo hundumaa taggiin img yeroo waamamu fakkii eegi
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Fakkiiwwan WordPress keessatti ol fe'aman hunda, bu'aa HTML guutuu keessatti eegi.
+画像をダウンロードから保護します	Suuraawwan buufamuu irraa ittisa
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Yeroo daataan suuraa eegamu, buufama
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Yeroo daataan suuraa eegamu, kaashiin hin hojjetu, kunis jechuun marsariitichi yeroo itti deebitan suuta bu'a, kanaanis SEO irratti dhiibbaa geessisa.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Daataa suuraa eeguun ba'aa daataa beezii irratti dabaluu danda'a.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Yoo 'Yeroo hundumaa tag-i img waamamu suuraawwan eegi' kan jedhu filatte, sirnichi yeroo tag-i img uumamu filtarii raawwachuuf add_filter fayyadama; haa ta'u malee, kun tiimiiwwan tokko tokko wajjin sirriitti hojjechuu dhiisuu danda'a.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Yoo 'Suuraawwan WordPress keessatti fe'aman hunda bu'aa HTML guutuu keessatti eegi' kan jedhu filatte, pilaag-iniin kun hojiiwwan WordPress hunda jechuun ni danda'ama qabatee, taagii img hundumaa qabiyyee keessa jiru ni adeemsisa. Maaloo hubadhu, kun tiimiiwwan tokko tokko waliin sirriitti hojjechuu dhiisuu danda'a.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Maaloo hubadhaa, suuraawwan akka suuraa filatamaatti ramadaman akka daataa OGPtti ni qoodamu, eegamus ni danda'amu. Yoo dhuguma eeguu barbaaddan, yeroo eegumsa HTML eeyyamtan, qindaa'ina sadarkaa olaanaa keessatti ba'ii taagii HEAD'f qindaa'ina isaa jijjiiraa.
+OS標準搭載のスクリーンショット機能を保護することはできません	Hojiin suuraa ka'uu kan sirna hojii keessatti akka idileetti argamu eegamuu hin danda'u.
+画像URLの保護	URLwwan suuraa eeguu
+画像の保護と組み合わせて使用します、単体では意味がありません	Kun eegumsa suuraa wajjin walitti fayyadamuun tajaajila; kophaa isaa yoo fayyadaman faayidaa hin qabu.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Akka JaavaAskiriitiin fe'amuuf, kun SEO irratti dhiibbaa geessisa.
+画像のウォーターマーク	Asxaa suuraa
+右下	Gara mirgaa gadi
+ランダム位置	Iddoo tasaa
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Eegumsa suuraa wajjin yoo itti fayyadaman, mallattooleen bishaanii socho'oon abbaa qabeenyummaa mirga waraabbii ifatti agarsiisuun, akkasumas daawwattoota akka hordofamaa jiranitti yaada isaaniif kennuudhaan, akka ittisaatti tajaajilu.
+JPG形式、PNG形式、WebP形式のみ対応します	Unkaawwan JPG, PNG fi WebP qofatu deeggarama.
+有効にするとサーバーの負荷が高くなります	Kana eeyyamsiisuun ba'aa sarvarii irratti dabala.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Yeroo iftoomina hir'isuu fi eeguu koodii madda HTML irraa aartii ASCII maddisiisuu
+表示なし	Agarsiisni hin jiru
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Yeroo madda HTML 'view-source' fayyadamuun ilaalamu, fakkii ASCII kan akeekkachiisa agarsiisu.
+対象アクションを起こした時の表示デザイン	Yeroo gochi barbaadamu raawwatamu, dizaayinii agarsiisi
+黄色の背景の黒文字のベーシックデザイン	Dizaayinii bu'uuraa kan barruu gurraacha duubee keelloo irratti agarsiisu
+黒色の背景の赤文字のホラー風デザイン	Dizaayinii akkaataa sodaachisaa, barruu diimaa dugda gurraacha irratti agarsiisu
+黒色の背景の赤文字の光る文字のデザイン	Dizaayinii barruu diimaa ifu kan duuba gurraacha irratti mul'atu
+対象アクションを起こした時のBGM	Muziqaa duubaa kan yeroo gochi kaayyoo raawwatamu taphatu
+サウンドなし	Sagaleen hin jiru
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Lolaafi Injifannoo - daqiiqaa 1 fi sekondii 16.3 - baayitii 630,056 - 64 kbps - Eeyyama: CC 2.1 yookiin kan sanaa booda
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Abbaa Gabaabaa - sekondii 3.8 - baayitii 32,364 - kbps 64 - Eeyyama: GPL 2.0 yookiin kan itti aanu
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - sekondii 23.5 - baayitii 195,578 - 64 kbps - Eeyyama: GPL 2.0 yookiin kan itti aanu
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Warraaqsa' – Gosa kompiitaraan uumame, gosa saffisa olaanaa – Daqiiqaa 1 fi sekondii 57.6 – Baayitii 724,457 – 48 kbps – Eeyyama: CC BY-ND 4.0 yookiin kan sanaa boodaa
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Iskerzhoo B filaash maayinor, Op. 2 – Gosa kompiitaraan uumame, gosa gabaabfame kan saffisa olaanaadhaan hojjetamu – Daqiiqaa 1, sekondii 48.0 – Baayitii 665,369 – 48 kbps – Eeyyama: CC BY-ND 4.0 yookiin kan itti aanu
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Tarreeffama: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – sekondii 22.3 – baayitii 183,926 – 64 kbps – Eeyyama: Qabeenya Ummataa
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Sagalee kabajaa akka durii – sekondii 2.2 – baayitii 10,536 – 32 kbps – Eeyyama: Qabeenya Ummataa
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Seensa akkaataa durii – sekondii 42.1 – baayitii 179,138 – 32 kbps – Eeyyama: Qabeenya Ummataa
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Akeekkachiisa ChatGPT - sekondii 3.8 - baayitii 109,700 - kbps 256 - Eeyyama: Qabeenya Ummataa
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sagalee ariifannaa guddaa qabu kan akka akeekkachiisa argannoo maaliweerii – Kutaa 1 kan ChatGPT – sekondii 3.3 – baayitii 102,850 – 256 kbps – Eeyyama: Qabeenya Ummataa
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sagalee ariifachiisa guddaa qabu kan akka akeekkachiisa argannoo maaliweerii, Kutaa 2 kan ChatGPT-n hojjetame - sekondii 3.3 - baayitii 103,122 - 256 kbps - Eeyyama: Qabeenya Ummataa
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sagalee akka MRI'tiin ChatGPT'n hojjetame – daqiiqaa 1, sekondii 14.9 – baayitii 3,340,392 – 320 kbps – Eeyyama: Qabeenya Ummataa
+警告表示中のBGMを選択します	Yeroo akeekkachiisaa muuziqaa duubaa akka taphatu filadhu.
+びっくりするような雰囲気を作ります	Qilleensa nama ajaa'ibu uuma.
+Firefoxでは音声ブロックされます	Firefox keessatti sagaleen cufameera.
+対象アクションを起こした時のビープ音	Yeroo gochi ajajame raawwatamu sagaleen biip
+有効 音量小さ目	Bani, sagalee gadi aanaa
+有効 音量大き目	Banaadha, sagaleen ol ka'aadha
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Yeroo akeekkachiisni agarsiifamu, gochaalee furtuu fi maawsii hundumaaf deebii ta'ee sagaleen 'beep' ni dhaga'ama.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Yeroo akeekkachiisni mul'atu, meeshichi akka waan maraateetti fakkeessa.
+対象アクションを起こした時のマウスカーソルの消去	Yeroo gochi addaa raawwatamu agarsiiftuu maawsii dhoksuu
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Yeroo akeekkachiisni agarsiifamu, kursorii maawsii naannoo biraawzarii keessatti dhoksa.
+デバッグモード	Haala sirreessaa
+妨害＋記録のみ	Hidhaa + Galmeewwan qofa
+妨害＋記録＋表示＋リダイレクト	Jeequmsa + Galmeessuu + Agarsiisa + Gara biraatti qajeelchuu
+メニューからは操作できてしまいます	Ammas karaa baafata sanaan isa argachuu dandeessa.
+Firefoxにおけるデバッグモード	Haala sirreessaa dogoggoraa Faayerfooksii
+ブラウザーコンソール	Konsolii biraawzarii
+事実上デバッグモードから操作できてしまいます	Dhugumatti, haala sirreessaa irraa hojjechiisuu dandeessa.
+HTMLソース表示	Madda HTML ilaali
+view-source:から始まるURLを入力すれば操作できてしまいます	Hojii kana salphaatti URL 'view-source:' jedhuun jalqabu galchuun raawwachuu dandeessu.
+HTML保護と組み合わせることでコンテンツを保護することができます	Qabiyyee kee eegumsa HTML wajjin walitti makuun eeguu dandeessa.
+印刷	Maxxansi
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Maxxansa kan dhorku ta'us, biraawzaroota tokko tokko keessatti sirriitti hojjechuu dhiisuu danda'a.
+スクリーンショット	Suuraa iskiriinii
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Akka sirna hojii, biraawzarii yookiin mala fayyadamanitti hundaa'uun, kana dhorkuun hin danda'amu ta'a, yookiin argamuu dhiisuu danda'a.
+ウインドウが背面に移動した時スクリーンショットの疑い	Yeroo foddaan gara duubaatti deemu suuraa isaa ka'ame jedhamee shakkamu.
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Akkasumas hojiiwwan suuraa iskiriinii kaasuun alaa ta'aniifis ni deebisa
+2キー押下のスクリーンショットの疑い	Suuraan iskiriinii shakkame kan furtuuwwan lama cuqaasuun kaafame
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Malli wantoota armaan olii ittiin adda baasan guutummaatti kan hin dogoggorsine miti; adda baasuun kun tarkaanfii of eeggannootiif fudhatamuudha.
+スクリーンショットだけではなく、デバッグモード等も検出します	Inni suuraawwan iskiriinii qofa osoo hin taane, moodota sirreessaa fi kanneen kana fakkaatanis ni adda baasa.
+ページ保存	Fuula olkaa'i
+右クリック	Butoonii mirgaa cuqaasi
+アドオンがインストールされていると操作できてしまいます	Yoo dabalataan fe'ame, itti fayyadamuu ni dandeessa.
+コピー・カット	Koppii godhiitii kutaa
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Akka qindaa'ina pilaag-inii kanaatti, taatee kana yeroo yerootti argachuu dandeessu.
+テキスト全選択	Barruu hunda filadhu
+テキスト選択	Barruu filadhu
+デバッガー起動ログ、デバッガー妨害	Galmee jalqabbii dibaagarii, gidduu-seenummaa dibaagarii
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Kun haala sirreessaa xiqqoo fayyadamuuf rakkisaa taasisa, akkasumas jalqabamuu isaa ni galmeessa; haa ta'u malee, biraawzarootni tokko tokko amala kana ittisuu danda'u.
+リダイレクトするURL	URL Jijjiiri
+利用規約などのページに転送すると良いでしょう	Fayyadamtoota gara fuulawwan kanneen akka Ulaagaalee Fayyadamaatti qajeelchuun yaada gaarii ta'a.
+空欄にすると元のURLにリダイレクトをします	Yoo duwwaa dhiifame, gara URL isa jalqabaatti ni deebisa.
+リダイレクトまでの時間	Yeroo gara kallattii biraatti jijjiiramuuf
+リダイレクトなし	Gara biraatti hin jijjiiru
+1秒	Sekondii tokko
+2秒	Lakkuu lama
+3秒	Sekondii 3
+4秒	Sekondii afur
+5秒	Sekondii 5
+6秒	Sekondii jaha
+7秒	Sekondii torba
+8秒	Sekondii saddeet
+9秒	Sekondii sagal
+10秒	Sekondii 10
+15秒	Sekondii kudha shan
+20秒	Sekondii 20
+25秒	Sekondii 25
+30秒	Sekondii 30
+35秒	Sekondii 35
+40秒	Sekondii 40
+45秒	Sekondii 45
+50秒	Sekondii 50
+55秒	Sekondii 55
+1分	Daqiiqaa 1
+1分10秒	Daqiiqaa 1 sekondii 10
+1分20秒	Daqiiqaa 1 fi sekondii 20
+1分30秒	Daqiiqaa 1 fi sekondii 30
+1分40秒	Daqiiqaa 1 fi sekondii 40
+1分50秒	Daqiiqaa 1 fi sekondii 50
+2分	Daqiiqaa lama
+ソース表示を許可する権限	Koodii madda ilaaluuf hayyama
+ADMINログイン時のみ通常のソース出力	Madda idilee yeroo akka ADMIN seename qofa ba'a.
+USERログインで通常のソース出力	Madda idilee yeroo akka FAYYADAMAA seenameetti
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Baasiin HTML idilee bulchitoota qofaaf daangeffamuu yookiin seensa fayyadamaa barbaaduu isaa filadhu.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Suura tokko dirqisiisee buufachuu fi dhugumatti maaltu buufamu
+GIF形式で1×1ピクセルの透過画像	Suuraa ifa ta'e piikselii 1x1 kan foormaatii GIF keessatti
+PNG形式で1×1ピクセルの透過画像	Suuraa ifa ta'e piikselii 1x1 kan foormaatii PNG keessatti
+PNG形式で黄色い背景の警告画面	Iskiriinii akeekkachiisaa kan dugda keelloo qabu, foormaatii PNG-tiin.
+意味のないHTMLドキュメント	Sanada HTML hiika hin qabne
+HTML保護時のHEADタグの出力	Maxxansa taagii HEAD yeroo HTML eegama
+出力しない	Ma'a maxxansi
+TITLEタグのみ	Mata duree qofa
+WordpressのHEADタグより取得	Taagii HEAD kan WordPress irraa fudhatame
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Fuulawwan miseensota qofaaf kan tajaajila korporeetiif oolanii fi fuulawwan keessoo irratti, 'Do not output' yookiin 'TITLE tag only' filachuun gahaadha.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Yoo odeeffannoo sana tagii HEAD kan WordPress irraa hin fudhanne ta'e, yeroo miidiyaa hawaasummaa irratti qooddu suuraan OGP hin mul'atu.
+画像botをアクセス禁止にする	Botiin suuraa daangeessi
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Botoonni suuraa HTML akka hin argatin ittisuudhaan, qabiyyee barbaacha suuraatiin geessituu kallattiin irraa eegamuu hin dandeenye eeguu dandeessu; haa ta'u malee, kun furmaata guutuu hin kennu.
+AI学習用botをアクセス禁止にする	Botiin leenjii AI akka hin seenne ittisi
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Botoota leenjii AI'f HTML irratti hojjetan fayyadamuu irraa of qusachuun, AI'n isa fayyadamuu akka hin dandeenye mirkaneessina; haa ta'u malee, kun guutummaatti ittifamuu hin danda'u.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Kuusaa weebii fi suuraawwan weebii daqiiqaa fuudhuu ittisuu
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Kuusaa weebii ofumaan walitti qabamuu fi suuraawwan iskiriinii fedhii fayyadamaatiin kaafaman argamsiisuu ni dhorra; haa ta'u malee, kana guutummaatti ittisuu hin dandeenyu.
+無効なUAをアクセス禁止にする	Ejentoota fayyadamtootaa sobaa cufi
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Yoo fo'aan ejentii fayyadamaa qubee sirrii hin taane of keessaa qabaate, seensa ni ittisa.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Yeroo Intarneet Iskpiloorarii fi Maaykiroosooft Ijii isa moofaa
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorer fi Microsoft Edge isa moofaa fayyadamuun akka hin seenamne ittisa.
+alertメッセージを表示する言語	Afaan ergaawwan akeekkachiisaa ittiin agarsiifaman
+Wordpressの言語	Afaanota WordPress
+ブラウザの設定言語	Qindaa'ina afaanii biraawzarii
+メッセージをカスタム設定されている場合は言語を変更できません	Ergaawwan yoo sirreeffamaniif, afaan jijjiiruu hin dandeessu.
+同意画面の言語	Afaan iskiriinii hayyamaa
+view-sourceメッセージを表示する言語	Afaan ergaa 'view-source' ittiin agarsiifamu
+一時使用トークンの有効期限	Guyyaa xumuraa tookenoota yeroo
+3分	Daqiiqaa 3
+4分	Daqiiqaa 4
+5分	Daqiiqaa 5
+6分	Daqiiqaa jaha
+7分	Daqiiqaa torba
+8分	Daqiiqaa saddeet
+9分	Daqiiqaa sagal
+10分	Daqiiqaa 10
+15分	Daqiiqaa 15
+20分	Daqiiqaa 20
+25分	Daqiiqaa 25
+30分	Daqiiqaa 30
+35分	Daqiiqaa 35
+40分	Daqiiqaa 40
+45分	Daqiiqaa 45
+50分	Daqiiqaa 50
+55分	Daqiiqaa 55
+1時間	Sa'aatii tokko
+画像URL情報の有効期限を設定します	Guyyaa xumuraa odeeffannoo URL suuraatiif kaa'i
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Erga fe'amee booda, URL'n suuraa fi tookeniin yeroo gabaabaa ni haqamu.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Suuraawwan yeroo barbaadaman fe'amu, garuu yeroo murtaa'e dura sekondii 30'n ofumaan fe'amu.
+一時使用トークンのビット数	Lakkoofsa biitotaa tookeni yeroo gabaabaa keessaa
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Odeeffannoo URL suuraa iccuuf, tokeeniin yeroof tajaajilu akka jecha darbii ta'ee itti fayyadama; qindaa'inni kun jabeenya isaa murteessa.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Filannoowwan gabatee gadi bu'aa jala agarsiifaman yeroo yerootti bal'aa ta'aa deemanis, kun sarvarii irratti ba'aa guddaa fidaa, akkasumas daataan HTML hamma guddaa akka dabarsamu taasisuu danda'a.
+ハッシュ化アルゴリズム	Algorizimii Haashii
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Odeeffannoo URL suuraa iccuuf, mallattoon yeroo gabaabaa akka jecha iccitiitti itti fayyadama; kun hashiingii barbaada, qindaa'insi kunis jabeenya hashiingii sanaa murteessa.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Filannoowwan gabatee gadi bu'aa keessa gadi siqxanii yeroo ilaaltan jabeenyi isaa yoo dabalu iyyuu, kun sarvarii irratti ba'aa guddaa fida.
+基本設定	Qindaa'inoota bu'uuraa
+高度な設定	Qindaa'inoota gadi fageenyaa
+初期設定に戻す	Qindaa'inoota idileetti deebisi
+デザイン・音の設定	Dizaayinii fi qindaa'ina sagalee
+イベントの設定	Qindaa'ina sagantaa
+初回訪問時のお知らせの設定	Daawwannaa yeroo jalqabaatiif beeksisa qopheessuu
+メッセージの設定	Qindaa'ina ergaa
+右クリックやソースコード表示時に転送する URL を設定します	Yeroo mirgaan-cuqaasamu yookaan koodiin madda isaa ilaalamu URL banamuuf ta'e qindeessi.
+警告メッセージにはHTMLは使用できません	Ergaawwan akeekkachiisaa keessatti HTML fayyadamuun hin danda'amu.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Yoo fuula kana irratti kana qindeessite, qindaa'inni afaanii kan taabii 'Advanced' keessa jiru ni dagatama.
+以下の文字列が使用できます	Sararoonni armaan gadii fayyadamuun ni danda'ama
+改行	Sarara cabsi
+押下されたキー	Furtuun cuqaafame
+Neo HTML Protector 設定	Qindaa'ina Eegdota Neo HTML
+お知らせ	Hubachiisa
+メッセージ	Ergaa
+デザイン・音	Dizaayinii fi Sagalee
+初期化	Jalqabsiisuu
+このプラグインについて	Waa'ee pilaag-inii kanaa
+設定が初期化されました	Qindaa'inoonni deebi'anii qindaa'aniiru.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Pilaag-inii jalqabsiisi. Hubadhaa, sadarkaa kanatti daataan IP Log Reader hin haqamu.
+Neo HTML Protectorについて	Waa'ee Neo HTML Eegdotaa
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Pilaag-iniin kun kan qophaa'e, qabiyyee HTML, suuraawwanii fi qabiyyee biroo kan marsariitii WordPress keessan irraa uumamu eeguuf, akkasumas fayyadama hayyama hin qabne irraa ittisuufidha.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Qabiyyee guutummaatti eeguun hin danda'amu. Haa ta'u malee, bakka danda'ametti akeekkachiisa kennuun fi yoo wanti tokko uumameef qophii gochuun, adeemsa mootummaan kaa'een waan kana furuu dandeenya.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Dhugumatti, ulaagaaleen tajaajilaa fi imaammanni marsariitii keessanii guutuu ta'uu isaanii mirkaneessuun isinirra jira. Plug-in'n kun meeshaa ulaagaalee tajaajilaa ittiin uuman ta'uu baatus, qajeelfama muraasa isiniif kennuu danda'a.
+開発者: 夜桜　なの	Misoomsituu: Nano Yozakura
+バージョン	Garaa
+ビルド	Ijaari
+サポートページ	Fuula deeggarsaa
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Kan dhiyeessite Mise Uraa Maniraa
+支援のお願い	Gaaffii deeggarsaa
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector fayyadamaa waan turaniif galatoomaa!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Plug-in kana guddifachuu fi kunuunsuun yeroo fi tattaaffii guddaa gaafateera, akkasumas isa fooyyessuu fi haaromsuu itti fufuuf maallaqa walitti qabuuf, eenyuyyuu nu deeggaruu kan danda'u gumaacha akka taasisuu yaaduu isaatiif ni galateeffanna.
+寄付について	Waa'ee Gumaacha
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Gumaachi guutummaatti fedhiidhaan kan raawwatamu yoo ta'u, dirqama miti. Pilag-iniin kun nama hundaaf bilisaan ni argama. Haa ta'u malee, guddina keenya itti fufsiisuuf deeggarsi keessan guddaa nu gargaara, kanaafuu yoo hamma xiqqoo gumaachan baay'ee gammanna.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Geessituu armaan gadii fayyadamuun gumaacha gochuu dandeessu. Yoo Jaappaan keessa jiraattan, kaffaltii malee gumaachuu dandeessu, akkasumas vaawucharii kennaa Amaazoon fayyadamuun salphaatti gumaachuu dandeessu.
+寄付先	Tajaajila tola ooltummaa
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Deeggarsa keessaniin, odeeffannoo haaraa dinqisiisoo isiniif dhiyeessuu itti fufuuf waan nuuf danda'ame hunda ni goona!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Deeggarsa keessaniif isin galateeffanna, gara fuulduraattis deeggarsa keessan itti fufiinsa qabu ni eegganna.
+ライセンス	Hayyama
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Pilaag-iniin kun akka sooftiweerii madda banaatti kan qophaa'e yoo ta'u, eeyyama GPLv2.0 yookiin isa itti aanu jalatti kennameera.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Teeknooloojiiwwan pilag-inii kana keessatti hammataman keessaa muraasni paatentiidhaan eegamaniiru.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Fayyadamni teeknooloojii paatentii qabuu kanaa plug-in kana keessatti qofa hayyamama.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Faayidaa biraa kamiyyuuf, maaloo hayyama daldalaa argachuuf barreessaa qunnamaa.
+本プラグインには以下のライブラリを同梱しています	Pilaag-iniin kun laayibrariwwan armaan gadii of keessatti qabata.
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Pilaag-iniin kun faayiloota qubee wajjin, foontoota aartii ASCII armaan gaditti uumaman of keessatti qabata.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Pilaag-iniin kun muuziqaa tapha Super Famicom kan seeraan alaa ta'e 'SM Trainer Hitomi 3', kan EJ Co., Ltd. tiin qophaa'ee fi uumaa pilaag-inii kanaatiin qindaa'e of keessaa qaba, akkasumas hayyama seeraa qaba.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Pilaag-iniin kun sagaleewwan 'Keppy's YAMAHA C7' fayyadamuun kan uumaman, kan Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Akkasumas piilaag-inii kana guddifachuu keessatti Raspberry Pi 5, ChatGPT fi DeepL fayyadameera.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Pilaaginiin kaashii argameera. Yoo pilaaginiin kaashii hojjechiifame, pilaaginiin kun sirriitti hin hojjetu.
+無効なIPアドレス	Teessoo IP sirrii miti
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Marsariitii kana fayyadamuuf, kuukiiwwanii fi JaavaAskiriptii eeyyamuu qabda.
+利用規約	Ulaagaalee Itti Fayyadama
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Fayyadama hayyama hin qabne ittisuuf fi hojii tajaajila keenyaa nageenya qabu mirkaneessuuf, marsariitiin kun odeeffannoo kan akka teessoo IP, seenaa daawwannaa fi galmee gochaalee 'cookies' fi kuusaa ragaa keessatti kuusuu danda'a. Odeeffannoon kun hojii marsariitichaa fi kaayyoo seeraatiif qofa kan itti fayyadaman yoo ta'u, qaama sadaffaaf hin saaxilamu.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Tajaajila kana fayyadamuuf, gochoota raawwii kanaaf hayyamuun dirqama.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Hayyama kee kennitee yookiin dhiistees, qabiyyee Imaammata Icciitii keenyaa ilaaluu dandeessa.
+同意する	Nan walii gala
+同意しない	Walii hin galu
+確認	Mirkanneessa
+プライバシーポリシー	Imaammata Icciitii
+通常とは異なる方法でのアクセスや操作が検出されました	Seensi yookiin sochiin barameen alaa argameera.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Amaloonni tokko tokko sababa nageenyaafi eegumsa qabiyyeef daangeffamaniiru.
+デバッグモード、コンソールの起動は禁止されています	Haalli sirreessaa fi argamni konsoolii cufamaniiru.
+以下の情報がサーバーに送信されました	Odeeffannoon armaan gadii gara sarvariitti ergameera.
+あなたのIPアドレス	Teessoo IP kee
+あなたの端末とブラウザ	Meeshaa kee fi biraawzarii kee
+あなたの押下したキー	Furtuu ati cuqaaste
+リダイレクトをします	Gara fuula biraatti ni jijjiiramtan
+コンテンツ保護のため一部の機能を制限しています	Qabiyyeen eegamuuf amalootni tokko tokko daangeffamaniiru.
+右クリックは禁止されています	Miraa mirgaatiin cuqaasuun hin hayyamamu
+あなたが押下したキー	Furtuu ati cuqaaste
+印刷、PDFへの保存は禁止されています	Maxxansuun fi akka PDF tti olkaa'uun dhorkaadha.
+スクリーンショットは禁止されています	Suuraan iskiriinii kaasuun dhorkaadha.
+スクリーンショット、デバッグモード等の起動は禁止されています	Suuraa iskiriinii kaasuufi moodii diibagii eeyyamsiisuun dhorkaadha.
+ページの保存は禁止されています	Fuula kana olkaa'uun dhorkaadha
+コピー、カットは禁止されています	Koppii gochuunii fi kukkutuu dhorkaadha.
+あなたが起こしたイベント	Sagantaawwan isin qopheessitan
+テキストの選択は禁止されています	Barruu filachuun hin hayyamamu.
+HTMLソース表示は禁止されています	Koodii madda HTML agarsiisuun dhorkaadha.
+不正アクセスは禁止されています	Seensi hayyama hin qabne ni dhorkama.
+アフリカーンス語	Afaan Afrikaans
+アラゴン語	Afaan Aragoon
+アラビア語	Afaan Arabaa
+アッサム語	Afaan Asaamsii
+アゼルバイジャン語	Azerbaayijaan
+バシュキール語	Bashkir
+ベラルーシ語	Afaan Belaaruus
+ベンガル語	Baangaa'ii
+ブルガリア語	Bulgaariyaa
+ボスニア語	Boosniyaan
+カタロニア語	Kaataalaan
+チェコ語	Tsheekii
+ウェールズ語	Weelsii
+デンマーク語	Daaniish
+ドイツ語	Jarmanii
+現代ギリシア語	Giriikii Ammayyaa
+英語	Afaan Ingiliffaa
+イギリス英語	Biriitishii Ingiliffaa
+アメリカ英語	Afaan Ingiliffaa Ameerikaa
+エスペラント語	Afaan abdii
+スペイン語	Ispaanish
+エストニア語	Estooniyaa
+バスク語	Baaskii
+ペルシャ語	Faarsii
+フィンランド語	Finooshaan
+フランス語	Faraansaay
+アイルランド語	Aayirish
+ガリシア語	Gaaliishiyaa
+グァラニ語	Guaraani
+グジャラート語	Gujaarati
+ハウサ語	Sooriyaa
+ヘブライ語	Ibroota
+ヒンディ語	Afaan Hindii
+クロアチア語	Kirooshiyaa
+ハイチ・クレオール語	Kireeyoolii Heeyitii
+ハンガリー語	Afaan Haangeerii
+インドネシア語	Indoneezhiyaa
+イボ語	Afaan Iboo
+アイスランド語	Aayisilaandi
+イタリア語	Xaaliyaanii
+日本語	Jaappaan
+ジャワ語	Jaavaaniis
+カザフ語	Kaazaak
+朝鮮語	Kooriyaa
+クルド語	Kurdish
+キルギス語	Kiriigiz
+ラテン語	Afaan Laatiin
+ルクセンブルク語	Laakshambargiis
+リンガラ語	Afaan Lingala
+リトアニア語	Afaan Liitweeniyaa
+ラトビア語	Laatviyaa
+マダガスカル語	Maalagaasii
+マオリ語	Maori
+マケドニア語	Maqedooniyaa
+マラヤーラム語	Maalayalaam
+モンゴル語	Moongooliyaa
+マラーティー語	Afaan Maaraatii
+マレー語	Maalay
+マルタ語	Maaltizii
+ビルマ語	Barmaa
+ネパール語	Nefaalii
+ノルウェー語	Niiwuujee
+オランダ語	Afaan Daachii
+オック語	Oktsitaan
+オロモ語	Gara
+パンジャーブ語	Panjabi
+ポーランド語	Calallii
+パシュトー語	Paashto
+ポルトガリア語	Poortugaalii
+ブラジルポルトガル語	Afaan Poorchugaalii Biraaziil
+ヨーロピアンポルトガル語	Afaan Poorchugaalii Awurooppaa
+ケチュア語	Q'uchu
+ルーマニア語	Raashiyaa
+ロシア語	Raashiyaa
+サンスクリット語	Afaan Giriikii Qulqulluu
+スロバキア語	Silaavikii
+スロベニア語	Afaan Islooveniyaa
+セルビア語	Seerbee
+南セソト語	Kibba Seshoo
+スンダ語	Afaan Sunda
+スウェーデン語	Iswiidish
+スワヒリ語	Sawaahili
+タミル語	Taamilii
+テルグ語	Teeluguu
+タジク語	Taajik
+タイ語	Taayii
+トルクメン語	Tarkmaan
+タガログ語	Afaan Taagalaag
+トルコ語	Tarkii
+タタール語	Taataar
+ウクライナ語	Yuukireeniyaa
+ウルドゥー語	Afaan Urduu
+ウズベク語	Uzbeki
+ベトナム語	Viyetnaam
+コサ語	Kosa
+イディッシュ語	Afaan Yidish
+簡体中国語	Chaayinaa Salphaa
+繁体中国語	Afaan Chaayinaa Aadaa
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Biroowsariin amma fayyadamaa jirtu gosa moofaa kan deggaramaa hin jirre dha. Muuxannoo interneetii fayyadamuu nageenya qabuu fi mijaa'aa ta'e argachuuf, maaloo biroowsarii keessan gara gosa isa yeroo ammaa haaromsadhaa.
+不正なリクエストです	Gaaffii sirrii hin taane
+画像が見つかりません	Suuraan hin argamne

@@ -1,0 +1,1292 @@
+# Malagasy translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 06:18+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Malagasy\n"
+"Language: mg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Fikirana"
+
+msgid "IPログリーダー"
+msgstr "Mpamaky ny log IP"
+
+msgid "IPアドレスログ"
+msgstr "Lisitry ny adiresy IP"
+
+msgid "全クリア"
+msgstr "Vitao ny ambaratonga rehetra"
+
+msgid "IPログが全て削除されました"
+msgstr "Voafafa daholo ny rakitra IP rehetra."
+
+msgid "ID"
+msgstr "Famaritana mampiavaka"
+
+msgid "タイムスタンプ"
+msgstr "Marika fotoana"
+
+msgid "IPアドレス"
+msgstr "Adiresy IP"
+
+msgid "ユーザーエージェント"
+msgstr "Solontenan'ny mpampiasa"
+
+msgid "イベント"
+msgstr "Hetsika"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Tsy misy angon-drakitra ho an'ity adiresy IP ity."
+
+msgid "EU GDPR対応"
+msgstr "Fanarahana ny GDPR an'ny Vondrona Eoropeanina"
+
+msgid "無効"
+msgstr "Tsy manan-kery"
+
+msgid "有効"
+msgstr "Manan-kery"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Raha mampiasa WordPress ao anatin'ny Vondrona Eoropeanina ianao, na raha mikendry mpampiasa ao anatin'ny Vondrona Eoropeanina ny tranokalanao, dia azafady mba ataovy azo antoka fa mandeha izy ity."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Ny bokotra 'Hamarino' dia hiova ho 'Manaiky' na 'Tsy manaiky', ary hiova kely ny fitondran-tena."
+
+msgid "同意画面の色"
+msgstr "Loko amin'ny efijery fanekena"
+
+msgid "自動"
+msgstr "Mandeha ho azy"
+
+msgid "ライトモード"
+msgstr "Fomba maivana"
+
+msgid "ダークモード"
+msgstr "Fomba Maizina"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Farito ny fandaharana loko ho an'ny efijery fanekena"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Fanaovana manjavozavo ny votoaty eo amin'ny efijery fanekena"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Farito ny haavon'ny fanamaizana ny votoaty aseho eo amin'ny efijery fanekena."
+
+msgid "同意画面の透過"
+msgstr "Fahazavan'ny efijery fanekena"
+
+msgid "透過なし"
+msgstr "Tsy mangarahara"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Farito ny mangaraharan'ny efijery fanekena"
+
+msgid "お知らせの1行目"
+msgstr "Andalana voalohany amin'ny fanambarana"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ity hafatra ity dia aseho foana amin'ny voalohany ampidirana ny pejy."
+
+msgid "お知らせの2行目"
+msgstr "Ny andalana faharoa amin'ny fampandrenesana"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Hiseho hatrany amin'ny fampisehoana voalohany ity hafatra ity rehefa manan-kery ny EU GDPR."
+
+msgid "お知らせの3行目"
+msgstr "Ny andalana fahatelo amin'ny fampandrenesana"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Hiseho eo ankavananan'ny rohy mankany amin'ny Politikan'ny Tsiambaratelo."
+
+msgid "非EU向け確認の文字列"
+msgstr "Teny fanamafisana ho an'ny firenena tsy ao anatin'ny Vondrona Eoropeanina"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Teny fanekena ho an'ny GDPR an'ny Vondrona Eoropeana"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Teny ho an'ny 'Aza manaiky' eo ambanin'ny GDPR an'ny Vondrona Eoropeana"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Teny momba ny politika fiarovana ny tsiambaratelo"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Azafady, apetraho eto ny URL ho an'ny politika momba ny tsiambaratelo."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Azafady ampio ireto manaraka ireto ao amin'ny Politikan'ny Tsiambaratelo."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Mba hahitana hetsika hosoka, dia tehirizina ao anaty cookies sy tahiry angona ny mombamomba toy ny adiresy IP. Fafana araka ny sitrapon'ny mpitantana ny angona voatahiry."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Mba hahazoana antoka fa alefa araka ny tokony ho izy ny sary rehefa mandeha ny fiarovana sary, dia mitahiry angon-drakitra voahash izay ahitana ny adiresy IP sy ny anaran'ny rakitra sary ao amin'ny tahiry izahay mandritra ny 60 minitra."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Raha mametraka Fepetra fampiasana ianao, azafady mba ataovy azo antoka fa mampiditra rohy mankany amin'izy ireo ao amin'ny Politikan'ny tsiambaratelo anao."
+
+msgid "利用規約の文字列"
+msgstr "Lahatsoratr'ireo Fepetran'ny Fampiasana"
+
+msgid "利用規約のページ"
+msgstr "Pejin'ny Fepetra sy Fitsipika"
+
+msgid "ページ選択なし"
+msgstr "Tsy misy pejy voafidy"
+
+msgid "検索エンジン等のURL"
+msgstr "URL ho an'ny milina fikarohana, sns."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Farito ny URL ho an'ny milina fikarohana sy ireo tranonkala mitovy izay mandefa mpampiasa any amin'ny toerana hafa rehefa tsy omena fankatoavana."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Maody famahana hadisoana, hafatra fampitandremana amin'ny console"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Tsindrio-ankavanana ny hafatra fampitandremana"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Fampitandremana momba ny fanontana sy ny fitahirizana ho PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Hafatra fampitandremana ao amin'ny pikantsary"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Fampitandremana momba ny sary efijery ahiana"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Hafatra fampitandremana rehefa voafidy ny lahatsoratra rehetra"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Fampitandremana momba ny fitahirizana pejy"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Haseho ity hafatra ity rehefa maka na manapaka."
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Hafatra haseho rehefa mijery ny loharanon'ny HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Hafatra haseho eo an-tampon'ny kaody loharano rehefa manafina na miaro HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Haseho ny hafatra raha tsy manankery ny token fanamarinana indray mandeha mandritra ny fiarovana HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Hafatra haseho raha toa ka voasakana ny cookies na ny JavaScript"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Raha ny marina, tsy miseho ity afa-tsy rehefa voasakana ny JavaScript."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Rehefa arovana ny sary iray, dia alaina izy, ary miseho eo amboniny ny hafatra"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Fanafenana ny kaody HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ity no fanerena HTML mahazatra; misy koa tranonkala afaka mandika azy."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ny fampandehanana ity safidy ity dia ahafahanao maka ny rakitra log-n'ny fijerena ny loharano."
+
+msgid "HTML保護"
+msgstr "Fiarovana HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Mamoaka HTML fototra indrindra fotsiny izy—na dia kely kokoa aza noho ny fampiasana fanerena HTML—ary tsy mamoaka mihitsy ny votoaty ao anatin'ny tag BODY."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Tsy mihatra amin'ny Firefox ity."
+
+msgid "SEOに著しく影響があります"
+msgstr "Manana fiantraikany lehibe amin'ny SEO izany."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Fanaovana sary an-tsary HTML amin'ny alalan'ny JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Mba hiasa manodidina ny Firefox, dia asehontsika amin'ny alalan'ny JavaScript ny HTML."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Ny fampandehanana ny fanehoana JavaScript dia hampiadana be ny hafainganam-pandehan'ny fampidinana ny tranonkala."
+
+msgid "画像の保護"
+msgstr "Fiarovana ny sary"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Arovy ny sary isaky ny antsoina ny tag img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Arovy ny sary rehetra ampidirina ao amin'ny WordPress ao anatin'ny vokatra HTML manontolo."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Miaro ny sary tsy ho alaina"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Rehefa arovana ny angon-tsary dia misakana saika ny fisintomana rehetra izahay, mamoaka URL tokana ampiasaina indray mandeha, manamarina ny mombamomba amin'ny alalan'ny token voatahiry ao anatin'ny session, ary mampiseho ny sary amin'ny alalan'ny PHP; izany dia misakana am-pahombiazana saika ny tranga rehetra amin'ny halatra sary."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Rehefa arovana ny angon-tsary, tsy miasa ny fitahirizana vonjimaika, izay midika fa haharitra ela kokoa ny fampidinana ny tranonkala amin'ny fitsidihana manaraka, ka misy fiantraikany amin'ny SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ny fiarovana ny angon-tsary dia mety hampitombo ny enta-mavesatra amin'ny tahiry angona."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Raha misafidy ny 'Miaro ny sary isaky ny antsoina ny tag img' ianao, dia mampiasa add_filter ny rafitra mba hanasivanana rehefa foronina ny tag img; na izany aza, mety tsy hiasa tsara amin'ny lohahevitra sasany izany."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Raha misafidy ny 'Miaro ny sary rehetra ampidirina ao amin'ny WordPress ao anatin'ny vokatra HTML manontolo' ianao, dia handrakitra saika ny asa rehetra ataon'ny WordPress ny plugin ary handinika ny tag img tsirairay ao anatin'ny votoaty. Mariho fa mety tsy hiasa tsara amin'ny lohahevitra sasany izany."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Mariho fa ny sary voatendry ho sary misongadina dia hozaraina ho toy ny angon-drakitra OGP ary tsy azo arovana. Raha tena ilainao arovana izy ireo dia ovay ny fikirana momba ny famoahana ny marika HEAD ao amin'ny fikirakirana mandroso rehefa mampavitrika ny fiarovana HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Tsy azo arovana ny fiasa fakana sary efijery tafiditra ho fenitra ao amin'ny rafitra fandidiana."
+
+msgid "画像URLの保護"
+msgstr "Fiarovana ny URL-n'ny sary"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Tokony ampiasaina miaraka amin'ny fiarovana sary izy ity; raha irery izy dia tsy misy ilana azy."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Satria ampidirina miadana amin'ny alalan'ny JavaScript izy, dia misy fiantraikany amin'ny SEO izany."
+
+msgid "画像のウォーターマーク"
+msgstr "Marika rano amin'ny sary"
+
+msgid "右下"
+msgstr "Ambany ankavanana"
+
+msgid "ランダム位置"
+msgstr "Toerana kisendrasendra"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Ampiasaina miaraka amin'ny fiarovana ny sary, ny marika an-drano mihetsika dia mampiseho mazava tsara ny maha-tompon'ny zon'ny mpamorona sady manome fahatsapana ho an'ny mpijery fa arahi-maso izy ireo, ka manakana azy ireo tsy hanao ratsy."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ny endrika JPG, PNG ary WebP ihany no tohanana."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Ny fampandehanana izany dia hampitombo ny enta-mavesatra amin'ny mpizara."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Mamoaka zavakanto ASCII avy amin'ny kaody loharano HTML mandritra ny fanalana mazava sy ny fiarovana"
+
+msgid "表示なし"
+msgstr "Tsy misy fampisehoana"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Mampiseho sary ASCII mampitandrina rehefa mijery ny loharano HTML amin'ny alalan'ny 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Asehoy ny famolavolana rehefa tanterahina ny hetsika kendrena."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Endrika fototra misy soratra mainty eo ambonin'ny lamina mavo."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Endrika mampihoron-koditra misy soratra mena eo ambonin'ny lafika mainty."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Endrika iray misy soratra mena mamirapiratra eo ambonin'ny lamba mainty."
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Mozika ambadika mandeha rehefa tanterahina ny hetsika kendrena"
+
+msgid "サウンドなし"
+msgstr "Tsy misy feo"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Ady sy Fandresena - 1 minitra 16,3 segondra - 630 056 baites - 64 kbps - Fahazoan-dàlana: CC 2.1 na mihoatra"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3.8 segondra - 32,364 baites - 64 kbps - Fahazoan-dàlana: GPL 2.0 na aoriana"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 segondra - 195,578 baites - 64 kbps - Fahazoan-dàlana: GPL 2.0 na vao haingana kokoa"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – kinova voarafitra, kinova haingam-pandeha – 1 minitra 57,6 segondra – 724 457 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo amin'ny Si bemol kely, Op. 2 – Dika novokarin'ny solosaina, dika fohy haingam-pandeha – 1 minitra 48,0 segondra – 665,369 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Lisitra: Étude d'Exécution No. 4 'Mazeppa' – kinova novokarin'ny solosaina, kinova fohy haingam-pandeha – 1 minitra 51,6 segondra – 687 586 baites – 48 kbps – Fahazoan-dàlana: CC BY-ND 4.0 na vao haingana kokoa"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 segondra – 183 926 bait – 64 kbps – Fahazoan-dàlana: An'ny daholobe"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Faneva fomba retro – 2,2 segondra – 10 536 bait – 32 kbps – Fahazoan-dàlana: An'ny daholobe"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fampidirana amin'ny fomba retro – 42,1 segondra – 179 138 baites – 32 kbps – Fahazoan-dàlana: An'ny daholobe"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Fampitandremana avy amin'ny ChatGPT - 3.8 segondra - 109,700 bytes - 256 kbps - Fahazoan-dàlana: An'ny daholobe"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Feo maika tokoa toy ny fampitandremana fitiliana malware – Ampahany 1 avy amin'i ChatGPT – 3,3 segondra – 102.850 bytes – 256 kbps – Fahazoan-dàlana: An'ny daholobe"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Feo maika tokoa toy ny fampitandremana fitiliana malware, Fizarana 2 nataon'i ChatGPT - 3,3 segondra - 103.122 bytes - 256 kbps - Fahazoan-dàlana: An'ny daholobe"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Feo karazana MRI avy amin'ny ChatGPT – 1 minitra 14,9 segondra – 3 340 392 octets – 320 kbps – Fahazoan-dàlana: An'ny daholobe"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Safidio ny mozika ambadika hihira mandritra ny fampitandremana."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Mamorona atmosfera mahagaga."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Voasakana ny feo ao amin'ny Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Feo bip rehefa tanterahina ny hetsika voatondro"
+
+msgid "有効 音量小さ目"
+msgstr "Mandeha, feo ambany"
+
+msgid "有効 音量大き目"
+msgstr "Miasa, ny feo napetraka amin'ny avo"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Heno ny feon'ny bip ho an'ny hetsika rehetra amin'ny fanalahidy sy ny totozy, raha aseho fampitandremana."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Miteraka fahatsapana fa lasa tsy voafehy ny fitaovana raha mbola aseho ny fampitandremana."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Manafina ny kisary totozy rehefa tanterahina ny hetsika iray manokana"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Manafina ny kisary totozy eo amin'ny faritra fitetezana raha misy fampitandremana aseho."
+
+msgid "デバッグモード"
+msgstr "Maody famahana lesoka"
+
+msgid "妨害＋記録のみ"
+msgstr "Fifangaroana + Rakikira ihany"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Fanelingelenana + Fandraketana + Fampisehoana + Fanodinkodinana"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Afaka miditra amin'izany ianao amin'ny alalan'ny menio."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Maody famahana lesoka ao amin'ny Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsolin'ny mpitety tranonkala"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Raha ny tena izy, azonao ampiasaina avy amin'ny maody debug izy."
+
+msgid "HTMLソース表示"
+msgstr "Jereo ny loharanon'ny HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Azonao atao ny manatanteraka ilay asa fotsiny amin'ny alalan'ny fampidirana URL manomboka amin'ny 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Azonao arovana ny votoatinao amin'ny fampifangaroana izany amin'ny fiarovana HTML."
+
+msgid "印刷"
+msgstr "Atontosa pirinty"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Na dia misakana ny fanontana aza izy, mety tsy hiasa tsara amin'ny mpitety tranonkala sasany."
+
+msgid "スクリーンショット"
+msgstr "Sary an-tsary"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Miankina amin'ny rafitra fandidiana, ny mpitety tranonkala na ny fomba ampiasaina, dia mety tsy ho azo atao ny manakana izany, na mety tsy ho voamarika."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Sary an-tsaina heverina ho nalaina rehefa mifindra any aoriana ny varavarankely"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Mamaly ihany koa izy amin'ny asa hafa ankoatra ny fakana sary efijery"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Sary efijery ahiana nalaina tamin'ny fanindriana bokotra roa"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Tsy azo antoka tanteraka ny fomba fitiliana ireo zavatra voalaza etsy ambony; atao ho fepetra fisorohana ny fitiliana."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Tsy ny pikantsary ihany no fantany fa ny maody debug sy ny toy izany koa."
+
+msgid "ページ保存"
+msgstr "Tehirizo ny pejy"
+
+msgid "右クリック"
+msgstr "Tsindrio havanana"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Raha efa napetraka ny fanitarana, dia ho afaka hampiasa azy ianao."
+
+msgid "コピー・カット"
+msgstr "Adikao ary tapaho"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Miankina amin'ny fandrindrana ity plugin ity, dia mety tsy hitranga matetika ity tranga ity."
+
+msgid "テキスト全選択"
+msgstr "Safidio ny lahatsoratra rehetra"
+
+msgid "テキスト選択"
+msgstr "Safidio ny lahatsoratra"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Taratasy firaketana fanombohan'ny mpanitsy, fanelingelenan'ny mpanitsy"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Izany dia mahatonga ny maody debug ho somary tsy mora ampiasaina ary mandrakitra fa efa natomboka ny debugger; na izany aza, mety hanakana ity fitondran-tena ity ny mpitety tranonkala sasany."
+
+msgid "リダイレクトするURL"
+msgstr "Manodina ny URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Tsara ny mandefa indray ny mpampiasa any amin'ny pejy toy ny Fepetran'ny Fampiasana."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Raha avela banga, dia hampivadika mankany amin'ny URL tany am-boalohany izy."
+
+msgid "リダイレクトまでの時間"
+msgstr "Fotoana hahatongavana amin'ny fanodina"
+
+msgid "リダイレクトなし"
+msgstr "Tsy misy fampivadiana"
+
+msgid "1秒"
+msgstr "Iray segondra"
+
+msgid "2秒"
+msgstr "Segondra roa"
+
+msgid "3秒"
+msgstr "3 segondra"
+
+msgid "4秒"
+msgstr "4 segondra"
+
+msgid "5秒"
+msgstr "Segondra 5"
+
+msgid "6秒"
+msgstr "Enina segondra"
+
+msgid "7秒"
+msgstr "7 segondra"
+
+msgid "8秒"
+msgstr "8 segondra"
+
+msgid "9秒"
+msgstr "Sivy segondra"
+
+msgid "10秒"
+msgstr "10 segondra"
+
+msgid "15秒"
+msgstr "15 segondra"
+
+msgid "20秒"
+msgstr "20 segondra"
+
+msgid "25秒"
+msgstr "25 segondra"
+
+msgid "30秒"
+msgstr "30 segondra"
+
+msgid "35秒"
+msgstr "35 segondra"
+
+msgid "40秒"
+msgstr "40 segondra"
+
+msgid "45秒"
+msgstr "45 segondra"
+
+msgid "50秒"
+msgstr "50 segondra"
+
+msgid "55秒"
+msgstr "Segondra 55"
+
+msgid "1分"
+msgstr "Minitra iray"
+
+msgid "1分10秒"
+msgstr "1 minitra sy 10 segondra"
+
+msgid "1分20秒"
+msgstr "1 minitra sy 20 segondra"
+
+msgid "1分30秒"
+msgstr "1 minitra sy 30 segondra"
+
+msgid "1分40秒"
+msgstr "1 minitra sy 40 segondra"
+
+msgid "1分50秒"
+msgstr "1 minitra sy 50 segondra"
+
+msgid "2分"
+msgstr "2 minitra"
+
+msgid "ソース表示を許可する権限"
+msgstr "Alalana hijery ny kaody loharano"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Ny famoahana avy amin'ny loharano mahazatra dia miseho rehefa tafiditra amin'ny maha-ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Vokatra mahazatra avy amin'ny loharano rehefa tafiditra amin'ny maha-MPAMPIASA"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Safidio na voafetra ho an'ny mpitantana ihany ny fivoahan'ny HTML mahazatra, na mitaky fidirana amin'ny kaonty."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Manery sary iray hisintona ary izay tena sintonina"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Sary mangarahara 1×1-piksely amin'ny endrika GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Sary mangarahara 1×1-piksely amin'ny endrika PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Ecran fampitandremana misy ambadika mavo amin'ny endrika PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Antontan-taratasy HTML tsy misy dikany"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Vokatra amin'ny tag HEAD rehefa voaaro ny HTML"
+
+msgid "出力しない"
+msgstr "Aza atao pirinty"
+
+msgid "TITLEタグのみ"
+msgstr "Tetikasa: Fampidirana lahatsoratra amin'ny alalan'ny bokotra."
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Nalaina avy amin'ny tag HEAD an'ny WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Ho an'ny pejy natokana ho an'ny mpikambana ampiasain'ny orinasa sy ny pejy anatiny, ampy ny misafidy ny 'Tsy mamoaka' na ny 'Taggam-lohateny ihany'."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Raha tsy maka ny fampahalalana avy amin'ny tag HEAD an'ny WordPress ianao, dia tsy hiseho ny sary OGP rehefa mizara amin'ny media sosialy."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Sakana ny bot sary"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Amin'ny fisakanana ireo bot-n'ny sary tsy hahazo miditra amin'ny HTML, dia afaka miaro ireo votoaty izay tsy azo arovana amin'ny alalan'ny rohy mivantana avy amin'ny fikarohana sary ianao; na izany aza, tsy vahaolana azo antoka tanteraka izany."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Sakana ny fidirana amin'ilay bot fampiofanana AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Amin'ny fialana amin'ny fampiasana ireo bots natao hanofanana ny AI amin'ny HTML, dia miantoka izahay fa tsy ampiasain'ny AI ny votoaty; na izany aza, tsy azo sorohina tanteraka izany."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Sakana ny fidirana amin'ny tahirin-kevitra an-tranonkala sy ny sary an-tranonkala."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Mandràra ny fidirana amin'ireo tahirin-tranonkala voaangona ho azy sy ireo pikantsary nalain'ny mpampiasa araka ny sitrapony izahay; na izany aza, tsy afaka misakana tanteraka izany izahay."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Sakana ireo mpampiasa tsy manan-kery"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Misakana ny fidirana raha misy tarehintsoratra tsy manankery ao amin'ny kofehy mpanome tolotra mpampiasa."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Mampiseho fampitandremana rehefa miditra amin'ny Internet Explorer sy ny Microsoft Edge taloha"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Misakana ny fidirana amin'ny alalan'ny Internet Explorer sy ny Microsoft Edge taloha."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Fiteny ampiasaina hanehoana ny hafatra fampitandremana"
+
+msgid "Wordpressの言語"
+msgstr "Fitenin'ny WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Fikirana momba ny fitenin'ny navigateur"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Tsy afaka manova ny fiteny ianao raha efa namboarina ny hafatra."
+
+msgid "同意画面の言語"
+msgstr "Fitenin'ny efijery fanekena"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Fiteny hanehoana ny hafatra 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Daty lany datin'ny token vonjimaika"
+
+msgid "3分"
+msgstr "3 minitra"
+
+msgid "4分"
+msgstr "Minitra 4"
+
+msgid "5分"
+msgstr "Dimy minitra"
+
+msgid "6分"
+msgstr "Enina minitra"
+
+msgid "7分"
+msgstr "Minitra fito"
+
+msgid "8分"
+msgstr "Valon'minitra"
+
+msgid "9分"
+msgstr "Sivy minitra"
+
+msgid "10分"
+msgstr "Folo minitra"
+
+msgid "15分"
+msgstr "15 minitra"
+
+msgid "20分"
+msgstr "20 minitra"
+
+msgid "25分"
+msgstr "Minitra 25"
+
+msgid "30分"
+msgstr "30 minitra"
+
+msgid "35分"
+msgstr "35 minitra"
+
+msgid "40分"
+msgstr "Minitra 40"
+
+msgid "45分"
+msgstr "45 minitra"
+
+msgid "50分"
+msgstr "Dimy-polo minitra"
+
+msgid "55分"
+msgstr "Dimy amby dimampolo minitra"
+
+msgid "1時間"
+msgstr "Adiny iray"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Farito ny daty lany ho an'ny fampahalalana momba ny URL-n'ny sary"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Rehefa tafapetraka, dia hofoanana ny URL-n'ny sary sy ny token vonjimaika."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Ampidirina araka ny fangatahana ny sary, saingy ampidirina ho azy 30 segondra mialoha ny fotoana voatondro."
+
+msgid "一時使用トークンのビット数"
+msgstr "Isan'ny bits ao anaty token vonjimaika"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Token vonjimaika no ampiasaina ho tenimiafina hanakonana ny fampahalalana momba ny URL-n'ny sary; ity fikirakirana ity dia mamaritra ny heriny."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Na dia mihamivoatra sy mihamifantoka aza ny safidy aseho eo ambanin'ny menio midina, dia mety hampitombo be ny enta-mavesatra amin'ny mpizara izany ary hiteraka famindrana angon-drakitra HTML betsaka."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algoritman'ny hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Token vonjimaika no ampiasaina ho tenimiafina hanakonana ny fampahalalana momba ny URL-n'ny sary; mitaky fanaovana hash izany, ary ity fikirakirana ity no mamaritra ny tanjaky ny hash."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Na dia miakatra aza ny hamafin'ny rehefa mitsoraka midina ianao amin'ireo safidy aseho ao amin'ny menio midina, dia mampitombo enta-mavesatra kokoa amin'ny mpizara izany."
+
+msgid "基本設定"
+msgstr "Fikirana fototra"
+
+msgid "高度な設定"
+msgstr "Fikirana mandroso"
+
+msgid "初期設定に戻す"
+msgstr "Avereno ny fikirakirana voalohany"
+
+msgid "デザイン・音の設定"
+msgstr "Famolavolana sy fikirakirana ny feo"
+
+msgid "イベントの設定"
+msgstr "Fikirana ny hetsika"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Fametrahana fampandrenesana ho an'ny fitsidihana voalohany"
+
+msgid "メッセージの設定"
+msgstr "Fikirana hafatra"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Farito ny URL hosokafana rehefa manindry-ankavanana na mijery ny kaody loharano"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Tsy azo ampiasaina ao anatin'ny hafatra fampitandremana ny HTML."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Raha manamboatra izany ianao amin'ity efijery ity, dia tsy ho raisina an-tanisaina ny fikirakirana ny fiteny ao amin'ny takelaka Advanced."
+
+msgid "以下の文字列が使用できます"
+msgstr "Azo ampiasaina ireto andalana manaraka ireto"
+
+msgid "改行"
+msgstr "Fizaran-tsoratra"
+
+msgid "押下されたキー"
+msgstr "Voatsindry ny lakile"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Fikirana Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Fampandrenesana"
+
+msgid "メッセージ"
+msgstr "Hafatra"
+
+msgid "デザイン・音"
+msgstr "Endrika sy Feo"
+
+msgid "初期化"
+msgstr "Fanombohana"
+
+msgid "このプラグインについて"
+msgstr "Momba ity plugin ity"
+
+msgid "設定が初期化されました"
+msgstr "Naverina tamin'ny laoniny ny fikirakirana."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Ampandehano ny plugin. Mariho fa tsy hofafana amin'ity dingana ity ny angon-drakitra IP Log Reader."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Momba ny Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Ity plugin ity dia natao hiarovana ny HTML, ny sary ary ny votoaty hafa vokarin'ny tranokalanao WordPress, mba hisorohana ny fampiasana tsy nahazoana alalana."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Tsy azo atao ny miaro tanteraka ny votoaty. Na izany aza, amin'ny fampitandremana isaky ny azo atao sy ny fanomanana raha misy zavatra mitranga, dia tokony ho afaka hamaha ny olana araka ny fomba fanao napetraky ny governemanta isika."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Mazava ho azy fa mila miantoka ianao fa feno sy feno tanteraka ny fepetra fampiasana sy ny politika ao amin'ny tranonkalanao. Na dia tsy fitaovana hamoronana fepetra fampiasana aza ity plugin ity, dia afaka manome torohevitra izy."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Mpamorona: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Dikan-teny"
+
+msgid "ビルド"
+msgstr "Manangana"
+
+msgid "サポートページ"
+msgstr "Pejy fanohanana"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Notanterahin'i Ramatoa Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Fangatahana fanohanana"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Misaotra anao nampiasa ny Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ny fampandrosoana sy ny fikojakojana ity plugin ity dia nitaky fotoana sy ezaka be, ary mba hanangonam-bola hanohizana ny fanatsarana sy ny fanavaozana azy dia ho feno fankasitrahana izahay raha misy afaka manohana anay ka handinika ny hanome fanomezana."
+
+msgid "寄付について"
+msgstr "Momba ny fanomezana"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Ny fanomezana dia tanteraka an-tsitrapo ary tsy voatery. Azo ampiasaina maimaim-poana ho an'ny rehetra ity plugin ity. Na izany aza, tena ankasitrahana ny fanohananao mba hahafahanay manohy ny fampandrosoana, ary ho faly izahay raha afaka manome izay azonao atao."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Afaka manao fanomezana ianao amin'ny alalan'ny rohy etsy ambany. Raha monina any Japana ianao dia afaka manome maimaim-poana, ary afaka manome mora foana koa ianao amin'ny fampiasana tapakila fanomezana Amazon."
+
+msgid "寄付先"
+msgstr "Fikambanana mpanao asa soa"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Miaraka amin'ny fanohananareo, hanao izay tsara indrindra vitanay izahay mba hanohizana mitondra vaovao mahafinaritra ho anareo!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Misaotra anao amin'ny fanohananao izahay ary manantena ny fanohananao mitohy amin'ny ho avy."
+
+msgid "ライセンス"
+msgstr "Fahazoan-dàlana"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Ity plugin ity dia novolavolaina ho rindrambaiko loharano misokatra ary nahazo fahazoan-dàlana GPLv2.0 na vao haingana kokoa."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ny sasany amin'ireo teknolojia ao anatin'ity plugin ity dia arovan'ny patanty."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Ny fampiasana ny teknolojia patanty dia azo atao ao anatin'ity plug-in ity ihany."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Ho an'ny fampiasana hafa rehetra, miangavy anao hifandray amin'ny mpanoratra mba hahazoana fahazoan-dàlana ara-barotra."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ity plugin ity dia ahitana ireto tranomboky manaraka ireto"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ity plugin ity dia ahitana ireo endritsoratra ASCII art novokarina etsy ambany, miaraka amin'ireo rakitra endritsoratra."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ity plugin ity dia ahitana mozika avy amin'ny lalao Super Famicom tsy ofisialy 'SM Trainer Hitomi 3', novolavolain'ny EJ Co., Ltd. ary noforonin'ny mpamorona ity plugin ity, ary nahazo fahazoan-dàlana ofisialy."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ity plugin ity dia ahitana hira noforonina tamin'ny fampiasana 'Keppy's YAMAHA C7', novolavolain'i Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Nampiasa Raspberry Pi 5, ChatGPT ary DeepL ihany koa aho tamin'ny famolavolana ity plugin ity."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Hita fa misy plugin fitahirizana vonjimaika. Tsy hiasa araka ny tokony ho izy ity plugin ity raha toa ka mavitrika ny plugin fitahirizana vonjimaika."
+
+msgid "無効なIPアドレス"
+msgstr "Adiresy IP tsy manankery"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Mba hampiasana ity tranonkala ity dia tsy maintsy alefanao ny cookies sy ny JavaScript."
+
+msgid "利用規約"
+msgstr "Fepetran'ny fampiasana"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Mba hisorohana ny fampiasana tsy nahazoana alalana sy hiantohana ny fampandehanana azo antoka ny tolotra omenay, dia mety hitahiry fampahalalana toy ny adiresy IP, ny tantaran'ny fitetezana ary ny rakitra momba ny hetsika ao anaty cookies sy tahiry angona ity tranonkala ity. Ireo fampahalalana ireo dia ampiasaina fotsiny amin'ny fampandehanana ny tranonkala sy amin'ny tanjona ara-dalàna, ary tsy havoaka amin'ny antoko fahatelo."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Mba hampiasana ity tolotra ity, dia tsy maintsy manaiky ireto asa fanodinana ireto ianao."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Azonao jerena ny votoatin'ny Politikan'ny Tsiambaratelo na efa nanome ny fanekenao ianao na tsia."
+
+msgid "同意する"
+msgstr "Manaiky aho"
+
+msgid "同意しない"
+msgstr "Tsy manaiky aho"
+
+msgid "確認"
+msgstr "Fanamafisana"
+
+msgid "プライバシーポリシー"
+msgstr "Politikan'ny Tsiambaratelo"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Nisy fidirana na hetsika tsy mahazatra hita"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Nisy endri-javatra sasany noferana noho ny antony fiarovana sy fiarovana ny votoaty."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Voasakana ny maody debug sy ny fidirana amin'ny console"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Nalefa tany amin'ny mpizara ny fampahalalana manaraka ireto"
+
+msgid "あなたのIPアドレス"
+msgstr "Ny adiresy IP-nao"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Ny fitaovanao sy ny mpitety tranonkala"
+
+msgid "あなたの押下したキー"
+msgstr "Ny fanalahidy nosindrinao"
+
+msgid "リダイレクトをします"
+msgstr "Halefa any amin'ny toerana hafa ianao"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Nisy endri-javatra sasany voafetra mba hiarovana ny votoaty."
+
+msgid "右クリックは禁止されています"
+msgstr "Tsy azo atao ny manindry-kavanana."
+
+msgid "あなたが押下したキー"
+msgstr "Ny fanalahidy nosindrinao"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Voarara ny mampitonta sy mitahiry ho PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Voarara ny fakana sary efijery."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Voarara ny maka pikantsary sy mampavitrika ny maody debug."
+
+msgid "ページの保存は禁止されています"
+msgstr "Voarara ny mitahiry ity pejy ity"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Voarara ny maka tahaka sy ny manapaka."
+
+msgid "あなたが起こしたイベント"
+msgstr "Hetsika efa nokarakarao"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Tsy azo atao ny misafidy lahatsoratra."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Voarara ny mampiseho ny kaody loharano HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Voarara ny fidirana tsy nahazoana alalana."
+
+msgid "アフリカーンス語"
+msgstr "Afrikanis"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Arabo"
+
+msgid "アッサム語"
+msgstr "Asamiana"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Mpikatroka"
+
+msgid "ベラルーシ語"
+msgstr "Belarosiana"
+
+msgid "ベンガル語"
+msgstr "Bengaly"
+
+msgid "ブルガリア語"
+msgstr "Bolgara"
+
+msgid "ボスニア語"
+msgstr "Bosniaka"
+
+msgid "カタロニア語"
+msgstr "Katalana"
+
+msgid "チェコ語"
+msgstr "Tseky"
+
+msgid "ウェールズ語"
+msgstr "Kymraeg"
+
+msgid "デンマーク語"
+msgstr "Danemarka"
+
+msgid "ドイツ語"
+msgstr "Alemàna"
+
+msgid "現代ギリシア語"
+msgstr "Grika maoderina"
+
+msgid "英語"
+msgstr "Anglisy"
+
+msgid "イギリス英語"
+msgstr "Anglisy"
+
+msgid "アメリカ英語"
+msgstr "Anglisy Amerikana"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Espaniola"
+
+msgid "エストニア語"
+msgstr "Estoniana"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Persiana"
+
+msgid "フィンランド語"
+msgstr "Finoa"
+
+msgid "フランス語"
+msgstr "Frantsay"
+
+msgid "アイルランド語"
+msgstr "Irisy"
+
+msgid "ガリシア語"
+msgstr "Galicianina"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujaraty"
+
+msgid "ハウサ語"
+msgstr "Fonjo"
+
+msgid "ヘブライ語"
+msgstr "Hebreo"
+
+msgid "ヒンディ語"
+msgstr "Sanskrit"
+
+msgid "クロアチア語"
+msgstr "Kroaty"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kreyôla Haïtiana"
+
+msgid "ハンガリー語"
+msgstr "Hongroà"
+
+msgid "インドネシア語"
+msgstr "Indoneziana"
+
+msgid "イボ語"
+msgstr "Fiteny Ibo"
+
+msgid "アイスランド語"
+msgstr "Islandey"
+
+msgid "イタリア語"
+msgstr " Italiana"
+
+msgid "日本語"
+msgstr "Japoney"
+
+msgid "ジャワ語"
+msgstr "Javaney"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Koreana"
+
+msgid "クルド語"
+msgstr "Kôrdô"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latina"
+
+msgid "ルクセンブルク語"
+msgstr "Loksemborgiana"
+
+msgid "リンガラ語"
+msgstr "Mpanao"
+
+msgid "リトアニア語"
+msgstr "Litoanianina"
+
+msgid "ラトビア語"
+msgstr "Latvia"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Māori"
+
+msgid "マケドニア語"
+msgstr "Masedônianina"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mongôlia"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Malteàna"
+
+msgid "ビルマ語"
+msgstr "Birmania"
+
+msgid "ネパール語"
+msgstr "Nepaliana"
+
+msgid "ノルウェー語"
+msgstr "Norveziana"
+
+msgid "オランダ語"
+msgstr "Holandey"
+
+msgid "オック語"
+msgstr "Okisitan"
+
+msgid "オロモ語"
+msgstr "Naorôma"
+
+msgid "パンジャーブ語"
+msgstr "Panjabi"
+
+msgid "ポーランド語"
+msgstr "Fandravana"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portiogey"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portiogey Breziliana"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portiogey Eoropeana"
+
+msgid "ケチュア語"
+msgstr "Kechua"
+
+msgid "ルーマニア語"
+msgstr "Romaniana"
+
+msgid "ロシア語"
+msgstr "Rosiana"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slôvaka"
+
+msgid "スロベニア語"
+msgstr "Sloveniana"
+
+msgid "セルビア語"
+msgstr "Serba"
+
+msgid "南セソト語"
+msgstr "Atsimon'i Sesotho"
+
+msgid "スンダ語"
+msgstr "Sunda"
+
+msgid "スウェーデン語"
+msgstr "Soedoà"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telôgô"
+
+msgid "タジク語"
+msgstr "Tajika"
+
+msgid "タイ語"
+msgstr "Tailandey"
+
+msgid "トルクメン語"
+msgstr "Tiorka"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Tiorka"
+
+msgid "タタール語"
+msgstr "Tatàra"
+
+msgid "ウクライナ語"
+msgstr "Okrainiana"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Ozbeky"
+
+msgid "ベトナム語"
+msgstr "Vietnamiana"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Yiddish"
+
+msgid "簡体中国語"
+msgstr "Sinoa tsotra"
+
+msgid "繁体中国語"
+msgstr "Sinoa nentim-paharazana"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Ny mpitety tranonkala ampiasainao amin'izao fotoana izao dia kinova taloha izay tsy tohanana intsony. Mba hahazoana traikefa fitetezana tranonkala azo antoka kokoa sy mahazo aina kokoa, azafady havaozy ho amin'ny kinova farany ny mpitety tranonkalanao."
+
+msgid "不正なリクエストです"
+msgstr "Fangatahana tsy manankery"
+
+msgid "画像が見つかりません"
+msgstr "Tsy hita ny sary"
+

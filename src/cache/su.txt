@@ -1,0 +1,424 @@
+設定	Setélan
+IPログリーダー	Pembaca Log IP
+IPアドレスログ	Catetan alamat IP
+全クリア	Rengsekeun sadaya tingkat
+IPログが全て削除されました	Sadaya log IP parantos dihapus
+ID	Identifikasi
+タイムスタンプ	Cap waktos
+IPアドレス	Alamat IP
+ユーザーエージェント	Agén Pamaké
+イベント	Acara
+IPアドレスのデータはありません	Teu aya data pikeun alamat IP ieu
+EU GDPR対応	Patuh kana GDPR EU
+無効	Henteu sah
+有効	Sah
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Lamun anjeun ngagunakeun WordPress di EU, atawa lamun situs wéb anjeun nargétkeun pangguna di EU, mangga pastikeun ieu diaktipkeun.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Tombol 'Konfirmasi' bakal robah jadi 'Satuju' atawa 'Henteu Satuju', sarta paripolahna bakal rada robah.
+同意画面の色	Warna layar idin
+自動	Otomatis
+ライトモード	Mode hampang
+ダークモード	Mode Poék
+同意画面表示中の配色を設定します	Atur skéma warna pikeun layar idin
+同意画面中のコンテンツのぼかし	Kabur eusi dina layar idin
+同意画面表示中のコンテンツのぼかし具合を設定します	Atur tingkat kabur pikeun eusi anu dipidangkeun dina layar idin
+同意画面の透過	Kajelasan layar idin
+透過なし	Teu aya transparansi
+同意画面の透過具合を設定します	Atur opasitas layar idin
+お知らせの1行目	Baris kahiji tina pangumuman
+初回表示で必ず表示されるメッセージです	Pesen ieu sok dipidangkeun nalika halaman dimuat pikeun kahiji kalina.
+お知らせの2行目	Baris kadua tina béwara
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Pesen ieu bakal salawasna muncul dina tampilan kahiji ngan nalika EU GDPR lumaku.
+お知らせの3行目	Baris katilu tina béwara
+プライバシーポリシーのリンクの右側に表示されます	Éta bakal muncul di katuhu tautan kana Kabijakan Privasi.
+非EU向け確認の文字列	Téks konfirmasi pikeun nagara non-Uni Éropa
+EU GDPR向け同意するの文字列	Téks idin pikeun GDPR EU
+EU GDPR向け同意しないの文字列	Téks pikeun 'Ulah masihan idin' dina EU GDPR
+プライバシーポリシーの文字列	Téks kabijakan privasi
+プライバシーポリシーのURLはこちらから設定して下さい	Mangga pasang URL pikeun kabijakan privasi di dieu.
+プライバシーポリシーには以下の内容を追加して下さい	Mangga tambahkeun ieu di handap kana Kabijakan Privasi.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Pikeun ngadeteksi kagiatan panipuan, idéntifikasi sapertos alamat IP disimpen dina cookie jeung basis data. Data anu disimpen dihapus nurutkeun kaputusan administratur.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Pikeun mastikeun yén gambar dikirimkeun kalayan leres ngan nalika panyalindungan gambar diaktipkeun, kami nyimpen data anu geus di-hash anu ngawengku alamat IP jeung ngaran file gambar dina basis data salila nepi ka 60 menit.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Lamun anjeun nyetél Sarat Pamakéan, mangga pastikeun anjeun nyertakeun tautan ka éta dina Kabijakan Privasi anjeun.
+利用規約の文字列	Téks Sarat Pamakéan
+利用規約のページ	Halaman Istilah jeung Kaayaan
+ページ選択なし	Henteu aya kaca anu dipilih
+検索エンジン等のURL	URL pikeun mesin pencari, jsb.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Atur URL pikeun mesin pencari jeung situs sarupa anu ngarahkeun pangguna nalika idin henteu dipasihan.
+デバッグモード、コンソールの警告メッセージ	Mode debug, pesen peringatan konsol
+右クリックの警告メッセージ	Pesen peringatan klik katuhu
+印刷、PDF保存の警告メッセージ	Pesen peringatan ngeunaan nyitak jeung nyimpen salaku PDF
+スクリーンショットの警告メッセージ	Pesen peringatan dina tangkapan layar
+スクリーンショットの疑いの警告メッセージ	Pesen peringatan ngeunaan screenshot anu dicurigai
+テキスト全選択時の警告メッセージ	Pesen peringatan nalika sadaya téks dipilih
+ページ保存の警告メッセージ	Pesen peringatan ngeunaan nyimpen kaca
+コピー・カットした時に表示するメッセージ	Pesen anu ditampilkeun nalika nyalin atawa motong
+HTMLソース表示時に表示するメッセージ	Pesen anu bakal dipidangkeun nalika ningali sumber HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Pesen pikeun dipidangkeun di luhur kode sumber nalika ngaburukkeun atawa ngajagi HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Pesen anu bakal dipidangkeun lamun token oténtikasi sakali paké teu sah salila panyalindungan HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Pesen pikeun dipidangkeun lamun cookies atawa JavaScript dinonaktipkeun
+実際にはJavascriptが無効時のみ表示されます	Saéstuna, ieu ngan dipidangkeun nalika JavaScript dinonaktipkeun.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Lamun hiji gambar dilindungi, éta bakal diunduh, sarta pesen bakal dipintonkeun dina gambar éta
+HTML難読化 (圧縮)	Obfuskasi HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ieu komprési HTML standar; aya ogé situs wéb anu bisa ngadekodena.
+このオプションを有効にするとview-sourceのログが取得できます	Ngaktipkeun pilihan ieu ngamungkinkeun anjeun ngaksés log view-source.
+HTML保護	Panglindungan HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Éta ngahasilkeun HTML anu leuwih saeutik tibatan setélan komprési HTML, hartina eusi dina tag BODY moal kaluar pisan.
+Firefoxに対しては無効です	Ieu henteu lumaku pikeun Firefox
+SEOに著しく影響があります	Ieu boga pangaruh anu signifikan kana SEO.
+HTMLをJavaScriptで描画	Ngahasilkeun HTML ngagunakeun JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Pikeun ngungkulan Firefox, urang ngagambarkeun HTML ngagunakeun JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Ngaktipkeun rendering JavaScript bakal sacara signifikan ngalambatkeun laju muat situs wéb.
+画像の保護	Panglindungan gambar
+imgタグが呼び出されるごとに画像を保護	Lindungi gambar unggal waktos tag img dipanggil
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ngajagi sakabéh gambar anu diunggah ka WordPress dina sakabéh kaluaran HTML.
+画像をダウンロードから保護します	Ngajaga gambar supaya teu bisa diunduh
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Nalika data gambar dilindungi, kami nyegah ampir sakabéh unduhan, ngaluarkeun URL sakali paké anu unik, ngautentikasi ngagunakeun token anu disimpen dina sesi, sarta nembongkeun gambar ngaliwatan PHP; ieu sacara efektif nyegah ampir sakabéh kasus maling gambar.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lamun data gambar dilindungi, caching moal jalan, nu hartina situs bakal muat leuwih lalaunan dina kunjungan salajengna, sahingga mangaruhan SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ngajagi data gambar tiasa ningkatkeun beban dina basis data.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Lamun anjeun milih 'Ngajagi gambar iraha waé tag img dipanggil', sistem bakal ngagunakeun add_filter pikeun nerapkeun saringan nalika tag img dijieun; sanajan kitu, ieu bisa jadi teu jalan leres dina sababaraha téma.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Lamun anjeun milih 'Ngajagi sakabéh gambar anu diunggah ka WordPress dina sakabéh kaluaran HTML', plugin ieu bakal nyekel ampir sakabéh operasi WordPress jeung ngolah unggal tag img dina eusi. Punten dicatet yén ieu bisa jadi henteu jalan leres dina sababaraha téma.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Mangga diperhatikeun yén gambar anu ditunjuk salaku gambar unggulan bakal dibagikeun salaku data OGP sareng teu tiasa dilindungi. Upami anjeun mutlak kedah ngajagi éta, mangga robah setélan pikeun kaluaran tag HEAD dina setélan canggih nalika ngaktipkeun panyalindungan HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Fungsi screenshot anu aya dina sistem operasi teu tiasa dilindungi
+画像URLの保護	Ngajagi URL gambar
+画像の保護と組み合わせて使用します、単体では意味がありません	Ieu kedah dianggo babarengan jeung panyalindungan gambar; mun nyalira, éta teu aya gunana.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Kusabab dimuat ngaliwatan JavaScript, ieu mangaruhan SEO.
+画像のウォーターマーク	Watermark gambar
+右下	Handap katuhu
+ランダム位置	Posisi acak
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Dina kombinasi jeung panyalindungan gambar, watermark dinamis sacara jelas nunjukkeun kapamilikan hak cipta bari méré kesan ka panempo yén maranéhna keur diawasan, sahingga jadi panghalang.
+JPG形式、PNG形式、WebP形式のみ対応します	Ngan format JPG, PNG, jeung WebP anu didukung.
+有効にするとサーバーの負荷が高くなります	Ngaktipkeun ieu bakal ningkatkeun beban dina sérver.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ngahasilkeun seni ASCII tina kode sumber HTML nalika ngaburamkeun jeung ngajaga
+表示なし	Teu aya tampilan
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Némbongkeun seni ASCII nu nandakeun peringatan nalika ningali sumber HTML maké 'view-source'
+対象アクションを起こした時の表示デザイン	Témbongkeun desain nalika tindakan sasaran dilakukeun
+黄色の背景の黒文字のベーシックデザイン	Desain dasar anu nampilkeun téks hideung dina latar tukang konéng
+黒色の背景の赤文字のホラー風デザイン	Desain gaya horor anu nembongkeun téks beureum dina latar hideung
+黒色の背景の赤文字の光る文字のデザイン	Desain anu nembongkeun téks beureum caang dina latar hideung
+対象アクションを起こした時のBGM	Musik latar anu maén nalika tindakan sasaran dilakukeun
+サウンドなし	Teu aya sora
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Pertempuran & Kameunangan - 1 menit 16,3 detik - 630.056 bait - 64 kbps - Lisénsi: CC 2.1 atawa nu leuwih anyar
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Bapa Pondok - 3,8 detik - 32.364 bait - 64 kbps - Lisénsi: GPL 2.0 atawa nu leuwih anyar
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 detik - 195.578 bait - 64 kbps - Lisénsi: GPL 2.0 atawa nu leuwih anyar
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – vérsi dijieun ku komputer, vérsi laju luhur – 1 menit 57,6 detik – 724.457 bait – 48 kbps – Lisénsi: CC BY-ND 4.0 atawa nu leuwih anyar
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo dina B-mol minor, Op. 2 – vérsi dijieun ku komputer, vérsi ringkes laju-luhur – 1 menit 48,0 detik – 665.369 bait – 48 kbps – Lisénsi: CC BY-ND 4.0 atawa nu leuwih anyar
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Daptar: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 detik – 183.926 bait – 64 kbps – Lisénsi: Domain Umum
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfare gaya retro – 2,2 detik – 10.536 bait – 32 kbps – Lisénsi: Domain Umum
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Intro gaya retro – 42,1 detik – 179.138 bait – 32 kbps – Lisénsi: Domain Umum
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Peringatan ku ChatGPT - 3,8 detik - 109.700 bait - 256 kbps - Lisénsi: Domain Umum
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sora darurat luhur siga béwara deteksi malware – Bagéan 1 ku ChatGPT – 3,3 detik – 102.850 bait – 256 kbps – Lisénsi: Domain Umum
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sora darurat luhur siga béwara deteksi malware, Bagéan 2 ku ChatGPT - 3,3 detik - 103.122 bait - 256 kbps - Lisénsi: Domain Umum
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sora gaya MRI ku ChatGPT – 1 menit 14,9 detik – 3.340.392 bait – 320 kbps – Lisénsi: Domain Umum
+警告表示中のBGMを選択します	Pilih musik latar pikeun diputer nalika aya peringatan.
+びっくりするような雰囲気を作ります	Éta nyiptakeun suasana anu matak héran
+Firefoxでは音声ブロックされます	Audio diblokir di Firefox
+対象アクションを起こした時のビープ音	Beep nalika tindakan anu ditangtukeun dilakukeun
+有効 音量小さ目	Hurung, sora handap
+有効 音量大き目	Aktif, volume disetél ka luhur
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Sora bip bakal kadéngé pikeun sakabéh kajadian konci jeung beurit, bari peringatan dipidangkeun.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Éta nyieun kesan yén alatna geus teu karuan nalika peringatan éta dipidangkeun.
+対象アクションを起こした時のマウスカーソルの消去	Nyumputkeun kursor beurit nalika hiji tindakan husus dilakukeun
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Nyumputkeun kursor beurit di wewengkon panyungsi nalika aya peringatan nu dipidangkeun
+デバッグモード	Mode debug
+妨害＋記録のみ	Gangguan + Rekaman wungkul
+妨害＋記録＋表示＋リダイレクト	Gangguan + Pencatetan + Tampilan + Pangalihan
+メニューからは操作できてしまいます	Anjeun masih tiasa ngaksésna ngaliwatan ménu.
+Firefoxにおけるデバッグモード	Mode debug dina Firefox
+ブラウザーコンソール	Konsol panyungsi
+事実上デバッグモードから操作できてしまいます	Sabenerna, anjeun tiasa ngajalankeunana tina mode debug.
+HTMLソース表示	Tingali sumber HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Anjeun tiasa ngalaksanakeun operasi éta sacara basajan ku ngetik URL anu dimimitian ku 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Anjeun tiasa ngajagi eusi anjeun ku ngagabungkeun ieu jeung panyalindungan HTML.
+印刷	Cétak
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Sanajan nyegah nyitak, éta bisa jadi henteu jalan leres dina sababaraha panyungsi wéb.
+スクリーンショット	Tangkapan layar
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Gumantung kana sistem operasi, panyungsi wéb, atawa métode anu dianggo, bisa jadi teu mungkin pikeun ngahalangan ieu, atawa bisa jadi teu kadeteksi.
+ウインドウが背面に移動した時スクリーンショットの疑い	Dugaan screenshot nalika jandéla pindah ka latar tukang
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Éta ogé ngaréspon kana fungsi séjén salian ti nyandak tangkapan layar
+2キー押下のスクリーンショットの疑い	Dugaan screenshot dicandak ku mencét dua konci
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Métode deteksi pikeun barang-barang di luhur henteu sampurna; deteksi dilaksanakeun salaku léngkah pancegahan.
+スクリーンショットだけではなく、デバッグモード等も検出します	Éta ngadeteksi henteu ngan ukur tangkapan layar tapi ogé mode debug jeung sajabana.
+ページ保存	Simpen kaca
+右クリック	Klik katuhu
+アドオンがインストールされていると操作できてしまいます	Lamun add-on geus dipasang, anjeun bakal bisa ngagunakeunana.
+コピー・カット	Salin jeung potong
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Gumantung kana setélan plugin ieu, anjeun bisa jarang ngalaman kajadian ieu.
+テキスト全選択	Pilih sadaya téks
+テキスト選択	Pilih téks
+デバッガー起動ログ、デバッガー妨害	Log ngamimitian debugger, gangguan debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Ieu ngajadikeun mode debug rada kirang ramah-pamaké jeung nyatet yén debugger geus diluncurkeun; sanajan kitu, sababaraha panyungsi wéb bisa ngahalangan paripolah ieu.
+リダイレクトするURL	Alihkeun URL
+利用規約などのページに転送すると良いでしょう	Éta bakal janten ide anu saé pikeun ngarahkeun pangguna ka halaman sapertos Syarat Pamakéan.
+空欄にすると元のURLにリダイレクトをします	Lamun dibiarkeun kosong, éta bakal ngarahkeun deui ka URL aslina.
+リダイレクトまでの時間	Waktos nepi ka pangalihan
+リダイレクトなし	Teu aya pangalihan
+1秒	1 detik
+2秒	2 detik
+3秒	Tilu detik
+4秒	4 detik
+5秒	Lima detik
+6秒	Genep detik
+7秒	7 detik
+8秒	Dalapan detik
+9秒	9 detik
+10秒	10 detik
+15秒	15 detik
+20秒	20 detik
+25秒	25 detik
+30秒	30 detik
+35秒	35 detik
+40秒	40 detik
+45秒	45 detik
+50秒	50 detik
+55秒	55 detik
+1分	1 menit
+1分10秒	1 menit 10 detik
+1分20秒	1 menit 20 detik
+1分30秒	Hiji menit tilu puluh detik
+1分40秒	1 menit 40 detik
+1分50秒	1 menit 50 detik
+2分	Dua menit
+ソース表示を許可する権限	Idin pikeun ningali kode sumber
+ADMINログイン時のみ通常のソース出力	Kaluaran sumber normal ngan ukur nalika asup salaku ADMIN
+USERログインで通常のソース出力	Kaluaran sumber normal nalika log in salaku USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Pilih naha kaluaran HTML standar diwatesan ngan pikeun administratur atawa merlukeun login pamaké.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Memaksa hiji gambar pikeun diunduh jeung naon anu sabenerna diunduh
+GIF形式で1×1ピクセルの透過画像	Gambar transparan 1×1 piksel dina format GIF
+PNG形式で1×1ピクセルの透過画像	Gambar transparan 1×1 piksel dina format PNG
+PNG形式で黄色い背景の警告画面	Layar peringatan kalayan latar tukang konéng dina format PNG
+意味のないHTMLドキュメント	Dokumén HTML anu teu aya hartina
+HTML保護時のHEADタグの出力	Kaluaran tag HEAD nalika HTML dilindungi
+出力しない	Ulah nyitak
+TITLEタグのみ	Hanya tag judul
+WordpressのHEADタグより取得	Diambil tina tag HEAD WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pikeun kaca anggota husus pamakean korporat jeung kaca internal, milih 'Do not output' atawa 'TITLE tag only' geus cukup.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Kacuali anjeun nyokot inpormasi tina tag HEAD WordPress, gambar OGP moal muncul nalika dibagikeun dina média sosial.
+画像botをアクセス禁止にする	Blok bot gambar
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Ku nyegah bot gambar ngaksés HTML, anjeun tiasa ngajagi eusi anu teu tiasa dilindungi tina tautan langsung ngaliwatan pilarian gambar; sanajan kitu, ieu sanés solusi anu pasti.
+AI学習用botをアクセス禁止にする	Blok aksés ka bot latihan AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Ku nyingkahan pamakéan bot nu dirancang pikeun latihan AI dina HTML, urang mastikeun yén eusi éta henteu dipaké ku AI; sanajan kitu, ieu teu bisa dicegah sacara lengkep.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Blok aksés kana arsip wéb jeung cuplikan wéb
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Kami ngalarang aksés kana arsip wéb anu dikumpulkeun sacara otomatis jeung tangkapan layar anu dicandak nurutkeun kaputusan pamaké; sanajan kitu, kami teu tiasa nyegahna sacara lengkep.
+無効なUAをアクセス禁止にする	Blok agén pangguna anu teu sah
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Nyegah aksés lamun string user agent ngandung karakter anu teu sah
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Témbongkeun peringatan nalika ngaksés Internet Explorer jeung Microsoft Edge heubeul
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Nyegah aksés ngaliwatan Internet Explorer jeung Microsoft Edge heubeul
+alertメッセージを表示する言語	Basa anu dipaké pikeun nembongkeun pesen bewara
+Wordpressの言語	Basa-basa WordPress
+ブラウザの設定言語	Setélan basa panyungsi
+メッセージをカスタム設定されている場合は言語を変更できません	Anjeun teu tiasa ngarobih basa lamun pesen-pesenna geus disaluyukeun.
+同意画面の言語	Basa tina layar idin
+view-sourceメッセージを表示する言語	Basa pikeun nembongkeun pesen 'view-source'
+一時使用トークンの有効期限	Tanggal kadaluwarsa token samentara
+3分	Tilu menit
+4分	Opat menit
+5分	Lima menit
+6分	Genep menit
+7分	7 menit
+8分	Dalapan menit
+9分	Salapan menit
+10分	10 menit
+15分	Lima belas menit
+20分	20 menit
+25分	25 menit
+30分	Tilu puluh menit
+35分	35 menit
+40分	40 menit
+45分	45 menit
+50分	Lima puluh menit
+55分	Lima puluh lima menit
+1時間	Saatuh jam
+画像URL情報の有効期限を設定します	Atur tanggal kadaluwarsa pikeun inpormasi URL gambar
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Sakali dimuat, URL gambar jeung token samentara bakal dinyatakeun teu sah.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Gambar dimuat nalika dipénta, tapi bakal dimuat sacara otomatis 30 detik saméméh waktos anu ditangtukeun.
+一時使用トークンのビット数	Jumlah bit dina token samentara
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token samentara dipaké salaku kecap konci pikeun énkripsi informasi URL gambar; pangaturan ieu nangtukeun kakuatanana.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Sanajan pilihan anu dipidangkeun di handapeun ménu turun-handap jadi leuwih jéntré nalika anjeun ngagulung ka handap, ieu tiasa ningkatkeun beban server sareng nyababkeun transfer data HTML anu langkung seueur.
+ハッシュ化アルゴリズム	Algoritma hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token samentara dipaké salaku kecap konci pikeun énkripsi informasi URL gambar; ieu merlukeun hashing, sarta setélan ieu nangtukeun kakuatan hashing éta.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Sanajan inténsitina ningkat nalika anjeun ngagulung ka handap ngaliwatan pilihan anu dipidangkeun dina ménu turun-handap, ieu nambahan beban anu leuwih gedé kana sérver.
+基本設定	Setélan dasar
+高度な設定	Setélan lanjut
+初期設定に戻す	Mbalikeun setélan standar
+デザイン・音の設定	Desain jeung setélan sora
+イベントの設定	Setélan acara
+初回訪問時のお知らせの設定	Nyetél bewara pikeun kunjungan munggaran
+メッセージの設定	Setélan pesen
+右クリックやソースコード表示時に転送する URL を設定します	Atur URL anu bakal dibuka nalika ngeklik katuhu atawa ningali kode sumber
+警告メッセージにはHTMLは使用できません	HTML teu tiasa dianggo dina pesen peringatan
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Lamun anjeun nyetel ieu dina layar ieu, setélan basa dina tab Advanced bakal diabaikan.
+以下の文字列が使用できます	Runtuyan karakter di handap ieu tiasa dianggo
+改行	Pecah baris
+押下されたキー	Konci diteken
+Neo HTML Protector 設定	Setélan Neo HTML Protector
+お知らせ	Pangéling
+メッセージ	Pesen
+デザイン・音	Desain jeung Sora
+初期化	Inisialisasi
+このプラグインについて	Ngeunaan plugin ieu
+設定が初期化されました	Setélan parantos diatur deui
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisialisasi plugin. Punten dicatet yén data IP Log Reader moal dihapus dina tahap ieu.
+Neo HTML Protectorについて	Ngeunaan Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin ieu dirancang pikeun ngajaga HTML, gambar, jeung eusi séjén anu dihasilkeun ku situs WordPress anjeun, ngajaga éta tina pamakéan tanpa idin.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Henteu mungkin ngajagi eusi sacara sampurna. Sanajan kitu, ku masihan peringatan di mana waé mungkin jeung nyiapkeun diri upami aya kajadian naon waé, urang kedah tiasa ngaréngsékeun masalah éta saluyu jeung prosedur anu ditetepkeun ku pamaréntah.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tangtosna, anjeun kedah mastikeun yén istilah palayanan jeung kabijakan situs anjeun lengkep. Sanajan plugin ieu sanés alat pikeun ngahasilkeun istilah palayanan, éta tiasa masihan sababaraha pituduh.
+開発者: 夜桜　なの	Pamekar: Nano Yozakura
+バージョン	Versi
+ビルド	Ngawangun
+サポートページ	Halaman dukungan
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Dipentaskeun ku Nona Ura Manira
+支援のお願い	Pamenta dukungan
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Hatur nuhun parantos ngagunakeun Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Pangembangan jeung pangropéa plugin ieu merlukeun loba waktos jeung usaha, sarta pikeun ngumpulkeun dana supaya bisa terus ningkatkeun jeung ngapdetna, kami ngaharepkeun saha waé anu mampuh ngadukung kami daék nyumbang.
+寄付について	Ngeunaan Sumbangan
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Sumbangan téh sacara sukarela, henteu wajib. Plugin ieu sayogi pikeun sadayana sacara gratis. Nanging, dukungan anjeun pisan dihargaan pikeun ngabantosan kami neruskeun pamekaran, sareng kami bakal bungah upami anjeun tiasa nyumbang sanajan saeutik.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Anjeun tiasa nyumbang ngaliwatan tautan di handap. Lamun anjeun cicing di Jepang, anjeun tiasa nyumbang gratis, sarta anjeun ogé tiasa gampang nyumbang ngagunakeun voucher kado Amazon.
+寄付先	Amal
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Kalayan dukungan anjeun, kami bakal ngalakukeun anu pangsaéna pikeun terus nyayogikeun apdet anu hebat!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kami ngahaturkeun nuhun kana dukungan anjeun sareng ngarepkeun dukungan anjeun anu teras-terasan di mangsa nu bakal datang.
+ライセンス	Izin
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin ieu dimekarkeun salaku parangkat lunak sumber kabuka sarta dilisénsikeun dina GPLv2.0 atawa nu leuwih anyar.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Sababaraha téknologi anu kaasup dina plugin ieu dilindungi ku patén.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Pamakéan téknologi anu dipaténkeun diidinan ngan ukur dina plug-in ieu.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Pikeun sagala pamakean séjén, mangga ngahubungi pangarang pikeun meunangkeun lisénsi komérsial.
+本プラグインには以下のライブラリを同梱しています	Plugin ieu ngawengku perpustakaan-perpustakaan di handap ieu
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin ieu ngawengku font seni ASCII anu dijieun di handap, sasarengan jeung file font-na.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin ieu ngawengku musik tina gim Super Famicom teu resmi 'SM Trainer Hitomi 3', dikembangkeun ku EJ Co., Ltd. jeung dikomposisikeun ku pangripta plugin ieu, sarta geus dilisensikeun sacara resmi.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin ieu ngawengku trek anu dijieun maké 'Keppy's YAMAHA C7', dikembangkeun ku Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kuring ogé geus ngagunakeun Raspberry Pi 5, ChatGPT, jeung DeepL dina pamekaran plugin ieu.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugin caching geus dideteksi. Plugin ieu moal jalan leres lamun plugin caching diaktipkeun.
+無効なIPアドレス	Alamat IP teu sah
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Pikeun ngagunakeun situs wéb ieu, anjeun kedah ngaktipkeun cookie sareng JavaScript.
+利用規約	Katangtuan Pamakéan
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Pikeun nyegah pamakéan tanpa idin jeung ngajamin operasi layanan kami anu aman, situs wéb ieu tiasa nyimpen inpormasi sapertos alamat IP, sajarah browsing, jeung catetan kagiatan dina cookie jeung basis data. Inpormasi ieu dianggo ngan ukur pikeun operasi situs wéb jeung pikeun tujuan hukum, sarta moal diungkabkeun ka pihak katilu.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Pikeun ngagunakeun layanan ieu, anjeun kedah satuju kana kagiatan pangolahan ieu.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Anjeun tiasa ningali eusi Kabijakan Privasi, naha anjeun parantos masihan idin atanapi henteu.
+同意する	Abdi satuju
+同意しない	Abdi henteu satuju
+確認	Konfirmasi
+プライバシーポリシー	Kabijakan Privasi
+通常とは異なる方法でのアクセスや操作が検出されました	Aksés atawa kagiatan anu teu biasa geus dideteksi
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Sababaraha fitur geus diwatesan pikeun tujuan kaamanan jeung perlindungan eusi.
+デバッグモード、コンソールの起動は禁止されています	Mode debug jeung aksés konsol geus dinonaktipkeun
+以下の情報がサーバーに送信されました	Informasi di handap ieu parantos dikirimkeun ka sérver.
+あなたのIPアドレス	Alamat IP anjeun
+あなたの端末とブラウザ	Paranti jeung panyungsi anjeun
+あなたの押下したキー	Konci anu anjeun pencét
+リダイレクトをします	Anjeun bakal dialihkeun
+コンテンツ保護のため一部の機能を制限しています	Sababaraha fitur geus diwatesan pikeun ngajaga eusi
+右クリックは禁止されています	Klik katuhu teu diidinan
+あなたが押下したキー	Konci anu anjeun pencét
+印刷、PDFへの保存は禁止されています	Nyitak jeung nyimpen salaku PDF dilarang.
+スクリーンショットは禁止されています	Nyandak tangkapan layar dilarang
+スクリーンショット、デバッグモード等の起動は禁止されています	Nyandak tangkapan layar jeung ngaktipkeun mode debug dilarang.
+ページの保存は禁止されています	Nyimpen kaca ieu dilarang
+コピー、カットは禁止されています	Nyalin jeung motong dilarang.
+あなたが起こしたイベント	Kagiatan anu parantos anjeun atur
+テキストの選択は禁止されています	Milih téks teu diidinan
+HTMLソース表示は禁止されています	Nembongkeun kode sumber HTML dilarang
+不正アクセスは禁止されています	Akses tanpa idin dilarang
+アフリカーンス語	Basa Afrikaans
+アラゴン語	Basajan
+アラビア語	Arab
+アッサム語	Asamese
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Bashkir
+ベラルーシ語	Basa Bélarus
+ベンガル語	Bengali
+ブルガリア語	Bulgaria
+ボスニア語	Bosnia
+カタロニア語	Katalan
+チェコ語	Ceko
+ウェールズ語	Walesa
+デンマーク語	Danimarka
+ドイツ語	Jerman
+現代ギリシア語	Yunani modéren
+英語	Basa Inggris
+イギリス英語	Inggris
+アメリカ英語	Basa Inggris Amérika
+エスペラント語	Bahasa Esperanto
+スペイン語	Spanyol
+エストニア語	Éstonia
+バスク語	Basque
+ペルシャ語	Persia
+フィンランド語	Basa Finlandia
+フランス語	Perancis
+アイルランド語	Irlandés
+ガリシア語	Galicia
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Urumi
+ヘブライ語	Ibrani
+ヒンディ語	Basa Hindi
+クロアチア語	Kroasia
+ハイチ・クレオール語	Kréol Haiti
+ハンガリー語	Hungaria
+インドネシア語	Indonesian
+イボ語	Basa Ibo
+アイスランド語	Islandia
+イタリア語	Italia
+日本語	Jepang
+ジャワ語	Jawa
+カザフ語	Kazakh
+朝鮮語	Koréa
+クルド語	Kurdi
+キルギス語	Kirgiz
+ラテン語	Latin
+ルクセンブルク語	Basa Luksemburg
+リンガラ語	Basa Lingala
+リトアニア語	Lituania
+ラトビア語	Lituania
+マダガスカル語	Malagasy
+マオリ語	Maori
+マケドニア語	Makedonia
+マラヤーラム語	Malayalam
+モンゴル語	Mongolian
+マラーティー語	Basa Marathi
+マレー語	Melayu
+マルタ語	Ti Malta
+ビルマ語	Burmésa
+ネパール語	Nepali
+ノルウェー語	Norwegia
+オランダ語	Basa Walanda
+オック語	Okitan
+オロモ語	Atawa
+パンジャーブ語	Punjabi
+ポーランド語	Ngahias
+パシュトー語	Pashto
+ポルトガリア語	Portugis
+ブラジルポルトガル語	Portugis Brasil
+ヨーロピアンポルトガル語	Portugis Éropa
+ケチュア語	Quechua
+ルーマニア語	Romania
+ロシア語	Rusia
+サンスクリット語	Basa Latin
+スロバキア語	Slovakia
+スロベニア語	Slovenia
+セルビア語	Sérbia
+南セソト語	Kidul Sesotho
+スンダ語	Basa Sunda
+スウェーデン語	Swédia
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Maharaja
+タイ語	Tah
+トルクメン語	Turkmen
+タガログ語	Basa Tagalog
+トルコ語	Turki
+タタール語	Tatar
+ウクライナ語	Ukraina
+ウルドゥー語	Urdu
+ウズベク語	Urang Uzbekistan
+ベトナム語	Vietnam
+コサ語	Kosa
+イディッシュ語	Yiddish
+簡体中国語	Basa Cina nyederhanakeun
+繁体中国語	Basa Cina tradisional
+ズールー語	Jawa
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Panyungsi wéb anu ayeuna anjeun anggo mangrupa vérsi lami anu henteu disokong deui. Pikeun mastikeun pangalaman ngotektak anu langkung aman sareng langkung merenah, mangga apdet panyungsi wéb anjeun ka vérsi panganyarna.
+不正なリクエストです	Pamundut anu teu sah
+画像が見つかりません	Gambar teu kapanggih

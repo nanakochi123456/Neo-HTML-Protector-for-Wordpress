@@ -1,0 +1,425 @@
+設定	Caktimet
+IPログリーダー	Lexuesi i regjistrave IP
+IPアドレスログ	Regjistri i adresave IP
+全クリア	Përfundo të gjitha nivelet
+IPログが全て削除されました	Të gjitha regjistrimet e IP-ve janë fshirë.
+ID	Identifikimi
+タイムスタンプ	Stampa kohore
+IPアドレス	Adresa IP
+ユーザーエージェント	Agjenti i Përdoruesit
+イベント	Ngjarje
+IPアドレスのデータはありません	Nuk ka të dhëna për këtë adresë IP.
+EU GDPR対応	Përputhshmëria me GDPR-n e BE-së
+無効	Jo i vlefshëm
+有効	Vlefshëm
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Nëse po përdorni WordPress brenda BE-së, ose nëse faqja juaj synon përdorues brenda BE-së, ju lutemi sigurohuni që kjo të jetë e aktivizuar.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Butoni 'Konfirmo' do të ndryshojë në 'Pajtohem' ose 'Nuk pajtohem', dhe sjellja do të ndryshojë pak.
+同意画面の色	Ngjyra e ekranit të pëlqimit
+自動	Automatik
+ライトモード	Modi i lehtë
+ダークモード	Modi i errët
+同意画面表示中の配色を設定します	Caktoni skemën e ngjyrave për ekranin e pëlqimit
+同意画面中のコンテンツのぼかし	Zbehja e përmbajtjes në ekranin e pëlqimit
+同意画面表示中のコンテンツのぼかし具合を設定します	Caktoni nivelin e mjegullimit për përmbajtjen e shfaqur në ekranin e pëlqimit
+同意画面の透過	Transparenca e ekranit të pëlqimit
+透過なし	Asnjë transparencë
+同意画面の透過具合を設定します	Caktoni transparencën e ekranit të pëlqimit
+お知らせの1行目	Rreshti i parë i njoftimit
+初回表示で必ず表示されるメッセージです	Ky mesazh shfaqet gjithmonë herën e parë që faqja ngarkohet.
+お知らせの2行目	Rreshti i dytë i njoftimit
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ky mesazh do të shfaqet gjithmonë në ekranin e parë vetëm kur Rregullorja e Përgjithshme e Mbrojtjes së të Dhënave të BE-së
+お知らせの3行目	Rreshti i tretë i njoftimit
+プライバシーポリシーのリンクの右側に表示されます	Do të shfaqet në të djathtën e lidhjes për Politikën e Privatësisë.
+非EU向け確認の文字列	Teksti i konfirmimit për vendet jo-anëtare të BE-së
+EU GDPR向け同意するの文字列	Teksti i pëlqimit për GDPR-në e BE-së
+EU GDPR向け同意しないの文字列	Teksti për 'Mos pajtohuni' sipas Rregullores së Përgjithshme për Mbrojtjen e të Dhënave të BE-së
+プライバシーポリシーの文字列	Teksti i politikës së privatësisë
+プライバシーポリシーのURLはこちらから設定して下さい	Ju lutemi vendosni URL-në e politikës së privatësisë këtu
+プライバシーポリシーには以下の内容を追加して下さい	Ju lutem shtoni të mëposhtmen në Politikën e Privatësisë.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Për të zbuluar aktivitet mashtrues, identifikues të tillë si adresat IP ruhen në cookie-t dhe në bazën e të dhënave. Të dhënat e ruajtura fshihen sipas diskrecionit të administratorit.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Për të siguruar që imazhet të dorëzohen si duhet vetëm kur mbrojtja e imazheve është e aktivizuar, ne ruajmë në bazën e të dhënave të dhëna të hashuara që përfshijnë adresën IP dhe emrin e skedarit të imazhit për deri në 60 minuta.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Nëse po përgatitni Kushtet e Përdorimit, sigurohuni që t'i përfshini ato me një lidhje në Politikën tuaj të Privatësisë.
+利用規約の文字列	Teksti i Kushtet e Përdorimit
+利用規約のページ	Faqja e Kushteve dhe Rregullave
+ページ選択なし	Nuk është zgjedhur asnjë faqe
+検索エンジン等のURL	URL-të për motorët e kërkimit, etj.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Caktoni URL-në për motorët e kërkimit dhe faqet e ngjashme që ridrejtojnë përdoruesit kur nuk jepet pëlqimi.
+デバッグモード、コンソールの警告メッセージ	Modi i debugimit, mesazhet paralajmëruese në konsolë
+右クリックの警告メッセージ	Mesazh paralajmërues me klik të djathtë
+印刷、PDF保存の警告メッセージ	Mesazh paralajmërues për shtypjen dhe ruajtjen si PDF
+スクリーンショットの警告メッセージ	Mesazh paralajmërues në pamjen e ekranit
+スクリーンショットの疑いの警告メッセージ	Mesazh paralajmërues në lidhje me pamjet e ekranit të dyshuara
+テキスト全選択時の警告メッセージ	Mesazh paralajmërues kur është zgjedhur i gjithë teksti
+ページ保存の警告メッセージ	Mesazh paralajmërues në lidhje me ruajtjen e faqes
+コピー・カットした時に表示するメッセージ	Mesazh i shfaqur kur kopjoni ose prisni
+HTMLソース表示時に表示するメッセージ	Mesazh për t'u shfaqur kur shikohet kodi burimor i HTML-it
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesazh për t'u shfaqur në krye të kodit burimor kur obskurohet ose mbrohet HTML-ja
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mesazh për t'u shfaqur nëse tokeni i autentifikimit njëpërdorimësh është i pavlefshëm gjatë mbrojtjes HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mesazh për t'u shfaqur nëse cookie-t ose JavaScript janë çaktivizuar
+実際にはJavascriptが無効時のみ表示されます	Në fakt, kjo shfaqet vetëm kur JavaScript është çaktivizuar.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Kur një imazh është i mbrojtur, ai shkarkohet dhe në të shfaqet një mesazh
+HTML難読化 (圧縮)	Obulskimi i HTML-it
+一般的なHTML圧縮です、難読化解除のサイトもあります	Kjo është kompresim standard i HTML-it; ka gjithashtu faqe interneti që mund ta dekriptojnë.
+このオプションを有効にするとview-sourceのログが取得できます	Aktivizimi i kësaj opsioni ju lejon të merrni logun e shikimit të burimit.
+HTML保護	Mbrojtja e HTML-it
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ai prodhon vetëm minimumin e nevojshëm të HTML-it—madje edhe më pak se kur përdoret kompresimi i HTML-it—dhe përmbajtja brenda etiketës BODY nuk shfaqet fare.
+Firefoxに対しては無効です	Kjo nuk zbatohet për Firefox.
+SEOに著しく影響があります	Kjo ka një ndikim të rëndësishëm në SEO.
+HTMLをJavaScriptで描画	Gjenerimi i HTML-së me JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Për të anashkaluar Firefox-in, ne e renderizojmë HTML-in duke përdorur JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Aktivizimi i renderimit të JavaScript-it do të ngadalësojë ndjeshëm shpejtësinë e ngarkimit të faqes së internetit.
+画像の保護	Mbrojtja e imazhit
+imgタグが呼び出されるごとに画像を保護	Mbrojt imazhin sa herë që thirret etiketa img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Mbrojini të gjitha imazhet e ngarkuara në WordPress brenda të gjithë daljes HTML.
+画像をダウンロードから保護します	Mbron imazhet nga shkarkimi
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Kur të dhënat e imazheve janë të mbrojtura, ne parandalojmë pothuajse të gjitha shkarkimet, lëshojmë URL-e unike njëpërdorimshe, autentifikojmë duke përdorur tokenë të ruajtura në sesion dhe shfaqim imazhet përmes PHP-së; kjo në mënyrë efektive parandalon pothuajse të gjitha rastet e vjedhjes së imazheve.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kur të dhënat e imazheve janë të mbrojtura, caching nuk funksionon, që do të thotë se faqja do të ngarkohet më ngadalë në vizitat e mëvonshme, duke ndikuar kështu në SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Mbrojtja e të dhënave të imazhit mund të rrisë ngarkesën në bazën e të dhënave.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Nëse zgjidhni 'Mbrojt imazhet sa herë që thirret etiketa img', sistemi përdor add_filter për të aplikuar filtrimin kur gjenerohet etiketa img; megjithatë, kjo mund të mos funksionojë siç duhet me disa tema.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Nëse zgjidhni 'Mbroj të gjitha imazhet e ngarkuara në WordPress brenda të gjithë daljes HTML', shtojca do të kapë pothuajse të gjitha operacionet e WordPress-it dhe do të përpunojë çdo etiketë img brenda përmbajtjes. Ju lutemi vini re se kjo mund të mos funksionojë siç duhet me disa tema.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Ju lutemi vini re se imazhet e përcaktuara si imazhe kryesore do të ndahen si të dhëna OGP dhe nuk mund të mbrohen. Nëse me çdo kusht duhet t'i mbroni, ju lutemi ndryshoni cilësimin për daljen e etiketës HEAD në cilësimet e avancuara kur aktivizoni mbrojtjen HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Funksioni i kapjes së ekranit i integruar në sistemin operativ nuk mund të mbrohet.
+画像URLの保護	Mbrojtja e URL-ve të imazheve
+画像の保護と組み合わせて使用します、単体では意味がありません	Kjo duhet të përdoret së bashku me mbrojtjen e imazhit; vetë nuk ka asnjë qëllim.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Duke qenë se ngarkohet dembelisht përmes JavaScript, kjo ndikon në SEO.
+画像のウォーターマーク	Ujërroje e imazhit
+右下	Poshtë djathtas
+ランダム位置	Pozicion i rastësishëm
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Përdoren së bashku me mbrojtjen e imazheve, markat dinamike të ujit tregojnë qartë pronësinë e të drejtave të autorit, duke i dhënë shikuesve përshtypjen se po monitorohen, dhe kështu veprojnë si një mjet parandalues.
+JPG形式、PNG形式、WebP形式のみ対応します	Mbështeten vetëm formatet JPG, PNG dhe WebP.
+有効にするとサーバーの負荷が高くなります	Aktivizimi i kësaj do të rrisë ngarkesën në server.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Shfaqja e artit ASCII nga kodi burimor i HTML-it gjatë obskurimit dhe mbrojtjes së HTML-it
+表示なし	Asnjë ekran
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Shfaq art ASCII që tregon një paralajmërim kur shikoni burimin e HTML-it duke përdorur 'view-source'
+対象アクションを起こした時の表示デザイン	Shfaq dizajnin kur kryhet veprimi i synuar
+黄色の背景の黒文字のベーシックデザイン	Një dizajn bazik me tekst të zi mbi një sfond të verdhë
+黒色の背景の赤文字のホラー風デザイン	Një dizajn në stil horror me tekst të kuq mbi sfond të zi
+黒色の背景の赤文字の光る文字のデザイン	Një dizajn me tekst të kuq të ndritshëm në sfond të zi
+対象アクションを起こした時のBGM	Muzikë sfondi që luhet kur kryhet veprimi i synuar
+サウンドなし	Asnjë tingull
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Beteja & Fitorja - 1 minutë 16.3 sekonda - 630,056 bajtë - 64 kbps - Licenca: CC 2.1 ose më e re
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Babai i shkurtër - 3.8 sekonda - 32,364 bajtë - 64 kbps - Licenca: GPL 2.0 ose më e re
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 sekonda - 195,578 bajtë - 64 kbps - Licenca: GPL 2.0 ose më e re
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 12 'Revolucion' – Version i gjeneruar nga kompjuteri, me shpejtësi të lartë – 1 minutë 57.6 sekonda – 724,457 bajtë – 48 kbps – Licenca: CC BY-ND 4.0 ose më e re
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo në si bemol minor, Op. 2 – Version i gjeneruar nga kompjuteri, version i shkurtuar me shpejtësi të lartë – 1 minutë 48.0 sekonda – 665,369 bajtë – 48 kbps – Licenca: CC BY-ND 4.0 ose më e re
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lista: Étude d'Exécution Transcendante Nr. 4, 'Mazeppa' – version i gjeneruar nga kompjuteri, version i shkurtuar me shpejtësi të lartë – 1 minutë 51.6 sekonda – 687,586 bajtë – 48 kbps – Licenca: CC BY-ND 4.0 ose më e re
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 sekonda – 183,926 bajtë – 64 kbps – Licenca: Domeni publik
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfarë në stil retro – 2.2 sekonda – 10,536 bajtë – 32 kbps – Licenca: Domeni publik
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Intro në stil retro – 42.1 sekonda – 179,138 bajtë – 32 kbps – Licenca: Domeni publik
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Paralajmërim nga ChatGPT - 3.8 sekonda - 109,700 bajtë - 256 kbps - Licenca: Domeni publik
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Një tingull me urgjencë të lartë si një alarm për zbulimin e softuerit keqdashës – Pjesa 1 nga ChatGPT – 3.3 sekonda – 102,850 bajtë – 256 kbps – Licenca: Domeni publik
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Një tingull me urgjencë të lartë si një alarm për zbulimin e softuerit keqdashës, Pjesa 2 nga ChatGPT - 3.3 sekonda - 103,122 bajtë - 256 kbps - Licenca: Domeni publik
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Zë në stilin MRI nga ChatGPT – 1 minutë 14.9 sekonda – 3,340,392 bajtë – 320 kbps – Licenca: Domeni publik
+警告表示中のBGMを選択します	Zgjidhni muzikën e sfondit që do të luhet gjatë një paralajmërimi.
+びっくりするような雰囲気を作ります	Krijon një atmosferë befasuese
+Firefoxでは音声ブロックされます	Audioja është bllokuar në Firefox.
+対象アクションを起こした時のビープ音	Një tingull kur kryhet veprimi i specifikuar
+有効 音量小さ目	Ndezur, volum i ulët
+有効 音量大き目	Aktiv, volumi i vendosur në të lartë
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Do të dëgjohet një bip si përgjigje ndaj të gjitha ngjarjeve të tastierës dhe të miut, ndërkohë që shfaqet një paralajmërim.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Krijon përshtypjen se pajisja ka dalë jashtë kontrollit ndërsa shfaqet paralajmërimi.
+対象アクションを起こした時のマウスカーソルの消去	Fshehja e kursorit të miut kur kryhet një veprim i caktuar
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Fsheh kursorin e mausit në zonën e shfletuesit ndërsa shfaqet një paralajmërim.
+デバッグモード	Modi i debugimit
+妨害＋記録のみ	Vetëm ndërhyrje + regjistrime
+妨害＋記録＋表示＋リダイレクト	Ndërhyrje + Regjistrim + Shfaqje + Ridrejtim
+メニューからは操作できてしまいます	Ju mund ta aksesoni ende përmes menusë.
+Firefoxにおけるデバッグモード	Modi i debugimit në Firefox
+ブラウザーコンソール	Konzoja e shfletuesit
+事実上デバッグモードから操作できてしまいます	Në fakt, mund ta përdorni atë nga modaliteti i debugimit.
+HTMLソース表示	Shiko burimin HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Ju mund të kryeni operacionin thjesht duke futur një URL që fillon me 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Ju mund të mbroni përmbajtjen tuaj duke kombinuar këtë me mbrojtjen e HTML-it.
+印刷	Shtyp
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Edhe pse parandalon printimin, mund të mos funksionojë siç duhet në disa shfletues.
+スクリーンショット	Pamje e ekranit
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Në varësi të sistemit operativ, shfletuesit ose metodës së përdorur, mund të mos jetë e mundur ta bllokoni këtë, ose mund të mos zbulohet.
+ウインドウが背面に移動した時スクリーンショットの疑い	Pamje e supozuar e ekranit kur dritarja kalon në sfond
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ai gjithashtu i përgjigjet funksioneve të tjera përveç kapjes së ekranit
+2キー押下のスクリーンショットの疑い	Pamje ekrani e dyshuar e marrë duke shtypur dy çelësa
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metodat e zbulimit për këto pika nuk janë të pagabueshme; zbulimi kryhet si një masë paraprake.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ai zbulon jo vetëm pamje ekrani, por edhe mënyrat e debugimit dhe të ngjashme.
+ページ保存	Ruaj faqen
+右クリック	Kliko me të djathtën e mausit
+アドオンがインストールされていると操作できてしまいます	Nëse shtojca është instaluar, do të mund ta përdorni.
+コピー・カット	Kopjo dhe pret
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Në varësi të cilësimeve të këtij shtojce, mund të hasni rrallë këtë ngjarje.
+テキスト全選択	Zgjidh të gjithë tekstin
+テキスト選択	Zgjidh tekstin
+デバッガー起動ログ、デバッガー妨害	Regjistri i nisjes së debuguesit, ndërhyrja e debuguesit
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Kjo e bën modalitetin e debugimit pak më pak miqësor për përdoruesin dhe regjistron faktin që debuguesi është nisur; megjithatë, disa shfletues mund ta bllokojnë këtë sjellje.
+リダイレクトするURL	Rishkruaj URL-në
+利用規約などのページに転送すると良いでしょう	Do të ishte një ide e mirë t'i ridrejtonit përdoruesit në faqe të tilla si Kushtet e Përdorimit.
+空欄にすると元のURLにリダイレクトをします	Nëse lihet bosh, do të ridrejtohet te URL-ja origjinale.
+リダイレクトまでの時間	Koha deri te ridrejtimi
+リダイレクトなし	Asnjë ridrejtim
+1秒	1 sekondë
+2秒	2 sekonda
+3秒	3 sekonda
+4秒	4 sekonda
+5秒	5 sekonda
+6秒	6 sekonda
+7秒	7 sekonda
+8秒	8 sekonda
+9秒	9 sekonda
+10秒	10 sekonda
+15秒	15 sekonda
+20秒	20 sekonda
+25秒	25 sekonda
+30秒	30 sekonda
+35秒	35 sekonda
+40秒	40 sekonda
+45秒	45 sekonda
+50秒	50 sekonda
+55秒	55 sekonda
+1分	1 minutë
+1分10秒	1 minutë 10 sekonda
+1分20秒	1 minutë 20 sekonda
+1分30秒	1 minutë e 30 sekonda
+1分40秒	1 minutë 40 sekonda
+1分50秒	1 minutë 50 sekonda
+2分	2 minuta
+ソース表示を許可する権限	Leje për të parë kodin burimor
+ADMINログイン時のみ通常のソース出力	Dalja normale nga burimi vetëm kur jeni kyçur si ADMIN
+USERログインで通常のソース出力	Dalja normale e burimit kur jeni kyçur si USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Zgjidhni nëse dalja standarde HTML është e kufizuar vetëm për administratorët ose kërkon hyrje të përdoruesit.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Detyrimi i shkarkimit të një imazhi dhe ajo që shkarkohet në të vërtetë
+GIF形式で1×1ピクセルの透過画像	Një imazh transparent 1×1 piksel në formatin GIF
+PNG形式で1×1ピクセルの透過画像	Një imazh transparent 1×1 piksel në format PNG
+PNG形式で黄色い背景の警告画面	Një ekran paralajmërues me sfond të verdhë në format PNG
+意味のないHTMLドキュメント	Një dokument HTML i pavlerë
+HTML保護時のHEADタグの出力	Dalja e etiketës HEAD kur HTML-i është i mbrojtur
+出力しない	Mos shtypni
+TITLEタグのみ	Vetëm etiketa TITLE
+WordpressのHEADタグより取得	Marrë nga etiketa HEAD e WordPress-it
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Për faqet vetëm për anëtarë me përdorim korporativ dhe faqet e brendshme, mjafton të zgjidhni 'Mos e shfaq' ose 'Vetëm etiketa TITLE'.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Përveç nëse nxirrni informacionin nga etiketa HEAD e WordPress-it, imazhi OGP nuk do të shfaqet kur të ndahet në rrjetet sociale.
+画像botをアクセス禁止にする	Blloko botin e imazhit
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Duke parandaluar që botët e imazheve të kenë qasje në HTML, mund të mbrojë përmbajtjen që nuk mund të ruhej nga lidhjet e drejtpërdrejta përmes kërkimit të imazheve; megjithatë, kjo nuk ofron një zgjidhje të plotë.
+AI学習用botをアクセス禁止にする	Blloko aksesin në botin e trajnimit të inteligjencës artificiale
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Duke shmangur përdorimin e botëve të dizajnuara për trajnimin e inteligjencës artificiale në HTML, ne sigurojmë që përmbajtja të mos përdoret nga inteligjenca artificiale; megjithatë, kjo nuk mund të parandalohet plotësisht.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Bllokoni qasjen në arkivat e uebit dhe pamjet e uebit
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Ne ndalojmë qasjen në arkivat e uebit të mbledhura automatikisht dhe në pamjet e ekranit të marra sipas dëshirës së përdoruesit; megjithatë, nuk mund ta parandalojmë plotësisht.
+無効なUAをアクセス禁止にする	Blloko agjentët e përdoruesit të pavlefshëm
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Parandalon aksesin nëse vargu i agjentit të përdoruesit përmban karaktere të pavlefshme
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Shfaq një paralajmërim kur hyni në Internet Explorer dhe në Microsoft Edge të vjetër
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Parandalon aksesin përmes Internet Explorer dhe Microsoft Edge të vjetër
+alertメッセージを表示する言語	Gjuha në të cilën shfaqen mesazhet paralajmëruese
+Wordpressの言語	Gjuhet e WordPress-it
+ブラウザの設定言語	Caktimet gjuhësore të shfletuesit
+メッセージをカスタム設定されている場合は言語を変更できません	Nuk mund të ndryshoni gjuhën nëse mesazhet janë personalizuar.
+同意画面の言語	Gjuha e ekranit të pëlqimit
+view-sourceメッセージを表示する言語	Gjuha në të cilën do të shfaqet mesazhi 'view-source'
+一時使用トークンの有効期限	Data e skadimit të tokenëve të përkohshëm
+3分	3 minuta
+4分	4 minuta
+5分	5 minuta
+6分	6 minuta
+7分	7 minuta
+8分	Tetë minuta
+9分	9 minuta
+10分	10 minuta
+15分	15 minuta
+20分	Njëzet minuta
+25分	25 minuta
+30分	30 minuta
+35分	35 minuta
+40分	40 minuta
+45分	Dyzet e pesë minuta
+50分	50 minuta
+55分	Pesëdhjetë e pesë minuta
+1時間	1 orë
+画像URL情報の有効期限を設定します	Caktoni datën e skadimit për informacionin e URL-së së imazhit
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Pasi të ngarkohet, URL-ja e imazhit dhe tokeni i përkohshëm do të pavlefësohen.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imazhet ngarkohen sipas kërkesës, por ato do të ngarkohen automatikisht 30 sekonda para kohës së specifikuar.
+一時使用トークンのビット数	Numri i bitëve në një token të përkohshëm
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Një token i përkohshëm përdoret si fjalëkalim për të enkriptuar informacionin e URL-së së imazhit; ky cilësim përcakton forcën e tij
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Edhe pse opsionet që shfaqen nën menunë zbritëse bëhen gjithnjë e më të detajuara, kjo mund të vendosë një ngarkesë të rëndë mbi serverin dhe të rezultojë në transferimin e një vëllimi të madh të të dhënave HTML.
+ハッシュ化アルゴリズム	Algoritmi i hash-it
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Një token i përkohshëm përdoret si fjalëkalim për të kriptuar informacionin e URL-së së imazhit; kjo kërkon hashing, dhe ky cilësim përcakton forcën e atij hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Edhe pse intensiteti rritet ndërsa lëviz poshtë në listën e opsioneve të shfaqura në menunë zbritëse, kjo vendos një ngarkesë më të madhe në server.
+基本設定	Caktimet themelore
+高度な設定	Caktimet e avancuara
+初期設定に戻す	Rikthe cilësimet e paracaktuara
+デザイン・音の設定	Dizajni dhe cilësimet e tingullit
+イベントの設定	Caktimet e ngjarjes
+初回訪問時のお知らせの設定	Caktimi i njoftimeve për vizitat e para
+メッセージの設定	Caktimet e mesazhit
+右クリックやソースコード表示時に転送する URL を設定します	Caktoni URL-në që do të hapet kur klikohet me të djathtën e mausit ose kur shikohet kodi burimor.
+警告メッセージにはHTMLは使用できません	HTML nuk mund të përdoret në mesazhet paralajmëruese.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Nëse e konfiguroni këtë në këtë ekran, cilësimet e gjuhës në skedën Avancuar do të injorohen.
+以下の文字列が使用できます	Rreshtat e mëposhtëm mund të përdoren
+改行	Ndërprerje rreshti
+押下されたキー	Çelësi i shtypur
+Neo HTML Protector 設定	Caktimet e Neo HTML Protector
+お知らせ	Njoftim
+メッセージ	Mesazh
+デザイン・音	Dizajni dhe Tingulli
+初期化	Inicializim
+このプラグインについて	Rreth këtij shtojcë
+設定が初期化されました	Caktimet janë rivendosur
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicializoni shtojcën. Ju lutemi vini re se të dhënat e IP Log Reader nuk do të fshihen në këtë fazë.
+Neo HTML Protectorについて	Rreth Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ky shtojcë është projektuar për të mbrojtur HTML-in, imazhet dhe përmbajtje të tjera të gjeneruara nga faqja juaj e WordPress-it, duke e ruajtur atë nga përdorimi i paautorizuar.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Është e pamundur të mbrohet përmbajtja plotësisht. Megjithatë, duke dhënë paralajmërime sa herë që është e mundur dhe duke bërë përgatitje në rast se ndodh diçka, duhet të jemi në gjendje ta zgjidhim çështjen në përputhje me procedurat e përcaktuara nga qeveria.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Sigurisht, do t'ju duhet të siguroheni që termat dhe kushtet tuaja dhe politika e faqes të jenë gjithëpërfshirëse. Ndërsa ky shtojcë nuk është një mjet për gjenerimin e termave dhe kushteve, ai mund të ofrojë disa udhëzime.
+開発者: 夜桜　なの	Zhvilluesi: Nano Yozakura
+バージョン	Versioni
+ビルド	Ndërto
+サポートページ	Faqja e mbështetjes
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Kënduar nga znj. Ura Manira
+支援のお願い	Një kërkesë për mbështetje
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Faleminderit që po përdorni Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Zhvillimi dhe mirëmbajtja e këtij shtojce ka kërkuar shumë kohë dhe përpjekje, dhe për të mbledhur fonde për të vazhduar përmirësimin dhe përditësimin e saj, do të ishim mirënjohës nëse dikush që mund të na mbështesë do të konsideronte të bënte një donacion.
+寄付について	Rreth dhurimeve
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Dhurimet janë krejtësisht vullnetare dhe jo të detyrueshme. Ky shtojcë është në dispozicion të të gjithëve pa pagesë. Megjithatë, mbështetja juaj vlerësohet shumë për të na ndihmuar të vazhdojmë zhvillimin, dhe do të ishim të kënaqur nëse mund të kontribuonit me çfarëdo që mundni.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Mund të bëni një donacion përmes lidhjes më poshtë. Nëse jeni të vendosur në Japoni, mund të dhuroni pa pagesë, dhe gjithashtu mund të dhuroni lehtësisht duke përdorur kartela dhuratë të Amazon.
+寄付先	Organizatat bamirëse
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Me mbështetjen tuaj, do të bëjmë çmos për t'ju sjellë vazhdimisht përditësime fantastike!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Jemi mirënjohës për mbështetjen tuaj dhe presim me padurim mbështetjen tuaj të vazhdueshme në të ardhmen.
+ライセンス	Leje
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ky shtojcë është zhvilluar si softuer me burim të hapur dhe është licencuar nën GPLv2.0 ose më të reja.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Disa nga teknologjitë e përfshira në këtë shtojcë janë të mbrojtura nga patentat.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Përdorimi i teknologjisë së patentuar lejohet vetëm brenda këtij shtojce.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Për çdo përdorim tjetër, ju lutemi kontaktoni autorin për të marrë një licencë komerciale.
+本プラグインには以下のライブラリを同梱しています	Ky shtojcë përfshin bibliotekat e mëposhtme
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ky shtojcë përfshin fontet e artit ASCII të gjeneruara më poshtë, së bashku me skedarët e fonteve.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ky shtojcë përfshin muzikë nga loja jozyrtare për Super Famicom 'SM Trainer Hitomi 3', e zhvilluar nga EJ Co., Ltd. dhe kompozuar nga krijuesi i këtij shtojce, dhe është me licencë zyrtare.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ky shtojcë përfshin pista të krijuara me 'Keppy's YAMAHA C7', të zhvilluara nga Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kam përdorur gjithashtu një Raspberry Pi 5, ChatGPT dhe DeepL në zhvillimin e këtij shtojce.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Është zbuluar një shtojcë caching. Kjo shtojcë nuk do të funksionojë si duhet nëse një shtojcë caching është e aktivizuar.
+無効なIPアドレス	Adresë IP e pavlefshme
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Për të përdorur këtë faqe interneti, duhet të aktivizoni cookies dhe JavaScript.
+利用規約	Kushtet e Përdorimit
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Për të parandaluar përdorimin e paautorizuar dhe për të siguruar funksionimin e sigurt të shërbimeve tona, ky uebsajt mund të ruajë informacione të tilla si adresat IP, historikun e shfletimit dhe regjistrat e aktivitetit në cookie-t dhe bazat e të dhënave. Këto informacione përdoren vetëm për funksionimin e uebsajtit dhe për qëllime ligjore, dhe nuk do të zbulohen tek palët e treta.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Për të përdorur këtë shërbim, duhet të jepni pëlqimin për këto aktivitete përpunimi.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Ju mund të shikoni përmbajtjen e Politikës së Privatësisë pavarësisht nëse keni dhënë pëlqimin tuaj.
+同意する	Unë pajtohem
+同意しない	Nuk pajtohem
+確認	Konfirmimi
+プライバシーポリシー	Politika e Privatësisë
+通常とは異なる方法でのアクセスや操作が検出されました	Është vërejtur qasje ose aktivitet i pazakontë.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Disa veçori janë kufizuar për qëllime sigurie dhe mbrojtjeje të përmbajtjes.
+デバッグモード、コンソールの起動は禁止されています	Modi i debugimit dhe qasja në konsolë janë ç'aktivizuar.
+以下の情報がサーバーに送信されました	Informacioni i mëposhtëm është dërguar në server.
+あなたのIPアドレス	Adresa juaj IP
+あなたの端末とブラウザ	Pajisja dhe shfletuesi juaj
+あなたの押下したキー	Çelësi që e shtypët
+リダイレクトをします	Do të ridrejtoheni
+コンテンツ保護のため一部の機能を制限しています	Disa veçori janë kufizuar për të mbrojtur përmbajtjen
+右クリックは禁止されています	Klikimi i djathtë nuk lejohet
+あなたが押下したキー	Çelësi që e shtypët
+印刷、PDFへの保存は禁止されています	Shtypja dhe ruajtja si PDF janë të ndaluara.
+スクリーンショットは禁止されています	Fotografitë e ekranit janë të ndaluara.
+スクリーンショット、デバッグモード等の起動は禁止されています	Bërja e pamjeve të ekranit dhe aktivizimi i modalitetit të debugimit janë të ndaluara.
+ページの保存は禁止されています	Ruajtja e kësaj faqeje është e ndaluar
+コピー、カットは禁止されています	Kopjimi dhe prerja janë të ndaluara.
+あなたが起こしたイベント	Ngjarjet që keni organizuar
+テキストの選択は禁止されています	Zgjedhja e tekstit nuk lejohet
+HTMLソース表示は禁止されています	Shfaqja e kodit burimor HTML është e ndaluar.
+不正アクセスは禁止されています	Qasja e paautorizuar është e ndaluar
+アラビア語	Arabisht
+ブルガリア語	Bullgarisht
+チェコ語	Çek
+デンマーク語	Danisht
+ドイツ語	Gjermanisht
+現代ギリシア語	Greqishtja moderne
+英語	Anglisht
+イギリス英語	Britanike
+アメリカ英語	Anglisht amerikane
+スペイン語	Spanjisht
+エストニア語	Estonez
+フィンランド語	Fenlandisht
+フランス語	Frëngjisht
+ハンガリー語	Hungarez
+インドネシア語	Indonezisht
+イタリア語	Italian
+日本語	Japonez
+朝鮮語	Korean
+リトアニア語	Lituaneze
+ラトビア語	Lituanez
+ノルウェー語	Norvegjez
+オランダ語	Holandez
+ポーランド語	Polak
+ポルトガリア語	Portugezisht
+ブラジルポルトガル語	Portugeze braziliane
+ヨーロピアンポルトガル語	Portugezja evropiane
+ルーマニア語	Rumunisht
+ロシア語	Rusisht
+スロバキア語	Sllovak
+スロベニア語	Sllovenisht
+スウェーデン語	Suedez
+トルコ語	Turke
+ウクライナ語	Ukrainisht
+中国語	Kinezë
+簡体中国語	Kinezisht e thjeshtëzuar
+繁体中国語	Kineze tradicionale
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Shfletuesi që po përdorni aktualisht është një version më i vjetër që nuk mbështetet më. Për të siguruar një përvojë shfletimi më të sigurt dhe më të rehatshme, ju lutemi përditësoni shfletuesin tuaj në versionin më të fundit.
+不正なリクエストです	Kërkesë e pavlefshme
+画像が見つかりません	Imazhi nuk u gjet
+アフリカーンス語	Afrikanse
+アラゴン語	Aragonezë
+アッサム語	Asamezë
+アゼルバイジャン語	Azerbajxhanisht
+バシュキール語	Bashkir
+ベラルーシ語	Bjellorus
+ベンガル語	Bengali
+ボスニア語	Boshnjak
+カタロニア語	Katalanisht
+ウェールズ語	Uellsisht
+エスペラント語	Esperanto
+バスク語	Baske
+ペルシャ語	Persisht
+アイルランド語	Irlandez
+ガリシア語	Galician
+グァラニ語	Guaraní
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Hebrenisht
+ヒンディ語	Hindi
+クロアチア語	Kroatisht
+ハイチ・クレオール語	Krijole Haitiane
+イボ語	Gjuha Ibo
+アイスランド語	Islandisht
+ジャワ語	Java
+カザフ語	Kazakisht
+クルド語	Kurdisht
+キルギス語	Kirgiz
+ラテン語	Latine
+ルクセンブルク語	Luksemburgisht
+リンガラ語	Gjuha
+マダガスカル語	Malagasi
+マオリ語	Maori
+マケドニア語	Maqedonisht
+マラヤーラム語	Malajalisht
+モンゴル語	Mongolisht
+マラーティー語	Marathi
+マレー語	Malaj
+マルタ語	Maltez
+ビルマ語	Birmanisht
+ネパール語	Nepalez
+オック語	Okcitane
+オロモ語	Oborrë
+パンジャーブ語	Punjabi
+パシュトー語	Pas
+ケチュア語	Puka
+サンスクリット語	Sanskrit
+セルビア語	Serbisht
+南セソト語	Sesho i Jugut
+スンダ語	Sundanez
+スワヒリ語	Swahili
+タミル語	Tamili
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Tajlandez
+トルクメン語	Turkmen
+タガログ語	Filipinisht
+タタール語	Tatar
+ウルドゥー語	Urdu
+ウズベク語	Uzbek
+ベトナム語	Vietnamez
+コサ語	Flokët
+イディッシュ語	Jidish
+ズールー語	Zulu

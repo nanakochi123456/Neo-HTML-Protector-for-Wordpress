@@ -1,0 +1,424 @@
+設定	Postavke
+IPログリーダー	Čitač IP dnevnika
+IPアドレスログ	Zapisnik IP adresa
+全クリア	Završite sve nivoe
+IPログが全て削除されました	Svi IP zapisi su izbrisani
+ID	ID
+タイムスタンプ	Vremenski žig
+IPアドレス	IP adresa
+ユーザーエージェント	Korisnički agent
+イベント	Događaj
+IPアドレスのデータはありません	Nema podataka za ovu IP adresu.
+EU GDPR対応	Usklađenost sa EU GDPR-om
+無効	Neispravno
+有効	Valjano
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Ako koristite WordPress unutar EU ili ako je vaša web stranica namijenjena korisnicima unutar EU, molimo osigurajte da je ovo omogućeno.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Dugme 'Potvrdi' će se promijeniti u 'Slažem se' ili 'Ne slažem se', a ponašanje će se malo promijeniti.
+同意画面の色	Boja ekrana za davanje pristanka
+自動	Automatski
+ライトモード	Laki način rada
+ダークモード	Tamni način
+同意画面表示中の配色を設定します	Postavite shemu boja za ekran za davanje pristanka.
+同意画面中のコンテンツのぼかし	Zamagljivanje sadržaja na ekranu za davanje saglasnosti
+同意画面表示中のコンテンツのぼかし具合を設定します	Postavite nivo zamućenja za sadržaj prikazan na ekranu za davanje pristanka.
+同意画面の透過	Transparentnost ekrana za davanje pristanka
+透過なし	Nema transparentnosti
+同意画面の透過具合を設定します	Postavite prozirnost ekrana za pristank
+お知らせの1行目	Prvi red objave
+初回表示で必ず表示されるメッセージです	Ova poruka se uvijek prikazuje prvi put kada se stranica učita.
+お知らせの2行目	Drugi red obavijesti
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ova poruka će se uvijek prikazivati samo na prvom ekranu kada je EU GDPR na snazi.
+お知らせの3行目	Treći red obavijesti
+プライバシーポリシーのリンクの右側に表示されます	Pojavit će se desno od poveznice na Politiku privatnosti.
+非EU向け確認の文字列	Potvrdni tekst za zemlje izvan EU
+EU GDPR向け同意するの文字列	Tekst pristanka za EU GDPR
+EU GDPR向け同意しないの文字列	Tekst za 'Ne dajem saglasnost' u skladu s EU GDPR-om
+プライバシーポリシーの文字列	Tekst politike privatnosti
+プライバシーポリシーのURLはこちらから設定して下さい	Molimo postavite URL za politiku privatnosti ovdje.
+プライバシーポリシーには以下の内容を追加して下さい	Molimo dodajte sljedeće u Politiku privatnosti.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Kako bi se otkrila prevarantska aktivnost, identifikatori poput IP adresa pohranjuju se u kolačićima i bazi podataka. Pohranjeni podaci se brišu prema nahođenju administratora.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Kako bismo osigurali da se slike isporučuju ispravno samo kada je zaštita slika omogućena, pohranjujemo hashirane podatke koji obuhvataju IP adresu i naziv datoteke slike u bazi podataka do 60 minuta.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ako postavljate Uvjete korištenja, molimo vas da osigurate da u svojoj Politici privatnosti uključite poveznicu na njih.
+利用規約の文字列	Tekst uslova korištenja
+利用規約のページ	Stranica s uslovima i odredbama
+ページ選択なし	Nije odabrana stranica
+検索エンジン等のURL	URL-ovi za pretraživače itd.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Postavite URL za pretraživače i slične stranice koje preusmjeravaju korisnike kada nije dato odobrenje.
+デバッグモード、コンソールの警告メッセージ	Režim otklanjanja grešaka, upozoravajuće poruke na konzoli
+右クリックの警告メッセージ	Desni klik poruka upozorenja
+印刷、PDF保存の警告メッセージ	Upozorenje u vezi s ispisom i spremanjem kao PDF
+スクリーンショットの警告メッセージ	Upozoravajuća poruka na snimku ekrana
+スクリーンショットの疑いの警告メッセージ	Upozorenje u vezi sa sumnjivim snimcima ekrana
+テキスト全選択時の警告メッセージ	Poruka upozorenja kada je sav tekst odabran
+ページ保存の警告メッセージ	Upozorenje o spremanju stranice
+コピー・カットした時に表示するメッセージ	Poruka koja se prikazuje prilikom kopiranja ili izrezivanja
+HTMLソース表示時に表示するメッセージ	Poruka za prikazivanje pri pregledu HTML izvora
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Poruka koja se prikazuje na vrhu izvornog koda prilikom zamagljivanja ili zaštite HTML-a
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Poruka za prikaz ako jednokratni token za autentifikaciju nije važeći tokom HTML zaštite
+CookieやJavascriptが有効でない場合に表示するメッセージ	Poruka za prikaz ako su kolačići ili JavaScript onemogućeni
+実際にはJavascriptが無効時のみ表示されます	Zapravo, ovo se prikazuje samo kada je JavaScript onemogućen.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Kada je slika zaštićena, ona se preuzima i na njoj se prikazuje poruka
+HTML難読化 (圧縮)	HTML zamućivanje
+一般的なHTML圧縮です、難読化解除のサイトもあります	Ovo je standardna HTML kompresija; postoje i web stranice koje je mogu dešifrirati.
+このオプションを有効にするとview-sourceのログが取得できます	Omogućavanje ove opcije omogućava vam da preuzmete logove view-sourcea.
+HTML保護	HTML zaštita
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ispisuje još manje HTML-a nego postavka za kompresiju HTML-a, što znači da sadržaj unutar oznake BODY neće biti ispisivan uopće.
+Firefoxに対しては無効です	Ovo se ne odnosi na Firefox.
+SEOに著しく影響があります	Ovo ima značajan utjecaj na SEO.
+HTMLをJavaScriptで描画	Renderiranje HTML-a pomoću JavaScripta
+Firefox対策としてHTMLをJavaScriptで描画をします	Da bismo zaobišli Firefox, renderiramo HTML koristeći JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Omogućavanje JavaScript renderiranja značajno će usporiti brzinu učitavanja web stranice.
+画像の保護	Zaštita slike
+imgタグが呼び出されるごとに画像を保護	Zaštitite sliku svaki put kada se pozove img tag
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Zaštitite sve slike učitane u WordPress unutar cijelog HTML izlaza
+画像をダウンロードから保護します	Štiti slike od preuzimanja
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Kada su podaci o slikama zaštićeni, sprječavamo gotovo sve preuzimanja, izdajemo jedinstvene jednokratne URL-ove, autentificiramo pomoću tokena pohranjenih u sesiji i prikazujemo slike putem PHP-a; to učinkovito sprječava gotovo sve slučajeve krađe slika.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Kada su podaci o slikama zaštićeni, keširanje ne radi, što znači da će se stranica pri naknadnim posjetama učitavati sporije, čime se utječe na SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Zaštita podataka o slikama može povećati opterećenje baze podataka.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Ako odaberete 'Zaštiti slike kad god se pozove img tag', sistem koristi add_filter da primijeni filtriranje prilikom generisanja img taga; međutim, ovo možda neće ispravno raditi sa nekim temama.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Ako odaberete 'Zaštiti sve slike učitane u WordPress unutar cijelog HTML izlaza', dodatak će uhvatiti gotovo sve WordPress operacije i obraditi svaki img tag unutar sadržaja. Imajte na umu da ovo možda neće ispravno raditi sa nekim temama.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Imajte na umu da će slike označene kao istaknute slike biti dijeljene kao OGP podaci i ne mogu biti zaštićene. Ako ih apsolutno morate zaštititi, molimo promijenite postavku za izlaz HEAD tagova u naprednim postavkama prilikom omogućavanja HTML zaštite.
+OS標準搭載のスクリーンショット機能を保護することはできません	Funkcija snimanja ekrana ugrađena u operativni sistem ne može biti zaštićena.
+画像URLの保護	Zaštita URL-ova slika
+画像の保護と組み合わせて使用します、単体では意味がありません	Ovo treba koristiti u kombinaciji sa zaštitom slika; samo po sebi nema nikakvu svrhu.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Budući da se učitava putem JavaScript-a, to utječe na SEO.
+画像のウォーターマーク	Vodeni žig slike
+右下	Donji desni
+ランダム位置	Nasumična pozicija
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Korištene zajedno sa zaštitom slika, dinamičke vodene oznake jasno ukazuju na vlasništvo nad autorskim pravima, istovremeno dajući gledaocima dojam da su nadgledani, čime djeluju kao odvraćajući faktor.
+JPG形式、PNG形式、WebP形式のみ対応します	Podržani su samo JPG, PNG i WebP formati.
+有効にするとサーバーの負荷が高くなります	Omogućavanje ovoga će povećati opterećenje servera.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ispisivanje ASCII umjetnosti iz HTML izvornog koda tokom zamućivanja i zaštite HTML-a
+表示なし	Nema prikaza
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Prikazuje ASCII umjetnost koja označava upozorenje prilikom pregledavanja HTML izvornog koda pomoću 'view-source'
+対象アクションを起こした時の表示デザイン	Prikaži dizajn kada je ciljana akcija izvršena
+黄色の背景の黒文字のベーシックデザイン	Osnovni dizajn s crnim tekstom na žutoj pozadini
+黒色の背景の赤文字のホラー風デザイン	Dizajn u horor stilu sa crvenim tekstom na crnoj pozadini
+黒色の背景の赤文字の光る文字のデザイン	Dizajn sa sjajnim crvenim tekstom na crnoj pozadini
+対象アクションを起こした時のBGM	Pozadinska muzika koja se pušta kada se izvrši ciljana radnja
+サウンドなし	Nema zvuka
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Bitka i pobjeda - 1 minuta 16,3 sekunde - 630.056 bajtova - 64 kbps - Licenca: CC 2.1 ili novija
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Očevo skraćeno - 3,8 sekundi - 32.364 bajta - 64 kbps - Licenca: GPL 2.0 ili novija
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 sekundi - 195.578 bajtova - 64 kbps - Licenca: GPL 2.0 ili novija
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 br. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 br. 12 'Revolucija' – računarski generisana verzija, visoka brzina – 1 minuta 57,6 sekundi – 724.457 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Šerco u si-bemolu molu, Op. 2 – računarski generisana verzija, ubrzana skraćena verzija – 1 minuta 48,0 sekundi – 665.369 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Spisak: Étude d'Exécution Transcendante br. 4, 'Mazeppa' – računarski generisana verzija, skraćena verzija velikom brzinom – 1 minuta 51,6 sekundi – 687.586 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 sekunde – 183.926 bajtova – 64 kbps – Licenca: javno vlasništvo
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro-stilska fanfara – 2,2 sekunde – 10.536 bajtova – 32 kbps – Licenca: Javno vlasništvo
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro uvod – 42,1 sekundi – 179.138 bajtova – 32 kbps – Licenca: Javno vlasništvo
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Upozorenje od ChatGPT-a - 3,8 sekundi - 109.700 bajtova - 256 kbps - Licenca: Javno vlasništvo
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Zvuk visoke hitnosti nalik na upozorenje o detekciji malvera – 1. dio od ChatGPT-a – 3,3 sekunde – 102.850 bajtova – 256 kbps – Licenca: Javno vlasništvo
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Zvuk visoke hitnosti koji zvuči kao upozorenje o detekciji malvera, 2. dio od ChatGPT-a - 3,3 sekunde - 103.122 bajta - 256 kbps - Licenca: Javno vlasništvo
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Zvuk u stilu MRI-ja od ChatGPT-a – 1 minuta 14,9 sekundi – 3.340.392 bajtova – 320 kbps – Licenca: Javno vlasništvo
+警告表示中のBGMを選択します	Odaberite pozadinsku muziku koja će se puštati tokom upozorenja.
+びっくりするような雰囲気を作ります	Stvara iznenađujuću atmosferu
+Firefoxでは音声ブロックされます	Audio je blokiran u Firefoxu
+対象アクションを起こした時のビープ音	Bip kada se izvrši navedena radnja
+有効 音量小さ目	Uključi, glasnoća niska
+有効 音量大き目	Aktivno, glasnoća podešena na visoko
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Upozorenje će biti prikazano, a uz to će se čuti bip za sve događaje tipke i miša.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Stvara se dojam da je uređaj poludio dok se prikazuje upozorenje.
+対象アクションを起こした時のマウスカーソルの消去	Sakrivanje pokazivača miša kada se izvrši određena radnja
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Sakriva pokazivač miša u području preglednika dok se prikazuje upozorenje
+デバッグモード	Režim otklanjanja grešaka
+妨害＋記録のみ	Samo ometanje + zapisi
+妨害＋記録＋表示＋リダイレクト	Smetnje + evidentiranje + prikaz + preusmjeravanje
+メニューからは操作できてしまいます	Još uvijek mu možete pristupiti putem menija.
+Firefoxにおけるデバッグモード	Režim otklanjanja grešaka u Firefoxu
+ブラウザーコンソール	Konzole preglednika
+事実上デバッグモードから操作できてしまいます	U suštini, možete ga koristiti iz načina otklanjanja grešaka.
+HTMLソース表示	Pogledaj HTML izvor
+view-source:から始まるURLを入力すれば操作できてしまいます	Možete izvršiti operaciju jednostavno unoseći URL koji počinje sa 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Možete zaštititi svoj sadržaj kombiniranjem ovoga s HTML zaštitom.
+印刷	Štampaj
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Iako sprječava ispis, u nekim preglednicima možda neće ispravno raditi.
+スクリーンショット	Snimak ekrana
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ovisno o operativnom sistemu, pregledniku ili korištenoj metodi, možda neće biti moguće blokirati ovo ili ono možda neće biti otkriveno.
+ウインドウが背面に移動した時スクリーンショットの疑い	Pretpostavljeni snimak ekrana kada prozor pređe u pozadinu
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Također reaguje na funkcije osim snimanja ekrana
+2キー押下のスクリーンショットの疑い	Navodni snimak ekrana napravljen pritiskom na dvije tipke
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metode otkrivanja navedenih stavki nisu posve pouzdane; otkrivanje se provodi kao mjera opreza.
+スクリーンショットだけではなく、デバッグモード等も検出します	Detektuje ne samo snimke ekrana, već i načine otklanjanja grešaka i slično.
+ページ保存	Sačuvaj stranicu
+右クリック	Desni klik
+アドオンがインストールされていると操作できてしまいます	Ako je dodatak instaliran, moći ćete ga koristiti.
+コピー・カット	Kopiraj i izreži
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Ovisno o postavkama ovog dodatka, rijetko možete naići na ovaj događaj.
+テキスト全選択	Odaberi sav tekst
+テキスト選択	Odaberi tekst
+デバッガー起動ログ、デバッガー妨害	Zapis pokretanja otklanjivača grešaka, ometanje otklanjivača grešaka
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Ovo čini način otklanjanja grešaka nešto manje prilagođen korisniku i bilježi činjenicu da je otklanjač grešaka pokrenut; međutim, neki preglednici mogu blokirati ovo ponašanje.
+リダイレクトするURL	Preusmjeri URL
+利用規約などのページに転送すると良いでしょう	Bilo bi dobro ideja preusmjeriti korisnike na stranice poput Uvjeta korištenja.
+空欄にすると元のURLにリダイレクトをします	Ako ostane prazno, bit će preusmjereno na originalnu URL adresu.
+リダイレクトまでの時間	Vrijeme do preusmjeravanja
+リダイレクトなし	Nema preusmjeravanja
+1秒	1 sekunda
+2秒	2 sekunde
+3秒	3 sekunde
+4秒	4 sekunde
+5秒	5 sekundi
+6秒	6 sekundi
+7秒	7 sekundi
+8秒	8 sekundi
+9秒	9 sekundi
+10秒	10 sekundi
+15秒	15 sekundi
+20秒	20 sekundi
+25秒	25 sekundi
+30秒	30 sekundi
+35秒	35 sekundi
+40秒	40 sekundi
+45秒	45 sekundi
+50秒	50 sekundi
+55秒	55 sekundi
+1分	1 minuta
+1分10秒	1 minuta 10 sekundi
+1分20秒	1 minuta 20 sekundi
+1分30秒	1 minuta i 30 sekundi
+1分40秒	1 minuta i 40 sekundi
+1分50秒	1 minuta i 50 sekundi
+2分	2 minute
+ソース表示を許可する権限	Dozvoljeno je pregledavanje izvornog koda
+ADMINログイン時のみ通常のソース出力	Normalni izlaz izvora samo kada ste prijavljeni kao ADMIN
+USERログインで通常のソース出力	Normalni izlaz izvora kada ste prijavljeni kao USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Odaberite da li je standardni HTML izlaz ograničen samo na administratore ili zahtijeva prijavu korisnika.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Prisiljavanje slike na preuzimanje i ono što se zapravo preuzme
+GIF形式で1×1ピクセルの透過画像	Prozirna slika od jednog piksela u GIF formatu
+PNG形式で1×1ピクセルの透過画像	Prozirna slika od 1×1 piksela u PNG formatu
+PNG形式で黄色い背景の警告画面	Upozoravajući ekran sa žutom pozadinom u PNG formatu
+意味のないHTMLドキュメント	Besmisleni HTML dokument
+HTML保護時のHEADタグの出力	Ispis HEAD oznake kada je HTML zaštićen
+出力しない	Ne štampaj
+TITLEタグのみ	Samo TITLE tag
+WordpressのHEADタグより取得	Preuzeto iz HEAD oznake WordPressa
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Za korporativne stranice namijenjene isključivo članovima i interne stranice, odabir opcije 'Ne prikazuj' ili 'Samo TITLE tag' bi trebao biti dovoljan.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Osim ako ne preuzmete informacije iz HEAD tag-a WordPressa, OGP slika neće biti prikazana pri dijeljenju na društvenim mrežama.
+画像botをアクセス禁止にする	Blokiraj bot za slike
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Sprječavanjem pristupa HTML-u botova za slike možete zaštititi sadržaj koji se nije mogao zaštititi od direktnog linkovanja putem pretraživanja slika; međutim, ovo ne pruža potpuno rješenje.
+AI学習用botをアクセス禁止にする	Blokiraj pristup botu za obuku AI-a
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Izbjegavanjem korištenja botova namijenjenih obuci AI-a na HTML-u osiguravamo da AI ne koristi sadržaj; međutim, to se ne može u potpunosti spriječiti.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Blokirajte pristup web-arhivama i web-snimcima
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Zabranjujemo pristup automatski prikupljenim web arhivama i snimcima ekrana koje korisnik napravi po vlastitom nahođenju; međutim, to ne možemo u potpunosti spriječiti.
+無効なUAをアクセス禁止にする	Blokiraj nevažeće korisničke agente
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Sprječava pristup ako string korisničkog agenta sadrži nevažeće znakove
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Prikaži upozorenje pri pristupu Internet Exploreru i starom Microsoft Edgeu
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Sprječava pristup putem Internet Explorera i starog Microsoft Edgea
+alertメッセージを表示する言語	Jezik na kojem se prikazuju obavijesti
+Wordpressの言語	WordPress jezici
+ブラウザの設定言語	Postavke jezika preglednika
+メッセージをカスタム設定されている場合は言語を変更できません	Ne možete promijeniti jezik ako su poruke prilagođene.
+同意画面の言語	Jezik ekrana za davanje pristanka
+view-sourceメッセージを表示する言語	Jezik za prikazivanje poruke 'view-source'
+一時使用トークンの有効期限	Rok isteka privremenih tokena
+3分	3 minute
+4分	4 minute
+5分	5 minuta
+6分	6 minuta
+7分	7 minuta
+8分	8 minuta
+9分	9 minuta
+10分	10 minuta
+15分	15 minuta
+20分	20 minuta
+25分	25 minuta
+30分	30 minuta
+35分	35 minuta
+40分	40 minuta
+45分	45 minuta
+50分	50 minuta
+55分	55 minuta
+1時間	1 sat
+画像URL情報の有効期限を設定します	Postavite datum isteka informacija o URL-u slike
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Nakon učitavanja, URL slike i privremeni token bit će poništeni.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Slike se učitavaju na zahtjev, ali će se automatski učitati 30 sekundi prije navedenog vremena.
+一時使用トークンのビット数	Broj bita u privremenom tokenu
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Privremeni token se koristi kao lozinka za šifriranje informacija o URL-u slike; ova postavka određuje njegovu snagu
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Iako opcije prikazane ispod padajućeg menija postaju sve detaljnije, to može opteretiti server i dovesti do prijenosa velikog obima HTML podataka.
+ハッシュ化アルゴリズム	Hash algoritam
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Privremeni token se koristi kao lozinka za šifriranje informacija o URL-u slike; to zahtijeva hasiranje, a ovo podešavanje određuje snagu tog hasiranja.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Iako se intenzitet povećava kako se spuštaš kroz listu opcija prikazanih u padajućem meniju, to nameće veće opterećenje na server.
+基本設定	Osnovna podešavanja
+高度な設定	Napredne postavke
+初期設定に戻す	Obnovite zadana podešavanja
+デザイン・音の設定	Dizajn i zvučni efekti
+イベントの設定	Postavke događaja
+初回訪問時のお知らせの設定	Postavljanje obavijesti za prve posjete
+メッセージの設定	Postavke poruke
+右クリックやソースコード表示時に転送する URL を設定します	Postavite URL koji će se otvoriti prilikom desnog klika ili pregledavanja izvornog koda
+警告メッセージにはHTMLは使用できません	HTML se ne može koristiti u porukama upozorenja.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ako ovo konfigurirate na ovom ekranu, postavke jezika na kartici Napredno će biti zanemarene.
+以下の文字列が使用できます	Sljedeći nizovi se mogu koristiti
+改行	Prelom retka
+押下されたキー	Pritisnut tipka
+Neo HTML Protector 設定	Postavke Neo HTML zaštitnika
+お知らせ	Obavještenje
+メッセージ	Poruka
+デザイン・音	Dizajn i zvuk
+初期化	Inicijalizacija
+このプラグインについて	O ovom dodatku
+設定が初期化されました	Postavke su resetirane.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inicijalizirajte dodatak. Imajte na umu da podaci IP Log Readera neće biti izbrisani u ovoj fazi.
+Neo HTML Protectorについて	O programu Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ovaj dodatak je dizajniran da zaštiti HTML, slike i ostali sadržaj generiran na vašem WordPress sajtu, štiteći ga od neovlaštenog korištenja.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Nemoguće je u potpunosti zaštititi sadržaj. Međutim, izdavanjem upozorenja gdje god je to moguće i poduzimanjem priprema u slučaju da se nešto dogodi, trebali bismo biti u stanju riješiti stvar u skladu s procedurama koje je propisala vlada.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Naravno, morat ćete osigurati da su vaši uvjeti pružanja usluge i pravila stranice sveobuhvatni. Iako ovaj dodatak nije alat za generiranje uvjeta pružanja usluge, može pružiti određene smjernice.
+開発者: 夜桜　なの	Programer: Nano Yozakura
+バージョン	Verzija
+ビルド	Sakroj
+サポートページ	Stranica za podršku
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Izvela gospođica Ura Manira
+支援のお願い	Zahtjev za podršku
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Hvala vam što koristite Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Razvoj i održavanje ovog dodatka zahtijevali su mnogo vremena i truda, a kako bismo prikupili sredstva za daljnje poboljšanje i ažuriranje, bili bismo zahvalni ako bi svako ko je u mogućnosti da nas podrži razmotrio donaciju.
+寄付について	O donacijama
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Donacije su potpuno dobrovoljne i nisu obavezne. Plugin je svima dostupan besplatno. Međutim, vaša podrška nam je izuzetno cijenjena kako bismo mogli nastaviti razvoj, i bili bismo oduševljeni ako biste mogli doprinijeti koliko god možete.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Možete uplatiti donaciju putem donje poveznice. Ako se nalazite u Japanu, možete donirati besplatno, a također možete jednostavno donirati koristeći Amazon poklon-bonove.
+寄付先	Dobrotvorne organizacije
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Uz vašu podršku, dat ćemo sve od sebe da vam i dalje donosimo fantastične novosti!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Zahvalni smo na vašoj podršci i radujemo se vašoj daljnjoj podršci u budućnosti.
+ライセンス	Licenca
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ovaj dodatak je razvijen kao softver otvorenog koda i licenciran je pod GPLv2.0 ili novijom verzijom.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Neke od tehnologija uključenih u ovaj dodatak zaštićene su patentima.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Upotreba patentirane tehnologije dozvoljena je isključivo unutar ovog dodatka.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Za bilo koju drugu upotrebu, molimo kontaktirajte autora kako biste dobili komercijalnu licencu.
+本プラグインには以下のライブラリを同梱しています	Ovaj dodatak uključuje sljedeće biblioteke
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ovaj dodatak uključuje fontove ASCII umjetnosti generisane ispod, zajedno s datotekama fontova.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ovaj dodatak uključuje muziku iz neoficijalne Super Famicom igre 'SM Trainer Hitomi 3', koju je razvila kompanija EJ Co., Ltd., a komponovao autor ovog dodatka, i koja je zvanično licencirana.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ovaj dodatak uključuje snimke stvorene pomoću 'Keppy's YAMAHA C7', koje je razvio Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Također sam koristio Raspberry Pi 5, ChatGPT i DeepL u razvoju ovog dodatka.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Detektovan je dodatak za keširanje. Ovaj dodatak neće ispravno funkcionisati ako je dodatak za keširanje omogućen.
+無効なIPアドレス	Neispravna IP adresa
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Da biste koristili ovu web stranicu, morate omogućiti kolačiće i JavaScript.
+利用規約	Uslovi korištenja
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Kako bi se spriječila neovlaštena upotreba i osigurala sigurna radnja naših usluga, ova web stranica može pohraniti informacije kao što su IP adrese, historija pregledavanja i zapisi aktivnosti u kolačićima i bazama podataka. Ove se informacije koriste isključivo za rad web stranice i u zakonske svrhe te neće biti otkrivene trećim stranama.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Da biste koristili ovu uslugu, morate pristati na ove aktivnosti obrade.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Možete pregledati sadržaj Politike privatnosti bez obzira na to da li ste dali svoj pristanak.
+同意する	Slažem se
+同意しない	Ne slažem se
+確認	Potvrda
+プライバシーポリシー	Politika privatnosti
+通常とは異なる方法でのアクセスや操作が検出されました	Detektovan je neobičan pristup ili aktivnost.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Određene značajke su ograničene radi sigurnosti i zaštite sadržaja.
+デバッグモード、コンソールの起動は禁止されています	Režim otklanjanja grešaka i pristup konzoli su onemogućeni.
+以下の情報がサーバーに送信されました	Sljedeće informacije su poslane na server.
+あなたのIPアドレス	Vaša IP adresa
+あなたの端末とブラウザ	Vaš uređaj i preglednik
+あなたの押下したキー	Ključ koji ste pritisnuli
+リダイレクトをします	Bit ćete preusmjereni
+コンテンツ保護のため一部の機能を制限しています	Određene značajke su ograničene radi zaštite sadržaja.
+右クリックは禁止されています	Desni klik nije dozvoljen
+あなたが押下したキー	Ključ koji ste pritisnuli
+印刷、PDFへの保存は禁止されています	Štampanje i spremanje kao PDF su zabranjeni.
+スクリーンショットは禁止されています	Snimci ekrana su zabranjeni.
+スクリーンショット、デバッグモード等の起動は禁止されています	Pravljenje snimaka ekrana i omogućavanje načina otklanjanja grešaka su zabranjeni.
+ページの保存は禁止されています	Spremanje ove stranice je zabranjeno
+コピー、カットは禁止されています	Kopiranje i rezanje su zabranjeni.
+あなたが起こしたイベント	Događaji koje ste organizovali
+テキストの選択は禁止されています	Odabir teksta nije dozvoljen
+HTMLソース表示は禁止されています	Prikazivanje izvornog HTML koda je zabranjeno.
+不正アクセスは禁止されています	Neovlašteni pristup je zabranjen
+アフリカーンス語	Afričanski
+アラゴン語	Aragonsko
+アラビア語	Arapski
+アッサム語	Asameško
+アゼルバイジャン語	Azerbejdžanski
+バシュキール語	Bashkir
+ベラルーシ語	Bjeloruski
+ベンガル語	Bengalski
+ブルガリア語	Bugarski
+ボスニア語	Bosanski
+カタロニア語	Katalonski
+チェコ語	Češki
+ウェールズ語	Velski
+デンマーク語	Danski
+ドイツ語	Njemački
+現代ギリシア語	Savremeni grčki
+英語	Engleski
+イギリス英語	Britanski
+アメリカ英語	Američki engleski
+エスペラント語	Esperanto
+スペイン語	Španski
+エストニア語	Estonac
+バスク語	Baskijski
+ペルシャ語	Perzijski
+フィンランド語	Finski
+フランス語	Francuski
+アイルランド語	Irski
+ガリシア語	Galicijski
+グァラニ語	Guarani
+グジャラート語	Gudžarati
+ハウサ語	Hausa
+ヘブライ語	Hebrejski
+ヒンディ語	Hindi
+クロアチア語	Hrvatski
+ハイチ・クレオール語	Haitijanski kreolski
+ハンガリー語	Mađarski
+インドネシア語	Indonežanski
+イボ語	Ibo jezik
+アイスランド語	Islandski
+イタリア語	Italijanski
+日本語	Japanski
+ジャワ語	Javanski
+カザフ語	Kazah
+朝鮮語	Korejski
+クルド語	Kurdski
+キルギス語	Kirgijski
+ラテン語	Latinski
+ルクセンブルク語	Luksemburški
+リンガラ語	Lingala
+リトアニア語	Litvanski
+ラトビア語	Latvijski
+マダガスカル語	Malagajski
+マオリ語	Maori
+マケドニア語	Makedonski
+マラヤーラム語	Malajalski
+モンゴル語	Mongolski
+マラーティー語	Maratijski
+マレー語	Malezijski
+マルタ語	Maltanski
+ビルマ語	Birmanski
+ネパール語	Nepalski
+ノルウェー語	Norveški
+オランダ語	Holandski
+オック語	Okcitanski
+オロモ語	Ilića
+パンジャーブ語	Punjabi
+ポーランド語	Poliranje
+パシュトー語	Pashto
+ポルトガリア語	Portugalski
+ブラジルポルトガル語	Brazilski portugalski
+ヨーロピアンポルトガル語	Evropski portugalski
+ケチュア語	Kičua
+ルーマニア語	Rumunjski
+ロシア語	Ruski
+サンスクリット語	Sanskrit
+スロバキア語	Slovački
+スロベニア語	Slovenski
+セルビア語	Srbija
+南セソト語	Južni Sesoto
+スンダ語	Sundanese
+スウェーデン語	Švedski
+スワヒリ語	Svahili
+タミル語	Tamilski
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Tajlandski
+トルクメン語	Turski
+タガログ語	Tagalog
+トルコ語	Turski
+タタール語	Tatar
+ウクライナ語	Ukrajinski
+ウルドゥー語	Urdu
+ウズベク語	Uzbek
+ベトナム語	Vijetnamski
+コサ語	Kosa
+イディッシュ語	Jidiš
+簡体中国語	Pojednostavljeni kineski
+繁体中国語	Tradicionalni kineski
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Preglednik koji trenutno koristite je starija verzija koja više nije podržana. Da biste osigurali sigurnije i ugodnije iskustvo pregledavanja, molimo ažurirajte na najnoviju verziju vašeg preglednika.
+不正なリクエストです	Neispravan zahtjev
+画像が見つかりません	Slika nije pronađena

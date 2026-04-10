@@ -1,0 +1,425 @@
+設定	Instellings
+IPログリーダー	IP-logleser
+IPアドレスログ	IP-adreslog
+全クリア	Voltooi alle vlakke
+IPログが全て削除されました	Alle IP-loglêers is verwyder.
+ID	Identiteit
+タイムスタンプ	Tydstempel
+IPアドレス	IP-adres
+ユーザーエージェント	Gebruikeragent
+イベント	Geleentheid
+IPアドレスのデータはありません	Daar is geen data vir hierdie IP-adres nie.
+EU GDPR対応	Nakoming van die EU GDPR
+無効	Ongeldig
+有効	Geldig
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	As u WordPress binne die EU gebruik, of as u webwerf gebruikers binne die EU teiken, maak asseblief seker dat dit geaktiveer is.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Die 'Bevestig'-knoppie sal verander na 'Stem saam' of 'Stem nie saam nie', en die gedrag sal effens verander.
+同意画面の色	Kleur van die toestemmingskerm
+自動	Outomaties
+ライトモード	Ligmodus
+ダークモード	Donker modus
+同意画面表示中の配色を設定します	Stel die kleurskema vir die toestemmingsskerm in.
+同意画面中のコンテンツのぼかし	Verwarring van inhoud op die toestemmingsskerm
+同意画面表示中のコンテンツのぼかし具合を設定します	Stel die onscherpte-vlak in vir die inhoud wat op die toestemmingskerm vertoon word.
+同意画面の透過	Deursigtigheid van die toestemmingskerm
+透過なし	Geen deursigtigheid
+同意画面の透過具合を設定します	Stel die deursigtigheid van die toestemmingsskerm in
+お知らせの1行目	Eerste reël van die aankondiging
+初回表示で必ず表示されるメッセージです	Hierdie boodskap word altyd vertoon die eerste keer dat die bladsy gelaai word.
+お知らせの2行目	Die tweede reël van die kennisgewing
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Hierdie boodskap sal altyd slegs op die eerste vertoning verskyn wanneer die EU GDPR in werking is.
+お知らせの3行目	Die derde reël van die kennisgewing
+プライバシーポリシーのリンクの右側に表示されます	Dit sal regs van die skakel na die privaatheidsbeleid verskyn.
+非EU向け確認の文字列	Bevestigingsteks vir nie-EU-lande
+EU GDPR向け同意するの文字列	Tekst vir toestemming vir die EU GDPR
+EU GDPR向け同意しないの文字列	Teks vir 'Moenie toestemming gee nie' kragtens die EU GDPR
+プライバシーポリシーの文字列	Privaatheidsbeleidsteks
+プライバシーポリシーのURLはこちらから設定して下さい	Stel asseblief die URL vir die privaatheidsbeleid hier in.
+プライバシーポリシーには以下の内容を追加して下さい	Voeg asseblief die volgende by die Privaatheidsbeleid.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Om bedrieglike aktiwiteit op te spoor, word identifikators soos IP-adresse in koekies en die databasis gestoor. Die gestoorde data word na goeddunke van die administrateur verwyder.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Om te verseker dat beelde korrek gelewer word slegs wanneer beeldbeskerming geaktiveer is, stoor ons gehasheerde data wat die IP-adres en die beeldlêernaam bevat in die databasis vir tot 60 minute.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	As u Gebruiksvoorwaardes opstel, verseker asseblief dat u 'n skakel na hulle in u Privaatheidsbeleid insluit.
+利用規約の文字列	Teks van die Gebruiksvoorwaardes
+利用規約のページ	Bepalings en Voorwaardes-bladsy
+ページ選択なし	Geen bladsy gekies nie
+検索エンジン等のURL	URL's vir soekenjins, ens.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Stel die URL in vir soekenjins en soortgelyke webwerwe wat gebruikers omlei wanneer toestemming nie gegee word nie.
+デバッグモード、コンソールの警告メッセージ	Foutopsporingsmodus, konsole-waarskuwingsboodskappe
+右クリックの警告メッセージ	Regskliek waarskuwingsboodskap
+印刷、PDF保存の警告メッセージ	Waarskuwingsboodskap rakende drukwerk en stoor as PDF
+スクリーンショットの警告メッセージ	Waarskuwingsboodskap in die skermkiekie
+スクリーンショットの疑いの警告メッセージ	Waarskuwingsboodskap rakende vermoedelike skermskote
+テキスト全選択時の警告メッセージ	Waarskuwingsboodskap wanneer alle teks geselekteer is
+ページ保存の警告メッセージ	Waarskuwingsboodskap rakende bladsy-opbewaring
+コピー・カットした時に表示するメッセージ	Boodskap wat vertoon word wanneer gekopieer of gesny word
+HTMLソース表示時に表示するメッセージ	Boodskap om te vertoon wanneer HTML-bron besigtig word
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Boodskap om bo-aan die bronkode te vertoon wanneer HTML vervaag of beskerm word
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Boodskap om te vertoon as die eenmalige verifikasietoken ongeldig is tydens HTML-beskerming
+CookieやJavascriptが有効でない場合に表示するメッセージ	Boodskap om te vertoon as koekies of JavaScript gedeaktiveer is
+実際にはJavascriptが無効時のみ表示されます	In werklikheid word dit slegs vertoon wanneer JavaScript gedeaktiveer is.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Wanneer 'n beeld beskerm is, word dit afgelaai en word 'n boodskap op daardie beeld vertoon
+HTML難読化 (圧縮)	HTML-verduistering
+一般的なHTML圧縮です、難読化解除のサイトもあります	Dit is standaard HTML-kompressie; daar is ook webwerwe wat dit kan dekodeer.
+このオプションを有効にするとview-sourceのログが取得できます	Deur hierdie opsie te aktiveer, kan jy die view-source-log ophaal.
+HTML保護	HTML-beskerming
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Dit lewer slegs die blote minimum aan HTML uit—selfs minder as wanneer HTML-kompressie gebruik word—en die inhoud binne die BODY-tag word glad nie uitgelewer nie.
+Firefoxに対しては無効です	Dit geld nie vir Firefox nie.
+SEOに著しく影響があります	Dit het 'n beduidende impak op SEO.
+HTMLをJavaScriptで描画	Rendering van HTML met JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Om Firefox te omseil, render ons die HTML met JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Die inskakeling van JavaScript-rendering sal die webwerf se laaispoed aansienlik vertraag.
+画像の保護	Beeldbeskerming
+imgタグが呼び出されるごとに画像を保護	Beskerm die beeld elke keer as die img-tag aangeroep word.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Beskerm alle beelde wat in WordPress opgelaai is binne die hele HTML-uitset.
+画像をダウンロードから保護します	Beskerm beelde teen aflaai
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Wanneer beelddata beskerm word, verhoed ons byna alle aflaaie, verstrek ons unieke eenmalige URL's, verifieer ons met tokens wat in die sessie gestoor is, en vertoon ons die beelde via PHP; dit verhoed effektief byna alle gevalle van beelddiefstal.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Wanneer beelddata beskerm word, werk kasgeheue nie, wat beteken dat die webwerf by daaropvolgende besoeke stadiger sal laai en sodoende SEO beïnvloed.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Die beskerming van beelddata kan die las op die databasis verhoog.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	As jy 'Beskerm beelde elke keer wanneer 'n img-tag aangeroep word' kies, gebruik die stelsel add_filter om filtering toe te pas wanneer die img-tag gegenereer word; dit mag egter nie korrek werk met sommige temas nie.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	As jy 'Beskerm alle beelde wat in WordPress opgelaai is binne die hele HTML-uitset' kies, sal die inprop byna alle WordPress-operasies vasvang en elke img-tag in die inhoud verwerk. Neem asseblief kennis dat dit dalk nie korrek met sommige temas sal werk nie.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Neem asseblief kennis dat beelde wat as uitgeligte beelde aangewys is, as OGP-data gedeel sal word en nie beskerm kan word nie. As jy dit absoluut moet beskerm, verander asseblief die instelling vir HEAD-tag-uitset in die gevorderde instellings wanneer jy HTML-beskerming aktiveer.
+OS標準搭載のスクリーンショット機能を保護することはできません	Die skermkiekie-funksie wat in die bedryfstelsel ingebou is, kan nie beskerm word nie.
+画像URLの保護	Die beskerming van beeld-URL's
+画像の保護と組み合わせて使用します、単体では意味がありません	Dit moet in samewerking met beeldbeskerming gebruik word; op sigself dien dit geen doel nie.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Aangesien dit luiweg via JavaScript gelaai word, beïnvloed dit SEO.
+画像のウォーターマーク	Beeldwatermerk
+右下	Onder regs
+ランダム位置	Willekeurige posisie
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Gebruik in samewerking met beeldbeskerming dui dinamiese watermerke duidelik die kopiereg-eienaarskap aan en gee kykers die indruk dat hulle gemonitor word, wat sodoende as 'n afskrikmiddel dien.
+JPG形式、PNG形式、WebP形式のみ対応します	Slegs JPG-, PNG- en WebP-formate word ondersteun.
+有効にするとサーバーの負荷が高くなります	Deur dit moontlik te maak, sal die las op die bediener toeneem.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Uitvoer van ASCII-kuns uit HTML-bron kode tydens HTML-verduistering en beskerming
+表示なし	Geen vertoning
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Vertoon ASCII-kuns wat 'n waarskuwing aandui wanneer die HTML-bron met 'view-source' besigtig word.
+対象アクションを起こした時の表示デザイン	Vertoon die ontwerp wanneer die teikenaksie uitgevoer word.
+黄色の背景の黒文字のベーシックデザイン	'n basiese ontwerp met swart teks op 'n geel agtergrond
+黒色の背景の赤文字のホラー風デザイン	'n gruwelstyl-ontwerp met rooi teks op 'n swart agtergrond
+黒色の背景の赤文字の光る文字のデザイン	'n ontwerp met gloedrooi teks op 'n swart agtergrond
+対象アクションを起こした時のBGM	Agtergrondmusiek wat gespeel word wanneer die teikenaksie uitgevoer word
+サウンドなし	Geen klank
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Slag en oorwinning - 1 minuut 16,3 sekondes - 630 056 baitjies - 64 kbps - Lisensie: CC 2.1 of later
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Paadjie Kort - 3,8 sekondes - 32 364 baitjies - 64 kbps - Lisensie: GPL 2.0 of later
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 sekondes - 195 578 baitjies - 64 kbps - Lisensie: GPL 2.0 of later
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nr. 12 'Revolusie' – rekenaargegenereerde weergawe, hoëspoed – 1 minuut 57,6 sekondes – 724 457 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo in B-mol klein, Op. 2 – rekenaargegenereerde weergawe, hoëspoed-verkorte weergawe – 1 minuut 48,0 sekondes – 665 369 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lys: Étude d'Exécution Transcendante Nr. 4, 'Mazeppa' – rekenaargegenereerde weergawe, hoëspoed-verkorte weergawe – 1 minuut 51,6 sekondes – 687 586 baitjies – 48 kbps – Lisensie: CC BY-ND 4.0 of later
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 sekondes – 183 926 baitjies – 64 kbps – Lisensie: Publieke domein
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro-styl fanfare – 2,2 sekondes – 10 536 baitjies – 32 kbps – Lisensie: Publieke domein
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro-styl intro – 42,1 sekondes – 179 138 baitjies – 32 kbps – Lisensie: Publieke domein
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Waarskuwing deur ChatGPT - 3,8 sekondes - 109 700 bytes - 256 kbps - Lisensie: Publieke domein
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	'n klank met hoë dringendheid wat soos 'n malware-deteksiewaarskuwing klink – Deel 1 deur ChatGPT – 3,3 sekondes – 102 850 bytes – 256 kbps – Lisensie: Publieke domein
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	'n Hoogdringende klank soos 'n malware-opsporingswaarskuwing, Deel 2 deur ChatGPT - 3,3 sekondes - 103 122 baitjies - 256 kbps - Lisensie: Publieke domein
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI-styl klank deur ChatGPT – 1 minuut 14,9 sekondes – 3 340 392 baitjies – 320 kbps – Lisensie: Publieke domein
+警告表示中のBGMを選択します	Kies die agtergrondmusiek om tydens 'n waarskuwing te speel.
+びっくりするような雰囲気を作ります	Dit skep 'n verrassende atmosfeer.
+Firefoxでは音声ブロックされます	Klank is in Firefox geblokkeer.
+対象アクションを起こした時のビープ音	'n piep wanneer die gespesifiseerde aksie uitgevoer word
+有効 音量小さ目	Aan, klank laag
+有効 音量大き目	Aktief, volume op hoog
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	'n piep sal klink in reaksie op alle sleutelbord- en muisgebeurtenisse terwyl 'n waarskuwing vertoon word.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Dit skep die indruk dat die toestel dol geword het terwyl die waarskuwing vertoon word.
+対象アクションを起こした時のマウスカーソルの消去	Verberg die muisaanwyser wanneer 'n spesifieke aksie uitgevoer word
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Verberg die muisaanwyser in die blaaierarea terwyl 'n waarskuwing vertoon word.
+デバッグモード	Foutopsporingsmodus
+妨害＋記録のみ	Stooring + Rekords slegs
+妨害＋記録＋表示＋リダイレクト	Versteuring + Aantekeninghou + Vertoon + Herlei
+メニューからは操作できてしまいます	Jy kan dit steeds via die menu bereik.
+Firefoxにおけるデバッグモード	Foutopsporingsmodus in Firefox
+ブラウザーコンソール	Blaaierkonsole
+事実上デバッグモードから操作できてしまいます	In werklikheid kan jy dit in foutopsporingsmodus laat werk.
+HTMLソース表示	Beskou HTML-bron
+view-source:から始まるURLを入力すれば操作できてしまいます	Jy kan die operasie eenvoudig uitvoer deur 'n URL in te voer wat met 'view-source:' begin.
+HTML保護と組み合わせることでコンテンツを保護することができます	Jy kan jou inhoud beskerm deur dit met HTML-beskerming te kombineer.
+印刷	Druk
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Alhoewel dit druk voorkom, werk dit dalk nie behoorlik in sommige blaaiers nie.
+スクリーンショット	Skermkiekie
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Afhangende van die bedryfstelsel, blaaier of gebruikte metode, mag dit nie moontlik wees om dit te blokkeer nie, of mag dit nie opgespoor word nie.
+ウインドウが背面に移動した時スクリーンショットの疑い	Vermoedelike skermkiekie wanneer die venster na die agtergrond beweeg
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Dit reageer ook op funksies anders as skermkiekies
+2キー押下のスクリーンショットの疑い	Vermoedelike skermkiekie geneem deur twee sleutels gelyktydig te druk
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Die opsporingsmetodes vir bogenoemde items is nie feilloos nie; opsporing word as 'n voorsorgmaatreël uitgevoer.
+スクリーンショットだけではなく、デバッグモード等も検出します	Dit bespeur nie net skermkiekies nie, maar ook foutopsporingsmodusse en dergelikes.
+ページ保存	Bêre bladsy
+右クリック	Regskliek
+アドオンがインストールされていると操作できてしまいます	As die byvoeging geïnstalleer is, sal jy dit kan gebruik.
+コピー・カット	Kopieer en sny
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Afhangende van die instellings van hierdie inprop, mag jy selde hierdie gebeurtenis teëkom.
+テキスト全選択	Kies alle teks
+テキスト選択	Kies teks
+デバッガー起動ログ、デバッガー妨害	Debugger-opstartlog, debugger-inmenging
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Dit maak die foutopsporingsmodus effens minder gebruikersvriendelik en log die feit dat die foutopsporer geloods is; sommige blaaiers kan egter hierdie gedrag blokkeer.
+リダイレクトするURL	Herbestemmings-URL
+利用規約などのページに転送すると良いでしょう	Dit sou 'n goeie idee wees om gebruikers na bladsye soos die Gebruiksvoorwaardes te herlei.
+空欄にすると元のURLにリダイレクトをします	As dit leeg gelaat word, sal dit na die oorspronklike URL herlei.
+リダイレクトまでの時間	Tyd tot herrigting
+リダイレクトなし	Geen omleiding nie
+1秒	1 sekonde
+2秒	2 sekondes
+3秒	3 sekondes
+4秒	4 sekondes
+5秒	5 sekondes
+6秒	6 sekondes
+7秒	7 sekondes
+8秒	8 sekondes
+9秒	9 sekondes
+10秒	10 sekondes
+15秒	15 sekondes
+20秒	20 sekondes
+25秒	25 sekondes
+30秒	30 sekondes
+35秒	35 sekondes
+40秒	40 sekondes
+45秒	45 sekondes
+50秒	50 sekondes
+55秒	55 sekondes
+1分	1 minuut
+1分10秒	1 minuut 10 sekondes
+1分20秒	1 minuut 20 sekondes
+1分30秒	1 minuut 30 sekondes
+1分40秒	1 minuut 40 sekondes
+1分50秒	1 minuut 50 sekondes
+2分	2 minute
+ソース表示を許可する権限	Toestemming om bronkode te besigtig
+ADMINログイン時のみ通常のソース出力	Normale bronuitset slegs wanneer aangemeld as ADMIN
+USERログインで通常のソース出力	Normale bronuitset wanneer aangemeld as USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Kies of standaard HTML-uitset slegs vir administrateurs beperk is of 'n gebruikersaanmelding vereis.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Om 'n beeld af te dwing om af te laai en wat eintlik afgelaai word
+GIF形式で1×1ピクセルの透過画像	'n 1×1-piksel deursigtige beeld in GIF-formaat
+PNG形式で1×1ピクセルの透過画像	'n 1×1-piksel deursigtige beeld in PNG-formaat
+PNG形式で黄色い背景の警告画面	'n Waarskuwingskerm met 'n geel agtergrond in PNG-formaat
+意味のないHTMLドキュメント	'n betekenislose HTML-dokument
+HTML保護時のHEADタグの出力	Uitset van die HEAD-tag wanneer HTML beskerm is
+出力しない	Moenie druk nie
+TITLEタグのみ	Slegs TITEL-tag
+WordpressのHEADタグより取得	Ongehal uit die WordPress HEAD-tag
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Vir korporatiewe lede-slegs-bladsye en interne bladsye behoort die keuse van 'Moenie uitvoer nie' of 'Slegs TITLE-tag' voldoende te wees.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Tensy jy die inligting uit die WordPress HEAD-tag haal, sal die OGP-prent nie vertoon word wanneer dit op sosiale media gedeel word nie.
+画像botをアクセス禁止にする	Blokkeer die beeldbot
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Deur te verhoed dat beeldbotte toegang tot HTML kry, kan jy inhoud beskerm wat nie teen direkte skakeling via beeldsoektog beveilig kon word nie; dit bied egter nie 'n volledige oplossing nie.
+AI学習用botをアクセス禁止にする	Blokkeer toegang tot die KI-opleidingsbot
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Deur die gebruik van botte wat ontwerp is vir KI-opleiding op HTML te vermy, verseker ons dat die inhoud nie deur KI benut word nie; dit kan egter nie heeltemal verhoed word nie.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Blokkeer toegang tot webargiewe en webkiekies
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Ons verbied toegang tot outomaties versamelde webargiewe en skermskote wat na goeddunke van die gebruiker geneem is; ons kan dit egter nie heeltemal verhoed nie.
+無効なUAをアクセス禁止にする	Blokkeer ongeldige gebruikersagente
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Voorkom toegang as die user agent-reeks ongeldige karakters bevat
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Vertoon 'n waarskuwing wanneer toegang tot Internet Explorer en die ou Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Voorkom toegang via Internet Explorer en die ou Microsoft Edge
+alertメッセージを表示する言語	Taal waarin waarskuwingsboodskappe vertoon word
+Wordpressの言語	WordPress-tale
+ブラウザの設定言語	Blaaiertaalinstellings
+メッセージをカスタム設定されている場合は言語を変更できません	Jy kan nie die taal verander as die boodskappe aangepas is nie.
+同意画面の言語	Taal van die toestemmingsskerm
+view-sourceメッセージを表示する言語	Taal waarin die 'view-source'-boodskap vertoon moet word
+一時使用トークンの有効期限	Verloopdatum van tydelike tokens
+3分	3 minute
+4分	4 minute
+5分	5 minute
+6分	6 minute
+7分	7 minute
+8分	8 minute
+9分	9 minute
+10分	10 minute
+15分	15 minute
+20分	20 minute
+25分	25 minute
+30分	30 minute
+35分	35 minute
+40分	40 minute
+45分	45 minute
+50分	50 minute
+55分	Vyf-en-vyftig minute
+1時間	1 uur
+画像URL情報の有効期限を設定します	Stel die vervaldatum vir beeld-URL-inligting in
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Sodra dit gelaai is, sal die beeld-URL en die tydelike token ongeldig gemaak word.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Beelde word op aanvraag gelaai, maar hulle sal outomaties 30 sekondes voor die gespesifiseerde tyd gelaai word.
+一時使用トークンのビット数	Aantal bite in 'n tydelike token
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	'n Tydelike token word as 'n wagwoord gebruik om beeld-URL-inligting te enkripteer; hierdie instelling spesifiseer die sterkte daarvan.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Alhoewel die opsies wat onder die uitklapmenu vertoon word, al hoe meer gedetailleerd raak, kan dit 'n swaar las op die bediener plaas en lei tot 'n groot hoeveelheid HTML-data wat oorgedra word.
+ハッシュ化アルゴリズム	Hash-algoritme
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	'n Tydelike token word as 'n wagwoord gebruik om beeld-URL-inligting te enkripteer; dit vereis hashing, en hierdie instelling bepaal die sterkte van daardie hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Alhoewel die intensiteit toeneem namate jy deur die lys opsies in die uitklaplys beweeg, plaas dit 'n groter las op die bediener.
+基本設定	Basiese instellings
+高度な設定	Gevorderde instellings
+初期設定に戻す	Stel standaardinstellings terug
+デザイン・音の設定	Ontwerp en klankinstellings
+イベントの設定	Geleentheidsinstellings
+初回訪問時のお知らせの設定	Instelling van kennisgewings vir eerste besoeke
+メッセージの設定	Boodskapinstellings
+右クリックやソースコード表示時に転送する URL を設定します	Stel die URL in wat oopgemaak moet word wanneer met die regter-muisknop geklik word of wanneer die broncode besigtig word.
+警告メッセージにはHTMLは使用できません	HTML kan nie in waarskuwingsboodskappe gebruik word nie.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	As jy dit op hierdie skerm konfigureer, sal die taalinstellings in die Gevorderde-oortjie geïgnoreer word.
+以下の文字列が使用できます	Die volgende snare kan gebruik word
+改行	Reëlbreek
+押下されたキー	Sleutel gedruk
+Neo HTML Protector 設定	Neo HTML-beskermerinstellings
+お知らせ	Kennisgewing
+メッセージ	Boodskap
+デザイン・音	Ontwerp en klank
+初期化	Initialisering
+このプラグインについて	Oor hierdie inprop
+設定が初期化されました	Die instellings is teruggesit.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisialiseer die inprop. Neem asseblief kennis dat die IP Log Reader-data op hierdie stadium nie verwyder sal word nie.
+Neo HTML Protectorについて	Oor Neo HTML Beskermer
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Hierdie inprop is ontwerp om die HTML, beelde en ander inhoud wat deur jou WordPress-webwerf gegenereer word, te beskerm teen ongemagtigde gebruik.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Dit is onmoontlik om inhoud heeltemal te beskerm. Deur egter waar moontlik waarskuwings uit te reik en voorbereidings te tref ingeval iets wel gebeur, behoort ons die saak in ooreenstemming met die prosedures wat deur die regering neergelê is, te kan oplos.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Natuurlik moet jy verseker dat jou bepalings en voorwaardes en webwerfbeleid omvattend is. Alhoewel hierdie inprop nie 'n hulpmiddel is om bepalings en voorwaardes te genereer nie, kan dit wel 'n mate van leiding bied.
+開発者: 夜桜　なの	Ontwikkelaar: Nano Yozakura
+バージョン	Weergawe
+ビルド	Bou
+サポートページ	Ondersteuningsbladsy
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Uitgevoer deur Mej. Ura Manira
+支援のお願い	'n versoek om ondersteuning
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Dankie dat u Neo HTML Protector gebruik!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Die ontwikkeling en instandhouding van hierdie inprop het baie tyd en moeite verg, en om fondse in te samel om dit voort te gaan verbeter en op te dateer, sal ons dit waardeer as enigiemand wat ons kan ondersteun, 'n donasie oorweeg.
+寄付について	Oor skenkings
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Bydraes is heeltemal vrywillig en nie verpligtend nie. Die inprop is vir almal gratis beskikbaar. Ons waardeer u ondersteuning egter baie om ons te help om met die ontwikkeling voort te gaan, en ons sal baie bly wees as u kan bydra wat u ook al kan.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Jy kan 'n donasie maak via die skakel hieronder. As jy in Japan gebaseer is, kan jy gratis skenk, en jy kan ook maklik skenk met Amazon-geskenkbewyse.
+寄付先	Welsynorganisasies
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Met jou ondersteuning sal ons ons bes doen om aanhou fantastiese opdaterings vir jou te bring!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Ons is dankbaar vir u ondersteuning en sien uit na u voortgesette ondersteuning in die toekoms.
+ライセンス	Lisensie
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Hierdie inprop is as open source-sagteware ontwikkel en is gelisensieer onder die GPLv2.0 of later.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Sommige van die tegnologieë wat in hierdie inprop ingesluit is, word deur patente beskerm.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Die gebruik van die gepatenteerde tegnologie is slegs binne hierdie inprop toegelaat.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Vir enige ander gebruik, kontak asseblief die outeur om 'n kommersiële lisensie te bekom.
+本プラグインには以下のライブラリを同梱しています	Hierdie inprop sluit die volgende biblioteke in
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Hierdie inprop sluit die ASCII-kuns-lettertipes in wat hieronder gegenereer is, tesame met die lettertipe-lêers.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Hierdie inprop sluit musiek in van die onoffisiële Super Famicom-speletjie 'SM Trainer Hitomi 3', ontwikkel deur EJ Co., Ltd. en gekomponeer deur die skepper van hierdie inprop, en is amptelik gelisensieer.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Hierdie inprop sluit snitte in wat geskep is met 'Keppy's YAMAHA C7', ontwikkel deur Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ek het ook 'n Raspberry Pi 5, ChatGPT en DeepL gebruik in die ontwikkeling van hierdie inprop.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	'n kas-inprop is opgespoor. Hierdie inprop sal nie korrek funksioneer as 'n kas-inprop geaktiveer is nie.
+無効なIPアドレス	Ongeldige IP-adres
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Om hierdie webwerf te gebruik, moet jy koekies en JavaScript inskakel.
+利用規約	Gebruiksvoorwaardes
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Om ongemagtigde gebruik te voorkom en die veilige werking van ons dienste te verseker, mag hierdie webwerf inligting soos IP-adresse, blaai­geskiedenis en aktiwiteitslogboeke in koekies en databasisse stoor. Hierdie inligting word slegs vir die werking van die webwerf en vir wettige doeleindes gebruik, en sal nie aan derde partye bekendgemaak word nie.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Om hierdie diens te gebruik, moet u toestemming gee vir hierdie verwerkingsaktiwiteite.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	U kan die inhoud van die Privaatheidsbeleid besigtig, ongeag of u u toestemming gegee het.
+同意する	Ek stem saam
+同意しない	Ek stem nie saam nie
+確認	Bevestiging
+プライバシーポリシー	Privaatheidsbeleid
+通常とは異なる方法でのアクセスや操作が検出されました	Ongewone toegang of aktiwiteit is opgespoor.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Sekere funksies is vir sekuriteits- en inhoudbeskermingsdoeleindes beperk.
+デバッグモード、コンソールの起動は禁止されています	Foutopsporingsmodus en konsoletoegang is gedeaktiveer
+以下の情報がサーバーに送信されました	Die volgende inligting is na die bediener gestuur.
+あなたのIPアドレス	Jou IP-adres
+あなたの端末とブラウザ	Jou toestel en blaaier
+あなたの押下したキー	Die sleutel wat jy gedruk het
+リダイレクトをします	Jy sal herlei word
+コンテンツ保護のため一部の機能を制限しています	Sekere funksies is beperk om die inhoud te beskerm.
+右クリックは禁止されています	Regskliek word nie toegelaat nie
+あなたが押下したキー	Die sleutel wat jy gedruk het
+印刷、PDFへの保存は禁止されています	Drukwerk en stoor as PDF is verbode.
+スクリーンショットは禁止されています	Skermkiekies is verbode
+スクリーンショット、デバッグモード等の起動は禁止されています	Dit is verbode om skermkiekies te neem en die foutopsporingsmodus in te skakel.
+ページの保存は禁止されています	Dit is verbode om hierdie bladsy te stoor.
+コピー、カットは禁止されています	Kopieer en knip is verbode.
+あなたが起こしたイベント	Geleenthede wat jy gereël het
+テキストの選択は禁止されています	Dit is nie toegelaat om teks te selekteer nie.
+HTMLソース表示は禁止されています	Dit is verbode om HTML-bron kode te vertoon.
+不正アクセスは禁止されています	Ongemagtigde toegang is verbode
+アラビア語	Arabies
+ブルガリア語	Bulgaars
+チェコ語	Tsjeggies
+デンマーク語	Deens
+ドイツ語	Duits
+現代ギリシア語	Moderne Grieks
+英語	Engels
+イギリス英語	Britsies
+アメリカ英語	Amerikaanse Engels
+スペイン語	Spaans
+エストニア語	Estnies
+フィンランド語	Fyns
+フランス語	Frans
+ハンガリー語	Hongarys
+インドネシア語	Indonesies
+イタリア語	Italiaans
+日本語	Japans
+朝鮮語	Koreaans
+リトアニア語	Litouws
+ラトビア語	Latviaans
+ノルウェー語	Noors
+オランダ語	Nederlands
+ポーランド語	Poolse
+ポルトガリア語	Portugees
+ブラジルポルトガル語	Braziliaanse Portugees
+ヨーロピアンポルトガル語	Europese Portugees
+ルーマニア語	Roemeens
+ロシア語	Russies
+スロバキア語	Slowaaks
+スロベニア語	Sloweens
+スウェーデン語	Sweedse
+トルコ語	Turks
+ウクライナ語	Oekraïens
+中国語	Chinese
+簡体中国語	Vereenvoudigde Chinees
+繁体中国語	Tradisionele Chinees
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Die blaaier wat jy tans gebruik, is 'n ouer weergawe wat nie meer ondersteun word nie. Om 'n veiliger en meer gemaklike blaaiervaring te verseker, stel asseblief jou blaaier op die nuutste weergawe by.
+不正なリクエストです	Ongeldige versoek
+画像が見つかりません	Beeld nie gevind nie
+アフリカーンス語	Afrikaans
+アラゴン語	Aragonees
+アッサム語	Assamees
+アゼルバイジャン語	Aserbeidjaans
+バシュキール語	Bashkir
+ベラルーシ語	Wit-Rusies
+ベンガル語	Bengaalse
+ボスニア語	Bosnies
+カタロニア語	Katalaans
+ウェールズ語	Wels
+エスペラント語	Esperanto
+バスク語	Baskies
+ペルシャ語	Persies
+アイルランド語	Iers
+ガリシア語	Galisies
+グァラニ語	Guaraní
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Hebreeus
+ヒンディ語	Hindi
+クロアチア語	Kroaties
+ハイチ・クレオール語	Haïtiaanse Kreool
+イボ語	Ibo-taal
+アイスランド語	Yslandsees
+ジャワ語	Jawaans
+カザフ語	Kazakh
+クルド語	Koerdies
+キルギス語	Kirgiz
+ラテン語	Latyn
+ルクセンブルク語	Luxemburgs
+リンガラ語	Taal
+マダガスカル語	Madagasikara
+マオリ語	Māori
+マケドニア語	Masedonies
+マラヤーラム語	Malaajlam
+モンゴル語	Mongools
+マラーティー語	Marathi
+マレー語	Malaysies
+マルタ語	Maltese
+ビルマ語	Birmees
+ネパール語	Nepalees
+オック語	Oksitaans
+オロモ語	Of-een
+パンジャーブ語	Punjabi
+パシュトー語	Pashto
+ケチュア語	Quechua
+サンスクリット語	Sanskriet
+セルビア語	Serbies
+南セソト語	Suidelike Sesotho
+スンダ語	Sundaans
+スワヒリ語	Swaheli
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Thai
+トルクメン語	Turkmen
+タガログ語	Tagalog
+タタール語	Tatar
+ウルドゥー語	Oerdoo
+ウズベク語	Oezbeek
+ベトナム語	Viëtnamese
+コサ語	Kosa
+イディッシュ語	Jiddisj
+ズールー語	Zulu

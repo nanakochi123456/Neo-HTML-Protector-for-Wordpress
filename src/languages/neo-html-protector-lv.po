@@ -1,14 +1,14 @@
 # Latvian translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:24+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Latvian\n"
 "Language: lv\n"
@@ -984,14 +984,44 @@ msgstr "HTML avota rādīšana ir aizliegta."
 msgid "不正アクセスは禁止されています"
 msgstr "Nesankcionēta piekļuve ir aizliegta."
 
+msgid "アフリカーンス語"
+msgstr "Afrikāņu valoda"
+
+msgid "アラゴン語"
+msgstr "Aragoniešu"
+
 msgid "アラビア語"
 msgstr "Arābu valoda"
+
+msgid "アッサム語"
+msgstr "Asamiešu"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaidžāņu"
+
+msgid "バシュキール語"
+msgstr "Baškīru"
+
+msgid "ベラルーシ語"
+msgstr "Baltkrievu"
+
+msgid "ベンガル語"
+msgstr "Bengāļu"
 
 msgid "ブルガリア語"
 msgstr "Bulgāru valoda"
 
+msgid "ボスニア語"
+msgstr "Bosniešu valoda"
+
+msgid "カタロニア語"
+msgstr "Kataloniski"
+
 msgid "チェコ語"
 msgstr "Čehu"
+
+msgid "ウェールズ語"
+msgstr "Velsiešu valoda"
 
 msgid "デンマーク語"
 msgstr "Dāņu valoda"
@@ -1011,11 +1041,20 @@ msgstr "Britu angļu valoda"
 msgid "アメリカ英語"
 msgstr "Amerikāņu angļu valoda"
 
+msgid "エスペラント語"
+msgstr "Esperanto"
+
 msgid "スペイン語"
 msgstr "Spāņu valoda"
 
 msgid "エストニア語"
 msgstr "Igauņu valoda"
+
+msgid "バスク語"
+msgstr "Basku valoda"
+
+msgid "ペルシャ語"
+msgstr "Persiešu valodā"
 
 msgid "フィンランド語"
 msgstr "Somu valoda"
@@ -1023,11 +1062,44 @@ msgstr "Somu valoda"
 msgid "フランス語"
 msgstr "Franču valoda"
 
+msgid "アイルランド語"
+msgstr "Īru valoda"
+
+msgid "ガリシア語"
+msgstr "Galisiešu valoda"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gudžarati"
+
+msgid "ハウサ語"
+msgstr "Hausu"
+
+msgid "ヘブライ語"
+msgstr "Ebreju valodā"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Horvātu valodā."
+
+msgid "ハイチ・クレオール語"
+msgstr "Haiti kreolu valoda"
+
 msgid "ハンガリー語"
 msgstr "Ungāru"
 
 msgid "インドネシア語"
 msgstr "Indonēziešu valoda"
+
+msgid "イボ語"
+msgstr "Wartburg valoda"
+
+msgid "アイスランド語"
+msgstr "Islandiešu valoda"
 
 msgid "イタリア語"
 msgstr "Itāļu valoda"
@@ -1035,8 +1107,29 @@ msgstr "Itāļu valoda"
 msgid "日本語"
 msgstr "Japāņu valoda"
 
+msgid "ジャワ語"
+msgstr "Javiešu valoda"
+
+msgid "カザフ語"
+msgstr "Kazahu"
+
 msgid "朝鮮語"
 msgstr "Korejiešu valoda"
+
+msgid "クルド語"
+msgstr "Kurdu valoda"
+
+msgid "キルギス語"
+msgstr "Kirgīzu"
+
+msgid "ラテン語"
+msgstr "Latīņu"
+
+msgid "ルクセンブルク語"
+msgstr "Luksemburgiešu valoda"
+
+msgid "リンガラ語"
+msgstr "Lingala"
 
 msgid "リトアニア語"
 msgstr "Lietuviešu valoda"
@@ -1044,14 +1137,56 @@ msgstr "Lietuviešu valoda"
 msgid "ラトビア語"
 msgstr "Latviešu valoda"
 
+msgid "マダガスカル語"
+msgstr "Malagasī"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Maķedoniešu valoda"
+
+msgid "マラヤーラム語"
+msgstr "Malajāļu valoda"
+
+msgid "モンゴル語"
+msgstr "Mongoļu valoda"
+
+msgid "マラーティー語"
+msgstr "Marati"
+
+msgid "マレー語"
+msgstr "Malajiešu valoda"
+
+msgid "マルタ語"
+msgstr "Maltiešu valoda"
+
+msgid "ビルマ語"
+msgstr "Birmiešu valoda"
+
+msgid "ネパール語"
+msgstr "Nepāliešu"
+
 msgid "ノルウェー語"
 msgstr "Norvēģu valoda"
 
 msgid "オランダ語"
 msgstr "Holandiešu valoda"
 
+msgid "オック語"
+msgstr "Okcitāņu"
+
+msgid "オロモ語"
+msgstr "Oromo"
+
+msgid "パンジャーブ語"
+msgstr "Pendžabi"
+
 msgid "ポーランド語"
 msgstr "Poļu valoda"
+
+msgid "パシュトー語"
+msgstr "Puštu"
 
 msgid "ポルトガリア語"
 msgstr "Portugāļu valoda"
@@ -1062,11 +1197,17 @@ msgstr "Brazīlijas portugāļu valoda"
 msgid "ヨーロピアンポルトガル語"
 msgstr "Eiropas portugāļu valoda"
 
+msgid "ケチュア語"
+msgstr "Kečuā"
+
 msgid "ルーマニア語"
 msgstr "Rumāņu valoda"
 
 msgid "ロシア語"
 msgstr "Krievu valoda"
+
+msgid "サンスクリット語"
+msgstr "Sanskrits"
 
 msgid "スロバキア語"
 msgstr "Slovākijas"
@@ -1074,23 +1215,71 @@ msgstr "Slovākijas"
 msgid "スロベニア語"
 msgstr "Slovēņu valoda"
 
+msgid "セルビア語"
+msgstr "Serbu valoda"
+
+msgid "南セソト語"
+msgstr "Dienvidu sesoto"
+
+msgid "スンダ語"
+msgstr "Sundiešu valoda"
+
 msgid "スウェーデン語"
 msgstr "Zviedru valoda"
+
+msgid "スワヒリ語"
+msgstr "Svahili"
+
+msgid "タミル語"
+msgstr "Tamilu"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tadžiku"
+
+msgid "タイ語"
+msgstr "Taizemes"
+
+msgid "トルクメン語"
+msgstr "Turkmēņu"
+
+msgid "タガログ語"
+msgstr "Tagalo"
 
 msgid "トルコ語"
 msgstr "Turku valoda"
 
+msgid "タタール語"
+msgstr "Tatāru"
+
 msgid "ウクライナ語"
 msgstr "Ukraiņu"
 
-msgid "中国語"
-msgstr "Ķīniešu valoda"
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbeku"
+
+msgid "ベトナム語"
+msgstr "Vjetnamiešu"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jidiš"
 
 msgid "簡体中国語"
 msgstr "Vienkāršotā ķīniešu valoda"
 
 msgid "繁体中国語"
 msgstr "Tradicionālā ķīniešu valoda"
+
+msgid "ズールー語"
+msgstr "Zulu"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "Pašlaik izmantotā pārlūkprogramma ir vecāka versija, kas vairs netiek atbalstīta. Lai nodrošinātu drošāku un ērtāku pārlūkošanas vidi, lūdzu, atjauniniet to uz jaunāko pārlūkprogrammu."

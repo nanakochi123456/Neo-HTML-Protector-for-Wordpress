@@ -1,0 +1,424 @@
+設定	Aranjman
+IPログリーダー	Lektè Jounal IP
+IPアドレスログ	Jounal adrès IP
+全クリア	Konplete tout nivo yo
+IPログが全て削除されました	Tout jounal IP yo efase.
+ID	ID
+タイムスタンプ	Mak tan
+IPアドレス	Adrès IP
+ユーザーエージェント	Ajan itilizatè
+イベント	Evènman
+IPアドレスのデータはありません	Pa gen done pou adrès IP a.
+EU GDPR対応	Konfòmite ak GDPR Inyon Ewopeyèn nan
+無効	Envayid
+有効	Valab
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Si w ap itilize WordPress nan Inyon Ewopeyen an, oswa si sitwèb ou vize itilizatè nan Inyon Ewopeyen an, tanpri asire w ke sa a aktive.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Bouton 'Konfime' a ap chanje pou 'Akò' oswa 'Pa dakò', epi konpòtman an ap chanje yon ti kras.
+同意画面の色	Koulè ekran konsantman an
+自動	Otomatik
+ライトモード	Mòd klè
+ダークモード	Mòd Fènwa
+同意画面表示中の配色を設定します	Mete konbinezon koulè pou ekran konsantman an
+同意画面中のコンテンツのぼかし	Flou kontni sou ekran konsantman an
+同意画面表示中のコンテンツのぼかし具合を設定します	Ajiste nivo flou pou kontni ki parèt sou ekran konsantman an
+同意画面の透過	Transparans ekran konsantman an
+透過なし	Pa gen transparans
+同意画面の透過具合を設定します	Mete opasite ekran konsantman an
+お知らせの1行目	Premye liy anons la
+初回表示で必ず表示されるメッセージです	Mesaj sa a toujou parèt premye fwa paj la chaje.
+お知らせの2行目	Dezyèm liy avi a
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Mesaj sa a ap toujou parèt sou premye afichaj la sèlman lè GDPR Inyon Ewopeyen an an vigè.
+お知らせの3行目	Twazyèm liy avi a
+プライバシーポリシーのリンクの右側に表示されます	Li pral parèt sou bò dwat lyen Règleman sou Konfidansyalite a.
+非EU向け確認の文字列	Tèks konfimasyon pou peyi ki pa nan Inyon Ewopeyen an
+EU GDPR向け同意するの文字列	Tèks konsantman pou GDPR Inyon Ewopeyen an
+EU GDPR向け同意しないの文字列	Tèks pou 'Pa bay konsantman' anba GDPR Inyon Ewopeyen an
+プライバシーポリシーの文字列	Tèks politik konfidansyalite
+プライバシーポリシーのURLはこちらから設定して下さい	Tanpri mete URL pou politik konfidansyalite a isit la.
+プライバシーポリシーには以下の内容を追加して下さい	Tanpri ajoute sa ki annapre nan Règleman sou Konfidansyalite a.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Pou detekte aktivite fwod, idantifyan tankou adrès IP yo estoke nan cookies ak baz done. Done ki estoke yo efase selon diskresyon administratè a.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Pou asire imaj yo delivre kòrèkteman sèlman lè pwoteksyon imaj la aktive, nou estoke done haché ki gen adrès IP a ak non fichye imaj la nan baz done a pou jiska 60 minit.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Si w ap mete sou pye Kondisyon Itilizasyon, tanpri asire w ou mete yon lyen ki mennen nan yo nan Règleman sou Konfidansyalite w la.
+利用規約の文字列	Tèks Kondisyon Itilizasyon yo
+利用規約のページ	Paj Tèm ak Kondisyon
+ページ選択なし	Pa gen paj ki chwazi
+検索エンジン等のURL	URL pou motè rechèch, elatriye.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Etabli URL pou motè rechèch ak sit ki sanble ki redirije itilizatè yo lè yo pa bay konsantman.
+デバッグモード、コンソールの警告メッセージ	Mòd debogaj, mesaj avètisman sou konsòl la
+右クリックの警告メッセージ	Mesaj avètisman klike dwat
+印刷、PDF保存の警告メッセージ	Mesaj avètisman konsènan enprime ak anrejistre kòm PDF
+スクリーンショットの警告メッセージ	Mesaj avètisman nan kapti ekran an
+スクリーンショットの疑いの警告メッセージ	Mesaj avètisman konsènan foto ekran sispèk
+テキスト全選択時の警告メッセージ	Mesaj avètisman lè tout tèks la seleksyone
+ページ保存の警告メッセージ	Mesaj avètisman konsènan anrejistreman paj la
+コピー・カットした時に表示するメッセージ	Mesaj ki parèt lè w ap kopye oswa koupe
+HTMLソース表示時に表示するメッセージ	Mesaj pou afiche lè w ap gade kòd sous HTML la.
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Mesaj pou afiche anlè kòd sous la lè w ap obfuskate oswa pwoteje HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Mesaj pou afiche si jeton otantifikasyon yon sèl fwa a pa valab pandan pwoteksyon HTML la.
+CookieやJavascriptが有効でない場合に表示するメッセージ	Mesaj pou afiche si cookie oswa JavaScript dezaktive
+実際にはJavascriptが無効時のみ表示されます	An reyalite, sa a sèlman parèt lè JavaScript dezaktive.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Lè yon imaj pwoteje, li telechaje epi yon mesaj parèt sou imaj la
+HTML難読化 (圧縮)	Obfwasyon HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Sa a se konpresyon HTML estanda; genyen tou sit entènèt ki ka dechifre li.
+このオプションを有効にするとview-sourceのログが取得できます	Lè w aktive opsyon sa a, sa pèmèt ou rekipere jounal sous vizyalizasyon an.
+HTML保護	Pwoteksyon HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Li pwodui sèlman HTML ki pi minimòm lan—menm mwens pase lè w ap itilize konpresyon HTML—epi kontni ki nan etikèt BODY a pap parèt ditou.
+Firefoxに対しては無効です	Sa a pa aplike pou Firefox
+SEOに著しく影響があります	Sa gen yon enpak siyifikatif sou SEO.
+HTMLをJavaScriptで描画	Rendè HTML ak JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Pou kontoune Firefox, nou rande HTML la ak JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Pèmèt JavaScript rande ap ralanti anpil vitès chajman sit wèb la.
+画像の保護	Pwoteksyon imaj
+imgタグが呼び出されるごとに画像を保護	Pwoteje imaj la chak fwa yo rele etikèt img la.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Pwoteje tout imaj telechaje sou WordPress nan tout pwodiksyon HTML la.
+画像をダウンロードから保護します	Pwoteje imaj pou yo pa telechaje yo
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Lè done imaj yo pwoteje, nou prèske konplètman anpeche telechajman, nou bay URL inik pou yon sèl fwa, nou otantifye ak jeton ki estoke nan sesyon an, epi nou afiche imaj yo atravè PHP; sa a efektivman anpeche vòl imaj.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Lè done imaj yo pwoteje, kachaj pa mache, sa vle di sit la ap chaje pi dousman nan vizit ki vin apre yo, konsa li afekte SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Pwoteje done imaj yo ka ogmante chaj sou baz done a.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Si ou chwazi 'Pwoteje imaj chak fwa yo rele yon etikèt img', sistèm nan itilize add_filter pou aplike filtraj lè etikèt img la jenere; sepandan, sa ka pa mache kòrèkteman ak kèk tèm.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Si ou chwazi 'Pwoteje tout imaj telechaje sou WordPress nan tout pwodiksyon HTML la', plugin nan ap kaptire prèske tout operasyon WordPress epi trete chak etikèt img nan kontni an. Tanpri sonje ke sa ka pa fonksyone kòrèkteman ak kèk tèm.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Tanpri note ke imaj ki deziyen kòm imaj vedèt yo pral pataje kòm done OGP e yo pa ka pwoteje. Si ou absoliman bezwen pwoteje yo, tanpri chanje paramèt pou pwodiksyon etikèt HEAD nan paramèt avanse lè w ap aktive pwoteksyon HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Fonksyon kaptire ekran ki enkli kòm estanda nan sistèm operasyon an pa ka pwoteje
+画像URLの保護	Pwoteje URL imaj yo
+画像の保護と組み合わせて使用します、単体では意味がありません	Sa a dwe itilize ansanm ak pwoteksyon imaj; poukont li, li pa gen okenn itilite.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Kòm li chaje parese atravè JavaScript, sa afekte SEO.
+画像のウォーターマーク	Filigran imaj
+右下	Anba adwat
+ランダム位置	Pozisyon o aza
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Lè yo itilize ansanm ak pwoteksyon imaj, filigran dinamik yo endike klèman pwopriyetè dwa otè a pandan y ap bay moun k ap gade yo enpresyon ke y ap siveye, konsa yo sèvi kòm yon faktè dekourajan.
+JPG形式、PNG形式、WebP形式のみ対応します	Se sèlman fòma JPG, PNG ak WebP ki sipòte.
+有効にするとサーバーの負荷が高くなります	Lè w aktive sa a, sa ap ogmante chaj sou sèvè a.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Pwodui atizay ASCII apati kòd sous HTML pandan obfuskasyon ak pwoteksyon HTML
+表示なし	Pa gen afichaj
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Afiche atizay ASCII ki endike yon avètisman lè w ap gade kòd sous HTML la ak 'view-source'
+対象アクションを起こした時の表示デザイン	Afiche konsepsyon an lè aksyon sib la fèt.
+黄色の背景の黒文字のベーシックデザイン	Yon konsepsyon debaz ki gen tèks nwa sou yon fon jòn.
+黒色の背景の赤文字のホラー風デザイン	Yon konsepsyon stil laterè ki gen tèks wouj sou yon fon nwa.
+黒色の背景の赤文字の光る文字のデザイン	Yon konsepsyon ki gen tèks wouj ki klere sou yon fon nwa
+対象アクションを起こした時のBGM	Mizik an fon ki jwe lè aksyon sib la fèt
+サウンドなし	Pa gen son
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Batay & Viktwa - 1 minit 16.3 segonn - 630,056 bytes - 64 kbps - Lisans: CC 2.1 oswa pita
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Papa Kout - 3.8 segonn - 32,364 bytes - 64 kbps - Lisans: GPL 2.0 oswa pita
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 segonn - 195,578 bytes - 64 kbps - Lisans: GPL 2.0 oswa pita
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Vèsyon òdinatè, vèsyon gwo vitès – 1 minit 57.6 segonn – 724,457 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo an Si bèmòl mine, Op. 2 – Vèsyon jenere pa òdinatè, vèsyon rezime a gwo vitès – 1 minit 48.0 segonn – 665,369 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lis: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – vèsyon òdinatè, vèsyon kout a gwo vitès – 1 minit 51.6 segonn – 687,586 bytes – 48 kbps – Lisans: CC BY-ND 4.0 oswa pita
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 segonn – 183,926 bytes – 64 kbps – Lisans: Domèn piblik
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfè stil retro – 2.2 segonn – 10,536 bytes – 32 kbps – Lisans: Domèn piblik
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Entwodiksyon stil retro – 42.1 segonn – 179,138 bytes – 32 kbps – Lisans: Domèn piblik
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Avètisman pa ChatGPT - 3.8 segonn - 109,700 bytes - 256 kbps - Lisans: Domèn piblik
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Yon son ijans wo tankou yon alèt deteksyon malveyan – Pati 1 pa ChatGPT – 3.3 segonn – 102,850 bytes – 256 kbps – Lisans: Domèn piblik
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Yon son ijans wo tankou yon alèt deteksyon malveyan, Pati 2 pa ChatGPT - 3.3 segonn - 103,122 bytes - 256 kbps - Lisans: Domèn Piblik
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Son stil MRI pa ChatGPT – 1 minit 14.9 segonn – 3,340,392 bytes – 320 kbps – Lisans: Domèn Piblik
+警告表示中のBGMを選択します	Chwazi mizik fon an pou jwe pandan yon avètisman.
+びっくりするような雰囲気を作ります	Li kreye yon atmosfè siprizan.
+Firefoxでは音声ブロックされます	Odyo bloke nan Firefox.
+対象アクションを起こした時のビープ音	Yon bip lè aksyon espesifye a fèt
+有効 音量小さ目	Mete l, volim ba
+有効 音量大き目	Aktif, volim la wo
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Yon bip ap sonnen pou reponn tout evènman kle ak sourit pandan y ap afiche yon avètisman.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Sa kreye enpresyon ke aparèy la ap fonksyone san kontwòl pandan avètisman an ap parèt.
+対象アクションを起こした時のマウスカーソルの消去	Kache kousè sourit la lè yon aksyon espesifik fèt
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Kache koursè sourit la nan zòn navigatè a pandan y ap afiche yon avètisman.
+デバッグモード	Mòd debogaj
+妨害＋記録のみ	Entèferans + Rekò sèlman
+妨害＋記録＋表示＋リダイレクト	Entèferans + Anrejistreman + Afichaj + Redireksyon
+メニューからは操作できてしまいます	Ou ka toujou jwenn aksè a li atravè meni an.
+Firefoxにおけるデバッグモード	Mòd debogaj nan Firefox
+ブラウザーコンソール	Konsole navigatè
+事実上デバッグモードから操作できてしまいます	An reyalite, ou ka opere li nan mòd debogaj.
+HTMLソース表示	Gade sous HTML la
+view-source:から始まるURLを入力すれば操作できてしまいます	Ou ka fè operasyon an tou senpleman lè w antre yon URL ki kòmanse ak 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Ou ka pwoteje kontni ou lè w konbine sa a ak pwoteksyon HTML.
+印刷	Enprime
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Malgre li anpeche enprime, li ka pa fonksyone kòrèkteman nan kèk navigatè.
+スクリーンショット	Kaptire ekran
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Dapre sistèm operasyon an, navigatè a oswa metòd ki itilize a, li ka pa posib pou bloke sa a, oswa li ka pa detekte.
+ウインドウが背面に移動した時スクリーンショットの疑い	Sispèk kapti ekran lè fenèt la deplase nan background la
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Li reponn tou a fonksyon ki pa fè ekran
+2キー押下のスクリーンショットの疑い	Sispèk kapti ekran ki pran lè w peze de kle
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Metòd deteksyon pou atik ki mansyone pi wo a pa konplètman fyab; deteksyon an fèt kòm yon mezi prekosyon.
+スクリーンショットだけではなく、デバッグモード等も検出します	Li detekte pa sèlman kapti ekran, men tou mòd debogaj ak bagay konsa.
+ページ保存	Sove paj la
+右クリック	Klike dwat
+アドオンがインストールされていると操作できてしまいます	Si ekstansyon an enstale, w ap kapab itilize li.
+コピー・カット	Kopi epi koupe
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Dapre paramèt plugin sa a, ou ka raman rankontre evènman sa a.
+テキスト全選択	Chwazi tout tèks la
+テキスト選択	Chwazi tèks
+デバッガー起動ログ、デバッガー妨害	Jounal demaraj debogè, entèferans debogè
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Sa fè mòd debogaj la yon ti kras mwens fasil pou itilizatè a epi li anrejistre lefèt ke debogè a te lanse; sepandan, kèk navigatè ka bloke konpòtman sa a.
+リダイレクトするURL	Redireksyone URL
+利用規約などのページに転送すると良いでしょう	Li ta yon bon lide pou redirije itilizatè yo sou paj tankou Kondisyon Itilizasyon yo.
+空欄にすると元のURLにリダイレクトをします	Si li rete vid, li pral redirije sou URL orijinal la.
+リダイレクトまでの時間	Tan pou redireksyon
+リダイレクトなし	Pa gen redireksyon
+1秒	1 segonn
+2秒	2 segonn
+3秒	3 segonn
+4秒	4 segonn
+5秒	5 segonn
+6秒	6 segonn
+7秒	Sèt segonn
+8秒	8 segonn
+9秒	9 segonn
+10秒	10 segonn
+15秒	15 segonn
+20秒	20 segonn
+25秒	25 segonn
+30秒	30 segonn
+35秒	35 segonn
+40秒	40 segonn
+45秒	45 segonn
+50秒	50 segonn
+55秒	Senkant-senk segonn
+1分	1 minit
+1分10秒	1 minit 10 segonn
+1分20秒	1 minit 20 segonn
+1分30秒	1 minit 30 segonn
+1分40秒	1 minit 40 segonn
+1分50秒	1 minit 50 segonn
+2分	2 minit
+ソース表示を許可する権限	Pèmisyon pou wè kòd sous la
+ADMINログイン時のみ通常のソース出力	Sòti nòmal la sèlman lè w konekte kòm ADMIN.
+USERログインで通常のソース出力	Sòti nòmal sòs la lè w konekte kòm USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Chwazi si sòti HTML estanda a limite pou administratè sèlman oswa si li mande itilizatè a konekte.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Fòse telechajman yon imaj ak sa ki aktyèlman telechaje
+GIF形式で1×1ピクセルの透過画像	Yon imaj transparan 1×1 piksèl nan fòma GIF
+PNG形式で1×1ピクセルの透過画像	Yon imaj transparan 1×1 piksèl nan fòma PNG
+PNG形式で黄色い背景の警告画面	Yon ekran avètisman ak yon fon jòn nan fòma PNG
+意味のないHTMLドキュメント	Yon dokiman HTML san sans
+HTML保護時のHEADタグの出力	Sòti etikèt HEAD la lè HTML pwoteje
+出力しない	Pa enprime
+TITLEタグのみ	Etikèt TIT sèlman
+WordpressのHEADタグより取得	Rekipere nan etikèt HEAD WordPress la
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Pou paj pou itilizasyon korporativ ki rezève pou manm sèlman ak paj entèn yo, chwazi 'Pa afiche' oswa 'Etikèt TITLE sèlman' ta dwe sifi.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Sòf si ou rekipere enfòmasyon an nan baliz HEAD WordPress la, imaj OGP la pap parèt lè w pataje sou rezo sosyal yo.
+画像botをアクセス禁止にする	Bloke bot imaj la
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Lè w anpeche bot imaj jwenn aksè ak HTML, ou ka pwoteje kontni ki pa t ka pwoteje kont lyen dirèk atravè rechèch imaj; sepandan, sa pa bay yon solisyon konplè.
+AI学習用botをアクセス禁止にする	Bloke aksè a bòt fòmasyon AI a
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Lè nou evite itilize bot ki fèt pou fòmasyon AI sou HTML, nou asire ke AI pa itilize kontni an; sepandan, sa pa ka anpeche nèt.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Bloke aksè a achiv entènèt ak kaptire entènèt.
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Nou entèdi aksè a achiv entènèt ki ranmase otomatikman ak kapti ekran itilizatè a pran selon diskresyon li; sepandan, nou pa ka anpeche sa nèt.
+無効なUAをアクセス禁止にする	Bloke ajan itilizatè ki pa valab
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Anpeche aksè si chèn ajan itilizatè a gen karaktè ki pa valab.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Afiche yon avètisman lè w ap aksede Internet Explorer ak ansyen Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Anpeche aksè atravè Internet Explorer ak ansyen Microsoft Edge la.
+alertメッセージを表示する言語	Lang kote mesaj alèt yo parèt
+Wordpressの言語	Lang WordPress
+ブラウザの設定言語	Aranjman lang navigatè a
+メッセージをカスタム設定されている場合は言語を変更できません	Ou pa ka chanje lang lan si mesaj yo te pèsonalize.
+同意画面の言語	Lang ekran konsantman an
+view-sourceメッセージを表示する言語	Lang pou afiche mesaj 'view-source' la
+一時使用トークンの有効期限	Dat ekspirasyon jeton tanporè yo
+3分	3 minit
+4分	4 minit
+5分	5 minit
+6分	6 minit
+7分	Sèt minit
+8分	8 minit
+9分	9 minit
+10分	10 minit
+15分	15 minit
+20分	20 minit
+25分	25 minit
+30分	30 minit
+35分	35 minit
+40分	Katrevent minit
+45分	Karanndis minit
+50分	Senkant minit
+55分	Senkant-senk minit
+1時間	1 èdtan
+画像URL情報の有効期限を設定します	Mete dat ekspirasyon pou enfòmasyon URL imaj la.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Yon fwa chaje, URL imaj la ak jeton tanporè a ap vin envalid.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Imaj yo chaje sou demann, men y ap chaje otomatikman 30 segonn anvan lè ki espesifye a.
+一時使用トークンのビット数	Kantite bit nan yon jeton tanporè
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Yon jeton tanporè itilize kòm modpas pou kripte enfòmasyon URL imaj la; paramèt sa a presize fòs li.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Malgre opsyon ki parèt anba meni dewoulan an vin pi detaye, sa ka mete yon gwo chay sou sèvè a epi lakòz yon gwo volim done HTML transfere.
+ハッシュ化アルゴリズム	Algoritm hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Yon jeton tanporè itilize kòm modpas pou kripte enfòmasyon sou URL imaj la; sa mande pou fè hash, epi paramèt sa a detèmine fòs hash sa a.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Malgre entansite a ogmante pandan w ap desann nan opsyon ki parèt nan meni dewoulan an, sa mete yon pi gwo chaj sou sèvè a.
+基本設定	Ajustman debaz
+高度な設定	Ajusteman avanse
+初期設定に戻す	Ranvèse chanjman yo
+デザイン・音の設定	Aranjman ak paramèt son
+イベントの設定	Aranjman evènman
+初回訪問時のお知らせの設定	Konfigire notifikasyon pou premye vizit yo
+メッセージの設定	Aranjman mesaj
+右クリックやソースコード表示時に転送する URL を設定します	Mete URL pou louvri lè w klike adwat oswa lè w ap gade kòd sous la.
+警告メッセージにはHTMLは使用できません	HTML pa ka itilize nan mesaj avètisman.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Si ou konfigire sa sou ekran sa a, paramèt lang yo nan onglet Avanse a ap inyore.
+以下の文字列が使用できます	Swiv kòd sa yo ka itilize
+改行	Liy kase
+押下されたキー	Kle peze
+Neo HTML Protector 設定	Aranjman Neo HTML Protector
+お知らせ	Nòt
+メッセージ	Mesaj
+デザイン・音	Konsepsyon ak Son
+初期化	Inisyalizasyon
+このプラグインについて	Konsènan plugin sa a
+設定が初期化されました	Anviwònman yo retabli.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inisyalize plugin nan. Tanpri note ke done IP Log Reader yo pap efase nan etap sa a.
+Neo HTML Protectorについて	Apwopo Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin sa a fèt pou pwoteje HTML, imaj ak lòt kontni sit WordPress ou a jenere, epi pwoteje li kont itilizasyon san otorizasyon.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Li enposib pou pwoteje kontni an nèt. Sepandan, lè nou bay avètisman kèlkeswa kote sa posib epi fè preparasyon si nenpòt bagay ta rive, nou ta dwe kapab rezoud pwoblèm nan dapre pwosedi gouvènman an tabli.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Natirèlman, ou bezwen asire ke tèm itilizasyon ou ak politik sit ou yo konplè. Malgre plugin sa a pa yon zouti pou jenere tèm itilizasyon, li ka bay kèk konsèy.
+開発者: 夜桜　なの	Devlopè: Nano Yozakura
+バージョン	Vèsyon
+ビルド	Bati
+サポートページ	Paj sipò
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Pèfòme pa Madmwazèl Ura Manira
+支援のお願い	Yon demann pou sipò
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Mèsi paske w ap itilize Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Devlopman ak antretyen plugin sa a te mande anpil tan ak efò, e pou nou ka ranmase lajan pou kontinye amelyore ak mete l ajou, nou ta rekonesan si nenpòt moun ki kapab sipòte nou ta konsidere fè yon don.
+寄付について	Konsènan Don yo
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Don yo totalman volontè e yo pa obligatwa. Plugin nan disponib pou tout moun gratis. Sepandan, nou vrèman apresye sipò ou pou ede nou kontinye devlopman, e nou ta kontan anpil si ou ta kontribye kèlkeswa sa ou kapab.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ou ka fè yon don atravè lyen ki anba a. Si w baze nan Japon, ou ka fè yon don san okenn frè, epi ou ka tou fasilman fè yon don ak kat kado Amazon.
+寄付先	Òganizasyon charitab
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Avèk sipò ou, n ap fè tout sa n kapab pou n kontinye pote w bèl mizajou!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Nou rekonesan pou sipò ou e nou swete w kontinye sipòte nou nan lavni.
+ライセンス	Lisans
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin sa a devlope kòm yon lojisyèl sous louvri epi li gen lisans GPLv2.0 oswa yon vèsyon ki pi resan.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Kèk nan teknoloji ki enkli nan plugin sa a pwoteje pa patant.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Itilizasyon teknoloji patante a pèmèt sèlman andedan plugin sa a.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Pou nenpòt lòt itilizasyon, tanpri kontakte otè a pou jwenn yon lisans komèsyal.
+本プラグインには以下のライブラリを同梱しています	Plugin sa a gen ladan l bibliyotèk sa yo
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin sa a gen ladan l polis atizay ASCII yo ki te jenere anba a, ansanm ak fichye polis yo.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin sa a gen ladan mizik ki soti nan jwèt Super Famicom ki pa ofisyèl 'SM Trainer Hitomi 3', devlope pa EJ Co., Ltd. epi konpoze pa kreyatè plugin sa a, e li gen yon lisans ofisyèl.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin sa a gen ladan tras ki kreye ak 'Keppy's YAMAHA C7', devlope pa Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Mwen te itilize tou yon Raspberry Pi 5, ChatGPT ak DeepL nan devlopman plugin sa a.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Yo detekte yon plugin kach. Plugin sa a p ap fonksyone kòrèkteman si yon plugin kach aktive.
+無効なIPアドレス	Adrès IP pa valab
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Pou w itilize sitwèb sa a, ou dwe aktive cookies ak JavaScript.
+利用規約	Kondisyon Itilizasyon
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Pou anpeche itilizasyon san otorizasyon epi asire operasyon sekirize sèvis nou yo, sit entènèt sa a ka estoke enfòmasyon tankou adrès IP, istwa navigasyon ak jounal aktivite nan cookies ak baz done. Enfòmasyon sa yo itilize sèlman pou fonksyònman sit entènèt la ak pou rezon legal, epi yo pap divilge bay twazyèm pati.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Pou itilize sèvis sa a, ou dwe bay konsantman pou aktivite tretman sa yo.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Ou ka wè kontni Règleman sou Konfidansyalite a kèlkeswa si ou te bay konsantman ou oswa ou pa.
+同意する	Mwen dakò
+同意しない	Mwen pa dakò
+確認	Konfimasyon
+プライバシーポリシー	Règleman sou Konfidansyalite
+通常とは異なる方法でのアクセスや操作が検出されました	Yo detekte yon aksè oswa yon aktivite ki pa nòmal.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Gen sèten karakteristik ki limite pou rezon sekirite ak pwoteksyon kontni.
+デバッグモード、コンソールの起動は禁止されています	Mòd debogaj ak aksè nan konsòl la dezaktive
+以下の情報がサーバーに送信されました	Enfòmasyon sa a te voye bay sèvè a.
+あなたのIPアドレス	Adrès IP ou
+あなたの端末とブラウザ	Aparèy ou ak navigatè w
+あなたの押下したキー	Kle ou te peze a
+リダイレクトをします	W ap redirije
+コンテンツ保護のため一部の機能を制限しています	Sèten karakteristik yo te limite pou pwoteje kontni an.
+右クリックは禁止されています	Klike dwat pa pèmèt
+あなたが押下したキー	Kle ou te peze a
+印刷、PDFへの保存は禁止されています	Enprime ak anrejistre kòm PDF entèdi.
+スクリーンショットは禁止されています	Fè foto ekran entèdi.
+スクリーンショット、デバッグモード等の起動は禁止されています	Fè kapti ekran ak aktive mòd debogaj entèdi.
+ページの保存は禁止されています	Sove paj sa a entèdi
+コピー、カットは禁止されています	Kopi ak koupe entèdi.
+あなたが起こしたイベント	Evènman ou te òganize
+テキストの選択は禁止されています	Ou pa gen dwa seleksyone tèks la.
+HTMLソース表示は禁止されています	Li entèdi pou montre kòd sous HTML.
+不正アクセスは禁止されています	Aksè san otorizasyon entèdi
+アフリカーンス語	Afrikanse
+アラゴン語	Aranway
+アラビア語	Arawb
+アッサム語	Asamè
+アゼルバイジャン語	Azèbayidjan
+バシュキール語	Bashkir
+ベラルーシ語	Belarisi
+ベンガル語	Benгал
+ブルガリア語	Bulgaryen
+ボスニア語	Bòsnyen
+カタロニア語	Katalan
+チェコ語	Tchèk
+ウェールズ語	Wèlzè
+デンマーク語	Danwa
+ドイツ語	Alman
+現代ギリシア語	Gwèk modèn
+英語	Anglè
+イギリス英語	Britanik
+アメリカ英語	Anglè Ameriken
+エスペラント語	Espèrant
+スペイン語	Espanyòl
+エストニア語	Estonyen
+バスク語	Basque
+ペルシャ語	Pès
+フィンランド語	Fenlandè
+フランス語	Fransè
+アイルランド語	Ilandè
+ガリシア語	Galisyèn
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Ebre
+ヒンディ語	Endou
+クロアチア語	Kwoat
+ハイチ・クレオール語	Kreyòl Ayisyen
+ハンガリー語	Ongwa
+インドネシア語	Endonezyen
+イボ語	Lang Ibo
+アイスランド語	Islandè
+イタリア語	Italyen
+日本語	Japonè
+ジャワ語	Javanèz
+カザフ語	Kazakh
+朝鮮語	Korèyen
+クルド語	Kouèd
+キルギス語	Kyrgyz
+ラテン語	Laten
+ルクセンブルク語	Liksembourgè
+リンガラ語	Lang
+リトアニア語	Litwanyen
+ラトビア語	Latvyen
+マダガスカル語	Malagasy
+マオリ語	Mawori
+マケドニア語	Masedwan
+マラヤーラム語	Malayalam
+モンゴル語	Mongolyen
+マラーティー語	Marathi
+マレー語	Malay
+マルタ語	Malte
+ビルマ語	Birmàn
+ネパール語	Nepalè
+ノルウェー語	Nòvejyen
+オランダ語	Olandè
+オック語	Oksitan
+オロモ語	Oswaa
+パンジャーブ語	Panjabi
+ポーランド語	Polisaj
+パシュトー語	Pasyan
+ポルトガリア語	Pòtigè
+ブラジルポルトガル語	Pòtigè Brezilyen
+ヨーロピアンポルトガル語	Pòtigè Ewopeyen
+ケチュア語	Kechwa
+ルーマニア語	Romen
+ロシア語	Ris
+サンスクリット語	Lang Sanskrit
+スロバキア語	Slovak
+スロベニア語	Slovenyen
+セルビア語	Sèb
+南セソト語	Sesho Sid
+スンダ語	Sundanese
+スウェーデン語	Syedwa
+スワヒリ語	Swahili
+タミル語	Tamoul
+テルグ語	Telougou
+タジク語	Tajik
+タイ語	Tay
+トルクメン語	Tirkmen
+タガログ語	Tagalog
+トルコ語	Tiki
+タタール語	Tatar
+ウクライナ語	Ikrèn
+ウルドゥー語	Oudou
+ウズベク語	Ouzbek
+ベトナム語	Vyetnamyen
+コサ語	Kòs
+イディッシュ語	Yidi
+簡体中国語	Chinwa senplifye
+繁体中国語	Tradisyonèl Chinwa
+ズールー語	Zoulou
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Navigatè w ap itilize kounye a se yon vèsyon ki pi ansyen e ki pa sipòte ankò. Pou asire yon eksperyans navigasyon ki pi an sekirite ak pi konfòtab, tanpri mete ajou navigatè w la nan dènye vèsyon li.
+不正なリクエストです	Demann pa valab
+画像が見つかりません	Imaj pa jwenn

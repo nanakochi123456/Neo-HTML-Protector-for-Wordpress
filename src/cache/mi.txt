@@ -1,0 +1,424 @@
+設定	Tautuhinga
+IPログリーダー	Pānui Rēkōta IP
+IPアドレスログ	Rārangi wāhitau IP
+全クリア	Whakaoti i ngā taumata katoa
+IPログが全て削除されました	Kua mukua ngā rangitaki IP katoa
+ID	Tohu tuakiri
+タイムスタンプ	Tohu wā
+IPアドレス	Wāhitau IP
+ユーザーエージェント	Kaihoko kaiwhakamahi
+イベント	Hātepe
+IPアドレスのデータはありません	Kāore he raraunga mō tēnei wāhitau IP.
+EU GDPR対応	Te ū ki te GDPR o te Uniana o Europi
+無効	Hē
+有効	Pono
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Mēnā kei te whakamahi koe i te WordPress i roto i te EU, rānei mēnā e aro ana tō paetukutuku ki ngā kaiwhakamahi i roto i te EU, tēnā whakarite kia whakahohea tēnei.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Ka huri te pātene 'Whakapūmau' ki 'Whakaae' rānei 'Kāore e whakaae', ā, ka rerekē paku te whanonga.
+同意画面の色	Tae o te mata whakaaetanga
+自動	Aunoa
+ライトモード	Aratau māmā
+ダークモード	Aratau Pōuri
+同意画面表示中の配色を設定します	Whakaritea te hoahoa tae mō te mata whakaae
+同意画面中のコンテンツのぼかし	Te whakaparuparu o ngā ihirangi i runga i te mata whakaaetanga
+同意画面表示中のコンテンツのぼかし具合を設定します	Whakaritea te taumata o te whakamatapō mō ngā ihirangi e whakaatuhia ana i runga i te mata whakaaetanga
+同意画面の透過	Mārama o te mata whakaae
+透過なし	Kāore he mārama
+同意画面の透過具合を設定します	Whakaritea te mārama o te mata whakaaetanga
+お知らせの1行目	Raina tuatahi o te pānui
+初回表示で必ず表示されるメッセージです	Ka whakaatuhia tonu tēnei karere i te wā tuatahi ka utaina te whārangi.
+お知らせの2行目	Te rārangi tuarua o te pānui
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ka puta tonu tēnei karere i te whakaaturanga tuatahi anake ina whai mana te EU GDPR.
+お知らせの3行目	Ko te rārangi tuatoru o te pānui
+プライバシーポリシーのリンクの右側に表示されます	Ka puta ki te taha matau o te hono ki te Kaupapahere Tūmataiti.
+非EU向け確認の文字列	Tēnēhi whakapūmau mō ngā whenua kāore i roto i te EU
+EU GDPR向け同意するの文字列	Tēnehi whakaaetanga mō te EU GDPR
+EU GDPR向け同意しないの文字列	Tuhi mō te 'Kaua e whakaae' i raro i te EU GDPR
+プライバシーポリシーの文字列	Tēnehi mō te kaupapa here tūmataiti
+プライバシーポリシーのURLはこちらから設定して下さい	Tēnā, whakaritea te URL mō te kaupapa here tūmataiti ki konei.
+プライバシーポリシーには以下の内容を追加して下さい	Tēnā koa tāpiri i ngā mea e whai ake nei ki te Kaupapahere Tūmataiti.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Hei kite i ngā mahi tinihanga, ka penapenahia ngā tohu tuakiri pērā i ngā wāhitau IP ki ngā kuki me te pātengi raraunga. Ka mukua ngā raraunga kua penapenahia i runga i te whakaaro a te kaiwhakahaere.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Hei whakarite kia tukuna tika ngā whakaahua ina whakahohea te tiaki whakaahua, ka penapenahia e mātou ngā raraunga hash e kapi ana i te wāhitau IP me te ingoa kōnae whakaahua ki tō mātou pātengi raraunga mō te 60 meneti.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Mēnā kei te whakarite koe i ngā Tikanga Whakamahi, tēnā whakarite kia whakauru koe i tētahi hononga ki a rātou i roto i tō Kaupapahere Tūmataitinga.
+利用規約の文字列	Tuhi o ngā tikanga whakamahi
+利用規約のページ	Whārangi Ngā Tikanga me Ngā Here
+ページ選択なし	Kāore he whārangi kua tīpakohia
+検索エンジン等のURL	Ngā URL mō ngā miihini rapu, me ērā atu.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Whakaritea te URL mō ngā miihini rapu me ērā atu pae e whakahoki ana i ngā kaiwhakamahi ina kāore i whakaaetia.
+デバッグモード、コンソールの警告メッセージ	Aratau wetewete hapa, karere whakatūpato o te papamātiti
+右クリックの警告メッセージ	Panui whakatūpato pāwhiri-matau
+印刷、PDF保存の警告メッセージ	Panui whakatūpato mō te tā me te penapena hei PDF
+スクリーンショットの警告メッセージ	Karere whakatūpato i te whakaahua mata
+スクリーンショットの疑いの警告メッセージ	Panui whakatūpato mō ngā whakaahua mata e whakapaetia ana
+テキスト全選択時の警告メッセージ	Panui whakatūpato ina kua tohua katoa ngā kuputuhi
+ページ保存の警告メッセージ	Panui whakatūpato mō te penapena whārangi
+コピー・カットした時に表示するメッセージ	Te karere ka whakaatuhia ina tārua, ina tapahia rānei
+HTMLソース表示時に表示するメッセージ	Karere hei whakaatu i te wā e tiro ana i te puna HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Karere hei whakaatu i te tihi o te waehere puna ina whakawātea, ina tiaki rānei i te HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Karere hei whakaatu mēnā kāore te tohu whakamana kotahi-wa i whaimana i te wā e tiakina ana te HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Karere hei whakaatu mēnā kua whakawetohia ngā kuki, ngā JavaScript rānei
+実際にはJavascriptが無効時のみ表示されます	Inā hoki, ka whakaatuhia anake tēnei ina kua whakawetohia te JavaScript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Ka tiakina tētahi whakaahua, ka tikiake, ā, ka whakaatuhia he karere ki runga i taua whakaahua
+HTML難読化 (圧縮)	Whakamāhāhā HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	He pēhanga paerewa HTML tēnei; he paetukutuku anō hoki e taea ana te wetewete.
+このオプションを有効にするとview-sourceのログが取得できます	Mā te whakahohe i tēnei kōwhiringa ka taea e koe te tiki i ngā rangitaki tirohanga pūtake.
+HTML保護	Tiaki HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ka whakaputa ia i te HTML iti ake i te tautuhinga pēhanga HTML, arā, kāore rawa ngā ihirangi kei roto i te tapanga BODY e whakaputaina.
+Firefoxに対しては無効です	Ehara tēnei i te mea e pā ana ki a Firefox.
+SEOに著しく影響があります	He pānga nui tēnei ki te SEO.
+HTMLをJavaScriptで描画	Te whakaputa i te HTML mā te JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Hei karo i a Firefox, ka whakaputa mātou i te HTML mā te JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Mā te whakahohe i te whakaaturanga JavaScript ka tino whakaroa te tere utaina o te paetukutuku.
+画像の保護	Tiaki whakaahua
+imgタグが呼び出されるごとに画像を保護	Tiakina te whakaahua ia wā ka karangahia te tapanga img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Tiakina ngā whakaahua katoa kua tukuna ki WordPress i roto i te whakaputanga HTML katoa.
+画像をダウンロードから保護します	E tiaki ana i ngā whakaahua kia kore ai e taea te tikiake
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Ka tiakina ngā raraunga whakaahua, ka aukatia e mātou te nuinga o ngā tango, ka whakaputahia he URL motuhake mō te kotahi anake, ka whakamana mā ngā tohu kua penapenahia i roto i te wāhanga, ā, ka whakaatuhia ngā whakaahua mā PHP; nā konei ka aukatia te nuinga o ngā tahae whakaahua.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Ki te tiakina ngā raraunga whakaahua, kāore e mahi te penapena wā-poto, arā, ka utaina āta haere te paetukutuku i ngā haerenga whai ake, ā, ka pā tēnei ki te SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ka piki pea te kawenga ki runga i te pātengi raraunga mēnā ka tiakina ngā raraunga whakaahua.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Mēnā ka tīpako koe i te 'Tiaki whakaahua ia wā ka karangahia te tapanga img', ka whakamahi te pūnaha i te add_filter hei tāpiri tātari i te wā e waihangatia ana te tapanga img; heoi, kāore pea e mahi tika tēnei ki ētahi kaupapa āhua.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Mēnā ka tīpako koe i te 'Tiakina ngā whakaahua katoa kua tukuna ki WordPress i roto i te putanga HTML katoa', ka hopu te mono i te nuinga o ngā mahi a WordPress, ā, ka tukatuka ia i ia tapanga img i roto i te ihirangi. Tēnā kia mōhio, kāore pea e mahi tika tēnei me ētahi kaupapa āhua.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Tēnā koa mōhio, ka tohaina ngā whakaahua kua tohua hei whakaahua ārahi hei raraunga OGP, ā, kāore e taea te tiaki. Mēnā me tino tiaki koe i ēnei, tēnā huri i te tautuhinga mō te whakaputanga o te tapanga HEAD i ngā tautuhinga matatau ina whakahohe koe i te tiaki HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Kāore e taea te tiaki i te āheinga hopu mata kua whakaurua hei paerewa i te pūnaha whakahaere.
+画像URLの保護	Te tiaki i ngā URL whakaahua
+画像の保護と組み合わせて使用します、単体では意味がありません	Me whakamahi tēnei i te taha o te tiaki whakaahua; ki tōna anake, kāore he take.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Nā te mea ka utaina mā JavaScript i runga i te māngere, ka pā tēnei ki te SEO.
+画像のウォーターマーク	Tohu wai tohu whakaahua
+右下	Wāhi raro matau
+ランダム位置	Tūranga tūpono
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Ka whakamahia ngātahi me te tiaki whakaahua, ka tohu mārama ngā tohu wai huringa i te rangatiratanga mana kaituhi, ā, ka waiho he whakaaro ki ngā kaitirotiro kei te aroturuki rātou, nā reira ka mahi hei aukati.
+JPG形式、PNG形式、WebP形式のみ対応します	Ka tautokohia anake ngā hōputu JPG, PNG me WebP.
+有効にするとサーバーの負荷が高くなります	Mā te whakahohe i tēnei ka piki ake te kawenga o te tūmau.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Te whakaputa i te toi ASCII mai i te waehere puna HTML i te wā e whakawātea ana, e tiakina ana
+表示なし	Kāore he whakaaturanga
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	E whakaatu ana i ngā toi ASCII e tohu ana i tētahi whakatūpato ina tirotiro ana i te puna HTML mā te 'view-source'
+対象アクションを起こした時の表示デザイン	Whakaatu i te hoahoa ina oti te mahi whāinga
+黄色の背景の黒文字のベーシックデザイン	He hoahoa taketake e whakaatu ana i ngā kupu pango i runga i te papamuri kōwhai
+黒色の背景の赤文字のホラー風デザイン	He hoahoa āhua mataku me te tuhinga whero i runga i te papamuri pango
+黒色の背景の赤文字の光る文字のデザイン	He hoahoa e whakaatu ana i ngā kupu whero kanapa i runga i te papamuri pango
+対象アクションを起こした時のBGM	Puoro papamuri e rere ana ina mahia te mahi whāinga
+サウンドなし	Kāore he oro
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Pakanga me te Toa - 1 meneti 16.3 hēkona - 630,056 baiti - 64 kbps - Raihana: CC 2.1, 2.2 rānei, 3.0 rānei
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Pōtaka a Pāpā - 3.8 hēkona - 32,364 baiti - 64 kbps - Raihana: GPL 2.0, 2.1 rānei, 3.0 rānei
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 hēkona - 195,578 baiti - 64 kbps - Raihana: GPL 2.0, 2.1 rānei, 3.0 rānei
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – putanga hangaia e te rorohiko, putanga tere-nui – 1 meneti 57.6 hēkona – 724,457 baiti – 48 kbps – Raihana: CC BY-ND 4.0, 4.0 rānei i muri mai
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo i roto i te B-pōhatu iti, Op. 2 – Putanga i hangaia e te rorohiko, putanga whakakōpaki tere-nui – 1 meneti 48.0 hēkona – 665,369 baiti – 48 kbps – Raihana: CC BY-ND 4.0, 5.0 rānei
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Rārangi: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Whakanui – 22.3 hēkona – 183,926 baiti – 64 kbps – Raihana: Rawa tūmatanui
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Harikoa āhua retro – 2.2 hēkona – 10,536 baiti – 32 kbps – Raihana: Rawa tūmatanui
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Whakataki āhua retro – 42.1 hēkona – 179,138 baiti – 32 kbps – Raihana: Rawa tūmatanui
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Whakatūpato nā ChatGPT - 3.8 hēkona - 109,700 baiti - 256 kbps - Raihana: Rawa tūmatanui
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	He oro tino ohorere, pērā i te whakatūpato mō te kitenga raupaparorohiko kino – Wāhanga 1 nā ChatGPT – 3.3 hēkona – 102,850 baiti – 256 kbps – Raihana: Rawa tūmatanui
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	He oro tino ohorere, pērā i te whakatūpato mō te kitenga raupatu rorohiko, Wāhanga 2 nā ChatGPT - 3.3 hēkona - 103,122 baiti - 256 kbps - Raihana: Rawa tūmatanui
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Oro āhua MRI nā ChatGPT – 1 meneti 14.9 hēkona – 3,340,392 baiti – 320 kbps – Raihana: Rawa tūmatanui
+警告表示中のBGMを選択します	Tīpakohia te puoro papamuri hei purei i te wā o te whakatūpato.
+びっくりするような雰囲気を作ります	Ka waihanga i tētahi āhuatanga ohorere
+Firefoxでは音声ブロックされます	Kua aukatia te oro i Firefox
+対象アクションを起こした時のビープ音	He bipa ka mahia te mahi kua tautuhia
+有効 音量小さ目	Kei runga, he iti te rōrahi
+有効 音量大き目	Kei te mahi, kua whakaritea te rōrahi ki te teitei
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Ka tangi tētahi bip mō ngā mahi katoa o te matua me te kiore, i te wā e whakaatuhia ana he whakatūpato.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Ka waihanga i te āhua kua hē te pūrere i te wā e whakaatuhia ana te whakatūpato.
+対象アクションを起こした時のマウスカーソルの消去	Huna i te tohu kiore i te wā ka mahia tētahi mahi motuhake
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Ka huna te tohu kiore i te wāhi tirotiro i te wā e whakaatuhia ana tētahi whakatūpato.
+デバッグモード	Aratau whakatika hapa
+妨害＋記録のみ	Whakararu + Rēkōrda anake
+妨害＋記録＋表示＋リダイレクト	Whakararuraru + Rēhita + Whakaatu + Arataki anō
+メニューからは操作できてしまいます	Ka taea tonu e koe te uru mā te tahua.
+Firefoxにおけるデバッグモード	Aratau wetewete hapa i Firefox
+ブラウザーコンソール	Kōnae pūrongo pūtirotiro
+事実上デバッグモードから操作できてしまいます	I te tūturu, ka taea e koe te whakahaere i a ia mai i te aratau wetewete hapa.
+HTMLソース表示	Tirohia te puna HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Ka taea e koe te whakahaere i te mahi mā te whakauru noa i tētahi URL e tīmata ana ki te 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Ka taea e koe te tiaki i tō ihirangi mā te whakakotahi i tēnei ki te tiaki HTML.
+印刷	Tā
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ahakoa e aukati ana i te tā, tērā pea kāore e mahi tika i ētahi pūtirotiro.
+スクリーンショット	Whakaahua mata
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	I runga i te pūnaha whakahaere, te kaitirotiro paetukutuku, te tikanga rānei e whakamahia ana, tērā pea kāore e taea te aukati i tēnei, tērā pea kāore rānei e kitea.
+ウインドウが背面に移動した時スクリーンショットの疑い	Whakaahua mata e whakapaetia ana i te wā ka neke te matapihi ki muri
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ka whakautu hoki ki ētahi atu mahi, ehara i te hopu mata anake
+2キー押下のスクリーンショットの疑い	E whakapaetia ana he whakaahuamata i tangohia mā te pēhi i ngā kī e rua.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Ehara i te mea ka tino pūmau ngā tikanga rapu mō ngā mea kua whakahuatia ake nei; ka mahia te rapu hei tikanga āta tiaki.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ka kitea e ia ehara i ngā whakaahua mata anake, engari anō hoki ngā aratau wetewete hapa me ērā atu.
+ページ保存	Tārewa i te whārangi
+右クリック	Pāwhiri-matau
+アドオンがインストールされていると操作できてしまいます	Mēnā kua tāuta te mono tāpiri, ka taea e koe te whakamahi.
+コピー・カット	Kape me te tapahi
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	I runga i ngā tautuhinga o tēnei mono tāpiri, tērā pea kāore koe e tino kite i tēnei kaupapa.
+テキスト全選択	Tīpakohia ngā kupu katoa
+テキスト選択	Tīpako kuputuhi
+デバッガー起動ログ、デバッガー妨害	Rēhita tīmatanga o te kaitātari hapa, whakararu a te kaitātari hapa
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Nā tēnei ka iti ake te māmā o te aratau wetewete hapa, ā, ka tuhi i te kōrero kua whakarewahia te kaitātari hapa; heoi, tērā pea ka aukatia tēnei whanonga e ētahi pūtirotiro.
+リダイレクトするURL	Whakawhiti URL
+利用規約などのページに転送すると良いでしょう	He whakaaro pai kia whakawhiti i ngā kaiwhakamahi ki ngā whārangi pērā i ngā Tikanga Whakamahi.
+空欄にすると元のURLにリダイレクトをします	Mēnā ka waiho he wāhi wātea, ka whakawhiti ki te URL taketake.
+リダイレクトまでの時間	Te wā kia whakahōputu
+リダイレクトなし	Kāore he whakawhiti
+1秒	Tētahi hēkona
+2秒	Rua hēkona
+3秒	3 hēkona
+4秒	Whā hēkona
+5秒	Rima hēkona
+6秒	E ono hēkona
+7秒	Whitu hēkona
+8秒	Waru hēkona
+9秒	Iwa hēkona
+10秒	Tekau hēkona
+15秒	Tekau mā rima hēkona
+20秒	Rua tekau hēkona
+25秒	25 hēkona
+30秒	30 hēkona
+35秒	35 hēkona
+40秒	40 hēkona
+45秒	45 hēkona
+50秒	Rima tekau hēkona
+55秒	Rima tekau mā rima hēkona
+1分	Tētahi meneti
+1分10秒	Tētahi meneti tekau hēkona
+1分20秒	Tau kotahi meneti, hēkona rua tekau
+1分30秒	Tau meneti kotahi me ngā hēkona toru tekau
+1分40秒	Tētahi meneti whā tekau hēkona
+1分50秒	Tētahi meneti me te rima tekau hēkona
+2分	Meneti e rua
+ソース表示を許可する権限	Te whakaaetanga ki te tiro i te waehere puna
+ADMINログイン時のみ通常のソース出力	Me puta noa te putanga pūtake i te wā e takiuru ana hei ADMIN.
+USERログインで通常のソース出力	Putanga noa mai i te puna ina takiuru ana hei USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Tīpakohia mēnā ka herea te whakaputanga HTML paerewa ki ngā kaiwhakahaere anake, ki te hiahia rānei kia takiuru te kaiwhakamahi.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Te whakahau kia tikiake he whakaahua, me te mea ka tikiake tūturu
+GIF形式で1×1ピクセルの透過画像	He whakaahua mārama kotahi-pikise, kotahi-pikise i roto i te hōputu GIF
+PNG形式で1×1ピクセルの透過画像	He whakaahua 1×1 pika mārama i roto i te hōputu PNG
+PNG形式で黄色い背景の警告画面	He mata whakatūpato me te papamuri kōwhai i roto i te hōputu PNG
+意味のないHTMLドキュメント	He tuhinga HTML kāore he tikanga
+HTML保護時のHEADタグの出力	Putanga o te tapanga HEAD i te wā e tiakina ana te HTML
+出力しない	Kaua e tā
+TITLEタグのみ	Tāpiri anake te tapanga Taitara
+WordpressのHEADタグより取得	I tangohia mai i te tapanga HEAD o WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Mō ngā whārangi mō ngā mema anake hei whakamahinga ā-pakihi me ngā whārangi ā-roto, ka tau te kōwhiri i te 'Kaua e whakaputa' rānei i te 'Tohu Taitara anake'.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Ki te kore koe e tiki i ngā pārongo mai i te tapanga HEAD o WordPress, kāore te whakaahua OGP e whakaatuhia ina tohatoha ana ki ngā pāpāho pāpori.
+画像botをアクセス禁止にする	Aukati i te pūmanawa whakaahua
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Mā te aukati i ngā pōtī whakaahua kia kore e uru ki te HTML, ka taea e koe te tiaki i ngā ihirangi kāore i taea te tiaki i ngā hononga tūturu mā te rapu whakaahua; heoi, ehara tēnei i te rongoā katoa.
+AI学習用botをアクセス禁止にする	Aukati i te uru ki te bot whakangungu AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Mā te karo i te whakamahi i ngā pōtī i hangaia hei whakangungu mā te AI i runga i te HTML, ka whakarite mātou kia kore ai e whakamahia te ihirangi e te AI; heoi, kāore e taea te aukati katoa.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Aukati i te uru ki ngā pātaka paetukutuku me ngā whakaahua paetukutuku
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Ka aukatia e mātou te uru ki ngā pātaka paetukutuku kua kohia aunoa me ngā whakaahua mata i tangohia e te kaiwhakamahi i runga i tōna ake whakaaro; heoi, kāore e taea e mātou te aukati katoa i tēnei.
+無効なUAをアクセス禁止にする	Aukati i ngā kaiwhakamahi pūtirotiro kua whakakorehia
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Ka aukati i te uru mēnā kei roto i te aho ingoa kaiwhakamahi-ā-pūtirotiro he pūāhua hē.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Whakaatuhia he whakatūpato ina uru ana ki Internet Explorer me te Microsoft Edge tawhito
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Ka aukati i te uru mā Internet Explorer me te Microsoft Edge tawhito
+alertメッセージを表示する言語	Te reo e whakaatuhia ai ngā karere whakatūpato
+Wordpressの言語	Ngā reo o WordPress
+ブラウザの設定言語	Ngā tautuhinga reo o te pūtirotiro
+メッセージをカスタム設定されている場合は言語を変更できません	Kāore e taea e koe te huri i te reo mēnā kua whakaritea ngā karere.
+同意画面の言語	Te reo o te mata whakaaetanga
+view-sourceメッセージを表示する言語	Te reo hei whakaatu i te karere 'view-source'
+一時使用トークンの有効期限	Rā paunga o ngā tohu wā poto
+3分	Toru meneti
+4分	Whā meneti
+5分	Rima meneti
+6分	6 meneti
+7分	Whitu meneti
+8分	Waru meneti
+9分	Iwa meneti
+10分	Tekau meneti
+15分	Tekau mā rima meneti
+20分	 rua tekau meneti
+25分	 rua tekau mā rima meneti
+30分	30 meneti
+35分	35 meneti
+40分	Whā tekau meneti
+45分	Whā tekau mā rima meneti
+50分	Rima tekau meneti
+55分	Rima tekau mā rima meneti
+1時間	Hora kotahi
+画像URL情報の有効期限を設定します	Whakaritea te rā paunga mō ngā pārongo URL whakaahua
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Kia oti te uta, ka whakakorehia te URL o te whakaahua me te tohu wā poto.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Ka utaina ngā whakaahua i te wā e tonoa ana, engari ka utaina aunoa i te 30 hēkona i mua i te wā kua tautuhia.
+一時使用トークンのビット数	Te maha o ngā pītiti i roto i tētahi tohu wā poto
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	He tohu wā poto e whakamahia ana hei kupuhipa ki te whakamuna i ngā pārongo URL o ngā whakaahua; ko tēnei tautuhinga e tautuhi ana i tōna kaha.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ahakoa ka whānui ake ngā kōwhiringa e whakaatuhia ana i raro i te tahua taka-iho i a koe e panuku iho ana, ka piki ake te kawenga ki runga i te tūmau, ā, ka nui ake te rahinga o ngā raraunga HTML e whakawhitia ana.
+ハッシュ化アルゴリズム	Tātai whakakōpeketanga
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	He tohu wā poto e whakamahia ana hei kupuhipa ki te whakamuna i ngā pārongo URL o ngā whakaahua; me mahi hash tēnei, ā, mā tēnei tautuhinga e whakatau ai te kaha o taua hash.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Ahakoa ka piki te kaha i a koe e heke iho ana i te rārangi kōwhiringa e whakaatuhia ana i te tahua taka-iho, ka nui ake te kawenga ki runga i te tūmau.
+基本設定	Ngā tautuhinga taketake
+高度な設定	Ngā tautuhinga matatau
+初期設定に戻す	Whakahokia ngā tautuhinga taunoa
+デザイン・音の設定	Hoahoa me ngā tautuhinga oro
+イベントの設定	Ngā tautuhinga o te hui
+初回訪問時のお知らせの設定	Te whakarite pānui mō ngā toro tuatahi
+メッセージの設定	Tautuhinga karere
+右クリックやソースコード表示時に転送する URL を設定します	Whakaritea te URL kia whakatuwherahia ina pāwhiri-matau, ina tirotiro rānei i te waehere pūtake.
+警告メッセージにはHTMLは使用できません	Kāore e taea te whakamahi i te HTML i roto i ngā karere whakatūpato.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Mēnā ka whakaritea e koe tēnei i runga i tēnei mata, ka whakakorehia ngā tautuhinga reo i te ripa Matatau.
+以下の文字列が使用できます	Ka taea te whakamahi i ngā aho e whai ake nei
+改行	Tāwāhi rārangi
+押下されたキー	Kua pēhia te kī
+Neo HTML Protector 設定	Tautuhinga Kaiwhakamaru HTML Hou
+お知らせ	Pānui
+メッセージ	Karere
+デザイン・音	Hoahoa me te Oro
+初期化	Whakatū
+このプラグインについて	Mō tēnei mono tāpiri
+設定が初期化されました	Kua tautuhia anō ngā tautuhinga
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Whakahohe i te mono. Tēnā koa mōhio, kāore ngā raraunga o te Kaiwhakawhiti Rēhita IP e mukua i tēnei wā.
+Neo HTML Protectorについて	Mō Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Kua hoahoatia tēnei mono tāpiri hei tiaki i te HTML, ngā whakaahua me ētahi atu ihirangi i whakaputaina e tō paetukutuku WordPress, kia kore ai e whakamahia me te kore whakaaetanga.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	E kore e taea te tiaki katoa i te ihirangi. Heoi, mā te tuku whakatūpato i ngā wā katoa e taea ana, me te whakarite i ngā whakarite mō te wā ka puta he raru, ka taea e tātou te whakatau i te take i runga i ngā tikanga i whakaritea e te kāwanatanga.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Āe mārika, me whakarite kia whānui ngā tikanga me ngā here me te kaupapa here o tō pae tukutuku. Ahakoa ehara tēnei mono tāpiri i te taputapu hei waihanga i ngā tikanga me ngā here, ka taea e ia te tuku aratohu.
+開発者: 夜桜　なの	Kaiwhakawhanake: Nano Yozakura
+バージョン	Putanga
+ビルド	Tūhanga
+サポートページ	Whārangi tautoko
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Nā Miss Ura Manira i whakatangi
+支援のお願い	He tono tautoko
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Ngā mihi mō tō whakamahi i te Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Kua roa te whakawhanake me te tiaki i tēnei mono tāpiri, ā, kia taea ai te kohi pūtea hei whakapai ake, hei whakahou hoki, ka nui tō mātou whakawhetai mēnā ka whakaaro ngā tāngata e āhei ana ki te tautoko ki te tuku koha.
+寄付について	Mō ngā Koha
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	He tino āwhina ngā koha, ehara i te mea here. He wātea kore utu te mono tāpiri ki te katoa. Heoi, e tino whakawhetai ana mātou ki tō tautoko kia taea ai e mātou te haere tonu ki te whakawhanake, ā, ka tino koa mātou mēnā ka taea e koe te tuku āwhina ahakoa he aha.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Ka taea e koe te tuku koha mā te hono kei raro nei. Mēnā kei Hapani koe, ka taea e koe te tuku koha kore utu, ā, ka taea hoki e koe te tuku koha māmā mā ngā tiwhikete koha a Amazon.
+寄付先	Ngā whakahaere aroha
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Mā tō tautoko, ka whakapau kaha mātou ki te haere tonu ki te kawe mai i ngā whakahōu whakamīharo ki a koe!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Kei te mihi mātou mō tō tautoko, ā, e tūmanako ana mātou kia haere tonu tō tautoko ā muri ake nei.
+ライセンス	Rāhina
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Kua whakawhanakehia tēnei mono-taapiri hei pūmanawa puna tuwhera, ā, kua raihanatia i raro i te GPLv2.0, i ngā putanga o muri ake rānei.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ko ētahi o ngā hangarau kei roto i tēnei mono ārai ture kei runga i a rātou.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ka whakaaetia te whakamahi i te hangarau kua raihanatia anake i roto i tēnei mono tāpiri.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Mō ētahi atu whakamahinga, tēnā whakapā atu ki te kaituhi kia whiwhi raihana hokohoko.
+本プラグインには以下のライブラリを同梱しています	Kei roto i tēnei mono ngā whare pukapuka e whai ake nei
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Kei roto i tēnei mono ngā momotuhi toi ASCII i hangaia i raro nei, me ngā kōnae momotuhi.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Kei roto i tēnei mono ngā puoro nō te kēmu Super Famicom kāore i te mana, 'SM Trainer Hitomi 3', i whakawhanakehia e EJ Co., Ltd., i hangaia e te kaihanga o tēnei mono, ā, kua whiwhi raihana ā-ture.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Kei roto i tēnei mono ngā ara oro i hangaia mā te whakamahi i te 'Keppy's YAMAHA C7', i whakawhanakehia e Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Kua whakamahia hoki e au te Raspberry Pi 5, a ChatGPT me DeepL i te whakawhanaketanga o tēnei mono tāpiri.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Kua kitea he mono penapena. Kāore e mahi tika tēnei mono mēnā kua whakahohea he mono penapena.
+無効なIPアドレス	He wāhitau IP hē
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Hei whakamahi i tēnei paetukutuku, me whakahohe koe i ngā kuki me te JavaScript.
+利用規約	Ngā tikanga whakamahi
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Hei aukati i te whakamahinga kāore i whakaaetia, me te whakarite kia haumaru te whakahaere o ā mātou ratonga, tērā pea ka penapenahia e tēnei paetukutuku ngā pārongo pērā i ngā wāhitau IP, te hītori tirotiro, me ngā rangitaki mahi ki roto i ngā kuki me ngā pātengi raraunga. Ka whakamahia ēnei pārongo mō te whakahaere anake o te paetukutuku me ngā take ture, ā, kāore e tukuna ki ētahi atu rōpū tuatoru.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Hei whakamahi i tēnei ratonga, me whakaae koe ki ēnei mahi tukatuka.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Ka taea e koe te tiro ki ngā ihirangi o te Kaupapahere Tūmataitinga ahakoa mēnā kua whakaae koe, kāore rānei.
+同意する	E whakaae ana au
+同意しない	Kāore au e whakaae
+確認	Whakapūmau
+プライバシーポリシー	Kaupapahere Tūmataiti
+通常とは異なる方法でのアクセスや操作が検出されました	Kua kitea he uru, he mahi rānei kāore i te noa.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Kua herea ētahi āhuatanga mō ngā take haumaru me te tiaki ihirangi.
+デバッグモード、コンソールの起動は禁止されています	Kua whakaweto te aratau wetewete hapa me te uru ki te papapātuhi.
+以下の情報がサーバーに送信されました	Kua tukuna ngā pārongo e whai ake nei ki te tūmau.
+あなたのIPアドレス	Tō wāhitau IP
+あなたの端末とブラウザ	Tō pūrere me tō kaitirotiro
+あなたの押下したキー	Te kī i pēhia e koe
+リダイレクトをします	Ka whakawhiti koe
+コンテンツ保護のため一部の機能を制限しています	Kua herea ētahi āhuatanga kia tiakina te ihirangi
+右クリックは禁止されています	Kāore e whakaaetia te pāwhiri-matau
+あなたが押下したキー	Te kī i pēhia e koe
+印刷、PDFへの保存は禁止されています	Kua aukatia te tā me te penapena hei PDF.
+スクリーンショットは禁止されています	Kua aukatia ngā hopu mata.
+スクリーンショット、デバッグモード等の起動は禁止されています	Kua aukatia te tango whakaahua mata me te whakahohe i te aratau wetewete.
+ページの保存は禁止されています	Kua aukatia te penapena i tēnei whārangi
+コピー、カットは禁止されています	Kua aukatia te kape me te tapahi.
+あなたが起こしたイベント	Ngā kaupapa i whakaritea e koe
+テキストの選択は禁止されています	Kāore e whakaaetia te tīpako kuputuhi.
+HTMLソース表示は禁止されています	Kua aukatia te whakaatu i te waehere pūtake HTML.
+不正アクセスは禁止されています	Kua aukatia te uru kāore i whakaaetia
+アフリカーンス語	Āferikaans
+アラゴン語	Aranese
+アラビア語	Arapi
+アッサム語	Ahaia
+アゼルバイジャン語	Azerbaijaniana
+バシュキール語	Whakamautia
+ベラルーシ語	Pēhāre
+ベンガル語	Pēngara
+ブルガリア語	Pōhāre
+ボスニア語	Pōtiānia
+カタロニア語	Kātalana
+チェコ語	Tēke
+ウェールズ語	Wēra
+デンマーク語	Dāniana
+ドイツ語	Tiamana
+現代ギリシア語	Kariki hou
+英語	Pākehā
+イギリス英語	Pākehā
+アメリカ英語	Ingarihi Amerikana
+エスペラント語	Rēo Tūmanako
+スペイン語	Paniora
+エストニア語	Nō Estonia
+バスク語	Pākehā
+ペルシャ語	Pārihi
+フィンランド語	Pākehā
+フランス語	Wīwī
+アイルランド語	Airihi
+ガリシア語	Gālīkānia
+グァラニ語	Tāngata
+グジャラート語	Gujarati
+ハウサ語	Haousa
+ヘブライ語	Hēbera
+ヒンディ語	Hindī
+クロアチア語	Kōroatia
+ハイチ・クレオール語	Kareora Haitiana
+ハンガリー語	Hūngāri
+インドネシア語	Inonesia
+イボ語	Reo Ibo
+アイスランド語	Īkārāhitāne
+イタリア語	Itāriana
+日本語	Hapanihi
+ジャワ語	Wīwī
+カザフ語	Kazakh
+朝鮮語	Kōrea
+クルド語	Kōkurdi
+キルギス語	Kīrīgī
+ラテン語	Rāpana
+ルクセンブルク語	Wīwī o Luxembourg
+リンガラ語	Kōrero
+リトアニア語	Rētiānia
+ラトビア語	Rātiana
+マダガスカル語	Malagasy
+マオリ語	Māori
+マケドニア語	Mākedoniana
+マラヤーラム語	Malayalam
+モンゴル語	Mōngōlia
+マラーティー語	Māori
+マレー語	Malaya
+マルタ語	Mōtehi
+ビルマ語	Pākehā
+ネパール語	Nēpāri
+ノルウェー語	Nō Nōwēhi
+オランダ語	Hōlani
+オック語	Ōketaniana
+オロモ語	Rā
+パンジャーブ語	Pūnaha
+ポーランド語	Whakapaipai
+パシュトー語	Pāhoto
+ポルトガリア語	Pōtukara
+ブラジルポルトガル語	Te reo Pōtukara o Brazil
+ヨーロピアンポルトガル語	Pōtukara o Europi
+ケチュア語	Kētsua
+ルーマニア語	Rōmania
+ロシア語	Rūsiana
+サンスクリット語	Rāngai
+スロバキア語	Sōlōvākia
+スロベニア語	Sloveniana
+セルビア語	Serēnia
+南セソト語	Tonga Sesotho
+スンダ語	Haiti
+スウェーデン語	Huitene
+スワヒリ語	Swahili
+タミル語	Tāmī
+テルグ語	Tēligū
+タジク語	Taji
+タイ語	Tāihi
+トルクメン語	Tūki
+タガログ語	Reo Tagalog
+トルコ語	Tūki
+タタール語	Tatar
+ウクライナ語	Ukaraina
+ウルドゥー語	Urdu
+ウズベク語	Uzbeki
+ベトナム語	Wīwīnia
+コサ語	Kōsa
+イディッシュ語	Yidi
+簡体中国語	Haina Whakangāwari
+繁体中国語	Te reo Hainamana tuku iho
+ズールー語	Tūru
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Ko te pūtirotiro e whakamahia ana e koe ināianei he putanga tawhito kāore e tautokohia ana. Hei whakarite i tētahi wheako tirotiro haumaru ake, ā, kia pai ake hoki, tēnā whakahouhia tō pūtirotiro ki te putanga hou rawa atu.
+不正なリクエストです	Kore whaimana te tono
+画像が見つかりません	Kāore i kitea te whakaahua

@@ -1,0 +1,1292 @@
+# Maori translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 07:03+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Maori\n"
+"Language: mi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Tautuhinga"
+
+msgid "IPログリーダー"
+msgstr "Pānui Rēkōta IP"
+
+msgid "IPアドレスログ"
+msgstr "Rārangi wāhitau IP"
+
+msgid "全クリア"
+msgstr "Whakaoti i ngā taumata katoa"
+
+msgid "IPログが全て削除されました"
+msgstr "Kua mukua ngā rangitaki IP katoa"
+
+msgid "ID"
+msgstr "Tohu tuakiri"
+
+msgid "タイムスタンプ"
+msgstr "Tohu wā"
+
+msgid "IPアドレス"
+msgstr "Wāhitau IP"
+
+msgid "ユーザーエージェント"
+msgstr "Kaihoko kaiwhakamahi"
+
+msgid "イベント"
+msgstr "Hātepe"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Kāore he raraunga mō tēnei wāhitau IP."
+
+msgid "EU GDPR対応"
+msgstr "Te ū ki te GDPR o te Uniana o Europi"
+
+msgid "無効"
+msgstr "Hē"
+
+msgid "有効"
+msgstr "Pono"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Mēnā kei te whakamahi koe i te WordPress i roto i te EU, rānei mēnā e aro ana tō paetukutuku ki ngā kaiwhakamahi i roto i te EU, tēnā whakarite kia whakahohea tēnei."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Ka huri te pātene 'Whakapūmau' ki 'Whakaae' rānei 'Kāore e whakaae', ā, ka rerekē paku te whanonga."
+
+msgid "同意画面の色"
+msgstr "Tae o te mata whakaaetanga"
+
+msgid "自動"
+msgstr "Aunoa"
+
+msgid "ライトモード"
+msgstr "Aratau māmā"
+
+msgid "ダークモード"
+msgstr "Aratau Pōuri"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Whakaritea te hoahoa tae mō te mata whakaae"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Te whakaparuparu o ngā ihirangi i runga i te mata whakaaetanga"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Whakaritea te taumata o te whakamatapō mō ngā ihirangi e whakaatuhia ana i runga i te mata whakaaetanga"
+
+msgid "同意画面の透過"
+msgstr "Mārama o te mata whakaae"
+
+msgid "透過なし"
+msgstr "Kāore he mārama"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Whakaritea te mārama o te mata whakaaetanga"
+
+msgid "お知らせの1行目"
+msgstr "Raina tuatahi o te pānui"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ka whakaatuhia tonu tēnei karere i te wā tuatahi ka utaina te whārangi."
+
+msgid "お知らせの2行目"
+msgstr "Te rārangi tuarua o te pānui"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ka puta tonu tēnei karere i te whakaaturanga tuatahi anake ina whai mana te EU GDPR."
+
+msgid "お知らせの3行目"
+msgstr "Ko te rārangi tuatoru o te pānui"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ka puta ki te taha matau o te hono ki te Kaupapahere Tūmataiti."
+
+msgid "非EU向け確認の文字列"
+msgstr "Tēnēhi whakapūmau mō ngā whenua kāore i roto i te EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Tēnehi whakaaetanga mō te EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Tuhi mō te 'Kaua e whakaae' i raro i te EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Tēnehi mō te kaupapa here tūmataiti"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Tēnā, whakaritea te URL mō te kaupapa here tūmataiti ki konei."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Tēnā koa tāpiri i ngā mea e whai ake nei ki te Kaupapahere Tūmataiti."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Hei kite i ngā mahi tinihanga, ka penapenahia ngā tohu tuakiri pērā i ngā wāhitau IP ki ngā kuki me te pātengi raraunga. Ka mukua ngā raraunga kua penapenahia i runga i te whakaaro a te kaiwhakahaere."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Hei whakarite kia tukuna tika ngā whakaahua ina whakahohea te tiaki whakaahua, ka penapenahia e mātou ngā raraunga hash e kapi ana i te wāhitau IP me te ingoa kōnae whakaahua ki tō mātou pātengi raraunga mō te 60 meneti."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Mēnā kei te whakarite koe i ngā Tikanga Whakamahi, tēnā whakarite kia whakauru koe i tētahi hononga ki a rātou i roto i tō Kaupapahere Tūmataitinga."
+
+msgid "利用規約の文字列"
+msgstr "Tuhi o ngā tikanga whakamahi"
+
+msgid "利用規約のページ"
+msgstr "Whārangi Ngā Tikanga me Ngā Here"
+
+msgid "ページ選択なし"
+msgstr "Kāore he whārangi kua tīpakohia"
+
+msgid "検索エンジン等のURL"
+msgstr "Ngā URL mō ngā miihini rapu, me ērā atu."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Whakaritea te URL mō ngā miihini rapu me ērā atu pae e whakahoki ana i ngā kaiwhakamahi ina kāore i whakaaetia."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Aratau wetewete hapa, karere whakatūpato o te papamātiti"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Panui whakatūpato pāwhiri-matau"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Panui whakatūpato mō te tā me te penapena hei PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Karere whakatūpato i te whakaahua mata"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Panui whakatūpato mō ngā whakaahua mata e whakapaetia ana"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Panui whakatūpato ina kua tohua katoa ngā kuputuhi"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Panui whakatūpato mō te penapena whārangi"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Te karere ka whakaatuhia ina tārua, ina tapahia rānei"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Karere hei whakaatu i te wā e tiro ana i te puna HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Karere hei whakaatu i te tihi o te waehere puna ina whakawātea, ina tiaki rānei i te HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Karere hei whakaatu mēnā kāore te tohu whakamana kotahi-wa i whaimana i te wā e tiakina ana te HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Karere hei whakaatu mēnā kua whakawetohia ngā kuki, ngā JavaScript rānei"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Inā hoki, ka whakaatuhia anake tēnei ina kua whakawetohia te JavaScript."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Ka tiakina tētahi whakaahua, ka tikiake, ā, ka whakaatuhia he karere ki runga i taua whakaahua"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Whakamāhāhā HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "He pēhanga paerewa HTML tēnei; he paetukutuku anō hoki e taea ana te wetewete."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Mā te whakahohe i tēnei kōwhiringa ka taea e koe te tiki i ngā rangitaki tirohanga pūtake."
+
+msgid "HTML保護"
+msgstr "Tiaki HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ka whakaputa ia i te HTML iti ake i te tautuhinga pēhanga HTML, arā, kāore rawa ngā ihirangi kei roto i te tapanga BODY e whakaputaina."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Ehara tēnei i te mea e pā ana ki a Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "He pānga nui tēnei ki te SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Te whakaputa i te HTML mā te JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Hei karo i a Firefox, ka whakaputa mātou i te HTML mā te JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Mā te whakahohe i te whakaaturanga JavaScript ka tino whakaroa te tere utaina o te paetukutuku."
+
+msgid "画像の保護"
+msgstr "Tiaki whakaahua"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Tiakina te whakaahua ia wā ka karangahia te tapanga img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Tiakina ngā whakaahua katoa kua tukuna ki WordPress i roto i te whakaputanga HTML katoa."
+
+msgid "画像をダウンロードから保護します"
+msgstr "E tiaki ana i ngā whakaahua kia kore ai e taea te tikiake"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Ka tiakina ngā raraunga whakaahua, ka aukatia e mātou te nuinga o ngā tango, ka whakaputahia he URL motuhake mō te kotahi anake, ka whakamana mā ngā tohu kua penapenahia i roto i te wāhanga, ā, ka whakaatuhia ngā whakaahua mā PHP; nā konei ka aukatia te nuinga o ngā tahae whakaahua."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Ki te tiakina ngā raraunga whakaahua, kāore e mahi te penapena wā-poto, arā, ka utaina āta haere te paetukutuku i ngā haerenga whai ake, ā, ka pā tēnei ki te SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ka piki pea te kawenga ki runga i te pātengi raraunga mēnā ka tiakina ngā raraunga whakaahua."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Mēnā ka tīpako koe i te 'Tiaki whakaahua ia wā ka karangahia te tapanga img', ka whakamahi te pūnaha i te add_filter hei tāpiri tātari i te wā e waihangatia ana te tapanga img; heoi, kāore pea e mahi tika tēnei ki ētahi kaupapa āhua."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Mēnā ka tīpako koe i te 'Tiakina ngā whakaahua katoa kua tukuna ki WordPress i roto i te putanga HTML katoa', ka hopu te mono i te nuinga o ngā mahi a WordPress, ā, ka tukatuka ia i ia tapanga img i roto i te ihirangi. Tēnā kia mōhio, kāore pea e mahi tika tēnei me ētahi kaupapa āhua."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Tēnā koa mōhio, ka tohaina ngā whakaahua kua tohua hei whakaahua ārahi hei raraunga OGP, ā, kāore e taea te tiaki. Mēnā me tino tiaki koe i ēnei, tēnā huri i te tautuhinga mō te whakaputanga o te tapanga HEAD i ngā tautuhinga matatau ina whakahohe koe i te tiaki HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Kāore e taea te tiaki i te āheinga hopu mata kua whakaurua hei paerewa i te pūnaha whakahaere."
+
+msgid "画像URLの保護"
+msgstr "Te tiaki i ngā URL whakaahua"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Me whakamahi tēnei i te taha o te tiaki whakaahua; ki tōna anake, kāore he take."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Nā te mea ka utaina mā JavaScript i runga i te māngere, ka pā tēnei ki te SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Tohu wai tohu whakaahua"
+
+msgid "右下"
+msgstr "Wāhi raro matau"
+
+msgid "ランダム位置"
+msgstr "Tūranga tūpono"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Ka whakamahia ngātahi me te tiaki whakaahua, ka tohu mārama ngā tohu wai huringa i te rangatiratanga mana kaituhi, ā, ka waiho he whakaaro ki ngā kaitirotiro kei te aroturuki rātou, nā reira ka mahi hei aukati."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Ka tautokohia anake ngā hōputu JPG, PNG me WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Mā te whakahohe i tēnei ka piki ake te kawenga o te tūmau."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Te whakaputa i te toi ASCII mai i te waehere puna HTML i te wā e whakawātea ana, e tiakina ana"
+
+msgid "表示なし"
+msgstr "Kāore he whakaaturanga"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "E whakaatu ana i ngā toi ASCII e tohu ana i tētahi whakatūpato ina tirotiro ana i te puna HTML mā te 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Whakaatu i te hoahoa ina oti te mahi whāinga"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "He hoahoa taketake e whakaatu ana i ngā kupu pango i runga i te papamuri kōwhai"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "He hoahoa āhua mataku me te tuhinga whero i runga i te papamuri pango"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "He hoahoa e whakaatu ana i ngā kupu whero kanapa i runga i te papamuri pango"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Puoro papamuri e rere ana ina mahia te mahi whāinga"
+
+msgid "サウンドなし"
+msgstr "Kāore he oro"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Pakanga me te Toa - 1 meneti 16.3 hēkona - 630,056 baiti - 64 kbps - Raihana: CC 2.1, 2.2 rānei, 3.0 rānei"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Pōtaka a Pāpā - 3.8 hēkona - 32,364 baiti - 64 kbps - Raihana: GPL 2.0, 2.1 rānei, 3.0 rānei"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 hēkona - 195,578 baiti - 64 kbps - Raihana: GPL 2.0, 2.1 rānei, 3.0 rānei"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – putanga hangaia e te rorohiko, putanga tere-nui – 1 meneti 57.6 hēkona – 724,457 baiti – 48 kbps – Raihana: CC BY-ND 4.0, 4.0 rānei i muri mai"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo i roto i te B-pōhatu iti, Op. 2 – Putanga i hangaia e te rorohiko, putanga whakakōpaki tere-nui – 1 meneti 48.0 hēkona – 665,369 baiti – 48 kbps – Raihana: CC BY-ND 4.0, 5.0 rānei"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Rārangi: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Whakanui – 22.3 hēkona – 183,926 baiti – 64 kbps – Raihana: Rawa tūmatanui"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Harikoa āhua retro – 2.2 hēkona – 10,536 baiti – 32 kbps – Raihana: Rawa tūmatanui"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Whakataki āhua retro – 42.1 hēkona – 179,138 baiti – 32 kbps – Raihana: Rawa tūmatanui"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Whakatūpato nā ChatGPT - 3.8 hēkona - 109,700 baiti - 256 kbps - Raihana: Rawa tūmatanui"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "He oro tino ohorere, pērā i te whakatūpato mō te kitenga raupaparorohiko kino – Wāhanga 1 nā ChatGPT – 3.3 hēkona – 102,850 baiti – 256 kbps – Raihana: Rawa tūmatanui"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "He oro tino ohorere, pērā i te whakatūpato mō te kitenga raupatu rorohiko, Wāhanga 2 nā ChatGPT - 3.3 hēkona - 103,122 baiti - 256 kbps - Raihana: Rawa tūmatanui"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Oro āhua MRI nā ChatGPT – 1 meneti 14.9 hēkona – 3,340,392 baiti – 320 kbps – Raihana: Rawa tūmatanui"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Tīpakohia te puoro papamuri hei purei i te wā o te whakatūpato."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Ka waihanga i tētahi āhuatanga ohorere"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Kua aukatia te oro i Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "He bipa ka mahia te mahi kua tautuhia"
+
+msgid "有効 音量小さ目"
+msgstr "Kei runga, he iti te rōrahi"
+
+msgid "有効 音量大き目"
+msgstr "Kei te mahi, kua whakaritea te rōrahi ki te teitei"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Ka tangi tētahi bip mō ngā mahi katoa o te matua me te kiore, i te wā e whakaatuhia ana he whakatūpato."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Ka waihanga i te āhua kua hē te pūrere i te wā e whakaatuhia ana te whakatūpato."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Huna i te tohu kiore i te wā ka mahia tētahi mahi motuhake"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Ka huna te tohu kiore i te wāhi tirotiro i te wā e whakaatuhia ana tētahi whakatūpato."
+
+msgid "デバッグモード"
+msgstr "Aratau whakatika hapa"
+
+msgid "妨害＋記録のみ"
+msgstr "Whakararu + Rēkōrda anake"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Whakararuraru + Rēhita + Whakaatu + Arataki anō"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ka taea tonu e koe te uru mā te tahua."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Aratau wetewete hapa i Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Kōnae pūrongo pūtirotiro"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "I te tūturu, ka taea e koe te whakahaere i a ia mai i te aratau wetewete hapa."
+
+msgid "HTMLソース表示"
+msgstr "Tirohia te puna HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ka taea e koe te whakahaere i te mahi mā te whakauru noa i tētahi URL e tīmata ana ki te 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Ka taea e koe te tiaki i tō ihirangi mā te whakakotahi i tēnei ki te tiaki HTML."
+
+msgid "印刷"
+msgstr "Tā"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ahakoa e aukati ana i te tā, tērā pea kāore e mahi tika i ētahi pūtirotiro."
+
+msgid "スクリーンショット"
+msgstr "Whakaahua mata"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "I runga i te pūnaha whakahaere, te kaitirotiro paetukutuku, te tikanga rānei e whakamahia ana, tērā pea kāore e taea te aukati i tēnei, tērā pea kāore rānei e kitea."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Whakaahua mata e whakapaetia ana i te wā ka neke te matapihi ki muri"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Ka whakautu hoki ki ētahi atu mahi, ehara i te hopu mata anake"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "E whakapaetia ana he whakaahuamata i tangohia mā te pēhi i ngā kī e rua."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Ehara i te mea ka tino pūmau ngā tikanga rapu mō ngā mea kua whakahuatia ake nei; ka mahia te rapu hei tikanga āta tiaki."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Ka kitea e ia ehara i ngā whakaahua mata anake, engari anō hoki ngā aratau wetewete hapa me ērā atu."
+
+msgid "ページ保存"
+msgstr "Tārewa i te whārangi"
+
+msgid "右クリック"
+msgstr "Pāwhiri-matau"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Mēnā kua tāuta te mono tāpiri, ka taea e koe te whakamahi."
+
+msgid "コピー・カット"
+msgstr "Kape me te tapahi"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "I runga i ngā tautuhinga o tēnei mono tāpiri, tērā pea kāore koe e tino kite i tēnei kaupapa."
+
+msgid "テキスト全選択"
+msgstr "Tīpakohia ngā kupu katoa"
+
+msgid "テキスト選択"
+msgstr "Tīpako kuputuhi"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Rēhita tīmatanga o te kaitātari hapa, whakararu a te kaitātari hapa"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Nā tēnei ka iti ake te māmā o te aratau wetewete hapa, ā, ka tuhi i te kōrero kua whakarewahia te kaitātari hapa; heoi, tērā pea ka aukatia tēnei whanonga e ētahi pūtirotiro."
+
+msgid "リダイレクトするURL"
+msgstr "Whakawhiti URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "He whakaaro pai kia whakawhiti i ngā kaiwhakamahi ki ngā whārangi pērā i ngā Tikanga Whakamahi."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Mēnā ka waiho he wāhi wātea, ka whakawhiti ki te URL taketake."
+
+msgid "リダイレクトまでの時間"
+msgstr "Te wā kia whakahōputu"
+
+msgid "リダイレクトなし"
+msgstr "Kāore he whakawhiti"
+
+msgid "1秒"
+msgstr "Tētahi hēkona"
+
+msgid "2秒"
+msgstr "Rua hēkona"
+
+msgid "3秒"
+msgstr "3 hēkona"
+
+msgid "4秒"
+msgstr "Whā hēkona"
+
+msgid "5秒"
+msgstr "Rima hēkona"
+
+msgid "6秒"
+msgstr "E ono hēkona"
+
+msgid "7秒"
+msgstr "Whitu hēkona"
+
+msgid "8秒"
+msgstr "Waru hēkona"
+
+msgid "9秒"
+msgstr "Iwa hēkona"
+
+msgid "10秒"
+msgstr "Tekau hēkona"
+
+msgid "15秒"
+msgstr "Tekau mā rima hēkona"
+
+msgid "20秒"
+msgstr "Rua tekau hēkona"
+
+msgid "25秒"
+msgstr "25 hēkona"
+
+msgid "30秒"
+msgstr "30 hēkona"
+
+msgid "35秒"
+msgstr "35 hēkona"
+
+msgid "40秒"
+msgstr "40 hēkona"
+
+msgid "45秒"
+msgstr "45 hēkona"
+
+msgid "50秒"
+msgstr "Rima tekau hēkona"
+
+msgid "55秒"
+msgstr "Rima tekau mā rima hēkona"
+
+msgid "1分"
+msgstr "Tētahi meneti"
+
+msgid "1分10秒"
+msgstr "Tētahi meneti tekau hēkona"
+
+msgid "1分20秒"
+msgstr "Tau kotahi meneti, hēkona rua tekau"
+
+msgid "1分30秒"
+msgstr "Tau meneti kotahi me ngā hēkona toru tekau"
+
+msgid "1分40秒"
+msgstr "Tētahi meneti whā tekau hēkona"
+
+msgid "1分50秒"
+msgstr "Tētahi meneti me te rima tekau hēkona"
+
+msgid "2分"
+msgstr "Meneti e rua"
+
+msgid "ソース表示を許可する権限"
+msgstr "Te whakaaetanga ki te tiro i te waehere puna"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Me puta noa te putanga pūtake i te wā e takiuru ana hei ADMIN."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Putanga noa mai i te puna ina takiuru ana hei USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Tīpakohia mēnā ka herea te whakaputanga HTML paerewa ki ngā kaiwhakahaere anake, ki te hiahia rānei kia takiuru te kaiwhakamahi."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Te whakahau kia tikiake he whakaahua, me te mea ka tikiake tūturu"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "He whakaahua mārama kotahi-pikise, kotahi-pikise i roto i te hōputu GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "He whakaahua 1×1 pika mārama i roto i te hōputu PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "He mata whakatūpato me te papamuri kōwhai i roto i te hōputu PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "He tuhinga HTML kāore he tikanga"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Putanga o te tapanga HEAD i te wā e tiakina ana te HTML"
+
+msgid "出力しない"
+msgstr "Kaua e tā"
+
+msgid "TITLEタグのみ"
+msgstr "Tāpiri anake te tapanga Taitara"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "I tangohia mai i te tapanga HEAD o WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Mō ngā whārangi mō ngā mema anake hei whakamahinga ā-pakihi me ngā whārangi ā-roto, ka tau te kōwhiri i te 'Kaua e whakaputa' rānei i te 'Tohu Taitara anake'."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Ki te kore koe e tiki i ngā pārongo mai i te tapanga HEAD o WordPress, kāore te whakaahua OGP e whakaatuhia ina tohatoha ana ki ngā pāpāho pāpori."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Aukati i te pūmanawa whakaahua"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Mā te aukati i ngā pōtī whakaahua kia kore e uru ki te HTML, ka taea e koe te tiaki i ngā ihirangi kāore i taea te tiaki i ngā hononga tūturu mā te rapu whakaahua; heoi, ehara tēnei i te rongoā katoa."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Aukati i te uru ki te bot whakangungu AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Mā te karo i te whakamahi i ngā pōtī i hangaia hei whakangungu mā te AI i runga i te HTML, ka whakarite mātou kia kore ai e whakamahia te ihirangi e te AI; heoi, kāore e taea te aukati katoa."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Aukati i te uru ki ngā pātaka paetukutuku me ngā whakaahua paetukutuku"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Ka aukatia e mātou te uru ki ngā pātaka paetukutuku kua kohia aunoa me ngā whakaahua mata i tangohia e te kaiwhakamahi i runga i tōna ake whakaaro; heoi, kāore e taea e mātou te aukati katoa i tēnei."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Aukati i ngā kaiwhakamahi pūtirotiro kua whakakorehia"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Ka aukati i te uru mēnā kei roto i te aho ingoa kaiwhakamahi-ā-pūtirotiro he pūāhua hē."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Whakaatuhia he whakatūpato ina uru ana ki Internet Explorer me te Microsoft Edge tawhito"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Ka aukati i te uru mā Internet Explorer me te Microsoft Edge tawhito"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Te reo e whakaatuhia ai ngā karere whakatūpato"
+
+msgid "Wordpressの言語"
+msgstr "Ngā reo o WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Ngā tautuhinga reo o te pūtirotiro"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Kāore e taea e koe te huri i te reo mēnā kua whakaritea ngā karere."
+
+msgid "同意画面の言語"
+msgstr "Te reo o te mata whakaaetanga"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Te reo hei whakaatu i te karere 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Rā paunga o ngā tohu wā poto"
+
+msgid "3分"
+msgstr "Toru meneti"
+
+msgid "4分"
+msgstr "Whā meneti"
+
+msgid "5分"
+msgstr "Rima meneti"
+
+msgid "6分"
+msgstr "6 meneti"
+
+msgid "7分"
+msgstr "Whitu meneti"
+
+msgid "8分"
+msgstr "Waru meneti"
+
+msgid "9分"
+msgstr "Iwa meneti"
+
+msgid "10分"
+msgstr "Tekau meneti"
+
+msgid "15分"
+msgstr "Tekau mā rima meneti"
+
+msgid "20分"
+msgstr " rua tekau meneti"
+
+msgid "25分"
+msgstr " rua tekau mā rima meneti"
+
+msgid "30分"
+msgstr "30 meneti"
+
+msgid "35分"
+msgstr "35 meneti"
+
+msgid "40分"
+msgstr "Whā tekau meneti"
+
+msgid "45分"
+msgstr "Whā tekau mā rima meneti"
+
+msgid "50分"
+msgstr "Rima tekau meneti"
+
+msgid "55分"
+msgstr "Rima tekau mā rima meneti"
+
+msgid "1時間"
+msgstr "Hora kotahi"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Whakaritea te rā paunga mō ngā pārongo URL whakaahua"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Kia oti te uta, ka whakakorehia te URL o te whakaahua me te tohu wā poto."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Ka utaina ngā whakaahua i te wā e tonoa ana, engari ka utaina aunoa i te 30 hēkona i mua i te wā kua tautuhia."
+
+msgid "一時使用トークンのビット数"
+msgstr "Te maha o ngā pītiti i roto i tētahi tohu wā poto"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "He tohu wā poto e whakamahia ana hei kupuhipa ki te whakamuna i ngā pārongo URL o ngā whakaahua; ko tēnei tautuhinga e tautuhi ana i tōna kaha."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Ahakoa ka whānui ake ngā kōwhiringa e whakaatuhia ana i raro i te tahua taka-iho i a koe e panuku iho ana, ka piki ake te kawenga ki runga i te tūmau, ā, ka nui ake te rahinga o ngā raraunga HTML e whakawhitia ana."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Tātai whakakōpeketanga"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "He tohu wā poto e whakamahia ana hei kupuhipa ki te whakamuna i ngā pārongo URL o ngā whakaahua; me mahi hash tēnei, ā, mā tēnei tautuhinga e whakatau ai te kaha o taua hash."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Ahakoa ka piki te kaha i a koe e heke iho ana i te rārangi kōwhiringa e whakaatuhia ana i te tahua taka-iho, ka nui ake te kawenga ki runga i te tūmau."
+
+msgid "基本設定"
+msgstr "Ngā tautuhinga taketake"
+
+msgid "高度な設定"
+msgstr "Ngā tautuhinga matatau"
+
+msgid "初期設定に戻す"
+msgstr "Whakahokia ngā tautuhinga taunoa"
+
+msgid "デザイン・音の設定"
+msgstr "Hoahoa me ngā tautuhinga oro"
+
+msgid "イベントの設定"
+msgstr "Ngā tautuhinga o te hui"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Te whakarite pānui mō ngā toro tuatahi"
+
+msgid "メッセージの設定"
+msgstr "Tautuhinga karere"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Whakaritea te URL kia whakatuwherahia ina pāwhiri-matau, ina tirotiro rānei i te waehere pūtake."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Kāore e taea te whakamahi i te HTML i roto i ngā karere whakatūpato."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Mēnā ka whakaritea e koe tēnei i runga i tēnei mata, ka whakakorehia ngā tautuhinga reo i te ripa Matatau."
+
+msgid "以下の文字列が使用できます"
+msgstr "Ka taea te whakamahi i ngā aho e whai ake nei"
+
+msgid "改行"
+msgstr "Tāwāhi rārangi"
+
+msgid "押下されたキー"
+msgstr "Kua pēhia te kī"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Tautuhinga Kaiwhakamaru HTML Hou"
+
+msgid "お知らせ"
+msgstr "Pānui"
+
+msgid "メッセージ"
+msgstr "Karere"
+
+msgid "デザイン・音"
+msgstr "Hoahoa me te Oro"
+
+msgid "初期化"
+msgstr "Whakatū"
+
+msgid "このプラグインについて"
+msgstr "Mō tēnei mono tāpiri"
+
+msgid "設定が初期化されました"
+msgstr "Kua tautuhia anō ngā tautuhinga"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Whakahohe i te mono. Tēnā koa mōhio, kāore ngā raraunga o te Kaiwhakawhiti Rēhita IP e mukua i tēnei wā."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Mō Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Kua hoahoatia tēnei mono tāpiri hei tiaki i te HTML, ngā whakaahua me ētahi atu ihirangi i whakaputaina e tō paetukutuku WordPress, kia kore ai e whakamahia me te kore whakaaetanga."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "E kore e taea te tiaki katoa i te ihirangi. Heoi, mā te tuku whakatūpato i ngā wā katoa e taea ana, me te whakarite i ngā whakarite mō te wā ka puta he raru, ka taea e tātou te whakatau i te take i runga i ngā tikanga i whakaritea e te kāwanatanga."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Āe mārika, me whakarite kia whānui ngā tikanga me ngā here me te kaupapa here o tō pae tukutuku. Ahakoa ehara tēnei mono tāpiri i te taputapu hei waihanga i ngā tikanga me ngā here, ka taea e ia te tuku aratohu."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Kaiwhakawhanake: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Putanga"
+
+msgid "ビルド"
+msgstr "Tūhanga"
+
+msgid "サポートページ"
+msgstr "Whārangi tautoko"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Nā Miss Ura Manira i whakatangi"
+
+msgid "支援のお願い"
+msgstr "He tono tautoko"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Ngā mihi mō tō whakamahi i te Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Kua roa te whakawhanake me te tiaki i tēnei mono tāpiri, ā, kia taea ai te kohi pūtea hei whakapai ake, hei whakahou hoki, ka nui tō mātou whakawhetai mēnā ka whakaaro ngā tāngata e āhei ana ki te tautoko ki te tuku koha."
+
+msgid "寄付について"
+msgstr "Mō ngā Koha"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "He tino āwhina ngā koha, ehara i te mea here. He wātea kore utu te mono tāpiri ki te katoa. Heoi, e tino whakawhetai ana mātou ki tō tautoko kia taea ai e mātou te haere tonu ki te whakawhanake, ā, ka tino koa mātou mēnā ka taea e koe te tuku āwhina ahakoa he aha."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Ka taea e koe te tuku koha mā te hono kei raro nei. Mēnā kei Hapani koe, ka taea e koe te tuku koha kore utu, ā, ka taea hoki e koe te tuku koha māmā mā ngā tiwhikete koha a Amazon."
+
+msgid "寄付先"
+msgstr "Ngā whakahaere aroha"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Mā tō tautoko, ka whakapau kaha mātou ki te haere tonu ki te kawe mai i ngā whakahōu whakamīharo ki a koe!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Kei te mihi mātou mō tō tautoko, ā, e tūmanako ana mātou kia haere tonu tō tautoko ā muri ake nei."
+
+msgid "ライセンス"
+msgstr "Rāhina"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Kua whakawhanakehia tēnei mono-taapiri hei pūmanawa puna tuwhera, ā, kua raihanatia i raro i te GPLv2.0, i ngā putanga o muri ake rānei."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ko ētahi o ngā hangarau kei roto i tēnei mono ārai ture kei runga i a rātou."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Ka whakaaetia te whakamahi i te hangarau kua raihanatia anake i roto i tēnei mono tāpiri."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Mō ētahi atu whakamahinga, tēnā whakapā atu ki te kaituhi kia whiwhi raihana hokohoko."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Kei roto i tēnei mono ngā whare pukapuka e whai ake nei"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Kei roto i tēnei mono ngā momotuhi toi ASCII i hangaia i raro nei, me ngā kōnae momotuhi."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Kei roto i tēnei mono ngā puoro nō te kēmu Super Famicom kāore i te mana, 'SM Trainer Hitomi 3', i whakawhanakehia e EJ Co., Ltd., i hangaia e te kaihanga o tēnei mono, ā, kua whiwhi raihana ā-ture."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Kei roto i tēnei mono ngā ara oro i hangaia mā te whakamahi i te 'Keppy's YAMAHA C7', i whakawhanakehia e Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Kua whakamahia hoki e au te Raspberry Pi 5, a ChatGPT me DeepL i te whakawhanaketanga o tēnei mono tāpiri."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Kua kitea he mono penapena. Kāore e mahi tika tēnei mono mēnā kua whakahohea he mono penapena."
+
+msgid "無効なIPアドレス"
+msgstr "He wāhitau IP hē"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Hei whakamahi i tēnei paetukutuku, me whakahohe koe i ngā kuki me te JavaScript."
+
+msgid "利用規約"
+msgstr "Ngā tikanga whakamahi"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Hei aukati i te whakamahinga kāore i whakaaetia, me te whakarite kia haumaru te whakahaere o ā mātou ratonga, tērā pea ka penapenahia e tēnei paetukutuku ngā pārongo pērā i ngā wāhitau IP, te hītori tirotiro, me ngā rangitaki mahi ki roto i ngā kuki me ngā pātengi raraunga. Ka whakamahia ēnei pārongo mō te whakahaere anake o te paetukutuku me ngā take ture, ā, kāore e tukuna ki ētahi atu rōpū tuatoru."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Hei whakamahi i tēnei ratonga, me whakaae koe ki ēnei mahi tukatuka."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Ka taea e koe te tiro ki ngā ihirangi o te Kaupapahere Tūmataitinga ahakoa mēnā kua whakaae koe, kāore rānei."
+
+msgid "同意する"
+msgstr "E whakaae ana au"
+
+msgid "同意しない"
+msgstr "Kāore au e whakaae"
+
+msgid "確認"
+msgstr "Whakapūmau"
+
+msgid "プライバシーポリシー"
+msgstr "Kaupapahere Tūmataiti"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Kua kitea he uru, he mahi rānei kāore i te noa."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Kua herea ētahi āhuatanga mō ngā take haumaru me te tiaki ihirangi."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Kua whakaweto te aratau wetewete hapa me te uru ki te papapātuhi."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Kua tukuna ngā pārongo e whai ake nei ki te tūmau."
+
+msgid "あなたのIPアドレス"
+msgstr "Tō wāhitau IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Tō pūrere me tō kaitirotiro"
+
+msgid "あなたの押下したキー"
+msgstr "Te kī i pēhia e koe"
+
+msgid "リダイレクトをします"
+msgstr "Ka whakawhiti koe"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Kua herea ētahi āhuatanga kia tiakina te ihirangi"
+
+msgid "右クリックは禁止されています"
+msgstr "Kāore e whakaaetia te pāwhiri-matau"
+
+msgid "あなたが押下したキー"
+msgstr "Te kī i pēhia e koe"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Kua aukatia te tā me te penapena hei PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Kua aukatia ngā hopu mata."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Kua aukatia te tango whakaahua mata me te whakahohe i te aratau wetewete."
+
+msgid "ページの保存は禁止されています"
+msgstr "Kua aukatia te penapena i tēnei whārangi"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kua aukatia te kape me te tapahi."
+
+msgid "あなたが起こしたイベント"
+msgstr "Ngā kaupapa i whakaritea e koe"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Kāore e whakaaetia te tīpako kuputuhi."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Kua aukatia te whakaatu i te waehere pūtake HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Kua aukatia te uru kāore i whakaaetia"
+
+msgid "アフリカーンス語"
+msgstr "Āferikaans"
+
+msgid "アラゴン語"
+msgstr "Aranese"
+
+msgid "アラビア語"
+msgstr "Arapi"
+
+msgid "アッサム語"
+msgstr "Ahaia"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijaniana"
+
+msgid "バシュキール語"
+msgstr "Whakamautia"
+
+msgid "ベラルーシ語"
+msgstr "Pēhāre"
+
+msgid "ベンガル語"
+msgstr "Pēngara"
+
+msgid "ブルガリア語"
+msgstr "Pōhāre"
+
+msgid "ボスニア語"
+msgstr "Pōtiānia"
+
+msgid "カタロニア語"
+msgstr "Kātalana"
+
+msgid "チェコ語"
+msgstr "Tēke"
+
+msgid "ウェールズ語"
+msgstr "Wēra"
+
+msgid "デンマーク語"
+msgstr "Dāniana"
+
+msgid "ドイツ語"
+msgstr "Tiamana"
+
+msgid "現代ギリシア語"
+msgstr "Kariki hou"
+
+msgid "英語"
+msgstr "Pākehā"
+
+msgid "イギリス英語"
+msgstr "Pākehā"
+
+msgid "アメリカ英語"
+msgstr "Ingarihi Amerikana"
+
+msgid "エスペラント語"
+msgstr "Rēo Tūmanako"
+
+msgid "スペイン語"
+msgstr "Paniora"
+
+msgid "エストニア語"
+msgstr "Nō Estonia"
+
+msgid "バスク語"
+msgstr "Pākehā"
+
+msgid "ペルシャ語"
+msgstr "Pārihi"
+
+msgid "フィンランド語"
+msgstr "Pākehā"
+
+msgid "フランス語"
+msgstr "Wīwī"
+
+msgid "アイルランド語"
+msgstr "Airihi"
+
+msgid "ガリシア語"
+msgstr "Gālīkānia"
+
+msgid "グァラニ語"
+msgstr "Tāngata"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Haousa"
+
+msgid "ヘブライ語"
+msgstr "Hēbera"
+
+msgid "ヒンディ語"
+msgstr "Hindī"
+
+msgid "クロアチア語"
+msgstr "Kōroatia"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kareora Haitiana"
+
+msgid "ハンガリー語"
+msgstr "Hūngāri"
+
+msgid "インドネシア語"
+msgstr "Inonesia"
+
+msgid "イボ語"
+msgstr "Reo Ibo"
+
+msgid "アイスランド語"
+msgstr "Īkārāhitāne"
+
+msgid "イタリア語"
+msgstr "Itāriana"
+
+msgid "日本語"
+msgstr "Hapanihi"
+
+msgid "ジャワ語"
+msgstr "Wīwī"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Kōrea"
+
+msgid "クルド語"
+msgstr "Kōkurdi"
+
+msgid "キルギス語"
+msgstr "Kīrīgī"
+
+msgid "ラテン語"
+msgstr "Rāpana"
+
+msgid "ルクセンブルク語"
+msgstr "Wīwī o Luxembourg"
+
+msgid "リンガラ語"
+msgstr "Kōrero"
+
+msgid "リトアニア語"
+msgstr "Rētiānia"
+
+msgid "ラトビア語"
+msgstr "Rātiana"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Māori"
+
+msgid "マケドニア語"
+msgstr "Mākedoniana"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mōngōlia"
+
+msgid "マラーティー語"
+msgstr "Māori"
+
+msgid "マレー語"
+msgstr "Malaya"
+
+msgid "マルタ語"
+msgstr "Mōtehi"
+
+msgid "ビルマ語"
+msgstr "Pākehā"
+
+msgid "ネパール語"
+msgstr "Nēpāri"
+
+msgid "ノルウェー語"
+msgstr "Nō Nōwēhi"
+
+msgid "オランダ語"
+msgstr "Hōlani"
+
+msgid "オック語"
+msgstr "Ōketaniana"
+
+msgid "オロモ語"
+msgstr "Rā"
+
+msgid "パンジャーブ語"
+msgstr "Pūnaha"
+
+msgid "ポーランド語"
+msgstr "Whakapaipai"
+
+msgid "パシュトー語"
+msgstr "Pāhoto"
+
+msgid "ポルトガリア語"
+msgstr "Pōtukara"
+
+msgid "ブラジルポルトガル語"
+msgstr "Te reo Pōtukara o Brazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Pōtukara o Europi"
+
+msgid "ケチュア語"
+msgstr "Kētsua"
+
+msgid "ルーマニア語"
+msgstr "Rōmania"
+
+msgid "ロシア語"
+msgstr "Rūsiana"
+
+msgid "サンスクリット語"
+msgstr "Rāngai"
+
+msgid "スロバキア語"
+msgstr "Sōlōvākia"
+
+msgid "スロベニア語"
+msgstr "Sloveniana"
+
+msgid "セルビア語"
+msgstr "Serēnia"
+
+msgid "南セソト語"
+msgstr "Tonga Sesotho"
+
+msgid "スンダ語"
+msgstr "Haiti"
+
+msgid "スウェーデン語"
+msgstr "Huitene"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tāmī"
+
+msgid "テルグ語"
+msgstr "Tēligū"
+
+msgid "タジク語"
+msgstr "Taji"
+
+msgid "タイ語"
+msgstr "Tāihi"
+
+msgid "トルクメン語"
+msgstr "Tūki"
+
+msgid "タガログ語"
+msgstr "Reo Tagalog"
+
+msgid "トルコ語"
+msgstr "Tūki"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukaraina"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbeki"
+
+msgid "ベトナム語"
+msgstr "Wīwīnia"
+
+msgid "コサ語"
+msgstr "Kōsa"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Haina Whakangāwari"
+
+msgid "繁体中国語"
+msgstr "Te reo Hainamana tuku iho"
+
+msgid "ズールー語"
+msgstr "Tūru"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Ko te pūtirotiro e whakamahia ana e koe ināianei he putanga tawhito kāore e tautokohia ana. Hei whakarite i tētahi wheako tirotiro haumaru ake, ā, kia pai ake hoki, tēnā whakahouhia tō pūtirotiro ki te putanga hou rawa atu."
+
+msgid "不正なリクエストです"
+msgstr "Kore whaimana te tono"
+
+msgid "画像が見つかりません"
+msgstr "Kāore i kitea te whakaahua"
+

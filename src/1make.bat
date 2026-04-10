@@ -1,7 +1,7 @@
 @echo off
-:deepl (by dptran) auto transrate
+:deepl auto transrate
 
-set VERSION=0.3.4
+set VERSION=0.4.6
 set PACKAGE=Neo HTML Protector
 set EMAIL=plugin@773.moe
 
@@ -50,8 +50,74 @@ call 1make.bat sv
 call 1make.bat tr
 
 :20250326 add
+call 1make.bat af
+call 1make.bat sq
+call 1make.bat an
+call 1make.bat hy
+call 1make.bat as
+call 1make.bat az
+call 1make.bat ba
+call 1make.bat eu
+call 1make.bat be
+call 1make.bat bn
+call 1make.bat bs
+call 1make.bat my
+call 1make.bat ca
+call 1make.bat hr
+call 1make.bat eo
+call 1make.bat gl
+call 1make.bat gn
+call 1make.bat gu
+call 1make.bat ht
+call 1make.bat ha
+call 1make.bat he
+call 1make.bat hi
+call 1make.bat is
+call 1make.bat ig
+call 1make.bat ga
+call 1make.bat jv
+call 1make.bat kk
+call 1make.bat ku
+call 1make.bat ky
+call 1make.bat la
+call 1make.bat ln
+call 1make.bat lb
+call 1make.bat mk
+call 1make.bat mg
+call 1make.bat ms
+call 1make.bat ml
+call 1make.bat mt
+call 1make.bat mi
+call 1make.bat mr
+call 1make.bat mn
+call 1make.bat ne
+call 1make.bat oc
+call 1make.bat om
+call 1make.bat ps
+call 1make.bat fa
+call 1make.bat pa
+call 1make.bat qu
+call 1make.bat sa
+call 1make.bat sr
+call 1make.bat st
+call 1make.bat su
+call 1make.bat sw
+call 1make.bat tl
+call 1make.bat tg
+call 1make.bat ta
+call 1make.bat tt
+call 1make.bat te
+call 1make.bat th
+call 1make.bat tk
+call 1make.bat ur
+call 1make.bat uz
+call 1make.bat vi
+call 1make.bat cy
+call 1make.bat xh
+call 1make.bat yi
+call 1make.bat zu
 
-
+:20260409 add
 
 goto end
 

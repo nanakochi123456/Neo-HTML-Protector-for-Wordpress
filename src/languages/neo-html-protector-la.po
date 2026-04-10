@@ -1,0 +1,1292 @@
+# Latin translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 05:34+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Latin\n"
+"Language: la\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Configurationes"
+
+msgid "IPログリーダー"
+msgstr "Lector Diariorum IP"
+
+msgid "IPアドレスログ"
+msgstr "Registrum inscriptionum IP"
+
+msgid "全クリア"
+msgstr "Perage omnes gradus"
+
+msgid "IPログが全て削除されました"
+msgstr "Omnes commentarii IP deleti sunt."
+
+msgid "ID"
+msgstr "Identificatio"
+
+msgid "タイムスタンプ"
+msgstr "Tempus notationis"
+
+msgid "IPアドレス"
+msgstr "Inscriptio Protocollaris"
+
+msgid "ユーザーエージェント"
+msgstr "Agentis Usoris"
+
+msgid "イベント"
+msgstr "Eventus"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Nulla data sunt pro hoc inscriptione IP."
+
+msgid "EU GDPR対応"
+msgstr "Conformitas cum GDPR UE"
+
+msgid "無効"
+msgstr "Invalidus"
+
+msgid "有効"
+msgstr "Valet"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Si WordPress intra Unionem Europaeam uteris, aut si situs tuus usoribus intra Unionem Europaeam destinatur, quaeso cura ut hoc activetur."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bullula 'Confirma' in 'Assentior' aut 'Dissentio' mutabitur, et modus agendi leviter mutabitur."
+
+msgid "同意画面の色"
+msgstr "Color paginae assensus"
+
+msgid "自動"
+msgstr "Sponte sua"
+
+msgid "ライトモード"
+msgstr "Modus levis"
+
+msgid "ダークモード"
+msgstr "Modus Obscurus"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Constitue ordinem colorum pro pagina consensūs."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Imaginis conturbatio in velo consensūs"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Constitue gradum obscuritatis pro materia in velo assentimenti exhibita."
+
+msgid "同意画面の透過"
+msgstr "Perspicuitas monitorii assensus"
+
+msgid "透過なし"
+msgstr "Nulla perspicuitas"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Transparentiā tabulae assentīmentī statuendā"
+
+msgid "お知らせの1行目"
+msgstr "Prima linea nuntii"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Hoc nuntius semper ostenditur cum pagina primum oneratur."
+
+msgid "お知らせの2行目"
+msgstr "Secunda linea notitiae"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Hoc nuntium semper in primo ostento apparebit, dum GDPR UE valet."
+
+msgid "お知らせの3行目"
+msgstr "Tertia linea nuntii"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Ad dextram nexu ad Praescriptum de Re Privata apparebit."
+
+msgid "非EU向け確認の文字列"
+msgstr "Textus confirmationis pro civitatibus non UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Textus assensus pro GDPR UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Textus pro 'Noli consentire' sub GDPR UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Textus de secreto servando"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Quaeso, hic URL consilii de secreto constitue."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Quaeso, sequentia ad Praescriptum de Re Privata addite."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ad actiones fraudulentas detegendas, indicia, sicut inscriptiones IP, in crustulis et in repositorio datorum servantur. Data servata ad arbitrium administratoris delentur."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ut certum sit imagines recte tradi solum cum praesidium imaginum activum est, data cryptographice digesta, quae inscriptionem IP et nomen documenti imaginis continent, in tabulario usque ad sexaginta minuta servamus."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Si Condiciones Usus instituitis, curate ut nexum ad eas in Politica Vestra de Re Privata includatis."
+
+msgid "利用規約の文字列"
+msgstr "Textus Conditionum Usus"
+
+msgid "利用規約のページ"
+msgstr "Conditiones et Pacta"
+
+msgid "ページ選択なし"
+msgstr "Nulla pagina selecta"
+
+msgid "検索エンジン等のURL"
+msgstr "Nexus ad machinas quaerendi, etc."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Pone URL pro machinis quaerendi et sitibus similibus qui utentes redirectant cum consensus non datur."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modus emendationis, monita consolaria"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Monitum de nuntio dextro"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Monitum de imprimendo et servando ut PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Nuntius monitus in imagine scrinii"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Monitum de imaginibus scrinii suspectis"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Monitum cum omnis textus selectus est"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Monitum de pagina servanda"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Nuntius qui monstratur cum exscribitur aut resecatur"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Nuntius qui ostendatur cum fons HTML inspicitur"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Nuntius in summa parte codicis fontis ostendendus, cum HTML obscuratur aut protegitur."
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Nuntius qui ostendatur si tessera authentificationis unius vicis inter tutelam HTML invalida sit."
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Nuntius qui ostendatur si crustula aut JavaScript inactivata sunt."
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Re vera, hoc solum monstratur cum JavaScript exstinguitur."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Cum imago protegitur, deponitur et nuntius super ea ostenditur"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Obfuscatio"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Haec est compressio HTML usitata; sunt etiam situs interretiales qui eam decodificare possunt."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Hac optione activa, potes recuperāre acta fontis visificandi."
+
+msgid "HTML保護"
+msgstr "Protectio HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Minimum solum codicis HTML reddit—paucius etiam quam cum compressione HTML adhibita—et materia intra tesseram BODY omnino non redditur."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Hoc ad Firefox non pertinet."
+
+msgid "SEOに著しく影響があります"
+msgstr "Hoc magnum momentum in SEO habet."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Renditio HTML per JavaScriptum"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Ut Firefox circumveniamus, HTML per JavaScript reddimus."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Activatio interpretationis JavaScript graviter tardabit celeritatem onerationis situs interretialis."
+
+msgid "画像の保護"
+msgstr "Imaginis praesidium"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Imaginem protege quotiescumque titulus img vocatur."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Omnes imagines in WordPress impositas intra totum textum HTML emissum protege."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Imagines a depromptione protegit"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Cum data imaginum proteguntur, paene omnes depromptiones prohibemus, nexus singulares semel valentes emittimus, per tesseras in sessione repertas authentificamus, et imagines per PHP ostendimus; hoc reapse paene omnem furtum imaginum prohibet."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Cum data imaginum proteguntur, memoria cache non fungitur, quod efficit ut situs in visitationibus posterioribus tardius oneretur, ita SEO afficiendo."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Data imaginum tuenda onus in repositorio datorum augere potest."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Si optionem 'Imagines protege quotiescumque tegula img vocatur' seligis, systema add_filter adhibet ut filtrationem applicet cum tegula img generatur; tamen, hoc non recte cum quibusdam thematibus operari potest."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Si optionem 'Protege omnes imagines in WordPress impositas intra totum exsitum HTML' seligis, additamentum paene omnes operationes WordPress comprehendet et omnem notam img in contentis tractabit. Nota, quaeso, hoc fortasse non recte cum quibusdam thematis fungetur."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Notandum est imagines, quae imagines praecipuae designantur, ut data OGP communicari et protegi non posse. Si eas omnino protegere necesse est, quaeso, in configurationibus provectis, cum protectionem HTML habilitas, configurationem emissionis notae HEAD muta."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Functio imaginum capiendarum, quae ut norma in systemate operandi includitur, protegi non potest."
+
+msgid "画像URLの保護"
+msgstr "De URL imaginum tuendis"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Hoc una cum praesidio imaginum adhibendum est; per se, nihil prodest."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Quoniam per JavaScript oneratur, hoc SEO afficit."
+
+msgid "画像のウォーターマーク"
+msgstr "Signum aquatile imaginis"
+
+msgid "右下"
+msgstr "Infima dextra"
+
+msgid "ランダム位置"
+msgstr "Positio fortuita"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Una cum tutela imaginum adhibitae, filigranæ dynamicae proprietatem iuris auctoris clare indicant, dum spectatoribus opinionem se observari habere inducunt, ita deterrentes."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Tantum formae JPG, PNG et WebP sustinentur."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Hoc activato, onus servitori augebitur."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ex codice fonte HTML artem ASCII emittere inter obscurationem et tutelam"
+
+msgid "表示なし"
+msgstr "Nullum ostentum"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Ars ASCII monstrat monitum cum fons HTML per 'view-source' inspicitur."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Ostende consilium cum actio petita perficitur."
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Forma simplex textu nigro in fundo flavo."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Forma horrifica cum textu rubro in fundo nigro."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Forma textu rubro lucente in fundo nigro"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Musica comitans quae sonat cum actio petita perficitur."
+
+msgid "サウンドなし"
+msgstr "Nullus sonus"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Proelium et Victoria - 1 minuta 16.3 secunda - 630,056 bytes - 64 kbps - Licentia: CC 2.1 vel posterior"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Pater Brevis - 3.8 secunda - 32,364 bytes - 64 kbps - Licentia: GPL 2.0 vel posterior"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Longus - 23.5 secunda - 195,578 bytes - 64 kbps - Licentia: GPL 2.0 vel posterior"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Studium Op. 10 N. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Studium Op. 10 N. 12 'Revolutio' – Versio computatro generata, versio magnae celeritatis – 1 minutum 57.6 secundorum – 724,457 octetorum – 48 kbps – Licentia: CC BY-ND 4.0 vel posterior"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo in Si bemolle minore, Op. II – Versio computatro generata, versio contracta magnae celeritatis – 1 minuta 48.0 secunda – 665,369 bytes – 48 kbps – Licentia: CC BY-ND 4.0 vel posterior"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Index: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanum – 22.3 secunda – 183,926 bytes – 64 kbps – Licentia: Dominium Publicum"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfara retro-stili – 2.2 secunda – 10,536 bytes – 32 kbps – Licentia: Dominio Publico"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Introitus modo retro – 42.1 secunda – 179,138 bytes – 32 kbps – Licentia: Dominio Publico"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Monitum a ChatGPT - 3.8 secunda - 109,700 bytes - 256 kbps - Licentia: Dominium Publicum"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sonus maximae necessitatis, monitus de programmate maligno repertō – Pars I a ChatGPT – 3.3 secunda – 102,850 bytes – 256 kbps – Licentia: Dominio Publico"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sonus magnae urgentiæ, monitus de programmate maligno repertō, Pars II a ChatGPT - 3.3 secunda - 103,122 bytes - 256 kbps - Licentia: Dominio Publico"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sonus MRI-similis a ChatGPT – 1 minuta 14.9 secunda – 3,340,392 bytes – 320 kbps – Licentia: Dominio Publico"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Elige musicam comitantem quae per monitum sonet."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Creat miram atmosphaeram."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Sonus in Firefox obstructus est."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Sibilus cum actio praescripta perficitur."
+
+msgid "有効 音量小さ目"
+msgstr "In, volumen humile"
+
+msgid "有効 音量大き目"
+msgstr "Activum, volumen ad summum positum"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Sibilus edetur ad omnia eventa clavis et muris, dum monitus ostenditur."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Videtur machinamentum insanire dum monitus ostenditur."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Cursorem muris celare cum actio certa perficitur."
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Cursorem muris in area navigatri celat, dum monitus ostenditur."
+
+msgid "デバッグモード"
+msgstr "Modus emendationis"
+
+msgid "妨害＋記録のみ"
+msgstr "Interferentia et Acta Sola"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Interferentia + Registratio + Ostensio + Redirectio"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ad eam per indicem adhuc accedere potes."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modus mendorum corrigendorum in Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Consola navigatri"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Re vera, id ex modo deprehendendi operari potes."
+
+msgid "HTMLソース表示"
+msgstr "Fontem HTML vide"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Operationem simpliciter exsequi potes URL inserendo quod 'view-source:' incipit."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Potestis contenta vestra tueri, hoc cum tutela HTML coniungendo."
+
+msgid "印刷"
+msgstr "Imprime"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Quamquam impressionem impedit, in quibusdam navigatris fortasse non recte fungitur."
+
+msgid "スクリーンショット"
+msgstr "Imago monitorii"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Secundum systema operativum, navigatrum, aut modum adhibitum, hoc aut prohiberi non poterit, aut non detegetur."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Imago fenestrae in recessum motae, ut suspicatur."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Respondet etiam functionibus aliis quam imaginum capiendarum"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Imago monitorii suspecta duabus clavibus pressis capta"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Rationes ad supradicta detegenda non sunt omnino certae; detectio ad cautelam peragitur."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Non solum imagines scrutiales, sed etiam modos emendatorios et similia detegit."
+
+msgid "ページ保存"
+msgstr "Serva paginam"
+
+msgid "右クリック"
+msgstr "Dextera preme"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Si additamentum installatum erit, eo uti poteris."
+
+msgid "コピー・カット"
+msgstr "Exscribe et seca"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Secundum configurationes huius additamenti, hoc eventum raro experieris."
+
+msgid "テキスト全選択"
+msgstr "Omne textum selige"
+
+msgid "テキスト選択"
+msgstr "Textum selige"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Registrum initiale depuratoris, Interferentia depuratoris"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Hoc modum deprehensorium paulo minus usoribus commodum reddit et notat deprehensorem inceptum esse; tamen, nonnulli navigatores hanc actionem impedire possunt."
+
+msgid "リダイレクトするURL"
+msgstr "URL redirectum"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Consilium bonum esset utentes ad paginas sicut Conditiones Usus redirectare."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Si vacuum relinquatur, ad URL primigenium rediriget."
+
+msgid "リダイレクトまでの時間"
+msgstr "Tempus usque ad redirectionem"
+
+msgid "リダイレクトなし"
+msgstr "Nulla redirectio"
+
+msgid "1秒"
+msgstr "Unus secundus"
+
+msgid "2秒"
+msgstr "Duae secundae"
+
+msgid "3秒"
+msgstr "Tres secundae"
+
+msgid "4秒"
+msgstr "Quattuor secunda"
+
+msgid "5秒"
+msgstr "Quinque secunda"
+
+msgid "6秒"
+msgstr "Sex secunda"
+
+msgid "7秒"
+msgstr "Septem secunda"
+
+msgid "8秒"
+msgstr "Octo secunda"
+
+msgid "9秒"
+msgstr "Novem secunda"
+
+msgid "10秒"
+msgstr "Decem secunda"
+
+msgid "15秒"
+msgstr "Quindecim secunda"
+
+msgid "20秒"
+msgstr "Viginti secunda"
+
+msgid "25秒"
+msgstr "Viginti quinque secunda"
+
+msgid "30秒"
+msgstr "Triginta secunda"
+
+msgid "35秒"
+msgstr "Quinquaginta quinque secunda"
+
+msgid "40秒"
+msgstr "Quadraginta secunda"
+
+msgid "45秒"
+msgstr "Quadraginta quinque secunda"
+
+msgid "50秒"
+msgstr "Quinquaginta secunda"
+
+msgid "55秒"
+msgstr "Quinquaginta quinque secunda"
+
+msgid "1分"
+msgstr "Unus minutus"
+
+msgid "1分10秒"
+msgstr "Unum minutum decemque secunda"
+
+msgid "1分20秒"
+msgstr "Unum minutum et viginti secunda"
+
+msgid "1分30秒"
+msgstr "Una minuta et triginta secunda"
+
+msgid "1分40秒"
+msgstr "Una minuta quadraginta secundis"
+
+msgid "1分50秒"
+msgstr "Unum minutum et quinquaginta secunda"
+
+msgid "2分"
+msgstr "Duae minuta"
+
+msgid "ソース表示を許可する権限"
+msgstr "Permissio inspiciendi codicem fontis"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Exitus normalis ex fonte solum cum ut ADMIN initus es."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Exitus normalis ex fonte cum ut USER in systema initus es."
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Elige utrum outputus HTML normalis administratoribus tantum restringatur an accessum utentis requirat."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "De imagine coacte demittenda et de re quae re vera demittitur"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Imago perspicua unius pixelis quadrati forma GIF."
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Imago pellucida unius pixelis quadrati forma PNG."
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Monitorium cum fundo flavo in forma PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Documentum HTML vanum"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Exitus tegiminis HEAD cum HTML protegitur"
+
+msgid "出力しない"
+msgstr "Noli imprimere"
+
+msgid "TITLEタグのみ"
+msgstr "Titulus tantum"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Ex capitis nota WordPress recuperatum"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Pro paginis corporativis sodalibus tantum destinatis et paginis internis, eligere 'Noli reddere' aut 'Tantummodo titulus' sufficere debet."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Nisi notitias ex tegumento HEAD WordPress recuperaveris, imago OGP in mediis socialibus communicatis non apparebit."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Obstrue botum imaginum"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Impediendo ne machinae automatariae imaginum ad HTML accedant, potes materiam tueri quae per nexum directum per quaestionem imaginum servari non poterat; tamen, hoc non praebet solutionem completam."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Aditum ad botum exercitationis IA obstrue."
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Vitando usum botorum ad institutionem Intelligentiae Artificialis in HTML designatorum, efficimus ut materia ab Intelligentia Artificiali non adhibeatur; hoc tamen omnino prohiberi non potest."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Obstrue aditum ad archiva interretialia et imagines momentaneas interretiales."
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Aditum ad archiva interretialia automatice collecta et imagines scrinii ad usoris arbitrium captas vetamus; tamen, hoc omnino prohibere non possumus."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Prohibe agentes utentes invalidos"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Aditum prohibet si series agentis utentis litteras invalidas continet."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Monitum ostende cum ad Internet Explorer et ad veterem Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Impedit accessum per Internet Explorer et vetus Microsoft Edge."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Lingua qua nuntii admonitorii ostenduntur"
+
+msgid "Wordpressの言語"
+msgstr "Linguae WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Linguae navigatri configurationes"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Lingua mutari non potest si nuntii accommodati sunt."
+
+msgid "同意画面の言語"
+msgstr "Lingua paginae consensūs"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Lingua qua nuntius 'view-source' exhibeatur."
+
+msgid "一時使用トークンの有効期限"
+msgstr "Dies exspirationis tesserae temporariae"
+
+msgid "3分"
+msgstr "Tres minuta"
+
+msgid "4分"
+msgstr "Quattuor minuta"
+
+msgid "5分"
+msgstr "Quinque minuta"
+
+msgid "6分"
+msgstr "Sex minuta"
+
+msgid "7分"
+msgstr "Septem minuta"
+
+msgid "8分"
+msgstr "Octo minuta"
+
+msgid "9分"
+msgstr "Novem minuta"
+
+msgid "10分"
+msgstr "Decem minuta"
+
+msgid "15分"
+msgstr "Quindecim minuta"
+
+msgid "20分"
+msgstr "Viginti minuta"
+
+msgid "25分"
+msgstr "Viginti quinque minuta"
+
+msgid "30分"
+msgstr "Triginta minuta"
+
+msgid "35分"
+msgstr "Quinquaginta quinque minuta"
+
+msgid "40分"
+msgstr "Quadraginta minuta"
+
+msgid "45分"
+msgstr "Quadraginta quinque minuta"
+
+msgid "50分"
+msgstr "Quinquaginta minuta"
+
+msgid "55分"
+msgstr "Quinquaginta quinque minuta"
+
+msgid "1時間"
+msgstr "Una hora"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Pone diem exspirationis informationis de URL imaginis."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Ongesita imagine, URL imaginis et tessera temporaria irritabuntur."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Imagines, cum postulantur, onerantur, sed automatice onerabuntur triginta secundis ante tempus designatum."
+
+msgid "一時使用トークンのビット数"
+msgstr "Numerus bitorum in tessera temporaria"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Signum temporarium pro tessera adhibetur ad informationem URL imaginis cryptographice obtegendam; haec configuratio eius robur designat."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Quamquam optiones sub menu pensili exhibitae magis magisque singulatae fiunt, hoc maiorem onerem in serviente imponere et efficere potest ut maior quantitas datorum HTML transferatur."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algorithmus Hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Signum temporarium pro tessera adhibetur ad informationem URL imaginis cryptographice obtegendam; hoc postulat computationem summarii, et haec configuratio vim illius computationis definit."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Quamquam intensitas augetur dum per optiones in indice pensili percurris, hoc maiorem onerem in servientem imponit."
+
+msgid "基本設定"
+msgstr "Configurationes fundamentales"
+
+msgid "高度な設定"
+msgstr "Configurationes Provectae"
+
+msgid "初期設定に戻す"
+msgstr "Redintegrare configurationes praedefinitas"
+
+msgid "デザイン・音の設定"
+msgstr "Consilium et configurationes soni"
+
+msgid "イベントの設定"
+msgstr "Constitutiones eventus"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "De notificationibus primarum visitationum constituendis"
+
+msgid "メッセージの設定"
+msgstr "Rationes nuntii"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Pone URL quod aperiatur cum dextro mure premitur aut codex fontis inspicitur."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML in nuntiis monentibus adhiberi non potest."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Si hoc in hac pagina configuraveris, configurationes linguarum in tabula Provectā neglectae erunt."
+
+msgid "以下の文字列が使用できます"
+msgstr "Sequentes fila adhiberi possunt."
+
+msgid "改行"
+msgstr "Recta lineae"
+
+msgid "押下されたキー"
+msgstr "Clavis pressa"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neonis HTML Protectoris Configuratio"
+
+msgid "お知らせ"
+msgstr "Nota"
+
+msgid "メッセージ"
+msgstr "Nuntius"
+
+msgid "デザイン・音"
+msgstr "Forma et Sonus"
+
+msgid "初期化"
+msgstr "Initiatio"
+
+msgid "このプラグインについて"
+msgstr "De hoc additamento"
+
+msgid "設定が初期化されました"
+msgstr "Configurationes restitutae sunt."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Pluginum initia. Nota, quaeso, data Lectoris Actorum IP hoc gradu non delebuntur."
+
+msgid "Neo HTML Protectorについて"
+msgstr "De Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Hoc additamentum destinatum est ad tuendam codicem HTML, imagines, et alia contenta a situ tuo WordPress generata, ea contra usum non permissum custodiens."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Impossibile est materiam omnino tueri. Tamen, monitionibus ubique ubi fieri potest datis et praeparationibus factis si quid accidat, rem secundum rationes a magistratibus praescriptas solvere poterimus."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Certe, tibi curandum est ut tua condicIONES et praescripta et norma situs comprehensiva sint. Quamquam hoc additamentum non est instrumentum ad condicIONES et praescripta generanda, potest tamen aliquam consilii rationem praebere."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Creator: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versio"
+
+msgid "ビルド"
+msgstr "Aedifica"
+
+msgid "サポートページ"
+msgstr "Pagina auxilii"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Acta a Domina Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Petitio auxilii"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Gratias tibi agimus quod Neo HTML Protector utiris!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Huius additamenti evolutio et sustentatio multum temporis et laboris postulaverunt; et ut pecunias colligamus ad id pergendum meliorandumque, grati essemus si quis facultatem habens de donatione facienda cogitaret."
+
+msgid "寄付について"
+msgstr "De Donationibus"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donationes omnino voluntariae sunt, non obligatoriae. Additamentum omnibus gratis praesto est. Tamen, auxilium vestrum magnopere aestimamus ut progressionem continuare possimus, et laetissimi essemus si quantum potestis conferre vultis."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Donationem facere potes per nexum infra positum. Si in Iaponia habitas, gratis donare potes, atque etiam facile donare potes utendo tesseris donativis Amazonis."
+
+msgid "寄付先"
+msgstr "Opera Benefica"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Auxilio vestro, operam dabimus ut pergere possimus vobis nuntios mirabiles afferre!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Gratias vobis agimus pro auxilio vestro et speramus vos nos in posterum quoque adiuturos esse."
+
+msgid "ライセンス"
+msgstr "Licentia"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Hoc programma additamentum ut programmatura fontis aperti evolvitur et sub licentia GPLv2.0 vel recentiore licentiatur."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Quaedam technologiae in hoc additamento contentae diplomatibus praesidiuntur."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Usus technologiae diplomate munitae solum intra hoc additamentum permittitur."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Ad quamlibet aliam usum, auctor consulendus est ut licentia commercialis impetrata sit."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Hoc additamentum sequentes bibliothecas continet."
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Hoc additamentum continet fontes artis ASCII infra generatos, una cum documentis fontium."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Hoc additamentum musicam continet ex ludo Super Famicom non publico, 'SM Trainer Hitomi 3', ab EJ Co., Ltd. elaborato et a creatore huius additamenti compositam, et cum licentia publica utitur."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Hoc additamentum continet cantus musicae, 'Keppy's YAMAHA C7' adhibendo creatos, a Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Etiam Raspberry Pi 5, ChatGPT et DeepL in hoc additamento evolvendo adhibui."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Plugin memoriae cache detectum est. Hoc plugin recte non fungetur si plugin memoriae cache activum est."
+
+msgid "無効なIPアドレス"
+msgstr "Inscriptio IP invalida"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ut hoc situ utaris, crustula et JavaScript habilitare debes."
+
+msgid "利用規約"
+msgstr "Conditiones Usus"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ad prohibendum usum non permissum et ad curandam securam operationem ministeriorum nostrorum, hic situs interretialis potest informationes, sicut inscriptiones IP, historiam navigationis, et acta actionum, in crustulis et basibus datorum condere. Hae informationes adhibentur solum ad operationem situs interretialis et ad fines legitimos, neque cum tertiis partibus communicabuntur."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ut hoc servitio utaris, his actionibus tractationis assentiri debes."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Contenta Praescripti de Re Privata inspicere potes, sive assensum dederis sive non."
+
+msgid "同意する"
+msgstr "Consentio"
+
+msgid "同意しない"
+msgstr "Non consentio"
+
+msgid "確認"
+msgstr "Confirmatio"
+
+msgid "プライバシーポリシー"
+msgstr "Ratio de Re Privata"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Aditus vel actio insolita detecta est."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Quaedam proprietates ad securitatem et tutelam materiarum causa coartatae sunt."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Modus mendorum emendandorum et aditus ad consolam interdicti sunt."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Informatio sequens ad servum missa est."
+
+msgid "あなたのIPアドレス"
+msgstr "Inscriptio tua interretialis"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Instrumentum tuum et navigatrum"
+
+msgid "あなたの押下したキー"
+msgstr "Clavis quam pressisti"
+
+msgid "リダイレクトをします"
+msgstr "Redirectus eris"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Quaedam proprietates coartatae sunt ad materiam tuendam."
+
+msgid "右クリックは禁止されています"
+msgstr "Dextra premere non licet."
+
+msgid "あなたが押下したキー"
+msgstr "Clavis quam pressisti"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Impressio et servatio ut PDF vetantur."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Imagines scrinii vetantur."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Imagines scrinii capere et modum deprehendendi activare vetantur."
+
+msgid "ページの保存は禁止されています"
+msgstr "Hanc paginam servare vetatur."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Exemplar facere et exscindere vetantur."
+
+msgid "あなたが起こしたイベント"
+msgstr "Eventus quos ordinavisti"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Textum seligere non licet."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Codicis fontis HTML monstratio vetita est."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Aditus non permissus vetatur."
+
+msgid "アフリカーンス語"
+msgstr "Africana"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Arabice"
+
+msgid "アッサム語"
+msgstr "Assamiensis"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijanensis"
+
+msgid "バシュキール語"
+msgstr "Percutere"
+
+msgid "ベラルーシ語"
+msgstr "Belarusice"
+
+msgid "ベンガル語"
+msgstr "Bengalensis"
+
+msgid "ブルガリア語"
+msgstr "Bulgāricus"
+
+msgid "ボスニア語"
+msgstr "Bosniensis"
+
+msgid "カタロニア語"
+msgstr "Catalanicus"
+
+msgid "チェコ語"
+msgstr "Bohemicus"
+
+msgid "ウェールズ語"
+msgstr "Cambricus"
+
+msgid "デンマーク語"
+msgstr "Danice"
+
+msgid "ドイツ語"
+msgstr "Theodiscus"
+
+msgid "現代ギリシア語"
+msgstr "Graecus hodiernus"
+
+msgid "英語"
+msgstr "Anglice"
+
+msgid "イギリス英語"
+msgstr "Britannic"
+
+msgid "アメリカ英語"
+msgstr "Anglicus Americanus"
+
+msgid "エスペラント語"
+msgstr "Sperans"
+
+msgid "スペイン語"
+msgstr "Hispanicus"
+
+msgid "エストニア語"
+msgstr "Estonicus"
+
+msgid "バスク語"
+msgstr "Vasconum"
+
+msgid "ペルシャ語"
+msgstr "Persa"
+
+msgid "フィンランド語"
+msgstr "Finnicus"
+
+msgid "フランス語"
+msgstr "Franciscus"
+
+msgid "アイルランド語"
+msgstr "Hibernicus"
+
+msgid "ガリシア語"
+msgstr "Gallaecianus"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Domus"
+
+msgid "ヘブライ語"
+msgstr "Hebraice"
+
+msgid "ヒンディ語"
+msgstr "Sanskrit"
+
+msgid "クロアチア語"
+msgstr "Croaticus"
+
+msgid "ハイチ・クレオール語"
+msgstr "Cretensis Haitiana"
+
+msgid "ハンガリー語"
+msgstr "Hungaricus"
+
+msgid "インドネシア語"
+msgstr "Indonesius"
+
+msgid "イボ語"
+msgstr "Lingua Ibo"
+
+msgid "アイスランド語"
+msgstr "Glaciarium"
+
+msgid "イタリア語"
+msgstr "Italicus"
+
+msgid "日本語"
+msgstr "Iaponice"
+
+msgid "ジャワ語"
+msgstr "Iavanice"
+
+msgid "カザフ語"
+msgstr "Cazach"
+
+msgid "朝鮮語"
+msgstr "Coreanus"
+
+msgid "クルド語"
+msgstr "Curdicum"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latine"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgesch"
+
+msgid "リンガラ語"
+msgstr "Lingala"
+
+msgid "リトアニア語"
+msgstr "Lithuanus"
+
+msgid "ラトビア語"
+msgstr "Latvianus"
+
+msgid "マダガスカル語"
+msgstr "Malagasius"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Macedonicus"
+
+msgid "マラヤーラム語"
+msgstr "Malayalica"
+
+msgid "モンゴル語"
+msgstr "Mongolicus"
+
+msgid "マラーティー語"
+msgstr "Marathice"
+
+msgid "マレー語"
+msgstr "Malayicus"
+
+msgid "マルタ語"
+msgstr "Maltensis"
+
+msgid "ビルマ語"
+msgstr "Birmanus"
+
+msgid "ネパール語"
+msgstr "Nepalensis"
+
+msgid "ノルウェー語"
+msgstr "Norvegicus"
+
+msgid "オランダ語"
+msgstr "Batavi"
+
+msgid "オック語"
+msgstr "Occitan"
+
+msgid "オロモ語"
+msgstr "Aut"
+
+msgid "パンジャーブ語"
+msgstr "Punjabice"
+
+msgid "ポーランド語"
+msgstr "Pols"
+
+msgid "パシュトー語"
+msgstr "Pascua"
+
+msgid "ポルトガリア語"
+msgstr "Portuguesia"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portuguesia Brasiliana"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portugallica Europaea"
+
+msgid "ケチュア語"
+msgstr "Inca"
+
+msgid "ルーマニア語"
+msgstr "Romanice"
+
+msgid "ロシア語"
+msgstr "Russicus"
+
+msgid "サンスクリット語"
+msgstr "Lingua Graeca"
+
+msgid "スロバキア語"
+msgstr "Slovacica"
+
+msgid "スロベニア語"
+msgstr "Slovensko"
+
+msgid "セルビア語"
+msgstr "Serbius"
+
+msgid "南セソト語"
+msgstr "Sesotho Meridionale"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
+msgid "スウェーデン語"
+msgstr "Suecus"
+
+msgid "スワヒリ語"
+msgstr "Suaheli"
+
+msgid "タミル語"
+msgstr "Tamulica"
+
+msgid "テルグ語"
+msgstr "Telugum"
+
+msgid "タジク語"
+msgstr "Tajikӣ"
+
+msgid "タイ語"
+msgstr "Thaianus"
+
+msgid "トルクメン語"
+msgstr "Turcorum"
+
+msgid "タガログ語"
+msgstr "Linggo"
+
+msgid "トルコ語"
+msgstr "Turcicus"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukrainicus"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Usbecus"
+
+msgid "ベトナム語"
+msgstr "Vietnamiensis"
+
+msgid "コサ語"
+msgstr "Capillus"
+
+msgid "イディッシュ語"
+msgstr "Iudaico-Germanice"
+
+msgid "簡体中国語"
+msgstr "Sinaica Simplificata"
+
+msgid "繁体中国語"
+msgstr "Sinaica traditionalis"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Navigator quem nunc uteris est versio vetustior quae non iam sustinetur. Ad navigandum tutius et commodius, quaeso, renovā navigatrum tuum ad novissimam versionem."
+
+msgid "不正なリクエストです"
+msgstr "Petitio invalida"
+
+msgid "画像が見つかりません"
+msgstr "Imago non reperta"
+

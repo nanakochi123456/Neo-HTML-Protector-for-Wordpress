@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1501,147 +1501,399 @@ msgid "不正アクセスは禁止されています"
 msgstr ""
 
 #: classes/neohp-global.php:184
-msgid "アラビア語"
+msgid "アフリカーンス語"
 msgstr ""
 
 #: classes/neohp-global.php:185
-msgid "ブルガリア語"
+msgid "アラゴン語"
 msgstr ""
 
 #: classes/neohp-global.php:186
-msgid "チェコ語"
+msgid "アラビア語"
 msgstr ""
 
 #: classes/neohp-global.php:187
-msgid "デンマーク語"
+msgid "アッサム語"
 msgstr ""
 
 #: classes/neohp-global.php:188
-msgid "ドイツ語"
+msgid "アゼルバイジャン語"
 msgstr ""
 
 #: classes/neohp-global.php:189
-msgid "現代ギリシア語"
+msgid "バシュキール語"
 msgstr ""
 
 #: classes/neohp-global.php:190
-msgid "英語"
+msgid "ベラルーシ語"
 msgstr ""
 
 #: classes/neohp-global.php:191
-msgid "イギリス英語"
+msgid "ベンガル語"
 msgstr ""
 
 #: classes/neohp-global.php:192
-msgid "アメリカ英語"
+msgid "ブルガリア語"
 msgstr ""
 
 #: classes/neohp-global.php:193
-msgid "スペイン語"
+msgid "ボスニア語"
 msgstr ""
 
 #: classes/neohp-global.php:194
-msgid "エストニア語"
+msgid "カタロニア語"
 msgstr ""
 
 #: classes/neohp-global.php:195
-msgid "フィンランド語"
+msgid "チェコ語"
 msgstr ""
 
 #: classes/neohp-global.php:196
-msgid "フランス語"
+msgid "ウェールズ語"
 msgstr ""
 
 #: classes/neohp-global.php:197
-msgid "ハンガリー語"
+msgid "デンマーク語"
 msgstr ""
 
 #: classes/neohp-global.php:198
-msgid "インドネシア語"
+msgid "ドイツ語"
 msgstr ""
 
 #: classes/neohp-global.php:199
-msgid "イタリア語"
+msgid "現代ギリシア語"
 msgstr ""
 
 #: classes/neohp-global.php:200
-msgid "日本語"
+msgid "英語"
 msgstr ""
 
 #: classes/neohp-global.php:201
-msgid "朝鮮語"
+msgid "イギリス英語"
 msgstr ""
 
 #: classes/neohp-global.php:202
-msgid "リトアニア語"
+msgid "アメリカ英語"
 msgstr ""
 
 #: classes/neohp-global.php:203
-msgid "ラトビア語"
+msgid "エスペラント語"
 msgstr ""
 
 #: classes/neohp-global.php:204
-msgid "ノルウェー語"
+msgid "スペイン語"
 msgstr ""
 
 #: classes/neohp-global.php:205
-msgid "オランダ語"
+msgid "エストニア語"
 msgstr ""
 
 #: classes/neohp-global.php:206
-msgid "ポーランド語"
+msgid "バスク語"
 msgstr ""
 
 #: classes/neohp-global.php:207
-msgid "ポルトガリア語"
+msgid "ペルシャ語"
 msgstr ""
 
 #: classes/neohp-global.php:208
-msgid "ブラジルポルトガル語"
+msgid "フィンランド語"
 msgstr ""
 
 #: classes/neohp-global.php:209
-msgid "ヨーロピアンポルトガル語"
+msgid "フランス語"
 msgstr ""
 
 #: classes/neohp-global.php:210
-msgid "ルーマニア語"
+msgid "アイルランド語"
 msgstr ""
 
 #: classes/neohp-global.php:211
-msgid "ロシア語"
+msgid "ガリシア語"
 msgstr ""
 
 #: classes/neohp-global.php:212
-msgid "スロバキア語"
+msgid "グァラニ語"
 msgstr ""
 
 #: classes/neohp-global.php:213
-msgid "スロベニア語"
+msgid "グジャラート語"
 msgstr ""
 
 #: classes/neohp-global.php:214
-msgid "スウェーデン語"
+msgid "ハウサ語"
 msgstr ""
 
 #: classes/neohp-global.php:215
-msgid "トルコ語"
+msgid "ヘブライ語"
 msgstr ""
 
 #: classes/neohp-global.php:216
-msgid "ウクライナ語"
+msgid "ヒンディ語"
 msgstr ""
 
 #: classes/neohp-global.php:217
-msgid "中国語"
+msgid "クロアチア語"
 msgstr ""
 
 #: classes/neohp-global.php:218
-msgid "簡体中国語"
+msgid "ハイチ・クレオール語"
 msgstr ""
 
 #: classes/neohp-global.php:219
+msgid "ハンガリー語"
+msgstr ""
+
+#: classes/neohp-global.php:220
+msgid "インドネシア語"
+msgstr ""
+
+#: classes/neohp-global.php:221
+msgid "イボ語"
+msgstr ""
+
+#: classes/neohp-global.php:222
+msgid "アイスランド語"
+msgstr ""
+
+#: classes/neohp-global.php:223
+msgid "イタリア語"
+msgstr ""
+
+#: classes/neohp-global.php:224
+msgid "日本語"
+msgstr ""
+
+#: classes/neohp-global.php:225
+msgid "ジャワ語"
+msgstr ""
+
+#: classes/neohp-global.php:226
+msgid "カザフ語"
+msgstr ""
+
+#: classes/neohp-global.php:227
+msgid "朝鮮語"
+msgstr ""
+
+#: classes/neohp-global.php:228
+msgid "クルド語"
+msgstr ""
+
+#: classes/neohp-global.php:229
+msgid "キルギス語"
+msgstr ""
+
+#: classes/neohp-global.php:230
+msgid "ラテン語"
+msgstr ""
+
+#: classes/neohp-global.php:231
+msgid "ルクセンブルク語"
+msgstr ""
+
+#: classes/neohp-global.php:232
+msgid "リンガラ語"
+msgstr ""
+
+#: classes/neohp-global.php:233
+msgid "リトアニア語"
+msgstr ""
+
+#: classes/neohp-global.php:234
+msgid "ラトビア語"
+msgstr ""
+
+#: classes/neohp-global.php:235
+msgid "マダガスカル語"
+msgstr ""
+
+#: classes/neohp-global.php:236
+msgid "マオリ語"
+msgstr ""
+
+#: classes/neohp-global.php:237
+msgid "マケドニア語"
+msgstr ""
+
+#: classes/neohp-global.php:238
+msgid "マラヤーラム語"
+msgstr ""
+
+#: classes/neohp-global.php:239
+msgid "モンゴル語"
+msgstr ""
+
+#: classes/neohp-global.php:240
+msgid "マラーティー語"
+msgstr ""
+
+#: classes/neohp-global.php:241
+msgid "マレー語"
+msgstr ""
+
+#: classes/neohp-global.php:242
+msgid "マルタ語"
+msgstr ""
+
+#: classes/neohp-global.php:243
+msgid "ビルマ語"
+msgstr ""
+
+#: classes/neohp-global.php:244
+msgid "ネパール語"
+msgstr ""
+
+#: classes/neohp-global.php:245
+msgid "ノルウェー語"
+msgstr ""
+
+#: classes/neohp-global.php:246
+msgid "オランダ語"
+msgstr ""
+
+#: classes/neohp-global.php:247
+msgid "オック語"
+msgstr ""
+
+#: classes/neohp-global.php:248
+msgid "オロモ語"
+msgstr ""
+
+#: classes/neohp-global.php:249
+msgid "パンジャーブ語"
+msgstr ""
+
+#: classes/neohp-global.php:250
+msgid "ポーランド語"
+msgstr ""
+
+#: classes/neohp-global.php:251
+msgid "パシュトー語"
+msgstr ""
+
+#: classes/neohp-global.php:252
+msgid "ポルトガリア語"
+msgstr ""
+
+#: classes/neohp-global.php:253
+msgid "ブラジルポルトガル語"
+msgstr ""
+
+#: classes/neohp-global.php:254
+msgid "ヨーロピアンポルトガル語"
+msgstr ""
+
+#: classes/neohp-global.php:255
+msgid "ケチュア語"
+msgstr ""
+
+#: classes/neohp-global.php:256
+msgid "ルーマニア語"
+msgstr ""
+
+#: classes/neohp-global.php:257
+msgid "ロシア語"
+msgstr ""
+
+#: classes/neohp-global.php:258
+msgid "サンスクリット語"
+msgstr ""
+
+#: classes/neohp-global.php:259
+msgid "スロバキア語"
+msgstr ""
+
+#: classes/neohp-global.php:260
+msgid "スロベニア語"
+msgstr ""
+
+#: classes/neohp-global.php:261
+msgid "セルビア語"
+msgstr ""
+
+#: classes/neohp-global.php:262
+msgid "南セソト語"
+msgstr ""
+
+#: classes/neohp-global.php:263
+msgid "スンダ語"
+msgstr ""
+
+#: classes/neohp-global.php:264
+msgid "スウェーデン語"
+msgstr ""
+
+#: classes/neohp-global.php:265
+msgid "スワヒリ語"
+msgstr ""
+
+#: classes/neohp-global.php:266
+msgid "タミル語"
+msgstr ""
+
+#: classes/neohp-global.php:267
+msgid "テルグ語"
+msgstr ""
+
+#: classes/neohp-global.php:268
+msgid "タジク語"
+msgstr ""
+
+#: classes/neohp-global.php:269
+msgid "タイ語"
+msgstr ""
+
+#: classes/neohp-global.php:270
+msgid "トルクメン語"
+msgstr ""
+
+#: classes/neohp-global.php:271
+msgid "タガログ語"
+msgstr ""
+
+#: classes/neohp-global.php:272
+msgid "トルコ語"
+msgstr ""
+
+#: classes/neohp-global.php:273
+msgid "タタール語"
+msgstr ""
+
+#: classes/neohp-global.php:274
+msgid "ウクライナ語"
+msgstr ""
+
+#: classes/neohp-global.php:275
+msgid "ウルドゥー語"
+msgstr ""
+
+#: classes/neohp-global.php:276
+msgid "ウズベク語"
+msgstr ""
+
+#: classes/neohp-global.php:277
+msgid "ベトナム語"
+msgstr ""
+
+#: classes/neohp-global.php:278 classes/neohp-global.php:279
+msgid "コサ語"
+msgstr ""
+
+#: classes/neohp-global.php:280
+msgid "イディッシュ語"
+msgstr ""
+
+#: classes/neohp-global.php:281
+msgid "簡体中国語"
+msgstr ""
+
+#: classes/neohp-global.php:282
 msgid "繁体中国語"
+msgstr ""
+
+#: classes/neohp-global.php:283
+msgid "ズールー語"
 msgstr ""
 
 #: classes/neohp-htmlcompress.php:44 classes/neohp-htmlprotect.php:44

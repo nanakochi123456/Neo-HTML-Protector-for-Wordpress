@@ -1,0 +1,1292 @@
+# Quechua translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 08:43+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Quechua\n"
+"Language: qu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Allichaykuna"
+
+msgid "IPログリーダー"
+msgstr "IP Qillqa Ñawiriq"
+
+msgid "IPアドレスログ"
+msgstr "IP tiyay qillqasqa"
+
+msgid "全クリア"
+msgstr "Tukuy patakunata tukuy"
+
+msgid "IPログが全て削除されました"
+msgstr "Llapan IP qillqasqakuna pichasqañam kanku."
+
+msgid "ID"
+msgstr "Pichqa yupay"
+
+msgid "タイムスタンプ"
+msgstr "Pacha qillqa"
+
+msgid "IPアドレス"
+msgstr "Llika tiyanap tupuynin"
+
+msgid "ユーザーエージェント"
+msgstr "Ruraq apachikuq"
+
+msgid "イベント"
+msgstr "Ruway"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Kay IP direccionpaqqa manam willakuy kanchu."
+
+msgid "EU GDPR対応"
+msgstr "UE GDPR nisqaman hunt'ay"
+
+msgid "無効"
+msgstr "Mana chanin"
+
+msgid "有効"
+msgstr "Chanin"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "WordPress nisqata UE ukhupi llamk'achichkanki chayqa, utaq web p'anqayki UE ukhupi kaqkunapaq kachkan chayqa, ama hina kaspa, kayta churay."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "'Confirm' ñit'inaqa 'Arí' utaq 'Manan' nisqamanmi t'ikrakunqa, hinaspataq ruwayninpas pisillata t'ikrakunqa."
+
+msgid "同意画面の色"
+msgstr "Arí ninapaq qhawanap llimp'in"
+
+msgid "自動"
+msgstr "Kikinmanta"
+
+msgid "ライトモード"
+msgstr "Hap'iqlla ñan"
+
+msgid "ダークモード"
+msgstr "Yana Rikch'ay"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Arí ninapaq qhawanapaq llimp'ikunata churay"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Munasqayki qhawanapi imaymanakuna laqhayay"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Munasqayki qhawana p'anqapi rikuchisqa kaqkunapaq laqhayachiy sayayninta churay."
+
+msgid "同意画面の透過"
+msgstr "Arí ninapaq qhawanap ch'uyayaynin"
+
+msgid "透過なし"
+msgstr "Mana ch'uyanchay"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Aranway qhawanap ch'uyaynin churanakuy"
+
+msgid "お知らせの1行目"
+msgstr "Willakuypa ñawpaq siq'in"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Kay willakuyqa sapa kutin rikuchikun p'anqa ñawpaq kutita kargakusqanpi."
+
+msgid "お知らせの2行目"
+msgstr "Willakuypa iskay ñiqin siq'in"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Kay willakuyqa ñawpaq qhawanapim wiñaypaq rikurinqa, EU GDPR kamachikuy kallpachasqa kachkaptinlla."
+
+msgid "お知らせの3行目"
+msgstr "Willakuypa kinsa ñiqin siq'in"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Sapanchasqa Willaykunamanta Kamachikuypa t'inkininpa paña larunpi rikhurinqa."
+
+msgid "非EU向け確認の文字列"
+msgstr "Mana UE suyukunapaq takyachina qillqa"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "UE GDPR nisqapaq ari ninapaq qillqa"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Ama ari ninachu, UE GDPR kamachikuypaq qillqa"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Sapanchasqa willakuykunamanta kamachikuy qillqa"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Ama hina kaspa, kaypi churaq chaski kamachikuypa URL nisqanta."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Ama hina kaspa, kay qatiqta Sapanchasqa Willakuykunamanta Kamachikuyman yapay."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Llulla ruwaykunata taripanapaq, IP direccionkuna hina riqsichinakunaqa cookies nisqapi hinallataq willay taqipi waqaychasqa kanku. Waqaychasqa willaykunaqa kamachiqpa munasqanman hina pichasqa kanku."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Rikch'a amachay llamk'achkasqan pachapi rikch'akuna allinta chaskisqa kanankuta qhawanapaq, IP tiyaywan rikch'a sutintawan hap'iq hashaqchasqa willakuykunata willay taqiykupi suqta chunka minutukama waqaychayku."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Sichus Llamk'achina Kamachikuykunata churashanki, ama qunqaychu Sapanchasqa Willaykunamanta Kamachikuyniykipi chayman t'inkita churanaykita."
+
+msgid "利用規約の文字列"
+msgstr "Llamk'achina Kamachikuykunaq Qillqan"
+
+msgid "利用規約のページ"
+msgstr "Kamachikuykuna hinaspa Rurana Kamachikuykuna p'anqa"
+
+msgid "ページ選択なし"
+msgstr "Mana p'anqa akllasqachu"
+
+msgid "検索エンジン等のURL"
+msgstr "Mask'ana makinakunapaq URLkuna, hukkunapas."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Mask'ana makinakunapaq URL nisqata churay, chaykunataq mana munaspa puriqkunata hukman kachan."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Pantay allichana, consola willaykuna"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Paña ñit'iywan willakuy"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "PDFpi ch'ipachinamanta waqaychanamantawan yuyaychay willakuy"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Rikch'a hap'isqapi willay"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Rikch'asqa pantallakunamanta willay"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Llapan qillqasqa akllasqa kachkaptin willay"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "P'anqata waqaychaymanta willakuy"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Kutichichkaspa utaq kuchuchkaspa rikuchisqa willakuy"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "HTML pukyu qhawaspa rikuchinapaq willakuy"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "HTML pukllayachispa utaq amachaspa, pukllayachina qillqaq qallariyninpa hawanpi rikuchinapaq willakuy"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "HTML amachay pachapi huk kuti llamk'aq chiqaqchana mana chanin kaptin rikuchinapaq willakuy"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Cookiekunapas JavaScriptpas mana llamk'achisqa kaptin rikuchinapaq willakuy"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Chiqaqpuniqa, kayqa JavaScript wich'usqa kachkaptinlla rikuchikun."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Huk rikch'a hark'asqa kaptinqa, uraykachisqam, chay rikch'apitaq huk willakuy rikurin"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML laqhayachiy"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Kayqa sapsi HTML ñit'iyninmi; kantaqmi web p'anqakunapas chayta kutichinapaq."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Kay akllanata atichispaqa, qhawana pukyu qillqakamaykunata hurquyta atinki."
+
+msgid "HTML保護"
+msgstr "HTML amachay"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Aslla HTML nisqallatam lluqsichin—HTML ñit'iywan llamk'asqamantapas aswan pisi—chaymantapas BODY unanchap ukhunpi kaqqa manam imaynallapas lluqsimunqachu."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Kayqa manam Firefoxpaqchu."
+
+msgid "SEOに著しく影響があります"
+msgstr "Kayqa SEO nisqapi ancha hatun kallpayuqmi."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "JavaScriptwan HTML ruway"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox-ta muyunapaq, HTML nisqata JavaScript nisqawan rikuchiyku."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScript rikuchiyta saqiyqa web p'anqap kargakuy usqhayninta anchatapuni allillamanta kachinqa."
+
+msgid "画像の保護"
+msgstr "Rikch'ay amachay"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Sapa kuti img unancha waqyasqa kaqtin, rikch'ata amachay."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "WordPressman wichachisqa llapan rikch'akunata llapan HTML lluqsimuynin ukhupi amachay."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Rikch'akunata uraykachinamanta hark'an"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Rikch'a willaykuna amachasqa kaptinqa, yaqa llapan uraykachiykunata hark'ayku, sapan kuti llamk'aq URL nisqakunata qoyku, sesión nisqapi waqaychasqa tokenkunawan chiqanchayku, hinaspa rikch'akunata PHP nisqawan rikuchiyku; kayqa allintam yaqa llapan rikch'a suwakuyta hark'an."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Rikch'a willaykuna hark'asqa kaptinqa, cache nisqa mana llamk'anchu, chayrayku web p'anqa qhipa kutikunapi aswan allillamanta kargakunqa, chaywantaq SEO nisqatapas llakichinqa."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Rikch'a willaykunata amachayqa willaykuna taqipa llasayninta yapaykunman."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "'Rikch'akunata amachay sapa kuti img unancha waqyasqa kaptin' nisqata akllanki chayqa, llikachaqa add_filter nisqawanmi suysuyta churaykun img unancha paqarichisqa kaptin; ichaqa, kayqa wakin rikch'aykunawanqa manachá allintachu llamk'anman."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "'WordPressman churasqa llapan rikch'akunata llapan HTML lluqsimuyninpi amachay' nisqata akllaptiykiqa, kay pluginqa yaqa llapan WordPress ruraykunata hap'inqa, hinaspataq qillqasqapi sapa img unanchata ruranqa. Yuyariy, kayqa wakin rikch'aykunawan mana allintachu llamk'anman."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Yuyariy, akllasqa rikch'akunaqa OGP willay hina rak'isqa kanqa, manataqmi amachay atinachu. Sichus chiqamanta amachanayki kaptinqa, HTML amachayta kichaspa, ñawpaqman risqa kamachiykunapi HEAD unanchap lluqsinanpaq kamachiyta t'ikray."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Llamk'achina llikap kikinmanta churasqa pantallamanta siq'i hap'ina ruwayninqa mana amachay atinachu."
+
+msgid "画像URLの保護"
+msgstr "Rikch'a t'inkikunata amachay"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Kayqa rikch'a amachaywan kuska llamk'achisqa kanan; sapallanqa, mana imapaqpas valenchu."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "JavaScriptwan churakusqanrayku, kayqa SEO nisqata hukmanyachin."
+
+msgid "画像のウォーターマーク"
+msgstr "Rikch'ap unanchan"
+
+msgid "右下"
+msgstr "Paña urapi"
+
+msgid "ランダム位置"
+msgstr "Mayqin sayaypas"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Rikch'a amachaywan kuska llamk'achisqa, kuyuriq unancha qillqakunaqa sut'ita rikuchinku kamachiqpa hayñin kapuqninta, chayllapitaq qhawaqkunaman qhawasqa kasqankuta yuyachispa, chaynapitaq hark'anapaq hina llamk'anku."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "JPG, PNG, WebP rikch'a rikch'aykunallam chaskisqa kanku."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kayta saqiyqa sirwiqpa llamk'ayninta yapaykunqa."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "HTML pukyu qillqamanta ASCII kapchiyta lluqsichiy, pakaqchaypi hinallataq amachaypi."
+
+msgid "表示なし"
+msgstr "Mana rikuchinachu"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "'view-source' nisqawan HTML qallariy qillqata qhawaspa, huk willayta rikuchiq ASCII siq'ikunata rikuchin."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Munasqa ruway hunt'akuptin rikuchiyta rikuchiy"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Q'illu qhipapi yana qillqayuq sapsi siq'i."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Manchay rikch'aq ruway, yana qhipapi puka qillqayuq."
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Yana qhipapi k'anchaq puka qillqayuq siq'i"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Rurana hunt'akuptin waqariq qhipa takiy"
+
+msgid "サウンドなし"
+msgstr "Mana uyarikunchu"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Maqanakuy & Atipay - 1 minuto 16.3 segundo - 630,056 byte - 64 kbps - Saqillay: CC 2.1 utaq qhipanmanta"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Tayta Short - 3.8 sigundukuna - 32,364 bytekuna - 64 kbps - Lisinsya: GPL 2.0 utaq qhipan"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 sigundukuna - 195,578 bytekuna - 64 kbps - Lisinsya: GPL 2.0 utaq qhipan"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – Antañiqiqpa rurasqan, utqaylla kaq – 1 minuto 57.6 segundo – 724,457 byte – 48 kbps – Saqillay: CC BY-ND 4.0 utaq qhipanmanta"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo B bemol menorpi, Op. 2 – Antañiqiqpa rurasqan, utqhaylla pisiyachisqa – 1 minuto 48.0 segundo – 665,369 byte – 48 kbps – Lisinsya: CC BY-ND 4.0 utaq qhipanmanta"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Sutina: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 sigundukuna – 183,926 bytekuna – 64 kbps – Lisinsya: Lliwpaq kaq"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Ñawpaq pachamanta hina phukuy – 2.2 sigundukuna – 10,536 bytekuna – 32 kbps – Saqillay: Lliwpaq kaq"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Ñawpaq rikch'ay qallariy – 42.1 sigundukuna – 179,138 baytukuna – 32 kbps – Saqillay: Lliwpaq"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "ChatGPT-pa willaynin - 3.8 sigundukuna - 109,700 bytekuna - 256 kbps - Lisinsya: Lliwpaq kaq"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Hatun usqhaylla, malware tarisqa willakuy hina – Huk ñiqin raki, ChatGPT-pa ruwasqan – 3.3 sigundukuna – 102,850 bytekuna – 256 kbps – Saqillay: Lliwpaq kachkan"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Hatun usqhaylla, malware tarisqa willakuy hina uyarikun, Iskay ñiqin raki, ChatGPT-pa ruwasqan - 3.3 sigundukuna - 103,122 byte - 256 kbps - Lisinsya: Lliwpaq kachkan"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "MRI hina kunkata ChatGPT-pa rurasqan – 1 minuto 14.9 sigundu – 3,340,392 byte – 320 kbps – Saqillay: Lliwpaq kachkan"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Willay pachapi waqachinapaq qhipa takita akllay."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Musphachikuq pachata paqarichin"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Firefox nisqapi uyarina hark'asqa kachkan."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Akllasqa ruway hunt'akuptin huk bip"
+
+msgid "有効 音量小さ目"
+msgstr "Pukllasqa, k'allaylla"
+
+msgid "有効 音量大き目"
+msgstr "K'uchisqa, kallpan hatunpi churasqa"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Llapan tekladomanta ukuchamantawan ruwaykunapaq huk bip uyarikunqa, huk willariy rikuchikuchkaptin."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Willay rikuchikuchkaptin, aparikunaqa mana kamachiy atina hina rikch'akun."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Huk sapaq ruway hunt'akuptin ukucha t'upsinata pakay"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Llika wamp'uqpa p'anqanpi ukhu-ukhu t'upsita pakay, huk willakuy rikuchikuchkaptin."
+
+msgid "デバッグモード"
+msgstr "Pantay allichana ñan"
+
+msgid "妨害＋記録のみ"
+msgstr "Ch'aqway + Qillqasqakuna"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Hark'ay + Qillqay + Rikuchiy + Hukman pusay"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Menú nisqanpiqa chayman yaykuyta atillankipuni."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Firefoxpi pantay allichana"
+
+msgid "ブラウザーコンソール"
+msgstr "Llika mask'aqpa willaynin"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Chiqapuniqa, pantay allichana ñanmanta llamk'achiyta atinki."
+
+msgid "HTMLソース表示"
+msgstr "HTML pukyu qillqata qhaway"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Huk URL nisqata qillqaspa, 'view-source:' nisqawan qallariqllata, chay ruwaytaqa atinkimanmi."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Kayta HTML amachaywan huñuspa, qillqasqaykita amachawaqmi."
+
+msgid "印刷"
+msgstr "Ch'ipachiy"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Ch'ipachiyta hark'aptinpas, wakin llik'a mask'aqkunapiqa ichapas mana allintachu llamk'anman."
+
+msgid "スクリーンショット"
+msgstr "Rikuchina hap'iy"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Sistema operativo, navegador utaq llamk'achisqa ñanman hinaqa, ichapas mana hark'ayta atikunchu kayta, utaq mana taripasqa kanman."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Waqaychasqa rikch'a, wintana qhipaman risqanpi."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Hinallataq pantallamanta siq'ikunamanta hawa huk ruwaykunamanpas kutichin"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Iskay ñit'inata ñit'ispa hap'isqa rikch'a, iskayrayasqa"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Hawa kaqkunata taripanapaq ñankunaqa manan llapan kutichu allin takyasqa kanku; taripayqa huk amachakuy ruray hinan ruwakun."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Manam pantallamanta siq'ikunallatachu taripan, aswanpas pantay allichana ñankunata chayman rikch'akuqkunatapas."
+
+msgid "ページ保存"
+msgstr "P'anqata waqaychay"
+
+msgid "右クリック"
+msgstr "Paña ñit'iy"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Yapasqa churaykusqa kaptinqa, atinkim chaywan llamk'ayta."
+
+msgid "コピー・カット"
+msgstr "Kutichiy hinaspa kuchuy"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Kay pluginpa kamachiyninkunaman hinaqa, ichapas kay sucesoqa mana ancha kutichu qampaq rikhurinqa."
+
+msgid "テキスト全選択"
+msgstr "Tukuy qillqata akllay"
+
+msgid "テキスト選択"
+msgstr "Qillqata akllay"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Pantay allichaq qallariy qillqa, pantay allichaq hark'ay"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Kayqa pantay allichana ñanpa llamk'achinapaq kayninta pisillata sasachan, hinaspataq qillqan pantay allichaq qallarichisqa kasqanta; ichaqa, wakin llik'a mask'aqkunaqa kay ruwayta hark'ayta atinkuman."
+
+msgid "リダイレクトするURL"
+msgstr "URL-ta wakman pusay"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Allin yuyaymi kanman llamk'achiqkunata Llamk'achina Kamachikuykuna hina p'anqakunaman pusay."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Ch'usaqpi saqisqaqa, qallariq URL nisqamanmi apanqa."
+
+msgid "リダイレクトまでの時間"
+msgstr "Musuq ñanman pusaykama pacha"
+
+msgid "リダイレクトなし"
+msgstr "Manan wakman pusanqachu"
+
+msgid "1秒"
+msgstr "Huk segundo"
+
+msgid "2秒"
+msgstr "Iskay segundo"
+
+msgid "3秒"
+msgstr "Kimsa segundo"
+
+msgid "4秒"
+msgstr "Tawa segundo"
+
+msgid "5秒"
+msgstr "Pichqa segundo"
+
+msgid "6秒"
+msgstr "Suqta sigundu"
+
+msgid "7秒"
+msgstr "Qanchis sigundukuna"
+
+msgid "8秒"
+msgstr "Pusaq sigundukuna"
+
+msgid "9秒"
+msgstr "Isqun sigundu"
+
+msgid "10秒"
+msgstr "Chunka segundo"
+
+msgid "15秒"
+msgstr "Chunka pichqayuq sigundu"
+
+msgid "20秒"
+msgstr "Iskay chunka segundo"
+
+msgid "25秒"
+msgstr "Iskay chunka pichqayuq sigundu"
+
+msgid "30秒"
+msgstr "Kimsa chunka segundo"
+
+msgid "35秒"
+msgstr "Kimsa chunka pichqayuq segundo"
+
+msgid "40秒"
+msgstr "Tawa chunka segundo"
+
+msgid "45秒"
+msgstr "Tawa chunka pichqayuq segundo"
+
+msgid "50秒"
+msgstr "Pichqa chunka segundo"
+
+msgid "55秒"
+msgstr "Pichqa chunka pichqayuq sigundu"
+
+msgid "1分"
+msgstr "Huk k'iti"
+
+msgid "1分10秒"
+msgstr "Huk minuto chunka segundo"
+
+msgid "1分20秒"
+msgstr "Huk minuto iskay chunka segundo"
+
+msgid "1分30秒"
+msgstr "Huk minuto kimsa chunka segundo"
+
+msgid "1分40秒"
+msgstr "Huk minuto tawa chunka segundo"
+
+msgid "1分50秒"
+msgstr "Huk minuto pichqa chunka segundo"
+
+msgid "2分"
+msgstr "Iskay k'iti"
+
+msgid "ソース表示を許可する権限"
+msgstr "Pukyukuna qillqata qhawanapaq saqillay"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Kamachiq hina yaykusqalla kachkaptinqa, sapsi paqarinanlla."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Sapa kuti lluqsimuy, USER hina yaykusqa kachkaspa"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Akllay, sapsi HTML lluqsimuynin kamachiqkunallapaq kananta icha llamk'achiq yaykuyta mañakunanta."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Huk rikch'ata kallpawan uraykachiy, chaymanta imachus chiqapuni uraykachisqa"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Huk 1x1 pixel lloq'lla rikcha GIF rikch'ayninpi"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Huk 1x1 pixel lloqlla rikcha, PNG rikch'ayninpi"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Q'illu qhipanwan willakuq qhawanapampa, PNG rikch'ayninpi"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Mana imapaqpas valeq HTML qillqa"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HTML hark'asqa kachkaptin HEAD unanchap lluqsimuynin"
+
+msgid "出力しない"
+msgstr "Ama llimp'iychu"
+
+msgid "TITLEタグのみ"
+msgstr "Umancha qillqallan"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "WordPress HEAD unanchanmanta hurqusqa"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Empresa llamk'anapaq, miembronkunallapaq p'anqakunapi chaymanta ukhu p'anqakunapiqa, 'Ama lluqsichiychu' utaq 'TITLE unanchallan' nisqata akllayqa allin kanqa."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "WordPress HEAD etiquetamanta willakuyta mana hurquspaykiqa, OGP rikch'aqa manam rikhurinqachu llika tinkuna wasikunapi rakinakuspa."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Rikch'a botta hark'ay"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Rikch'a botkunata HTMLman yaykunankuta hark'aspaqa, rikch'a mask'aywan chiqan t'inkiywan mana amachay atina kaq willakuyta amachawaqmi; ichaqa, kayqa manam tukuy imapaq allin allin allichaychu."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Yachayniyuq makina yachachina botman yaykuyta hark'ay"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "HTML nisqapi AI yachachinapaq ruwasqa botskunata mana llamk'achispaqa, qhawarinchikmi chay willakuyta AI mana llamk'achinanpaq; ichaqa, kaytaqa manam tukuytachu hark'ayta atikunman."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Llikapi waqaychasqa willakunaman chaymanta llikamanta usqhaylla hap'isqakunaman yaykuyta hark'ay"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Mana saqinchikchu kikinmanta huñusqa llikapi waqaychasqa willakunaman, hinallataq runap munayninman hina hurqusqa lliq'a siq'ikunamanpas yaykuyta; ichaqa, manan chayta tukuytachu hark'ayta atiyku."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Mana chanin apaykachaqkunata hark'ay"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Mana yaykuyta saqin, sichus user agent qillqa mana chanin sanampakunayuq kaptin."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Internet Explorermanpas mawk'a Microsoft Edgemanpas"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Internet Explorerwan, mawk'a Microsoft Edgewan ima yaykuyta hark'an."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Willaykuna rikuchisqa kaq simi"
+
+msgid "Wordpressの言語"
+msgstr "WordPresspa siminkuna"
+
+msgid "ブラウザの設定言語"
+msgstr "Llika mask'aqpa simi kamachiyninkuna"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Willakuykuna sapaqchasqa kaptinqa, manam simita t'ikrayta atinkichu."
+
+msgid "同意画面の言語"
+msgstr "Arí ninapaq qhawanap simin"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "'view-source' willakuyta rikuchinapaq simi"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Pachallanpaq sananchakunap tukukuy p'unchawnin"
+
+msgid "3分"
+msgstr "Kimsa k'iti"
+
+msgid "4分"
+msgstr "Tawa k'iti"
+
+msgid "5分"
+msgstr "Pichqa k'iti"
+
+msgid "6分"
+msgstr "Suqta minutu"
+
+msgid "7分"
+msgstr "Qanchis minutu"
+
+msgid "8分"
+msgstr "Pusaq minutu"
+
+msgid "9分"
+msgstr "Isqun k'iti"
+
+msgid "10分"
+msgstr "Chunka k'iti"
+
+msgid "15分"
+msgstr "Chunka pichqayuq minutu"
+
+msgid "20分"
+msgstr "Iskay chunka minutu"
+
+msgid "25分"
+msgstr "Iskay chunka pichqayuq minutu"
+
+msgid "30分"
+msgstr "Kimsa chunka minuto"
+
+msgid "35分"
+msgstr "Kimsa chunka pichqayuq minutu"
+
+msgid "40分"
+msgstr "Tawa chunka minuto"
+
+msgid "45分"
+msgstr "Tawa chunka pichqayuq kuskacha"
+
+msgid "50分"
+msgstr "Pichqa chunka minuto"
+
+msgid "55分"
+msgstr "Pichqa chunka pichqayuq minutu"
+
+msgid "1時間"
+msgstr "Huk ura"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Rikch'a URL willakuypa tukukuy p'unchawninta churay"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Huk kuti q'ipichasqa kaptinqa, rikch'ap URL nisqanpas pisi pachapaq token nisqanpas mana llamk'anqañam."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Rikch'akunaqa mañakusqallanman hina q'ipichakun, ichaqa kikinmanta q'ipichakunqa chay nisqa pacha manaraq chayamuchkaptin kimsa chunka segundo ñawpaqta."
+
+msgid "一時使用トークンのビット数"
+msgstr "Pacha-pukllaypaq unanchapi bitkunaq yupaynin"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Huk pacha tokenmi pakasqa simi hina llank'achikun rikch'a URL willakuyta pakaypaq; kay kamachiyqa kallpanta sut'inchan."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Urayman kichakuq akllanapi rikuchisqa akllanakuna aswan t'aqwirisqa kaptinpas, kayqa sirwidurman aswan hatun llank'ayta churayta atin, chaymantataq aswan achkha HTML willakuy apachikunanpaq tukunman."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Chaqrusqa yupay ñan"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Huk pisi pachapaq unanchaqa pakasqa simi hina llamk'achikun rikch'ap URL willayninta pakaypaq; kaypaqqa hashing nisqa munakun, kay churanataqmi chay hashingpa kallpanta kamachin."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Urayk'uypaq menupi rikuchisqa akllanakunata urayman suchurichkaspa kallpan yapakusqanpas, kayqa sirwidurman aswan hatun llank'ayta churaykun."
+
+msgid "基本設定"
+msgstr "Qallariy allichaykuna"
+
+msgid "高度な設定"
+msgstr "Ñawpaqman risqa kamachiykuna"
+
+msgid "初期設定に戻す"
+msgstr "Qallariy kamachiykunata kutichiy"
+
+msgid "デザイン・音の設定"
+msgstr "Rikch'ayninwan uyarinapaq allichaykuna"
+
+msgid "イベントの設定"
+msgstr "Huñunakuypa kamachiyninkuna"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ñawpaq kutita watukuqkunapaq willaykunata churay"
+
+msgid "メッセージの設定"
+msgstr "Willakuypa kamachiyninkuna"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Paña ñit'iywan kichanapaq utaq pukyu qillqata qhawanapaq URL churanakuy."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML manam willaykunapiqa llamk'achiy atikunchu."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Kay qhawanapi kayta wakichiptiykiqa, Ñawpaqman Rurasqa t'aqapi simi wakichiykunaqa mana kasusqachu kanqa."
+
+msgid "以下の文字列が使用できます"
+msgstr "Kay qatiq qillqa siq'ikunaqa llamk'achikunmanmi."
+
+msgid "改行"
+msgstr "Sira p'aki"
+
+msgid "押下されたキー"
+msgstr "Llavi ñit'isqa"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Musuq HTML Amachaq Allichayninkuna"
+
+msgid "お知らせ"
+msgstr "Willakuy"
+
+msgid "メッセージ"
+msgstr "Willakuy"
+
+msgid "デザイン・音"
+msgstr "Rikch'aywan Uyarina"
+
+msgid "初期化"
+msgstr "Qallariy"
+
+msgid "このプラグインについて"
+msgstr "Kay pluginmanta"
+
+msgid "設定が初期化されました"
+msgstr "T'ikraykunaqa musuqmanta churasqañam kachkan."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Yanapata qallarichiy. Yuyariy, IP Log Reader willakuykunaqa manaraqmi kay pachapi pichasqachu kanqa."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Neo HTML Amachaqmanta"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Kay pluginqa ruwasqa kachkan WordPress web p'anqaykiq paqarichisqan HTML nisqata, rikch'akunata, huk kaqkunatapas amachananpaq, mana saqillasqa apaykachaymanta hark'aspa."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Imaymana kaqkunata hunt'asqata amachayqa mana atinachu. Ichaqa, atikusqanman hina willakuykunata quspa, imapas kaptinpaq wakichikuspa ima, kamachikuqpa kamachisqanman hina kay sasachakuyta allichayta atisunman."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Chiqapmi, qhawarinayki tiyan servisiyupa kamachikuyninkuna chaymanta web p'anqapa kamachikuyninkuna hunt'asqa kanankupaq. Kay plugin mana servisiyupa kamachikuyninkunata paqarichinapaq llamk'anachu kaptinpas, huk pusayta qusunkimanmi."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Ruraq: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Lluqsimuynin"
+
+msgid "ビルド"
+msgstr "Wasichay"
+
+msgid "サポートページ"
+msgstr "Yanapay p'anqa"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Ura Manira sipaspa ruwasqan"
+
+msgid "支援のお願い"
+msgstr "Yanapay mañakuy"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Añay Neo HTML Protector nisqata llamk'achisqaykimanta!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Kay pluginpa wiñachiyninpas allinlla kananpaq qhawariyninpas ancha achka pachatam, kallpatam mañakun. Chayrayku, aswan allinyachinapaq musuqyachinapaqpas qullqita huñunapaq, pipas yanapayta atiq yanapawaqninchikman qullqi qunaykita yuyaykunman chayqa, anchatam agradecekusunman."
+
+msgid "寄付について"
+msgstr "Quykuykunamanta"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Quykuykunaqa munayllamantam, manam kamachisqachu. Kay pluginqa llapa runapaqmi mana qullqiyuq. Ichaqa, yanapayniykichikta anchatam chaninchaniku kayta wiñachinallaykupaq, hinaspapas ancha kusisqam kanayku sichus pisi qullqillatapas quwaqchik."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Kay urapi kaq t'inkita ñit'ispa qullqi qunayki atinki. Japón suyupi tiyaq kaspaykiqa, mana qullqiyuqta qunayki atinki, hinallataq Amazonpa qoykuy valenkunawanpas hawalla qunayki atinki."
+
+msgid "寄付先"
+msgstr "Khuyapayay wasikuna"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Qamkunap yanapayniykichikwanqa, tukuy atisqaykuta ruwasun allin musuq willakuykunata qamkunaman apamushallanaykupaq."
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Yanapawasqaykichikmanta anchatam agradecekuyku, hamuq pachapipas yanapawanaykichiktataq suyakuyku."
+
+msgid "ライセンス"
+msgstr "Saqillay"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Kay pluginqa kichasqa pukyu software hina ruwasqa kachkan, hinaspataq GPLv2.0 utaq qhipa kaq kamachiywan lisinsiyachisqa kachkan."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Kay pluginpi churasqa wakin tecnologíakunaqa patentekunawan amachasqam kanku."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Kay patenteyuq tecnología nisqaqa kay plug-in ukhullapim llamk'achiy atikun."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Huk imapaqpas llamk'achinapaqqa, qillqaqwan rimanakuy qhatunapaq saqillayta chaskinaykipaq."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Kay pluginqa kay qatiq libreríaskunatam hap'in."
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Kay pluginqa urapi ruwasqa ASCII arte sanampakunata, sanampa willañiqikunawan kuskata hap'in."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Kay pluginqa EJ Co., Ltd. nisqap rurasqan mana oficial 'SM Trainer Hitomi 3' Super Famicom pukllaymanta takikunayuqmi, chay takikunataq kay pluginpa ruraqninpa qillqasqanmi, hinaspapas kamachisqa licenciayuqmi."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Kay pluginqa Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Kay pluginta wiñachinaypaqqa, Raspberry Pi 5, ChatGPT, DeepL nisqakunatapas llamk'achirqanim."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Huk cache-paq plugin tarisqa kachkan. Kay pluginqa manam allintachu llamk'anqa sichus huk cache-paq plugin llamk'achisqa kachkan chayqa."
+
+msgid "無効なIPアドレス"
+msgstr "Mana chanin IP tiyay"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Kay web p'anqata llamk'achinaykipaqqa, cookies nisqakunata JavaScript nisqatapas atichinaykim tiyan."
+
+msgid "利用規約"
+msgstr "Imayna apaykachana kamachikuykuna"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Mana saqillasqa llamk'achiyta hark'anapaq, hinallataq qarananchiskuna allin takyasqa puririnanpaq, kay web p'anqaqa willakuykunata waqaychayta atinman, kaykunata hina: IP tiyaykunata, llikapi purisqaykipa willayninta, ruwasqaykikunamanta qillqasqakunatapas, cookies nisqakunapi chaymanta willay taqikunapi. Kay willakuykunaqa web p'anqap puririyninpaq hinallataq kamachiypaqkunallam llamk'achikun, manataqmi huk runakunamanpas willasqachu kanqa."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Kay qaranata llamk'achinaykipaqqa, kay ruwaykunaman ari ninaykim tiyan."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Sapanchay Kamachikuypa ukhunpi kaqkunataqa qhawayta atinki, ari nisqaykiña kachun manaña kachunpas."
+
+msgid "同意する"
+msgstr "Arí nini"
+
+msgid "同意しない"
+msgstr "Manan chaynallachu yuyani"
+
+msgid "確認"
+msgstr "Kallpanchay"
+
+msgid "プライバシーポリシー"
+msgstr "Sapanchasqa Willakuymanta Kamachikuy"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Mana yachasqa yaykuy utaq ruray tarisqa kachkan."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Wakin imaymanakunaqa hark'asqa kachkan waqaychasqa kanapaq chaymanta imaymanakuna amachanapaq."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Pantay allichana ñanpas consola yaykunapas wichq'asqam kachkan."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Kay qatiq willakuyqa sirwidurmanmi apachisqa."
+
+msgid "あなたのIPアドレス"
+msgstr "Qampa IP tiyayniyki"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Llamk'anaykiwan llik'a mask'aqniykiwan"
+
+msgid "あなたの押下したキー"
+msgstr "Ñit'isqayki kichana"
+
+msgid "リダイレクトをします"
+msgstr "Wakman apasqa kanki"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Wakin imaymanakunaqa hark'asqa kachkan ukhunpi kaqta amachanapaq."
+
+msgid "右クリックは禁止されています"
+msgstr "Paña ñit'iyqa manam saqillasqachu"
+
+msgid "あなたが押下したキー"
+msgstr "Ñit'isqayki kichana"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "PDFpi ch'ipachiywan waqaychaypas hark'asqam kachkan."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Rikch'a hap'iykunaqa hark'asqam."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Rikch'a hap'iykuna ruwaypas pantay rikuchina ñanta kichariypas hark'asqam kanku."
+
+msgid "ページの保存は禁止されています"
+msgstr "Kay p'anqata waqaychayqa hark'asqam."
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopiyaypas kuchuypas hark'asqam."
+
+msgid "あなたが起こしたイベント"
+msgstr "Qampa wakichisqayki ruwaykuna"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Qillqata akllayqa manam saqillasqachu."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML pukyu qillqata rikuchiyqa hark'asqam."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Mana saqillasqa yaykuyqa hark'asqam."
+
+msgid "アフリカーンス語"
+msgstr "Afrikans"
+
+msgid "アラゴン語"
+msgstr "Aragonés"
+
+msgid "アラビア語"
+msgstr "Arabe simi"
+
+msgid "アッサム語"
+msgstr "Asamés simi"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijan simi"
+
+msgid "バシュキール語"
+msgstr "K'amiy"
+
+msgid "ベラルーシ語"
+msgstr "Belaruso simi"
+
+msgid "ベンガル語"
+msgstr "Bengali simi"
+
+msgid "ブルガリア語"
+msgstr "Búlgaro simi"
+
+msgid "ボスニア語"
+msgstr "Bosniya simi"
+
+msgid "カタロニア語"
+msgstr "Katalán simi"
+
+msgid "チェコ語"
+msgstr "Checo"
+
+msgid "ウェールズ語"
+msgstr "Gales simi"
+
+msgid "デンマーク語"
+msgstr "Danés simi"
+
+msgid "ドイツ語"
+msgstr "Alemán"
+
+msgid "現代ギリシア語"
+msgstr "Kunan pacha Griego simi"
+
+msgid "英語"
+msgstr "Ingles simi"
+
+msgid "イギリス英語"
+msgstr "Britain's"
+
+msgid "アメリカ英語"
+msgstr "Americano Ingles"
+
+msgid "エスペラント語"
+msgstr "Suyasqa simi"
+
+msgid "スペイン語"
+msgstr "Ispañul simi"
+
+msgid "エストニア語"
+msgstr "Estonio"
+
+msgid "バスク語"
+msgstr "Vasco"
+
+msgid "ペルシャ語"
+msgstr "Parsiyamanta"
+
+msgid "フィンランド語"
+msgstr "Tukunanpaq"
+
+msgid "フランス語"
+msgstr "Franses simi"
+
+msgid "アイルランド語"
+msgstr "Irlandés"
+
+msgid "ガリシア語"
+msgstr "Galiicia simi"
+
+msgid "グァラニ語"
+msgstr "Ñuñu"
+
+msgid "グジャラート語"
+msgstr "Gujarati simiqa huk Indiamanta simim, Indiamanta runakunap rimaynin."
+
+msgid "ハウサ語"
+msgstr "Allin"
+
+msgid "ヘブライ語"
+msgstr "Hebreo simi"
+
+msgid "ヒンディ語"
+msgstr "Mancha simi"
+
+msgid "クロアチア語"
+msgstr "Croacia simi"
+
+msgid "ハイチ・クレオール語"
+msgstr "Aytiyankumanta Kreyol simi"
+
+msgid "ハンガリー語"
+msgstr "Ungur simi"
+
+msgid "インドネシア語"
+msgstr "Indonesiamanta"
+
+msgid "イボ語"
+msgstr "Ibo simi"
+
+msgid "アイスランド語"
+msgstr "Chiri Rumi"
+
+msgid "イタリア語"
+msgstr "Italiano"
+
+msgid "日本語"
+msgstr "Nihun simi"
+
+msgid "ジャワ語"
+msgstr "Javayuq"
+
+msgid "カザフ語"
+msgstr "Kazakh simi"
+
+msgid "朝鮮語"
+msgstr "Koreamanta simi"
+
+msgid "クルド語"
+msgstr "Kurdiyamanta"
+
+msgid "キルギス語"
+msgstr "Kirgista"
+
+msgid "ラテン語"
+msgstr "Latín simi"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgués"
+
+msgid "リンガラ語"
+msgstr "Kawsaq simi"
+
+msgid "リトアニア語"
+msgstr "Lituania simi"
+
+msgid "ラトビア語"
+msgstr "Latviyamanta"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Māori runakuna"
+
+msgid "マケドニア語"
+msgstr "Macedonio"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam simi"
+
+msgid "モンゴル語"
+msgstr "Mongolian simi"
+
+msgid "マラーティー語"
+msgstr "Marañi simi"
+
+msgid "マレー語"
+msgstr "Malayo simi"
+
+msgid "マルタ語"
+msgstr "Malta simi"
+
+msgid "ビルマ語"
+msgstr "Birman"
+
+msgid "ネパール語"
+msgstr "Nepal simi"
+
+msgid "ノルウェー語"
+msgstr "Noruegamanta"
+
+msgid "オランダ語"
+msgstr "Hulandés simi"
+
+msgid "オック語"
+msgstr "Ocitan"
+
+msgid "オロモ語"
+msgstr "Uywa"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi simi"
+
+msgid "ポーランド語"
+msgstr "Llusk'achay"
+
+msgid "パシュトー語"
+msgstr "Ch'ulla simi"
+
+msgid "ポルトガリア語"
+msgstr "Purtuquy simi"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brasil simi"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Iwrupap purtuqes simin"
+
+msgid "ケチュア語"
+msgstr "Karu simi"
+
+msgid "ルーマニア語"
+msgstr "Rumán simi"
+
+msgid "ロシア語"
+msgstr "Rusiya simi"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Eslovaquio"
+
+msgid "スロベニア語"
+msgstr "Islovenia simi"
+
+msgid "セルビア語"
+msgstr "Sirbiyamanta"
+
+msgid "南セソト語"
+msgstr "Urin Suesu"
+
+msgid "スンダ語"
+msgstr "Sunda simi"
+
+msgid "スウェーデン語"
+msgstr "Suecia simi"
+
+msgid "スワヒリ語"
+msgstr "Suwahili simi"
+
+msgid "タミル語"
+msgstr "Tamil simi"
+
+msgid "テルグ語"
+msgstr "Teligu simi"
+
+msgid "タジク語"
+msgstr "Sumaq"
+
+msgid "タイ語"
+msgstr "Tailandés"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Taga-Tagalog"
+
+msgid "トルコ語"
+msgstr "Turco simi"
+
+msgid "タタール語"
+msgstr "Tata simi"
+
+msgid "ウクライナ語"
+msgstr "Ucraniano"
+
+msgid "ウルドゥー語"
+msgstr "Urdumanta"
+
+msgid "ウズベク語"
+msgstr "Uzbeko"
+
+msgid "ベトナム語"
+msgstr "Vietnamita"
+
+msgid "コサ語"
+msgstr "Chaki"
+
+msgid "イディッシュ語"
+msgstr "Yidi simi"
+
+msgid "簡体中国語"
+msgstr "Ch'ullanchasqa Simi Chinu"
+
+msgid "繁体中国語"
+msgstr "Ñawpaq China simi"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Kunan llamk'achisqayki llik'a mask'aqqa ñawpaq kaqmi, manañam yanapasqachu. Aswan allin waqaychasqa hinaspa hawkalla llik'api purinaykipaq, ama hina kaspa, llik'a mask'aqniykita qhipa kaqman musuqyachiy."
+
+msgid "不正なリクエストです"
+msgstr "Mana chanin mañakuy"
+
+msgid "画像が見つかりません"
+msgstr "Rikch'a mana tarisqachu"
+

@@ -1,14 +1,14 @@
 # Swedish translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 17:00+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:40+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -984,14 +984,44 @@ msgstr "Visning av HTML-källa är förbjuden."
 msgid "不正アクセスは禁止されています"
 msgstr "Obehörig åtkomst är förbjuden."
 
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragoniska"
+
 msgid "アラビア語"
 msgstr "Arabiska"
+
+msgid "アッサム語"
+msgstr "Assamesiska"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbajdzjanska"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Vitryska"
+
+msgid "ベンガル語"
+msgstr "Bengali"
 
 msgid "ブルガリア語"
 msgstr "Bulgariska"
 
+msgid "ボスニア語"
+msgstr "Bosniska"
+
+msgid "カタロニア語"
+msgstr "Katalanska"
+
 msgid "チェコ語"
 msgstr "Tjeckiska"
+
+msgid "ウェールズ語"
+msgstr "Welsh"
 
 msgid "デンマーク語"
 msgstr "Danska"
@@ -1011,11 +1041,20 @@ msgstr "Brittisk engelska"
 msgid "アメリカ英語"
 msgstr "Amerikansk engelska"
 
+msgid "エスペラント語"
+msgstr "Esperanto"
+
 msgid "スペイン語"
 msgstr "Spanska"
 
 msgid "エストニア語"
 msgstr "Estniska"
+
+msgid "バスク語"
+msgstr "Baskiska"
+
+msgid "ペルシャ語"
+msgstr "Farsi"
 
 msgid "フィンランド語"
 msgstr "Finska"
@@ -1023,11 +1062,44 @@ msgstr "Finska"
 msgid "フランス語"
 msgstr "Franska"
 
+msgid "アイルランド語"
+msgstr "Irländska"
+
+msgid "ガリシア語"
+msgstr "Galiciska"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebreiska"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Kroatiska."
+
+msgid "ハイチ・クレオール語"
+msgstr "Haitisk kreol"
+
 msgid "ハンガリー語"
 msgstr "Ungerska"
 
 msgid "インドネシア語"
 msgstr "Indonesiska"
+
+msgid "イボ語"
+msgstr "Wartburgs språk"
+
+msgid "アイスランド語"
+msgstr "Isländska"
 
 msgid "イタリア語"
 msgstr "Italienska"
@@ -1035,8 +1107,29 @@ msgstr "Italienska"
 msgid "日本語"
 msgstr "Japanska"
 
+msgid "ジャワ語"
+msgstr "Javanesiska"
+
+msgid "カザフ語"
+msgstr "Kazakiska"
+
 msgid "朝鮮語"
 msgstr "Koreanska"
+
+msgid "クルド語"
+msgstr "Kurdiska"
+
+msgid "キルギス語"
+msgstr "Kirgiziska"
+
+msgid "ラテン語"
+msgstr "Latinska"
+
+msgid "ルクセンブルク語"
+msgstr "Luxemburgska"
+
+msgid "リンガラ語"
+msgstr "Lingala"
 
 msgid "リトアニア語"
 msgstr "Litauiska"
@@ -1044,14 +1137,56 @@ msgstr "Litauiska"
 msgid "ラトビア語"
 msgstr "Lettiska"
 
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Makedonska"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam-språket"
+
+msgid "モンゴル語"
+msgstr "Mongoliska"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malayiska"
+
+msgid "マルタ語"
+msgstr "Maltesiska"
+
+msgid "ビルマ語"
+msgstr "Burmesiska"
+
+msgid "ネパール語"
+msgstr "Nepali"
+
 msgid "ノルウェー語"
 msgstr "Norska"
 
 msgid "オランダ語"
 msgstr "Nederländska"
 
+msgid "オック語"
+msgstr "Occitanska"
+
+msgid "オロモ語"
+msgstr "Oromo"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
 msgid "ポーランド語"
 msgstr "Polska"
+
+msgid "パシュトー語"
+msgstr "Pashto"
 
 msgid "ポルトガリア語"
 msgstr "Portugisiska"
@@ -1062,11 +1197,17 @@ msgstr "Brasiliansk portugisiska"
 msgid "ヨーロピアンポルトガル語"
 msgstr "Europeisk portugisiska"
 
+msgid "ケチュア語"
+msgstr "Quechua"
+
 msgid "ルーマニア語"
 msgstr "Rumänska"
 
 msgid "ロシア語"
 msgstr "Ryska"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
 
 msgid "スロバキア語"
 msgstr "Slovakien"
@@ -1074,23 +1215,71 @@ msgstr "Slovakien"
 msgid "スロベニア語"
 msgstr "Slovenska"
 
+msgid "セルビア語"
+msgstr "Serbiska"
+
+msgid "南セソト語"
+msgstr "Södra Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundanesiska"
+
 msgid "スウェーデン語"
 msgstr "Svenska"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tadzjikiska"
+
+msgid "タイ語"
+msgstr "Thailändska"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Tagalog"
 
 msgid "トルコ語"
 msgstr "Turkiska"
 
+msgid "タタール語"
+msgstr "Tatar"
+
 msgid "ウクライナ語"
 msgstr "Ukrainska"
 
-msgid "中国語"
-msgstr "Kinesiska"
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbekiska"
+
+msgid "ベトナム語"
+msgstr "Vietnamesiska"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jiddisch"
 
 msgid "簡体中国語"
 msgstr "Förenklad kinesiska"
 
 msgid "繁体中国語"
 msgstr "Traditionell kinesiska"
+
+msgid "ズールー語"
+msgstr "Zulu"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "Den webbläsare du använder för närvarande är en äldre version som inte längre stöds. För att få en säkrare och bekvämare surfmiljö bör du uppdatera till den senaste webbläsaren."

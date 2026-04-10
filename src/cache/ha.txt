@@ -1,0 +1,424 @@
+設定	Saituna
+IPログリーダー	Mai karanta log na IP
+IPアドレスログ	Rajistar adireshin IP
+全クリア	Kammala duk matakan
+IPログが全て削除されました	An goge duk bayanan rajistar IP.
+ID	Shaida
+タイムスタンプ	Alamar lokaci
+IPアドレス	Adireshin IP
+ユーザーエージェント	Mai aikin mai amfani
+イベント	Taro
+IPアドレスのデータはありません	Babu bayanai don wannan adireshin IP.
+EU GDPR対応	Bin ƙa'idar GDPR ta EU
+無効	Ba ingantacce ba
+有効	Ingantacce
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Idan kuna amfani da WordPress a cikin Tarayyar Turai, ko idan gidan yanar gizonku yana nufin masu amfani a cikin Tarayyar Turai, da fatan za ku tabbatar an kunna wannan.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Maɓallin 'Tabbatar' zai canza zuwa 'Yarda' ko 'Karyata', kuma halayya za ta canza kaɗan.
+同意画面の色	Launin allon amincewa
+自動	Ta atomatik
+ライトモード	Halin haske
+ダークモード	Halin Duhu
+同意画面表示中の配色を設定します	Saita tsarin launuka na allon amincewa
+同意画面中のコンテンツのぼかし	Ruɗe abun ciki a allon amincewa
+同意画面表示中のコンテンツのぼかし具合を設定します	Saita matakin ruɗe-gani ga abun da ake nunawa a allon amincewa
+同意画面の透過	Bayyanar allon amincewa
+透過なし	Babu gaskiya
+同意画面の透過具合を設定します	Saita bayyanar allon amincewa
+お知らせの1行目	Layin farko na sanarwar
+初回表示で必ず表示されるメッセージです	Ana nuna wannan saƙon koyaushe a karo na farko da aka loda shafin.
+お知らせの2行目	Layin na biyu na sanarwar
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Wannan saƙon zai bayyana koyaushe a nuni na farko kawai idan EU GDPR ta fara aiki.
+お知らせの3行目	Layin na uku na sanarwar
+プライバシーポリシーのリンクの右側に表示されます	Zai bayyana a dama na mahaɗin zuwa Manufofin Sirri.
+非EU向け確認の文字列	Rubutun tabbatarwa don ƙasashen da ba na EU ba
+EU GDPR向け同意するの文字列	Rubutaccen izini don EU GDPR
+EU GDPR向け同意しないの文字列	Rubutu don 'Kada a yarda' a ƙarƙashin EU GDPR
+プライバシーポリシーの文字列	Rubutun manufofin sirri
+プライバシーポリシーのURLはこちらから設定して下さい	Don Allah sa adireshin URL na manufofin sirri a nan.
+プライバシーポリシーには以下の内容を追加して下さい	Don Allah a ƙara waɗannan abubuwan zuwa ga Dokar Sirri.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Don gano ayyukan zamba, ana adana alamomi kamar adireshin IP a cikin kukis da ma'ajiyar bayanai. Ana goge bayanan da aka adana bisa ga hukuncin mai gudanarwa.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Don tabbatar da cewa an isar da hotuna yadda ya kamata ne kawai idan an kunna kariyar hotuna, muna adana bayanai da aka yi musu hash, waɗanda suka ƙunshi adireshin IP da sunan fayil ɗin hoto, a cikin ma'ajiyar bayanai na tsawon mintuna 60.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Idan kuna kafa Sharuɗɗan Amfani, don Allah ku tabbatar kun haɗa mahaɗin su a cikin Manufofin Sirri.
+利用規約の文字列	Rubutun Sharuɗɗan Amfani
+利用規約のページ	Shafin Sharuɗɗa da Ka'idoji
+ページ選択なし	Ba a zaɓi shafi ba
+検索エンジン等のURL	URLs don injunan bincike, da sauransu.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Saita URL ɗin injunan bincike da shafuka makamancin haka waɗanda ke tura masu amfani zuwa wani wuri idan ba su yarda ba.
+デバッグモード、コンソールの警告メッセージ	Modi na gyaran kuskure, saƙonnin gargaɗi na console
+右クリックの警告メッセージ	Danna dama a kan saƙon gargaɗi
+印刷、PDF保存の警告メッセージ	Sako na gargaɗi game da buga da ajiye a matsayin PDF
+スクリーンショットの警告メッセージ	Sakon gargaɗi a cikin hoton allo
+スクリーンショットの疑いの警告メッセージ	Sakon gargaɗi game da hotunan allo da ake zargin an ɗauka
+テキスト全選択時の警告メッセージ	Sakon gargaɗi lokacin da aka zaɓi duk rubutun
+ページ保存の警告メッセージ	Sakon gargaɗi game da adana shafi
+コピー・カットした時に表示するメッセージ	Sako da ake nuna lokacin kwafi ko yankan
+HTMLソース表示時に表示するメッセージ	Sako da za a nuna lokacin duba tushen HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Sako da za a nuna a saman lambar tushe lokacin da ake ruɗarwa ko kare HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Sako da za a nuna idan token ɗin tabbatarwa na sau ɗaya bai yi aiki ba yayin kariyar HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Sako da za a nuna idan an kashe kukis ko JavaScript
+実際にはJavascriptが無効時のみ表示されます	A gaskiya, ana nuna wannan ne kawai idan an kashe JavaScript.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Idan an kare hoto, ana sauke shi, sannan a nuna saƙo a kan hoton
+HTML難読化 (圧縮)	Ruɗa HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Wannan matsewar HTML ce ta al'ada; akwai kuma shafukan yanar gizo da za su iya fassara shi.
+このオプションを有効にするとview-sourceのログが取得できます	Ta kunna wannan zaɓi, za ku iya dawo da rajistar duba tushe.
+HTML保護	Karewar HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Yana fitar da HTML kaɗan ma fiye da saitin matse HTML, ma'ana ba za a fitar da abun cikin tag ɗin BODY ba kwata-kwata.
+Firefoxに対しては無効です	Wannan ba ya shafa Firefox.
+SEOに著しく影響があります	Wannan yana da tasiri mai muhimmanci ga SEO.
+HTMLをJavaScriptで描画	Gina HTML ta amfani da JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Don magance matsalar Firefox, muna nuna HTML ɗin ta amfani da JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Bada damar aiwatar da JavaScript zai jinkirta saurin ɗorawa na gidan yanar gizo sosai.
+画像の保護	Kare hoto
+imgタグが呼び出されるごとに画像を保護	Kare hoton duk lokacin da aka kira tag ɗin img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Kare duk hotunan da aka loda a WordPress a cikin dukkan fitarwar HTML
+画像をダウンロードから保護します	Yana kare hotuna daga saukarwa
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Idan an kare bayanan hotuna, muna hana kusan duk saukarwa, muna samar da URLs na lokaci guda na musamman, muna tabbatar da sahihanci ta amfani da alamomin tsaro da aka ajiye a zaman, sannan muna nuna hotunan ta PHP; wannan yana hana kusan duk sata hotuna.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Idan an kare bayanan hoto, ajiyar wucin gadi ba ta aiki, wanda ke nufin shafin zai loda a hankali a ziyarce-ziyarce na gaba, ta haka yana shafar SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Kare bayanan hoto na iya ƙara nauyi a kan ma'ajiyar bayanai.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Idan ka zaɓi 'Kare hotuna duk lokacin da aka kira tag ɗin img', tsarin zai yi amfani da add_filter don aiwatar da tacewa lokacin da ake ƙirƙirar tag ɗin img; duk da haka, wannan na iya kasa aiki yadda ya kamata tare da wasu jigogi.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Idan ka zaɓi 'Kare duk hotunan da aka loda zuwa WordPress a cikin duk fitarwar HTML', ƙarin zai kama kusan duk ayyukan WordPress kuma ya sarrafa kowanne tag ɗin img a cikin abun ciki. Don Allah a lura cewa wannan na iya kasa aiki yadda ya kamata tare da wasu jigogi.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Da fatan a lura cewa hotunan da aka zaɓa a matsayin hotunan da aka fi so za a raba su a matsayin bayanan OGP kuma ba za a iya kare su ba. Idan lallai ne ku kare su, da fatan za ku canza saitin fitarwar alamomin HEAD a cikin saitunan ci gaba lokacin kunna kariyar HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Ba za a iya kare aikin ɗaukar hoton allo da ke cikin tsarin aiki a matsayin ma'auni ba.
+画像URLの保護	Kare URLs na hotuna
+画像の保護と組み合わせて使用します、単体では意味がありません	Ya kamata a yi amfani da wannan tare da kariyar hoto; shi kaɗai, ba shi da wata amfani.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Yayin da ake loda shi cikin kasala ta JavaScript, wannan yana shafar SEO.
+画像のウォーターマーク	Alamar ruwa ta hoto
+右下	ƙasa a dama
+ランダム位置	Matsayi na bazuwa
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Ana amfani da su tare da kariyar hoto, alamomin ruwa masu motsi suna nuna a fili mallakar haƙƙin mallaka yayin da suke ba masu kallo ra'ayin ana sa ido a kansu, ta haka suna zama abin hana su aikata laifi.
+JPG形式、PNG形式、WebP形式のみ対応します	Ana tallafawa tsarin JPG, PNG da WebP kawai.
+有効にするとサーバーの負荷が高くなります	Kunna wannan zai ƙara nauyin sabar.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Fitar da fasahar ASCII daga lambar tushe ta HTML yayin ruɗani da kariya
+表示なし	Babu nuni
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Yana nuna fasahar ASCII da ke nuna gargaɗi lokacin kallon tushen HTML ta amfani da 'view-source'
+対象アクションを起こした時の表示デザイン	Nuna ƙira lokacin da aka aiwatar da aikin da ake nufi
+黄色の背景の黒文字のベーシックデザイン	Ƙirar asali da ke ɗauke da rubutu baki a kan bango rawaya
+黒色の背景の赤文字のホラー風デザイン	Ƙirar salon ban tsoro da ke ɗauke da rubutu ja a kan baya baki
+黒色の背景の赤文字の光る文字のデザイン	Ƙira mai ɗauke da rubutu ja mai haske a kan baya baki
+対象アクションを起こした時のBGM	Kiɗan bango da ke kunnawa lokacin da aka aiwatar da aikin da ake nufi
+サウンドなし	Babu sauti
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Yaki da Nasara - minti 1 da daƙiƙa 16.3 - baitoci 630,056 - 64 kbps - Lasisi: CC 2.1 ko daga baya
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3.8 daƙiƙoƙi - 32,364 baitoci - 64 kbps - Lasisi: GPL 2.0 ko daga baya
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 sakan - 195,578 baitoci - 64 kbps - Lasisi: GPL 2.0 ko daga baya
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – sigar da kwamfuta ta samar, sigar sauri – minti 1 da daƙiƙa 57.6 – baiti 724,457 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo a B-flat minor, Op. 2 – sigar da kwamfuta ta samar, ta gajarta mai sauri – minti 1 da daƙiƙa 48.0 – baiti 665,369 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Jerin: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – sigar da kwamfuta ta samar, gajeriyar sigar da aka hanzarta – minti 1 da daƙiƙa 51.6 – baitoci 687,586 – 48 kbps – Lasisi: CC BY-ND 4.0 ko daga baya
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Biki – daƙiƙa 22.3 – baitoci 183,926 – 64 kbps – Lasisi: Dukiya ta Jama'a
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Biki na salo na baya – 2.2 daƙiƙa – 10,536 baitoci – 32 kbps – Lasisi: Yankin jama'a
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Gabatarwa mai salo na baya – 42.1 sakan – 179,138 baitoci – 32 kbps – Lasisi: Dukiya ta jama'a
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Gargaɗi daga ChatGPT - 3.8 sakan - 109,700 baitoci - 256 kbps - Lasisi: Yankin jama'a
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sauti mai gaggawa sosai kamar faɗakarwar gano malware – Sashe na 1 ta ChatGPT – 3.3 sakan – 102,850 baitoci – 256 kbps – Lasisi: Yanki na Jama'a
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sauti mai gaggawa sosai kamar faɗakarwar gano malware, Sashe na 2 ta ChatGPT - 3.3 daƙiƙa - 103,122 baitoci - 256 kbps - Lasisi: Yankin jama'a
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sautin salon MRI ta ChatGPT – minti 1 da daƙiƙa 14.9 – baitoci 3,340,392 – 320 kbps – Lasisi: Yankin jama'a
+警告表示中のBGMを選択します	Zaɓi kiɗan bango da za a kunna yayin gargaɗi.
+びっくりするような雰囲気を作ります	Yana ƙirƙirar yanayi mai ban mamaki
+Firefoxでは音声ブロックされます	An toshe sauti a Firefox
+対象アクションを起こした時のビープ音	Beep lokacin da aka aiwatar da aikin da aka kayyade
+有効 音量小さ目	A kunne, ƙarar sauti ƙasa
+有効 音量大き目	Ana aiki, an saita ƙarar sauti zuwa mafi girma
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Za a ji karar bip ga duk abubuwan maɓalli da na linzami yayin da ake nuna gargaɗi.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Yana ba da tunanin cewa na'urar ta yi hauka yayin da ake nuna gargaɗin.
+対象アクションを起こした時のマウスカーソルの消去	Boye ƙursor na linzami lokacin da aka yi wani takamaiman aiki
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Yana ɓoye ƙursor na linzami a yankin burauza yayin da ake nuna gargaɗi.
+デバッグモード	Modi na gyaran kuskure
+妨害＋記録のみ	Cikas + Rekodi kawai
+妨害＋記録＋表示＋リダイレクト	Cikas + Rubuce-rubuce + Nuna + Juya
+メニューからは操作できてしまいます	Har yanzu za ka iya samun sa ta menu ɗin.
+Firefoxにおけるデバッグモード	Modi na gyara kuskure a Firefox
+ブラウザーコンソール	Konsol na burauza
+事実上デバッグモードから操作できてしまいます	A zahiri, za ka iya sarrafa shi daga yanayin gyaran kuskure.
+HTMLソース表示	Dubi tushen HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Za ka iya aiwatar da aikin kawai ta shigar da URL da ke farawa da 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Za ka iya kare abun cikin ka ta hanyar haɗa wannan da kariyar HTML.
+印刷	Buga
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ko da yake yana hana buga, watakila ba zai yi aiki yadda ya kamata a wasu masu binciken yanar gizo ba.
+スクリーンショット	Hoton allo
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Dangane da tsarin aiki, burauza ko hanyar da aka yi amfani da ita, watakila ba za a iya toshe wannan ba, ko kuma ba za a gano shi ba.
+ウインドウが背面に移動した時スクリーンショットの疑い	An zaci hoton allo ne lokacin da taga ta koma bango na baya
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Hakanan yana amsawa ga ayyuka daban-daban ba na ɗaukar hoton allo kawai ba
+2キー押下のスクリーンショットの疑い	An zaci an ɗauki hoton allo ne ta danna maɓalli biyu.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Hanyoyin gano abubuwan da aka ambata a sama ba su da cikakken tabbaci; ana gudanar da binciken ne a matsayin mataki na kariya.
+スクリーンショットだけではなく、デバッグモード等も検出します	Yana gano ba kawai hotunan allo ba, har ma da yanayin gyara kuskure da makamantansu.
+ページ保存	Ajiye shafi
+右クリック	Danna maɓallin dama na linzami
+アドオンがインストールされていると操作できてしまいます	Idan an girka ƙarin, za ku iya amfani da shi.
+コピー・カット	Kwafi da yanke
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Dangane da saitunan wannan plugin, kuna iya samun wannan lamari kaɗan.
+テキスト全選択	Zaɓi duk rubutun
+テキスト選択	Zaɓi rubutu
+デバッガー起動ログ、デバッガー妨害	Ragamar farawa na mai cire kuskure, tsangwama na mai cire kuskure
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Wannan yana sanya yanayin debug ya zama ba shi da sauƙin amfani sosai kuma yana rubuta cewa an kaddamar da mai gyara kuskure; duk da haka, wasu masu binciken yanar gizo na iya toshe wannan hali.
+リダイレクトするURL	Juya URL
+利用規約などのページに転送すると良いでしょう	Zai zama ra'ayi mai kyau a tura masu amfani zuwa shafuka kamar Sharuɗɗan Amfani.
+空欄にすると元のURLにリダイレクトをします	Idan aka bar shi babu komai, zai mayar da kai ga asalin URL.
+リダイレクトまでの時間	Lokacin da ya rage kafin sake nuna hanya
+リダイレクトなし	Babu juyawa
+1秒	1 daƙiƙa
+2秒	Sekondi biyu
+3秒	Sekondi uku
+4秒	Sekondi huɗu
+5秒	Sekondi biyar
+6秒	Sekondi shida
+7秒	Sekondi bakwai
+8秒	Sekondi takwas
+9秒	Sakanni tara
+10秒	Daƙiƙa goma
+15秒	Daƙiƙa goma sha biyar
+20秒	Sekondi ashirin
+25秒	Sekondi ashirin da biyar
+30秒	Sakan talatin
+35秒	Sakan talatin da biyar
+40秒	Daƙiƙa arba'in
+45秒	Daƙiƙa arba'in da biyar
+50秒	Dakiku 50
+55秒	Daƙiƙa hamsin da biyar
+1分	Minti ɗaya
+1分10秒	Minti ɗaya da daƙiƙa goma
+1分20秒	Minti ɗaya da daƙiƙa ashirin
+1分30秒	Minti ɗaya da daƙiƙa talatin
+1分40秒	Minti ɗaya da daƙiƙa arba'in
+1分50秒	Minti ɗaya da daƙiƙa hamsin
+2分	Mintuna biyu
+ソース表示を許可する権限	Izinin duba lambar tushe
+ADMINログイン時のみ通常のソース出力	Fitarwar tushe ta al'ada sai an shiga a matsayin ADMIN kawai
+USERログインで通常のソース出力	Fitarwar tushe ta al'ada lokacin da aka shiga a matsayin USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Zaɓi ko fitarwar HTML ta al'ada za a iyakance ta ga masu gudanarwa kaɗai ko kuma tana buƙatar shiga na mai amfani.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Tilasta saukar da hoto da abin da aka saukar a zahiri
+GIF形式で1×1ピクセルの透過画像	Hoto mai pixel ɗaya da ɗaya mai bayyane a cikin tsarin GIF
+PNG形式で1×1ピクセルの透過画像	Hoto mai pixel 1×1 mai bayyane a cikin tsarin PNG
+PNG形式で黄色い背景の警告画面	Allon gargaɗi mai bango mai launin rawaya a cikin tsarin PNG
+意味のないHTMLドキュメント	Takardar HTML marar ma'ana
+HTML保護時のHEADタグの出力	Fitarwar tag ɗin HEAD lokacin da HTML ke kariya
+出力しない	Kada a buga
+TITLEタグのみ	Taga TITLE kawai
+WordpressのHEADタグより取得	An samo daga tag ɗin HEAD na WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Don shafukan mambobi na musamman don amfanin kamfani da shafukan ciki, zaɓin 'Do not output' ko 'TITLE tag only' ya isa.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Sai dai idan ka samo bayanan daga tag ɗin HEAD na WordPress, hoton OGP ba zai bayyana ba lokacin da aka raba shi a kafafen sada zumunta.
+画像botをアクセス禁止にする	Hana bot ɗin hoto
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Ta hanyar hana bots na hotuna samun HTML, za ka iya kare abun ciki da ba za a iya kare shi daga haɗin kai tsaye ta binciken hotuna ba; duk da haka, wannan ba mafita ce mai cikakken tabbaci ba.
+AI学習用botをアクセス禁止にする	Hana samun damar bot ɗin horo na AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Ta hanyar kauce wa amfani da bots da aka ƙera don horar da AI a kan HTML, muna tabbatar da cewa AI ba za ta iya amfani da shi ba; duk da haka, ba za a iya hana hakan gaba ɗaya ba.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Hana samun damar ajiyayyun yanar gizo da hotunan yanar gizo na ɗan lokaci
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Muna hana samun damar ajiyar yanar gizo da aka tattara ta atomatik da hotunan allo da mai amfani ya ɗauka a yadda ya ga dama; duk da haka, ba za mu iya hana hakan gaba ɗaya ba.
+無効なUAをアクセス禁止にする	Hana wakilan mai amfani marasa inganci
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Yana hana samun dama idan igiyar wakilin mai amfani tana ɗauke da haruffa marasa inganci.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Nuna gargaɗi lokacin da ake buɗe Internet Explorer da tsohon Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Yana hana samun dama ta Internet Explorer da tsohon Microsoft Edge
+alertメッセージを表示する言語	Harshen da ake nuna saƙonnin faɗakarwa
+Wordpressの言語	Harsunan WordPress
+ブラウザの設定言語	Saitunan harshe na burauza
+メッセージをカスタム設定されている場合は言語を変更できません	Ba za ka iya canza harshe ba idan an keɓance saƙonnin.
+同意画面の言語	Harshen allon amincewa
+view-sourceメッセージを表示する言語	Harshen da za a nuna saƙon 'view-source'
+一時使用トークンの有効期限	Ranar ƙarewar lokacin alamomin wucin gadi
+3分	Mintuna uku
+4分	Mintuna huɗu
+5分	Mintuna biyar
+6分	Mintuna shida
+7分	Mintuna bakwai
+8分	Minti takwas
+9分	Minti tara
+10分	Minti goma
+15分	Minti goma sha biyar
+20分	Minti ashirin
+25分	Mintuna ashirin da biyar
+30分	Minti talatin
+35分	Minti talatin da biyar
+40分	Mintuna arba'in
+45分	Mintuna arba'in da biyar
+50分	Mintuna hamsin
+55分	Mintuna hamsin da biyar
+1時間	A awa ɗaya
+画像URL情報の有効期限を設定します	Saita ranar ƙarewa ga bayanan URL na hoto
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Da zarar an loda, za a soke URL na hoto da token na wucin gadi.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Ana loda hotuna ne a buƙata, amma za a loda su ta atomatik da dakika 30 kafin lokacin da aka kayyade.
+一時使用トークンのビット数	Adadin bits a cikin token na wucin gadi
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Ana amfani da token na ɗan lokaci a matsayin kalmar sirri don ɓoye bayanan URL na hoto; wannan saitin yana ƙayyade ƙarfinsa.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ko da yake zaɓuɓɓukan da ake nuna a ƙasa da menu mai faɗuwa suna ƙara cikakken bayani, hakan na iya sanya nauyi mai yawa a kan sabar kuma ya haifar da canja wurin babban adadin bayanan HTML.
+ハッシュ化アルゴリズム	Algoritman Hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Ana amfani da token na ɗan lokaci a matsayin kalmar sirri don ɓoye bayanan URL na hoto; wannan yana buƙatar yin hashing, kuma wannan saitin yana ƙayyade ƙarfin wannan hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Ko da yake ƙarfin yana ƙaruwa yayin da kake gungura ƙasa cikin zaɓuɓɓukan da aka nuna a cikin menu mai faɗaɗa, wannan yana sanya nauyi mafi girma a kan sabar.
+基本設定	Saituna na asali
+高度な設定	Zaɓuɓɓukan ci gaba
+初期設定に戻す	Dawo da saitunan tsoho
+デザイン・音の設定	Zane da saitunan sauti
+イベントの設定	Saitunan taro
+初回訪問時のお知らせの設定	Saitin sanarwa don ziyarar farko
+メッセージの設定	Saitunan saƙo
+右クリックやソースコード表示時に転送する URL を設定します	Saita URL da za a buɗe lokacin danna dama ko duba lambar tushe
+警告メッセージにはHTMLは使用できません	Ba za a iya amfani da HTML a cikin saƙonnin gargaɗi ba.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Idan ka saita wannan a wannan allo, za a yi watsi da saitunan harshe a shafin Ci Gaba.
+以下の文字列が使用できます	Za a iya amfani da waɗannan jerin
+改行	Tsagin layi
+押下されたキー	An danna maɓalli
+Neo HTML Protector 設定	Saitunan Neo HTML Protector
+お知らせ	Lura
+メッセージ	Sako
+デザイン・音	Zane da Sauti
+初期化	Farawa
+このプラグインについて	Game da wannan plugin ɗin
+設定が初期化されました	An sake saita saitunan.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Fara plugin ɗin. Da fatan a lura cewa ba za a goge bayanan IP Log Reader a wannan mataki ba.
+Neo HTML Protectorについて	Game da Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	An ƙirƙira wannan plugin ne don kare HTML, hotuna da sauran abun ciki da shafin WordPress ɗinku ke samarwa, ta hanyar hana amfani da su ba tare da izini ba.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Ba zai yiwu a kare abun ciki gaba ɗaya ba. Duk da haka, ta hanyar bayar da gargaɗi duk inda zai yiwu da yin shiri idan wani abu ya faru, za mu iya warware lamarin bisa ga tsare-tsaren da gwamnati ta shimfiɗa.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tabbas, za ku buƙaci tabbatar da cewa sharuɗɗan sabis ɗinku da manufofin shafin ku sun kasance cikakke. Ko da yake wannan ƙarin ba kayan aikin ƙirƙirar sharuɗɗan sabis ba ne, zai iya ba da wasu jagorori.
+開発者: 夜桜　なの	Mai haɓaka: Nano Yozakura
+バージョン	Sigar
+ビルド	Gina
+サポートページ	Shafin tallafi
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	An yi shi ne ta Miss Ura Manira
+支援のお願い	Bukatun tallafi
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Na gode da amfani da Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ci gaba da kula da wannan plugin ɗin ya ɗauki lokaci mai yawa da ƙoƙari, kuma domin tara kuɗi don ci gaba da inganta shi da sabunta shi, za mu yi godiya idan duk wanda zai iya tallafa mana zai yi la'akari da bayar da gudummawa.
+寄付について	Game da gudummawa
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Gudummawa gaba ɗaya suna da son rai kuma ba dole ba ne. Ana samun wannan plugin ga kowa kyauta. Duk da haka, muna matuƙar godiya da goyon bayanku don taimaka mana ci gaba da haɓakawa, kuma za mu yi farin ciki idan za ku iya bayar da ƙaramin gudummawa.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Za ku iya bayar da gudummawa ta hanyar mahaɗin da ke ƙasa. Idan kuna zaune a Japan, za ku iya bayar da gudummawa kyauta, kuma za ku iya yin hakan cikin sauƙi ta amfani da katunan kyautar Amazon.
+寄付先	Kungiyoyin agaji
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Da goyon bayanku, za mu yi iyakar ƙoƙarinmu don ci gaba da kawo muku sabbin bayanai masu ban mamaki!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Muna godiya da goyon bayanku kuma muna fatan za ku ci gaba da goyon baya a nan gaba.
+ライセンス	Lasisi
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	An haɓaka wannan plugin a matsayin software mai buɗe tushe kuma an ba shi lasisi ƙarƙashin GPLv2.0 ko daga baya.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Wasu daga cikin fasahohin da ke cikin wannan plugin an kare su da haƙƙin mallaka.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	An ba da izinin amfani da fasahar da aka ba haƙƙin mallaka ne kawai a cikin wannan ƙarin shigarwa.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Don kowace irin amfani daban, da fatan za a tuntuɓi marubucin don samun lasisin kasuwanci.
+本プラグインには以下のライブラリを同梱しています	Wannan plugin ɗin ya ƙunshi waɗannan ɗakunan karatu
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Wannan plugin ɗin ya haɗa da font ɗin zane-zanen ASCII da aka ƙirƙira a ƙasa, tare da fayilolin font.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Wannan plugin ɗin ya ƙunshi kiɗa daga wasan Super Famicom marar hukuma mai suna 'SM Trainer Hitomi 3', wanda EJ Co., Ltd. ta haɓaka kuma wanda mahaliccin wannan plugin ɗin ya tsara, kuma an ba shi lasisi na hukuma.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Wannan plugin ɗin ya ƙunshi waƙoƙin da aka ƙirƙira ta amfani da 'Keppy's YAMAHA C7', wanda Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Na kuma yi amfani da Raspberry Pi 5, ChatGPT da DeepL wajen haɓaka wannan plugin.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	An gano plugin ɗin ajiyar bayanai. Wannan plugin ba zai yi aiki yadda ya kamata ba idan an kunna plugin ɗin ajiyar bayanai.
+無効なIPアドレス	Adireshin IP ba daidai ba
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Don amfani da wannan gidan yanar gizo, dole ne ku kunna kukis da JavaScript.
+利用規約	Sharuɗɗan Amfani
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Don hana amfani ba tare da izini ba da tabbatar da amintaccen gudanarwar ayyukanmu, wannan gidan yanar gizo na iya adana bayanai kamar adireshin IP, tarihin lilo da rajistar ayyuka a cikin kukis da ma'ajiyar bayanai. Ana amfani da waɗannan bayanan ne kawai don gudanar da gidan yanar gizon da don dalilai na doka, kuma ba za a bayyana su ga wasu ba.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Don amfani da wannan sabis, dole ne ku yarda da waɗannan ayyukan sarrafawa.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Kuna iya duba abubuwan da ke cikin Manufofin Sirri ko da ba ku ba da amincewarku ba.
+同意する	Na yarda
+同意しない	Ban yarda ba
+確認	Tabbaci
+プライバシーポリシー	Manufofin Sirri
+通常とは異なる方法でのアクセスや操作が検出されました	An gano wani ba daidai ba na samun dama ko aiki
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	An takaita wasu fasaloli don dalilan tsaro da kariyar abun ciki.
+デバッグモード、コンソールの起動は禁止されています	An kashe yanayin gyaran kuskure da damar shiga konsol
+以下の情報がサーバーに送信されました	An tura bayanan da ke ƙasa zuwa sabar.
+あなたのIPアドレス	Adireshin IP ɗinka
+あなたの端末とブラウザ	Na'urarka da burauzarka
+あなたの押下したキー	Maballin da ka danna
+リダイレクトをします	Za a tura ku zuwa wani wuri
+コンテンツ保護のため一部の機能を制限しています	An takaita wasu fasaloli don kare abun ciki
+右クリックは禁止されています	Ba a yarda a danna maɓallin dama ba
+あなたが押下したキー	Maballin da ka danna
+印刷、PDFへの保存は禁止されています	An hana buga da ajiye a matsayin PDF.
+スクリーンショットは禁止されています	An hana ɗaukar hoton allo.
+スクリーンショット、デバッグモード等の起動は禁止されています	An hana ɗaukar hotunan allo da kuma kunna yanayin gyara kuskure.
+ページの保存は禁止されています	An hana ajiye wannan shafin
+コピー、カットは禁止されています	An hana kwafi da yanke.
+あなたが起こしたイベント	Abubuwan da ka shirya
+テキストの選択は禁止されています	Ba a yarda a zaɓi rubutu ba.
+HTMLソース表示は禁止されています	An hana nuna lambar tushe ta HTML.
+不正アクセスは禁止されています	Ba a yarda da samun shiga ba
+アフリカーンス語	Afikaans
+アラゴン語	Na Aragon
+アラビア語	Larabci
+アッサム語	Asamawa
+アゼルバイジャン語	Azarbayjananci
+バシュキール語	Bashkir
+ベラルーシ語	Faranshiyawa
+ベンガル語	Bengali
+ブルガリア語	Bulgariya
+ボスニア語	Bosniya
+カタロニア語	Katalananci
+チェコ語	Czech
+ウェールズ語	Welsh
+デンマーク語	Danmaka
+ドイツ語	Jamusanci
+現代ギリシア語	Girkanci na zamani
+英語	Turanci
+イギリス英語	Birtaniya
+アメリカ英語	Turanci na Amurka
+エスペラント語	Harshen da ake sa ran zai kasance
+スペイン語	Sifaniyanci
+エストニア語	Na Estonia
+バスク語	Basque
+ペルシャ語	Farisanci
+フィンランド語	Fininci
+フランス語	Faransanci
+アイルランド語	Na'Iri
+ガリシア語	Galician
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Ibrananci
+ヒンディ語	Hindi
+クロアチア語	Kroatiya
+ハイチ・クレオール語	Krik-karan Haiti
+ハンガリー語	Na Habasha
+インドネシア語	Indonesiyawa
+イボ語	Harshen Ibo
+アイスランド語	Ƙasar kankara
+イタリア語	Italiyanci
+日本語	Jafananci
+ジャワ語	Jawur
+カザフ語	Kazakh
+朝鮮語	Koreya
+クルド語	Kurdanci
+キルギス語	Kirgizi
+ラテン語	Latinanci
+ルクセンブルク語	Faransancin Luxembourg
+リンガラ語	Yare
+リトアニア語	Lithuania
+ラトビア語	Latviyanci
+マダガスカル語	Malagasy
+マオリ語	Na Māori
+マケドニア語	Masedoniyanci
+マラヤーラム語	Malayalam
+モンゴル語	Mongoliyanci
+マラーティー語	Marathi
+マレー語	Mutanen Malay
+マルタ語	Na Malta
+ビルマ語	Burma
+ネパール語	Nepali
+ノルウェー語	Na Norway
+オランダ語	Hollandiyanci
+オック語	Okcitani
+オロモ語	Ko da yake
+パンジャーブ語	Punjabi
+ポーランド語	Mai sheƙawa
+パシュトー語	Fitarwa
+ポルトガリア語	Turanci
+ブラジルポルトガル語	Turancin Brazil
+ヨーロピアンポルトガル語	Turancin Portugal na Turai
+ケチュア語	Sakamako
+ルーマニア語	Rumani
+ロシア語	Rashanci
+サンスクリット語	Latinanci
+スロバキア語	Silikaf
+スロベニア語	Sifeniya
+セルビア語	Serbiyawa
+南セソト語	Kudu na Sesotho
+スンダ語	Sundanese
+スウェーデン語	Sifaniyanci
+スワヒリ語	Swahili
+タミル語	Taamilanci
+テルグ語	Telugu
+タジク語	Tajiki
+タイ語	Taɪ
+トルクメン語	Turkiyawa
+タガログ語	Harshen Tagalog
+トルコ語	Turki
+タタール語	Tatar
+ウクライナ語	Ukrainiya
+ウルドゥー語	Turanci
+ウズベク語	Uzbeƙi
+ベトナム語	Vietnamawa
+コサ語	Kosa
+イディッシュ語	Yiddish
+簡体中国語	Sinanci mai sauƙi
+繁体中国語	Sinanci na gargajiya
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Wannan burauza da kake amfani da ita a halin yanzu tsohuwar sigar ce wadda ba a tallafawa. Don tabbatar da kwarewar lilo mai aminci da jin daɗi, don Allah ka sabunta burauzarka zuwa sabuwar sigar.
+不正なリクエストです	Bukatun ba daidai ba
+画像が見つかりません	Ba a sami hoto ba

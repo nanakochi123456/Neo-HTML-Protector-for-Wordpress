@@ -1,0 +1,424 @@
+設定	Issettjarijiet
+IPログリーダー	Qarrej tal-Logs tal-IP
+IPアドレスログ	Reġistru tal-indirizzi IP
+全クリア	Kompleta l-livelli kollha
+IPログが全て削除されました	Il-logijiet kollha tal-IP ġew imħassra.
+ID	Identifikazzjoni
+タイムスタンプ	Ħin tal-istampa
+IPアドレス	Indirizz IP
+ユーザーエージェント	Aġent tal-utent
+イベント	Avveniment
+IPアドレスのデータはありません	M'hemm l-ebda dejta għal din l-indirizz IP.
+EU GDPR対応	Konformità mal-GDPR tal-UE
+無効	Invalid
+有効	Validu
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Jekk qed tuża WordPress fl-Unjoni Ewropea, jew jekk is-sit web tiegħek huwa mmirat lejn utenti fl-Unjoni Ewropea, jekk jogħġbok kun żgur li dan ikun attivat.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Il-buttuna 'Ikkonferma' se tinbidel f' 'Jaqbel' jew 'Ma jaqbilx', u l-imġiba se tinbidel ftit.
+同意画面の色	Il-kulur tal-iskrin tal-kunsens
+自動	Awtomatiku
+ライトモード	Modalità ħafifa
+ダークモード	Modalità skura
+同意画面表示中の配色を設定します	Issettja l-iskema tal-kuluri għas-skrin tal-kunsens
+同意画面中のコンテンツのぼかし	Imċajpar tal-kontenut fuq l-iskrin tal-kunsens
+同意画面表示中のコンテンツのぼかし具合を設定します	Issettja l-livell ta' offuscament għall-kontenut li jidher fuq l-iskrin tal-kunsens
+同意画面の透過	Trasparenza tal-iskrin tal-kunsens
+透過なし	L-ebda trasparenza
+同意画面の透過具合を設定します	Issettja l-opaku tal-iskrin tal-kunsens
+お知らせの1行目	L-ewwel linja tal-annunzju
+初回表示で必ず表示されるメッセージです	Dan il-messaġġ jidher dejjem l-ewwel darba li l-paġna titgħabba
+お知らせの2行目	It-tieni linja tan-notifika
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Dan il-messaġġ se jidher dejjem fuq l-ewwel wirja biss meta l-GDPR tal-UE ikun fis-seħħ.
+お知らせの3行目	It-tielet linja tan-notifika
+プライバシーポリシーのリンクの右側に表示されます	Se jidher fuq il-lemin tal-link għall-Politika tal-Privatezza.
+非EU向け確認の文字列	Test ta' konferma għall-pajjiżi mhux tal-UE
+EU GDPR向け同意するの文字列	Test ta' kunsens għall-GDPR tal-UE
+EU GDPR向け同意しないの文字列	Test għal 'Ma tagħtix il-kunsens' skont il-GDPR tal-UE
+プライバシーポリシーの文字列	Test tal-politika tal-privatezza
+プライバシーポリシーのURLはこちらから設定して下さい	Jekk jogħġbok issettja l-URL tal-politika tal-privatezza hawnhekk.
+プライバシーポリシーには以下の内容を追加して下さい	Jekk jogħġbok żid dan li ġej mal-Politika tal-Privatezza.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Biex jiġu skoperti attivitajiet frodulenti, identifikaturi bħal indirizzi IP jinħażnu fil-cookies u fid-database. Id-dejta maħżuna titħassar skont id-diskrezzjoni tal-amministratur.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Biex niżguraw li l-immaġini jitwasslu b'mod korrett meta l-protezzjoni tal-immaġini tkun attivata, aħna naħżnu fid-database tagħna data imhashjata li tinkludi l-indirizz IP u l-isem tal-fajl tal-immaġni għal sa 60 minuta.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Jekk qed toħloq Termini ta' Użu, jekk jogħġbok kun żgur li tinkludi link għalihom fil-Politika tal-Privatezza tiegħek.
+利用規約の文字列	Test tat-Termini ta' Użu
+利用規約のページ	Paġna tat-Termini u l-Kundizzjonijiet
+ページ選択なし	L-ebda paġna ma ġiet magħżula
+検索エンジン等のURL	URLs għal magni tat-tiftix, eċċ.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Issettja l-URL għat-magni tat-tiftix u siti simili li jirreindirizzaw l-utenti meta ma jagħtux il-kunsens tagħhom.
+デバッグモード、コンソールの警告メッセージ	Modalità ta' debug, messaġġi ta' twissija fil-konsola
+右クリックの警告メッセージ	Messaġġ ta' twissija bil-klik tal-lemin
+印刷、PDF保存の警告メッセージ	Messaġġ ta' twissija dwar il-istampar u l-ħażna bħala PDF
+スクリーンショットの警告メッセージ	Messaġġ ta' twissija fis-screenshot
+スクリーンショットの疑いの警告メッセージ	Messaġġ ta' twissija rigward screenshots suspettati
+テキスト全選択時の警告メッセージ	Messaġġ ta' twissija meta tkun magħżula l-kull test
+ページ保存の警告メッセージ	Messaġġ ta' twissija dwar l-iffrankar tal-paġna
+コピー・カットした時に表示するメッセージ	Messaġġ li jidher meta tikkopja jew taqta'
+HTMLソース表示時に表示するメッセージ	Messaġġ li jidher meta tkun qed tara s-sors tal-HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Messaġġ li jidher fil-quċċata tal-kodiċi sors meta tkun qed tiffoska jew tipproteġi l-HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Messaġġ li jidher jekk it-token ta' awtentikazzjoni ta' darba jkun invalidu waqt il-protezzjoni HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Messaġġ li jidher jekk il-cookies jew il-JavaScript ikunu diżattivati
+実際にはJavascriptが無効時のみ表示されます	Fil-fatt, dan jidher biss meta JavaScript ikun diżattivat.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Meta immaġni tkun protetta, tiġi mniżżla, u jidher messaġġ fuq dik l-immaġni
+HTML難読化 (圧縮)	Obfuskazzjoni
+一般的なHTML圧縮です、難読化解除のサイトもあります	Din hija kompressjoni standard ta' HTML; hemm ukoll siti web li jistgħu jiddekodifikawha.
+このオプションを有効にするとview-sourceのログが取得できます	L-attivazzjoni ta' din l-għażla tippermettilek tirrekupera l-logs tal-view-source.
+HTML保護	Protezzjoni tal-HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Jipproduċi anqas HTML minn dik tal-issettjar ta' kompressjoni tal-HTML, li jfisser li l-kontenut ġewwa t-tag BODY mhux se jiġi pproduċut xejn.
+Firefoxに対しては無効です	Dan ma japplikax għal Firefox
+SEOに著しく影響があります	Dan għandu impatt sinifikanti fuq l-SEO.
+HTMLをJavaScriptで描画	Ġenerazzjoni ta' HTML billi tuża JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Biex naħdmu madwar Firefox, nirendjaw l-HTML billi nużaw JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	L-attivazzjoni tar-rendering ta' JavaScript se tnaqqas b'mod sinifikanti l-veloċità tat-tagħbija tal-websajt.
+画像の保護	Protezzjoni tal-immaġni
+imgタグが呼び出されるごとに画像を保護	Ħares l-immaġni kull darba li tiġi msejħa t-tikketta img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Ħares l-immaġini kollha mniżżla fuq WordPress fi ħdan l-output kollu tal-HTML.
+画像をダウンロードから保護します	Jipproteġi l-immaġini milli jitniżżlu
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Meta d-dejta tal-immaġni tkun protetta, nipprevjenu kważi l-downloads kollha, noħorġu URLs uniċi ta' darba biss, nikkawtentaw billi nużaw tokens maħżuna fis-sessjoni, u nuru l-immaġini permezz ta' PHP; dan jipprevjeni b'mod effettiv kważi l-każijiet kollha ta' serq ta' immaġni.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Meta d-dejta tal-immaġini tkun protetta, il-kaching ma jaħdimx, li jfisser li s-sit se jitgħabba aktar bil-mod f'żjarat sussegwenti, u b'hekk jaffettwa l-SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Il-protezzjoni tad-dejta tal-immaġni tista' żżid il-piż fuq il-bażi tad-dejta.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Jekk tagħżel 'Ipproteġi l-immaġini kull meta jkun sejjaħ tag img', is-sistema tuża add_filter biex tapplika l-filtrazzjoni meta jiġi ġġenerat it-tag img; madankollu, dan jista' ma jaħdimx b'mod korrett ma' ċerti temi.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Jekk tagħżel 'Ipproteġi l-immaġini kollha mniżżla f'WordPress fl-output kollu tal-HTML', il-plugin se jaqbad kważi l-operazzjonijiet kollha ta' WordPress u jipproċessa kull tag img fil-kontenut. Jekk jogħġbok innota li dan jista' ma jaħdimx b'mod korrett ma' xi temi.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Jekk jogħġbok innota li l-immaġini mmarkati bħala featured images se jiġu maqsuma bħala data OGP u ma jistgħux jiġu protetti. Jekk tassew trid tipproteġihom, jekk jogħġbok ibdel l-issettjar għall-output tat-tag HEAD fl-issettjar avvanzat meta tattiva l-protezzjoni HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Il-funzjoni tal-iskrinshot inkluża bħala standard fis-sistema operattiva ma tistax tiġi protetta.
+画像URLの保護	Il-protezzjoni tal-URLs tal-immaġini
+画像の保護と組み合わせて使用します、単体では意味がありません	Dan għandu jintuża flimkien ma' protezzjoni tal-immaġni; waħdu, m'għandu l-ebda skop.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Peress li huwa mgħobbi permezz ta' JavaScript, dan jaffettwa l-SEO.
+画像のウォーターマーク	Ilmaġġ tal-immaġni
+右下	Taħt il-lemin
+ランダム位置	Pożizzjoni każwali
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Użati flimkien ma' protezzjoni tal-immaġni, il-marki tal-ilma dinamici juru b'mod ċar min hu s-sid tad-drittijiet tal-awtur, filwaqt li jagħtu lill-osservaturi l-impressjoni li qed jiġu mmonitorjati, u b'hekk jaġixxu bħala deterrent.
+JPG形式、PNG形式、WebP形式のみ対応します	Hemm appoġġ biss għall-formati JPG, PNG u WebP.
+有効にするとサーバーの負荷が高くなります	L-attivazzjoni ta' dan se żżid il-piż fuq is-server.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ġenerazzjoni ta' arti ASCII minn kodiċi sors HTML waqt obfuskazzjoni u protezzjoni
+表示なし	L-ebda wirja
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Juri arti ASCII li tindika twissija meta tkun qed tara s-sors tal-HTML billi tuża 'view-source'
+対象アクションを起こした時の表示デザイン	Uri d-disinn meta l-azzjoni fil-mira titwettaq
+黄色の背景の黒文字のベーシックデザイン	Disinn bażiku b'test iswed fuq sfond isfar
+黒色の背景の赤文字のホラー風デザイン	Disinn b'stil ta' orrur b'test aħmar fuq sfond iswed
+黒色の背景の赤文字の光る文字のデザイン	Disinn li jinkludi test aħmar jiddi fuq sfond iswed
+対象アクションを起こした時のBGM	Mużika ta' sfond li tinħareġ meta l-azzjoni fil-mira titwettaq
+サウンドなし	L-ebda ħoss
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Gwerra u Vittorja - 1 minuta u 16.3 sekondi - 630,056 bajts - 64 kbps - Liċenzja: CC 2.1 jew aktar tard
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3.8 sekondi - 32,364 bajts - 64 kbps - Liċenzja: GPL 2.0 jew aktar tard
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 sekondi - 195,578 bajts - 64 kbps - Liċenzja: GPL 2.0 jew aktar tard
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nru. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Nru. 12 'Revolution' – verżjoni ġġenerata bil-kompjuter, veloċità għolja – 1 minuta 57.6 sekondi – 724,457 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar tard
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo f'Si bemoll minuri, Op. 2 – verżjoni ġġenerata bil-kompjuter, verżjoni mnaqqsa b'veloċità għolja – 1 minuta 48.0 sekondi – 665,369 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar ġdida
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Lista: Étude d'Exécution Transcendante Nru. 4, 'Mazeppa' – verżjoni ġġenerata bil-kompjuter, verżjoni mqassra b'veloċità għolja – 1 minuta 51.6 sekondi – 687,586 bajts – 48 kbps – Liċenzja: CC BY-ND 4.0 jew aktar ġdida
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 sekondi – 183,926 bajts – 64 kbps – Liċenzja: Domenju Pubbliku
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Fanfara b'stil retro – 2.2 sekondi – 10,536 bajts – 32 kbps – Liċenzja: Domenju Pubbliku
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Introduzzjoni b'stil retro – 42.1 sekondi – 179,138 bajts – 32 kbps – Liċenzja: Domenju Pubbliku
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Twissija minn ChatGPT - 3.8 sekondi - 109,700 bajts - 256 kbps - Liċenzja: Domenju Pubbliku
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Ħoss ta' urġenza għolja bħal allerta ta' skoperta ta' malware – Parti 1 minn ChatGPT – 3.3 sekondi – 102,850 bajts – 256 kbps – Liċenzja: Domenju Pubbliku
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Ħoss ta' urġenza għolja bħal allerta ta' skoperta ta' malware, Parti 2 minn ChatGPT - 3.3 sekondi - 103,122 bajts - 256 kbps - Liċenzja: Domenju Pubbliku
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Ħoss b'stil MRI minn ChatGPT – 1 minuta u 14.9 sekondi – 3,340,392 bajts – 320 kbps – Liċenzja: Domenju Pubbliku
+警告表示中のBGMを選択します	Agħżel il-mużika ta' sfond biex tintlagħab waqt twissija.
+びっくりするような雰囲気を作ります	Joħloq atmosfera sorprendenti
+Firefoxでは音声ブロックされます	L-awdjo huwa mblukkat f'Firefox.
+対象アクションを起こした時のビープ音	Bip meta l-azzjoni speċifikata titwettaq
+有効 音量小さ目	Mixgħul, volum baxx
+有効 音量大き目	Attiv, il-volum issettjat fuq għoli
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Se tinħareġ sinjal ta' bip għal kull avveniment tat-tastiera u tal-maws, filwaqt li jintwera twissija.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Joħloq l-impressjoni li l-apparat mar ħażin waqt li t-twissija tkun qed tintwera.
+対象アクションを起こした時のマウスカーソルの消去	Moħbi tal-kursor tal-maws meta ssir azzjoni speċifika
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Jaħbi l-kursor tal-maws fl-ispazju tal-browser waqt li jintwera twissija.
+デバッグモード	Modalità ta' debug
+妨害＋記録のみ	Interferenza + Rekords biss
+妨害＋記録＋表示＋リダイレクト	Intermferenza + Reġistrazzjoni + Wiri + Redirezzjoni
+メニューからは操作できてしまいます	Għad tista' taċċessah permezz tal-menu.
+Firefoxにおけるデバッグモード	Modalità ta' debug f'Firefox
+ブラウザーコンソール	Konsola tal-browser
+事実上デバッグモードから操作できてしまいます	Fil-fatt, tista' tużah minn modalità ta' debug.
+HTMLソース表示	Ara s-sors tal-HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Tista' twettaq l-operazzjoni sempliċement billi ddaħħal URL li jibda b' 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Tista' tipproteġi l-kontenut tiegħek billi tgħaqqad dan mal-protezzjoni tal-HTML.
+印刷	Ipprintja
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Għalkemm tipprevjeni l-istampar, jista' ma taħdimx kif suppost f'xi browsers.
+スクリーンショット	Immaġni tal-iskrin
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Skont is-sistema operattiva, il-browser jew il-metodu użat, jista' ma jkunx possibbli li dan jiġi mblukkat, jew jista' ma jiġi skopert.
+ウインドウが背面に移動した時スクリーンショットの疑い	Skrinshot suspettat meta t-tieqa tmur fil-isfond
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Jirrispondi wkoll għal funzjonijiet oħra minbarra l-iskrinshot
+2キー押下のスクリーンショットの疑い	Skrinshot suspettat meħud billi tagħfas żewġ tasti
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Il-metodi ta' skoperta għall-oġġetti msemmija hawn fuq mhumiex infallibbli; is-skoperta ssir bħala miżura ta' prekawzjoni.
+スクリーンショットだけではなく、デバッグモード等も検出します	Jiskopri mhux biss screenshots iżda wkoll modi ta' debug u affarijiet simili.
+ページ保存	Salva l-paġna
+右クリック	Ikklikkja bil-lemin
+アドオンがインストールされていると操作できてしまいます	Jekk l-add-on ikun installat, tkun tista' tużah.
+コピー・カット	Ikkopja u aqta'
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Skont l-issettjar ta' dan il-plugin, tista' rarament tiltaqa' ma' dan l-avveniment.
+テキスト全選択	Agħżel it-test kollu
+テキスト選択	Agħżel it-test
+デバッガー起動ログ、デバッガー妨害	Ġurnal tal-bidu tad-debugger, interferenza tad-debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Dan jagħmel il-modalità tad-debugging ftit inqas faċli għall-utent u jirreġistra l-fatt li d-debugger ġie mħaddem; madankollu, xi browsers jistgħu jibblukkaw din l-imġiba.
+リダイレクトするURL	Irriindirizza l-URL
+利用規約などのページに転送すると良いでしょう	Ikun idea tajba li tirridirezzjona l-utenti lejn paġni bħal il-Kundizzjonijiet ta' Użu.
+空欄にすると元のURLにリダイレクトをします	Jekk tinħalla vojta, se tirridirezzjona għall-URL oriġinali.
+リダイレクトまでの時間	Ħin sal-irridirezzjoni
+リダイレクトなし	L-ebda ridirezzjonar
+1秒	Sekonda waħda
+2秒	2 sekondi
+3秒	3 sekondi
+4秒	4 sekondi
+5秒	5 sekondi
+6秒	6 sekondi
+7秒	7 sekondi
+8秒	8 sekondi
+9秒	9 sekondi
+10秒	10 sekondi
+15秒	15 sekondi
+20秒	20 sekondi
+25秒	25 sekondi
+30秒	30 sekondi
+35秒	35 sekondi
+40秒	40 sekondi
+45秒	45 sekondi
+50秒	50 sekondi
+55秒	55 sekondi
+1分	1 minuta
+1分10秒	1 minuta u 10 sekondi
+1分20秒	1 minuta u 20 sekondi
+1分30秒	1 minuta u 30 sekonda
+1分40秒	1 minuta u 40 sekonda
+1分50秒	1 minuta u 50 sekondi
+2分	2 minuti
+ソース表示を許可する権限	Permess biex tara l-kodiċi sors
+ADMINログイン時のみ通常のソース出力	L-output normali mis-sors jidher biss meta tkun loggat bħala ADMIN
+USERログインで通常のソース出力	Output normali mis-sors meta tkun loggat bħala USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Agħżel jekk il-ħruġ standard tal-HTML ikun ristrett għall-amministraturi biss jew jeħtieġ log-in tal-utent.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Li tforza immaġni biex titniżżel u dak li fil-fatt jitniżżel
+GIF形式で1×1ピクセルの透過画像	Immaġni trasparenti ta' 1×1-pixel f'format GIF
+PNG形式で1×1ピクセルの透過画像	Immaġni trasparenti ta' 1×1 pixel f'format PNG
+PNG形式で黄色い背景の警告画面	Skren ta' twissija b'isfond isfar fil-format PNG
+意味のないHTMLドキュメント	Dokument HTML bla sens
+HTML保護時のHEADタグの出力	Reżultat tat-tag HEAD meta l-HTML ikun protett
+出力しない	Tistampax
+TITLEタグのみ	Biss it-tag tat-titlu
+WordpressのHEADタグより取得	Meħud mit-tikketta HEAD ta' WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Għal paġni għall-membri biss għall-użu korporattiv u paġni interni, l-għażla ta' 'Do not output' jew 'TITLE tag only' għandha tkun biżżejjed.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Sakemm ma tirrekuperax l-informazzjoni mit-tag HEAD ta' WordPress, l-immaġni OGP ma tidhirx meta taqsam fuq il-midja soċjali.
+画像botをアクセス禁止にする	Iblokka l-bot tal-immaġni
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Billi tipprevjeni lill-bots tal-immaġini milli jaċċessaw l-HTML, tista' tipproteġi kontenut li ma setax jiġi protett kontra rabtiet diretti permezz tat-tfittxija tal-immaġini; madankollu, din mhix soluzzjoni infallibbli.
+AI学習用botをアクセス禁止にする	Imblokka l-aċċess għall-bot tat-taħriġ tal-AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Billi nevitaw l-użu ta' bots iddisinjati għat-taħriġ tal-AI fuq HTML, niżguraw li l-kontenut ma jintużax mill-AI; madankollu, dan ma jistax jiġi evitat kompletament.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Iblokka l-aċċess għall-arkivji tal-web u għall-istampi tal-web
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Nipprojbixxu l-aċċess għal arkivi tal-web miġbura awtomatikament u screenshots meħuda fid-diskrezzjoni tal-utent; madankollu, ma nistgħux nipprevjenu dan kompletament.
+無効なUAをアクセス禁止にする	Iblokka l-aġenti tal-utent invalidi
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Jipprevjeni l-aċċess jekk is-string tal-user agent ikun fih karattri invalidi
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Uri twissija meta taċċessa Internet Explorer u l-Microsoft Edge qadim
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Jipprevjeni l-aċċess permezz ta' Internet Explorer u l-Microsoft Edge qadim.
+alertメッセージを表示する言語	Lingwa li fiha jiġu murija messaġġi ta' twissija
+Wordpressの言語	Lingwi ta' WordPress
+ブラウザの設定言語	Is-settings tal-lingwa tal-browser
+メッセージをカスタム設定されている場合は言語を変更できません	Ma tistax tbiddel il-lingwa jekk il-messaġġi ġew personalizzati.
+同意画面の言語	Lingwa tal-iskrin tal-kunsens
+view-sourceメッセージを表示する言語	Lingwa li fiha jintwera l-messaġġ 'view-source'
+一時使用トークンの有効期限	Data ta' skadenza tat-tokeni temporanji
+3分	3 minuti
+4分	4 minuti
+5分	5 minuti
+6分	6 minuti
+7分	Seba' minuti
+8分	8 minuti
+9分	Disa' minuti
+10分	10 minuti
+15分	15-il minuta
+20分	20 minuti
+25分	25 minuti
+30分	30 minuti
+35分	35 minuti
+40分	40 minuti
+45分	45 minuti
+50分	50 minuti
+55分	55 minuti
+1時間	Siegħa waħda
+画像URL情報の有効期限を設定します	Issettja d-data ta' skadenza għall-informazzjoni tal-URL tal-immaġni.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Ladarba jkunu mniżżla, l-URL tal-immaġni u t-token temporanju se jiġu invalidati.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	L-immaġini jitgħabbew fuq talba, iżda se jitgħabbew awtomatikament 30 sekonda qabel il-ħin speċifikat.
+一時使用トークンのビット数	In-numru ta' bits f'token temporanju
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token temporanju jintuża bħala password biex jiġi kriptat l-URL tal-immaġni; din l-issettjar tispeċifika l-qawwa tiegħu.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Għalkemm l-għażliet li jidhru taħt il-menu drop-down isiru dejjem aktar dettaljati, dan jista' jpoġġi piż kbir fuq is-server u jwassal għal volum kbir ta' data HTML trasferita.
+ハッシュ化アルゴリズム	Algoritmu tal-hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token temporanju jintuża bħala password biex jikkripta l-informazzjoni tal-URL tal-immaġni; dan jeħtieġ hashing, u din l-issettjar tiddetermina s-saħħa ta' dak il-hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Għalkemm l-intensità tiżdied hekk kif tiskrollja 'l isfel permezz tal-għażliet murija fil-menu drop-down, dan jimponi piż akbar fuq is-server.
+基本設定	Is-settings bażiċi
+高度な設定	Issettjar avvanzat
+初期設定に戻す	Irrestawra l-issettjar default
+デザイン・音の設定	Disinn u issettjar tal-ħoss
+イベントの設定	Is-settings tal-avveniment
+初回訪問時のお知らせの設定	It-twaqqif tan-notifiki għall-ewwel żjarat
+メッセージの設定	Is-settings tal-messaġġ
+右クリックやソースコード表示時に転送する URL を設定します	Issettja l-URL li għandha tiġi miftuħa meta tikklikkja bil-lemin jew meta tkun qed tara l-kodiċi sors.
+警告メッセージにはHTMLは使用できません	HTML ma jistax jintuża f'messaġġi ta' twissija.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Jekk tikkonfigura dan fuq din l-iskrin, l-issettjar tal-lingwa fit-tab Avvanzat se jiġu injorati.
+以下の文字列が使用できます	Il-kordi li ġejjin jistgħu jintużaw
+改行	Ksur tal-linja
+押下されたキー	Tast imqabbad
+Neo HTML Protector 設定	Issettjar ta' Neo HTML Protector
+お知らせ	Avviż
+メッセージ	Messaġġ
+デザイン・音	Disinn u Ħoss
+初期化	Inizjalizzazzjoni
+このプラグインについて	Dwar dan il-plugin
+設定が初期化されました	L-issettjarijiet ġew irrisettjati
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Inizjalizza l-plugin. Jekk jogħġbok innota li d-dejta tal-IP Log Reader mhux se titħassar f'dan l-istadju.
+Neo HTML Protectorについて	Dwar Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Dan il-plugin ġie ddisinjat biex jipproteġi l-HTML, l-immaġini u kontenut ieħor ġenerat mis-sit WordPress tiegħek, u biex jipproteġih minn użu mhux awtorizzat.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Huwa impossibbli li tipproteġi l-kontenut kompletament. Madankollu, billi nagħtu twissijiet kull fejn hu possibbli u nagħmlu preparazzjonijiet f'każ li jiġri xi ħaġa, għandna nkunu nistgħu nsolvu l-kwistjoni skont il-proċeduri stabbiliti mill-gvern.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Naturalment, għandek tiżgura li t-termini tas-servizz u l-politiki tas-sit tiegħek huma komprensivi. Filwaqt li dan il-plugin mhux għodda għall-ġenerazzjoni tat-termini tas-servizz, jista' jipprovdi xi gwida.
+開発者: 夜桜　なの	Żviluppatur: Nano Yozakura
+バージョン	Verżjoni
+ビルド	Ibni
+サポートページ	Paġna ta' appoġġ
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Eżegwita minn Miss Ura Manira
+支援のお願い	Talba għall-appoġġ
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Grazzi talli qed tuża Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	L-iżvilupp u l-manutenzjoni ta' dan il-plugin ħadu ħafna ħin u sforz, u biex niġbru fondi biex inkomplu ntejbu u naġġornawh, inkunu grati jekk xi ħadd li jista' jappoġġjana jikkunsidra li jagħti donazzjoni.
+寄付について	Dwar id-donazzjonijiet
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Id-donazzjonijiet huma kompletament volontarji u mhux obbligatorji. Il-plugin huwa disponibbli għal kulħadd b'xejn. Madankollu, l-appoġġ tiegħek huwa ferm apprezzat biex jgħinna nkomplu l-iżvilupp, u nkunu kuntenti ħafna jekk tista' tikkontribwixxi anke ammont żgħir.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Tista' tagħmel donazzjoni permezz tal-link hawn taħt. Jekk tinsab fil-Ġappun, tista' tagħmel donazzjoni mingħajr ħlas, u tista' wkoll tagħmel donazzjoni faċilment billi tuża vawċers ta' rigal ta' Amazon.
+寄付先	Karitajiet
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Bil-appoġġ tiegħek, nagħmlu l-almu tagħna biex inkomplu nġibulek aġġornamenti fantastici!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Ninsabu grati għall-appoġġ tiegħek u nistennew bil-ħerqa għall-appoġġ kontinwu tiegħek fil-futur.
+ライセンス	Liċenzja
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Dan il-plugin ġie żviluppat bħala softwer open source u huwa liċenzjat taħt il-GPLv2.0 jew verżjoni aktar ġdida.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Xi wħud mit-teknoloġiji inklużi f'dan il-plugin huma protetti minn patenti.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	L-użu tat-teknoloġija brevettata huwa permess biss f'dan il-plug-in.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Għal kull użu ieħor, jekk jogħġbok ikkuntattja lill-awtur biex tikseb liċenzja kummerċjali.
+本プラグインには以下のライブラリを同梱しています	Dan il-plugin jinkludi l-libreriji li ġejjin
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Dan il-plugin jinkludi l-fonts tal-arti ASCII ġġenerati hawn taħt, flimkien mal-fajls tal-fonts.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Dan il-plugin jinkludi mużika mill-logħba mhux uffiċjali Super Famicom 'SM Trainer Hitomi 3', żviluppata minn EJ Co., Ltd. u komposta mill-kreatur ta' dan il-plugin, u għandha liċenzja uffiċjali.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Dan il-plugin jinkludi trakkijiet maħluqa bl-użu ta' 'Keppy's YAMAHA C7', żviluppat minn Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Użajt ukoll Raspberry Pi 5, ChatGPT u DeepL fl-iżvilupp ta' dan il-plugin.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Instab plugin tal-kaxxa. Dan il-plugin ma jaħdimx b'mod korrett jekk plugin tal-kaxxa jkun attivat.
+無効なIPアドレス	Indirizz IP invalidu
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Biex tuża dan is-sit web, trid tattiva l-cookies u l-JavaScript.
+利用規約	Kundizzjonijiet ta' Użu
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Biex tipprevjeni l-użu mhux awtorizzat u tiżgura l-operazzjoni sigura tas-servizzi tagħna, dan is-sit jista' jaħżen informazzjoni bħal indirizzi IP, storja tal-browsing u logijiet tal-attività f'cookies u f'bażijiet ta' data. Din l-informazzjoni tintuża biss għall-operazzjoni tas-sit u għal skopijiet legali, u mhux se tiġi żvelata lil terzi.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Biex tuża dan is-servizz, trid tagħti l-kunsens tiegħek għal dawn l-attivitajiet ta' proċessar.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Tista' tara l-kontenut tal-Politika tal-Privatezza irrispettivament minn jekk tajt il-kunsens tiegħek.
+同意する	Naqbel
+同意しない	Ma naqbilx
+確認	Konferma
+プライバシーポリシー	Politika tal-privatezza
+通常とは異なる方法でのアクセスや操作が検出されました	Ġie skopert aċċess jew attività mhux tas-soltu.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Ċerti karatteristiċi ġew ristretti għal skopijiet ta' sigurtà u protezzjoni tal-kontenut.
+デバッグモード、コンソールの起動は禁止されています	Il-modalità tad-debugging u l-aċċess għall-konsola huma diżattivati.
+以下の情報がサーバーに送信されました	L-informazzjoni li ġejja ġiet mibgħuta lis-server
+あなたのIPアドレス	L-indirizz IP tiegħek
+あなたの端末とブラウザ	It-tagħmir u l-browser tiegħek
+あなたの押下したキー	Il-buttuna li għafast
+リダイレクトをします	Int se tiġi ridirezzjonat
+コンテンツ保護のため一部の機能を制限しています	Ċerti karatteristiċi ġew ristretti biex jipproteġu l-kontenut
+右クリックは禁止されています	Il-klik tal-lemin mhux permess
+あなたが押下したキー	Il-buttuna li għafast
+印刷、PDFへの保存は禁止されています	Il-istampar u s-salvjar bħala PDF huma pprojbiti.
+スクリーンショットは禁止されています	Il-captures tal-iskrin huma pprojbiti.
+スクリーンショット、デバッグモード等の起動は禁止されています	Huwa pprojbit li tieħu screenshots u tixgħel il-modalità tad-debugging.
+ページの保存は禁止されています	Il-ħażna ta' din il-paġna hija pprojbita.
+コピー、カットは禁止されています	Il-kopja u l-qtugħ huma pprojbiti.
+あなたが起こしたイベント	L-avvenimenti li organizzajt
+テキストの選択は禁止されています	Il-għażla tat-test mhix permessa
+HTMLソース表示は禁止されています	Il-wiri tal-kodiċi sors tal-HTML huwa pprojbit.
+不正アクセスは禁止されています	L-aċċess mhux awtorizzat huwa pprojbit
+アフリカーンス語	Afrikanis
+アラゴン語	Aranġes
+アラビア語	Għarbi
+アッサム語	Assamiż
+アゼルバイジャン語	Ażerbajġani
+バシュキール語	Bashkir
+ベラルーシ語	Belarussjan
+ベンガル語	Bengali
+ブルガリア語	Bulgaru
+ボスニア語	Bożnjan
+カタロニア語	Katalanu
+チェコ語	Ċek
+ウェールズ語	Galles
+デンマーク語	Daniż
+ドイツ語	Ġermaniż
+現代ギリシア語	Grieg modern
+英語	Ingliż
+イギリス英語	Ingliż
+アメリカ英語	Ingliż Amerikan
+エスペラント語	Esperanto
+スペイン語	Spanjol
+エストニア語	Estonjan
+バスク語	Basku
+ペルシャ語	Persjan
+フィンランド語	Finlandiż
+フランス語	Franċiż
+アイルランド語	Irlandiż
+ガリシア語	Għallizjan
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Għawsi
+ヘブライ語	Ebrajk
+ヒンディ語	Hindi
+クロアチア語	Kroat
+ハイチ・クレオール語	Kriolu Haitjan
+ハンガリー語	Ungeriz
+インドネシア語	Indoneżjan
+イボ語	Lingwa Ibo
+アイスランド語	Iżlandiż
+イタリア語	Taljan
+日本語	Ġappuniż
+ジャワ語	Ġavaniż
+カザフ語	Kazakh
+朝鮮語	Korejan
+クルド語	Kurdija
+キルギス語	Kirgiż
+ラテン語	Latin
+ルクセンブルク語	Lussemburġiż
+リンガラ語	Lingala
+リトアニア語	Litwanu
+ラトビア語	Latvjan
+マダガスカル語	Malagasi
+マオリ語	Maori
+マケドニア語	Maċedonjan
+マラヤーラム語	Malajalam
+モンゴル語	Mongoljan
+マラーティー語	Marathi
+マレー語	Malaj
+マルタ語	Malti
+ビルマ語	Birmaniż
+ネパール語	Nepaliż
+ノルウェー語	Norveġiż
+オランダ語	Olandiż
+オック語	Oċċitan
+オロモ語	Jew
+パンジャーブ語	Punjabi
+ポーランド語	Polakk
+パシュトー語	Pashto
+ポルトガリア語	Portugiż
+ブラジルポルトガル語	Portugiż Brażiljan
+ヨーロピアンポルトガル語	Portugiż Ewropew
+ケチュア語	Qhichwa
+ルーマニア語	Rumen
+ロシア語	Russu
+サンスクリット語	Ils-ilsien
+スロバキア語	Slovakk
+スロベニア語	Slovenu
+セルビア語	Serbu
+南セソト語	Sesotho tanimix
+スンダ語	Sundanese
+スウェーデン語	Żvediż
+スワヒリ語	Swahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajiki
+タイ語	Tajlandiż
+トルクメン語	Torkmen
+タガログ語	Tagalog
+トルコ語	Tork
+タタール語	Tatar
+ウクライナ語	Ukren
+ウルドゥー語	Għarbi
+ウズベク語	Użbek
+ベトナム語	Vjetnamiż
+コサ語	Kosa
+イディッシュ語	Jiddis
+簡体中国語	Ċiniż semplifikat
+繁体中国語	Ċiniż tradizzjonali
+ズールー語	Żulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Il-browser li qed tuża bħalissa huwa verżjoni antika li m'għadhiex appoġġjata. Biex tiżgura esperjenza ta' navigazzjoni aktar sigura u komda, jekk jogħġbok aġġorna għall-aħħar verżjoni tal-browser tiegħek.
+不正なリクエストです	Talba mhux valida
+画像が見つかりません	L-immaġni ma nstabx

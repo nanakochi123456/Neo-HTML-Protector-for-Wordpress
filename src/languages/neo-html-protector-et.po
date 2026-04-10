@@ -1,14 +1,14 @@
 # Estonian translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 00:16+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -984,14 +984,44 @@ msgstr "HTML-allika kuvamine on keelatud."
 msgid "不正アクセスは禁止されています"
 msgstr "Loata juurdepääs on keelatud."
 
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragoonia keel"
+
 msgid "アラビア語"
 msgstr "Araabia keel"
+
+msgid "アッサム語"
+msgstr "Assami keel"
+
+msgid "アゼルバイジャン語"
+msgstr "Aserbaidžaani keel"
+
+msgid "バシュキール語"
+msgstr "Baškiir"
+
+msgid "ベラルーシ語"
+msgstr "Valgevene"
+
+msgid "ベンガル語"
+msgstr "Bengali"
 
 msgid "ブルガリア語"
 msgstr "Bulgaaria"
 
+msgid "ボスニア語"
+msgstr "Bosnia keel"
+
+msgid "カタロニア語"
+msgstr "Katalaani"
+
 msgid "チェコ語"
 msgstr "Tšehhi keel"
+
+msgid "ウェールズ語"
+msgstr "Walesi keel"
 
 msgid "デンマーク語"
 msgstr "Taani keel"
@@ -1011,11 +1041,20 @@ msgstr "Briti inglise keel"
 msgid "アメリカ英語"
 msgstr "Ameerika inglise keel"
 
+msgid "エスペラント語"
+msgstr "Esperanto"
+
 msgid "スペイン語"
 msgstr "Hispaania"
 
 msgid "エストニア語"
 msgstr "Eesti keel"
+
+msgid "バスク語"
+msgstr "Baski keel"
+
+msgid "ペルシャ語"
+msgstr "Farsi"
 
 msgid "フィンランド語"
 msgstr "Soome keel"
@@ -1023,11 +1062,44 @@ msgstr "Soome keel"
 msgid "フランス語"
 msgstr "Prantsuse keel"
 
+msgid "アイルランド語"
+msgstr "Iiri keel"
+
+msgid "ガリシア語"
+msgstr "Galiitsia keel"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Heebrea"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Horvaatia keeles."
+
+msgid "ハイチ・クレオール語"
+msgstr "Haiti kreooli keel"
+
 msgid "ハンガリー語"
 msgstr "Ungari"
 
 msgid "インドネシア語"
 msgstr "Indoneesia keel"
+
+msgid "イボ語"
+msgstr "Wartburgi keel"
+
+msgid "アイスランド語"
+msgstr "Islandi keel"
 
 msgid "イタリア語"
 msgstr "Itaalia keel"
@@ -1035,8 +1107,29 @@ msgstr "Itaalia keel"
 msgid "日本語"
 msgstr "Jaapani keel"
 
+msgid "ジャワ語"
+msgstr "Jaapani keel"
+
+msgid "カザフ語"
+msgstr "Kasahhi keel"
+
 msgid "朝鮮語"
 msgstr "Korea keel"
+
+msgid "クルド語"
+msgstr "Kurdi keel"
+
+msgid "キルギス語"
+msgstr "Kõrgõzstani"
+
+msgid "ラテン語"
+msgstr "Ladina"
+
+msgid "ルクセンブルク語"
+msgstr "Luksemburgi keel"
+
+msgid "リンガラ語"
+msgstr "Lingala"
 
 msgid "リトアニア語"
 msgstr "Leedu keel"
@@ -1044,14 +1137,56 @@ msgstr "Leedu keel"
 msgid "ラトビア語"
 msgstr "Läti keel"
 
+msgid "マダガスカル語"
+msgstr "Madagaskar"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Makedoonia keel"
+
+msgid "マラヤーラム語"
+msgstr "Malayalami keel"
+
+msgid "モンゴル語"
+msgstr "Mongoolia"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malai keel"
+
+msgid "マルタ語"
+msgstr "Malta keel"
+
+msgid "ビルマ語"
+msgstr "Birma"
+
+msgid "ネパール語"
+msgstr "Nepali"
+
 msgid "ノルウェー語"
 msgstr "Norra keel"
 
 msgid "オランダ語"
 msgstr "Hollandi keel"
 
+msgid "オック語"
+msgstr "Oktsitaania"
+
+msgid "オロモ語"
+msgstr "Oromo"
+
+msgid "パンジャーブ語"
+msgstr "Pandžabi"
+
 msgid "ポーランド語"
 msgstr "Poola keel"
+
+msgid "パシュトー語"
+msgstr "Pashto"
 
 msgid "ポルトガリア語"
 msgstr "Portugali keel"
@@ -1062,11 +1197,17 @@ msgstr "Brasiilia portugali keel"
 msgid "ヨーロピアンポルトガル語"
 msgstr "Euroopa portugali keel"
 
+msgid "ケチュア語"
+msgstr "Quechua"
+
 msgid "ルーマニア語"
 msgstr "Rumeenia keel"
 
 msgid "ロシア語"
 msgstr "Vene keel"
+
+msgid "サンスクリット語"
+msgstr "Sanskriti keel"
 
 msgid "スロバキア語"
 msgstr "Slovakkia"
@@ -1074,23 +1215,71 @@ msgstr "Slovakkia"
 msgid "スロベニア語"
 msgstr "Sloveeni keel"
 
+msgid "セルビア語"
+msgstr "Serbia"
+
+msgid "南セソト語"
+msgstr "Lõuna-Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundaani keel"
+
 msgid "スウェーデン語"
 msgstr "Rootsi keel"
+
+msgid "スワヒリ語"
+msgstr "Suahiili"
+
+msgid "タミル語"
+msgstr "Tamili keel"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tadžiki keel"
+
+msgid "タイ語"
+msgstr "Tai keel"
+
+msgid "トルクメン語"
+msgstr "Türkmeenia"
+
+msgid "タガログ語"
+msgstr "Tagalog"
 
 msgid "トルコ語"
 msgstr "Türgi keel"
 
+msgid "タタール語"
+msgstr "Tatar"
+
 msgid "ウクライナ語"
 msgstr "Ukraina keel"
 
-msgid "中国語"
-msgstr "Hiina"
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Usbeki"
+
+msgid "ベトナム語"
+msgstr "Vietnami keel"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jidiš"
 
 msgid "簡体中国語"
 msgstr "Lihtsustatud hiina keel"
 
 msgid "繁体中国語"
 msgstr "Traditsiooniline hiina keel"
+
+msgid "ズールー語"
+msgstr "Zulu"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "Praegu kasutatav brauser on vanem versioon, mida enam ei toetata. Turvalisemaks ja mugavamaks sirvimiskeskkonnaks uuendage palun uusima brauseri versioonile."

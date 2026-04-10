@@ -1,0 +1,424 @@
+設定	Mipangilio
+IPログリーダー	Soma Kumbukumbu za IP
+IPアドレスログ	Kumbukumbu ya anwani za IP
+全クリア	Kamilisha ngazi zote
+IPログが全て削除されました	Kumbukumbu zote za IP zimefutwa
+ID	Kitambulisho
+タイムスタンプ	Alama ya muda
+IPアドレス	Anwani ya IP
+ユーザーエージェント	Wakala wa mtumiaji
+イベント	Tukio
+IPアドレスのデータはありません	Hakuna data kwa anwani hii ya IP.
+EU GDPR対応	Uzingatiaji wa GDPR ya EU
+無効	Si halali
+有効	Halali
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Ikiwa unatumia WordPress ndani ya Umoja wa Ulaya, au ikiwa tovuti yako inalenga watumiaji ndani ya Umoja wa Ulaya, tafadhali hakikisha hii imewezeshwa.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Kitufe cha 'Thibitisha' kitabadilika kuwa 'Kubaliana' au 'Kutokubaliana', na tabia yake itabadilika kidogo.
+同意画面の色	Rangi ya skrini ya idhini
+自動	Kiotomatiki
+ライトモード	Hali nyepesi
+ダークモード	Hali ya Giza
+同意画面表示中の配色を設定します	Weka mpangilio wa rangi kwa skrini ya idhini
+同意画面中のコンテンツのぼかし	Kufifisha maudhui kwenye skrini ya idhini
+同意画面表示中のコンテンツのぼかし具合を設定します	Weka kiwango cha kufifisha maudhui yanayoonekana kwenye skrini ya idhini
+同意画面の透過	Uwazi wa skrini ya idhini
+透過なし	Hakuna uwazi
+同意画面の透過具合を設定します	Weka uwazi wa skrini ya idhini
+お知らせの1行目	Mstari wa kwanza wa tangazo
+初回表示で必ず表示されるメッセージです	Ujumbe huu huonyeshwa kila mara mara ya kwanza ukurasa unapopakiwa.
+お知らせの2行目	Mstari wa pili wa taarifa
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ujumbe huu utaonekana kila mara kwenye onyesho la kwanza tu wakati GDPR ya EU iko katika nguvu.
+お知らせの3行目	Mstari wa tatu wa taarifa
+プライバシーポリシーのリンクの右側に表示されます	Itatokea upande wa kulia wa kiungo cha Sera ya Faragha.
+非EU向け確認の文字列	Uthibitisho wa maandishi kwa nchi zisizo za Umoja wa Ulaya
+EU GDPR向け同意するの文字列	Maelezo ya idhini kwa GDPR ya EU
+EU GDPR向け同意しないの文字列	Maandishi ya 'Usiruhusu' chini ya GDPR ya Umoja wa Ulaya
+プライバシーポリシーの文字列	Maandishi ya sera ya faragha
+プライバシーポリシーのURLはこちらから設定して下さい	Tafadhali weka URL ya sera ya faragha hapa
+プライバシーポリシーには以下の内容を追加して下さい	Tafadhali ongeza yafuatayo kwenye sera ya faragha.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ili kugundua shughuli za udanganyifu, vitambulisho kama anwani za IP huhifadhiwa kwenye vidakuzi na hifadhidata. Data iliyohifadhiwa hufutwa kwa hiari ya msimamizi.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Ili kuhakikisha picha zinafikishwa kwa usahihi tu wakati ulinzi wa picha umewezeshwa, tunahifadhi data zilizohashwa zinazojumuisha anwani ya IP na jina la faili la picha kwenye hifadhidata kwa hadi dakika 60.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Ikiwa unaandaa Masharti ya Matumizi, tafadhali hakikisha unajumuisha kiungo chao katika Sera yako ya Faragha.
+利用規約の文字列	Nakala ya Masharti ya Matumizi
+利用規約のページ	Ukurasa wa Masharti na Vigezo
+ページ選択なし	Hakuna ukurasa uliochaguliwa
+検索エンジン等のURL	URL za injini za utafutaji, n.k.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Weka URL kwa injini za utafutaji na tovuti zinazofanana zinazowaelekeza watumiaji wanapokosa ridhaa.
+デバッグモード、コンソールの警告メッセージ	Hali ya kurekebisha hitilafu, ujumbe wa onyo kwenye konsole
+右クリックの警告メッセージ	Bofya kulia ujumbe wa onyo
+印刷、PDF保存の警告メッセージ	Ujumbe wa tahadhari kuhusu kuchapisha na kuhifadhi kama PDF
+スクリーンショットの警告メッセージ	Ujumbe wa onyo kwenye picha ya skrini
+スクリーンショットの疑いの警告メッセージ	Ujumbe wa onyo kuhusu picha za skrini zinazoshukiwa
+テキスト全選択時の警告メッセージ	Ujumbe wa onyo wakati maandishi yote yamechaguliwa
+ページ保存の警告メッセージ	Ujumbe wa onyo kuhusu uhifadhi wa ukurasa
+コピー・カットした時に表示するメッセージ	Ujumbe unaoonyeshwa wakati wa kunakili au kukata
+HTMLソース表示時に表示するメッセージ	Ujumbe wa kuonyesha unapotazama chanzo cha HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Ujumbe wa kuonyeshwa juu ya msimbo chanzo unapoficha au kulinda HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Ujumbe wa kuonyesha ikiwa tokeni ya uthibitisho ya mara moja haiko halali wakati wa ulinzi wa HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Ujumbe wa kuonyesha ikiwa vidakuzi au JavaScript zimezimwa
+実際にはJavascriptが無効時のみ表示されます	Kwa kweli, hii huonyeshwa tu wakati JavaScript imezimwa.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Picha inapokuwa imelindwa, hupakuliwa, na ujumbe huonyeshwa juu yake
+HTML難読化 (圧縮)	Ufichuzi wa HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Hii ni ukandamizaji wa kawaida wa HTML; pia kuna tovuti zinazoweza kuifumbua.
+このオプションを有効にするとview-sourceのログが取得できます	Kuwasha chaguo hili kunakuwezesha kupata kumbukumbu ya chanzo cha mtazamo.
+HTML保護	Ulinzi wa HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Inatoa HTML kidogo zaidi kuliko mpangilio wa kubana HTML, ikimaanisha kuwa yaliyomo ndani ya lebo ya BODY hayatatolewa kabisa.
+Firefoxに対しては無効です	Hii haitumiki kwa Firefox
+SEOに著しく影響があります	Hii ina athari kubwa kwa SEO
+HTMLをJavaScriptで描画	Kutengeneza HTML kwa kutumia JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Ili kukabiliana na Firefox, tunatengeneza muonekano wa HTML kwa kutumia JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Kuwasha uwasilishaji wa JavaScript kutasababisha kupungua kwa kasi ya upakiaji wa tovuti.
+画像の保護	Ulinzi wa picha
+imgタグが呼び出されるごとに画像を保護	Linda picha kila wakati lebo ya img inapotajwa
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Linda picha zote zilizopakiwa kwenye WordPress ndani ya pato lote la HTML
+画像をダウンロードから保護します	Hulinda picha zisishushwe
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Wakati data za picha zinapohifadhiwa, tunazuia karibu upakuaji wote, tunatoa URL za kipekee za mara moja, tunathibitisha utambulisho kwa kutumia tokeni zilizohifadhiwa katika kipindi cha kikao, na tunaonyesha picha kupitia PHP; hii kwa ufanisi inazuia karibu wizi wote wa picha.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Wakati data ya picha inalindwa, kuhifadhi kwa muda mfupi hakifanyi kazi, jambo linalomaanisha kuwa tovuti itapakia polepole zaidi katika ziara zinazofuata, na hivyo kuathiri SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Kulinda data ya picha kunaweza kuongeza mzigo kwenye hifadhidata.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Ukichagua 'Linda picha kila wakati lebo ya img inapotajwa', mfumo utatumia add_filter kutekeleza uchujaji wakati lebo ya img inapotengenezwa; hata hivyo, hii inaweza kutofanya kazi ipasavyo na baadhi ya mandhari.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Ukichagua 'Linda picha zote zilizopakiwa kwenye WordPress ndani ya pato lote la HTML', programu-jalizi itarekodi karibu shughuli zote za WordPress na kuchakata kila lebo ya img katika maudhui. Tafadhali kumbuka kuwa hii inaweza isifanye kazi ipasavyo na baadhi ya mandhari.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Tafadhali kumbuka kuwa picha zinazotajwa kama picha kuu zitashirikiwa kama data ya OGP na haziwezi kulindwa. Ikiwa ni lazima kabisa kuzilinda, tafadhali badilisha mipangilio ya kutolewa kwa lebo ya HEAD katika mipangilio ya hali ya juu unapowezesha ulinzi wa HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Kazi ya kuchukua picha ya skrini iliyojumuishwa kama kipengele cha kawaida katika mfumo wa uendeshaji haiwezi kulindwa.
+画像URLの保護	Kulinda URL za picha
+画像の保護と組み合わせて使用します、単体では意味がありません	Hii inapaswa kutumika pamoja na ulinzi wa picha; yenyewe haifai kwa chochote.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Kwa kuwa inapakia kupitia JavaScript, hii inaathiri SEO.
+画像のウォーターマーク	Alama ya maji ya picha
+右下	Chini kulia
+ランダム位置	Nafasi ya nasibu
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Zikitumika pamoja na ulinzi wa picha, alama za maji zinazobadilika zinaonyesha wazi umiliki wa hakimiliki huku zikitoa hisia kwa watazamaji kwamba wanachunguzwa, hivyo zikichukua jukumu la kuzuia ukiukaji.
+JPG形式、PNG形式、WebP形式のみ対応します	Ni miundo ya JPG, PNG na WebP pekee inayotumika.
+有効にするとサーバーの負荷が高くなります	Kuwasha hii kutongeza mzigo kwenye seva.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Kutoa sanaa ya ASCII kutoka kwa msimbo chanzo wa HTML wakati wa kuficha na kulinda
+表示なし	Hakuna onyesho
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Huonyesha sanaa ya ASCII inayoonyesha onyo unapotazama chanzo cha HTML kwa kutumia 'view-source'
+対象アクションを起こした時の表示デザイン	Onyesha muundo wakati kitendo lengwa kinapotekelezwa
+黄色の背景の黒文字のベーシックデザイン	Muundo wa msingi unaoonyesha maandishi meusi kwenye mandhari ya manjano
+黒色の背景の赤文字のホラー風デザイン	Muundo wa mtindo wa kutisha wenye maandishi mekundu kwenye mandhari nyeusi
+黒色の背景の赤文字の光る文字のデザイン	Muundo unaoonyesha maandishi mekundu yanayong'aa kwenye mandhari nyeusi
+対象アクションを起こした時のBGM	Muziki wa mandhari unaopigwa wakati kitendo lengwa kinapotendeka
+サウンドなし	Hakuna sauti
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Mapigano na Ushindi - dakika 1 sekunde 16.3 - baiti 630,056 - 64 kbps - Leseni: CC 2.1 au baadaye
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Fupi - sekunde 3.8 - baiti 32,364 - 64 kbps - Leseni: GPL 2.0 au baadaye
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Mrefu - sekunde 23.5 - baiti 195,578 - 64 kbps - Leseni: GPL 2.0 au baadaye
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Na. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Na. 12 'Mapinduzi' – Toleo lililotengenezwa na kompyuta, kasi ya juu – dakika 1, sekunde 57.6 – baiti 724,457 – 48 kbps – Leseni: CC BY-ND 4.0 au baadaye
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo katika B-flat minor, Op. 2 – Toleo lililotengenezwa na kompyuta, toleo fupi la kasi ya juu – dakika 1, sekunde 48.0 – baiti 665,369 – 48 kbps – Leseni: CC BY-ND 4.0 au toleo jipya zaidi
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Orodha: Étude d'Exécution Na. 4 'Mazeppa' – toleo lililotengenezwa na kompyuta, toleo fupi lenye kasi kubwa – dakika 1 na sekunde 51.6 – baiti 687,586 – 48 kbps – Leseni: CC BY-ND 4.0 au toleo jipya zaidi
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Shangwe – sekunde 22.3 – baiti 183,926 – 64 kbps – Leseni: Mali ya umma
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Shangwe za mtindo wa retro – sekunde 2.2 – baiti 10,536 – 32 kbps – Leseni: Umma
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Utangulizi wa mtindo wa retro – sekunde 42.1 – baiti 179,138 – 32 kbps – Leseni: Mali ya umma
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Onyo kutoka kwa ChatGPT - sekunde 3.8 - baiti 109,700 - 256 kbps - Leseni: Mali ya umma
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sauti ya dharura ya juu inayofanana na tahadhari ya ugunduzi wa programu hasidi – Sehemu ya 1 na ChatGPT – sekunde 3.3 – baiti 102,850 – 256 kbps – Leseni: Mali ya umma
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sauti ya dharura ya juu inayofanana na tahadhari ya ugunduzi wa programu hasidi, Sehemu ya 2 na ChatGPT - sekunde 3.3 - baiti 103,122 - 256 kbps - Leseni: Mali ya Umma
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sauti ya mtindo wa MRI na ChatGPT – dakika 1 sekunde 14.9 – baiti 3,340,392 – 320 kbps – Leseni: Mali ya umma
+警告表示中のBGMを選択します	Chagua muziki wa mandharinyuma utakao cheza wakati wa onyo.
+びっくりするような雰囲気を作ります	Huitengeneza hali ya kushangaza
+Firefoxでは音声ブロックされます	Sauti imezuiwa katika Firefox
+対象アクションを起こした時のビープ音	Bip inapofanywa kitendo kilichobainishwa
+有効 音量小さ目	Imewashwa, sauti chini
+有効 音量大き目	Inaendelea, sauti imewekwa juu
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Sauti ya bip itasikika kwa matukio yote ya kitufe na kipanya wakati onyo linaonyeshwa.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Hii inaacha hisia kwamba kifaa kimepoteza udhibiti wakati onyo linaonyeshwa.
+対象アクションを起こした時のマウスカーソルの消去	Kuficha kiashiria cha panya wakati kitendo maalum kinapotendeka
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Huficha kiashiria cha panya katika eneo la kivinjari wakati onyo linaonyeshwa
+デバッグモード	Hali ya kurekebisha hitilafu
+妨害＋記録のみ	Uingiliaji + Rekodi tu
+妨害＋記録＋表示＋リダイレクト	Uingiliaji + Urekodi + Onyesho + Uelekezaji upya
+メニューからは操作できてしまいます	Bado unaweza kuifikia kupitia menyu.
+Firefoxにおけるデバッグモード	Hali ya kurekebisha hitilafu katika Firefox
+ブラウザーコンソール	Konsoli ya kivinjari
+事実上デバッグモードから操作できてしまいます	Kwa hakika, unaweza kuiendesha kutoka kwenye hali ya kurekebisha hitilafu.
+HTMLソース表示	Tazama chanzo cha HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Unaweza kufanya operesheni hiyo kwa urahisi tu kwa kuingiza URL inayotangulia na 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Unaweza kulinda maudhui yako kwa kuchanganya hii na ulinzi wa HTML.
+印刷	Chapisha
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Ingawa inazuia uchapishaji, huenda isifanye kazi ipasavyo katika vivinjari fulani.
+スクリーンショット	Picha ya skrini
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Kutegemea mfumo endeshi, kivinjari au mbinu inayotumika, huenda isiwezekane kuzizuia hizi, au huenda zisitambuliwe.
+ウインドウが背面に移動した時スクリーンショットの疑い	Picha ya skrini inayoshukiwa inapohamishwa dirisha hadi nyuma
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Pia hujibu kazi nyingine mbali na picha za skrini
+2キー押下のスクリーンショットの疑い	Picha ya skrini inayoshukiwa kuchukuliwa kwa kubonyeza vitufe viwili
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Njia za ugunduzi za vitu vilivyotajwa hapo juu si za uhakika kabisa; ugunduzi hufanywa kama hatua ya tahadhari.
+スクリーンショットだけではなく、デバッグモード等も検出します	Inagundua si tu picha za skrini bali pia modi za utatuzi wa hitilafu na mambo kama hayo.
+ページ保存	Hifadhi ukurasa
+右クリック	Bofya kulia
+アドオンがインストールされていると操作できてしまいます	Ikiwa nyongeza imewekwa, utaweza kuitumia.
+コピー・カット	Nakili na kata
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Kulingana na mipangilio ya programu-jalizi hii, huenda ukakutana na tukio hili mara chache.
+テキスト全選択	Chagua maandishi yote
+テキスト選択	Chagua maandishi
+デバッガー起動ログ、デバッガー妨害	Kumbukumbu ya kuanzisha debugger, uingiliaji wa debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Hii inafanya hali ya debug kuwa kidogo si rahisi kutumia na inaandika kwamba debugger imezinduliwa; hata hivyo, vivinjari fulani vinaweza kuzuia tabia hii.
+リダイレクトするURL	Elekeza URL
+利用規約などのページに転送すると良いでしょう	Itakuwa wazo zuri kuwaelekeza watumiaji kwenye kurasa kama vile Masharti ya Matumizi.
+空欄にすると元のURLにリダイレクトをします	Ikiwa itaachwa wazi, itageuza upya kwenye URL ya awali.
+リダイレクトまでの時間	Muda hadi kuelekezwa upya
+リダイレクトなし	Hakuna kuelekeza upya
+1秒	Sekunde 1
+2秒	Sekunde 2
+3秒	Sekunde 3
+4秒	Sekunde 4
+5秒	Sekunde 5
+6秒	Sekunde 6
+7秒	Sekunde saba
+8秒	Sekunde nane
+9秒	Sekunde tisa
+10秒	Sekunde kumi
+15秒	Sekunde kumi na tano
+20秒	Sekunde ishirini
+25秒	Sekunde 25
+30秒	Sekunde 30
+35秒	Sekunde thelathini na tano
+40秒	Sekunde arobaini
+45秒	Sekunde arobaini na tano
+50秒	Sekunde hamsini
+55秒	Sekunde 55
+1分	Dakika 1
+1分10秒	Dakika 1 sekunde 10
+1分20秒	Dakika 1 sekunde 20
+1分30秒	Dakika moja sekunde thelathini
+1分40秒	Dakika 1 na sekunde 40
+1分50秒	Dakika 1 sekunde 50
+2分	Dakika 2
+ソース表示を許可する権限	Ruhusa ya kuona msimbo chanzo
+ADMINログイン時のみ通常のソース出力	Matokeo ya kawaida kutoka kwa chanzo yanaonekana tu unapokuwa umeingia kama ADMIN.
+USERログインで通常のソース出力	Matokeo ya kawaida kutoka kwa chanzo unapokuwa umeingia kama MTUMIAJI
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Chagua kama pato la kawaida la HTML lipunguzwe kwa wasimamizi pekee au linahitaji kuingia kwa mtumiaji.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Kulazimisha picha kupakuliwa na kile kinachopakuliwa kweli
+GIF形式で1×1ピクセルの透過画像	Picha ya pixel 1×1 yenye uwazi katika muundo wa GIF
+PNG形式で1×1ピクセルの透過画像	Picha ya pikseli 1×1 yenye uwazi katika muundo wa PNG
+PNG形式で黄色い背景の警告画面	Kichupo cha onyo chenye mandharinyuma ya manjano katika umbizo la PNG
+意味のないHTMLドキュメント	Hati ya HTML isiyo na maana
+HTML保護時のHEADタグの出力	Matokeo ya lebo ya HEAD wakati HTML inalindwa
+出力しない	Usichapishe
+TITLEタグのみ	Lebo ya kichwa pekee
+WordpressのHEADタグより取得	Imetolewa kutoka kwa lebo ya HEAD ya WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Kwa kurasa za wanachama pekee kwa matumizi ya kampuni na kurasa za ndani, kuchagua 'Haitolewi' au 'Lebo ya KICHWA tu' kunatosha.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Isipokuwa ukipata taarifa kutoka kwenye lebo ya HEAD ya WordPress, picha ya OGP haitaonekana unaposhiriki kwenye mitandao ya kijamii.
+画像botをアクセス禁止にする	Ziba roboti ya picha
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Kwa kuzuia bot za picha kupata HTML, unaweza kulinda maudhui ambayo hayakuweza kulindwa dhidi ya viungo vya moja kwa moja kupitia utafutaji wa picha; hata hivyo, hii haitoi suluhisho kamili.
+AI学習用botをアクセス禁止にする	Ziba ufikiaji wa roboti ya mafunzo ya AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Kwa kuepuka matumizi ya bot zilizoundwa kwa ajili ya mafunzo ya AI kwenye HTML, tunahakikisha kuwa maudhui hayatumiki na AI; hata hivyo, hii haiwezi kuzuilika kabisa.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Ziba upatikanaji wa hifadhi za wavuti na picha za wavuti
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Tunakataza upatikanaji wa kumbukumbu za wavuti zinazokusanywa kiotomatiki na picha za skrini zinazochukuliwa kwa hiari ya mtumiaji; hata hivyo, hatuwezi kuzuia hili kabisa.
+無効なUAをアクセス禁止にする	Zuie wakala wa watumiaji batili
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Inazuia upatikanaji ikiwa mstari wa wakala wa mtumiaji una herufi zisizofaa
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Onyesha onyo unapofikia Internet Explorer na Microsoft Edge ya zamani
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Inazuia upatikanaji kupitia Internet Explorer na Microsoft Edge ya zamani
+alertメッセージを表示する言語	Lugha ambayo ujumbe wa tahadhari unaonyeshwa
+Wordpressの言語	Lugha za WordPress
+ブラウザの設定言語	Mipangilio ya lugha ya kivinjari
+メッセージをカスタム設定されている場合は言語を変更できません	Huwezi kubadilisha lugha ikiwa ujumbe umebinafsishwa.
+同意画面の言語	Lugha ya skrini ya idhini
+view-sourceメッセージを表示する言語	Lugha ya kuonyesha ujumbe wa 'view-source'
+一時使用トークンの有効期限	Tarehe ya kuisha ya tokeni za muda
+3分	Dakika 3
+4分	Dakika 4
+5分	Dakika 5
+6分	Dakika 6
+7分	Dakika saba
+8分	Dakika 8
+9分	Dakika tisa
+10分	Dakika kumi
+15分	Dakika kumi na tano
+20分	Dakika ishirini
+25分	Dakika 25
+30分	Dakika 30
+35分	Dakika thelathini na tano
+40分	Dakika arobaini
+45分	Dakika arobaini na tano
+50分	Dakika hamsini
+55分	Dakika hamsini na tano
+1時間	Saa moja
+画像URL情報の有効期限を設定します	Weka tarehe ya kuisha kwa taarifa za URL ya picha
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Mara tu itakapopakiwa, URL ya picha na tokeni ya muda mfupi zitabatilishwa.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Picha zinapakuliwa inapohitajika, lakini zitapakuliwa kiotomatiki sekunde 30 kabla ya muda uliotajwa.
+一時使用トークンのビット数	Idadi ya biti katika tokeni ya muda mfupi
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Token ya muda mfupi inatumika kama nenosiri kusimba taarifa za URL ya picha; hii inaeleza nguvu yake
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Ingawa chaguzi zinazoonyeshwa chini ya menyu kunjuzi zinazidi kuwa na maelezo ya kina, hii inaweza kuweka mzigo mzito kwenye seva na kusababisha uhamishaji wa kiasi kikubwa cha data ya HTML.
+ハッシュ化アルゴリズム	Algoriti ya hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Token ya muda mfupi inatumika kama nenosiri kusimba taarifa za URL ya picha; hii inahitaji hashing, na mpangilio huu huamua nguvu ya hashing hiyo.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Ingawa ukali huongezeka unaposonga chini kupitia chaguzi zilizoorodheshwa kwenye menyu kunjuzi, hii inaweka mzigo mkubwa zaidi kwenye seva.
+基本設定	Mipangilio ya msingi
+高度な設定	Mipangilio ya juu
+初期設定に戻す	Rejesha mipangilio ya chaguo-msingi
+デザイン・音の設定	Mipangilio ya muundo na sauti
+イベントの設定	Mipangilio ya tukio
+初回訪問時のお知らせの設定	Kusanidi arifa kwa ziara za mara ya kwanza
+メッセージの設定	Mipangilio ya ujumbe
+右クリックやソースコード表示時に転送する URL を設定します	Weka URL itakayofunguliwa unapobofya kulia au unapotazama msimbo chanzo
+警告メッセージにはHTMLは使用できません	HTML haiwezi kutumika katika ujumbe wa onyo
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Ukipanga hii kwenye skrini hii, mipangilio ya lugha katika kichupo cha Advanced itapuuzwa.
+以下の文字列が使用できます	Mistari ifuatayo inaweza kutumika
+改行	Mwisho wa mstari
+押下されたキー	Kitufe kimebonyezwa
+Neo HTML Protector 設定	Mipangilio ya Neo HTML Protector
+お知らせ	Tangazo
+メッセージ	Ujumbe
+デザイン・音	Ubunifu na Sauti
+初期化	Uanzishaji
+このプラグインについて	Kuhusu programu-jalizi hii
+設定が初期化されました	Mipangilio imewekwa upya
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Anzisha programu-jalizi. Tafadhali kumbuka kuwa data ya IP Log Reader haitafutwa katika hatua hii.
+Neo HTML Protectorについて	Kuhusu Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugini hii imeundwa kulinda HTML, picha na maudhui mengine yanayotengenezwa na tovuti yako ya WordPress, ikiyakinga dhidi ya matumizi yasiyoidhinishwa.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Haiwezekani kulinda maudhui kikamilifu. Hata hivyo, kwa kutoa maonyo kila inapowezekana na kufanya maandalizi endapo chochote kitatokea, tunapaswa kuweza kutatua suala hilo kulingana na taratibu zilizowekwa na serikali.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Bila shaka, utahitaji kuhakikisha masharti yako ya huduma na sera za tovuti ni kamili. Ingawa programu-jalizi hii si chombo cha kutengeneza masharti ya huduma, inaweza kutoa mwongozo fulani.
+開発者: 夜桜　なの	Msanidi: Nano Yozakura
+バージョン	Toleo
+ビルド	Jenga
+サポートページ	Ukurasa wa msaada
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Imetendwa na Bibi Ura Manira
+支援のお願い	Ombi la msaada
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Asante kwa kutumia Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Uendelezaji na matengenezo ya programu-jalizi hii yamehitaji muda na juhudi nyingi, na ili kukusanya fedha za kuendelea kuiboresha na kuisasisha, tungefurahi ikiwa yeyote anayeweza kutusaidia atafikiria kutoa mchango.
+寄付について	Kuhusu Michango
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Michango ni hiari kabisa na si lazima. Programu-jalizi hii inapatikana kwa kila mtu bila malipo. Hata hivyo, tunathamini sana msaada wako kutusaidia kuendelea na maendeleo, na tutafurahi ikiwa utaweza kuchangia chochote unachoweza.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Unaweza kutoa mchango kupitia kiungo kilicho hapa chini. Ikiwa uko Japani, unaweza kutoa mchango bila malipo, na pia unaweza kutoa mchango kwa urahisi kwa kutumia vocha za zawadi za Amazon.
+寄付先	Misaada
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Kwa msaada wako, tutafanya kila tuwezalo kuendelea kukuletea masasisho ya ajabu!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Tunashukuru kwa msaada wenu na tunatarajia kuendelea kupata msaada wenu katika siku zijazo.
+ライセンス	Leseni
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugini hii imeundwa kama programu chanzo huria na ina leseni chini ya GPLv2.0 au toleo jipya zaidi.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Baadhi ya teknolojia zilizojumuishwa katika programu-jalizi hii zinalindwa na hati miliki.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Matumizi ya teknolojia iliyopewa hati miliki yanaruhusiwa tu ndani ya programu-jalizi hii.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Kwa matumizi mengine yoyote, tafadhali wasiliana na mwandishi ili kupata leseni ya kibiashara.
+本プラグインには以下のライブラリを同梱しています	Plugini hii inajumuisha maktaba zifuatazo
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugini hii inajumuisha fonti za sanaa za ASCII zilizotengenezwa hapa chini, pamoja na faili za fonti.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugini hii inajumuisha muziki kutoka kwenye mchezo usio rasmi wa Super Famicom 'SM Trainer Hitomi 3', uliotengenezwa na EJ Co., Ltd. na uliotungwa na muumba wa plugini hii, na una leseni rasmi.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugini hii inajumuisha nyimbo zilizotengenezwa kwa kutumia 'Keppy's YAMAHA C7', iliyotengenezwa na Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Pia nimetumia Raspberry Pi 5, ChatGPT na DeepL katika uundaji wa programu-jalizi hii.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Plugini ya kuhifadhi kache imegunduliwa. Plugini hii haitafanya kazi ipasavyo ikiwa plugini ya kuhifadhi kache imewezeshwa.
+無効なIPアドレス	Anwani ya IP si halali
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ili kutumia tovuti hii, lazima uwezeshe vidakuzi na JavaScript.
+利用規約	Masharti ya Matumizi
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ili kuzuia matumizi yasiyoidhinishwa na kuhakikisha uendeshaji salama wa huduma zetu, tovuti hii inaweza kuhifadhi taarifa kama anwani za IP, historia ya kuvinjari na kumbukumbu za shughuli katika vidakuzi na hifadhidata. Taarifa hizi zinatumika tu kwa uendeshaji wa tovuti na kwa madhumuni ya kisheria, na hazitatolewa kwa wahusika wengine.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ili kutumia huduma hii, lazima ukubali shughuli hizi za uchakataji.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Unaweza kuona yaliyomo katika Sera ya Faragha bila kujali kama umetoa idhini yako.
+同意する	Nakubaliana
+同意しない	Sikubaliani
+確認	Uthibitisho
+プライバシーポリシー	Sera ya Faragha
+通常とは異なる方法でのアクセスや操作が検出されました	Upatikanaji usio wa kawaida au shughuli imegunduliwa
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Baadhi ya vipengele vimezuiliwa kwa madhumuni ya usalama na ulinzi wa maudhui.
+デバッグモード、コンソールの起動は禁止されています	Hali ya kusahihisha hitilafu na ufikiaji wa konsole vimezimwa
+以下の情報がサーバーに送信されました	Taarifa zifuatazo zimetumwa kwa seva
+あなたのIPアドレス	Anwani yako ya IP
+あなたの端末とブラウザ	Kifaa chako na kivinjari chako
+あなたの押下したキー	Ufunguo ulioubonyeza
+リダイレクトをします	Utarudishwa
+コンテンツ保護のため一部の機能を制限しています	Baadhi ya vipengele vimezuiliwa ili kulinda yaliyomo.
+右クリックは禁止されています	Kubofya kulia hakuruhusiwi
+あなたが押下したキー	Ufunguo ulioubonyeza
+印刷、PDFへの保存は禁止されています	Kuchapisha na kuhifadhi kama PDF imepigwa marufuku.
+スクリーンショットは禁止されています	Kupiga picha za skrini kumezuiwa.
+スクリーンショット、デバッグモード等の起動は禁止されています	Kupiga picha za skrini na kuwasha hali ya uchunguzi wa makosa vimezuiwa.
+ページの保存は禁止されています	Kuhifadhi ukurasa huu kumezuiliwa
+コピー、カットは禁止されています	Kunakili na kukata vimepigwa marufuku.
+あなたが起こしたイベント	Matukio uliyoyapanga
+テキストの選択は禁止されています	Kuchagua maandishi hakuruhusiwi
+HTMLソース表示は禁止されています	Kuonyesha msimbo chanzo wa HTML kumezuiwa.
+不正アクセスは禁止されています	Upatikanaji usioidhinishwa umepigwa marufuku
+アフリカーンス語	Kiafrikaans
+アラゴン語	Kiaragoni
+アラビア語	Kiarabu
+アッサム語	Kiasamani
+アゼルバイジャン語	Azerbaijani
+バシュキール語	Kibashkir
+ベラルーシ語	Mbelarusi
+ベンガル語	KiBengali
+ブルガリア語	Bulgaria
+ボスニア語	Mbosnia
+カタロニア語	Kikatalaani
+チェコ語	Kicheki
+ウェールズ語	WaUelisi
+デンマーク語	Kidanish
+ドイツ語	Kijerumani
+現代ギリシア語	Kigiriki cha kisasa
+英語	Kiingereza
+イギリス英語	Kiingereza cha Uingereza
+アメリカ英語	Kiingereza cha Marekani
+エスペラント語	Esperanto
+スペイン語	Kihispania
+エストニア語	Mwestaoni
+バスク語	Baskia
+ペルシャ語	Kifarisi
+フィンランド語	Fini
+フランス語	Kifaransa
+アイルランド語	Waailandi
+ガリシア語	Mgalicia
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Kihausa
+ヘブライ語	Kiebrania
+ヒンディ語	Kihindi
+クロアチア語	Kihispania
+ハイチ・クレオール語	Kifaransa cha Haiti
+ハンガリー語	Kihungaria
+インドネシア語	Mw-Indonesia
+イボ語	Lugha ya Ibo
+アイスランド語	Kiaislandi
+イタリア語	Mwitaliano
+日本語	Kijapani
+ジャワ語	Kijavani
+カザフ語	Kazakh
+朝鮮語	Kikorea
+クルド語	Kurdish
+キルギス語	Kyrgyz
+ラテン語	Latini
+ルクセンブルク語	Kiluksemburgi
+リンガラ語	Kiswahili
+リトアニア語	Kilithuania
+ラトビア語	Laatvia
+マダガスカル語	Malgasi
+マオリ語	Wa-Māori
+マケドニア語	Kimasikoni
+マラヤーラム語	Kimalayalam
+モンゴル語	Mongolia
+マラーティー語	Kiarabu
+マレー語	Mwalaya
+マルタ語	Kimalti
+ビルマ語	Burmesi
+ネパール語	Kinepali
+ノルウェー語	Wa-Norweiji
+オランダ語	Uholanzi
+オック語	Okisitan
+オロモ語	Au
+パンジャーブ語	Punjabi
+ポーランド語	Kupolisha
+パシュトー語	Pashto
+ポルトガリア語	Kireno
+ブラジルポルトガル語	Kireno cha Kibrazili
+ヨーロピアンポルトガル語	Kireno cha Ulaya
+ケチュア語	Kichu
+ルーマニア語	Mwaromani
+ロシア語	Kirusi
+サンスクリット語	Kisanskrit
+スロバキア語	Slovaki
+スロベニア語	Kislofeni
+セルビア語	Serbia
+南セソト語	Kusini mwa Sesotho
+スンダ語	Kisundanese
+スウェーデン語	Suwidi
+スワヒリ語	Kiswahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Taji
+タイ語	Thai
+トルクメン語	Mturuki
+タガログ語	Kifaransa
+トルコ語	Kituruki
+タタール語	Tatar
+ウクライナ語	Mukraini
+ウルドゥー語	Urdu
+ウズベク語	Muzib
+ベトナム語	Kivietinamu
+コサ語	Kosa
+イディッシュ語	Yidi
+簡体中国語	Kichina kilichorahisishwa
+繁体中国語	Kichina cha jadi
+ズールー語	Kiswahili
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Kivinjari unachotumia sasa ni toleo la zamani ambalo haliaungwi mkono tena. Ili kuhakikisha uzoefu salama na wa starehe zaidi wa kuvinjari, tafadhali sasisha kivinjari chako hadi toleo jipya kabisa.
+不正なリクエストです	Ombi batili
+画像が見つかりません	Picha haijapatikana

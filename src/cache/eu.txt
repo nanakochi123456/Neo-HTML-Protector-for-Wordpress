@@ -1,0 +1,424 @@
+設定	Ezarpenak
+IPログリーダー	IP Log Irakurgailua
+IPアドレスログ	IP helbideen erregistroa
+全クリア	Bukatu maila guztiak
+IPログが全て削除されました	IP erregistro guztiak ezabatu dira.
+ID	Identifikatzailea
+タイムスタンプ	Denbora-marka
+IPアドレス	IP helbidea
+ユーザーエージェント	Erabiltzaile-agentzia
+イベント	Ekitaldia
+IPアドレスのデータはありません	IP helbiderako ez dago daturik.
+EU GDPR対応	EBko GDPRari betetzea
+無効	Baliozkoa ez den
+有効	Baliozkoa
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Europako Batasunean WordPress erabiltzen ari bazara, edo zure webguneak EBko erabiltzaileei zuzenduta badago, mesedez ziurtatu hau gaituta dagoela.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	'Berretsi' botoia 'Ados' edo 'Ez ados' bihurtuko da, eta portaera pixka bat aldatuko da.
+同意画面の色	Onarpen pantailaren kolorea
+自動	Automatikoa
+ライトモード	Argi modua
+ダークモード	Modu iluna
+同意画面表示中の配色を設定します	Onarpen pantailaren kolore-eskema ezarri
+同意画面中のコンテンツのぼかし	Onarpen-pantailako edukiaren lausotzea
+同意画面表示中のコンテンツのぼかし具合を設定します	Onarpen pantailan bistaratzen den edukirako lausotze-maila ezarri
+同意画面の透過	Onarpen-pantailaren gardentasuna
+透過なし	Ez dago gardentasunik
+同意画面の透過具合を設定します	Onarpen-pantailaren gardentasun-maila ezarri
+お知らせの1行目	Iragarkiaren lehen lerroa
+初回表示で必ず表示されるメッセージです	Mezu hau beti bistaratzen da orria lehen aldiz kargatzen denean.
+お知らせの2行目	Oharraren bigarren lerroa
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Mezu hau beti lehen bistaratzean bakarrik agertuko da EBko GDPR indarrean dagoenean.
+お知らせの3行目	Oharraren hirugarren lerroa
+プライバシーポリシーのリンクの右側に表示されます	Pribatutasun Politikarako estekaren eskuinean agertuko da.
+非EU向け確認の文字列	EBkoak ez diren herrialdeentzako baieztapen-testua
+EU GDPR向け同意するの文字列	EBko GDPRrako baimen-testua
+EU GDPR向け同意しないの文字列	EBko GDPRaren arabera 'Ez eman baimena' testua
+プライバシーポリシーの文字列	Pribatutasun-politikaren testua
+プライバシーポリシーのURLはこちらから設定して下さい	Mesedez, ezarri hemen pribatutasun-politikarako URL-a.
+プライバシーポリシーには以下の内容を追加して下さい	Mesedez, gehitu honako hau Pribatutasun Politikara.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Jarduera iruzurrezkoak antzemateko, IP helbideak bezalako identifikatzaileak cookieetan eta datu-basean gordetzen dira. Gordetako datuak administratzailearen erabakiz ezabatzen dira.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Irudiak babesteko neurriak gaituta daudenean bakarrik behar bezala bidaltzen direla ziurtatzeko, IP helbidea eta irudiaren fitxategi-izena barne hartzen dituzten hash-datuak 60 minutuz gorde ditugu datu-basean.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Erabilera Baldintzak ezartzen ari bazara, ziurtatu zure Pribatutasun Politikaren barruan haien esteka sartzen duzula.
+利用規約の文字列	Erabilera-baldintzen testua
+利用規約のページ	Baldintzak eta Kondizioak orria
+ページ選択なし	Ez dago aukeratutako orrialderik
+検索エンジン等のURL	Bilatzaileentzako URLak, etab.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ezarri bilatzaileentzako eta antzeko webguneetarako URL-a, baimenik eman ez denean erabiltzaileak birbideratzen dituztenak.
+デバッグモード、コンソールの警告メッセージ	Akatsak konpontzeko modua, kontsolako ohartarazpen-mezuak
+右クリックの警告メッセージ	Eskumako klikeko ohartarazpen-mezu
+印刷、PDF保存の警告メッセージ	PDF formatuan inprimatu eta gordeari buruzko ohartarazpen-mezu
+スクリーンショットの警告メッセージ	Pantaila-argazkian ohartarazpen-mezu bat
+スクリーンショットの疑いの警告メッセージ	Susmagarri diren pantaila-argazkiei buruzko ohartarazpen-mezu
+テキスト全選択時の警告メッセージ	Testu guztia hautatuta dagoenean ohartarazpen-mezu
+ページ保存の警告メッセージ	Orrialdea gordetzearekin lotutako ohartarazpen-mezu
+コピー・カットした時に表示するメッセージ	Kopiatzean edo moztean bistaratzen den mezua
+HTMLソース表示時に表示するメッセージ	HTML iturburu-kodea ikusten denean erakutsi beharreko mezua
+HTML難読化・保護時にソースの先頭に表示するメッセージ	HTML-a obskuratzean edo babestzean iturri-kodearen goialdean erakutsiko den mezua
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	HTML babesaldian behin-behineko autentifikazio-tokena baliogabea bada, erakutsiko den mezua
+CookieやJavascriptが有効でない場合に表示するメッセージ	Cookieak edo JavaScript desgaituta badaude, erakutsi beharreko mezua
+実際にはJavascriptが無効時のみ表示されます	Egiazki, hau soilik agertzen da JavaScript desgaituta dagoenean.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Irudi bat babestuta dagoenean, deskargatu egiten da eta mezua agertzen da irudi horretan
+HTML難読化 (圧縮)	HTML iluntzea
+一般的なHTML圧縮です、難読化解除のサイトもあります	Hau HTMLaren konpresio estandarra da; deskonpon dezakeen webguneak ere badaude.
+このオプションを有効にするとview-sourceのログが取得できます	Aukera hau gaitzeak ikus-iturriaren erregistroa berreskuratzeko aukera ematen dizu.
+HTML保護	HTML babesa
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	HTMLaren oinarrizko minimoa bakarrik irteten du—HTML konpresioa erabiltzean baino gutxiago ere—eta BODY etiketako edukia batere ez da irteten.
+Firefoxに対しては無効です	Hau ez da Firefox-i aplikagarria.
+SEOに著しく影響があります	Honek SEOan eragin handia du.
+HTMLをJavaScriptで描画	JavaScript erabiliz HTML renderizatzea
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox saihesteko, HTML-a JavaScript erabiliz bistaratzen dugu.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript-en errendatzea gaitzeak nabarmen motelduko du webgunearen karga-abiadura.
+画像の保護	Irudiaren babesa
+imgタグが呼び出されるごとに画像を保護	Babestu irudia img etiketa deitzen den bakoitzean
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Babestu WordPress-era igo diren irudi guztiak HTML irteera osoan zehar.
+画像をダウンロードから保護します	Irudiak deskargatzeaz babesten ditu
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Irudi-datuak babestuta daudenean, ia deskarga guztiak saihesten ditugu, behin bakarreko URL bereziak ematen ditugu, saioan gordetako tokenak erabiliz egiaztatzen dugu eta irudiak PHP bidez bistaratzen ditugu; horrek irudi-lapurreta ia guztiak eraginkortasunez saihesten ditu.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Irudi-datuak babestuta daudenean, cacheak ez du funtzionatzen, eta horrek esan nahi du gunea hurrengo bisitaldietan motelago kargatuko dela, SEOari eraginez.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Irudi-datuak babesteak datu-basearen karga handitu dezake.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	'Irudiak babestu img etiketa deitzen den bakoitzean' hautatzen baduzu, sistemak add_filter erabiltzen du iragazketa aplikatzeko img etiketa sortzen denean; hala ere, honek ez du behar bezala funtzionatuko zenbait gaiekin.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	'WordPress-era igotako irudi guztiak HTML irteera osoan babestu' hautatzen baduzu, pluginak WordPress-eko ia eragiketa guztiak harrapatuko ditu eta edukian dauden img etiketa guztiak prozesatuko ditu. Kontuan izan honek zenbait gaiekin ez duela behar bezala funtzionatuko.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Mesedez, kontuan izan nabarmendutako irudi gisa izendatutako irudiak OGP datu gisa partekatuko direla eta ezin direla babestu. Haiek babestu behar badituzu, mesedez, aldatu HEAD etiketa irteerarako ezarpenak ezarpen aurreratuetan HTML babesa gaitzean.
+OS標準搭載のスクリーンショット機能を保護することはできません	Ezin da babestu sistema eragilean integratutako pantaila-argazki funtzioa.
+画像URLの保護	Irudi-URLak babestea
+画像の保護と組み合わせて使用します、単体では意味がありません	Hau irudiaren babesarekin batera erabili behar da; bere kabuz ez du inolako helbururik betetzen.
+JavaScriptにより遅延読まれますのでSEOに影響があります	JavaScriptez alferrik kargatzen denez, honek SEOari eragiten dio.
+画像のウォーターマーク	Irudiaren ur-marka
+右下	Beheko eskuinean
+ランダム位置	Posizio ausazkoa
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Irudiaren babesarekin batera erabilita, ur-marka dinamikoek egile-eskubideen jabegoa argi adierazten dute, aldi berean ikusleei jarraipena jasotzen ari direla irudipena emanez, eta horrela eragozle gisa jarduten dute.
+JPG形式、PNG形式、WebP形式のみ対応します	JPG, PNG eta WebP formatuak soilik onartzen dira.
+有効にするとサーバーの負荷が高くなります	Honek zerbitzariaren karga handituko du.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML iturburu-kodetik ASCII artea irteten HTML iluntze eta babes prozesuan
+表示なし	Ez dago pantailarik
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	'view-source' erabiliz HTML iturburu-kodea ikusten denean ohartarazpen bat adierazten duen ASCII artea bistaratzen du.
+対象アクションを起こした時の表示デザイン	Helburu-ekintza gauzatzen denean diseinua erakutsi
+黄色の背景の黒文字のベーシックデザイン	Hondo horia duen testu beltzezko oinarrizko diseinua
+黒色の背景の赤文字のホラー風デザイン	Beldurrezko estiloko diseinu bat, atzeko plano beltz batean testu gorria duena
+黒色の背景の赤文字の光る文字のデザイン	Atzeko plano beltz batean testu gorri distiratsua duen diseinua
+対象アクションを起こした時のBGM	Helburu-ekintza gauzatzen denean jotzen den atzeko musika
+サウンドなし	Ez dago soinurik
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Borroka eta garaipena - 1 minutu 16,3 segundo - 630.056 byte - 64 kbps - Lizentzia: CC 2.1 edo beranduen
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Aita Laburra - 3,8 segundo - 32.364 byte - 64 kbps - Lizentzia: GPL 2.0 edo berriagoa
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Luzea - 23,5 segundo - 195.578 byte - 64 kbps - Lizentzia: GPL 2.0 edo beranduen
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – Ordenagailuz sortutako bertsioa, abiadura handikoa – 1 minutu 57,6 segundo – 724.457 byte – 48 kbps – Lizentzia: CC BY-ND 4.0 edo berriagoa
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Si bemol minorreko Scherzo, Op. 2 – Ordenagailuz sortutako bertsioa, abiadura handiko laburbildutako bertsioa – 1 minutu 48,0 segundo – 665.369 byte – 48 kbps – Lizentzia: CC BY-ND 4.0 edo berriagoa
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Zerrenda: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – ordenagailuz sortutako bertsioa, abiadura handiko laburbildutako bertsioa – 1 minutu 51,6 segundo – 687.586 byte – 48 kbps – Lizentzia: CC BY-ND 4.0 edo berriagoa
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfara – 22,3 segundo – 183.926 byte – 64 kbps – Lizentzia: Domeinu Publikoa
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro estiloko fanfara – 2,2 segundo – 10.536 byte – 32 kbps – Lizentzia: Domeinu Publikoa
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro estiloko sarrera – 42,1 segundo – 179.138 byte – 32 kbps – Lizentzia: Domeinu Publikoa
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	ChatGPT-ren ohartarazpena - 3,8 segundo - 109.700 byte - 256 kbps - Lizentzia: Domeinu Publikoa
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Larrialdi handiko soinua, malware-detekzio alerta baten antzekoa – 1. zatia ChatGPT-k – 3,3 segundo – 102.850 byte – 256 kbps – Lizentzia: Domeinu publikoa
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Malware-detekzio-alerta baten antzeko premiazko soinua, 2. zatia ChatGPT-k - 3,3 segundo - 103.122 byte - 256 kbps - Lizentzia: Domeinu publikoa
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI estiloko soinua ChatGPT-k sortua – 1 minutu 14,9 segundo – 3.340.392 byte – 320 kbps – Lizentzia: Domeinu Publikoa
+警告表示中のBGMを選択します	Hautatu abisu baten bitartean erreproduzituko den atzeko musika.
+びっくりするような雰囲気を作ります	Harritzekoa den giro bat sortzen du.
+Firefoxでは音声ブロックされます	Firefoxen audioa blokeatuta dago
+対象アクションを起こした時のビープ音	Ezarritako ekintza gauzatzen denean bip bat
+有効 音量小さ目	Piztuta, bolumena baxua
+有効 音量大き目	Aktiboa, bolumena altu ezarrita
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Abisu bat bistaratzen den bitartean, teklatu eta saguaren ekitaldi guztiei erantzunez bip bat entzun ahal izango da.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Abisua bistaratuta dagoen bitartean, gailuak kontrolik gabe dabilen moduko inpresioa sortzen du.
+対象アクションを起こした時のマウスカーソルの消去	Ekintza zehatz bat gauzatzen denean saguaren kurtsorea ezkutatzea
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Abisua bistaratzen den bitartean nabigatzailearen eremuan saguaren kurtsorea ezkutatzen du.
+デバッグモード	Akatsak konpontzeko modua
+妨害＋記録のみ	Interferentzia + Erregistroak bakarrik
+妨害＋記録＋表示＋リダイレクト	Interferentzia + Erregistroa + Erakustea + Bideratzea
+メニューからは操作できてしまいます	Oraindik ere menutik sar zaitezke.
+Firefoxにおけるデバッグモード	Firefoxen akatsak konpontzeko modua
+ブラウザーコンソール	Arakatzaile-kontsola
+事実上デバッグモードから操作できてしまいます	Egiazki, debug modutik eragiki dezakezu.
+HTMLソース表示	Ikusi HTML iturburu-kodea
+view-source:から始まるURLを入力すれば操作できてしまいます	Eragiketa 'view-source:' hasierako URL bat sartuta soilik egin dezakezu.
+HTML保護と組み合わせることでコンテンツを保護することができます	Edukia babestu dezakezu hau HTML babesarekin konbinatuz.
+印刷	Inprimatu
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Inprimatzea eragotzita egon arren, nabigatzaile batzuetan ez du behar bezala funtzionatuko.
+スクリーンショット	Pantaila-argazkia
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Erabiltzen den sistema eragile, nabigatzaile edo metodoren arabera, hau blokeatzea ezinezkoa izan daiteke edo ez da hautemango.
+ウインドウが背面に移動した時スクリーンショットの疑い	Ustezko pantaila-argazkia leihoa atzeko planora mugitzen denean
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Pantaila-argazkiekin loturiko funtzioez harago, beste funtzio batzuei ere erantzuten die
+2キー押下のスクリーンショットの疑い	Bi tekla sakatuta ateratako pantaila-argazki susmagarria
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Goiko elementuetarako detekzio-metodoak ez dira guztiz fidagarriak; detekzioa neurri prebentibo gisa egiten da.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ez ditu soilik pantaila-argazkiak antzematen, baita debug moduak eta antzekoak ere.
+ページ保存	Gorde orria
+右クリック	Eskuineko klik egin
+アドオンがインストールされていると操作できてしまいます	Gehigarria instalatuta badago, erabili ahal izango duzu.
+コピー・カット	Kopiatu eta moztu
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Plugin honen ezarpenen arabera, agian noizean behin bakarrik topatuko duzu gertakari hau.
+テキスト全選択	Hautatu testu guztia
+テキスト選択	Testua hautatu
+デバッガー起動ログ、デバッガー妨害	Debugatzailearen abio-log-a, debugatzailearen interferentzia
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Honek debug modua pixka bat gutxiago erabilerraza bihurtzen du eta debugatzailea abiarazi dela erregistratzen du; hala ere, nabigatzaile batzuek portaera hau blokea dezakete.
+リダイレクトするURL	Bideratu URL-a
+利用規約などのページに転送すると良いでしょう	Erabiltzaileak Erabilera Baldintzak bezalako orrialdeetara birbideratzea ideia ona litzateke.
+空欄にすると元のURLにリダイレクトをします	Hutsik uzten bada, jatorrizko URL-era birbideratuko da.
+リダイレクトまでの時間	Bideratze arteko denbora
+リダイレクトなし	Ez birbideratu
+1秒	1 segundo
+2秒	Bi segundo
+3秒	3 segundo
+4秒	Lau segundo
+5秒	5 segundo
+6秒	Sei segundo
+7秒	Zazpi segundo
+8秒	Zortzi segundo
+9秒	Bederatzi segundo
+10秒	Hamar segundo
+15秒	Hamabost segundo
+20秒	Hogei segundo
+25秒	25 segundo
+30秒	Hogeita hamar segundo
+35秒	35 segundo
+40秒	Berrogei segundo
+45秒	Berrogeita hamar segundo
+50秒	Berrogeita hamar segundo
+55秒	Berrogeita hamar segundo
+1分	Minutu bat
+1分10秒	Minutu bat eta hamar segundo
+1分20秒	Minutu bat eta hogei segundo
+1分30秒	Minutu bat eta hogeita hamar segundo
+1分40秒	Minutu 1 eta 40 segundo
+1分50秒	Minutu bat eta berrogeita hamar segundo
+2分	Bi minutu
+ソース表示を許可する権限	Iturburu-kodea ikusteko baimena
+ADMINログイン時のみ通常のソース出力	Iturri arruntaren irteera soilik ADMIN gisa saioa hasi denean
+USERログインで通常のソース出力	Sarbidea USER gisa egindakoan irteera-iturri normala
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Aukeratu HTML irteera estandarra administratzaileentzat bakarrik mugatuta egon behar den ala erabiltzaileen saioa eskatzen duen.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Irudi bat deskargatzera behartzea eta benetan deskargatzen dena
+GIF形式で1×1ピクセルの透過画像	GIF formatuan 1×1 pixeleko irudi gardena
+PNG形式で1×1ピクセルの透過画像	PNG formatuan 1×1 pixeleko irudi gardena
+PNG形式で黄色い背景の警告画面	PNG formatu batean, atzealde horia duen ohartarazpen-pantaila
+意味のないHTMLドキュメント	HTML dokumentu hutsa
+HTML保護時のHEADタグの出力	HTML babestuta dagoenean HEAD etiketako irteera
+出力しない	Ez inprimatu
+TITLEタグのみ	Buru-etiketa bakarrik
+WordpressのHEADタグより取得	WordPressen HEAD etiketako berreskuratua
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Enpresako erabilerarako kideentzako soilik orrialdeetarako eta barne orrialdeetarako, 'Ez irten' edo 'TITLE etiketa bakarrik' hautatzeak nahikoa izango da.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	WordPress-eko HEAD etiketako informazioa berreskuratu ezean, OGP irudia ez da agertuko sare sozialetan partekatzean.
+画像botをアクセス禁止にする	Blokeatu irudi-bota
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Irudi-botak HTMLra sartzea eragotzita, irudi-bilaketaren bidezko esteka zuzenen aurka babestu ezin zitekeen edukia babestu dezakezu; hala ere, honek ez du konponbide osoa eskaintzen.
+AI学習用botをアクセス禁止にする	Adimen artifizialeko entrenamendu-botera sarbidea blokeatu
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	HTMLn adimen artifizialaren prestakuntzarako diseinatutako botak saihestuz, edukiak adimen artifizialak ez erabiltzea bermatzen dugu; hala ere, hori guztiz ekidin ezin daiteke.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Web artxiboetara eta web argazki-ateratzeetara sarbidea blokeatu
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Web artxibo automatikoki bildutakoetara eta erabiltzailearen erabakiz ateratako pantaila-argazkietara sarbidea debekatzen dugu; hala ere, hori guztiz saihestezina da.
+無効なUAをアクセス禁止にする	Blokeatu baliogabeak diren erabiltzaile-agentziak
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Erabiltzaile-agentearen kateak baliogabeko karaktereak baditu, sarbidea galarazten du.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Internet Explorer eta zahar Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorer eta Microsoft Edge zaharraren bidezko sarbidea saihesten du.
+alertメッセージを表示する言語	Abisu-mezuak bistaratzen diren hizkuntza
+Wordpressの言語	WordPresseko hizkuntzak
+ブラウザの設定言語	Nabigatzailearen hizkuntza-ezarpenak
+メッセージをカスタム設定されている場合は言語を変更できません	Mezuak pertsonalizatu badira, ezin duzu hizkuntza aldatu.
+同意画面の言語	Onarpen pantailaren hizkuntza
+view-sourceメッセージを表示する言語	'view-source' mezua erakusteko hizkuntza
+一時使用トークンの有効期限	Tokenen iraungitze-data
+3分	Hiru minutu
+4分	Lau minutu
+5分	Bost minutu
+6分	Sei minutu
+7分	Zazpi minutu
+8分	Zortzi minutu
+9分	Bederatzi minutu
+10分	Hamar minutu
+15分	Hamabost minutu
+20分	Hogei minutu
+25分	Hogei eta bost minutu
+30分	Hirurogei minutu
+35分	Hogeita bost minutu
+40分	Berrogei minutu
+45分	Berrogeita hamar minutu
+50分	Berrogeita hamar minutu
+55分	Berrogeita hamabost minutu
+1時間	Ordu bat
+画像URL情報の有効期限を設定します	Ezarri irudiaren URL-ari buruzko informazioaren iraungitze-data.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Behin kargatuta, irudiaren URL-a eta aldi baterako token-a baliogabetuko dira.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Irudiak eskaeraren arabera kargatzen dira, baina zehaztutako ordua baino 30 segundo lehenago automatikoki kargatuko dira.
+一時使用トークンのビット数	Tokiko token baten bit kopurua
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Denbora-tarte baterako token bat pasahitz gisa erabiltzen da irudiaren URL-ari buruzko informazioa zifratzeko; ezarpen honek haren indarra zehazten du.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Nahiz eta beherako menuan agertzen diren aukerak gero eta xeheagoak izan, honek zerbitzariari karga handia eragin dezake eta HTML datu bolumen handia transferitzea ekar dezake.
+ハッシュ化アルゴリズム	Haxen algoritmoa
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Denbora-laburreko token bat pasahitz gisa erabiltzen da irudiaren URL-ari buruzko informazioa zifratzeko; horretarako hash-ak egitea beharrezkoa da, eta ezarpen honek hash horien indarra zehazten du.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Nahiz eta behera zabaltzen den menuan agertzen den aukeren zerrendan behera joan ahala intentsitatea handitu, honek zerbitzarian karga handiagoa jartzen du.
+基本設定	Ezarpen oinarrizkoak
+高度な設定	Aurreratutako ezarpenak
+初期設定に戻す	Berreskuratu lehenetsitako ezarpenak
+デザイン・音の設定	Diseinua eta soinu-ezarpenak
+イベントの設定	Ekitaldiaren ezarpenak
+初回訪問時のお知らせの設定	Lehen bisitaldietarako jakinarazpenak ezartzea
+メッセージの設定	Mezuaren ezarpenak
+右クリックやソースコード表示時に転送する URL を設定します	Eskuineko klik egiterakoan edo iturburu-kodea ikusterakoan irekiko den URL ezarri.
+警告メッセージにはHTMLは使用できません	HTML ezin da ohartarazpen-mezuetan erabili.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Pantaila honetan hau konfiguratzen baduzu, Aurreratuko fitxako hizkuntza-ezarpenak baztertuko dira.
+以下の文字列が使用できます	Hurrengo kateak erabil daitezke
+改行	Lerro-apurtzea
+押下されたキー	Tekla sakatuta
+Neo HTML Protector 設定	Neo HTML Babeslearen Ezarpenak
+お知らせ	Oharra
+メッセージ	Mezu
+デザイン・音	Diseinua eta Soinua
+初期化	Hasieratzea
+このプラグインについて	Plugin honi buruz
+設定が初期化されました	Ezarpenak berrezarri dira
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Ekartzailea abiarazi. Mesedez, kontuan izan IP Log Reader-eko datuak oraindik ez direla ezabatuko.
+Neo HTML Protectorについて	Neo HTML Babesleari buruz
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin hau zure WordPress guneak sortutako HTML, irudi eta bestelako edukiak babesteko diseinatuta dago, baimenik gabeko erabileraren aurka babestuz.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Edukia erabat babestea ezinezkoa da. Hala ere, ahal den guztietan ohartarazpenak emanez eta edozer gertatuz gero prestaketak eginez, gobernuak ezarritako prozedurei jarraituz gai hau konpon dezakegu.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Jakina, zure termino eta baldintzak eta webguneko politika osatuak direla ziurtatu beharko duzu. Nahiz eta plugin honek termino eta baldintzak sortzeko tresna ez izan, gida batzuk eskaintzen ditu.
+開発者: 夜桜　なの	Garatzailearen izena: Nano Yozakura
+バージョン	Bertsioa
+ビルド	Eraiki
+サポートページ	Laguntza-orria
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss Ura Manirak interpretatua
+支援のお願い	Laguntza-eskaera
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Eskerrik asko Neo HTML Protector erabiltzeagatik!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Plugin honen garapenak eta mantentze-lanek denbora eta ahalegin handia behar izan dute, eta hobetzen eta eguneratzen jarraitzeko diru-bilketa egiteko, gurekin bat egin eta dohaintza bat egitera prest dagoen edonori eskertuko genieke.
+寄付について	Dohaintzei buruz
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Dohaintzak guztiz boluntarioak dira eta ez dira derrigorrezkoak. Plugin-a denontzat doan dago eskuragarri. Hala ere, zure laguntza oso eskertzen dugu garapena jarraitzeko, eta pozik egongo ginateke ahal duzuna ekar dezakezun.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Hurrengo estekaren bidez dohaintza bat egin dezakezu. Japonian bazaude, doan eman dezakezu, eta Amazon opari-txartelak erabilita erraz ere egin dezakezu.
+寄付先	Gobelazino-elkarteak
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Zure laguntzarekin, ahalik eta onena egingo dugu eguneratze bikainak ekartzen jarraitzeko!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Zure laguntzagatik eskertuta gaude eta etorkizunean zure etengabeko laguntza espero dugu.
+ライセンス	Lizentzia
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin hau iturburu irekiko software gisa garatu da eta GPLv2.0 edo berandueneko lizentziaren pean dago.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Plugin honetan sartuta dauden teknologia batzuk patenteez babestuta daude.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Patentatutako teknologiaren erabilera soilik plug-in honetan baimenduta dago.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Beste edozein erabilerarako, mesedez jar zaitez harremanetan egilearekin lizentzia komertziala lortzeko.
+本プラグインには以下のライブラリを同梱しています	Plugin honek honako liburutegi hauek barne hartzen ditu
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin honek behean sortutako ASCII art letra-tipoak eta letra-tipo fitxategiak barne hartzen ditu.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin honek EJ Co., Ltd.-k garatutako eta plugin honen sortzaileak konposatutako 'SM Trainer Hitomi 3' izeneko Super Famicom joko ofizialaz kanpokoaren musika barne hartzen du, eta lizentzia ofiziala du.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin honek Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Plugin honen garapenean Raspberry Pi 5 bat, ChatGPT eta DeepL ere erabili ditut.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Cachaketa-plugin bat detektatu da. Cachaketa-plugin bat gaituta badago, plugin honek ez du behar bezala funtzionatuko.
+無効なIPアドレス	IP helbide baliogabea
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Webgune hau erabiltzeko, cookieak eta JavaScript gaituta izan behar dituzu.
+利用規約	Erabilera-baldintzak
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Gure zerbitzuen baimenik gabeko erabilera saihesteko eta haien funtzionamendu segurua bermatzeko, webgune honek cookieetan eta datu-baseetan gorde dezake IP helbideak, nabigazio-historia eta jarduera-erregistroak bezalako informazioa. Informazio hori webgunearen funtzionamendurako eta helburu legaletarako soilik erabiltzen da, eta ez da hirugarrenekin partekatuko.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Zerbitzu hau erabiltzeko, prozesamendu-jarduera hauei baiezkoa eman behar diezu.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Gure Pribatutasun Politikaren edukia ikusi dezakezu, zure baimena eman izan ala ez.
+同意する	Ados nago
+同意しない	Ez nator bat
+確認	Konfirmazioa
+プライバシーポリシー	Pribatutasun Politika
+通常とは異なる方法でのアクセスや操作が検出されました	Sarbide edo jarduera arraroa antzeman da
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Segurtasun eta edukien babeserako zenbait ezaugarri mugatu dira.
+デバッグモード、コンソールの起動は禁止されています	Debug modua eta kontsolara sarbidea desgaituta daude.
+以下の情報がサーバーに送信されました	Hurrengo informazioa zerbitzariari bidali zaio.
+あなたのIPアドレス	Zure IP helbidea
+あなたの端末とブラウザ	Zure gailua eta nabigatzailea
+あなたの押下したキー	Zuk sakatu zenuen gakoa
+リダイレクトをします	Bideratua izango zara
+コンテンツ保護のため一部の機能を制限しています	Edukia babesteko, zenbait ezaugarri mugatu dira.
+右クリックは禁止されています	Eskumako klik egitea ez da baimenduta.
+あなたが押下したキー	Zuk sakatu zenuen gakoa
+印刷、PDFへの保存は禁止されています	Inprimatzea eta PDF gisa gordetzea debekatuta daude.
+スクリーンショットは禁止されています	Pantaila-argazkiak debekatuta daude.
+スクリーンショット、デバッグモード等の起動は禁止されています	Pantaila-argazkiak ateratzea eta debug modua aktibatzea debekatuta daude.
+ページの保存は禁止されています	Orrialde hau gordetzea debekatuta dago.
+コピー、カットは禁止されています	Kopiatzea eta moztea debekatuta daude.
+あなたが起こしたイベント	Antolatu dituzun ekitaldiak
+テキストの選択は禁止されています	Testua hautatzea ez da baimenduta.
+HTMLソース表示は禁止されています	HTML iturburu-kodea erakustea debekatuta dago.
+不正アクセスは禁止されています	Sarbide baimenik gabekoa debekatuta dago
+アフリカーンス語	Haitiarra
+アラゴン語	Aragoiar
+アラビア語	Arabiera
+アッサム語	Assamiera
+アゼルバイジャン語	Azerbaijaniera
+バシュキール語	Bashkir
+ベラルーシ語	Bielorrusiarra
+ベンガル語	Bengali
+ブルガリア語	Bulgariar
+ボスニア語	Bosniar
+カタロニア語	Kataluniar
+チェコ語	Txekiarra
+ウェールズ語	Galesko
+デンマーク語	Danimarkarra
+ドイツ語	Alemaniarra
+現代ギリシア語	Greziera moderno
+英語	Ingelesa
+イギリス英語	Britainiarra
+アメリカ英語	Amerikar ingelesa
+エスペラント語	Esperanto
+スペイン語	Espainiarra
+エストニア語	Estoniako
+バスク語	Euskaraz
+ペルシャ語	Persiarra
+フィンランド語	Finlandiarra
+フランス語	Frantsesa
+アイルランド語	Irlandar
+ガリシア語	Galiziako
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Hebreera
+ヒンディ語	Hindi
+クロアチア語	Kroaziarra
+ハイチ・クレオール語	Kreyòl haitiar
+ハンガリー語	Hungariar
+インドネシア語	Indonesiarra
+イボ語	Ibo hizkuntza
+アイスランド語	Islandiera
+イタリア語	Italiar
+日本語	Japoniarra
+ジャワ語	Javakoa
+カザフ語	Kazakh
+朝鮮語	Koreako
+クルド語	Kurdiera
+キルギス語	Kirgiz
+ラテン語	Latinez
+ルクセンブルク語	Luxemburgiera
+リンガラ語	Lingala
+リトアニア語	Lituaniar
+ラトビア語	Lituaniar
+マダガスカル語	Malagasiar
+マオリ語	Maoriek
+マケドニア語	Mazedoniar
+マラヤーラム語	Malayalam
+モンゴル語	Mongoliera
+マラーティー語	Maratiko
+マレー語	Malaiarra
+マルタ語	Maltaer
+ビルマ語	Birmano
+ネパール語	Nepaldar
+ノルウェー語	Norvegiar
+オランダ語	Herbeherearrak
+オック語	Okzitaniar
+オロモ語	Edo
+パンジャーブ語	Punjabi
+ポーランド語	Poloniar
+パシュトー語	Pashto
+ポルトガリア語	Portugaldarra
+ブラジルポルトガル語	Brasilgo portugesa
+ヨーロピアンポルトガル語	Europako portugaldiera
+ケチュア語	Inka
+ルーマニア語	Errumaniar
+ロシア語	Errusiako
+サンスクリット語	Sanskrit
+スロバキア語	Eslovakiera
+スロベニア語	Esloveniarra
+セルビア語	Serbiar
+南セソト語	Hegoaldeko Sesotho
+スンダ語	Sundaesera
+スウェーデン語	Suediar
+スワヒリ語	Suaheli
+タミル語	Tamilera
+テルグ語	Telugu
+タジク語	Tajiko
+タイ語	Tailandiar
+トルクメン語	Turkmen
+タガログ語	Tagalog
+トルコ語	Turkiar
+タタール語	Tatar
+ウクライナ語	Ukrainiera
+ウルドゥー語	Urdua
+ウズベク語	Usbek
+ベトナム語	Vietnamera
+コサ語	Ile
+イディッシュ語	Yidi
+簡体中国語	Txinera sinplifikatua
+繁体中国語	Txinako tradizionala
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Une honetan erabiltzen ari zaren nabigatzailea bertsio zaharragoa da eta ez da gehiago onartzen. Nabigazio esperientzia seguruago eta erosoago bat bermatzeko, mesedez, eguneratu zure nabigatzailearen azken bertsiora.
+不正なリクエストです	Eskari baliogabea
+画像が見つかりません	Irudia ez da aurkitu

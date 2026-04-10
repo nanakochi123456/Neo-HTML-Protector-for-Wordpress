@@ -1,14 +1,14 @@
 # English(UK) translations for Neo HTML Protector package.
-# Copyright (C) 2025 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Neo HTML Protector package.
-#  <plugin@773.moe>, 2025.
+#  <plugin@773.moe>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Neo HTML Protector 0.3.4\n"
 "Report-Msgid-Bugs-To: plugin@773.moe\n"
-"POT-Creation-Date: 2025-06-09 16:59+0900\n"
-"PO-Revision-Date: 2025-06-09 16:59+0900\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-09 23:50+0900\n"
 "Last-Translator:  <plugin@773.moe>\n"
 "Language-Team: English(UK)\n"
 "Language: en_GB\n"
@@ -984,14 +984,44 @@ msgstr "HTML source display is prohibited."
 msgid "不正アクセスは禁止されています"
 msgstr "Unauthorised access is prohibited."
 
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aragonese"
+
 msgid "アラビア語"
 msgstr "Arabic"
+
+msgid "アッサム語"
+msgstr "Assamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belarusian"
+
+msgid "ベンガル語"
+msgstr "Bengali"
 
 msgid "ブルガリア語"
 msgstr "Bulgarian"
 
+msgid "ボスニア語"
+msgstr "Bosnian"
+
+msgid "カタロニア語"
+msgstr "Catalan"
+
 msgid "チェコ語"
 msgstr "Czech"
+
+msgid "ウェールズ語"
+msgstr "Welsh"
 
 msgid "デンマーク語"
 msgstr "Danish"
@@ -1011,11 +1041,20 @@ msgstr "British English"
 msgid "アメリカ英語"
 msgstr "American English"
 
+msgid "エスペラント語"
+msgstr "Esperanto"
+
 msgid "スペイン語"
 msgstr "Spanish"
 
 msgid "エストニア語"
 msgstr "Estonian"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Farsi"
 
 msgid "フィンランド語"
 msgstr "Finnish"
@@ -1023,11 +1062,44 @@ msgstr "Finnish"
 msgid "フランス語"
 msgstr "French"
 
+msgid "アイルランド語"
+msgstr "Irish"
+
+msgid "ガリシア語"
+msgstr "Galician"
+
+msgid "グァラニ語"
+msgstr "Guarani"
+
+msgid "グジャラート語"
+msgstr "Gujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebrew"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Croatian."
+
+msgid "ハイチ・クレオール語"
+msgstr "Haitian Creole"
+
 msgid "ハンガリー語"
 msgstr "Hungarian"
 
 msgid "インドネシア語"
 msgstr "Indonesian"
+
+msgid "イボ語"
+msgstr "Wartburg language"
+
+msgid "アイスランド語"
+msgstr "Icelandic"
 
 msgid "イタリア語"
 msgstr "Italian"
@@ -1035,8 +1107,29 @@ msgstr "Italian"
 msgid "日本語"
 msgstr "Japanese"
 
+msgid "ジャワ語"
+msgstr "Javanese"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
 msgid "朝鮮語"
 msgstr "Korean"
+
+msgid "クルド語"
+msgstr "Kurdish"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Luxembourgish"
+
+msgid "リンガラ語"
+msgstr "Lingala"
 
 msgid "リトアニア語"
 msgstr "Lithuanian"
@@ -1044,14 +1137,56 @@ msgstr "Lithuanian"
 msgid "ラトビア語"
 msgstr "Latvian"
 
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Macedonian"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam language"
+
+msgid "モンゴル語"
+msgstr "Mongolian"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malayan"
+
+msgid "マルタ語"
+msgstr "Maltese"
+
+msgid "ビルマ語"
+msgstr "Burmese"
+
+msgid "ネパール語"
+msgstr "Nepali"
+
 msgid "ノルウェー語"
 msgstr "Norwegian"
 
 msgid "オランダ語"
 msgstr "Dutch"
 
+msgid "オック語"
+msgstr "Occitan"
+
+msgid "オロモ語"
+msgstr "Oromo"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
 msgid "ポーランド語"
 msgstr "Polish"
+
+msgid "パシュトー語"
+msgstr "Pashto"
 
 msgid "ポルトガリア語"
 msgstr "Portuguese"
@@ -1062,11 +1197,17 @@ msgstr "Brazilian Portuguese"
 msgid "ヨーロピアンポルトガル語"
 msgstr "European Portuguese"
 
+msgid "ケチュア語"
+msgstr "Quechua"
+
 msgid "ルーマニア語"
 msgstr "Romanian"
 
 msgid "ロシア語"
 msgstr "Russian"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
 
 msgid "スロバキア語"
 msgstr "Slovak"
@@ -1074,23 +1215,71 @@ msgstr "Slovak"
 msgid "スロベニア語"
 msgstr "Slovenian"
 
+msgid "セルビア語"
+msgstr "Serbian"
+
+msgid "南セソト語"
+msgstr "Southern Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
 msgid "スウェーデン語"
 msgstr "Swedish"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Thai"
+
+msgid "トルクメン語"
+msgstr "Turkmen"
+
+msgid "タガログ語"
+msgstr "Tagalog"
 
 msgid "トルコ語"
 msgstr "Turkish"
 
+msgid "タタール語"
+msgstr "Tatar"
+
 msgid "ウクライナ語"
 msgstr "Ukrainian"
 
-msgid "中国語"
-msgstr "Chinese"
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbek"
+
+msgid "ベトナム語"
+msgstr "Vietnamese"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Yiddish"
 
 msgid "簡体中国語"
 msgstr "Simplified Chinese"
 
 msgid "繁体中国語"
 msgstr "Traditional Chinese"
+
+msgid "ズールー語"
+msgstr "Zulu"
 
 msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
 msgstr "The browser you are currently using is an older version that is no longer supported. For a safer and more comfortable browsing environment, please update to the latest browser."

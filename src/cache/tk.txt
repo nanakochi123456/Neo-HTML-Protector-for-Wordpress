@@ -1,0 +1,424 @@
+設定	Täze sazlamalar
+IPログリーダー	IP Girişlerini Okýan
+IPアドレスログ	IP salgylarynyň ýazgysy
+全クリア	Ähli basgançaklary tamamla
+IPログが全て削除されました	Ähli IP ýazgylary öçürildi.
+ID	ID
+タイムスタンプ	Wagt möhüri
+IPアドレス	IP salgysy
+ユーザーエージェント	Ulanyjy agenti
+イベント	Waka
+IPアドレスのデータはありません	Bu IP salgysy üçin maglumat ýok.
+EU GDPR対応	ÝB GDPR-e laýyklyk
+無効	Nädogry
+有効	Dogry
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Eger-de siz ÝB-de WordPress ulanýan bolsaňyz ýa-da web sahypaňyz ÝB-de ulanyjylara gönükdirilen bolsa, munuň ýerine ýetirilendigine göz ýetiriň.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	'Tassyklamak' düwmesi 'Razymyn' ýa-da 'Razym däl' diýip üýtgär, we hereket biraz üýtgär.
+同意画面の色	Riza beriş ekranynyň reňki
+自動	Awtomatik
+ライトモード	Ýeňil režim
+ダークモード	Gara režiim
+同意画面表示中の配色を設定します	Razylyk ekrany üçin reňk sxemasyny kesgitläň
+同意画面中のコンテンツのぼかし	Razylyk ekranyndaky mazmunyň bulanmagy
+同意画面表示中のコンテンツのぼかし具合を設定します	Raza ekranynda görkezilýän mazmunyň bulanma derejesini kesgitläň
+同意画面の透過	Razylyk ekranynyň aç-açanlygy
+透過なし	Açyklyk ýok
+同意画面の透過具合を設定します	Razylyk ekranynyň opaklygyny sazlaň
+お知らせの1行目	Jikme-jiklikleriň ilkinji setiri
+初回表示で必ず表示されるメッセージです	Bu habar sahypa ilkinji gezek ýüklenende hemişe görkezilýär.
+お知らせの2行目	Bildirişiň ikinji setiri
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Bu habar diňe EU GDPR güýje gireninde ilkinji ekranda hemişe görünjekdir.
+お知らせの3行目	Bildirişiň üçünji setiri
+プライバシーポリシーのリンクの右側に表示されます	Ol Gizlinlik syýasatyna baglanyşygyň sag tarapynda görünjek.
+非EU向け確認の文字列	ÝB agza däl ýurtlar üçin tassyklama teksti
+EU GDPR向け同意するの文字列	ÝB GDPR üçin razylyk teksti
+EU GDPR向け同意しないの文字列	ÝB GDPR-iň ' razylyk bermäň' bölümi üçin tekst
+プライバシーポリシーの文字列	Gizlinlik syýasatynyň teksti
+プライバシーポリシーのURLはこちらから設定して下さい	Şahsyýet goragy syýasatynyň URL salgysyny şu ýere goýuň.
+プライバシーポリシーには以下の内容を追加して下さい	Şahsy maglumatlar syýasatyna aşakdakylary goşuň.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Aldawçy hereketleri anyklamak üçin IP salgylary ýaly identifikatorlar kukilerde we maglumatlar bazasynda saklanýar. Saklanan maglumatlar administratoryň islegine görä pozulýar.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Surat goragy işjeňleşdirilen wagty suratlaryň dogry ýerine ýetirilmegini üpjün etmek üçin biz IP salgysy we surat faýlynyň ady bar bolan haşlanan maglumatlary maglumatlar bazamyzda 60 minutlap saklaýarys.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Eger ulanyş şertlerini düzüp goýýan bolsaňyz, olaryň baglanyşygyny gizlinlik syýasatyňyza goşandygyňyza göz ýetiriň.
+利用規約の文字列	Ulanyş şertleriniň teksti
+利用規約のページ	Şertler we düzgünler sahypasy
+ページ選択なし	Sahypa saýlanmady
+検索エンジン等のURL	Gözleg motorlary we ş.m. üçin URL-lar
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ulanyjylar razy bolmadyk halatynda olary başga sahypalara ugradýan gözleg motorlary we şonça meňzeş saýtlaryň URL-ini kesgitläň.
+デバッグモード、コンソールの警告メッセージ	Sylag režimi, konsolda duýduryş habarlary
+右クリックの警告メッセージ	Sag düwme bilen duýduryş habary
+印刷、PDF保存の警告メッセージ	PDF görnüşinde çap etmek we saklamak barada duýduryş habary
+スクリーンショットの警告メッセージ	Ekran suratyndaky duýduryş habary
+スクリーンショットの疑いの警告メッセージ	Şübheli ekran suratlary barada duýduryş habary
+テキスト全選択時の警告メッセージ	Ähli tekst saýlanan wagty duýduryş habary
+ページ保存の警告メッセージ	Sahypany ýatda saklamak barada duýduryş habary
+コピー・カットした時に表示するメッセージ	Köpeltmek ýa-da kesmek wagtynda görkezilýän habar
+HTMLソース表示時に表示するメッセージ	HTML çeşmesini görýän wagty görkeziljek habar
+HTML難読化・保護時にソースの先頭に表示するメッセージ	HTML-i obfuskirläp ýa-da goranyňda çeşme kodunyň iň ýokarsynda görkeziljek habar
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	HTML goragy wagty bir gezeklik autentifikasiýa tokeni ýatrylsa görkeziljek habar
+CookieやJavascriptが有効でない場合に表示するメッセージ	Eger kukiler ýa-da JavaScript öçürilen bolsa, görkeziljek habar
+実際にはJavascriptが無効時のみ表示されます	Aslynda, bu diňe JavaScript öçürilen wagty görkezilýär.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Surat gorag astyna alynanda, ol ýüklener we şol suratda
+HTML難読化 (圧縮)	HTML koduny bulantmak
+一般的なHTML圧縮です、難読化解除のサイトもあります	Bu standart HTML siňdirmesi; ony dekodirläp bilýän web sahypalary hem bar.
+このオプションを有効にするとview-sourceのログが取得できます	Bu opsiýany işjeňleşdirmek size view-source žurnalyny almaga mümkinçilik berýär.
+HTML保護	HTML goragy
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ol diňe iň az zerur HTML-i çykarýar—hatda HTML siňdirilmegini ulananyňdakyndan hem az—we BODY teginiň içindäki mazmun düýbünden çykarylmaýar.
+Firefoxに対しては無効です	Bu Firefox-a degişli däl.
+SEOに著しく影響があります	Bu SEO-a uly täsir edýär.
+HTMLをJavaScriptで描画	JavaScript ulanyp HTML döretmek
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox-dan gaçmak üçin HTML-i JavaScript arkaly görkezýäris.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript görkezilmegini işjeňleşdirmek web sahypasynyň ýüklenme tizligini ep-esli peseldýär.
+画像の保護	Suraty goramak
+imgタグが呼び出されるごとに画像を保護	Img teg her çagyrylanda suraty goramaly
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	WordPress-e ýüklenen ähli suratlary tutuş HTML çykyşynda goramaly.
+画像をダウンロードから保護します	Suratlaryň ýüklänilmeginiň öňüni alýar
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Surat maglumatlary goralan wagty, biz takmynan ähli ýüklämeleri gadagan edýäris, ýeke-täk bir gezek ulanylýan URL-ler berýäris, sessiýada saklanan tokenler arkaly awtentifikasiýa edýäris we suratlary PHP arkaly görkezýäris; bu bolsa surat ogurçylygynyň takmynan ähli ýagdaýlarynyň öňüni netijeli alýar.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Surat maglumatlary goraglandyrylanda keshleme işlemez, bu bolsa saýtyň geljekki ziyaratlarda haýal ýüklenmegine we netijede SEO-na täsir etmegine getirýär.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Surat maglumatlaryny goramak maglumatlar bazasynyň ýüküni artdyryp biler.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Eger 'img teg çagyrylanda suratlary goramak' opsiýasyny saýlasaňyz, ulgam img teg döredilende add_filter-i ulanyp süzgüni ornaşdyrýar; ýöne käbir temalar bilen bu dogry işlemegi mümkin däl.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Eger 'Bütin HTML çykyşynda WordPress-e ýüklenen ähli suratlary goramak' opsiýasyny saýlasaňyz, plugin WordPress-iň takmynan ähli amallaryny öz içine alar we mazmundaky her img tegini işläp biler. Käbir temalar bilen bu dogry işlemegi mümkin däl.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Üns beriň: aýratyn suratlar hökmünde bellän suratlar OGP maglumatlary hökmünde paýlaşylar we goralmaz. Eger olary hökmän goramak isleseňiz, HTML goragyny işjeňleşdireniňizde ösen sazlamalarda HEAD teginiň çykyşynyň sazlamasyny üýtgetmeli.
+OS標準搭載のスクリーンショット機能を保護することはできません	Operasion ulgamyň standart funksiýasy hökmünde girizilen ekran suraty funksiýasyny gorap bolmaýar.
+画像URLの保護	Surat URL-laryny goramak
+画像の保護と組み合わせて使用します、単体では意味がありません	Bu surat goragy bilen bilelikde ulanylmalydyr; ýeke ulanylanda hiç hili maksada hyzmat etmeýär.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Ol JavaScript arkaly ýüklenýändigi üçin bu SEO-a täsir edýär.
+画像のウォーターマーク	Surata suw damgasy
+右下	Aşak sag
+ランダム位置	Täsadüfi ýagdaý
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Surata goragy bilen bilelikde ulanylanda, dinamik suw belgileri awtorlyk hukugynyň eýeçiligini anyk görkezýär we tomaşaçylara gözegçilik edilýändigi baradaky duýgy döredýär, şonuň bilen olary gadagan ediji roluny oýnaýar.
+JPG形式、PNG形式、WebP形式のみ対応します	Diňe JPG, PNG we WebP formatlary goldanylýar.
+有効にするとサーバーの負荷が高くなります	Muny işjeňleşdirmek serweriň ýüküni artdyrar.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Garaňkylandyrmak we goramak wagtynda HTML çeşme kodundan ASCII-sungaty çykarmak
+表示なし	Ekran ýok
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	'view-source' ulanyp HTML çeşmesini synlanda duýduryş berýän ASCII-sungaty görkezýär.
+対象アクションを起こした時の表示デザイン	Nishana alnan hereket ýerine ýetirilende görkezmäni dizaýn etmek
+黄色の背景の黒文字のベーシックデザイン	Sary fon üstünde gara tekstden ybarat esasy dizaýn
+黒色の背景の赤文字のホラー風デザイン	Gara fon üstünde gyzyl teksti bolan gorku usulyndaky dizaýn
+黒色の背景の赤文字の光る文字のデザイン	Gara fon üstünde gyzyl şöhle saçýan teksti öz içine alýan dizaýn
+対象アクションを起こした時のBGM	Nishan hereketi ýerine ýetirilende çalynýan fon saz
+サウンドなし	Ses ýok
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Söweş we Ýeňiş - 1 minut 16,3 sekunt - 630 056 bait - 64 kbps - Litsenziýa: CC 2.1 ýa-da soňrak
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3,8 sekunt - 32 364 bait - 64 kbps - Litsenziýa: GPL 2.0 ýa-da soňrak
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 sekunt - 195,578 bait - 64 kbps - Litsenziýa: GPL 2.0 ýa-da soňrak
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – kompýuterde döredilen wersiýa, ýokary tizlikli wersiýa – 1 minut 57,6 sekunt – 724,457 bait – 48 kbps – Litsenziýa: CC BY-ND 4.0 ýa-da soňrak
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Si bemol minorindaky Scherzo, Op. 2 – kompýuter tarapyndan döredilen wersiýa, ýokary tizlikli gysgaldylan wersiýa – 1 minut 48,0 sekunt – 665,369 bait – 48 kbps – Litsenziýa: CC BY-ND 4.0 ýa-da soňrak
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Sanaw: Étude d'Exécution No. 4 'Mazeppa'
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 sekunt – 183 926 bait – 64 kbps – Litsenziýa: Jemagat mülkiýeti
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro-stil fanfara – 2,2 sekunt – 10 536 bait – 32 kbps – Litsenziýa: Açyk domen
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro-stil intro – 42,1 sekunt – 179 138 bait – 32 kbps – Litsenziýa: Açyk domen
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	ChatGPT tarapyndan duýduryş - 3,8 sekunt - 109 700 bait - 256 kbps - Litsenziýa: Açyk domen
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Ýokary tizligi bolan, zyýanly programma üpjünçiligini anyklamak duýduryşyna meňzeş ses – 1-nji bölüm, ChatGPT tarapyndan – 3,3 sekunt – 102 850 bait – 256 kbps – Litsenziýa: Açyk domen
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Ýokary çaltlykly, zyýanly programma anyklama duýduryşyna meňzeş ses, 2-nji bölüm, ChatGPT tarapyndan - 3,3 sekunt - 103 122 bait - 256 kbps - Litsenziýa: Açyk domen
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI usulyndaky ses ChatGPT tarapyndan – 1 minut 14,9 sekunt – 3 340 392 bait – 320 kbps – Litsenziýa: Açyk domen
+警告表示中のBGMを選択します	Duýduryş wagtynda çalynjak fon sazyny saýlaň.
+びっくりするような雰囲気を作ります	Ol geň galdyryjy atmosfera döredýär.
+Firefoxでは音声ブロックされます	Firefox-da ses böwetlenýär
+対象アクションを起こした時のビープ音	Belgilenen hereket ýerine ýetirilende bip sesi çykýar.
+有効 音量小さ目	Ýan, ses pes
+有効 音量大き目	Işjeň, ses ýokary derejesine goýuldy
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Duýduryş görkezilýän mahaly ähli klawiatura we siçan wakalaryna jogap hökmünde bip sesi eşidiler.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Duýduryş görkezilýän mahaly enjamyň dolanyp bolmajak derejede işläp başlandygyny duýdurýar.
+対象アクションを起こした時のマウスカーソルの消去	Belgili bir hereket ýerine ýetirilende syçan kursoruny gizlemek
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Duýduryş görkezilýän mahaly brauzer sebitinde syçan kursoruny gizleýär.
+デバッグモード	Sylag režimi
+妨害＋記録のみ	Diňe päsgelçilik + ýazgylar
+妨害＋記録＋表示＋リダイレクト	Gurçylyk + Ýazgy + Görkezme + Ugrukdyrma
+メニューからは操作できてしまいます	Menýu arkaly henizem oňa girip bilersiňiz.
+Firefoxにおけるデバッグモード	Firefox-da ýalňyşlyklary düzetmek režimi
+ブラウザーコンソール	Brauzer konsoly
+事実上デバッグモードから操作できてしまいます	Aslynda, ony debug režiminden işledip bilersiňiz.
+HTMLソース表示	HTML çeşmesini gör
+view-source:から始まるURLを入力すれば操作できてしまいます	Siz operasiýany 'view-source:' bilen başlaýan URL-i girizmek arkaly aňsatlyk bilen ýerine ýetirip bilersiňiz.
+HTML保護と組み合わせることでコンテンツを保護することができます	Siz bu usuly HTML goragy bilen birleşdirip mazmunyňyzy gorap bilersiňiz.
+印刷	Basyň
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Çap etmegi gadagan etse-de, käbir brauzerlerde dogry işlemegi mümkin däl.
+スクリーンショット	Ekran suraty
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Ulanylýan operasiýa ulgamyna, brauzere ýa-da usula baglylykda, muny gadagan etmek mümkin bolmaz ýa-da anyklanmaz.
+ウインドウが背面に移動した時スクリーンショットの疑い	Penjire fon arkasyna geçende güman edilýän ekran suraty
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ol skrinşotlardan başga-da funksiýalara
+2キー押下のスクリーンショットの疑い	Iki düwmä basyp alnan şübheli ekran suraty
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Ýokardaky maddalaryň anyklama usullary doly kepillikli däl; anyklama çäreleri öňüni alyş çäresi hökmünde geçirilýär.
+スクリーンショットだけではなく、デバッグモード等も検出します	Ol diňe skrinşotlary däl, eýsem debug modlaryny we ş.m. hem anyklap bilýär.
+ページ保存	Sahypany sakla
+右クリック	Oň düwme basyň
+アドオンがインストールされていると操作できてしまいます	Eger goşmaça gurnalan bolsa, ony ulanyp bilersiňiz.
+コピー・カット	Köpeltmek we kesmek
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Bu goşundynyň sazlamalaryna baglylykda, bu wakany seýrek duşup bilersiňiz.
+テキスト全選択	Ähli teksti saýlaň
+テキスト選択	Teksti saýlaň
+デバッガー起動ログ、デバッガー妨害	Debuggeriň başlangyç ýazgysy, debuggeriň päsgelçiligi
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Bu debug režimini biraz ulanyja amatly däl edýär we debuggeriň işledilendigini ýazga alýar; emma käbir brauzerler bu hereketi gadagan edip biler.
+リダイレクトするURL	URL-i ugrukdyrmak
+利用規約などのページに転送すると良いでしょう	Ulanyjylary Ulanyş şertleri ýaly sahypalara ugratmak gowy pikir bolar.
+空欄にすると元のURLにリダイレクトをします	Eger boş goýulsa, ol asyl URL-e ugrukdyrylýar.
+リダイレクトまでの時間	Ýola ugradyş wagtyna çenli
+リダイレクトなし	Ugrukdyrma ýok
+1秒	1 sekunt
+2秒	2 sekunt
+3秒	3 sekunt
+4秒	4 sekunt
+5秒	5 sekunt
+6秒	6 sekunt
+7秒	7 sekunt
+8秒	8 sekunt
+9秒	9 sekunt
+10秒	10 sekunt
+15秒	15 sekunt
+20秒	Ýigrimi sekunt
+25秒	25 sekunt
+30秒	30 sekunt
+35秒	35 sekunt
+40秒	40 sekunt
+45秒	45 sekunt
+50秒	50 sekunt
+55秒	55 sekunt
+1分	1 minut
+1分10秒	1 minut 10 sekunt
+1分20秒	1 minut 20 sekunt
+1分30秒	1 minut 30 sekunt
+1分40秒	1 minut 40 sekunt
+1分50秒	1 minut 50 sekunt
+2分	2 minut
+ソース表示を許可する権限	Menzil kodyny görmek üçin rugsat
+ADMINログイン時のみ通常のソース出力	Normal çeşme çykyşy diňe ADMIN hökmünde girilen wagty işleýär.
+USERログインで通常のソース出力	Ulanyjy hökmünde gireniňizde adaty çeşme çykyşy
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Standart HTML çykyşynyň diňe administratiwçilere çäklendiriljekdigini ýa-da ulanyjynyň girizilmegini talap etjekdigini saýlaň.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Suraty göçürmäge mejbur etmek we hakykatda nämeleriň göçürilýändigi
+GIF形式で1×1ピクセルの透過画像	GIF formatyndaky 1×1 piksel ölçegli şeffaf surat
+PNG形式で1×1ピクセルの透過画像	PNG formatyndaky 1×1 pikselden ybarat şeffaf surat
+PNG形式で黄色い背景の警告画面	PNG formatyndaky sary fonly duýduryş ekrany
+意味のないHTMLドキュメント	Mäni ýok HTML dokumenti
+HTML保護時のHEADタグの出力	HTML goralan wagty HEAD teginiň çykyşy
+出力しない	Basyp çykarma
+TITLEタグのみ	Diňe TITLE tegini
+WordpressのHEADタグより取得	WordPress HEAD teginden alyndy
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Korporatiw ulanyş üçin diňe agzalar üçin niýetlenen sahypalar we içerki sahypalar üçin 'Çykarma' ýa-da 'Diňe TITLE tegini' saýlamak ýeterlik bolar.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	WordPress HEAD teginden maglumatlary almasaňyz, sosial mediada paýlaşanyňyzda OGP suraty görkezilmez.
+画像botをアクセス禁止にする	Surat botyny blokla
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Surat botlarynyň HTML-e girmeginiň öňüni alyp, surat gözlegi arkaly göni baglanyşyk goýmakdan gorap bilmeýän mazmuny gorap bilersiňiz; ýöne bu doly ygtybarly çözgüt däl.
+AI学習用botをアクセス禁止にする	AI tälim botyna girilişi gadagan ediň
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	HTML-de sun'iy aň öwredişi üçin niýetlenen botlaryň ulanylmagyny öňüni almak arkaly mazmunyň sun'iy aň tarapyndan ulanylmazlygyny üpjün edýäris; ýöne muny doly öňüni alyp bolmaýar.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Web arhiwlerine we web snapshotlaryna girilmegini gadagan etmek
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Biz awtomatiki ýygnalan web arhivlerine we ulanyjynyň islegine görä alnan ekran suratlaryna girilmegi gadagan edýäris; emma munuň doly öňüni alyp bilmeris.
+無効なUAをアクセス禁止にする	Bölüniň nädogry ulanyjy agentlerini blokla
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Eger ulanyjy agentiniň setirinde nädogry nyşanlar bar bolsa, elýeterçiligi gadagan edýär.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Internet Explorer we köne Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorer we köne Microsoft Edge arkaly girilmegiň öňüni alýar
+alertメッセージを表示する言語	Duýduryş habarlarynyň görkezilýän dili
+Wordpressの言語	WordPress dilleri
+ブラウザの設定言語	Brauzeriň dil sazlamalary
+メッセージをカスタム設定されている場合は言語を変更できません	Habarlary ýöriteleşdirilen bolsa, dili üýtgedip bilmeýärsiňiz.
+同意画面の言語	Razylyk ekranynyň dili
+view-sourceメッセージを表示する言語	'view-source' habaryny görkezjek dil
+一時使用トークンの有効期限	Wagtlaýyn tokenleriň möhleti
+3分	3 minut
+4分	4 minut
+5分	Bäş minut
+6分	6 minut
+7分	7 minut
+8分	Sekiz minut
+9分	Dokuz minut
+10分	On minut
+15分	15 minut
+20分	Ýigrimi minut
+25分	25 minut
+30分	30 minut
+35分	Otuz bäş minut
+40分	40 minut
+45分	45 minut
+50分	50 minut
+55分	55 minut
+1時間	Bir sagat
+画像URL情報の有効期限を設定します	Surat URL maglumatlarynyň möhleti gutarýan senesini kesgitläň
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Ýükleneninden soň, surat URL-i we wagtlaýyn token geçersiz bolar.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Suratlar islege görä ýüklener, ýöne olar bellenen wagtyň 30 sekunt öňünden awtomatik ýüklener.
+一時使用トークンのビット数	Wagtlaýyn tokeniň bit sany
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Wagtlaýyn token surat URL maglumatlaryny şifrlemek üçin parol hökmünde ulanylýar; bu sazlama onuň güýjüni kesgitleýär.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Açylan menýuň aşagynda görkezilen opsiýalar has-da jikme-jikleşdirilse-de, bu serweriň üstüne agyr ýük salyp, uly möçberde HTML maglumatlarynyň geçirilmegine getirip biler.
+ハッシュ化アルゴリズム	Hash algoritmi
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Surat URL maglumatlaryny şifrlemek üçin wagtlaýyn token parol hökmünde ulanylýar; munuň üçin haşlama gerek bolýar we bu sazlama şol haşlamanyň güýjüni kesgitleýär.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Açylan menýudaky opsiýalary aşak skroll edeniňizde intensivlik artýar, emma bu serweriň üstüne has uly ýük salýar.
+基本設定	Esasy sazlamalar
+高度な設定	Ösen sazlamalar
+初期設定に戻す	Öňki sazlamalary dikelt
+デザイン・音の設定	Dizaýn we ses sazlamalary
+イベントの設定	Çäräniň sazlamalary
+初回訪問時のお知らせの設定	Ilkinji gezek girilýän sahypalar üçin bildirişleri sazlamak
+メッセージの設定	Habar sazlamalary
+右クリックやソースコード表示時に転送する URL を設定します	Sag düwme basylanda ýa-da çeşme koduny görende açyljak URL-i belläň
+警告メッセージにはHTMLは使用できません	HTML duýduryş habarlarynda ulanylmaz.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Eger bu ekranda muny sazlasaňyz, Ösen goşundydaky dil sazlamalary nazara alynmaz.
+以下の文字列が使用できます	Aşakdaky setirler ulanylyp bilner
+改行	Setir bozulmasy
+押下されたキー	Açar basyldy
+Neo HTML Protector 設定	Neo HTML goragçysynyň sazlamalary
+お知らせ	Duýduryş
+メッセージ	Habar
+デザイン・音	Dizaýn we Ses
+初期化	Başlandyryş
+このプラグインについて	Bu goşundy barada
+設定が初期化されました	Täzeden sazlandy
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Plugini başlangyçlaň. IP Log Reader maglumatlarynyň şu tapgyrda pozulmajakdygyny bellemeli.
+Neo HTML Protectorについて	Neo HTML Goranýjy barada
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Bu plugin siziň WordPress saýtyňyz tarapyndan döredilen HTML-i, suratlary we beýleki mazmuny rugsatsyz ulanylmakdan goramak üçin niýetlenendir.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Mazmuny doly goramak mümkin däl. Emma mümkin boldugyça duýduryş berip we haýsydyr bir hadysa ýüze çyksa diýip taýýarlyk görsek, meseläni hökümet tarapyndan kesgitlenen tertiplere laýyklykda çözüp bileris.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Elbetde, hyzmat şertleriňiziň we saýt syýasatlaryňyzyň doly we giňişleýin bolmagyny üpjün etmeli. Bu goşundysy hyzmat şertlerini döretmek üçin gural bolmasa-da, käbir maslahat berip biler.
+開発者: 夜桜　なの	Ösüşçi: Nano Yozakura
+バージョン	Wersiýa
+ビルド	Gurmalaň
+サポートページ	Goldaw sahypasy
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Miss Ura Manira tarapyndan ýerine ýetirildi
+支援のお願い	Goldaw üçin haýyş
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector-i ulananyňyz üçin sag boluň!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Bu plaginini işläp düzmek we saklamak köp wagt we tagalla talap etdi, we ony kämilleşdirmek we täzeläp durmak üçin serişdeleri toplamak maksady bilen bize goldaw berip biljek islendik adamyň sadaka bermegini hoşallyk bilen kabul ederis.
+寄付について	Sadaka barada
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Sadakalar doly erkin we hökmany däl. Bu goşundyny hemmeler mugt ulanyp biler. Emma ösüşi dowam etdirmegimize goldawyňyz üçin uly minnetdarlyk bildirýäris we mümkinçiligiňizçe goşant goşsaňyz begenýäris.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Aşakdaky baglanyşyk arkaly sadaka berip bilersiňiz. Eger Ýaponiýada ýaşaýan bolsaňyz, mugt sadaka berip bilersiňiz we Amazon sowgat kuponlaryny ulanyp aňsatlyk bilen hem sadaka berip bilersiňiz.
+寄付先	Hayyr-sahawat guramalary
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Siziň goldawyňyz bilen size ajaýyp täzelikleri getirmäge elimizden gelenini ederis!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Biz goldawyňyz üçin minnetdar we geljekde hem goldawyňyza garaşýarys.
+ライセンス	Litsenziýa
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Bu goşundy açyk çeşme programma üpjünçiligi hökmünde işlenip düzüldi we GPLv2.0 ýa-da soňrak wersiýa esasynda lisenziýalaşdyryldy.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Bu plagin içine girizilen käbir tehnologiýalar patentler bilen goralan.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Patentlenen tehnologiýanyň ulanylmagy diňe şu goşundada rugsat berilýär.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Başga islendik ulanyş üçin, söwda lisenziýasyny almak üçin awtor bilen habarlaşyň.
+本プラグインには以下のライブラリを同梱しています	Bu plagin aşakdaky kitaphanalary öz içine alýar
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Bu goşundada aşakda döredilen ASCII surat şriftleri we şrift faýllary bar.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Bu goşundada EJ Co., Ltd. tarapyndan işlenip düzülen we bu goşundanyň döredijisi tarapyndan kompozisiýa edilen resmi däl Super Famicom oýny 'SM Trainer Hitomi 3'-den alnan sazlar bar we ol resmi taýdan ygtyýarlandyrylan.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Bu plagin Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Men bu goşundyny işläp düzmekde Raspberry Pi 5-i, ChatGPT-i we DeepL-i hem ulandym.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Käşleme plaginini anyklandy. Eger käşleme plaginini işjeňleşdirilse, bu plagin dogry işlemez.
+無効なIPアドレス	Nädogry IP salgysy
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Bu web sahypasyny ulanmak üçin kukileri we JavaScript-i işjeňleşdirmeli.
+利用規約	Ulanyş şertleri
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ruhsatsyz ulanylyşyň öňüni almak we hyzmatlarymyzyň howpsuz işlemegini üpjün etmek üçin, bu web sahypasy IP salgylary, gözleg taryhy we işjeňlik ýazgylary ýaly maglumatlary kukilerde we maglumatlar bazalarynda saklap biler. Bu maglumatlar diňe web sahypasynyň işlemegi we kanuny maksatlar üçin ulanylýar we üçünji taraplara berilmez.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Bu hyzmaty ulanmak üçin, bu işleme işjeňliklerine razy bolmaly.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Siz razylyk berendigiňizden ýa-da bermänligiňizden garaşsyz, Gizlinlik syýasatynyň mazmunyny görüp bilersiňiz.
+同意する	Men razy
+同意しない	Men razy däl.
+確認	Tassyklama
+プライバシーポリシー	Gizlinlik syýasaty
+通常とは異なる方法でのアクセスや操作が検出されました	Adaty däl giriş ýa-da işjeňlik anyklandy
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Käbir aýratynlyklar howpsuzlyk we mazmuny goramak maksady bilen çäklendirildi.
+デバッグモード、コンソールの起動は禁止されています	Debug režimi we konsol girmegi öçürilipdir.
+以下の情報がサーバーに送信されました	Aşakdaky maglumatlar serweriňize iberildi.
+あなたのIPアドレス	Siziň IP salgysyňyz
+あなたの端末とブラウザ	Enjamingiz we brauzeriňiz
+あなたの押下したキー	Siz basýan açar
+リダイレクトをします	Siz başga sahypaya ugrukdyrylarsynyz
+コンテンツ保護のため一部の機能を制限しています	Mazmuny goramak üçin käbir aýratynlyklar çäklendirildi.
+右クリックは禁止されています	Ong düwmä basmak rugsat berilmeýär
+あなたが押下したキー	Siz basýan açar
+印刷、PDFへの保存は禁止されています	Basyş we PDF görnüşinde ýazga saklamak gadagan.
+スクリーンショットは禁止されています	Ekran suratlary gadagan.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ekran suratlaryny almak we debug režimini ýakmak gadagan.
+ページの保存は禁止されています	Bu sahypany ýatda saklamak gadagan.
+コピー、カットは禁止されています	Köpeltmek we kesip almak gadagan.
+あなたが起こしたイベント	Siz guramaçylyk eden wakalar
+テキストの選択は禁止されています	Teksti saýlamak rugsat berilmeýär
+HTMLソース表示は禁止されています	HTML çeşme koduny görkezmek gadagan.
+不正アクセスは禁止されています	Rugsatsyz girmäge gadagan
+アフリカーンス語	Afrikanca
+アラゴン語	Aralygy
+アラビア語	Arapça
+アッサム語	Assamça
+アゼルバイジャン語	Azərbaycanca
+バシュキール語	Başky
+ベラルーシ語	Belarusça
+ベンガル語	Bengal dili
+ブルガリア語	Bulgar
+ボスニア語	Bosniýa
+カタロニア語	Katalon
+チェコ語	Çeh
+ウェールズ語	Uelsli
+デンマーク語	Daniýaça
+ドイツ語	Alman
+現代ギリシア語	Häzirki zaman grek
+英語	Iňlisçe
+イギリス英語	Britaniyaly iňlis
+アメリカ英語	Amerikan iňlis dili
+エスペラント語	Umidlenen dil
+スペイン語	Ispanca
+エストニア語	Estoniýaly
+バスク語	Basklý
+ペルシャ語	Farsça
+フィンランド語	Finlandiyaly
+フランス語	Fransuz
+アイルランド語	Irland
+ガリシア語	Galişiyaly
+グァラニ語	Guarani
+グジャラート語	Gujarati
+ハウサ語	Hausa
+ヘブライ語	Ibraniý
+ヒンディ語	Hindçe
+クロアチア語	Horwaty
+ハイチ・クレオール語	Gaiti kreol
+ハンガリー語	Wengerçe
+インドネシア語	Indoneziýaly
+イボ語	Ibo dili
+アイスランド語	Islandça
+イタリア語	Italiýaly
+日本語	Ýaponça
+ジャワ語	Jawalı
+カザフ語	Gazak
+朝鮮語	Koreýaly
+クルド語	Kürdçe
+キルギス語	Kirgiz
+ラテン語	Latyn
+ルクセンブルク語	Lüksemburgça
+リンガラ語	Dil
+リトアニア語	Litwaly
+ラトビア語	Latwiýaça
+マダガスカル語	Malagasy
+マオリ語	Maori
+マケドニア語	Makedonça
+マラヤーラム語	Malayalam
+モンゴル語	Moğolça
+マラーティー語	Marathi
+マレー語	Malay
+マルタ語	Malta dili
+ビルマ語	Birmanci
+ネパール語	Nepal dili
+ノルウェー語	Norwejiýaly
+オランダ語	Gollandiýa
+オック語	Oksitan
+オロモ語	Ýeri
+パンジャーブ語	Pendjapça
+ポーランド語	Polşa dili
+パシュトー語	Pashto
+ポルトガリア語	Portugaliýa dilinde
+ブラジルポルトガル語	Braziliýa portugaly
+ヨーロピアンポルトガル語	Ýewropa portugaly
+ケチュア語	Iňlisçe
+ルーマニア語	Rumyn dilinde
+ロシア語	Rusça
+サンスクリット語	Sanskrit
+スロバキア語	Slovak
+スロベニア語	Sloveniýa dilinde
+セルビア語	Serbçe
+南セソト語	Günorta Sesuto
+スンダ語	Sunda dili
+スウェーデン語	Şwedçe
+スワヒリ語	Suwahili
+タミル語	Tamil
+テルグ語	Telugu
+タジク語	Tajik
+タイ語	Tajik
+トルクメン語	Türkiýe
+タガログ語	Tagalog
+トルコ語	Türkiýe
+タタール語	Tatar
+ウクライナ語	Ukrainça
+ウルドゥー語	Urdu
+ウズベク語	Özbek
+ベトナム語	Wýetnamly
+コサ語	Saç
+イディッシュ語	Ýidiş
+簡体中国語	Gysgaldylan hytaý dili
+繁体中国語	Däp bolan hytaý dili
+ズールー語	Zulu
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Häzir ulanýan brauzeriňiz köne wersiýa bolup, goldaw berilmeýär. Has howpsuz we amatly brauzing tejribesini üpjün etmek üçin brauzeriňizi iň soňky wersiýasyna täzeläň.
+不正なリクエストです	Nädogry haýyş
+画像が見つかりません	Surat tapylmady

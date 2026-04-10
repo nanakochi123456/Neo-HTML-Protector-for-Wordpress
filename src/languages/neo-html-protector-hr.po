@@ -1,0 +1,1292 @@
+# Croatian translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 02:38+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Postavke"
+
+msgid "IPログリーダー"
+msgstr "Čitač IP dnevnika"
+
+msgid "IPアドレスログ"
+msgstr "Zapisnik IP adresa"
+
+msgid "全クリア"
+msgstr "Završi sve razine"
+
+msgid "IPログが全て削除されました"
+msgstr "Svi IP zapisi su izbrisani"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Vremenski žig"
+
+msgid "IPアドレス"
+msgstr "IP adresa"
+
+msgid "ユーザーエージェント"
+msgstr "Korisnički agent"
+
+msgid "イベント"
+msgstr "Događaj"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Nema podataka za ovu IP adresu."
+
+msgid "EU GDPR対応"
+msgstr "Usklađenost s GDPR-om EU"
+
+msgid "無効"
+msgstr "Neispravno"
+
+msgid "有効"
+msgstr "Valjano"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Ako koristite WordPress unutar EU ili je vaša web stranica namijenjena korisnicima unutar EU, molimo osigurajte da je ovo omogućeno."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Gumb 'Potvrdi' promijenit će se u 'Slažem se' ili 'Ne slažem se', a ponašanje će se neznatno promijeniti."
+
+msgid "同意画面の色"
+msgstr "Boja zaslona za davanje suglasnosti"
+
+msgid "自動"
+msgstr "Automatski"
+
+msgid "ライトモード"
+msgstr "Laki način"
+
+msgid "ダークモード"
+msgstr "Tamni način"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Postavite shemu boja za zaslon za davanje suglasnosti."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Zamagljivanje sadržaja na zaslonu za davanje suglasnosti"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Postavite razinu zamućenja za sadržaj prikazan na zaslonu za davanje pristanka."
+
+msgid "同意画面の透過"
+msgstr "Prozirnost zaslona za davanje suglasnosti"
+
+msgid "透過なし"
+msgstr "Nema transparentnosti"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Postavite prozirnost zaslona za davanje suglasnosti"
+
+msgid "お知らせの1行目"
+msgstr "Prvi red objave"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ova se poruka uvijek prikazuje prvi put kad se stranica učita."
+
+msgid "お知らせの2行目"
+msgstr "Drugi red obavijesti"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ova će poruka uvijek biti prikazana samo na prvom zaslonu kada EU GDPR bude na snazi."
+
+msgid "お知らせの3行目"
+msgstr "Treći red obavijesti"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Prikazat će se desno od poveznice na Pravila o privatnosti."
+
+msgid "非EU向け確認の文字列"
+msgstr "Potvrdni tekst za zemlje izvan EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Tekst pristanka za EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Tekst za 'Ne dajem privolu' prema GDPR-u EU"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Tekst politike privatnosti"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Molimo postavite URL za politiku privatnosti ovdje."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Molimo dodajte sljedeće u Pravila o privatnosti."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Kako bi se otkrila prijevarna aktivnost, identifikatori poput IP adresa pohranjuju se u kolačićima i bazi podataka. Pohranjeni podaci brišu se prema nahođenju administratora."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Kako bismo osigurali da se slike isporučuju ispravno samo kada je zaštita slika omogućena, pohranjujemo hashirane podatke koji uključuju IP adresu i naziv datoteke slike u bazi podataka do 60 minuta."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Ako postavljate Uvjete korištenja, molimo vas da osigurate da u svojoj Politici privatnosti uključite poveznicu na njih."
+
+msgid "利用規約の文字列"
+msgstr "Tekst uvjeta korištenja"
+
+msgid "利用規約のページ"
+msgstr "Stranica s uvjetima i odredbama"
+
+msgid "ページ選択なし"
+msgstr "Nije odabrana stranica"
+
+msgid "検索エンジン等のURL"
+msgstr "URL-ovi za tražilice itd."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Postavite URL za tražilice i slične stranice koje preusmjeravaju na drugu stranicu kada privola nije dana."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Režim otklanjanja pogrešaka, upozoravajuće poruke na konzoli"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Desni klik na poruku upozorenja"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Upozorenje o ispisu i spremanju kao PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Upozoravajuća poruka na snimci zaslona"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Upozorenje o sumnjivim snimkama zaslona"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Poruka upozorenja kada je sav tekst odabran"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Upozorenje o spremanju stranice"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Poruka koja se prikazuje pri kopiranju ili izrezivanju"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Poruka za prikaz pri pregledu izvornog koda HTML-a"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Poruka koja se prikazuje na vrhu izvornog koda prilikom zamućivanja ili zaštite HTML-a"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Poruka za prikaz ako jednokratni token za autentifikaciju nije važeći tijekom HTML zaštite"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Poruka za prikaz ako su kolačići ili JavaScript onemogućeni"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Zapravo, ovo se prikazuje samo kada je JavaScript onemogućen."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Kada je slika zaštićena, ona se preuzima i na njoj se prikazuje poruka"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTML zamućivanje"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Ovo je standardna HTML kompresija; postoje i web stranice koje je mogu dešifrirati."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Omogućavanjem ove opcije možete dohvatiti zapisnik izvornog koda."
+
+msgid "HTML保護"
+msgstr "HTML zaštita"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ispisuje samo najnužniji HTML—čak i manje nego pri korištenju HTML kompresije—i sadržaj unutar oznake BODY uopće se ne ispisuje."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Ovo se ne odnosi na Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Ovo ima značajan utjecaj na SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Renderiranje HTML-a pomoću JavaScript-a"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Kako bismo zaobišli Firefox, HTML renderiramo pomoću JavaScript-a."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Omogućavanje iscrtavanja JavaScriptom značajno će usporiti brzinu učitavanja web-stranice."
+
+msgid "画像の保護"
+msgstr "Zaštita slike"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Zaštitite sliku svaki put kada se poziva tag img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Zaštitite sve slike učitane u WordPress unutar cijelog HTML izlaza"
+
+msgid "画像をダウンロードから保護します"
+msgstr "Štiti slike od preuzimanja"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Kada su podaci o slikama zaštićeni, sprječavamo gotovo sve preuzimanja, izdajemo jedinstvene jednokratne URL-ove, provodimo autentifikaciju pomoću tokena pohranjenih u sesiji i prikazujemo slike putem PHP-a; to učinkovito sprječava gotovo sve slučajeve krađe slika."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Kada su podaci o slikama zaštićeni, keširanje ne radi, što znači da će se stranica pri ponovnim posjetima učitavati sporije, čime se utječe na SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Zaštita podataka o slikama može povećati opterećenje baze podataka."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Ako odaberete 'Zaštiti slike kad god se poziva img oznaka', sustav koristi add_filter za primjenu filtriranja pri generiranju img oznake; međutim, to možda neće ispravno raditi s nekim temama."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Ako odaberete 'Zaštiti sve slike učitane u WordPress unutar cijelog HTML izlaza', dodatak će uhvatiti gotovo sve WordPress operacije i obraditi svaki img tag unutar sadržaja. Imajte na umu da ovo možda neće ispravno raditi s nekim temama."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Imajte na umu da će slike označene kao istaknute slike biti dijeljene kao OGP podaci i ne mogu biti zaštićene. Ako ih apsolutno morate zaštititi, molimo promijenite postavku za izlaz HEAD oznake u naprednim postavkama prilikom omogućavanja HTML zaštite."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Funkcija snimanja zaslona ugrađena u operativni sustav ne može se zaštititi."
+
+msgid "画像URLの保護"
+msgstr "Zaštita URL-ova slika"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Ovo treba koristiti zajedno s zaštitom slika; samo po sebi nema nikakvu svrhu."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Budući da se lijeno učitava putem JavaScript-a, to utječe na SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Vodeni žig slike"
+
+msgid "右下"
+msgstr "Donji desni"
+
+msgid "ランダム位置"
+msgstr "Slučajni položaj"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "U kombinaciji s zaštitom slika, dinamički vodenih žigova jasno ukazuju na vlasništvo autorskih prava, istovremeno dajući gledateljima dojam da su nadzirani, čime djeluju kao odvraćanje."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Podržani su samo formati JPG, PNG i WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Omogućavanje ovoga povećat će opterećenje poslužitelja."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ispisivanje ASCII umjetnosti iz HTML izvornog koda tijekom zamućivanja i zaštite"
+
+msgid "表示なし"
+msgstr "Nema prikaza"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Prikazuje ASCII umjetnost koja označava upozorenje pri pregledavanju izvornog koda HTML-a pomoću 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Prikaži dizajn kada se izvrši ciljana radnja"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Osnovni dizajn s crnim tekstom na žutoj pozadini"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Dizajn u horor stilu s crvenim tekstom na crnoj pozadini"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Dizajn s crvenim svjetlećim tekstom na crnoj pozadini"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Pozadinska glazba koja svira kada se izvrši ciljana radnja"
+
+msgid "サウンドなし"
+msgstr "Nema zvuka"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Bitka i pobjeda - 1 minuta 16,3 sekunde - 630.056 bajtova - 64 kbps - Licenca: CC 2.1 ili novija"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Očeva kratka verzija - 3,8 sekundi - 32.364 bajta - 64 kbps - Licenca: GPL 2.0 ili novija"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 sekundi - 195.578 bajtova - 64 kbps - Licenca: GPL 2.0 ili novija"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 br. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 br. 12 'Revolucija' – računalno generirana verzija, visoka brzina – 1 minuta 57,6 sekundi – 724.457 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo u si♭-molu, op. 2 – računalno generirana verzija, skraćena verzija velike brzine – 1 minuta 48,0 sekundi – 665.369 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Popis: Étude d'Exécution Transcendante br. 4, Mazeppa – računalno generirana verzija, skraćena verzija visoke brzine – 1 minuta 51,6 sekundi – 687.586 bajtova – 48 kbps – Licenca: CC BY-ND 4.0 ili novija"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 sekunde – 183.926 bajtova – 64 kbps – Licenca: javno vlasništvo"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stilska fanfara – 2,2 sekunde – 10.536 bajtova – 32 kbps – Licenca: javno vlasništvo"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro-stilski uvod – 42,1 sekundi – 179.138 bajtova – 32 kbps – Licenca: javno vlasništvo"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Upozorenje ChatGPT-a - 3,8 sekundi - 109.700 bajtova - 256 kbps - Licenca: Javno vlasništvo"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Zvuk visoke hitnosti nalik na upozorenje o detekciji zlonamjernog softvera – 1. dio od ChatGPT-a – 3,3 sekunde – 102.850 bajtova – 256 kbps – Licenca: javno vlasništvo"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Zvuk visoke hitnosti poput upozorenja na detekciju zlonamjernog softvera, 2. dio od ChatGPT-a - 3,3 sekunde - 103.122 bajta - 256 kbps - Licenca: Javno vlasništvo"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Zvuk u stilu MRI-ja od ChatGPT-a – 1 minuta 14,9 sekundi – 3.340.392 bajtova – 320 kbps – Licenca: Javno vlasništvo"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Odaberite pozadinsku glazbu koja će se reproducirati tijekom upozorenja."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Stvara iznenađujuću atmosferu"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Audio je blokiran u Firefoxu."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bip kada se izvrši navedena radnja"
+
+msgid "有効 音量小さ目"
+msgstr "Uključeno, glasnoća niska"
+
+msgid "有効 音量大き目"
+msgstr "Aktivno, glasnoća postavljena na visoko"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Dok se prikazuje upozorenje, za sve događaje tipke i miša čut će se bip."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Stvara dojam da je uređaj poludio dok se prikazuje upozorenje."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Skrivanje pokazivača miša kada se izvrši određena radnja"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Sakriva pokazivač miša u području preglednika dok se prikazuje upozorenje"
+
+msgid "デバッグモード"
+msgstr "Režim otklanjanja pogrešaka"
+
+msgid "妨害＋記録のみ"
+msgstr "Samo ometanje + zapisi"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Smetnje + Zapisivanje + Prikaz + Preusmjeravanje"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "I dalje mu možete pristupiti putem izbornika."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Režim otklanjanja pogrešaka u Firefoxu"
+
+msgid "ブラウザーコンソール"
+msgstr "Konzole preglednika"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "U praksi ga možete koristiti iz načina otklanjanja pogrešaka."
+
+msgid "HTMLソース表示"
+msgstr "Pogledaj izvorni HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Možete izvršiti operaciju jednostavno unosom URL-a koji započinje s 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Možete zaštititi svoj sadržaj kombiniranjem ovoga s HTML zaštitom."
+
+msgid "印刷"
+msgstr "Ispiši"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Iako sprječava ispis, u nekim preglednicima možda neće ispravno raditi."
+
+msgid "スクリーンショット"
+msgstr "Snimka zaslona"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Ovisno o operativnom sustavu, pregledniku ili korištenoj metodi, možda neće biti moguće blokirati ovo ili ono možda neće biti otkriveno."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Pretpostavljeni snimak zaslona kada se prozor pomakne u pozadinu"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Također reagira na funkcije osim snimanja zaslona"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Navodni snimak zaslona napravljen pritiskom na dvije tipke"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Metode otkrivanja navedenih stavki nisu posve pouzdane; otkrivanje se provodi kao mjera opreza."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Detektira ne samo snimke zaslona, nego i načine otklanjanja pogrešaka i slično."
+
+msgid "ページ保存"
+msgstr "Spasi stranicu"
+
+msgid "右クリック"
+msgstr "Desni klik"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Ako je dodatak instaliran, moći ćete ga koristiti."
+
+msgid "コピー・カット"
+msgstr "Kopiraj i izreži"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Ovisno o postavkama ovog dodatka, rijetko biste mogli naići na ovaj događaj."
+
+msgid "テキスト全選択"
+msgstr "Odaberi sav tekst"
+
+msgid "テキスト選択"
+msgstr "Odaberi tekst"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Zapis pokretanja otklanjivača pogrešaka, ometanje otklanjivača pogrešaka"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Ovo čini način otklanjanja pogrešaka nešto manje prilagođen korisniku i bilježi činjenicu da je otklanjač pogrešaka pokrenut; međutim, neki preglednici mogu blokirati ovo ponašanje."
+
+msgid "リダイレクトするURL"
+msgstr "Preusmjeri URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Bilo bi dobro preusmjeriti korisnike na stranice poput Uvjeta korištenja."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Ako ostane prazno, preusmjerit će se na izvorni URL."
+
+msgid "リダイレクトまでの時間"
+msgstr "Vrijeme do preusmjeravanja"
+
+msgid "リダイレクトなし"
+msgstr "Nema preusmjeravanja"
+
+msgid "1秒"
+msgstr "1 sekunda"
+
+msgid "2秒"
+msgstr "2 sekunde"
+
+msgid "3秒"
+msgstr "3 sekunde"
+
+msgid "4秒"
+msgstr "4 sekunde"
+
+msgid "5秒"
+msgstr "5 sekundi"
+
+msgid "6秒"
+msgstr "6 sekundi"
+
+msgid "7秒"
+msgstr "7 sekundi"
+
+msgid "8秒"
+msgstr "8 sekundi"
+
+msgid "9秒"
+msgstr "9 sekundi"
+
+msgid "10秒"
+msgstr "10 sekundi"
+
+msgid "15秒"
+msgstr "15 sekundi"
+
+msgid "20秒"
+msgstr "20 sekundi"
+
+msgid "25秒"
+msgstr "25 sekundi"
+
+msgid "30秒"
+msgstr "30 sekundi"
+
+msgid "35秒"
+msgstr "35 sekundi"
+
+msgid "40秒"
+msgstr "40 sekundi"
+
+msgid "45秒"
+msgstr "45 sekundi"
+
+msgid "50秒"
+msgstr "50 sekundi"
+
+msgid "55秒"
+msgstr "55 sekundi"
+
+msgid "1分"
+msgstr "1 minuta"
+
+msgid "1分10秒"
+msgstr "1 minuta 10 sekundi"
+
+msgid "1分20秒"
+msgstr "1 minuta 20 sekundi"
+
+msgid "1分30秒"
+msgstr "1 minuta i 30 sekundi"
+
+msgid "1分40秒"
+msgstr "1 minuta i 40 sekundi"
+
+msgid "1分50秒"
+msgstr "1 minuta 50 sekundi"
+
+msgid "2分"
+msgstr "2 minute"
+
+msgid "ソース表示を許可する権限"
+msgstr "Dopuštenje za pregled izvornog koda"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Normalni izlaz izvora samo kada ste prijavljeni kao ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Normalni izlaz izvora kada ste prijavljeni kao USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Odaberite hoće li standardni HTML izlaz biti ograničen samo na administratore ili zahtijevati prijavu korisnika."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Prisiljavanje slike na preuzimanje i ono što se zapravo preuzme"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Prozirna slika od 1×1 piksela u GIF formatu"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Prozirna slika od 1×1 piksela u PNG formatu"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Upozoravajući zaslon s žutom pozadinom u PNG formatu"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Besmisleni HTML dokument"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Ispis HEAD oznake kada je HTML zaštićen"
+
+msgid "出力しない"
+msgstr "Ne ispisujte"
+
+msgid "TITLEタグのみ"
+msgstr "Samo oznaka TITLE"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Preuzeto iz HEAD oznake WordPressa"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Za korporativne stranice namijenjene isključivo članovima i interne stranice, odabir opcije 'Ne prikazuj' ili 'Samo oznaka TITLE' trebao bi biti dovoljan."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Osim ako ne dohvatite informacije iz HEAD oznake WordPressa, OGP slika se neće pojaviti pri dijeljenju na društvenim mrežama."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Blokiraj bot za slike"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Sprječavanjem pristupa HTML-u botova za slike možete zaštititi sadržaj koji se ne može zaštititi od izravnog povezivanja putem pretraživanja slika; međutim, ovo nije rješenje koje štiti u svakom slučaju."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Blokiraj pristup botu za obuku umjetne inteligencije"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Izbjegavanjem upotrebe botova namijenjenih obuci umjetne inteligencije na HTML-u osiguravamo da sadržaj ne bude iskorišten od strane AI; međutim, to se ne može u potpunosti spriječiti."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Blokirajte pristup web-arhivama i snimkama web-stranica"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Zabranjujemo pristup automatski prikupljenim internetskim arhivama i snimkama zaslona koje korisnik napravi po vlastitom nahođenju; međutim, to ne možemo u potpunosti spriječiti."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Blokiraj nevažeće korisničke agente"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Sprječava pristup ako string korisničkog agenta sadrži nevažeće znakove"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Prikaži upozorenje pri pristupu Internet Exploreru i starom Microsoft Edgeu"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Sprječava pristup putem Internet Explorera i starog Microsoft Edgea"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Jezik na kojem se prikazuju obavijesti"
+
+msgid "Wordpressの言語"
+msgstr "WordPress jezici"
+
+msgid "ブラウザの設定言語"
+msgstr "Postavke jezika preglednika"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ne možete promijeniti jezik ako su poruke prilagođene."
+
+msgid "同意画面の言語"
+msgstr "Jezik zaslona za davanje suglasnosti"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Jezik u kojem će se prikazati poruka 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Rok trajanja privremenih tokena"
+
+msgid "3分"
+msgstr "3 minute"
+
+msgid "4分"
+msgstr "4 minute"
+
+msgid "5分"
+msgstr "5 minuta"
+
+msgid "6分"
+msgstr "6 minuta"
+
+msgid "7分"
+msgstr "7 minuta"
+
+msgid "8分"
+msgstr "8 minuta"
+
+msgid "9分"
+msgstr "9 minuta"
+
+msgid "10分"
+msgstr "10 minuta"
+
+msgid "15分"
+msgstr "15 minuta"
+
+msgid "20分"
+msgstr "20 minuta"
+
+msgid "25分"
+msgstr "25 minuta"
+
+msgid "30分"
+msgstr "30 minuta"
+
+msgid "35分"
+msgstr "35 minuta"
+
+msgid "40分"
+msgstr "40 minuta"
+
+msgid "45分"
+msgstr "45 minuta"
+
+msgid "50分"
+msgstr "50 minuta"
+
+msgid "55分"
+msgstr "55 minuta"
+
+msgid "1時間"
+msgstr "1 sat"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Postavite datum isteka informacija o URL-u slike"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Nakon učitavanja, URL slike i privremeni token bit će poništeni."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Slike se učitavaju na zahtjev, ali će se automatski učitati 30 sekundi prije navedenog vremena."
+
+msgid "一時使用トークンのビット数"
+msgstr "Broj bita u privremenom tokenu"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Privremeni token koristi se kao lozinka za šifriranje informacija o URL-u slike; ova postavka određuje njegovu snagu"
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Iako opcije prikazane ispod padajućeg izbornika postaju sve detaljnije, to može opteretiti poslužitelj i rezultirati velikom količinom prenesenih HTML podataka."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Hash algoritam"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Privremeni token koristi se kao lozinka za šifriranje informacija o URL-u slike; to zahtijeva hashiranje, a ovo postavljanje određuje snagu tog hashiranja."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Iako se intenzitet povećava kako se spuštaš kroz popis opcija prikazanih u padajućem izborniku, to nameće veći teret na poslužitelj."
+
+msgid "基本設定"
+msgstr "Osnovna postavljanja"
+
+msgid "高度な設定"
+msgstr "Napredne postavke"
+
+msgid "初期設定に戻す"
+msgstr "Obnovite zadana postavljanja"
+
+msgid "デザイン・音の設定"
+msgstr "Dizajn i zvučni postavci"
+
+msgid "イベントの設定"
+msgstr "Postavke događaja"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Postavljanje obavijesti za prve posjete"
+
+msgid "メッセージの設定"
+msgstr "Postavke poruke"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Postavite URL koji će se otvoriti pri desnom kliku ili pregledavanju izvornog koda"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML se ne može koristiti u porukama upozorenja."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Ako ovo konfigurirate na ovom zaslonu, postavke jezika na kartici Napredno bit će zanemarene."
+
+msgid "以下の文字列が使用できます"
+msgstr "Sljedeći nizovi se mogu koristiti"
+
+msgid "改行"
+msgstr "Prelom retka"
+
+msgid "押下されたキー"
+msgstr "Pritisnuta tipka"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Postavke Neo HTML zaštitnika"
+
+msgid "お知らせ"
+msgstr "Obavijest"
+
+msgid "メッセージ"
+msgstr "Poruka"
+
+msgid "デザイン・音"
+msgstr "Dizajn i zvuk"
+
+msgid "初期化"
+msgstr "Inicijalizacija"
+
+msgid "このプラグインについて"
+msgstr "O ovom dodatku"
+
+msgid "設定が初期化されました"
+msgstr "Postavke su resetirane."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Inicijalizirajte dodatak. Imajte na umu da se podaci IP Log Readera u ovoj fazi neće izbrisati."
+
+msgid "Neo HTML Protectorについて"
+msgstr "O programu Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Ovaj dodatak je dizajniran da zaštiti HTML, slike i ostali sadržaj generiran na vašoj WordPress stranici, štiteći ga od neovlaštenog korištenja."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Nemoguće je u potpunosti zaštititi sadržaj. Međutim, izdavanjem upozorenja gdje god je to moguće i poduzimanjem priprema u slučaju da se nešto dogodi, trebali bismo biti u mogućnosti riješiti problem u skladu s procedurama koje je propisala vlada."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Naravno, morat ćete osigurati da su vaši uvjeti i odredbe te pravila stranice sveobuhvatni. Iako ovaj dodatak nije alat za generiranje uvjeta i odredbi, može pružiti određene smjernice."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Programer: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Verzija"
+
+msgid "ビルド"
+msgstr "Izgradi"
+
+msgid "サポートページ"
+msgstr "Podržite stranicu"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Izvela gospođica Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Zahtjev za podršku"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Hvala vam što koristite Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Razvoj i održavanje ovog dodatka zahtijevali su mnogo vremena i truda, a kako bismo prikupili sredstva za daljnje poboljšanje i ažuriranje, bili bismo zahvalni ako bi netko tko nam može pomoći razmislio o donaciji."
+
+msgid "寄付について"
+msgstr "O donacijama"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Donacije su potpuno dobrovoljne i nisu obavezne. Plugin je svima dostupan besplatno. Međutim, vaša podrška je izuzetno cijenjena kako bismo mogli nastaviti razvoj, i bili bismo oduševljeni ako biste mogli doprinijeti koliko god možete."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Možete donirati putem poveznice u nastavku. Ako se nalazite u Japanu, možete donirati besplatno, a također lako donirati pomoću Amazon poklon-bonova."
+
+msgid "寄付先"
+msgstr "Dobrotvorne organizacije"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Uz vašu podršku, dat ćemo sve od sebe da vam i dalje donosimo fantastične novosti!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Zahvalni smo na vašoj podršci i radujemo se vašoj daljnjoj podršci u budućnosti."
+
+msgid "ライセンス"
+msgstr "Licenca"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Ovaj dodatak razvijen je kao softver otvorenog koda i licenciran je pod GPLv2.0 ili novijom verzijom."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Neke od tehnologija uključenih u ovaj dodatak zaštićene su patentima."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Korištenje patentirane tehnologije dopušteno je isključivo unutar ovog dodatka."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Za bilo koju drugu upotrebu, molimo kontaktirajte autora kako biste dobili komercijalnu licencu."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ovaj dodatak uključuje sljedeće biblioteke"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ovaj dodatak uključuje fontove ASCII umjetnosti generirane u nastavku, zajedno s datotekama fontova."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ovaj dodatak uključuje glazbu iz neoficijalne Super Famicom igre 'SM Trainer Hitomi 3', koju je razvila tvrtka EJ Co., Ltd., a komponirao autor ovog dodatka, te je službeno licencirana."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ovaj dodatak uključuje snimke stvorene pomoću 'Keppy's YAMAHA C7', koje je razvio Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Također sam koristio Raspberry Pi 5, ChatGPT i DeepL u razvoju ovog dodatka."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Detektiran je dodatak za keširanje. Ovaj dodatak neće ispravno funkcionirati ako je dodatak za keširanje omogućen."
+
+msgid "無効なIPアドレス"
+msgstr "Neispravna IP adresa"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Da biste koristili ovu web stranicu, morate omogućiti kolačiće i JavaScript."
+
+msgid "利用規約"
+msgstr "Uvjeti korištenja"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Kako bi se spriječila neovlaštena upotreba i osiguralo sigurno funkcioniranje naših usluga, ova web stranica može pohranjivati informacije poput IP adresa, povijesti pregledavanja i zapisa aktivnosti u kolačićima i bazama podataka. Ove se informacije koriste isključivo za rad web stranice i u zakonske svrhe te neće biti otkrivene trećim stranama."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Da biste koristili ovu uslugu, morate pristati na ove aktivnosti obrade."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Možete pregledati sadržaj naše Politike privatnosti bez obzira na to jeste li dali svoj pristanak."
+
+msgid "同意する"
+msgstr "Slažem se"
+
+msgid "同意しない"
+msgstr "Ne slažem se"
+
+msgid "確認"
+msgstr "Potvrda"
+
+msgid "プライバシーポリシー"
+msgstr "Pravila o privatnosti"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Detektiran je neobičan pristup ili aktivnost."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Određene značajke su ograničene radi sigurnosti i zaštite sadržaja."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Režim otklanjanja pogrešaka i pristup konzoli su onemogućeni."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Sljedeće informacije su poslane na poslužitelj"
+
+msgid "あなたのIPアドレス"
+msgstr "Vaša IP adresa"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Vaš uređaj i preglednik"
+
+msgid "あなたの押下したキー"
+msgstr "Ključ koji ste pritisnuli"
+
+msgid "リダイレクトをします"
+msgstr "Bit ćete preusmjereni"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Određene značajke su ograničene radi zaštite sadržaja."
+
+msgid "右クリックは禁止されています"
+msgstr "Desni klik nije dopušten"
+
+msgid "あなたが押下したキー"
+msgstr "Ključ koji ste pritisnuli"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Ispis i spremanje kao PDF su zabranjeni."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Snimke zaslona su zabranjene."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Zabranjeno je snimanje snimaka zaslona i omogućavanje načina otklanjanja pogrešaka."
+
+msgid "ページの保存は禁止されています"
+msgstr "Spremanje ove stranice je zabranjeno"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Kopiranje i rezanje su zabranjeni."
+
+msgid "あなたが起こしたイベント"
+msgstr "Događaji koje ste organizirali"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Odabir teksta nije dopušten"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Prikazivanje izvornog HTML koda je zabranjeno."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Neovlašteni pristup je zabranjen."
+
+msgid "アフリカーンス語"
+msgstr "Afričanski"
+
+msgid "アラゴン語"
+msgstr "Aragonsko"
+
+msgid "アラビア語"
+msgstr "Arapski"
+
+msgid "アッサム語"
+msgstr "Asameško"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbejdžanski"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Bjeloruski"
+
+msgid "ベンガル語"
+msgstr "Bengalski"
+
+msgid "ブルガリア語"
+msgstr "Bugarski"
+
+msgid "ボスニア語"
+msgstr "Bosanski"
+
+msgid "カタロニア語"
+msgstr "Katalonski"
+
+msgid "チェコ語"
+msgstr "Češki"
+
+msgid "ウェールズ語"
+msgstr "Welski"
+
+msgid "デンマーク語"
+msgstr "Danski"
+
+msgid "ドイツ語"
+msgstr "Njemački"
+
+msgid "現代ギリシア語"
+msgstr "Moderni grčki"
+
+msgid "英語"
+msgstr "Engleski"
+
+msgid "イギリス英語"
+msgstr "Britanski"
+
+msgid "アメリカ英語"
+msgstr "Američki engleski"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Španjolski"
+
+msgid "エストニア語"
+msgstr "Estonski"
+
+msgid "バスク語"
+msgstr "Baskijski"
+
+msgid "ペルシャ語"
+msgstr "Perzijski"
+
+msgid "フィンランド語"
+msgstr "Finski"
+
+msgid "フランス語"
+msgstr "Francuski"
+
+msgid "アイルランド語"
+msgstr "Irski"
+
+msgid "ガリシア語"
+msgstr "Galicijski"
+
+msgid "グァラニ語"
+msgstr "Jajá"
+
+msgid "グジャラート語"
+msgstr "Gudžarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebrejski"
+
+msgid "ヒンディ語"
+msgstr "Hindi"
+
+msgid "クロアチア語"
+msgstr "Hrvatski"
+
+msgid "ハイチ・クレオール語"
+msgstr "Haitijanski kreolski"
+
+msgid "ハンガリー語"
+msgstr "Mađarski"
+
+msgid "インドネシア語"
+msgstr "Indonezijski"
+
+msgid "イボ語"
+msgstr "Ibo jezik"
+
+msgid "アイスランド語"
+msgstr "Islandski"
+
+msgid "イタリア語"
+msgstr "Talijanski"
+
+msgid "日本語"
+msgstr "Japanski"
+
+msgid "ジャワ語"
+msgstr "Javanski"
+
+msgid "カザフ語"
+msgstr "Kazah"
+
+msgid "朝鮮語"
+msgstr "Korejski"
+
+msgid "クルド語"
+msgstr "Kurdski"
+
+msgid "キルギス語"
+msgstr "Kirgiz"
+
+msgid "ラテン語"
+msgstr "Latinski"
+
+msgid "ルクセンブルク語"
+msgstr "Luksemburški"
+
+msgid "リンガラ語"
+msgstr "Lingala"
+
+msgid "リトアニア語"
+msgstr "Litavski"
+
+msgid "ラトビア語"
+msgstr "Latvijski"
+
+msgid "マダガスカル語"
+msgstr "Malagajski"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Makedonski"
+
+msgid "マラヤーラム語"
+msgstr "Malajalski"
+
+msgid "モンゴル語"
+msgstr "Mongolski"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malezijski"
+
+msgid "マルタ語"
+msgstr "Maltese"
+
+msgid "ビルマ語"
+msgstr "Birmanski"
+
+msgid "ネパール語"
+msgstr "Nepalski"
+
+msgid "ノルウェー語"
+msgstr "Norveški"
+
+msgid "オランダ語"
+msgstr "Nizozemski"
+
+msgid "オック語"
+msgstr "Okcitanski"
+
+msgid "オロモ語"
+msgstr "Ilić"
+
+msgid "パンジャーブ語"
+msgstr "Punjabi"
+
+msgid "ポーランド語"
+msgstr "Poljski"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portugalski"
+
+msgid "ブラジルポルトガル語"
+msgstr "Brazilski portugalski"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Europski portugalski"
+
+msgid "ケチュア語"
+msgstr "Kechua"
+
+msgid "ルーマニア語"
+msgstr "Rumunjski"
+
+msgid "ロシア語"
+msgstr "Ruski"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovački"
+
+msgid "スロベニア語"
+msgstr "Slovenski"
+
+msgid "セルビア語"
+msgstr "Srbija"
+
+msgid "南セソト語"
+msgstr "Južni Sesoto"
+
+msgid "スンダ語"
+msgstr "Sundanščina"
+
+msgid "スウェーデン語"
+msgstr "Švedski"
+
+msgid "スワヒリ語"
+msgstr "Svahili"
+
+msgid "タミル語"
+msgstr "Tamilski"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tajik"
+
+msgid "タイ語"
+msgstr "Tajlandski"
+
+msgid "トルクメン語"
+msgstr "Turski"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Turski"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukrajinski"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "Uzbek"
+
+msgid "ベトナム語"
+msgstr "Vijetnamski"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Jidiš"
+
+msgid "簡体中国語"
+msgstr "Pojednostavljeni kineski"
+
+msgid "繁体中国語"
+msgstr "Tradicionalni kineski"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Preglednik koji trenutno koristite je starija verzija koja više nije podržana. Za sigurnije i ugodnije iskustvo pregledavanja, molimo ažurirajte svoj preglednik na najnoviju verziju."
+
+msgid "不正なリクエストです"
+msgstr "Neispravan zahtjev"
+
+msgid "画像が見つかりません"
+msgstr "Slika nije pronađena"
+

@@ -1,4 +1,4 @@
-/*! Neo HTML Protector 0.4.5 */
+/*! Neo HTML Protector 0.4.6 */
 
 /** @suppress {undefinedVars} */
 

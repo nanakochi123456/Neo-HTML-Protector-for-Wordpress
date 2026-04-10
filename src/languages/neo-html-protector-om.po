@@ -1,0 +1,1292 @@
+# Oromo translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.3.4\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-04-09 23:46+0900\n"
+"PO-Revision-Date: 2026-04-10 07:58+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Oromo\n"
+"Language: om\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Qindaa'inoota"
+
+msgid "IPログリーダー"
+msgstr "Dubbisaa Galmee IP"
+
+msgid "IPアドレスログ"
+msgstr "Galmee teessoo IP"
+
+msgid "全クリア"
+msgstr "Sadarkaalee hunda xumuraa"
+
+msgid "IPログが全て削除されました"
+msgstr "Galmeewwan IP hundi haqamaniiru"
+
+msgid "ID"
+msgstr "Eenyummaa"
+
+msgid "タイムスタンプ"
+msgstr "Yeroo galmaa'e"
+
+msgid "IPアドレス"
+msgstr "Teessoo IP"
+
+msgid "ユーザーエージェント"
+msgstr "Ejentii Fayyadamaa"
+
+msgid "イベント"
+msgstr "Sagantaa"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Teessoo IP kanaaf ragaa hin jiru."
+
+msgid "EU GDPR対応"
+msgstr "Gamtoomina GDPR Gamtaa Awurooppaa"
+
+msgid "無効"
+msgstr "Sirrii miti"
+
+msgid "有効"
+msgstr "Sirrii"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Yoo WordPress Gamtaa Awurooppaa keessatti fayyadamaa jiraattan, yookaan yoo marsariitiin keessan fayyadamtoota Gamtaa Awurooppaa keessa jiraniif kan qophaa'e ta'e, maaloo kun akka eeyyamame mirkaneeffadhaa."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Qabduun 'Mirkaneessi' gara 'Waliigaluu' yookiin 'Mormuu'tti ni jijjiirama, amalli isaas xiqqoo ni jijjiirama."
+
+msgid "同意画面の色"
+msgstr "Halluu iskiriinii hayyamaa"
+
+msgid "自動"
+msgstr "Ofumaan"
+
+msgid "ライトモード"
+msgstr "Haala salphaa"
+
+msgid "ダークモード"
+msgstr "Haala Dukkanaa'aa"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Qindaa'ina halluu fuula hayyamaa murteessi."
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Qabiyyee fuula hayyamaa irratti burkutaa'uu"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Sadarkaa dukkaneessuu qabiyyee iskiriinii hayyamaa irratti mul'atu qindeessi."
+
+msgid "同意画面の透過"
+msgstr "Iftoomina iskiriinii hayyamaa"
+
+msgid "透過なし"
+msgstr "Iftoomina hin qabu"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Iftoomina iskiriinii hayyamaa qindeessi"
+
+msgid "お知らせの1行目"
+msgstr "Sarara jalqabaa beeksisaa"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ergaan kun yeroo fuulli kun jalqaba fe'amu yeroo hunda ni agarsiifama."
+
+msgid "お知らせの2行目"
+msgstr "Sarara lammaffaa beeksisaa"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ergaan kun yeroo hunda agarsiisa isa jalqabaa irratti qofa yeroo EU GDPR hojiirra oolu ni mul'ata."
+
+msgid "お知らせの3行目"
+msgstr "Sarara sadaffaa beeksisaa"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Gara mirga geessituu Imaammata Dhuunfaatti ni mul'ata."
+
+msgid "非EU向け確認の文字列"
+msgstr "Barruu mirkaneessaa biyyoota Gamtaa Awurooppaa hin taaneef"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Barruu waliigaltee GDPR Gamtaa Awurooppaa"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Barruu 'Hin Heyyaminiif' kan EU GDPR jalatti"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Barruu imaammata iccitii"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Maaloo, URL imaammata iccitii asitti galchi."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Maaloo kan armaan gadii Imaammata Icciitii keessatti dabalaa."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Gocha gowwoomsaa adda baasuuf, eenyummeessitoonni kan akka teessoo IP kuukiiwwanii fi kuusaa ragaa keessatti kuufamu. Ragaan kuufame sun murtoo bulchaatiin ni haqama."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Yeroo eegumsi suuraa eeyyamamu, suuraawwan sirriitti akka geessaman mirkaneessuuf, teessoo IP fi maqaa faayilii suuraa of keessaa qabu daataa haashii ta'e kuusaa odeeffannoo keenya keessatti hanga daqiiqaa 60f ni kuusna."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Yoo Ulaagaalee Fayyadamaa qopheessaa jiraattan, maaloo Imaammata Dhuunfaa keessan keessatti geessituu isaaniif dabaluu keessan mirkaneeffadhaa."
+
+msgid "利用規約の文字列"
+msgstr "Barruu Ulaagaalee Fayyadamaa"
+
+msgid "利用規約のページ"
+msgstr "Fuula Seerotaafi Haalawwanii"
+
+msgid "ページ選択なし"
+msgstr "Fuulli hin filatamne"
+
+msgid "検索エンジン等のURL"
+msgstr "URLwwan motoraalee barbaachaa fi kkf."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "URL mootoraalee barbaachaa fi marsariitiiwwan walfakkaatoo kanneen yeroo fayyadamtoonni hayyama hin kennin gara marsariitii biraatti fayyadamtoota dabarsanii erganiif qindeessi."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Haala sirreessaa, ergaawwan akeekkachiisaa konsoolii"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Ergaa akeekkachiisaa irratti mirgaan cuqaasi"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Ergaa akeekkachiisaa maxxansuu fi akka PDFtti olkaa'uu ilaalchisee"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Ergaa akeekkachiisaa suuraa iskiriinii keessatti"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Ergaa akeekkachiisaa suuraawwan iskiriinii shakkamaniif"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Ergaa akeekkachiisaa yeroo barruun hundi filatamu"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Ergaa akeekkachiisaa waa'ee kuusaa fuulaa"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Ergaa yeroo waraabuu yookiin kukkutuu mul'atu"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Ergaa yeroo madda HTML ilaalamu agarsiifamu"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Ergaa koodii maddaa gubbaatti yeroo HTML dhoksuun yookaan eeguun mul'atu"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Ergaa yoo tookiiniin mirkaneessaa yeroo tokkoo yeroo eegumsa HTML keessatti hojii ala ta'e agarsiifamu"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Ergaa yoo kuukiiwwaniifi JaavaAskiriiptiin cufaman agarsiifamu"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Dhugumatti, kun kan mul'atu yeroo JaavaAskiriin cufamu qofa."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Yeroo suuraan eegamu, ni buufama, achiis ergaan suuraa sana irratti ni mul'ata"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Jallisii HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Kun dhiphina HTML kan idileeti; marsariitiiwwan isa deebisanii hiikuus ni jiru."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Filannoo kana eeyyamsiisuun, galmee madda ilaaluu deebistee argachuu dandeessa."
+
+msgid "HTML保護"
+msgstr "Eegumsa HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Kan baasu HTML isa bu'uuraa qofa—dhiibbaa HTML fayyadamuu irra iyyuu gadi—dabalataanis, qabiyyeen taagii BODY keessa jiru gonkumaa hin ba'u."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Kun Faayerfooksiif hin hojjetu."
+
+msgid "SEOに著しく影響があります"
+msgstr "Kun SEO irratti dhiibbaa guddaa qaba."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "JaavaAskiriitiin HTML Qopheessuu"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox irra darbuuf, HTML'n JaavaAskiriitiin ni agarsiifna."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScript akka hojjetu gochuun saffisa marsariitichi ittiin banamu guddaa suuta taasisa."
+
+msgid "画像の保護"
+msgstr "Eegumsa suuraa"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Yeroo hundumaa taggiin img yeroo waamamu fakkii eegi"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Fakkiiwwan WordPress keessatti ol fe'aman hunda, bu'aa HTML guutuu keessatti eegi."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Suuraawwan buufamuu irraa ittisa"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Yeroo daataan suuraa eegamu, buufama"
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Yeroo daataan suuraa eegamu, kaashiin hin hojjetu, kunis jechuun marsariitichi yeroo itti deebitan suuta bu'a, kanaanis SEO irratti dhiibbaa geessisa."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Daataa suuraa eeguun ba'aa daataa beezii irratti dabaluu danda'a."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Yoo 'Yeroo hundumaa tag-i img waamamu suuraawwan eegi' kan jedhu filatte, sirnichi yeroo tag-i img uumamu filtarii raawwachuuf add_filter fayyadama; haa ta'u malee, kun tiimiiwwan tokko tokko wajjin sirriitti hojjechuu dhiisuu danda'a."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Yoo 'Suuraawwan WordPress keessatti fe'aman hunda bu'aa HTML guutuu keessatti eegi' kan jedhu filatte, pilaag-iniin kun hojiiwwan WordPress hunda jechuun ni danda'ama qabatee, taagii img hundumaa qabiyyee keessa jiru ni adeemsisa. Maaloo hubadhu, kun tiimiiwwan tokko tokko waliin sirriitti hojjechuu dhiisuu danda'a."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Maaloo hubadhaa, suuraawwan akka suuraa filatamaatti ramadaman akka daataa OGPtti ni qoodamu, eegamus ni danda'amu. Yoo dhuguma eeguu barbaaddan, yeroo eegumsa HTML eeyyamtan, qindaa'ina sadarkaa olaanaa keessatti ba'ii taagii HEAD'f qindaa'ina isaa jijjiiraa."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Hojiin suuraa ka'uu kan sirna hojii keessatti akka idileetti argamu eegamuu hin danda'u."
+
+msgid "画像URLの保護"
+msgstr "URLwwan suuraa eeguu"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Kun eegumsa suuraa wajjin walitti fayyadamuun tajaajila; kophaa isaa yoo fayyadaman faayidaa hin qabu."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Akka JaavaAskiriitiin fe'amuuf, kun SEO irratti dhiibbaa geessisa."
+
+msgid "画像のウォーターマーク"
+msgstr "Asxaa suuraa"
+
+msgid "右下"
+msgstr "Gara mirgaa gadi"
+
+msgid "ランダム位置"
+msgstr "Iddoo tasaa"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Eegumsa suuraa wajjin yoo itti fayyadaman, mallattooleen bishaanii socho'oon abbaa qabeenyummaa mirga waraabbii ifatti agarsiisuun, akkasumas daawwattoota akka hordofamaa jiranitti yaada isaaniif kennuudhaan, akka ittisaatti tajaajilu."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Unkaawwan JPG, PNG fi WebP qofatu deeggarama."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Kana eeyyamsiisuun ba'aa sarvarii irratti dabala."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Yeroo iftoomina hir'isuu fi eeguu koodii madda HTML irraa aartii ASCII maddisiisuu"
+
+msgid "表示なし"
+msgstr "Agarsiisni hin jiru"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Yeroo madda HTML 'view-source' fayyadamuun ilaalamu, fakkii ASCII kan akeekkachiisa agarsiisu."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Yeroo gochi barbaadamu raawwatamu, dizaayinii agarsiisi"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Dizaayinii bu'uuraa kan barruu gurraacha duubee keelloo irratti agarsiisu"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Dizaayinii akkaataa sodaachisaa, barruu diimaa dugda gurraacha irratti agarsiisu"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Dizaayinii barruu diimaa ifu kan duuba gurraacha irratti mul'atu"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Muziqaa duubaa kan yeroo gochi kaayyoo raawwatamu taphatu"
+
+msgid "サウンドなし"
+msgstr "Sagaleen hin jiru"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Lolaafi Injifannoo - daqiiqaa 1 fi sekondii 16.3 - baayitii 630,056 - 64 kbps - Eeyyama: CC 2.1 yookiin kan sanaa booda"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Abbaa Gabaabaa - sekondii 3.8 - baayitii 32,364 - kbps 64 - Eeyyama: GPL 2.0 yookiin kan itti aanu"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - sekondii 23.5 - baayitii 195,578 - 64 kbps - Eeyyama: GPL 2.0 yookiin kan itti aanu"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Warraaqsa' – Gosa kompiitaraan uumame, gosa saffisa olaanaa – Daqiiqaa 1 fi sekondii 57.6 – Baayitii 724,457 – 48 kbps – Eeyyama: CC BY-ND 4.0 yookiin kan sanaa boodaa"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Iskerzhoo B filaash maayinor, Op. 2 – Gosa kompiitaraan uumame, gosa gabaabfame kan saffisa olaanaadhaan hojjetamu – Daqiiqaa 1, sekondii 48.0 – Baayitii 665,369 – 48 kbps – Eeyyama: CC BY-ND 4.0 yookiin kan itti aanu"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Tarreeffama: Étude d'Exécution No. 4 'Mazeppa'"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – sekondii 22.3 – baayitii 183,926 – 64 kbps – Eeyyama: Qabeenya Ummataa"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Sagalee kabajaa akka durii – sekondii 2.2 – baayitii 10,536 – 32 kbps – Eeyyama: Qabeenya Ummataa"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Seensa akkaataa durii – sekondii 42.1 – baayitii 179,138 – 32 kbps – Eeyyama: Qabeenya Ummataa"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Akeekkachiisa ChatGPT - sekondii 3.8 - baayitii 109,700 - kbps 256 - Eeyyama: Qabeenya Ummataa"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sagalee ariifannaa guddaa qabu kan akka akeekkachiisa argannoo maaliweerii – Kutaa 1 kan ChatGPT – sekondii 3.3 – baayitii 102,850 – 256 kbps – Eeyyama: Qabeenya Ummataa"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sagalee ariifachiisa guddaa qabu kan akka akeekkachiisa argannoo maaliweerii, Kutaa 2 kan ChatGPT-n hojjetame - sekondii 3.3 - baayitii 103,122 - 256 kbps - Eeyyama: Qabeenya Ummataa"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sagalee akka MRI'tiin ChatGPT'n hojjetame – daqiiqaa 1, sekondii 14.9 – baayitii 3,340,392 – 320 kbps – Eeyyama: Qabeenya Ummataa"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Yeroo akeekkachiisaa muuziqaa duubaa akka taphatu filadhu."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Qilleensa nama ajaa'ibu uuma."
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Firefox keessatti sagaleen cufameera."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Yeroo gochi ajajame raawwatamu sagaleen biip"
+
+msgid "有効 音量小さ目"
+msgstr "Bani, sagalee gadi aanaa"
+
+msgid "有効 音量大き目"
+msgstr "Banaadha, sagaleen ol ka'aadha"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Yeroo akeekkachiisni agarsiifamu, gochaalee furtuu fi maawsii hundumaaf deebii ta'ee sagaleen 'beep' ni dhaga'ama."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Yeroo akeekkachiisni mul'atu, meeshichi akka waan maraateetti fakkeessa."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Yeroo gochi addaa raawwatamu agarsiiftuu maawsii dhoksuu"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Yeroo akeekkachiisni agarsiifamu, kursorii maawsii naannoo biraawzarii keessatti dhoksa."
+
+msgid "デバッグモード"
+msgstr "Haala sirreessaa"
+
+msgid "妨害＋記録のみ"
+msgstr "Hidhaa + Galmeewwan qofa"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Jeequmsa + Galmeessuu + Agarsiisa + Gara biraatti qajeelchuu"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ammas karaa baafata sanaan isa argachuu dandeessa."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Haala sirreessaa dogoggoraa Faayerfooksii"
+
+msgid "ブラウザーコンソール"
+msgstr "Konsolii biraawzarii"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Dhugumatti, haala sirreessaa irraa hojjechiisuu dandeessa."
+
+msgid "HTMLソース表示"
+msgstr "Madda HTML ilaali"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Hojii kana salphaatti URL 'view-source:' jedhuun jalqabu galchuun raawwachuu dandeessu."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Qabiyyee kee eegumsa HTML wajjin walitti makuun eeguu dandeessa."
+
+msgid "印刷"
+msgstr "Maxxansi"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Maxxansa kan dhorku ta'us, biraawzaroota tokko tokko keessatti sirriitti hojjechuu dhiisuu danda'a."
+
+msgid "スクリーンショット"
+msgstr "Suuraa iskiriinii"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Akka sirna hojii, biraawzarii yookiin mala fayyadamanitti hundaa'uun, kana dhorkuun hin danda'amu ta'a, yookiin argamuu dhiisuu danda'a."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Yeroo foddaan gara duubaatti deemu suuraa isaa ka'ame jedhamee shakkamu."
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Akkasumas hojiiwwan suuraa iskiriinii kaasuun alaa ta'aniifis ni deebisa"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Suuraan iskiriinii shakkame kan furtuuwwan lama cuqaasuun kaafame"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Malli wantoota armaan olii ittiin adda baasan guutummaatti kan hin dogoggorsine miti; adda baasuun kun tarkaanfii of eeggannootiif fudhatamuudha."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Inni suuraawwan iskiriinii qofa osoo hin taane, moodota sirreessaa fi kanneen kana fakkaatanis ni adda baasa."
+
+msgid "ページ保存"
+msgstr "Fuula olkaa'i"
+
+msgid "右クリック"
+msgstr "Butoonii mirgaa cuqaasi"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Yoo dabalataan fe'ame, itti fayyadamuu ni dandeessa."
+
+msgid "コピー・カット"
+msgstr "Koppii godhiitii kutaa"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Akka qindaa'ina pilaag-inii kanaatti, taatee kana yeroo yerootti argachuu dandeessu."
+
+msgid "テキスト全選択"
+msgstr "Barruu hunda filadhu"
+
+msgid "テキスト選択"
+msgstr "Barruu filadhu"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Galmee jalqabbii dibaagarii, gidduu-seenummaa dibaagarii"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Kun haala sirreessaa xiqqoo fayyadamuuf rakkisaa taasisa, akkasumas jalqabamuu isaa ni galmeessa; haa ta'u malee, biraawzarootni tokko tokko amala kana ittisuu danda'u."
+
+msgid "リダイレクトするURL"
+msgstr "URL Jijjiiri"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Fayyadamtoota gara fuulawwan kanneen akka Ulaagaalee Fayyadamaatti qajeelchuun yaada gaarii ta'a."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Yoo duwwaa dhiifame, gara URL isa jalqabaatti ni deebisa."
+
+msgid "リダイレクトまでの時間"
+msgstr "Yeroo gara kallattii biraatti jijjiiramuuf"
+
+msgid "リダイレクトなし"
+msgstr "Gara biraatti hin jijjiiru"
+
+msgid "1秒"
+msgstr "Sekondii tokko"
+
+msgid "2秒"
+msgstr "Lakkuu lama"
+
+msgid "3秒"
+msgstr "Sekondii 3"
+
+msgid "4秒"
+msgstr "Sekondii afur"
+
+msgid "5秒"
+msgstr "Sekondii 5"
+
+msgid "6秒"
+msgstr "Sekondii jaha"
+
+msgid "7秒"
+msgstr "Sekondii torba"
+
+msgid "8秒"
+msgstr "Sekondii saddeet"
+
+msgid "9秒"
+msgstr "Sekondii sagal"
+
+msgid "10秒"
+msgstr "Sekondii 10"
+
+msgid "15秒"
+msgstr "Sekondii kudha shan"
+
+msgid "20秒"
+msgstr "Sekondii 20"
+
+msgid "25秒"
+msgstr "Sekondii 25"
+
+msgid "30秒"
+msgstr "Sekondii 30"
+
+msgid "35秒"
+msgstr "Sekondii 35"
+
+msgid "40秒"
+msgstr "Sekondii 40"
+
+msgid "45秒"
+msgstr "Sekondii 45"
+
+msgid "50秒"
+msgstr "Sekondii 50"
+
+msgid "55秒"
+msgstr "Sekondii 55"
+
+msgid "1分"
+msgstr "Daqiiqaa 1"
+
+msgid "1分10秒"
+msgstr "Daqiiqaa 1 sekondii 10"
+
+msgid "1分20秒"
+msgstr "Daqiiqaa 1 fi sekondii 20"
+
+msgid "1分30秒"
+msgstr "Daqiiqaa 1 fi sekondii 30"
+
+msgid "1分40秒"
+msgstr "Daqiiqaa 1 fi sekondii 40"
+
+msgid "1分50秒"
+msgstr "Daqiiqaa 1 fi sekondii 50"
+
+msgid "2分"
+msgstr "Daqiiqaa lama"
+
+msgid "ソース表示を許可する権限"
+msgstr "Koodii madda ilaaluuf hayyama"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Madda idilee yeroo akka ADMIN seename qofa ba'a."
+
+msgid "USERログインで通常のソース出力"
+msgstr "Madda idilee yeroo akka FAYYADAMAA seenameetti"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Baasiin HTML idilee bulchitoota qofaaf daangeffamuu yookiin seensa fayyadamaa barbaaduu isaa filadhu."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Suura tokko dirqisiisee buufachuu fi dhugumatti maaltu buufamu"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Suuraa ifa ta'e piikselii 1x1 kan foormaatii GIF keessatti"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Suuraa ifa ta'e piikselii 1x1 kan foormaatii PNG keessatti"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Iskiriinii akeekkachiisaa kan dugda keelloo qabu, foormaatii PNG-tiin."
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Sanada HTML hiika hin qabne"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Maxxansa taagii HEAD yeroo HTML eegama"
+
+msgid "出力しない"
+msgstr "Ma'a maxxansi"
+
+msgid "TITLEタグのみ"
+msgstr "Mata duree qofa"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Taagii HEAD kan WordPress irraa fudhatame"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Fuulawwan miseensota qofaaf kan tajaajila korporeetiif oolanii fi fuulawwan keessoo irratti, 'Do not output' yookiin 'TITLE tag only' filachuun gahaadha."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Yoo odeeffannoo sana tagii HEAD kan WordPress irraa hin fudhanne ta'e, yeroo miidiyaa hawaasummaa irratti qooddu suuraan OGP hin mul'atu."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Botiin suuraa daangeessi"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Botoonni suuraa HTML akka hin argatin ittisuudhaan, qabiyyee barbaacha suuraatiin geessituu kallattiin irraa eegamuu hin dandeenye eeguu dandeessu; haa ta'u malee, kun furmaata guutuu hin kennu."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Botiin leenjii AI akka hin seenne ittisi"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Botoota leenjii AI'f HTML irratti hojjetan fayyadamuu irraa of qusachuun, AI'n isa fayyadamuu akka hin dandeenye mirkaneessina; haa ta'u malee, kun guutummaatti ittifamuu hin danda'u."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Kuusaa weebii fi suuraawwan weebii daqiiqaa fuudhuu ittisuu"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Kuusaa weebii ofumaan walitti qabamuu fi suuraawwan iskiriinii fedhii fayyadamaatiin kaafaman argamsiisuu ni dhorra; haa ta'u malee, kana guutummaatti ittisuu hin dandeenyu."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Ejentoota fayyadamtootaa sobaa cufi"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Yoo fo'aan ejentii fayyadamaa qubee sirrii hin taane of keessaa qabaate, seensa ni ittisa."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Yeroo Intarneet Iskpiloorarii fi Maaykiroosooft Ijii isa moofaa"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Internet Explorer fi Microsoft Edge isa moofaa fayyadamuun akka hin seenamne ittisa."
+
+msgid "alertメッセージを表示する言語"
+msgstr "Afaan ergaawwan akeekkachiisaa ittiin agarsiifaman"
+
+msgid "Wordpressの言語"
+msgstr "Afaanota WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Qindaa'ina afaanii biraawzarii"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ergaawwan yoo sirreeffamaniif, afaan jijjiiruu hin dandeessu."
+
+msgid "同意画面の言語"
+msgstr "Afaan iskiriinii hayyamaa"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Afaan ergaa 'view-source' ittiin agarsiifamu"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Guyyaa xumuraa tookenoota yeroo"
+
+msgid "3分"
+msgstr "Daqiiqaa 3"
+
+msgid "4分"
+msgstr "Daqiiqaa 4"
+
+msgid "5分"
+msgstr "Daqiiqaa 5"
+
+msgid "6分"
+msgstr "Daqiiqaa jaha"
+
+msgid "7分"
+msgstr "Daqiiqaa torba"
+
+msgid "8分"
+msgstr "Daqiiqaa saddeet"
+
+msgid "9分"
+msgstr "Daqiiqaa sagal"
+
+msgid "10分"
+msgstr "Daqiiqaa 10"
+
+msgid "15分"
+msgstr "Daqiiqaa 15"
+
+msgid "20分"
+msgstr "Daqiiqaa 20"
+
+msgid "25分"
+msgstr "Daqiiqaa 25"
+
+msgid "30分"
+msgstr "Daqiiqaa 30"
+
+msgid "35分"
+msgstr "Daqiiqaa 35"
+
+msgid "40分"
+msgstr "Daqiiqaa 40"
+
+msgid "45分"
+msgstr "Daqiiqaa 45"
+
+msgid "50分"
+msgstr "Daqiiqaa 50"
+
+msgid "55分"
+msgstr "Daqiiqaa 55"
+
+msgid "1時間"
+msgstr "Sa'aatii tokko"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Guyyaa xumuraa odeeffannoo URL suuraatiif kaa'i"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Erga fe'amee booda, URL'n suuraa fi tookeniin yeroo gabaabaa ni haqamu."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Suuraawwan yeroo barbaadaman fe'amu, garuu yeroo murtaa'e dura sekondii 30'n ofumaan fe'amu."
+
+msgid "一時使用トークンのビット数"
+msgstr "Lakkoofsa biitotaa tookeni yeroo gabaabaa keessaa"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Odeeffannoo URL suuraa iccuuf, tokeeniin yeroof tajaajilu akka jecha darbii ta'ee itti fayyadama; qindaa'inni kun jabeenya isaa murteessa."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Filannoowwan gabatee gadi bu'aa jala agarsiifaman yeroo yerootti bal'aa ta'aa deemanis, kun sarvarii irratti ba'aa guddaa fidaa, akkasumas daataan HTML hamma guddaa akka dabarsamu taasisuu danda'a."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algorizimii Haashii"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Odeeffannoo URL suuraa iccuuf, mallattoon yeroo gabaabaa akka jecha iccitiitti itti fayyadama; kun hashiingii barbaada, qindaa'insi kunis jabeenya hashiingii sanaa murteessa."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Filannoowwan gabatee gadi bu'aa keessa gadi siqxanii yeroo ilaaltan jabeenyi isaa yoo dabalu iyyuu, kun sarvarii irratti ba'aa guddaa fida."
+
+msgid "基本設定"
+msgstr "Qindaa'inoota bu'uuraa"
+
+msgid "高度な設定"
+msgstr "Qindaa'inoota gadi fageenyaa"
+
+msgid "初期設定に戻す"
+msgstr "Qindaa'inoota idileetti deebisi"
+
+msgid "デザイン・音の設定"
+msgstr "Dizaayinii fi qindaa'ina sagalee"
+
+msgid "イベントの設定"
+msgstr "Qindaa'ina sagantaa"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Daawwannaa yeroo jalqabaatiif beeksisa qopheessuu"
+
+msgid "メッセージの設定"
+msgstr "Qindaa'ina ergaa"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Yeroo mirgaan-cuqaasamu yookaan koodiin madda isaa ilaalamu URL banamuuf ta'e qindeessi."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Ergaawwan akeekkachiisaa keessatti HTML fayyadamuun hin danda'amu."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Yoo fuula kana irratti kana qindeessite, qindaa'inni afaanii kan taabii 'Advanced' keessa jiru ni dagatama."
+
+msgid "以下の文字列が使用できます"
+msgstr "Sararoonni armaan gadii fayyadamuun ni danda'ama"
+
+msgid "改行"
+msgstr "Sarara cabsi"
+
+msgid "押下されたキー"
+msgstr "Furtuun cuqaafame"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Qindaa'ina Eegdota Neo HTML"
+
+msgid "お知らせ"
+msgstr "Hubachiisa"
+
+msgid "メッセージ"
+msgstr "Ergaa"
+
+msgid "デザイン・音"
+msgstr "Dizaayinii fi Sagalee"
+
+msgid "初期化"
+msgstr "Jalqabsiisuu"
+
+msgid "このプラグインについて"
+msgstr "Waa'ee pilaag-inii kanaa"
+
+msgid "設定が初期化されました"
+msgstr "Qindaa'inoonni deebi'anii qindaa'aniiru."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Pilaag-inii jalqabsiisi. Hubadhaa, sadarkaa kanatti daataan IP Log Reader hin haqamu."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Waa'ee Neo HTML Eegdotaa"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Pilaag-iniin kun kan qophaa'e, qabiyyee HTML, suuraawwanii fi qabiyyee biroo kan marsariitii WordPress keessan irraa uumamu eeguuf, akkasumas fayyadama hayyama hin qabne irraa ittisuufidha."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Qabiyyee guutummaatti eeguun hin danda'amu. Haa ta'u malee, bakka danda'ametti akeekkachiisa kennuun fi yoo wanti tokko uumameef qophii gochuun, adeemsa mootummaan kaa'een waan kana furuu dandeenya."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Dhugumatti, ulaagaaleen tajaajilaa fi imaammanni marsariitii keessanii guutuu ta'uu isaanii mirkaneessuun isinirra jira. Plug-in'n kun meeshaa ulaagaalee tajaajilaa ittiin uuman ta'uu baatus, qajeelfama muraasa isiniif kennuu danda'a."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Misoomsituu: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Garaa"
+
+msgid "ビルド"
+msgstr "Ijaari"
+
+msgid "サポートページ"
+msgstr "Fuula deeggarsaa"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Kan dhiyeessite Mise Uraa Maniraa"
+
+msgid "支援のお願い"
+msgstr "Gaaffii deeggarsaa"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Neo HTML Protector fayyadamaa waan turaniif galatoomaa!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Plug-in kana guddifachuu fi kunuunsuun yeroo fi tattaaffii guddaa gaafateera, akkasumas isa fooyyessuu fi haaromsuu itti fufuuf maallaqa walitti qabuuf, eenyuyyuu nu deeggaruu kan danda'u gumaacha akka taasisuu yaaduu isaatiif ni galateeffanna."
+
+msgid "寄付について"
+msgstr "Waa'ee Gumaacha"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Gumaachi guutummaatti fedhiidhaan kan raawwatamu yoo ta'u, dirqama miti. Pilag-iniin kun nama hundaaf bilisaan ni argama. Haa ta'u malee, guddina keenya itti fufsiisuuf deeggarsi keessan guddaa nu gargaara, kanaafuu yoo hamma xiqqoo gumaachan baay'ee gammanna."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Geessituu armaan gadii fayyadamuun gumaacha gochuu dandeessu. Yoo Jaappaan keessa jiraattan, kaffaltii malee gumaachuu dandeessu, akkasumas vaawucharii kennaa Amaazoon fayyadamuun salphaatti gumaachuu dandeessu."
+
+msgid "寄付先"
+msgstr "Tajaajila tola ooltummaa"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Deeggarsa keessaniin, odeeffannoo haaraa dinqisiisoo isiniif dhiyeessuu itti fufuuf waan nuuf danda'ame hunda ni goona!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Deeggarsa keessaniif isin galateeffanna, gara fuulduraattis deeggarsa keessan itti fufiinsa qabu ni eegganna."
+
+msgid "ライセンス"
+msgstr "Hayyama"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Pilaag-iniin kun akka sooftiweerii madda banaatti kan qophaa'e yoo ta'u, eeyyama GPLv2.0 yookiin isa itti aanu jalatti kennameera."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Teeknooloojiiwwan pilag-inii kana keessatti hammataman keessaa muraasni paatentiidhaan eegamaniiru."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Fayyadamni teeknooloojii paatentii qabuu kanaa plug-in kana keessatti qofa hayyamama."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Faayidaa biraa kamiyyuuf, maaloo hayyama daldalaa argachuuf barreessaa qunnamaa."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Pilaag-iniin kun laayibrariwwan armaan gadii of keessatti qabata."
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Pilaag-iniin kun faayiloota qubee wajjin, foontoota aartii ASCII armaan gaditti uumaman of keessatti qabata."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Pilaag-iniin kun muuziqaa tapha Super Famicom kan seeraan alaa ta'e 'SM Trainer Hitomi 3', kan EJ Co., Ltd. tiin qophaa'ee fi uumaa pilaag-inii kanaatiin qindaa'e of keessaa qaba, akkasumas hayyama seeraa qaba."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Pilaag-iniin kun sagaleewwan 'Keppy's YAMAHA C7' fayyadamuun kan uumaman, kan Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Akkasumas piilaag-inii kana guddifachuu keessatti Raspberry Pi 5, ChatGPT fi DeepL fayyadameera."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Pilaaginiin kaashii argameera. Yoo pilaaginiin kaashii hojjechiifame, pilaaginiin kun sirriitti hin hojjetu."
+
+msgid "無効なIPアドレス"
+msgstr "Teessoo IP sirrii miti"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Marsariitii kana fayyadamuuf, kuukiiwwanii fi JaavaAskiriptii eeyyamuu qabda."
+
+msgid "利用規約"
+msgstr "Ulaagaalee Itti Fayyadama"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Fayyadama hayyama hin qabne ittisuuf fi hojii tajaajila keenyaa nageenya qabu mirkaneessuuf, marsariitiin kun odeeffannoo kan akka teessoo IP, seenaa daawwannaa fi galmee gochaalee 'cookies' fi kuusaa ragaa keessatti kuusuu danda'a. Odeeffannoon kun hojii marsariitichaa fi kaayyoo seeraatiif qofa kan itti fayyadaman yoo ta'u, qaama sadaffaaf hin saaxilamu."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Tajaajila kana fayyadamuuf, gochoota raawwii kanaaf hayyamuun dirqama."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Hayyama kee kennitee yookiin dhiistees, qabiyyee Imaammata Icciitii keenyaa ilaaluu dandeessa."
+
+msgid "同意する"
+msgstr "Nan walii gala"
+
+msgid "同意しない"
+msgstr "Walii hin galu"
+
+msgid "確認"
+msgstr "Mirkanneessa"
+
+msgid "プライバシーポリシー"
+msgstr "Imaammata Icciitii"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Seensi yookiin sochiin barameen alaa argameera."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Amaloonni tokko tokko sababa nageenyaafi eegumsa qabiyyeef daangeffamaniiru."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Haalli sirreessaa fi argamni konsoolii cufamaniiru."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Odeeffannoon armaan gadii gara sarvariitti ergameera."
+
+msgid "あなたのIPアドレス"
+msgstr "Teessoo IP kee"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Meeshaa kee fi biraawzarii kee"
+
+msgid "あなたの押下したキー"
+msgstr "Furtuu ati cuqaaste"
+
+msgid "リダイレクトをします"
+msgstr "Gara fuula biraatti ni jijjiiramtan"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Qabiyyeen eegamuuf amalootni tokko tokko daangeffamaniiru."
+
+msgid "右クリックは禁止されています"
+msgstr "Miraa mirgaatiin cuqaasuun hin hayyamamu"
+
+msgid "あなたが押下したキー"
+msgstr "Furtuu ati cuqaaste"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Maxxansuun fi akka PDF tti olkaa'uun dhorkaadha."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Suuraan iskiriinii kaasuun dhorkaadha."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Suuraa iskiriinii kaasuufi moodii diibagii eeyyamsiisuun dhorkaadha."
+
+msgid "ページの保存は禁止されています"
+msgstr "Fuula kana olkaa'uun dhorkaadha"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Koppii gochuunii fi kukkutuu dhorkaadha."
+
+msgid "あなたが起こしたイベント"
+msgstr "Sagantaawwan isin qopheessitan"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Barruu filachuun hin hayyamamu."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Koodii madda HTML agarsiisuun dhorkaadha."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Seensi hayyama hin qabne ni dhorkama."
+
+msgid "アフリカーンス語"
+msgstr "Afaan Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Afaan Aragoon"
+
+msgid "アラビア語"
+msgstr "Afaan Arabaa"
+
+msgid "アッサム語"
+msgstr "Afaan Asaamsii"
+
+msgid "アゼルバイジャン語"
+msgstr "Azerbaayijaan"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Afaan Belaaruus"
+
+msgid "ベンガル語"
+msgstr "Baangaa'ii"
+
+msgid "ブルガリア語"
+msgstr "Bulgaariyaa"
+
+msgid "ボスニア語"
+msgstr "Boosniyaan"
+
+msgid "カタロニア語"
+msgstr "Kaataalaan"
+
+msgid "チェコ語"
+msgstr "Tsheekii"
+
+msgid "ウェールズ語"
+msgstr "Weelsii"
+
+msgid "デンマーク語"
+msgstr "Daaniish"
+
+msgid "ドイツ語"
+msgstr "Jarmanii"
+
+msgid "現代ギリシア語"
+msgstr "Giriikii Ammayyaa"
+
+msgid "英語"
+msgstr "Afaan Ingiliffaa"
+
+msgid "イギリス英語"
+msgstr "Biriitishii Ingiliffaa"
+
+msgid "アメリカ英語"
+msgstr "Afaan Ingiliffaa Ameerikaa"
+
+msgid "エスペラント語"
+msgstr "Afaan abdii"
+
+msgid "スペイン語"
+msgstr "Ispaanish"
+
+msgid "エストニア語"
+msgstr "Estooniyaa"
+
+msgid "バスク語"
+msgstr "Baaskii"
+
+msgid "ペルシャ語"
+msgstr "Faarsii"
+
+msgid "フィンランド語"
+msgstr "Finooshaan"
+
+msgid "フランス語"
+msgstr "Faraansaay"
+
+msgid "アイルランド語"
+msgstr "Aayirish"
+
+msgid "ガリシア語"
+msgstr "Gaaliishiyaa"
+
+msgid "グァラニ語"
+msgstr "Guaraani"
+
+msgid "グジャラート語"
+msgstr "Gujaarati"
+
+msgid "ハウサ語"
+msgstr "Sooriyaa"
+
+msgid "ヘブライ語"
+msgstr "Ibroota"
+
+msgid "ヒンディ語"
+msgstr "Afaan Hindii"
+
+msgid "クロアチア語"
+msgstr "Kirooshiyaa"
+
+msgid "ハイチ・クレオール語"
+msgstr "Kireeyoolii Heeyitii"
+
+msgid "ハンガリー語"
+msgstr "Afaan Haangeerii"
+
+msgid "インドネシア語"
+msgstr "Indoneezhiyaa"
+
+msgid "イボ語"
+msgstr "Afaan Iboo"
+
+msgid "アイスランド語"
+msgstr "Aayisilaandi"
+
+msgid "イタリア語"
+msgstr "Xaaliyaanii"
+
+msgid "日本語"
+msgstr "Jaappaan"
+
+msgid "ジャワ語"
+msgstr "Jaavaaniis"
+
+msgid "カザフ語"
+msgstr "Kaazaak"
+
+msgid "朝鮮語"
+msgstr "Kooriyaa"
+
+msgid "クルド語"
+msgstr "Kurdish"
+
+msgid "キルギス語"
+msgstr "Kiriigiz"
+
+msgid "ラテン語"
+msgstr "Afaan Laatiin"
+
+msgid "ルクセンブルク語"
+msgstr "Laakshambargiis"
+
+msgid "リンガラ語"
+msgstr "Afaan Lingala"
+
+msgid "リトアニア語"
+msgstr "Afaan Liitweeniyaa"
+
+msgid "ラトビア語"
+msgstr "Laatviyaa"
+
+msgid "マダガスカル語"
+msgstr "Maalagaasii"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Maqedooniyaa"
+
+msgid "マラヤーラム語"
+msgstr "Maalayalaam"
+
+msgid "モンゴル語"
+msgstr "Moongooliyaa"
+
+msgid "マラーティー語"
+msgstr "Afaan Maaraatii"
+
+msgid "マレー語"
+msgstr "Maalay"
+
+msgid "マルタ語"
+msgstr "Maaltizii"
+
+msgid "ビルマ語"
+msgstr "Barmaa"
+
+msgid "ネパール語"
+msgstr "Nefaalii"
+
+msgid "ノルウェー語"
+msgstr "Niiwuujee"
+
+msgid "オランダ語"
+msgstr "Afaan Daachii"
+
+msgid "オック語"
+msgstr "Oktsitaan"
+
+msgid "オロモ語"
+msgstr "Gara"
+
+msgid "パンジャーブ語"
+msgstr "Panjabi"
+
+msgid "ポーランド語"
+msgstr "Calallii"
+
+msgid "パシュトー語"
+msgstr "Paashto"
+
+msgid "ポルトガリア語"
+msgstr "Poortugaalii"
+
+msgid "ブラジルポルトガル語"
+msgstr "Afaan Poorchugaalii Biraaziil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Afaan Poorchugaalii Awurooppaa"
+
+msgid "ケチュア語"
+msgstr "Q'uchu"
+
+msgid "ルーマニア語"
+msgstr "Raashiyaa"
+
+msgid "ロシア語"
+msgstr "Raashiyaa"
+
+msgid "サンスクリット語"
+msgstr "Afaan Giriikii Qulqulluu"
+
+msgid "スロバキア語"
+msgstr "Silaavikii"
+
+msgid "スロベニア語"
+msgstr "Afaan Islooveniyaa"
+
+msgid "セルビア語"
+msgstr "Seerbee"
+
+msgid "南セソト語"
+msgstr "Kibba Seshoo"
+
+msgid "スンダ語"
+msgstr "Afaan Sunda"
+
+msgid "スウェーデン語"
+msgstr "Iswiidish"
+
+msgid "スワヒリ語"
+msgstr "Sawaahili"
+
+msgid "タミル語"
+msgstr "Taamilii"
+
+msgid "テルグ語"
+msgstr "Teeluguu"
+
+msgid "タジク語"
+msgstr "Taajik"
+
+msgid "タイ語"
+msgstr "Taayii"
+
+msgid "トルクメン語"
+msgstr "Tarkmaan"
+
+msgid "タガログ語"
+msgstr "Afaan Taagalaag"
+
+msgid "トルコ語"
+msgstr "Tarkii"
+
+msgid "タタール語"
+msgstr "Taataar"
+
+msgid "ウクライナ語"
+msgstr "Yuukireeniyaa"
+
+msgid "ウルドゥー語"
+msgstr "Afaan Urduu"
+
+msgid "ウズベク語"
+msgstr "Uzbeki"
+
+msgid "ベトナム語"
+msgstr "Viyetnaam"
+
+msgid "コサ語"
+msgstr "Kosa"
+
+msgid "イディッシュ語"
+msgstr "Afaan Yidish"
+
+msgid "簡体中国語"
+msgstr "Chaayinaa Salphaa"
+
+msgid "繁体中国語"
+msgstr "Afaan Chaayinaa Aadaa"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Biroowsariin amma fayyadamaa jirtu gosa moofaa kan deggaramaa hin jirre dha. Muuxannoo interneetii fayyadamuu nageenya qabuu fi mijaa'aa ta'e argachuuf, maaloo biroowsarii keessan gara gosa isa yeroo ammaa haaromsadhaa."
+
+msgid "不正なリクエストです"
+msgstr "Gaaffii sirrii hin taane"
+
+msgid "画像が見つかりません"
+msgstr "Suuraan hin argamne"
+
