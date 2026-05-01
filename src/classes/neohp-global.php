@@ -278,7 +278,7 @@ $neohp_lang = [
 	'xh'=>		__('コサ語', 'neo-html-protector'),
 	'yi'=>		__('イディッシュ語', 'neo-html-protector'),
 	'zh_CN'=>	__('簡体中国語', 'neo-html-protector'),
-	'zh_TW'=>	__('繁体中国語', 'neo-html-protector')
+	'zh_TW'=>	__('繁体中国語', 'neo-html-protector'),
 	'zu'=>		__('ズールー語', 'neo-html-protector')
 ];
 
