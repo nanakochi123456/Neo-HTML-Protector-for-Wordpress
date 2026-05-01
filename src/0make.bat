@@ -1,5 +1,5 @@
 @echo off
-set VERSION=0.4.6
+set VERSION=0.4.7
 : https://github.com/brix/crypto-js/tags
 set CRYPTOJS=4.2.0
 set NAME=neo-html-protector
@@ -14,7 +14,7 @@ rem SIMPLE_OPTIMIZATIONS
 
 @echo off
 : 日付
-for /f "tokens=2 delims==" %%I in ('"wmic os get localdatetime /value"') do set datetime=%%I
+for /f %%I in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMddHHmmss"') do set datetime=%%I
 :DT=%datetime:~0,4%%datetime:~4,2%%datetime:~6,2%
 copy ..\*.md .
 echo Snapshot %datetime:~0,14%

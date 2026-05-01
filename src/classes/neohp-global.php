@@ -193,7 +193,7 @@ $neohp_lang = [
 	'bs'=>		__('ボスニア語', 'neo-html-protector'),
 	'ca'=>		__('カタロニア語', 'neo-html-protector'),
 	'cs'=>		__('チェコ語', 'neo-html-protector'),
-//	'cy'=>		__('ウェールズ語', 'neo-html-protector'),
+	'cy'=>		__('ウェールズ語', 'neo-html-protector'),
 	'da'=>		__('デンマーク語', 'neo-html-protector'),
 	'de'=>		__('ドイツ語', 'neo-html-protector'),
 	'el'=>		__('現代ギリシア語', 'neo-html-protector'),
@@ -272,14 +272,14 @@ $neohp_lang = [
 	'tr'=>		__('トルコ語', 'neo-html-protector'),
 	'tt'=>		__('タタール語', 'neo-html-protector'),
 	'uk'=>		__('ウクライナ語', 'neo-html-protector'),
-//	'ur'=>		__('ウルドゥー語', 'neo-html-protector'),
-//	'uz'=>		__('ウズベク語', 'neo-html-protector'),
-//	'vi'=>		__('ベトナム語', 'neo-html-protector'),
-//	'xh'=>		__('コサ語', 'neo-html-protector'),
-//	'yi'=>		__('イディッシュ語', 'neo-html-protector'),
+	'ur'=>		__('ウルドゥー語', 'neo-html-protector'),
+	'uz'=>		__('ウズベク語', 'neo-html-protector'),
+	'vi'=>		__('ベトナム語', 'neo-html-protector'),
+	'xh'=>		__('コサ語', 'neo-html-protector'),
+	'yi'=>		__('イディッシュ語', 'neo-html-protector'),
 	'zh_CN'=>	__('簡体中国語', 'neo-html-protector'),
 	'zh_TW'=>	__('繁体中国語', 'neo-html-protector')
-//	'zu'=>		__('ズールー語', 'neo-html-protector')
+	'zu'=>		__('ズールー語', 'neo-html-protector')
 ];
 
 	// https://rakko.tools/tools/68/

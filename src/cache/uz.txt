@@ -1,0 +1,424 @@
+ISISちゃん	ISIS chan
+設定	Sozlamalar
+IPログリーダー	IP Log O'quvchi
+IPアドレスログ	IP manzillari logi
+全クリア	Barcha bosqichlarni yakunlang
+IPログが全て削除されました	Barcha IP jurnallari o'chirildi.
+ID	ID
+タイムスタンプ	Vaqt belgisi
+IPアドレス	IP manzili
+ユーザーエージェント	Foydalanuvchi agenti
+イベント	Tadbir
+IPアドレスのデータはありません	Ushbu IP manzil bo'yicha ma'lumot yo'q.
+EU GDPR対応	Yevropa Ittifoqi GDPRiga muvofiqlik
+無効	Noto'g'ri
+有効	Amaldor
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Agar siz Yevropa Ittifoqida WordPress'dan foydalanayotgan bo'lsangiz yoki veb-saytingiz Yevropa Ittifoqi foydalanuvchilariga mo'ljallangan bo'lsa, iltimos, buni yoqilganligiga ishonch hosil qiling.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	'Tasdiqlash' tugmasi 'Rozi bo'lish' yoki 'Rozi bo'lmaslik' ga o'zgaradi va xatti-harakat biroz o'zgaradi.
+同意画面の色	Rozilik ekrani rangi
+自動	Avtomatik
+ライトモード	Yengil rejim
+ダークモード	Qorong'i rejim
+同意画面表示中の配色を設定します	Rozilik ekrani uchun rang sxemasini sozlang
+同意画面中のコンテンツのぼかし	Ruxsat ekrani mazmunining xiralashishi
+同意画面表示中のコンテンツのぼかし具合を設定します	Rozilik ekrani ko'rsatadigan kontent uchun xiralashtirish darajasini belgilang
+同意画面の透過	Rozilik ekrani shaffofligi
+透過なし	Shaffoflik yo'q
+同意画面の透過具合を設定します	Rozilik ekrani shaffofligini sozlang
+お知らせの1行目	E'lonning birinchi qatori
+初回表示で必ず表示されるメッセージです	Ushbu xabar sahifa birinchi marta yuklanganda har doim ko'rsatiladi.
+お知らせの2行目	Bildirishnomaning ikkinchi qatori
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Ushbu xabar faqat EU GDPR kuchga kirganda birinchi ekranda doimiy ravishda paydo bo'ladi.
+お知らせの3行目	Bildirishnomaning uchinchi qatori
+プライバシーポリシーのリンクの右側に表示されます	Bu Maxfiylik siyosatiga havolaning o'ng tomonida paydo bo'ladi.
+非EU向け確認の文字列	Yevropa Ittifoqiga a'zo bo'lmagan mamlakatlar uchun tasdiqlash matni
+EU GDPR向け同意するの文字列	Yevropa Ittifoqi GDPR uchun rozilik matni
+EU GDPR向け同意しないの文字列	Yevropa Ittifoqi GDPR bo'yicha "Rozilik bermang" matni
+プライバシーポリシーの文字列	Maxfiylik siyosati matni
+プライバシーポリシーのURLはこちらから設定して下さい	Iltimos, maxfiylik siyosati URL manzilini bu yerga belgilang.
+プライバシーポリシーには以下の内容を追加して下さい	Iltimos, quyidagilarni Maxfiylik siyosatiga qo'shing.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Firibgarlik faoliyatini aniqlash uchun IP-manzillar kabi identifikatorlar cookie-fayllarda va ma'lumotlar bazasida saqlanadi. Saqlangan ma'lumotlar administratorning ixtiyoriga ko'ra o'chirib tashlanadi.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Rasm himoyasi faollashtirilganda rasmlarning to'g'ri yetkazilishini ta'minlash uchun biz IP manzili va rasm fayl nomidan iborat xesh qilingan ma'lumotlarni ma'lumotlar bazasida 60 daqiqagacha saqlaymiz.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Agar siz Foydalanish shartlarini sozlayotgan bo'lsangiz, iltimos, ularga havolani Maxfiylik siyosatingizga kiritganingizga ishonch hosil qiling.
+利用規約の文字列	Foydalanish shartlari matni
+利用規約のページ	Shartlar va qoidalar sahifasi
+ページ選択なし	Hech qanday sahifa tanlanmagan
+検索エンジン等のURL	Qidiruv tizimlari va boshqalar uchun URL manzillari.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Ruxsat berilmagan hollarda foydalanuvchilarni yo'naltiradigan qidiruv tizimlari va shunga o'xshash saytlar uchun URL manzilini belgilang.
+デバッグモード、コンソールの警告メッセージ	Xatoliklarni tuzatish rejimi, konsol ogohlantirish xabarlari
+右クリックの警告メッセージ	O'ng tugma bilan bosish ogohlantirish xabari
+印刷、PDF保存の警告メッセージ	PDFga chop etish va saqlash bo'yicha ogohlantirish xabari
+スクリーンショットの警告メッセージ	Ekran tasviridagi ogohlantirish xabari
+スクリーンショットの疑いの警告メッセージ	Taxmin qilingan skrinshotlar bo'yicha ogohlantirish xabari
+テキスト全選択時の警告メッセージ	Barcha matn tanlanganda ogohlantirish xabari
+ページ保存の警告メッセージ	Sahifani saqlash bo'yicha ogohlantirish xabari
+コピー・カットした時に表示するメッセージ	Ko'chirish yoki kesish paytida ko'rsatiladigan xabar
+HTMLソース表示時に表示するメッセージ	HTML manba kodini ko'rayotganda ko'rsatiladigan xabar
+HTML難読化・保護時にソースの先頭に表示するメッセージ	HTMLni obfuskatsiya qilish yoki himoya qilish paytida manba kodining yuqori qismida ko'rsatiladigan xabar
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	HTML himoyasi vaqtida bir martalik autentifikatsiya tokeni haqiqiy bo'lmasa ko'rsatiladigan xabar
+CookieやJavascriptが有効でない場合に表示するメッセージ	Cookie-lar yoki JavaScript o'chirilgan bo'lsa ko'rsatiladigan xabar
+実際にはJavascriptが無効時のみ表示されます	Aslida, bu faqat JavaScript o'chirilganda ko'rsatiladi.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Rasm himoyalanganida, u yuklab olinadi va rasm ustida xabar ko'rsatiladi
+HTML難読化 (圧縮)	HTMLni mavhumlashtirish
+一般的なHTML圧縮です、難読化解除のサイトもあります	Bu standart HTML siqilishi; uni dekompressiya qila oladigan veb-saytlar ham mavjud.
+このオプションを有効にするとview-sourceのログが取得できます	Ushbu opsiyani yoqish sizga view-source logini olish imkonini beradi.
+HTML保護	HTML himoyasi
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	U faqat eng zarur HTML kodini chiqaradi — HTML siqilganda bo'ladigandan ham kamroq — va BODY tegidagi kontent umuman chiqarilmaydi.
+Firefoxに対しては無効です	Bu Firefoxga tegishli emas.
+SEOに著しく影響があります	Bu SEOga sezilarli ta'sir ko'rsatadi.
+HTMLをJavaScriptで描画	JavaScript yordamida HTML renderlash
+Firefox対策としてHTMLをJavaScriptで描画をします	Firefox'ni chetlab o'tish uchun HTMLni JavaScript yordamida render qilamiz.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	JavaScript renderlashni yoqish veb-saytning yuklanish tezligini sezilarli darajada sekinlashtiradi.
+画像の保護	Rasmni himoya qilish
+imgタグが呼び出されるごとに画像を保護	Img teg har safar chaqirilganda rasmni himoya qiling
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	WordPressga yuklangan barcha rasmlarni butun HTML chiqishida himoya qiling
+画像をダウンロードから保護します	Rasmlarning yuklab olinishini oldini oladi
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Rasm ma'lumotlari himoyalanganida, biz deyarli barcha yuklab olishlarni oldini olamiz, noyob bir martalik URL-manzillar beramiz, sessiyada saqlangan tokenlar yordamida autentifikatsiya qilamiz va rasmlarni PHP orqali ko'rsatamiz; bu esa rasm o'g'irligining deyarli barcha holatlarini samarali oldini oladi.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Rasm ma'lumotlari himoyalanganida keshlash ishlamaydi, bu esa saytning keyingi tashriflarda sekinroq yuklanishiga va shu bilan SEOga ta'sir qilishiga olib keladi.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Rasm ma'lumotlarini himoya qilish ma'lumotlar bazasiga tushadigan yukni oshirishi mumkin.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Agar siz 'img teg chaqirilganda rasmlarni himoya qilish'ni tanlasangiz, tizim img teg hosil bo'lganda filtrlashni qo'llash uchun add_filter funksiyasidan foydalanadi; ammo bu ba'zi mavzular bilan to'g'ri ishlamasligi mumkin.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Agar siz 'Butun HTML chiqishida WordPressga yuklangan barcha rasmlarni himoya qilish'ni tanlasangiz, plagin deyarli barcha WordPress operatsiyalarini qamrab oladi va kontentdagi har bir img tegini qayta ishlaydi. Iltimos, bu ba'zi mavzular bilan to'g'ri ishlamasligi mumkinligini yodda tuting.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Iltimos, e'tiborga olingki, ajratilgan rasmlar OGP ma'lumotlari sifatida ulashiladi va himoyalanmaydi. Agar ularni albatta himoya qilishingiz kerak bo'lsa, HTML himoyasini yoqishda ilg'or sozlamalarda HEAD tegining chiqishini o'zgartiring.
+OS標準搭載のスクリーンショット機能を保護することはできません	Operatsion tizimga o'rnatilgan skrinshot funksiyasi himoyalanishi mumkin emas.
+画像URLの保護	Rasm URL manzillarini himoya qilish
+画像の保護と組み合わせて使用します、単体では意味がありません	Bu rasmni himoya qilish bilan birgalikda ishlatilishi kerak; o'zi yolg'iz hech qanday maqsadga xizmat qilmaydi.
+JavaScriptにより遅延読まれますのでSEOに影響があります	U JavaScript orqali dangasalik bilan yuklanadi, bu esa SEOga ta'sir qiladi.
+画像のウォーターマーク	Rasmga suv belgisi qo'shish
+右下	Pastki o'ng
+ランダム位置	Tasodifiy pozitsiya
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Rasmni himoya qilish bilan birgalikda qo'llanganda, dinamik suv belgilar mualliflik huquqi egaligini aniq ko'rsatadi va tomoshabinlarga ular nazorat ostida ekanliklari haqida taassurot uyg'otadi, shu bilan ularni to'xtatib turuvchi vosita bo'lib xizmat qiladi.
+JPG形式、PNG形式、WebP形式のみ対応します	Faqat JPG, PNG va WebP formatlari qo'llab-quvvatlanadi.
+有効にするとサーバーの負荷が高くなります	Buni yoqish server yukini oshiradi.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	HTML manba kodidan ASCII san'atini chiqarish HTMLni obfuskatsiya qilish va himoya qilish jarayonida
+表示なし	Ko'rsatish yo'q
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	'view-source' yordamida HTML manbasini ko'rib chiqayotganda ogohlantirishni bildiruvchi ASCII san'atini namoyish etadi.
+対象アクションを起こした時の表示デザイン	Maqsadli harakat bajarilganda dizaynni ko'rsating
+黄色の背景の黒文字のベーシックデザイン	Sariq fon ustida qora matndan iborat oddiy dizayn
+黒色の背景の赤文字のホラー風デザイン	Qora fon ustida qizil matndan iborat dahshat uslubidagi dizayn
+黒色の背景の赤文字の光る文字のデザイン	Qora fon ustida porlab turgan qizil matnli dizayn
+対象アクションを起こした時のBGM	Maqsadli harakat bajarilganda ijro etiladigan fon musiqasi
+サウンドなし	Ovoz yo'q
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Jang va g'alaba - 1 daqiqa 16,3 soniya - 630 056 bayt - 64 kbps - Litsenziya: CC 2.1 yoki undan keyingi
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3,8 soniya - 32 364 bayt - 64 kbps - Litsenziya: GPL 2.0 yoki undan keyingi
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 soniya - 195 578 bayt - 64 kbps - Litsenziya: GPL 2.0 yoki undan keyingi
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Inqilob' – kompyuter tomonidan yaratilgan versiya, yuqori tezlikda – 1 daqiqa 57,6 soniya – 724,457 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Si bemol minoridagi Scherzo, Op. 2 – kompyuter tomonidan yaratilgan versiya, yuqori tezlikdagi qisqartirilgan versiya – 1 daqiqa 48,0 soniya – 665 369 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Ro'yxat: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – kompyuterda yaratilgan versiya, yuqori tezlikdagi qisqartirilgan versiya – 1 daqiqa 51,6 soniya – 687 586 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22,3 soniya – 183 926 bayt – 64 kbps – Litsenziya: Jamoat mulki
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Retro uslubidagi fanfara – 2,2 soniya – 10 536 bayt – 32 kbps – Litsenziya: Jamoat mulki
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Retro uslubidagi intro – 42,1 soniya – 179 138 bayt – 32 kbps – Litsenziya: Jamoat mulki
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	ChatGPT ogohlantirishi - 3,8 soniya - 109 700 bayt - 256 kbps - Litsenziya: Jamoat mulki
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Yuqori shoshilinchlikdagi, zararli dastur aniqlanganligi ogohlantirishiga o'xshash tovush – 1-qism, ChatGPT tomonidan – 3,3 soniya – 102 850 bayt – 256 kbps – Litsenziya: Jamoat mulki
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Yuqori shoshilinchlikdagi, zararli dastur aniqlash ogohlantirishiga o'xshash tovush, 2-qism, ChatGPT tomonidan - 3,3 soniya - 103 122 bayt - 256 kbps - Litsenziya: Jamoat mulki
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	MRI uslubidagi ovoz ChatGPT tomonidan – 1 daqiqa 14,9 soniya – 3 340 392 bayt – 320 kbps – Litsenziya: Jamoat mulki
+警告表示中のBGMを選択します	Ogohlantirish paytida ijro etiladigan fon musiqasini tanlang
+びっくりするような雰囲気を作ります	Bu kutilmagan muhit yaratadi
+Firefoxでは音声ブロックされます	Firefox'da audio bloklangan.
+対象アクションを起こした時のビープ音	Belgilangan harakat bajarilganda bip tovushi chiqadi
+有効 音量小さ目	Yoqilgan, ovoz past
+有効 音量大き目	Faol, hajmi yuqori darajaga o'rnatilgan
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Ogohlantirish ko'rsatilayotgan paytda barcha klaviatura va sichqoncha voqealariga javoban bip tovushi yangraydi.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Ogohlantirish ekranda ko'rsatilayotgan paytda qurilma nazoratdan chiqqandek taassurot paydo bo'ladi.
+対象アクションを起こした時のマウスカーソルの消去	Muayyan harakat bajarilganda sichqoncha kursorini yashirish
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Ogohlantirish ko'rsatilayotgan paytda brauzer hududida sichqoncha kursorini yashiradi.
+デバッグモード	Xatoliklarni tuzatish rejimi
+妨害＋記録のみ	Faqat aralashuv + yozuvlar
+妨害＋記録＋表示＋リダイレクト	Aralashuv + Qayd etish + Ko'rsatish + Yo'naltirish
+メニューからは操作できてしまいます	Siz uni hanuz menyu orqali ochishingiz mumkin.
+Firefoxにおけるデバッグモード	Firefox'dagi xatoliklarni tuzatish rejimi
+ブラウザーコンソール	Brauzer konsoli
+事実上デバッグモードから操作できてしまいます	Amalda, uni xatoliklarni tuzatish rejimidan boshqarishingiz mumkin.
+HTMLソース表示	HTML manba kodini ko'rish
+view-source:から始まるURLを入力すれば操作できてしまいます	Operatsiyani 'view-source:' bilan boshlanadigan URL manzilini kiritish orqali osonlik bilan bajarishingiz mumkin.
+HTML保護と組み合わせることでコンテンツを保護することができます	Siz bu usulni HTML himoyasi bilan birlashtirib, kontentingizni himoya qilishingiz mumkin.
+印刷	Bosma
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Bosishni oldini olsa-da, ba'zi brauzerlarda to'g'ri ishlamasligi mumkin.
+スクリーンショット	Ekran surati
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Foydalanilayotgan operatsion tizim, brauzer yoki usulga qarab, buni bloklash imkoni bo'lmasligi yoki aniqlanmasligi mumkin.
+ウインドウが背面に移動した時スクリーンショットの疑い	Deraza fonga o'tganda taxmin qilingan skrinshot
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	U skrinshotlardan tashqari
+2キー押下のスクリーンショットの疑い	Ikki tugmani bosish orqali olingan deb taxmin qilingan skrinshot
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Yuqoridagi elementlarni aniqlash usullari mutlaqo ishonchli emas; aniqlash ehtiyot chorasi sifatida amalga oshiriladi.
+スクリーンショットだけではなく、デバッグモード等も検出します	U nafaqat skrinshotlarni, balki debug rejimlari va shunga o'xshashlarni ham aniqlaydi.
+ページ保存	Sahifani saqlash
+右クリック	O'ng tugma bilan bosish
+アドオンがインストールされていると操作できてしまいます	Agar qo'shimcha o'rnatilgan bo'lsa, undan foydalanishingiz mumkin bo'ladi.
+コピー・カット	Ko'chirish va kesish
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Ushbu plagin sozlamalariga qarab, siz bu voqeaga kamdan-kam duch kelishingiz mumkin.
+テキスト全選択	Barcha matnni tanlang
+テキスト選択	Matnni tanlang
+デバッガー起動ログ、デバッガー妨害	Debugger ishga tushirish logi, debugger aralashuvi
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Bu xatoni tuzatish rejimini biroz kamroq foydalanuvchiga qulay qiladi va dekbugger ishga tushirilganini qayd etadi; ammo ba'zi brauzerlar bu xulq-atvorni bloklashi mumkin.
+リダイレクトするURL	URLni yo'naltirish
+利用規約などのページに転送すると良いでしょう	Foydalanuvchilarni Foydalanish shartlari kabi sahifalarga yo'naltirish yaxshi g'oya bo'lardi.
+空欄にすると元のURLにリダイレクトをします	Agar bo'sh qoldirilsa, u asl URL manziliga yo'naltiriladi.
+リダイレクトまでの時間	Qayta yo'naltirishgacha bo'lgan vaqt
+リダイレクトなし	Yo'naltirish yo'q
+1秒	1 soniya
+2秒	2 soniya
+3秒	3 soniya
+4秒	4 soniya
+5秒	5 soniya
+6秒	6 soniya
+7秒	7 soniya
+8秒	8 soniya
+9秒	9 soniya
+10秒	10 soniya
+15秒	15 soniya
+20秒	20 soniya
+25秒	25 soniya
+30秒	30 soniya
+35秒	35 soniya
+40秒	40 soniya
+45秒	45 soniya
+50秒	50 soniya
+55秒	55 soniya
+1分	1 daqiqa
+1分10秒	1 daqiqa 10 soniya
+1分20秒	1 daqiqa 20 soniya
+1分30秒	1 daqiqa 30 soniya
+1分40秒	1 daqiqa 40 soniya
+1分50秒	1 daqiqa 50 soniya
+2分	2 daqiqa
+ソース表示を許可する権限	Manba kodini ko'rishga ruxsat
+ADMINログイン時のみ通常のソース出力	Oddiy manba chiqishi faqat ADMIN sifatida tizimga kirganda ishlaydi
+USERログインで通常のソース出力	Foydalanuvchi sifatida tizimga kirganda normal manba chiqishi
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Standart HTML chiqishini faqat administratorlarga cheklash yoki foydalanuvchi kirishini talab qilishni tanlang.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Rasmni majburan yuklab olish va aslida nima yuklab olinadi
+GIF形式で1×1ピクセルの透過画像	GIF formatidagi 1×1 pikselli shaffof rasm
+PNG形式で1×1ピクセルの透過画像	PNG formatidagi 1×1 pikselli shaffof rasm
+PNG形式で黄色い背景の警告画面	PNG formatidagi sariq fonli ogohlantirish ekrani
+意味のないHTMLドキュメント	Ma'nosiz HTML hujjati
+HTML保護時のHEADタグの出力	HTML himoyalangan bo'lganda HEAD tegining chiqishi
+出力しない	Bosma qilma
+TITLEタグのみ	Faqat TITLE teg
+WordpressのHEADタグより取得	WordPress HEAD tegidan olindi
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Korporativ foydalanish uchun faqat a'zolarga mo'ljallangan sahifalar va ichki sahifalar uchun 'Chiqarmaslik' yoki 'Faqat TITLE tegini ko'rsatish'ni tanlash yetarli bo'ladi.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Agar siz WordPress HEAD tegidan ma'lumotni olmagan bo'lsangiz, ijtimoiy tarmoqlarda ulashganda OGP tasviri ko'rsatilmaydi.
+画像botをアクセス禁止にする	Rasm botini bloklang
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Rasm botlarining HTMLga kirishini oldini olish orqali rasm qidiruvi orqali to'g'ridan-to'g'ri havolalashdan himoya qilib bo'lmagan kontentni himoya qilishingiz mumkin; ammo bu to'liq yechim emas.
+AI学習用botをアクセス禁止にする	AI o'quv botiga blok orqali kirishni taqiqlash
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	HTMLda sun'iy intellektni o'qitish uchun mo'ljallangan botlardan foydalanishni chetlab o'tish orqali kontentning sun'iy intellekt tomonidan ishlatilmasligini ta'minlaymiz; biroq buni to'liq oldini olish mumkin emas.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Veb-arxivlar va veb-snapshotlarga kirishni bloklang
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Biz foydalanuvchining ixtiyoriga ko'ra olingan avtomatik yig'ilgan veb-arxivlar va skrinshotlarga kirishni taqiqlaymiz; ammo buni to'liq oldini ololmaymiz.
+無効なUAをアクセス禁止にする	Noto'g'ri foydalanuvchi agentlarini bloklang
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Agar foydalanuvchi agenti satrida noto'g'ri belgilar bo'lsa, kirishni taqiqlaydi.
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Internet Explorer va eski Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Internet Explorer va eski Microsoft Edge orqali kirishni oldini oladi
+alertメッセージを表示する言語	Ogohlantirish xabarlari ko'rsatiladigan til
+Wordpressの言語	WordPress tillari
+ブラウザの設定言語	Brauzerning til sozlamalari
+メッセージをカスタム設定されている場合は言語を変更できません	Agar xabarlar moslashtirilgan bo'lsa, tilni o'zgartira olmaysiz.
+同意画面の言語	Rozilik ekrani tili
+view-sourceメッセージを表示する言語	'view-source' xabarini ko'rsatish uchun til
+一時使用トークンの有効期限	Vaqtinchalik tokenlarning amal qilish muddati
+3分	3 daqiqa
+4分	4 daqiqa
+5分	5 daqiqa
+6分	6 daqiqa
+7分	7 daqiqa
+8分	8 daqiqa
+9分	9 daqiqa
+10分	10 daqiqa
+15分	15 daqiqa
+20分	20 daqiqa
+25分	25 daqiqa
+30分	30 daqiqa
+35分	35 daqiqa
+40分	40 daqiqa
+45分	45 daqiqa
+50分	50 daqiqa
+55分	55 daqiqa
+1時間	1 soat
+画像URL情報の有効期限を設定します	Rasm URL ma'lumotlarining amal qilish muddatini belgilang
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Yuklangach, rasm URL manzili va vaqtinchalik token bekor qilinadi.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Rasmlar talab bo'yicha yuklanadi, lekin ular belgilangan vaqtdan 30 soniya oldin avtomatik ravishda yuklanadi.
+一時使用トークンのビット数	Vaqtinchalik tokenning bitlar soni
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Vaqtinchalik token rasm URL ma'lumotlarini shifrlash uchun parol sifatida ishlatiladi; bu sozlama uning kuchini belgilaydi.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Garchi ochiladigan menyuning ostida ko'rsatilgan variantlar tobora batafsil bo'lib bormoqda, bu serverga katta yuk tushirishi va katta hajmdagi HTML ma'lumotlarining uzatilishiga olib kelishi mumkin.
+ハッシュ化アルゴリズム	Hash algoritmi
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Vaqtinchalik token rasm URL ma'lumotlarini shifrlash uchun parol sifatida ishlatiladi; bu xeshlashni talab qiladi va ushbu sozlama shu xeshlashning kuchini belgilaydi.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Garchi ochiladigan menyuda variantlar ro'yxatini pastga siljitganingiz sayin intensivlik oshsa-da, bu serverga katta yuk yuklaydi.
+基本設定	Asosiy sozlamalar
+高度な設定	Rivojlangan sozlamalar
+初期設定に戻す	O'rnatilgan sozlamalarni tiklash
+デザイン・音の設定	Tuzilma va ovoz sozlamalari
+イベントの設定	Tadbir sozlamalari
+初回訪問時のお知らせの設定	Birinchi marta tashriflar uchun bildirishnomalarni sozlash
+メッセージの設定	Xabar sozlamalari
+右クリックやソースコード表示時に転送する URL を設定します	O'ng tugma bilan bosganda yoki manba kodini ko'rib chiqishda ochiladigan URL manzilini belgilang
+警告メッセージにはHTMLは使用できません	HTML ogohlantirish xabarlarda ishlatilishi mumkin emas.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Agar siz buni ushbu ekranda sozlasangiz, Kengaytirilgan yorlig'idagi til sozlamalari e'tiborsiz qoldiriladi.
+以下の文字列が使用できます	Quyidagi satrlardan foydalanish mumkin
+改行	Satir uzilishi
+押下されたキー	Kalit bosildi
+Neo HTML Protector 設定	Neo HTML himoyachisi sozlamalari
+お知らせ	E'lon
+メッセージ	Xabar
+デザイン・音	Dizayn va ovoz
+初期化	Boshlang'ich sozlash
+このプラグインについて	Ushbu plagin haqida
+設定が初期化されました	Sozlamalar tiklandi
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Plugin'ni ishga tushiring. Iltimos, shuni yodda tutingki, IP Log Reader ma'lumotlari hozirgi bosqichda o'chirilmaydi.
+Neo HTML Protectorについて	Neo HTML Protector haqida
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Ushbu plagin WordPress saytingiz tomonidan yaratilgan HTML, rasmlar va boshqa kontentni ruxsatsiz foydalanishdan himoya qilish uchun mo'ljallangan.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Mazmunni to'liq himoya qilish imkonsiz. Biroq, imkon qadar ogohlantirishlar berib va agar biror voqea yuz bersa, hukumat belgilagan tartib-taomillarga muvofiq masalani hal eta olamiz.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Albatta, siz shartlar va qoidalar hamda sayt siyosatingizning to'liq bo'lishini ta'minlashingiz kerak. Garchi bu plagin shartlar va qoidalarni yaratish vositasi bo'lmasa-da, u ba'zi yo'riqnomalarni taqdim etishi mumkin.
+開発者: 夜桜　なの	Rivojlantiruvchi: Nano Yozakura
+バージョン	Versiya
+ビルド	Qurish
+サポートページ	Qo'llab-quvvatlash sahifasi
+Miss. 裏まにら氏歌唱	Ura Manira xonim ijrosida
+支援のお願い	Yordam so'rovi
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Neo HTML Protector'dan foydalanganingiz uchun rahmat!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ushbu plaginni ishlab chiqish va saqlash ko'p vaqt va kuch talab qildi, va uni takomillashtirish hamda yangilashni davom ettirish uchun mablag' yig'ish maqsadida, imkoni bor har kim bizga xayriya qilishni ko'rib chiqsa, minnatdor bo'lardik.
+寄付について	Xayriya haqida
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Xayriya qilish butunlay ixtiyoriy bo'lib, majburiy emas. Ushbu plagin hammaga bepul taqdim etiladi. Biroq, rivojlantirishni davom ettirishimizga yordam beradigan qo'llab-quvvatlashingizni katta minnatdorchilik bilan qadrlaymiz va imkon qadar hissa qo'sha olsangiz, juda xursand bo'lardik.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Quyidagi havola orqali xayriya qilishingiz mumkin. Agar siz Yaponiyada bo'lsangiz, bepul xayriya qilishingiz mumkin va Amazon sovg'a kuponlari yordamida ham osonlik bilan xayriya qilishingiz mumkin.
+寄付先	Xayriya tashkilotlari
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Sizning yordamingiz bilan biz sizga ajoyib yangilanishlarni yetkazishda davom etish uchun qo'limizdan kelganicha harakat qilamiz!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Biz qo'llab-quvvatlaganingiz uchun minnatdormiz va kelajakda ham bizni qo'llab-quvvatlashingizni intiqlik bilan kutamiz.
+ライセンス	Litsenziya
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Ushbu plagin ochiq manba dasturi sifatida ishlab chiqilgan va GPLv2.0 yoki undan keyingi litsenziya ostida taqdim etilgan.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ushbu plagin tarkibidagi ba'zi texnologiyalar patentlar bilan himoyalangan.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Patentlangan texnologiyadan foydalanish faqat ushbu plagin ichida ruxsat etiladi.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Boshqa har qanday foydalanish uchun tijorat litsenziyasini olish maqsadida muallif bilan bog'laning.
+本プラグインには以下のライブラリを同梱しています	Ushbu plagin quyidagi kutubxonalarni o'z ichiga oladi
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Ushbu plagin quyida yaratilgan ASCII san'at shriftlari va shrift fayllarini o'z ichiga oladi.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Ushbu plagin EJ Co., Ltd. tomonidan ishlab chiqilgan va plagin muallifi tomonidan bastalangan, rasmiy bo'lmagan Super Famicom o'yini 'SM Trainer Hitomi 3' musiqasini o'z ichiga oladi va rasmiy litsenziyaga ega.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Ushbu plagin Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Men shuningdek, ushbu plaginni ishlab chiqishda Raspberry Pi 5, ChatGPT va DeepL'dan foydalanganman.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Keshlash plagin aniqlandi. Agar keshlash plagin yoqilgan bo'lsa, bu plagin to'g'ri ishlamaydi.
+無効なIPアドレス	Noto'g'ri IP manzili
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ushbu veb-saytdan foydalanish uchun cookie-fayllarni va JavaScriptni yoqishingiz kerak.
+利用規約	Foydalanish shartlari
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ruxsatsiz foydalanishni oldini olish va xizmatlarimizning xavfsiz ishlashini ta'minlash maqsadida, ushbu veb-sayt IP-manzillar, brauzer tarixi va faoliyat jurnallari kabi ma'lumotlarni cookie-fayllarda va ma'lumotlar bazalarida saqlay oladi. Ushbu ma'lumotlar faqat veb-saytni boshqarish va qonuniy maqsadlarda ishlatiladi hamda uchinchi shaxslarga oshkor qilinmaydi.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ushbu xizmatdan foydalanish uchun siz ushbu ishlov berish faoliyatlariga rozilik bildiring.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Siz roziligingizni bergan bo'lsangiz ham, bermagan bo'lsangiz ham Maxfiylik siyosati mazmunini ko'rishingiz mumkin.
+同意する	Men roziman
+同意しない	Men rozi emasman
+確認	Tasdiqlash
+プライバシーポリシー	Maxfiylik siyosati
+通常とは異なる方法でのアクセスや操作が検出されました	Nodir kirish yoki faoliyat aniqlangan
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Ba'zi xususiyatlar xavfsizlik va kontentni himoya qilish maqsadida cheklangan.
+デバッグモード、コンソールの起動は禁止されています	Xatolarni tuzatish rejimi va konsolga kirish o'chirilgan
+以下の情報がサーバーに送信されました	Quyidagi ma'lumotlar serverga yuborildi
+あなたのIPアドレス	Sizning IP manzilingiz
+あなたの端末とブラウザ	Sizning qurilmangiz va brauzeringiz
+あなたの押下したキー	Bosgan kalitingiz
+リダイレクトをします	Siz yo'naltirilasiz
+コンテンツ保護のため一部の機能を制限しています	Mazmunni himoya qilish maqsadida ba'zi xususiyatlar cheklangan.
+右クリックは禁止されています	Ong'ichka tugmani bosishga ruxsat berilmaydi
+あなたが押下したキー	Bosgan kalitingiz
+印刷、PDFへの保存は禁止されています	Bosib chiqarish va PDF shaklida saqlash taqiqlanadi.
+スクリーンショットは禁止されています	Ekran suratlarini olish taqiqlanadi.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ekran tasvirlarini olish va xatoliklarni tuzatish rejimini yoqish taqiqlanadi.
+ページの保存は禁止されています	Ushbu sahifani saqlash taqiqlanadi
+コピー、カットは禁止されています	Ko'chirish va kesish taqiqlanadi.
+あなたが起こしたイベント	Siz tashkil qilgan tadbirlar
+テキストの選択は禁止されています	Matnni tanlashga ruxsat berilmaydi
+HTMLソース表示は禁止されています	HTML manba kodini ko'rsatish taqiqlanadi
+不正アクセスは禁止されています	Ruxsatsiz kirish taqiqlanadi
+アフリカーンス語	Afrikaans
+アラゴン語	Aralon
+アラビア語	Arabcha
+アッサム語	Assamese
+アゼルバイジャン語	Ozarbayjon
+バシュキール語	Bashkir
+ベラルーシ語	Belorusiyalik
+ベンガル語	Bengalcha
+ブルガリア語	Bolgarcha
+ボスニア語	Bosniyalik
+カタロニア語	Kataloniyalik
+チェコ語	Chex
+デンマーク語	Daniyalik
+ドイツ語	Nemis
+現代ギリシア語	Zamonaviy yunon
+英語	Inglizcha
+イギリス英語	Britaniyalik ingliz tili
+アメリカ英語	Amerikalik ingliz tili
+エスペラント語	Esperanto
+スペイン語	Ispancha
+エストニア語	Estoniyalik
+バスク語	Basque
+ペルシャ語	Forsiy
+フィンランド語	Finncha
+フランス語	Fransuzcha
+アイルランド語	Irlandalik
+ガリシア語	Galitsiyalik
+グァラニ語	Yaguar
+グジャラート語	Gujarat
+ハウサ語	Uy
+ヘブライ語	Ibroniy
+ヒンディ語	Hindcha
+クロアチア語	Xorvatcha
+ハイチ・クレオール語	Geyitian kreol
+ハンガリー語	Vengriyalik
+インドネシア語	Indoneziyalik
+イボ語	Ibo tili
+アイスランド語	Islandcha
+イタリア語	Italiyalik
+日本語	Yaponcha
+ジャワ語	Javansh
+カザフ語	Qazax
+朝鮮語	Koreyscha
+クルド語	Kurdcha
+キルギス語	Qirg'iz
+ラテン語	Lotincha
+ルクセンブルク語	Lyuksemburgcha
+リンガラ語	Sogʻsalang
+リトアニア語	Litvacha
+ラトビア語	Latviyalik
+マダガスカル語	Malagasy
+マオリ語	Maori
+マケドニア語	Makedonsko
+マラヤーラム語	Malayalam
+モンゴル語	Mo'g'ulcha
+マラーティー語	Marathi
+マレー語	Malay
+マルタ語	Malti
+ビルマ語	Birmachcha
+ネパール語	Nepalcha
+ノルウェー語	Norvegiyalik
+オランダ語	Gollandcha
+オック語	Oktsitan
+オロモ語	Yoki
+パンジャーブ語	Panjobiy
+ポーランド語	Lak
+パシュトー語	Oʻtkazish
+ポルトガリア語	Portugaliya tili
+ブラジルポルトガル語	Braziliyalik portugal tili
+ヨーロピアンポルトガル語	Yevropa portugaliysi
+ケチュア語	Inka
+ルーマニア語	Ruminiyalik
+ロシア語	Ruscha
+サンスクリット語	Sanskrit
+スロバキア語	Slovencha
+スロベニア語	Sloveniyalik
+セルビア語	Serbiyalik
+南セソト語	Janubiy Sesho
+スンダ語	Sundanese
+スウェーデン語	Shvetsiya
+スワヒリ語	Suvahili
+タミル語	Tamilcha
+テルグ語	Telugu
+タジク語	Tojik
+タイ語	Tay
+トルクメン語	Turkmancha
+タガログ語	Tagalog
+トルコ語	Turkcha
+タタール語	Tatar
+ウクライナ語	Ukraincha
+簡体中国語	Oddiylashtirilgan xitoy tili
+繁体中国語	An'anaviy xitoy tili
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Hozirda foydalanayotgan brauzeringiz eski versiya bo'lib, endi qo'llab-quvvatlanmaydi. Xavfsizroq va qulayroq brauzer tajribasini ta'minlash uchun brauzeringizni so'nggi versiyasiga yangilang.
+不正なリクエストです	Noto'g'ri so'rov
+画像が見つかりません	Rasm topilmadi
+ウェールズ語	Uelslik
+ウルドゥー語	Urdu
+ウズベク語	O'zbek
+ベトナム語	Vyetnamlik
+コサ語	Soch
+イディッシュ語	Yidiş
+ズールー語	Zulu

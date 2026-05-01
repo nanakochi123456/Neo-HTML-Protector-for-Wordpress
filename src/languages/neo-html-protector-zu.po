@@ -1,0 +1,1292 @@
+# Zulu translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.4.6\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-05-01 12:35+0900\n"
+"PO-Revision-Date: 2026-05-01 12:37+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Zulu\n"
+"Language: zu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Izilungiselelo"
+
+msgid "IPログリーダー"
+msgstr "Umfundi we-IP Log"
+
+msgid "IPアドレスログ"
+msgstr "Irekhodi lwamakheli e-IP"
+
+msgid "全クリア"
+msgstr "Qedela zonke izigaba"
+
+msgid "IPログが全て削除されました"
+msgstr "Zonke amarekhodi e-IP sesusiwe"
+
+msgid "ID"
+msgstr "Isazisi"
+
+msgid "タイムスタンプ"
+msgstr "Isiginesha yesikhathi"
+
+msgid "IPアドレス"
+msgstr "Ikheli le-IP"
+
+msgid "ユーザーエージェント"
+msgstr "Ijenti yomsebenzisi"
+
+msgid "イベント"
+msgstr "Umcimbi"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ayikho idatha yekheli le-IP."
+
+msgid "EU GDPR対応"
+msgstr "Ukuhambisana ne-EU GDPR"
+
+msgid "無効"
+msgstr "Akulungile"
+
+msgid "有効"
+msgstr "Kuvumelekile"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Uma usebenzisa i-WordPress ngaphakathi kwe-EU, noma uma iwebhusayithi yakho ihloselwe abasebenzisi abangaphakathi kwe-EU, sicela uqinisekise ukuthi lokhu kuvuliwe."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Inkinobho ethi 'Qinisekisa' izoguquka ibe 'Vuma' noma 'Ungavumelani', futhi ukuziphatha kuzoshintsha kancane."
+
+msgid "同意画面の色"
+msgstr "Umbala wesikrini sokuvuma"
+
+msgid "自動"
+msgstr "Ngokuzenzakalelayo"
+
+msgid "ライトモード"
+msgstr "Imodi elula"
+
+msgid "ダークモード"
+msgstr "Imodi emnyama"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Sethaphi uhlelo lombala kwesikrini sokuvuma"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Ukudambisa okuqukethwe esikrinini sokuvuma"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Beka izinga lokudambisa ukucaca kokuqukethwe okuboniswa esikrinini sokuvuma"
+
+msgid "同意画面の透過"
+msgstr "Ukuqhakazeka kwesikrini sokuvuma"
+
+msgid "透過なし"
+msgstr "Akukho ukusobala"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Seta ukusobala kwesikrini sokuvuma"
+
+msgid "お知らせの1行目"
+msgstr "Umugqa wokuqala womemezelo"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Lomlayezo uhlale ubonakala okokuqala ikhasi livalwa."
+
+msgid "お知らせの2行目"
+msgstr "Umugqa wesibili wesaziso"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Lomlayezo uzohlala uvela ekubonisweni kokuqala kuphela lapho i-EU GDPR isebenza."
+
+msgid "お知らせの3行目"
+msgstr "Umugqa wesithathu wesaziso"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Kuzovela ngakwesokudla kwesixhumanisi soMgaqo Wokuvikelwa Kwemfihlo."
+
+msgid "非EU向け確認の文字列"
+msgstr "Umbhalo wokuqinisekisa wamazwe angaphandle kwe-EU"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Umbhalo wemvume we-EU GDPR"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Umbhalo we-'Ungavumi' ngaphansi kwe-EU GDPR"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Umbhalo wenqubomgomo yobumfihlo"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Sicela usethe i-URL yenqubomgomo yobumfihlo lapha."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Sicela wengeze okulandelayo kuNqubomgomo Yobumfihlo."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Ukuze kutholakale imisebenzi yokukhwabanisa, izazisi ezifana namakheli e-IP zigcinwa kumakhukhi nasemgqeni wedatha. Idatha egciniwe iyasuswa ngokuthanda komlawuli."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Ukuqinisekisa ukuthi izithombe zihanjiswa ngendlela efanele kuphela lapho ukuvikelwa kwezithombe kuvuliwe, sigcina idatha eyi-hashed equkethe ikheli le-IP negama lefayela lesithombe kudathabheyisi kuze kufike emizuzwini engu-60."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Uma usetha Imigomo Yokusetshenziswa, sicela uqinisekise ukuthi ufaka isixhumanisi sayo kuNqubomgomo Yakho Yobumfihlo."
+
+msgid "利用規約の文字列"
+msgstr "Umbhalo Wezimo Zokusetshenziswa"
+
+msgid "利用規約のページ"
+msgstr "Ikhasi Lezimo Nemibandela"
+
+msgid "ページ選択なし"
+msgstr "Akukho ikhasi elikhethiwe"
+
+msgid "検索エンジン等のURL"
+msgstr "Ama-URL ezinjini zokusesha, njll."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Seta i-URL yamajini wokusesha namasayithi afanayo adlulisela abasebenzisi lapho imvume inganikezwanga"
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Imodi yokuxilonga amaphutha, imilayezo yesixwayiso yekhonsoli"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Chofoza kwesokudla umyalezo wesixwayiso"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Umyalezo wesixwayiso mayelana nokuphrinta nokugcina njenge-PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Umyalezo wesixwayiso esithombeni sesikrini"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Umyalezo wesixwayiso mayelana nezithombe-skrini ezikholelwa ukuthi zithathwe ngokungekho emthethweni"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Umyalezo wesixwayiso lapho wonke umbhalo ukhethiwe"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Umyalezo wesixwayiso mayelana nokulondolozwa kwekhasi"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Umlayezo oboniswa lapho ukopisha noma usika"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Umyalezo ozoboniswa lapho kubukwa umthombo we-HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Umyalezo okufanele ubonakale phezulu kukhodi yomthombo lapho kufihlwa noma kuvikelwa i-HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Umyalezo ozovezwa uma ithokheni yokungena eyodwa ingasebenzi ngesikhathi sokuvikelwa kwe-HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Umyalezo ozovezwa uma ama-cookie noma i-JavaScript kuvinjiwe"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Eqinisweni, lokhu kukhishwa kuphela uma i-JavaScript ivinjwe."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Uma isithombe sivikelwe, siyalanda, bese umlayezo ubonakala kuleso sithombe"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Ukudideka kwe-HTML"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Lokhu kuwucindezelo olujwayelekile lwe-HTML; kukhona futhi amawebhusayithi angakwazi ukulihumusha."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ukwenza kube nesici lokhu kukuvumela ukuthi uthole ilogi yokubuka umthombo."
+
+msgid "HTML保護"
+msgstr "Ukuvikelwa kwe-HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Ikhiqiza kuphela i-HTML eyisisekelo kakhulu—ngisho kuncane kunalapho kusetshenziswa ukucindezelwa kwe-HTML—futhi okuqukethwe ngaphakathi kwethegi ye-BODY akukhiqizwa nhlobo."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Lokhu akusebenzi ku-Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Lokhu kunomthelela omkhulu ku-SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Ukudweba i-HTML usebenzisa i-JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Ukuze sidlule ku-Firefox, sikhiqiza i-HTML sisebenzisa i-JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Ukwenza i-JavaScript ikwazi ukudweba kuzodambisa kakhulu isivinini sokulayisha kwewebhusayithi."
+
+msgid "画像の保護"
+msgstr "Ukuvikelwa kwesithombe"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Vikela isithombe njalo lapho kuthiwa i-tag ye-img"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Vikela zonke izithombe ezilayishiwe ku-WordPress ngaphakathi kukho konke okukhiphayo kwe-HTML."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Ivikela izithombe ekulandweni"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Uma idatha yezithombe ivikelwe, sivimbela cishe zonke izilanda, sikhipha ama-URL awodwa asebenza kanye kuphela, siqinisekisa ubuqiniso sisebenzisa amatokheni agcinwe eseshini, futhi sikhombisa izithombe nge-PHP; lokhu kuvimbela ngempumelelo cishe zonke izimo zokweba izithombe."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Uma idatha yezithombe ivikelwe, ukugcinwa kwesikhashana akusebenzi, okusho ukuthi isayithi lizolayisha kancane ezivakashelweni ezilandelayo, ngaleyo ndlela kuthinta i-SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Ukuvikela idatha yomfanekiso kungakhuphula umthwalo kudathabheyisi."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Uma ukhetha 'Vikela izithombe noma nini lapho kuthiwa i-tag ye-img', uhlelo lusebenzisa add_filter ukufaka ukuhlunga lapho i-tag ye-img ikhiqizwa; nokho, lokhu kungase kungasebenzi kahle kwezinye izindikimba."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Uma ukhetha 'Vikela zonke izithombe ezilayishiwe ku-WordPress ngaphakathi kukho konke okukhiphayo kwe-HTML', le plugin izobamba cishe yonke imisebenzi ye-WordPress bese icubungula wonke amathegi e-img okuqukethweni. Sicela uqaphele ukuthi lokhu kungase kungasebenzi kahle kwezinye izindikimba."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Sicela uqaphele ukuthi izithombe ezibekwe njengezithombe ezivelele zizokwabelwa njenge-OGP data futhi azikwazi ukuvikelwa. Uma ngempela kufanele uzivikele, sicela ushintshe isethingi yokukhipha i-HEAD tag ezilungiselweni ezithuthukisiwe lapho uvula ukuvikelwa kwe-HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Umsebenzi wokuthwebula isithombe-skrini owakhelwe ngaphakathi kohlelo lokusebenza awunakuvikelwa."
+
+msgid "画像URLの保護"
+msgstr "Ukuvikela ama-URL wezithombe"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Lokhu kufanele kusetshenziswe ngokuhlanganyela nokuvikelwa kwesithombe; ngokwalo, akusizi lutho."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Njengoba ilayishwa ngokunganaki nge-JavaScript, lokhu kuthinta i-SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Isitembu sesithombe"
+
+msgid "右下"
+msgstr "Phansi kwesokudla"
+
+msgid "ランダム位置"
+msgstr "Isikhundla esingahleliwe"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Uma isetshenziswa ngokuhlangene nokuvikelwa kwesithombe, amawatermark aguquguqukayo abonisa ngokusobala ubunikazi bamalungelo obunikazi futhi enikeza ababukeli umbono wokuthi bayabhekwa, ngaleyo ndlela esebenza njengesithiyo."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Kusekelwa kuphela amafomethi e-JPG, e-PNG kanye ne-WebP."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Ukwenza lokhu kuzokwandisa umthwalo kuseva."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Ukukhiqiza ubuciko be-ASCII kusuka kukhodi yomthombo ye-HTML ngesikhathi sokudida nokuvikela i-HTML"
+
+msgid "表示なし"
+msgstr "Akukho okuboniswayo"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Ibonisa ubuciko be-ASCII obuveza isixwayiso lapho ubuka umthombo we-HTML usebenzisa 'view-source'"
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Bonisa umklamo lapho isenzo esihlosiwe senziwa"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Umklamo oyisisekelo onezincwadi ezimnyama esizeni esiphuzi"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Umklamo wesitayela sokwesabisa onezincwadi ezibomvu kumgqeni omnyama"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Umklamo onezincwadi ezibomvu ezikhanyayo esizeni esimnyama"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Umculo wangemuva odlalwayo lapho isenzo esihlosiwe senziwa"
+
+msgid "サウンドなし"
+msgstr "Akukho umsindo"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Impi Nokunqoba - imizuzu engu-1 nemizuzwana engu-16.3 - amabhayithi angu-630,056 - 64 kbps - Ilayisensi: CC 2.1 noma kamuva"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Mfushane - imizuzwana engu-3.8 - amabhayithi angu-32,364 - 64 kbps - Ilayisensi: GPL 2.0 noma kamuva"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - imizuzwana engu-23.5 - amabhayithi angu-195,578 - 64 kbps - Ilayisensi: GPL 2.0 noma kamuva"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Revolution' – inguqulo ekhiqizwe yikhompyutha, esheshayo – imizuzu engu-1 nemizuzwana engu-57.6 – amabhayithi angu-724,457 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: iScherzo ku-B-flat minor, Op. 2 – inguqulo ekhiqizwe yikhompyutha, inguqulo efingqiwe ngesivinini esiphezulu – imizuzu engu-1 nemizuzwana engu-48.0 – amabhayithi angu-665,369 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Uhlu: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – inguqulo ekhiqizwe yikhompyutha, inguqulo ecishisiwe esheshayo – imizuzu engu-1 nemizuzwana engu-51.6 – amabhayithi angu-687,586 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Umgubho – imizuzwana engu-22.3 – amabhayithi angu-183,926 – 64 kbps – Ilayisensi: Umphakathi Ovulekile"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Umkhosi wesitayela se-retro – imizuzwana engu-2.2 – amabhayithi angu-10,536 – 32 kbps – Ilayisensi: Umphakathi Ovulekile"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Isingeniso sesitayela se-retro – imizuzwana engu-42.1 – amabhayithi angu-179,138 – 32 kbps – Ilayisensi: Umphakathi ovulekile"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Isixwayiso sika-ChatGPT - imizuzwana engu-3.8 - amabhayithi angu-109,700 - i-256 kbps - Ilayisensi: Umphakathi ovulekile"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Isandi esiphuthumayo esiphakeme esifana nesixwayiso sokutholwa kwemalware – Ingxenye 1 ngu-ChatGPT – imizuzwana engu-3.3 – amabhayithi angu-102,850 – i-256 kbps – Ilayisensi: Umbuso Ovulekile"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Isandi esiphuthumayo esiphakeme esifana nesexwayiso sokutholwa kwemalware, Ingxenye 2 ngu-ChatGPT - imizuzwana engu-3.3 - amabhayithi angu-103,122 - 256 kbps - Ilayisensi: Umbuso Ovulekile"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Umsindo ofana ne-MRI owenziwe nge-ChatGPT – imizuzu engu-1 nemizuzwana engu-14.9 – amabhayithi angu-3,340,392 – 320 kbps – Ilayisensi: Umphakathi Ovulekile"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Khetha umculo wangemuva ozodlalwa ngesikhathi sesixwayiso."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Kudala umoya omangazayo"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Umsindo uvaliwe ku-Firefox"
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Ukubiza lapho isenzo esichaziwe senziwa"
+
+msgid "有効 音量小さ目"
+msgstr "Shesha, ivolumu iphansi"
+
+msgid "有効 音量大き目"
+msgstr "Isebenza, ivolumu isethwe phezulu"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Kuzovakala i-beep njengempendulo kuzo zonke izenzakalo zekhibhodi nezomaki ngenkathi isixwayiso sikhombisiwe."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Kudala umbono wokuthi idivayisi seyiphambene ngenkathi isixwayiso siboniswa."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Ukufihla ikhasi lomaki lwe-mouse lapho kwenziwa isenzo esithile"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Ifihla ikhasi lomaki wesilawuli kwindawo yesiphequluli ngenkathi kuboniswa isixwayiso"
+
+msgid "デバッグモード"
+msgstr "Imodi yokuxilonga amaphutha"
+
+msgid "妨害＋記録のみ"
+msgstr "Ukuphazamiseka + Amarekhodi kuphela"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Ukuphazamiseka + Ukurekhoda + Ukubonisa + Ukuqondisa kabusha"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Ungakwazi ukuyifinyelela ngokusebenzisa imenyu."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Imodi yokuxilonga ku-Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Ikhonsoli yesiphequluli"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Empeleni, ungakwazi ukuyisebenzisa kusuka kumodi yokuxilonga amaphutha."
+
+msgid "HTMLソース表示"
+msgstr "Buka umthombo we-HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Ungenza lo msebenzi kalula ngokufaka i-URL eqala ngo-'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Ungavikela okuqukethwe kwakho ngokuhlanganisa lokhu nokuvikelwa kwe-HTML."
+
+msgid "印刷"
+msgstr "Shicilela"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Nakuba ivimbela ukuphrinta, kungase ingasebenzi kahle kwezinye iziphequluli."
+
+msgid "スクリーンショット"
+msgstr "Isithombe-skrini"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Kuncike ohlelweni lokusebenza, kusiphequluli noma endleleni esetshenzisiwe, kungase kungabi nokwenzeka ukuvimba lokhu, noma kungase kungatholakali."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Isithombe-skrini esingase sithathwe lapho iwindi lihamba liye ngemuva"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Iphinde iphendule emisebenzini ehlukile ngaphandle kokuthwebula izithombe zesikrini"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Kucatshangwa ukuthi isithombe-skrini sithathwe ngokucindezela izinkinobho ezimbili."
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Izindlela zokutholwa kwezinto ezishiwo ngenhla azithembekile ngokuphelele; ukutholwa kwenziwa njengesinyathelo sokuzivikela."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Akutholi nje izithombe-skrini kuphela kodwa futhi nezimo zokuxilonga nokunye okufana nalokho."
+
+msgid "ページ保存"
+msgstr "Gcina ikhasi"
+
+msgid "右クリック"
+msgstr "Chofoza kwesokudla"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Uma i-add-on ifakiwe, uzokwazi ukuyisebenzisa."
+
+msgid "コピー・カット"
+msgstr "Kopisha bese usika"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Kuncike ezilungiselelweni zale plugin, ungase ungahlangabezani nale mcimbi kaningi."
+
+msgid "テキスト全選択"
+msgstr "Khetha wonke umbhalo"
+
+msgid "テキスト選択"
+msgstr "Khetha umbhalo"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Irekhodi lokuqalisa kwe-debugger, ukuphazamiseka kwe-debugger"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Lokhu kwenza imodi yokuxilonga ibe nzima kancane ukuyisebenzisa futhi kubhala ukuthi umxilongi usuqalisiwe; nokho, ezinye iziphequluli zingavimbela lokhu."
+
+msgid "リダイレクトするURL"
+msgstr "Hambisa i-URL kwenye indawo"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Kungaba umqondo omuhle ukuqondisa abasebenzisi kumakhasi afana Nemigomo Yokusetshenziswa."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Uma kushiywe kungagcwaliswanga, kuzodlulisela ku-URL yokuqala."
+
+msgid "リダイレクトまでの時間"
+msgstr "Isikhathi esisele ngaphambi kokuqondiswa kabusha"
+
+msgid "リダイレクトなし"
+msgstr "Akukho ukudlulisela"
+
+msgid "1秒"
+msgstr "Umzuzwana owodwa"
+
+msgid "2秒"
+msgstr "Imizuzwana emibili"
+
+msgid "3秒"
+msgstr "Imizuzwana emithathu"
+
+msgid "4秒"
+msgstr "Imizuzwana emine"
+
+msgid "5秒"
+msgstr "Imizuzwana emihlanu"
+
+msgid "6秒"
+msgstr "Imizuzwana eyisithupha"
+
+msgid "7秒"
+msgstr "7 imizuzwana"
+
+msgid "8秒"
+msgstr "Imizuzwana eyisishiyagalombili"
+
+msgid "9秒"
+msgstr "Imizuzwana eyisishiyagalolunye"
+
+msgid "10秒"
+msgstr "Imizuzwana eyishumi"
+
+msgid "15秒"
+msgstr "Imizuzwana eyishumi nanhlanu"
+
+msgid "20秒"
+msgstr "Imizuzwana engu-20"
+
+msgid "25秒"
+msgstr "Imizuzwana engu-25"
+
+msgid "30秒"
+msgstr "Imizuzwana engamashumi amathathu"
+
+msgid "35秒"
+msgstr "Imizuzwana engu-35"
+
+msgid "40秒"
+msgstr "Imizuzwana engu-40"
+
+msgid "45秒"
+msgstr "Imizuzwana engu-45"
+
+msgid "50秒"
+msgstr "Imizuzwana engu-50"
+
+msgid "55秒"
+msgstr "Imizuzwana engu-55"
+
+msgid "1分"
+msgstr "Umzuzu owodwa"
+
+msgid "1分10秒"
+msgstr "Umzuzu owodwa nemizuzwana eyishumi"
+
+msgid "1分20秒"
+msgstr "Umzuzu owodwa nemizuzwana engamashumi amabili"
+
+msgid "1分30秒"
+msgstr "Umzuzu owodwa nemizuzwana engamashumi amathathu"
+
+msgid "1分40秒"
+msgstr "Imizuzu eyodwa nemizuzwana engamashumi amane"
+
+msgid "1分50秒"
+msgstr "Umzuzu owodwa nemizuzwana engu-50"
+
+msgid "2分"
+msgstr "Imizuzu emibili"
+
+msgid "ソース表示を許可する権限"
+msgstr "Imvume yokubuka ikhodi yomthombo"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Ukukhipha okuvamile komthombo kuphela lapho ungene njengomlawuli"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Umphumela ojwayelekile kusuka kumthombo uma ungene njengo-USER"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Khetha ukuthi ngabe ukukhipha kwe-HTML okujwayelekile kuvinjelwe kubaphathi kuphela noma kudinga ukungena ngemvume komsebenzisi."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Ukunyanzela isithombe ukuthi silandwe nokuthi yini empeleni elandwayo"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Isithombe esinopikseli eyodwa ngobubanzi nobude, esibonakalayo, esisefomethi ye-GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Isithombe esinama-pikseli angu-1×1 esibonakalayo esisefomethini ye-PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Isikrini sesixwayiso esinomhlophe ophuzi ngemuva, esikwifomethi ye-PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Umqulu we-HTML ongenangqondo"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Umphumela wethegi ye-HEAD lapho i-HTML ivikelwe"
+
+msgid "出力しない"
+msgstr "Ungaprinti"
+
+msgid "TITLEタグのみ"
+msgstr "I-tag yesihloko kuphela"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Kutholwe kuthegi ye-HEAD ye-WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Kwamakhasi amalungu kuphela asetshenziselwa inkampani namakhasi angaphakathi, ukukhetha 'Ungakhiqizi' noma 'I-tag yesihloko kuphela' kwanele."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Ngaphandle kokuthi uthole imininingwane kuthegi ye-HEAD ye-WordPress, isithombe se-OGP ngeke siboniswe lapho wabelana ngakho ezinkundleni zokuxhumana."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Vimba ibhothi lesithombe"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Ngokuvimbela ama-bots wesithombe ekutholeni i-HTML, ungavikela okuqukethwe okungakwazanga ukuvikelwa ekuxhumaniseni ngqo ngokusesha izithombe; nokho, lokhu akunikezi isixazululo esiphelele."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Vimba ukufinyelela kubhothi lokuqeqesha i-AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Ngokugwema ukusetshenziswa kwama-bots akhelwe ukuqeqesha i-AI ku-HTML, siqinisekisa ukuthi okuqukethwe akusetshenziswa yi-AI; nokho, lokhu akunqanyulwa ngokuphelele."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Vimba ukufinyelela kumasivumelwano wewebhu kanye nezithombe zewebhu"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Sivimbela ukufinyelela kumasivumelwano ewebhu aqoqwa ngokuzenzakalelayo kanye nezithombe-skrini ezithathwe ngokuzikhethela komsebenzisi; nokho, asikwazi ukuvimba lokhu ngokuphelele."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Vimba ama-user agent angalungile"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Ivimba ukufinyelela uma umugqa we-user agent uqukethe izinhlamvu ezingalungile"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Bonisa isixwayiso lapho kufinyelelwa ku-Internet Explorer kanye ne-Microsoft Edge endala"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Ivimbela ukufinyelela nge-Internet Explorer kanye ne-Microsoft Edge endala"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Ulimi lapho imilayezo yokuxwayisa ikhombiswa khona"
+
+msgid "Wordpressの言語"
+msgstr "Izilimi ze-WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Izilungiselelo zolimi zebhrawuza"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Awukwazi ukushintsha ulimi uma imilayezo isenziwe ngokwezifiso."
+
+msgid "同意画面の言語"
+msgstr "Ulimi lwesikrini sokuvuma"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Ulimi lokubonisa umlayezo we-'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Usuku lokuphelelwa kwesikhathi samathokheni wesikhashana"
+
+msgid "3分"
+msgstr "Imizuzu emithathu"
+
+msgid "4分"
+msgstr "Imizuzu emine"
+
+msgid "5分"
+msgstr "Imizuzu emihlanu"
+
+msgid "6分"
+msgstr "Imizuzu eyisithupha"
+
+msgid "7分"
+msgstr "Imizuzu eyisikhombisa"
+
+msgid "8分"
+msgstr "Imizuzu eyisishiyagalombili"
+
+msgid "9分"
+msgstr "Imizuzu eyisishiyagalolunye"
+
+msgid "10分"
+msgstr "Imizuzu eyishumi"
+
+msgid "15分"
+msgstr "Imizuzu eyi-15"
+
+msgid "20分"
+msgstr "Imizuzu engamashumi amabili"
+
+msgid "25分"
+msgstr "Imizuzu engu-25"
+
+msgid "30分"
+msgstr "Imizuzu engamashumi amathathu"
+
+msgid "35分"
+msgstr "Imizuzu engama-35"
+
+msgid "40分"
+msgstr "Imizuzu engamashumi amane"
+
+msgid "45分"
+msgstr "Imizuzu engu-45"
+
+msgid "50分"
+msgstr "Imizuzu engu-50"
+
+msgid "55分"
+msgstr "Imizuzu engu-55"
+
+msgid "1時間"
+msgstr "Ihora elilodwa"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Beka usuku lokuphelelwa yisikhathi lolwazi lwe-URL yesithombe"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Uma sekulayishiwe, i-URL yesithombe kanye ne-token yesikhashana ngeke zisasebenza."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Izithombe zilayishwa lapho zidingeka, kodwa zizolayishwa ngokuzenzakalelayo imizuzwana engu-30 ngaphambi kwesikhathi esinqunyiwe."
+
+msgid "一時使用トークンのビット数"
+msgstr "Inani lamabithi ku-token yesikhashana"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Isitokheni sesikhashana sisetshenziswa njengephasiwedi ukuze kufihlwe imininingwane ye-URL yesithombe; lesi silungiselelo sichaza ukuqina kwaso."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Nakuba izinketho ezivezwe ngaphansi kwemenyu ehlayo ziba nemininingwane eyandayo, lokhu kungabeka umthwalo omkhulu kuseva futhi kuholele ekudlulisweni kwedatha enkulu ye-HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "I-algorithm ye-hash"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Isitokheni sesikhashana sisetshenziswa njengephasiwedi ukuze kufihlwe imininingwane ye-URL yesithombe; lokhu kudinga i-hashing, futhi lesi silungiselelo sinquma ukuqina kwalelo hashing."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Nakuba ukuqina kukhuphuka njengoba uhamba phansi ohlwini lwezinketho eziboniswa kwimenyu ehlayo, lokhu kubeka umthwalo omkhulu kuseva."
+
+msgid "基本設定"
+msgstr "Izilungiselelo eziyisisekelo"
+
+msgid "高度な設定"
+msgstr "Izilungiselelo ezithuthukile"
+
+msgid "初期設定に戻す"
+msgstr "Buyisela izilungiselelo ezizenzakalelayo"
+
+msgid "デザイン・音の設定"
+msgstr "Ukuklama nezilungiselelo zomsindo"
+
+msgid "イベントの設定"
+msgstr "Izilungiselelo zomcimbi"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Ukusetha izaziso zokuvakasha okokuqala"
+
+msgid "メッセージの設定"
+msgstr "Izilungiselelo zemilayezo"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Seta i-URL ezovulwa lapho uchofoza kwesokudla noma ubuka ikhodi yomthombo"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "I-HTML ayinakusetshenziswa emilayezweni yokuxwayisa."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Uma ulungisa lokhu kulesi sikrini, izilungiselelo zolimi kuthebhu ethi Advanced ngeke zicatshangelwe."
+
+msgid "以下の文字列が使用できます"
+msgstr "Lezi zintambo ezilandelayo zingasetshenziswa"
+
+msgid "改行"
+msgstr "Ukuqhekeka komugqa"
+
+msgid "押下されたキー"
+msgstr "Isihluthulelo sicindezelwe"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Izilungiselelo Zokuvikela i-Neo HTML"
+
+msgid "お知らせ"
+msgstr "Isaziso"
+
+msgid "メッセージ"
+msgstr "Umyalezo"
+
+msgid "デザイン・音"
+msgstr "Ukuklama nomsindo"
+
+msgid "初期化"
+msgstr "Ukuqaliswa"
+
+msgid "このプラグインについて"
+msgstr "Mayelana nale plugin"
+
+msgid "設定が初期化されました"
+msgstr "Izilungiselelo sezibuyiselwe esimweni sazo sokuqala."
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Qalisa i-plugin. Sicela uqaphele ukuthi idatha ye-IP Log Reader ngeke isuswe kulesi sigaba."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Mayelana ne-Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Leli plugin lenzelwe ukuvikela i-HTML, izithombe nezinye iziqukathi ezikhiqizwa yiwebhusayithi yakho ye-WordPress, likuvikela ekusetshenzisweni okungagunyaziwe."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Akungeneki ukuvikela okuqukethwe ngokuphelele. Nokho, ngokwazisa lapho kungenzeka khona konke nokulungiselela uma kwenzeka noma yini, sizokwazi ukuxazulula udaba ngokuhambisana nezinqubo ezibekwe nguhulumeni."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Impela, kuzodingeka uqinisekise ukuthi imigomo nemibandela yakho kanye nenqubomgomo yesayithi yakho igcwele. Nakuba le plugin ingeyona ithuluzi lokudala imigomo nemibandela, ingakunikeza iziqondiso ezithile."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Umthuthukisi: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Inguqulo"
+
+msgid "ビルド"
+msgstr "Yakha"
+
+msgid "サポートページ"
+msgstr "Ikhasi lokweseka"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Yenziwe nguNkosazana Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Isicelo sokwesekwa"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Siyabonga ngokusebenzisa i-Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ukuthuthukiswa nokugcinwa kwale plugin kudinge isikhathi esiningi nomzamo omkhulu, futhi ukuze siqoqe imali yokuqhubeka nokuyithuthukisa nokuyivuselela, sizobonga kakhulu uma noma ubani ongakwazi ukusisekela ecabangela ukwenza umnikelo."
+
+msgid "寄付について"
+msgstr "Mayelana nezipho"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Ukunikela kungenziwa ngokuzithandela ngokuphelele futhi akuphoqelekile. Le plugin itholakala kubo bonke mahhala. Nokho, ukweseka kwenu kuyaziswa kakhulu ukuze siqhubeke nokuthuthukisa, futhi sizojabula kakhulu uma ningakwazi ukunikela noma ngabe kancane."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Unganikela usebenzisa isixhumanisi esingezansi. Uma useJapane, ungakwazi ukunikela mahhala, futhi ungakwazi futhi ukunikela kalula usebenzisa amakhuphoni ezipho ze-Amazon."
+
+msgid "寄付先"
+msgstr "Izinhlangano ezisiza abanye"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Ngokweseka kwenu, sizokwenza konke okusemandleni ethu ukuqhubeka sikuletha izibuyekezo ezimangalisayo!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Siyabonga ngokweseka kwenu futhi sibheke ngabomvu ukuqhubeka kwenu nokusekela esikhathini esizayo."
+
+msgid "ライセンス"
+msgstr "Ilayisensi"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Leli plugin luthuthukiswe njengohlelo lwemithombo evulekile futhi linelayisensi ngaphansi kwe-GPLv2.0 noma engaphezulu."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ezinye zobuchwepheshe ezifakiwe kule plugin zivikelwe ngamapatenti."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Ukusetshenziswa kobuchwepheshe obunelungelo lobunikazi kuvunyelwe kuphela kule plug-in."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Noma yiluphi olunye usebenziso, sicela uxhumane nombhali ukuze uthole ilayisensi yokuhweba."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Leli plugin liqukethe amalabhulali alandelayo"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Leli plugin liqukethe amafonti e-ASCII art akhiqizwe ngezansi, kanye namafayela wamafonti."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Leli plugin liqukethe umculo womdlalo we-Super Famicom ongavumelekile 'SM Trainer Hitomi 3', owenziwe yi-EJ Co., Ltd. futhi owakhiwe ngumdali waleli plugin, futhi linelayisensi esemthethweni."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Leli plugin liqukethe izingoma ezenziwe kusetshenziswa 'Keppy's YAMAHA C7', ethuthukiswe nguKeppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Ngiphinde ngasebenzisa i-Raspberry Pi 5, i-ChatGPT kanye ne-DeepL ekuthuthukisweni kwale plugin."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Kutholakale i-plugin yokugcina idatha yesikhashana. Le plugin ngeke isebenze kahle uma i-plugin yokugcina idatha yesikhashana ivuliwe."
+
+msgid "無効なIPアドレス"
+msgstr "Ikheli le-IP elingalungile"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ukuze usebenzise le webhusayithi, kumele uvumele ama-cookie ne-JavaScript."
+
+msgid "利用規約"
+msgstr "Imigomo yokusetshenziswa"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ukuvimbela ukusetshenziswa okungagunyaziwe nokuqinisekisa ukusebenza okuphephile kwezinsizakalo zethu, le webhusayithi ingagcina imininingwane efana namakheli e-IP, umlando wokubuka kanye namarekhodi emisebenzi kuma-cookie nakuma-database. Le mininingwane isetshenziselwa kuphela ukusebenza kwewebhusayithi nezinhloso zomthetho, futhi ngeke ivezwe kwabanye abantu besithathu."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ukuze usebenzise le nkonzo, kufanele uvume le misebenzi yokucubungula."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Ungabuka okuqukethwe Kwenqubomgomo Yobumfihlo kungakhathaliseki ukuthi unikeze imvume yakho."
+
+msgid "同意する"
+msgstr "Ngiyavuma"
+
+msgid "同意しない"
+msgstr "Angivumelani"
+
+msgid "確認"
+msgstr "Ukuqinisekiswa"
+
+msgid "プライバシーポリシー"
+msgstr "Inqubomgomo Yobumfihlo"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Ukufinyelela okungajwayelekile noma umsebenzi okungajwayelekile kutholakale"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Ezinye izici zivinjwe ngenhloso yokuphepha nokuvikelwa kokuqukethwe."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Imodi yokuxilonga nokufinyelela kukhonsoli kuvaliwe"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Ulwazi olulandelayo seluthunyelwe kuseva."
+
+msgid "あなたのIPアドレス"
+msgstr "Ikheli lakho le-IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Idivayisi yakho nesiphequluli sakho"
+
+msgid "あなたの押下したキー"
+msgstr "Isihluthulelo osicindezile"
+
+msgid "リダイレクトをします"
+msgstr "Uzodluliselwa kwenye ikhasi."
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Ezinye izici zivinjwe ukuze kuvikelwe okuqukethwe"
+
+msgid "右クリックは禁止されています"
+msgstr "Uku-clika kwesokudla akuvunyelwe"
+
+msgid "あなたが押下したキー"
+msgstr "Isihluthulelo osicindezile"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Ukuphrinta nokulondoloza njenge-PDF akuvunyelwe."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Ukuthatha izithombe zesikrini akuvunyelwe."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ukuthatha izithombe-skrini nokuvumela imodi yokuxilonga akuvunyelwe."
+
+msgid "ページの保存は禁止されています"
+msgstr "Awuvunyelwe ukulondoloza leli khasi"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Ukukopisha nokusika akuvunyelwe."
+
+msgid "あなたが起こしたイベント"
+msgstr "Imicimbi oyihlele"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Akukavunyelwa ukukhetha umbhalo."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Ukubonisa ikhodi yomthombo ye-HTML akuvunyelwe."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ukufinyelela okungagunyaziwe kuvinjelwe"
+
+msgid "アフリカーンス語"
+msgstr "Isifunda sase-Afrika"
+
+msgid "アラゴン語"
+msgstr "Isi-Aragonese"
+
+msgid "アラビア語"
+msgstr "Isilatini"
+
+msgid "アッサム語"
+msgstr "Asamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Isi-Azerbaijani"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "IsiBelarusi"
+
+msgid "ベンガル語"
+msgstr "IsiBengali"
+
+msgid "ブルガリア語"
+msgstr "IsiBhulgariya"
+
+msgid "ボスニア語"
+msgstr "UmBoshiya"
+
+msgid "カタロニア語"
+msgstr "Isilimi saseCatalan"
+
+msgid "チェコ語"
+msgstr "Czech"
+
+msgid "ウェールズ語"
+msgstr "Welsh"
+
+msgid "デンマーク語"
+msgstr "WaseDenmark"
+
+msgid "ドイツ語"
+msgstr "Jalimane"
+
+msgid "現代ギリシア語"
+msgstr "Igiriki yanamuhla"
+
+msgid "英語"
+msgstr "Isimanje"
+
+msgid "イギリス英語"
+msgstr "YaseBrithani"
+
+msgid "アメリカ英語"
+msgstr "Isingisi saseMelika"
+
+msgid "エスペラント語"
+msgstr "Isifiso"
+
+msgid "スペイン語"
+msgstr "Isipanyolo"
+
+msgid "エストニア語"
+msgstr "Wase-Estonia"
+
+msgid "バスク語"
+msgstr "IsiBasque"
+
+msgid "ペルシャ語"
+msgstr "IsiPersi"
+
+msgid "フィンランド語"
+msgstr "Finiyisi"
+
+msgid "フランス語"
+msgstr "Fulentshi"
+
+msgid "アイルランド語"
+msgstr "Wama-Irish"
+
+msgid "ガリシア語"
+msgstr "YiseGaliyishiya"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "IsiGujarati"
+
+msgid "ハウサ語"
+msgstr "Hausa"
+
+msgid "ヘブライ語"
+msgstr "Hebheru"
+
+msgid "ヒンディ語"
+msgstr "IsiHindi"
+
+msgid "クロアチア語"
+msgstr "IsiCroatian"
+
+msgid "ハイチ・クレオール語"
+msgstr "Isikreoli saseHaiti"
+
+msgid "ハンガリー語"
+msgstr "NgesiHungary"
+
+msgid "インドネシア語"
+msgstr "Yase-Indonesia"
+
+msgid "イボ語"
+msgstr "Ulimi lwama-Ibo"
+
+msgid "アイスランド語"
+msgstr "Isi-Icelandic"
+
+msgid "イタリア語"
+msgstr "Wase-Italy"
+
+msgid "日本語"
+msgstr "Yapani"
+
+msgid "ジャワ語"
+msgstr "Isijavane"
+
+msgid "カザフ語"
+msgstr "Kazakh"
+
+msgid "朝鮮語"
+msgstr "Koreya"
+
+msgid "クルド語"
+msgstr "Kurdhi"
+
+msgid "キルギス語"
+msgstr "Kyrgyz"
+
+msgid "ラテン語"
+msgstr "Latin"
+
+msgid "ルクセンブルク語"
+msgstr "Lusemburga"
+
+msgid "リンガラ語"
+msgstr "Loba"
+
+msgid "リトアニア語"
+msgstr "Lelithiwaniya"
+
+msgid "ラトビア語"
+msgstr "Elathoviya"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Abantu bomdabu baseNew Zealand"
+
+msgid "マケドニア語"
+msgstr "IsiMasedoniya"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "IsiMongoliya"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Isilimi saseMalay"
+
+msgid "マルタ語"
+msgstr "Malta"
+
+msgid "ビルマ語"
+msgstr "IsiBurmese"
+
+msgid "ネパール語"
+msgstr "IsiNepali"
+
+msgid "ノルウェー語"
+msgstr "WaseNorway"
+
+msgid "オランダ語"
+msgstr "Netherlandese"
+
+msgid "オック語"
+msgstr "Okwase-Okitani"
+
+msgid "オロモ語"
+msgstr "Noma"
+
+msgid "パンジャーブ語"
+msgstr "IsiPunjabi"
+
+msgid "ポーランド語"
+msgstr "Ipulishi"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Iphuthukezi"
+
+msgid "ブラジルポルトガル語"
+msgstr "Iphuthukezi yaseBrazil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Iphuthukezi yaseYurophu"
+
+msgid "ケチュア語"
+msgstr "Kichwa"
+
+msgid "ルーマニア語"
+msgstr "WaseRomania"
+
+msgid "ロシア語"
+msgstr "YaseRussia"
+
+msgid "サンスクリット語"
+msgstr "Isanskrithi"
+
+msgid "スロバキア語"
+msgstr "Esloveniya"
+
+msgid "スロベニア語"
+msgstr "Isilovheniya"
+
+msgid "セルビア語"
+msgstr "Serbhiya"
+
+msgid "南セソト語"
+msgstr "Sesotho seNingizimu"
+
+msgid "スンダ語"
+msgstr "Isindanesiya"
+
+msgid "スウェーデン語"
+msgstr "Iswidi"
+
+msgid "スワヒリ語"
+msgstr "Iswahili"
+
+msgid "タミル語"
+msgstr "Tamil"
+
+msgid "テルグ語"
+msgstr "IsiTelugu"
+
+msgid "タジク語"
+msgstr "Tajiki"
+
+msgid "タイ語"
+msgstr "Ithayilandi"
+
+msgid "トルクメン語"
+msgstr "UmTurk"
+
+msgid "タガログ語"
+msgstr "Isithiyelo"
+
+msgid "トルコ語"
+msgstr "WaseTurkey"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Wase-Ukraine"
+
+msgid "ウルドゥー語"
+msgstr "Isi-Urdu"
+
+msgid "ウズベク語"
+msgstr "Ochwazi"
+
+msgid "ベトナム語"
+msgstr "WaseVietnam"
+
+msgid "コサ語"
+msgstr "Sula"
+
+msgid "イディッシュ語"
+msgstr "Yidi"
+
+msgid "簡体中国語"
+msgstr "Isishayamashaya sesiShayina"
+
+msgid "繁体中国語"
+msgstr "Isishayamakhala saseShayina sendabuko"
+
+msgid "ズールー語"
+msgstr "Isizulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Isiphequluli osisebenzisayo njengamanje inguqulo endala engasekelwa. Ukuze ube nesipiliyoni sokuphequlula esiphephile futhi esikhululekile, sicela uvuselele inguqulo yakho yakamuva yesiphequluli."
+
+msgid "不正なリクエストです"
+msgstr "Isicelo esingalungile"
+
+msgid "画像が見つかりません"
+msgstr "Isithombe asitholakali"
+

@@ -1,6 +1,6 @@
 {
     "require": {
-        "deeplcom/deepl-php": "^1.11",
+        "deeplcom/deepl-php": "^1.18",
         "symfony/http-client": "^7.2",
         "nyholm/psr7": "^1.8"
     },

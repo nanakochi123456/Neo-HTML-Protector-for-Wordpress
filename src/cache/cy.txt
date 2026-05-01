@@ -1,0 +1,424 @@
+設定	Gosodiadau
+IPログリーダー	Darllenydd Log IP
+IPアドレスログ	Log cyfeiriad IP
+全クリア	Cwblhewch yr holl lefelau
+IPログが全て削除されました	Mae'r holl logiau IP wedi'u dileu.
+ID	Adnabod
+タイムスタンプ	Nod amser
+IPアドレス	Cyfeiriad IP
+ユーザーエージェント	Asiant Defnyddiwr
+イベント	Digwyddiad
+IPアドレスのデータはありません	Nid oes data ar gyfer y cyfeiriad IP hwn.
+EU GDPR対応	Cydymffurfiaeth â GDPR yr UE
+無効	Annilys
+有効	Dilys
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Os ydych chi'n defnyddio WordPress o fewn yr UE, neu os yw'ch gwefan yn targedu defnyddwyr o fewn yr UE, sicrhewch fod hyn wedi'i alluogi.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Bydd y botwm 'Cadarnhau' yn newid i 'Cytuno' neu 'Anghytuno', a bydd yr ymddygiad yn newid ychydig.
+同意画面の色	Lliw'r sgrin cydsyniad
+自動	Awtomatig
+ライトモード	Modd golau
+ダークモード	Modd Tywyll
+同意画面表示中の配色を設定します	Gosodwch y cynllun lliwiau ar gyfer y sgrin cydsyniad
+同意画面中のコンテンツのぼかし	Cymylu cynnwys ar y sgrin gydsyniad
+同意画面表示中のコンテンツのぼかし具合を設定します	Gosodwch lefel y cymylu ar gyfer cynnwys a ddangosir ar y sgrin cydsyniad.
+同意画面の透過	Tryloywder y sgrin gydsyniad
+透過なし	Dim tryloywder
+同意画面の透過具合を設定します	Gosod tryloywder y sgrin cydsyniad
+お知らせの1行目	Llinell gyntaf y cyhoeddiad
+初回表示で必ず表示されるメッセージです	Caiff y neges hon ei harddangos bob amser y tro cyntaf y llwythir y dudalen.
+お知らせの2行目	Ail linell y hysbysiad
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Bydd y neges hon bob amser yn ymddangos ar y sgrin gyntaf yn unig pan fydd GDPR yr UE mewn grym.
+お知らせの3行目	Trydedd llinell y hysbysiad
+プライバシーポリシーのリンクの右側に表示されます	Bydd yn ymddangos i'r dde o'r ddolen i'r Polisi Preifatrwydd.
+非EU向け確認の文字列	Testun cadarnhau ar gyfer gwledydd y tu allan i'r UE
+EU GDPR向け同意するの文字列	Testun cydsyniad ar gyfer GDPR yr UE
+EU GDPR向け同意しないの文字列	Testun ar gyfer 'Peidio â chydsynio' o dan GDPR yr UE
+プライバシーポリシーの文字列	Testun y polisi preifatrwydd
+プライバシーポリシーのURLはこちらから設定して下さい	Os gwelwch yn dda, gosodwch yr URL ar gyfer y polisi preifatrwydd yma.
+プライバシーポリシーには以下の内容を追加して下さい	Ychwanegwch y canlynol at y Polisi Preifatrwydd.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Er mwyn canfod gweithgarwch twyllodrus, caiff adnabyddwyr fel cyfeiriadau IP eu storio mewn cwcis a'r gronfa ddata. Caiff y data a storir ei ddileu yn ôl disgresiwn y gweinyddwr.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Er mwyn sicrhau bod delweddau'n cael eu danfon yn gywir dim ond pan fydd amddiffyn delweddau wedi'i alluogi, rydym yn storio data wedi'i hasio sy'n cynnwys y cyfeiriad IP ac enw ffeil y ddelwedd yn y gronfa ddata am hyd at 60 munud.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Os ydych chi'n sefydlu Telerau Defnyddio, sicrhewch eich bod yn cynnwys dolen iddynt yn eich Polisi Preifatrwydd.
+利用規約の文字列	Testun y Telerau Defnyddio
+利用規約のページ	Tudalennau Telerau ac Amodau
+ページ選択なし	Dim tudalen wedi'i dewis
+検索エンジン等のURL	URLau ar gyfer peiriannau chwilio, ac ati.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Gosodwch yr URL ar gyfer peiriannau chwilio a gwefannau tebyg sy'n ailgyfeirio defnyddwyr pan na roddir cydsyniad.
+デバッグモード、コンソールの警告メッセージ	Modd dadfygio, negeseuon rhybudd y consol
+右クリックの警告メッセージ	Neges rybudd clicio-de
+印刷、PDF保存の警告メッセージ	Neges rybuddio ynglŷn â argraffu a chadw fel PDF
+スクリーンショットの警告メッセージ	Neges rybudd yn y sgrinlun
+スクリーンショットの疑いの警告メッセージ	Neges rybudd ynghylch sgrinluniau a amheuir
+テキスト全選択時の警告メッセージ	Neges rybudd pan fydd yr holl destun wedi'i ddewis
+ページ保存の警告メッセージ	Neges rybudd ynglŷn â chadw'r dudalen
+コピー・カットした時に表示するメッセージ	Neges a ddangosir wrth gopïo neu dorri
+HTMLソース表示時に表示するメッセージ	Neges i'w dangos wrth weld ffynhonnell HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Neges i'w harddangos ar frig y cod ffynhonnell wrth amwysáu neu amddiffyn HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Neges i'w harddangos os yw'r tocyn dilysu untro yn annilys yn ystod amddiffyniad HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Neges i'w dangos os yw cwcis neu JavaScript wedi'u hanalluogi
+実際にはJavascriptが無効時のみ表示されます	Mewn gwirionedd, dim ond pan fydd JavaScript wedi'i analluogi y caiff hyn ei arddangos.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Pan amddiffynnir delwedd, caiff ei lawrlwytho, a dangosir neges ar y ddelwedd honno
+HTML難読化 (圧縮)	Cymylu
+一般的なHTML圧縮です、難読化解除のサイトもあります	Dyma gywasgu HTML safonol; mae yna hefyd wefannau sy'n gallu ei ddatgodio.
+このオプションを有効にするとview-sourceのログが取得できます	Mae galluogi'r opsiwn hwn yn caniatáu i chi adfer log ffynhonnell y golwg.
+HTML保護	Amddiffyniad HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Mae'n allbwnio'r isafswm llwyr o HTML—hyd yn oed llai na wrth ddefnyddio cywasgu HTML—ac nid yw'r cynnwys o fewn y tag BODY yn cael ei allbwnio o gwbl.
+Firefoxに対しては無効です	Nid yw hyn yn berthnasol i Firefox.
+SEOに著しく影響があります	Mae hyn yn cael effaith sylweddol ar SEO.
+HTMLをJavaScriptで描画	Renderio HTML gan ddefnyddio JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	I weithio o amgylch Firefox, rydym yn rendro'r HTML gan ddefnyddio JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Bydd galluogi rendro JavaScript yn arafu cyflymder llwytho'r wefan yn sylweddol.
+画像の保護	Amddiffyn delwedd
+imgタグが呼び出されるごとに画像を保護	Amddiffyn y ddelwedd bob tro y gelwir y tag img.
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Diogelu'r holl ddelweddau a uwchlwythir i WordPress o fewn yr allbwn HTML cyfan.
+画像をダウンロードから保護します	Yn amddiffyn delweddau rhag cael eu lawrlwytho
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Pan amddiffynnir data delweddau, rydym yn atal bron pob lawrlwythiad, yn cyhoeddi URLau untro unigryw, yn dilysu gan ddefnyddio tocynnau a storir yn y sesiwn, ac yn arddangos y delweddau drwy PHP; mae hyn yn atal bron pob achos o ladrata delweddau yn effeithiol.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Pan amddiffynnir data delweddau, nid yw'r storfa'n gweithio, sy'n golygu y bydd y wefan yn llwytho'n arafach ar ymweliadau dilynol, a thrwy hynny'n effeithio ar SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Gall diogelu data delweddau gynyddu'r llwyth ar y gronfa ddata.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Os dewiswch 'Diogelu delweddau pryd bynnag y gelwir tag img', mae'r system yn defnyddio add_filter i gymhwyso hidlo pan fydd y tag img yn cael ei gynhyrchu; fodd bynnag, efallai na fydd hyn yn gweithio'n gywir gyda rhai themâu.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Os dewiswch 'Diogelu pob delwedd a lwythir i WordPress o fewn yr allbwn HTML cyfan', bydd yr ategyn yn dal bron pob gweithrediad WordPress ac yn prosesu pob tag img o fewn y cynnwys. Noder efallai na fydd hyn yn gweithio'n gywir gyda rhai themâu.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Noder y bydd delweddau a ddynodir fel delweddau dan sylw yn cael eu rhannu fel data OGP ac na ellir eu diogelu. Os oes rhaid i chi eu diogelu, newidiwch y gosodiad ar gyfer allbwn tag HEAD yn y gosodiadau uwch wrth alluogi diogelwch HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Ni ellir diogelu'r swyddogaeth sgrinlun sydd wedi'i hymgorffori yn y system weithredu.
+画像URLの保護	Diogelu URLau delweddau
+画像の保護と組み合わせて使用します、単体では意味がありません	Dylid defnyddio hwn ar y cyd â diogelu delweddau; ar ei ben ei hun, nid yw'n gwasanaethu unrhyw bwrpas.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Gan ei fod yn llwytho'n ddiog drwy JavaScript, mae hyn yn effeithio ar SEO.
+画像のウォーターマーク	Dŵrnod delwedd
+右下	Gwaelod dde
+ランダム位置	Safle ar hap
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Wedi'u defnyddio ar y cyd â diogelu delweddau, mae dyfrnodau deinamig yn nodi perchnogaeth hawlfraint yn glir, gan roi'r argraff i wylwyr eu bod yn cael eu monitro, a thrwy hynny'n gweithredu fel ataliad.
+JPG形式、PNG形式、WebP形式のみ対応します	Dim ond fformatau JPG, PNG a WebP sy'n cael eu cefnogi.
+有効にするとサーバーの負荷が高くなります	Bydd galluogi hyn yn cynyddu'r llwyth ar y gweinydd.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Allbwnu celf ASCII o god ffynhonnell HTML yn ystod cymylu a diogelu HTML
+表示なし	Dim arddangosfa
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Arddangos celf ASCII sy'n dangos rhybudd wrth edrych ar ffynhonnell yr HTML gan ddefnyddio 'view-source'.
+対象アクションを起こした時の表示デザイン	Dangos y dyluniad pan gyflawnir y weithred darged
+黄色の背景の黒文字のベーシックデザイン	Dyluniad sylfaenol yn cynnwys testun du ar gefndir melyn.
+黒色の背景の赤文字のホラー風デザイン	Dyluniad arswyd-arddull yn cynnwys testun coch ar gefndir du
+黒色の背景の赤文字の光る文字のデザイン	Dyluniad yn cynnwys testun coch llachar ar gefndir du
+対象アクションを起こした時のBGM	Cerddoriaeth gefndir sy'n chwarae pan gyflawnir y weithred darged.
+サウンドなし	Dim sain
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Brwydr a Fuddugoliaeth - 1 munud 16.3 eiliad - 630,056 bait - 64 kbps - Trwydded: CC 2.1 neu'n ddiweddarach
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Short - 3.8 eiliad - 32,364 bait - 64 kbps - Trwydded: GPL 2.0 neu'n ddiweddarach
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23.5 eiliad - 195,578 bait - 64 kbps - Trwydded: GPL 2.0 neu'n ddiweddarach
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 Rhif 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Étude Op. 10 Rhif 12 'Chwyldro' gan Chopin – Fersiwn wedi'i gynhyrchu gan gyfrifiadur, cyflym – 1 munud 57.6 eiliad – 724,457 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n hwyrach
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo mewn B-fflat minor, Op. 2 – Fersiwn wedi'i gynhyrchu gan gyfrifiadur, fersiwn briodol cyflym – 1 munud 48.0 eiliad – 665,369 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n ddiweddarach
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Rhestr: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – fersiwn wedi'i gynhyrchu gan gyfrifiadur, fersiwn briodol cyflym – 1 munud 51.6 eiliad – 687,586 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n ddiweddarach
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare – 22.3 eiliad – 183,926 bait – 64 kbps – Trwydded: Parth Cyhoeddus
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Gorymdeithfaner arddull retro – 2.2 eiliad – 10,536 bait – 32 kbps – Trwydded: Parth Cyhoeddus
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Cyflwyniad arddull retro – 42.1 eiliad – 179,138 bait – 32 kbps – Trwydded: Parth Cyhoeddus
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Rhybudd gan ChatGPT - 3.8 eiliad - 109,700 bait - 256 kbps - Trwydded: Parth Cyhoeddus
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Sain brys uchel fel rhybudd canfod meddalwedd faleisus – Rhan 1 gan ChatGPT – 3.3 eiliad – 102,850 bait – 256 kbps – Trwydded: Parth Cyhoeddus
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Sain brys uchel fel rhybudd canfod meddalwedd faleisus, Rhan 2 gan ChatGPT - 3.3 eiliad - 103,122 bait - 256 kbps - Trwydded: Parth Cyhoeddus
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Sain arddull MRI gan ChatGPT – 1 munud 14.9 eiliad – 3,340,392 bait – 320 kbps – Trwydded: Parth Cyhoeddus
+警告表示中のBGMを選択します	Dewiswch y gerddoriaeth gefndir i'w chwarae yn ystod rhybudd.
+びっくりするような雰囲気を作ります	Mae'n creu awyrgylch syfrdanol
+Firefoxでは音声ブロックされます	Mae sain wedi'i rhwystro yn Firefox.
+対象アクションを起こした時のビープ音	Bîp pan gyflawnir y weithred benodol
+有効 音量小さ目	Ymlaen, sain isel
+有効 音量大き目	Gweithredol, sain uchel
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Bydd bip yn seinio mewn ymateb i bob digwyddiad bysell a llygoden tra bydd rhybudd yn cael ei arddangos.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Mae'n creu'r argraff bod y ddyfais wedi mynd o reolaeth tra bod y rhybudd yn cael ei arddangos.
+対象アクションを起こした時のマウスカーソルの消去	Cuddio cyrchwr y llygoden pan gyflawnir gweithred benodol
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Cuddio cyrchwr y llygoden yn ardal y porwr tra bod rhybudd yn cael ei arddangos.
+デバッグモード	Modd dadfygio
+妨害＋記録のみ	Ymyrraeth + Cofnodion yn unig
+妨害＋記録＋表示＋リダイレクト	Ymyriad + Cofnodi + Arddangos + Ailgyfeirio
+メニューからは操作できてしまいます	Gallwch chi ddal i gael mynediad ato drwy'r ddewislen.
+Firefoxにおけるデバッグモード	Modd dadfygio yn Firefox
+ブラウザーコンソール	Consol porwr
+事実上デバッグモードから操作できてしまいます	I bob pwrpas, gallwch ei weithredu o'r modd dadfygio.
+HTMLソース表示	Gweld ffynhonnell HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Gallwch chi gyflawni'r weithred yn syml drwy nodi URL sy'n dechrau gyda 'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Gallwch amddiffyn eich cynnwys drwy gyfuno hyn ag amddiffyniad HTML.
+印刷	Argraffu
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Er ei fod yn atal argraffu, efallai na fydd yn gweithio'n iawn mewn rhai porwyr.
+スクリーンショット	Sgrinlun
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Yn dibynnu ar y system weithredu, y porwr neu'r dull a ddefnyddir, efallai na fydd yn bosibl rhwystro hyn, neu efallai na chaiff ei ganfod.
+ウインドウが背面に移動した時スクリーンショットの疑い	Sgrinlun tybiedig pan fydd y ffenestr yn symud i'r cefndir
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Mae hefyd yn ymateb i swyddogaethau heblaw sgrinluniau
+2キー押下のスクリーンショットの疑い	Sgrinlun a dynnwyd, yn ôl pob tebyg, drwy wasgu dau fysell
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Nid yw'r dulliau canfod ar gyfer yr eitemau uchod yn ddi-fai; cynhelir canfod fel mesur rhagofalus.
+スクリーンショットだけではなく、デバッグモード等も検出します	Mae'n canfod nid yn unig sgrinluniau ond hefyd moddau dadfygio a'r tebyg.
+ページ保存	Cadw'r dudalen
+右クリック	Clic-de
+アドオンがインストールされていると操作できてしまいます	Os yw'r ychwanegyn wedi'i osod, byddwch yn gallu ei ddefnyddio.
+コピー・カット	Copïo a thorri
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Yn dibynnu ar osodiadau'r ategyn hwn, efallai y byddwch yn anaml yn dod ar draws y digwyddiad hwn.
+テキスト全選択	Dewiswch yr holl destun
+テキスト選択	Dewiswch destun
+デバッガー起動ログ、デバッガー妨害	Log cychwyn dadfygydd, ymyrraeth dadfygydd
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Mae hyn yn gwneud y modd dadfygio ychydig yn llai hawdd ei ddefnyddio ac yn cofnodi'r ffaith bod y dadfygydd wedi'i lansio; fodd bynnag, gallai rhai porwyr flocio'r ymddygiad hwn.
+リダイレクトするURL	Ailgyfeirio URL
+利用規約などのページに転送すると良いでしょう	Byddai'n syniad da ailgyfeirio defnyddwyr i dudalennau fel y Telerau Defnyddio.
+空欄にすると元のURLにリダイレクトをします	Os gadewir yn wag, bydd yn ailgyfeirio i'r URL gwreiddiol.
+リダイレクトまでの時間	Amser tan ailgyfeirio
+リダイレクトなし	Dim ailgyfeirio
+1秒	1 eiliad
+2秒	2 eiliad
+3秒	3 eiliad
+4秒	4 eiliad
+5秒	5 eiliad
+6秒	Chwe eiliad
+7秒	Saith eiliad
+8秒	Wyth eiliad
+9秒	9 eiliad
+10秒	10 eiliad
+15秒	15 eiliad
+20秒	20 eiliad
+25秒	25 eiliad
+30秒	30 eiliad
+35秒	35 eiliad
+40秒	40 eiliad
+45秒	45 eiliad
+50秒	50 eiliad
+55秒	55 eiliad
+1分	1 funud
+1分10秒	1 munud 10 eiliad
+1分20秒	1 munud 20 eiliad
+1分30秒	1 munud 30 eiliad
+1分40秒	1 munud 40 eiliad
+1分50秒	1 munud 50 eiliad
+2分	2 funud
+ソース表示を許可する権限	Caniatâd i weld y cod ffynhonnell
+ADMINログイン時のみ通常のソース出力	Allbwn ffynhonnell arferol dim ond pan fyddwch wedi mewngofnodi fel ADMIN
+USERログインで通常のソース出力	Allbwn ffynhonnell arferol wrth fewngofnodi fel DEFNYDDIWR
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Dewiswch a yw allbwn HTML safonol wedi'i gyfyngu i weinyddwyr yn unig neu a yw'n gofyn am fewngofnodi defnyddiwr.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Gorfodi delwedd i'w lawrlwytho a'r hyn sy'n cael ei lawrlwytho mewn gwirionedd
+GIF形式で1×1ピクセルの透過画像	Delwedd dryloyw 1×1 picsel mewn fformat GIF
+PNG形式で1×1ピクセルの透過画像	Delwedd dryloyw 1×1 picsel mewn fformat PNG
+PNG形式で黄色い背景の警告画面	Sgrin rybuddio gyda chefndir melyn mewn fformat PNG
+意味のないHTMLドキュメント	Dogfen HTML ddiystyr
+HTML保護時のHEADタグの出力	Allbwn y tag HEAD pan fo HTML wedi'i warchod
+出力しない	Peidiwch â argraffu
+TITLEタグのみ	Tag teitl yn unig
+WordpressのHEADタグより取得	Adalwyd o dag HEAD WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Ar gyfer tudalennau i aelodau yn unig at ddefnydd corfforaethol a thudalennau mewnol, dylai dewis 'Peidio ag allbwn' neu 'Tag TITLE yn unig' fod yn ddigon.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Oni bai eich bod yn adalw'r wybodaeth o dag PEN WordPress, ni fydd y ddelwedd OGP yn cael ei dangos wrth rannu ar y cyfryngau cymdeithasol.
+画像botをアクセス禁止にする	Blocio'r bot delweddau
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Drwy atal botiau delwedd rhag cael mynediad at HTML, gallwch ddiogelu cynnwys na ellid ei ddiogelu rhag cysylltu'n uniongyrchol drwy chwilio am ddelweddau; fodd bynnag, nid yw hyn yn darparu ateb cyflawn.
+AI学習用botをアクセス禁止にする	Blocio mynediad i'r bot hyfforddi AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Drwy osgoi defnyddio botiau a gynlluniwyd ar gyfer hyfforddi AI ar HTML, rydym yn sicrhau nad yw'r cynnwys yn cael ei ddefnyddio gan AI; fodd bynnag, ni ellir atal hyn yn llwyr.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Llywio mynediad i archifau gwe a lluniau sgrin o'r we
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Rydym yn gwahardd mynediad i archifau gwe a gesglir yn awtomatig a sgrinluniau a dynnwyd yn ôl disgresiwn y defnyddiwr; fodd bynnag, ni allwn atal hyn yn llwyr.
+無効なUAをアクセス禁止にする	Blocio asiantau defnyddiwr annilys
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Yn atal mynediad os yw llinyn yr asiant defnyddiwr yn cynnwys cymeriadau annilys
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Arddangos rhybudd wrth fynediad i Internet Explorer a'r hen Microsoft Edge
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Yn atal mynediad drwy Internet Explorer a'r hen Microsoft Edge
+alertメッセージを表示する言語	Iaith ar gyfer arddangos negeseuon rhybudd
+Wordpressの言語	Ieithoedd WordPress
+ブラウザの設定言語	Gosodiadau iaith y porwr
+メッセージをカスタム設定されている場合は言語を変更できません	Ni allwch newid yr iaith os yw'r negeseuon wedi'u haddasu.
+同意画面の言語	Iaith y sgrin gydsyniad
+view-sourceメッセージを表示する言語	Iaith i arddangos y neges 'view-source'
+一時使用トークンの有効期限	Dyddiad dod i ben tocynnau dros dro
+3分	3 munud
+4分	Pedair munud
+5分	Pum munud
+6分	Chwe munud
+7分	Saith munud
+8分	Wyth munud
+9分	9 munud
+10分	Deg munud
+15分	Pymtheg munud
+20分	Ugain munud
+25分	25 munud
+30分	30 munud
+35分	35 munud
+40分	Deugain munud
+45分	Pedwar deg pump munud
+50分	50 munud
+55分	55 munud
+1時間	Un awr
+画像URL情報の有効期限を設定します	Gosodwch y dyddiad dod i ben ar gyfer gwybodaeth URL delwedd.
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Unwaith y bydd wedi'i lwytho, bydd URL y ddelwedd a'r tocyn dros dro yn cael eu di-ddilysu.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Caiff delweddau eu llwytho ar alw, ond fe'u llwythir yn awtomatig 30 eiliad cyn yr amser penodedig.
+一時使用トークンのビット数	Nifer y bitiau mewn tocyn dros dro
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Defnyddir tocyn dros dro fel cyfrinair i amgryptio gwybodaeth URL delwedd; mae'r gosodiad hwn yn pennu ei gryfder.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Er bod y dewisiadau a ddangosir o dan y ddewislen ostwng yn mynd yn fwyfwy manwl, gall hyn roi llwyth trwm ar y gweinydd ac arwain at drosglwyddo swm mawr o ddata HTML.
+ハッシュ化アルゴリズム	Algorithm haes
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Defnyddir tocyn dros dro fel cyfrinair i amgryptio gwybodaeth URL delwedd; mae hyn yn gofyn am haesio, ac mae'r gosodiad hwn yn pennu cryfder yr haesio hwnnw.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Er bod y dwysedd yn cynyddu wrth i chi symud i lawr y rhestr o opsiynau a ddangosir yn y ddewislen ostwng, mae hyn yn rhoi llwyth mwy ar y gweinydd.
+基本設定	Gosodiadau sylfaenol
+高度な設定	Gosodiadau uwch
+初期設定に戻す	Adfer gosodiadau diofyn
+デザイン・音の設定	Dyluniad a gosodiadau sain
+イベントの設定	Gosodiadau digwyddiad
+初回訪問時のお知らせの設定	Sefydlu hysbysiadau ar gyfer ymweliadau cyntaf
+メッセージの設定	Gosodiadau neges
+右クリックやソースコード表示時に転送する URL を設定します	Gosodwch yr URL i'w agor wrth dde-glicio neu wrth weld y cod ffynhonnell.
+警告メッセージにはHTMLは使用できません	Ni ellir defnyddio HTML mewn negeseuon rhybudd.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Os byddwch yn ffurfweddu hwn ar y sgrin hon, anwybyddir y gosodiadau iaith yn y tab Uwch.
+以下の文字列が使用できます	Gellir defnyddio'r llinynnau canlynol
+改行	Torri llinell
+押下されたキー	Allwedd wedi'i wasgu
+Neo HTML Protector 設定	Gosodiadau Neo HTML Protector
+お知らせ	Hysbysiad
+メッセージ	Neges
+デザイン・音	Dylunio a Sain
+初期化	Cychwyniad
+このプラグインについて	Ynghylch yr ategyn hwn
+設定が初期化されました	Mae'r gosodiadau wedi'u hailosod
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Cychwynnwch y plugin. Noder na fydd data'r Darllenydd Logiau IP yn cael ei ddileu ar y cam hwn.
+Neo HTML Protectorについて	Ynghylch Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Mae'r ategyn hwn wedi'i ddylunio i amddiffyn yr HTML, y delweddau a chynnwys arall a gynhyrchir gan eich gwefan WordPress, gan ei ddiogelu rhag defnydd heb awdurdod.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Mae'n amhosibl diogelu cynnwys yn llwyr. Fodd bynnag, drwy gyhoeddi rhybuddion lle bynnag y bo modd a gwneud paratoadau rhag ofn y bydd unrhyw beth yn digwydd, dylem allu datrys y mater yn unol â'r gweithdrefnau a osodwyd gan y llywodraeth.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Wrth gwrs, bydd angen i chi sicrhau bod eich telerau ac amodau a pholisi'r wefan yn gynhwysfawr. Er nad yw'r ategyn hwn yn offeryn ar gyfer cynhyrchu telerau ac amodau, gall ddarparu rhywfaint o arweiniad.
+開発者: 夜桜　なの	Datblygwr: Nano Yozakura
+バージョン	Fersiwn
+ビルド	Adeiladu
+サポートページ	Tudalen gymorth
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Perfformiwyd gan Miss Ura Manira
+支援のお願い	Cais am gymorth
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Diolch am ddefnyddio Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Mae datblygu a chynnal a chadw'r ategyn hwn wedi gofyn am lawer iawn o amser ac ymdrech, ac er mwyn codi arian i barhau i'w wella a'i ddiweddaru, byddem yn ddiolchgar pe bai unrhyw un sy'n gallu ein cefnogi yn ystyried rhoi rhodd.
+寄付について	Ynghylch Rhoddion
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Mae rhoddion yn gwbl wirfoddol ac nid ydynt yn orfodol. Mae'r ategyn ar gael i bawb yn rhad ac am ddim. Fodd bynnag, gwerthfawrogir eich cefnogaeth yn fawr i'n helpu i barhau â'r gwaith datblygu, a byddem yn falch iawn pe gallech gyfrannu beth bynnag y gallwch.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Gallwch wneud rhodd drwy'r ddolen isod. Os ydych chi'n byw yn Japan, gallwch roi'n rhad ac am ddim, a gallwch hefyd roi'n hawdd gan ddefnyddio talebau rhodd Amazon.
+寄付先	Elusennau
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Gyda'ch cefnogaeth, fe wnawn ein gorau i barhau i ddod â diweddariadau gwych i chi!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Rydym yn ddiolchgar am eich cefnogaeth ac edrychwn ymlaen at eich cefnogaeth barhaus yn y dyfodol.
+ライセンス	Trwydded
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Mae'r ategyn hwn wedi'i ddatblygu fel meddalwedd cod agored ac mae wedi'i drwyddedu o dan y GPLv2.0 neu fersiwn ddiweddarach.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Mae rhai o'r technolegau sydd wedi'u cynnwys yn yr ategyn hwn wedi'u diogelu gan batentau.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Caniateir defnyddio'r dechnoleg batentiedig yn unig o fewn yr ategyn hwn.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Ar gyfer unrhyw ddefnydd arall, cysylltwch â'r awdur i gael trwydded fasnachol.
+本プラグインには以下のライブラリを同梱しています	Mae'r ategyn hwn yn cynnwys y llyfrgelloedd canlynol
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Mae'r ategyn hwn yn cynnwys y ffontiau celf ASCII a gynhyrchwyd isod, ynghyd â'r ffeiliau ffont.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Mae'r ategyn hwn yn cynnwys cerddoriaeth o'r gêm Super Famicom anfoddog 'SM Trainer Hitomi 3', a ddatblygwyd gan EJ Co., Ltd. ac a gyfansoddwyd gan greawdwr yr ategyn hwn, ac mae wedi'i drwyddedu'n swyddogol.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Mae'r ategyn hwn yn cynnwys traciau a grëwyd gan ddefnyddio 'Keppy's YAMAHA C7', a ddatblygwyd gan Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Rwyf hefyd wedi defnyddio Raspberry Pi 5, ChatGPT a DeepL wrth ddatblygu'r ategyn hwn.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Mae ategyn storio wedi'i ganfod. Ni fydd yr ategyn hwn yn gweithio'n gywir os yw ategyn storio wedi'i alluogi.
+無効なIPアドレス	Cyfeiriad IP annilys
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	I ddefnyddio'r wefan hon, rhaid i chi alluogi cwcis a JavaScript.
+利用規約	Telerau Defnyddio
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Er mwyn atal defnydd heb awdurdod a sicrhau gweithrediad diogel ein gwasanaethau, gall y wefan hon storio gwybodaeth fel cyfeiriadau IP, hanes pori a chofnodion gweithgarwch mewn cwcis a chronfeydd data. Defnyddir y wybodaeth hon ar gyfer gweithredu'r wefan ac at ddibenion cyfreithiol yn unig, ac ni fydd yn cael ei datgelu i drydydd partïon.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	I ddefnyddio'r gwasanaeth hwn, rhaid i chi gydsynio i'r gweithgareddau prosesu hyn.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Gallwch weld cynnwys y Polisi Preifatrwydd, p'un a ydych wedi rhoi eich caniatâd ai peidio.
+同意する	Rwy'n cytuno
+同意しない	Dw i'n anghytuno
+確認	Cadarnhad
+プライバシーポリシー	Polisi Preifatrwydd
+通常とは異なる方法でのアクセスや操作が検出されました	Canfuwyd mynediad neu weithgarwch anarferol.
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Mae rhai nodweddion wedi'u cyfyngu at ddibenion diogelwch a diogelu cynnwys.
+デバッグモード、コンソールの起動は禁止されています	Mae modd dadfygio a mynediad i'r consol wedi'u hanalluogi.
+以下の情報がサーバーに送信されました	Mae'r wybodaeth ganlynol wedi'i hanfon i'r gweinydd
+あなたのIPアドレス	Eich cyfeiriad IP
+あなたの端末とブラウザ	Eich dyfais a'ch porwr
+あなたの押下したキー	Yr allwedd a wasgwyd gennych
+リダイレクトをします	Cewch eich ailgyfeirio
+コンテンツ保護のため一部の機能を制限しています	Mae rhai nodweddion wedi'u cyfyngu i ddiogelu'r cynnwys.
+右クリックは禁止されています	Nid yw clicio â'r dde yn cael ei ganiatáu.
+あなたが押下したキー	Yr allwedd a wasgwyd gennych
+印刷、PDFへの保存は禁止されています	Gwaherddir argraffu a chadw fel PDF.
+スクリーンショットは禁止されています	Gwaherddir sgrinluniau.
+スクリーンショット、デバッグモード等の起動は禁止されています	Gwaherddir cymryd sgrinluniau ac alluogi modd dadfygio.
+ページの保存は禁止されています	Gwaherddir cadw'r dudalen hon
+コピー、カットは禁止されています	Gwaherddir copïo a thorri.
+あなたが起こしたイベント	Digwyddiadau rydych wedi'u trefnu
+テキストの選択は禁止されています	Nid yw'n bosibl dewis testun.
+HTMLソース表示は禁止されています	Gwaherddir dangos cod ffynhonnell HTML.
+不正アクセスは禁止されています	Gwaherddir mynediad heb awdurdod.
+アフリカーンス語	Affricans
+アラゴン語	Aragonesa
+アラビア語	Arabeg
+アッサム語	Asameg
+アゼルバイジャン語	Aserbaijaneg
+バシュキール語	Bashkir
+ベラルーシ語	Bieloruseg
+ベンガル語	Bengalaidd
+ブルガリア語	Bwlgariaidd
+ボスニア語	Bwsnaidd
+カタロニア語	Catalanaidd
+チェコ語	Tsieceg
+デンマーク語	Daneg
+ドイツ語	Almaeneg
+現代ギリシア語	Groeg fodern
+英語	Saesneg
+イギリス英語	Saesneg Prydeinig
+アメリカ英語	Saesneg Americanaidd
+エスペラント語	Esperanto
+スペイン語	Sbaeneg
+エストニア語	Estonaidd
+バスク語	Basgeg
+ペルシャ語	Persaidd
+フィンランド語	Ffinnaidd
+フランス語	Ffrangeg
+アイルランド語	Gwyddelig
+ガリシア語	Galisaidd
+グァラニ語	Guaraní
+グジャラート語	Gwjarati
+ハウサ語	Tsie
+ヘブライ語	Hebraeg
+ヒンディ語	Hindî
+クロアチア語	Croateg
+ハイチ・クレオール語	Criôl Haitian
+ハンガリー語	Hwngaraidd
+インドネシア語	Indonesieg
+イボ語	Iaith Ibo
+アイスランド語	Iselandi
+イタリア語	Eidalaidd
+日本語	Siapaneaidd
+ジャワ語	Jawine
+カザフ語	Casar
+朝鮮語	Coreanaidd
+クルド語	Cwrdaidd
+キルギス語	Cyrgystanaidd
+ラテン語	Lladin
+ルクセンブルク語	Lwcsembwrgeg
+リンガラ語	Pysgodyn
+リトアニア語	Lithwanaidd
+ラトビア語	Latfieg
+マダガスカル語	Malaig
+マオリ語	Māori
+マケドニア語	Macedonaidd
+マラヤーラム語	Malayalameg
+モンゴル語	Mongolaidd
+マラーティー語	Maraffî
+マレー語	Malay
+マルタ語	Maltes
+ビルマ語	Bwrmaidd
+ネパール語	Nepalaidd
+ノルウェー語	Norwyeg
+オランダ語	Iseldiraeg
+オック語	Ocitan
+オロモ語	Neu
+パンジャーブ語	Pwnjabi
+ポーランド語	Gwydr
+パシュトー語	Pashto
+ポルトガリア語	Portiwgaleg
+ブラジルポルトガル語	Portiwgaleg Brasil
+ヨーロピアンポルトガル語	Portiwgaleg Ewropeaidd
+ケチュア語	Peched
+ルーマニア語	Rwmanaidd
+ロシア語	Rwsieg
+サンスクリット語	Lladin
+スロバキア語	Slofaca
+スロベニア語	Slofeneg
+セルビア語	Serbiaidd
+南セソト語	De Sesotho
+スンダ語	Sundaeseg
+スウェーデン語	Swedaidd
+スワヒリ語	Swahili
+タミル語	Tamileg
+テルグ語	Telwgi
+タジク語	Tajic
+タイ語	Talaidd
+トルクメン語	Twrcaidd
+タガログ語	Tagalog
+トルコ語	Twrcaidd
+タタール語	Tatar
+ウクライナ語	Wcreiniaidd
+簡体中国語	Tsieinëeg symlach
+繁体中国語	Tsieinëeg draddodiadol
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Mae'r porwr rydych chi'n ei ddefnyddio ar hyn o bryd yn fersiwn hŷn nad oes ei gefnogi mwyach. Er mwyn sicrhau profiad pori mwy diogel a chyfforddus, diweddarwch i'r fersiwn ddiweddaraf o'ch porwr.
+不正なリクエストです	Cais annilys
+画像が見つかりません	Ni chanfuwyd y ddelwedd
+ウェールズ語	Cymraeg
+ウルドゥー語	Wrdw
+ウズベク語	Ozbeg
+ベトナム語	Fietnameg
+コサ語	Gwallt
+イディッシュ語	Iddeweg
+ズールー語	Zulu

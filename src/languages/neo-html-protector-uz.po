@@ -1,0 +1,1292 @@
+# Uzbek translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.4.6\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-05-01 12:35+0900\n"
+"PO-Revision-Date: 2026-05-01 12:37+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Sozlamalar"
+
+msgid "IPログリーダー"
+msgstr "IP Log O'quvchi"
+
+msgid "IPアドレスログ"
+msgstr "IP manzillari logi"
+
+msgid "全クリア"
+msgstr "Barcha bosqichlarni yakunlang"
+
+msgid "IPログが全て削除されました"
+msgstr "Barcha IP jurnallari o'chirildi."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "タイムスタンプ"
+msgstr "Vaqt belgisi"
+
+msgid "IPアドレス"
+msgstr "IP manzili"
+
+msgid "ユーザーエージェント"
+msgstr "Foydalanuvchi agenti"
+
+msgid "イベント"
+msgstr "Tadbir"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Ushbu IP manzil bo'yicha ma'lumot yo'q."
+
+msgid "EU GDPR対応"
+msgstr "Yevropa Ittifoqi GDPRiga muvofiqlik"
+
+msgid "無効"
+msgstr "Noto'g'ri"
+
+msgid "有効"
+msgstr "Amaldor"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Agar siz Yevropa Ittifoqida WordPress'dan foydalanayotgan bo'lsangiz yoki veb-saytingiz Yevropa Ittifoqi foydalanuvchilariga mo'ljallangan bo'lsa, iltimos, buni yoqilganligiga ishonch hosil qiling."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "'Tasdiqlash' tugmasi 'Rozi bo'lish' yoki 'Rozi bo'lmaslik' ga o'zgaradi va xatti-harakat biroz o'zgaradi."
+
+msgid "同意画面の色"
+msgstr "Rozilik ekrani rangi"
+
+msgid "自動"
+msgstr "Avtomatik"
+
+msgid "ライトモード"
+msgstr "Yengil rejim"
+
+msgid "ダークモード"
+msgstr "Qorong'i rejim"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Rozilik ekrani uchun rang sxemasini sozlang"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Ruxsat ekrani mazmunining xiralashishi"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Rozilik ekrani ko'rsatadigan kontent uchun xiralashtirish darajasini belgilang"
+
+msgid "同意画面の透過"
+msgstr "Rozilik ekrani shaffofligi"
+
+msgid "透過なし"
+msgstr "Shaffoflik yo'q"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Rozilik ekrani shaffofligini sozlang"
+
+msgid "お知らせの1行目"
+msgstr "E'lonning birinchi qatori"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Ushbu xabar sahifa birinchi marta yuklanganda har doim ko'rsatiladi."
+
+msgid "お知らせの2行目"
+msgstr "Bildirishnomaning ikkinchi qatori"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Ushbu xabar faqat EU GDPR kuchga kirganda birinchi ekranda doimiy ravishda paydo bo'ladi."
+
+msgid "お知らせの3行目"
+msgstr "Bildirishnomaning uchinchi qatori"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Bu Maxfiylik siyosatiga havolaning o'ng tomonida paydo bo'ladi."
+
+msgid "非EU向け確認の文字列"
+msgstr "Yevropa Ittifoqiga a'zo bo'lmagan mamlakatlar uchun tasdiqlash matni"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Yevropa Ittifoqi GDPR uchun rozilik matni"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Yevropa Ittifoqi GDPR bo'yicha Rozilik bermang matni"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Maxfiylik siyosati matni"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Iltimos, maxfiylik siyosati URL manzilini bu yerga belgilang."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Iltimos, quyidagilarni Maxfiylik siyosatiga qo'shing."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Firibgarlik faoliyatini aniqlash uchun IP-manzillar kabi identifikatorlar cookie-fayllarda va ma'lumotlar bazasida saqlanadi. Saqlangan ma'lumotlar administratorning ixtiyoriga ko'ra o'chirib tashlanadi."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Rasm himoyasi faollashtirilganda rasmlarning to'g'ri yetkazilishini ta'minlash uchun biz IP manzili va rasm fayl nomidan iborat xesh qilingan ma'lumotlarni ma'lumotlar bazasida 60 daqiqagacha saqlaymiz."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Agar siz Foydalanish shartlarini sozlayotgan bo'lsangiz, iltimos, ularga havolani Maxfiylik siyosatingizga kiritganingizga ishonch hosil qiling."
+
+msgid "利用規約の文字列"
+msgstr "Foydalanish shartlari matni"
+
+msgid "利用規約のページ"
+msgstr "Shartlar va qoidalar sahifasi"
+
+msgid "ページ選択なし"
+msgstr "Hech qanday sahifa tanlanmagan"
+
+msgid "検索エンジン等のURL"
+msgstr "Qidiruv tizimlari va boshqalar uchun URL manzillari."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Ruxsat berilmagan hollarda foydalanuvchilarni yo'naltiradigan qidiruv tizimlari va shunga o'xshash saytlar uchun URL manzilini belgilang."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Xatoliklarni tuzatish rejimi, konsol ogohlantirish xabarlari"
+
+msgid "右クリックの警告メッセージ"
+msgstr "O'ng tugma bilan bosish ogohlantirish xabari"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "PDFga chop etish va saqlash bo'yicha ogohlantirish xabari"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Ekran tasviridagi ogohlantirish xabari"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Taxmin qilingan skrinshotlar bo'yicha ogohlantirish xabari"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Barcha matn tanlanganda ogohlantirish xabari"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Sahifani saqlash bo'yicha ogohlantirish xabari"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Ko'chirish yoki kesish paytida ko'rsatiladigan xabar"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "HTML manba kodini ko'rayotganda ko'rsatiladigan xabar"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "HTMLni obfuskatsiya qilish yoki himoya qilish paytida manba kodining yuqori qismida ko'rsatiladigan xabar"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "HTML himoyasi vaqtida bir martalik autentifikatsiya tokeni haqiqiy bo'lmasa ko'rsatiladigan xabar"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Cookie-lar yoki JavaScript o'chirilgan bo'lsa ko'rsatiladigan xabar"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Aslida, bu faqat JavaScript o'chirilganda ko'rsatiladi."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Rasm himoyalanganida, u yuklab olinadi va rasm ustida xabar ko'rsatiladi"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "HTMLni mavhumlashtirish"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Bu standart HTML siqilishi; uni dekompressiya qila oladigan veb-saytlar ham mavjud."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Ushbu opsiyani yoqish sizga view-source logini olish imkonini beradi."
+
+msgid "HTML保護"
+msgstr "HTML himoyasi"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "U faqat eng zarur HTML kodini chiqaradi — HTML siqilganda bo'ladigandan ham kamroq — va BODY tegidagi kontent umuman chiqarilmaydi."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Bu Firefoxga tegishli emas."
+
+msgid "SEOに著しく影響があります"
+msgstr "Bu SEOga sezilarli ta'sir ko'rsatadi."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "JavaScript yordamida HTML renderlash"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "Firefox'ni chetlab o'tish uchun HTMLni JavaScript yordamida render qilamiz."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "JavaScript renderlashni yoqish veb-saytning yuklanish tezligini sezilarli darajada sekinlashtiradi."
+
+msgid "画像の保護"
+msgstr "Rasmni himoya qilish"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Img teg har safar chaqirilganda rasmni himoya qiling"
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "WordPressga yuklangan barcha rasmlarni butun HTML chiqishida himoya qiling"
+
+msgid "画像をダウンロードから保護します"
+msgstr "Rasmlarning yuklab olinishini oldini oladi"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Rasm ma'lumotlari himoyalanganida, biz deyarli barcha yuklab olishlarni oldini olamiz, noyob bir martalik URL-manzillar beramiz, sessiyada saqlangan tokenlar yordamida autentifikatsiya qilamiz va rasmlarni PHP orqali ko'rsatamiz; bu esa rasm o'g'irligining deyarli barcha holatlarini samarali oldini oladi."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Rasm ma'lumotlari himoyalanganida keshlash ishlamaydi, bu esa saytning keyingi tashriflarda sekinroq yuklanishiga va shu bilan SEOga ta'sir qilishiga olib keladi."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Rasm ma'lumotlarini himoya qilish ma'lumotlar bazasiga tushadigan yukni oshirishi mumkin."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Agar siz 'img teg chaqirilganda rasmlarni himoya qilish'ni tanlasangiz, tizim img teg hosil bo'lganda filtrlashni qo'llash uchun add_filter funksiyasidan foydalanadi; ammo bu ba'zi mavzular bilan to'g'ri ishlamasligi mumkin."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Agar siz 'Butun HTML chiqishida WordPressga yuklangan barcha rasmlarni himoya qilish'ni tanlasangiz, plagin deyarli barcha WordPress operatsiyalarini qamrab oladi va kontentdagi har bir img tegini qayta ishlaydi. Iltimos, bu ba'zi mavzular bilan to'g'ri ishlamasligi mumkinligini yodda tuting."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Iltimos, e'tiborga olingki, ajratilgan rasmlar OGP ma'lumotlari sifatida ulashiladi va himoyalanmaydi. Agar ularni albatta himoya qilishingiz kerak bo'lsa, HTML himoyasini yoqishda ilg'or sozlamalarda HEAD tegining chiqishini o'zgartiring."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Operatsion tizimga o'rnatilgan skrinshot funksiyasi himoyalanishi mumkin emas."
+
+msgid "画像URLの保護"
+msgstr "Rasm URL manzillarini himoya qilish"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Bu rasmni himoya qilish bilan birgalikda ishlatilishi kerak; o'zi yolg'iz hech qanday maqsadga xizmat qilmaydi."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "U JavaScript orqali dangasalik bilan yuklanadi, bu esa SEOga ta'sir qiladi."
+
+msgid "画像のウォーターマーク"
+msgstr "Rasmga suv belgisi qo'shish"
+
+msgid "右下"
+msgstr "Pastki o'ng"
+
+msgid "ランダム位置"
+msgstr "Tasodifiy pozitsiya"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Rasmni himoya qilish bilan birgalikda qo'llanganda, dinamik suv belgilar mualliflik huquqi egaligini aniq ko'rsatadi va tomoshabinlarga ular nazorat ostida ekanliklari haqida taassurot uyg'otadi, shu bilan ularni to'xtatib turuvchi vosita bo'lib xizmat qiladi."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Faqat JPG, PNG va WebP formatlari qo'llab-quvvatlanadi."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Buni yoqish server yukini oshiradi."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "HTML manba kodidan ASCII san'atini chiqarish HTMLni obfuskatsiya qilish va himoya qilish jarayonida"
+
+msgid "表示なし"
+msgstr "Ko'rsatish yo'q"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "'view-source' yordamida HTML manbasini ko'rib chiqayotganda ogohlantirishni bildiruvchi ASCII san'atini namoyish etadi."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Maqsadli harakat bajarilganda dizaynni ko'rsating"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Sariq fon ustida qora matndan iborat oddiy dizayn"
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Qora fon ustida qizil matndan iborat dahshat uslubidagi dizayn"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Qora fon ustida porlab turgan qizil matnli dizayn"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Maqsadli harakat bajarilganda ijro etiladigan fon musiqasi"
+
+msgid "サウンドなし"
+msgstr "Ovoz yo'q"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Jang va g'alaba - 1 daqiqa 16,3 soniya - 630 056 bayt - 64 kbps - Litsenziya: CC 2.1 yoki undan keyingi"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3,8 soniya - 32 364 bayt - 64 kbps - Litsenziya: GPL 2.0 yoki undan keyingi"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23,5 soniya - 195 578 bayt - 64 kbps - Litsenziya: GPL 2.0 yoki undan keyingi"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 No. 12 'Inqilob' – kompyuter tomonidan yaratilgan versiya, yuqori tezlikda – 1 daqiqa 57,6 soniya – 724,457 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Si bemol minoridagi Scherzo, Op. 2 – kompyuter tomonidan yaratilgan versiya, yuqori tezlikdagi qisqartirilgan versiya – 1 daqiqa 48,0 soniya – 665 369 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Ro'yxat: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – kompyuterda yaratilgan versiya, yuqori tezlikdagi qisqartirilgan versiya – 1 daqiqa 51,6 soniya – 687 586 bayt – 48 kbps – Litsenziya: CC BY-ND 4.0 yoki undan keyingi"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22,3 soniya – 183 926 bayt – 64 kbps – Litsenziya: Jamoat mulki"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro uslubidagi fanfara – 2,2 soniya – 10 536 bayt – 32 kbps – Litsenziya: Jamoat mulki"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Retro uslubidagi intro – 42,1 soniya – 179 138 bayt – 32 kbps – Litsenziya: Jamoat mulki"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "ChatGPT ogohlantirishi - 3,8 soniya - 109 700 bayt - 256 kbps - Litsenziya: Jamoat mulki"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Yuqori shoshilinchlikdagi, zararli dastur aniqlanganligi ogohlantirishiga o'xshash tovush – 1-qism, ChatGPT tomonidan – 3,3 soniya – 102 850 bayt – 256 kbps – Litsenziya: Jamoat mulki"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Yuqori shoshilinchlikdagi, zararli dastur aniqlash ogohlantirishiga o'xshash tovush, 2-qism, ChatGPT tomonidan - 3,3 soniya - 103 122 bayt - 256 kbps - Litsenziya: Jamoat mulki"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "MRI uslubidagi ovoz ChatGPT tomonidan – 1 daqiqa 14,9 soniya – 3 340 392 bayt – 320 kbps – Litsenziya: Jamoat mulki"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Ogohlantirish paytida ijro etiladigan fon musiqasini tanlang"
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Bu kutilmagan muhit yaratadi"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Firefox'da audio bloklangan."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Belgilangan harakat bajarilganda bip tovushi chiqadi"
+
+msgid "有効 音量小さ目"
+msgstr "Yoqilgan, ovoz past"
+
+msgid "有効 音量大き目"
+msgstr "Faol, hajmi yuqori darajaga o'rnatilgan"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Ogohlantirish ko'rsatilayotgan paytda barcha klaviatura va sichqoncha voqealariga javoban bip tovushi yangraydi."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Ogohlantirish ekranda ko'rsatilayotgan paytda qurilma nazoratdan chiqqandek taassurot paydo bo'ladi."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Muayyan harakat bajarilganda sichqoncha kursorini yashirish"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Ogohlantirish ko'rsatilayotgan paytda brauzer hududida sichqoncha kursorini yashiradi."
+
+msgid "デバッグモード"
+msgstr "Xatoliklarni tuzatish rejimi"
+
+msgid "妨害＋記録のみ"
+msgstr "Faqat aralashuv + yozuvlar"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Aralashuv + Qayd etish + Ko'rsatish + Yo'naltirish"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Siz uni hanuz menyu orqali ochishingiz mumkin."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Firefox'dagi xatoliklarni tuzatish rejimi"
+
+msgid "ブラウザーコンソール"
+msgstr "Brauzer konsoli"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "Amalda, uni xatoliklarni tuzatish rejimidan boshqarishingiz mumkin."
+
+msgid "HTMLソース表示"
+msgstr "HTML manba kodini ko'rish"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Operatsiyani 'view-source:' bilan boshlanadigan URL manzilini kiritish orqali osonlik bilan bajarishingiz mumkin."
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Siz bu usulni HTML himoyasi bilan birlashtirib, kontentingizni himoya qilishingiz mumkin."
+
+msgid "印刷"
+msgstr "Bosma"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Bosishni oldini olsa-da, ba'zi brauzerlarda to'g'ri ishlamasligi mumkin."
+
+msgid "スクリーンショット"
+msgstr "Ekran surati"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Foydalanilayotgan operatsion tizim, brauzer yoki usulga qarab, buni bloklash imkoni bo'lmasligi yoki aniqlanmasligi mumkin."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Deraza fonga o'tganda taxmin qilingan skrinshot"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "U skrinshotlardan tashqari"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Ikki tugmani bosish orqali olingan deb taxmin qilingan skrinshot"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Yuqoridagi elementlarni aniqlash usullari mutlaqo ishonchli emas; aniqlash ehtiyot chorasi sifatida amalga oshiriladi."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "U nafaqat skrinshotlarni, balki debug rejimlari va shunga o'xshashlarni ham aniqlaydi."
+
+msgid "ページ保存"
+msgstr "Sahifani saqlash"
+
+msgid "右クリック"
+msgstr "O'ng tugma bilan bosish"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Agar qo'shimcha o'rnatilgan bo'lsa, undan foydalanishingiz mumkin bo'ladi."
+
+msgid "コピー・カット"
+msgstr "Ko'chirish va kesish"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Ushbu plagin sozlamalariga qarab, siz bu voqeaga kamdan-kam duch kelishingiz mumkin."
+
+msgid "テキスト全選択"
+msgstr "Barcha matnni tanlang"
+
+msgid "テキスト選択"
+msgstr "Matnni tanlang"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Debugger ishga tushirish logi, debugger aralashuvi"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Bu xatoni tuzatish rejimini biroz kamroq foydalanuvchiga qulay qiladi va dekbugger ishga tushirilganini qayd etadi; ammo ba'zi brauzerlar bu xulq-atvorni bloklashi mumkin."
+
+msgid "リダイレクトするURL"
+msgstr "URLni yo'naltirish"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Foydalanuvchilarni Foydalanish shartlari kabi sahifalarga yo'naltirish yaxshi g'oya bo'lardi."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Agar bo'sh qoldirilsa, u asl URL manziliga yo'naltiriladi."
+
+msgid "リダイレクトまでの時間"
+msgstr "Qayta yo'naltirishgacha bo'lgan vaqt"
+
+msgid "リダイレクトなし"
+msgstr "Yo'naltirish yo'q"
+
+msgid "1秒"
+msgstr "1 soniya"
+
+msgid "2秒"
+msgstr "2 soniya"
+
+msgid "3秒"
+msgstr "3 soniya"
+
+msgid "4秒"
+msgstr "4 soniya"
+
+msgid "5秒"
+msgstr "5 soniya"
+
+msgid "6秒"
+msgstr "6 soniya"
+
+msgid "7秒"
+msgstr "7 soniya"
+
+msgid "8秒"
+msgstr "8 soniya"
+
+msgid "9秒"
+msgstr "9 soniya"
+
+msgid "10秒"
+msgstr "10 soniya"
+
+msgid "15秒"
+msgstr "15 soniya"
+
+msgid "20秒"
+msgstr "20 soniya"
+
+msgid "25秒"
+msgstr "25 soniya"
+
+msgid "30秒"
+msgstr "30 soniya"
+
+msgid "35秒"
+msgstr "35 soniya"
+
+msgid "40秒"
+msgstr "40 soniya"
+
+msgid "45秒"
+msgstr "45 soniya"
+
+msgid "50秒"
+msgstr "50 soniya"
+
+msgid "55秒"
+msgstr "55 soniya"
+
+msgid "1分"
+msgstr "1 daqiqa"
+
+msgid "1分10秒"
+msgstr "1 daqiqa 10 soniya"
+
+msgid "1分20秒"
+msgstr "1 daqiqa 20 soniya"
+
+msgid "1分30秒"
+msgstr "1 daqiqa 30 soniya"
+
+msgid "1分40秒"
+msgstr "1 daqiqa 40 soniya"
+
+msgid "1分50秒"
+msgstr "1 daqiqa 50 soniya"
+
+msgid "2分"
+msgstr "2 daqiqa"
+
+msgid "ソース表示を許可する権限"
+msgstr "Manba kodini ko'rishga ruxsat"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Oddiy manba chiqishi faqat ADMIN sifatida tizimga kirganda ishlaydi"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Foydalanuvchi sifatida tizimga kirganda normal manba chiqishi"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Standart HTML chiqishini faqat administratorlarga cheklash yoki foydalanuvchi kirishini talab qilishni tanlang."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Rasmni majburan yuklab olish va aslida nima yuklab olinadi"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "GIF formatidagi 1×1 pikselli shaffof rasm"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "PNG formatidagi 1×1 pikselli shaffof rasm"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "PNG formatidagi sariq fonli ogohlantirish ekrani"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Ma'nosiz HTML hujjati"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "HTML himoyalangan bo'lganda HEAD tegining chiqishi"
+
+msgid "出力しない"
+msgstr "Bosma qilma"
+
+msgid "TITLEタグのみ"
+msgstr "Faqat TITLE teg"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "WordPress HEAD tegidan olindi"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Korporativ foydalanish uchun faqat a'zolarga mo'ljallangan sahifalar va ichki sahifalar uchun 'Chiqarmaslik' yoki 'Faqat TITLE tegini ko'rsatish'ni tanlash yetarli bo'ladi."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Agar siz WordPress HEAD tegidan ma'lumotni olmagan bo'lsangiz, ijtimoiy tarmoqlarda ulashganda OGP tasviri ko'rsatilmaydi."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Rasm botini bloklang"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Rasm botlarining HTMLga kirishini oldini olish orqali rasm qidiruvi orqali to'g'ridan-to'g'ri havolalashdan himoya qilib bo'lmagan kontentni himoya qilishingiz mumkin; ammo bu to'liq yechim emas."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "AI o'quv botiga blok orqali kirishni taqiqlash"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "HTMLda sun'iy intellektni o'qitish uchun mo'ljallangan botlardan foydalanishni chetlab o'tish orqali kontentning sun'iy intellekt tomonidan ishlatilmasligini ta'minlaymiz; biroq buni to'liq oldini olish mumkin emas."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Veb-arxivlar va veb-snapshotlarga kirishni bloklang"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Biz foydalanuvchining ixtiyoriga ko'ra olingan avtomatik yig'ilgan veb-arxivlar va skrinshotlarga kirishni taqiqlaymiz; ammo buni to'liq oldini ololmaymiz."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Noto'g'ri foydalanuvchi agentlarini bloklang"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Agar foydalanuvchi agenti satrida noto'g'ri belgilar bo'lsa, kirishni taqiqlaydi."
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Internet Explorer va eski Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Internet Explorer va eski Microsoft Edge orqali kirishni oldini oladi"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Ogohlantirish xabarlari ko'rsatiladigan til"
+
+msgid "Wordpressの言語"
+msgstr "WordPress tillari"
+
+msgid "ブラウザの設定言語"
+msgstr "Brauzerning til sozlamalari"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Agar xabarlar moslashtirilgan bo'lsa, tilni o'zgartira olmaysiz."
+
+msgid "同意画面の言語"
+msgstr "Rozilik ekrani tili"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "'view-source' xabarini ko'rsatish uchun til"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Vaqtinchalik tokenlarning amal qilish muddati"
+
+msgid "3分"
+msgstr "3 daqiqa"
+
+msgid "4分"
+msgstr "4 daqiqa"
+
+msgid "5分"
+msgstr "5 daqiqa"
+
+msgid "6分"
+msgstr "6 daqiqa"
+
+msgid "7分"
+msgstr "7 daqiqa"
+
+msgid "8分"
+msgstr "8 daqiqa"
+
+msgid "9分"
+msgstr "9 daqiqa"
+
+msgid "10分"
+msgstr "10 daqiqa"
+
+msgid "15分"
+msgstr "15 daqiqa"
+
+msgid "20分"
+msgstr "20 daqiqa"
+
+msgid "25分"
+msgstr "25 daqiqa"
+
+msgid "30分"
+msgstr "30 daqiqa"
+
+msgid "35分"
+msgstr "35 daqiqa"
+
+msgid "40分"
+msgstr "40 daqiqa"
+
+msgid "45分"
+msgstr "45 daqiqa"
+
+msgid "50分"
+msgstr "50 daqiqa"
+
+msgid "55分"
+msgstr "55 daqiqa"
+
+msgid "1時間"
+msgstr "1 soat"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Rasm URL ma'lumotlarining amal qilish muddatini belgilang"
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Yuklangach, rasm URL manzili va vaqtinchalik token bekor qilinadi."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Rasmlar talab bo'yicha yuklanadi, lekin ular belgilangan vaqtdan 30 soniya oldin avtomatik ravishda yuklanadi."
+
+msgid "一時使用トークンのビット数"
+msgstr "Vaqtinchalik tokenning bitlar soni"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Vaqtinchalik token rasm URL ma'lumotlarini shifrlash uchun parol sifatida ishlatiladi; bu sozlama uning kuchini belgilaydi."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Garchi ochiladigan menyuning ostida ko'rsatilgan variantlar tobora batafsil bo'lib bormoqda, bu serverga katta yuk tushirishi va katta hajmdagi HTML ma'lumotlarining uzatilishiga olib kelishi mumkin."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Hash algoritmi"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Vaqtinchalik token rasm URL ma'lumotlarini shifrlash uchun parol sifatida ishlatiladi; bu xeshlashni talab qiladi va ushbu sozlama shu xeshlashning kuchini belgilaydi."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Garchi ochiladigan menyuda variantlar ro'yxatini pastga siljitganingiz sayin intensivlik oshsa-da, bu serverga katta yuk yuklaydi."
+
+msgid "基本設定"
+msgstr "Asosiy sozlamalar"
+
+msgid "高度な設定"
+msgstr "Rivojlangan sozlamalar"
+
+msgid "初期設定に戻す"
+msgstr "O'rnatilgan sozlamalarni tiklash"
+
+msgid "デザイン・音の設定"
+msgstr "Tuzilma va ovoz sozlamalari"
+
+msgid "イベントの設定"
+msgstr "Tadbir sozlamalari"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Birinchi marta tashriflar uchun bildirishnomalarni sozlash"
+
+msgid "メッセージの設定"
+msgstr "Xabar sozlamalari"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "O'ng tugma bilan bosganda yoki manba kodini ko'rib chiqishda ochiladigan URL manzilini belgilang"
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "HTML ogohlantirish xabarlarda ishlatilishi mumkin emas."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Agar siz buni ushbu ekranda sozlasangiz, Kengaytirilgan yorlig'idagi til sozlamalari e'tiborsiz qoldiriladi."
+
+msgid "以下の文字列が使用できます"
+msgstr "Quyidagi satrlardan foydalanish mumkin"
+
+msgid "改行"
+msgstr "Satir uzilishi"
+
+msgid "押下されたキー"
+msgstr "Kalit bosildi"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Neo HTML himoyachisi sozlamalari"
+
+msgid "お知らせ"
+msgstr "E'lon"
+
+msgid "メッセージ"
+msgstr "Xabar"
+
+msgid "デザイン・音"
+msgstr "Dizayn va ovoz"
+
+msgid "初期化"
+msgstr "Boshlang'ich sozlash"
+
+msgid "このプラグインについて"
+msgstr "Ushbu plagin haqida"
+
+msgid "設定が初期化されました"
+msgstr "Sozlamalar tiklandi"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Plugin'ni ishga tushiring. Iltimos, shuni yodda tutingki, IP Log Reader ma'lumotlari hozirgi bosqichda o'chirilmaydi."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Neo HTML Protector haqida"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Ushbu plagin WordPress saytingiz tomonidan yaratilgan HTML, rasmlar va boshqa kontentni ruxsatsiz foydalanishdan himoya qilish uchun mo'ljallangan."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Mazmunni to'liq himoya qilish imkonsiz. Biroq, imkon qadar ogohlantirishlar berib va agar biror voqea yuz bersa, hukumat belgilagan tartib-taomillarga muvofiq masalani hal eta olamiz."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Albatta, siz shartlar va qoidalar hamda sayt siyosatingizning to'liq bo'lishini ta'minlashingiz kerak. Garchi bu plagin shartlar va qoidalarni yaratish vositasi bo'lmasa-da, u ba'zi yo'riqnomalarni taqdim etishi mumkin."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Rivojlantiruvchi: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Versiya"
+
+msgid "ビルド"
+msgstr "Qurish"
+
+msgid "サポートページ"
+msgstr "Qo'llab-quvvatlash sahifasi"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Ura Manira xonim ijrosida"
+
+msgid "支援のお願い"
+msgstr "Yordam so'rovi"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Neo HTML Protector'dan foydalanganingiz uchun rahmat!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Ushbu plaginni ishlab chiqish va saqlash ko'p vaqt va kuch talab qildi, va uni takomillashtirish hamda yangilashni davom ettirish uchun mablag' yig'ish maqsadida, imkoni bor har kim bizga xayriya qilishni ko'rib chiqsa, minnatdor bo'lardik."
+
+msgid "寄付について"
+msgstr "Xayriya haqida"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Xayriya qilish butunlay ixtiyoriy bo'lib, majburiy emas. Ushbu plagin hammaga bepul taqdim etiladi. Biroq, rivojlantirishni davom ettirishimizga yordam beradigan qo'llab-quvvatlashingizni katta minnatdorchilik bilan qadrlaymiz va imkon qadar hissa qo'sha olsangiz, juda xursand bo'lardik."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Quyidagi havola orqali xayriya qilishingiz mumkin. Agar siz Yaponiyada bo'lsangiz, bepul xayriya qilishingiz mumkin va Amazon sovg'a kuponlari yordamida ham osonlik bilan xayriya qilishingiz mumkin."
+
+msgid "寄付先"
+msgstr "Xayriya tashkilotlari"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Sizning yordamingiz bilan biz sizga ajoyib yangilanishlarni yetkazishda davom etish uchun qo'limizdan kelganicha harakat qilamiz!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Biz qo'llab-quvvatlaganingiz uchun minnatdormiz va kelajakda ham bizni qo'llab-quvvatlashingizni intiqlik bilan kutamiz."
+
+msgid "ライセンス"
+msgstr "Litsenziya"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Ushbu plagin ochiq manba dasturi sifatida ishlab chiqilgan va GPLv2.0 yoki undan keyingi litsenziya ostida taqdim etilgan."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Ushbu plagin tarkibidagi ba'zi texnologiyalar patentlar bilan himoyalangan."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Patentlangan texnologiyadan foydalanish faqat ushbu plagin ichida ruxsat etiladi."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Boshqa har qanday foydalanish uchun tijorat litsenziyasini olish maqsadida muallif bilan bog'laning."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Ushbu plagin quyidagi kutubxonalarni o'z ichiga oladi"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Ushbu plagin quyida yaratilgan ASCII san'at shriftlari va shrift fayllarini o'z ichiga oladi."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Ushbu plagin EJ Co., Ltd. tomonidan ishlab chiqilgan va plagin muallifi tomonidan bastalangan, rasmiy bo'lmagan Super Famicom o'yini 'SM Trainer Hitomi 3' musiqasini o'z ichiga oladi va rasmiy litsenziyaga ega."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Ushbu plagin Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Men shuningdek, ushbu plaginni ishlab chiqishda Raspberry Pi 5, ChatGPT va DeepL'dan foydalanganman."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Keshlash plagin aniqlandi. Agar keshlash plagin yoqilgan bo'lsa, bu plagin to'g'ri ishlamaydi."
+
+msgid "無効なIPアドレス"
+msgstr "Noto'g'ri IP manzili"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "Ushbu veb-saytdan foydalanish uchun cookie-fayllarni va JavaScriptni yoqishingiz kerak."
+
+msgid "利用規約"
+msgstr "Foydalanish shartlari"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Ruxsatsiz foydalanishni oldini olish va xizmatlarimizning xavfsiz ishlashini ta'minlash maqsadida, ushbu veb-sayt IP-manzillar, brauzer tarixi va faoliyat jurnallari kabi ma'lumotlarni cookie-fayllarda va ma'lumotlar bazalarida saqlay oladi. Ushbu ma'lumotlar faqat veb-saytni boshqarish va qonuniy maqsadlarda ishlatiladi hamda uchinchi shaxslarga oshkor qilinmaydi."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "Ushbu xizmatdan foydalanish uchun siz ushbu ishlov berish faoliyatlariga rozilik bildiring."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Siz roziligingizni bergan bo'lsangiz ham, bermagan bo'lsangiz ham Maxfiylik siyosati mazmunini ko'rishingiz mumkin."
+
+msgid "同意する"
+msgstr "Men roziman"
+
+msgid "同意しない"
+msgstr "Men rozi emasman"
+
+msgid "確認"
+msgstr "Tasdiqlash"
+
+msgid "プライバシーポリシー"
+msgstr "Maxfiylik siyosati"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Nodir kirish yoki faoliyat aniqlangan"
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Ba'zi xususiyatlar xavfsizlik va kontentni himoya qilish maqsadida cheklangan."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Xatolarni tuzatish rejimi va konsolga kirish o'chirilgan"
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Quyidagi ma'lumotlar serverga yuborildi"
+
+msgid "あなたのIPアドレス"
+msgstr "Sizning IP manzilingiz"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Sizning qurilmangiz va brauzeringiz"
+
+msgid "あなたの押下したキー"
+msgstr "Bosgan kalitingiz"
+
+msgid "リダイレクトをします"
+msgstr "Siz yo'naltirilasiz"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Mazmunni himoya qilish maqsadida ba'zi xususiyatlar cheklangan."
+
+msgid "右クリックは禁止されています"
+msgstr "Ong'ichka tugmani bosishga ruxsat berilmaydi"
+
+msgid "あなたが押下したキー"
+msgstr "Bosgan kalitingiz"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Bosib chiqarish va PDF shaklida saqlash taqiqlanadi."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Ekran suratlarini olish taqiqlanadi."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Ekran tasvirlarini olish va xatoliklarni tuzatish rejimini yoqish taqiqlanadi."
+
+msgid "ページの保存は禁止されています"
+msgstr "Ushbu sahifani saqlash taqiqlanadi"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Ko'chirish va kesish taqiqlanadi."
+
+msgid "あなたが起こしたイベント"
+msgstr "Siz tashkil qilgan tadbirlar"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Matnni tanlashga ruxsat berilmaydi"
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "HTML manba kodini ko'rsatish taqiqlanadi"
+
+msgid "不正アクセスは禁止されています"
+msgstr "Ruxsatsiz kirish taqiqlanadi"
+
+msgid "アフリカーンス語"
+msgstr "Afrikaans"
+
+msgid "アラゴン語"
+msgstr "Aralon"
+
+msgid "アラビア語"
+msgstr "Arabcha"
+
+msgid "アッサム語"
+msgstr "Assamese"
+
+msgid "アゼルバイジャン語"
+msgstr "Ozarbayjon"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Belorusiyalik"
+
+msgid "ベンガル語"
+msgstr "Bengalcha"
+
+msgid "ブルガリア語"
+msgstr "Bolgarcha"
+
+msgid "ボスニア語"
+msgstr "Bosniyalik"
+
+msgid "カタロニア語"
+msgstr "Kataloniyalik"
+
+msgid "チェコ語"
+msgstr "Chex"
+
+msgid "ウェールズ語"
+msgstr "Uelslik"
+
+msgid "デンマーク語"
+msgstr "Daniyalik"
+
+msgid "ドイツ語"
+msgstr "Nemis"
+
+msgid "現代ギリシア語"
+msgstr "Zamonaviy yunon"
+
+msgid "英語"
+msgstr "Inglizcha"
+
+msgid "イギリス英語"
+msgstr "Britaniyalik ingliz tili"
+
+msgid "アメリカ英語"
+msgstr "Amerikalik ingliz tili"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Ispancha"
+
+msgid "エストニア語"
+msgstr "Estoniyalik"
+
+msgid "バスク語"
+msgstr "Basque"
+
+msgid "ペルシャ語"
+msgstr "Forsiy"
+
+msgid "フィンランド語"
+msgstr "Finncha"
+
+msgid "フランス語"
+msgstr "Fransuzcha"
+
+msgid "アイルランド語"
+msgstr "Irlandalik"
+
+msgid "ガリシア語"
+msgstr "Galitsiyalik"
+
+msgid "グァラニ語"
+msgstr "Yaguar"
+
+msgid "グジャラート語"
+msgstr "Gujarat"
+
+msgid "ハウサ語"
+msgstr "Uy"
+
+msgid "ヘブライ語"
+msgstr "Ibroniy"
+
+msgid "ヒンディ語"
+msgstr "Hindcha"
+
+msgid "クロアチア語"
+msgstr "Xorvatcha"
+
+msgid "ハイチ・クレオール語"
+msgstr "Geyitian kreol"
+
+msgid "ハンガリー語"
+msgstr "Vengriyalik"
+
+msgid "インドネシア語"
+msgstr "Indoneziyalik"
+
+msgid "イボ語"
+msgstr "Ibo tili"
+
+msgid "アイスランド語"
+msgstr "Islandcha"
+
+msgid "イタリア語"
+msgstr "Italiyalik"
+
+msgid "日本語"
+msgstr "Yaponcha"
+
+msgid "ジャワ語"
+msgstr "Javansh"
+
+msgid "カザフ語"
+msgstr "Qazax"
+
+msgid "朝鮮語"
+msgstr "Koreyscha"
+
+msgid "クルド語"
+msgstr "Kurdcha"
+
+msgid "キルギス語"
+msgstr "Qirg'iz"
+
+msgid "ラテン語"
+msgstr "Lotincha"
+
+msgid "ルクセンブルク語"
+msgstr "Lyuksemburgcha"
+
+msgid "リンガラ語"
+msgstr "Sogʻsalang"
+
+msgid "リトアニア語"
+msgstr "Litvacha"
+
+msgid "ラトビア語"
+msgstr "Latviyalik"
+
+msgid "マダガスカル語"
+msgstr "Malagasy"
+
+msgid "マオリ語"
+msgstr "Maori"
+
+msgid "マケドニア語"
+msgstr "Makedonsko"
+
+msgid "マラヤーラム語"
+msgstr "Malayalam"
+
+msgid "モンゴル語"
+msgstr "Mo'g'ulcha"
+
+msgid "マラーティー語"
+msgstr "Marathi"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Malti"
+
+msgid "ビルマ語"
+msgstr "Birmachcha"
+
+msgid "ネパール語"
+msgstr "Nepalcha"
+
+msgid "ノルウェー語"
+msgstr "Norvegiyalik"
+
+msgid "オランダ語"
+msgstr "Gollandcha"
+
+msgid "オック語"
+msgstr "Oktsitan"
+
+msgid "オロモ語"
+msgstr "Yoki"
+
+msgid "パンジャーブ語"
+msgstr "Panjobiy"
+
+msgid "ポーランド語"
+msgstr "Lak"
+
+msgid "パシュトー語"
+msgstr "Oʻtkazish"
+
+msgid "ポルトガリア語"
+msgstr "Portugaliya tili"
+
+msgid "ブラジルポルトガル語"
+msgstr "Braziliyalik portugal tili"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Yevropa portugaliysi"
+
+msgid "ケチュア語"
+msgstr "Inka"
+
+msgid "ルーマニア語"
+msgstr "Ruminiyalik"
+
+msgid "ロシア語"
+msgstr "Ruscha"
+
+msgid "サンスクリット語"
+msgstr "Sanskrit"
+
+msgid "スロバキア語"
+msgstr "Slovencha"
+
+msgid "スロベニア語"
+msgstr "Sloveniyalik"
+
+msgid "セルビア語"
+msgstr "Serbiyalik"
+
+msgid "南セソト語"
+msgstr "Janubiy Sesho"
+
+msgid "スンダ語"
+msgstr "Sundanese"
+
+msgid "スウェーデン語"
+msgstr "Shvetsiya"
+
+msgid "スワヒリ語"
+msgstr "Suvahili"
+
+msgid "タミル語"
+msgstr "Tamilcha"
+
+msgid "テルグ語"
+msgstr "Telugu"
+
+msgid "タジク語"
+msgstr "Tojik"
+
+msgid "タイ語"
+msgstr "Tay"
+
+msgid "トルクメン語"
+msgstr "Turkmancha"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Turkcha"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Ukraincha"
+
+msgid "ウルドゥー語"
+msgstr "Urdu"
+
+msgid "ウズベク語"
+msgstr "O'zbek"
+
+msgid "ベトナム語"
+msgstr "Vyetnamlik"
+
+msgid "コサ語"
+msgstr "Soch"
+
+msgid "イディッシュ語"
+msgstr "Yidiş"
+
+msgid "簡体中国語"
+msgstr "Oddiylashtirilgan xitoy tili"
+
+msgid "繁体中国語"
+msgstr "An'anaviy xitoy tili"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Hozirda foydalanayotgan brauzeringiz eski versiya bo'lib, endi qo'llab-quvvatlanmaydi. Xavfsizroq va qulayroq brauzer tajribasini ta'minlash uchun brauzeringizni so'nggi versiyasiga yangilang."
+
+msgid "不正なリクエストです"
+msgstr "Noto'g'ri so'rov"
+
+msgid "画像が見つかりません"
+msgstr "Rasm topilmadi"
+

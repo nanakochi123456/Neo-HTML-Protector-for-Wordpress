@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87afd40e69048f1ad0b62ad7d8f6a6ff",
+    "content-hash": "95e40ca7789ba6849724c0513c19e705",
     "packages": [
         {
             "name": "deeplcom/deepl-php",
-            "version": "v1.11.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DeepLcom/deepl-php.git",
-                "reference": "004cf73864e8547ece7e49a2b08ed7a2d6672d9c"
+                "reference": "ca53d6e6907a71c47729ab160f0bbcbc059bed02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DeepLcom/deepl-php/zipball/004cf73864e8547ece7e49a2b08ed7a2d6672d9c",
-                "reference": "004cf73864e8547ece7e49a2b08ed7a2d6672d9c",
+                "url": "https://api.github.com/repos/DeepLcom/deepl-php/zipball/ca53d6e6907a71c47729ab160f0bbcbc059bed02",
+                "reference": "ca53d6e6907a71c47729ab160f0bbcbc059bed02",
                 "shasum": ""
             },
             "require": {
@@ -65,9 +65,9 @@
             ],
             "support": {
                 "issues": "https://github.com/DeepLcom/deepl-php/issues",
-                "source": "https://github.com/DeepLcom/deepl-php/tree/v1.11.1"
+                "source": "https://github.com/DeepLcom/deepl-php/tree/v1.18.0"
             },
-            "time": "2025-01-17T09:36:14+00:00"
+            "time": "2026-04-09T17:49:42+00:00"
         },
         {
             "name": "nyholm/psr7",

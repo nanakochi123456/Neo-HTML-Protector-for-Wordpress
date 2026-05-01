@@ -1,0 +1,424 @@
+設定	Izilungiselelo
+IPログリーダー	Umfundi we-IP Log
+IPアドレスログ	Irekhodi lwamakheli e-IP
+全クリア	Qedela zonke izigaba
+IPログが全て削除されました	Zonke amarekhodi e-IP sesusiwe
+ID	Isazisi
+タイムスタンプ	Isiginesha yesikhathi
+IPアドレス	Ikheli le-IP
+ユーザーエージェント	Ijenti yomsebenzisi
+イベント	Umcimbi
+IPアドレスのデータはありません	Ayikho idatha yekheli le-IP.
+EU GDPR対応	Ukuhambisana ne-EU GDPR
+無効	Akulungile
+有効	Kuvumelekile
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Uma usebenzisa i-WordPress ngaphakathi kwe-EU, noma uma iwebhusayithi yakho ihloselwe abasebenzisi abangaphakathi kwe-EU, sicela uqinisekise ukuthi lokhu kuvuliwe.
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Inkinobho ethi 'Qinisekisa' izoguquka ibe 'Vuma' noma 'Ungavumelani', futhi ukuziphatha kuzoshintsha kancane.
+同意画面の色	Umbala wesikrini sokuvuma
+自動	Ngokuzenzakalelayo
+ライトモード	Imodi elula
+ダークモード	Imodi emnyama
+同意画面表示中の配色を設定します	Sethaphi uhlelo lombala kwesikrini sokuvuma
+同意画面中のコンテンツのぼかし	Ukudambisa okuqukethwe esikrinini sokuvuma
+同意画面表示中のコンテンツのぼかし具合を設定します	Beka izinga lokudambisa ukucaca kokuqukethwe okuboniswa esikrinini sokuvuma
+同意画面の透過	Ukuqhakazeka kwesikrini sokuvuma
+透過なし	Akukho ukusobala
+同意画面の透過具合を設定します	Seta ukusobala kwesikrini sokuvuma
+お知らせの1行目	Umugqa wokuqala womemezelo
+初回表示で必ず表示されるメッセージです	Lomlayezo uhlale ubonakala okokuqala ikhasi livalwa.
+お知らせの2行目	Umugqa wesibili wesaziso
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Lomlayezo uzohlala uvela ekubonisweni kokuqala kuphela lapho i-EU GDPR isebenza.
+お知らせの3行目	Umugqa wesithathu wesaziso
+プライバシーポリシーのリンクの右側に表示されます	Kuzovela ngakwesokudla kwesixhumanisi soMgaqo Wokuvikelwa Kwemfihlo.
+非EU向け確認の文字列	Umbhalo wokuqinisekisa wamazwe angaphandle kwe-EU
+EU GDPR向け同意するの文字列	Umbhalo wemvume we-EU GDPR
+EU GDPR向け同意しないの文字列	Umbhalo we-'Ungavumi' ngaphansi kwe-EU GDPR
+プライバシーポリシーの文字列	Umbhalo wenqubomgomo yobumfihlo
+プライバシーポリシーのURLはこちらから設定して下さい	Sicela usethe i-URL yenqubomgomo yobumfihlo lapha.
+プライバシーポリシーには以下の内容を追加して下さい	Sicela wengeze okulandelayo kuNqubomgomo Yobumfihlo.
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Ukuze kutholakale imisebenzi yokukhwabanisa, izazisi ezifana namakheli e-IP zigcinwa kumakhukhi nasemgqeni wedatha. Idatha egciniwe iyasuswa ngokuthanda komlawuli.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Ukuqinisekisa ukuthi izithombe zihanjiswa ngendlela efanele kuphela lapho ukuvikelwa kwezithombe kuvuliwe, sigcina idatha eyi-hashed equkethe ikheli le-IP negama lefayela lesithombe kudathabheyisi kuze kufike emizuzwini engu-60.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Uma usetha Imigomo Yokusetshenziswa, sicela uqinisekise ukuthi ufaka isixhumanisi sayo kuNqubomgomo Yakho Yobumfihlo.
+利用規約の文字列	Umbhalo Wezimo Zokusetshenziswa
+利用規約のページ	Ikhasi Lezimo Nemibandela
+ページ選択なし	Akukho ikhasi elikhethiwe
+検索エンジン等のURL	Ama-URL ezinjini zokusesha, njll.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Seta i-URL yamajini wokusesha namasayithi afanayo adlulisela abasebenzisi lapho imvume inganikezwanga
+デバッグモード、コンソールの警告メッセージ	Imodi yokuxilonga amaphutha, imilayezo yesixwayiso yekhonsoli
+右クリックの警告メッセージ	Chofoza kwesokudla umyalezo wesixwayiso
+印刷、PDF保存の警告メッセージ	Umyalezo wesixwayiso mayelana nokuphrinta nokugcina njenge-PDF
+スクリーンショットの警告メッセージ	Umyalezo wesixwayiso esithombeni sesikrini
+スクリーンショットの疑いの警告メッセージ	Umyalezo wesixwayiso mayelana nezithombe-skrini ezikholelwa ukuthi zithathwe ngokungekho emthethweni
+テキスト全選択時の警告メッセージ	Umyalezo wesixwayiso lapho wonke umbhalo ukhethiwe
+ページ保存の警告メッセージ	Umyalezo wesixwayiso mayelana nokulondolozwa kwekhasi
+コピー・カットした時に表示するメッセージ	Umlayezo oboniswa lapho ukopisha noma usika
+HTMLソース表示時に表示するメッセージ	Umyalezo ozoboniswa lapho kubukwa umthombo we-HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Umyalezo okufanele ubonakale phezulu kukhodi yomthombo lapho kufihlwa noma kuvikelwa i-HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Umyalezo ozovezwa uma ithokheni yokungena eyodwa ingasebenzi ngesikhathi sokuvikelwa kwe-HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Umyalezo ozovezwa uma ama-cookie noma i-JavaScript kuvinjiwe
+実際にはJavascriptが無効時のみ表示されます	Eqinisweni, lokhu kukhishwa kuphela uma i-JavaScript ivinjwe.
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Uma isithombe sivikelwe, siyalanda, bese umlayezo ubonakala kuleso sithombe
+HTML難読化 (圧縮)	Ukudideka kwe-HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Lokhu kuwucindezelo olujwayelekile lwe-HTML; kukhona futhi amawebhusayithi angakwazi ukulihumusha.
+このオプションを有効にするとview-sourceのログが取得できます	Ukwenza kube nesici lokhu kukuvumela ukuthi uthole ilogi yokubuka umthombo.
+HTML保護	Ukuvikelwa kwe-HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Ikhiqiza kuphela i-HTML eyisisekelo kakhulu—ngisho kuncane kunalapho kusetshenziswa ukucindezelwa kwe-HTML—futhi okuqukethwe ngaphakathi kwethegi ye-BODY akukhiqizwa nhlobo.
+Firefoxに対しては無効です	Lokhu akusebenzi ku-Firefox.
+SEOに著しく影響があります	Lokhu kunomthelela omkhulu ku-SEO.
+HTMLをJavaScriptで描画	Ukudweba i-HTML usebenzisa i-JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Ukuze sidlule ku-Firefox, sikhiqiza i-HTML sisebenzisa i-JavaScript.
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Ukwenza i-JavaScript ikwazi ukudweba kuzodambisa kakhulu isivinini sokulayisha kwewebhusayithi.
+画像の保護	Ukuvikelwa kwesithombe
+imgタグが呼び出されるごとに画像を保護	Vikela isithombe njalo lapho kuthiwa i-tag ye-img
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Vikela zonke izithombe ezilayishiwe ku-WordPress ngaphakathi kukho konke okukhiphayo kwe-HTML.
+画像をダウンロードから保護します	Ivikela izithombe ekulandweni
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Uma idatha yezithombe ivikelwe, sivimbela cishe zonke izilanda, sikhipha ama-URL awodwa asebenza kanye kuphela, siqinisekisa ubuqiniso sisebenzisa amatokheni agcinwe eseshini, futhi sikhombisa izithombe nge-PHP; lokhu kuvimbela ngempumelelo cishe zonke izimo zokweba izithombe.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Uma idatha yezithombe ivikelwe, ukugcinwa kwesikhashana akusebenzi, okusho ukuthi isayithi lizolayisha kancane ezivakashelweni ezilandelayo, ngaleyo ndlela kuthinta i-SEO.
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Ukuvikela idatha yomfanekiso kungakhuphula umthwalo kudathabheyisi.
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Uma ukhetha 'Vikela izithombe noma nini lapho kuthiwa i-tag ye-img', uhlelo lusebenzisa add_filter ukufaka ukuhlunga lapho i-tag ye-img ikhiqizwa; nokho, lokhu kungase kungasebenzi kahle kwezinye izindikimba.
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Uma ukhetha 'Vikela zonke izithombe ezilayishiwe ku-WordPress ngaphakathi kukho konke okukhiphayo kwe-HTML', le plugin izobamba cishe yonke imisebenzi ye-WordPress bese icubungula wonke amathegi e-img okuqukethweni. Sicela uqaphele ukuthi lokhu kungase kungasebenzi kahle kwezinye izindikimba.
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Sicela uqaphele ukuthi izithombe ezibekwe njengezithombe ezivelele zizokwabelwa njenge-OGP data futhi azikwazi ukuvikelwa. Uma ngempela kufanele uzivikele, sicela ushintshe isethingi yokukhipha i-HEAD tag ezilungiselweni ezithuthukisiwe lapho uvula ukuvikelwa kwe-HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Umsebenzi wokuthwebula isithombe-skrini owakhelwe ngaphakathi kohlelo lokusebenza awunakuvikelwa.
+画像URLの保護	Ukuvikela ama-URL wezithombe
+画像の保護と組み合わせて使用します、単体では意味がありません	Lokhu kufanele kusetshenziswe ngokuhlanganyela nokuvikelwa kwesithombe; ngokwalo, akusizi lutho.
+JavaScriptにより遅延読まれますのでSEOに影響があります	Njengoba ilayishwa ngokunganaki nge-JavaScript, lokhu kuthinta i-SEO.
+画像のウォーターマーク	Isitembu sesithombe
+右下	Phansi kwesokudla
+ランダム位置	Isikhundla esingahleliwe
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Uma isetshenziswa ngokuhlangene nokuvikelwa kwesithombe, amawatermark aguquguqukayo abonisa ngokusobala ubunikazi bamalungelo obunikazi futhi enikeza ababukeli umbono wokuthi bayabhekwa, ngaleyo ndlela esebenza njengesithiyo.
+JPG形式、PNG形式、WebP形式のみ対応します	Kusekelwa kuphela amafomethi e-JPG, e-PNG kanye ne-WebP.
+有効にするとサーバーの負荷が高くなります	Ukwenza lokhu kuzokwandisa umthwalo kuseva.
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Ukukhiqiza ubuciko be-ASCII kusuka kukhodi yomthombo ye-HTML ngesikhathi sokudida nokuvikela i-HTML
+表示なし	Akukho okuboniswayo
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Ibonisa ubuciko be-ASCII obuveza isixwayiso lapho ubuka umthombo we-HTML usebenzisa 'view-source'
+対象アクションを起こした時の表示デザイン	Bonisa umklamo lapho isenzo esihlosiwe senziwa
+黄色の背景の黒文字のベーシックデザイン	Umklamo oyisisekelo onezincwadi ezimnyama esizeni esiphuzi
+黒色の背景の赤文字のホラー風デザイン	Umklamo wesitayela sokwesabisa onezincwadi ezibomvu kumgqeni omnyama
+黒色の背景の赤文字の光る文字のデザイン	Umklamo onezincwadi ezibomvu ezikhanyayo esizeni esimnyama
+対象アクションを起こした時のBGM	Umculo wangemuva odlalwayo lapho isenzo esihlosiwe senziwa
+サウンドなし	Akukho umsindo
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Impi Nokunqoba - imizuzu engu-1 nemizuzwana engu-16.3 - amabhayithi angu-630,056 - 64 kbps - Ilayisensi: CC 2.1 noma kamuva
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Dad Mfushane - imizuzwana engu-3.8 - amabhayithi angu-32,364 - 64 kbps - Ilayisensi: GPL 2.0 noma kamuva
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - imizuzwana engu-23.5 - amabhayithi angu-195,578 - 64 kbps - Ilayisensi: GPL 2.0 noma kamuva
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin Étude Op. 10 No. 12 'Revolution' – inguqulo ekhiqizwe yikhompyutha, esheshayo – imizuzu engu-1 nemizuzwana engu-57.6 – amabhayithi angu-724,457 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: iScherzo ku-B-flat minor, Op. 2 – inguqulo ekhiqizwe yikhompyutha, inguqulo efingqiwe ngesivinini esiphezulu – imizuzu engu-1 nemizuzwana engu-48.0 – amabhayithi angu-665,369 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Uhlu: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – inguqulo ekhiqizwe yikhompyutha, inguqulo ecishisiwe esheshayo – imizuzu engu-1 nemizuzwana engu-51.6 – amabhayithi angu-687,586 – 48 kbps – Ilayisensi: CC BY-ND 4.0 noma kamuva
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Umgubho – imizuzwana engu-22.3 – amabhayithi angu-183,926 – 64 kbps – Ilayisensi: Umphakathi Ovulekile
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Umkhosi wesitayela se-retro – imizuzwana engu-2.2 – amabhayithi angu-10,536 – 32 kbps – Ilayisensi: Umphakathi Ovulekile
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Isingeniso sesitayela se-retro – imizuzwana engu-42.1 – amabhayithi angu-179,138 – 32 kbps – Ilayisensi: Umphakathi ovulekile
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Isixwayiso sika-ChatGPT - imizuzwana engu-3.8 - amabhayithi angu-109,700 - i-256 kbps - Ilayisensi: Umphakathi ovulekile
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Isandi esiphuthumayo esiphakeme esifana nesixwayiso sokutholwa kwemalware – Ingxenye 1 ngu-ChatGPT – imizuzwana engu-3.3 – amabhayithi angu-102,850 – i-256 kbps – Ilayisensi: Umbuso Ovulekile
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Isandi esiphuthumayo esiphakeme esifana nesexwayiso sokutholwa kwemalware, Ingxenye 2 ngu-ChatGPT - imizuzwana engu-3.3 - amabhayithi angu-103,122 - 256 kbps - Ilayisensi: Umbuso Ovulekile
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Umsindo ofana ne-MRI owenziwe nge-ChatGPT – imizuzu engu-1 nemizuzwana engu-14.9 – amabhayithi angu-3,340,392 – 320 kbps – Ilayisensi: Umphakathi Ovulekile
+警告表示中のBGMを選択します	Khetha umculo wangemuva ozodlalwa ngesikhathi sesixwayiso.
+びっくりするような雰囲気を作ります	Kudala umoya omangazayo
+Firefoxでは音声ブロックされます	Umsindo uvaliwe ku-Firefox
+対象アクションを起こした時のビープ音	Ukubiza lapho isenzo esichaziwe senziwa
+有効 音量小さ目	Shesha, ivolumu iphansi
+有効 音量大き目	Isebenza, ivolumu isethwe phezulu
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Kuzovakala i-beep njengempendulo kuzo zonke izenzakalo zekhibhodi nezomaki ngenkathi isixwayiso sikhombisiwe.
+警告表示中に端末が暴走したかのような雰囲気を作ります	Kudala umbono wokuthi idivayisi seyiphambene ngenkathi isixwayiso siboniswa.
+対象アクションを起こした時のマウスカーソルの消去	Ukufihla ikhasi lomaki lwe-mouse lapho kwenziwa isenzo esithile
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Ifihla ikhasi lomaki wesilawuli kwindawo yesiphequluli ngenkathi kuboniswa isixwayiso
+デバッグモード	Imodi yokuxilonga amaphutha
+妨害＋記録のみ	Ukuphazamiseka + Amarekhodi kuphela
+妨害＋記録＋表示＋リダイレクト	Ukuphazamiseka + Ukurekhoda + Ukubonisa + Ukuqondisa kabusha
+メニューからは操作できてしまいます	Ungakwazi ukuyifinyelela ngokusebenzisa imenyu.
+Firefoxにおけるデバッグモード	Imodi yokuxilonga ku-Firefox
+ブラウザーコンソール	Ikhonsoli yesiphequluli
+事実上デバッグモードから操作できてしまいます	Empeleni, ungakwazi ukuyisebenzisa kusuka kumodi yokuxilonga amaphutha.
+HTMLソース表示	Buka umthombo we-HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Ungenza lo msebenzi kalula ngokufaka i-URL eqala ngo-'view-source:'
+HTML保護と組み合わせることでコンテンツを保護することができます	Ungavikela okuqukethwe kwakho ngokuhlanganisa lokhu nokuvikelwa kwe-HTML.
+印刷	Shicilela
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Nakuba ivimbela ukuphrinta, kungase ingasebenzi kahle kwezinye iziphequluli.
+スクリーンショット	Isithombe-skrini
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Kuncike ohlelweni lokusebenza, kusiphequluli noma endleleni esetshenzisiwe, kungase kungabi nokwenzeka ukuvimba lokhu, noma kungase kungatholakali.
+ウインドウが背面に移動した時スクリーンショットの疑い	Isithombe-skrini esingase sithathwe lapho iwindi lihamba liye ngemuva
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Iphinde iphendule emisebenzini ehlukile ngaphandle kokuthwebula izithombe zesikrini
+2キー押下のスクリーンショットの疑い	Kucatshangwa ukuthi isithombe-skrini sithathwe ngokucindezela izinkinobho ezimbili.
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Izindlela zokutholwa kwezinto ezishiwo ngenhla azithembekile ngokuphelele; ukutholwa kwenziwa njengesinyathelo sokuzivikela.
+スクリーンショットだけではなく、デバッグモード等も検出します	Akutholi nje izithombe-skrini kuphela kodwa futhi nezimo zokuxilonga nokunye okufana nalokho.
+ページ保存	Gcina ikhasi
+右クリック	Chofoza kwesokudla
+アドオンがインストールされていると操作できてしまいます	Uma i-add-on ifakiwe, uzokwazi ukuyisebenzisa.
+コピー・カット	Kopisha bese usika
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Kuncike ezilungiselelweni zale plugin, ungase ungahlangabezani nale mcimbi kaningi.
+テキスト全選択	Khetha wonke umbhalo
+テキスト選択	Khetha umbhalo
+デバッガー起動ログ、デバッガー妨害	Irekhodi lokuqalisa kwe-debugger, ukuphazamiseka kwe-debugger
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Lokhu kwenza imodi yokuxilonga ibe nzima kancane ukuyisebenzisa futhi kubhala ukuthi umxilongi usuqalisiwe; nokho, ezinye iziphequluli zingavimbela lokhu.
+リダイレクトするURL	Hambisa i-URL kwenye indawo
+利用規約などのページに転送すると良いでしょう	Kungaba umqondo omuhle ukuqondisa abasebenzisi kumakhasi afana Nemigomo Yokusetshenziswa.
+空欄にすると元のURLにリダイレクトをします	Uma kushiywe kungagcwaliswanga, kuzodlulisela ku-URL yokuqala.
+リダイレクトまでの時間	Isikhathi esisele ngaphambi kokuqondiswa kabusha
+リダイレクトなし	Akukho ukudlulisela
+1秒	Umzuzwana owodwa
+2秒	Imizuzwana emibili
+3秒	Imizuzwana emithathu
+4秒	Imizuzwana emine
+5秒	Imizuzwana emihlanu
+6秒	Imizuzwana eyisithupha
+7秒	7 imizuzwana
+8秒	Imizuzwana eyisishiyagalombili
+9秒	Imizuzwana eyisishiyagalolunye
+10秒	Imizuzwana eyishumi
+15秒	Imizuzwana eyishumi nanhlanu
+20秒	Imizuzwana engu-20
+25秒	Imizuzwana engu-25
+30秒	Imizuzwana engamashumi amathathu
+35秒	Imizuzwana engu-35
+40秒	Imizuzwana engu-40
+45秒	Imizuzwana engu-45
+50秒	Imizuzwana engu-50
+55秒	Imizuzwana engu-55
+1分	Umzuzu owodwa
+1分10秒	Umzuzu owodwa nemizuzwana eyishumi
+1分20秒	Umzuzu owodwa nemizuzwana engamashumi amabili
+1分30秒	Umzuzu owodwa nemizuzwana engamashumi amathathu
+1分40秒	Imizuzu eyodwa nemizuzwana engamashumi amane
+1分50秒	Umzuzu owodwa nemizuzwana engu-50
+2分	Imizuzu emibili
+ソース表示を許可する権限	Imvume yokubuka ikhodi yomthombo
+ADMINログイン時のみ通常のソース出力	Ukukhipha okuvamile komthombo kuphela lapho ungene njengomlawuli
+USERログインで通常のソース出力	Umphumela ojwayelekile kusuka kumthombo uma ungene njengo-USER
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Khetha ukuthi ngabe ukukhipha kwe-HTML okujwayelekile kuvinjelwe kubaphathi kuphela noma kudinga ukungena ngemvume komsebenzisi.
+画像を無理やりダウンロードして実際にダウンロードされるもの	Ukunyanzela isithombe ukuthi silandwe nokuthi yini empeleni elandwayo
+GIF形式で1×1ピクセルの透過画像	Isithombe esinopikseli eyodwa ngobubanzi nobude, esibonakalayo, esisefomethi ye-GIF
+PNG形式で1×1ピクセルの透過画像	Isithombe esinama-pikseli angu-1×1 esibonakalayo esisefomethini ye-PNG
+PNG形式で黄色い背景の警告画面	Isikrini sesixwayiso esinomhlophe ophuzi ngemuva, esikwifomethi ye-PNG
+意味のないHTMLドキュメント	Umqulu we-HTML ongenangqondo
+HTML保護時のHEADタグの出力	Umphumela wethegi ye-HEAD lapho i-HTML ivikelwe
+出力しない	Ungaprinti
+TITLEタグのみ	I-tag yesihloko kuphela
+WordpressのHEADタグより取得	Kutholwe kuthegi ye-HEAD ye-WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Kwamakhasi amalungu kuphela asetshenziselwa inkampani namakhasi angaphakathi, ukukhetha 'Ungakhiqizi' noma 'I-tag yesihloko kuphela' kwanele.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Ngaphandle kokuthi uthole imininingwane kuthegi ye-HEAD ye-WordPress, isithombe se-OGP ngeke siboniswe lapho wabelana ngakho ezinkundleni zokuxhumana.
+画像botをアクセス禁止にする	Vimba ibhothi lesithombe
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Ngokuvimbela ama-bots wesithombe ekutholeni i-HTML, ungavikela okuqukethwe okungakwazanga ukuvikelwa ekuxhumaniseni ngqo ngokusesha izithombe; nokho, lokhu akunikezi isixazululo esiphelele.
+AI学習用botをアクセス禁止にする	Vimba ukufinyelela kubhothi lokuqeqesha i-AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Ngokugwema ukusetshenziswa kwama-bots akhelwe ukuqeqesha i-AI ku-HTML, siqinisekisa ukuthi okuqukethwe akusetshenziswa yi-AI; nokho, lokhu akunqanyulwa ngokuphelele.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Vimba ukufinyelela kumasivumelwano wewebhu kanye nezithombe zewebhu
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Sivimbela ukufinyelela kumasivumelwano ewebhu aqoqwa ngokuzenzakalelayo kanye nezithombe-skrini ezithathwe ngokuzikhethela komsebenzisi; nokho, asikwazi ukuvimba lokhu ngokuphelele.
+無効なUAをアクセス禁止にする	Vimba ama-user agent angalungile
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Ivimba ukufinyelela uma umugqa we-user agent uqukethe izinhlamvu ezingalungile
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Bonisa isixwayiso lapho kufinyelelwa ku-Internet Explorer kanye ne-Microsoft Edge endala
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Ivimbela ukufinyelela nge-Internet Explorer kanye ne-Microsoft Edge endala
+alertメッセージを表示する言語	Ulimi lapho imilayezo yokuxwayisa ikhombiswa khona
+Wordpressの言語	Izilimi ze-WordPress
+ブラウザの設定言語	Izilungiselelo zolimi zebhrawuza
+メッセージをカスタム設定されている場合は言語を変更できません	Awukwazi ukushintsha ulimi uma imilayezo isenziwe ngokwezifiso.
+同意画面の言語	Ulimi lwesikrini sokuvuma
+view-sourceメッセージを表示する言語	Ulimi lokubonisa umlayezo we-'view-source'
+一時使用トークンの有効期限	Usuku lokuphelelwa kwesikhathi samathokheni wesikhashana
+3分	Imizuzu emithathu
+4分	Imizuzu emine
+5分	Imizuzu emihlanu
+6分	Imizuzu eyisithupha
+7分	Imizuzu eyisikhombisa
+8分	Imizuzu eyisishiyagalombili
+9分	Imizuzu eyisishiyagalolunye
+10分	Imizuzu eyishumi
+15分	Imizuzu eyi-15
+20分	Imizuzu engamashumi amabili
+25分	Imizuzu engu-25
+30分	Imizuzu engamashumi amathathu
+35分	Imizuzu engama-35
+40分	Imizuzu engamashumi amane
+45分	Imizuzu engu-45
+50分	Imizuzu engu-50
+55分	Imizuzu engu-55
+1時間	Ihora elilodwa
+画像URL情報の有効期限を設定します	Beka usuku lokuphelelwa yisikhathi lolwazi lwe-URL yesithombe
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Uma sekulayishiwe, i-URL yesithombe kanye ne-token yesikhashana ngeke zisasebenza.
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Izithombe zilayishwa lapho zidingeka, kodwa zizolayishwa ngokuzenzakalelayo imizuzwana engu-30 ngaphambi kwesikhathi esinqunyiwe.
+一時使用トークンのビット数	Inani lamabithi ku-token yesikhashana
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Isitokheni sesikhashana sisetshenziswa njengephasiwedi ukuze kufihlwe imininingwane ye-URL yesithombe; lesi silungiselelo sichaza ukuqina kwaso.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Nakuba izinketho ezivezwe ngaphansi kwemenyu ehlayo ziba nemininingwane eyandayo, lokhu kungabeka umthwalo omkhulu kuseva futhi kuholele ekudlulisweni kwedatha enkulu ye-HTML.
+ハッシュ化アルゴリズム	I-algorithm ye-hash
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Isitokheni sesikhashana sisetshenziswa njengephasiwedi ukuze kufihlwe imininingwane ye-URL yesithombe; lokhu kudinga i-hashing, futhi lesi silungiselelo sinquma ukuqina kwalelo hashing.
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Nakuba ukuqina kukhuphuka njengoba uhamba phansi ohlwini lwezinketho eziboniswa kwimenyu ehlayo, lokhu kubeka umthwalo omkhulu kuseva.
+基本設定	Izilungiselelo eziyisisekelo
+高度な設定	Izilungiselelo ezithuthukile
+初期設定に戻す	Buyisela izilungiselelo ezizenzakalelayo
+デザイン・音の設定	Ukuklama nezilungiselelo zomsindo
+イベントの設定	Izilungiselelo zomcimbi
+初回訪問時のお知らせの設定	Ukusetha izaziso zokuvakasha okokuqala
+メッセージの設定	Izilungiselelo zemilayezo
+右クリックやソースコード表示時に転送する URL を設定します	Seta i-URL ezovulwa lapho uchofoza kwesokudla noma ubuka ikhodi yomthombo
+警告メッセージにはHTMLは使用できません	I-HTML ayinakusetshenziswa emilayezweni yokuxwayisa.
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Uma ulungisa lokhu kulesi sikrini, izilungiselelo zolimi kuthebhu ethi Advanced ngeke zicatshangelwe.
+以下の文字列が使用できます	Lezi zintambo ezilandelayo zingasetshenziswa
+改行	Ukuqhekeka komugqa
+押下されたキー	Isihluthulelo sicindezelwe
+Neo HTML Protector 設定	Izilungiselelo Zokuvikela i-Neo HTML
+お知らせ	Isaziso
+メッセージ	Umyalezo
+デザイン・音	Ukuklama nomsindo
+初期化	Ukuqaliswa
+このプラグインについて	Mayelana nale plugin
+設定が初期化されました	Izilungiselelo sezibuyiselwe esimweni sazo sokuqala.
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Qalisa i-plugin. Sicela uqaphele ukuthi idatha ye-IP Log Reader ngeke isuswe kulesi sigaba.
+Neo HTML Protectorについて	Mayelana ne-Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Leli plugin lenzelwe ukuvikela i-HTML, izithombe nezinye iziqukathi ezikhiqizwa yiwebhusayithi yakho ye-WordPress, likuvikela ekusetshenzisweni okungagunyaziwe.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Akungeneki ukuvikela okuqukethwe ngokuphelele. Nokho, ngokwazisa lapho kungenzeka khona konke nokulungiselela uma kwenzeka noma yini, sizokwazi ukuxazulula udaba ngokuhambisana nezinqubo ezibekwe nguhulumeni.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Impela, kuzodingeka uqinisekise ukuthi imigomo nemibandela yakho kanye nenqubomgomo yesayithi yakho igcwele. Nakuba le plugin ingeyona ithuluzi lokudala imigomo nemibandela, ingakunikeza iziqondiso ezithile.
+開発者: 夜桜　なの	Umthuthukisi: Nano Yozakura
+バージョン	Inguqulo
+ビルド	Yakha
+サポートページ	Ikhasi lokweseka
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Yenziwe nguNkosazana Ura Manira
+支援のお願い	Isicelo sokwesekwa
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Siyabonga ngokusebenzisa i-Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Ukuthuthukiswa nokugcinwa kwale plugin kudinge isikhathi esiningi nomzamo omkhulu, futhi ukuze siqoqe imali yokuqhubeka nokuyithuthukisa nokuyivuselela, sizobonga kakhulu uma noma ubani ongakwazi ukusisekela ecabangela ukwenza umnikelo.
+寄付について	Mayelana nezipho
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Ukunikela kungenziwa ngokuzithandela ngokuphelele futhi akuphoqelekile. Le plugin itholakala kubo bonke mahhala. Nokho, ukweseka kwenu kuyaziswa kakhulu ukuze siqhubeke nokuthuthukisa, futhi sizojabula kakhulu uma ningakwazi ukunikela noma ngabe kancane.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Unganikela usebenzisa isixhumanisi esingezansi. Uma useJapane, ungakwazi ukunikela mahhala, futhi ungakwazi futhi ukunikela kalula usebenzisa amakhuphoni ezipho ze-Amazon.
+寄付先	Izinhlangano ezisiza abanye
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Ngokweseka kwenu, sizokwenza konke okusemandleni ethu ukuqhubeka sikuletha izibuyekezo ezimangalisayo!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Siyabonga ngokweseka kwenu futhi sibheke ngabomvu ukuqhubeka kwenu nokusekela esikhathini esizayo.
+ライセンス	Ilayisensi
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Leli plugin luthuthukiswe njengohlelo lwemithombo evulekile futhi linelayisensi ngaphansi kwe-GPLv2.0 noma engaphezulu.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Ezinye zobuchwepheshe ezifakiwe kule plugin zivikelwe ngamapatenti.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Ukusetshenziswa kobuchwepheshe obunelungelo lobunikazi kuvunyelwe kuphela kule plug-in.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Noma yiluphi olunye usebenziso, sicela uxhumane nombhali ukuze uthole ilayisensi yokuhweba.
+本プラグインには以下のライブラリを同梱しています	Leli plugin liqukethe amalabhulali alandelayo
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Leli plugin liqukethe amafonti e-ASCII art akhiqizwe ngezansi, kanye namafayela wamafonti.
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Leli plugin liqukethe umculo womdlalo we-Super Famicom ongavumelekile 'SM Trainer Hitomi 3', owenziwe yi-EJ Co., Ltd. futhi owakhiwe ngumdali waleli plugin, futhi linelayisensi esemthethweni.
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Leli plugin liqukethe izingoma ezenziwe kusetshenziswa 'Keppy's YAMAHA C7', ethuthukiswe nguKeppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ngiphinde ngasebenzisa i-Raspberry Pi 5, i-ChatGPT kanye ne-DeepL ekuthuthukisweni kwale plugin.
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Kutholakale i-plugin yokugcina idatha yesikhashana. Le plugin ngeke isebenze kahle uma i-plugin yokugcina idatha yesikhashana ivuliwe.
+無効なIPアドレス	Ikheli le-IP elingalungile
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Ukuze usebenzise le webhusayithi, kumele uvumele ama-cookie ne-JavaScript.
+利用規約	Imigomo yokusetshenziswa
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Ukuvimbela ukusetshenziswa okungagunyaziwe nokuqinisekisa ukusebenza okuphephile kwezinsizakalo zethu, le webhusayithi ingagcina imininingwane efana namakheli e-IP, umlando wokubuka kanye namarekhodi emisebenzi kuma-cookie nakuma-database. Le mininingwane isetshenziselwa kuphela ukusebenza kwewebhusayithi nezinhloso zomthetho, futhi ngeke ivezwe kwabanye abantu besithathu.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Ukuze usebenzise le nkonzo, kufanele uvume le misebenzi yokucubungula.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Ungabuka okuqukethwe Kwenqubomgomo Yobumfihlo kungakhathaliseki ukuthi unikeze imvume yakho.
+同意する	Ngiyavuma
+同意しない	Angivumelani
+確認	Ukuqinisekiswa
+プライバシーポリシー	Inqubomgomo Yobumfihlo
+通常とは異なる方法でのアクセスや操作が検出されました	Ukufinyelela okungajwayelekile noma umsebenzi okungajwayelekile kutholakale
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Ezinye izici zivinjwe ngenhloso yokuphepha nokuvikelwa kokuqukethwe.
+デバッグモード、コンソールの起動は禁止されています	Imodi yokuxilonga nokufinyelela kukhonsoli kuvaliwe
+以下の情報がサーバーに送信されました	Ulwazi olulandelayo seluthunyelwe kuseva.
+あなたのIPアドレス	Ikheli lakho le-IP
+あなたの端末とブラウザ	Idivayisi yakho nesiphequluli sakho
+あなたの押下したキー	Isihluthulelo osicindezile
+リダイレクトをします	Uzodluliselwa kwenye ikhasi.
+コンテンツ保護のため一部の機能を制限しています	Ezinye izici zivinjwe ukuze kuvikelwe okuqukethwe
+右クリックは禁止されています	Uku-clika kwesokudla akuvunyelwe
+あなたが押下したキー	Isihluthulelo osicindezile
+印刷、PDFへの保存は禁止されています	Ukuphrinta nokulondoloza njenge-PDF akuvunyelwe.
+スクリーンショットは禁止されています	Ukuthatha izithombe zesikrini akuvunyelwe.
+スクリーンショット、デバッグモード等の起動は禁止されています	Ukuthatha izithombe-skrini nokuvumela imodi yokuxilonga akuvunyelwe.
+ページの保存は禁止されています	Awuvunyelwe ukulondoloza leli khasi
+コピー、カットは禁止されています	Ukukopisha nokusika akuvunyelwe.
+あなたが起こしたイベント	Imicimbi oyihlele
+テキストの選択は禁止されています	Akukavunyelwa ukukhetha umbhalo.
+HTMLソース表示は禁止されています	Ukubonisa ikhodi yomthombo ye-HTML akuvunyelwe.
+不正アクセスは禁止されています	Ukufinyelela okungagunyaziwe kuvinjelwe
+アフリカーンス語	Isifunda sase-Afrika
+アラゴン語	Isi-Aragonese
+アラビア語	Isilatini
+アッサム語	Asamese
+アゼルバイジャン語	Isi-Azerbaijani
+バシュキール語	Bashkir
+ベラルーシ語	IsiBelarusi
+ベンガル語	IsiBengali
+ブルガリア語	IsiBhulgariya
+ボスニア語	UmBoshiya
+カタロニア語	Isilimi saseCatalan
+チェコ語	Czech
+デンマーク語	WaseDenmark
+ドイツ語	Jalimane
+現代ギリシア語	Igiriki yanamuhla
+英語	Isimanje
+イギリス英語	YaseBrithani
+アメリカ英語	Isingisi saseMelika
+エスペラント語	Isifiso
+スペイン語	Isipanyolo
+エストニア語	Wase-Estonia
+バスク語	IsiBasque
+ペルシャ語	IsiPersi
+フィンランド語	Finiyisi
+フランス語	Fulentshi
+アイルランド語	Wama-Irish
+ガリシア語	YiseGaliyishiya
+グァラニ語	Guaraní
+グジャラート語	IsiGujarati
+ハウサ語	Hausa
+ヘブライ語	Hebheru
+ヒンディ語	IsiHindi
+クロアチア語	IsiCroatian
+ハイチ・クレオール語	Isikreoli saseHaiti
+ハンガリー語	NgesiHungary
+インドネシア語	Yase-Indonesia
+イボ語	Ulimi lwama-Ibo
+アイスランド語	Isi-Icelandic
+イタリア語	Wase-Italy
+日本語	Yapani
+ジャワ語	Isijavane
+カザフ語	Kazakh
+朝鮮語	Koreya
+クルド語	Kurdhi
+キルギス語	Kyrgyz
+ラテン語	Latin
+ルクセンブルク語	Lusemburga
+リンガラ語	Loba
+リトアニア語	Lelithiwaniya
+ラトビア語	Elathoviya
+マダガスカル語	Malagasy
+マオリ語	Abantu bomdabu baseNew Zealand
+マケドニア語	IsiMasedoniya
+マラヤーラム語	Malayalam
+モンゴル語	IsiMongoliya
+マラーティー語	Marathi
+マレー語	Isilimi saseMalay
+マルタ語	Malta
+ビルマ語	IsiBurmese
+ネパール語	IsiNepali
+ノルウェー語	WaseNorway
+オランダ語	Netherlandese
+オック語	Okwase-Okitani
+オロモ語	Noma
+パンジャーブ語	IsiPunjabi
+ポーランド語	Ipulishi
+パシュトー語	Pashto
+ポルトガリア語	Iphuthukezi
+ブラジルポルトガル語	Iphuthukezi yaseBrazil
+ヨーロピアンポルトガル語	Iphuthukezi yaseYurophu
+ケチュア語	Kichwa
+ルーマニア語	WaseRomania
+ロシア語	YaseRussia
+サンスクリット語	Isanskrithi
+スロバキア語	Esloveniya
+スロベニア語	Isilovheniya
+セルビア語	Serbhiya
+南セソト語	Sesotho seNingizimu
+スンダ語	Isindanesiya
+スウェーデン語	Iswidi
+スワヒリ語	Iswahili
+タミル語	Tamil
+テルグ語	IsiTelugu
+タジク語	Tajiki
+タイ語	Ithayilandi
+トルクメン語	UmTurk
+タガログ語	Isithiyelo
+トルコ語	WaseTurkey
+タタール語	Tatar
+ウクライナ語	Wase-Ukraine
+簡体中国語	Isishayamashaya sesiShayina
+繁体中国語	Isishayamakhala saseShayina sendabuko
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Isiphequluli osisebenzisayo njengamanje inguqulo endala engasekelwa. Ukuze ube nesipiliyoni sokuphequlula esiphephile futhi esikhululekile, sicela uvuselele inguqulo yakho yakamuva yesiphequluli.
+不正なリクエストです	Isicelo esingalungile
+画像が見つかりません	Isithombe asitholakali
+ウェールズ語	Welsh
+ウルドゥー語	Isi-Urdu
+ウズベク語	Ochwazi
+ベトナム語	WaseVietnam
+コサ語	Sula
+イディッシュ語	Yidi
+ズールー語	Isizulu

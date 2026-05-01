@@ -1,0 +1,1292 @@
+# Welsh translations for Neo HTML Protector package.
+# Copyright (C) 2026 THE Neo HTML Protector'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Neo HTML Protector package.
+#  <plugin@773.moe>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Neo HTML Protector 0.4.6\n"
+"Report-Msgid-Bugs-To: plugin@773.moe\n"
+"POT-Creation-Date: 2026-05-01 12:35+0900\n"
+"PO-Revision-Date: 2026-05-01 12:37+0900\n"
+"Last-Translator:  <plugin@773.moe>\n"
+"Language-Team: Welsh\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "設定"
+msgstr "Gosodiadau"
+
+msgid "IPログリーダー"
+msgstr "Darllenydd Log IP"
+
+msgid "IPアドレスログ"
+msgstr "Log cyfeiriad IP"
+
+msgid "全クリア"
+msgstr "Cwblhewch yr holl lefelau"
+
+msgid "IPログが全て削除されました"
+msgstr "Mae'r holl logiau IP wedi'u dileu."
+
+msgid "ID"
+msgstr "Adnabod"
+
+msgid "タイムスタンプ"
+msgstr "Nod amser"
+
+msgid "IPアドレス"
+msgstr "Cyfeiriad IP"
+
+msgid "ユーザーエージェント"
+msgstr "Asiant Defnyddiwr"
+
+msgid "イベント"
+msgstr "Digwyddiad"
+
+msgid "IPアドレスのデータはありません"
+msgstr "Nid oes data ar gyfer y cyfeiriad IP hwn."
+
+msgid "EU GDPR対応"
+msgstr "Cydymffurfiaeth â GDPR yr UE"
+
+msgid "無効"
+msgstr "Annilys"
+
+msgid "有効"
+msgstr "Dilys"
+
+msgid "EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください"
+msgstr "Os ydych chi'n defnyddio WordPress o fewn yr UE, neu os yw'ch gwefan yn targedu defnyddwyr o fewn yr UE, sicrhewch fod hyn wedi'i alluogi."
+
+msgid "確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります"
+msgstr "Bydd y botwm 'Cadarnhau' yn newid i 'Cytuno' neu 'Anghytuno', a bydd yr ymddygiad yn newid ychydig."
+
+msgid "同意画面の色"
+msgstr "Lliw'r sgrin cydsyniad"
+
+msgid "自動"
+msgstr "Awtomatig"
+
+msgid "ライトモード"
+msgstr "Modd golau"
+
+msgid "ダークモード"
+msgstr "Modd Tywyll"
+
+msgid "同意画面表示中の配色を設定します"
+msgstr "Gosodwch y cynllun lliwiau ar gyfer y sgrin cydsyniad"
+
+msgid "同意画面中のコンテンツのぼかし"
+msgstr "Cymylu cynnwys ar y sgrin gydsyniad"
+
+msgid "同意画面表示中のコンテンツのぼかし具合を設定します"
+msgstr "Gosodwch lefel y cymylu ar gyfer cynnwys a ddangosir ar y sgrin cydsyniad."
+
+msgid "同意画面の透過"
+msgstr "Tryloywder y sgrin gydsyniad"
+
+msgid "透過なし"
+msgstr "Dim tryloywder"
+
+msgid "同意画面の透過具合を設定します"
+msgstr "Gosod tryloywder y sgrin cydsyniad"
+
+msgid "お知らせの1行目"
+msgstr "Llinell gyntaf y cyhoeddiad"
+
+msgid "初回表示で必ず表示されるメッセージです"
+msgstr "Caiff y neges hon ei harddangos bob amser y tro cyntaf y llwythir y dudalen."
+
+msgid "お知らせの2行目"
+msgstr "Ail linell y hysbysiad"
+
+msgid "EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです"
+msgstr "Bydd y neges hon bob amser yn ymddangos ar y sgrin gyntaf yn unig pan fydd GDPR yr UE mewn grym."
+
+msgid "お知らせの3行目"
+msgstr "Trydedd llinell y hysbysiad"
+
+msgid "プライバシーポリシーのリンクの右側に表示されます"
+msgstr "Bydd yn ymddangos i'r dde o'r ddolen i'r Polisi Preifatrwydd."
+
+msgid "非EU向け確認の文字列"
+msgstr "Testun cadarnhau ar gyfer gwledydd y tu allan i'r UE"
+
+msgid "EU GDPR向け同意するの文字列"
+msgstr "Testun cydsyniad ar gyfer GDPR yr UE"
+
+msgid "EU GDPR向け同意しないの文字列"
+msgstr "Testun ar gyfer 'Peidio â chydsynio' o dan GDPR yr UE"
+
+msgid "プライバシーポリシーの文字列"
+msgstr "Testun y polisi preifatrwydd"
+
+msgid "プライバシーポリシーのURLはこちらから設定して下さい"
+msgstr "Os gwelwch yn dda, gosodwch yr URL ar gyfer y polisi preifatrwydd yma."
+
+msgid "プライバシーポリシーには以下の内容を追加して下さい"
+msgstr "Ychwanegwch y canlynol at y Polisi Preifatrwydd."
+
+msgid "不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。"
+msgstr "Er mwyn canfod gweithgarwch twyllodrus, caiff adnabyddwyr fel cyfeiriadau IP eu storio mewn cwcis a'r gronfa ddata. Caiff y data a storir ei ddileu yn ôl disgresiwn y gweinyddwr."
+
+msgid "画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。"
+msgstr "Er mwyn sicrhau bod delweddau'n cael eu danfon yn gywir dim ond pan fydd amddiffyn delweddau wedi'i alluogi, rydym yn storio data wedi'i hasio sy'n cynnwys y cyfeiriad IP ac enw ffeil y ddelwedd yn y gronfa ddata am hyd at 60 munud."
+
+msgid "利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい"
+msgstr "Os ydych chi'n sefydlu Telerau Defnyddio, sicrhewch eich bod yn cynnwys dolen iddynt yn eich Polisi Preifatrwydd."
+
+msgid "利用規約の文字列"
+msgstr "Testun y Telerau Defnyddio"
+
+msgid "利用規約のページ"
+msgstr "Tudalennau Telerau ac Amodau"
+
+msgid "ページ選択なし"
+msgstr "Dim tudalen wedi'i dewis"
+
+msgid "検索エンジン等のURL"
+msgstr "URLau ar gyfer peiriannau chwilio, ac ati."
+
+msgid "同意しなかった時に画面遷移する検索エンジンなどのURLを設定します"
+msgstr "Gosodwch yr URL ar gyfer peiriannau chwilio a gwefannau tebyg sy'n ailgyfeirio defnyddwyr pan na roddir cydsyniad."
+
+msgid "デバッグモード、コンソールの警告メッセージ"
+msgstr "Modd dadfygio, negeseuon rhybudd y consol"
+
+msgid "右クリックの警告メッセージ"
+msgstr "Neges rybudd clicio-de"
+
+msgid "印刷、PDF保存の警告メッセージ"
+msgstr "Neges rybuddio ynglŷn â argraffu a chadw fel PDF"
+
+msgid "スクリーンショットの警告メッセージ"
+msgstr "Neges rybudd yn y sgrinlun"
+
+msgid "スクリーンショットの疑いの警告メッセージ"
+msgstr "Neges rybudd ynghylch sgrinluniau a amheuir"
+
+msgid "テキスト全選択時の警告メッセージ"
+msgstr "Neges rybudd pan fydd yr holl destun wedi'i ddewis"
+
+msgid "ページ保存の警告メッセージ"
+msgstr "Neges rybudd ynglŷn â chadw'r dudalen"
+
+msgid "コピー・カットした時に表示するメッセージ"
+msgstr "Neges a ddangosir wrth gopïo neu dorri"
+
+msgid "HTMLソース表示時に表示するメッセージ"
+msgstr "Neges i'w dangos wrth weld ffynhonnell HTML"
+
+msgid "HTML難読化・保護時にソースの先頭に表示するメッセージ"
+msgstr "Neges i'w harddangos ar frig y cod ffynhonnell wrth amwysáu neu amddiffyn HTML"
+
+msgid "HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ"
+msgstr "Neges i'w harddangos os yw'r tocyn dilysu untro yn annilys yn ystod amddiffyniad HTML"
+
+msgid "CookieやJavascriptが有効でない場合に表示するメッセージ"
+msgstr "Neges i'w dangos os yw cwcis neu JavaScript wedi'u hanalluogi"
+
+msgid "実際にはJavascriptが無効時のみ表示されます"
+msgstr "Mewn gwirionedd, dim ond pan fydd JavaScript wedi'i analluogi y caiff hyn ei arddangos."
+
+msgid "画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ"
+msgstr "Pan amddiffynnir delwedd, caiff ei lawrlwytho, a dangosir neges ar y ddelwedd honno"
+
+msgid "HTML難読化 (圧縮)"
+msgstr "Cymylu"
+
+msgid "一般的なHTML圧縮です、難読化解除のサイトもあります"
+msgstr "Dyma gywasgu HTML safonol; mae yna hefyd wefannau sy'n gallu ei ddatgodio."
+
+msgid "このオプションを有効にするとview-sourceのログが取得できます"
+msgstr "Mae galluogi'r opsiwn hwn yn caniatáu i chi adfer log ffynhonnell y golwg."
+
+msgid "HTML保護"
+msgstr "Amddiffyniad HTML"
+
+msgid "HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります"
+msgstr "Mae'n allbwnio'r isafswm llwyr o HTML—hyd yn oed llai na wrth ddefnyddio cywasgu HTML—ac nid yw'r cynnwys o fewn y tag BODY yn cael ei allbwnio o gwbl."
+
+msgid "Firefoxに対しては無効です"
+msgstr "Nid yw hyn yn berthnasol i Firefox."
+
+msgid "SEOに著しく影響があります"
+msgstr "Mae hyn yn cael effaith sylweddol ar SEO."
+
+msgid "HTMLをJavaScriptで描画"
+msgstr "Renderio HTML gan ddefnyddio JavaScript"
+
+msgid "Firefox対策としてHTMLをJavaScriptで描画をします"
+msgstr "I weithio o amgylch Firefox, rydym yn rendro'r HTML gan ddefnyddio JavaScript."
+
+msgid "JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります"
+msgstr "Bydd galluogi rendro JavaScript yn arafu cyflymder llwytho'r wefan yn sylweddol."
+
+msgid "画像の保護"
+msgstr "Amddiffyn delwedd"
+
+msgid "imgタグが呼び出されるごとに画像を保護"
+msgstr "Amddiffyn y ddelwedd bob tro y gelwir y tag img."
+
+msgid "出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護"
+msgstr "Diogelu'r holl ddelweddau a uwchlwythir i WordPress o fewn yr allbwn HTML cyfan."
+
+msgid "画像をダウンロードから保護します"
+msgstr "Yn amddiffyn delweddau rhag cael eu lawrlwytho"
+
+msgid "画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます"
+msgstr "Pan amddiffynnir data delweddau, rydym yn atal bron pob lawrlwythiad, yn cyhoeddi URLau untro unigryw, yn dilysu gan ddefnyddio tocynnau a storir yn y sesiwn, ac yn arddangos y delweddau drwy PHP; mae hyn yn atal bron pob achos o ladrata delweddau yn effeithiol."
+
+msgid "画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります"
+msgstr "Pan amddiffynnir data delweddau, nid yw'r storfa'n gweithio, sy'n golygu y bydd y wefan yn llwytho'n arafach ar ymweliadau dilynol, a thrwy hynny'n effeithio ar SEO."
+
+msgid "画像データを保護した時には、データベースの負荷が高くなる可能性があります"
+msgstr "Gall diogelu data delweddau gynyddu'r llwyth ar y gronfa ddata."
+
+msgid "「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません"
+msgstr "Os dewiswch 'Diogelu delweddau pryd bynnag y gelwir tag img', mae'r system yn defnyddio add_filter i gymhwyso hidlo pan fydd y tag img yn cael ei gynhyrchu; fodd bynnag, efallai na fydd hyn yn gweithio'n gywir gyda rhai themâu."
+
+msgid "「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません"
+msgstr "Os dewiswch 'Diogelu pob delwedd a lwythir i WordPress o fewn yr allbwn HTML cyfan', bydd yr ategyn yn dal bron pob gweithrediad WordPress ac yn prosesu pob tag img o fewn y cynnwys. Noder efallai na fydd hyn yn gweithio'n gywir gyda rhai themâu."
+
+msgid "なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください"
+msgstr "Noder y bydd delweddau a ddynodir fel delweddau dan sylw yn cael eu rhannu fel data OGP ac na ellir eu diogelu. Os oes rhaid i chi eu diogelu, newidiwch y gosodiad ar gyfer allbwn tag HEAD yn y gosodiadau uwch wrth alluogi diogelwch HTML."
+
+msgid "OS標準搭載のスクリーンショット機能を保護することはできません"
+msgstr "Ni ellir diogelu'r swyddogaeth sgrinlun sydd wedi'i hymgorffori yn y system weithredu."
+
+msgid "画像URLの保護"
+msgstr "Diogelu URLau delweddau"
+
+msgid "画像の保護と組み合わせて使用します、単体では意味がありません"
+msgstr "Dylid defnyddio hwn ar y cyd â diogelu delweddau; ar ei ben ei hun, nid yw'n gwasanaethu unrhyw bwrpas."
+
+msgid "JavaScriptにより遅延読まれますのでSEOに影響があります"
+msgstr "Gan ei fod yn llwytho'n ddiog drwy JavaScript, mae hyn yn effeithio ar SEO."
+
+msgid "画像のウォーターマーク"
+msgstr "Dŵrnod delwedd"
+
+msgid "右下"
+msgstr "Gwaelod dde"
+
+msgid "ランダム位置"
+msgstr "Safle ar hap"
+
+msgid "画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます"
+msgstr "Wedi'u defnyddio ar y cyd â diogelu delweddau, mae dyfrnodau deinamig yn nodi perchnogaeth hawlfraint yn glir, gan roi'r argraff i wylwyr eu bod yn cael eu monitro, a thrwy hynny'n gweithredu fel ataliad."
+
+msgid "JPG形式、PNG形式、WebP形式のみ対応します"
+msgstr "Dim ond fformatau JPG, PNG a WebP sy'n cael eu cefnogi."
+
+msgid "有効にするとサーバーの負荷が高くなります"
+msgstr "Bydd galluogi hyn yn cynyddu'r llwyth ar y gweinydd."
+
+msgid "HTML難読化・保護時のHTMLソースコードのアスキーアートの出力"
+msgstr "Allbwnu celf ASCII o god ffynhonnell HTML yn ystod cymylu a diogelu HTML"
+
+msgid "表示なし"
+msgstr "Dim arddangosfa"
+
+msgid "view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します"
+msgstr "Arddangos celf ASCII sy'n dangos rhybudd wrth edrych ar ffynhonnell yr HTML gan ddefnyddio 'view-source'."
+
+msgid "対象アクションを起こした時の表示デザイン"
+msgstr "Dangos y dyluniad pan gyflawnir y weithred darged"
+
+msgid "黄色の背景の黒文字のベーシックデザイン"
+msgstr "Dyluniad sylfaenol yn cynnwys testun du ar gefndir melyn."
+
+msgid "黒色の背景の赤文字のホラー風デザイン"
+msgstr "Dyluniad arswyd-arddull yn cynnwys testun coch ar gefndir du"
+
+msgid "黒色の背景の赤文字の光る文字のデザイン"
+msgstr "Dyluniad yn cynnwys testun coch llachar ar gefndir du"
+
+msgid "対象アクションを起こした時のBGM"
+msgstr "Cerddoriaeth gefndir sy'n chwarae pan gyflawnir y weithred darged."
+
+msgid "サウンドなし"
+msgstr "Dim sain"
+
+msgid "戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later"
+msgstr "Brwydr a Fuddugoliaeth - 1 munud 16.3 eiliad - 630,056 bait - 64 kbps - Trwydded: CC 2.1 neu'n ddiweddarach"
+
+msgid "おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Dad Short - 3.8 eiliad - 32,364 bait - 64 kbps - Trwydded: GPL 2.0 neu'n ddiweddarach"
+
+msgid "おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ"
+msgstr "Oyaji Long - 23.5 eiliad - 195,578 bait - 64 kbps - Trwydded: GPL 2.0 neu'n ddiweddarach"
+
+msgid "ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin Étude Op. 10 Rhif 5"
+
+msgid "ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later"
+msgstr "Étude Op. 10 Rhif 12 'Chwyldro' gan Chopin – Fersiwn wedi'i gynhyrchu gan gyfrifiadur, cyflym – 1 munud 57.6 eiliad – 724,457 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n hwyrach"
+
+msgid "ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Chopin: Scherzo mewn B-fflat minor, Op. 2 – Fersiwn wedi'i gynhyrchu gan gyfrifiadur, fersiwn briodol cyflym – 1 munud 48.0 eiliad – 665,369 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n ddiweddarach"
+
+msgid "リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later"
+msgstr "Rhestr: Étude d'Exécution Transcendante No. 4, 'Mazeppa' – fersiwn wedi'i gynhyrchu gan gyfrifiadur, fersiwn briodol cyflym – 1 munud 51.6 eiliad – 687,586 bait – 48 kbps – Trwydded: CC BY-ND 4.0 neu'n ddiweddarach"
+
+msgid "ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン"
+msgstr "Fanfare – 22.3 eiliad – 183,926 bait – 64 kbps – Trwydded: Parth Cyhoeddus"
+
+msgid "レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Gorymdeithfaner arddull retro – 2.2 eiliad – 10,536 bait – 32 kbps – Trwydded: Parth Cyhoeddus"
+
+msgid "レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン"
+msgstr "Cyflwyniad arddull retro – 42.1 eiliad – 179,138 bait – 32 kbps – Trwydded: Parth Cyhoeddus"
+
+msgid "警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Rhybudd gan ChatGPT - 3.8 eiliad - 109,700 bait - 256 kbps - Trwydded: Parth Cyhoeddus"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sain brys uchel fel rhybudd canfod meddalwedd faleisus – Rhan 1 gan ChatGPT – 3.3 eiliad – 102,850 bait – 256 kbps – Trwydded: Parth Cyhoeddus"
+
+msgid "マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン"
+msgstr "Sain brys uchel fel rhybudd canfod meddalwedd faleisus, Rhan 2 gan ChatGPT - 3.3 eiliad - 103,122 bait - 256 kbps - Trwydded: Parth Cyhoeddus"
+
+msgid "MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン"
+msgstr "Sain arddull MRI gan ChatGPT – 1 munud 14.9 eiliad – 3,340,392 bait – 320 kbps – Trwydded: Parth Cyhoeddus"
+
+msgid "警告表示中のBGMを選択します"
+msgstr "Dewiswch y gerddoriaeth gefndir i'w chwarae yn ystod rhybudd."
+
+msgid "びっくりするような雰囲気を作ります"
+msgstr "Mae'n creu awyrgylch syfrdanol"
+
+msgid "Firefoxでは音声ブロックされます"
+msgstr "Mae sain wedi'i rhwystro yn Firefox."
+
+msgid "対象アクションを起こした時のビープ音"
+msgstr "Bîp pan gyflawnir y weithred benodol"
+
+msgid "有効 音量小さ目"
+msgstr "Ymlaen, sain isel"
+
+msgid "有効 音量大き目"
+msgstr "Gweithredol, sain uchel"
+
+msgid "警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします"
+msgstr "Bydd bip yn seinio mewn ymateb i bob digwyddiad bysell a llygoden tra bydd rhybudd yn cael ei arddangos."
+
+msgid "警告表示中に端末が暴走したかのような雰囲気を作ります"
+msgstr "Mae'n creu'r argraff bod y ddyfais wedi mynd o reolaeth tra bod y rhybudd yn cael ei arddangos."
+
+msgid "対象アクションを起こした時のマウスカーソルの消去"
+msgstr "Cuddio cyrchwr y llygoden pan gyflawnir gweithred benodol"
+
+msgid "警告表示中にブラウザのエリアのマウスカーソルを消去します"
+msgstr "Cuddio cyrchwr y llygoden yn ardal y porwr tra bod rhybudd yn cael ei arddangos."
+
+msgid "デバッグモード"
+msgstr "Modd dadfygio"
+
+msgid "妨害＋記録のみ"
+msgstr "Ymyrraeth + Cofnodion yn unig"
+
+msgid "妨害＋記録＋表示＋リダイレクト"
+msgstr "Ymyriad + Cofnodi + Arddangos + Ailgyfeirio"
+
+msgid "メニューからは操作できてしまいます"
+msgstr "Gallwch chi ddal i gael mynediad ato drwy'r ddewislen."
+
+msgid "Firefoxにおけるデバッグモード"
+msgstr "Modd dadfygio yn Firefox"
+
+msgid "ブラウザーコンソール"
+msgstr "Consol porwr"
+
+msgid "事実上デバッグモードから操作できてしまいます"
+msgstr "I bob pwrpas, gallwch ei weithredu o'r modd dadfygio."
+
+msgid "HTMLソース表示"
+msgstr "Gweld ffynhonnell HTML"
+
+msgid "view-source:から始まるURLを入力すれば操作できてしまいます"
+msgstr "Gallwch chi gyflawni'r weithred yn syml drwy nodi URL sy'n dechrau gyda 'view-source:'"
+
+msgid "HTML保護と組み合わせることでコンテンツを保護することができます"
+msgstr "Gallwch amddiffyn eich cynnwys drwy gyfuno hyn ag amddiffyniad HTML."
+
+msgid "印刷"
+msgstr "Argraffu"
+
+msgid "印刷阻止をするもものの、ブラウザによってはうまく動作しません"
+msgstr "Er ei fod yn atal argraffu, efallai na fydd yn gweithio'n iawn mewn rhai porwyr."
+
+msgid "スクリーンショット"
+msgstr "Sgrinlun"
+
+msgid "OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります"
+msgstr "Yn dibynnu ar y system weithredu, y porwr neu'r dull a ddefnyddir, efallai na fydd yn bosibl rhwystro hyn, neu efallai na chaiff ei ganfod."
+
+msgid "ウインドウが背面に移動した時スクリーンショットの疑い"
+msgstr "Sgrinlun tybiedig pan fydd y ffenestr yn symud i'r cefndir"
+
+msgid "あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。"
+msgstr "Mae hefyd yn ymateb i swyddogaethau heblaw sgrinluniau"
+
+msgid "2キー押下のスクリーンショットの疑い"
+msgstr "Sgrinlun a dynnwyd, yn ôl pob tebyg, drwy wasgu dau fysell"
+
+msgid "上の項目の検出方法は完全ではありません、予防的に検出を行います"
+msgstr "Nid yw'r dulliau canfod ar gyfer yr eitemau uchod yn ddi-fai; cynhelir canfod fel mesur rhagofalus."
+
+msgid "スクリーンショットだけではなく、デバッグモード等も検出します"
+msgstr "Mae'n canfod nid yn unig sgrinluniau ond hefyd moddau dadfygio a'r tebyg."
+
+msgid "ページ保存"
+msgstr "Cadw'r dudalen"
+
+msgid "右クリック"
+msgstr "Clic-de"
+
+msgid "アドオンがインストールされていると操作できてしまいます"
+msgstr "Os yw'r ychwanegyn wedi'i osod, byddwch yn gallu ei ddefnyddio."
+
+msgid "コピー・カット"
+msgstr "Copïo a thorri"
+
+msgid "本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります"
+msgstr "Yn dibynnu ar osodiadau'r ategyn hwn, efallai y byddwch yn anaml yn dod ar draws y digwyddiad hwn."
+
+msgid "テキスト全選択"
+msgstr "Dewiswch yr holl destun"
+
+msgid "テキスト選択"
+msgstr "Dewiswch destun"
+
+msgid "デバッガー起動ログ、デバッガー妨害"
+msgstr "Log cychwyn dadfygydd, ymyrraeth dadfygydd"
+
+msgid "デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます"
+msgstr "Mae hyn yn gwneud y modd dadfygio ychydig yn llai hawdd ei ddefnyddio ac yn cofnodi'r ffaith bod y dadfygydd wedi'i lansio; fodd bynnag, gallai rhai porwyr flocio'r ymddygiad hwn."
+
+msgid "リダイレクトするURL"
+msgstr "Ailgyfeirio URL"
+
+msgid "利用規約などのページに転送すると良いでしょう"
+msgstr "Byddai'n syniad da ailgyfeirio defnyddwyr i dudalennau fel y Telerau Defnyddio."
+
+msgid "空欄にすると元のURLにリダイレクトをします"
+msgstr "Os gadewir yn wag, bydd yn ailgyfeirio i'r URL gwreiddiol."
+
+msgid "リダイレクトまでの時間"
+msgstr "Amser tan ailgyfeirio"
+
+msgid "リダイレクトなし"
+msgstr "Dim ailgyfeirio"
+
+msgid "1秒"
+msgstr "1 eiliad"
+
+msgid "2秒"
+msgstr "2 eiliad"
+
+msgid "3秒"
+msgstr "3 eiliad"
+
+msgid "4秒"
+msgstr "4 eiliad"
+
+msgid "5秒"
+msgstr "5 eiliad"
+
+msgid "6秒"
+msgstr "Chwe eiliad"
+
+msgid "7秒"
+msgstr "Saith eiliad"
+
+msgid "8秒"
+msgstr "Wyth eiliad"
+
+msgid "9秒"
+msgstr "9 eiliad"
+
+msgid "10秒"
+msgstr "10 eiliad"
+
+msgid "15秒"
+msgstr "15 eiliad"
+
+msgid "20秒"
+msgstr "20 eiliad"
+
+msgid "25秒"
+msgstr "25 eiliad"
+
+msgid "30秒"
+msgstr "30 eiliad"
+
+msgid "35秒"
+msgstr "35 eiliad"
+
+msgid "40秒"
+msgstr "40 eiliad"
+
+msgid "45秒"
+msgstr "45 eiliad"
+
+msgid "50秒"
+msgstr "50 eiliad"
+
+msgid "55秒"
+msgstr "55 eiliad"
+
+msgid "1分"
+msgstr "1 funud"
+
+msgid "1分10秒"
+msgstr "1 munud 10 eiliad"
+
+msgid "1分20秒"
+msgstr "1 munud 20 eiliad"
+
+msgid "1分30秒"
+msgstr "1 munud 30 eiliad"
+
+msgid "1分40秒"
+msgstr "1 munud 40 eiliad"
+
+msgid "1分50秒"
+msgstr "1 munud 50 eiliad"
+
+msgid "2分"
+msgstr "2 funud"
+
+msgid "ソース表示を許可する権限"
+msgstr "Caniatâd i weld y cod ffynhonnell"
+
+msgid "ADMINログイン時のみ通常のソース出力"
+msgstr "Allbwn ffynhonnell arferol dim ond pan fyddwch wedi mewngofnodi fel ADMIN"
+
+msgid "USERログインで通常のソース出力"
+msgstr "Allbwn ffynhonnell arferol wrth fewngofnodi fel DEFNYDDIWR"
+
+msgid "通常のHTML出力を管理者のみかユーザーログインかを選択します"
+msgstr "Dewiswch a yw allbwn HTML safonol wedi'i gyfyngu i weinyddwyr yn unig neu a yw'n gofyn am fewngofnodi defnyddiwr."
+
+msgid "画像を無理やりダウンロードして実際にダウンロードされるもの"
+msgstr "Gorfodi delwedd i'w lawrlwytho a'r hyn sy'n cael ei lawrlwytho mewn gwirionedd"
+
+msgid "GIF形式で1×1ピクセルの透過画像"
+msgstr "Delwedd dryloyw 1×1 picsel mewn fformat GIF"
+
+msgid "PNG形式で1×1ピクセルの透過画像"
+msgstr "Delwedd dryloyw 1×1 picsel mewn fformat PNG"
+
+msgid "PNG形式で黄色い背景の警告画面"
+msgstr "Sgrin rybuddio gyda chefndir melyn mewn fformat PNG"
+
+msgid "意味のないHTMLドキュメント"
+msgstr "Dogfen HTML ddiystyr"
+
+msgid "HTML保護時のHEADタグの出力"
+msgstr "Allbwn y tag HEAD pan fo HTML wedi'i warchod"
+
+msgid "出力しない"
+msgstr "Peidiwch â argraffu"
+
+msgid "TITLEタグのみ"
+msgstr "Tag teitl yn unig"
+
+msgid "WordpressのHEADタグより取得"
+msgstr "Adalwyd o dag HEAD WordPress"
+
+msgid "企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう"
+msgstr "Ar gyfer tudalennau i aelodau yn unig at ddefnydd corfforaethol a thudalennau mewnol, dylai dewis 'Peidio ag allbwn' neu 'Tag TITLE yn unig' fod yn ddigon."
+
+msgid "WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません"
+msgstr "Oni bai eich bod yn adalw'r wybodaeth o dag PEN WordPress, ni fydd y ddelwedd OGP yn cael ei dangos wrth rannu ar y cyfryngau cymdeithasol."
+
+msgid "画像botをアクセス禁止にする"
+msgstr "Blocio'r bot delweddau"
+
+msgid "画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません"
+msgstr "Drwy atal botiau delwedd rhag cael mynediad at HTML, gallwch ddiogelu cynnwys na ellid ei ddiogelu rhag cysylltu'n uniongyrchol drwy chwilio am ddelweddau; fodd bynnag, nid yw hyn yn darparu ateb cyflawn."
+
+msgid "AI学習用botをアクセス禁止にする"
+msgstr "Blocio mynediad i'r bot hyfforddi AI"
+
+msgid "AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません"
+msgstr "Drwy osgoi defnyddio botiau a gynlluniwyd ar gyfer hyfforddi AI ar HTML, rydym yn sicrhau nad yw'r cynnwys yn cael ei ddefnyddio gan AI; fodd bynnag, ni ellir atal hyn yn llwyr."
+
+msgid "ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする"
+msgstr "Llywio mynediad i archifau gwe a lluniau sgrin o'r we"
+
+msgid "自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません"
+msgstr "Rydym yn gwahardd mynediad i archifau gwe a gesglir yn awtomatig a sgrinluniau a dynnwyd yn ôl disgresiwn y defnyddiwr; fodd bynnag, ni allwn atal hyn yn llwyr."
+
+msgid "無効なUAをアクセス禁止にする"
+msgstr "Blocio asiantau defnyddiwr annilys"
+
+msgid "ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます"
+msgstr "Yn atal mynediad os yw llinyn yr asiant defnyddiwr yn cynnwys cymeriadau annilys"
+
+msgid "Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する"
+msgstr "Arddangos rhybudd wrth fynediad i Internet Explorer a'r hen Microsoft Edge"
+
+msgid "Internet Explorerと旧Microsoft Edgeのアクセスを避けます"
+msgstr "Yn atal mynediad drwy Internet Explorer a'r hen Microsoft Edge"
+
+msgid "alertメッセージを表示する言語"
+msgstr "Iaith ar gyfer arddangos negeseuon rhybudd"
+
+msgid "Wordpressの言語"
+msgstr "Ieithoedd WordPress"
+
+msgid "ブラウザの設定言語"
+msgstr "Gosodiadau iaith y porwr"
+
+msgid "メッセージをカスタム設定されている場合は言語を変更できません"
+msgstr "Ni allwch newid yr iaith os yw'r negeseuon wedi'u haddasu."
+
+msgid "同意画面の言語"
+msgstr "Iaith y sgrin gydsyniad"
+
+msgid "view-sourceメッセージを表示する言語"
+msgstr "Iaith i arddangos y neges 'view-source'"
+
+msgid "一時使用トークンの有効期限"
+msgstr "Dyddiad dod i ben tocynnau dros dro"
+
+msgid "3分"
+msgstr "3 munud"
+
+msgid "4分"
+msgstr "Pedair munud"
+
+msgid "5分"
+msgstr "Pum munud"
+
+msgid "6分"
+msgstr "Chwe munud"
+
+msgid "7分"
+msgstr "Saith munud"
+
+msgid "8分"
+msgstr "Wyth munud"
+
+msgid "9分"
+msgstr "9 munud"
+
+msgid "10分"
+msgstr "Deg munud"
+
+msgid "15分"
+msgstr "Pymtheg munud"
+
+msgid "20分"
+msgstr "Ugain munud"
+
+msgid "25分"
+msgstr "25 munud"
+
+msgid "30分"
+msgstr "30 munud"
+
+msgid "35分"
+msgstr "35 munud"
+
+msgid "40分"
+msgstr "Deugain munud"
+
+msgid "45分"
+msgstr "Pedwar deg pump munud"
+
+msgid "50分"
+msgstr "50 munud"
+
+msgid "55分"
+msgstr "55 munud"
+
+msgid "1時間"
+msgstr "Un awr"
+
+msgid "画像URL情報の有効期限を設定します"
+msgstr "Gosodwch y dyddiad dod i ben ar gyfer gwybodaeth URL delwedd."
+
+msgid "一度読み込まれると画像URL情報と一時使用トークンは無効化されます"
+msgstr "Unwaith y bydd wedi'i lwytho, bydd URL y ddelwedd a'r tocyn dros dro yn cael eu di-ddilysu."
+
+msgid "画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます"
+msgstr "Caiff delweddau eu llwytho ar alw, ond fe'u llwythir yn awtomatig 30 eiliad cyn yr amser penodedig."
+
+msgid "一時使用トークンのビット数"
+msgstr "Nifer y bitiau mewn tocyn dros dro"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します"
+msgstr "Defnyddir tocyn dros dro fel cyfrinair i amgryptio gwybodaeth URL delwedd; mae'r gosodiad hwn yn pennu ei gryfder."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります"
+msgstr "Er bod y dewisiadau a ddangosir o dan y ddewislen ostwng yn mynd yn fwyfwy manwl, gall hyn roi llwyth trwm ar y gweinydd ac arwain at drosglwyddo swm mawr o ddata HTML."
+
+msgid "ハッシュ化アルゴリズム"
+msgstr "Algorithm haes"
+
+msgid "画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します"
+msgstr "Defnyddir tocyn dros dro fel cyfrinair i amgryptio gwybodaeth URL delwedd; mae hyn yn gofyn am haesio, ac mae'r gosodiad hwn yn pennu cryfder yr haesio hwnnw."
+
+msgid "ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります"
+msgstr "Er bod y dwysedd yn cynyddu wrth i chi symud i lawr y rhestr o opsiynau a ddangosir yn y ddewislen ostwng, mae hyn yn rhoi llwyth mwy ar y gweinydd."
+
+msgid "基本設定"
+msgstr "Gosodiadau sylfaenol"
+
+msgid "高度な設定"
+msgstr "Gosodiadau uwch"
+
+msgid "初期設定に戻す"
+msgstr "Adfer gosodiadau diofyn"
+
+msgid "デザイン・音の設定"
+msgstr "Dyluniad a gosodiadau sain"
+
+msgid "イベントの設定"
+msgstr "Gosodiadau digwyddiad"
+
+msgid "初回訪問時のお知らせの設定"
+msgstr "Sefydlu hysbysiadau ar gyfer ymweliadau cyntaf"
+
+msgid "メッセージの設定"
+msgstr "Gosodiadau neges"
+
+msgid "右クリックやソースコード表示時に転送する URL を設定します"
+msgstr "Gosodwch yr URL i'w agor wrth dde-glicio neu wrth weld y cod ffynhonnell."
+
+msgid "警告メッセージにはHTMLは使用できません"
+msgstr "Ni ellir defnyddio HTML mewn negeseuon rhybudd."
+
+msgid "この画面で設定すると、高度な設定タブにある言語設定が無視されます"
+msgstr "Os byddwch yn ffurfweddu hwn ar y sgrin hon, anwybyddir y gosodiadau iaith yn y tab Uwch."
+
+msgid "以下の文字列が使用できます"
+msgstr "Gellir defnyddio'r llinynnau canlynol"
+
+msgid "改行"
+msgstr "Torri llinell"
+
+msgid "押下されたキー"
+msgstr "Allwedd wedi'i wasgu"
+
+msgid "Neo HTML Protector 設定"
+msgstr "Gosodiadau Neo HTML Protector"
+
+msgid "お知らせ"
+msgstr "Hysbysiad"
+
+msgid "メッセージ"
+msgstr "Neges"
+
+msgid "デザイン・音"
+msgstr "Dylunio a Sain"
+
+msgid "初期化"
+msgstr "Cychwyniad"
+
+msgid "このプラグインについて"
+msgstr "Ynghylch yr ategyn hwn"
+
+msgid "設定が初期化されました"
+msgstr "Mae'r gosodiadau wedi'u hailosod"
+
+msgid "プラグインを初期化します なおIPログリーダーのデータはここでは削除されません"
+msgstr "Cychwynnwch y plugin. Noder na fydd data'r Darllenydd Logiau IP yn cael ei ddileu ar y cam hwn."
+
+msgid "Neo HTML Protectorについて"
+msgstr "Ynghylch Neo HTML Protector"
+
+msgid "このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。"
+msgstr "Mae'r ategyn hwn wedi'i ddylunio i amddiffyn yr HTML, y delweddau a chynnwys arall a gynhyrchir gan eich gwefan WordPress, gan ei ddiogelu rhag defnydd heb awdurdod."
+
+msgid "コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。"
+msgstr "Mae'n amhosibl diogelu cynnwys yn llwyr. Fodd bynnag, drwy gyhoeddi rhybuddion lle bynnag y bo modd a gwneud paratoadau rhag ofn y bydd unrhyw beth yn digwydd, dylem allu datrys y mater yn unol â'r gweithdrefnau a osodwyd gan y llywodraeth."
+
+msgid "もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。"
+msgstr "Wrth gwrs, bydd angen i chi sicrhau bod eich telerau ac amodau a pholisi'r wefan yn gynhwysfawr. Er nad yw'r ategyn hwn yn offeryn ar gyfer cynhyrchu telerau ac amodau, gall ddarparu rhywfaint o arweiniad."
+
+msgid "開発者: 夜桜　なの"
+msgstr "Datblygwr: Nano Yozakura"
+
+msgid "バージョン"
+msgstr "Fersiwn"
+
+msgid "ビルド"
+msgstr "Adeiladu"
+
+msgid "サポートページ"
+msgstr "Tudalen gymorth"
+
+msgid "ISISちゃん"
+msgstr "ISIS chan"
+
+msgid "Miss. 裏まにら氏歌唱"
+msgstr "Perfformiwyd gan Miss Ura Manira"
+
+msgid "支援のお願い"
+msgstr "Cais am gymorth"
+
+msgid "Neo HTML Protectorをご利用いただき、ありがとうございます！"
+msgstr "Diolch am ddefnyddio Neo HTML Protector!"
+
+msgid "本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。"
+msgstr "Mae datblygu a chynnal a chadw'r ategyn hwn wedi gofyn am lawer iawn o amser ac ymdrech, ac er mwyn codi arian i barhau i'w wella a'i ddiweddaru, byddem yn ddiolchgar pe bai unrhyw un sy'n gallu ein cefnogi yn ystyried rhoi rhodd."
+
+msgid "寄付について"
+msgstr "Ynghylch Rhoddion"
+
+msgid "寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。"
+msgstr "Mae rhoddion yn gwbl wirfoddol ac nid ydynt yn orfodol. Mae'r ategyn ar gael i bawb yn rhad ac am ddim. Fodd bynnag, gwerthfawrogir eich cefnogaeth yn fawr i'n helpu i barhau â'r gwaith datblygu, a byddem yn falch iawn pe gallech gyfrannu beth bynnag y gallwch."
+
+msgid "ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。"
+msgstr "Gallwch wneud rhodd drwy'r ddolen isod. Os ydych chi'n byw yn Japan, gallwch roi'n rhad ac am ddim, a gallwch hefyd roi'n hawdd gan ddefnyddio talebau rhodd Amazon."
+
+msgid "寄付先"
+msgstr "Elusennau"
+
+msgid "皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！"
+msgstr "Gyda'ch cefnogaeth, fe wnawn ein gorau i barhau i ddod â diweddariadau gwych i chi!"
+
+msgid "ご支援いただけることに感謝し、今後ともよろしくお願いいたします。"
+msgstr "Rydym yn ddiolchgar am eich cefnogaeth ac edrychwn ymlaen at eich cefnogaeth barhaus yn y dyfodol."
+
+msgid "ライセンス"
+msgstr "Trwydded"
+
+msgid "本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。"
+msgstr "Mae'r ategyn hwn wedi'i ddatblygu fel meddalwedd cod agored ac mae wedi'i drwyddedu o dan y GPLv2.0 neu fersiwn ddiweddarach."
+
+msgid "このプラグインに含まれるいくつかの技術は特許保護の対象です。"
+msgstr "Mae rhai o'r technolegau sydd wedi'u cynnwys yn yr ategyn hwn wedi'u diogelu gan batentau."
+
+msgid "特許技術の使用は、このプラグイン内での使用に限って認められます。"
+msgstr "Caniateir defnyddio'r dechnoleg batentiedig yn unig o fewn yr ategyn hwn."
+
+msgid "その他の使用については、作者に連絡して商用ライセンスを取得してください。"
+msgstr "Ar gyfer unrhyw ddefnydd arall, cysylltwch â'r awdur i gael trwydded fasnachol."
+
+msgid "本プラグインには以下のライブラリを同梱しています"
+msgstr "Mae'r ategyn hwn yn cynnwys y llyfrgelloedd canlynol"
+
+msgid "本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています"
+msgstr "Mae'r ategyn hwn yn cynnwys y ffontiau celf ASCII a gynhyrchwyd isod, ynghyd â'r ffeiliau ffont."
+
+msgid "このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています"
+msgstr "Mae'r ategyn hwn yn cynnwys cerddoriaeth o'r gêm Super Famicom anfoddog 'SM Trainer Hitomi 3', a ddatblygwyd gan EJ Co., Ltd. ac a gyfansoddwyd gan greawdwr yr ategyn hwn, ac mae wedi'i drwyddedu'n swyddogol."
+
+msgid "このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています"
+msgstr "Mae'r ategyn hwn yn cynnwys traciau a grëwyd gan ddefnyddio 'Keppy's YAMAHA C7', a ddatblygwyd gan Keppy"
+
+msgid "その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています"
+msgstr "Rwyf hefyd wedi defnyddio Raspberry Pi 5, ChatGPT a DeepL wrth ddatblygu'r ategyn hwn."
+
+msgid "キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません"
+msgstr "Mae ategyn storio wedi'i ganfod. Ni fydd yr ategyn hwn yn gweithio'n gywir os yw ategyn storio wedi'i alluogi."
+
+msgid "無効なIPアドレス"
+msgstr "Cyfeiriad IP annilys"
+
+msgid "https://google.co.jp"
+msgstr "https://google.com"
+
+msgid "このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります"
+msgstr "I ddefnyddio'r wefan hon, rhaid i chi alluogi cwcis a JavaScript."
+
+msgid "利用規約"
+msgstr "Telerau Defnyddio"
+
+msgid "このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。"
+msgstr "Er mwyn atal defnydd heb awdurdod a sicrhau gweithrediad diogel ein gwasanaethau, gall y wefan hon storio gwybodaeth fel cyfeiriadau IP, hanes pori a chofnodion gweithgarwch mewn cwcis a chronfeydd data. Defnyddir y wybodaeth hon ar gyfer gweithredu'r wefan ac at ddibenion cyfreithiol yn unig, ac ni fydd yn cael ei datgelu i drydydd partïon."
+
+msgid "サービスをご利用いただくには、これらの処理に同意いただく必要があります。"
+msgstr "I ddefnyddio'r gwasanaeth hwn, rhaid i chi gydsynio i'r gweithgareddau prosesu hyn."
+
+msgid "プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。"
+msgstr "Gallwch weld cynnwys y Polisi Preifatrwydd, p'un a ydych wedi rhoi eich caniatâd ai peidio."
+
+msgid "同意する"
+msgstr "Rwy'n cytuno"
+
+msgid "同意しない"
+msgstr "Dw i'n anghytuno"
+
+msgid "確認"
+msgstr "Cadarnhad"
+
+msgid "プライバシーポリシー"
+msgstr "Polisi Preifatrwydd"
+
+msgid "通常とは異なる方法でのアクセスや操作が検出されました"
+msgstr "Canfuwyd mynediad neu weithgarwch anarferol."
+
+msgid "セキュリティ並びにコンテンツ保護のため一部の機能を制限しています"
+msgstr "Mae rhai nodweddion wedi'u cyfyngu at ddibenion diogelwch a diogelu cynnwys."
+
+msgid "デバッグモード、コンソールの起動は禁止されています"
+msgstr "Mae modd dadfygio a mynediad i'r consol wedi'u hanalluogi."
+
+msgid "以下の情報がサーバーに送信されました"
+msgstr "Mae'r wybodaeth ganlynol wedi'i hanfon i'r gweinydd"
+
+msgid "あなたのIPアドレス"
+msgstr "Eich cyfeiriad IP"
+
+msgid "あなたの端末とブラウザ"
+msgstr "Eich dyfais a'ch porwr"
+
+msgid "あなたの押下したキー"
+msgstr "Yr allwedd a wasgwyd gennych"
+
+msgid "リダイレクトをします"
+msgstr "Cewch eich ailgyfeirio"
+
+msgid "コンテンツ保護のため一部の機能を制限しています"
+msgstr "Mae rhai nodweddion wedi'u cyfyngu i ddiogelu'r cynnwys."
+
+msgid "右クリックは禁止されています"
+msgstr "Nid yw clicio â'r dde yn cael ei ganiatáu."
+
+msgid "あなたが押下したキー"
+msgstr "Yr allwedd a wasgwyd gennych"
+
+msgid "印刷、PDFへの保存は禁止されています"
+msgstr "Gwaherddir argraffu a chadw fel PDF."
+
+msgid "スクリーンショットは禁止されています"
+msgstr "Gwaherddir sgrinluniau."
+
+msgid "スクリーンショット、デバッグモード等の起動は禁止されています"
+msgstr "Gwaherddir cymryd sgrinluniau ac alluogi modd dadfygio."
+
+msgid "ページの保存は禁止されています"
+msgstr "Gwaherddir cadw'r dudalen hon"
+
+msgid "コピー、カットは禁止されています"
+msgstr "Gwaherddir copïo a thorri."
+
+msgid "あなたが起こしたイベント"
+msgstr "Digwyddiadau rydych wedi'u trefnu"
+
+msgid "テキストの選択は禁止されています"
+msgstr "Nid yw'n bosibl dewis testun."
+
+msgid "HTMLソース表示は禁止されています"
+msgstr "Gwaherddir dangos cod ffynhonnell HTML."
+
+msgid "不正アクセスは禁止されています"
+msgstr "Gwaherddir mynediad heb awdurdod."
+
+msgid "アフリカーンス語"
+msgstr "Affricans"
+
+msgid "アラゴン語"
+msgstr "Aragonesa"
+
+msgid "アラビア語"
+msgstr "Arabeg"
+
+msgid "アッサム語"
+msgstr "Asameg"
+
+msgid "アゼルバイジャン語"
+msgstr "Aserbaijaneg"
+
+msgid "バシュキール語"
+msgstr "Bashkir"
+
+msgid "ベラルーシ語"
+msgstr "Bieloruseg"
+
+msgid "ベンガル語"
+msgstr "Bengalaidd"
+
+msgid "ブルガリア語"
+msgstr "Bwlgariaidd"
+
+msgid "ボスニア語"
+msgstr "Bwsnaidd"
+
+msgid "カタロニア語"
+msgstr "Catalanaidd"
+
+msgid "チェコ語"
+msgstr "Tsieceg"
+
+msgid "ウェールズ語"
+msgstr "Cymraeg"
+
+msgid "デンマーク語"
+msgstr "Daneg"
+
+msgid "ドイツ語"
+msgstr "Almaeneg"
+
+msgid "現代ギリシア語"
+msgstr "Groeg fodern"
+
+msgid "英語"
+msgstr "Saesneg"
+
+msgid "イギリス英語"
+msgstr "Saesneg Prydeinig"
+
+msgid "アメリカ英語"
+msgstr "Saesneg Americanaidd"
+
+msgid "エスペラント語"
+msgstr "Esperanto"
+
+msgid "スペイン語"
+msgstr "Sbaeneg"
+
+msgid "エストニア語"
+msgstr "Estonaidd"
+
+msgid "バスク語"
+msgstr "Basgeg"
+
+msgid "ペルシャ語"
+msgstr "Persaidd"
+
+msgid "フィンランド語"
+msgstr "Ffinnaidd"
+
+msgid "フランス語"
+msgstr "Ffrangeg"
+
+msgid "アイルランド語"
+msgstr "Gwyddelig"
+
+msgid "ガリシア語"
+msgstr "Galisaidd"
+
+msgid "グァラニ語"
+msgstr "Guaraní"
+
+msgid "グジャラート語"
+msgstr "Gwjarati"
+
+msgid "ハウサ語"
+msgstr "Tsie"
+
+msgid "ヘブライ語"
+msgstr "Hebraeg"
+
+msgid "ヒンディ語"
+msgstr "Hindî"
+
+msgid "クロアチア語"
+msgstr "Croateg"
+
+msgid "ハイチ・クレオール語"
+msgstr "Criôl Haitian"
+
+msgid "ハンガリー語"
+msgstr "Hwngaraidd"
+
+msgid "インドネシア語"
+msgstr "Indonesieg"
+
+msgid "イボ語"
+msgstr "Iaith Ibo"
+
+msgid "アイスランド語"
+msgstr "Iselandi"
+
+msgid "イタリア語"
+msgstr "Eidalaidd"
+
+msgid "日本語"
+msgstr "Siapaneaidd"
+
+msgid "ジャワ語"
+msgstr "Jawine"
+
+msgid "カザフ語"
+msgstr "Casar"
+
+msgid "朝鮮語"
+msgstr "Coreanaidd"
+
+msgid "クルド語"
+msgstr "Cwrdaidd"
+
+msgid "キルギス語"
+msgstr "Cyrgystanaidd"
+
+msgid "ラテン語"
+msgstr "Lladin"
+
+msgid "ルクセンブルク語"
+msgstr "Lwcsembwrgeg"
+
+msgid "リンガラ語"
+msgstr "Pysgodyn"
+
+msgid "リトアニア語"
+msgstr "Lithwanaidd"
+
+msgid "ラトビア語"
+msgstr "Latfieg"
+
+msgid "マダガスカル語"
+msgstr "Malaig"
+
+msgid "マオリ語"
+msgstr "Māori"
+
+msgid "マケドニア語"
+msgstr "Macedonaidd"
+
+msgid "マラヤーラム語"
+msgstr "Malayalameg"
+
+msgid "モンゴル語"
+msgstr "Mongolaidd"
+
+msgid "マラーティー語"
+msgstr "Maraffî"
+
+msgid "マレー語"
+msgstr "Malay"
+
+msgid "マルタ語"
+msgstr "Maltes"
+
+msgid "ビルマ語"
+msgstr "Bwrmaidd"
+
+msgid "ネパール語"
+msgstr "Nepalaidd"
+
+msgid "ノルウェー語"
+msgstr "Norwyeg"
+
+msgid "オランダ語"
+msgstr "Iseldiraeg"
+
+msgid "オック語"
+msgstr "Ocitan"
+
+msgid "オロモ語"
+msgstr "Neu"
+
+msgid "パンジャーブ語"
+msgstr "Pwnjabi"
+
+msgid "ポーランド語"
+msgstr "Gwydr"
+
+msgid "パシュトー語"
+msgstr "Pashto"
+
+msgid "ポルトガリア語"
+msgstr "Portiwgaleg"
+
+msgid "ブラジルポルトガル語"
+msgstr "Portiwgaleg Brasil"
+
+msgid "ヨーロピアンポルトガル語"
+msgstr "Portiwgaleg Ewropeaidd"
+
+msgid "ケチュア語"
+msgstr "Peched"
+
+msgid "ルーマニア語"
+msgstr "Rwmanaidd"
+
+msgid "ロシア語"
+msgstr "Rwsieg"
+
+msgid "サンスクリット語"
+msgstr "Lladin"
+
+msgid "スロバキア語"
+msgstr "Slofaca"
+
+msgid "スロベニア語"
+msgstr "Slofeneg"
+
+msgid "セルビア語"
+msgstr "Serbiaidd"
+
+msgid "南セソト語"
+msgstr "De Sesotho"
+
+msgid "スンダ語"
+msgstr "Sundaeseg"
+
+msgid "スウェーデン語"
+msgstr "Swedaidd"
+
+msgid "スワヒリ語"
+msgstr "Swahili"
+
+msgid "タミル語"
+msgstr "Tamileg"
+
+msgid "テルグ語"
+msgstr "Telwgi"
+
+msgid "タジク語"
+msgstr "Tajic"
+
+msgid "タイ語"
+msgstr "Talaidd"
+
+msgid "トルクメン語"
+msgstr "Twrcaidd"
+
+msgid "タガログ語"
+msgstr "Tagalog"
+
+msgid "トルコ語"
+msgstr "Twrcaidd"
+
+msgid "タタール語"
+msgstr "Tatar"
+
+msgid "ウクライナ語"
+msgstr "Wcreiniaidd"
+
+msgid "ウルドゥー語"
+msgstr "Wrdw"
+
+msgid "ウズベク語"
+msgstr "Ozbeg"
+
+msgid "ベトナム語"
+msgstr "Fietnameg"
+
+msgid "コサ語"
+msgstr "Gwallt"
+
+msgid "イディッシュ語"
+msgstr "Iddeweg"
+
+msgid "簡体中国語"
+msgstr "Tsieinëeg symlach"
+
+msgid "繁体中国語"
+msgstr "Tsieinëeg draddodiadol"
+
+msgid "ズールー語"
+msgstr "Zulu"
+
+msgid "現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします"
+msgstr "Mae'r porwr rydych chi'n ei ddefnyddio ar hyn o bryd yn fersiwn hŷn nad oes ei gefnogi mwyach. Er mwyn sicrhau profiad pori mwy diogel a chyfforddus, diweddarwch i'r fersiwn ddiweddaraf o'ch porwr."
+
+msgid "不正なリクエストです"
+msgstr "Cais annilys"
+
+msgid "画像が見つかりません"
+msgstr "Ni chanfuwyd y ddelwedd"
+

@@ -1,0 +1,424 @@
+設定	Cài đặt
+IPログリーダー	Trình đọc nhật ký IP
+IPアドレスログ	Nhật ký địa chỉ IP
+全クリア	Hoàn thành tất cả
+IPログが全て削除されました	Tất cả các bản ghi IP đã bị xóa
+ID	ID
+タイムスタンプ	Dấu thời gian
+IPアドレス	Địa chỉ IP
+ユーザーエージェント	Trình duyệt
+イベント	Sự kiện
+IPアドレスのデータはありません	Không có dữ liệu về địa chỉ IP
+EU GDPR対応	Tuân thủ Quy định chung về bảo vệ dữ liệu của EU
+無効	Không hợp lệ
+有効	Hiệu lực
+EU圏内でWordpressを使用する場合、並びにEU圏内も対象とするには必ず有効にしてください	Nếu bạn sử dụng WordPress trong khu vực EU, hoặc nếu trang web của bạn nhắm đến người dùng trong khu vực EU, hãy nhớ kích hoạt tính năng này
+確認のボタンが同意する、同意しないのボタンになり、少し動作が変わります	Nút "Xác nhận" sẽ được thay thế bằng nút "Đồng ý" hoặc "Không đồng ý", và cách thức hoạt động sẽ có một chút thay đổi
+同意画面の色	Màu của màn hình xác nhận
+自動	Tự động
+ライトモード	Chế độ sáng
+ダークモード	Chế độ tối
+同意画面表示中の配色を設定します	Cài đặt màu sắc cho màn hình xác nhận
+同意画面中のコンテンツのぼかし	Làm mờ nội dung trên màn hình xác nhận
+同意画面表示中のコンテンツのぼかし具合を設定します	Cài đặt mức độ làm mờ nội dung khi hiển thị màn hình xác nhận
+同意画面の透過	Độ trong suốt của màn hình xác nhận
+透過なし	Không trong suốt
+同意画面の透過具合を設定します	Cài đặt độ trong suốt của màn hình xác nhận
+お知らせの1行目	Dòng đầu tiên của thông báo
+初回表示で必ず表示されるメッセージです	Đây là thông báo luôn hiển thị khi truy cập lần đầu
+お知らせの2行目	Dòng thứ hai của thông báo
+EU GDPRが有効の際のみ初回表示で必ず表示されるメッセージです	Đây là thông báo sẽ luôn hiển thị trong lần hiển thị đầu tiên, chỉ khi Quy định chung về bảo vệ dữ liệu của EU
+お知らせの3行目	Dòng thứ ba của thông báo
+プライバシーポリシーのリンクの右側に表示されます	Sẽ hiển thị ở bên phải liên kết Chính sách bảo mật
+非EU向け確認の文字列	Dòng xác nhận dành cho các thị trường ngoài EU
+EU GDPR向け同意するの文字列	Dòng văn bản về việc đồng ý theo Quy định chung về bảo vệ dữ liệu của EU
+EU GDPR向け同意しないの文字列	Dòng văn bản từ chối đồng ý theo Quy định chung về bảo vệ dữ liệu của EU
+プライバシーポリシーの文字列	Nội dung Chính sách bảo mật
+プライバシーポリシーのURLはこちらから設定して下さい	Vui lòng thiết lập URL của Chính sách bảo mật tại đây
+プライバシーポリシーには以下の内容を追加して下さい	Vui lòng bổ sung các nội dung sau vào Chính sách bảo mật
+不正操作検知のため、CookieおよびデータベースにIPアドレス等の識別子を保存する。保存されたデータは、管理者の任意のタイミングで削除を行う。	Để phát hiện các hành vi thao túng trái phép, chúng tôi sẽ lưu trữ các thông tin nhận dạng như địa chỉ IP vào cookie và cơ sở dữ liệu. Dữ liệu được lưu trữ sẽ được xóa theo quyết định của người quản trị vào bất kỳ thời điểm nào.
+画像保護が有効な場合のみ、画像を正常に配信するため、IPアドレスと画像ファイル名をハッシュ化したデータをデータベースに最大60分間保存する。	Chỉ khi tính năng bảo vệ hình ảnh được kích hoạt, để đảm bảo hình ảnh được phân phối bình thường, dữ liệu băm từ địa chỉ IP và tên tệp hình ảnh sẽ được lưu trữ trong cơ sở dữ liệu tối đa 60 phút.
+利用規約を設定する場合、必ずプライバシーポリシーに利用規約のリンクを設置して下さい	Khi thiết lập Điều khoản sử dụng, vui lòng đảm bảo rằng bạn đã chèn liên kết đến Điều khoản sử dụng trong Chính sách bảo mật
+利用規約の文字列	Nội dung Điều khoản sử dụng
+利用規約のページ	Trang Điều khoản sử dụng
+ページ選択なし	Không chọn trang
+検索エンジン等のURL	URL của công cụ tìm kiếm, v.v.
+同意しなかった時に画面遷移する検索エンジンなどのURLを設定します	Cài đặt URL của các công cụ tìm kiếm sẽ chuyển sang trang khác khi người dùng không đồng ý
+デバッグモード、コンソールの警告メッセージ	Chế độ gỡ lỗi, thông báo cảnh báo trên bảng điều khiển
+右クリックの警告メッセージ	Thông báo cảnh báo khi nhấp chuột phải
+印刷、PDF保存の警告メッセージ	Thông báo cảnh báo khi in hoặc lưu dưới dạng PDF
+スクリーンショットの警告メッセージ	Thông báo cảnh báo trên ảnh chụp màn hình
+スクリーンショットの疑いの警告メッセージ	Thông báo cảnh báo về ảnh chụp màn hình nghi ngờ
+テキスト全選択時の警告メッセージ	Thông báo cảnh báo khi chọn toàn bộ văn bản
+ページ保存の警告メッセージ	Thông báo cảnh báo khi lưu trang
+コピー・カットした時に表示するメッセージ	Thông báo hiển thị khi sao chép hoặc cắt
+HTMLソース表示時に表示するメッセージ	Thông báo hiển thị khi xem mã nguồn HTML
+HTML難読化・保護時にソースの先頭に表示するメッセージ	Thông báo hiển thị ở đầu mã nguồn khi mã hóa và bảo vệ HTML
+HTML保護時に一度限りの認証トークンが異常の場合に表示するメッセージ	Thông báo hiển thị khi mã xác thực dùng một lần gặp sự cố trong quá trình bảo vệ HTML
+CookieやJavascriptが有効でない場合に表示するメッセージ	Thông báo hiển thị khi Cookie và Javascript bị tắt
+実際にはJavascriptが無効時のみ表示されます	Trên thực tế, nội dung này chỉ hiển thị khi JavaScript bị tắt
+画像保護時に画像がダウンロードされ、その画像に表示するメッセージ 英語のみ	Khi hình ảnh được bảo vệ, hình ảnh đó sẽ được tải xuống và thông báo hiển thị trên hình ảnh đó chỉ có tiếng Anh
+HTML難読化 (圧縮)	Làm rối mã HTML
+一般的なHTML圧縮です、難読化解除のサイトもあります	Đây là phương pháp nén HTML thông thường; cũng có một số trang web giúp giải mã mã hóa
+このオプションを有効にするとview-sourceのログが取得できます	Khi bật tùy chọn này, bạn có thể lấy nhật ký view-source
+HTML保護	Bảo vệ HTML
+HTML圧縮以上に最小限のHTMLしか出力せず、BODYタグ内の内容が全く出力されなくなります	Không chỉ nén HTML mà còn chỉ xuất ra lượng HTML tối thiểu, khiến nội dung bên trong thẻ BODY hoàn toàn không được hiển thị
+Firefoxに対しては無効です	Tính năng này không hoạt động trên Firefox
+SEOに著しく影響があります	Điều này có ảnh hưởng đáng kể đến SEO
+HTMLをJavaScriptで描画	Vẽ HTML bằng JavaScript
+Firefox対策としてHTMLをJavaScriptで描画をします	Để đối phó với Firefox, chúng tôi sẽ hiển thị HTML bằng JavaScript
+JavaScript描画で有効にするとウェブサイトの表示速度が著しく遅くなります	Nếu bật tính năng vẽ bằng JavaScript, tốc độ hiển thị trang web sẽ chậm đi đáng kể
+画像の保護	Bảo vệ hình ảnh
+imgタグが呼び出されるごとに画像を保護	Bảo vệ hình ảnh mỗi khi thẻ img được gọi
+出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護	Bảo vệ tất cả các hình ảnh đã được tải lên WordPress trong toàn bộ mã HTML được xuất ra
+画像をダウンロードから保護します	Bảo vệ hình ảnh khỏi bị tải xuống
+画像データを保護した時にはほぼ完全なるダウンロードを阻止し、完全なるワンタイムURLを発行し、セッションに保存されたトークンで認証し、phpから画像を表示します、その為ほぼ完全な画像盗用を防ぎます	Khi bảo vệ dữ liệu hình ảnh, hệ thống sẽ ngăn chặn gần như hoàn toàn việc tải xuống trái phép, cấp phát URL dùng một lần duy nhất, xác thực thông qua mã thông báo được lưu trữ trong phiên làm việc và hiển thị hình ảnh thông qua PHP; nhờ đó, hệ thống ngăn chặn gần như hoàn toàn việc đánh cắp hình ảnh.
+画像データを保護した時には画像のキャッシュが効かないため、次回訪問時にサイトの読み込みが遅くなるため、SEOに影響があります	Khi dữ liệu hình ảnh được bảo vệ, bộ nhớ đệm hình ảnh sẽ không hoạt động, dẫn đến việc trang web tải chậm hơn trong lần truy cập tiếp theo, từ đó ảnh hưởng đến SEO
+画像データを保護した時には、データベースの負荷が高くなる可能性があります	Khi bảo vệ dữ liệu hình ảnh, tải trọng của cơ sở dữ liệu có thể tăng cao
+「imgタグが呼び出されるごとに画像を保護」の場合は、add_filterを使用し、imgタグの発行時にフィルタリングを行います、テーマによっては正しく動作しません	Trong trường hợp “bảo vệ hình ảnh mỗi khi thẻ img được gọi”, hãy sử dụng add_filter để thực hiện lọc khi thẻ img được phát ra; tuy nhiên, tùy thuộc vào chủ đề, chức năng này có thể không hoạt động chính xác
+「出力される全HTMLのうち、Wordpressにアップロードされた画像をすべて保護」の場合は、Wordpressのほぼすべての動作をキャプチャし、コンテンツ内のimgタグについてすべて処理します。テーマによっては正しく動作しません	Trong trường hợp chọn “Bảo vệ tất cả hình ảnh được tải lên WordPress trong toàn bộ mã HTML được xuất ra”, hệ thống sẽ ghi lại gần như toàn bộ hoạt động của WordPress và xử lý tất cả các thẻ img trong nội dung. Tùy thuộc vào chủ đề, tính năng này có thể không hoạt động chính xác
+なお、アイキャッチに指定した画像はOGPとして拡散されますので保護できません。どうしても保護すべき場合は高度な設定でHTML保護時のHEADタグの出力の選択を変更してください	Xin lưu ý rằng hình ảnh được chỉ định làm hình ảnh nổi bật sẽ được chia sẻ dưới dạng OGP nên không thể bảo vệ được. Nếu nhất định phải bảo vệ, vui lòng thay đổi tùy chọn xuất thẻ HEAD trong phần cài đặt nâng cao khi kích hoạt bảo vệ HTML.
+OS標準搭載のスクリーンショット機能を保護することはできません	Không thể bảo vệ tính năng chụp ảnh màn hình được cài đặt sẵn trong hệ điều hành
+画像URLの保護	Bảo vệ URL hình ảnh
+画像の保護と組み合わせて使用します、単体では意味がありません	Sử dụng kết hợp với tính năng bảo vệ hình ảnh; nếu dùng riêng lẻ thì không có ý nghĩa gì
+JavaScriptにより遅延読まれますのでSEOに影響があります	Vì nội dung được tải chậm nhờ JavaScript nên sẽ ảnh hưởng đến SEO
+画像のウォーターマーク	Hình mờ trên ảnh
+右下	Góc dưới bên phải
+ランダム位置	Vị trí ngẫu nhiên
+画像の保護と組み合わせて使用します、動的な透かしで著作権を明示しつつ、閲覧者に監視されている印象を与え抑止力を高めます	Sử dụng kết hợp với tính năng bảo vệ hình ảnh; bằng cách sử dụng hình mờ động để thể hiện rõ quyền tác giả, đồng thời tạo cảm giác cho người xem rằng họ đang bị theo dõi, từ đó tăng cường hiệu quả răn đe
+JPG形式、PNG形式、WebP形式のみ対応します	Chỉ hỗ trợ định dạng JPG, PNG và WebP
+有効にするとサーバーの負荷が高くなります	Nếu bật tính năng này, tải trọng của máy chủ sẽ tăng lên
+HTML難読化・保護時のHTMLソースコードのアスキーアートの出力	Hiển thị mã ASCII từ mã nguồn HTML khi mã hóa và bảo vệ HTML
+表示なし	Không hiển thị
+view-sourceでHTMLソース表示をした時に警告の意思を示すアスキーアートを表示します	Khi hiển thị mã nguồn HTML bằng lệnh `view-source`, hệ thống sẽ hiển thị hình ảnh ASCII biểu thị cảnh báo
+対象アクションを起こした時の表示デザイン	Thiết kế hiển thị khi thực hiện hành động tương ứng
+黄色の背景の黒文字のベーシックデザイン	Thiết kế cơ bản với chữ đen trên nền vàng
+黒色の背景の赤文字のホラー風デザイン	Thiết kế theo phong cách kinh dị với chữ đỏ trên nền đen
+黒色の背景の赤文字の光る文字のデザイン	Thiết kế chữ đỏ phát sáng trên nền đen
+対象アクションを起こした時のBGM	Nhạc nền khi thực hiện hành động tương ứng
+サウンドなし	Không có âm thanh
+戦闘＆戦闘勝利 - 1分16.3秒 - 630,056bytes - 64kbps - ライセンス：CC2.1 or later	Chiến đấu & Chiến thắng - 1 phút 16,3 giây - 630.056 byte - 64 kbps - Giấy phép: CC 2.1 trở lên
+おやじ ショート - 3.8秒 - 32,364bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Short - 3,8 giây - 32.364 byte - 64 kbps - Giấy phép GPL 2.0 hoặc mới hơn
+おやじ ロング - 23.5秒 - 195,578bytes - 64kbps - ライセンス GPL2.0 or later (C)EJ	Oyaji Long - 23,5 giây - 195.578 byte - 64 kbps - Giấy phép GPL 2.0 hoặc mới hơn
+ショパン エチュード Op.10-5 黒鍵 打ち込み版 高速版 - 1分0.0秒 - 369,778bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Etude Op.10-5
+ショパン エチュード Op.10-12 革命 打ち込み版 高速版 - 1分57.6秒 - 724,457bytes - 48kbps -  ライセンス：CC BY-ND 4.0 or later	Chopin: Etude Op.10-12 "Cách mạng" - Phiên bản nhập liệu - Phiên bản tốc độ cao - 1 phút 57,6 giây - 724.457 byte - 48 kbps - Giấy phép: CC BY-ND 4.0 hoặc phiên bản mới hơn
+ショパン スケルツォ 変ロ短調 Op2 打ち込み版 高速短縮版 - 1分48.0秒 - 665,369bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Chopin: Scherzo, giọng Si thứ, Op. 2 – Phiên bản nhạc điện tử, bản rút gọn tốc độ cao – 1 phút 48,0 giây – 665.369 byte – 48 kbps – Giấy phép: CC BY-ND 4.0 hoặc phiên bản mới hơn
+リスト 超絶技巧練習曲 4番 マゼッパ 打ち込み版 高速短縮版 - 1分51.6秒 - 687,586bytes - 48kbps - ライセンス：CC BY-ND 4.0 or later	Danh sách: Etude số 4 "Mazeppa" - Phiên bản nhập liệu - Phiên bản rút gọn tốc độ cao - 1 phút 51,6 giây - 687.586 byte - 48 kbps - Giấy phép: CC BY-ND 4.0 hoặc phiên bản mới hơn
+ファンファーレ - 22.3秒 - 183,926bytes - 64kbps - ライセンス：パブリックドメイン	Fanfare - 22,3 giây - 183.926 byte - 64 kbps - Giấy phép: Công cộng
+レトロ風ファンファーレ - 2.2秒 - 10,536bytes - 32kbps - ライセンス：パブリックドメイン	Tiếng kèn đồng phong cách retro - 2,2 giây - 10.536 byte - 32 kbps - Giấy phép: Miễn phí
+レトロ風オープン - 42.1秒 - 179,138bytes - 32kbps - ライセンス：パブリックドメイン	Phong cách retro - 42,1 giây - 179.138 byte - 32 kbps - Giấy phép: Miễn phí
+警告 by ChatGPT - 3.8秒 - 109,700bytes - 256kbps - ライセンス：パブリックドメイン	Cảnh báo bởi ChatGPT - 3,8 giây - 109.700 byte - 256 kbps - Giấy phép: Miễn phí
+マルウェア検出みたいな緊急感の高い音 その１ by ChatGPT - 3.3秒 - 102,850bytes - 256kbps - ライセンス：パブリックドメイン	Âm thanh mang tính khẩn cấp như cảnh báo phát hiện phần mềm độc hại - Phần 1 bởi ChatGPT - 3,3 giây - 102.850 byte - 256 kbps - Giấy phép: Miễn phí
+マルウェア検出みたいな緊急感の高い音 その２ by ChatGPT - 3.3秒 - 103,122bytes - 256kbps - ライセンス：パブリックドメイン	Âm thanh mang tính khẩn cấp như cảnh báo phát hiện phần mềm độc hại - Phần 2 bởi ChatGPT - 3,3 giây - 103.122 byte - 256 kbps - Giấy phép: Miễn phí
+MRI風サウンド by ChatGPT - 1分14.9秒 - 3,340,392bytes - 320kbps - ライセンス：パブリックドメイン	Âm thanh phong cách MRI do ChatGPT tạo ra - 1 phút 14,9 giây - 3.340.392 byte - 320 kbps - Giấy phép: Miễn phí
+警告表示中のBGMを選択します	Chọn nhạc nền khi hiển thị cảnh báo
+びっくりするような雰囲気を作ります	Tạo ra một bầu không khí đầy bất ngờ
+Firefoxでは音声ブロックされます	Trong Firefox, âm thanh sẽ bị chặn
+対象アクションを起こした時のビープ音	Tiếng bíp khi thực hiện hành động tương ứng
+有効 音量小さ目	Đang hoạt động, âm lượng nhỏ
+有効 音量大き目	Đang hoạt động, âm lượng lớn
+警告表示中にすべてのキー・マウスイベントでビープ音を鳴らします	Khi hiển thị cảnh báo, hệ thống sẽ phát ra tiếng bíp mỗi khi có sự kiện từ bàn phím hoặc chuột
+警告表示中に端末が暴走したかのような雰囲気を作ります	Tạo ra cảm giác như thiết bị đang hoạt động bất thường trong khi hiển thị cảnh báo
+対象アクションを起こした時のマウスカーソルの消去	Ẩn con trỏ chuột khi thực hiện hành động tương ứng
+警告表示中にブラウザのエリアのマウスカーソルを消去します	Xóa con trỏ chuột khỏi khu vực trình duyệt khi hiển thị cảnh báo
+デバッグモード	Chế độ gỡ lỗi
+妨害＋記録のみ	Chỉ cản trở + ghi chép
+妨害＋記録＋表示＋リダイレクト	Chặn + Ghi lại + Hiển thị + Chuyển hướng
+メニューからは操作できてしまいます	Có thể thực hiện thao tác này từ menu
+Firefoxにおけるデバッグモード	Chế độ gỡ lỗi trong Firefox
+ブラウザーコンソール	Bảng điều khiển trình duyệt
+事実上デバッグモードから操作できてしまいます	Trên thực tế, bạn có thể thao tác ngay từ chế độ gỡ lỗi
+HTMLソース表示	Hiển thị mã nguồn HTML
+view-source:から始まるURLを入力すれば操作できてしまいます	Chỉ cần nhập URL bắt đầu bằng "view-source:" là có thể thực hiện thao tác được
+HTML保護と組み合わせることでコンテンツを保護することができます	Bạn có thể bảo vệ nội dung bằng cách kết hợp với tính năng bảo vệ HTML
+印刷	In
+印刷阻止をするもものの、ブラウザによってはうまく動作しません	Mặc dù đã chặn in, nhưng tính năng này có thể không hoạt động đúng trên một số trình duyệt
+スクリーンショット	Ảnh chụp màn hình
+OSやブラウザ、方法によっては妨害できず、もしくは検出しないことがあります	Tùy thuộc vào hệ điều hành, trình duyệt hoặc phương pháp sử dụng, có thể không ngăn chặn được hoặc không phát hiện ra
+ウインドウが背面に移動した時スクリーンショットの疑い	Có khả năng đã chụp ảnh màn hình khi cửa sổ di chuyển ra phía sau
+あわせて、スクリーンショット以外の機能（タブ切り替え・ウィンドウ切り替え）にも反応してしまいます。	Ngoài ra, nó còn phản ứng với các chức năng khác ngoài chụp ảnh màn hình
+2キー押下のスクリーンショットの疑い	Nghi ngờ chụp ảnh màn hình khi nhấn 2 phím
+上の項目の検出方法は完全ではありません、予防的に検出を行います	Phương pháp phát hiện nêu trên không phải là hoàn hảo; việc phát hiện được thực hiện nhằm mục đích phòng ngừa
+スクリーンショットだけではなく、デバッグモード等も検出します	Không chỉ phát hiện ảnh chụp màn hình mà còn phát hiện cả chế độ gỡ lỗi, v.v.
+ページ保存	Lưu trang
+右クリック	Nhấp chuột phải
+アドオンがインストールされていると操作できてしまいます	Nếu tiện ích mở rộng đã được cài đặt, người dùng vẫn có thể thực hiện thao tác
+コピー・カット	Sao chép và cắt
+本プラグインの設定によってはこのイベントにたどり着くことはほとんどない場合があります	Tùy thuộc vào cài đặt của plugin này, có thể bạn sẽ hiếm khi gặp phải sự kiện này
+テキスト全選択	Chọn toàn bộ văn bản
+テキスト選択	Chọn văn bản
+デバッガー起動ログ、デバッガー妨害	Nhật ký khởi động trình gỡ lỗi, sự cố trình gỡ lỗi
+デバッグモードの使い勝手を少し悪くし、デバッガを起動したことをログに残します、ブラウザによってはこの挙動が止められてしまいます	Chế độ gỡ lỗi sẽ trở nên khó sử dụng hơn một chút và việc khởi động trình gỡ lỗi sẽ được ghi lại trong nhật ký; tuy nhiên, tùy thuộc vào trình duyệt, hành vi này có thể bị vô hiệu hóa
+リダイレクトするURL	URL chuyển hướng
+利用規約などのページに転送すると良いでしょう	Bạn nên chuyển hướng người dùng đến các trang như Điều khoản sử dụng
+空欄にすると元のURLにリダイレクトをします	Nếu để trống, trang sẽ được chuyển hướng đến URL ban đầu
+リダイレクトまでの時間	Thời gian chuyển hướng
+リダイレクトなし	Không chuyển hướng
+1秒	1 giây
+2秒	2 giây
+3秒	3 giây
+4秒	4 giây
+5秒	5 giây
+6秒	6 giây
+7秒	7 giây
+8秒	8 giây
+9秒	9 giây
+10秒	10 giây
+15秒	15 giây
+20秒	20 giây
+25秒	25 giây
+30秒	30 giây
+35秒	35 giây
+40秒	40 giây
+45秒	45 giây
+50秒	50 giây
+55秒	55 giây
+1分	1 phút
+1分10秒	1 phút 10 giây
+1分20秒	1 phút 20 giây
+1分30秒	1 phút 30 giây
+1分40秒	1 phút 40 giây
+1分50秒	1 phút 50 giây
+2分	2 phút
+ソース表示を許可する権限	Quyền cho phép hiển thị nguồn
+ADMINログイン時のみ通常のソース出力	Chỉ hiển thị mã nguồn thông thường khi đăng nhập với tư cách quản trị viên
+USERログインで通常のソース出力	Đăng nhập USER để xuất nguồn thông thường
+通常のHTML出力を管理者のみかユーザーログインかを選択します	Chọn xem chỉ quản trị viên hay cả người dùng đã đăng nhập mới có thể xem nội dung HTML thông thường
+画像を無理やりダウンロードして実際にダウンロードされるもの	Những tệp tin bị buộc phải tải xuống và những tệp tin thực sự được tải xuống
+GIF形式で1×1ピクセルの透過画像	Hình ảnh trong suốt kích thước 1×1 pixel ở định dạng GIF
+PNG形式で1×1ピクセルの透過画像	Hình ảnh trong suốt kích thước 1×1 pixel ở định dạng PNG
+PNG形式で黄色い背景の警告画面	Màn hình cảnh báo nền vàng ở định dạng PNG
+意味のないHTMLドキュメント	Tài liệu HTML vô nghĩa
+HTML保護時のHEADタグの出力	Hiển thị thẻ HEAD khi bảo vệ HTML
+出力しない	Không hiển thị
+TITLEタグのみ	Chỉ thẻ TITLE
+WordpressのHEADタグより取得	Lấy từ thẻ HEAD của WordPress
+企業用途の会員専用ページや社内ページなどでは「出力しない」、「TITLEタグのみ」で良いでしょう	Trên các trang dành riêng cho thành viên hoặc trang nội bộ của doanh nghiệp, bạn chỉ cần chọn “Không hiển thị” hoặc “Chỉ hiển thị thẻ TITLE” là được.
+WordpressのHEADタグから取得しないと、SNSのシェアでOGP画像が表示されません	Nếu không lấy từ thẻ HEAD của WordPress, hình ảnh OGP sẽ không hiển thị khi chia sẻ lên mạng xã hội
+画像botをアクセス禁止にする	Chặn bot hình ảnh
+画像botをHTMLに対し避けることにより、画像検索から直接リンクされることによって守れなかったコンテンツを守ることができます、ただし完全には対処することはできません	Bằng cách ngăn chặn bot tìm kiếm hình ảnh truy cập vào mã HTML, bạn có thể bảo vệ những nội dung mà trước đây không thể bảo vệ được do bị liên kết trực tiếp từ kết quả tìm kiếm hình ảnh; tuy nhiên, biện pháp này không thể giải quyết triệt để vấn đề.
+AI学習用botをアクセス禁止にする	Chặn truy cập vào bot dùng cho việc huấn luyện AI
+AIの学習用のbotをHTMLに対し避けることにより、AIで利用されないようにします、ただし完全には対処することはできません	Bằng cách chặn các bot dùng để huấn luyện AI truy cập vào trang HTML, chúng ta có thể ngăn chúng không sử dụng dữ liệu này; tuy nhiên, không thể ngăn chặn hoàn toàn được.
+ウェブアーカイブ、ウェブ魚拓をアクセス禁止にする	Chặn truy cập vào kho lưu trữ web và bản sao lưu trang web
+自動的に収集されるウェブアーカイブ並びにユーザーの任意で取得される魚拓のアクセスを禁止します、ただし完全には対処することはできません	Chúng tôi sẽ chặn truy cập vào các bản lưu trữ web được thu thập tự động cũng như các bản chụp màn hình do người dùng tự thực hiện; tuy nhiên, chúng tôi không thể ngăn chặn hoàn toàn
+無効なUAをアクセス禁止にする	Chặn truy cập từ các UA không hợp lệ
+ユーザーエイジェントの文字に不正な文字列があった場合のアクセスを避けます	Hệ thống sẽ chặn truy cập nếu chuỗi ký tự trong User-Agent chứa các ký tự không hợp lệ
+Internet Explorerと旧Microsoft Edge(EdgeHTML)のアクセスに警告を表示する	Hiển thị cảnh báo khi truy cập bằng Internet Explorer và Microsoft Edge phiên bản cũ
+Internet Explorerと旧Microsoft Edgeのアクセスを避けます	Ngăn chặn truy cập từ Internet Explorer và Microsoft Edge phiên bản cũ
+alertメッセージを表示する言語	Ngôn ngữ hiển thị thông báo cảnh báo
+Wordpressの言語	Ngôn ngữ của WordPress
+ブラウザの設定言語	Ngôn ngữ cài đặt của trình duyệt
+メッセージをカスタム設定されている場合は言語を変更できません	Nếu tin nhắn đã được tùy chỉnh, bạn không thể thay đổi ngôn ngữ
+同意画面の言語	Ngôn ngữ trên màn hình xác nhận
+view-sourceメッセージを表示する言語	Ngôn ngữ hiển thị thông báo view-source
+一時使用トークンの有効期限	Thời hạn hiệu lực của mã sử dụng một lần
+3分	3 phút
+4分	4 phút
+5分	5 phút
+6分	6 phút
+7分	7 phút
+8分	8 phút
+9分	9 phút
+10分	10 phút
+15分	15 phút
+20分	20 phút
+25分	25 phút
+30分	30 phút
+35分	35 phút
+40分	40 phút
+45分	45 phút
+50分	50 phút
+55分	55 phút
+1時間	1 giờ
+画像URL情報の有効期限を設定します	Đặt thời hạn hiệu lực cho thông tin URL hình ảnh
+一度読み込まれると画像URL情報と一時使用トークンは無効化されます	Sau khi được tải vào, thông tin URL hình ảnh và mã thông báo sử dụng tạm thời sẽ bị vô hiệu hóa
+画像は遅延読み込みされますが、この指定した時間の30秒前に強制的に画像が読み込まれます	Hình ảnh sẽ được tải chậm, nhưng sẽ được tải trước 30 giây so với thời gian đã chỉ định
+一時使用トークンのビット数	Số bit của mã thông báo sử dụng một lần
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その強度を指定します	Chúng tôi sử dụng mã thông báo tạm thời làm mật khẩu để mã hóa thông tin URL hình ảnh; bạn hãy chỉ định mức độ bảo mật của mã thông báo này
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなり、HTML転送量が多くなることがあります	Mặc dù mức độ hiển thị sẽ tăng dần khi người dùng cuộn xuống các tùy chọn trong menu thả xuống, nhưng điều này có thể làm tăng tải trọng lên máy chủ và lượng dữ liệu HTML được truyền tải
+ハッシュ化アルゴリズム	Thuật toán băm
+画像URL情報を暗号化するのに一時使用トークンをパスワードとして使用しますが、その時ハッシュ化が必要です、その強度を設定します	Chúng tôi sử dụng mã thông báo tạm thời làm mật khẩu để mã hóa thông tin URL hình ảnh, nhưng lúc đó cần phải thực hiện quá trình băm; hãy thiết lập mức độ bảo mật cho quá trình này
+ドロップダウンメニューの下に表示される選択肢にいくにつれて強度が強くなるものの、サーバーへの負荷が高くなります	Mặc dù mức độ hiển thị sẽ tăng dần khi di chuyển xuống các tùy chọn xuất hiện dưới menu thả xuống, nhưng điều này sẽ làm tăng tải cho máy chủ
+基本設定	Cài đặt cơ bản
+高度な設定	Cài đặt nâng cao
+初期設定に戻す	Khôi phục cài đặt gốc
+デザイン・音の設定	Cài đặt thiết kế và âm thanh
+イベントの設定	Cài đặt sự kiện
+初回訪問時のお知らせの設定	Cài đặt thông báo cho lần truy cập đầu tiên
+メッセージの設定	Cài đặt tin nhắn
+右クリックやソースコード表示時に転送する URL を設定します	Cài đặt URL sẽ được chuyển hướng khi nhấp chuột phải hoặc xem mã nguồn
+警告メッセージにはHTMLは使用できません	Không được sử dụng HTML trong thông báo cảnh báo
+この画面で設定すると、高度な設定タブにある言語設定が無視されます	Nếu bạn thực hiện cài đặt trên màn hình này, các thiết lập ngôn ngữ trong tab Cài đặt nâng cao sẽ bị bỏ qua
+以下の文字列が使用できます	Có thể sử dụng các chuỗi ký tự sau đây
+改行	Dòng mới
+押下されたキー	Phím vừa được nhấn
+Neo HTML Protector 設定	Cài đặt Neo HTML Protector
+お知らせ	Thông báo
+メッセージ	Thông điệp
+デザイン・音	Thiết kế và âm thanh
+初期化	Khởi tạo
+このプラグインについて	Giới thiệu về plugin này
+設定が初期化されました	Cài đặt đã được khôi phục về mặc định
+プラグインを初期化します なおIPログリーダーのデータはここでは削除されません	Sẽ khởi tạo lại plugin. Lưu ý rằng dữ liệu của Trình đọc nhật ký IP sẽ không bị xóa tại đây.
+Neo HTML Protectorについて	Giới thiệu về Neo HTML Protector
+このプラグインはあなたのWordpressから出力されるHTMLや画像等を保護し、コンテンツの不正利用から守ることを目的としています。	Plugin này nhằm mục đích bảo vệ các tệp HTML, hình ảnh và các nội dung khác được xuất ra từ WordPress của bạn, đồng thời ngăn chặn việc sử dụng trái phép nội dung.
+コンテンツを完璧に守ることはできません。しかし可能な限りの方法において警告し、もし何かがあった場合に備えて準備することにより国で定められている方法で解決することができるはずです。	Không thể bảo vệ nội dung một cách hoàn hảo. Tuy nhiên, bằng cách đưa ra cảnh báo trong phạm vi có thể và chuẩn bị sẵn sàng để ứng phó với mọi tình huống, chúng ta sẽ có thể giải quyết vấn đề theo quy định của pháp luật.
+もちろん、利用規約やサイトポリシーを充実させる必要があります。このプラグインは利用規約生成アプリではありませんが、そのヒントを与えることができます。	Tất nhiên, bạn cần phải hoàn thiện các điều khoản sử dụng và chính sách trang web. Plugin này không phải là một ứng dụng tạo điều khoản sử dụng, nhưng nó có thể cung cấp cho bạn những gợi ý hữu ích.
+開発者: 夜桜　なの	Tác giả: Yozakura Nano
+バージョン	Phiên bản
+ビルド	Xây dựng
+サポートページ	Trang hỗ trợ
+ISISちゃん	ISIS chan
+Miss. 裏まにら氏歌唱	Cô Ura Manira trình bày
+支援のお願い	Kính mong sự hỗ trợ
+Neo HTML Protectorをご利用いただき、ありがとうございます！	Cảm ơn bạn đã sử dụng Neo HTML Protector!
+本プラグインの開発と維持には多くの時間と知恵の絞りだしがかかっており、引き続き改善と更新を行っていくための資金を集めるために、もしご支援いただける方がいれば、寄付をお願いできればと思います。	Việc phát triển và duy trì plugin này đã tiêu tốn rất nhiều thời gian và công sức; để có kinh phí tiếp tục cải tiến và cập nhật, nếu có ai sẵn lòng ủng hộ, chúng tôi rất mong nhận được sự đóng góp từ quý vị.
+寄付について	Về việc quyên góp
+寄付は任意であり、強制ではありません。プラグインを無料でご利用いただけるように、どなたでも利用可能です。しかし、開発を継続するためにはご支援が大変ありがたく、少しでもご協力いただけると嬉しいです。	Việc đóng góp là tự nguyện, không bắt buộc. Plugin này hoàn toàn miễn phí và ai cũng có thể sử dụng. Tuy nhiên, để tiếp tục phát triển sản phẩm, sự ủng hộ của các bạn là vô cùng quý giá, và chúng tôi sẽ rất vui nếu nhận được sự hỗ trợ dù chỉ là một chút từ các bạn.
+ご寄付は、下記のリンクから行っていただけます。日本の方であれば無料で寄付をすることも可能で、更にはアマゾンギフト券で気軽に寄付をすることが可能です。	Quý vị có thể đóng góp qua liên kết dưới đây. Nếu quý vị là công dân Nhật Bản, quý vị có thể đóng góp miễn phí, và thậm chí còn có thể đóng góp một cách dễ dàng bằng phiếu quà tặng Amazon.
+寄付先	Đơn vị nhận đóng góp
+皆様のご支援があれば、今後も素晴らしいアップデートをお届けできるよう頑張ります！	Với sự ủng hộ của mọi người, chúng tôi sẽ tiếp tục nỗ lực để mang đến những bản cập nhật tuyệt vời trong tương lai!
+ご支援いただけることに感謝し、今後ともよろしくお願いいたします。	Chúng tôi xin chân thành cảm ơn sự ủng hộ của quý vị và mong tiếp tục nhận được sự ủng hộ của quý vị trong thời gian tới.
+ライセンス	Giấy phép
+本プラグインはオープンソースで開発されており、GPL2.0以降のバージョンのライセンスを適用しています。	Plugin này được phát triển theo mô hình mã nguồn mở và áp dụng giấy phép GPL 2.0 trở lên.
+このプラグインに含まれるいくつかの技術は特許保護の対象です。	Một số công nghệ có trong plugin này được bảo hộ bằng sáng chế.
+特許技術の使用は、このプラグイン内での使用に限って認められます。	Việc sử dụng công nghệ được cấp bằng sáng chế chỉ được phép trong phạm vi plugin này.
+その他の使用については、作者に連絡して商用ライセンスを取得してください。	Đối với các mục đích sử dụng khác, vui lòng liên hệ với tác giả để xin giấy phép thương mại.
+本プラグインには以下のライブラリを同梱しています	Plugin này đi kèm với các thư viện sau đây
+本プラグインには以下で生成したアスキーアートのフォント、並びにフォントファイルを同梱しています	Plugin này đi kèm với phông chữ ASCII art được tạo ra tại đây, cùng với các tệp phông chữ tương ứng
+このプラグインには有限会社イージェーが開発を行い、本プラグイン製作者が作曲した、スーパーファミコン非公認ゲーム「SM調教師瞳3」の楽曲を含んでおり、正式にライセンスされています	Plugin này bao gồm các bản nhạc từ trò chơi "SM Tōmei Hitomi 3" trên hệ máy Super Famicom
+このプラグインには、Keppy氏（KaleidonKep99）によって作成された「Keppy s YAMAHA C7」を使用した楽曲が含まれており、正式にライセンスされています	Plugin này bao gồm các bản nhạc sử dụng mẫu “Keppy’s YAMAHA C7” do Keppy
+その他本プラグインの開発にRaspberry Pi5とChatGPTとdeeplを使用しています	Ngoài ra, tôi còn sử dụng Raspberry Pi 5, ChatGPT và Deepl để phát triển plugin này
+キャッシュプラグインを検出しました キャッシュプラグインが有効化されていると本プラグインは正しく動作しません	Đã phát hiện plugin bộ nhớ đệm. Plugin này sẽ không hoạt động bình thường nếu plugin bộ nhớ đệm đang được kích hoạt.
+無効なIPアドレス	Địa chỉ IP không hợp lệ
+このウェブサイトをご利用いただくには、CookieとJavaScriptを有効にしていただく必要があります	Để sử dụng trang web này, bạn cần bật Cookie và JavaScript
+利用規約	Điều khoản sử dụng
+このサイトでは、不正利用の防止およびサービスの安全な運営のために、IPアドレス・閲覧履歴・操作ログなどの情報をCookieとデータベースに保存することがあります。これらの情報は、サイトの運営や法的対応にのみ使用され、第三者に提供することはありません。	Để ngăn chặn việc sử dụng trái phép và đảm bảo hoạt động an toàn của dịch vụ, trang web này có thể lưu trữ các thông tin như địa chỉ IP, lịch sử duyệt web và nhật ký thao tác vào cookie và cơ sở dữ liệu. Những thông tin này chỉ được sử dụng cho mục đích vận hành trang web và xử lý các vấn đề pháp lý, và sẽ không được cung cấp cho bên thứ ba.
+サービスをご利用いただくには、これらの処理に同意いただく必要があります。	Để sử dụng dịch vụ, quý khách cần đồng ý với các quy trình này.
+プライバシーポリシーの内容は、同意の有無に関わらずご確認いただけます。	Quý vị có thể xem nội dung Chính sách bảo mật bất kể có đồng ý hay không.
+同意する	Tôi đồng ý
+同意しない	Không đồng ý
+確認	Xác nhận
+プライバシーポリシー	Chính sách bảo mật
+通常とは異なる方法でのアクセスや操作が検出されました	Đã phát hiện thấy các hành vi truy cập hoặc thao tác khác thường
+セキュリティ並びにコンテンツ保護のため一部の機能を制限しています	Để đảm bảo an ninh và bảo vệ nội dung, một số tính năng đã bị hạn chế
+デバッグモード、コンソールの起動は禁止されています	Không được phép khởi động chế độ gỡ lỗi và bảng điều khiển
+以下の情報がサーバーに送信されました	Thông tin sau đây đã được gửi đến máy chủ
+あなたのIPアドレス	Địa chỉ IP của bạn
+あなたの端末とブラウザ	Thiết bị và trình duyệt của bạn
+あなたの押下したキー	Phím mà bạn đã nhấn
+リダイレクトをします	Sẽ chuyển hướng
+コンテンツ保護のため一部の機能を制限しています	Để bảo vệ nội dung, một số tính năng đã bị hạn chế
+右クリックは禁止されています	Không được nhấp chuột phải
+あなたが押下したキー	Phím mà bạn đã nhấn
+印刷、PDFへの保存は禁止されています	Cấm in hoặc lưu dưới dạng PDF
+スクリーンショットは禁止されています	Không được chụp ảnh màn hình
+スクリーンショット、デバッグモード等の起動は禁止されています	Việc khởi động các tính năng như chụp ảnh màn hình, chế độ gỡ lỗi, v.v. bị cấm
+ページの保存は禁止されています	Không được lưu trang này
+コピー、カットは禁止されています	Cấm sao chép và cắt
+あなたが起こしたイベント	Sự kiện do bạn tổ chức
+テキストの選択は禁止されています	Không được chọn văn bản
+HTMLソース表示は禁止されています	Việc hiển thị mã nguồn HTML bị cấm
+不正アクセスは禁止されています	Việc truy cập trái phép bị cấm
+アフリカーンス語	Tiếng Afrikaans
+アラゴン語	Tiếng Aragon
+アラビア語	Tiếng Ả Rập
+アッサム語	Tiếng Assam
+アゼルバイジャン語	Tiếng Azerbaijan
+バシュキール語	Tiếng Bashkir
+ベラルーシ語	Tiếng Belarus
+ベンガル語	Tiếng Bengali
+ブルガリア語	Tiếng Bulgaria
+ボスニア語	Tiếng Bosnia
+カタロニア語	Tiếng Catalan
+チェコ語	Tiếng Séc
+デンマーク語	Tiếng Đan Mạch
+ドイツ語	Tiếng Đức
+現代ギリシア語	Tiếng Hy Lạp hiện đại
+英語	Tiếng Anh
+イギリス英語	Tiếng Anh Anh
+アメリカ英語	Tiếng Anh Mỹ
+エスペラント語	Tiếng Esperanto
+スペイン語	Tiếng Tây Ban Nha
+エストニア語	Tiếng Estonia
+バスク語	Tiếng Basque
+ペルシャ語	Tiếng Ba Tư
+フィンランド語	Tiếng Phần Lan
+フランス語	Tiếng Pháp
+アイルランド語	Tiếng Ailen
+ガリシア語	Tiếng Galicia
+グァラニ語	Tiếng Guarani
+グジャラート語	Tiếng Gujarati
+ハウサ語	Tiếng Hausa
+ヘブライ語	Tiếng Do Thái
+ヒンディ語	Tiếng Hindi
+クロアチア語	Tiếng Croatia
+ハイチ・クレオール語	Tiếng Creole Haiti
+ハンガリー語	Tiếng Hungary
+インドネシア語	Tiếng Indonesia
+イボ語	Tiếng Ibo
+アイスランド語	Tiếng Iceland
+イタリア語	Tiếng Ý
+日本語	Tiếng Nhật
+ジャワ語	Tiếng Java
+カザフ語	Tiếng Kazakhstan
+朝鮮語	Tiếng Triều Tiên
+クルド語	Tiếng Kurd
+キルギス語	Tiếng Kyrgyz
+ラテン語	Tiếng Latinh
+ルクセンブルク語	Tiếng Luxembourg
+リンガラ語	Tiếng Lingala
+リトアニア語	Tiếng Litva
+ラトビア語	Tiếng Latvia
+マダガスカル語	Tiếng Madagascar
+マオリ語	Tiếng Maori
+マケドニア語	Tiếng Macedonia
+マラヤーラム語	Tiếng Malayalam
+モンゴル語	Tiếng Mông Cổ
+マラーティー語	Tiếng Marathi
+マレー語	Tiếng Mã Lai
+マルタ語	Tiếng Malta
+ビルマ語	Tiếng Miến Điện
+ネパール語	Tiếng Nepal
+ノルウェー語	Tiếng Na Uy
+オランダ語	Tiếng Hà Lan
+オック語	Tiếng Occitan
+オロモ語	Tiếng Oromo
+パンジャーブ語	Tiếng Punjab
+ポーランド語	Tiếng Ba Lan
+パシュトー語	Tiếng Pashto
+ポルトガリア語	Tiếng Bồ Đào Nha
+ブラジルポルトガル語	Tiếng Bồ Đào Nha
+ヨーロピアンポルトガル語	Tiếng Bồ Đào Nha châu Âu
+ケチュア語	Tiếng Quechua
+ルーマニア語	Tiếng Rumani
+ロシア語	Tiếng Nga
+サンスクリット語	Tiếng Phạn
+スロバキア語	Tiếng Slovak
+スロベニア語	Tiếng Slovenia
+セルビア語	Tiếng Serbia
+南セソト語	Tiếng Sesotho miền Nam
+スンダ語	Tiếng Sunda
+スウェーデン語	Tiếng Thụy Điển
+スワヒリ語	Tiếng Swahili
+タミル語	Tiếng Tamil
+テルグ語	Tiếng Telugu
+タジク語	Tiếng Tajik
+タイ語	Tiếng Thái
+トルクメン語	Tiếng Turkmen
+タガログ語	Tiếng Tagalog
+トルコ語	Tiếng Thổ Nhĩ Kỳ
+タタール語	Tiếng Tatar
+ウクライナ語	Tiếng Ukraina
+簡体中国語	Tiếng Trung giản thể
+繁体中国語	Tiếng Trung phồn thể
+現在ご利用のブラウザーはサポート対象外の旧バージョンです。より安全で快適な閲覧環境のため、最新のブラウザーへのアップデートをお願いいたします	Trình duyệt bạn đang sử dụng là phiên bản cũ không còn được hỗ trợ. Để có trải nghiệm duyệt web an toàn và thoải mái hơn, vui lòng cập nhật lên phiên bản trình duyệt mới nhất.
+不正なリクエストです	Đây là yêu cầu không hợp lệ
+画像が見つかりません	Không tìm thấy hình ảnh
+ウェールズ語	Tiếng Wales
+ウルドゥー語	Tiếng Urdu
+ウズベク語	Tiếng Uzbek
+ベトナム語	Tiếng Việt
+コサ語	Tiếng Kosa
+イディッシュ語	Tiếng Yiddish
+ズールー語	Tiếng Zulu
